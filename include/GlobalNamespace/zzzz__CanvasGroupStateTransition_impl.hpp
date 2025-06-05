@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d6438;
+  constexpr static std::size_t addrs = 0x44d63c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d6440;
+  constexpr static std::size_t addrs = 0x44d63c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d65e8;
+  constexpr static std::size_t addrs = 0x44d6570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d6604;
+  constexpr static std::size_t addrs = 0x44d658c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d6620;
+  constexpr static std::size_t addrs = 0x44d65a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d663c;
+  constexpr static std::size_t addrs = 0x44d65c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d6658;
+  constexpr static std::size_t addrs = 0x44d65e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44d6674;
+  constexpr static std::size_t addrs = 0x44d65fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44d6704;
+  constexpr static std::size_t addrs = 0x44d668c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44d672c;
+  constexpr static std::size_t addrs = 0x44d66b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44d6754;
+  constexpr static std::size_t addrs = 0x44d66dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44d677c;
+  constexpr static std::size_t addrs = 0x44d6704;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44d67a4;
+  constexpr static std::size_t addrs = 0x44d672c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44d67cc;
+  constexpr static std::size_t addrs = 0x44d6754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(float_t, ::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::CanvasGroupStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x44d645c;
+  constexpr static std::size_t addrs = 0x44d63e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(&::GlobalNamespace::CanvasGroupStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44d67f4;
+  constexpr static std::size_t addrs = 0x44d677c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupStateTransition*>::get(), ".ctor",
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)(float_t)>(
     &::GlobalNamespace::CanvasGroupStateTransition::_StartTween_b__17_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d683c;
+  constexpr static std::size_t addrs = 0x44d67c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CanvasGroupStateTransition::*)()>(
     &::GlobalNamespace::CanvasGroupStateTransition::_StartTween_b__17_1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44d6858;
+  constexpr static std::size_t addrs = 0x44d67e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupStateTransition*>::get(),

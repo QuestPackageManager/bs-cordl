@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::RuntimeClassHandle::*)(::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>)>(
     &::Mono::RuntimeClassHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c55864;
+  constexpr static std::size_t addrs = 0x3c557ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::RuntimeClassHandle::*)(::System::IntPtr)>(&::Mono::RuntimeClassHandle::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c5586c;
+  constexpr static std::size_t addrs = 0x3c557f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> (::Mono::RuntimeClassHandle::*)()>(
     &::Mono::RuntimeClassHandle::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c5588c;
+  constexpr static std::size_t addrs = 0x3c55814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeClassHandle>::get(), "get_Value",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::RuntimeClassHandle::*)(::System::Object*)>(&::Mono::RuntimeClassHandle::Equals)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3c55894;
+  constexpr static std::size_t addrs = 0x3c5581c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::RuntimeClassHandle::*)()>(&::Mono::RuntimeClassHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c55998;
+  constexpr static std::size_t addrs = 0x3c55920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>)>(
     &::Mono::RuntimeClassHandle::GetTypeFromClass)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c559c0;
+  constexpr static std::size_t addrs = 0x3c55948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeTypeHandle (::Mono::RuntimeClassHandle::*)()>(&::Mono::RuntimeClassHandle::GetTypeHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c559c4;
+  constexpr static std::size_t addrs = 0x3c5594c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeClassHandle>::get(), "GetTypeHandle",

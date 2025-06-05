@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IRuntimeVariables"
   constexpr operator ::System::Runtime::CompilerServices::IRuntimeVariables*() noexcept;
 
-  /// @brief Method Create, addr 0x40eb088, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40eb010, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::IRuntimeVariables*
   Create(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__boxes(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> value);
 
-  /// @brief Method .ctor, addr 0x40f5f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f5ea8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IRuntimeVariables"

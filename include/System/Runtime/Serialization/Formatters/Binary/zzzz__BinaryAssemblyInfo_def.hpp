@@ -28,7 +28,7 @@ public:
   /// @brief Field assemblyString, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString)) ::StringW assemblyString;
 
-  /// @brief Method GetAssembly, addr 0x3d009e4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetAssembly, addr 0x3d0096c, size 0x114, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* GetAssembly();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d00990, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00918, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString);
 
-  /// @brief Method .ctor, addr 0x3d009b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00940, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
 protected:

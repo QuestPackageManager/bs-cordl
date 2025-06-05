@@ -188,10 +188,10 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelDetailView___c* New_ctor();
 
-  /// @brief Method <SetContent>b__45_1, addr 0x3b71aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SetContent>b__45_1, addr 0x3b71a80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _SetContent_b__45_1(::GlobalNamespace::BeatmapKey key);
 
-  /// @brief Method .ctor, addr 0x3b71aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b71a78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandardLevelDetailView___c* getStaticF___9();
@@ -238,7 +238,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <SetContent>b__0, addr 0x3b71ab0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetContent>b__0, addr 0x3b71a88, size 0x10, virtual false, abstract: false, final false
   inline bool _SetContent_b__0(::GlobalNamespace::BeatmapKey key);
 
   constexpr ::GlobalNamespace::BeatmapDifficultyMask const& __cordl_internal_get_allowedBeatmapDifficultyMask() const;
@@ -247,7 +247,7 @@ public:
 
   constexpr void __cordl_internal_set_allowedBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x3b70b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -289,10 +289,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b71ac0, size 0x784, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b71a98, size 0x784, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b72244, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b7221c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -396,10 +396,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b722ac, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b72284, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b72550, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b72528, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -459,10 +459,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b7255c, size 0x544, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b72534, size 0x544, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b72aa0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b72a78, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -542,10 +542,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b72b08, size 0x5bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b72ae0, size 0x5bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b730c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b7309c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -732,85 +732,85 @@ public:
 
   __declspec(property(get = get_practiceButton)) ::UnityW<::UnityEngine::UI::Button> practiceButton;
 
-  /// @brief Method Awake, addr 0x3b70bc4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b70b9c, size 0x180, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateAndSetContent, addr 0x3b716e4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndSetContent, addr 0x3b716bc, size 0x118, virtual false, abstract: false, final false
   inline void CalculateAndSetContent();
 
-  /// @brief Method CalculateAndSetContentAsync, addr 0x3b71918, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndSetContentAsync, addr 0x3b718f0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CalculateAndSetContentAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckIfBeatmapLevelDataExists, addr 0x3b70b34, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckIfBeatmapLevelDataExists, addr 0x3b70b0c, size 0x90, virtual false, abstract: false, final false
   inline void CheckIfBeatmapLevelDataExists();
 
-  /// @brief Method CheckIfBeatmapLevelDataExistsAsync, addr 0x3b714e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckIfBeatmapLevelDataExistsAsync, addr 0x3b714bc, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CheckIfBeatmapLevelDataExistsAsync(::StringW beatmapLevelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ClearBeatmapLevel, addr 0x3b66fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearBeatmapLevel, addr 0x3b66f7c, size 0x8, virtual false, abstract: false, final false
   inline void ClearBeatmapLevel();
 
-  /// @brief Method ClearContent, addr 0x3b715bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x3b71594, size 0x9c, virtual false, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method CreateBeatmapKey, addr 0x3b71468, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateBeatmapKey, addr 0x3b71440, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey CreateBeatmapKey();
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x3b713dc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x3b713b4, size 0x8c, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller,
                                                                                                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x3b71388, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x3b71360, size 0x34, virtual false, abstract: false, final false
   inline void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(::GlobalNamespace::BeatmapDifficultySegmentedControlController* controller,
                                                                                    ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method HandleBeatmapLevelsModelLevelDownloadingUpdate, addr 0x3b711c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapLevelsModelLevelDownloadingUpdate, addr 0x3b7119c, size 0x64, virtual false, abstract: false, final false
   inline void HandleBeatmapLevelsModelLevelDownloadingUpdate(::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate levelDownloadingUpdate);
 
-  /// @brief Method HandleDidPressRefreshButton, addr 0x3b71384, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPressRefreshButton, addr 0x3b7135c, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidPressRefreshButton();
 
   static inline ::GlobalNamespace::StandardLevelDetailView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b71018, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b70ff0, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b70ec0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b70e98, size 0x158, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b70d44, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b70d1c, size 0x17c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshContent, addr 0x3b66ecc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x3b66ea4, size 0xb8, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetBeatmapLevelVersions, addr 0x3b7188c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapLevelVersions, addr 0x3b71864, size 0x8c, virtual false, abstract: false, final false
   inline void SetBeatmapLevelVersions();
 
-  /// @brief Method SetContent, addr 0x3b71658, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x3b71630, size 0x8c, virtual false, abstract: false, final false
   inline void SetContent();
 
-  /// @brief Method SetContent, addr 0x3b674b0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x3b67488, size 0x314, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                          ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics,
                          ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SetContentForBeatmapData, addr 0x3b714ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetContentForBeatmapData, addr 0x3b71484, size 0x38, virtual false, abstract: false, final false
   inline void SetContentForBeatmapData();
 
-  /// @brief Method SetData, addr 0x3b717fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b717d4, size 0x90, virtual false, abstract: false, final false
   inline void SetData(int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount, float_t songLength);
 
-  /// @brief Method ShowContent, addr 0x3b71228, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x3b71200, size 0x15c, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::StandardLevelDetailViewController_ContentType contentType, float_t progress);
 
-  /// @brief Method TriggerEvent, addr 0x3b713bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TriggerEvent, addr 0x3b71394, size 0x20, virtual false, abstract: false, final false
   inline void TriggerEvent();
 
-  /// @brief Method <Awake>b__47_0, addr 0x3b71a08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__47_0, addr 0x3b719e0, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__47_0(bool _);
 
-  /// @brief Method <CalculateAndSetContentAsync>b__63_0, addr 0x3b71a28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CalculateAndSetContentAsync>b__63_0, addr 0x3b71a00, size 0x1c, virtual false, abstract: false, final false
   inline void _CalculateAndSetContentAsync_b__63_0(float_t value);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__actionButton() const;
@@ -993,37 +993,37 @@ public:
 
   constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method .ctor, addr 0x3b71a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b719d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b67c98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b67c70, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
-  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b67d48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b67d20, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method get_actionButton, addr 0x3b70af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionButton, addr 0x3b70acc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_actionButton();
 
-  /// @brief Method get_beatmapKey, addr 0x3b70b04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x3b70adc, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_practiceButton, addr 0x3b70afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceButton, addr 0x3b70ad4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_practiceButton();
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b67fe0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b67fb8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b68090, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b68068, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method set_actionButtonText, addr 0x3b66a00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_actionButtonText, addr 0x3b669d8, size 0x24, virtual false, abstract: false, final false
   inline void set_actionButtonText(::StringW value);
 
-  /// @brief Method set_beatmapKey, addr 0x3b70b18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x3b70af0, size 0x14, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_hidePracticeButton, addr 0x3b669cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hidePracticeButton, addr 0x3b669a4, size 0x34, virtual false, abstract: false, final false
   inline void set_hidePracticeButton(bool value);
 
 protected:

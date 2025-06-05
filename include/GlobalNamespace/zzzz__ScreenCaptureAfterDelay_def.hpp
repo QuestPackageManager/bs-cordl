@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_screenshotType(::GlobalNamespace::ScreenCaptureCache_ScreenshotType value);
 
-  /// @brief Method .ctor, addr 0x4086464, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40863ec, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType, float_t screenCaptureTime, int32_t pixelsWidth, int32_t pixelsHeight);
 
 protected:
@@ -174,21 +174,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40864c8, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4086450, size 0x1d0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4086698, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4086620, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40866a0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4086628, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40866d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4086660, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40864c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x408644c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -209,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> value);
 
-  /// @brief Method .ctor, addr 0x40860b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408603c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -285,15 +285,15 @@ public:
   /// @brief Field _screenCaptureCache, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__screenCaptureCache, put = __cordl_internal_set__screenCaptureCache)) ::GlobalNamespace::ScreenCaptureCache* _screenCaptureCache;
 
-  /// @brief Method HandleMainEffectControllerAfterImageEffectEvent, addr 0x40861b8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectControllerAfterImageEffectEvent, addr 0x4086140, size 0x1f8, virtual false, abstract: false, final false
   inline void HandleMainEffectControllerAfterImageEffectEvent(::UnityEngine::RenderTexture* renderTexture);
 
   static inline ::GlobalNamespace::ScreenCaptureAfterDelay* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x40860dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4086064, size 0xdc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x4086054, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4085fdc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__captureRenderTexture() const;
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set__screenCaptureCache(::GlobalNamespace::ScreenCaptureCache* value);
 
-  /// @brief Method .ctor, addr 0x408645c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40863e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

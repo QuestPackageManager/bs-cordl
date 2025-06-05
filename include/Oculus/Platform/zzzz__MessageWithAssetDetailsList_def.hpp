@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetDetailsList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*> {
 public:
   // Declarations
-  /// @brief Method GetAssetDetailsList, addr 0x3f7e1cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetailsList, addr 0x3f7e154, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f7e208, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7e190, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetDetailsList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7bf04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7be8c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

@@ -31,37 +31,37 @@ public:
 
   static inline ::UnityEngine::SpringJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490c8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490c860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_damper, addr 0x490c6b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x490c640, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_maxDistance, addr 0x490c7c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x490c750, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  /// @brief Method get_minDistance, addr 0x490c740, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance, addr 0x490c6c8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_minDistance();
 
-  /// @brief Method get_spring, addr 0x490c630, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x490c5b8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method get_tolerance, addr 0x490c850, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tolerance, addr 0x490c7d8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_tolerance();
 
-  /// @brief Method set_damper, addr 0x490c6f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x490c67c, size 0x4c, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_maxDistance, addr 0x490c804, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x490c78c, size 0x4c, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
-  /// @brief Method set_minDistance, addr 0x490c77c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance, addr 0x490c704, size 0x4c, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method set_spring, addr 0x490c66c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x490c5f4, size 0x4c, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
-  /// @brief Method set_tolerance, addr 0x490c88c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_tolerance, addr 0x490c814, size 0x4c, virtual false, abstract: false, final false
   inline void set_tolerance(float_t value);
 
 protected:

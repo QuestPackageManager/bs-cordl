@@ -41,26 +41,26 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x44bf5c0, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x44bf548, size 0x298, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method CheckExpired, addr 0x44bed68, size 0x858, virtual false, abstract: false, final false
+  /// @brief Method CheckExpired, addr 0x44becf0, size 0x858, virtual false, abstract: false, final false
   static inline void CheckExpired(int32_t count);
 
   static inline ::System::Net::DigestClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x44bf858, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x44bf7e0, size 0x180, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x44bb21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bb1a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x44bf9d8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x44bf960, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Cache, addr 0x44bec04, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x44beb8c, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_Cache();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"

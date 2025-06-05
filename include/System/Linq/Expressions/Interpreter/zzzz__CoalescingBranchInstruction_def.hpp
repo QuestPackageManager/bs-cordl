@@ -41,24 +41,24 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40c3f1c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c3ea4, size 0x34, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c3f50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c3ed8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_Cache, addr 0x40c3e48, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x40c3dd0, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x40c3f0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c3e94, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c3ecc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c3e54, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40c3f14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c3e9c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> value);

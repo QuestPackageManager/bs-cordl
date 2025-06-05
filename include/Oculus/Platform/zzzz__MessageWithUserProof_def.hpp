@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserProof : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserProof*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f811d0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f81158, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserProof* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserProof, addr 0x3f81194, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserProof, addr 0x3f8111c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserProof* GetUserProof();
 
   static inline ::Oculus::Platform::MessageWithUserProof* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7ce7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7ce04, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

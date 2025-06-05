@@ -73,41 +73,41 @@ public:
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method Bind, addr 0x4179ed4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x4179e5c, size 0xe8, virtual false, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table);
 
-  /// @brief Method DependsOn, addr 0x416fb08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x416fa90, size 0x1c, virtual false, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Evaluate, addr 0x417a01c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x4179fa4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Object* Evaluate();
 
-  /// @brief Method Evaluate, addr 0x417a028, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x4179fb0, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Object* Evaluate(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDependency, addr 0x417a418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDependency, addr 0x417a3a0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> GetDependency();
 
-  /// @brief Method HasLocalAggregate, addr 0x417a490, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x417a418, size 0x18, virtual false, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x417a4a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x417a430, size 0x18, virtual false, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method Invoke, addr 0x417a2a8, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x417a230, size 0xdc, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method IsTableAggregate, addr 0x417a420, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsTableAggregate, addr 0x417a3a8, size 0x18, virtual false, abstract: false, final false
   inline bool IsTableAggregate();
 
-  /// @brief Method IsUnknown, addr 0x417a438, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsUnknown, addr 0x417a3c0, size 0x58, virtual false, abstract: false, final false
   static inline bool IsUnknown(::System::Object* value);
 
   static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression);
 
   static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-  /// @brief Method ToBoolean, addr 0x4176ba4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x4176b2c, size 0x284, virtual false, abstract: false, final false
   static inline bool ToBoolean(::System::Object* value);
 
   constexpr bool const& __cordl_internal_get__bound() const;
@@ -158,16 +158,16 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x416d4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416d430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW expression);
 
-  /// @brief Method .ctor, addr 0x4178eac, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4178e34, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-  /// @brief Method get_Expression, addr 0x4179fbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x4179f44, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_HasValue, addr 0x417a00c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasValue, addr 0x4179f94, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
   /// @brief Convert to "::System::Data::IFilter"

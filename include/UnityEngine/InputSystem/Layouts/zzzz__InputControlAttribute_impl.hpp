@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_layout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619ba8;
+  constexpr static std::size_t addrs = 0x4619b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_layout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bb0;
+  constexpr static std::size_t addrs = 0x4619b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_variants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bb8;
+  constexpr static std::size_t addrs = 0x4619b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_variants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bc0;
+  constexpr static std::size_t addrs = 0x4619b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bc8;
+  constexpr static std::size_t addrs = 0x4619b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bd0;
+  constexpr static std::size_t addrs = 0x4619b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bd8;
+  constexpr static std::size_t addrs = 0x4619b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619be0;
+  constexpr static std::size_t addrs = 0x4619b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_usage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619be8;
+  constexpr static std::size_t addrs = 0x4619b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_usage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bf0;
+  constexpr static std::size_t addrs = 0x4619b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_usages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619bf8;
+  constexpr static std::size_t addrs = 0x4619b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_usages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c00;
+  constexpr static std::size_t addrs = 0x4619b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c08;
+  constexpr static std::size_t addrs = 0x4619b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c10;
+  constexpr static std::size_t addrs = 0x4619b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_processors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c18;
+  constexpr static std::size_t addrs = 0x4619ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_processors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c20;
+  constexpr static std::size_t addrs = 0x4619ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_alias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c28;
+  constexpr static std::size_t addrs = 0x4619bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_alias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c30;
+  constexpr static std::size_t addrs = 0x4619bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_aliases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c38;
+  constexpr static std::size_t addrs = 0x4619bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_aliases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c40;
+  constexpr static std::size_t addrs = 0x4619bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_useStateFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c48;
+  constexpr static std::size_t addrs = 0x4619bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_useStateFrom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c50;
+  constexpr static std::size_t addrs = 0x4619bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_bit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c58;
+  constexpr static std::size_t addrs = 0x4619be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(uint32_t)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_bit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c60;
+  constexpr static std::size_t addrs = 0x4619be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c68;
+  constexpr static std::size_t addrs = 0x4619bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(uint32_t)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c70;
+  constexpr static std::size_t addrs = 0x4619bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_sizeInBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c78;
+  constexpr static std::size_t addrs = 0x4619c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(uint32_t)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_sizeInBits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c80;
+  constexpr static std::size_t addrs = 0x4619c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_arraySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c88;
+  constexpr static std::size_t addrs = 0x4619c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(int32_t)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_arraySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c90;
+  constexpr static std::size_t addrs = 0x4619c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619c98;
+  constexpr static std::size_t addrs = 0x4619c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619ca0;
+  constexpr static std::size_t addrs = 0x4619c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_shortDisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619ca8;
+  constexpr static std::size_t addrs = 0x4619c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_shortDisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619cb0;
+  constexpr static std::size_t addrs = 0x4619c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_noisy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619cb8;
+  constexpr static std::size_t addrs = 0x4619c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(bool)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_noisy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4619cc0;
+  constexpr static std::size_t addrs = 0x4619c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_synthetic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619ccc;
+  constexpr static std::size_t addrs = 0x4619c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(bool)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_synthetic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4619cd4;
+  constexpr static std::size_t addrs = 0x4619c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_dontReset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619ce0;
+  constexpr static std::size_t addrs = 0x4619c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(bool)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_dontReset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4619ce8;
+  constexpr static std::size_t addrs = 0x4619c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_defaultState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619cf4;
+  constexpr static std::size_t addrs = 0x4619c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_defaultState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619cfc;
+  constexpr static std::size_t addrs = 0x4619c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_minValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619d04;
+  constexpr static std::size_t addrs = 0x4619c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_minValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619d0c;
+  constexpr static std::size_t addrs = 0x4619c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -669,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::get_maxValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619d14;
+  constexpr static std::size_t addrs = 0x4619c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::set_maxValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4619d1c;
+  constexpr static std::size_t addrs = 0x4619ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputControlAttribute::*)()>(
     &::UnityEngine::InputSystem::Layouts::InputControlAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4619d24;
+  constexpr static std::size_t addrs = 0x4619cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

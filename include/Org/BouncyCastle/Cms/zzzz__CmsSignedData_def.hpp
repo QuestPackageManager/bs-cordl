@@ -84,22 +84,22 @@ public:
   /// @brief Field signerInfoStore, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_signerInfoStore, put = __cordl_internal_set_signerInfoStore)) ::Org::BouncyCastle::Cms::SignerInformationStore* signerInfoStore;
 
-  /// @brief Method GetAttributeCertificates, addr 0x265bc14, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeCertificates, addr 0x265bbd4, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetAttributeCertificates(::StringW type);
 
-  /// @brief Method GetCertificates, addr 0x265c2d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x265c290, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates(::StringW type);
 
-  /// @brief Method GetCrls, addr 0x265c4f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x265c4b8, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls(::StringW type);
 
-  /// @brief Method GetEncoded, addr 0x265c780, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x265c740, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x265c79c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x265c75c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetSignerInfos, addr 0x265b3d0, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method GetSignerInfos, addr 0x265b390, size 0x5d4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::SignerInformationStore* GetSignerInfos();
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedData* New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* c);
@@ -120,12 +120,12 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedData* New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::System::IO::Stream* sigData);
 
-  /// @brief Method ReplaceCertificatesAndCrls, addr 0x265cf58, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ReplaceCertificatesAndCrls, addr 0x265cf18, size 0x314, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Cms::CmsSignedData* ReplaceCertificatesAndCrls(::Org::BouncyCastle::Cms::CmsSignedData* signedData, ::Org::BouncyCastle::X509::Store::IX509Store* x509Certs,
                                                                                     ::Org::BouncyCastle::X509::Store::IX509Store* x509Crls,
                                                                                     ::Org::BouncyCastle::X509::Store::IX509Store* x509AttrCerts);
 
-  /// @brief Method ReplaceSigners, addr 0x265c7b8, size 0x6d4, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSigners, addr 0x265c778, size 0x6d4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Cms::CmsSignedData* ReplaceSigners(::Org::BouncyCastle::Cms::CmsSignedData* signedData, ::Org::BouncyCastle::Cms::SignerInformationStore* signerInformationStore);
 
   constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& __cordl_internal_get_attrCertStore() const;
@@ -176,48 +176,48 @@ public:
 
   constexpr void __cordl_internal_set_signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
 
-  /// @brief Method .ctor, addr 0x265aef8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265aeb8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedData* c);
 
-  /// @brief Method .ctor, addr 0x265b240, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b200, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* hashes, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x265b2cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b28c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* hashes, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData);
 
-  /// @brief Method .ctor, addr 0x265af44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265af04, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x265b01c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265afdc, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData);
 
-  /// @brief Method .ctor, addr 0x265b38c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b34c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* sigData);
 
-  /// @brief Method .ctor, addr 0x265b130, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b0f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock);
 
-  /// @brief Method .ctor, addr 0x265b1b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b170, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData);
 
-  /// @brief Method .ctor, addr 0x265b35c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265b31c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::System::IO::Stream* sigData);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedHelper* getStaticF_Helper();
 
-  /// @brief Method get_ContentInfo, addr 0x265c778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x265c738, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_SignedContent, addr 0x265c770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignedContent, addr 0x265c730, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsProcessable* get_SignedContent();
 
-  /// @brief Method get_SignedContentType, addr 0x265c74c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_SignedContentType, addr 0x265c70c, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SignedContentType();
 
-  /// @brief Method get_SignedContentTypeOid, addr 0x265c720, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_SignedContentTypeOid, addr 0x265c6e0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_SignedContentTypeOid();
 
-  /// @brief Method get_Version, addr 0x265b3ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x265b36c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::Start)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ba6600;
+  constexpr static std::size_t addrs = 0x3ba65d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboUIController*>::get(), "Start",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba6948;
+  constexpr static std::size_t addrs = 0x3ba6920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboUIController*>::get(), "OnEnable",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba694c;
+  constexpr static std::size_t addrs = 0x3ba6924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboUIController*>::get(), "OnDisable",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::RegisterForEvents)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3ba6688;
+  constexpr static std::size_t addrs = 0x3ba6660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboUIController*>::get(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::UnregisterFromEvents)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3ba6950;
+  constexpr static std::size_t addrs = 0x3ba6928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboUIController*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)(int32_t)>(
     &::GlobalNamespace::ComboUIController::HandleComboDidChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ba6b0c;
+  constexpr static std::size_t addrs = 0x3ba6ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(
     &::GlobalNamespace::ComboUIController::HandleComboBreakingEventHappened)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3ba6b54;
+  constexpr static std::size_t addrs = 0x3ba6b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba6b90;
+  constexpr static std::size_t addrs = 0x3ba6b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboUIController*>::get(), ".ctor",

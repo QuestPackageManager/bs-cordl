@@ -29,7 +29,7 @@ public:
                       put = __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner)) ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner>
       _noteCutFloorLightStreakTileEffectSpawner;
 
-  /// @brief Method ColorWasSet, addr 0x2269d80, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2269d40, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId* New_ctor();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner(::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> value);
 
-  /// @brief Method .ctor, addr 0x2269da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269d60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_platformToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4080bf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4080b80, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
 protected:

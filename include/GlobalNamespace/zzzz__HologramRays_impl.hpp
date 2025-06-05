@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)(int32_t)>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bb58a4;
+  constexpr static std::size_t addrs = 0x3bb58ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bb5a1c;
+  constexpr static std::size_t addrs = 0x3bb5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays__FadingCoroutine_d__28*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3bb5a20;
+  constexpr static std::size_t addrs = 0x3bb5a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays__FadingCoroutine_d__28*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb5ba8;
+  constexpr static std::size_t addrs = 0x3bb5bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bb5bb0;
+  constexpr static std::size_t addrs = 0x3bb5bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb5be8;
+  constexpr static std::size_t addrs = 0x3bb5c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::HologramRays::RuntimeInit)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3bb51d8;
+  constexpr static std::size_t addrs = 0x3bb5220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "RuntimeInit",
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::Awake)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3bb5230;
+  constexpr static std::size_t addrs = 0x3bb5278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "Awake",
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bb536c;
+  constexpr static std::size_t addrs = 0x3bb53b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "OnDisable",
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::OnValidate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bb538c;
+  constexpr static std::size_t addrs = 0x3bb53d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "OnValidate",
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bb56ac;
+  constexpr static std::size_t addrs = 0x3bb56f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "Update",
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::Refresh)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3bb5440;
+  constexpr static std::size_t addrs = 0x3bb5488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "Refresh",
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::HologramRays::Animate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3bb56b0;
+  constexpr static std::size_t addrs = 0x3bb56f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HologramRays::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::HologramRays::FadingCoroutine)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3bb5758;
+  constexpr static std::size_t addrs = 0x3bb57a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::UpdateBounds)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3bb57e4;
+  constexpr static std::size_t addrs = 0x3bb582c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), "UpdateBounds",
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bb58cc;
+  constexpr static std::size_t addrs = 0x3bb5914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HologramRays*>::get(), ".ctor",
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HologramRays::*)(float_t)>(&::GlobalNamespace::HologramRays::_Awake_b__22_0)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3bb59b8;
+  constexpr static std::size_t addrs = 0x3bb5a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

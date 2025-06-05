@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ExtensionDataSetter::*)(::System::Object*, ::System::IntPtr)>(
     &::Newtonsoft::Json::Serialization::ExtensionDataSetter::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3edc534;
+  constexpr static std::size_t addrs = 0x3edc4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ExtensionDataSetter*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ExtensionDataSetter::*)(::System::Object*, ::StringW, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::ExtensionDataSetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ee5f58;
+  constexpr static std::size_t addrs = 0x3ee5ee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::Newtonsoft::Json::Serialization::ExtensionDataSetter::*)(::System::Object*, ::StringW, ::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(
         &::Newtonsoft::Json::Serialization::ExtensionDataSetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ee5f6c;
+  constexpr static std::size_t addrs = 0x3ee5ef4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ExtensionDataSetter::*)(::System::IAsyncResult*)>(
     &::Newtonsoft::Json::Serialization::ExtensionDataSetter::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ee5f98;
+  constexpr static std::size_t addrs = 0x3ee5f20;
 
   inline static ::MethodInfo const* methodInfo() {
 

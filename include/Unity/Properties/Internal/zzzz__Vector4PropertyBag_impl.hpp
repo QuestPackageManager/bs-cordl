@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector4PropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_XProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916c40;
+  constexpr static std::size_t addrs = 0x4916bc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector4PropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_XProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916b20;
+  constexpr static std::size_t addrs = 0x4916aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector4PropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_YProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916c80;
+  constexpr static std::size_t addrs = 0x4916c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector4PropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_YProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916b68;
+  constexpr static std::size_t addrs = 0x4916af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector4PropertyBag_ZProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_ZProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916cc0;
+  constexpr static std::size_t addrs = 0x4916c48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector4PropertyBag_ZProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_ZProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916bb0;
+  constexpr static std::size_t addrs = 0x4916b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector4PropertyBag_WProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_WProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916d00;
+  constexpr static std::size_t addrs = 0x4916c88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector4PropertyBag_WProperty::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag_WProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916bf8;
+  constexpr static std::size_t addrs = 0x4916b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector4PropertyBag::*)()>(
     &::Unity::Properties::Internal::Vector4PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4915cdc;
+  constexpr static std::size_t addrs = 0x4915c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector4PropertyBag*>::get(),

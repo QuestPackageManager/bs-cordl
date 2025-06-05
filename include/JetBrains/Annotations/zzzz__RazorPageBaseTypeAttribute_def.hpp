@@ -45,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af3cf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3c80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x4af3d20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3ca8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x4af3d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x4af3cd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x4af3d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x4af3ce4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x4af3d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x4af3cdc, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x4af3d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x4af3cec, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:

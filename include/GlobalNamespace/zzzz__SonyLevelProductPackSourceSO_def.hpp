@@ -71,10 +71,10 @@ public:
 
   static inline ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* New_ctor();
 
-  /// @brief Method <.ctor>b__10_0, addr 0x26ed898, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x26ed878, size 0x70, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource* __ctor_b__10_0(::GlobalNamespace::BeatmapLevelSO* level, int32_t index);
 
-  /// @brief Method .ctor, addr 0x26ed890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LevelProductPackSource_SonyLevelProductPackSourceSO___c* getStaticF___9();
@@ -161,19 +161,19 @@ public:
 
   constexpr void __cordl_internal_set__packIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26ed6e8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed6c8, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPackSO* levelPack, int32_t packIndex);
 
-  /// @brief Method get_levelPack, addr 0x26ed6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPack, addr 0x26ed6b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> get_levelPack();
 
-  /// @brief Method get_levelProductsData, addr 0x26ed6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductsData, addr 0x26ed6b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> get_levelProductsData();
 
-  /// @brief Method get_packIndex, addr 0x26ed6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packIndex, addr 0x26ed6a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_packIndex();
 
-  /// @brief Method set_levelProductsData, addr 0x26ed6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelProductsData, addr 0x26ed6c0, size 0x8, virtual false, abstract: false, final false
   inline void set_levelProductsData(::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductSource*>*> value);
 
 protected:
@@ -289,37 +289,37 @@ public:
 
   constexpr void __cordl_internal_set__ps5SieeDcCode(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ed908, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed8e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelSO* level, int32_t levelIndex);
 
-  /// @brief Method get_level, addr 0x26ed980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_level, addr 0x26ed960, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_level();
 
-  /// @brief Method get_levelIndex, addr 0x26ed938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelIndex, addr 0x26ed918, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_levelIndex();
 
-  /// @brief Method get_ps4SieaAcCode, addr 0x26ed970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieaAcCode, addr 0x26ed950, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieaAcCode();
 
-  /// @brief Method get_ps4SieeDcCode, addr 0x26ed960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps4SieeDcCode, addr 0x26ed940, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps4SieeDcCode();
 
-  /// @brief Method get_ps5SieaAcCode, addr 0x26ed950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieaAcCode, addr 0x26ed930, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieaAcCode();
 
-  /// @brief Method get_ps5SieeDcCode, addr 0x26ed940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ps5SieeDcCode, addr 0x26ed920, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ps5SieeDcCode();
 
-  /// @brief Method set_ps4SieaAcCode, addr 0x26ed978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieaAcCode, addr 0x26ed958, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps4SieeDcCode, addr 0x26ed968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps4SieeDcCode, addr 0x26ed948, size 0x8, virtual false, abstract: false, final false
   inline void set_ps4SieeDcCode(::StringW value);
 
-  /// @brief Method set_ps5SieaAcCode, addr 0x26ed958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieaAcCode, addr 0x26ed938, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieaAcCode(::StringW value);
 
-  /// @brief Method set_ps5SieeDcCode, addr 0x26ed948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ps5SieeDcCode, addr 0x26ed928, size 0x8, virtual false, abstract: false, final false
   inline void set_ps5SieeDcCode(::StringW value);
 
 protected:
@@ -417,16 +417,16 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ed9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedProductLabel, addr 0x26ed990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedProductLabel, addr 0x26ed970, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_redirectedProductLabel();
 
-  /// @brief Method get_sourceLevelPackId, addr 0x26ed988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLevelPackId, addr 0x26ed968, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sourceLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26ed998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x26ed978, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
@@ -512,16 +512,16 @@ public:
   constexpr void __cordl_internal_set__levelProductRedirectionSources(
       ::ArrayW<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*, ::Array<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>*> value);
 
-  /// @brief Method .ctor, addr 0x26ed62c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ed60c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelProductPackSource, addr 0x26ed614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelProductPackSource, addr 0x26ed5f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* get_levelProductPackSource();
 
-  /// @brief Method get_redirectionSources, addr 0x26ed624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectionSources, addr 0x26ed604, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductRedirectionSource*>* get_redirectionSources();
 
-  /// @brief Method set_levelProductPackSource, addr 0x26ed61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelProductPackSource, addr 0x26ed5fc, size 0x8, virtual false, abstract: false, final false
   inline void set_levelProductPackSource(::GlobalNamespace::SonyLevelProductPackSourceSO_LevelProductPackSource* value);
 
 protected:

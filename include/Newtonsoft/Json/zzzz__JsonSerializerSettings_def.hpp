@@ -153,10 +153,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::Newtonsoft::Json::Serialization::IReferenceResolver* value);
 
-  /// @brief Method .ctor, addr 0x3e870a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e87028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_ReferenceResolver>b__0, addr 0x3e87b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <set_ReferenceResolver>b__0, addr 0x3e87b0c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IReferenceResolver* _set_ReferenceResolver_b__0();
 
 protected:
@@ -573,210 +573,210 @@ public:
 
   constexpr void __cordl_internal_set__typeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  /// @brief Method .ctor, addr 0x3e7a318, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a2a0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e87a34, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e879bc, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonSerializerSettings* original);
 
   static inline ::System::Runtime::Serialization::StreamingContext getStaticF_DefaultContext();
 
   static inline ::System::Globalization::CultureInfo* getStaticF_DefaultCulture();
 
-  /// @brief Method get_Binder, addr 0x3e870c8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x3e87050, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationBinder* get_Binder();
 
-  /// @brief Method get_CheckAdditionalContent, addr 0x3e7b0d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_CheckAdditionalContent, addr 0x3e7b060, size 0x3c, virtual false, abstract: false, final false
   inline bool get_CheckAdditionalContent();
 
-  /// @brief Method get_ConstructorHandling, addr 0x3e85630, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ConstructorHandling, addr 0x3e855b8, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ConstructorHandling get_ConstructorHandling();
 
-  /// @brief Method get_Context, addr 0x3e8566c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x3e855f4, size 0x90, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::StreamingContext get_Context();
 
-  /// @brief Method get_ContractResolver, addr 0x3e86fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractResolver, addr 0x3e86f2c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IContractResolver* get_ContractResolver();
 
-  /// @brief Method get_Converters, addr 0x3e86d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Converters, addr 0x3e86cd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* get_Converters();
 
-  /// @brief Method get_Culture, addr 0x3e878e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x3e87868, size 0x64, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_DateFormatHandling, addr 0x3e874dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_DateFormatHandling, addr 0x3e87464, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateFormatHandling get_DateFormatHandling();
 
-  /// @brief Method get_DateFormatString, addr 0x3e872a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_DateFormatString, addr 0x3e87230, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_DateFormatString();
 
-  /// @brief Method get_DateParseHandling, addr 0x3e8763c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_DateParseHandling, addr 0x3e875c4, size 0x50, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
 
-  /// @brief Method get_DateTimeZoneHandling, addr 0x3e87580, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeZoneHandling, addr 0x3e87508, size 0x54, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
 
-  /// @brief Method get_DefaultValueHandling, addr 0x3e855f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueHandling, addr 0x3e8557c, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DefaultValueHandling get_DefaultValueHandling();
 
-  /// @brief Method get_EqualityComparer, addr 0x3e86fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EqualityComparer, addr 0x3e86f3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IEqualityComparer* get_EqualityComparer();
 
-  /// @brief Method get_Error, addr 0x3e87214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x3e8719c, size 0x8, virtual false, abstract: false, final false
   inline ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* get_Error();
 
-  /// @brief Method get_FloatFormatHandling, addr 0x3e876f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_FloatFormatHandling, addr 0x3e8767c, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::FloatFormatHandling get_FloatFormatHandling();
 
-  /// @brief Method get_FloatParseHandling, addr 0x3e87798, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_FloatParseHandling, addr 0x3e87720, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
 
-  /// @brief Method get_Formatting, addr 0x3e87438, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Formatting, addr 0x3e873c0, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Formatting get_Formatting();
 
-  /// @brief Method get_MaxDepth, addr 0x3e87308, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDepth, addr 0x3e87290, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaxDepth();
 
-  /// @brief Method get_MetadataPropertyHandling, addr 0x3e85450, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MetadataPropertyHandling, addr 0x3e853d8, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MetadataPropertyHandling get_MetadataPropertyHandling();
 
-  /// @brief Method get_MissingMemberHandling, addr 0x3e85540, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MissingMemberHandling, addr 0x3e854c8, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MissingMemberHandling get_MissingMemberHandling();
 
-  /// @brief Method get_NullValueHandling, addr 0x3e855b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_NullValueHandling, addr 0x3e85540, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::NullValueHandling get_NullValueHandling();
 
-  /// @brief Method get_ObjectCreationHandling, addr 0x3e8557c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectCreationHandling, addr 0x3e85504, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ObjectCreationHandling get_ObjectCreationHandling();
 
-  /// @brief Method get_PreserveReferencesHandling, addr 0x3e854c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_PreserveReferencesHandling, addr 0x3e85450, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::PreserveReferencesHandling get_PreserveReferencesHandling();
 
-  /// @brief Method get_ReferenceLoopHandling, addr 0x3e85504, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ReferenceLoopHandling, addr 0x3e8548c, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::ReferenceLoopHandling get_ReferenceLoopHandling();
 
-  /// @brief Method get_ReferenceResolver, addr 0x3e86fc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ReferenceResolver, addr 0x3e86f4c, size 0x20, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::IReferenceResolver* get_ReferenceResolver();
 
-  /// @brief Method get_ReferenceResolverProvider, addr 0x3e870a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReferenceResolverProvider, addr 0x3e87030, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* get_ReferenceResolverProvider();
 
-  /// @brief Method get_SerializationBinder, addr 0x3e87204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationBinder, addr 0x3e8718c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ISerializationBinder* get_SerializationBinder();
 
-  /// @brief Method get_StringEscapeHandling, addr 0x3e8783c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_StringEscapeHandling, addr 0x3e877c4, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::StringEscapeHandling get_StringEscapeHandling();
 
-  /// @brief Method get_TraceWriter, addr 0x3e870b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TraceWriter, addr 0x3e87040, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ITraceWriter* get_TraceWriter();
 
-  /// @brief Method get_TypeNameAssemblyFormat, addr 0x3e86e94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_TypeNameAssemblyFormat, addr 0x3e86e1c, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle get_TypeNameAssemblyFormat();
 
-  /// @brief Method get_TypeNameAssemblyFormatHandling, addr 0x3e8548c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_TypeNameAssemblyFormatHandling, addr 0x3e85414, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameAssemblyFormatHandling get_TypeNameAssemblyFormatHandling();
 
-  /// @brief Method get_TypeNameHandling, addr 0x3e85414, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_TypeNameHandling, addr 0x3e8539c, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::TypeNameHandling get_TypeNameHandling();
 
   static inline void setStaticF_DefaultContext(::System::Runtime::Serialization::StreamingContext value);
 
   static inline void setStaticF_DefaultCulture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_Binder, addr 0x3e87190, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Binder, addr 0x3e87118, size 0x74, virtual false, abstract: false, final false
   inline void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
 
-  /// @brief Method set_CheckAdditionalContent, addr 0x3e8794c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_CheckAdditionalContent, addr 0x3e878d4, size 0x68, virtual false, abstract: false, final false
   inline void set_CheckAdditionalContent(bool value);
 
-  /// @brief Method set_ConstructorHandling, addr 0x3e86f3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ConstructorHandling, addr 0x3e86ec4, size 0x68, virtual false, abstract: false, final false
   inline void set_ConstructorHandling(::Newtonsoft::Json::ConstructorHandling value);
 
-  /// @brief Method set_Context, addr 0x3e87224, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x3e871ac, size 0x84, virtual false, abstract: false, final false
   inline void set_Context(::System::Runtime::Serialization::StreamingContext value);
 
-  /// @brief Method set_ContractResolver, addr 0x3e86fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContractResolver, addr 0x3e86f34, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractResolver(::Newtonsoft::Json::Serialization::IContractResolver* value);
 
-  /// @brief Method set_Converters, addr 0x3e86d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Converters, addr 0x3e86cdc, size 0x8, virtual false, abstract: false, final false
   inline void set_Converters(::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* value);
 
-  /// @brief Method set_Culture, addr 0x3e87944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Culture, addr 0x3e878cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DateFormatHandling, addr 0x3e87518, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DateFormatHandling, addr 0x3e874a0, size 0x68, virtual false, abstract: false, final false
   inline void set_DateFormatHandling(::Newtonsoft::Json::DateFormatHandling value);
 
-  /// @brief Method set_DateFormatString, addr 0x3e872f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_DateFormatString, addr 0x3e87280, size 0x10, virtual false, abstract: false, final false
   inline void set_DateFormatString(::StringW value);
 
-  /// @brief Method set_DateParseHandling, addr 0x3e8768c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DateParseHandling, addr 0x3e87614, size 0x68, virtual false, abstract: false, final false
   inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method set_DateTimeZoneHandling, addr 0x3e875d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeZoneHandling, addr 0x3e8755c, size 0x68, virtual false, abstract: false, final false
   inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method set_DefaultValueHandling, addr 0x3e86ce4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueHandling, addr 0x3e86c6c, size 0x68, virtual false, abstract: false, final false
   inline void set_DefaultValueHandling(::Newtonsoft::Json::DefaultValueHandling value);
 
-  /// @brief Method set_EqualityComparer, addr 0x3e86fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EqualityComparer, addr 0x3e86f44, size 0x8, virtual false, abstract: false, final false
   inline void set_EqualityComparer(::System::Collections::IEqualityComparer* value);
 
-  /// @brief Method set_Error, addr 0x3e8721c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Error, addr 0x3e871a4, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
 
-  /// @brief Method set_FloatFormatHandling, addr 0x3e87730, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_FloatFormatHandling, addr 0x3e876b8, size 0x68, virtual false, abstract: false, final false
   inline void set_FloatFormatHandling(::Newtonsoft::Json::FloatFormatHandling value);
 
-  /// @brief Method set_FloatParseHandling, addr 0x3e877d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_FloatParseHandling, addr 0x3e8775c, size 0x68, virtual false, abstract: false, final false
   inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method set_Formatting, addr 0x3e87474, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Formatting, addr 0x3e873fc, size 0x68, virtual false, abstract: false, final false
   inline void set_Formatting(::Newtonsoft::Json::Formatting value);
 
-  /// @brief Method set_MaxDepth, addr 0x3e87374, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_MaxDepth, addr 0x3e872fc, size 0xc4, virtual false, abstract: false, final false
   inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_MetadataPropertyHandling, addr 0x3e86e2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_MetadataPropertyHandling, addr 0x3e86db4, size 0x68, virtual false, abstract: false, final false
   inline void set_MetadataPropertyHandling(::Newtonsoft::Json::MetadataPropertyHandling value);
 
-  /// @brief Method set_MissingMemberHandling, addr 0x3e86bac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_MissingMemberHandling, addr 0x3e86b34, size 0x68, virtual false, abstract: false, final false
   inline void set_MissingMemberHandling(::Newtonsoft::Json::MissingMemberHandling value);
 
-  /// @brief Method set_NullValueHandling, addr 0x3e86c7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_NullValueHandling, addr 0x3e86c04, size 0x68, virtual false, abstract: false, final false
   inline void set_NullValueHandling(::Newtonsoft::Json::NullValueHandling value);
 
-  /// @brief Method set_ObjectCreationHandling, addr 0x3e86c14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectCreationHandling, addr 0x3e86b9c, size 0x68, virtual false, abstract: false, final false
   inline void set_ObjectCreationHandling(::Newtonsoft::Json::ObjectCreationHandling value);
 
-  /// @brief Method set_PreserveReferencesHandling, addr 0x3e86d5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_PreserveReferencesHandling, addr 0x3e86ce4, size 0x68, virtual false, abstract: false, final false
   inline void set_PreserveReferencesHandling(::Newtonsoft::Json::PreserveReferencesHandling value);
 
-  /// @brief Method set_ReferenceLoopHandling, addr 0x3e86b44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ReferenceLoopHandling, addr 0x3e86acc, size 0x68, virtual false, abstract: false, final false
   inline void set_ReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
 
-  /// @brief Method set_ReferenceResolver, addr 0x3e86fe4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_ReferenceResolver, addr 0x3e86f6c, size 0xbc, virtual false, abstract: false, final false
   inline void set_ReferenceResolver(::Newtonsoft::Json::Serialization::IReferenceResolver* value);
 
-  /// @brief Method set_ReferenceResolverProvider, addr 0x3e870b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReferenceResolverProvider, addr 0x3e87038, size 0x8, virtual false, abstract: false, final false
   inline void set_ReferenceResolverProvider(::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* value);
 
-  /// @brief Method set_SerializationBinder, addr 0x3e8720c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SerializationBinder, addr 0x3e87194, size 0x8, virtual false, abstract: false, final false
   inline void set_SerializationBinder(::Newtonsoft::Json::Serialization::ISerializationBinder* value);
 
-  /// @brief Method set_StringEscapeHandling, addr 0x3e87878, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_StringEscapeHandling, addr 0x3e87800, size 0x68, virtual false, abstract: false, final false
   inline void set_StringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value);
 
-  /// @brief Method set_TraceWriter, addr 0x3e870c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TraceWriter, addr 0x3e87048, size 0x8, virtual false, abstract: false, final false
   inline void set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter* value);
 
-  /// @brief Method set_TypeNameAssemblyFormat, addr 0x3e86ed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_TypeNameAssemblyFormat, addr 0x3e86e58, size 0x4, virtual false, abstract: false, final false
   inline void set_TypeNameAssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
 
-  /// @brief Method set_TypeNameAssemblyFormatHandling, addr 0x3e86ed4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_TypeNameAssemblyFormatHandling, addr 0x3e86e5c, size 0x68, virtual false, abstract: false, final false
   inline void set_TypeNameAssemblyFormatHandling(::Newtonsoft::Json::TypeNameAssemblyFormatHandling value);
 
-  /// @brief Method set_TypeNameHandling, addr 0x3e86dc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_TypeNameHandling, addr 0x3e86d4c, size 0x68, virtual false, abstract: false, final false
   inline void set_TypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
 
 protected:

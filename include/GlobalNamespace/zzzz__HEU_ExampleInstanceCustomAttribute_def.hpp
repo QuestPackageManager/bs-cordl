@@ -23,18 +23,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstancerCallback, addr 0x3a04614, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method InstancerCallback, addr 0x3a045ec, size 0x3a8, virtual false, abstract: false, final false
   inline void InstancerCallback();
 
   /// @brief Method LogArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void LogArray(::StringW name, ::ArrayW<T, ::Array<T>*> arr, int32_t tupleSize);
 
-  /// @brief Method LogAttr, addr 0x3a049bc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LogAttr, addr 0x3a04994, size 0x154, virtual false, abstract: false, final false
   static inline void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
 
   static inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a04b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a04ae8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__Bindings_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* value);
 
-  /// @brief Method get_Bindings, addr 0x40ba9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindings, addr 0x40ba958, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
 protected:

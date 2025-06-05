@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_urls(::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> value);
 
-  /// @brief Method .ctor, addr 0x22ab900, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ab8c0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

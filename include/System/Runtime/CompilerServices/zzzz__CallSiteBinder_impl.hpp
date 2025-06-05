@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CallSiteBinder::*)()>(
     &::System::Runtime::CompilerServices::CallSiteBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40fb418;
+  constexpr static std::size_t addrs = 0x40fb3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)()>(
     &::System::Runtime::CompilerServices::CallSiteBinder::get_UpdateLabel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40fb420;
+  constexpr static std::size_t addrs = 0x40fb3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(),
@@ -157,8 +157,11 @@ System::Runtime::CompilerServices::CallSiteBinder::Bind(::ArrayW<::System::Objec
 }
 template <typename T>
 inline T System::Runtime::CompilerServices::CallSiteBinder::BindDelegate(::System::Runtime::CompilerServices::CallSite_1<T>* site, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(), 5)));
+  auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::CallSiteBinder*>::get(), 5)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, site, args);
 }
 template <typename T>

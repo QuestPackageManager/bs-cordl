@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW hint, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x22a1918, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a18d8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW hint, ::System::Exception* innerException);
 
 protected:

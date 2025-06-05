@@ -30,18 +30,18 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x3ad5828, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x3ad5800, size 0x44, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x3ad5a14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x3ad59ec, size 0x44, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad586c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad5844, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ad5614, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad55ec, size 0x214, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3ad5a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad5a30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

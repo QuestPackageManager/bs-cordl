@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::System::Action*)>(
     &::GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bff8c4;
+  constexpr static std::size_t addrs = 0x3bff90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::System::Action*)>(
     &::GlobalNamespace::LoadingControl::remove_didPressRefreshButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bff960;
+  constexpr static std::size_t addrs = 0x3bff9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::get_isLoading)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bff9fc;
+  constexpr static std::size_t addrs = 0x3bffa44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "get_isLoading",
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::Awake)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3bffa18;
+  constexpr static std::size_t addrs = 0x3bffa60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "Awake",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bffad8;
+  constexpr static std::size_t addrs = 0x3bffb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "OnDestroy",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW)>(&::GlobalNamespace::LoadingControl::ShowLoading)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3bffaf4;
+  constexpr static std::size_t addrs = 0x3bffb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW, bool)>(&::GlobalNamespace::LoadingControl::ShowText)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bffb80;
+  constexpr static std::size_t addrs = 0x3bffbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW, float_t)>(
     &::GlobalNamespace::LoadingControl::ShowDownloadingProgress)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3bffc30;
+  constexpr static std::size_t addrs = 0x3bffc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::Hide)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bffcdc;
+  constexpr static std::size_t addrs = 0x3bffd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "Hide",
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bffd00;
+  constexpr static std::size_t addrs = 0x3bffd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), ".ctor",
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::_Awake_b__14_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bffd08;
+  constexpr static std::size_t addrs = 0x3bffd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "<Awake>b__14_0",

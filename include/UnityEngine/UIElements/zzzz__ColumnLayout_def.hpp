@@ -60,7 +60,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0* New_ctor();
 
-  /// @brief Method <RecomputeToMaxWidthProportionally>b__1, addr 0x49fb9a0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <RecomputeToMaxWidthProportionally>b__1, addr 0x49fb928, size 0x34, virtual false, abstract: false, final false
   inline void _RecomputeToMaxWidthProportionally_b__1(::UnityEngine::UIElements::Column* c);
 
   constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get___4__this() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_totalColumnWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x49fa928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fa8b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0* New_ctor();
 
-  /// @brief Method <RecomputeToMinWidthProportionally>b__1, addr 0x49fb9d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <RecomputeToMinWidthProportionally>b__1, addr 0x49fb95c, size 0x34, virtual false, abstract: false, final false
   inline void _RecomputeToMinWidthProportionally_b__1(::UnityEngine::UIElements::Column* c);
 
   constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get___4__this() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_totalColumnsWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x49faa4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49fa9d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -275,109 +275,109 @@ public:
 
   __declspec(property(get = get_minColumnsWidth)) float_t minColumnsWidth;
 
-  /// @brief Method BeginDragResize, addr 0x49faf24, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method BeginDragResize, addr 0x49faeac, size 0x328, virtual false, abstract: false, final false
   inline void BeginDragResize(::UnityEngine::UIElements::Column* column, float_t pos, bool previewMode);
 
-  /// @brief Method ClearCache, addr 0x49f81bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x49f8144, size 0xcc, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method Dirty, addr 0x49f817c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Dirty, addr 0x49f8104, size 0x40, virtual false, abstract: false, final false
   inline void Dirty();
 
-  /// @brief Method DistributeExcess, addr 0x49f9dfc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DistributeExcess, addr 0x49f9d84, size 0x150, virtual false, abstract: false, final false
   inline void DistributeExcess(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* stretchableColumns,
                                ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* fixedColumns,
                                ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* relativeWidthColumns, ::ByRef<float_t> delta, bool resizeToFit, bool dragResize);
 
-  /// @brief Method DistributeOverflow, addr 0x49f9c84, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method DistributeOverflow, addr 0x49f9c0c, size 0x178, virtual false, abstract: false, final false
   inline void DistributeOverflow(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* stretchableColumns,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* fixedColumns,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* relativeWidthColumns, ::ByRef<float_t> delta, bool resizeToFit, bool dragResize);
 
-  /// @brief Method DoLayout, addr 0x49f83e4, size 0xdf8, virtual false, abstract: false, final false
+  /// @brief Method DoLayout, addr 0x49f836c, size 0xdf8, virtual false, abstract: false, final false
   inline void DoLayout(float_t width);
 
-  /// @brief Method DragResize, addr 0x49fb340, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method DragResize, addr 0x49fb2c8, size 0x27c, virtual false, abstract: false, final false
   inline void DragResize(::UnityEngine::UIElements::Column* column, float_t pos);
 
-  /// @brief Method EndDragResize, addr 0x49fb5bc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method EndDragResize, addr 0x49fb544, size 0x254, virtual false, abstract: false, final false
   inline void EndDragResize(::UnityEngine::UIElements::Column* column, bool cancelled);
 
-  /// @brief Method GetDesiredPosition, addr 0x49fb24c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetDesiredPosition, addr 0x49fb1d4, size 0xf4, virtual false, abstract: false, final false
   inline float_t GetDesiredPosition(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method GetDesiredWidth, addr 0x49f9afc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDesiredWidth, addr 0x49f9a84, size 0xa0, virtual false, abstract: false, final false
   inline float_t GetDesiredWidth(::UnityEngine::UIElements::Column* c);
 
-  /// @brief Method IsClamped, addr 0x49f83cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsClamped, addr 0x49f8354, size 0x18, virtual false, abstract: false, final false
   static inline bool IsClamped(float_t value, float_t min, float_t max);
 
   static inline ::UnityEngine::UIElements::ColumnLayout* New_ctor(::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method OnColumnAdded, addr 0x49f7de8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnColumnAdded, addr 0x49f7d70, size 0xe4, virtual false, abstract: false, final false
   inline void OnColumnAdded(::UnityEngine::UIElements::Column* column, int32_t index);
 
-  /// @brief Method OnColumnChanged, addr 0x49f8394, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnColumnChanged, addr 0x49f831c, size 0x2c, virtual false, abstract: false, final false
   inline void OnColumnChanged(::UnityEngine::UIElements::Column* column, ::UnityEngine::UIElements::ColumnDataType type);
 
-  /// @brief Method OnColumnRemoved, addr 0x49f8288, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnColumnRemoved, addr 0x49f8210, size 0xe4, virtual false, abstract: false, final false
   inline void OnColumnRemoved(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnColumnReordered, addr 0x49f836c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnColumnReordered, addr 0x49f82f4, size 0x4, virtual false, abstract: false, final false
   inline void OnColumnReordered(::UnityEngine::UIElements::Column* column, int32_t from, int32_t to);
 
-  /// @brief Method OnColumnResized, addr 0x49f83c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnColumnResized, addr 0x49f8348, size 0xc, virtual false, abstract: false, final false
   inline void OnColumnResized(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method RecomputeToDesiredWidth, addr 0x49faa54, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RecomputeToDesiredWidth, addr 0x49fa9dc, size 0x1b4, virtual false, abstract: false, final false
   inline float_t RecomputeToDesiredWidth(::UnityEngine::UIElements::Column* column, float_t distributedDelta, bool setDesiredWidthOnly, bool distributeOverflow);
 
-  /// @brief Method RecomputeToDesiredWidth, addr 0x49f9f4c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RecomputeToDesiredWidth, addr 0x49f9ed4, size 0x124, virtual false, abstract: false, final false
   inline float_t RecomputeToDesiredWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly,
                                          bool distributeOverflow);
 
-  /// @brief Method RecomputeToMaxWidth, addr 0x49fa7a4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RecomputeToMaxWidth, addr 0x49fa72c, size 0x184, virtual false, abstract: false, final false
   inline float_t RecomputeToMaxWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-  /// @brief Method RecomputeToMaxWidthProportionally, addr 0x49fa4e0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method RecomputeToMaxWidthProportionally, addr 0x49fa468, size 0x2c4, virtual false, abstract: false, final false
   inline float_t RecomputeToMaxWidthProportionally(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-  /// @brief Method RecomputeToMinWidth, addr 0x49fa350, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RecomputeToMinWidth, addr 0x49fa2d8, size 0x190, virtual false, abstract: false, final false
   inline float_t RecomputeToMinWidth(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-  /// @brief Method RecomputeToMinWidthProportionally, addr 0x49fa070, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method RecomputeToMinWidthProportionally, addr 0x49f9ff8, size 0x2e0, virtual false, abstract: false, final false
   inline float_t RecomputeToMinWidthProportionally(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* columns, float_t distributedDelta, bool setDesiredWidthOnly);
 
-  /// @brief Method RequiresLayoutUpdate, addr 0x49f8370, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RequiresLayoutUpdate, addr 0x49f82f8, size 0x24, virtual false, abstract: false, final false
   inline bool RequiresLayoutUpdate(::UnityEngine::UIElements::ColumnDataType type);
 
-  /// @brief Method ResizeColumn, addr 0x49fa930, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ResizeColumn, addr 0x49fa8b8, size 0x11c, virtual false, abstract: false, final false
   inline void ResizeColumn(::UnityEngine::UIElements::Column* column, float_t width, bool setDesiredWidthOnly);
 
-  /// @brief Method ResizeToFit, addr 0x49fac08, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ResizeToFit, addr 0x49fab90, size 0x31c, virtual false, abstract: false, final false
   inline void ResizeToFit(float_t width);
 
-  /// @brief Method StretchResizeColumns, addr 0x49f9b9c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StretchResizeColumns, addr 0x49f9b24, size 0xe8, virtual false, abstract: false, final false
   inline void StretchResizeColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* stretchableColumns,
                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* fixedColumns,
                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* relativeWidthColumns, ::ByRef<float_t> delta, bool resizeToFit, bool dragResize);
 
-  /// @brief Method UpdateCache, addr 0x49f91dc, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCache, addr 0x49f9164, size 0x54c, virtual false, abstract: false, final false
   inline void UpdateCache();
 
-  /// @brief Method UpdateMinAndMaxColumnsWidth, addr 0x49f9728, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method UpdateMinAndMaxColumnsWidth, addr 0x49f96b0, size 0x334, virtual false, abstract: false, final false
   inline void UpdateMinAndMaxColumnsWidth();
 
-  /// @brief Method <DoLayout>b__49_0, addr 0x49fb810, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <DoLayout>b__49_0, addr 0x49fb798, size 0x64, virtual false, abstract: false, final false
   inline int32_t _DoLayout_b__49_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-  /// @brief Method <DoLayout>b__49_1, addr 0x49fb874, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <DoLayout>b__49_1, addr 0x49fb7fc, size 0x64, virtual false, abstract: false, final false
   inline int32_t _DoLayout_b__49_1(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-  /// @brief Method <RecomputeToMaxWidthProportionally>b__53_0, addr 0x49fb8d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <RecomputeToMaxWidthProportionally>b__53_0, addr 0x49fb860, size 0x64, virtual false, abstract: false, final false
   inline int32_t _RecomputeToMaxWidthProportionally_b__53_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
-  /// @brief Method <RecomputeToMinWidthProportionally>b__54_0, addr 0x49fb93c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <RecomputeToMinWidthProportionally>b__54_0, addr 0x49fb8c4, size 0x64, virtual false, abstract: false, final false
   inline int32_t _RecomputeToMinWidthProportionally_b__54_0(::UnityEngine::UIElements::Column* c1, ::UnityEngine::UIElements::Column* c2);
 
   constexpr ::System::Action* const& __cordl_internal_get_layoutRequested() const;
@@ -512,34 +512,34 @@ public:
 
   constexpr void __cordl_internal_set_m_StretchableColumns(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>* value);
 
-  /// @brief Method .ctor, addr 0x49f7ac0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f7a48, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns);
 
-  /// @brief Method add_layoutRequested, addr 0x49f7988, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_layoutRequested, addr 0x49f7910, size 0x9c, virtual false, abstract: false, final false
   inline void add_layoutRequested(::System::Action* value);
 
-  /// @brief Method get_columns, addr 0x49f758c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x49f7514, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns* get_columns();
 
-  /// @brief Method get_columnsWidth, addr 0x49f7594, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method get_columnsWidth, addr 0x49f751c, size 0x320, virtual false, abstract: false, final false
   inline float_t get_columnsWidth();
 
-  /// @brief Method get_hasRelativeWidthColumns, addr 0x49f791c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_hasRelativeWidthColumns, addr 0x49f78a4, size 0x6c, virtual false, abstract: false, final false
   inline bool get_hasRelativeWidthColumns();
 
-  /// @brief Method get_hasStretchableColumns, addr 0x49f78cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_hasStretchableColumns, addr 0x49f7854, size 0x50, virtual false, abstract: false, final false
   inline bool get_hasStretchableColumns();
 
-  /// @brief Method get_layoutWidth, addr 0x49f78b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layoutWidth, addr 0x49f783c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_layoutWidth();
 
-  /// @brief Method get_maxColumnsWidth, addr 0x49f78c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxColumnsWidth, addr 0x49f784c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxColumnsWidth();
 
-  /// @brief Method get_minColumnsWidth, addr 0x49f78bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minColumnsWidth, addr 0x49f7844, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minColumnsWidth();
 
-  /// @brief Method remove_layoutRequested, addr 0x49f7a24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_layoutRequested, addr 0x49f79ac, size 0x9c, virtual false, abstract: false, final false
   inline void remove_layoutRequested(::System::Action* value);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Compare)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46f67c8;
+  constexpr static std::size_t addrs = 0x46f6750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::AreEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46f67e8;
+  constexpr static std::size_t addrs = 0x46f6770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_MinValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46f67f4;
+  constexpr static std::size_t addrs = 0x46f677c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_MaxValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46f6800;
+  constexpr static std::size_t addrs = 0x46f6788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_Zero)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f680c;
+  constexpr static std::size_t addrs = 0x46f6794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_NegativeInfinity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46f6814;
+  constexpr static std::size_t addrs = 0x46f679c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_PositiveInfinity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46f6820;
+  constexpr static std::size_t addrs = 0x46f67a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f682c;
+  constexpr static std::size_t addrs = 0x46f67b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Subtract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f6834;
+  constexpr static std::size_t addrs = 0x46f67bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float_t, float_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::Multiply)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f683c;
+  constexpr static std::size_t addrs = 0x46f67c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(
     ::ArrayW<float_t, ::Array<float_t>*>, ::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x46f6844;
+  constexpr static std::size_t addrs = 0x46f67cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::FloatMath::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x46f6944;
+  constexpr static std::size_t addrs = 0x46f68cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::FloatMath*>::get(),

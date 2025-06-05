@@ -29,13 +29,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteJumpSpeedEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x2245018, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x2244fd8, size 0xfc, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x2244f18, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x2244ed8, size 0x100, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x2245114, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22450d4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

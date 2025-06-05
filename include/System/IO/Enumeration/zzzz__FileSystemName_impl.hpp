@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::IO::Enumeration::FileSystemName::TranslateWin32Expression)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3d856dc;
+  constexpr static std::size_t addrs = 0x3d85664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchesWin32Expression)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d85d04;
+  constexpr static std::size_t addrs = 0x3d85c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchesSimpleExpression)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d85c7c;
+  constexpr static std::size_t addrs = 0x3d85c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchPattern)> {
   constexpr static std::size_t size = 0x738;
-  constexpr static std::size_t addrs = 0x3d86db4;
+  constexpr static std::size_t addrs = 0x3d86d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

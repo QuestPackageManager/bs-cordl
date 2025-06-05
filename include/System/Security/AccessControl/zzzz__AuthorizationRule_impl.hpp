@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Principal::IdentityReference*, int32_t, bool, ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags)>(
     &::System::Security::AccessControl::AuthorizationRule::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3cc2cb8;
+  constexpr static std::size_t addrs = 0x3cc2c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::AuthorizationRule::*)()>(
     &::System::Security::AccessControl::AuthorizationRule::get_AccessMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc2f10;
+  constexpr static std::size_t addrs = 0x3cc2e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AuthorizationRule*>::get(),

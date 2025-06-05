@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ButtonStripField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::ButtonStripField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498e064;
+  constexpr static std::size_t addrs = 0x498dfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ButtonStripField_UxmlFactory*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ButtonStripField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::ButtonStripField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498e0ac;
+  constexpr static std::size_t addrs = 0x498e034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ButtonStripField_UxmlTraits*>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ButtonStripField::*)()>(&::UnityEngine::UIElements::ButtonStripField::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x498de50;
+  constexpr static std::size_t addrs = 0x498ddd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ButtonStripField*>::get(), ".ctor",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ButtonStripField::*)(int32_t)>(
     &::UnityEngine::UIElements::ButtonStripField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x498df08;
+  constexpr static std::size_t addrs = 0x498de90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ButtonStripField::*)()>(
     &::UnityEngine::UIElements::ButtonStripField::RefreshButtonsState)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x498df8c;
+  constexpr static std::size_t addrs = 0x498df14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ButtonStripField*>::get(),

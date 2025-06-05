@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4aec558;
+  constexpr static std::size_t addrs = 0x4aec4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aec568;
+  constexpr static std::size_t addrs = 0x4aec4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aec57c;
+  constexpr static std::size_t addrs = 0x4aec504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4aec594;
+  constexpr static std::size_t addrs = 0x4aec51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aec5b0;
+  constexpr static std::size_t addrs = 0x4aec538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4aec5d0;
+  constexpr static std::size_t addrs = 0x4aec558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::XR::HashCodeHelper::Combine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aec5f4;
+  constexpr static std::size_t addrs = 0x4aec57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

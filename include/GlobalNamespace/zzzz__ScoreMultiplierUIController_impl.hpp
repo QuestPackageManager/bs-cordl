@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(&::GlobalNamespace::ScoreMultiplierUIController::Start)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ba93b4;
+  constexpr static std::size_t addrs = 0x3ba938c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(), "Start",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(
     &::GlobalNamespace::ScoreMultiplierUIController::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba962c;
+  constexpr static std::size_t addrs = 0x3ba9604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(
     &::GlobalNamespace::ScoreMultiplierUIController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba9630;
+  constexpr static std::size_t addrs = 0x3ba9608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(
     &::GlobalNamespace::ScoreMultiplierUIController::RegisterForEvents)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3ba9498;
+  constexpr static std::size_t addrs = 0x3ba9470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(
     &::GlobalNamespace::ScoreMultiplierUIController::UnregisterFromEvents)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3ba9634;
+  constexpr static std::size_t addrs = 0x3ba960c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(
     &::GlobalNamespace::ScoreMultiplierUIController::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ba9734;
+  constexpr static std::size_t addrs = 0x3ba970c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(), "Update",
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)(int32_t, float_t)>(
     &::GlobalNamespace::ScoreMultiplierUIController::HandleMultiplierDidChange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ba97b4;
+  constexpr static std::size_t addrs = 0x3ba978c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierUIController::*)()>(&::GlobalNamespace::ScoreMultiplierUIController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba9880;
+  constexpr static std::size_t addrs = 0x3ba9858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierUIController*>::get(), ".ctor",

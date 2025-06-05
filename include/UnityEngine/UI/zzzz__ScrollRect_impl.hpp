@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect_ScrollRectEvent::*)()>(&::UnityEngine::UI::ScrollRect_ScrollRectEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4ac6148;
+  constexpr static std::size_t addrs = 0x4ac60d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect_ScrollRectEvent*>::get(), ".ctor",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5984;
+  constexpr static std::size_t addrs = 0x4ac590c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_content",
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::UI::ScrollRect::set_content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac598c;
+  constexpr static std::size_t addrs = 0x4ac5914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_horizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5994;
+  constexpr static std::size_t addrs = 0x4ac591c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_horizontal",
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(bool)>(&::UnityEngine::UI::ScrollRect::set_horizontal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ac599c;
+  constexpr static std::size_t addrs = 0x4ac5924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_vertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59a8;
+  constexpr static std::size_t addrs = 0x4ac5930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_vertical",
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(bool)>(&::UnityEngine::UI::ScrollRect::set_vertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ac59b0;
+  constexpr static std::size_t addrs = 0x4ac5938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ScrollRect_MovementType (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_movementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59bc;
+  constexpr static std::size_t addrs = 0x4ac5944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_movementType",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::ScrollRect_MovementType)>(
     &::UnityEngine::UI::ScrollRect::set_movementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59c4;
+  constexpr static std::size_t addrs = 0x4ac594c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_elasticity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59cc;
+  constexpr static std::size_t addrs = 0x4ac5954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_elasticity",
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_elasticity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59d4;
+  constexpr static std::size_t addrs = 0x4ac595c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_inertia)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59dc;
+  constexpr static std::size_t addrs = 0x4ac5964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_inertia",
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(bool)>(&::UnityEngine::UI::ScrollRect::set_inertia)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ac59e4;
+  constexpr static std::size_t addrs = 0x4ac596c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_decelerationRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59f0;
+  constexpr static std::size_t addrs = 0x4ac5978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_decelerationRate",
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_decelerationRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac59f8;
+  constexpr static std::size_t addrs = 0x4ac5980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_scrollSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5a00;
+  constexpr static std::size_t addrs = 0x4ac5988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_scrollSensitivity",
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_scrollSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5a08;
+  constexpr static std::size_t addrs = 0x4ac5990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_viewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5a10;
+  constexpr static std::size_t addrs = 0x4ac5998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_viewport",
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::UI::ScrollRect::set_viewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5a18;
+  constexpr static std::size_t addrs = 0x4ac59a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Scrollbar> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_horizontalScrollbar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5ad4;
+  constexpr static std::size_t addrs = 0x4ac5a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_horizontalScrollbar",
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::Scrollbar*)>(
     &::UnityEngine::UI::ScrollRect::set_horizontalScrollbar)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4ac5adc;
+  constexpr static std::size_t addrs = 0x4ac5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Scrollbar> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_verticalScrollbar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5c58;
+  constexpr static std::size_t addrs = 0x4ac5be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_verticalScrollbar",
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::Scrollbar*)>(
     &::UnityEngine::UI::ScrollRect::set_verticalScrollbar)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4ac5c60;
+  constexpr static std::size_t addrs = 0x4ac5be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ScrollRect_ScrollbarVisibility (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_horizontalScrollbarVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5ddc;
+  constexpr static std::size_t addrs = 0x4ac5d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::ScrollRect_ScrollbarVisibility)>(
     &::UnityEngine::UI::ScrollRect::set_horizontalScrollbarVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5de4;
+  constexpr static std::size_t addrs = 0x4ac5d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ScrollRect_ScrollbarVisibility (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_verticalScrollbarVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5dec;
+  constexpr static std::size_t addrs = 0x4ac5d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::ScrollRect_ScrollbarVisibility)>(
     &::UnityEngine::UI::ScrollRect::set_verticalScrollbarVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5df4;
+  constexpr static std::size_t addrs = 0x4ac5d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_horizontalScrollbarSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5dfc;
+  constexpr static std::size_t addrs = 0x4ac5d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(),
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_horizontalScrollbarSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5e04;
+  constexpr static std::size_t addrs = 0x4ac5d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_verticalScrollbarSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5e94;
+  constexpr static std::size_t addrs = 0x4ac5e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(),
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_verticalScrollbarSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5e9c;
+  constexpr static std::size_t addrs = 0x4ac5e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ScrollRect_ScrollRectEvent* (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5ea4;
+  constexpr static std::size_t addrs = 0x4ac5e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_onValueChanged",
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::ScrollRect_ScrollRectEvent*)>(
     &::UnityEngine::UI::ScrollRect::set_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5eac;
+  constexpr static std::size_t addrs = 0x4ac5e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_viewRect)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4ac5eb4;
+  constexpr static std::size_t addrs = 0x4ac5e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_viewRect",
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_velocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5fa4;
+  constexpr static std::size_t addrs = 0x4ac5f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_velocity",
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::Vector2)>(&::UnityEngine::UI::ScrollRect::set_velocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5fac;
+  constexpr static std::size_t addrs = 0x4ac5f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_rectTransform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4ac5fb4;
+  constexpr static std::size_t addrs = 0x4ac5f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_rectTransform",
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4ac6048;
+  constexpr static std::size_t addrs = 0x4ac5fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), ".ctor",
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::UI::CanvasUpdate)>(&::UnityEngine::UI::ScrollRect::Rebuild)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ac6190;
+  constexpr static std::size_t addrs = 0x4ac6118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -604,7 +604,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::LayoutComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac6b20;
+  constexpr static std::size_t addrs = 0x4ac6aa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -618,7 +618,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac6b24;
+  constexpr static std::size_t addrs = 0x4ac6aac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -632,7 +632,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::UpdateCachedData)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x4ac6218;
+  constexpr static std::size_t addrs = 0x4ac61a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "UpdateCachedData",
@@ -645,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::OnEnable)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x4ac6b28;
+  constexpr static std::size_t addrs = 0x4ac6ab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -659,7 +659,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::OnDisable)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x4ac6ce4;
+  constexpr static std::size_t addrs = 0x4ac6c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -673,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::IsActive)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4ac6f14;
+  constexpr static std::size_t addrs = 0x4ac6e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -687,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::EnsureLayoutHasRebuilt)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4ac6f94;
+  constexpr static std::size_t addrs = 0x4ac6f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "EnsureLayoutHasRebuilt",
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::StopMovement)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4ac7008;
+  constexpr static std::size_t addrs = 0x4ac6f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -715,7 +715,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::ScrollRect::OnScroll)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4ac7058;
+  constexpr static std::size_t addrs = 0x4ac6fe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -730,7 +730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::ScrollRect::OnInitializePotentialDrag)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4ac71f4;
+  constexpr static std::size_t addrs = 0x4ac717c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -745,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::ScrollRect::OnBeginDrag)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4ac7254;
+  constexpr static std::size_t addrs = 0x4ac71dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -760,7 +760,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::ScrollRect::OnEndDrag)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4ac7380;
+  constexpr static std::size_t addrs = 0x4ac7308;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -775,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::ScrollRect::OnDrag)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x4ac73a0;
+  constexpr static std::size_t addrs = 0x4ac7328;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -790,7 +790,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::ScrollRect::SetContentAnchoredPosition)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4ac75d4;
+  constexpr static std::size_t addrs = 0x4ac755c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -804,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::LateUpdate)> {
   constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x4ac7688;
+  constexpr static std::size_t addrs = 0x4ac7610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -818,7 +818,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::UpdatePrevData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4ac6a48;
+  constexpr static std::size_t addrs = 0x4ac69d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "UpdatePrevData",
@@ -831,7 +831,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::Vector2)>(&::UnityEngine::UI::ScrollRect::UpdateScrollbars)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4ac68c8;
+  constexpr static std::size_t addrs = 0x4ac6850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -846,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::get_normalizedPosition)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4ac7c60;
+  constexpr static std::size_t addrs = 0x4ac7be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_normalizedPosition",
@@ -860,7 +860,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::ScrollRect::set_normalizedPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4ac7ed0;
+  constexpr static std::size_t addrs = 0x4ac7e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -874,7 +874,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_horizontalNormalizedPosition)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4ac7cd0;
+  constexpr static std::size_t addrs = 0x4ac7c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_horizontalNormalizedPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4ac7f18;
+  constexpr static std::size_t addrs = 0x4ac7ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -902,7 +902,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_verticalNormalizedPosition)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4ac7dd0;
+  constexpr static std::size_t addrs = 0x4ac7d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(),
@@ -915,7 +915,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::set_verticalNormalizedPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4ac7f2c;
+  constexpr static std::size_t addrs = 0x4ac7eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -929,7 +929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::SetHorizontalNormalizedPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4ac7f40;
+  constexpr static std::size_t addrs = 0x4ac7ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -943,7 +943,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t)>(&::UnityEngine::UI::ScrollRect::SetVerticalNormalizedPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4ac7f54;
+  constexpr static std::size_t addrs = 0x4ac7edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -957,7 +957,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)(float_t, int32_t)>(&::UnityEngine::UI::ScrollRect::SetNormalizedPosition)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x4ac7f68;
+  constexpr static std::size_t addrs = 0x4ac7ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -971,7 +971,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::UI::ScrollRect::RubberDelta)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4ac759c;
+  constexpr static std::size_t addrs = 0x4ac7524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -985,7 +985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac8200;
+  constexpr static std::size_t addrs = 0x4ac8188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -999,7 +999,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_hScrollingNeeded)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ac8204;
+  constexpr static std::size_t addrs = 0x4ac818c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_hScrollingNeeded",
@@ -1012,7 +1012,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_vScrollingNeeded)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ac828c;
+  constexpr static std::size_t addrs = 0x4ac8214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "get_vScrollingNeeded",
@@ -1025,7 +1025,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac8314;
+  constexpr static std::size_t addrs = 0x4ac829c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1039,7 +1039,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac8318;
+  constexpr static std::size_t addrs = 0x4ac82a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1053,7 +1053,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_minWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac831c;
+  constexpr static std::size_t addrs = 0x4ac82a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1067,7 +1067,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_preferredWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac8324;
+  constexpr static std::size_t addrs = 0x4ac82ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1081,7 +1081,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_flexibleWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac832c;
+  constexpr static std::size_t addrs = 0x4ac82b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1095,7 +1095,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_minHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac8334;
+  constexpr static std::size_t addrs = 0x4ac82bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1109,7 +1109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_preferredHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac833c;
+  constexpr static std::size_t addrs = 0x4ac82c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1123,7 +1123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_flexibleHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac8344;
+  constexpr static std::size_t addrs = 0x4ac82cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1137,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::get_layoutPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac834c;
+  constexpr static std::size_t addrs = 0x4ac82d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1151,7 +1151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x4ac8354;
+  constexpr static std::size_t addrs = 0x4ac82dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1165,7 +1165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::SetLayoutVertical)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4ac892c;
+  constexpr static std::size_t addrs = 0x4ac88b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1179,7 +1179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::UpdateScrollbarVisibility)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4ac7c90;
+  constexpr static std::size_t addrs = 0x4ac7c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(),
@@ -1193,7 +1193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, ::UnityEngine::UI::ScrollRect_ScrollbarVisibility, ::UnityEngine::UI::Scrollbar*)>(
     &::UnityEngine::UI::ScrollRect::UpdateOneScrollbarVisibility)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4ac8c38;
+  constexpr static std::size_t addrs = 0x4ac8bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1209,7 +1209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::UpdateScrollbarLayout)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x4ac89e4;
+  constexpr static std::size_t addrs = 0x4ac896c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "UpdateScrollbarLayout",
@@ -1222,7 +1222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::UpdateBounds)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x4ac6570;
+  constexpr static std::size_t addrs = 0x4ac64f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "UpdateBounds",
@@ -1236,7 +1236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bounds>, ::ByRef<::UnityEngine::Vector2>, ::ByRef<::UnityEngine::Vector3>,
                                                                                            ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::UI::ScrollRect::AdjustBounds)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4ac8d3c;
+  constexpr static std::size_t addrs = 0x4ac8cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1253,7 +1253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::GetBounds)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4ac8838;
+  constexpr static std::size_t addrs = 0x4ac87c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "GetBounds",
@@ -1267,7 +1267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Bounds (*)(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::ByRef<::UnityEngine::Matrix4x4>)>(&::UnityEngine::UI::ScrollRect::InternalGetBounds)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4ac8db8;
+  constexpr static std::size_t addrs = 0x4ac8d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1283,7 +1283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::ScrollRect::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::ScrollRect::CalculateOffset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4ac71c4;
+  constexpr static std::size_t addrs = 0x4ac714c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1299,7 +1299,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector2 (*)(::ByRef<::UnityEngine::Bounds>, ::ByRef<::UnityEngine::Bounds>, bool, bool, ::UnityEngine::UI::ScrollRect_MovementType, ::ByRef<::UnityEngine::Vector2>)>(
         &::UnityEngine::UI::ScrollRect::InternalCalculateOffset)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4ac8f48;
+  constexpr static std::size_t addrs = 0x4ac8ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1317,7 +1317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::SetDirty)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ac5e0c;
+  constexpr static std::size_t addrs = 0x4ac5d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "SetDirty",
@@ -1330,7 +1330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ScrollRect::*)()>(&::UnityEngine::UI::ScrollRect::SetDirtyCaching)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4ac5a20;
+  constexpr static std::size_t addrs = 0x4ac59a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ScrollRect*>::get(), "SetDirtyCaching",
@@ -1344,7 +1344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::UI::ScrollRect::*)()>(
     &::UnityEngine::UI::ScrollRect::UnityEngine_UI_ICanvasElement_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac908c;
+  constexpr static std::size_t addrs = 0x4ac9014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

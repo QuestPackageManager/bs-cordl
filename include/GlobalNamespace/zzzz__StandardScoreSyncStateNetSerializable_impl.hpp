@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* (*)()>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22eaea4;
+  constexpr static std::size_t addrs = 0x22eae64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eaee4;
+  constexpr static std::size_t addrs = 0x22eaea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)(::GlobalNamespace::SyncStateId)>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eaeec;
+  constexpr static std::size_t addrs = 0x22eaeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eaef4;
+  constexpr static std::size_t addrs = 0x22eaeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)(int64_t)>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::set_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eaefc;
+  constexpr static std::size_t addrs = 0x22eaebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::StandardScoreSyncState (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::get_state)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22eaf04;
+  constexpr static std::size_t addrs = 0x22eaec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)(::GlobalNamespace::StandardScoreSyncState)>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::set_state)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22eaf18;
+  constexpr static std::size_t addrs = 0x22eaed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22eaf2c;
+  constexpr static std::size_t addrs = 0x22eaeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22eaf78;
+  constexpr static std::size_t addrs = 0x22eaf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22eafc8;
+  constexpr static std::size_t addrs = 0x22eaf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>::get(),
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardScoreSyncStateNetSerializable::*)()>(
     &::GlobalNamespace::StandardScoreSyncStateNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eb01c;
+  constexpr static std::size_t addrs = 0x22eafdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>::get(),

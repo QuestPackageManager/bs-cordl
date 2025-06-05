@@ -71,13 +71,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshHandles___c* New_ctor();
 
-  /// @brief Method <CreateFaceMeshFromFaces>b__10_0, addr 0x4718270, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateFaceMeshFromFaces>b__10_0, addr 0x47181f8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _CreateFaceMeshFromFaces_b__10_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <CreateFaceMesh>b__9_0, addr 0x4718258, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateFaceMesh>b__9_0, addr 0x47181e0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _CreateFaceMesh_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x4718250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47181d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshHandles___c* getStaticF___9();
@@ -151,42 +151,42 @@ public:
   /// @brief Field s_Vector4List, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Vector4List, put = setStaticF_s_Vector4List)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* s_Vector4List;
 
-  /// @brief Method CreateEdgeBillboardMesh, addr 0x4716bd4, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeBillboardMesh, addr 0x4716b5c, size 0x880, virtual false, abstract: false, final false
   static inline void CreateEdgeBillboardMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeBillboardMesh, addr 0x4717454, size 0xc00, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeBillboardMesh, addr 0x47173dc, size 0xc00, virtual false, abstract: false, final false
   static inline void CreateEdgeBillboardMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target,
                                              ::System::Collections::Generic::ICollection_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method CreateEdgeMesh, addr 0x4714eb0, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeMesh, addr 0x4714e38, size 0x3f0, virtual false, abstract: false, final false
   static inline void CreateEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateEdgeMesh, addr 0x47152a0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method CreateEdgeMesh, addr 0x4715228, size 0x2c8, virtual false, abstract: false, final false
   static inline void CreateEdgeMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target,
                                     ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> edges);
 
-  /// @brief Method CreateFaceMesh, addr 0x4714bf4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateFaceMesh, addr 0x4714b7c, size 0x168, virtual false, abstract: false, final false
   static inline void CreateFaceMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateFaceMeshFromFaces, addr 0x4714d5c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateFaceMeshFromFaces, addr 0x4714ce4, size 0x154, virtual false, abstract: false, final false
   static inline void CreateFaceMeshFromFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                                              ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointBillboardMesh, addr 0x4715974, size 0x97c, virtual false, abstract: false, final false
+  /// @brief Method CreatePointBillboardMesh, addr 0x47158fc, size 0x97c, virtual false, abstract: false, final false
   static inline void CreatePointBillboardMesh(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                               ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointBillboardMesh, addr 0x47162f0, size 0x8e4, virtual false, abstract: false, final false
+  /// @brief Method CreatePointBillboardMesh, addr 0x4716278, size 0x8e4, virtual false, abstract: false, final false
   static inline void CreatePointBillboardMesh(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreatePointMesh, addr 0x47157bc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreatePointMesh, addr 0x4715744, size 0x1b8, virtual false, abstract: false, final false
   static inline void CreatePointMesh(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                      ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateVertexMesh, addr 0x4715568, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method CreateVertexMesh, addr 0x47154f0, size 0x19c, virtual false, abstract: false, final false
   static inline void CreateVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target);
 
-  /// @brief Method CreateVertexMesh, addr 0x4715704, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateVertexMesh, addr 0x471568c, size 0xb8, virtual false, abstract: false, final false
   static inline void CreateVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Mesh* target, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
   static inline ::UnityEngine::Vector2 getStaticF_k_Billboard0();

@@ -30,15 +30,15 @@ namespace System::Xml::Schema {
 class CORDL_TYPE UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x42623c8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4262350, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x42624c0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4262448, size 0xbc, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x426257c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4262504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -111,19 +111,19 @@ public:
   /// @brief Method OnHierarchyChange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);
 
-  /// @brief Method OnVersionChanged, addr 0x49a2464, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x49a23ec, size 0x2c, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method ProcessAddOrMove, addr 0x49a2578, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ProcessAddOrMove, addr 0x49a2500, size 0xbc, virtual false, abstract: false, final false
   inline void ProcessAddOrMove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessNewChange, addr 0x49a2490, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ProcessNewChange, addr 0x49a2418, size 0x84, virtual false, abstract: false, final false
   inline void ProcessNewChange(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ProcessRemove, addr 0x49a2514, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ProcessRemove, addr 0x49a249c, size 0x64, virtual false, abstract: false, final false
   inline void ProcessRemove(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Update, addr 0x49a2634, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x49a25bc, size 0x94, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CurrentChangeElement() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_m_State(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater_State value);
 
-  /// @brief Method .ctor, addr 0x49a26c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a2650, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

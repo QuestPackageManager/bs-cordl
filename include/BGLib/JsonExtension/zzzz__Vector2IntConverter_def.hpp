@@ -36,14 +36,14 @@ public:
   // Declarations
   static inline ::BGLib::JsonExtension::Vector2IntConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x22a6504, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x22a64c4, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2Int ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Vector2Int existingValue, bool hasExistingValue,
                                             ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x22a65a4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x22a6564, size 0xf0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Vector2Int value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x22a6694, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a6654, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

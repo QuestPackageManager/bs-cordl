@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::*)(
     ::System::Threading::Tasks::Task*, bool)>(&::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d19d1c;
+  constexpr static std::size_t addrs = 0x3d19ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::*)()>(
     &::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d19d38;
+  constexpr static std::size_t addrs = 0x3d19cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d188a0;
+  constexpr static std::size_t addrs = 0x3d18828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d18a60;
+  constexpr static std::size_t addrs = 0x3d189e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::*)()>(
     &::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d19d54;
+  constexpr static std::size_t addrs = 0x3d19cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d19d04;
+  constexpr static std::size_t addrs = 0x3d19c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter (
     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)()>(&::System::Runtime::CompilerServices::ConfiguredTaskAwaitable::GetAwaiter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d19d2c;
+  constexpr static std::size_t addrs = 0x3d19cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

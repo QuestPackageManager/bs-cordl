@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::Start)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39c00f0;
+  constexpr static std::size_t addrs = 0x39c00c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), "Start",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::Update)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39c0164;
+  constexpr static std::size_t addrs = 0x39c013c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), "Update",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::RefreshText)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x39c01f4;
+  constexpr static std::size_t addrs = 0x39c01cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), "RefreshText",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39c035c;
+  constexpr static std::size_t addrs = 0x39c0334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), ".ctor",

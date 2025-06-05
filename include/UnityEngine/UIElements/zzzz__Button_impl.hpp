@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Button_UxmlFactory::*)()>(&::UnityEngine::UIElements::Button_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498ddb0;
+  constexpr static std::size_t addrs = 0x498dd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Button_UxmlFactory*>::get(), ".ctor",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Button_UxmlTraits::*)()>(&::UnityEngine::UIElements::Button_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x498ddf8;
+  constexpr static std::size_t addrs = 0x498dd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Button_UxmlTraits*>::get(), ".ctor",
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Clickable* (::UnityEngine::UIElements::Button::*)()>(
     &::UnityEngine::UIElements::Button::get_clickable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498da64;
+  constexpr static std::size_t addrs = 0x498d9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Button*>::get(), "get_clickable",
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Button::*)(::UnityEngine::UIElements::Clickable*)>(
     &::UnityEngine::UIElements::Button::set_clickable)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x498da6c;
+  constexpr static std::size_t addrs = 0x498d9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Button::*)()>(&::UnityEngine::UIElements::Button::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498dad0;
+  constexpr static std::size_t addrs = 0x498da58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Button*>::get(), ".ctor",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Button::*)(::System::Action*)>(&::UnityEngine::UIElements::Button::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x498dad8;
+  constexpr static std::size_t addrs = 0x498da60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Button::*)(::UnityEngine::UIElements::NavigationSubmitEvent*)>(
     &::UnityEngine::UIElements::Button::OnNavigationSubmit)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x498dc30;
+  constexpr static std::size_t addrs = 0x498dbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Button::*)(
     float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode)>(&::UnityEngine::UIElements::Button::DoMeasure)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x498dc68;
+  constexpr static std::size_t addrs = 0x498dbf0;
 
   inline static ::MethodInfo const* methodInfo() {
 

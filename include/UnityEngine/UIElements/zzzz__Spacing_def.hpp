@@ -26,16 +26,16 @@ public:
 
   __declspec(property(get = get_vertical)) float_t vertical;
 
-  /// @brief Method .ctor, addr 0x4a6932c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a692b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t left, float_t top, float_t right, float_t bottom);
 
-  /// @brief Method get_horizontal, addr 0x4a6930c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal, addr 0x4a69294, size 0x10, virtual false, abstract: false, final false
   inline float_t get_horizontal();
 
-  /// @brief Method get_vertical, addr 0x4a6931c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_vertical, addr 0x4a692a4, size 0x10, virtual false, abstract: false, final false
   inline float_t get_vertical();
 
-  /// @brief Method op_Subtraction, addr 0x4a69338, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x4a692c0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect op_Subtraction(::UnityEngine::Rect r, ::UnityEngine::UIElements::Spacing a);
 
   // Ctor Parameters []

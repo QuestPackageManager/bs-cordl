@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cms::KekIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2308034;
+  constexpr static std::size_t addrs = 0x2307ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x23080bc;
+  constexpr static std::size_t addrs = 0x230807c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2308244;
+  constexpr static std::size_t addrs = 0x2308204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x230825c;
+  constexpr static std::size_t addrs = 0x230821c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23083c4;
+  constexpr static std::size_t addrs = 0x2308384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekIdentifier* (::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::get_KekID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23083cc;
+  constexpr static std::size_t addrs = 0x230838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::get_KeyEncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23083d4;
+  constexpr static std::size_t addrs = 0x2308394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::get_EncryptedKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23083dc;
+  constexpr static std::size_t addrs = 0x230839c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x23083e4;
+  constexpr static std::size_t addrs = 0x23083a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -155,10 +155,10 @@ public:
 
   static inline ::GlobalNamespace::AppInit___c* New_ctor();
 
-  /// @brief Method <InitializeAsync>b__13_1, addr 0x2294b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__13_1, addr 0x2294b30, size 0x8, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__13_1();
 
-  /// @brief Method .ctor, addr 0x2294b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2294b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::AppInit___c* getStaticF___9();
@@ -202,10 +202,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2294b78, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2294b38, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2294da0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2294d60, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -263,10 +263,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2294dac, size 0x58c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2294d6c, size 0x58c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2295440, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2295400, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -330,10 +330,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22954a8, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2295468, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22958c8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2295888, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -421,36 +421,36 @@ public:
   /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method Awake, addr 0x2294500, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22944c0, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetAppStartType, addr 0x22949b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetAppStartType, addr 0x2294978, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AppInit_AppStartType GetAppStartType();
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0x2294918, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x22948d8, size 0xa0, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes(::System::Collections::Generic::List_1<::StringW>* scenes);
 
-  /// @brief Method InitializeAsync, addr 0x22946d8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x2294698, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::GlobalNamespace::AppInit* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x229479c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x229475c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PreloadAsync, addr 0x2294650, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x2294610, size 0x88, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
   /// @brief Method RepeatableSetupAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method StartGameAsync, addr 0x2294590, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartGameAsync, addr 0x2294550, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* StartGameAsync();
 
   /// @brief Method TransitionToNextScene, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method <InitializeAsync>b__13_0, addr 0x2294ad8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__13_0, addr 0x2294a98, size 0x24, virtual false, abstract: false, final false
   inline bool _InitializeAsync_b__13_0();
 
   constexpr ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> const& __cordl_internal_get__asyncSceneContext() const;
@@ -483,13 +483,13 @@ public:
 
   constexpr void __cordl_internal_set_sceneSetupData(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x2294a4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2294a0c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameScenesManager, addr 0x22944d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameScenesManager, addr 0x2294498, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameScenesManager> get_gameScenesManager();
 
-  /// @brief Method get_isTestContext, addr 0x22944e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isTestContext, addr 0x22944a0, size 0x20, virtual false, abstract: false, final false
   inline bool get_isTestContext();
 
 protected:

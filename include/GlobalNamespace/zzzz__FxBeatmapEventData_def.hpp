@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::FxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 
-  /// @brief Method SubtypeIdentifier, addr 0x2243130, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0x22430f0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId);
 
   constexpr int32_t const& __cordl_internal_get_elementId() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  /// @brief Method .ctor, addr 0x22430cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224308c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 
 protected:

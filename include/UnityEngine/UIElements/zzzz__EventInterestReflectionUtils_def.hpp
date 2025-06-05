@@ -84,13 +84,13 @@ public:
   __declspec(property(get = getStaticF_s_EventCategories,
                       put = setStaticF_s_EventCategories)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* s_EventCategories;
 
-  /// @brief Method ComputeDefaultEventInterests, addr 0x499e7a8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ComputeDefaultEventInterests, addr 0x499e730, size 0x204, virtual false, abstract: false, final false
   static inline int32_t ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName);
 
-  /// @brief Method GetDefaultEventInterests, addr 0x499e57c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEventInterests, addr 0x499e504, size 0x22c, virtual false, abstract: false, final false
   static inline void GetDefaultEventInterests(::System::Type* elementType, ::ByRef<int32_t> defaultActionCategories, ::ByRef<int32_t> defaultActionAtTargetCategories);
 
-  /// @brief Method GetEventCategory, addr 0x499e9ac, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetEventCategory, addr 0x499e934, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCategory GetEventCategory(::System::Type* eventType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* getStaticF_s_DefaultEventInterests();

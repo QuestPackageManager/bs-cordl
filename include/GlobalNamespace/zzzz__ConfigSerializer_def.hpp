@@ -22,15 +22,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConfigSerializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadConfig, addr 0x39c1450, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method LoadConfig, addr 0x39c1428, size 0x560, virtual false, abstract: false, final false
   static inline bool LoadConfig(::System::Object* config, ::StringW filePath);
 
   static inline ::GlobalNamespace::ConfigSerializer* New_ctor();
 
-  /// @brief Method SaveConfig, addr 0x39c101c, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method SaveConfig, addr 0x39c0ff4, size 0x434, virtual false, abstract: false, final false
   static inline void SaveConfig(::System::Object* config, ::StringW filePath);
 
-  /// @brief Method .ctor, addr 0x39c19b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c1988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

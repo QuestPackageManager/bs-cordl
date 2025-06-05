@@ -39,25 +39,25 @@ public:
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x3d19d64, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3d19cec, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
 
-  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x3d19f28, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x3d19eb0, size 0xa4, virtual false, abstract: false, final false
   inline void NotifySynchronizationContextOfCompletion();
 
-  /// @brief Method SetException, addr 0x3d19fcc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x3d19f54, size 0x130, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x3d19e68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x3d19df0, size 0x5c, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x3d19da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x3d19d2c, size 0x8, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task, addr 0x3d19ec4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x3d19e4c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   // Ctor Parameters []

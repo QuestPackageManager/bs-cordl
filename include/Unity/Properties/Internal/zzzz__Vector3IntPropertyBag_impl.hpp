@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916f28;
+  constexpr static std::size_t addrs = 0x4916eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag_XProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916e50;
+  constexpr static std::size_t addrs = 0x4916dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916f68;
+  constexpr static std::size_t addrs = 0x4916ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag_YProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916e98;
+  constexpr static std::size_t addrs = 0x4916e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916fa8;
+  constexpr static std::size_t addrs = 0x4916f30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag_ZProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916ee0;
+  constexpr static std::size_t addrs = 0x4916e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::Vector3IntPropertyBag::*)()>(
     &::Unity::Properties::Internal::Vector3IntPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4915f2c;
+  constexpr static std::size_t addrs = 0x4915eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::Vector3IntPropertyBag*>::get(),

@@ -51,19 +51,19 @@ public:
   /// @brief Field Str, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Str, put = __cordl_internal_set_Str)) ::StringW Str;
 
-  /// @brief Method AddChild, addr 0x4422b9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddChild, addr 0x4422b24, size 0x108, virtual false, abstract: false, final false
   inline void AddChild(::System::Text::RegularExpressions::RegexNode* newChild);
 
-  /// @brief Method Child, addr 0x441e890, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Child, addr 0x441e818, size 0x58, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* Child(int32_t i);
 
-  /// @brief Method ChildCount, addr 0x441e844, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ChildCount, addr 0x441e7cc, size 0x4c, virtual false, abstract: false, final false
   inline int32_t ChildCount();
 
-  /// @brief Method MakeQuantifier, addr 0x4422a84, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MakeQuantifier, addr 0x4422a0c, size 0x118, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int32_t min, int32_t max);
 
-  /// @brief Method MakeRep, addr 0x4421f10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MakeRep, addr 0x4421e98, size 0x18, virtual false, abstract: false, final false
   inline void MakeRep(int32_t type, int32_t min, int32_t max);
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
@@ -76,34 +76,34 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str);
 
-  /// @brief Method Reduce, addr 0x4421f28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reduce, addr 0x4421eb0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* Reduce();
 
-  /// @brief Method ReduceAlternation, addr 0x4421f90, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method ReduceAlternation, addr 0x4421f18, size 0x3d4, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceAlternation();
 
-  /// @brief Method ReduceConcatenation, addr 0x4422364, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ReduceConcatenation, addr 0x44222ec, size 0x39c, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
 
-  /// @brief Method ReduceGroup, addr 0x4422888, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReduceGroup, addr 0x4422810, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceGroup();
 
-  /// @brief Method ReduceRep, addr 0x4422700, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReduceRep, addr 0x4422688, size 0x188, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceRep();
 
-  /// @brief Method ReduceSet, addr 0x44228b4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ReduceSet, addr 0x442283c, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ReduceSet();
 
-  /// @brief Method ReverseLeft, addr 0x4421e94, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReverseLeft, addr 0x4421e1c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* ReverseLeft();
 
-  /// @brief Method StripEnation, addr 0x44229d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StripEnation, addr 0x4422958, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexNode* StripEnation(int32_t emptyType);
 
-  /// @brief Method Type, addr 0x4422ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Type, addr 0x4422c2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t Type();
 
-  /// @brief Method UseOptionR, addr 0x4421e88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UseOptionR, addr 0x4421e10, size 0xc, virtual false, abstract: false, final false
   inline bool UseOptionR();
 
   constexpr char16_t const& __cordl_internal_get_Ch() const;
@@ -154,19 +154,19 @@ public:
 
   constexpr void __cordl_internal_set_Str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4421d54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4421cdc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method .ctor, addr 0x4421d84, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4421d0c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch);
 
-  /// @brief Method .ctor, addr 0x4421e04, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4421d8c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m);
 
-  /// @brief Method .ctor, addr 0x4421e44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4421dcc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n);
 
-  /// @brief Method .ctor, addr 0x4421dc4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4421d4c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str);
 
 protected:

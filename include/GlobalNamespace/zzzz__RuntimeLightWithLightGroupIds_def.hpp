@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e4bf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4bcc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t intensity);
 
-  /// @brief Method get_intensity, addr 0x39e4d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e4d70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x39e4da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x39e4d78, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -118,21 +118,21 @@ public:
   /// @brief Field _multiplyColorByAlpha, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__multiplyColorByAlpha, put = __cordl_internal_set__multiplyColorByAlpha)) bool _multiplyColorByAlpha;
 
-  /// @brief Method Awake, addr 0x39e4a30, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e4a08, size 0x1c4, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method GetLightWithIds, addr 0x39e4d78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x39e4d50, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::RuntimeLightWithLightGroupIds* New_ctor();
 
-  /// @brief Method ProcessColor, addr 0x39e4d58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x39e4d30, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method ProcessNewColorData, addr 0x39e4c1c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x39e4bf4, size 0x13c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr float_t const& __cordl_internal_get__intensity() const;
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplyColorByAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x39e4d80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4d58, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

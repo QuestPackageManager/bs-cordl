@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::NoAlphaColorSO::*)()>(&::GlobalNamespace::NoAlphaColorSO::get_color)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26a2608;
+  constexpr static std::size_t addrs = 0x26a25c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoAlphaColorSO::*)()>(&::GlobalNamespace::NoAlphaColorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a2618;
+  constexpr static std::size_t addrs = 0x26a25d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoAlphaColorSO*>::get(), ".ctor",

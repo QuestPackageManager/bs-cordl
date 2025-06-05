@@ -45,19 +45,19 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* getStaticF__userStore();
 
-  /// @brief Method get_CurrentUser, addr 0x3c41724, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUser, addr 0x3c416ac, size 0x98, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_CurrentUser();
 
-  /// @brief Method get_CurrentUserPath, addr 0x3c4154c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentUserPath, addr 0x3c414d4, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW get_CurrentUserPath();
 
-  /// @brief Method get_LocalMachine, addr 0x3c417ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachine, addr 0x3c41774, size 0x98, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Stores* get_LocalMachine();
 
-  /// @brief Method get_LocalMachinePath, addr 0x3c41644, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_LocalMachinePath, addr 0x3c415cc, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW get_LocalMachinePath();
 
-  /// @brief Method get_TrustedRootCertificates, addr 0x3c3f730, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRootCertificates, addr 0x3c3f6b8, size 0xcc, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509CertificateCollection* get_TrustedRootCertificates();
 
   static inline void setStaticF__localMachinePath(::StringW value);

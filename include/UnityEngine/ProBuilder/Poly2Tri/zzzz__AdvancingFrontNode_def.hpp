@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_Value(double_t value);
 
-  /// @brief Method .ctor, addr 0x46f9e10, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f9d98, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext, addr 0x46f9e48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasNext, addr 0x46f9dd0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev, addr 0x46f9e58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPrev, addr 0x46f9de0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPrev();
 
 protected:

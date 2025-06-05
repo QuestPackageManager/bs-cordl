@@ -192,8 +192,10 @@ inline void UnityEngine::Timeline::IPropertyCollector::AddFromClips(::System::Co
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, clips);
 }
 template <typename T> inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::StringW name) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::IPropertyCollector*>::get(), 4)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::IPropertyCollector*>::get(), 4)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
 inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::StringW name) {
@@ -212,8 +214,10 @@ inline void UnityEngine::Timeline::IPropertyCollector::AddFromClips(::UnityEngin
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, clips);
 }
 template <typename T> inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::UnityEngine::GameObject* obj, ::StringW name) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::IPropertyCollector*>::get(), 8)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::IPropertyCollector*>::get(), 8)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, name);
 }
 inline void UnityEngine::Timeline::IPropertyCollector::AddFromName(::UnityEngine::GameObject* obj, ::StringW name) {

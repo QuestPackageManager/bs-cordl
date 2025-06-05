@@ -41,7 +41,7 @@ public:
 
   __declspec(property(get = get_touchpad, put = set_touchpad)) ::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
-  /// @brief Method FinishSetup, addr 0x483893c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x48388c4, size 0xe8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusRemote* New_ctor();
@@ -64,25 +64,25 @@ public:
 
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method .ctor, addr 0x4838a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48389ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_back, addr 0x483890c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_back, addr 0x4838894, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
-  /// @brief Method get_start, addr 0x483891c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x48388a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_start();
 
-  /// @brief Method get_touchpad, addr 0x483892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x48388b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_back, addr 0x4838914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_back, addr 0x483889c, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_start, addr 0x4838924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x48388ac, size 0x8, virtual false, abstract: false, final false
   inline void set_start(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_touchpad, addr 0x4838934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x48388bc, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
 protected:

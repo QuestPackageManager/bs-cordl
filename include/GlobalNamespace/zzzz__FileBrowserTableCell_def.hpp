@@ -39,12 +39,12 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x3c03a4c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3c03a94, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::FileBrowserTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x3c039b4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3c039fc, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c03a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c03ad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3c03990, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3c039d8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x3c0396c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3c039b4, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

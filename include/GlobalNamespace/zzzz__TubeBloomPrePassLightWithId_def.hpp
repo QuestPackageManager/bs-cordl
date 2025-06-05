@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x39e5130, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e5108, size 0x58, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightWithId* New_ctor();
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x39e5188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e5110, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e50e8, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)()>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3d54850;
+  constexpr static std::size_t addrs = 0x3d547d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::System::Collections::Generic::IEnumerable_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d54974;
+  constexpr static std::size_t addrs = 0x3d548fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d54a88;
+  constexpr static std::size_t addrs = 0x3d54a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::AggregateException::*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3d549cc;
+  constexpr static std::size_t addrs = 0x3d54954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::StringW, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d54ae0;
+  constexpr static std::size_t addrs = 0x3d54a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::StringW, ::System::Collections::Generic::IList_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x3d54ae4;
+  constexpr static std::size_t addrs = 0x3d54a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d54ed8;
+  constexpr static std::size_t addrs = 0x3d54e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3d54f30;
+  constexpr static std::size_t addrs = 0x3d54eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::StringW, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x3d54fec;
+  constexpr static std::size_t addrs = 0x3d54f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3d55438;
+  constexpr static std::size_t addrs = 0x3d553c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::AggregateException::GetObjectData)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3d55610;
+  constexpr static std::size_t addrs = 0x3d55598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* (::System::AggregateException::*)()>(
     &::System::AggregateException::get_InnerExceptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5575c;
+  constexpr static std::size_t addrs = 0x3d556e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), "get_InnerExceptions",
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AggregateException* (::System::AggregateException::*)()>(&::System::AggregateException::Flatten)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x3d55764;
+  constexpr static std::size_t addrs = 0x3d556ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), "Flatten",
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::AggregateException::*)()>(&::System::AggregateException::get_Message)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3d55b18;
+  constexpr static std::size_t addrs = 0x3d55aa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::AggregateException::*)()>(&::System::AggregateException::ToString)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3d55ca4;
+  constexpr static std::size_t addrs = 0x3d55c2c;
 
   inline static ::MethodInfo const* methodInfo() {
 

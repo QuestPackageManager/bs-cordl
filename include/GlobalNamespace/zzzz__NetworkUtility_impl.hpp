@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::NetworkUtility::Init)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22dd4e8;
+  constexpr static std::size_t addrs = 0x22dd4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkUtility*>::get(), "Init",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::AuthenticationToken_Platform)>(
     &::GlobalNamespace::NetworkUtility::GetHashedUserId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22dd5c8;
+  constexpr static std::size_t addrs = 0x22dd588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::NetworkUtility::EncryptName)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x22dd89c;
+  constexpr static std::size_t addrs = 0x22dd85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::NetworkUtility::DecryptName)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x22ddcb8;
+  constexpr static std::size_t addrs = 0x22ddc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::NetworkUtility::GenerateId)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22de0d8;
+  constexpr static std::size_t addrs = 0x22de098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkUtility*>::get(), "GenerateId",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::NetworkUtility::GetHashBase64)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x22dd694;
+  constexpr static std::size_t addrs = 0x22dd654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

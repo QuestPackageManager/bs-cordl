@@ -31,13 +31,13 @@ public:
 
   static inline ::System::IndexOutOfRangeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3de7b80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de7b08, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3de7c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de7b88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3de7bdc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de7b64, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

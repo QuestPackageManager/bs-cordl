@@ -27,12 +27,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x42acbc8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x42acb50, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
   static inline ::System::Xml::Schema::ValidationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x42acac4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42aca4c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

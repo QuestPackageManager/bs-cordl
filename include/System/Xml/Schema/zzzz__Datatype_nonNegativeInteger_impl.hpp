@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43af478;
+  constexpr static std::size_t addrs = 0x43af400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43af4d0;
+  constexpr static std::size_t addrs = 0x43af458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::get_HasValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43af4d8;
+  constexpr static std::size_t addrs = 0x43af460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_nonNegativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_nonNegativeInteger::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43a5c14;
+  constexpr static std::size_t addrs = 0x43a5b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_nonNegativeInteger*>::get(),

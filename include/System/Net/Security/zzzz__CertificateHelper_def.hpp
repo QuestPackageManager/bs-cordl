@@ -33,24 +33,24 @@ namespace System::Net::Security {
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEligibleClientCertificate, addr 0x4405d54, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x4405cdc, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x4405b04, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x4405a8c, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x4405a70, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x44059f8, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-  /// @brief Method IsValidClientCertificate, addr 0x4405b98, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsValidClientCertificate, addr 0x4405b20, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
 
-  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x4405c90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x4405c18, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* eku);
 
-  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x4405d34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x4405cbc, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* ku);
 
 protected:

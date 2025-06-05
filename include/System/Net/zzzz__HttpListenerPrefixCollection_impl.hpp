@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)(::System::Net::HttpListener*)>(
     &::System::Net::HttpListenerPrefixCollection::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44c7bb0;
+  constexpr static std::size_t addrs = 0x44c7b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::HttpListenerPrefixCollection::*)()>(
     &::System::Net::HttpListenerPrefixCollection::get_Count)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44c9094;
+  constexpr static std::size_t addrs = 0x44c901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerPrefixCollection*>::get(), "get_Count",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerPrefixCollection::*)()>(
     &::System::Net::HttpListenerPrefixCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44c9518;
+  constexpr static std::size_t addrs = 0x44c94a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerPrefixCollection*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)(::StringW)>(
     &::System::Net::HttpListenerPrefixCollection::Add)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x44c9520;
+  constexpr static std::size_t addrs = 0x44c94a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)()>(&::System::Net::HttpListenerPrefixCollection::Clear)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44c964c;
+  constexpr static std::size_t addrs = 0x44c95d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerPrefixCollection*>::get(), "Clear",
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerPrefixCollection::*)(::StringW)>(
     &::System::Net::HttpListenerPrefixCollection::Contains)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44c9704;
+  constexpr static std::size_t addrs = 0x44c968c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::System::Net::HttpListenerPrefixCollection::CopyTo)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44c9768;
+  constexpr static std::size_t addrs = 0x44c96f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Net::HttpListenerPrefixCollection::*)()>(
     &::System::Net::HttpListenerPrefixCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44c3cf0;
+  constexpr static std::size_t addrs = 0x44c3c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListenerPrefixCollection*>::get(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::HttpListenerPrefixCollection::*)()>(
     &::System::Net::HttpListenerPrefixCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44c97dc;
+  constexpr static std::size_t addrs = 0x44c9764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListenerPrefixCollection::*)(::StringW)>(
     &::System::Net::HttpListenerPrefixCollection::Remove)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44c986c;
+  constexpr static std::size_t addrs = 0x44c97f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

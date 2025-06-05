@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ScriptableObject::*)()>(&::UnityEngine::ScriptableObject::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48aecb0;
+  constexpr static std::size_t addrs = 0x48aec38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)(::System::Type*)>(&::UnityEngine::ScriptableObject::CreateInstance)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48aed6c;
+  constexpr static std::size_t addrs = 0x48aecf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::ScriptableObject::CreateScriptableObject)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48aed30;
+  constexpr static std::size_t addrs = 0x48aecb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)(::System::Type*, bool)>(
     &::UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48aedac;
+  constexpr static std::size_t addrs = 0x48aed34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

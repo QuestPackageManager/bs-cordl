@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)(::GlobalNamespace::AudioClipQueue*)>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::Init)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ad3d04;
+  constexpr static std::size_t addrs = 0x3ad3cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::Deinit)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3ad3e50;
+  constexpr static std::size_t addrs = 0x3ad3e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::HandleGameEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ad3ee8;
+  constexpr static std::size_t addrs = 0x3ad3ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController_EventAudioBinding::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad3fa8;
+  constexpr static std::size_t addrs = 0x3ad3f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController::Awake)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ad3ca0;
+  constexpr static std::size_t addrs = 0x3ad3c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayAudioOnGameEventController*>::get(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController::OnDestroy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ad3df4;
+  constexpr static std::size_t addrs = 0x3ad3dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayAudioOnGameEventController*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayAudioOnGameEventController::*)()>(
     &::GlobalNamespace::PlayAudioOnGameEventController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad3ee0;
+  constexpr static std::size_t addrs = 0x3ad3eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayAudioOnGameEventController*>::get(),

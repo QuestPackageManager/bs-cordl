@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)(int32_t)>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22b3758;
+  constexpr static std::size_t addrs = 0x22b3718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b3984;
+  constexpr static std::size_t addrs = 0x22b3944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::MoveNext)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22b3988;
+  constexpr static std::size_t addrs = 0x22b3948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b3a38;
+  constexpr static std::size_t addrs = 0x22b39f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22b3a40;
+  constexpr static std::size_t addrs = 0x22b3a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterDelayCoroutine_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b3a78;
+  constexpr static std::size_t addrs = 0x22b3a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)(int32_t)>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22b37e0;
+  constexpr static std::size_t addrs = 0x22b37a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b3a80;
+  constexpr static std::size_t addrs = 0x22b3a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::MoveNext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22b3a84;
+  constexpr static std::size_t addrs = 0x22b3a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b3b24;
+  constexpr static std::size_t addrs = 0x22b3ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22b3b2c;
+  constexpr static std::size_t addrs = 0x22b3aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::*)()>(
     &::GlobalNamespace::CoroutineHelpers__ExecuteAfterFrameEnd_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b3b64;
+  constexpr static std::size_t addrs = 0x22b3b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::System::Action*, float_t)>(
     &::GlobalNamespace::CoroutineHelpers::ExecuteAfterDelayCoroutine)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22b36e8;
+  constexpr static std::size_t addrs = 0x22b36a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (*)(::System::Action*)>(
     &::GlobalNamespace::CoroutineHelpers::ExecuteAfterFrameEnd)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22b3780;
+  constexpr static std::size_t addrs = 0x22b3740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::ICoroutineStarter*, ::ByRef<::UnityEngine::Coroutine*>, ::System::Collections::IEnumerator*)>(&::GlobalNamespace::CoroutineHelpers::StartSingleCoroutine)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22b3808;
+  constexpr static std::size_t addrs = 0x22b37c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::ICoroutineStarter*, ::ByRef<::UnityEngine::Coroutine*>)>(
     &::GlobalNamespace::CoroutineHelpers::StopSingleCoroutine)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22b38cc;
+  constexpr static std::size_t addrs = 0x22b388c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

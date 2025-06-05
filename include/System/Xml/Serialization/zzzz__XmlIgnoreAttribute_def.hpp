@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4372e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4372d98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)()>(&::GlobalNamespace::MissedNoteEffectSpawner::Start)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b8984c;
+  constexpr static std::size_t addrs = 0x3b89824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), "Start",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)()>(&::GlobalNamespace::MissedNoteEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b8991c;
+  constexpr static std::size_t addrs = 0x3b898f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), "OnDestroy",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::MissedNoteEffectSpawner::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b899ac;
+  constexpr static std::size_t addrs = 0x3b89984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)()>(&::GlobalNamespace::MissedNoteEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b89b38;
+  constexpr static std::size_t addrs = 0x3b89b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), ".ctor",

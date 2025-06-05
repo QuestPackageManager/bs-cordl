@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::Start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44dc0c8;
+  constexpr static std::size_t addrs = 0x44dc050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "Start",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::LateUpdate)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x44dc12c;
+  constexpr static std::size_t addrs = 0x44dc0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "LateUpdate",
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::AddTween)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44dc51c;
+  constexpr static std::size_t addrs = 0x44dc4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::RestartTween)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44dc6d4;
+  constexpr static std::size_t addrs = 0x44dc65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::ResumeTween)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44dc798;
+  constexpr static std::size_t addrs = 0x44dc720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)(::System::Object*)>(&::Tweening::TweeningManager::KillAllTweens)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x44dc7c0;
+  constexpr static std::size_t addrs = 0x44dc748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*)>(
     &::Tweening::TweeningManager::RemoveTweenFromOwnerDictionary)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x44dc34c;
+  constexpr static std::size_t addrs = 0x44dc2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::AddTweenToDataStructures)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x44dc56c;
+  constexpr static std::size_t addrs = 0x44dc4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(
     &::Tweening::TweeningManager::AddTweenToOwnerDictionary)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44dc93c;
+  constexpr static std::size_t addrs = 0x44dc8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x44dbe1c;
+  constexpr static std::size_t addrs = 0x44dbda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), ".ctor",

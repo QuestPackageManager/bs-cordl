@@ -60,22 +60,22 @@ public:
 
   constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x42bb4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bb484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Schema, addr 0x42bb668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x42bb5f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaInfo, addr 0x42bb658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x42bb5e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_SchemaInfo();
 
-  /// @brief Method set_NamespaceURI, addr 0x42bb650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamespaceURI, addr 0x42bb5d8, size 0x8, virtual false, abstract: false, final false
   inline void set_NamespaceURI(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x42bb670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x42bb5f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaInfo, addr 0x42bb660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaInfo, addr 0x42bb5e8, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:

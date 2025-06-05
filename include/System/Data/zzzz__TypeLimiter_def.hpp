@@ -72,10 +72,10 @@ public:
 
   static inline ::System::Data::Scope_TypeLimiter___c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x4154a24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x41549ac, size 0x5c, virtual false, abstract: false, final false
   inline bool __ctor_b__3_0(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x4154a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41549a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::Scope_TypeLimiter___c* getStaticF___9();
@@ -130,13 +130,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4153e08, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4153d90, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method IsAllowedType, addr 0x4153670, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedType, addr 0x41535f8, size 0x198, virtual false, abstract: false, final false
   inline bool IsAllowedType(::System::Type* type);
 
-  /// @brief Method IsTypeUnconditionallyAllowed, addr 0x4153ed4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method IsTypeUnconditionallyAllowed, addr 0x4153e5c, size 0x1c4, virtual false, abstract: false, final false
   static inline bool IsTypeUnconditionallyAllowed(::System::Type* type);
 
   static inline ::System::Data::TypeLimiter_Scope* New_ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_previousScope(::System::Data::TypeLimiter_Scope* value);
 
-  /// @brief Method .ctor, addr 0x4153a54, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41539dc, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::TypeLimiter_Scope* previousScope, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* allowedTypes);
 
   static inline ::System::Collections::Generic::HashSet_1<::System::Type*>* getStaticF_s_allowedTypes();
@@ -214,13 +214,13 @@ public:
 
   static inline ::System::Data::TypeLimiter___c* New_ctor();
 
-  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__10_0, addr 0x4154ae4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__10_0, addr 0x4154a6c, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* _GetPreviouslyDeclaredDataTypes_b__10_0(::System::Data::DataColumn* column);
 
-  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__11_0, addr 0x4154afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetPreviouslyDeclaredDataTypes>b__11_0, addr 0x4154a84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* _GetPreviouslyDeclaredDataTypes_b__11_0(::System::Data::DataTable* table);
 
-  /// @brief Method .ctor, addr 0x4154adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4154a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::TypeLimiter___c* getStaticF___9();
@@ -275,22 +275,22 @@ public:
   /// @brief Field s_activeScope, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_activeScope, put = setStaticF_s_activeScope)) ::System::Data::TypeLimiter_Scope* s_activeScope;
 
-  /// @brief Method Capture, addr 0x4153568, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x41534f0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Data::TypeLimiter* Capture();
 
-  /// @brief Method EnsureTypeIsAllowed, addr 0x41535d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EnsureTypeIsAllowed, addr 0x4153560, size 0x98, virtual false, abstract: false, final false
   static inline void EnsureTypeIsAllowed(::System::Type* type, ::System::Data::TypeLimiter* capturedLimiter);
 
-  /// @brief Method EnterRestrictedScope, addr 0x4153808, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EnterRestrictedScope, addr 0x4153790, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::IDisposable* EnterRestrictedScope(::System::Data::DataSet* dataSet);
 
-  /// @brief Method EnterRestrictedScope, addr 0x4153bbc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EnterRestrictedScope, addr 0x4153b44, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::IDisposable* EnterRestrictedScope(::System::Data::DataTable* dataTable);
 
-  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x41538c0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x4153848, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetPreviouslyDeclaredDataTypes(::System::Data::DataSet* dataSet);
 
-  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x4153c74, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPreviouslyDeclaredDataTypes, addr 0x4153bfc, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetPreviouslyDeclaredDataTypes(::System::Data::DataTable* dataTable);
 
   static inline ::System::Data::TypeLimiter* New_ctor(::System::Data::TypeLimiter_Scope* scope);
@@ -301,12 +301,12 @@ public:
 
   constexpr void __cordl_internal_set_m_instanceScope(::System::Data::TypeLimiter_Scope* value);
 
-  /// @brief Method .ctor, addr 0x41534c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4153450, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::TypeLimiter_Scope* scope);
 
   static inline ::System::Data::TypeLimiter_Scope* getStaticF_s_activeScope();
 
-  /// @brief Method get_IsTypeLimitingDisabled, addr 0x41534f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_IsTypeLimitingDisabled, addr 0x4153478, size 0x78, virtual false, abstract: false, final false
   static inline bool get_IsTypeLimitingDisabled();
 
   static inline void setStaticF_s_activeScope(::System::Data::TypeLimiter_Scope* value);

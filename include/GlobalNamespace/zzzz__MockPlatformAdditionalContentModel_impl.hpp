@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__6::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x26a5444;
+  constexpr static std::size_t addrs = 0x26a5404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a56a0;
+  constexpr static std::size_t addrs = 0x26a5660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x26a571c;
+  constexpr static std::size_t addrs = 0x26a56dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a59ac;
+  constexpr static std::size_t addrs = 0x26a596c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x26a5a28;
+  constexpr static std::size_t addrs = 0x26a59e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a5c68;
+  constexpr static std::size_t addrs = 0x26a5c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x26a5ce4;
+  constexpr static std::size_t addrs = 0x26a5ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a5f68;
+  constexpr static std::size_t addrs = 0x26a5f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x26a5fe4;
+  constexpr static std::size_t addrs = 0x26a5fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a62b4;
+  constexpr static std::size_t addrs = 0x26a6274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(
     ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x26a4688;
+  constexpr static std::size_t addrs = 0x26a4648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::InvalidateDataInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26a4d00;
+  constexpr static std::size_t addrs = 0x26a4cc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -412,7 +412,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26a4d04;
+  constexpr static std::size_t addrs = 0x26a4cc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -429,7 +429,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26a4dfc;
+  constexpr static std::size_t addrs = 0x26a4dbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -446,7 +446,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::GetLevelDataVersionInternalAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26a4ef4;
+  constexpr static std::size_t addrs = 0x26a4eb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -463,7 +463,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26a4f5c;
+  constexpr static std::size_t addrs = 0x26a4f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* (
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26a5048;
+  constexpr static std::size_t addrs = 0x26a5008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::OpenStore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26a5140;
+  constexpr static std::size_t addrs = 0x26a5100;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::BuyLevel)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26a5144;
+  constexpr static std::size_t addrs = 0x26a5104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -527,7 +527,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26a5268;
+  constexpr static std::size_t addrs = 0x26a5228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::MockPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlatformAdditionalContentModel::Wait)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x26a5360;
+  constexpr static std::size_t addrs = 0x26a5320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

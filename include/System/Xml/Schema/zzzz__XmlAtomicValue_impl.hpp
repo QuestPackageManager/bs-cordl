@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x42b6e8c;
+  constexpr static std::size_t addrs = 0x42b6e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::*)(::StringW)>(
     &::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::LookupNamespace)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x42b7ac4;
+  constexpr static std::size_t addrs = 0x42b7a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::*)(::StringW)>(
     &::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::LookupPrefix)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x42b7af8;
+  constexpr static std::size_t addrs = 0x42b7a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName::GetNamespacesInScope)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42b7b24;
+  constexpr static std::size_t addrs = 0x42b7aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, bool)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42b68d8;
+  constexpr static std::size_t addrs = 0x42b6860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, ::System::DateTime)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42b6960;
+  constexpr static std::size_t addrs = 0x42b68e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, double_t)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x42b69e4;
+  constexpr static std::size_t addrs = 0x42b696c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, int32_t)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42b6a70;
+  constexpr static std::size_t addrs = 0x42b69f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, int64_t)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42b6af4;
+  constexpr static std::size_t addrs = 0x42b6a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, ::StringW)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x42b6b78;
+  constexpr static std::size_t addrs = 0x42b6b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(
     ::System::Xml::Schema::XmlSchemaType*, ::StringW, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x42b6c14;
+  constexpr static std::size_t addrs = 0x42b6b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(::System::Xml::Schema::XmlSchemaType*, ::System::Object*)>(
     &::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x42b6eb8;
+  constexpr static std::size_t addrs = 0x42b6e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlAtomicValue::*)(
     ::System::Xml::Schema::XmlSchemaType*, ::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlAtomicValue::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x42b6f54;
+  constexpr static std::size_t addrs = 0x42b6edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlAtomicValue::*)()>(
     &::System::Xml::Schema::XmlAtomicValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x42b7140;
+  constexpr static std::size_t addrs = 0x42b70c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlAtomicValue*>::get(),
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::Schema::XmlAtomicValue::*)()>(
     &::System::Xml::Schema::XmlAtomicValue::get_XmlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b7144;
+  constexpr static std::size_t addrs = 0x42b70cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::XmlAtomicValue::*)()>(
     &::System::Xml::Schema::XmlAtomicValue::get_ValueType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42b714c;
+  constexpr static std::size_t addrs = 0x42b70d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlAtomicValue::*)()>(
     &::System::Xml::Schema::XmlAtomicValue::get_TypedValue)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x42b7174;
+  constexpr static std::size_t addrs = 0x42b70fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlAtomicValue::*)()>(&::System::Xml::Schema::XmlAtomicValue::get_ValueAsBoolean)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x42b733c;
+  constexpr static std::size_t addrs = 0x42b72c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlAtomicValue::*)()>(
     &::System::Xml::Schema::XmlAtomicValue::get_ValueAsDateTime)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42b740c;
+  constexpr static std::size_t addrs = 0x42b7394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlAtomicValue::*)()>(&::System::Xml::Schema::XmlAtomicValue::get_ValueAsDouble)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x42b74f0;
+  constexpr static std::size_t addrs = 0x42b7478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlAtomicValue::*)()>(&::System::Xml::Schema::XmlAtomicValue::get_ValueAsInt)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x42b75d0;
+  constexpr static std::size_t addrs = 0x42b7558;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlAtomicValue::*)()>(&::System::Xml::Schema::XmlAtomicValue::get_ValueAsLong)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42b76a8;
+  constexpr static std::size_t addrs = 0x42b7630;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -475,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlAtomicValue::*)(::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlAtomicValue::ValueAs)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x42b778c;
+  constexpr static std::size_t addrs = 0x42b7714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlAtomicValue::*)()>(&::System::Xml::Schema::XmlAtomicValue::get_Value)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42b79c0;
+  constexpr static std::size_t addrs = 0x42b7948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlAtomicValue::*)()>(&::System::Xml::Schema::XmlAtomicValue::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42b7ab8;
+  constexpr static std::size_t addrs = 0x42b7a40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlAtomicValue::*)(::StringW)>(
     &::System::Xml::Schema::XmlAtomicValue::GetPrefixFromQName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x42b6dc0;
+  constexpr static std::size_t addrs = 0x42b6d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

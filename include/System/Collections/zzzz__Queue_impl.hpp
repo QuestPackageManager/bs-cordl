@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue_QueueEnumerator::*)(::System::Collections::Queue*)>(
     &::System::Collections::Queue_QueueEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3dbc3bc;
+  constexpr static std::size_t addrs = 0x3dbc344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue_QueueEnumerator::*)()>(
     &::System::Collections::Queue_QueueEnumerator::Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbc5a4;
+  constexpr static std::size_t addrs = 0x3dbc52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Queue_QueueEnumerator*>::get(), "Clone",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Queue_QueueEnumerator::*)()>(&::System::Collections::Queue_QueueEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3dbc5ac;
+  constexpr static std::size_t addrs = 0x3dbc534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue_QueueEnumerator::*)()>(
     &::System::Collections::Queue_QueueEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dbc678;
+  constexpr static std::size_t addrs = 0x3dbc600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue_QueueEnumerator::*)()>(&::System::Collections::Queue_QueueEnumerator::Reset)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3dbc708;
+  constexpr static std::size_t addrs = 0x3dbc690;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)()>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dbb9ec;
+  constexpr static std::size_t addrs = 0x3dbb974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Queue*>::get(), ".ctor",
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)(int32_t)>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbbbb0;
+  constexpr static std::size_t addrs = 0x3dbbb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)(int32_t, float_t)>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3dbb9f8;
+  constexpr static std::size_t addrs = 0x3dbb980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)(::System::Collections::ICollection*)>(&::System::Collections::Queue::_ctor)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3dbbbb8;
+  constexpr static std::size_t addrs = 0x3dbbb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Queue::*)()>(&::System::Collections::Queue::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbbe30;
+  constexpr static std::size_t addrs = 0x3dbbdb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::Clone)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dbbe38;
+  constexpr static std::size_t addrs = 0x3dbbdc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Queue::*)()>(&::System::Collections::Queue::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbbf1c;
+  constexpr static std::size_t addrs = 0x3dbbea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::get_SyncRoot)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3dbbf24;
+  constexpr static std::size_t addrs = 0x3dbbeac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)(::System::Array*, int32_t)>(&::System::Collections::Queue::CopyTo)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3dbbf98;
+  constexpr static std::size_t addrs = 0x3dbbf20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)(::System::Object*)>(&::System::Collections::Queue::Enqueue)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3dbc17c;
+  constexpr static std::size_t addrs = 0x3dbc104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Queue::*)()>(
     &::System::Collections::Queue::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dbc364;
+  constexpr static std::size_t addrs = 0x3dbc2ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::Dequeue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3dbc40c;
+  constexpr static std::size_t addrs = 0x3dbc394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue::*)()>(&::System::Collections::Queue::Peek)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dbc4d4;
+  constexpr static std::size_t addrs = 0x3dbc45c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Queue::*)(int32_t)>(&::System::Collections::Queue::GetElement)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3dbc564;
+  constexpr static std::size_t addrs = 0x3dbc4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Queue::*)(int32_t)>(&::System::Collections::Queue::SetCapacity)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dbc278;
+  constexpr static std::size_t addrs = 0x3dbc200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

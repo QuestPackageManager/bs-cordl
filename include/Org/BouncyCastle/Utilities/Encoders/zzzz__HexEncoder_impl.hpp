@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(
     &::Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x25d8d74;
+  constexpr static std::size_t addrs = 0x25d8d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(
     &::Org::BouncyCastle::Utilities::Encoders::HexEncoder::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25d8cd8;
+  constexpr static std::size_t addrs = 0x25d8c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x25d8ed8;
+  constexpr static std::size_t addrs = 0x25d8e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::IO::Stream*)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x25d7f24;
+  constexpr static std::size_t addrs = 0x25d7ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Ignore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25d8fb0;
+  constexpr static std::size_t addrs = 0x25d8f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::IO::Stream*)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Decode)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x25d8218;
+  constexpr static std::size_t addrs = 0x25d81d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::StringW, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x25d85dc;
+  constexpr static std::size_t addrs = 0x25d859c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::StringW, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x25d89b4;
+  constexpr static std::size_t addrs = 0x25d8974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -27,7 +27,7 @@ public:
   /// @brief Method GetComponentsInScene, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetComponentsInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<T>* components, bool includeInactive);
 
-  /// @brief Method SetActiveRootObjectsInScene, addr 0x22b5e04, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScene, addr 0x22b5dc4, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:

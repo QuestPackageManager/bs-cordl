@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController___c__DisplayClass10_0::*)()>(
     &::HMUI::NavigationController___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228a4f4;
+  constexpr static std::size_t addrs = 0x228a4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController___c__DisplayClass10_0*>::get(),
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::NavigationController___c__DisplayClass10_0::_PopViewControllers_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x228a59c;
+  constexpr static std::size_t addrs = 0x228a55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController___c__DisplayClass8_0::*)()>(
     &::HMUI::NavigationController___c__DisplayClass8_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228a4ec;
+  constexpr static std::size_t addrs = 0x228a4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController___c__DisplayClass8_0*>::get(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController___c__DisplayClass8_0::*)(
     float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>)>(&::HMUI::NavigationController___c__DisplayClass8_0::_PushViewController_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x228a814;
+  constexpr static std::size_t addrs = 0x228a7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::NavigationController::LayoutViewControllers)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2289f00;
+  constexpr static std::size_t addrs = 0x2289ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(::HMUI::ViewController*, ::System::Action*, bool)>(
     &::HMUI::NavigationController::PushViewController)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x228822c;
+  constexpr static std::size_t addrs = 0x22881ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(::System::Action*, bool)>(&::HMUI::NavigationController::PopViewController)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2288460;
+  constexpr static std::size_t addrs = 0x2288420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(int32_t, ::System::Action*, bool)>(
     &::HMUI::NavigationController::PopViewControllers)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x22885a4;
+  constexpr static std::size_t addrs = 0x2288564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HMUI::NavigationController::*)(float_t)>(&::HMUI::NavigationController::PositionVector)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x228a4cc;
+  constexpr static std::size_t addrs = 0x228a48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)(::HMUI::ViewController*)>(
     &::HMUI::NavigationController::SetupViewControllerRect)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x228a4a0;
+  constexpr static std::size_t addrs = 0x228a460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*, float_t)>(
     &::HMUI::NavigationController::GetNewPositionsForViewControllers)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x228a018;
+  constexpr static std::size_t addrs = 0x2289fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NavigationController::*)()>(&::HMUI::NavigationController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x228a590;
+  constexpr static std::size_t addrs = 0x228a550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NavigationController*>::get(), ".ctor",

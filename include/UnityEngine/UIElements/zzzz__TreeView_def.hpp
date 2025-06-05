@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TreeView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a0ed68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0ecf0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TreeView_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a0edb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0ed38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -145,10 +145,10 @@ public:
 
   __declspec(property(get = get_unbindItem)) ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* unbindItem;
 
-  /// @brief Method CreateViewController, addr 0x4a0ec70, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x4a0ebf8, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x4a0ec30, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x4a0ebb8, size 0x40, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::TreeView* New_ctor();
@@ -180,28 +180,28 @@ public:
 
   constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x4a0ecd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0ec60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a0ece4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0ec6c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* makeItem, ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* bindItem);
 
-  /// @brief Method get_bindItem, addr 0x4a0ebcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x4a0eb54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x4a0ec28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x4a0ebb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_makeItem, addr 0x4a0eb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x4a0eb00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x4a0ec20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x4a0eba8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
-  /// @brief Method set_bindItem, addr 0x4a0ebd4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_bindItem, addr 0x4a0eb5c, size 0x4c, virtual false, abstract: false, final false
   inline void set_bindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method set_makeItem, addr 0x4a0eb80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_makeItem, addr 0x4a0eb08, size 0x4c, virtual false, abstract: false, final false
   inline void set_makeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
 protected:

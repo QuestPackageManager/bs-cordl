@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e3298;
+  constexpr static std::size_t addrs = 0x22e3258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::*)(
     ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0::_SaveFromNetSerializable_b__0)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22e32a0;
+  constexpr static std::size_t addrs = 0x22e3260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* (
     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)()>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStart)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e2a58;
+  constexpr static std::size_t addrs = 0x22e2a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettingsNetSerializable* (
     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)()>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_localPlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e2a70;
+  constexpr static std::size_t addrs = 0x22e2a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(
     ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::set_localPlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e2a78;
+  constexpr static std::size_t addrs = 0x22e2a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (
     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)()>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::get_playersAtGameStartNetSerializable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e2a80;
+  constexpr static std::size_t addrs = 0x22e2a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::set_playersAtGameStartNetSerializable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e2a88;
+  constexpr static std::size_t addrs = 0x22e2a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(
     ::GlobalNamespace::IMultiplayerSessionManager*, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22e2a90;
+  constexpr static std::size_t addrs = 0x22e2a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettingsNetSerializable* (
     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(::StringW)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::GetPlayerSpecificSettingsForUserId)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x22e2b0c;
+  constexpr static std::size_t addrs = 0x22e2acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::*)(
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*)>(&::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::SaveFromNetSerializable)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x22e2eb0;
+  constexpr static std::size_t addrs = 0x22e2e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

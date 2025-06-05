@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::*)()>(
     &::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16704;
+  constexpr static std::size_t addrs = 0x3b166dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b166f4;
+  constexpr static std::size_t addrs = 0x3b166cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::*)(
     ::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*)>(&::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::_get_localizedAudioClip_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b1670c;
+  constexpr static std::size_t addrs = 0x3b166e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::LocalizedAudioClipSO::*)()>(
     &::GlobalNamespace::LocalizedAudioClipSO::get_localizedAudioClip)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b165e8;
+  constexpr static std::size_t addrs = 0x3b165c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedAudioClipSO*>::get(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedAudioClipSO::*)()>(&::GlobalNamespace::LocalizedAudioClipSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b166fc;
+  constexpr static std::size_t addrs = 0x3b166d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedAudioClipSO*>::get(), ".ctor",

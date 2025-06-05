@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent___c::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e19d0;
+  constexpr static std::size_t addrs = 0x49e1958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent* (
     ::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent___c::*)()>(&::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49e19d8;
+  constexpr static std::size_t addrs = 0x49e1960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::set_linkID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e1848;
+  constexpr static std::size_t addrs = 0x49e17d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::set_linkText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e1850;
+  constexpr static std::size_t addrs = 0x49e17d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49e1858;
+  constexpr static std::size_t addrs = 0x49e17e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49e18ac;
+  constexpr static std::size_t addrs = 0x49e1834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent* (*)(::UnityEngine::UIElements::IPointerEvent*, ::StringW, ::StringW)>(
         &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::GetPooled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49e18b8;
+  constexpr static std::size_t addrs = 0x49e1840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerMoveLinkTagEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49e1920;
+  constexpr static std::size_t addrs = 0x49e18a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

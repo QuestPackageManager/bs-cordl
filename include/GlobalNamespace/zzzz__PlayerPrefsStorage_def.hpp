@@ -19,18 +19,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerPrefsStorage : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FileExists, addr 0x22a5e34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x22a5df4, size 0xc, virtual false, abstract: false, final false
   inline bool FileExists(::StringW filePath);
 
-  /// @brief Method Initialize, addr 0x22a5db0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x22a5d70, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadFile, addr 0x22a5db4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LoadFile, addr 0x22a5d74, size 0x80, virtual false, abstract: false, final false
   inline bool LoadFile(::StringW filePath, ::ByRef<::StringW> value);
 
   static inline ::GlobalNamespace::PlayerPrefsStorage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a5e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a5e00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

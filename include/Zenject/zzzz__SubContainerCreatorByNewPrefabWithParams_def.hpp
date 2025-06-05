@@ -63,10 +63,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <CreateTempContainer>b__0, addr 0x4b43510, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <CreateTempContainer>b__0, addr 0x4b43498, size 0x70, virtual false, abstract: false, final false
   inline bool _CreateTempContainer_b__0(::Zenject::InjectableInfo* x);
 
-  /// @brief Method <CreateTempContainer>b__1, addr 0x4b43580, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateTempContainer>b__1, addr 0x4b43508, size 0x20, virtual false, abstract: false, final false
   inline int32_t _CreateTempContainer_b__1(::Zenject::InjectableInfo* x);
 
   constexpr ::Zenject::TypeValuePair const& __cordl_internal_get_argPair() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_argPair(::Zenject::TypeValuePair value);
 
-  /// @brief Method __zenCreate, addr 0x4b435a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b43528, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b435f4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4357c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4335c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b432e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,10 +138,10 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4b43364, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4b432ec, size 0x1ac, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
-  /// @brief Method CreateTempContainer, addr 0x4b42e60, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method CreateTempContainer, addr 0x4b42de8, size 0x478, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateTempContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabWithParams* New_ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -171,10 +171,10 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x4b42e18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b42da0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method get_Container, addr 0x4b42e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4b42de0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"

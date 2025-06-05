@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x3b5a4dc;
+  constexpr static std::size_t addrs = 0x3b5a4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LocalLeaderboardViewController__ClearLeaderboardsAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b5a7c8;
+  constexpr static std::size_t addrs = 0x3b5a7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LocalLeaderboardsModel* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::get_leaderboardsModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5997c;
+  constexpr static std::size_t addrs = 0x3b59954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::OnDisable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b59984;
+  constexpr static std::size_t addrs = 0x3b5995c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool)>(
     &::GlobalNamespace::LocalLeaderboardViewController::Setup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b59a08;
+  constexpr static std::size_t addrs = 0x3b599e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::LocalLeaderboardViewController::SetData)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b59a14;
+  constexpr static std::size_t addrs = 0x3b599ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LocalLeaderboardViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3b59af8;
+  constexpr static std::size_t addrs = 0x3b59ad0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::LocalLeaderboardViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b5a0cc;
+  constexpr static std::size_t addrs = 0x3b5a0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b5a1c4;
+  constexpr static std::size_t addrs = 0x3b5a19c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::RefreshScopeSegmentedControl)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x3b59ccc;
+  constexpr static std::size_t addrs = 0x3b59ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::LocalLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3b59f94;
+  constexpr static std::size_t addrs = 0x3b59f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::ClearLeaderboardsAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b5a260;
+  constexpr static std::size_t addrs = 0x3b5a238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(
     ::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardViewController::SetContent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b5a320;
+  constexpr static std::size_t addrs = 0x3b5a2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)(
     ::StringW, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType)>(&::GlobalNamespace::LocalLeaderboardViewController::HandleNewScoreWasAddedToLeaderboard)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b5a398;
+  constexpr static std::size_t addrs = 0x3b5a370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::Refresh)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b59a94;
+  constexpr static std::size_t addrs = 0x3b59a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b5a440;
+  constexpr static std::size_t addrs = 0x3b5a418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardViewController::*)()>(
     &::GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__19_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b5a450;
+  constexpr static std::size_t addrs = 0x3b5a428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardViewController*>::get(),

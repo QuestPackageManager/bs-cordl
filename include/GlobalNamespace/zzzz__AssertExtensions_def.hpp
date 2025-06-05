@@ -23,10 +23,10 @@ public:
   /// @brief Method GetMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW GetMessage(::StringW pattern, T value, T other, ::StringW message);
 
-  /// @brief Method GreaterOrEqual, addr 0x22b21fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GreaterOrEqual, addr 0x22b21bc, size 0x4, virtual false, abstract: false, final false
   static inline void GreaterOrEqual(float_t value, float_t expectedLessValue, ::StringW message);
 
-  /// @brief Method LessThan, addr 0x22b21f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x22b21b8, size 0x4, virtual false, abstract: false, final false
   static inline void LessThan(float_t value, float_t expectedGreaterValue, ::StringW message);
 
 protected:

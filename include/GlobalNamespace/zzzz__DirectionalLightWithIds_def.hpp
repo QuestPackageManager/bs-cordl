@@ -34,7 +34,7 @@ public:
   /// @brief Field _setIntensityOnly, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__setIntensityOnly, put = __cordl_internal_set__setIntensityOnly)) bool _setIntensityOnly;
 
-  /// @brief Method ColorWasSet, addr 0x39e1530, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e1508, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithIds* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__setIntensityOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x39e1574, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e154c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

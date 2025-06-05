@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3b33c20, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3b33bf8, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::AvatarColorAsset* New_ctor();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3b33cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b33ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b33c18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b33bf0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

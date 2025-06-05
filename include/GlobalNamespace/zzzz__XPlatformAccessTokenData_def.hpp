@@ -27,10 +27,10 @@ public:
   /// @brief Field invalid, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid)) ::GlobalNamespace::XPlatformAccessTokenData invalid;
 
-  /// @brief Method IsValid, addr 0x22e2060, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x22e2020, size 0x40, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x22e2054, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2014, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
   static inline ::GlobalNamespace::XPlatformAccessTokenData getStaticF_invalid();

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::RectIntField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498f5c8;
+  constexpr static std::size_t addrs = 0x498f550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RectIntField_UxmlFactory*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::RectIntField_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x498f610;
+  constexpr static std::size_t addrs = 0x498f598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::RectIntField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x498f7e4;
+  constexpr static std::size_t addrs = 0x498f76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RectIntField_UxmlTraits*>::get(),
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField___c::*)()>(&::UnityEngine::UIElements::RectIntField___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f980;
+  constexpr static std::size_t addrs = 0x498f908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RectIntField___c*>::get(), ".ctor",
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::RectIntField___c::*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f988;
+  constexpr static std::size_t addrs = 0x498f910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField___c::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f990;
+  constexpr static std::size_t addrs = 0x498f918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::RectIntField___c::*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f998;
+  constexpr static std::size_t addrs = 0x498f920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField___c::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f9a0;
+  constexpr static std::size_t addrs = 0x498f928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::RectIntField___c::*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f9a8;
+  constexpr static std::size_t addrs = 0x498f930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField___c::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f9b0;
+  constexpr static std::size_t addrs = 0x498f938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::RectIntField___c::*)(::UnityEngine::RectInt)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f9b8;
+  constexpr static std::size_t addrs = 0x498f940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField___c::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
     &::UnityEngine::UIElements::RectIntField___c::_DescribeFields_b__0_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f9c0;
+  constexpr static std::size_t addrs = 0x498f948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::RectInt, ::UnityEngine::UIElements::IntegerField*, int32_t>>*> (
         ::UnityEngine::UIElements::RectIntField::*)()>(&::UnityEngine::UIElements::RectIntField::DescribeFields)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x498ed60;
+  constexpr static std::size_t addrs = 0x498ece8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField::*)()>(&::UnityEngine::UIElements::RectIntField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f3b8;
+  constexpr static std::size_t addrs = 0x498f340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RectIntField*>::get(), ".ctor",
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RectIntField::*)(::StringW)>(&::UnityEngine::UIElements::RectIntField::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x498f3c0;
+  constexpr static std::size_t addrs = 0x498f348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

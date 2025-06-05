@@ -101,25 +101,25 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e07f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e07cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x39e07cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x39e07a4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x39e07c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x39e079c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x39e07ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x39e07c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x39e07dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x39e07b4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x39e07e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x39e07bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x39e07d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x39e07ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"

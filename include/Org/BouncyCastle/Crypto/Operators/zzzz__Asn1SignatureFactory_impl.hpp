@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)(
     ::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b5980;
+  constexpr static std::size_t addrs = 0x23b5940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)(
     ::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x23b5988;
+  constexpr static std::size_t addrs = 0x23b5948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b5ad4;
+  constexpr static std::size_t addrs = 0x23b5a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::CreateCalculator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23b5adc;
+  constexpr static std::size_t addrs = 0x23b5a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::get_SignatureAlgNames)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23b5bfc;
+  constexpr static std::size_t addrs = 0x23b5bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float_t)>(&::GlobalNamespace::TimeExtensions::MinSecDurationText)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x22a0b18;
+  constexpr static std::size_t addrs = 0x22a0ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float_t)>(&::GlobalNamespace::TimeExtensions::MinSecMillisecDurationText)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22a0d58;
+  constexpr static std::size_t addrs = 0x22a0d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::OneBeatDuration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22a0e84;
+  constexpr static std::size_t addrs = 0x22a0e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::TimeExtensions::TimeToBeat)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a0ea0;
+  constexpr static std::size_t addrs = 0x22a0e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::SecondsToMinutes)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22a0eb4;
+  constexpr static std::size_t addrs = 0x22a0e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::SecondsToDays)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22a0ec4;
+  constexpr static std::size_t addrs = 0x22a0e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::SecondsToHours)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22a0ee4;
+  constexpr static std::size_t addrs = 0x22a0ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::SecondsToMinutes)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22a0f04;
+  constexpr static std::size_t addrs = 0x22a0ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::DaysToSeconds)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22a0f24;
+  constexpr static std::size_t addrs = 0x22a0ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::HoursToSeconds)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a0f34;
+  constexpr static std::size_t addrs = 0x22a0ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::TimeExtensions::MinutesToSeconds)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a0f40;
+  constexpr static std::size_t addrs = 0x22a0f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Hours)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22a0f4c;
+  constexpr static std::size_t addrs = 0x22a0f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Minutes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22a0cac;
+  constexpr static std::size_t addrs = 0x22a0c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Seconds)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22a0d28;
+  constexpr static std::size_t addrs = 0x22a0ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::Milliseconds)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22a0e4c;
+  constexpr static std::size_t addrs = 0x22a0e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalDays)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22a0fcc;
+  constexpr static std::size_t addrs = 0x22a0f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalHours)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22a1004;
+  constexpr static std::size_t addrs = 0x22a0fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalMinutes)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22a1040;
+  constexpr static std::size_t addrs = 0x22a1000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::GlobalNamespace::TimeExtensions::TotalSeconds)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22a107c;
+  constexpr static std::size_t addrs = 0x22a103c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::DateTime)>(&::GlobalNamespace::TimeExtensions::ToUnixTime)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22a1098;
+  constexpr static std::size_t addrs = 0x22a1058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int64_t)>(&::GlobalNamespace::TimeExtensions::AsUnixTime)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22a118c;
+  constexpr static std::size_t addrs = 0x22a114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(
     &::GlobalNamespace::TimeExtensions::GetFormattedRemainingTimeTwoOfDaysHoursMinutes)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x22a1254;
+  constexpr static std::size_t addrs = 0x22a1214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

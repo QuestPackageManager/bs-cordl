@@ -50,26 +50,26 @@ public:
 
   __declspec(property(get = get_trickleDownCallbackCount, put = set_trickleDownCallbackCount)) int32_t trickleDownCallbackCount;
 
-  /// @brief Method Add, addr 0x4a284e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4a28468, size 0xd4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::EventCallbackFunctorBase* item);
 
-  /// @brief Method AddRange, addr 0x4a27fc4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x4a27f4c, size 0x190, virtual false, abstract: false, final false
   inline void AddRange(::UnityEngine::UIElements::EventCallbackList* list);
 
-  /// @brief Method Clear, addr 0x4a281b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4a28140, size 0x6c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x4a282c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x4a28248, size 0x18, virtual false, abstract: false, final false
   inline bool Contains(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
 
-  /// @brief Method Find, addr 0x4a282d8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x4a28260, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackFunctorBase* Find(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
-  /// @brief Method Remove, addr 0x4a283c0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4a28348, size 0x120, virtual false, abstract: false, final false
   inline bool Remove(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
 
   constexpr int32_t const& __cordl_internal_get__bubbleUpCallbackCount_k__BackingField() const;
@@ -90,28 +90,28 @@ public:
 
   constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* value);
 
-  /// @brief Method .ctor, addr 0x4a27f44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a27ecc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a27eb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a27e40, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
-  /// @brief Method get_Count, addr 0x4a285b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4a2853c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x4a285fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4a28584, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackFunctorBase* get_Item(int32_t i);
 
-  /// @brief Method get_bubbleUpCallbackCount, addr 0x4a282b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bubbleUpCallbackCount, addr 0x4a28238, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bubbleUpCallbackCount();
 
-  /// @brief Method get_trickleDownCallbackCount, addr 0x4a282a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trickleDownCallbackCount, addr 0x4a28228, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_trickleDownCallbackCount();
 
-  /// @brief Method set_bubbleUpCallbackCount, addr 0x4a282b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bubbleUpCallbackCount, addr 0x4a28240, size 0x8, virtual false, abstract: false, final false
   inline void set_bubbleUpCallbackCount(int32_t value);
 
-  /// @brief Method set_trickleDownCallbackCount, addr 0x4a282a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trickleDownCallbackCount, addr 0x4a28230, size 0x8, virtual false, abstract: false, final false
   inline void set_trickleDownCallbackCount(int32_t value);
 
 protected:

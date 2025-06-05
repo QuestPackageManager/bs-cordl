@@ -120,25 +120,25 @@ public:
 
   static inline ::ModestTree::Util::UnityUtil___c* New_ctor();
 
-  /// @brief Method <GetAllGameObjects>b__22_0, addr 0x4af8eb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetAllGameObjects>b__22_0, addr 0x4af8e3c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> _GetAllGameObjects_b__22_0(::UnityEngine::Transform* x);
 
-  /// @brief Method <GetAllRootGameObjects>b__23_0, addr 0x4af8ecc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <GetAllRootGameObjects>b__23_0, addr 0x4af8e54, size 0x84, virtual false, abstract: false, final false
   inline bool _GetAllRootGameObjects_b__23_0(::UnityEngine::GameObject* x);
 
-  /// @brief Method <GetComponentsInChildrenBottomUp>b__19_0, addr 0x4af8e2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <GetComponentsInChildrenBottomUp>b__19_0, addr 0x4af8db4, size 0x88, virtual false, abstract: false, final false
   inline int32_t _GetComponentsInChildrenBottomUp_b__19_0(::UnityEngine::Component* x);
 
-  /// @brief Method <GetComponentsInChildrenTopDown>b__18_0, addr 0x4af8da4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <GetComponentsInChildrenTopDown>b__18_0, addr 0x4af8d2c, size 0x88, virtual false, abstract: false, final false
   inline int32_t _GetComponentsInChildrenTopDown_b__18_0(::UnityEngine::Component* x);
 
-  /// @brief Method <GetRootParentOrSelf>b__15_0, addr 0x4af8d8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetRootParentOrSelf>b__15_0, addr 0x4af8d14, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> _GetRootParentOrSelf_b__15_0(::UnityEngine::Transform* x);
 
-  /// @brief Method .ctor, addr 0x4af8d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8cec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_AllLoadedScenes>b__3_0, addr 0x4af8d6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_AllLoadedScenes>b__3_0, addr 0x4af8cf4, size 0x20, virtual false, abstract: false, final false
   inline bool _get_AllLoadedScenes_b__3_0(::UnityEngine::SceneManagement::Scene scene);
 
   static inline ::ModestTree::Util::UnityUtil___c* getStaticF___9();
@@ -238,27 +238,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4af8f6c, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4af8ef4, size 0x28c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::ModestTree::Util::UnityUtil__GetDirectChildren_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator, addr 0x4af92fc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator, addr 0x4af9284, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current, addr 0x4af92b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current, addr 0x4af923c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af9398, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af9320, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af92bc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af9244, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af92f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af927c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4af8f50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4af8ed8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -297,10 +297,10 @@ public:
 
   constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method <>m__Finally1, addr 0x4af91f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4af9180, size 0xbc, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4af8a7c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8a04, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
@@ -417,27 +417,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4af93b8, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4af9340, size 0x2a8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::ModestTree::Util::UnityUtil__GetDirectChildrenAndSelf_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator, addr 0x4af9764, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.GameObject>.GetEnumerator, addr 0x4af96ec, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::GameObject>>* System_Collections_Generic_IEnumerable_UnityEngine_GameObject__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current, addr 0x4af971c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.GameObject>.get_Current, addr 0x4af96a4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> System_Collections_Generic_IEnumerator_UnityEngine_GameObject__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af9800, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af9788, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af9724, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af96ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af975c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af96e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4af939c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4af9324, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -476,10 +476,10 @@ public:
 
   constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method <>m__Finally1, addr 0x4af9660, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4af95e8, size 0xbc, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4af89d8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8960, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>"
@@ -596,27 +596,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4af9820, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4af97a8, size 0x2f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::ModestTree::Util::UnityUtil__GetParents_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator, addr 0x4af9c10, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator, addr 0x4af9b98, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current, addr 0x4af9bc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current, addr 0x4af9b50, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af9cac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af9c34, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af9bd0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af9b58, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af9c08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af9b90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4af9804, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4af978c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -655,10 +655,10 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method <>m__Finally1, addr 0x4af9b18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4af9aa0, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4af86a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8630, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
@@ -775,27 +775,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4af9ccc, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4af9c54, size 0x31c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::ModestTree::Util::UnityUtil__GetParentsAndSelf_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator, addr 0x4afa0e0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Transform>.GetEnumerator, addr 0x4afa068, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::Transform>>* System_Collections_Generic_IEnumerable_UnityEngine_Transform__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current, addr 0x4afa098, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Transform>.get_Current, addr 0x4afa020, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> System_Collections_Generic_IEnumerator_UnityEngine_Transform__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4afa17c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4afa104, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4afa0a0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4afa028, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4afa0d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4afa060, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4af9cb0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4af9c38, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -834,10 +834,10 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method <>m__Finally1, addr 0x4af9fe8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4af9f70, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4af86dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8664, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>"
@@ -948,27 +948,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4afa184, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4afa10c, size 0xcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::ModestTree::Util::UnityUtil__get_AllScenes_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator, addr 0x4afa2ec, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.SceneManagement.Scene>.GetEnumerator, addr 0x4afa274, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::SceneManagement::Scene>* System_Collections_Generic_IEnumerable_UnityEngine_SceneManagement_Scene__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current, addr 0x4afa250, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.SceneManagement.Scene>.get_Current, addr 0x4afa1d8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::SceneManagement::Scene System_Collections_Generic_IEnumerator_UnityEngine_SceneManagement_Scene__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4afa37c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4afa304, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4afa258, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4afa1e0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4afa290, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4afa218, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4afa180, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4afa108, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -995,7 +995,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4af81e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8168, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>"
@@ -1075,55 +1075,55 @@ public:
 
   using _get_AllScenes_d__1 = ::ModestTree::Util::UnityUtil__get_AllScenes_d__1;
 
-  /// @brief Method GetAllGameObjects, addr 0x4af8ab0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAllGameObjects, addr 0x4af8a38, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetAllGameObjects();
 
-  /// @brief Method GetAllRootGameObjects, addr 0x4af8be8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAllRootGameObjects, addr 0x4af8b70, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetAllRootGameObjects();
 
-  /// @brief Method GetComponentsInChildrenBottomUp, addr 0x4af883c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInChildrenBottomUp, addr 0x4af87c4, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Component>>* GetComponentsInChildrenBottomUp(::UnityEngine::GameObject* gameObject, bool includeInactive);
 
-  /// @brief Method GetComponentsInChildrenTopDown, addr 0x4af8710, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInChildrenTopDown, addr 0x4af8698, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Component>>* GetComponentsInChildrenTopDown(::UnityEngine::GameObject* gameObject, bool includeInactive);
 
-  /// @brief Method GetDepthLevel, addr 0x4af8400, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetDepthLevel, addr 0x4af8388, size 0x90, virtual false, abstract: false, final false
   static inline int32_t GetDepthLevel(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetDirectChildren, addr 0x4af8a0c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDirectChildren, addr 0x4af8994, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetDirectChildren(::UnityEngine::GameObject* obj);
 
-  /// @brief Method GetDirectChildrenAndSelf, addr 0x4af8968, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDirectChildrenAndSelf, addr 0x4af88f0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetDirectChildrenAndSelf(::UnityEngine::GameObject* obj);
 
-  /// @brief Method GetParents, addr 0x4af8638, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetParents, addr 0x4af85c0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* GetParents(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetParentsAndSelf, addr 0x4af85c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetParentsAndSelf, addr 0x4af8550, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* GetParentsAndSelf(::UnityEngine::Transform* transform);
 
-  /// @brief Method GetRootParentOrSelf, addr 0x4af8490, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetRootParentOrSelf, addr 0x4af8418, size 0x138, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> GetRootParentOrSelf(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method get_AllLoadedScenes, addr 0x4af8214, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_AllLoadedScenes, addr 0x4af819c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllLoadedScenes();
 
-  /// @brief Method get_AllScenes, addr 0x4af8178, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_AllScenes, addr 0x4af8100, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::SceneManagement::Scene>* get_AllScenes();
 
-  /// @brief Method get_IsAltKeyDown, addr 0x4af8310, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsAltKeyDown, addr 0x4af8298, size 0x30, virtual false, abstract: false, final false
   static inline bool get_IsAltKeyDown();
 
-  /// @brief Method get_IsControlKeyDown, addr 0x4af8340, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsControlKeyDown, addr 0x4af82c8, size 0x30, virtual false, abstract: false, final false
   static inline bool get_IsControlKeyDown();
 
-  /// @brief Method get_IsShiftKeyDown, addr 0x4af8370, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsShiftKeyDown, addr 0x4af82f8, size 0x30, virtual false, abstract: false, final false
   static inline bool get_IsShiftKeyDown();
 
-  /// @brief Method get_WasAltKeyJustPressed, addr 0x4af83d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_WasAltKeyJustPressed, addr 0x4af8358, size 0x30, virtual false, abstract: false, final false
   static inline bool get_WasAltKeyJustPressed();
 
-  /// @brief Method get_WasShiftKeyJustPressed, addr 0x4af83a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_WasShiftKeyJustPressed, addr 0x4af8328, size 0x30, virtual false, abstract: false, final false
   static inline bool get_WasShiftKeyJustPressed();
 
 protected:

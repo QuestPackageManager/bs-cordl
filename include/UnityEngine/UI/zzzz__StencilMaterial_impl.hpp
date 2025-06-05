@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::StencilMaterial_MatEntry::*)()>(&::UnityEngine::UI::StencilMaterial_MatEntry::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4acd1a0;
+  constexpr static std::size_t addrs = 0x4acd128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::StencilMaterial_MatEntry*>::get(), ".ctor",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(&::UnityEngine::UI::StencilMaterial::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc6fc;
+  constexpr static std::size_t addrs = 0x4acc684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Material*, int32_t, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::CompareFunction, ::UnityEngine::Rendering::ColorWriteMask)>(
     &::UnityEngine::UI::StencilMaterial::Add)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4acc704;
+  constexpr static std::size_t addrs = 0x4acc68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::UnityEngine::UI::StencilMaterial::LogWarningWhenNotInBatchmode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4acd0f8;
+  constexpr static std::size_t addrs = 0x4acd080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,7 +212,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Material*, int32_t, ::UnityEngine::Rendering::StencilOp, ::UnityEngine::Rendering::CompareFunction, ::UnityEngine::Rendering::ColorWriteMask, int32_t, int32_t)>(
     &::UnityEngine::UI::StencilMaterial::Add)> {
   constexpr static std::size_t size = 0x968;
-  constexpr static std::size_t addrs = 0x4acc790;
+  constexpr static std::size_t addrs = 0x4acc718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::UnityEngine::UI::StencilMaterial::Remove)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4acd1b0;
+  constexpr static std::size_t addrs = 0x4acd138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UI::StencilMaterial::ClearAll)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4acd370;
+  constexpr static std::size_t addrs = 0x4acd2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::StencilMaterial*>::get(), "ClearAll",

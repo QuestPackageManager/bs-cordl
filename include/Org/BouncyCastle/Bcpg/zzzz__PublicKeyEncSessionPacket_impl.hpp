@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::_ctor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2644234;
+  constexpr static std::size_t addrs = 0x26441f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int64_t, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2649020;
+  constexpr static std::size_t addrs = 0x2648fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264913c;
+  constexpr static std::size_t addrs = 0x26490fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::get_KeyId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2649144;
+  constexpr static std::size_t addrs = 0x2649104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264914c;
+  constexpr static std::size_t addrs = 0x264910c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> (
     ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::*)()>(&::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::GetEncSessionKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2649154;
+  constexpr static std::size_t addrs = 0x2649114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket::Encode)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x264915c;
+  constexpr static std::size_t addrs = 0x264911c;
 
   inline static ::MethodInfo const* methodInfo() {
 

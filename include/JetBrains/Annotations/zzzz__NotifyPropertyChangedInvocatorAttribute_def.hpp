@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__ParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af33bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4af33c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af334c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW parameterName);
 
-  /// @brief Method get_ParameterName, addr 0x4af33ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterName, addr 0x4af3374, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParameterName();
 
-  /// @brief Method set_ParameterName, addr 0x4af33f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParameterName, addr 0x4af337c, size 0x8, virtual false, abstract: false, final false
   inline void set_ParameterName(::StringW value);
 
 protected:

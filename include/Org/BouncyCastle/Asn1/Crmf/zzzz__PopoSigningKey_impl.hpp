@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x2315af8;
+  constexpr static std::size_t addrs = 0x2315ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2315e78;
+  constexpr static std::size_t addrs = 0x2315e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2315ff4;
+  constexpr static std::size_t addrs = 0x2315fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x231600c;
+  constexpr static std::size_t addrs = 0x2315fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::get_PoposkInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2316048;
+  constexpr static std::size_t addrs = 0x2316008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::get_AlgorithmIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2316050;
+  constexpr static std::size_t addrs = 0x2316010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2316058;
+  constexpr static std::size_t addrs = 0x2316018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey::ToAsn1Object)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2316060;
+  constexpr static std::size_t addrs = 0x2316020;
 
   inline static ::MethodInfo const* methodInfo() {
 

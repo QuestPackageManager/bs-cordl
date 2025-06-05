@@ -32,13 +32,13 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method Deserialize, addr 0x22bacd8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22bac98, size 0x80, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x22bac58, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22bac18, size 0x80, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0x22baad8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22baa98, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 

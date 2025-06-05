@@ -76,21 +76,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x48371b0, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4837138, size 0x258, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Unity::XR::Oculus::OculusRestarter__PauseAndRestartCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4837448, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x48373d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4837450, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x48373d8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4837488, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4837410, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4837194, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x483711c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -117,10 +117,10 @@ public:
 
   constexpr void __cordl_internal_set_pauseTimeInSeconds(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x4837408, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4837390, size 0x40, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x48370c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4837050, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -207,21 +207,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x48374bc, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4837444, size 0x440, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Unity::XR::Oculus::OculusRestarter__RestartCoroutine_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4837a10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4837998, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4837a18, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x48379a0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4837a50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x48379d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4837490, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4837418, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -248,10 +248,10 @@ public:
 
   constexpr void __cordl_internal_set_shouldRestart(bool value);
 
-  /// @brief Method <>m__Finally1, addr 0x48378fc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4837884, size 0x114, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4837164, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48370ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -351,16 +351,16 @@ public:
 
   static inline ::Unity::XR::Oculus::OculusRestarter* New_ctor();
 
-  /// @brief Method PauseAndRestart, addr 0x4836f38, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method PauseAndRestart, addr 0x4836ec0, size 0x120, virtual false, abstract: false, final false
   inline void PauseAndRestart();
 
-  /// @brief Method PauseAndRestartCoroutine, addr 0x4837058, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method PauseAndRestartCoroutine, addr 0x4836fe0, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PauseAndRestartCoroutine(float_t pauseTimeInSeconds);
 
-  /// @brief Method ResetCallbacks, addr 0x4836be4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ResetCallbacks, addr 0x4836b6c, size 0x64, virtual false, abstract: false, final false
   inline void ResetCallbacks();
 
-  /// @brief Method RestartCoroutine, addr 0x48370f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RestartCoroutine, addr 0x4837078, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestartCoroutine(bool shouldRestart);
 
   constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get_m_Coroutine() const;
@@ -399,7 +399,7 @@ public:
 
   constexpr void __cordl_internal_set_onQuit(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x483718c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4837114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF__TimeBetweenRestartAttempts_k__BackingField();
@@ -410,16 +410,16 @@ public:
 
   static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> getStaticF_s_Instance();
 
-  /// @brief Method get_Instance, addr 0x4836d6c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x4836cf4, size 0x1cc, virtual false, abstract: false, final false
   static inline ::UnityW<::Unity::XR::Oculus::OculusRestarter> get_Instance();
 
-  /// @brief Method get_PauseAndRestartAttempts, addr 0x4836d14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_PauseAndRestartAttempts, addr 0x4836c9c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_PauseAndRestartAttempts();
 
-  /// @brief Method get_TimeBetweenRestartAttempts, addr 0x4836c58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_TimeBetweenRestartAttempts, addr 0x4836be0, size 0x58, virtual false, abstract: false, final false
   static inline float_t get_TimeBetweenRestartAttempts();
 
-  /// @brief Method get_isRunning, addr 0x4836c48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isRunning, addr 0x4836bd0, size 0x10, virtual false, abstract: false, final false
   inline bool get_isRunning();
 
   static inline void setStaticF__TimeBetweenRestartAttempts_k__BackingField(float_t value);
@@ -430,7 +430,7 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityW<::Unity::XR::Oculus::OculusRestarter> value);
 
-  /// @brief Method set_TimeBetweenRestartAttempts, addr 0x4836cb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_TimeBetweenRestartAttempts, addr 0x4836c38, size 0x64, virtual false, abstract: false, final false
   static inline void set_TimeBetweenRestartAttempts(float_t value);
 
 protected:

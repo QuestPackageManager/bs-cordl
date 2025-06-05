@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d1fd0;
+  constexpr static std::size_t addrs = 0x25d1f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d1fd8;
+  constexpr static std::size_t addrs = 0x25d1f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25d1fe0;
+  constexpr static std::size_t addrs = 0x25d1fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25d1fe4;
+  constexpr static std::size_t addrs = 0x25d1fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

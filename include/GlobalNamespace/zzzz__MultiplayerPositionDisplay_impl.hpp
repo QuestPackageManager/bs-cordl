@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::Start)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3bdffd0;
+  constexpr static std::size_t addrs = 0x3be0018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(), "Start",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(
     &::GlobalNamespace::MultiplayerPositionDisplay::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3be0108;
+  constexpr static std::size_t addrs = 0x3be0150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::Update)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3be0260;
+  constexpr static std::size_t addrs = 0x3be02a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(), "Update",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(
     &::GlobalNamespace::MultiplayerPositionDisplay::UpdateColors)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3be02ac;
+  constexpr static std::size_t addrs = 0x3be02f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(
     &::GlobalNamespace::MultiplayerPositionDisplay::UpdatePosition)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3be0344;
+  constexpr static std::size_t addrs = 0x3be038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(
     &::GlobalNamespace::MultiplayerPositionDisplay::HandlePlayerFailed)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3be04b4;
+  constexpr static std::size_t addrs = 0x3be04fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerPositionDisplay::HandleFirstPlayerDidChange)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be05ac;
+  constexpr static std::size_t addrs = 0x3be05f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)(::UnityEngine::Color, float_t)>(
     &::GlobalNamespace::MultiplayerPositionDisplay::ChangeColor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3be01e4;
+  constexpr static std::size_t addrs = 0x3be022c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionDisplay::*)()>(&::GlobalNamespace::MultiplayerPositionDisplay::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3be065c;
+  constexpr static std::size_t addrs = 0x3be06a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionDisplay*>::get(), ".ctor",

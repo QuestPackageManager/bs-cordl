@@ -87,16 +87,16 @@ public:
 
   constexpr void __cordl_internal_set_sn(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c3c880, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3c808, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* entry);
 
-  /// @brief Method get_Extensions, addr 0x3c3d494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3c3d41c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_RevocationDate, addr 0x3c3d48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x3c3d414, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_SerialNumber, addr 0x3c3cf08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3c3ce90, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
 protected:
@@ -184,27 +184,27 @@ public:
   /// @brief Field version, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-  /// @brief Method Compare, addr 0x3c3ccb8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c3cc40, size 0x90, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method GetCrlEntry, addr 0x3c3cdc4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x3c3cd4c, size 0x144, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl_X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber);
 
-  /// @brief Method GetCrlEntry, addr 0x3c3cd48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCrlEntry, addr 0x3c3ccd0, size 0x7c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl_X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
 
   static inline ::Mono::Security::X509::X509Crl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method Parse, addr 0x3c3c22c, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3c3c1b4, size 0x654, virtual false, abstract: false, final false
   inline void Parse(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method VerifySignature, addr 0x3c3d318, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c3d2a0, size 0x174, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
-  /// @brief Method VerifySignature, addr 0x3c3cf80, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c3cf08, size 0x2c4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method VerifySignature, addr 0x3c3d244, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c3d1cc, size 0xd4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
@@ -267,19 +267,19 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3c3c138, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3c0c0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method get_Extensions, addr 0x3c3ca88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3c3ca10, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_Hash, addr 0x3c3ca90, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x3c3ca18, size 0x218, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
 
-  /// @brief Method get_IssuerName, addr 0x3c3cca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x3c3cc30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_NextUpdate, addr 0x3c3ccb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x3c3cc38, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_NextUpdate();
 
 protected:

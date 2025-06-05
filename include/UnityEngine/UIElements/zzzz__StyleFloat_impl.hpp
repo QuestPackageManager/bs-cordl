@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::StyleFloat::*)()>(&::UnityEngine::UIElements::StyleFloat::get_value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a85ac4;
+  constexpr static std::size_t addrs = 0x4a85a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "get_value",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleFloat::*)()>(
     &::UnityEngine::UIElements::StyleFloat::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85adc;
+  constexpr static std::size_t addrs = 0x4a85a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "get_keyword",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(float_t)>(&::UnityEngine::UIElements::StyleFloat::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a85ae4;
+  constexpr static std::size_t addrs = 0x4a85a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFloat::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85af0;
+  constexpr static std::size_t addrs = 0x4a85a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(float_t, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFloat::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a845dc;
+  constexpr static std::size_t addrs = 0x4a84564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleFloat, ::UnityEngine::UIElements::StyleFloat)>(
     &::UnityEngine::UIElements::StyleFloat::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a85af8;
+  constexpr static std::size_t addrs = 0x4a85a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFloat (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFloat::op_Implicit___UnityEngine__UIElements__StyleFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a845e8;
+  constexpr static std::size_t addrs = 0x4a84570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFloat (*)(float_t)>(
     &::UnityEngine::UIElements::StyleFloat::op_Implicit___UnityEngine__UIElements__StyleFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85b20;
+  constexpr static std::size_t addrs = 0x4a85aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFloat::*)(::UnityEngine::UIElements::StyleFloat)>(
     &::UnityEngine::UIElements::StyleFloat::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a85b28;
+  constexpr static std::size_t addrs = 0x4a85ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFloat::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleFloat::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a85b50;
+  constexpr static std::size_t addrs = 0x4a85ad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleFloat::*)()>(&::UnityEngine::UIElements::StyleFloat::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a85bdc;
+  constexpr static std::size_t addrs = 0x4a85b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleFloat::*)()>(&::UnityEngine::UIElements::StyleFloat::ToString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a85c04;
+  constexpr static std::size_t addrs = 0x4a85b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::AxisEventData::*)()>(
     &::UnityEngine::EventSystems::AxisEventData::get_moveVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad7290;
+  constexpr static std::size_t addrs = 0x4ad7218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::EventSystems::AxisEventData::set_moveVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad7298;
+  constexpr static std::size_t addrs = 0x4ad7220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::MoveDirection (::UnityEngine::EventSystems::AxisEventData::*)()>(
     &::UnityEngine::EventSystems::AxisEventData::get_moveDir)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad72a0;
+  constexpr static std::size_t addrs = 0x4ad7228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AxisEventData*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::MoveDirection)>(
     &::UnityEngine::EventSystems::AxisEventData::set_moveDir)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad72a8;
+  constexpr static std::size_t addrs = 0x4ad7230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::EventSystems::AxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ad72b0;
+  constexpr static std::size_t addrs = 0x4ad7238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::UInt64Storage::*)(::System::Data::DataColumn*)>(
     &::System::Data::Common::UInt64Storage::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x420e0d0;
+  constexpr static std::size_t addrs = 0x420e058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::Common::UInt64Storage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::UInt64Storage::Aggregate)> {
   constexpr static std::size_t size = 0x84c;
-  constexpr static std::size_t addrs = 0x420e1e8;
+  constexpr static std::size_t addrs = 0x420e170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::UInt64Storage::*)(int32_t, int32_t)>(
     &::System::Data::Common::UInt64Storage::Compare)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x420ea34;
+  constexpr static std::size_t addrs = 0x420e9bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::UInt64Storage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::UInt64Storage::CompareValueTo)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x420eb3c;
+  constexpr static std::size_t addrs = 0x420eac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::UInt64Storage::*)(::System::Object*)>(
     &::System::Data::Common::UInt64Storage::ConvertValue)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x420ec58;
+  constexpr static std::size_t addrs = 0x420ebe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::UInt64Storage::*)(int32_t, int32_t)>(&::System::Data::Common::UInt64Storage::Copy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x420eda0;
+  constexpr static std::size_t addrs = 0x420ed28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::UInt64Storage::*)(int32_t)>(&::System::Data::Common::UInt64Storage::Get)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x420edf8;
+  constexpr static std::size_t addrs = 0x420ed80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::UInt64Storage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::UInt64Storage::Set)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x420eec8;
+  constexpr static std::size_t addrs = 0x420ee50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::UInt64Storage::*)(int32_t)>(&::System::Data::Common::UInt64Storage::SetCapacity)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x420f060;
+  constexpr static std::size_t addrs = 0x420efe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::UInt64Storage::*)(::StringW)>(
     &::System::Data::Common::UInt64Storage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x420f124;
+  constexpr static std::size_t addrs = 0x420f0ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::UInt64Storage::*)(::System::Object*)>(
     &::System::Data::Common::UInt64Storage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x420f1b0;
+  constexpr static std::size_t addrs = 0x420f138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::UInt64Storage::*)(int32_t)>(
     &::System::Data::Common::UInt64Storage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x420f248;
+  constexpr static std::size_t addrs = 0x420f1d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::Common::UInt64Storage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::UInt64Storage::CopyValue)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x420f290;
+  constexpr static std::size_t addrs = 0x420f218;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::UInt64Storage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::UInt64Storage::SetStorage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x420f390;
+  constexpr static std::size_t addrs = 0x420f318;
 
   inline static ::MethodInfo const* methodInfo() {
 

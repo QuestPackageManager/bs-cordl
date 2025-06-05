@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::add_playerDidFailEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb95d8;
+  constexpr static std::size_t addrs = 0x3bb9620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::remove_playerDidFailEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bb90e4;
+  constexpr static std::size_t addrs = 0x3bb912c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::Start)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3bba21c;
+  constexpr static std::size_t addrs = 0x3bba264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::OnDestroy)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3bba3c4;
+  constexpr static std::size_t addrs = 0x3bba40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::CheckIfPlayerFailed)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3bba56c;
+  constexpr static std::size_t addrs = 0x3bba5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::HandlePlayerDisconnected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bba758;
+  constexpr static std::size_t addrs = 0x3bba7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::HandlePlayerStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bba75c;
+  constexpr static std::size_t addrs = 0x3bba7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bba760;
+  constexpr static std::size_t addrs = 0x3bba7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

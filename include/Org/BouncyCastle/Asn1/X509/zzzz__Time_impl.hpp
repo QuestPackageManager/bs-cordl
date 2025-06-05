@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Time* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::Time::GetInstance)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2612908;
+  constexpr static std::size_t addrs = 0x26128c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Time::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::X509::Time::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2612924;
+  constexpr static std::size_t addrs = 0x26128e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Time::*)(::System::DateTime)>(&::Org::BouncyCastle::Asn1::X509::Time::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x2612a5c;
+  constexpr static std::size_t addrs = 0x2612a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Time* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::Time::GetInstance)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x26116e8;
+  constexpr static std::size_t addrs = 0x26116a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::Time::*)()>(&::Org::BouncyCastle::Asn1::X509::Time::GetTime)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2612bf0;
+  constexpr static std::size_t addrs = 0x2612bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Time*>::get(), "GetTime",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::X509::Time::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Time::ToDateTime)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x2612cb8;
+  constexpr static std::size_t addrs = 0x2612c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Time*>::get(), "ToDateTime",
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Time::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Time::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2612e68;
+  constexpr static std::size_t addrs = 0x2612e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::Time::*)()>(&::Org::BouncyCastle::Asn1::X509::Time::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2612e70;
+  constexpr static std::size_t addrs = 0x2612e30;
 
   inline static ::MethodInfo const* methodInfo() {
 

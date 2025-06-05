@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(
     ::System::IO::Stream*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2437528;
+  constexpr static std::size_t addrs = 0x24374e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(
     ::System::IO::Stream*, ::System::IO::Stream*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x243754c;
+  constexpr static std::size_t addrs = 0x243750c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2437570;
+  constexpr static std::size_t addrs = 0x2437530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::Org::BouncyCastle::Crypto::Tls::TlsServer*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::Accept)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x2437594;
+  constexpr static std::size_t addrs = 0x2437554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::CleanupHandshake)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2437890;
+  constexpr static std::size_t addrs = 0x2437850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsContext* (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::get_Context)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24378b4;
+  constexpr static std::size_t addrs = 0x2437874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::get_ContextAdmin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24378bc;
+  constexpr static std::size_t addrs = 0x243787c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsPeer* (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::get_Peer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24378c4;
+  constexpr static std::size_t addrs = 0x2437884;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(uint8_t, ::System::IO::MemoryStream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::HandleHandshakeMessage)> {
   constexpr static std::size_t size = 0xcf0;
-  constexpr static std::size_t addrs = 0x24378cc;
+  constexpr static std::size_t addrs = 0x243788c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::HandleAlertWarningMessage)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x243898c;
+  constexpr static std::size_t addrs = 0x243894c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::Org::BouncyCastle::Crypto::Tls::Certificate*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::NotifyClientCertificate)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x2438b00;
+  constexpr static std::size_t addrs = 0x2438ac0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::System::IO::MemoryStream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::ReceiveCertificateMessage)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24390f0;
+  constexpr static std::size_t addrs = 0x24390b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::System::IO::MemoryStream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::ReceiveCertificateVerifyMessage)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x243917c;
+  constexpr static std::size_t addrs = 0x243913c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::System::IO::MemoryStream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::ReceiveClientHelloMessage)> {
   constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x2439d34;
+  constexpr static std::size_t addrs = 0x2439cf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::System::IO::MemoryStream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::ReceiveClientKeyExchangeMessage)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x243a7a4;
+  constexpr static std::size_t addrs = 0x243a764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::Org::BouncyCastle::Crypto::Tls::CertificateRequest*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::SendCertificateRequestMessage)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x243aa80;
+  constexpr static std::size_t addrs = 0x243aa40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::Org::BouncyCastle::Crypto::Tls::CertificateStatus*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::SendCertificateStatusMessage)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x243ab10;
+  constexpr static std::size_t addrs = 0x243aad0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::SendNewSessionTicketMessage)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x243aba0;
+  constexpr static std::size_t addrs = 0x243ab60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::SendServerHelloMessage)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x243ac5c;
+  constexpr static std::size_t addrs = 0x243ac1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::SendServerHelloDoneMessage)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x243b780;
+  constexpr static std::size_t addrs = 0x243b740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::SendServerKeyExchangeMessage)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x243b8ac;
+  constexpr static std::size_t addrs = 0x243b86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsServerProtocol::ExpectCertificateVerifyMessage)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x243b934;
+  constexpr static std::size_t addrs = 0x243b8f4;
 
   inline static ::MethodInfo const* methodInfo() {
 

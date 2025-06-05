@@ -44,7 +44,7 @@ public:
   /// @brief Field _normalizedGravity, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity)) ::UnityEngine::Vector2 _normalizedGravity;
 
-  /// @brief Method GetTiltAngle, addr 0x225fc90, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetTiltAngle, addr 0x225fc50, size 0x2c8, virtual false, abstract: false, final false
   inline float_t GetTiltAngle();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__normalizedGravity(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x225fbb0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225fb70, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity);
 
 protected:

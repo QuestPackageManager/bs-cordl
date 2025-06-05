@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::cordl_internals::Ptr<uint8_t>)>(
     &::Mono::Security::BitConverterLE::GetUIntBytes)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c61a6c;
+  constexpr static std::size_t addrs = 0x3c619f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::cordl_internals::Ptr<uint8_t>)>(
     &::Mono::Security::BitConverterLE::GetULongBytes)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3c61b04;
+  constexpr static std::size_t addrs = 0x3c61a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(float_t)>(&::Mono::Security::BitConverterLE::GetBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c61bdc;
+  constexpr static std::size_t addrs = 0x3c61b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(double_t)>(&::Mono::Security::BitConverterLE::GetBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c61bf4;
+  constexpr static std::size_t addrs = 0x3c61b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Mono::Security::BitConverterLE::UIntFromBytes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c61c0c;
+  constexpr static std::size_t addrs = 0x3c61b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Mono::Security::BitConverterLE::ULongFromBytes)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3c61c90;
+  constexpr static std::size_t addrs = 0x3c61c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::BitConverterLE::ToSingle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c61ce4;
+  constexpr static std::size_t addrs = 0x3c61c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::BitConverterLE::ToDouble)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c61d08;
+  constexpr static std::size_t addrs = 0x3c61c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

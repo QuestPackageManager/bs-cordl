@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NotEqualInstruction_NotEqualUInt64LiftedToNull::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::NotEqualInstruction_NotEqualUInt64LiftedToNull::Run)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x40f15a8;
+  constexpr static std::size_t addrs = 0x40f1530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NotEqualInstruction_NotEqualUInt64LiftedToNull::*)()>(
     &::GlobalNamespace::NotEqualInstruction_NotEqualUInt64LiftedToNull::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f02d4;
+  constexpr static std::size_t addrs = 0x40f025c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

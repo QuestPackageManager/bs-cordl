@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::OnEnable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44d4868;
+  constexpr static std::size_t addrs = 0x44d47f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "OnEnable",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::Update)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44d48b8;
+  constexpr static std::size_t addrs = 0x44d4840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "Update",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::UpdateParameters)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x44d4950;
+  constexpr static std::size_t addrs = 0x44d48d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "UpdateParameters",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::Init)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x44d4af8;
+  constexpr static std::size_t addrs = 0x44d4a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), "Init",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::UpdateGraph)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x44d4c2c;
+  constexpr static std::size_t addrs = 0x44d4bb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::CreatePoints)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x44d5140;
+  constexpr static std::size_t addrs = 0x44d50c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Audio::G_AudioGraph::*)()>(&::Tayx::Graphy::Audio::G_AudioGraph::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44d5354;
+  constexpr static std::size_t addrs = 0x44d52dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Audio::G_AudioGraph*>::get(), ".ctor",

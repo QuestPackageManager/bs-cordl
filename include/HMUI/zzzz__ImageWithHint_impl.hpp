@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)(::UnityEngine::Sprite*)>(&::HMUI::ImageWithHint::set_sprite)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f8958;
+  constexpr static std::size_t addrs = 0x39f8930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_sprite)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f8974;
+  constexpr static std::size_t addrs = 0x39f894c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageWithHint*>::get(), "get_sprite",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)(::StringW)>(&::HMUI::ImageWithHint::set_hintText)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f8990;
+  constexpr static std::size_t addrs = 0x39f8968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_imageColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f89ac;
+  constexpr static std::size_t addrs = 0x39f8984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageWithHint*>::get(), "get_imageColor",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)(::UnityEngine::Color)>(&::HMUI::ImageWithHint::set_imageColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f89d0;
+  constexpr static std::size_t addrs = 0x39f89a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f89f4;
+  constexpr static std::size_t addrs = 0x39f89cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageWithHint*>::get(), ".ctor",

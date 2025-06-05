@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController_ColorValuePair::*)()>(
     &::GlobalNamespace::NamedColorListController_ColorValuePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c28500;
+  constexpr static std::size_t addrs = 0x3c28488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedColorListController::add_valueChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c28254;
+  constexpr static std::size_t addrs = 0x3c281dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedColorListController::remove_valueChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c28304;
+  constexpr static std::size_t addrs = 0x3c2828c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*>, int32_t)>(
     &::GlobalNamespace::NamedColorListController::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c283b4;
+  constexpr static std::size_t addrs = 0x3c2833c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(int32_t)>(
     &::GlobalNamespace::NamedColorListController::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c283f0;
+  constexpr static std::size_t addrs = 0x3c28378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedColorListController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::NamedColorListController::GetInitValues)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c28428;
+  constexpr static std::size_t addrs = 0x3c283b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)(int32_t)>(
     &::GlobalNamespace::NamedColorListController::ApplyValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c2849c;
+  constexpr static std::size_t addrs = 0x3c28424;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::NamedColorListController::*)(int32_t)>(
     &::GlobalNamespace::NamedColorListController::ColorForValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c284bc;
+  constexpr static std::size_t addrs = 0x3c28444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedColorListController::*)()>(&::GlobalNamespace::NamedColorListController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c284f8;
+  constexpr static std::size_t addrs = 0x3c28480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedColorListController*>::get(), ".ctor",

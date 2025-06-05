@@ -26,24 +26,24 @@ public:
   /// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_SpinCountforSpinBeforeWait, put = setStaticF_SpinCountforSpinBeforeWait)) int32_t SpinCountforSpinBeforeWait;
 
-  /// @brief Method Reset, addr 0x3e4fbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3e4fb38, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SpinOnce, addr 0x3e4f898, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x3e4f820, size 0x58, virtual false, abstract: false, final false
   inline void SpinOnce();
 
-  /// @brief Method SpinOnce, addr 0x3e4f4e4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x3e4f46c, size 0xf8, virtual false, abstract: false, final false
   inline void SpinOnce(int32_t sleep1Threshold);
 
-  /// @brief Method SpinOnceCore, addr 0x3e4fa04, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SpinOnceCore, addr 0x3e4f98c, size 0x1ac, virtual false, abstract: false, final false
   inline void SpinOnceCore(int32_t sleep1Threshold);
 
   static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-  /// @brief Method get_Count, addr 0x3e4f984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3e4f90c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NextSpinWillYield, addr 0x3e4f98c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NextSpinWillYield, addr 0x3e4f914, size 0x78, virtual false, abstract: false, final false
   inline bool get_NextSpinWillYield();
 
   static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t value);

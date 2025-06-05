@@ -51,15 +51,15 @@ public:
 
   __declspec(property(get = get_isEdgeDistanceFromCenterCalculated, put = set_isEdgeDistanceFromCenterCalculated)) bool isEdgeDistanceFromCenterCalculated;
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x3bcd764, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x3bcd7ac, size 0x78, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::MultiplayerCenterResizeController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bcd88c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bcd8d4, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bcd6c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bcd70c, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__edgeDistanceFromCenter_k__BackingField() const;
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bcd9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcda10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3bcd540, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3bcd588, size 0xb0, virtual false, abstract: false, final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_edgeDistanceFromCenter, addr 0x3bcd6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edgeDistanceFromCenter, addr 0x3bcd6fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_edgeDistanceFromCenter();
 
-  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x3bcd6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x3bcd6e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEdgeDistanceFromCenterCalculated();
 
-  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3bcd5f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3bcd638, size 0xb0, virtual false, abstract: false, final false
   inline void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method set_edgeDistanceFromCenter, addr 0x3bcd6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_edgeDistanceFromCenter, addr 0x3bcd704, size 0x8, virtual false, abstract: false, final false
   inline void set_edgeDistanceFromCenter(float_t value);
 
-  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x3bcd6a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x3bcd6f0, size 0xc, virtual false, abstract: false, final false
   inline void set_isEdgeDistanceFromCenterCalculated(bool value);
 
 protected:

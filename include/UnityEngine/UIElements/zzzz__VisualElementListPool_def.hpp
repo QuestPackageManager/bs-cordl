@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementListPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x499ddd4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x499dd5c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* __cctor_b__4_0();
 
-  /// @brief Method .ctor, addr 0x499ddcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499dd54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VisualElementListPool___c* getStaticF___9();
@@ -85,13 +85,13 @@ public:
   /// @brief Field pool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_pool, put = setStaticF_pool)) ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* pool;
 
-  /// @brief Method Copy, addr 0x499da20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x499d9a8, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method Get, addr 0x499dacc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x499da54, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
 
-  /// @brief Method Release, addr 0x499dbac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x499db34, size 0xb4, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* getStaticF_pool();

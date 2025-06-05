@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2405e40;
+  constexpr static std::size_t addrs = 0x2405e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2409194;
+  constexpr static std::size_t addrs = 0x2409154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)(::Org::BouncyCastle::Asn1::DerGeneralizedTime*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24094cc;
+  constexpr static std::size_t addrs = 0x240948c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)(
     ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::X509::CrlReason*)>(&::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24094d4;
+  constexpr static std::size_t addrs = 0x2409494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x2409310;
+  constexpr static std::size_t addrs = 0x24092d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::get_RevocationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x240954c;
+  constexpr static std::size_t addrs = 0x240950c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlReason* (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::get_RevocationReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2409554;
+  constexpr static std::size_t addrs = 0x2409514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x240955c;
+  constexpr static std::size_t addrs = 0x240951c;
 
   inline static ::MethodInfo const* methodInfo() {
 

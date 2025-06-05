@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* (
     ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::*)(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::SetPublicKey)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264ec24;
+  constexpr static std::size_t addrs = 0x264ebe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* (
     ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::SetIssuer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264ec54;
+  constexpr static std::size_t addrs = 0x264ec14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* (
     ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::SetSerialNumber)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x264ec84;
+  constexpr static std::size_t addrs = 0x264ec44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* (
     ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::SetSubject)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264ed10;
+  constexpr static std::size_t addrs = 0x264ecd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::RevocationDetails* (::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::*)()>(
     &::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::Build)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x264ed40;
+  constexpr static std::size_t addrs = 0x264ed00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::*)()>(
     &::Org::BouncyCastle::Cmp::RevocationDetailsBuilder::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x264edec;
+  constexpr static std::size_t addrs = 0x264edac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder*>::get(),

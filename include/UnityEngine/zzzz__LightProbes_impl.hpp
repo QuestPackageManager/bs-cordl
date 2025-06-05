@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4877730;
+  constexpr static std::size_t addrs = 0x48776b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_lightProbesUpdated)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4877788;
+  constexpr static std::size_t addrs = 0x4877710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_lightProbesUpdated)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4877840;
+  constexpr static std::size_t addrs = 0x48777c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallLightProbesUpdatedFunction)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48778f8;
+  constexpr static std::size_t addrs = 0x4877880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_tetrahedralizationCompleted)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x487795c;
+  constexpr static std::size_t addrs = 0x48778e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_tetrahedralizationCompleted)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4877a18;
+  constexpr static std::size_t addrs = 0x48779a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallTetrahedralizationCompletedFunction)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4877ad4;
+  constexpr static std::size_t addrs = 0x4877a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_needsRetetrahedralization)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4877b38;
+  constexpr static std::size_t addrs = 0x4877ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_needsRetetrahedralization)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4877bf4;
+  constexpr static std::size_t addrs = 0x4877b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallNeedsRetetrahedralizationFunction)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4877cb0;
+  constexpr static std::size_t addrs = 0x4877c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Tetrahedralize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4877d14;
+  constexpr static std::size_t addrs = 0x4877c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "Tetrahedralize",
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::TetrahedralizeAsync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4877d3c;
+  constexpr static std::size_t addrs = 0x4877cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "TetrahedralizeAsync",
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Renderer*, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
     &::UnityEngine::LightProbes::GetInterpolatedProbe)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4877d64;
+  constexpr static std::size_t addrs = 0x4877cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Renderer*)>(&::UnityEngine::LightProbes::AreLightProbesAllowed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4877e14;
+  constexpr static std::size_t addrs = 0x4877d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*>,
     ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4877e50;
+  constexpr static std::size_t addrs = 0x4877dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,7 +230,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*,
                          ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x4878030;
+  constexpr static std::size_t addrs = 0x4877fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,7 +248,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, int32_t, ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*>,
     ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes_Internal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4877fd4;
+  constexpr static std::size_t addrs = 0x4877f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::LightProbes::*)()>(
     &::UnityEngine::LightProbes::get_positions)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48782c0;
+  constexpr static std::size_t addrs = 0x4878248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_positions",
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> (
     ::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_bakedProbes)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48782fc;
+  constexpr static std::size_t addrs = 0x4878284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_bakedProbes",
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightProbes::*)(
     ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*>)>(&::UnityEngine::LightProbes::set_bakedProbes)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4878338;
+  constexpr static std::size_t addrs = 0x48782c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_count)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487837c;
+  constexpr static std::size_t addrs = 0x4878304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_count",
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_cellCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48783b8;
+  constexpr static std::size_t addrs = 0x4878340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCount",
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::LightProbes::GetCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48783f4;
+  constexpr static std::size_t addrs = 0x487837c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetCount",
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::LightProbes::*)(::UnityEngine::Vector3, ::UnityEngine::Renderer*, ::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityEngine::LightProbes::GetInterpolatedLightProbe)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x487841c;
+  constexpr static std::size_t addrs = 0x48783a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::UnityEngine::LightProbes::*)()>(
     &::UnityEngine::LightProbes::get_coefficients)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4878420;
+  constexpr static std::size_t addrs = 0x48783a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_coefficients",
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightProbes::*)(::ArrayW<float_t, ::Array<float_t>*>)>(
     &::UnityEngine::LightProbes::set_coefficients)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4878464;
+  constexpr static std::size_t addrs = 0x48783ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ByRef<::UnityEngine::Vector3>, ::UnityEngine::Renderer*, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(&::UnityEngine::LightProbes::GetInterpolatedProbe_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4877dc0;
+  constexpr static std::size_t addrs = 0x4877d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -31,7 +31,7 @@ public:
 
   __declspec(property(put = set_text)) ::StringW text;
 
-  /// @brief Method Awake, addr 0x3c27b6c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c27af4, size 0xb0, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecSettingsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c27d54, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c27cdc, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x3c27f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c27f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_enableDec, addr 0x3c27a8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x3c27a14, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x3c27ad4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x3c27a5c, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
-  /// @brief Method set_text, addr 0x3c27b1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3c27aa4, size 0x2c, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

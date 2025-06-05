@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Data::Common::ADP::TraceException)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x41daa88;
+  constexpr static std::size_t addrs = 0x41daa10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Data::Common::ADP::TraceExceptionAsReturnValue)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x41dab20;
+  constexpr static std::size_t addrs = 0x41daaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Data::Common::ADP::TraceExceptionWithoutRethrow)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x41dab8c;
+  constexpr static std::size_t addrs = 0x41dab14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentException* (*)(::StringW)>(&::System::Data::Common::ADP::Argument)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41dabf8;
+  constexpr static std::size_t addrs = 0x41dab80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW)>(&::System::Data::Common::ADP::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41dac88;
+  constexpr static std::size_t addrs = 0x41dac10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::StringW, ::StringW)>(&::System::Data::Common::ADP::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x41dad18;
+  constexpr static std::size_t addrs = 0x41daca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)(::StringW)>(&::System::Data::Common::ADP::InvalidOperation)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41dadb0;
+  constexpr static std::size_t addrs = 0x41dad38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotSupportedException* (*)(::StringW)>(&::System::Data::Common::ADP::NotSupported)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41dae40;
+  constexpr static std::size_t addrs = 0x41dadc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&::System::Data::Common::ADP::IsCatchableExceptionType)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x41daed0;
+  constexpr static std::size_t addrs = 0x41dae58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Exception*)>(&::System::Data::Common::ADP::IsCatchableOrSecurityExceptionType)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x41db0dc;
+  constexpr static std::size_t addrs = 0x41db064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Type*, int32_t)>(
     &::System::Data::Common::ADP::InvalidEnumerationValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x41db2b0;
+  constexpr static std::size_t addrs = 0x41db238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::Common::ADP::InvalidSeekOrigin)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x41db3bc;
+  constexpr static std::size_t addrs = 0x41db344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::AcceptRejectRule)>(
     &::System::Data::Common::ADP::InvalidAcceptRejectRule)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x41db428;
+  constexpr static std::size_t addrs = 0x41db3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::MissingSchemaAction)>(
     &::System::Data::Common::ADP::InvalidMissingSchemaAction)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x41db4d8;
+  constexpr static std::size_t addrs = 0x41db460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ArgumentOutOfRangeException* (*)(::System::Data::Rule)>(&::System::Data::Common::ADP::InvalidRule)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x41db588;
+  constexpr static std::size_t addrs = 0x41db510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&::System::Data::Common::ADP::WrongType)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x41db638;
+  constexpr static std::size_t addrs = 0x41db5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

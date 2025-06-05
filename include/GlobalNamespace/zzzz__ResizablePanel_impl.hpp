@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)()>(&::GlobalNamespace::ResizablePanel::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39e7304;
+  constexpr static std::size_t addrs = 0x39e72dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResizablePanel*>::get(), "OnDestroy",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)(::UnityEngine::Vector2, float_t)>(
     &::GlobalNamespace::ResizablePanel::Resize)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x39e738c;
+  constexpr static std::size_t addrs = 0x39e7364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)(::UnityEngine::Vector2)>(&::GlobalNamespace::ResizablePanel::SetSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39e752c;
+  constexpr static std::size_t addrs = 0x39e7504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)()>(&::GlobalNamespace::ResizablePanel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e7548;
+  constexpr static std::size_t addrs = 0x39e7520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResizablePanel*>::get(), ".ctor",

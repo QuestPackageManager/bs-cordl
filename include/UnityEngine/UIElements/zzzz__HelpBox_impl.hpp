@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox_UxmlFactory::*)()>(&::UnityEngine::UIElements::HelpBox_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x499a8e0;
+  constexpr static std::size_t addrs = 0x499a868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::HelpBox_UxmlFactory*>::get(), ".ctor",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::HelpBox_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x499a928;
+  constexpr static std::size_t addrs = 0x499a8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox_UxmlTraits::*)()>(&::UnityEngine::UIElements::HelpBox_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x499aa7c;
+  constexpr static std::size_t addrs = 0x499aa04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::HelpBox_UxmlTraits*>::get(), ".ctor",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox::*)(::StringW)>(&::UnityEngine::UIElements::HelpBox::set_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x499a418;
+  constexpr static std::size_t addrs = 0x499a3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox::*)(::UnityEngine::UIElements::HelpBoxMessageType)>(
     &::UnityEngine::UIElements::HelpBox::set_messageType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x499a43c;
+  constexpr static std::size_t addrs = 0x499a3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox::*)()>(&::UnityEngine::UIElements::HelpBox::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x499a508;
+  constexpr static std::size_t addrs = 0x499a490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::HelpBox*>::get(), ".ctor",
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox::*)(::StringW, ::UnityEngine::UIElements::HelpBoxMessageType)>(
     &::UnityEngine::UIElements::HelpBox::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x499a55c;
+  constexpr static std::size_t addrs = 0x499a4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::HelpBox::*)(::UnityEngine::UIElements::HelpBoxMessageType)>(
     &::UnityEngine::UIElements::HelpBox::GetIconClass)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x499a6ac;
+  constexpr static std::size_t addrs = 0x499a634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HelpBox::*)(::UnityEngine::UIElements::HelpBoxMessageType)>(
     &::UnityEngine::UIElements::HelpBox::UpdateIcon)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x499a454;
+  constexpr static std::size_t addrs = 0x499a3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::RightShiftInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RightShiftInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f5338;
+  constexpr static std::size_t addrs = 0x40f52c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::RightShiftInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RightShiftInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f5340;
+  constexpr static std::size_t addrs = 0x40f52c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::RightShiftInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RightShiftInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40f5348;
+  constexpr static std::size_t addrs = 0x40f52d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::RightShiftInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RightShiftInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f5388;
+  constexpr static std::size_t addrs = 0x40f5310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::RightShiftInstruction::Create)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x40f5390;
+  constexpr static std::size_t addrs = 0x40f5318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

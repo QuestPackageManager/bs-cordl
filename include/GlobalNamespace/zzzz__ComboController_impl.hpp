@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ComboController::*)()>(&::GlobalNamespace::ComboController::get_maxCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bec804;
+  constexpr static std::size_t addrs = 0x3bec84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboController*>::get(), "get_maxCombo",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::ComboController::add_comboDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bec80c;
+  constexpr static std::size_t addrs = 0x3bec854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::ComboController::remove_comboDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bec8bc;
+  constexpr static std::size_t addrs = 0x3bec904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)(::System::Action*)>(
     &::GlobalNamespace::ComboController::add_comboBreakingEventHappenedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bec96c;
+  constexpr static std::size_t addrs = 0x3bec9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)(::System::Action*)>(
     &::GlobalNamespace::ComboController::remove_comboBreakingEventHappenedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3beca08;
+  constexpr static std::size_t addrs = 0x3beca50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)()>(&::GlobalNamespace::ComboController::Start)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3becaa4;
+  constexpr static std::size_t addrs = 0x3becaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboController*>::get(), "Start",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)()>(&::GlobalNamespace::ComboController::OnDestroy)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3becbe8;
+  constexpr static std::size_t addrs = 0x3becc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboController*>::get(), "OnDestroy",
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)()>(
     &::GlobalNamespace::ComboController::HandlePlayerHeadDidEnterObstacles)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3becd78;
+  constexpr static std::size_t addrs = 0x3becdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::ComboController::*)(::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::ComboController::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3becdd0;
+  constexpr static std::size_t addrs = 0x3bece18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::ComboController::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3bece6c;
+  constexpr static std::size_t addrs = 0x3beceb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ComboController::*)()>(&::GlobalNamespace::ComboController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becef0;
+  constexpr static std::size_t addrs = 0x3becf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ComboController*>::get(), ".ctor",

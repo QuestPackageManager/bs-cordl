@@ -1,610 +1,426 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/AndroidJNI.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__AndroidJNI_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "UnityEngine/zzzz__AndroidJNI_def.hpp"
 #include "UnityEngine/zzzz__JNINativeMethod_def.hpp"
 #include "UnityEngine/zzzz__jvalue_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetJavaVM
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)()>(
-        &::UnityEngine::AndroidJNI::GetJavaVM)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::AndroidJNI::GetJavaVM)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d4a4;
+  constexpr static std::size_t addrs = 0x483d42c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetJavaVM", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetJavaVM",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.AttachCurrentThread
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.AttachCurrentThread
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)()>(
-        &::UnityEngine::AndroidJNI::AttachCurrentThread)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::AttachCurrentThread)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d4cc;
+  constexpr static std::size_t addrs = 0x483d454;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "AttachCurrentThread", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "AttachCurrentThread",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.DetachCurrentThread
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.DetachCurrentThread
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)()>(
-        &::UnityEngine::AndroidJNI::DetachCurrentThread)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::DetachCurrentThread)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d4f4;
+  constexpr static std::size_t addrs = 0x483d47c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "DetachCurrentThread", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DetachCurrentThread",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::GetVersion)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::AndroidJNI::GetVersion)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d51c;
+  constexpr static std::size_t addrs = 0x483d4a4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetVersion", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetVersion",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FindClass
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::StringW)>(
-        &::UnityEngine::AndroidJNI::FindClass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::FindClass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d544;
+  constexpr static std::size_t addrs = 0x483d4cc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FindClass", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FindClass", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.FromReflectedMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.FromReflectedMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromReflectedMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromReflectedMethod)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d580;
+  constexpr static std::size_t addrs = 0x483d508;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromReflectedMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromReflectedMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromReflectedField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromReflectedField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromReflectedField)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d5bc;
+  constexpr static std::size_t addrs = 0x483d544;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromReflectedField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromReflectedField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToReflectedMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(
-        &::UnityEngine::AndroidJNI::ToReflectedMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::ToReflectedMethod)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483d5f8;
+  constexpr static std::size_t addrs = 0x483d580;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToReflectedMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToReflectedMethod", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToReflectedField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(
-        &::UnityEngine::AndroidJNI::ToReflectedField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::ToReflectedField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483d64c;
+  constexpr static std::size_t addrs = 0x483d5d4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToReflectedField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToReflectedField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetSuperclass
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetSuperclass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetSuperclass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d6a0;
+  constexpr static std::size_t addrs = 0x483d628;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetSuperclass", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetSuperclass", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.IsAssignableFrom
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::IsAssignableFrom)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::IsAssignableFrom)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483d6dc;
+  constexpr static std::size_t addrs = 0x483d664;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "IsAssignableFrom", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "IsAssignableFrom", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.Throw
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::Throw)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::Throw)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d720;
+  constexpr static std::size_t addrs = 0x483d6a8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "Throw", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "Throw", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ThrowNew
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::StringW)>(
-        &::UnityEngine::AndroidJNI::ThrowNew)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidJNI::ThrowNew)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483d75c;
+  constexpr static std::size_t addrs = 0x483d6e4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ThrowNew", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ThrowNew", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ExceptionOccurred
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)()>(
-        &::UnityEngine::AndroidJNI::ExceptionOccurred)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::AndroidJNI::ExceptionOccurred)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d7a0;
+  constexpr static std::size_t addrs = 0x483d728;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ExceptionOccurred", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ExceptionOccurred",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ExceptionDescribe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)()>(&::UnityEngine::AndroidJNI::ExceptionDescribe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::AndroidJNI::ExceptionDescribe)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d7c8;
+  constexpr static std::size_t addrs = 0x483d750;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ExceptionDescribe", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ExceptionDescribe",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ExceptionClear
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)()>(&::UnityEngine::AndroidJNI::ExceptionClear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::AndroidJNI::ExceptionClear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d7f0;
+  constexpr static std::size_t addrs = 0x483d778;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ExceptionClear", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ExceptionClear",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FatalError
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::StringW)>(&::UnityEngine::AndroidJNI::FatalError)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::AndroidJNI::FatalError)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d818;
+  constexpr static std::size_t addrs = 0x483d7a0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FatalError", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FatalError", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.PushLocalFrame
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::PushLocalFrame)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::AndroidJNI::PushLocalFrame)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d854;
+  constexpr static std::size_t addrs = 0x483d7dc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "PushLocalFrame", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "PushLocalFrame", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.PopLocalFrame
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::PopLocalFrame)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::PopLocalFrame)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d890;
+  constexpr static std::size_t addrs = 0x483d818;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "PopLocalFrame", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "PopLocalFrame", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewGlobalRef
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::NewGlobalRef)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d8cc;
+  constexpr static std::size_t addrs = 0x483d854;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewGlobalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.DeleteGlobalRef
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::DeleteGlobalRef)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::DeleteGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x483d890;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DeleteGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.QueueDeleteGlobalRef
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::QueueDeleteGlobalRef)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x483d8cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "QueueDeleteGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetQueueGlobalRefsCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::UnityEngine::AndroidJNI::GetQueueGlobalRefsCount)> {
+  constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x483d908;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "DeleteGlobalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.QueueDeleteGlobalRef
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::QueueDeleteGlobalRef)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d944;
-
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "QueueDeleteGlobalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetQueueGlobalRefsCount
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<uint32_t (*)()>(
-        &::UnityEngine::AndroidJNI::GetQueueGlobalRefsCount)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x483d980;
-
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetQueueGlobalRefsCount", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetQueueGlobalRefsCount",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewWeakGlobalRef
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::NewWeakGlobalRef)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewWeakGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d9a8;
+  constexpr static std::size_t addrs = 0x483d930;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewWeakGlobalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewWeakGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.DeleteWeakGlobalRef
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.DeleteWeakGlobalRef
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::DeleteWeakGlobalRef)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::DeleteWeakGlobalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483d9e4;
+  constexpr static std::size_t addrs = 0x483d96c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "DeleteWeakGlobalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DeleteWeakGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewLocalRef
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::NewLocalRef)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewLocalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483da20;
+  constexpr static std::size_t addrs = 0x483d9a8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewLocalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewLocalRef", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.DeleteLocalRef
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::DeleteLocalRef)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::DeleteLocalRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483da5c;
+  constexpr static std::size_t addrs = 0x483d9e4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "DeleteLocalRef", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DeleteLocalRef", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.IsSameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::IsSameObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::IsSameObject)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483da98;
+  constexpr static std::size_t addrs = 0x483da20;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "IsSameObject", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "IsSameObject", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.EnsureLocalCapacity
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.EnsureLocalCapacity
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::EnsureLocalCapacity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::AndroidJNI::EnsureLocalCapacity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483dadc;
+  constexpr static std::size_t addrs = 0x483da64;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "EnsureLocalCapacity", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "EnsureLocalCapacity", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.AllocObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::AllocObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::AllocObject)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483db18;
+  constexpr static std::size_t addrs = 0x483daa0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "AllocObject", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "AllocObject", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -612,453 +428,302 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::NewObject)> {
+    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(&::UnityEngine::AndroidJNI::NewObject)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483db54;
+  constexpr static std::size_t addrs = 0x483dadc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewObject", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObject", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr,
-                                     ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::NewObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::NewObject)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483dbbc;
+  constexpr static std::size_t addrs = 0x483db44;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewObject", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObject", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewObjectA
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::NewObjectA)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::NewObjectA)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483dc54;
+  constexpr static std::size_t addrs = 0x483dbdc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewObjectA", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObjectA", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetObjectClass
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetObjectClass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetObjectClass)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483dca8;
+  constexpr static std::size_t addrs = 0x483dc30;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetObjectClass", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetObjectClass", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.IsInstanceOf
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::IsInstanceOf)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::IsInstanceOf)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483dce4;
+  constexpr static std::size_t addrs = 0x483dc6c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "IsInstanceOf", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "IsInstanceOf", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetMethodID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(
-        &::UnityEngine::AndroidJNI::GetMethodID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetMethodID)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483dd28;
+  constexpr static std::size_t addrs = 0x483dcb0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetMethodID", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetMethodID", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetFieldID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(
-        &::UnityEngine::AndroidJNI::GetFieldID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetFieldID)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483dd7c;
+  constexpr static std::size_t addrs = 0x483dd04;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetFieldID", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetFieldID", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticMethodID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(
-        &::UnityEngine::AndroidJNI::GetStaticMethodID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetStaticMethodID)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483ddd0;
+  constexpr static std::size_t addrs = 0x483dd58;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticMethodID", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticMethodID", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticFieldID
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(
-        &::UnityEngine::AndroidJNI::GetStaticFieldID)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW)>(&::UnityEngine::AndroidJNI::GetStaticFieldID)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483de24;
+  constexpr static std::size_t addrs = 0x483ddac;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticFieldID", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticFieldID", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::StringW)>(
-        &::UnityEngine::AndroidJNI::NewString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::NewString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483de78;
+  constexpr static std::size_t addrs = 0x483de00;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewString", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewString", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewStringFromStr
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::StringW)>(
-        &::UnityEngine::AndroidJNI::NewStringFromStr)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::NewStringFromStr)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483deb4;
+  constexpr static std::size_t addrs = 0x483de3c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewStringFromStr", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewStringFromStr", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<char16_t, ::Array<char16_t> *>)>(
-        &::UnityEngine::AndroidJNI::NewString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::UnityEngine::AndroidJNI::NewString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483def0;
+  constexpr static std::size_t addrs = 0x483de78;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewString", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<char16_t, ::Array<char16_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewString", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewStringUTF
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::StringW)>(
-        &::UnityEngine::AndroidJNI::NewStringUTF)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::UnityEngine::AndroidJNI::NewStringUTF)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483df2c;
+  constexpr static std::size_t addrs = 0x483deb4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewStringUTF", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewStringUTF", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStringChars
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStringChars)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringChars)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483df68;
+  constexpr static std::size_t addrs = 0x483def0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStringChars", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringChars", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStringLength
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStringLength)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483dfa4;
+  constexpr static std::size_t addrs = 0x483df2c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStringLength", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringLength", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStringUTFLength
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStringUTFLength)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringUTFLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483dfe0;
+  constexpr static std::size_t addrs = 0x483df68;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStringUTFLength", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringUTFLength", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStringUTFChars
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStringUTFChars)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringUTFChars)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x483e01c;
+  constexpr static std::size_t addrs = 0x483dfa4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStringUTFChars", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringUTFChars", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStringMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStringMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStringMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e058;
+  constexpr static std::size_t addrs = 0x483dfe0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStringMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStringMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr,
-                              ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStringMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStringMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483e0c0;
+  constexpr static std::size_t addrs = 0x483e048;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStringMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStringMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStringMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr,
-                              ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStringMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStringMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e158;
+  constexpr static std::size_t addrs = 0x483e0e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStringMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStringMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
@@ -1066,7850 +731,4452 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallObjectMethod)> {
+    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(&::UnityEngine::AndroidJNI::CallObjectMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e1ac;
+  constexpr static std::size_t addrs = 0x483e134;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallObjectMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallObjectMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr,
-                                     ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallObjectMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallObjectMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483e214;
+  constexpr static std::size_t addrs = 0x483e19c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallObjectMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallObjectMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallObjectMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallObjectMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallObjectMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e2ac;
+  constexpr static std::size_t addrs = 0x483e234;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallObjectMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallObjectMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallIntMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallIntMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallIntMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e300;
+  constexpr static std::size_t addrs = 0x483e288;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallIntMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallIntMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallIntMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallIntMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483e368;
+  constexpr static std::size_t addrs = 0x483e2f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallIntMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallIntMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallIntMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallIntMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallIntMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e400;
+  constexpr static std::size_t addrs = 0x483e388;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallIntMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallIntMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallBooleanMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallBooleanMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallBooleanMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e454;
+  constexpr static std::size_t addrs = 0x483e3dc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallBooleanMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr,
-                         ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallBooleanMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallBooleanMethod)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x483e4bc;
+  constexpr static std::size_t addrs = 0x483e444;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallBooleanMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallBooleanMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr,
-                         ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallBooleanMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallBooleanMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e558;
+  constexpr static std::size_t addrs = 0x483e4e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallBooleanMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallBooleanMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallShortMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallShortMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallShortMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e5ac;
+  constexpr static std::size_t addrs = 0x483e534;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallShortMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallShortMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallShortMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallShortMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483e614;
+  constexpr static std::size_t addrs = 0x483e59c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallShortMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallShortMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallShortMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallShortMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallShortMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e6ac;
+  constexpr static std::size_t addrs = 0x483e634;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallShortMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallShortMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallByteMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<uint8_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallByteMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallByteMethod)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x483e700;
+  constexpr static std::size_t addrs = 0x483e688;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallByteMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallSByteMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallSByteMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallSByteMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e704;
+  constexpr static std::size_t addrs = 0x483e68c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallSByteMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallSByteMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr,
-                           ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallSByteMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallSByteMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483e76c;
+  constexpr static std::size_t addrs = 0x483e6f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallSByteMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallSByteMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallSByteMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr,
-                           ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallSByteMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallSByteMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e804;
+  constexpr static std::size_t addrs = 0x483e78c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallSByteMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallSByteMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallCharMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallCharMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallCharMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e858;
+  constexpr static std::size_t addrs = 0x483e7e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallCharMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallCharMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallCharMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallCharMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483e8c0;
+  constexpr static std::size_t addrs = 0x483e848;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallCharMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallCharMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallCharMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallCharMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallCharMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483e958;
+  constexpr static std::size_t addrs = 0x483e8e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallCharMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallCharMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallFloatMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallFloatMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallFloatMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483e9ac;
+  constexpr static std::size_t addrs = 0x483e934;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallFloatMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallFloatMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallFloatMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallFloatMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483ea14;
+  constexpr static std::size_t addrs = 0x483e99c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallFloatMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallFloatMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallFloatMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallFloatMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallFloatMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483eaac;
+  constexpr static std::size_t addrs = 0x483ea34;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallFloatMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallFloatMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallDoubleMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallDoubleMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallDoubleMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483eb00;
+  constexpr static std::size_t addrs = 0x483ea88;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallDoubleMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallDoubleMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallDoubleMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483eb68;
+  constexpr static std::size_t addrs = 0x483eaf0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallDoubleMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallDoubleMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallDoubleMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallDoubleMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483ec00;
+  constexpr static std::size_t addrs = 0x483eb88;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallDoubleMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallDoubleMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallLongMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallLongMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallLongMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483ec54;
+  constexpr static std::size_t addrs = 0x483ebdc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallLongMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallLongMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallLongMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallLongMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483ecbc;
+  constexpr static std::size_t addrs = 0x483ec44;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallLongMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallLongMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallLongMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallLongMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallLongMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483ed54;
+  constexpr static std::size_t addrs = 0x483ecdc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallLongMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallLongMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallVoidMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallVoidMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallVoidMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483eda8;
+  constexpr static std::size_t addrs = 0x483ed30;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallVoidMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.CallVoidMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr,
-                         ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallVoidMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallVoidMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483ee10;
+  constexpr static std::size_t addrs = 0x483ed98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallVoidMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallVoidMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallVoidMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr,
-                         ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallVoidMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallVoidMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483eea8;
+  constexpr static std::size_t addrs = 0x483ee30;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallVoidMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallVoidMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStringField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStringField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStringField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483eefc;
+  constexpr static std::size_t addrs = 0x483ee84;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStringField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetObjectField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetObjectField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetObjectField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483ef40;
+  constexpr static std::size_t addrs = 0x483eec8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetObjectField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetObjectField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetBooleanField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetBooleanField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetBooleanField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483ef84;
+  constexpr static std::size_t addrs = 0x483ef0c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetBooleanField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetBooleanField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483efc8;
+  constexpr static std::size_t addrs = 0x483ef50;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetByteField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetSByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetSByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetSByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f00c;
+  constexpr static std::size_t addrs = 0x483ef94;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetSByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetSByteField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetCharField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetCharField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetCharField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f050;
+  constexpr static std::size_t addrs = 0x483efd8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetCharField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetCharField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetShortField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetShortField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetShortField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f094;
+  constexpr static std::size_t addrs = 0x483f01c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetShortField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetShortField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetIntField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetIntField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetIntField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f0d8;
+  constexpr static std::size_t addrs = 0x483f060;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetIntField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetIntField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetLongField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetLongField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetLongField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f11c;
+  constexpr static std::size_t addrs = 0x483f0a4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetLongField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetLongField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetFloatField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetFloatField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetFloatField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f160;
+  constexpr static std::size_t addrs = 0x483f0e8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetFloatField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetFloatField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetDoubleField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetDoubleField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDoubleField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x483f1a4;
+  constexpr static std::size_t addrs = 0x483f12c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetDoubleField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDoubleField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStringField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(
-        &::UnityEngine::AndroidJNI::SetStringField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidJNI::SetStringField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f1e8;
+  constexpr static std::size_t addrs = 0x483f170;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStringField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStringField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetObjectField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::SetObjectField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::SetObjectField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f23c;
+  constexpr static std::size_t addrs = 0x483f1c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetObjectField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetObjectField", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetBooleanField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(
-        &::UnityEngine::AndroidJNI::SetBooleanField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::SetBooleanField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f290;
+  constexpr static std::size_t addrs = 0x483f218;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetBooleanField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetBooleanField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(
-        &::UnityEngine::AndroidJNI::SetByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(&::UnityEngine::AndroidJNI::SetByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f2e4;
+  constexpr static std::size_t addrs = 0x483f26c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                uint8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetByteField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetSByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(
-        &::UnityEngine::AndroidJNI::SetSByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(&::UnityEngine::AndroidJNI::SetSByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f338;
+  constexpr static std::size_t addrs = 0x483f2c0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetSByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetSByteField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetCharField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, char16_t)>(
-        &::UnityEngine::AndroidJNI::SetCharField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, char16_t)>(&::UnityEngine::AndroidJNI::SetCharField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f38c;
+  constexpr static std::size_t addrs = 0x483f314;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetCharField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetCharField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetShortField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(
-        &::UnityEngine::AndroidJNI::SetShortField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(&::UnityEngine::AndroidJNI::SetShortField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f3e0;
+  constexpr static std::size_t addrs = 0x483f368;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetShortField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetShortField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetIntField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::SetIntField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::SetIntField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f434;
+  constexpr static std::size_t addrs = 0x483f3bc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetIntField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetIntField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetLongField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(
-        &::UnityEngine::AndroidJNI::SetLongField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(&::UnityEngine::AndroidJNI::SetLongField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f488;
+  constexpr static std::size_t addrs = 0x483f410;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetLongField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int64_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetLongField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetFloatField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float_t)>(
-        &::UnityEngine::AndroidJNI::SetFloatField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float_t)>(&::UnityEngine::AndroidJNI::SetFloatField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f4dc;
+  constexpr static std::size_t addrs = 0x483f464;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetFloatField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                float_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetFloatField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetDoubleField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double_t)>(
-        &::UnityEngine::AndroidJNI::SetDoubleField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double_t)>(&::UnityEngine::AndroidJNI::SetDoubleField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f530;
+  constexpr static std::size_t addrs = 0x483f4b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetDoubleField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                double_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetDoubleField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticStringMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticStringMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticStringMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticStringMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483f584;
+  constexpr static std::size_t addrs = 0x483f50c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticStringMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticStringMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticStringMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr,
-                              ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticStringMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticStringMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483f5ec;
+  constexpr static std::size_t addrs = 0x483f574;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticStringMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticStringMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticStringMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr,
-                              ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticStringMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticStringMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f684;
+  constexpr static std::size_t addrs = 0x483f60c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticStringMethodUnsafe",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticStringMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticObjectMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticObjectMethod
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
+    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(&::UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483f6d8;
+  constexpr static std::size_t addrs = 0x483f660;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticObjectMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticObjectMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticObjectMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr,
-                                     ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticObjectMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483f740;
+  constexpr static std::size_t addrs = 0x483f6c8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticObjectMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticObjectMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticObjectMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticObjectMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticObjectMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f7d8;
+  constexpr static std::size_t addrs = 0x483f760;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticObjectMethodUnsafe",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticObjectMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticIntMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticIntMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticIntMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticIntMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483f82c;
+  constexpr static std::size_t addrs = 0x483f7b4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticIntMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticIntMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticIntMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticIntMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticIntMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483f894;
+  constexpr static std::size_t addrs = 0x483f81c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticIntMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticIntMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticIntMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticIntMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticIntMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483f92c;
+  constexpr static std::size_t addrs = 0x483f8b4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticIntMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticIntMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticBooleanMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticBooleanMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483f980;
+  constexpr static std::size_t addrs = 0x483f908;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticBooleanMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticBooleanMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr,
-                         ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticBooleanMethod)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x483f9e8;
+  constexpr static std::size_t addrs = 0x483f970;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticBooleanMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticBooleanMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr,
-                         ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticBooleanMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticBooleanMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483fa84;
+  constexpr static std::size_t addrs = 0x483fa0c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticBooleanMethodUnsafe",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticBooleanMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticShortMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticShortMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticShortMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticShortMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483fad8;
+  constexpr static std::size_t addrs = 0x483fa60;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticShortMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticShortMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticShortMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticShortMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticShortMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483fb40;
+  constexpr static std::size_t addrs = 0x483fac8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticShortMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticShortMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticShortMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticShortMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticShortMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483fbd8;
+  constexpr static std::size_t addrs = 0x483fb60;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticShortMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticShortMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticByteMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticByteMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<uint8_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticByteMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticByteMethod)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x483fc2c;
+  constexpr static std::size_t addrs = 0x483fbb4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticByteMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticSByteMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticSByteMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483fc30;
+  constexpr static std::size_t addrs = 0x483fbb8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticSByteMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticSByteMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticSByteMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr,
-                           ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticSByteMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483fc98;
+  constexpr static std::size_t addrs = 0x483fc20;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticSByteMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticSByteMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticSByteMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr,
-                           ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticSByteMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticSByteMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483fd30;
+  constexpr static std::size_t addrs = 0x483fcb8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticSByteMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticSByteMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticCharMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticCharMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticCharMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticCharMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483fd84;
+  constexpr static std::size_t addrs = 0x483fd0c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticCharMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticCharMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticCharMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticCharMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticCharMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483fdec;
+  constexpr static std::size_t addrs = 0x483fd74;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticCharMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticCharMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticCharMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticCharMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticCharMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483fe84;
+  constexpr static std::size_t addrs = 0x483fe0c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticCharMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticCharMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticFloatMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticFloatMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x483fed8;
+  constexpr static std::size_t addrs = 0x483fe60;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticFloatMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticFloatMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticFloatMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticFloatMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x483ff40;
+  constexpr static std::size_t addrs = 0x483fec8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticFloatMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticFloatMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticFloatMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticFloatMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticFloatMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x483ffd8;
+  constexpr static std::size_t addrs = 0x483ff60;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticFloatMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticFloatMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticDoubleMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticDoubleMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x484002c;
+  constexpr static std::size_t addrs = 0x483ffb4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticDoubleMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticDoubleMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticDoubleMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4840094;
+  constexpr static std::size_t addrs = 0x484001c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticDoubleMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticDoubleMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr,
-                             ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticDoubleMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticDoubleMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x484012c;
+  constexpr static std::size_t addrs = 0x48400b4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticDoubleMethodUnsafe",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticDoubleMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticLongMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticLongMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticLongMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticLongMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4840180;
+  constexpr static std::size_t addrs = 0x4840108;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticLongMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticLongMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticLongMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticLongMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticLongMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48401e8;
+  constexpr static std::size_t addrs = 0x4840170;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticLongMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticLongMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticLongMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr,
-                            ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticLongMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticLongMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840280;
+  constexpr static std::size_t addrs = 0x4840208;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticLongMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticLongMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticVoidMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticVoidMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(
-        ::System::IntPtr, ::System::IntPtr,
-        ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *>)>(
-        &::UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>)>(
+    &::UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x48402d4;
+  constexpr static std::size_t addrs = 0x484025c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticVoidMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::jvalue,
-                         ::Array<::UnityEngine::jvalue> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticVoidMethod
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticVoidMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr,
-                         ::System::Span_1<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::Span_1<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticVoidMethod)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x484033c;
+  constexpr static std::size_t addrs = 0x48402c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticVoidMethod", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Span_1<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.CallStaticVoidMethodUnsafe
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.CallStaticVoidMethodUnsafe
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr,
-                         ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
-        &::UnityEngine::AndroidJNI::CallStaticVoidMethodUnsafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::cordl_internals::Ptr<::UnityEngine::jvalue>)>(
+    &::UnityEngine::AndroidJNI::CallStaticVoidMethodUnsafe)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48403d4;
+  constexpr static std::size_t addrs = 0x484035c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "CallStaticVoidMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticVoidMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticStringField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticStringField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticStringField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticStringField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840428;
+  constexpr static std::size_t addrs = 0x48403b0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticStringField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticStringField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticObjectField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticObjectField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticObjectField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticObjectField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x484046c;
+  constexpr static std::size_t addrs = 0x48403f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticObjectField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticObjectField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticBooleanField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticBooleanField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticBooleanField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticBooleanField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48404b0;
+  constexpr static std::size_t addrs = 0x4840438;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticBooleanField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticBooleanField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48404f4;
+  constexpr static std::size_t addrs = 0x484047c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticByteField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticSByteField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticSByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticSByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticSByteField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840538;
+  constexpr static std::size_t addrs = 0x48404c0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticSByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticSByteField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticCharField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticCharField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticCharField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x484057c;
+  constexpr static std::size_t addrs = 0x4840504;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticCharField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticCharField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticShortField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticShortField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticShortField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticShortField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48405c0;
+  constexpr static std::size_t addrs = 0x4840548;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticShortField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticShortField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticIntField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticIntField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticIntField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840604;
+  constexpr static std::size_t addrs = 0x484058c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticIntField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticIntField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticLongField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticLongField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticLongField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840648;
+  constexpr static std::size_t addrs = 0x48405d0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticLongField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticLongField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticFloatField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticFloatField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticFloatField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticFloatField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x484068c;
+  constexpr static std::size_t addrs = 0x4840614;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticFloatField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticFloatField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetStaticDoubleField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetStaticDoubleField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetStaticDoubleField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetStaticDoubleField)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48406d0;
+  constexpr static std::size_t addrs = 0x4840658;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetStaticDoubleField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticDoubleField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticStringField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticStringField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(
-        &::UnityEngine::AndroidJNI::SetStaticStringField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidJNI::SetStaticStringField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840714;
+  constexpr static std::size_t addrs = 0x484069c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticStringField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticStringField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticObjectField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticObjectField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::SetStaticObjectField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::SetStaticObjectField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840768;
+  constexpr static std::size_t addrs = 0x48406f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticObjectField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticObjectField", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticBooleanField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticBooleanField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(
-        &::UnityEngine::AndroidJNI::SetStaticBooleanField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, bool)>(&::UnityEngine::AndroidJNI::SetStaticBooleanField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48407bc;
+  constexpr static std::size_t addrs = 0x4840744;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticBooleanField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticBooleanField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, uint8_t)>(&::UnityEngine::AndroidJNI::SetStaticByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840810;
+  constexpr static std::size_t addrs = 0x4840798;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                uint8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticByteField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticSByteField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticSByteField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticSByteField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int8_t)>(&::UnityEngine::AndroidJNI::SetStaticSByteField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840864;
+  constexpr static std::size_t addrs = 0x48407ec;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticSByteField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticSByteField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticCharField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, char16_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticCharField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, char16_t)>(&::UnityEngine::AndroidJNI::SetStaticCharField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48408b8;
+  constexpr static std::size_t addrs = 0x4840840;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticCharField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticCharField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticShortField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticShortField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticShortField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int16_t)>(&::UnityEngine::AndroidJNI::SetStaticShortField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x484090c;
+  constexpr static std::size_t addrs = 0x4840894;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticShortField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticShortField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticIntField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticIntField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::SetStaticIntField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840960;
+  constexpr static std::size_t addrs = 0x48408e8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticIntField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticIntField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticLongField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticLongField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int64_t)>(&::UnityEngine::AndroidJNI::SetStaticLongField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48409b4;
+  constexpr static std::size_t addrs = 0x484093c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticLongField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int64_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticLongField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticFloatField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticFloatField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticFloatField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, float_t)>(&::UnityEngine::AndroidJNI::SetStaticFloatField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840a08;
+  constexpr static std::size_t addrs = 0x4840990;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticFloatField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                float_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticFloatField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetStaticDoubleField
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetStaticDoubleField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double_t)>(
-        &::UnityEngine::AndroidJNI::SetStaticDoubleField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, double_t)>(&::UnityEngine::AndroidJNI::SetStaticDoubleField)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840a5c;
+  constexpr static std::size_t addrs = 0x48409e4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetStaticDoubleField", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                double_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticDoubleField", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToBooleanArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<bool, ::Array<bool> *>)>(
-        &::UnityEngine::AndroidJNI::ToBooleanArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<bool, ::Array<bool>*>)>(&::UnityEngine::AndroidJNI::ToBooleanArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4840ab0;
+  constexpr static std::size_t addrs = 0x4840a38;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToBooleanArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<bool, ::Array<bool> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToBooleanArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<bool, ::Array<bool>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<uint8_t, ::Array<uint8_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::UnityEngine::AndroidJNI::ToByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4840aec;
+  constexpr static std::size_t addrs = 0x4840a74;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<uint8_t, ::Array<uint8_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToSByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<int8_t, ::Array<int8_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToSByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int8_t, ::Array<int8_t>*>)>(&::UnityEngine::AndroidJNI::ToSByteArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840b28;
+  constexpr static std::size_t addrs = 0x4840ab0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToSByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<int8_t, ::Array<int8_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int8_t, ::Array<int8_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToSByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int8_t>, int32_t)>(
-        &::UnityEngine::AndroidJNI::ToSByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int8_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToSByteArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840b7c;
+  constexpr static std::size_t addrs = 0x4840b04;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToSByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<int8_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int8_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToCharArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<char16_t, ::Array<char16_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToCharArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::UnityEngine::AndroidJNI::ToCharArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840bc0;
+  constexpr static std::size_t addrs = 0x4840b48;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToCharArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<char16_t, ::Array<char16_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToCharArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToCharArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<char16_t>,
-                                     int32_t)>(
-        &::UnityEngine::AndroidJNI::ToCharArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<char16_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToCharArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840c14;
+  constexpr static std::size_t addrs = 0x4840b9c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToCharArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<char16_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToCharArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToShortArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<int16_t, ::Array<int16_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToShortArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int16_t, ::Array<int16_t>*>)>(&::UnityEngine::AndroidJNI::ToShortArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840c58;
+  constexpr static std::size_t addrs = 0x4840be0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToShortArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<int16_t, ::Array<int16_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToShortArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t, ::Array<int16_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToShortArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int16_t>, int32_t)>(
-        &::UnityEngine::AndroidJNI::ToShortArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int16_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToShortArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840cac;
+  constexpr static std::size_t addrs = 0x4840c34;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToShortArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<int16_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToShortArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int16_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToIntArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<int32_t, ::Array<int32_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToIntArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::UnityEngine::AndroidJNI::ToIntArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840cf0;
+  constexpr static std::size_t addrs = 0x4840c78;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToIntArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<int32_t, ::Array<int32_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToIntArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToIntArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int32_t>, int32_t)>(
-        &::UnityEngine::AndroidJNI::ToIntArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int32_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToIntArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840d44;
+  constexpr static std::size_t addrs = 0x4840ccc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToIntArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<int32_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToIntArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int32_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToLongArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<int64_t, ::Array<int64_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToLongArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<int64_t, ::Array<int64_t>*>)>(&::UnityEngine::AndroidJNI::ToLongArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840d88;
+  constexpr static std::size_t addrs = 0x4840d10;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToLongArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<int64_t, ::Array<int64_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToLongArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int64_t, ::Array<int64_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToLongArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int64_t>, int32_t)>(
-        &::UnityEngine::AndroidJNI::ToLongArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<int64_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToLongArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840ddc;
+  constexpr static std::size_t addrs = 0x4840d64;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToLongArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<int64_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToLongArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int64_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToFloatArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<float_t, ::Array<float_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToFloatArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityEngine::AndroidJNI::ToFloatArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840e20;
+  constexpr static std::size_t addrs = 0x4840da8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToFloatArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<float_t, ::Array<float_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToFloatArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<float_t>, int32_t)>(
-        &::UnityEngine::AndroidJNI::ToFloatArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<float_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToFloatArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840e74;
+  constexpr static std::size_t addrs = 0x4840dfc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToFloatArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<float_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<float_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToDoubleArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::ArrayW<double_t, ::Array<double_t> *>)>(
-        &::UnityEngine::AndroidJNI::ToDoubleArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<double_t, ::Array<double_t>*>)>(&::UnityEngine::AndroidJNI::ToDoubleArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840eb8;
+  constexpr static std::size_t addrs = 0x4840e40;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToDoubleArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<double_t, ::Array<double_t> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<double_t, ::Array<double_t>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToDoubleArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<double_t>,
-                                     int32_t)>(
-        &::UnityEngine::AndroidJNI::ToDoubleArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<double_t>, int32_t)>(&::UnityEngine::AndroidJNI::ToDoubleArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4840f0c;
+  constexpr static std::size_t addrs = 0x4840e94;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToDoubleArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<double_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<double_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToObjectArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<::System::IntPtr>,
-                                     int32_t, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::ToObjectArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<::System::IntPtr>, int32_t, ::System::IntPtr)>(
+    &::UnityEngine::AndroidJNI::ToObjectArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4840f50;
+  constexpr static std::size_t addrs = 0x4840ed8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToObjectArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<::System::IntPtr>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToObjectArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::System::IntPtr>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToObjectArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>,
-        ::System::IntPtr)>(&::UnityEngine::AndroidJNI::ToObjectArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>, ::System::IntPtr)>(
+    &::UnityEngine::AndroidJNI::ToObjectArray)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4840fa4;
+  constexpr static std::size_t addrs = 0x4840f2c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToObjectArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToObjectArray", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.ToObjectArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>)>(
-        &::UnityEngine::AndroidJNI::ToObjectArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>)>(
+    &::UnityEngine::AndroidJNI::ToObjectArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4841008;
+  constexpr static std::size_t addrs = 0x4840f90;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "ToObjectArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *,
-                     1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToObjectArray", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromBooleanArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<bool, ::Array<bool> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromBooleanArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromBooleanArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841010;
+  constexpr static std::size_t addrs = 0x4840f98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromBooleanArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromBooleanArray", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<uint8_t, ::Array<uint8_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x484104c;
+  constexpr static std::size_t addrs = 0x4840fd4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromSByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<int8_t, ::Array<int8_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromSByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t, ::Array<int8_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromSByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841088;
+  constexpr static std::size_t addrs = 0x4841010;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromSByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromCharArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<char16_t, ::Array<char16_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromCharArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromCharArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48410c4;
+  constexpr static std::size_t addrs = 0x484104c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromCharArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromCharArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromShortArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<int16_t, ::Array<int16_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromShortArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int16_t, ::Array<int16_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromShortArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841100;
+  constexpr static std::size_t addrs = 0x4841088;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromShortArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromShortArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromIntArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<int32_t, ::Array<int32_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromIntArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromIntArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x484113c;
+  constexpr static std::size_t addrs = 0x48410c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromIntArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromIntArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromLongArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<int64_t, ::Array<int64_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromLongArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t, ::Array<int64_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromLongArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841178;
+  constexpr static std::size_t addrs = 0x4841100;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromLongArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromLongArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromFloatArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<float_t, ::Array<float_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromFloatArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromFloatArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48411b4;
+  constexpr static std::size_t addrs = 0x484113c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromFloatArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromDoubleArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<double_t, ::Array<double_t> *> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::FromDoubleArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<double_t, ::Array<double_t>*> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromDoubleArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48411f0;
+  constexpr static std::size_t addrs = 0x4841178;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromDoubleArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.FromObjectArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *> (*)(
-        ::System::IntPtr)>(&::UnityEngine::AndroidJNI::FromObjectArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> (*)(::System::IntPtr)>(
+    &::UnityEngine::AndroidJNI::FromObjectArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x484122c;
+  constexpr static std::size_t addrs = 0x48411b4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "FromObjectArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromObjectArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetArrayLength
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetArrayLength)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetArrayLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841268;
+  constexpr static std::size_t addrs = 0x48411f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetArrayLength", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetArrayLength", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewBooleanArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewBooleanArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewBooleanArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48412a4;
+  constexpr static std::size_t addrs = 0x484122c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewBooleanArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewBooleanArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48412e0;
+  constexpr static std::size_t addrs = 0x4841268;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewSByteArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewSByteArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewSByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x484131c;
+  constexpr static std::size_t addrs = 0x48412a4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewSByteArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewCharArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewCharArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewCharArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841358;
+  constexpr static std::size_t addrs = 0x48412e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewCharArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewCharArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewShortArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewShortArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewShortArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841394;
+  constexpr static std::size_t addrs = 0x484131c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewShortArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewShortArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewIntArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewIntArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewIntArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48413d0;
+  constexpr static std::size_t addrs = 0x4841358;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewIntArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewIntArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewLongArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewLongArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewLongArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x484140c;
+  constexpr static std::size_t addrs = 0x4841394;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewLongArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewLongArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewFloatArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewFloatArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewFloatArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841448;
+  constexpr static std::size_t addrs = 0x48413d0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewFloatArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewDoubleArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::NewDoubleArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::NewDoubleArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841484;
+  constexpr static std::size_t addrs = 0x484140c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewDoubleArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.NewObjectArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t, ::System::IntPtr,
-                                     ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::NewObjectArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t, ::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::NewObjectArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48414c0;
+  constexpr static std::size_t addrs = 0x4841448;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewObjectArray", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObjectArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetBooleanArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetBooleanArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetBooleanArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetBooleanArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841514;
+  constexpr static std::size_t addrs = 0x484149c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetBooleanArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetBooleanArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetByteArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetByteArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<uint8_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetByteArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetByteArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841558;
+  constexpr static std::size_t addrs = 0x48414e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetSByteArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetSByteArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int8_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetSByteArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetSByteArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x484159c;
+  constexpr static std::size_t addrs = 0x4841524;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetSByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetSByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetCharArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetCharArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetCharArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetCharArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48415e0;
+  constexpr static std::size_t addrs = 0x4841568;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetCharArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetCharArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetShortArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetShortArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int16_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetShortArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetShortArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841624;
+  constexpr static std::size_t addrs = 0x48415ac;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetShortArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetShortArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.GetIntArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetIntArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetIntArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841668;
+  constexpr static std::size_t addrs = 0x48415f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetIntArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetIntArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetLongArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetLongArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetLongArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetLongArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48416ac;
+  constexpr static std::size_t addrs = 0x4841634;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetLongArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetLongArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetFloatArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetFloatArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<float_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetFloatArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetFloatArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48416f0;
+  constexpr static std::size_t addrs = 0x4841678;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetFloatArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetFloatArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetDoubleArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetDoubleArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<double_t (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetDoubleArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetDoubleArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841734;
+  constexpr static std::size_t addrs = 0x48416bc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetDoubleArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDoubleArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetObjectArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetObjectArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::GetObjectArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::GetObjectArrayElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841778;
+  constexpr static std::size_t addrs = 0x4841700;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetObjectArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetObjectArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetBooleanArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetBooleanArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, uint8_t)>(
-        &::UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, uint8_t)>(&::UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48417bc;
+  constexpr static std::size_t addrs = 0x4841744;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetBooleanArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                uint8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetBooleanArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetBooleanArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetBooleanArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, bool)>(
-        &::UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, bool)>(&::UnityEngine::AndroidJNI::SetBooleanArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841814;
+  constexpr static std::size_t addrs = 0x484179c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetBooleanArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetBooleanArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetByteArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetByteArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, int8_t)>(
-        &::UnityEngine::AndroidJNI::SetByteArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, int8_t)>(&::UnityEngine::AndroidJNI::SetByteArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841868;
+  constexpr static std::size_t addrs = 0x48417f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetSByteArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetSByteArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, int8_t)>(
-        &::UnityEngine::AndroidJNI::SetSByteArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, int8_t)>(&::UnityEngine::AndroidJNI::SetSByteArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48418bc;
+  constexpr static std::size_t addrs = 0x4841844;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetSByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int8_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetSByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetCharArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetCharArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, char16_t)>(
-        &::UnityEngine::AndroidJNI::SetCharArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, char16_t)>(&::UnityEngine::AndroidJNI::SetCharArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841910;
+  constexpr static std::size_t addrs = 0x4841898;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetCharArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetCharArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetShortArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetShortArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, int16_t)>(
-        &::UnityEngine::AndroidJNI::SetShortArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, int16_t)>(&::UnityEngine::AndroidJNI::SetShortArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841964;
+  constexpr static std::size_t addrs = 0x48418ec;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetShortArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetShortArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.SetIntArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, int32_t)>(
-        &::UnityEngine::AndroidJNI::SetIntArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t)>(&::UnityEngine::AndroidJNI::SetIntArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48419b8;
+  constexpr static std::size_t addrs = 0x4841940;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetIntArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetIntArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetLongArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetLongArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, int64_t)>(
-        &::UnityEngine::AndroidJNI::SetLongArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, int64_t)>(&::UnityEngine::AndroidJNI::SetLongArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841a0c;
+  constexpr static std::size_t addrs = 0x4841994;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetLongArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int64_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetLongArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetFloatArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetFloatArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, float_t)>(
-        &::UnityEngine::AndroidJNI::SetFloatArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, float_t)>(&::UnityEngine::AndroidJNI::SetFloatArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841a60;
+  constexpr static std::size_t addrs = 0x48419e8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetFloatArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                float_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetFloatArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetDoubleArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetDoubleArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, double_t)>(
-        &::UnityEngine::AndroidJNI::SetDoubleArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, double_t)>(&::UnityEngine::AndroidJNI::SetDoubleArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841ab4;
+  constexpr static std::size_t addrs = 0x4841a3c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetDoubleArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                double_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetDoubleArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.SetObjectArrayElement
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.SetObjectArrayElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::SetObjectArrayElement)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, ::System::IntPtr)>(&::UnityEngine::AndroidJNI::SetObjectArrayElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841b08;
+  constexpr static std::size_t addrs = 0x4841a90;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "SetObjectArrayElement", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetObjectArrayElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.NewDirectByteBuffer
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.NewDirectByteBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<uint8_t>, int64_t)>(
-        &::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::cordl_internals::Ptr<uint8_t>, int64_t)>(&::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4841b5c;
+  constexpr static std::size_t addrs = 0x4841ae4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::cordl_internals::Ptr<uint8_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int64_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.NewDirectByteBuffer
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.NewDirectByteBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::Unity::Collections::NativeArray_1<uint8_t>)>(
-        &::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
+    &::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4841ba0;
+  constexpr static std::size_t addrs = 0x4841b28;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Unity::Collections::NativeArray_1<uint8_t>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.NewDirectByteBuffer
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.NewDirectByteBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(
-        ::Unity::Collections::NativeArray_1<int8_t>)>(
-        &::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Unity::Collections::NativeArray_1<int8_t>)>(&::UnityEngine::AndroidJNI::NewDirectByteBuffer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4841bf8;
+  constexpr static std::size_t addrs = 0x4841b80;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "NewDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Unity::Collections::NativeArray_1<int8_t>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<int8_t>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetDirectBufferAddress
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetDirectBufferAddress
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::cordl_internals::Ptr<int8_t> (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetDirectBufferAddress)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<int8_t> (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectBufferAddress)> {
   constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x4841bd8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectBufferAddress", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetDirectBufferCapacity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectBufferCapacity)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x4841c14;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectBufferCapacity", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetDirectByteBuffer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(::System::IntPtr)>(
+    &::UnityEngine::AndroidJNI::GetDirectByteBuffer)> {
+  constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x4841c50;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetDirectBufferAddress", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetDirectBufferCapacity
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.GetDirectSByteBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int64_t (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::GetDirectBufferCapacity)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841c8c;
-
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetDirectBufferCapacity", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetDirectByteBuffer
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(
-        ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectByteBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<int8_t> (*)(::System::IntPtr)>(
+    &::UnityEngine::AndroidJNI::GetDirectSByteBuffer)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4841cc8;
+  constexpr static std::size_t addrs = 0x4841c98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.GetDirectSByteBuffer
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Unity::Collections::NativeArray_1<int8_t> (*)(
-        ::System::IntPtr)>(&::UnityEngine::AndroidJNI::GetDirectSByteBuffer)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4841d10;
-
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "GetDirectSByteBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectSByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.RegisterNatives
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(
-        ::System::IntPtr, ::ArrayW<::UnityEngine::JNINativeMethod,
-                                   ::Array<::UnityEngine::JNINativeMethod> *>)>(
-        &::UnityEngine::AndroidJNI::RegisterNatives)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::ArrayW<::UnityEngine::JNINativeMethod, ::Array<::UnityEngine::JNINativeMethod>*>)>(
+    &::UnityEngine::AndroidJNI::RegisterNatives)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4841d58;
+  constexpr static std::size_t addrs = 0x4841ce0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "RegisterNatives", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::JNINativeMethod,
-                         ::Array<::UnityEngine::JNINativeMethod> *>>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNatives", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::JNINativeMethod, ::Array<::UnityEngine::JNINativeMethod>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.RegisterNativesAllocate
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.RegisterNativesAllocate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(int32_t)>(
-        &::UnityEngine::AndroidJNI::RegisterNativesAllocate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t)>(&::UnityEngine::AndroidJNI::RegisterNativesAllocate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841ee8;
+  constexpr static std::size_t addrs = 0x4841e70;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "RegisterNativesAllocate", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNativesAllocate", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.RegisterNativesSet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::System::IntPtr, int32_t, ::StringW, ::StringW,
-                         ::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::RegisterNativesSet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, ::StringW, ::StringW, ::System::IntPtr)>(
+    &::UnityEngine::AndroidJNI::RegisterNativesSet)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4841f24;
+  constexpr static std::size_t addrs = 0x4841eac;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "RegisterNativesSet", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 5>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNativesSet", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::UnityEngine::AndroidJNI.RegisterNativesAndFree
+//  Writing Method size for method: ::UnityEngine::AndroidJNI.RegisterNativesAndFree
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(
-        &::UnityEngine::AndroidJNI::RegisterNativesAndFree)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::System::IntPtr, int32_t)>(&::UnityEngine::AndroidJNI::RegisterNativesAndFree)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4841f90;
+  constexpr static std::size_t addrs = 0x4841f18;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "RegisterNativesAndFree", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNativesAndFree", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::AndroidJNI.UnregisterNatives
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (*)(::System::IntPtr)>(
-        &::UnityEngine::AndroidJNI::UnregisterNatives)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::AndroidJNI::UnregisterNatives)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4841fe4;
+  constexpr static std::size_t addrs = 0x4841f6c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::UnityEngine::AndroidJNI *>::get(),
-        "UnregisterNatives", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IntPtr>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "UnregisterNatives", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
 inline ::System::IntPtr UnityEngine::AndroidJNI::GetJavaVM() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetJavaVM", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetJavaVM",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::AndroidJNI::AttachCurrentThread() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "AttachCurrentThread", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "AttachCurrentThread",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::AndroidJNI::DetachCurrentThread() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "DetachCurrentThread", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DetachCurrentThread",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
 inline int32_t UnityEngine::AndroidJNI::GetVersion() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetVersion", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetVersion",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::FindClass(::StringW name) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FindClass", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, name);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FindClass", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, name);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::FromReflectedMethod(::System::IntPtr refMethod) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromReflectedMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, refMethod);
+inline ::System::IntPtr UnityEngine::AndroidJNI::FromReflectedMethod(::System::IntPtr refMethod) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromReflectedMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, refMethod);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::FromReflectedField(::System::IntPtr refField) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromReflectedField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, refField);
+inline ::System::IntPtr UnityEngine::AndroidJNI::FromReflectedField(::System::IntPtr refField) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromReflectedField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, refField);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToReflectedMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID, bool isStatic) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToReflectedMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, isStatic);
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToReflectedMethod(::System::IntPtr clazz, ::System::IntPtr methodID, bool isStatic) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToReflectedMethod", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, isStatic);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToReflectedField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, bool isStatic) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToReflectedField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, fieldID, isStatic);
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToReflectedField(::System::IntPtr clazz, ::System::IntPtr fieldID, bool isStatic) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToReflectedField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, fieldID, isStatic);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetSuperclass(::System::IntPtr clazz) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetSuperclass", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetSuperclass(::System::IntPtr clazz) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetSuperclass", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz);
 }
-inline bool UnityEngine::AndroidJNI::IsAssignableFrom(::System::IntPtr clazz1,
-                                                      ::System::IntPtr clazz2) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "IsAssignableFrom", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, clazz1, clazz2);
+inline bool UnityEngine::AndroidJNI::IsAssignableFrom(::System::IntPtr clazz1, ::System::IntPtr clazz2) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "IsAssignableFrom", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, clazz1, clazz2);
 }
 inline int32_t UnityEngine::AndroidJNI::Throw(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "Throw", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, obj);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "Throw", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj);
 }
-inline int32_t UnityEngine::AndroidJNI::ThrowNew(::System::IntPtr clazz,
-                                                 ::StringW message) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ThrowNew", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, message);
+inline int32_t UnityEngine::AndroidJNI::ThrowNew(::System::IntPtr clazz, ::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ThrowNew", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, message);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::ExceptionOccurred() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ExceptionOccurred", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ExceptionOccurred",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::AndroidJNI::ExceptionDescribe() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ExceptionDescribe", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ExceptionDescribe",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::AndroidJNI::ExceptionClear() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ExceptionClear", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ExceptionClear",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::AndroidJNI::FatalError(::StringW message) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FatalError", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, message);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FatalError", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
 inline int32_t UnityEngine::AndroidJNI::PushLocalFrame(int32_t capacity) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "PushLocalFrame", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, capacity);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "PushLocalFrame", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, capacity);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::PopLocalFrame(::System::IntPtr ptr) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "PopLocalFrame", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, ptr);
+inline ::System::IntPtr UnityEngine::AndroidJNI::PopLocalFrame(::System::IntPtr ptr) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "PopLocalFrame", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, ptr);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::NewGlobalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewGlobalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewGlobalRef(::System::IntPtr obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline void UnityEngine::AndroidJNI::DeleteGlobalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "DeleteGlobalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DeleteGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
 }
-inline void
-UnityEngine::AndroidJNI::QueueDeleteGlobalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "QueueDeleteGlobalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj);
+inline void UnityEngine::AndroidJNI::QueueDeleteGlobalRef(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "QueueDeleteGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
 }
 inline uint32_t UnityEngine::AndroidJNI::GetQueueGlobalRefsCount() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetQueueGlobalRefsCount", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(
-      nullptr, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetQueueGlobalRefsCount",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::NewWeakGlobalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewWeakGlobalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewWeakGlobalRef(::System::IntPtr obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewWeakGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline void UnityEngine::AndroidJNI::DeleteWeakGlobalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "DeleteWeakGlobalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj);
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DeleteWeakGlobalRef", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::NewLocalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewLocalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewLocalRef(::System::IntPtr obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewLocalRef", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline void UnityEngine::AndroidJNI::DeleteLocalRef(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "DeleteLocalRef", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "DeleteLocalRef", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
 }
-inline bool UnityEngine::AndroidJNI::IsSameObject(::System::IntPtr obj1,
-                                                  ::System::IntPtr obj2) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "IsSameObject", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, obj1, obj2);
+inline bool UnityEngine::AndroidJNI::IsSameObject(::System::IntPtr obj1, ::System::IntPtr obj2) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "IsSameObject", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj1, obj2);
 }
 inline int32_t UnityEngine::AndroidJNI::EnsureLocalCapacity(int32_t capacity) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "EnsureLocalCapacity", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, capacity);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "EnsureLocalCapacity",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, capacity);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::AllocObject(::System::IntPtr clazz) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "AllocObject", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz);
+inline ::System::IntPtr UnityEngine::AndroidJNI::AllocObject(::System::IntPtr clazz) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "AllocObject", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewObject(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewObject", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewObject(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObject", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, args);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewObject(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewObject", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewObject(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObject", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, args);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewObjectA(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewObjectA", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewObjectA(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObjectA", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, args);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetObjectClass(::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetObjectClass", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetObjectClass(::System::IntPtr obj) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetObjectClass", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
-inline bool UnityEngine::AndroidJNI::IsInstanceOf(::System::IntPtr obj,
-                                                  ::System::IntPtr clazz) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "IsInstanceOf", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, obj, clazz);
+inline bool UnityEngine::AndroidJNI::IsInstanceOf(::System::IntPtr obj, ::System::IntPtr clazz) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "IsInstanceOf", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj, clazz);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetMethodID(::System::IntPtr clazz, ::StringW name,
-                                     ::StringW sig) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetMethodID", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, name, sig);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetMethodID(::System::IntPtr clazz, ::StringW name, ::StringW sig) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetMethodID", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, name, sig);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetFieldID(::System::IntPtr clazz, ::StringW name,
-                                    ::StringW sig) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetFieldID", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, name, sig);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetFieldID", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, name, sig);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetStaticMethodID(::System::IntPtr clazz,
-                                           ::StringW name, ::StringW sig) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticMethodID", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, name, sig);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetStaticMethodID(::System::IntPtr clazz, ::StringW name, ::StringW sig) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticMethodID", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, name, sig);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetStaticFieldID(::System::IntPtr clazz,
-                                          ::StringW name, ::StringW sig) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticFieldID", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, name, sig);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetStaticFieldID(::System::IntPtr clazz, ::StringW name, ::StringW sig) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticFieldID", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, name, sig);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewString(::StringW chars) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewString", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, chars);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewString", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, chars);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::NewStringFromStr(::StringW chars) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewStringFromStr", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, chars);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewStringFromStr(::StringW chars) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewStringFromStr", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, chars);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewString(
-    ::ArrayW<char16_t, ::Array<char16_t> *> chars) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewString", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<char16_t, ::Array<char16_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, chars);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewString(::ArrayW<char16_t, ::Array<char16_t>*> chars) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewString", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, chars);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewStringUTF(::StringW bytes) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewStringUTF", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, bytes);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewStringUTF", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, bytes);
 }
 inline ::StringW UnityEngine::AndroidJNI::GetStringChars(::System::IntPtr str) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStringChars", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, str);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringChars", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, str);
 }
 inline int32_t UnityEngine::AndroidJNI::GetStringLength(::System::IntPtr str) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStringLength", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, str);
-}
-inline int32_t
-UnityEngine::AndroidJNI::GetStringUTFLength(::System::IntPtr str) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStringUTFLength", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, str);
-}
-inline ::StringW
-UnityEngine::AndroidJNI::GetStringUTFChars(::System::IntPtr str) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStringUTFChars", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, str);
-}
-inline ::StringW UnityEngine::AndroidJNI::CallStringMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStringMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline ::StringW UnityEngine::AndroidJNI::CallStringMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStringMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline ::StringW UnityEngine::AndroidJNI::CallStringMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStringMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::CallObjectMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallObjectMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::CallObjectMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallObjectMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::CallObjectMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallObjectMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int32_t UnityEngine::AndroidJNI::CallIntMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallIntMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int32_t UnityEngine::AndroidJNI::CallIntMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallIntMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int32_t UnityEngine::AndroidJNI::CallIntMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallIntMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline bool UnityEngine::AndroidJNI::CallBooleanMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline bool UnityEngine::AndroidJNI::CallBooleanMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline bool UnityEngine::AndroidJNI::CallBooleanMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallBooleanMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int16_t UnityEngine::AndroidJNI::CallShortMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallShortMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int16_t UnityEngine::AndroidJNI::CallShortMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallShortMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int16_t UnityEngine::AndroidJNI::CallShortMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallShortMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline uint8_t UnityEngine::AndroidJNI::CallByteMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallByteMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int8_t UnityEngine::AndroidJNI::CallSByteMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallSByteMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int8_t UnityEngine::AndroidJNI::CallSByteMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallSByteMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int8_t UnityEngine::AndroidJNI::CallSByteMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallSByteMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline char16_t UnityEngine::AndroidJNI::CallCharMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallCharMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline char16_t UnityEngine::AndroidJNI::CallCharMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallCharMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline char16_t UnityEngine::AndroidJNI::CallCharMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallCharMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline float_t UnityEngine::AndroidJNI::CallFloatMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallFloatMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline float_t UnityEngine::AndroidJNI::CallFloatMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallFloatMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline float_t UnityEngine::AndroidJNI::CallFloatMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallFloatMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline double_t UnityEngine::AndroidJNI::CallDoubleMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline double_t UnityEngine::AndroidJNI::CallDoubleMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline double_t UnityEngine::AndroidJNI::CallDoubleMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallDoubleMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int64_t UnityEngine::AndroidJNI::CallLongMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallLongMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int64_t UnityEngine::AndroidJNI::CallLongMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallLongMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline int64_t UnityEngine::AndroidJNI::CallLongMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallLongMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline void UnityEngine::AndroidJNI::CallVoidMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallVoidMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline void UnityEngine::AndroidJNI::CallVoidMethod(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallVoidMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline void UnityEngine::AndroidJNI::CallVoidMethodUnsafe(
-    ::System::IntPtr obj, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallVoidMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, methodID, args);
-}
-inline ::StringW
-UnityEngine::AndroidJNI::GetStringField(::System::IntPtr obj,
-                                        ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStringField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetObjectField(::System::IntPtr obj,
-                                        ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetObjectField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline bool UnityEngine::AndroidJNI::GetBooleanField(::System::IntPtr obj,
-                                                     ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetBooleanField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline uint8_t UnityEngine::AndroidJNI::GetByteField(::System::IntPtr obj,
-                                                     ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline int8_t UnityEngine::AndroidJNI::GetSByteField(::System::IntPtr obj,
-                                                     ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetSByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline char16_t
-UnityEngine::AndroidJNI::GetCharField(::System::IntPtr obj,
-                                      ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetCharField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline int16_t
-UnityEngine::AndroidJNI::GetShortField(::System::IntPtr obj,
-                                       ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetShortField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline int32_t UnityEngine::AndroidJNI::GetIntField(::System::IntPtr obj,
-                                                    ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetIntField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline int64_t UnityEngine::AndroidJNI::GetLongField(::System::IntPtr obj,
-                                                     ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetLongField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline float_t
-UnityEngine::AndroidJNI::GetFloatField(::System::IntPtr obj,
-                                       ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetFloatField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline double_t
-UnityEngine::AndroidJNI::GetDoubleField(::System::IntPtr obj,
-                                        ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetDoubleField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, obj, fieldID);
-}
-inline void UnityEngine::AndroidJNI::SetStringField(::System::IntPtr obj,
-                                                    ::System::IntPtr fieldID,
-                                                    ::StringW val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStringField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetObjectField(::System::IntPtr obj,
-                                                    ::System::IntPtr fieldID,
-                                                    ::System::IntPtr val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetObjectField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetBooleanField(::System::IntPtr obj,
-                                                     ::System::IntPtr fieldID,
-                                                     bool val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetBooleanField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetByteField(::System::IntPtr obj,
-                                                  ::System::IntPtr fieldID,
-                                                  uint8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              uint8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetSByteField(::System::IntPtr obj,
-                                                   ::System::IntPtr fieldID,
-                                                   int8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetSByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetCharField(::System::IntPtr obj,
-                                                  ::System::IntPtr fieldID,
-                                                  char16_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetCharField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetShortField(::System::IntPtr obj,
-                                                   ::System::IntPtr fieldID,
-                                                   int16_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetShortField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetIntField(::System::IntPtr obj,
-                                                 ::System::IntPtr fieldID,
-                                                 int32_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetIntField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetLongField(::System::IntPtr obj,
-                                                  ::System::IntPtr fieldID,
-                                                  int64_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetLongField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int64_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetFloatField(::System::IntPtr obj,
-                                                   ::System::IntPtr fieldID,
-                                                   float_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetFloatField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              float_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetDoubleField(::System::IntPtr obj,
-                                                    ::System::IntPtr fieldID,
-                                                    double_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetDoubleField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              double_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, obj, fieldID, val);
-}
-inline ::StringW UnityEngine::AndroidJNI::CallStaticStringMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticStringMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline ::StringW UnityEngine::AndroidJNI::CallStaticStringMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticStringMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline ::StringW UnityEngine::AndroidJNI::CallStaticStringMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticStringMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::CallStaticObjectMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticObjectMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::CallStaticObjectMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticObjectMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::CallStaticObjectMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticObjectMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int32_t UnityEngine::AndroidJNI::CallStaticIntMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticIntMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int32_t UnityEngine::AndroidJNI::CallStaticIntMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticIntMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int32_t UnityEngine::AndroidJNI::CallStaticIntMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticIntMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline bool UnityEngine::AndroidJNI::CallStaticBooleanMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline bool UnityEngine::AndroidJNI::CallStaticBooleanMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticBooleanMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline bool UnityEngine::AndroidJNI::CallStaticBooleanMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticBooleanMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int16_t UnityEngine::AndroidJNI::CallStaticShortMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticShortMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int16_t UnityEngine::AndroidJNI::CallStaticShortMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticShortMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int16_t UnityEngine::AndroidJNI::CallStaticShortMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticShortMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline uint8_t UnityEngine::AndroidJNI::CallStaticByteMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticByteMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int8_t UnityEngine::AndroidJNI::CallStaticSByteMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticSByteMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int8_t UnityEngine::AndroidJNI::CallStaticSByteMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticSByteMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int8_t UnityEngine::AndroidJNI::CallStaticSByteMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticSByteMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline char16_t UnityEngine::AndroidJNI::CallStaticCharMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticCharMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline char16_t UnityEngine::AndroidJNI::CallStaticCharMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticCharMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline char16_t UnityEngine::AndroidJNI::CallStaticCharMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticCharMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline float_t UnityEngine::AndroidJNI::CallStaticFloatMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticFloatMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline float_t UnityEngine::AndroidJNI::CallStaticFloatMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticFloatMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline float_t UnityEngine::AndroidJNI::CallStaticFloatMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticFloatMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline double_t UnityEngine::AndroidJNI::CallStaticDoubleMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline double_t UnityEngine::AndroidJNI::CallStaticDoubleMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticDoubleMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline double_t UnityEngine::AndroidJNI::CallStaticDoubleMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticDoubleMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int64_t UnityEngine::AndroidJNI::CallStaticLongMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticLongMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int64_t UnityEngine::AndroidJNI::CallStaticLongMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticLongMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline int64_t UnityEngine::AndroidJNI::CallStaticLongMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticLongMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline void UnityEngine::AndroidJNI::CallStaticVoidMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue> *> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticVoidMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::jvalue,
-                       ::Array<::UnityEngine::jvalue> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline void UnityEngine::AndroidJNI::CallStaticVoidMethod(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::System::Span_1<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticVoidMethod", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Span_1<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline void UnityEngine::AndroidJNI::CallStaticVoidMethodUnsafe(
-    ::System::IntPtr clazz, ::System::IntPtr methodID,
-    ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "CallStaticVoidMethodUnsafe", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::UnityEngine::jvalue>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, methodID, args);
-}
-inline ::StringW
-UnityEngine::AndroidJNI::GetStaticStringField(::System::IntPtr clazz,
-                                              ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticStringField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetStaticObjectField(::System::IntPtr clazz,
-                                              ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticObjectField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline bool
-UnityEngine::AndroidJNI::GetStaticBooleanField(::System::IntPtr clazz,
-                                               ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticBooleanField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline uint8_t
-UnityEngine::AndroidJNI::GetStaticByteField(::System::IntPtr clazz,
-                                            ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline int8_t
-UnityEngine::AndroidJNI::GetStaticSByteField(::System::IntPtr clazz,
-                                             ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticSByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline char16_t
-UnityEngine::AndroidJNI::GetStaticCharField(::System::IntPtr clazz,
-                                            ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticCharField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline int16_t
-UnityEngine::AndroidJNI::GetStaticShortField(::System::IntPtr clazz,
-                                             ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticShortField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline int32_t
-UnityEngine::AndroidJNI::GetStaticIntField(::System::IntPtr clazz,
-                                           ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticIntField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline int64_t
-UnityEngine::AndroidJNI::GetStaticLongField(::System::IntPtr clazz,
-                                            ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticLongField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline float_t
-UnityEngine::AndroidJNI::GetStaticFloatField(::System::IntPtr clazz,
-                                             ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticFloatField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline double_t
-UnityEngine::AndroidJNI::GetStaticDoubleField(::System::IntPtr clazz,
-                                              ::System::IntPtr fieldID) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetStaticDoubleField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, clazz, fieldID);
-}
-inline void UnityEngine::AndroidJNI::SetStaticStringField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, ::StringW val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticStringField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticObjectField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, ::System::IntPtr val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticObjectField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticBooleanField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, bool val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticBooleanField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticByteField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, uint8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              uint8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticSByteField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, int8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticSByteField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticCharField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, char16_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticCharField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticShortField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, int16_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticShortField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticIntField(::System::IntPtr clazz,
-                                                       ::System::IntPtr fieldID,
-                                                       int32_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticIntField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticLongField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, int64_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticLongField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int64_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticFloatField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, float_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticFloatField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              float_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline void UnityEngine::AndroidJNI::SetStaticDoubleField(
-    ::System::IntPtr clazz, ::System::IntPtr fieldID, double_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetStaticDoubleField", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              double_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, clazz, fieldID, val);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToBooleanArray(::ArrayW<bool, ::Array<bool> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToBooleanArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<bool, ::Array<bool> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToByteArray(
-    ::ArrayW<uint8_t, ::Array<uint8_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<uint8_t, ::Array<uint8_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToSByteArray(
-    ::ArrayW<int8_t, ::Array<int8_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToSByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<int8_t, ::Array<int8_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToSByteArray(::cordl_internals::Ptr<int8_t> array,
-                                      int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToSByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<int8_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToCharArray(
-    ::ArrayW<char16_t, ::Array<char16_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToCharArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<char16_t, ::Array<char16_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToCharArray(::cordl_internals::Ptr<char16_t> array,
-                                     int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToCharArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<char16_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToShortArray(
-    ::ArrayW<int16_t, ::Array<int16_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToShortArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<int16_t, ::Array<int16_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToShortArray(::cordl_internals::Ptr<int16_t> array,
-                                      int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToShortArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<int16_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToIntArray(
-    ::ArrayW<int32_t, ::Array<int32_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToIntArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<int32_t, ::Array<int32_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToIntArray(::cordl_internals::Ptr<int32_t> array,
-                                    int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToIntArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<int32_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToLongArray(
-    ::ArrayW<int64_t, ::Array<int64_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToLongArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<int64_t, ::Array<int64_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToLongArray(::cordl_internals::Ptr<int64_t> array,
-                                     int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToLongArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<int64_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToFloatArray(
-    ::ArrayW<float_t, ::Array<float_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToFloatArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<float_t, ::Array<float_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToFloatArray(::cordl_internals::Ptr<float_t> array,
-                                      int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToFloatArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<float_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToDoubleArray(
-    ::ArrayW<double_t, ::Array<double_t> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToDoubleArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<double_t, ::Array<double_t> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::ToDoubleArray(::cordl_internals::Ptr<double_t> array,
-                                       int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToDoubleArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<double_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToObjectArray(
-    ::cordl_internals::Ptr<::System::IntPtr> array, int32_t length,
-    ::System::IntPtr arrayClass) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToObjectArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<::System::IntPtr>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, length, arrayClass);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToObjectArray(
-    ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *> array,
-    ::System::IntPtr arrayClass) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToObjectArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, arrayClass);
-}
-inline ::System::IntPtr UnityEngine::AndroidJNI::ToObjectArray(
-    ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *> array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "ToObjectArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::ArrayW<bool, ::Array<bool> *>
-UnityEngine::AndroidJNI::FromBooleanArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromBooleanArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool, ::Array<bool> *>,
-                                             false>(nullptr, ___internal_method,
-                                                    array);
-}
-inline ::ArrayW<uint8_t, ::Array<uint8_t> *>
-UnityEngine::AndroidJNI::FromByteArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<uint8_t, ::Array<uint8_t> *>, false>(nullptr, ___internal_method,
-                                                    array);
-}
-inline ::ArrayW<int8_t, ::Array<int8_t> *>
-UnityEngine::AndroidJNI::FromSByteArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromSByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<int8_t, ::Array<int8_t> *>, false>(nullptr, ___internal_method,
-                                                  array);
-}
-inline ::ArrayW<char16_t, ::Array<char16_t> *>
-UnityEngine::AndroidJNI::FromCharArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromCharArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<char16_t, ::Array<char16_t> *>, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::ArrayW<int16_t, ::Array<int16_t> *>
-UnityEngine::AndroidJNI::FromShortArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromShortArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<int16_t, ::Array<int16_t> *>, false>(nullptr, ___internal_method,
-                                                    array);
-}
-inline ::ArrayW<int32_t, ::Array<int32_t> *>
-UnityEngine::AndroidJNI::FromIntArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromIntArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<int32_t, ::Array<int32_t> *>, false>(nullptr, ___internal_method,
-                                                    array);
-}
-inline ::ArrayW<int64_t, ::Array<int64_t> *>
-UnityEngine::AndroidJNI::FromLongArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromLongArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<int64_t, ::Array<int64_t> *>, false>(nullptr, ___internal_method,
-                                                    array);
-}
-inline ::ArrayW<float_t, ::Array<float_t> *>
-UnityEngine::AndroidJNI::FromFloatArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromFloatArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<float_t, ::Array<float_t> *>, false>(nullptr, ___internal_method,
-                                                    array);
-}
-inline ::ArrayW<double_t, ::Array<double_t> *>
-UnityEngine::AndroidJNI::FromDoubleArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromDoubleArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<double_t, ::Array<double_t> *>, false>(
-      nullptr, ___internal_method, array);
-}
-inline ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>
-UnityEngine::AndroidJNI::FromObjectArray(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "FromObjectArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr> *>, false>(
-      nullptr, ___internal_method, array);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringLength", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, str);
+}
+inline int32_t UnityEngine::AndroidJNI::GetStringUTFLength(::System::IntPtr str) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringUTFLength", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, str);
+}
+inline ::StringW UnityEngine::AndroidJNI::GetStringUTFChars(::System::IntPtr str) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringUTFChars", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, str);
+}
+inline ::StringW UnityEngine::AndroidJNI::CallStringMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline ::StringW UnityEngine::AndroidJNI::CallStringMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline ::StringW UnityEngine::AndroidJNI::CallStringMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStringMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::CallObjectMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::CallObjectMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::CallObjectMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallObjectMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int32_t UnityEngine::AndroidJNI::CallIntMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int32_t UnityEngine::AndroidJNI::CallIntMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int32_t UnityEngine::AndroidJNI::CallIntMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallIntMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline bool UnityEngine::AndroidJNI::CallBooleanMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline bool UnityEngine::AndroidJNI::CallBooleanMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline bool UnityEngine::AndroidJNI::CallBooleanMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallBooleanMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int16_t UnityEngine::AndroidJNI::CallShortMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int16_t UnityEngine::AndroidJNI::CallShortMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int16_t UnityEngine::AndroidJNI::CallShortMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallShortMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline uint8_t UnityEngine::AndroidJNI::CallByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int8_t UnityEngine::AndroidJNI::CallSByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int8_t UnityEngine::AndroidJNI::CallSByteMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int8_t UnityEngine::AndroidJNI::CallSByteMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallSByteMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline char16_t UnityEngine::AndroidJNI::CallCharMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline char16_t UnityEngine::AndroidJNI::CallCharMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline char16_t UnityEngine::AndroidJNI::CallCharMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallCharMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline float_t UnityEngine::AndroidJNI::CallFloatMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline float_t UnityEngine::AndroidJNI::CallFloatMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline float_t UnityEngine::AndroidJNI::CallFloatMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallFloatMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline double_t UnityEngine::AndroidJNI::CallDoubleMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline double_t UnityEngine::AndroidJNI::CallDoubleMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline double_t UnityEngine::AndroidJNI::CallDoubleMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallDoubleMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int64_t UnityEngine::AndroidJNI::CallLongMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int64_t UnityEngine::AndroidJNI::CallLongMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline int64_t UnityEngine::AndroidJNI::CallLongMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallLongMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline void UnityEngine::AndroidJNI::CallVoidMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline void UnityEngine::AndroidJNI::CallVoidMethod(::System::IntPtr obj, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline void UnityEngine::AndroidJNI::CallVoidMethodUnsafe(::System::IntPtr obj, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallVoidMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, methodID, args);
+}
+inline ::StringW UnityEngine::AndroidJNI::GetStringField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStringField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetObjectField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline bool UnityEngine::AndroidJNI::GetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetBooleanField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline uint8_t UnityEngine::AndroidJNI::GetByteField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetByteField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline int8_t UnityEngine::AndroidJNI::GetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetSByteField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline char16_t UnityEngine::AndroidJNI::GetCharField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetCharField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline int16_t UnityEngine::AndroidJNI::GetShortField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetShortField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline int32_t UnityEngine::AndroidJNI::GetIntField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetIntField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline int64_t UnityEngine::AndroidJNI::GetLongField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetLongField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline float_t UnityEngine::AndroidJNI::GetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetFloatField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline double_t UnityEngine::AndroidJNI::GetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDoubleField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, obj, fieldID);
+}
+inline void UnityEngine::AndroidJNI::SetStringField(::System::IntPtr obj, ::System::IntPtr fieldID, ::StringW val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStringField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetObjectField(::System::IntPtr obj, ::System::IntPtr fieldID, ::System::IntPtr val) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetObjectField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetBooleanField(::System::IntPtr obj, ::System::IntPtr fieldID, bool val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetBooleanField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetByteField(::System::IntPtr obj, ::System::IntPtr fieldID, uint8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetByteField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetSByteField(::System::IntPtr obj, ::System::IntPtr fieldID, int8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetSByteField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetCharField(::System::IntPtr obj, ::System::IntPtr fieldID, char16_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetCharField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetShortField(::System::IntPtr obj, ::System::IntPtr fieldID, int16_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetShortField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetIntField(::System::IntPtr obj, ::System::IntPtr fieldID, int32_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetIntField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetLongField(::System::IntPtr obj, ::System::IntPtr fieldID, int64_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetLongField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetFloatField(::System::IntPtr obj, ::System::IntPtr fieldID, float_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetFloatField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetDoubleField(::System::IntPtr obj, ::System::IntPtr fieldID, double_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetDoubleField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj, fieldID, val);
+}
+inline ::StringW UnityEngine::AndroidJNI::CallStaticStringMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline ::StringW UnityEngine::AndroidJNI::CallStaticStringMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticStringMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline ::StringW UnityEngine::AndroidJNI::CallStaticStringMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticStringMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::CallStaticObjectMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::CallStaticObjectMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticObjectMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::CallStaticObjectMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticObjectMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int32_t UnityEngine::AndroidJNI::CallStaticIntMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int32_t UnityEngine::AndroidJNI::CallStaticIntMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticIntMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int32_t UnityEngine::AndroidJNI::CallStaticIntMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticIntMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline bool UnityEngine::AndroidJNI::CallStaticBooleanMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline bool UnityEngine::AndroidJNI::CallStaticBooleanMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticBooleanMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline bool UnityEngine::AndroidJNI::CallStaticBooleanMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticBooleanMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int16_t UnityEngine::AndroidJNI::CallStaticShortMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int16_t UnityEngine::AndroidJNI::CallStaticShortMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticShortMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int16_t UnityEngine::AndroidJNI::CallStaticShortMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticShortMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline uint8_t UnityEngine::AndroidJNI::CallStaticByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int8_t UnityEngine::AndroidJNI::CallStaticSByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int8_t UnityEngine::AndroidJNI::CallStaticSByteMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticSByteMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int8_t UnityEngine::AndroidJNI::CallStaticSByteMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticSByteMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline char16_t UnityEngine::AndroidJNI::CallStaticCharMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline char16_t UnityEngine::AndroidJNI::CallStaticCharMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticCharMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline char16_t UnityEngine::AndroidJNI::CallStaticCharMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticCharMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline float_t UnityEngine::AndroidJNI::CallStaticFloatMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline float_t UnityEngine::AndroidJNI::CallStaticFloatMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticFloatMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline float_t UnityEngine::AndroidJNI::CallStaticFloatMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticFloatMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline double_t UnityEngine::AndroidJNI::CallStaticDoubleMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline double_t UnityEngine::AndroidJNI::CallStaticDoubleMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticDoubleMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline double_t UnityEngine::AndroidJNI::CallStaticDoubleMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticDoubleMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int64_t UnityEngine::AndroidJNI::CallStaticLongMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int64_t UnityEngine::AndroidJNI::CallStaticLongMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticLongMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline int64_t UnityEngine::AndroidJNI::CallStaticLongMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticLongMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline void UnityEngine::AndroidJNI::CallStaticVoidMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::jvalue, ::Array<::UnityEngine::jvalue>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline void UnityEngine::AndroidJNI::CallStaticVoidMethod(::System::IntPtr clazz, ::System::IntPtr methodID, ::System::Span_1<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticVoidMethod", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline void UnityEngine::AndroidJNI::CallStaticVoidMethodUnsafe(::System::IntPtr clazz, ::System::IntPtr methodID, ::cordl_internals::Ptr<::UnityEngine::jvalue> args) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "CallStaticVoidMethodUnsafe", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::jvalue>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, methodID, args);
+}
+inline ::StringW UnityEngine::AndroidJNI::GetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticStringField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticObjectField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline bool UnityEngine::AndroidJNI::GetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticBooleanField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline uint8_t UnityEngine::AndroidJNI::GetStaticByteField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticByteField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline int8_t UnityEngine::AndroidJNI::GetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticSByteField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline char16_t UnityEngine::AndroidJNI::GetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticCharField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline int16_t UnityEngine::AndroidJNI::GetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticShortField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline int32_t UnityEngine::AndroidJNI::GetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticIntField", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline int64_t UnityEngine::AndroidJNI::GetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticLongField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline float_t UnityEngine::AndroidJNI::GetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticFloatField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline double_t UnityEngine::AndroidJNI::GetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetStaticDoubleField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, clazz, fieldID);
+}
+inline void UnityEngine::AndroidJNI::SetStaticStringField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::StringW val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticStringField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticObjectField(::System::IntPtr clazz, ::System::IntPtr fieldID, ::System::IntPtr val) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticObjectField", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticBooleanField(::System::IntPtr clazz, ::System::IntPtr fieldID, bool val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticBooleanField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticByteField(::System::IntPtr clazz, ::System::IntPtr fieldID, uint8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticByteField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticSByteField(::System::IntPtr clazz, ::System::IntPtr fieldID, int8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticSByteField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticCharField(::System::IntPtr clazz, ::System::IntPtr fieldID, char16_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticCharField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticShortField(::System::IntPtr clazz, ::System::IntPtr fieldID, int16_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticShortField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticIntField(::System::IntPtr clazz, ::System::IntPtr fieldID, int32_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticIntField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticLongField(::System::IntPtr clazz, ::System::IntPtr fieldID, int64_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticLongField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticFloatField(::System::IntPtr clazz, ::System::IntPtr fieldID, float_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticFloatField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline void UnityEngine::AndroidJNI::SetStaticDoubleField(::System::IntPtr clazz, ::System::IntPtr fieldID, double_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetStaticDoubleField", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, clazz, fieldID, val);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToBooleanArray(::ArrayW<bool, ::Array<bool>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToBooleanArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<bool, ::Array<bool>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToSByteArray(::ArrayW<int8_t, ::Array<int8_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int8_t, ::Array<int8_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToSByteArray(::cordl_internals::Ptr<int8_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int8_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToCharArray(::ArrayW<char16_t, ::Array<char16_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToCharArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToCharArray(::cordl_internals::Ptr<char16_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToCharArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToShortArray(::ArrayW<int16_t, ::Array<int16_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToShortArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int16_t, ::Array<int16_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToShortArray(::cordl_internals::Ptr<int16_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToShortArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int16_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToIntArray(::ArrayW<int32_t, ::Array<int32_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToIntArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToIntArray(::cordl_internals::Ptr<int32_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToIntArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int32_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToLongArray(::ArrayW<int64_t, ::Array<int64_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToLongArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int64_t, ::Array<int64_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToLongArray(::cordl_internals::Ptr<int64_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToLongArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int64_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToFloatArray(::ArrayW<float_t, ::Array<float_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToFloatArray(::cordl_internals::Ptr<float_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<float_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToDoubleArray(::ArrayW<double_t, ::Array<double_t>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<double_t, ::Array<double_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToDoubleArray(::cordl_internals::Ptr<double_t> array, int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<double_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToObjectArray(::cordl_internals::Ptr<::System::IntPtr> array, int32_t length, ::System::IntPtr arrayClass) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToObjectArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::System::IntPtr>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, length, arrayClass);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToObjectArray(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> array, ::System::IntPtr arrayClass) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToObjectArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, arrayClass);
+}
+inline ::System::IntPtr UnityEngine::AndroidJNI::ToObjectArray(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> array) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "ToObjectArray", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<bool, ::Array<bool>*> UnityEngine::AndroidJNI::FromBooleanArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromBooleanArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<bool, ::Array<bool>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UnityEngine::AndroidJNI::FromByteArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<int8_t, ::Array<int8_t>*> UnityEngine::AndroidJNI::FromSByteArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<int8_t, ::Array<int8_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<char16_t, ::Array<char16_t>*> UnityEngine::AndroidJNI::FromCharArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromCharArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<char16_t, ::Array<char16_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<int16_t, ::Array<int16_t>*> UnityEngine::AndroidJNI::FromShortArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromShortArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<int16_t, ::Array<int16_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<int32_t, ::Array<int32_t>*> UnityEngine::AndroidJNI::FromIntArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromIntArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<int64_t, ::Array<int64_t>*> UnityEngine::AndroidJNI::FromLongArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromLongArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<int64_t, ::Array<int64_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<float_t, ::Array<float_t>*> UnityEngine::AndroidJNI::FromFloatArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<float_t, ::Array<float_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<double_t, ::Array<double_t>*> UnityEngine::AndroidJNI::FromDoubleArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<double_t, ::Array<double_t>*>, false>(nullptr, ___internal_method, array);
+}
+inline ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> UnityEngine::AndroidJNI::FromObjectArray(::System::IntPtr array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "FromObjectArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>, false>(nullptr, ___internal_method, array);
 }
 inline int32_t UnityEngine::AndroidJNI::GetArrayLength(::System::IntPtr array) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetArrayLength", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, array);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetArrayLength", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewBooleanArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewBooleanArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewBooleanArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewByteArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewSByteArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewSByteArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewSByteArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewCharArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewCharArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewCharArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewShortArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewShortArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewShortArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewIntArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewIntArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewIntArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewLongArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewLongArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewLongArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewFloatArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewFloatArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewFloatArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
 inline ::System::IntPtr UnityEngine::AndroidJNI::NewDoubleArray(int32_t size) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewDoubleArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDoubleArray", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::NewObjectArray(int32_t size, ::System::IntPtr clazz,
-                                        ::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewObjectArray", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, size, clazz, obj);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewObjectArray(int32_t size, ::System::IntPtr clazz, ::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewObjectArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, size, clazz, obj);
 }
-inline bool
-UnityEngine::AndroidJNI::GetBooleanArrayElement(::System::IntPtr array,
-                                                int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetBooleanArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      nullptr, ___internal_method, array, index);
+inline bool UnityEngine::AndroidJNI::GetBooleanArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetBooleanArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, array, index);
 }
-inline uint8_t
-UnityEngine::AndroidJNI::GetByteArrayElement(::System::IntPtr array,
-                                             int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(
-      nullptr, ___internal_method, array, index);
+inline uint8_t UnityEngine::AndroidJNI::GetByteArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, array, index);
 }
-inline int8_t
-UnityEngine::AndroidJNI::GetSByteArrayElement(::System::IntPtr array,
-                                              int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetSByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int8_t, false>(
-      nullptr, ___internal_method, array, index);
+inline int8_t UnityEngine::AndroidJNI::GetSByteArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetSByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int8_t, false>(nullptr, ___internal_method, array, index);
 }
-inline char16_t
-UnityEngine::AndroidJNI::GetCharArrayElement(::System::IntPtr array,
-                                             int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetCharArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      nullptr, ___internal_method, array, index);
+inline char16_t UnityEngine::AndroidJNI::GetCharArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetCharArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(nullptr, ___internal_method, array, index);
 }
-inline int16_t
-UnityEngine::AndroidJNI::GetShortArrayElement(::System::IntPtr array,
-                                              int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetShortArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int16_t, false>(
-      nullptr, ___internal_method, array, index);
+inline int16_t UnityEngine::AndroidJNI::GetShortArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetShortArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int16_t, false>(nullptr, ___internal_method, array, index);
 }
-inline int32_t
-UnityEngine::AndroidJNI::GetIntArrayElement(::System::IntPtr array,
-                                            int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetIntArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, array, index);
+inline int32_t UnityEngine::AndroidJNI::GetIntArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetIntArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array, index);
 }
-inline int64_t
-UnityEngine::AndroidJNI::GetLongArrayElement(::System::IntPtr array,
-                                             int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetLongArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, array, index);
+inline int64_t UnityEngine::AndroidJNI::GetLongArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetLongArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, array, index);
 }
-inline float_t
-UnityEngine::AndroidJNI::GetFloatArrayElement(::System::IntPtr array,
-                                              int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetFloatArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(
-      nullptr, ___internal_method, array, index);
+inline float_t UnityEngine::AndroidJNI::GetFloatArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetFloatArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, array, index);
 }
-inline double_t
-UnityEngine::AndroidJNI::GetDoubleArrayElement(::System::IntPtr array,
-                                               int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetDoubleArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(
-      nullptr, ___internal_method, array, index);
+inline double_t UnityEngine::AndroidJNI::GetDoubleArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDoubleArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(nullptr, ___internal_method, array, index);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::GetObjectArrayElement(::System::IntPtr array,
-                                               int32_t index) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetObjectArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, array, index);
+inline ::System::IntPtr UnityEngine::AndroidJNI::GetObjectArrayElement(::System::IntPtr array, int32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetObjectArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, array, index);
 }
-inline void
-UnityEngine::AndroidJNI::SetBooleanArrayElement(::System::IntPtr array,
-                                                int32_t index, uint8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetBooleanArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              uint8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetBooleanArrayElement(::System::IntPtr array, int32_t index, uint8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetBooleanArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void
-UnityEngine::AndroidJNI::SetBooleanArrayElement(::System::IntPtr array,
-                                                int32_t index, bool val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetBooleanArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetBooleanArrayElement(::System::IntPtr array, int32_t index, bool val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetBooleanArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void UnityEngine::AndroidJNI::SetByteArrayElement(::System::IntPtr array,
-                                                         int32_t index,
-                                                         int8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetByteArrayElement(::System::IntPtr array, int32_t index, int8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void
-UnityEngine::AndroidJNI::SetSByteArrayElement(::System::IntPtr array,
-                                              int32_t index, int8_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetSByteArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int8_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetSByteArrayElement(::System::IntPtr array, int32_t index, int8_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetSByteArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int8_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void UnityEngine::AndroidJNI::SetCharArrayElement(::System::IntPtr array,
-                                                         int32_t index,
-                                                         char16_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetCharArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetCharArrayElement(::System::IntPtr array, int32_t index, char16_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetCharArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void
-UnityEngine::AndroidJNI::SetShortArrayElement(::System::IntPtr array,
-                                              int32_t index, int16_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetShortArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetShortArrayElement(::System::IntPtr array, int32_t index, int16_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetShortArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void UnityEngine::AndroidJNI::SetIntArrayElement(::System::IntPtr array,
-                                                        int32_t index,
-                                                        int32_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetIntArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetIntArrayElement(::System::IntPtr array, int32_t index, int32_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetIntArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void UnityEngine::AndroidJNI::SetLongArrayElement(::System::IntPtr array,
-                                                         int32_t index,
-                                                         int64_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetLongArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int64_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetLongArrayElement(::System::IntPtr array, int32_t index, int64_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetLongArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void
-UnityEngine::AndroidJNI::SetFloatArrayElement(::System::IntPtr array,
-                                              int32_t index, float_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetFloatArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              float_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetFloatArrayElement(::System::IntPtr array, int32_t index, float_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetFloatArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void
-UnityEngine::AndroidJNI::SetDoubleArrayElement(::System::IntPtr array,
-                                               int32_t index, double_t val) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetDoubleArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              double_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, val);
+inline void UnityEngine::AndroidJNI::SetDoubleArrayElement(::System::IntPtr array, int32_t index, double_t val) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetDoubleArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, val);
 }
-inline void UnityEngine::AndroidJNI::SetObjectArrayElement(
-    ::System::IntPtr array, int32_t index, ::System::IntPtr obj) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "SetObjectArrayElement", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, array, index, obj);
+inline void UnityEngine::AndroidJNI::SetObjectArrayElement(::System::IntPtr array, int32_t index, ::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "SetObjectArrayElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, index, obj);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBuffer(
-    ::cordl_internals::Ptr<uint8_t> buffer, int64_t capacity) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::cordl_internals::Ptr<uint8_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int64_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, buffer, capacity);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBuffer(::cordl_internals::Ptr<uint8_t> buffer, int64_t capacity) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, buffer, capacity);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBuffer(
-    ::Unity::Collections::NativeArray_1<uint8_t> buffer) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Unity::Collections::NativeArray_1<uint8_t>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, buffer);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBuffer(::Unity::Collections::NativeArray_1<uint8_t> buffer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<uint8_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, buffer);
 }
-inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBuffer(
-    ::Unity::Collections::NativeArray_1<int8_t> buffer) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "NewDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Unity::Collections::NativeArray_1<int8_t>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, buffer);
+inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBuffer(::Unity::Collections::NativeArray_1<int8_t> buffer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<int8_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, buffer);
 }
-template <typename T>
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::NewDirectByteBufferFromNativeArray(
-    ::Unity::Collections::NativeArray_1<T> buffer) {
-  static auto *___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-              ::UnityEngine::AndroidJNI *>::get(),
-          "NewDirectByteBufferFromNativeArray",
-          std::array<const Il2CppClass *, 1>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-          ::std::array<const Il2CppType *, 1>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                  ::Unity::Collections::NativeArray_1<T>>::get()})));
-  static auto *___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-          ___internal_method_base,
-          std::array<const Il2CppClass *, 1>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                  T>::get()}));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, buffer);
+template <typename T> inline ::System::IntPtr UnityEngine::AndroidJNI::NewDirectByteBufferFromNativeArray(::Unity::Collections::NativeArray_1<T> buffer) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "NewDirectByteBufferFromNativeArray",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, buffer);
 }
-inline ::cordl_internals::Ptr<int8_t>
-UnityEngine::AndroidJNI::GetDirectBufferAddress(::System::IntPtr buffer) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetDirectBufferAddress", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<int8_t>,
-                                             false>(nullptr, ___internal_method,
-                                                    buffer);
+inline ::cordl_internals::Ptr<int8_t> UnityEngine::AndroidJNI::GetDirectBufferAddress(::System::IntPtr buffer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectBufferAddress", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<int8_t>, false>(nullptr, ___internal_method, buffer);
 }
-inline int64_t
-UnityEngine::AndroidJNI::GetDirectBufferCapacity(::System::IntPtr buffer) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetDirectBufferCapacity", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(
-      nullptr, ___internal_method, buffer);
+inline int64_t UnityEngine::AndroidJNI::GetDirectBufferCapacity(::System::IntPtr buffer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectBufferCapacity", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, buffer);
 }
-template <typename T>
-inline ::Unity::Collections::NativeArray_1<T>
-UnityEngine::AndroidJNI::GetDirectBuffer(::System::IntPtr buffer) {
-  static auto *___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-              ::UnityEngine::AndroidJNI *>::get(),
-          "GetDirectBuffer",
-          std::array<const Il2CppClass *, 1>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()},
-          ::std::array<const Il2CppType *, 1>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                  ::System::IntPtr>::get()})));
-  static auto *___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
-          ___internal_method_base,
-          std::array<const Il2CppClass *, 1>{
-              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                  T>::get()}));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Unity::Collections::NativeArray_1<T>, false>(
-      nullptr, ___internal_method, buffer);
+template <typename T> inline ::Unity::Collections::NativeArray_1<T> UnityEngine::AndroidJNI::GetDirectBuffer(::System::IntPtr buffer) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectBuffer",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<T>, false>(nullptr, ___internal_method, buffer);
 }
-inline ::Unity::Collections::NativeArray_1<uint8_t>
-UnityEngine::AndroidJNI::GetDirectByteBuffer(::System::IntPtr buffer) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetDirectByteBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Unity::Collections::NativeArray_1<uint8_t>, false>(
-      nullptr, ___internal_method, buffer);
+inline ::Unity::Collections::NativeArray_1<uint8_t> UnityEngine::AndroidJNI::GetDirectByteBuffer(::System::IntPtr buffer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<uint8_t>, false>(nullptr, ___internal_method, buffer);
 }
-inline ::Unity::Collections::NativeArray_1<int8_t>
-UnityEngine::AndroidJNI::GetDirectSByteBuffer(::System::IntPtr buffer) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "GetDirectSByteBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Unity::Collections::NativeArray_1<int8_t>, false>(
-      nullptr, ___internal_method, buffer);
+inline ::Unity::Collections::NativeArray_1<int8_t> UnityEngine::AndroidJNI::GetDirectSByteBuffer(::System::IntPtr buffer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "GetDirectSByteBuffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeArray_1<int8_t>, false>(nullptr, ___internal_method, buffer);
 }
-inline int32_t UnityEngine::AndroidJNI::RegisterNatives(
-    ::System::IntPtr clazz, ::ArrayW<::UnityEngine::JNINativeMethod,
-                                     ::Array<::UnityEngine::JNINativeMethod> *>
-                                methods) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "RegisterNatives", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::JNINativeMethod,
-                       ::Array<::UnityEngine::JNINativeMethod> *>>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, methods);
+inline int32_t UnityEngine::AndroidJNI::RegisterNatives(::System::IntPtr clazz, ::ArrayW<::UnityEngine::JNINativeMethod, ::Array<::UnityEngine::JNINativeMethod>*> methods) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNatives", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::JNINativeMethod, ::Array<::UnityEngine::JNINativeMethod>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, methods);
 }
-inline ::System::IntPtr
-UnityEngine::AndroidJNI::RegisterNativesAllocate(int32_t length) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "RegisterNativesAllocate", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(
-      nullptr, ___internal_method, length);
+inline ::System::IntPtr UnityEngine::AndroidJNI::RegisterNativesAllocate(int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNativesAllocate",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, length);
 }
-inline void UnityEngine::AndroidJNI::RegisterNativesSet(
-    ::System::IntPtr natives, int32_t idx, ::StringW name, ::StringW signature,
-    ::System::IntPtr fnPtr) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "RegisterNativesSet", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 5>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, natives, idx, name, signature, fnPtr);
+inline void UnityEngine::AndroidJNI::RegisterNativesSet(::System::IntPtr natives, int32_t idx, ::StringW name, ::StringW signature, ::System::IntPtr fnPtr) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNativesSet", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, natives, idx, name, signature, fnPtr);
 }
-inline int32_t UnityEngine::AndroidJNI::RegisterNativesAndFree(
-    ::System::IntPtr clazz, ::System::IntPtr natives, int32_t n) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "RegisterNativesAndFree", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz, natives, n);
+inline int32_t UnityEngine::AndroidJNI::RegisterNativesAndFree(::System::IntPtr clazz, ::System::IntPtr natives, int32_t n) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "RegisterNativesAndFree", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz, natives, n);
 }
-inline int32_t
-UnityEngine::AndroidJNI::UnregisterNatives(::System::IntPtr clazz) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::UnityEngine::AndroidJNI *>::get(),
-      "UnregisterNatives", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IntPtr>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      nullptr, ___internal_method, clazz);
+inline int32_t UnityEngine::AndroidJNI::UnregisterNatives(::System::IntPtr clazz) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidJNI*>::get(), "UnregisterNatives", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, clazz);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJNI::AndroidJNI() {}

@@ -42,13 +42,13 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Accept, addr 0x40bd054, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40bcfdc, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetIsByRef, addr 0x40bd04c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIsByRef, addr 0x40bcfd4, size 0x8, virtual true, abstract: false, final false
   inline bool GetIsByRef();
 
-  /// @brief Method Make, addr 0x40bc904, size 0x67c, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x40bc88c, size 0x67c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Make(::System::Type* type, ::StringW name, bool isByRef);
 
   static inline ::System::Linq::Expressions::ParameterExpression* New_ctor(::StringW name);
@@ -59,19 +59,19 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x40bc898, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bc820, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IsByRef, addr 0x40b6518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsByRef, addr 0x40b64a0, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsByRef();
 
-  /// @brief Method get_Name, addr 0x40bd044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x40bcfcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x40bd03c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40bcfc4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x40bcfd0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40bcf58, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

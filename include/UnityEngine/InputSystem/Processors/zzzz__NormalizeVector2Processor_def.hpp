@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::NormalizeVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x46192f8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4619280, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x46193ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4619334, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x46193ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4619374, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

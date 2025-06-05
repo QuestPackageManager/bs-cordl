@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutUtility___c::*)()>(&::UnityEngine::UI::LayoutUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abe5e8;
+  constexpr static std::size_t addrs = 0x4abe570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutUtility___c*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetMinWidth_b__3_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe5f0;
+  constexpr static std::size_t addrs = 0x4abe578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe690;
+  constexpr static std::size_t addrs = 0x4abe618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetPreferredWidth_b__4_1)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe730;
+  constexpr static std::size_t addrs = 0x4abe6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetFlexibleWidth_b__5_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe7d0;
+  constexpr static std::size_t addrs = 0x4abe758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetMinHeight_b__6_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe870;
+  constexpr static std::size_t addrs = 0x4abe7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe910;
+  constexpr static std::size_t addrs = 0x4abe898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetPreferredHeight_b__7_1)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abe9b0;
+  constexpr static std::size_t addrs = 0x4abe938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::LayoutUtility___c::*)(::UnityEngine::UI::ILayoutElement*)>(
     &::UnityEngine::UI::LayoutUtility___c::_GetFlexibleHeight_b__8_0)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4abea50;
+  constexpr static std::size_t addrs = 0x4abe9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetMinSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ab8f94;
+  constexpr static std::size_t addrs = 0x4ab8f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetPreferredSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ab8fa0;
+  constexpr static std::size_t addrs = 0x4ab8f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, int32_t)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4abb9b8;
+  constexpr static std::size_t addrs = 0x4abb940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetMinWidth)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4abdc7c;
+  constexpr static std::size_t addrs = 0x4abdc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetPreferredWidth)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x4abdefc;
+  constexpr static std::size_t addrs = 0x4abde84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleWidth)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4abe17c;
+  constexpr static std::size_t addrs = 0x4abe104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetMinHeight)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4abdb94;
+  constexpr static std::size_t addrs = 0x4abdb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetPreferredHeight)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x4abdd64;
+  constexpr static std::size_t addrs = 0x4abdcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutUtility::GetFlexibleHeight)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4abe094;
+  constexpr static std::size_t addrs = 0x4abe01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, float_t)>(
     &::UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4abe264;
+  constexpr static std::size_t addrs = 0x4abe1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::RectTransform*, ::System::Func_2<::UnityEngine::UI::ILayoutElement*, float_t>*, float_t,
                                                                                               ::ByRef<::UnityEngine::UI::ILayoutElement*>)>(&::UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x4abe27c;
+  constexpr static std::size_t addrs = 0x4abe204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

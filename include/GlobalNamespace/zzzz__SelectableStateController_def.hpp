@@ -123,7 +123,7 @@ public:
 
   static inline ::GlobalNamespace::SelectableStateController* New_ctor();
 
-  /// @brief Method SetState, addr 0x44d8fb0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x44d8f38, size 0x24, virtual false, abstract: false, final false
   inline void SetState(::GlobalNamespace::SelectableStateController_ViewState state, bool animated);
 
   constexpr ::GlobalNamespace::SelectableStateController_ViewState const& __cordl_internal_get__currentViewState_k__BackingField() const;
@@ -144,22 +144,22 @@ public:
 
   constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
-  /// @brief Method .ctor, addr 0x44d8fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x44d60c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_stateDidChangeEvent, addr 0x44d604c, size 0xb0, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
-  /// @brief Method get_currentViewState, addr 0x44d8fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentViewState, addr 0x44d8f28, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SelectableStateController_ViewState get_currentViewState();
 
-  /// @brief Method get_tweeningManager, addr 0x44d8f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tweeningManager, addr 0x44d8f20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
-  /// @brief Method remove_stateDidChangeEvent, addr 0x44d6200, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_stateDidChangeEvent, addr 0x44d6188, size 0xb0, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_2<::GlobalNamespace::SelectableStateController_ViewState, bool>* value);
 
-  /// @brief Method set_currentViewState, addr 0x44d8fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentViewState, addr 0x44d8f30, size 0x8, virtual false, abstract: false, final false
   inline void set_currentViewState(::GlobalNamespace::SelectableStateController_ViewState value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::Xml::XmlReader*)>(&::System::Data::DataTextReader::CreateReader)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x41bdaa4;
+  constexpr static std::size_t addrs = 0x41bda2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTextReader::*)(::System::Xml::XmlReader*)>(&::System::Data::DataTextReader::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x41bdafc;
+  constexpr static std::size_t addrs = 0x41bda84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (::System::Data::DataTextReader::*)()>(
     &::System::Data::DataTextReader::get_Settings)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdb68;
+  constexpr static std::size_t addrs = 0x41bdaf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_NodeType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdb88;
+  constexpr static std::size_t addrs = 0x41bdb10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdba8;
+  constexpr static std::size_t addrs = 0x41bdb30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_LocalName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdbc8;
+  constexpr static std::size_t addrs = 0x41bdb50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdbe8;
+  constexpr static std::size_t addrs = 0x41bdb70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_Prefix)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdc08;
+  constexpr static std::size_t addrs = 0x41bdb90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_Value)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdc28;
+  constexpr static std::size_t addrs = 0x41bdbb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_Depth)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41bdc48;
+  constexpr static std::size_t addrs = 0x41bdbd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_BaseURI)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdc68;
+  constexpr static std::size_t addrs = 0x41bdbf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdc8c;
+  constexpr static std::size_t addrs = 0x41bdc14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdcb0;
+  constexpr static std::size_t addrs = 0x41bdc38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdcd4;
+  constexpr static std::size_t addrs = 0x41bdc5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdcf8;
+  constexpr static std::size_t addrs = 0x41bdc80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_XmlLang)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdd1c;
+  constexpr static std::size_t addrs = 0x41bdca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdd40;
+  constexpr static std::size_t addrs = 0x41bdcc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)(::StringW)>(&::System::Data::DataTextReader::GetAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdd64;
+  constexpr static std::size_t addrs = 0x41bdcec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)(::StringW, ::StringW)>(&::System::Data::DataTextReader::GetAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdd88;
+  constexpr static std::size_t addrs = 0x41bdd10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)(int32_t)>(&::System::Data::DataTextReader::GetAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bddac;
+  constexpr static std::size_t addrs = 0x41bdd34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)(::StringW)>(&::System::Data::DataTextReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bddd0;
+  constexpr static std::size_t addrs = 0x41bdd58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTextReader::*)(int32_t)>(&::System::Data::DataTextReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bddf4;
+  constexpr static std::size_t addrs = 0x41bdd7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bde18;
+  constexpr static std::size_t addrs = 0x41bdda0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bde3c;
+  constexpr static std::size_t addrs = 0x41bddc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::MoveToElement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bde60;
+  constexpr static std::size_t addrs = 0x41bdde8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bde84;
+  constexpr static std::size_t addrs = 0x41bde0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::Read)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdea8;
+  constexpr static std::size_t addrs = 0x41bde30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_EOF)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdecc;
+  constexpr static std::size_t addrs = 0x41bde54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::Close)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdef0;
+  constexpr static std::size_t addrs = 0x41bde78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_ReadState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdf14;
+  constexpr static std::size_t addrs = 0x41bde9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::Skip)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdf38;
+  constexpr static std::size_t addrs = 0x41bdec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_NameTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdf5c;
+  constexpr static std::size_t addrs = 0x41bdee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)(::StringW)>(&::System::Data::DataTextReader::LookupNamespace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdf80;
+  constexpr static std::size_t addrs = 0x41bdf08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_CanResolveEntity)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdfa4;
+  constexpr static std::size_t addrs = 0x41bdf2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdfc8;
+  constexpr static std::size_t addrs = 0x41bdf50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -504,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::get_CanReadValueChunk)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41bdfec;
+  constexpr static std::size_t addrs = 0x41bdf74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -518,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataTextReader::*)()>(&::System::Data::DataTextReader::ReadString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41be010;
+  constexpr static std::size_t addrs = 0x41bdf98;
 
   inline static ::MethodInfo const* methodInfo() {
 

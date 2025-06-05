@@ -30,22 +30,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE DateTimeOffsetConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x445d970, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x445d8f8, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x445da38, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x445d9c0, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x445db00, size 0x398, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x445da88, size 0x398, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x445de98, size 0xb80, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x445de20, size 0xb80, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::DateTimeOffsetConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x445ea18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445e9a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

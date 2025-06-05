@@ -21,7 +21,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE BeatmapLevelSaveDataUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MigrateBeatmapLevelSaveData, addr 0x270f8a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method MigrateBeatmapLevelSaveData, addr 0x270f87c, size 0xf4, virtual false, abstract: false, final false
   static inline void MigrateBeatmapLevelSaveData(::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData* beatmapLevelSaveData);
 
 protected:

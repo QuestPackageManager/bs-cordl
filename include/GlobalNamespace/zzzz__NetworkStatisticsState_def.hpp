@@ -42,18 +42,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE NetworkStatisticsState_NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x22dd44c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22dd40c, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x22dd4d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22dd498, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x22dd438, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x22dd3f8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
 
   static inline ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x22dd39c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd35c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -88,12 +88,12 @@ public:
   // Declarations
   using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate;
 
-  /// @brief Method .ctor, addr 0x22dd2fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd2bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext,
                     int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,
                     int64_t decryptionProcessingTime);
 
-  /// @brief Method op_Subtraction, addr 0x22dd324, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x22dd2e4, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(::ByRef<::GlobalNamespace::NetworkStatisticsState> a, ::ByRef<::GlobalNamespace::NetworkStatisticsState> b);
 
   // Ctor Parameters []

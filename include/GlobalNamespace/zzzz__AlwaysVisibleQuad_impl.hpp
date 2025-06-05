@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlwaysVisibleQuad::*)()>(&::GlobalNamespace::AlwaysVisibleQuad::OnEnable)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x4080d48;
+  constexpr static std::size_t addrs = 0x4080cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlwaysVisibleQuad*>::get(), "OnEnable",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlwaysVisibleQuad::*)()>(&::GlobalNamespace::AlwaysVisibleQuad::OnDisable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4080f54;
+  constexpr static std::size_t addrs = 0x4080edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlwaysVisibleQuad*>::get(), "OnDisable",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlwaysVisibleQuad::*)()>(&::GlobalNamespace::AlwaysVisibleQuad::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4080f60;
+  constexpr static std::size_t addrs = 0x4080ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlwaysVisibleQuad*>::get(), ".ctor",

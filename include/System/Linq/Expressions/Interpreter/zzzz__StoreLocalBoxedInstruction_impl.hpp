@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40e9fb8;
+  constexpr static std::size_t addrs = 0x40e9f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e9fe0;
+  constexpr static std::size_t addrs = 0x40e9f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40e9fe8;
+  constexpr static std::size_t addrs = 0x40e9f70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::StoreLocalBoxedInstruction::Run)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x40ea028;
+  constexpr static std::size_t addrs = 0x40e9fb0;
 
   inline static ::MethodInfo const* methodInfo() {
 

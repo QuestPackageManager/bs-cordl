@@ -35,22 +35,22 @@ namespace Oculus::Platform {
 class CORDL_TYPE Application : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CancelAppDownload, addr 0x3f87b58, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CancelAppDownload, addr 0x3f87ae0, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* CancelAppDownload();
 
-  /// @brief Method CheckAppDownloadProgress, addr 0x3f87ca8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CheckAppDownloadProgress, addr 0x3f87c30, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadProgressResult*>* CheckAppDownloadProgress();
 
-  /// @brief Method GetVersion, addr 0x3f87df8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x3f87d80, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
 
-  /// @brief Method InstallAppUpdateAndRelaunch, addr 0x3f87f48, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method InstallAppUpdateAndRelaunch, addr 0x3f87ed0, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* InstallAppUpdateAndRelaunch(::Oculus::Platform::ApplicationOptions* deeplink_options);
 
-  /// @brief Method LaunchOtherApp, addr 0x3f880a8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method LaunchOtherApp, addr 0x3f88030, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions* deeplink_options);
 
-  /// @brief Method StartAppDownload, addr 0x3f88218, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method StartAppDownload, addr 0x3f881a0, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* StartAppDownload();
 
 protected:

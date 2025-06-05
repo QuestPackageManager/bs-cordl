@@ -74,27 +74,27 @@ public:
   /// @brief Field _udpSocketv6, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__udpSocketv6, put = __cordl_internal_set__udpSocketv6)) ::System::Net::Sockets::Socket* _udpSocketv6;
 
-  /// @brief Method Bind, addr 0x3ab46cc, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x3ab46a4, size 0x3d4, virtual false, abstract: false, final false
   inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
 
-  /// @brief Method BindSocket, addr 0x3ab8c30, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method BindSocket, addr 0x3ab8c08, size 0x690, virtual false, abstract: false, final false
   inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);
 
-  /// @brief Method Close, addr 0x3ab5ecc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x3ab5ea4, size 0xa8, virtual false, abstract: false, final false
   inline void Close(bool suspend);
 
-  /// @brief Method IsActive, addr 0x3ab86a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x3ab8678, size 0x18, virtual false, abstract: false, final false
   inline bool IsActive();
 
   static inline ::LiteNetLib::NetSocket* New_ctor(::LiteNetLib::INetSocketListener* listener);
 
-  /// @brief Method ReceiveLogic, addr 0x3ab86b8, size 0x578, virtual false, abstract: false, final false
+  /// @brief Method ReceiveLogic, addr 0x3ab8690, size 0x578, virtual false, abstract: false, final false
   inline void ReceiveLogic(::System::Object* state);
 
-  /// @brief Method SendBroadcast, addr 0x3ab5064, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method SendBroadcast, addr 0x3ab503c, size 0x2f4, virtual false, abstract: false, final false
   inline bool SendBroadcast(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, int32_t port);
 
-  /// @brief Method SendTo, addr 0x3aaf340, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method SendTo, addr 0x3aaf318, size 0x364, virtual false, abstract: false, final false
   inline int32_t SendTo(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint, ::ByRef<::System::Net::Sockets::SocketError> errorCode);
 
   constexpr bool const& __cordl_internal_get_IsRunning() const;
@@ -139,27 +139,27 @@ public:
 
   constexpr void __cordl_internal_set__udpSocketv6(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method .ctor, addr 0x3ab0b98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab0b70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::INetSocketListener* listener);
 
   static inline bool getStaticF_IPv6Support();
 
   static inline ::System::Net::IPAddress* getStaticF_MulticastAddressV6();
 
-  /// @brief Method get_LocalPort, addr 0x3ab85ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalPort, addr 0x3ab8584, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
-  /// @brief Method get_Ttl, addr 0x3ab85bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Ttl, addr 0x3ab8594, size 0x1c, virtual false, abstract: false, final false
   inline int16_t get_Ttl();
 
   static inline void setStaticF_IPv6Support(bool value);
 
   static inline void setStaticF_MulticastAddressV6(::System::Net::IPAddress* value);
 
-  /// @brief Method set_LocalPort, addr 0x3ab85b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalPort, addr 0x3ab858c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalPort(int32_t value);
 
-  /// @brief Method set_Ttl, addr 0x3aaf324, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Ttl, addr 0x3aaf2fc, size 0x1c, virtual false, abstract: false, final false
   inline void set_Ttl(int16_t value);
 
 protected:

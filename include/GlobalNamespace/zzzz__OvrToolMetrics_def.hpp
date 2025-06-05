@@ -36,21 +36,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CaptureFrame, addr 0x3b1e12c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x3b1e104, size 0x54, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x3b1e128, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b1e100, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x3b1e180, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x3b1e158, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport();
 
-  /// @brief Method GenerateTableReport, addr 0x3b1e30c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x3b1e2e4, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport();
 
   static inline ::GlobalNamespace::OvrToolMetrics* New_ctor();
 
-  /// @brief Method RecordMetrics, addr 0x3b1e120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecordMetrics, addr 0x3b1e0f8, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OvrToolMetrics* RecordMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__metrics() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b1e4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e4b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

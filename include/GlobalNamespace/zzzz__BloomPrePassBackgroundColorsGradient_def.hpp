@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_startT(float_t value);
 
-  /// @brief Method .ctor, addr 0x39d6890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d6868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,12 +126,12 @@ public:
   __declspec(property(get = get_elements)) ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*>*>
       elements;
 
-  /// @brief Method EvaluateColor, addr 0x39d6708, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateColor, addr 0x39d66e0, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color EvaluateColor(float_t t);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradient* New_ctor();
 
-  /// @brief Method UpdatePixels, addr 0x39d66a0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method UpdatePixels, addr 0x39d6678, size 0x68, virtual true, abstract: false, final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
 
   constexpr ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*>*> const&
@@ -142,10 +142,10 @@ public:
   constexpr void
   __cordl_internal_set__elements(::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*>*> value);
 
-  /// @brief Method .ctor, addr 0x39d67dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d67b4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_elements, addr 0x39d6698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elements, addr 0x39d6670, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*>*> get_elements();
 
 protected:

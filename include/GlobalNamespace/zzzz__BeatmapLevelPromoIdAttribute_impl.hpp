@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelPromoIdAttribute::*)()>(
     &::GlobalNamespace::BeatmapLevelPromoIdAttribute::get_allowPacks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f9b0c;
+  constexpr static std::size_t addrs = 0x26f9aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPromoIdAttribute*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelPromoIdAttribute::*)()>(
     &::GlobalNamespace::BeatmapLevelPromoIdAttribute::get_allowLevels)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f9b18;
+  constexpr static std::size_t addrs = 0x26f9af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPromoIdAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelPromoIdAttribute::*)()>(
     &::GlobalNamespace::BeatmapLevelPromoIdAttribute::get_allowEmpty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f9b24;
+  constexpr static std::size_t addrs = 0x26f9b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelPromoIdAttribute*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelPromoIdAttribute::*)(::GlobalNamespace::BeatmapLevelPromoIdFilter)>(
     &::GlobalNamespace::BeatmapLevelPromoIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26f9b30;
+  constexpr static std::size_t addrs = 0x26f9b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

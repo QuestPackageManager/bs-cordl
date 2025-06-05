@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Clickable* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_clickable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb1c;
+  constexpr static std::size_t addrs = 0x49ecaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Clickable*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_clickable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb24;
+  constexpr static std::size_t addrs = 0x49ecaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Internal::ColumnMover* (
     ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_mover)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb2c;
+  constexpr static std::size_t addrs = 0x49ecab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(
     ::UnityEngine::UIElements::Internal::ColumnMover*)>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_mover)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb34;
+  constexpr static std::size_t addrs = 0x49ecabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::StringW)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_sortOrderLabel)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49eb1f8;
+  constexpr static std::size_t addrs = 0x49eb180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Column* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb3c;
+  constexpr static std::size_t addrs = 0x49ecac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb44;
+  constexpr static std::size_t addrs = 0x49ecacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ecb4c;
+  constexpr static std::size_t addrs = 0x49ecad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_content)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x49ecb54;
+  constexpr static std::size_t addrs = 0x49ecadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::get_isContentBound)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x49ecce4;
+  constexpr static std::size_t addrs = 0x49ecc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(bool)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::set_isContentBound)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49ecdb0;
+  constexpr static std::size_t addrs = 0x49ecd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::_ctor)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x49e88e4;
+  constexpr static std::size_t addrs = 0x49e886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::InitManipulators)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x49ed144;
+  constexpr static std::size_t addrs = 0x49ed0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UpdateDataFromColumn)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49ed380;
+  constexpr static std::size_t addrs = 0x49ed308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::BindHeaderContent)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x49ed48c;
+  constexpr static std::size_t addrs = 0x49ed414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UnbindHeaderContent)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x49ed3b4;
+  constexpr static std::size_t addrs = 0x49ed33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::DestroyHeaderContent)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x49ecc1c;
+  constexpr static std::size_t addrs = 0x49ecba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::CreateDefaultHeaderContent)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x49ed564;
+  constexpr static std::size_t addrs = 0x49ed4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::DefaultBindHeaderContent)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x49ed6f0;
+  constexpr static std::size_t addrs = 0x49ed678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UpdateHeaderTemplate)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x49ece70;
+  constexpr static std::size_t addrs = 0x49ecdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::UpdateGeometryFromColumn)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x49ed044;
+  constexpr static std::size_t addrs = 0x49ecfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType)>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::__ctor_b__45_0)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x49edd7c;
+  constexpr static std::size_t addrs = 0x49edd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::__ctor_b__45_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49edf14;
+  constexpr static std::size_t addrs = 0x49ede9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::*)(
     ::UnityEngine::UIElements::Internal::ColumnMover*)>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn::_InitManipulators_b__46_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49edf18;
+  constexpr static std::size_t addrs = 0x49edea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

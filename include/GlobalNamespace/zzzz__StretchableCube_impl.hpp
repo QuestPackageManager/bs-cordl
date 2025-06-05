@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::Awake)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3af2c8c;
+  constexpr static std::size_t addrs = 0x3af2c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StretchableCube*>::get(), "Awake",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3af2e40;
+  constexpr static std::size_t addrs = 0x3af2e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StretchableCube*>::get(), "OnDestroy",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::StretchableCube::*)()>(
     &::GlobalNamespace::StretchableCube::CreateBox)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3af2cfc;
+  constexpr static std::size_t addrs = 0x3af2cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StretchableCube*>::get(), "CreateBox",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StretchableCube::*)(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>)>(
     &::GlobalNamespace::StretchableCube::RecalculateUVs)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3af2e4c;
+  constexpr static std::size_t addrs = 0x3af2e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::RefreshUVs)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3af3038;
+  constexpr static std::size_t addrs = 0x3af3010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StretchableCube*>::get(), "RefreshUVs",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StretchableCube::*)()>(&::GlobalNamespace::StretchableCube::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af30cc;
+  constexpr static std::size_t addrs = 0x3af30a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StretchableCube*>::get(), ".ctor",

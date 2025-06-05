@@ -41,10 +41,10 @@ public:
 
   static inline ::System::LocalAppContext___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4136430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41363b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_DisableCaching>b__6_0, addr 0x4136438, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <get_DisableCaching>b__6_0, addr 0x41363c0, size 0x78, virtual false, abstract: false, final false
   inline bool _get_DisableCaching_b__6_0();
 
   static inline ::System::LocalAppContext___c* getStaticF___9();
@@ -96,10 +96,10 @@ public:
   /// @brief Field s_syncObject, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_syncObject, put = setStaticF_s_syncObject)) ::System::Object* s_syncObject;
 
-  /// @brief Method GetCachedSwitchValue, addr 0x4136210, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSwitchValue, addr 0x4136198, size 0x20, virtual false, abstract: false, final false
   static inline bool GetCachedSwitchValue(::StringW switchName, ::ByRef<int32_t> switchValue);
 
-  /// @brief Method GetCachedSwitchValueInternal, addr 0x4136230, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSwitchValueInternal, addr 0x41361b8, size 0x94, virtual false, abstract: false, final false
   static inline bool GetCachedSwitchValueInternal(::StringW switchName, ::ByRef<int32_t> switchValue);
 
   static inline bool getStaticF_s_disableCaching();
@@ -108,7 +108,7 @@ public:
 
   static inline ::System::Object* getStaticF_s_syncObject();
 
-  /// @brief Method get_DisableCaching, addr 0x41362c4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_DisableCaching, addr 0x413624c, size 0x110, virtual false, abstract: false, final false
   static inline bool get_DisableCaching();
 
   static inline void setStaticF_s_disableCaching(bool value);

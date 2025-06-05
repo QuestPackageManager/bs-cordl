@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LessThanInstruction_LessThanSByte* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x40d66fc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40d6684, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40d6544, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d64cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:

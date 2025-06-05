@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ce60c;
+  constexpr static std::size_t addrs = 0x22ce5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ce61c;
+  constexpr static std::size_t addrs = 0x22ce5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22c86f4;
+  constexpr static std::size_t addrs = 0x22c86b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce62c;
+  constexpr static std::size_t addrs = 0x22ce5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce634;
+  constexpr static std::size_t addrs = 0x22ce5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce63c;
+  constexpr static std::size_t addrs = 0x22ce5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce644;
+  constexpr static std::size_t addrs = 0x22ce604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce64c;
+  constexpr static std::size_t addrs = 0x22ce60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(bool)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_isConnectionOwner)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22ce654;
+  constexpr static std::size_t addrs = 0x22ce614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(
     ::GlobalNamespace::IgnoranceConnectionManager*, uint32_t, ::StringW, ::StringW, bool)>(&::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22cdcf8;
+  constexpr static std::size_t addrs = 0x22cdcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Send)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22ce660;
+  constexpr static std::size_t addrs = 0x22ce620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Disconnect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22ce688;
+  constexpr static std::size_t addrs = 0x22ce648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce6ac;
+  constexpr static std::size_t addrs = 0x22ce66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::_DisposeAsync_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce6b4;
+  constexpr static std::size_t addrs = 0x22ce674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce6bc;
+  constexpr static std::size_t addrs = 0x22ce67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::_DisposeAsync_b__1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ce6c4;
+  constexpr static std::size_t addrs = 0x22ce684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cdd50;
+  constexpr static std::size_t addrs = 0x22cdd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -746,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::*)(
     ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*)>(&::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::_HandleIncomingEvents_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22ce6cc;
+  constexpr static std::size_t addrs = 0x22ce68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -792,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::MoveNext)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x22ce6f0;
+  constexpr static std::size_t addrs = 0x22ce6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22ceb4c;
+  constexpr static std::size_t addrs = 0x22ceb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -860,7 +860,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::MoveNext)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x22cebb4;
+  constexpr static std::size_t addrs = 0x22ceb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22cefe4;
+  constexpr static std::size_t addrs = 0x22cefa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -924,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cc374;
+  constexpr static std::size_t addrs = 0x22cc334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -939,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cc410;
+  constexpr static std::size_t addrs = 0x22cc3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -954,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cc4ac;
+  constexpr static std::size_t addrs = 0x22cc46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -969,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cc548;
+  constexpr static std::size_t addrs = 0x22cc508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -984,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cc5e4;
+  constexpr static std::size_t addrs = 0x22cc5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -999,7 +999,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cc694;
+  constexpr static std::size_t addrs = 0x22cc654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1014,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cc744;
+  constexpr static std::size_t addrs = 0x22cc704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1029,7 +1029,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cc7f4;
+  constexpr static std::size_t addrs = 0x22cc7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1044,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cc8a4;
+  constexpr static std::size_t addrs = 0x22cc864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1059,7 +1059,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cc954;
+  constexpr static std::size_t addrs = 0x22cc914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1074,7 +1074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cca04;
+  constexpr static std::size_t addrs = 0x22cc9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1090,7 +1090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ccab4;
+  constexpr static std::size_t addrs = 0x22cca74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1107,7 +1107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::IgnoranceConnectionManager::add_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ccb64;
+  constexpr static std::size_t addrs = 0x22ccb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1124,7 +1124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::IgnoranceConnectionManager::remove_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ccc14;
+  constexpr static std::size_t addrs = 0x22ccbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1140,7 +1140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cccc4;
+  constexpr static std::size_t addrs = 0x22ccc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1154,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ccccc;
+  constexpr static std::size_t addrs = 0x22ccc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1169,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cccd4;
+  constexpr static std::size_t addrs = 0x22ccc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cccdc;
+  constexpr static std::size_t addrs = 0x22ccc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1198,7 +1198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ccce4;
+  constexpr static std::size_t addrs = 0x22ccca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1212,7 +1212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22cccf4;
+  constexpr static std::size_t addrs = 0x22cccb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1226,7 +1226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ccd04;
+  constexpr static std::size_t addrs = 0x22cccc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1240,7 +1240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_connectionCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ccd14;
+  constexpr static std::size_t addrs = 0x22cccd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1254,7 +1254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ccd5c;
+  constexpr static std::size_t addrs = 0x22ccd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1268,7 +1268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isDisposed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ccd6c;
+  constexpr static std::size_t addrs = 0x22ccd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1282,7 +1282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_serverUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ccd7c;
+  constexpr static std::size_t addrs = 0x22ccd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1296,7 +1296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_serverUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ccd84;
+  constexpr static std::size_t addrs = 0x22ccd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1311,7 +1311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_serverUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ccd8c;
+  constexpr static std::size_t addrs = 0x22ccd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1325,7 +1325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_serverUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ccd94;
+  constexpr static std::size_t addrs = 0x22ccd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1339,7 +1339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22c7844;
+  constexpr static std::size_t addrs = 0x22c7804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), ".ctor",
@@ -1353,7 +1353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x22ccd9c;
+  constexpr static std::size_t addrs = 0x22ccd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1369,7 +1369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::PollUpdate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22ccf40;
+  constexpr static std::size_t addrs = 0x22ccf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1383,7 +1383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22cd704;
+  constexpr static std::size_t addrs = 0x22cd6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1396,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22cd7c4;
+  constexpr static std::size_t addrs = 0x22cd784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "Dispose",
@@ -1410,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleConnectionEvents)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x22cd054;
+  constexpr static std::size_t addrs = 0x22cd014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1424,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleIncomingEvents)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x22cd2c4;
+  constexpr static std::size_t addrs = 0x22cd284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1438,7 +1438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleDisconnectionEvents)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22cd648;
+  constexpr static std::size_t addrs = 0x22cd608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1452,7 +1452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x22cdb04;
+  constexpr static std::size_t addrs = 0x22cdac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1466,7 +1466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataReader*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<bool>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryParseConnectionMessage)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x22cdd58;
+  constexpr static std::size_t addrs = 0x22cdd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1483,7 +1483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     uint32_t, ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::Send)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22cdc14;
+  constexpr static std::size_t addrs = 0x22cdbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1500,7 +1500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(uint32_t, ::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::IgnoranceConnectionManager::DisconnectPeer)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22cde8c;
+  constexpr static std::size_t addrs = 0x22cde4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1516,7 +1516,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)(
     uint32_t, ::ByRef<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryGetConnection)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22cdf7c;
+  constexpr static std::size_t addrs = 0x22cdf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1532,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22ce08c;
+  constexpr static std::size_t addrs = 0x22ce04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1548,7 +1548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::IgnoranceConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22ce144;
+  constexpr static std::size_t addrs = 0x22ce104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1565,7 +1565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::IgnoranceConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x22cd7f8;
+  constexpr static std::size_t addrs = 0x22cd7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1580,7 +1580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::IgnoranceConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::IgnoranceConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22ce224;
+  constexpr static std::size_t addrs = 0x22ce1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1594,7 +1594,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGNet::Core::DeliveryMethod (*)(uint8_t)>(&::GlobalNamespace::IgnoranceConnectionManager::ToDeliveryMethod)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22ce070;
+  constexpr static std::size_t addrs = 0x22ce030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1608,7 +1608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::ToChannel)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22ce07c;
+  constexpr static std::size_t addrs = 0x22ce03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1622,7 +1622,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::IgnoranceCore::IgnoranceClient*)>(&::GlobalNamespace::IgnoranceConnectionManager::WaitForClientShutdown)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22cd9ac;
+  constexpr static std::size_t addrs = 0x22cd96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1636,7 +1636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::IgnoranceCore::IgnoranceServer*)>(&::GlobalNamespace::IgnoranceConnectionManager::WaitForServerShutdown)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22cda58;
+  constexpr static std::size_t addrs = 0x22cda18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1650,7 +1650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22ce308;
+  constexpr static std::size_t addrs = 0x22ce2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1664,7 +1664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::LogError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22ce27c;
+  constexpr static std::size_t addrs = 0x22ce23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1679,7 +1679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::StartBackgroundSentry)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x22ce394;
+  constexpr static std::size_t addrs = 0x22ce354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1693,7 +1693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::CheckSentryState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22cd030;
+  constexpr static std::size_t addrs = 0x22ccff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1707,7 +1707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::BackgroundDisconnectSentry)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22ce548;
+  constexpr static std::size_t addrs = 0x22ce508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),

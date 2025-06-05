@@ -112,30 +112,30 @@ public:
   /// @brief Field widthStart, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_widthStart, put = __cordl_internal_set_widthStart)) float_t widthStart;
 
-  /// @brief Method Awake, addr 0x39da51c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39da4f4, size 0x164, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateMesh, addr 0x39da77c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method CreateMesh, addr 0x39da754, size 0x2bc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> CreateMesh();
 
-  /// @brief Method InitIfNeeded, addr 0x39da680, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x39da658, size 0xfc, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::Parametric3SliceSpriteController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39daae8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39daac0, size 0xc4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x39daac8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39daaa0, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39daaa8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39daa80, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x39dabac, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x39dab84, size 0x208, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x39daa38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39daa10, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__collisionLength_k__BackingField() const;
@@ -234,7 +234,7 @@ public:
 
   constexpr void __cordl_internal_set_widthStart(float_t value);
 
-  /// @brief Method .ctor, addr 0x39dadb4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dad8c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaEndID();
@@ -255,10 +255,10 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
-  /// @brief Method get_collisionLength, addr 0x39da50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionLength, addr 0x39da4e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionLength();
 
-  /// @brief Method get_useCollision, addr 0x39da4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x39da4d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
   static inline void setStaticF__alphaEndID(int32_t value);
@@ -279,10 +279,10 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
-  /// @brief Method set_collisionLength, addr 0x39da514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collisionLength, addr 0x39da4ec, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionLength(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x39da500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x39da4d8, size 0xc, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
 protected:

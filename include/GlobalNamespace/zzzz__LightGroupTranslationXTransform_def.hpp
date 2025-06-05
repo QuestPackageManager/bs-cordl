@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightGroupTranslationXTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b91ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b91aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

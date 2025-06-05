@@ -27,13 +27,13 @@ public:
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_ImmutableRefBox* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x40ea7c4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40ea74c, size 0xc0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40ea79c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ea724, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x40ea884, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40ea80c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

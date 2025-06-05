@@ -75,97 +75,97 @@ public:
 
   __declspec(property(get = get_wrapMode, put = set_wrapMode)) ::UnityEngine::TextureWrapMode wrapMode;
 
-  /// @brief Method CreateNativeArrayLengthOverflowException, addr 0x4891ec8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateNativeArrayLengthOverflowException, addr 0x4891e50, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::UnityException* CreateNativeArrayLengthOverflowException();
 
-  /// @brief Method CreateNonReadableException, addr 0x4891e28, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateNonReadableException, addr 0x4891db0, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::UnityException* CreateNonReadableException(::UnityEngine::Texture* t);
 
-  /// @brief Method GetDataHeight, addr 0x4891524, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDataHeight, addr 0x48914ac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetDataHeight();
 
-  /// @brief Method GetDataWidth, addr 0x48914e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDataWidth, addr 0x4891470, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetDataWidth();
 
-  /// @brief Method GetNativeTexturePtr, addr 0x48918cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNativeTexturePtr, addr 0x4891854, size 0x3c, virtual false, abstract: false, final false
   inline ::System::IntPtr GetNativeTexturePtr();
 
-  /// @brief Method GetPixelDataOffset, addr 0x48919e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPixelDataOffset, addr 0x4891968, size 0x54, virtual false, abstract: false, final false
   inline uint64_t GetPixelDataOffset(int32_t mipLevel, int32_t element);
 
-  /// @brief Method GetPixelDataSize, addr 0x489198c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPixelDataSize, addr 0x4891914, size 0x54, virtual false, abstract: false, final false
   inline uint64_t GetPixelDataSize(int32_t mipLevel, int32_t element);
 
-  /// @brief Method GetTextureColorSpace, addr 0x4891a40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetTextureColorSpace, addr 0x48919c8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureColorSpace GetTextureColorSpace(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
 
-  /// @brief Method GetTextureColorSpace, addr 0x4891a34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetTextureColorSpace, addr 0x48919bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureColorSpace GetTextureColorSpace(bool linear);
 
-  /// @brief Method Internal_GetActiveTextureColorSpace, addr 0x4891908, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetActiveTextureColorSpace, addr 0x4891890, size 0x3c, virtual false, abstract: false, final false
   inline int32_t Internal_GetActiveTextureColorSpace();
 
   static inline ::UnityEngine::Texture* New_ctor();
 
-  /// @brief Method ValidateFormat, addr 0x4891c68, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x4891bf0, size 0x1c0, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::FormatUsage usage);
 
-  /// @brief Method ValidateFormat, addr 0x4891aa0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x4891a28, size 0x1c8, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::TextureFormat format);
 
-  /// @brief Method .ctor, addr 0x4891454, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48913dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_GenerateAllMips();
 
-  /// @brief Method get_activeTextureColorSpace, addr 0x4891944, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_activeTextureColorSpace, addr 0x48918cc, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::ColorSpace get_activeTextureColorSpace();
 
-  /// @brief Method get_anisoLevel, addr 0x48917bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_anisoLevel, addr 0x4891744, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_anisoLevel();
 
-  /// @brief Method get_filterMode, addr 0x489173c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_filterMode, addr 0x48916c4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::FilterMode get_filterMode();
 
-  /// @brief Method get_height, addr 0x48915d4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_height, addr 0x489155c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_isReadable, addr 0x4891680, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x4891608, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
-  /// @brief Method get_mipmapCount, addr 0x48914ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mipmapCount, addr 0x4891434, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_mipmapCount();
 
-  /// @brief Method get_texelSize, addr 0x489183c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_texelSize, addr 0x48917c4, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_texelSize();
 
-  /// @brief Method get_texelSize_Injected, addr 0x4891888, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_texelSize_Injected, addr 0x4891810, size 0x44, virtual false, abstract: false, final false
   inline void get_texelSize_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_width, addr 0x4891560, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_width, addr 0x48914e8, size 0x3c, virtual true, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method get_wrapMode, addr 0x48916bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_wrapMode, addr 0x4891644, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextureWrapMode get_wrapMode();
 
   static inline void setStaticF_GenerateAllMips(int32_t value);
 
-  /// @brief Method set_anisoLevel, addr 0x48917f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_anisoLevel, addr 0x4891780, size 0x44, virtual false, abstract: false, final false
   inline void set_anisoLevel(int32_t value);
 
-  /// @brief Method set_dimension, addr 0x4891648, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x48915d0, size 0x38, virtual true, abstract: false, final false
   inline void set_dimension(::UnityEngine::Rendering::TextureDimension value);
 
-  /// @brief Method set_filterMode, addr 0x4891778, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_filterMode, addr 0x4891700, size 0x44, virtual false, abstract: false, final false
   inline void set_filterMode(::UnityEngine::FilterMode value);
 
-  /// @brief Method set_height, addr 0x4891610, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_height, addr 0x4891598, size 0x38, virtual true, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_width, addr 0x489159c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_width, addr 0x4891524, size 0x38, virtual true, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_wrapMode, addr 0x48916f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_wrapMode, addr 0x4891680, size 0x44, virtual false, abstract: false, final false
   inline void set_wrapMode(::UnityEngine::TextureWrapMode value);
 
 protected:

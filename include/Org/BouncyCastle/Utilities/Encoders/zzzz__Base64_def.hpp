@@ -23,36 +23,36 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 class CORDL_TYPE Base64 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Decode, addr 0x25d6160, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d6120, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decode, addr 0x25d61cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d618c, size 0x58, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x25d6224, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d61e4, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x25d602c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d5fec, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Encode, addr 0x25d6048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d6008, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
 
-  /// @brief Method Encode, addr 0x25d6110, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d60d0, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x25d60c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d6080, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::Base64* New_ctor();
 
-  /// @brief Method ToBase64String, addr 0x25d5f54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x25d5f14, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ToBase64String, addr 0x25d5fbc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x25d5f7c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
 
-  /// @brief Method .ctor, addr 0x25d5f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d5f0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__startPointTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x22b92b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b9278, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endPoint, addr 0x22b929c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x22b925c, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_hasReferences, addr 0x22b901c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_hasReferences, addr 0x22b8fdc, size 0x98, virtual false, abstract: false, final false
   inline bool get_hasReferences();
 
-  /// @brief Method get_startPoint, addr 0x22b9280, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_startPoint, addr 0x22b9240, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
 protected:

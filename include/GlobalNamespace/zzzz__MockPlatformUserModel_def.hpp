@@ -53,24 +53,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformUserModel"
   constexpr operator ::GlobalNamespace::IPlatformUserModel*() noexcept;
 
-  /// @brief Method GetUserAuthToken, addr 0x407f688, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GetUserAuthToken, addr 0x407f610, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
 
-  /// @brief Method GetUserFriendsUserIds, addr 0x407f5cc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method GetUserFriendsUserIds, addr 0x407f554, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
 
-  /// @brief Method GetUserInfo, addr 0x407f4c0, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method GetUserInfo, addr 0x407f448, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserNamesForUserIds, addr 0x407f740, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetUserNamesForUserIds, addr 0x407f6c8, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
-  /// @brief Method GetUsersSystemLanguage, addr 0x407f84c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetUsersSystemLanguage, addr 0x407f7d4, size 0x5c, virtual true, abstract: false, final true
   inline ::BGLib::Polyglot::Language GetUsersSystemLanguage();
 
   static inline ::GlobalNamespace::MockPlatformUserModel* New_ctor();
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x407f7ac, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method RequestXPlatformAccessToken, addr 0x407f734, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::Action_1<::GlobalNamespace::UserInfo*>* const& __cordl_internal_get_platformUserInfoDidChangeEvent() const;
@@ -79,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x407f8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407f830, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x407f358, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x407f2e0, size 0xb0, virtual true, abstract: false, final true
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x407f4b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x407f440, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanXPlatformAccessTokenBeCached();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
   constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
-  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x407f408, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x407f390, size 0xb0, virtual true, abstract: false, final true
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
 protected:

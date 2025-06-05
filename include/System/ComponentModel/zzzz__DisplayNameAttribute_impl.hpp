@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4447b70;
+  constexpr static std::size_t addrs = 0x4447af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)(::StringW)>(
     &::System::ComponentModel::DisplayNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4447bcc;
+  constexpr static std::size_t addrs = 0x4447b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4447bf4;
+  constexpr static std::size_t addrs = 0x4447b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::get_DisplayNameValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4447bfc;
+  constexpr static std::size_t addrs = 0x4447b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)(::StringW)>(
     &::System::ComponentModel::DisplayNameAttribute::set_DisplayNameValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4447c04;
+  constexpr static std::size_t addrs = 0x4447b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DisplayNameAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DisplayNameAttribute::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4447c0c;
+  constexpr static std::size_t addrs = 0x4447b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4447cd8;
+  constexpr static std::size_t addrs = 0x4447c60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4447d00;
+  constexpr static std::size_t addrs = 0x4447c88;
 
   inline static ::MethodInfo const* methodInfo() {
 

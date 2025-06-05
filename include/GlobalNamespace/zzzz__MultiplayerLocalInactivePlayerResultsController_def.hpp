@@ -27,18 +27,18 @@ public:
   /// @brief Field _multiplayerController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  /// @brief Method HandleMultiplayerStateChange, addr 0x3bc5dec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerStateChange, addr 0x3bc5e34, size 0x4, virtual false, abstract: false, final false
   inline void HandleMultiplayerStateChange(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerResultsController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bc5d5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc5da4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetMultiplayerState, addr 0x3bc5d20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplayerState, addr 0x3bc5d68, size 0x3c, virtual false, abstract: false, final false
   inline void SetMultiplayerState(::GlobalNamespace::MultiplayerController_State state);
 
-  /// @brief Method Start, addr 0x3bc5c64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bc5cac, size 0xbc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  /// @brief Method .ctor, addr 0x3bc5df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc5e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dca068;
+  constexpr static std::size_t addrs = 0x3dc9ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dca070;
+  constexpr static std::size_t addrs = 0x3dc9ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint16_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dca078;
+  constexpr static std::size_t addrs = 0x3dca000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dca084;
+  constexpr static std::size_t addrs = 0x3dca00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dca08c;
+  constexpr static std::size_t addrs = 0x3dca014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AsyncCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::AsyncCallback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3d569bc;
+  constexpr static std::size_t addrs = 0x3d56944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AsyncCallback::*)(::System::IAsyncResult*)>(&::System::AsyncCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d56abc;
+  constexpr static std::size_t addrs = 0x3d56a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::AsyncCallback::*)(::System::IAsyncResult*, ::System::AsyncCallback*, ::System::Object*)>(&::System::AsyncCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d56ad0;
+  constexpr static std::size_t addrs = 0x3d56a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AsyncCallback::*)(::System::IAsyncResult*)>(&::System::AsyncCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d56af0;
+  constexpr static std::size_t addrs = 0x3d56a78;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -62,41 +62,41 @@ public:
   /// @brief Field _textstart, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__textstart, put = __cordl_internal_set__textstart)) int32_t _textstart;
 
-  /// @brief Method AddMatch, addr 0x44126f0, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method AddMatch, addr 0x4412678, size 0x1e0, virtual true, abstract: false, final false
   inline void AddMatch(int32_t cap, int32_t start, int32_t len);
 
-  /// @brief Method BalanceMatch, addr 0x44128d0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method BalanceMatch, addr 0x4412858, size 0xd8, virtual true, abstract: false, final false
   inline void BalanceMatch(int32_t cap);
 
-  /// @brief Method GroupToStringImpl, addr 0x4412530, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GroupToStringImpl, addr 0x44124b8, size 0x198, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GroupToStringImpl(int32_t groupnum);
 
-  /// @brief Method IsMatched, addr 0x44129e0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method IsMatched, addr 0x4412968, size 0x90, virtual true, abstract: false, final false
   inline bool IsMatched(int32_t cap);
 
-  /// @brief Method LastGroupToStringImpl, addr 0x44126c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method LastGroupToStringImpl, addr 0x4412650, size 0x28, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> LastGroupToStringImpl();
 
-  /// @brief Method MatchIndex, addr 0x4412a70, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method MatchIndex, addr 0x44129f8, size 0x8c, virtual true, abstract: false, final false
   inline int32_t MatchIndex(int32_t cap);
 
-  /// @brief Method MatchLength, addr 0x4412afc, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method MatchLength, addr 0x4412a84, size 0x8c, virtual true, abstract: false, final false
   inline int32_t MatchLength(int32_t cap);
 
   static inline ::System::Text::RegularExpressions::Match* New_ctor();
 
   static inline ::System::Text::RegularExpressions::Match* New_ctor(::System::Text::RegularExpressions::Regex* regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method NextMatch, addr 0x441227c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method NextMatch, addr 0x4412204, size 0x30, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* NextMatch();
 
-  /// @brief Method RemoveMatch, addr 0x44129a8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method RemoveMatch, addr 0x4412930, size 0x38, virtual true, abstract: false, final false
   inline void RemoveMatch(int32_t cap);
 
-  /// @brief Method Reset, addr 0x44121b0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4412138, size 0x64, virtual true, abstract: false, final false
   inline void Reset(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart);
 
-  /// @brief Method Tidy, addr 0x4412b88, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method Tidy, addr 0x4412b10, size 0x170, virtual true, abstract: false, final false
   inline void Tidy(int32_t textpos);
 
   constexpr bool const& __cordl_internal_get__balancing() const;
@@ -153,18 +153,18 @@ public:
 
   constexpr void __cordl_internal_set__textstart(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4412d88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4412d10, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4412010, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4411f98, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
   static inline ::System::Text::RegularExpressions::Match* getStaticF__Empty_k__BackingField();
 
-  /// @brief Method get_Empty, addr 0x4412158, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Empty, addr 0x44120e0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Match* get_Empty();
 
-  /// @brief Method get_Groups, addr 0x4412214, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x441219c, size 0x68, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::GroupCollection* get_Groups();
 
   static inline void setStaticF__Empty_k__BackingField(::System::Text::RegularExpressions::Match* value);

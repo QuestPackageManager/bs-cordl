@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(
     &::GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b07634;
+  constexpr static std::size_t addrs = 0x3b0760c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(
     &::GlobalNamespace::StandardLevelBuyInfoView::get_openPackButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b0763c;
+  constexpr static std::size_t addrs = 0x3b07614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(
     &::GlobalNamespace::StandardLevelBuyInfoView::get_buyPackButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b07644;
+  constexpr static std::size_t addrs = 0x3b0761c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyInfoView::*)(::StringW, bool)>(
     &::GlobalNamespace::StandardLevelBuyInfoView::RefreshView)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b0764c;
+  constexpr static std::size_t addrs = 0x3b07624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyInfoView::*)()>(&::GlobalNamespace::StandardLevelBuyInfoView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b076e4;
+  constexpr static std::size_t addrs = 0x3b076bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyInfoView*>::get(), ".ctor",

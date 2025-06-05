@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_autoRestart(bool value);
 
-  /// @brief Method .ctor, addr 0x3bb2680, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb26c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart);
 
 protected:
@@ -145,21 +145,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bb26ac, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bb26f4, size 0x144, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::StandardLevelFailedController__LevelFailedCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bb27f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bb2838, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bb27f8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bb2840, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bb2830, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bb2878, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bb26a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3bb26f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set__levelCompletionResults_5__2(::GlobalNamespace::LevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x3bb2650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb2698, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -284,18 +284,18 @@ public:
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFailed, addr 0x3bb25d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x3bb2618, size 0x20, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelFailedCoroutine, addr 0x3bb25f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LevelFailedCoroutine, addr 0x3bb2638, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* LevelFailedCoroutine();
 
   static inline ::GlobalNamespace::StandardLevelFailedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb24d0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb2518, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bb23dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb2424, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -352,7 +352,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3bb2678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb26c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::LockQueue::*)(::System::Threading::ReaderWriterLock*)>(
     &::System::Threading::LockQueue::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e5c220;
+  constexpr static std::size_t addrs = 0x3e5c1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::LockQueue::*)(int32_t)>(&::System::Threading::LockQueue::Wait)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3e5c248;
+  constexpr static std::size_t addrs = 0x3e5c1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::LockQueue::*)()>(&::System::Threading::LockQueue::get_IsEmpty)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e5c3ec;
+  constexpr static std::size_t addrs = 0x3e5c374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockQueue*>::get(), "get_IsEmpty",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::LockQueue::*)()>(&::System::Threading::LockQueue::Pulse)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3e5c4ac;
+  constexpr static std::size_t addrs = 0x3e5c434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockQueue*>::get(), "Pulse",

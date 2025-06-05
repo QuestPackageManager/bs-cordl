@@ -26,13 +26,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>*();
 
-  /// @brief Method Equals, addr 0x48c6f84, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48c6f0c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48c6f50, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48c6ed8, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CoreCameraValues other);
 
-  /// @brief Method GetHashCode, addr 0x48c701c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48c6fa4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"

@@ -225,9 +225,11 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOp
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dstList);
 }
 template <typename TDepObject> inline TDepObject UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::GetDependency(int32_t index) {
-  auto* ___internal_method = THROW_UNLESS(
+  auto* ___internal_method_base = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>::get(), 6)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDepObject>::get() }));
   return ::cordl_internals::RunMethodRethrow<TDepObject, false>(this, ___internal_method, index);
 }
 inline void UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::SetProgressCallback(::System::Func_1<float_t>* callback) {
@@ -237,9 +239,11 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOp
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
 }
 template <typename T> inline void UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::ProviderCompleted(T result, bool status, ::System::Exception* e) {
-  auto* ___internal_method = THROW_UNLESS(
+  auto* ___internal_method_base = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>::get(), 8)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result, status, e);
 }
 inline ::System::Type* UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::get_RequestedType() {

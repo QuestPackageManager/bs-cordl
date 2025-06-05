@@ -37,7 +37,7 @@ namespace System {
 class CORDL_TYPE TypeNameParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetType, addr 0x3e32a88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x3e32a10, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Type* GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                         ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
                                         ::ByRef<::System::Threading::StackCrawlMark> stackMark);

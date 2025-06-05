@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::TutorialReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x3bb2b2c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x3bb2b74, size 0x20, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialSceneSetupData() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialSceneSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3bb2b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb2b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"

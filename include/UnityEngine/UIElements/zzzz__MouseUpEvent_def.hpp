@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseUpEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2d574, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2d4fc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseUpEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2d56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2d4f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseUpEvent___c* getStaticF___9();
@@ -85,27 +85,27 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseUpEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a2d4bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2d444, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerCancelEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x4a2d468, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2d3f0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerMoveEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x4a2d414, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2d39c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent);
 
-  /// @brief Method Init, addr 0x4a2d0f8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2d080, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a2d14c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2d0d4, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method MakeFromPointerEvent, addr 0x4a2d1ac, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method MakeFromPointerEvent, addr 0x4a2d134, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseUpEvent* MakeFromPointerEvent(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
   static inline ::UnityEngine::UIElements::MouseUpEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a2d158, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2d0e0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

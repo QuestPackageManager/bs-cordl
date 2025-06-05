@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x26b6358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b6338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allBeatmapCharacteristics, addr 0x26b6350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allBeatmapCharacteristics, addr 0x26b6330, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* get_allBeatmapCharacteristics();
 
 protected:

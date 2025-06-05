@@ -36,31 +36,31 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x40
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRChaperone FnTable;
 
-  /// @brief Method AreBoundsVisible, addr 0x4073608, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AreBoundsVisible, addr 0x4073590, size 0x24, virtual false, abstract: false, final false
   inline bool AreBoundsVisible();
 
-  /// @brief Method ForceBoundsVisible, addr 0x407362c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ForceBoundsVisible, addr 0x40735b4, size 0x28, virtual false, abstract: false, final false
   inline void ForceBoundsVisible(bool bForce);
 
-  /// @brief Method GetBoundsColor, addr 0x40735e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetBoundsColor, addr 0x407356c, size 0x24, virtual false, abstract: false, final false
   inline void GetBoundsColor(::ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance,
                              ::ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
 
-  /// @brief Method GetCalibrationState, addr 0x4073528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCalibrationState, addr 0x40734b0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState GetCalibrationState();
 
-  /// @brief Method GetPlayAreaRect, addr 0x4073578, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPlayAreaRect, addr 0x4073500, size 0x24, virtual false, abstract: false, final false
   inline bool GetPlayAreaRect(::ByRef<::OVR::OpenVR::HmdQuad_t> rect);
 
-  /// @brief Method GetPlayAreaSize, addr 0x407354c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayAreaSize, addr 0x40734d4, size 0x2c, virtual false, abstract: false, final false
   inline bool GetPlayAreaSize(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ);
 
   static inline ::OVR::OpenVR::CVRChaperone* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method ReloadInfo, addr 0x407359c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReloadInfo, addr 0x4073524, size 0x24, virtual false, abstract: false, final false
   inline void ReloadInfo();
 
-  /// @brief Method SetSceneColor, addr 0x40735c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetSceneColor, addr 0x4073548, size 0x24, virtual false, abstract: false, final false
   inline void SetSceneColor(::OVR::OpenVR::HmdColor_t color);
 
   constexpr ::OVR::OpenVR::IVRChaperone const& __cordl_internal_get_FnTable() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRChaperone value);
 
-  /// @brief Method .ctor, addr 0x4073414, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407339c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:

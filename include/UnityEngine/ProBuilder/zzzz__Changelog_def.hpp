@@ -33,7 +33,7 @@ public:
   /// @brief Field m_Entries, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Entries, put = __cordl_internal_set_m_Entries)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
 
-  /// @brief Method CreateEntry, addr 0x4704d80, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateEntry, addr 0x4704d08, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
 
   static inline ::UnityEngine::ProBuilder::Changelog* New_ctor(::StringW log);
@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* value);
 
-  /// @brief Method .ctor, addr 0x4704a84, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4704a0c, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::StringW log);
 
-  /// @brief Method get_entries, addr 0x4704a08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_entries, addr 0x4704990, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
 
 protected:

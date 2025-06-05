@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4306ff8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4306f80, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW prefix);
 
-  /// @brief Method get_ReturnType, addr 0x430702c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x4306fb4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x4307024, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4306fac, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:

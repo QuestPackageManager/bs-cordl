@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::Extrapolation___c::*)()>(&::UnityEngine::Timeline::Extrapolation___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482d128;
+  constexpr static std::size_t addrs = 0x482d0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::Extrapolation___c*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Timeline::Extrapolation___c::*)(
     ::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::Extrapolation___c::_SortClipsByStartTime_b__2_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x482d130;
+  constexpr static std::size_t addrs = 0x482d0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::Extrapolation::CalculateExtrapolationTimes)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x482caf8;
+  constexpr static std::size_t addrs = 0x482ca80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> (*)(
     ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>)>(&::UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x482cf10;
+  constexpr static std::size_t addrs = 0x482ce98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

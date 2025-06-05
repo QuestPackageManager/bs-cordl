@@ -60,18 +60,18 @@ public:
   /// @brief Field _wasLocalPlayerLeader, offset 0x4c, size 0x2
   __declspec(property(get = __cordl_internal_get__wasLocalPlayerLeader, put = __cordl_internal_set__wasLocalPlayerLeader)) ::System::Nullable_1<bool> _wasLocalPlayerLeader;
 
-  /// @brief Method HandleStateChanged, addr 0x3bdbec0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3bdbf08, size 0x4c, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bdb9f8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bdba40, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bdb94c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bdb994, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3bdbac4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bdbb0c, size 0x348, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& __cordl_internal_get__hudInitData() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__wasLocalPlayerLeader(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x3bdbf0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdbf54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

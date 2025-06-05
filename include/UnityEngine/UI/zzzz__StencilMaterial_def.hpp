@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4acd1a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4acd128, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,25 +228,25 @@ public:
   /// @brief Field m_List, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_List, put = setStaticF_m_List)) ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>* m_List;
 
-  /// @brief Method Add, addr 0x4acc6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4acc684, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID);
 
-  /// @brief Method Add, addr 0x4acc704, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4acc68c, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method Add, addr 0x4acc790, size 0x968, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4acc718, size 0x968, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
                                                       ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int32_t readMask,
                                                       int32_t writeMask);
 
-  /// @brief Method ClearAll, addr 0x4acd370, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ClearAll, addr 0x4acd2f8, size 0x120, virtual false, abstract: false, final false
   static inline void ClearAll();
 
-  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x4acd0f8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LogWarningWhenNotInBatchmode, addr 0x4acd080, size 0xa8, virtual false, abstract: false, final false
   static inline void LogWarningWhenNotInBatchmode(::StringW warning, ::UnityEngine::Object* context);
 
-  /// @brief Method Remove, addr 0x4acd1b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4acd138, size 0x1c0, virtual false, abstract: false, final false
   static inline void Remove(::UnityEngine::Material* customMat);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::StencilMaterial_MatEntry*>* getStaticF_m_List();

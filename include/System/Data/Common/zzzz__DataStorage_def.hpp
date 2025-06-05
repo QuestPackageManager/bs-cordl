@@ -115,16 +115,16 @@ public:
       get = getStaticF_s_typeImplementsInterface,
       put = setStaticF_s_typeImplementsInterface)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* s_typeImplementsInterface;
 
-  /// @brief Method Aggregate, addr 0x41ddaf4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x41dda7c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> recordNos, ::System::Data::AggregateType kind);
 
-  /// @brief Method AggregateCount, addr 0x41e0604, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AggregateCount, addr 0x41e058c, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Object* AggregateCount(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
   /// @brief Method Compare, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareBits, addr 0x41dbcf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CompareBits, addr 0x41dbc78, size 0x70, virtual false, abstract: false, final false
   inline int32_t CompareBits(int32_t recordNo1, int32_t recordNo2);
 
   /// @brief Method CompareValueTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -133,95 +133,95 @@ public:
   /// @brief Method ConvertObjectToXml, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x41e073c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41e06c4, size 0x3c, virtual true, abstract: false, final false
   inline void ConvertObjectToXml(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method ConvertValue, addr 0x41e06d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x41e0658, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
   /// @brief Method ConvertXmlToObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method ConvertXmlToObject, addr 0x41e06fc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41e0684, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
   /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyBits, addr 0x41dcf28, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CopyBits, addr 0x41dceb0, size 0x40, virtual false, abstract: false, final false
   inline void CopyBits(int32_t srcRecordNo, int32_t dstRecordNo);
 
   /// @brief Method CopyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method CopyValueInternal, addr 0x41e2670, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CopyValueInternal, addr 0x41e25f8, size 0x10, virtual false, abstract: false, final false
   inline void CopyValueInternal(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method CreateStorage, addr 0x41e0778, size 0x76c, virtual false, abstract: false, final false
+  /// @brief Method CreateStorage, addr 0x41e0700, size 0x76c, virtual false, abstract: false, final false
   static inline ::System::Data::Common::DataStorage* CreateStorage(::System::Data::DataColumn* column, ::System::Type* dataType, ::System::Data::Common::StorageType typeCode);
 
-  /// @brief Method DetermineIfValueType, addr 0x41e05ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DetermineIfValueType, addr 0x41e0534, size 0x3c, virtual false, abstract: false, final false
   static inline bool DetermineIfValueType(::System::Data::Common::StorageType typeCode, ::System::Type* dataType);
 
   /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t recordNo);
 
-  /// @brief Method GetBits, addr 0x41dd024, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetBits, addr 0x41dcfac, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* GetBits(int32_t recordNo);
 
   /// @brief Method GetEmptyStorage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-  /// @brief Method GetEmptyStorageInternal, addr 0x41e2660, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEmptyStorageInternal, addr 0x41e25e8, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* GetEmptyStorageInternal(int32_t recordCount);
 
-  /// @brief Method GetQualifiedName, addr 0x41e27d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedName, addr 0x41e275c, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW GetQualifiedName(::System::Type* type);
 
-  /// @brief Method GetStorageType, addr 0x41e1e14, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetStorageType, addr 0x41e1d9c, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Data::Common::StorageType GetStorageType(::System::Type* dataType);
 
-  /// @brief Method GetStringLength, addr 0x41e06d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStringLength, addr 0x41e0660, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetStringLength(int32_t record);
 
-  /// @brief Method GetType, addr 0x41e2698, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x41e2620, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Type* GetType(::StringW value);
 
-  /// @brief Method GetTypeStorage, addr 0x41e1f30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeStorage, addr 0x41e1eb8, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeStorage(::System::Data::Common::StorageType storageType);
 
-  /// @brief Method HasValue, addr 0x41dbe88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasValue, addr 0x41dbe10, size 0x28, virtual false, abstract: false, final false
   inline bool HasValue(int32_t recordNo);
 
-  /// @brief Method ImplementsINullableValue, addr 0x41e2438, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ImplementsINullableValue, addr 0x41e23c0, size 0xd4, virtual false, abstract: false, final false
   static inline bool ImplementsINullableValue(::System::Data::Common::StorageType typeCode, ::System::Type* dataType);
 
-  /// @brief Method ImplementsInterfaces, addr 0x41e212c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ImplementsInterfaces, addr 0x41e20b4, size 0x154, virtual false, abstract: false, final false
   static inline void ImplementsInterfaces(::System::Data::Common::StorageType typeCode, ::System::Type* dataType, ::ByRef<bool> sqlType, ::ByRef<bool> nullable, ::ByRef<bool> xmlSerializable,
                                           ::ByRef<bool> changeTracking, ::ByRef<bool> revertibleChangeTracking);
 
-  /// @brief Method InspectTypeForInterfaces, addr 0x41e2280, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method InspectTypeForInterfaces, addr 0x41e2208, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Tuple_4<bool, bool, bool, bool>* InspectTypeForInterfaces(::System::Type* dataType);
 
-  /// @brief Method IsNull, addr 0x41e06e0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method IsNull, addr 0x41e0668, size 0x1c, virtual true, abstract: false, final false
   inline bool IsNull(int32_t recordNo);
 
-  /// @brief Method IsObjectNull, addr 0x41e250c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsObjectNull, addr 0x41e2494, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsObjectNull(::System::Object* value);
 
-  /// @brief Method IsObjectSqlNull, addr 0x41e25ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method IsObjectSqlNull, addr 0x41e2534, size 0xb4, virtual false, abstract: false, final false
   static inline bool IsObjectSqlNull(::System::Object* value);
 
-  /// @brief Method IsSqlType, addr 0x41e2030, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsSqlType, addr 0x41e1fb8, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsSqlType(::System::Type* dataType);
 
-  /// @brief Method IsSqlType, addr 0x41e2024, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSqlType, addr 0x41e1fac, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSqlType(::System::Data::Common::StorageType storageType);
 
-  /// @brief Method IsTypeCustomType, addr 0x41e1fac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsTypeCustomType, addr 0x41e1f34, size 0x78, virtual false, abstract: false, final false
   static inline bool IsTypeCustomType(::System::Type* type);
 
-  /// @brief Method IsTypeCustomType, addr 0x41e0588, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsTypeCustomType, addr 0x41e0510, size 0x24, virtual false, abstract: false, final false
   static inline bool IsTypeCustomType(::System::Data::Common::StorageType typeCode);
 
   static inline ::System::Data::Common::DataStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Object* nullValue, bool isICloneable,
@@ -236,19 +236,19 @@ public:
   /// @brief Method Set, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Set(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x41dd268, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x41dd1f0, size 0x7c, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetNullBit, addr 0x41dd188, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetNullBit, addr 0x41dd110, size 0x20, virtual false, abstract: false, final false
   inline void SetNullBit(int32_t recordNo, bool flag);
 
-  /// @brief Method SetNullStorage, addr 0x41e2690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNullStorage, addr 0x41e2618, size 0x8, virtual false, abstract: false, final false
   inline void SetNullStorage(::System::Collections::BitArray* nullbits);
 
   /// @brief Method SetStorage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
-  /// @brief Method SetStorageInternal, addr 0x41e2680, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetStorageInternal, addr 0x41e2608, size 0x10, virtual false, abstract: false, final false
   inline void SetStorageInternal(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
@@ -317,14 +317,14 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x41e0470, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e03f8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Object* nullValue, bool isICloneable,
                     ::System::Data::Common::StorageType storageType);
 
-  /// @brief Method .ctor, addr 0x41e057c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e0504, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Object* nullValue, ::System::Data::Common::StorageType storageType);
 
-  /// @brief Method .ctor, addr 0x41dbb14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41dba9c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Data::Common::StorageType storageType);
 
   static inline ::System::Func_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* getStaticF_s_inspectTypeForInterfaces();
@@ -333,10 +333,10 @@ public:
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* getStaticF_s_typeImplementsInterface();
 
-  /// @brief Method get_DateTimeMode, addr 0x41e05e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeMode, addr 0x41e0570, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Data::DataSetDateTime get_DateTimeMode();
 
-  /// @brief Method get_FormatProvider, addr 0x41dceb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x41dce40, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
   static inline void setStaticF_s_inspectTypeForInterfaces(::System::Func_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>* value);

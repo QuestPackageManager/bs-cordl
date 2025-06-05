@@ -23,10 +23,10 @@ public:
 
   __declspec(property(put = set_startIndex)) uint32_t startIndex;
 
-  /// @brief Method set_endIndex, addr 0x488d9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_endIndex, addr 0x488d930, size 0x8, virtual false, abstract: false, final false
   inline void set_endIndex(uint32_t value);
 
-  /// @brief Method set_startIndex, addr 0x488d998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startIndex, addr 0x488d920, size 0x8, virtual false, abstract: false, final false
   inline void set_startIndex(uint32_t value);
 
   // Ctor Parameters []

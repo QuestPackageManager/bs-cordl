@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_spacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abaf48;
+  constexpr static std::size_t addrs = 0x4abaed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(float_t)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_spacing)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abaf50;
+  constexpr static std::size_t addrs = 0x4abaed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childForceExpandWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abafac;
+  constexpr static std::size_t addrs = 0x4abaf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childForceExpandWidth)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abafb4;
+  constexpr static std::size_t addrs = 0x4abaf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childForceExpandHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abb010;
+  constexpr static std::size_t addrs = 0x4abaf98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childForceExpandHeight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abb018;
+  constexpr static std::size_t addrs = 0x4abafa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childControlWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abb074;
+  constexpr static std::size_t addrs = 0x4abaffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childControlWidth)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abb07c;
+  constexpr static std::size_t addrs = 0x4abb004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childControlHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abb0d8;
+  constexpr static std::size_t addrs = 0x4abb060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childControlHeight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abb0e0;
+  constexpr static std::size_t addrs = 0x4abb068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childScaleWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abb13c;
+  constexpr static std::size_t addrs = 0x4abb0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childScaleWidth)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abb144;
+  constexpr static std::size_t addrs = 0x4abb0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childScaleHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abb1a0;
+  constexpr static std::size_t addrs = 0x4abb128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childScaleHeight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abb1a8;
+  constexpr static std::size_t addrs = 0x4abb130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_reverseArrangement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abb204;
+  constexpr static std::size_t addrs = 0x4abb18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_reverseArrangement)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4abb20c;
+  constexpr static std::size_t addrs = 0x4abb194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(int32_t, bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::CalcAlongAxis)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x4aba634;
+  constexpr static std::size_t addrs = 0x4aba5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(int32_t, bool)>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::SetChildrenAlongAxis)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x4aba8ec;
+  constexpr static std::size_t addrs = 0x4aba874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(
     ::UnityEngine::RectTransform*, int32_t, bool, bool, ::ByRef<float_t>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::GetChildSizes)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4abb268;
+  constexpr static std::size_t addrs = 0x4abb1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalOrVerticalLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aba608;
+  constexpr static std::size_t addrs = 0x4aba590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalOrVerticalLayoutGroup*>::get(),

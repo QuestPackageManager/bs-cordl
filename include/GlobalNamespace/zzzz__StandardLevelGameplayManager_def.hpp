@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool value);
 
-  /// @brief Method .ctor, addr 0x3ba5db0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba5d88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool continueGameplayWith0Energy);
 
 protected:
@@ -229,21 +229,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3ba5ddc, size 0x614, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba5db4, size 0x614, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::StandardLevelGameplayManager__Start_d__29* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ba63f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ba63c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ba63f8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ba63d0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ba6430, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ba6408, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3ba5dd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ba5db0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager> value);
 
-  /// @brief Method .ctor, addr 0x3ba5888, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba5860, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -385,36 +385,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
   constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
 
-  /// @brief Method Awake, addr 0x3ba5820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba57f8, size 0x8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x3ba5c94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x3ba5c6c, size 0x58, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x3ba5d20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x3ba5cf8, size 0x3c, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause, addr 0x3ba5d5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidPause, addr 0x3ba5d34, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume, addr 0x3ba5d90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidResume, addr 0x3ba5d68, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidResume();
 
-  /// @brief Method HandlePauseControllerDidStartResume, addr 0x3ba5d78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidStartResume, addr 0x3ba5d50, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidStartResume();
 
-  /// @brief Method HandleSongDidFinish, addr 0x3ba5cec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x3ba5cc4, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::StandardLevelGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba58b0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba5888, size 0x298, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ba5828, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba5800, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method Update, addr 0x3ba5b48, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba5b20, size 0x34, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -513,22 +513,22 @@ public:
 
   constexpr void __cordl_internal_set_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba5da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba5d80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelDidStartEvent, addr 0x3ba5470, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelDidStartEvent, addr 0x3ba5448, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent, addr 0x3ba56e0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x3ba56b8, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x3ba55a8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x3ba5580, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_levelWillStartIntroEvent, addr 0x3ba5338, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelWillStartIntroEvent, addr 0x3ba5310, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method get_levelEndStateType, addr 0x3ba5818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelEndStateType, addr 0x3ba57f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults_LevelEndStateType get_levelEndStateType();
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
@@ -537,16 +537,16 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelStartController"
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
-  /// @brief Method remove_levelDidStartEvent, addr 0x3ba550c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x3ba54e4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent, addr 0x3ba577c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x3ba5754, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x3ba5644, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x3ba561c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent, addr 0x3ba53d4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelWillStartIntroEvent, addr 0x3ba53ac, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
 protected:

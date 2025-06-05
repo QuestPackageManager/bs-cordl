@@ -30,15 +30,15 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x22d9bd0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x22d9b90, size 0xb0, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x22eb174, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x22eb134, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::UtcTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22eb1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22eb160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DateTime getStaticF__epoch();

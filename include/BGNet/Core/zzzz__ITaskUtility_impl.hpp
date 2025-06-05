@@ -93,16 +93,21 @@ inline void BGNet::Core::ITaskUtility::Wait(::System::Threading::Tasks::Task* ta
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, task);
 }
 template <typename T> inline T BGNet::Core::ITaskUtility::Wait(::System::Threading::Tasks::Task_1<T>* task) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::ITaskUtility*>::get(), 2)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::ITaskUtility*>::get(), 2)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, task);
 }
 template <typename T1, typename T2>
 inline ::System::Threading::Tasks::Task_1<T2>*
 BGNet::Core::ITaskUtility::ContinueWith(::System::Threading::Tasks::Task_1<T1>* task,
                                         ::System::Func_2<::System::Threading::Tasks::Task_1<T1>*, ::System::Threading::Tasks::Task_1<T2>*>* continuation) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::ITaskUtility*>::get(), 3)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::ITaskUtility*>::get(), 3)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<T2>*, false>(this, ___internal_method, task, continuation);
 }
 inline ::System::Threading::Tasks::Task* BGNet::Core::ITaskUtility::Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken) {
@@ -116,8 +121,10 @@ inline ::System::Threading::Tasks::Task* BGNet::Core::ITaskUtility::Run(::System
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, func, cancellationToken);
 }
 template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BGNet::Core::ITaskUtility::Run(::System::Func_1<T>* func, ::System::Threading::CancellationToken cancellationToken) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::ITaskUtility*>::get(), 6)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::ITaskUtility*>::get(), 6)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___internal_method, func, cancellationToken);
 }
 inline ::System::Threading::CancellationToken BGNet::Core::ITaskUtility::CancellationTokenWithDelay(::System::TimeSpan timeSpan) {

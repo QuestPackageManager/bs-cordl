@@ -65,46 +65,46 @@ public:
   /// @brief Field _used, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__used, put = __cordl_internal_set__used)) int32_t _used;
 
-  /// @brief Method Accept, addr 0x3aac55c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Accept, addr 0x3aac534, size 0x64, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* Accept();
 
-  /// @brief Method AcceptIfKey, addr 0x3aabe7c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AcceptIfKey, addr 0x3aabe54, size 0x1b8, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* AcceptIfKey(::StringW key);
 
   static inline ::LiteNetLib::ConnectionRequest* New_ctor(int64_t connectionId, uint8_t connectionNumber, ::LiteNetLib::Utils::NetDataReader* netDataReader, ::System::Net::IPEndPoint* endPoint,
                                                           ::LiteNetLib::NetManager* listener);
 
-  /// @brief Method Reject, addr 0x3aac6b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reject, addr 0x3aac68c, size 0x14, virtual false, abstract: false, final false
   inline void Reject();
 
-  /// @brief Method Reject, addr 0x3aac6c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Reject, addr 0x3aac6a0, size 0x20, virtual false, abstract: false, final false
   inline void Reject(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData);
 
-  /// @brief Method Reject, addr 0x3aac648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reject, addr 0x3aac620, size 0x8, virtual false, abstract: false, final false
   inline void Reject(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData, int32_t start, int32_t length);
 
-  /// @brief Method Reject, addr 0x3aac5c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Reject, addr 0x3aac598, size 0x88, virtual false, abstract: false, final false
   inline void Reject(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData, int32_t start, int32_t length, bool force);
 
-  /// @brief Method Reject, addr 0x3aac6e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reject, addr 0x3aac6c0, size 0x28, virtual false, abstract: false, final false
   inline void Reject(::LiteNetLib::Utils::NetDataWriter* rejectData);
 
-  /// @brief Method RejectForce, addr 0x3aac658, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RejectForce, addr 0x3aac630, size 0x14, virtual false, abstract: false, final false
   inline void RejectForce();
 
-  /// @brief Method RejectForce, addr 0x3aac66c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RejectForce, addr 0x3aac644, size 0x20, virtual false, abstract: false, final false
   inline void RejectForce(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData);
 
-  /// @brief Method RejectForce, addr 0x3aac650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RejectForce, addr 0x3aac628, size 0x8, virtual false, abstract: false, final false
   inline void RejectForce(::ArrayW<uint8_t, ::Array<uint8_t>*> rejectData, int32_t start, int32_t length);
 
-  /// @brief Method RejectForce, addr 0x3aac68c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RejectForce, addr 0x3aac664, size 0x28, virtual false, abstract: false, final false
   inline void RejectForce(::LiteNetLib::Utils::NetDataWriter* rejectData);
 
-  /// @brief Method TryActivate, addr 0x3aabdcc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TryActivate, addr 0x3aabda4, size 0x28, virtual false, abstract: false, final false
   inline bool TryActivate();
 
-  /// @brief Method UpdateRequest, addr 0x3aabdf4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdateRequest, addr 0x3aabdcc, size 0x30, virtual false, abstract: false, final false
   inline void UpdateRequest(::LiteNetLib::NetConnectRequestPacket* connRequest);
 
   constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
@@ -149,13 +149,13 @@ public:
 
   constexpr void __cordl_internal_set__used(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3aabe24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aabdfc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, ::LiteNetLib::Utils::NetDataReader* netDataReader, ::System::Net::IPEndPoint* endPoint, ::LiteNetLib::NetManager* listener);
 
-  /// @brief Method get_Result, addr 0x3aabdbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x3aabd94, size 0x8, virtual false, abstract: false, final false
   inline ::LiteNetLib::ConnectionRequestResult get_Result();
 
-  /// @brief Method set_Result, addr 0x3aabdc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Result, addr 0x3aabd9c, size 0x8, virtual false, abstract: false, final false
   inline void set_Result(::LiteNetLib::ConnectionRequestResult value);
 
 protected:

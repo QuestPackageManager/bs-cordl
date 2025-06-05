@@ -42,7 +42,7 @@ public:
   /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::System::Object* _Value_k__BackingField;
 
-  /// @brief Method Accept, addr 0x40af44c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40af3d4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::ConstantExpression* New_ctor(::System::Object* value);
@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x40af348, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40af2d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method get_NodeType, addr 0x40af43c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40af3c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x40af3b4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40af33c, size 0x88, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Value, addr 0x40af444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x40af3cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

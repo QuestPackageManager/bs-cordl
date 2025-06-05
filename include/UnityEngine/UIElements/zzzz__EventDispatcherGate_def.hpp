@@ -33,19 +33,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
 
-  /// @brief Method Dispose, addr 0x4a22778, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a22700, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals, addr 0x4a22824, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a227ac, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a22818, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a227a0, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
 
-  /// @brief Method GetHashCode, addr 0x4a228a0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a22828, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4a22700, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a22688, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
 
   /// @brief Convert to "::System::IDisposable"

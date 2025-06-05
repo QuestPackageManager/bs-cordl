@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::SwitchExpression::*)()>(
     &::System::Linq::Expressions::SwitchExpression::get_SwitchValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bd110;
+  constexpr static std::size_t addrs = 0x40bd098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::SwitchExpression*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* (
     ::System::Linq::Expressions::SwitchExpression::*)()>(&::System::Linq::Expressions::SwitchExpression::get_Cases)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bd118;
+  constexpr static std::size_t addrs = 0x40bd0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::SwitchExpression*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::SwitchExpression::*)()>(
     &::System::Linq::Expressions::SwitchExpression::get_DefaultBody)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bd120;
+  constexpr static std::size_t addrs = 0x40bd0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::SwitchExpression*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::SwitchExpression::*)()>(
     &::System::Linq::Expressions::SwitchExpression::get_Comparison)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bd128;
+  constexpr static std::size_t addrs = 0x40bd0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::SwitchExpression*>::get(),

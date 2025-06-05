@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_HAPI_GeoInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3a9712c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a97104, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_GeoInfo* ToTestObject(::HoudiniEngineUnity::HAPI_GeoInfo self);
 
 protected:

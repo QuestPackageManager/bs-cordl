@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::EqualInstruction_EqualCharLiftedToNull* New_ctor();
 
-  /// @brief Method Run, addr 0x40c8f38, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c8ec0, size 0xe8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c80ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c8074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

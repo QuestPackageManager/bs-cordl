@@ -31,13 +31,13 @@ public:
   /// @brief Field _instance, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance)) ::System::Object* _instance;
 
-  /// @brief Method Equals, addr 0x40fc344, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x40fc2cc, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x40fc424, size 0x378, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40fc3ac, size 0x378, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x40fc3d8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x40fc360, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::BindingRestrictions_InstanceRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__instance(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x40fbaf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fba78, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Object* instance);
 
 protected:

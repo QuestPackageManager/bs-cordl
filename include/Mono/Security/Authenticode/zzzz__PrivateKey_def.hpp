@@ -37,16 +37,16 @@ public:
   /// @brief Field weak, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_weak, put = __cordl_internal_set_weak)) bool weak;
 
-  /// @brief Method CreateFromFile, addr 0x3c503a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateFromFile, addr 0x3c5032c, size 0x8, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
 
-  /// @brief Method CreateFromFile, addr 0x3c503ac, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method CreateFromFile, addr 0x3c50334, size 0x2ac, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
 
-  /// @brief Method Decode, addr 0x3c4fe38, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3c4fdc0, size 0x44c, virtual false, abstract: false, final false
   inline bool Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> pvk, ::StringW password);
 
-  /// @brief Method DeriveKey, addr 0x3c5028c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method DeriveKey, addr 0x3c50214, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::StringW password);
 
   static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set_weak(bool value);
 
-  /// @brief Method .ctor, addr 0x3c4fd60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4fce8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method get_RSA, addr 0x3c50284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RSA, addr 0x3c5020c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* get_RSA();
 
 protected:

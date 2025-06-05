@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2413b80;
+  constexpr static std::size_t addrs = 0x2413b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2413b98;
+  constexpr static std::size_t addrs = 0x2413b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2413fbc;
+  constexpr static std::size_t addrs = 0x2413f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::_ctor)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x2413c3c;
+  constexpr static std::size_t addrs = 0x2413bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Modulus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2414024;
+  constexpr static std::size_t addrs = 0x2413fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_PublicExponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241402c;
+  constexpr static std::size_t addrs = 0x2413fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_PrivateExponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2414034;
+  constexpr static std::size_t addrs = 0x2413ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Prime1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241403c;
+  constexpr static std::size_t addrs = 0x2413ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Prime2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2414044;
+  constexpr static std::size_t addrs = 0x2414004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Exponent1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241404c;
+  constexpr static std::size_t addrs = 0x241400c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Exponent2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2414054;
+  constexpr static std::size_t addrs = 0x2414014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::get_Coefficient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241405c;
+  constexpr static std::size_t addrs = 0x241401c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*>::get(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::ToAsn1Object)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x2414064;
+  constexpr static std::size_t addrs = 0x2414024;
 
   inline static ::MethodInfo const* methodInfo() {
 

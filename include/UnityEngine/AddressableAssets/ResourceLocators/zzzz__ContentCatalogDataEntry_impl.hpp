@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_InternalId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb998;
+  constexpr static std::size_t addrs = 0x44fb920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_InternalId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9a0;
+  constexpr static std::size_t addrs = 0x44fb928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Provider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9a8;
+  constexpr static std::size_t addrs = 0x44fb930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Provider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9b0;
+  constexpr static std::size_t addrs = 0x44fb938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Object*>* (
     ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9b8;
+  constexpr static std::size_t addrs = 0x44fb940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(
     ::System::Collections::Generic::List_1<::System::Object*>*)>(&::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9c0;
+  constexpr static std::size_t addrs = 0x44fb948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Object*>* (
     ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(&::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9c8;
+  constexpr static std::size_t addrs = 0x44fb950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(
     ::System::Collections::Generic::List_1<::System::Object*>*)>(&::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9d0;
+  constexpr static std::size_t addrs = 0x44fb958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9d8;
+  constexpr static std::size_t addrs = 0x44fb960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::System::Object*)>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9e0;
+  constexpr static std::size_t addrs = 0x44fb968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)()>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_ResourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9e8;
+  constexpr static std::size_t addrs = 0x44fb970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::*)(::System::Type*)>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::set_ResourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fb9f0;
+  constexpr static std::size_t addrs = 0x44fb978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::StringW, ::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*, ::System::Object*)>(
     &::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x44fb9f8;
+  constexpr static std::size_t addrs = 0x44fb980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

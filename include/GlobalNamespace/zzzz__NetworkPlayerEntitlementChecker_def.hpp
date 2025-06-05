@@ -69,10 +69,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e76dfc, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e76d84, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e770c8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e77050, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -138,10 +138,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e77144, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e770cc, size 0x278, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e773bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e77344, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -222,24 +222,24 @@ public:
   /// @brief Field _rpcManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager)) ::GlobalNamespace::IMenuRpcManager* _rpcManager;
 
-  /// @brief Method GetEntitlementStatus, addr 0x3e76d08, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetEntitlementStatus, addr 0x3e76c90, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
 
-  /// @brief Method HandleDataInvalidated, addr 0x3e76b3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleDataInvalidated, addr 0x3e76ac4, size 0xa4, virtual false, abstract: false, final false
   inline void HandleDataInvalidated();
 
-  /// @brief Method HandleGetIsEntitledToLevel, addr 0x3e76be0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleGetIsEntitledToLevel, addr 0x3e76b68, size 0x98, virtual false, abstract: false, final false
   inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
 
-  /// @brief Method IsSensitivityValid, addr 0x3e76c78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsSensitivityValid, addr 0x3e76c00, size 0x90, virtual false, abstract: false, final false
   inline bool IsSensitivityValid(::StringW levelId);
 
   static inline ::GlobalNamespace::NetworkPlayerEntitlementChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3e7697c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3e76904, size 0x1c0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3e767cc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3e76754, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  /// @brief Method .ctor, addr 0x3e76df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e76d7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

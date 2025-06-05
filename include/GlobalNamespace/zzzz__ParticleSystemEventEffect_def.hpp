@@ -97,21 +97,21 @@ public:
   /// @brief Field kFadeSpeed, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_kFadeSpeed, put = __cordl_internal_set_kFadeSpeed)) float_t kFadeSpeed;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b988f8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b988d0, size 0x1c4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b98814, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b987ec, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshParticles, addr 0x3b986ec, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RefreshParticles, addr 0x3b986c4, size 0x128, virtual false, abstract: false, final false
   inline void RefreshParticles();
 
-  /// @brief Method Start, addr 0x3b98510, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b984e8, size 0x1dc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b98830, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b98808, size 0xc8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__afterHighlightColor() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_kFadeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b98abc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b98a94, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

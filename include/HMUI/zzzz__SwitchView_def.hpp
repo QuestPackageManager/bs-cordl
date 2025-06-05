@@ -124,24 +124,24 @@ public:
   /// @brief Field _toggle, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::HMUI::ToggleWithCallbacks> _toggle;
 
-  /// @brief Method Awake, addr 0x39fdb74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39fdb4c, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleOnValueChanged, addr 0x39fe060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleOnValueChanged, addr 0x39fe038, size 0x4, virtual false, abstract: false, final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange, addr 0x39fe064, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateDidChange, addr 0x39fe03c, size 0x4, virtual false, abstract: false, final false
   inline void HandleStateDidChange(::HMUI::ToggleWithCallbacks_SelectionState value);
 
   static inline ::HMUI::SwitchView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39fdea8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39fde80, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x39fdd84, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x39fdd5c, size 0x124, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x39fdbc4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39fdb9c, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::HMUI::SwitchView_AnimationType const& __cordl_internal_get__animationType() const;
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
-  /// @brief Method .ctor, addr 0x39fe0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fe094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

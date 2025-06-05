@@ -28,16 +28,16 @@ public:
   /// @brief Field domainRegex, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_domainRegex, put = setStaticF_domainRegex)) ::System::Text::RegularExpressions::Regex* domainRegex;
 
-  /// @brief Method MakeInitialUrl, addr 0x4ae4030, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method MakeInitialUrl, addr 0x4ae3fb8, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
 
-  /// @brief Method MakeUriString, addr 0x4ae43a0, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method MakeUriString, addr 0x4ae4328, size 0x3dc, virtual false, abstract: false, final false
   static inline ::StringW MakeUriString(::System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
 
-  /// @brief Method RedirectTo, addr 0x4ae3f44, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RedirectTo, addr 0x4ae3ecc, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
 
-  /// @brief Method URLDecode, addr 0x4ae477c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method URLDecode, addr 0x4ae4704, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW URLDecode(::StringW encoded);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_domainRegex();

@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22::*)()>(
     &::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3c2f288;
+  constexpr static std::size_t addrs = 0x3c2f210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c2f4dc;
+  constexpr static std::size_t addrs = 0x3c2f464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance__RunAsync_d__18::*)()>(
     &::GlobalNamespace::MockPlayerInstance__RunAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3c2f544;
+  constexpr static std::size_t addrs = 0x3c2f4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance__RunAsync_d__18>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance__RunAsync_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlayerInstance__RunAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c2f7c8;
+  constexpr static std::size_t addrs = 0x3c2f750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance__Stop_d__21::*)()>(
     &::GlobalNamespace::MockPlayerInstance__Stop_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3c2f830;
+  constexpr static std::size_t addrs = 0x3c2f7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance__Stop_d__21>::get(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance__Stop_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlayerInstance__Stop_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c2f9a8;
+  constexpr static std::size_t addrs = 0x3c2f930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2eb14;
+  constexpr static std::size_t addrs = 0x3c2ea9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "get_id",
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2eb1c;
+  constexpr static std::size_t addrs = 0x3c2eaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "get_userId",
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c2eb24;
+  constexpr static std::size_t addrs = 0x3c2eaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "get_userName",
@@ -304,7 +304,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IMockBeatmapDataProvider*, ::GlobalNamespace::IConnectionManager*)>(
     &::GlobalNamespace::MockPlayerInstance::_ctor)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x3c2eb2c;
+  constexpr static std::size_t addrs = 0x3c2eab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::Tick)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c2ee90;
+  constexpr static std::size_t addrs = 0x3c2ee18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "Tick",
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::MockPlayerInstance::*)(::GlobalNamespace::IStandaloneThreadRunner*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlayerInstance::RunAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c2eea8;
+  constexpr static std::size_t addrs = 0x3c2ee30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::System::Action*)>(
     &::GlobalNamespace::MockPlayerInstance::WhenReady)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c2ef7c;
+  constexpr static std::size_t addrs = 0x3c2ef04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::MockPlayerInstance::*)(::System::Func_1<::System::Threading::Tasks::Task*>*)>(&::GlobalNamespace::MockPlayerInstance::WhenReadyAsync)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c2ef98;
+  constexpr static std::size_t addrs = 0x3c2ef20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::Stop)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c2efb4;
+  constexpr static std::size_t addrs = 0x3c2ef3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "Stop",
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlayerInstance::*)()>(
     &::GlobalNamespace::MockPlayerInstance::DisposeAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c2f044;
+  constexpr static std::size_t addrs = 0x3c2efcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "DisposeAsync",
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c2f104;
+  constexpr static std::size_t addrs = 0x3c2f08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(), "Dispose",
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MockPlayerInstance::__ctor_b__15_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c2f1b8;
+  constexpr static std::size_t addrs = 0x3c2f140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::MockPlayerInstance::__ctor_b__15_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c2f1bc;
+  constexpr static std::size_t addrs = 0x3c2f144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlayerInstance::*)()>(
     &::GlobalNamespace::MockPlayerInstance::_DisposeAsync_b__22_0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c2f1c0;
+  constexpr static std::size_t addrs = 0x3c2f148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerInstance*>::get(),

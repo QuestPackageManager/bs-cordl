@@ -30,18 +30,18 @@ namespace ENet {
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3aa27ac, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa2784, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3aa2830, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa2808, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3aa2798, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa2770, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::System::IntPtr size);
 
   static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3aa270c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa26e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39ea108;
+  constexpr static std::size_t addrs = 0x39ea0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39ea12c;
+  constexpr static std::size_t addrs = 0x39ea104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "Init",
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*)>(
     &::HMUI::InputFieldViewChangeBinder::AddBindings)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x39ea1a0;
+  constexpr static std::size_t addrs = 0x39ea178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::HMUI::InputFieldView*, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*)>(&::HMUI::InputFieldViewChangeBinder::AddBinding)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39ea304;
+  constexpr static std::size_t addrs = 0x39ea2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x39ea3e0;
+  constexpr static std::size_t addrs = 0x39ea3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "ClearBindings",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Disable)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x39ea614;
+  constexpr static std::size_t addrs = 0x39ea5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "Disable",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Enable)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x39ea810;
+  constexpr static std::size_t addrs = 0x39ea7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewChangeBinder*>::get(), "Enable",

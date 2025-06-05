@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_defaultColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x225d7b8;
+  constexpr static std::size_t addrs = 0x225d778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_darkerColorMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225d7c4;
+  constexpr static std::size_t addrs = 0x225d784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_whiteBoost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225d7cc;
+  constexpr static std::size_t addrs = 0x225d78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225d7d4;
+  constexpr static std::size_t addrs = 0x225d794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225d84c;
+  constexpr static std::size_t addrs = 0x225d80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)(
     ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__10_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225d854;
+  constexpr static std::size_t addrs = 0x225d814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::OnValidate)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x225d438;
+  constexpr static std::size_t addrs = 0x225d3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(
     ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x225d024;
+  constexpr static std::size_t addrs = 0x225cfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetHighlight)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x225d30c;
+  constexpr static std::size_t addrs = 0x225d2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::UpdateRenderer)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x225d5dc;
+  constexpr static std::size_t addrs = 0x225d59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x225d750;
+  constexpr static std::size_t addrs = 0x225d710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

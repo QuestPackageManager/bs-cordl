@@ -55,22 +55,22 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x3f44b34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f44abc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method get_Declaration, addr 0x3f44b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Declaration, addr 0x3f44ab4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method get_Encoding, addr 0x3f44ba8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x3f44b30, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_NodeType, addr 0x3f44b84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x3f44b0c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Standalone, addr 0x3f44be0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x3f44b68, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x3f44b8c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x3f44b14, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -79,10 +79,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x3f44bc4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x3f44b4c, size 0x1c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x3f44bfc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x3f44b84, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Delegate*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::Method)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed88a0;
+  constexpr static std::size_t addrs = 0x3ed8828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (*)(::System::Reflection::MemberInfo*)>(
     &::Newtonsoft::Json::Utilities::TypeExtensions::MemberType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ed88b4;
+  constexpr static std::size_t addrs = 0x3ed883c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::ContainsGenericParameters)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed88d0;
+  constexpr static std::size_t addrs = 0x3ed8858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsInterface)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed88f0;
+  constexpr static std::size_t addrs = 0x3ed8878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsGenericType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed8904;
+  constexpr static std::size_t addrs = 0x3ed888c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsGenericTypeDefinition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed8924;
+  constexpr static std::size_t addrs = 0x3ed88ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::BaseType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed8944;
+  constexpr static std::size_t addrs = 0x3ed88cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::Assembly)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed8964;
+  constexpr static std::size_t addrs = 0x3ed88ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsEnum)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed8984;
+  constexpr static std::size_t addrs = 0x3ed890c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsClass)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed89a4;
+  constexpr static std::size_t addrs = 0x3ed892c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsSealed)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed89b8;
+  constexpr static std::size_t addrs = 0x3ed8940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsAbstract)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed89cc;
+  constexpr static std::size_t addrs = 0x3ed8954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsVisible)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed89e0;
+  constexpr static std::size_t addrs = 0x3ed8968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsValueType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed89f4;
+  constexpr static std::size_t addrs = 0x3ed897c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::IsPrimitive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ed8a08;
+  constexpr static std::size_t addrs = 0x3ed8990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::StringW, bool, ::ByRef<::System::Type*>)>(
     &::Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3ed8a1c;
+  constexpr static std::size_t addrs = 0x3ed89a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::StringW, bool)>(&::Newtonsoft::Json::Utilities::TypeExtensions::AssignableToTypeName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ed8b94;
+  constexpr static std::size_t addrs = 0x3ed8b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::Newtonsoft::Json::Utilities::TypeExtensions::ImplementInterface)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x3ed8bb4;
+  constexpr static std::size_t addrs = 0x3ed8b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::TypeExtensions*>::get(),

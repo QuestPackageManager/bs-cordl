@@ -67,18 +67,18 @@ namespace BeatSaber::BeatAvatarSDK {
 class CORDL_TYPE BeatAvatarVisualController_HighlighterDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x225d344, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x225d304, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool highlighted, int32_t uvSegmentNumber, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x225d404, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x225d3c4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x225d32c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x225d2ec, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(bool highlighted, int32_t uvSegmentNumber);
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController_HighlighterDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x225c8b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225c874, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -189,27 +189,27 @@ public:
                       put = __cordl_internal_set__skinPropertyBlockColorSetter)) ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter>
       _skinPropertyBlockColorSetter;
 
-  /// @brief Method Awake, addr 0x225c648, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x225c608, size 0x26c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableEditedPartHighlight, addr 0x225d290, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisableEditedPartHighlight, addr 0x225d250, size 0x34, virtual false, abstract: false, final false
   inline void DisableEditedPartHighlight();
 
-  /// @brief Method HighlightEditedPart, addr 0x225d1f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HighlightEditedPart, addr 0x225d1b4, size 0x9c, virtual false, abstract: false, final false
   inline void HighlightEditedPart(::BeatSaber::BeatAvatarSDK::AvatarPart editPart, int32_t uvSegment);
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController* New_ctor();
 
-  /// @brief Method SetHandsHighlight, addr 0x225d2c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetHandsHighlight, addr 0x225d284, size 0x48, virtual false, abstract: false, final false
   inline void SetHandsHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method SetLightColor, addr 0x225d018, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x225cfd8, size 0xc, virtual false, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method UpdateAvatarColors, addr 0x225cd8c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarColors, addr 0x225cd4c, size 0x28c, virtual false, abstract: false, final false
   inline void UpdateAvatarColors();
 
-  /// @brief Method UpdateAvatarVisual, addr 0x225c940, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarVisual, addr 0x225c900, size 0x44c, virtual false, abstract: false, final false
   inline void UpdateAvatarVisual(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarData* const& __cordl_internal_get__avatarData() const;
@@ -335,7 +335,7 @@ public:
 
   constexpr void __cordl_internal_set__skinPropertyBlockColorSetter(::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter> value);
 
-  /// @brief Method .ctor, addr 0x225d31c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225d2dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

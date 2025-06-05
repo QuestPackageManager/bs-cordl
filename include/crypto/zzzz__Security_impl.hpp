@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::crypto::Security::ComputeHash)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x244a2d0;
+  constexpr static std::size_t addrs = 0x244a290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::crypto::Security::Decrypt)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x244a434;
+  constexpr static std::size_t addrs = 0x244a3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::crypto::Security::Encrypt)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x244a750;
+  constexpr static std::size_t addrs = 0x244a710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::crypto::Security::GenerateText)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x244a844;
+  constexpr static std::size_t addrs = 0x244a804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IBufferedCipher* (*)(bool, ::StringW, ::StringW)>(&::crypto::Security::CreateCipher)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x244a53c;
+  constexpr static std::size_t addrs = 0x244a4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::crypto::Security::*)()>(&::crypto::Security::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x244a908;
+  constexpr static std::size_t addrs = 0x244a8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::crypto::Security*>::get(), ".ctor",

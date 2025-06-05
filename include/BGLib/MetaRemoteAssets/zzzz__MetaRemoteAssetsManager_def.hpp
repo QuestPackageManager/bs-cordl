@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_ResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
-  /// @brief Method .ctor, addr 0x22a85f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a85b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* resourceLocator, ::StringW localHash,
                     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLocation);
 
@@ -235,16 +235,16 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* New_ctor();
 
-  /// @brief Method <UpdateCatalogsInternalAsync>b__25_0, addr 0x22a8b2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCatalogsInternalAsync>b__25_0, addr 0x22a8aec, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _UpdateCatalogsInternalAsync_b__25_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData);
 
-  /// @brief Method <UpdateCatalogsInternalAsync>b__25_1, addr 0x22a8b44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <UpdateCatalogsInternalAsync>b__25_1, addr 0x22a8b04, size 0xa0, virtual false, abstract: false, final false
   inline bool _UpdateCatalogsInternalAsync_b__25_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry);
 
-  /// @brief Method <.ctor>b__17_0, addr 0x22a8b28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__17_0, addr 0x22a8ae8, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__17_0();
 
-  /// @brief Method .ctor, addr 0x22a8b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a8ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* getStaticF___9();
@@ -297,10 +297,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a8be4, size 0x5c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a8ba4, size 0x5c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a91ac, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a916c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -372,10 +372,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a9214, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a91d4, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a9478, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a9438, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -434,10 +434,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a9484, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a9444, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a995c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a991c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -509,10 +509,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a99d8, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a9998, size 0x1e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a9bb8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a9b78, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -578,10 +578,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a9c20, size 0x834, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a9be0, size 0x834, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22aa454, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22aa414, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -654,10 +654,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22aa4bc, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22aa47c, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22aa720, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22aa6e0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -765,44 +765,44 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method ApplyAddressablesOverrides, addr 0x22a7dac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ApplyAddressablesOverrides, addr 0x22a7d6c, size 0xf4, virtual false, abstract: false, final false
   inline void ApplyAddressablesOverrides();
 
-  /// @brief Method CreateAddResourceLocatorInput, addr 0x22a850c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateAddResourceLocatorInput, addr 0x22a84cc, size 0xec, virtual false, abstract: false, final false
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput*
   CreateAddResourceLocatorInput(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* resourceLocator);
 
-  /// @brief Method Dispose, addr 0x22a82dc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22a829c, size 0x50, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FetchTokenAsync, addr 0x22a813c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FetchTokenAsync, addr 0x22a80fc, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FetchTokenAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Initialize, addr 0x22a7ea0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x22a7e60, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method InitializeInternalAsync, addr 0x22a7f30, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x22a7ef0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InternalIdTransformFunc, addr 0x22a8028, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method InternalIdTransformFunc, addr 0x22a7fe8, size 0x114, virtual false, abstract: false, final false
   inline ::StringW InternalIdTransformFunc(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
-  /// @brief Method MakeRemoteCatalogTopPriority, addr 0x22a8634, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method MakeRemoteCatalogTopPriority, addr 0x22a85f4, size 0x490, virtual false, abstract: false, final false
   static inline void MakeRemoteCatalogTopPriority();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IPlatformUserModel* platformUserModel,
                                                                              ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader, ::StringW platform, ::StringW inBuildGameVersion);
 
-  /// @brief Method UpdateCatalogsAsync, addr 0x22a78d8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCatalogsAsync, addr 0x22a7898, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateCatalogsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UpdateCatalogsInternalAsync, addr 0x22a820c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UpdateCatalogsInternalAsync, addr 0x22a81cc, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateCatalogsInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitInitAsync, addr 0x22a77e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WaitInitAsync, addr 0x22a77a8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitInitAsync();
 
-  /// @brief Method WebRequestOverride, addr 0x22a832c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method WebRequestOverride, addr 0x22a82ec, size 0x1e0, virtual false, abstract: false, final false
   inline void WebRequestOverride(::UnityEngine::Networking::UnityWebRequest* request);
 
   constexpr ::StringW const& __cordl_internal_get__accessToken() const;
@@ -865,14 +865,14 @@ public:
 
   constexpr void __cordl_internal_set_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x22a7b8c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a7b4c, size 0x220, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IPlatformUserModel* platformUserModel, ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader,
                     ::StringW platform, ::StringW inBuildGameVersion);
 
-  /// @brief Method add_didCatalogLoadOrUpdateEvent, addr 0x22a7a54, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didCatalogLoadOrUpdateEvent, addr 0x22a7a14, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_RemoteCatalogPath, addr 0x22a7a14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteCatalogPath, addr 0x22a79d4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_RemoteCatalogPath();
 
   /// @brief Convert to "::System::IDisposable"
@@ -881,7 +881,7 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method remove_didCatalogLoadOrUpdateEvent, addr 0x22a7af0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didCatalogLoadOrUpdateEvent, addr 0x22a7ab0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
 protected:

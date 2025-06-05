@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PhysicsScene (*)(::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::PhysicsSceneExtensions::GetPhysicsScene)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4910c14;
+  constexpr static std::size_t addrs = 0x4910b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PhysicsScene (*)(::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::PhysicsSceneExtensions::GetPhysicsScene_Internal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4910d14;
+  constexpr static std::size_t addrs = 0x4910c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::SceneManagement::Scene>, ::ByRef<::UnityEngine::PhysicsScene>)>(
     &::UnityEngine::PhysicsSceneExtensions::GetPhysicsScene_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4910d60;
+  constexpr static std::size_t addrs = 0x4910ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

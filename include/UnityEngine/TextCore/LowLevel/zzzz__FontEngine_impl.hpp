@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontEngineError (*)()>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::InitializeFontEngine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49216d0;
+  constexpr static std::size_t addrs = 0x4921658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::TextCore::LowLevel::FontEngine::InitializeFontEngine_Internal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4921738;
+  constexpr static std::size_t addrs = 0x49216c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontEngineError (*)(::StringW, int32_t, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4921760;
+  constexpr static std::size_t addrs = 0x49216e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace_With_Size_And_FaceIndex_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49217ec;
+  constexpr static std::size_t addrs = 0x4921774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontEngineError (*)(::UnityEngine::Font*, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4921840;
+  constexpr static std::size_t addrs = 0x49217c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Font*, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace_With_Size_FromFont_Internal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x49218c4;
+  constexpr static std::size_t addrs = 0x492184c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontEngineError (*)(::UnityEngine::Font*, int32_t, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4921908;
+  constexpr static std::size_t addrs = 0x4921890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Font*, int32_t, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace_With_Size_and_FaceIndex_FromFont_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4921994;
+  constexpr static std::size_t addrs = 0x492191c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::FontEngineError (*)(::StringW, ::StringW, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x49219e8;
+  constexpr static std::size_t addrs = 0x4921970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::StringW, int32_t)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace_With_Size_by_FamilyName_and_StyleName_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4921a74;
+  constexpr static std::size_t addrs = 0x49219fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<::UnityEngine::TextCore::LowLevel::FontReference>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::TryGetSystemFontReference)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4921ac8;
+  constexpr static std::size_t addrs = 0x4921a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::ByRef<::UnityEngine::TextCore::LowLevel::FontReference>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::TryGetSystemFontReference_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4921b54;
+  constexpr static std::size_t addrs = 0x4921adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::FaceInfo (*)()>(&::UnityEngine::TextCore::LowLevel::FontEngine::GetFaceInfo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4921ba8;
+  constexpr static std::size_t addrs = 0x4921b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::FontEngine*>::get(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::UnityEngine::TextCore::FaceInfo>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::GetFaceInfo_Internal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4921c48;
+  constexpr static std::size_t addrs = 0x4921bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4921c84;
+  constexpr static std::size_t addrs = 0x4921c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::ByRef<::UnityEngine::TextCore::Glyph*>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithUnicodeValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4921cc0;
+  constexpr static std::size_t addrs = 0x4921c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(
         &::UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithUnicodeValue_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4921e04;
+  constexpr static std::size_t addrs = 0x4921d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::ByRef<::UnityEngine::TextCore::Glyph*>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithIndexValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4921e58;
+  constexpr static std::size_t addrs = 0x4921de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -307,7 +307,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, ::ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(
         &::UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithIndexValue_Internal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4921f9c;
+  constexpr static std::size_t addrs = 0x4921f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::TextCore::LowLevel::FontEngine::SetTextureUploadMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4921ff0;
+  constexpr static std::size_t addrs = 0x4921f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*,
                          ::ByRef<::UnityEngine::TextCore::Glyph*>)>(&::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture)> {
   constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x492202c;
+  constexpr static std::size_t addrs = 0x4921fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -363,7 +363,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::ArrayW<::UnityEngine::TextCore::GlyphRect, ::Array<::UnityEngine::TextCore::GlyphRect>*>>, ::ByRef<int32_t>, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode,
     ::UnityEngine::Texture2D*, ::ByRef<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(&::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4922540;
+  constexpr static std::size_t addrs = 0x49224c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,7 +389,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>*, ::UnityEngine::TextCore::LowLevel::GlyphRenderMode, ::UnityEngine::Texture2D*,
     ::ByRef<::ArrayW<::UnityEngine::TextCore::Glyph*, ::Array<::UnityEngine::TextCore::Glyph*>*>>)>(&::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture)> {
   constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x49225dc;
+  constexpr static std::size_t addrs = 0x4922564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +415,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Texture2D*, ::ByRef<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, ::Array<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*>>, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4922e8c;
+  constexpr static std::size_t addrs = 0x4922e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +442,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentTable)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4922f34;
+  constexpr static std::size_t addrs = 0x4922ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -458,7 +458,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> (*)(
         ::System::Collections::Generic::List_1<uint32_t>*, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4923104;
+  constexpr static std::size_t addrs = 0x492308c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::LowLevel::FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_KernTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4923084;
+  constexpr static std::size_t addrs = 0x492300c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::ByRef<::ArrayW<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, ::Array<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*>>)>(
         &::UnityEngine::TextCore::LowLevel::FontEngine::GetPairAdjustmentRecordsFromMarshallingArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x49230c8;
+  constexpr static std::size_t addrs = 0x4923050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture2D*)>(&::UnityEngine::TextCore::LowLevel::FontEngine::ResetAtlasTexture)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x492328c;
+  constexpr static std::size_t addrs = 0x4923214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -22,12 +22,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x4aa5078, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4aa5000, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4aa5084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa500c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"

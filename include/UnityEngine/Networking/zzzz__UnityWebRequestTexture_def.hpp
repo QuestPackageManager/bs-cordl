@@ -22,10 +22,10 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture, addr 0x4ae7cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x4ae7c50, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
 
-  /// @brief Method GetTexture, addr 0x4ae7cd0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x4ae7c58, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
 
 protected:

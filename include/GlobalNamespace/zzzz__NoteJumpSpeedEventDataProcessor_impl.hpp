@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::NoteJumpSpeedEventDataProcessor::ProcessInsertedEventDataInternal)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2244f18;
+  constexpr static std::size_t addrs = 0x2244ed8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::NoteJumpSpeedEventDataProcessor::ProcessBeforeDeleteEventDataInternal)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2245018;
+  constexpr static std::size_t addrs = 0x2244fd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventDataProcessor::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventDataProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2245114;
+  constexpr static std::size_t addrs = 0x22450d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventDataProcessor*>::get(),

@@ -50,79 +50,79 @@ public:
 
   static inline ::UnityEngine::HingeJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490c628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490c5b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_angle, addr 0x490c56c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x490c4f4, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_angle();
 
-  /// @brief Method get_extendedLimits, addr 0x490c430, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_extendedLimits, addr 0x490c3b8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_extendedLimits();
 
-  /// @brief Method get_limits, addr 0x490c0c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_limits, addr 0x490c048, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::JointLimits get_limits();
 
-  /// @brief Method get_limits_Injected, addr 0x490c12c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_limits_Injected, addr 0x490c0b4, size 0x44, virtual false, abstract: false, final false
   inline void get_limits_Injected(::ByRef<::UnityEngine::JointLimits> ret);
 
-  /// @brief Method get_motor, addr 0x490bf88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_motor, addr 0x490bf10, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::JointMotor get_motor();
 
-  /// @brief Method get_motor_Injected, addr 0x490bfe4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_motor_Injected, addr 0x490bf6c, size 0x44, virtual false, abstract: false, final false
   inline void get_motor_Injected(::ByRef<::UnityEngine::JointMotor> ret);
 
-  /// @brief Method get_spring, addr 0x490c1f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x490c180, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::JointSpring get_spring();
 
-  /// @brief Method get_spring_Injected, addr 0x490c254, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_spring_Injected, addr 0x490c1dc, size 0x44, virtual false, abstract: false, final false
   inline void get_spring_Injected(::ByRef<::UnityEngine::JointSpring> ret);
 
-  /// @brief Method get_useAcceleration, addr 0x490c5a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration, addr 0x490c530, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useAcceleration();
 
-  /// @brief Method get_useLimits, addr 0x490c3b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useLimits, addr 0x490c338, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useLimits();
 
-  /// @brief Method get_useMotor, addr 0x490c330, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useMotor, addr 0x490c2b8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useMotor();
 
-  /// @brief Method get_useSpring, addr 0x490c4b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useSpring, addr 0x490c438, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useSpring();
 
-  /// @brief Method get_velocity, addr 0x490c530, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x490c4b8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_velocity();
 
-  /// @brief Method set_extendedLimits, addr 0x490c46c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_extendedLimits, addr 0x490c3f4, size 0x44, virtual false, abstract: false, final false
   inline void set_extendedLimits(bool value);
 
-  /// @brief Method set_limits, addr 0x490c170, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_limits, addr 0x490c0f8, size 0x44, virtual false, abstract: false, final false
   inline void set_limits(::UnityEngine::JointLimits value);
 
-  /// @brief Method set_limits_Injected, addr 0x490c1b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_limits_Injected, addr 0x490c13c, size 0x44, virtual false, abstract: false, final false
   inline void set_limits_Injected(::ByRef<::UnityEngine::JointLimits> value);
 
-  /// @brief Method set_motor, addr 0x490c028, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_motor, addr 0x490bfb0, size 0x54, virtual false, abstract: false, final false
   inline void set_motor(::UnityEngine::JointMotor value);
 
-  /// @brief Method set_motor_Injected, addr 0x490c07c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_motor_Injected, addr 0x490c004, size 0x44, virtual false, abstract: false, final false
   inline void set_motor_Injected(::ByRef<::UnityEngine::JointMotor> value);
 
-  /// @brief Method set_spring, addr 0x490c298, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x490c220, size 0x54, virtual false, abstract: false, final false
   inline void set_spring(::UnityEngine::JointSpring value);
 
-  /// @brief Method set_spring_Injected, addr 0x490c2ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_spring_Injected, addr 0x490c274, size 0x44, virtual false, abstract: false, final false
   inline void set_spring_Injected(::ByRef<::UnityEngine::JointSpring> value);
 
-  /// @brief Method set_useAcceleration, addr 0x490c5e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration, addr 0x490c56c, size 0x44, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);
 
-  /// @brief Method set_useLimits, addr 0x490c3ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useLimits, addr 0x490c374, size 0x44, virtual false, abstract: false, final false
   inline void set_useLimits(bool value);
 
-  /// @brief Method set_useMotor, addr 0x490c36c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useMotor, addr 0x490c2f4, size 0x44, virtual false, abstract: false, final false
   inline void set_useMotor(bool value);
 
-  /// @brief Method set_useSpring, addr 0x490c4ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useSpring, addr 0x490c474, size 0x44, virtual false, abstract: false, final false
   inline void set_useSpring(bool value);
 
 protected:

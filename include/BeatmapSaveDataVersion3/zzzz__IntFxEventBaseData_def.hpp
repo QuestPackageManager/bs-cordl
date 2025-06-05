@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_v(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270a004, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2709fdc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t value);
 
-  /// @brief Method get_beat, addr 0x2709fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x2709fbc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x2709fec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x2709fc4, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x2709ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2709fd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:

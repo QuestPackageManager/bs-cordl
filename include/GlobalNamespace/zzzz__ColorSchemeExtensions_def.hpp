@@ -27,11 +27,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorSchemeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ResolveColor, addr 0x26a1ee8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResolveColor, addr 0x26a1ea8, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ResolveColor(::System::Nullable_1<::UnityEngine::Color> playerOverrideColor, bool usePlayerOverride, ::System::Nullable_1<bool> useBeatmapOverride,
                                                   ::System::Nullable_1<::UnityEngine::Color> beatmapOverrideColor, ::UnityEngine::Color environmentColor);
 
-  /// @brief Method ResolveColorScheme, addr 0x26a14ac, size 0xa3c, virtual false, abstract: false, final false
+  /// @brief Method ResolveColorScheme, addr 0x26a146c, size 0xa3c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* ResolveColorScheme(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
                                                                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::ColorScheme* environmentColorScheme);
 

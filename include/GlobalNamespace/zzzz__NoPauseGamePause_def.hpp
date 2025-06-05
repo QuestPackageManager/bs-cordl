@@ -41,13 +41,13 @@ public:
 
   static inline ::GlobalNamespace::NoPauseGamePause* New_ctor();
 
-  /// @brief Method Pause, addr 0x3bae708, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x3bae6e0, size 0x24, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x3bae748, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x3bae720, size 0x20, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x3bae72c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x3bae704, size 0x1c, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr bool const& __cordl_internal_get__pause() const;
@@ -74,31 +74,31 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bae768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bae740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPauseEvent, addr 0x3bae360, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x3bae338, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x3bae5d0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x3bae5a8, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x3bae498, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x3bae470, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x3bae358, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x3bae330, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  /// @brief Method remove_didPauseEvent, addr 0x3bae3fc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x3bae3d4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x3bae66c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x3bae644, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x3bae534, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x3bae50c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:

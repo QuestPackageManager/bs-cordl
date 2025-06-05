@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__mapping(::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> value);
 
-  /// @brief Method get_Count, addr 0x4372ea4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4372e2c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_HasWrapperElement, addr 0x4372ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasWrapperElement, addr 0x4372e48, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasWrapperElement();
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(::System::Action*)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba7b3c;
+  constexpr static std::size_t addrs = 0x3ba7b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(::System::Action*)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba8ef0;
+  constexpr static std::size_t addrs = 0x3ba8ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_relativeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8f8c;
+  constexpr static std::size_t addrs = 0x3ba8f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(float_t)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_relativeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8f94;
+  constexpr static std::size_t addrs = 0x3ba8f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RankModel_Rank (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_immediateRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8f9c;
+  constexpr static std::size_t addrs = 0x3ba8f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(::GlobalNamespace::RankModel_Rank)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_immediateRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8fa4;
+  constexpr static std::size_t addrs = 0x3ba8f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::Start)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3ba8fac;
+  constexpr static std::size_t addrs = 0x3ba8f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3ba90e8;
+  constexpr static std::size_t addrs = 0x3ba90c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(int32_t, int32_t)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::HandleScoreDidChange)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3ba91e8;
+  constexpr static std::size_t addrs = 0x3ba91c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::UpdateRelativeScoreAndImmediateRank)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ba9324;
+  constexpr static std::size_t addrs = 0x3ba92fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(
     &::GlobalNamespace::RelativeScoreAndImmediateRankCounter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba93ac;
+  constexpr static std::size_t addrs = 0x3ba9384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*>::get(),

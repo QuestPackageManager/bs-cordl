@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4917648;
+  constexpr static std::size_t addrs = 0x49175d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49178c8;
+  constexpr static std::size_t addrs = 0x4917850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49176e8;
+  constexpr static std::size_t addrs = 0x4917670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4917908;
+  constexpr static std::size_t addrs = 0x4917890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4917788;
+  constexpr static std::size_t addrs = 0x4917710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4917948;
+  constexpr static std::size_t addrs = 0x49178d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4917828;
+  constexpr static std::size_t addrs = 0x49177b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4917988;
+  constexpr static std::size_t addrs = 0x4917910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x49164f8;
+  constexpr static std::size_t addrs = 0x4916480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag*>::get(),

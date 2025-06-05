@@ -31,22 +31,22 @@ public:
   // Declarations
   __declspec(property(get = get_Scene, put = set_Scene)) ::UnityEngine::SceneManagement::Scene Scene;
 
-  /// @brief Method Activate, addr 0x479ea84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x479ea0c, size 0x20, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method ActivateAsync, addr 0x479eaa4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ActivateAsync, addr 0x479ea2c, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* ActivateAsync();
 
-  /// @brief Method Equals, addr 0x479eaf0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x479ea78, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x479ead0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x479ea58, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_Scene, addr 0x479ea74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scene, addr 0x479e9fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene get_Scene();
 
-  /// @brief Method set_Scene, addr 0x479ea7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scene, addr 0x479ea04, size 0x8, virtual false, abstract: false, final false
   inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
 
   // Ctor Parameters []

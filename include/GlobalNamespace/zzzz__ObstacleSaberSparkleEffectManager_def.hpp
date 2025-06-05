@@ -182,28 +182,28 @@ public:
   __declspec(property(get = __cordl_internal_get_sparkleEffectDidStartEvent,
                       put = __cordl_internal_set_sparkleEffectDidStartEvent)) ::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
-  /// @brief Method FindBoxSurfaceRotation, addr 0x3b8c6c8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindBoxSurfaceRotation, addr 0x3b8c6a0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 position);
 
-  /// @brief Method IntersectBounds, addr 0x3b8c190, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method IntersectBounds, addr 0x3b8c168, size 0x1ac, virtual false, abstract: false, final false
   static inline bool IntersectBounds(::UnityEngine::Bounds bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end);
 
-  /// @brief Method IntersectBoxSurfacePose, addr 0x3b8c14c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IntersectBoxSurfacePose, addr 0x3b8c124, size 0x44, virtual false, abstract: false, final false
   static inline bool IntersectBoxSurfacePose(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::ByRef<::UnityEngine::Pose> hit);
 
-  /// @brief Method IntersectBoxSurfacePosition, addr 0x3b8c33c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method IntersectBoxSurfacePosition, addr 0x3b8c314, size 0x38c, virtual false, abstract: false, final false
   static inline bool IntersectBoxSurfacePosition(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::ByRef<::UnityEngine::Vector3> hit);
 
-  /// @brief Method IntersectSaberWithObstacles, addr 0x3b8bcac, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method IntersectSaberWithObstacles, addr 0x3b8bc84, size 0x35c, virtual false, abstract: false, final false
   static inline bool IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacles,
                                                  ::ByRef<bool> intersectObstacleSurface, ::ByRef<::UnityEngine::Pose> hit);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method Start, addr 0x3b8b714, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b8b6ec, size 0x1d4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b8b9e4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b8b9bc, size 0x2bc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -266,19 +266,19 @@ public:
 
   constexpr void __cordl_internal_set_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method .ctor, addr 0x3b8c888, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8c860, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x3b8b5b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x3b8b58c, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x3b8b454, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x3b8b42c, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x3b8b664, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x3b8b63c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x3b8b504, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x3b8b4dc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
 protected:

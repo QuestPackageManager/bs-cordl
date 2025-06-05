@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607ac0;
+  constexpr static std::size_t addrs = 0x4607a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607af0;
+  constexpr static std::size_t addrs = 0x4607a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand::Create)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4607b20;
+  constexpr static std::size_t addrs = 0x4607aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

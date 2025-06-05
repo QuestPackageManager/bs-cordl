@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_customBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edd7c;
+  constexpr static std::size_t addrs = 0x45edd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::StringW)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_customBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edd84;
+  constexpr static std::size_t addrs = 0x45edd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_invertMouseX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edd8c;
+  constexpr static std::size_t addrs = 0x45edd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_invertMouseX)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45edd94;
+  constexpr static std::size_t addrs = 0x45edd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_invertMouseY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edda0;
+  constexpr static std::size_t addrs = 0x45edd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_invertMouseY)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45edda8;
+  constexpr static std::size_t addrs = 0x45edd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<float_t> (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_mouseSmoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eddb4;
+  constexpr static std::size_t addrs = 0x45edd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::System::Nullable_1<float_t>)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_mouseSmoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eddbc;
+  constexpr static std::size_t addrs = 0x45edd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<float_t> (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_mouseSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eddc4;
+  constexpr static std::size_t addrs = 0x45edd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::System::Nullable_1<float_t>)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_mouseSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eddcc;
+  constexpr static std::size_t addrs = 0x45edd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_invertStickX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eddd4;
+  constexpr static std::size_t addrs = 0x45edd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_invertStickX)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45edddc;
+  constexpr static std::size_t addrs = 0x45edd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_invertStickY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edde8;
+  constexpr static std::size_t addrs = 0x45edd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_invertStickY)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45eddf0;
+  constexpr static std::size_t addrs = 0x45edd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_swapSticks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eddfc;
+  constexpr static std::size_t addrs = 0x45edd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_swapSticks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45ede04;
+  constexpr static std::size_t addrs = 0x45edd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_swapBumpers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ede10;
+  constexpr static std::size_t addrs = 0x45edd98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_swapBumpers)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45ede18;
+  constexpr static std::size_t addrs = 0x45edda0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_swapTriggers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ede24;
+  constexpr static std::size_t addrs = 0x45eddac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_swapTriggers)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45ede2c;
+  constexpr static std::size_t addrs = 0x45eddb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_swapDpadAndLeftStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ede38;
+  constexpr static std::size_t addrs = 0x45eddc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(bool)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_swapDpadAndLeftStick)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45ede40;
+  constexpr static std::size_t addrs = 0x45eddc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::get_vibrationStrength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ede4c;
+  constexpr static std::size_t addrs = 0x45eddd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(float_t)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::set_vibrationStrength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ede54;
+  constexpr static std::size_t addrs = 0x45edddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)(::UnityEngine::InputSystem::IInputActionCollection*)>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::Apply)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45ede5c;
+  constexpr static std::size_t addrs = 0x45edde4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Users::InputUserSettings::*)()>(
     &::UnityEngine::InputSystem::Users::InputUserSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ede60;
+  constexpr static std::size_t addrs = 0x45edde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Users::InputUserSettings*>::get(),

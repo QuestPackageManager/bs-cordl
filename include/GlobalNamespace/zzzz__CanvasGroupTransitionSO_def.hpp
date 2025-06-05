@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x44d9b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledAlpha, addr 0x44d9b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledAlpha, addr 0x44d9ae0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledAlpha();
 
-  /// @brief Method get_highlightedAlpha, addr 0x44d9b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedAlpha, addr 0x44d9ad0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedAlpha();
 
-  /// @brief Method get_normalAlpha, addr 0x44d9b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalAlpha, addr 0x44d9ac8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalAlpha();
 
-  /// @brief Method get_pressedAlpha, addr 0x44d9b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedAlpha, addr 0x44d9ad8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedAlpha();
 
-  /// @brief Method get_selectedAlpha, addr 0x44d9b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAlpha, addr 0x44d9ae8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAlpha();
 
-  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x44d9b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x44d9af0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedAlpha();
 
 protected:

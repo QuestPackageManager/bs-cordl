@@ -24,11 +24,11 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE LocationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DependenciesEqual, addr 0x4797a64, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method DependenciesEqual, addr 0x47979ec, size 0x28c, virtual false, abstract: false, final false
   static inline bool DependenciesEqual(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps1,
                                        ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps2);
 
-  /// @brief Method LocationEquals, addr 0x4797620, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method LocationEquals, addr 0x47975a8, size 0x2f4, virtual false, abstract: false, final false
   static inline bool LocationEquals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc1, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc2);
 
 protected:

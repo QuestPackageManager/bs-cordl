@@ -49,38 +49,38 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0x27219d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x27219ac, size 0x38, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x2721a0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x27219e4, size 0x34, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarsData Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method DeserializeAvatarsData, addr 0x2721a40, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method DeserializeAvatarsData, addr 0x2721a18, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* DeserializeAvatarsData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x2721cdc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2721cb4, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2721b70, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2721b48, size 0x16c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::MultiplayerAvatarsData other);
 
-  /// @brief Method GetHashCode, addr 0x2721d6c, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2721d44, size 0x224, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x272180c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x27217e4, size 0x28, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SerializeAvatarsData, addr 0x2721834, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SerializeAvatarsData, addr 0x272180c, size 0x1a0, virtual false, abstract: false, final false
   inline void SerializeAvatarsData(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SupportsOptionalAvatarDataType, addr 0x2721f90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SupportsOptionalAvatarDataType, addr 0x2721f68, size 0x60, virtual false, abstract: false, final false
   inline bool SupportsOptionalAvatarDataType(uint32_t typeHash);
 
-  /// @brief Method .ctor, addr 0x2721794, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272176c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,
                     ::System::Collections::Generic::IEnumerable_1<uint32_t>* supportedAvatarTypeIdHashes);
 
-  /// @brief Method .ctor, addr 0x2721800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27217d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData, ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"

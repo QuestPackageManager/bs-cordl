@@ -44,15 +44,15 @@ public:
   /// @brief Field m_Smooth, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  /// @brief Method CopyShape, addr 0x474d880, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x474d808, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cone* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x474da70, size 0xc4c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x474d9f8, size 0xc4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x474d90c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x474d894, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x474e6bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474e644, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

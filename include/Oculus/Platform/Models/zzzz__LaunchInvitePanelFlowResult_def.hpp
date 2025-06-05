@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x3f91aa8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f91a30, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

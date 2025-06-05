@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::UnaryOperationBinder::*)(::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::UnaryOperationBinder::FallbackUnaryOperation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4102b08;
+  constexpr static std::size_t addrs = 0x4102a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::UnaryOperationBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::UnaryOperationBinder::Bind)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4102b18;
+  constexpr static std::size_t addrs = 0x4102aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

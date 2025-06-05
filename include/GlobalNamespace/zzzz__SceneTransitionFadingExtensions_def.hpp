@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SceneTransitionFadingExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldFadeOnSceneTransition, addr 0x4086044, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ShouldFadeOnSceneTransition, addr 0x4085fcc, size 0x10, virtual false, abstract: false, final false
   static inline bool ShouldFadeOnSceneTransition(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType);
 
 protected:

@@ -18,7 +18,7 @@ namespace System::Net {
 class CORDL_TYPE Logging : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_On, addr 0x44b62fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_On, addr 0x44b6284, size 0x8, virtual false, abstract: false, final false
   static inline bool get_On();
 
 protected:

@@ -37,15 +37,15 @@ namespace System::Dynamic::Utils {
 class CORDL_TYPE ExpressionVisitorUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method VisitArguments, addr 0x4103e90, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method VisitArguments, addr 0x4103e18, size 0x294, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> VisitArguments(::System::Linq::Expressions::ExpressionVisitor* visitor,
                                                                                                                                       ::System::Linq::Expressions::IArgumentProvider* nodes);
 
-  /// @brief Method VisitBlockExpressions, addr 0x4103a38, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method VisitBlockExpressions, addr 0x41039c0, size 0x1a4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> VisitBlockExpressions(::System::Linq::Expressions::ExpressionVisitor* visitor,
                                                                                                                                              ::System::Linq::Expressions::BlockExpression* block);
 
-  /// @brief Method VisitParameters, addr 0x4103bdc, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method VisitParameters, addr 0x4103b64, size 0x2b4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*>
   VisitParameters(::System::Linq::Expressions::ExpressionVisitor* visitor, ::System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
 

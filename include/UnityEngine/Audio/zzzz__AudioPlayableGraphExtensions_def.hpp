@@ -25,7 +25,7 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAudioOutput, addr 0x485e7d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioOutput, addr 0x485e760, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioOutput(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
 protected:

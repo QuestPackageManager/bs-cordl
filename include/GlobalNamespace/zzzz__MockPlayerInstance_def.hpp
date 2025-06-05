@@ -172,10 +172,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c2f288, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2f210, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c2f4dc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2f464, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -234,10 +234,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c2f544, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2f4cc, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c2f7c8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2f750, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -307,10 +307,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c2f830, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2f7b8, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c2f9a8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2f930, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -416,31 +416,31 @@ public:
   /// @brief Method ConnectToServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams);
 
-  /// @brief Method Dispose, addr 0x3c2f104, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c2f08c, size 0xb4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3c2f044, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x3c2efcc, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
   static inline ::GlobalNamespace::MockPlayerInstance* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                 ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method RunAsync, addr 0x3c2eea8, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0x3c2ee30, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Stop, addr 0x3c2efb4, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x3c2ef3c, size 0x90, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Tick, addr 0x3c2ee90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x3c2ee18, size 0x18, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method WhenReady, addr 0x3c2ef7c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReady, addr 0x3c2ef04, size 0x1c, virtual true, abstract: false, final true
   inline void WhenReady(::System::Action* action);
 
-  /// @brief Method WhenReadyAsync, addr 0x3c2ef98, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReadyAsync, addr 0x3c2ef20, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method <DisposeAsync>b__22_0, addr 0x3c2f1c0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__22_0, addr 0x3c2f148, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DisposeAsync_b__22_0();
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
@@ -497,23 +497,23 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method <.ctor>b__15_0, addr 0x3c2f1b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_0, addr 0x3c2f140, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_0(::GlobalNamespace::ConnectionFailedReason r);
 
-  /// @brief Method <.ctor>b__15_1, addr 0x3c2f1bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_1, addr 0x3c2f144, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_1(::GlobalNamespace::DisconnectedReason r);
 
-  /// @brief Method .ctor, addr 0x3c2eb2c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2eab4, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method get_id, addr 0x3c2eb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3c2ea9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_userId, addr 0x3c2eb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x3c2eaa4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3c2eb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x3c2eaac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"

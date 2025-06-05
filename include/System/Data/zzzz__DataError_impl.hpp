@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)()>(&::System::Data::DataError::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x415c714;
+  constexpr static std::size_t addrs = 0x415c69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataError*>::get(), ".ctor",
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)(::StringW)>(&::System::Data::DataError::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x415c76c;
+  constexpr static std::size_t addrs = 0x415c6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataError::*)()>(&::System::Data::DataError::get_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x415c860;
+  constexpr static std::size_t addrs = 0x415c7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataError*>::get(), "get_Text",
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)(::StringW)>(&::System::Data::DataError::set_Text)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x415c868;
+  constexpr static std::size_t addrs = 0x415c7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataError::*)()>(&::System::Data::DataError::get_HasErrors)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x415c8c0;
+  constexpr static std::size_t addrs = 0x415c848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataError*>::get(), "get_HasErrors",
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)(::System::Data::DataColumn*, ::StringW)>(
     &::System::Data::DataError::SetColumnError)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x415c8f4;
+  constexpr static std::size_t addrs = 0x415c87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataError::*)(::System::Data::DataColumn*)>(&::System::Data::DataError::GetColumnError)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x415cbc0;
+  constexpr static std::size_t addrs = 0x415cb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)(::System::Data::DataColumn*)>(&::System::Data::DataError::Clear)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x415c9d4;
+  constexpr static std::size_t addrs = 0x415c95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)()>(&::System::Data::DataError::Clear)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x415cc5c;
+  constexpr static std::size_t addrs = 0x415cbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataError*>::get(), "Clear",
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::DataError::*)()>(
     &::System::Data::DataError::GetColumnsInError)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x415cd04;
+  constexpr static std::size_t addrs = 0x415cc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataError*>::get(), "GetColumnsInError",
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataError::*)(::StringW)>(&::System::Data::DataError::SetText)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x415c808;
+  constexpr static std::size_t addrs = 0x415c790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::DataError::*)(::System::Data::DataColumn*)>(&::System::Data::DataError::IndexOf)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x415ca80;
+  constexpr static std::size_t addrs = 0x415ca08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

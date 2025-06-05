@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::PropertyMember::*)()>(&::Unity::Properties::PropertyMember::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49139cc;
+  constexpr static std::size_t addrs = 0x4913954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PropertyMember>::get(), "get_Name",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::PropertyMember::*)()>(&::Unity::Properties::PropertyMember::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49139d4;
+  constexpr static std::size_t addrs = 0x491395c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PropertyMember>::get(), "get_IsReadOnly",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Unity::Properties::PropertyMember::*)()>(&::Unity::Properties::PropertyMember::get_ValueType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4913a04;
+  constexpr static std::size_t addrs = 0x491398c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PropertyMember>::get(), "get_ValueType",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::PropertyMember::*)(::System::Reflection::PropertyInfo*)>(
     &::Unity::Properties::PropertyMember::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4913a28;
+  constexpr static std::size_t addrs = 0x49139b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (::Unity::Properties::PropertyMember::*)()>(
     &::Unity::Properties::PropertyMember::GetCustomAttributes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4913a48;
+  constexpr static std::size_t addrs = 0x49139d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::PropertyMember>::get(),

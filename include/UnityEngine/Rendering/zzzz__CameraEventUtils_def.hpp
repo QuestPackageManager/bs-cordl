@@ -21,7 +21,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CameraEventUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x48c4084, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x48c400c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::CameraEvent value);
 
 protected:

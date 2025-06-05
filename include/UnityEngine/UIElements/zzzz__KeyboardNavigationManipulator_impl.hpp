@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(
     ::System::Action_2<::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*>*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a41104;
+  constexpr static std::size_t addrs = 0x4a4108c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)()>(
     &::UnityEngine::UIElements::KeyboardNavigationManipulator::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x4a41134;
+  constexpr static std::size_t addrs = 0x4a410bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)()>(
     &::UnityEngine::UIElements::KeyboardNavigationManipulator::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x4a41340;
+  constexpr static std::size_t addrs = 0x4a412c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::KeyboardNavigationManipulator::OnKeyDown)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a41544;
+  constexpr static std::size_t addrs = 0x4a414cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(
     ::UnityEngine::UIElements::NavigationCancelEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationCancel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a41674;
+  constexpr static std::size_t addrs = 0x4a415fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(
     ::UnityEngine::UIElements::NavigationSubmitEvent*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationSubmit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a41698;
+  constexpr static std::size_t addrs = 0x4a41620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(::UnityEngine::UIElements::NavigationMoveEvent*)>(
     &::UnityEngine::UIElements::KeyboardNavigationManipulator::OnNavigationMove)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a416bc;
+  constexpr static std::size_t addrs = 0x4a41644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardNavigationManipulator::*)(
     ::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::Invoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a41658;
+  constexpr static std::size_t addrs = 0x4a415e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::KeyboardNavigationOperation (*)(
     ::ByRef<::UnityEngine::UIElements::KeyboardNavigationManipulator___c__DisplayClass4_0>)>(&::UnityEngine::UIElements::KeyboardNavigationManipulator::_OnKeyDown_g__GetOperation_4_0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4a41590;
+  constexpr static std::size_t addrs = 0x4a41518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

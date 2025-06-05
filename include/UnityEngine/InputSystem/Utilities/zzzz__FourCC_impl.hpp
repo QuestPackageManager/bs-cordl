@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::FourCC::*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45687d0;
+  constexpr static std::size_t addrs = 0x4568758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::FourCC::*)(char16_t, char16_t, char16_t, char16_t)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4563e50;
+  constexpr static std::size_t addrs = 0x4563dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::FourCC::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x45687d8;
+  constexpr static std::size_t addrs = 0x4568760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Utilities::FourCC)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4568940;
+  constexpr static std::size_t addrs = 0x45688c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::op_Implicit___UnityEngine__InputSystem__Utilities__FourCC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4568944;
+  constexpr static std::size_t addrs = 0x45688cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::FourCC::*)()>(
     &::UnityEngine::InputSystem::Utilities::FourCC::ToString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x456894c;
+  constexpr static std::size_t addrs = 0x45688d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::FourCC::*)(::UnityEngine::InputSystem::Utilities::FourCC)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4568afc;
+  constexpr static std::size_t addrs = 0x4568a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::FourCC::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4568b0c;
+  constexpr static std::size_t addrs = 0x4568a94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::FourCC::*)()>(
     &::UnityEngine::InputSystem::Utilities::FourCC::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4568b84;
+  constexpr static std::size_t addrs = 0x4568b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::FourCC, ::UnityEngine::InputSystem::Utilities::FourCC)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4568b8c;
+  constexpr static std::size_t addrs = 0x4568b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::FourCC, ::UnityEngine::InputSystem::Utilities::FourCC)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4568b98;
+  constexpr static std::size_t addrs = 0x4568b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::FromInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4568ba4;
+  constexpr static std::size_t addrs = 0x4568b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Utilities::FourCC)>(
     &::UnityEngine::InputSystem::Utilities::FourCC::ToInt32)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4568bac;
+  constexpr static std::size_t addrs = 0x4568b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

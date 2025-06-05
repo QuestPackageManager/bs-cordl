@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::MarshalByRefObject::*)()>(&::System::MarshalByRefObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e30468;
+  constexpr static std::size_t addrs = 0x3e303f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MarshalByRefObject*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ServerIdentity* (::System::MarshalByRefObject::*)()>(
     &::System::MarshalByRefObject::get_ObjectIdentity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e36d10;
+  constexpr static std::size_t addrs = 0x3e36c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MarshalByRefObject*>::get(), "get_ObjectIdentity",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::MarshalByRefObject::*)(::System::Runtime::Remoting::ServerIdentity*)>(
     &::System::MarshalByRefObject::set_ObjectIdentity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e36d48;
+  constexpr static std::size_t addrs = 0x3e36cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ObjRef* (::System::MarshalByRefObject::*)(::System::Type*)>(
     &::System::MarshalByRefObject::CreateObjRef)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e36d80;
+  constexpr static std::size_t addrs = 0x3e36d08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::MarshalByRefObject::*)()>(&::System::MarshalByRefObject::InitializeLifetimeService)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e36db8;
+  constexpr static std::size_t addrs = 0x3e36d40;
 
   inline static ::MethodInfo const* methodInfo() {
 

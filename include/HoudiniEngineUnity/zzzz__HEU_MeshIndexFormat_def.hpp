@@ -26,12 +26,12 @@ public:
   /// @brief Field _indexFormat, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__indexFormat, put = __cordl_internal_set__indexFormat)) ::UnityEngine::Rendering::IndexFormat _indexFormat;
 
-  /// @brief Method CalculateIndexFormat, addr 0x3a84dbc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculateIndexFormat, addr 0x3a84d94, size 0x78, virtual false, abstract: false, final false
   inline void CalculateIndexFormat(int32_t numVertices);
 
   static inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* New_ctor();
 
-  /// @brief Method SetFormatForMesh, addr 0x3a84e34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetFormatForMesh, addr 0x3a84e0c, size 0x24, virtual false, abstract: false, final false
   inline void SetFormatForMesh(::UnityEngine::Mesh* mesh);
 
   constexpr ::UnityEngine::Rendering::IndexFormat const& __cordl_internal_get__indexFormat() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method .ctor, addr 0x3a84e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a84e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

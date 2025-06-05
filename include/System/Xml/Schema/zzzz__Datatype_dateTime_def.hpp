@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_dateTime* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a54c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a544c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

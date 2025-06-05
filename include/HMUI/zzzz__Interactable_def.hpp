@@ -45,10 +45,10 @@ public:
 
   static inline ::HMUI::Interactable* New_ctor();
 
-  /// @brief Method OnCanvasGroupChanged, addr 0x3aaa848, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x3aaa820, size 0xb0, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
-  /// @brief Method ParentGroupAllowsInteraction, addr 0x3aaa8f8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ParentGroupAllowsInteraction, addr 0x3aaa8d0, size 0x23c, virtual false, abstract: false, final false
   inline bool ParentGroupAllowsInteraction();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& __cordl_internal_get__canvasGroupCache() const;
@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method .ctor, addr 0x3aaab34, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaab0c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_interactableChangeEvent, addr 0x3aaa668, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_interactableChangeEvent, addr 0x3aaa640, size 0xb0, virtual false, abstract: false, final false
   inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method get_interactable, addr 0x3aaa7c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3aaa7a0, size 0x20, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method remove_interactableChangeEvent, addr 0x3aaa718, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_interactableChangeEvent, addr 0x3aaa6f0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method set_interactable, addr 0x3aaa7e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3aaa7c0, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:

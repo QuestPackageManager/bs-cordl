@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::Experimental::Lerp::Interpolate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49e2538;
+  constexpr static std::size_t addrs = 0x49e24c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float_t)>(
     &::UnityEngine::UIElements::Experimental::Lerp::Interpolate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49e2548;
+  constexpr static std::size_t addrs = 0x49e24d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::Lerp*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Experimental::StyleValues (*)(
     ::UnityEngine::UIElements::Experimental::StyleValues, ::UnityEngine::UIElements::Experimental::StyleValues, float_t)>(&::UnityEngine::UIElements::Experimental::Lerp::Interpolate)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x49e2580;
+  constexpr static std::size_t addrs = 0x49e2508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__Initializers_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* value);
 
-  /// @brief Method get_Initializers, addr 0x40ba9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initializers, addr 0x40ba950, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
 
 protected:

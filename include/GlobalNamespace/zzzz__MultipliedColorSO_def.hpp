@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x26a2600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a25c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x26a25b0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x26a2570, size 0x50, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

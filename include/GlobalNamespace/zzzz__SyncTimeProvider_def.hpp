@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x39be0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_time, addr 0x39be044, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x39be01c, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_time();
 
   /// @brief Convert to "::GlobalNamespace::ITimeProvider"

@@ -36,15 +36,15 @@ public:
   /// @brief Field commandBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
-  /// @brief Method AddOwner, addr 0x4081f34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AddOwner, addr 0x4081ebc, size 0xa0, virtual false, abstract: false, final false
   inline void AddOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method ContainsOwner, addr 0x4081edc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ContainsOwner, addr 0x4081e64, size 0x58, virtual false, abstract: false, final false
   inline bool ContainsOwner(::UnityEngine::Object* owner);
 
   static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
 
-  /// @brief Method RemoveOwner, addr 0x4081c84, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveOwner, addr 0x4081c0c, size 0x60, virtual false, abstract: false, final false
   inline void RemoveOwner(::UnityEngine::Object* owner);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* const& __cordl_internal_get__owners() const;
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x4081fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4081f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NumberOfOwners, addr 0x4081ce4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_NumberOfOwners, addr 0x4081c6c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_NumberOfOwners();
 
 protected:

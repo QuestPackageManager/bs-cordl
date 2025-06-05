@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)(::Org::BouncyCastle::Cmp::GeneralPkiMessage*)>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x264ce10;
+  constexpr static std::size_t addrs = 0x264cdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)(::Org::BouncyCastle::Asn1::Cmp::PkiMessage*)>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x264cea4;
+  constexpr static std::size_t addrs = 0x264ce64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiHeader* (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::get_Header)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x264cf40;
+  constexpr static std::size_t addrs = 0x264cf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiBody* (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::get_Body)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x264cf60;
+  constexpr static std::size_t addrs = 0x264cf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiMessage* (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::ToAsn1Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264cf80;
+  constexpr static std::size_t addrs = 0x264cf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::get_HasPasswordBasedMacProtected)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x264cf88;
+  constexpr static std::size_t addrs = 0x264cf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> (
     ::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)()>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessage::GetCertificates)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x264d030;
+  constexpr static std::size_t addrs = 0x264cff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::ProtectedPkiMessage*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)(::Org::BouncyCastle::Crypto::IVerifierFactory*)>(
     &::Org::BouncyCastle::Cmp::ProtectedPkiMessage::Verify)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x264d198;
+  constexpr static std::size_t addrs = 0x264d158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)(::Org::BouncyCastle::Crypto::IStreamCalculator*)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessage::Process)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x264d318;
+  constexpr static std::size_t addrs = 0x264d2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cmp::ProtectedPkiMessage::*)(
     ::Org::BouncyCastle::Crmf::PKMacBuilder*, ::ArrayW<char16_t, ::Array<char16_t>*>)>(&::Org::BouncyCastle::Cmp::ProtectedPkiMessage::Verify)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x264d5f0;
+  constexpr static std::size_t addrs = 0x264d5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

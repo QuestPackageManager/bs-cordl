@@ -71,24 +71,24 @@ public:
   /// @brief Field m_shaderGraphHighestValues, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphHighestValues, put = __cordl_internal_set_m_shaderGraphHighestValues)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
 
-  /// @brief Method CreatePoints, addr 0x44d5140, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x44d50c8, size 0x214, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x44d4af8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d4a80, size 0x134, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x44d4868, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d47f0, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x44d48b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d4840, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x44d4c2c, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x44d4bb4, size 0x4d0, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x44d4950, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d48d8, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x44d5354, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d52dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

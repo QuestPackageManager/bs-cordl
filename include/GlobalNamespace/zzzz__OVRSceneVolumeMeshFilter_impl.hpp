@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob::Execute)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x401330c;
+  constexpr static std::size_t addrs = 0x4013294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob::Execute)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40133a4;
+  constexpr static std::size_t addrs = 0x401332c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob::Execute)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x4013420;
+  constexpr static std::size_t addrs = 0x40133a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob::Execute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x401364c;
+  constexpr static std::size_t addrs = 0x40135d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob>::get(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)(int32_t)>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40132a0;
+  constexpr static std::size_t addrs = 0x4013228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x40136b4;
+  constexpr static std::size_t addrs = 0x401363c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x40136d0;
+  constexpr static std::size_t addrs = 0x4013658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4013c4c;
+  constexpr static std::size_t addrs = 0x4013bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4013c9c;
+  constexpr static std::size_t addrs = 0x4013c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4013ca4;
+  constexpr static std::size_t addrs = 0x4013c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4013cdc;
+  constexpr static std::size_t addrs = 0x4013c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -464,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneVolumeMeshFilter::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4013160;
+  constexpr static std::size_t addrs = 0x40130e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolumeMeshFilter*>::get(),
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter::*)(bool)>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter::set_IsCompleted)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4013168;
+  constexpr static std::size_t addrs = 0x40130f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter::*)()>(&::GlobalNamespace::OVRSceneVolumeMeshFilter::Start)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4013174;
+  constexpr static std::size_t addrs = 0x40130fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolumeMeshFilter*>::get(), "Start",
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRSceneVolumeMeshFilter::*)()>(
     &::GlobalNamespace::OVRSceneVolumeMeshFilter::CreateVolumeMesh)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4013240;
+  constexpr static std::size_t addrs = 0x40131c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolumeMeshFilter*>::get(),
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::Jobs::JobHandle)>(&::GlobalNamespace::OVRSceneVolumeMeshFilter::IsJobDone)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40132c8;
+  constexpr static std::size_t addrs = 0x4013250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolumeMeshFilter::*)()>(&::GlobalNamespace::OVRSceneVolumeMeshFilter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4013304;
+  constexpr static std::size_t addrs = 0x401328c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolumeMeshFilter*>::get(), ".ctor",

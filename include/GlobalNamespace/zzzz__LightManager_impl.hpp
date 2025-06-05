@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::OnEnable)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39dd74c;
+  constexpr static std::size_t addrs = 0x39dd724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightManager*>::get(), "OnEnable",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::OnDisable)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39dd830;
+  constexpr static std::size_t addrs = 0x39dd808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightManager*>::get(), "OnDisable",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightManager::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::LightManager::OnCameraPreRender)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x39dd914;
+  constexpr static std::size_t addrs = 0x39dd8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39dde58;
+  constexpr static std::size_t addrs = 0x39dde30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightManager*>::get(), "OnDestroy",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::ResetColors)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39dde5c;
+  constexpr static std::size_t addrs = 0x39dde34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightManager*>::get(), "ResetColors",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightManager::*)()>(&::GlobalNamespace::LightManager::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39ddf40;
+  constexpr static std::size_t addrs = 0x39ddf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightManager*>::get(), ".ctor",

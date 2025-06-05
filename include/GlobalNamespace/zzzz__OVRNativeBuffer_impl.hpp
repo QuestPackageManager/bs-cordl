@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)(int32_t)>(&::GlobalNamespace::OVRNativeBuffer::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3fa316c;
+  constexpr static std::size_t addrs = 0x3fa30f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)()>(&::GlobalNamespace::OVRNativeBuffer::Finalize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3fa75fc;
+  constexpr static std::size_t addrs = 0x3fa7584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)(int32_t)>(&::GlobalNamespace::OVRNativeBuffer::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fa2d44;
+  constexpr static std::size_t addrs = 0x3fa2ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRNativeBuffer::*)()>(&::GlobalNamespace::OVRNativeBuffer::GetCapacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa76c8;
+  constexpr static std::size_t addrs = 0x3fa7650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRNativeBuffer*>::get(), "GetCapacity",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::GlobalNamespace::OVRNativeBuffer::*)(int32_t)>(&::GlobalNamespace::OVRNativeBuffer::GetPointer)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fa2d48;
+  constexpr static std::size_t addrs = 0x3fa2cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)()>(&::GlobalNamespace::OVRNativeBuffer::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3fa76d0;
+  constexpr static std::size_t addrs = 0x3fa7658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRNativeBuffer*>::get(), "Dispose",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)(bool)>(&::GlobalNamespace::OVRNativeBuffer::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3fa76a4;
+  constexpr static std::size_t addrs = 0x3fa762c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)(int32_t)>(&::GlobalNamespace::OVRNativeBuffer::Reallocate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3fa7578;
+  constexpr static std::size_t addrs = 0x3fa7500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNativeBuffer::*)()>(&::GlobalNamespace::OVRNativeBuffer::Release)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3fa7740;
+  constexpr static std::size_t addrs = 0x3fa76c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRNativeBuffer*>::get(), "Release",

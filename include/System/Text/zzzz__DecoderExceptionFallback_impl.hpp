@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderExceptionFallback::*)()>(&::System::Text::DecoderExceptionFallback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6f090;
+  constexpr static std::size_t addrs = 0x3e6f018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderExceptionFallback*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::DecoderExceptionFallback::*)()>(
     &::System::Text::DecoderExceptionFallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e6f098;
+  constexpr static std::size_t addrs = 0x3e6f020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderExceptionFallback::*)()>(
     &::System::Text::DecoderExceptionFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6f0f4;
+  constexpr static std::size_t addrs = 0x3e6f07c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::DecoderExceptionFallback::*)(::System::Object*)>(
     &::System::Text::DecoderExceptionFallback::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e6f0fc;
+  constexpr static std::size_t addrs = 0x3e6f084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderExceptionFallback::*)()>(&::System::Text::DecoderExceptionFallback::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6f158;
+  constexpr static std::size_t addrs = 0x3e6f0e0;
 
   inline static ::MethodInfo const* methodInfo() {
 

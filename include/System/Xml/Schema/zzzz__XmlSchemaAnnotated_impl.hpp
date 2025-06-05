@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaAnnotated::*)()>(&::System::Xml::Schema::XmlSchemaAnnotated::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b9770;
+  constexpr static std::size_t addrs = 0x42b96f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAnnotated*>::get(), "get_Id",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaAnnotated::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b9778;
+  constexpr static std::size_t addrs = 0x42b9700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAnnotation* (::System::Xml::Schema::XmlSchemaAnnotated::*)()>(
     &::System::Xml::Schema::XmlSchemaAnnotated::get_Annotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b9780;
+  constexpr static std::size_t addrs = 0x42b9708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAnnotated*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(
     &::System::Xml::Schema::XmlSchemaAnnotated::set_Annotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b9788;
+  constexpr static std::size_t addrs = 0x42b9710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> (
     ::System::Xml::Schema::XmlSchemaAnnotated::*)()>(&::System::Xml::Schema::XmlSchemaAnnotated::get_UnhandledAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b9790;
+  constexpr static std::size_t addrs = 0x42b9718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAnnotated*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)(
     ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>)>(&::System::Xml::Schema::XmlSchemaAnnotated::set_UnhandledAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b9798;
+  constexpr static std::size_t addrs = 0x42b9720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaAnnotated::*)()>(
     &::System::Xml::Schema::XmlSchemaAnnotated::get_IdAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b97a0;
+  constexpr static std::size_t addrs = 0x42b9728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaAnnotated::set_IdAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b97a8;
+  constexpr static std::size_t addrs = 0x42b9730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)(
     ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>)>(&::System::Xml::Schema::XmlSchemaAnnotated::SetUnhandledAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b97b0;
+  constexpr static std::size_t addrs = 0x42b9738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(
     &::System::Xml::Schema::XmlSchemaAnnotated::AddAnnotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b97b8;
+  constexpr static std::size_t addrs = 0x42b9740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAnnotated::*)()>(&::System::Xml::Schema::XmlSchemaAnnotated::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42b97c0;
+  constexpr static std::size_t addrs = 0x42b9748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAnnotated*>::get(), ".ctor",

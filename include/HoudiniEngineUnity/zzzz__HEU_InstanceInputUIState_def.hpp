@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3a28f80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x3a28f58, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
 
-  /// @brief Method IsEquivalentTo, addr 0x3a28fa4, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a28f7c, size 0x1dc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
 
   static inline ::HoudiniEngineUnity::HEU_InstanceInputUIState* New_ctor();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__showInstanceInputs(bool value);
 
-  /// @brief Method .ctor, addr 0x3a29180, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a29158, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"

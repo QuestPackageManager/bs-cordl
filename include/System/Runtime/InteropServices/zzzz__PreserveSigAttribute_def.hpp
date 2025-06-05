@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Runtime::InteropServices::PreserveSigAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d14d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d14cb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

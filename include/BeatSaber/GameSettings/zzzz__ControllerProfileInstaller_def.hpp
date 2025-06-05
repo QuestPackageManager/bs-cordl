@@ -18,12 +18,12 @@ namespace BeatSaber::GameSettings {
 class CORDL_TYPE ControllerProfileInstaller : public ::Zenject::Installer_1<::BeatSaber::GameSettings::ControllerProfileInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x226e4bc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x226e47c, size 0x98, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::BeatSaber::GameSettings::ControllerProfileInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x226e554, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226e514, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

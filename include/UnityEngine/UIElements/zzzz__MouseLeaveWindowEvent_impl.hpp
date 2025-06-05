@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2ebf4;
+  constexpr static std::size_t addrs = 0x4a2eb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent___c*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseLeaveWindowEvent* (::UnityEngine::UIElements::MouseLeaveWindowEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2ebfc;
+  constexpr static std::size_t addrs = 0x4a2eb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent___c*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2e7c8;
+  constexpr static std::size_t addrs = 0x4a2e750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::LocalInit)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a2e818;
+  constexpr static std::size_t addrs = 0x4a2e7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2e8bc;
+  constexpr static std::size_t addrs = 0x4a2e844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseLeaveWindowEvent* (*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::GetPooled)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a2e90c;
+  constexpr static std::size_t addrs = 0x4a2e894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4a2ea3c;
+  constexpr static std::size_t addrs = 0x4a2e9c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

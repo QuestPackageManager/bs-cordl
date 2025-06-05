@@ -77,10 +77,10 @@ public:
 
   static inline ::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x3e518bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x3e51844, size 0x84, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::System::Object* s);
 
-  /// @brief Method .ctor, addr 0x3e518b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5183c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::LinkedNCancellationTokenSource_CancellationTokenSource___c* getStaticF___9();
@@ -174,43 +174,43 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Cancel, addr 0x3e50414, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x3e5039c, size 0x1c, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Cancel, addr 0x3e50430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x3e503b8, size 0x28, virtual false, abstract: false, final false
   inline void Cancel(bool throwOnFirstException);
 
-  /// @brief Method CancelAfter, addr 0x3e50508, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CancelAfter, addr 0x3e50490, size 0xe0, virtual false, abstract: false, final false
   inline void CancelAfter(::System::TimeSpan delay);
 
-  /// @brief Method CancelAfter, addr 0x3e505e8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CancelAfter, addr 0x3e50570, size 0x1e8, virtual false, abstract: false, final false
   inline void CancelAfter(int32_t millisecondsDelay);
 
-  /// @brief Method CancellationCallbackCoreWork, addr 0x3e50f8c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CancellationCallbackCoreWork, addr 0x3e50f14, size 0xbc, virtual false, abstract: false, final false
   inline void CancellationCallbackCoreWork(::System::Threading::CancellationCallbackCoreWorkArguments args);
 
-  /// @brief Method CancellationCallbackCoreWork_OnSyncContext, addr 0x3e51048, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CancellationCallbackCoreWork_OnSyncContext, addr 0x3e50fd0, size 0x78, virtual false, abstract: false, final false
   inline void CancellationCallbackCoreWork_OnSyncContext(::System::Object* obj);
 
-  /// @brief Method CreateLinkedTokenSource, addr 0x3e514e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateLinkedTokenSource, addr 0x3e51470, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(::System::Threading::CancellationToken token);
 
-  /// @brief Method CreateLinkedTokenSource, addr 0x3e511b4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CreateLinkedTokenSource, addr 0x3e5113c, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Threading::CancellationTokenSource* CreateLinkedTokenSource(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
-  /// @brief Method Dispose, addr 0x3e508e8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3e50870, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3e50954, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3e508dc, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExecuteCallbackHandlers, addr 0x3e50ac4, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCallbackHandlers, addr 0x3e50a4c, size 0x4bc, virtual false, abstract: false, final false
   inline void ExecuteCallbackHandlers(bool throwOnFirstException);
 
-  /// @brief Method InitializeWithTimer, addr 0x3e50360, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitializeWithTimer, addr 0x3e502e8, size 0xb4, virtual false, abstract: false, final false
   inline void InitializeWithTimer(int32_t millisecondsDelay);
 
-  /// @brief Method InternalRegister, addr 0x3e4de8c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InternalRegister, addr 0x3e4de14, size 0x2bc, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationTokenRegistration InternalRegister(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
                                                                              ::System::Threading::SynchronizationContext* targetSyncContext, ::System::Threading::ExecutionContext* executionContext);
 
@@ -218,19 +218,19 @@ public:
 
   static inline ::System::Threading::CancellationTokenSource* New_ctor(::System::TimeSpan delay);
 
-  /// @brief Method NotifyCancellation, addr 0x3e50458, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method NotifyCancellation, addr 0x3e503e0, size 0xb0, virtual false, abstract: false, final false
   inline void NotifyCancellation(bool throwOnFirstException);
 
-  /// @brief Method ThrowIfDisposed, addr 0x3e501c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfDisposed, addr 0x3e50150, size 0x54, virtual false, abstract: false, final false
   inline void ThrowIfDisposed();
 
-  /// @brief Method ThrowObjectDisposedException, addr 0x3e509e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowObjectDisposedException, addr 0x3e5096c, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowObjectDisposedException();
 
-  /// @brief Method TimerCallbackLogic, addr 0x3e507d0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TimerCallbackLogic, addr 0x3e50758, size 0x118, virtual false, abstract: false, final false
   static inline void TimerCallbackLogic(::System::Object* obj);
 
-  /// @brief Method WaitForCallbackToComplete, addr 0x3e4fecc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WaitForCallbackToComplete, addr 0x3e4fe54, size 0x88, virtual false, abstract: false, final false
   inline void WaitForCallbackToComplete(::System::Threading::CancellationCallbackInfo* callbackInfo);
 
   constexpr bool const& __cordl_internal_get__disposed() const;
@@ -281,10 +281,10 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method .ctor, addr 0x3e50234, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e501bc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e50268, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e501f0, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan delay);
 
   static inline ::System::Threading::CancellationTokenSource* getStaticF_s_canceledSource();
@@ -295,22 +295,22 @@ public:
 
   static inline ::System::Threading::TimerCallback* getStaticF_s_timerCallback();
 
-  /// @brief Method get_ExecutingCallback, addr 0x3e5021c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ExecutingCallback, addr 0x3e501a4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationCallbackInfo* get_ExecutingCallback();
 
-  /// @brief Method get_IsCancellationCompleted, addr 0x3e4fe98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCancellationCompleted, addr 0x3e4fe20, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsCancellationCompleted();
 
-  /// @brief Method get_IsCancellationRequested, addr 0x3e4d9e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCancellationRequested, addr 0x3e4d970, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsCancellationRequested();
 
-  /// @brief Method get_IsDisposed, addr 0x3e50184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDisposed, addr 0x3e5010c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDisposed();
 
-  /// @brief Method get_ThreadIDExecutingCallbacks, addr 0x3e4feb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ThreadIDExecutingCallbacks, addr 0x3e4fe3c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_ThreadIDExecutingCallbacks();
 
-  /// @brief Method get_Token, addr 0x3e501b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3e50138, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_Token();
 
   /// @brief Convert to "::System::IDisposable"
@@ -324,7 +324,7 @@ public:
 
   static inline void setStaticF_s_timerCallback(::System::Threading::TimerCallback* value);
 
-  /// @brief Method set_ThreadIDExecutingCallbacks, addr 0x3e5018c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_ThreadIDExecutingCallbacks, addr 0x3e50114, size 0x24, virtual false, abstract: false, final false
   inline void set_ThreadIDExecutingCallbacks(int32_t value);
 
 protected:

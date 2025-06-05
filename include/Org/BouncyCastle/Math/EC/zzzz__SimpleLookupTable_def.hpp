@@ -28,14 +28,14 @@ public:
   __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points)) ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>
       points;
 
-  /// @brief Method Copy, addr 0x24dcb5c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x24dcb1c, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points, int32_t off, int32_t len);
 
-  /// @brief Method Lookup, addr 0x24dccac, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Lookup, addr 0x24dcc6c, size 0x4c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x24dccf8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x24dccb8, size 0x30, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::SimpleLookupTable* New_ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points, int32_t off,
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_points(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  /// @brief Method .ctor, addr 0x24dcc48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dcc08, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points, int32_t off, int32_t len);
 
-  /// @brief Method get_Size, addr 0x24dcc90, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x24dcc50, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

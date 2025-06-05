@@ -52,7 +52,7 @@ public:
   /// @brief Field type, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x436f0d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436f060, size 0x134, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAttributeAttribute* New_ctor(::StringW attributeName);
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x436eff0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436ef78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW attributeName);
 
-  /// @brief Method get_AttributeName, addr 0x436f018, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeName, addr 0x436efa0, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_AttributeName();
 
-  /// @brief Method get_DataType, addr 0x436f06c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x436eff4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Form, addr 0x436f0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x436f050, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_Namespace, addr 0x436f0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x436f058, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_DataType, addr 0x436f0c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x436f048, size 0x8, virtual false, abstract: false, final false
   inline void set_DataType(::StringW value);
 
 protected:

@@ -82,7 +82,7 @@ public:
   /// @brief Field propertyType, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyType, put = __cordl_internal_set_propertyType)) ::System::Type* propertyType;
 
-  /// @brief Method CanResetValue, addr 0x44709d8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x4470960, size 0x144, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
   static inline ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor* New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType);
@@ -90,10 +90,10 @@ public:
   static inline ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor* New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType,
                                                                                            ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method ResetValue, addr 0x4470b1c, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4470aa4, size 0x12c, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method ShouldSerializeValue, addr 0x4470c48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4470bd0, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Type* const& __cordl_internal_get_componentType() const;
@@ -108,19 +108,19 @@ public:
 
   constexpr void __cordl_internal_set_propertyType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4470890, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4470818, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType);
 
-  /// @brief Method .ctor, addr 0x4470910, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4470898, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method get_ComponentType, addr 0x4470944, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x44708cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x447094c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x44708d4, size 0x84, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x44709d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x4470958, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -185,27 +185,27 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x4470fac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x4470f34, size 0xb8, virtual false, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x4471064, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4470fec, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* New_ctor(::System::Collections::ICollection* values);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x4471118, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x44710a0, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x4471104, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x447108c, size 0x4, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4471108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4471090, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4471110, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4471098, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x447111c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x44710a4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Array* const& __cordl_internal_get_valueArray() const;
@@ -220,13 +220,13 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::ICollection* value);
 
-  /// @brief Method .ctor, addr 0x4470c50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4470bd8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* values);
 
-  /// @brief Method get_Count, addr 0x4470d00, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4470c88, size 0xbc, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x4470dbc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4470d44, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -282,130 +282,130 @@ public:
   /// @brief Field useCompatibleTypeConversion, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useCompatibleTypeConversion, put = setStaticF_useCompatibleTypeConversion)) bool useCompatibleTypeConversion;
 
-  /// @brief Method CanConvertFrom, addr 0x446f598, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x446f520, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertFrom, addr 0x446f584, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x446f50c, size 0x14, virtual false, abstract: false, final false
   inline bool CanConvertFrom(::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x446f634, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x446f5bc, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method CanConvertTo, addr 0x446f620, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x446f5a8, size 0x14, virtual false, abstract: false, final false
   inline bool CanConvertTo(::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x446f738, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x446f6c0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertFrom, addr 0x446f6bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x446f644, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::Object* value);
 
-  /// @brief Method ConvertFromInvariantString, addr 0x446fcac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromInvariantString, addr 0x446fc34, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* ConvertFromInvariantString(::System::ComponentModel::ITypeDescriptorContext* context, ::StringW text);
 
-  /// @brief Method ConvertFromInvariantString, addr 0x446fc24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromInvariantString, addr 0x446fbac, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertFromInvariantString(::StringW text);
 
-  /// @brief Method ConvertFromString, addr 0x446fca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromString, addr 0x446fc28, size 0xc, virtual false, abstract: false, final false
   inline ::System::Object* ConvertFromString(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::StringW text);
 
-  /// @brief Method ConvertFromString, addr 0x446fd44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromString, addr 0x446fccc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Object* ConvertFromString(::System::ComponentModel::ITypeDescriptorContext* context, ::StringW text);
 
-  /// @brief Method ConvertFromString, addr 0x446fd2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ConvertFromString, addr 0x446fcb4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Object* ConvertFromString(::StringW text);
 
-  /// @brief Method ConvertTo, addr 0x446fde0, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x446fd68, size 0x234, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x446fdc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x446fd4c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::Object* value, ::System::Type* destinationType);
 
-  /// @brief Method ConvertToInvariantString, addr 0x44702dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ConvertToInvariantString, addr 0x4470264, size 0x78, virtual false, abstract: false, final false
   inline ::StringW ConvertToInvariantString(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
-  /// @brief Method ConvertToInvariantString, addr 0x447018c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ConvertToInvariantString, addr 0x4470114, size 0x74, virtual false, abstract: false, final false
   inline ::StringW ConvertToInvariantString(::System::Object* value);
 
-  /// @brief Method ConvertToString, addr 0x4470200, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ConvertToString, addr 0x4470188, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW ConvertToString(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertToString, addr 0x4470454, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ConvertToString, addr 0x44703dc, size 0x104, virtual false, abstract: false, final false
   inline ::StringW ConvertToString(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
-  /// @brief Method ConvertToString, addr 0x4470354, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ConvertToString, addr 0x44702dc, size 0x100, virtual false, abstract: false, final false
   inline ::StringW ConvertToString(::System::Object* value);
 
-  /// @brief Method CreateInstance, addr 0x447056c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x44704f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Collections::IDictionary* propertyValues);
 
-  /// @brief Method CreateInstance, addr 0x4470558, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x44704e0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::Collections::IDictionary* propertyValues);
 
-  /// @brief Method GetConvertFromException, addr 0x446faf8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetConvertFromException, addr 0x446fa80, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Exception* GetConvertFromException(::System::Object* value);
 
-  /// @brief Method GetConvertToException, addr 0x4470014, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetConvertToException, addr 0x446ff9c, size 0x178, virtual false, abstract: false, final false
   inline ::System::Exception* GetConvertToException(::System::Object* value, ::System::Type* destinationType);
 
-  /// @brief Method GetCreateInstanceSupported, addr 0x4470574, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCreateInstanceSupported, addr 0x44704fc, size 0x10, virtual false, abstract: false, final false
   inline bool GetCreateInstanceSupported();
 
-  /// @brief Method GetCreateInstanceSupported, addr 0x4470584, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCreateInstanceSupported, addr 0x447050c, size 0x8, virtual true, abstract: false, final false
   inline bool GetCreateInstanceSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetProperties, addr 0x4470598, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x4470520, size 0xf0, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
-  /// @brief Method GetProperties, addr 0x4470688, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x4470610, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetProperties, addr 0x447058c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x4470514, size 0xc, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* value);
 
-  /// @brief Method GetPropertiesSupported, addr 0x4470690, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x4470618, size 0x10, virtual false, abstract: false, final false
   inline bool GetPropertiesSupported();
 
-  /// @brief Method GetPropertiesSupported, addr 0x44706a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x4470628, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValues, addr 0x44706a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x4470630, size 0x10, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetStandardValues();
 
-  /// @brief Method GetStandardValues, addr 0x44706b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x4470640, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x44706c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x4470648, size 0x14, virtual false, abstract: false, final false
   inline bool GetStandardValuesExclusive();
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x44706d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x447065c, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x44706dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x4470664, size 0x14, virtual false, abstract: false, final false
   inline bool GetStandardValuesSupported();
 
-  /// @brief Method GetStandardValuesSupported, addr 0x44706f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x4470678, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValid, addr 0x4470710, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4470698, size 0x140, virtual true, abstract: false, final false
   inline bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
-  /// @brief Method IsValid, addr 0x44706f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4470680, size 0x18, virtual false, abstract: false, final false
   inline bool IsValid(::System::Object* value);
 
   static inline ::System::ComponentModel::TypeConverter* New_ctor();
 
-  /// @brief Method SortProperties, addr 0x4470850, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SortProperties, addr 0x44707d8, size 0x38, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* SortProperties(::System::ComponentModel::PropertyDescriptorCollection* props, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method .ctor, addr 0x4470888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4470810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_useCompatibleTypeConversion();
 
-  /// @brief Method get_UseCompatibleTypeConversion, addr 0x446f534, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_UseCompatibleTypeConversion, addr 0x446f4bc, size 0x50, virtual false, abstract: false, final false
   static inline bool get_UseCompatibleTypeConversion();
 
   static inline void setStaticF_useCompatibleTypeConversion(bool value);

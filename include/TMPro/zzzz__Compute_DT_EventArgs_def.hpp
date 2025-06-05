@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_ProgressPercentage(float_t value);
 
-  /// @brief Method .ctor, addr 0x47c4f00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c4e88, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method .ctor, addr 0x47c4ec8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c4e50, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
 protected:

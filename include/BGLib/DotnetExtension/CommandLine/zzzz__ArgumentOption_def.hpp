@@ -27,16 +27,16 @@ public:
 
   __declspec(property(get = get_required)) bool required;
 
-  /// @brief Method ValidateArgumentValue, addr 0x22a16d8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x22a1698, size 0x240, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a168c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a164c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0x22a16b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x22a1670, size 0x28, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0x22a169c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x22a165c, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
 
   // Ctor Parameters []

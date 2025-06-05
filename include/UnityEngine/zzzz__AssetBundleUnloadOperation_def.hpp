@@ -20,10 +20,10 @@ public:
   // Declarations
   static inline ::UnityEngine::AssetBundleUnloadOperation* New_ctor();
 
-  /// @brief Method WaitForCompletion, addr 0x4858508, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x4858490, size 0x3c, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
-  /// @brief Method .ctor, addr 0x4858544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48584cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

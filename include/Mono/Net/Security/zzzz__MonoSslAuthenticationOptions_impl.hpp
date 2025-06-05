@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::ServerCertSelectionCallback* (::Mono::Net::Security::MonoSslAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslAuthenticationOptions::get_ServerCertSelectionDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4116b54;
+  constexpr static std::size_t addrs = 0x4116adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslAuthenticationOptions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4116b5c;
+  constexpr static std::size_t addrs = 0x4116ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoSslAuthenticationOptions*>::get(),

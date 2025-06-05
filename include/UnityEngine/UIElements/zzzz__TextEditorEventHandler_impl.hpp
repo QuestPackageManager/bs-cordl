@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(
     ::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(&::UnityEngine::UIElements::TextEditorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49ee1d8;
+  constexpr static std::size_t addrs = 0x49ee160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TextEditorEventHandler::ExecuteDefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49ee4b4;
+  constexpr static std::size_t addrs = 0x49ee43c;
 
   inline static ::MethodInfo const* methodInfo() {
 

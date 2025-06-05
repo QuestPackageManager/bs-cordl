@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Claims::ClaimsIdentity* (*)(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*)>(
         &::System::Security::Claims::ClaimsPrincipal::SelectPrimaryIdentity)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3cc11a8;
+  constexpr static std::size_t addrs = 0x3cc1130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* (*)()>(
     &::System::Security::Claims::ClaimsPrincipal::get_ClaimsPrincipalSelector)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cc1520;
+  constexpr static std::size_t addrs = 0x3cc14a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::ClaimsPrincipal*>::get(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::ClaimsPrincipal::*)()>(&::System::Security::Claims::ClaimsPrincipal::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3cb948c;
+  constexpr static std::size_t addrs = 0x3cb9414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::ClaimsPrincipal*>::get(), ".ctor",
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::ClaimsPrincipal::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Claims::ClaimsPrincipal::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3cc1578;
+  constexpr static std::size_t addrs = 0x3cc1500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::ClaimsPrincipal::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::ClaimsPrincipal::OnSerializingMethod)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cc17c4;
+  constexpr static std::size_t addrs = 0x3cc174c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::ClaimsPrincipal::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::ClaimsPrincipal::OnDeserializedMethod)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3cc226c;
+  constexpr static std::size_t addrs = 0x3cc21f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::ClaimsPrincipal::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Claims::ClaimsPrincipal::Deserialize)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3cc1674;
+  constexpr static std::size_t addrs = 0x3cc15fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::ClaimsPrincipal::*)(::StringW)>(
     &::System::Security::Claims::ClaimsPrincipal::DeserializeIdentities)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x3cc22cc;
+  constexpr static std::size_t addrs = 0x3cc2254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::ClaimsPrincipal::*)()>(
     &::System::Security::Claims::ClaimsPrincipal::SerializeIdentities)> {
   constexpr static std::size_t size = 0xa4c;
-  constexpr static std::size_t addrs = 0x3cc1820;
+  constexpr static std::size_t addrs = 0x3cc17a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::ClaimsPrincipal*>::get(),

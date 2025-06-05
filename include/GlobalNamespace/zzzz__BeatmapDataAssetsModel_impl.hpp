@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelDataAssetFilenameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26c08c8;
+  constexpr static std::size_t addrs = 0x26c08a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelAssetFilenameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26c0914;
+  constexpr static std::size_t addrs = 0x26c08f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelPackAssetFilename)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26c0960;
+  constexpr static std::size_t addrs = 0x26c0940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::BeatmapDataAssetsModel::GetBeatmapLevelDataAssetNameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26c09ac;
+  constexpr static std::size_t addrs = 0x26c098c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapLevelDataVersion)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::GetAssetBundleNameForBeatmapLevel)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26c09f8;
+  constexpr static std::size_t addrs = 0x26c09d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapLevelDataVersion, int32_t)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::GetAssetBundleNameWithVersionForBeatmapLevelData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26c0a6c;
+  constexpr static std::size_t addrs = 0x26c0a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapLevelDataVersion)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::GetAssetBundleStreamingAssetsPathForBeatmapLevelId)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x26c0b44;
+  constexpr static std::size_t addrs = 0x26c0b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::GlobalNamespace::BeatmapDataAssetsModel::AssetBundleStreamingAssetsPathForAssetBundleName)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26c0bf0;
+  constexpr static std::size_t addrs = 0x26c0bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

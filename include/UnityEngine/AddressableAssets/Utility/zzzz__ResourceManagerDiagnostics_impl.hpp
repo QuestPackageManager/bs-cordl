@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(
     ::UnityEngine::ResourceManagement::ResourceManager*)>(&::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::_ctor)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x44f7128;
+  constexpr static std::size_t addrs = 0x44f70b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::SumDependencyNameHashCodes)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x44f7214;
+  constexpr static std::size_t addrs = 0x44f719c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::CalculateHashCode)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x44f7440;
+  constexpr static std::size_t addrs = 0x44f73c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::CalculateCompletedOperationHashcode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x44f7584;
+  constexpr static std::size_t addrs = 0x44f750c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::GenerateCompletedOperationDisplayName)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x44f7610;
+  constexpr static std::size_t addrs = 0x44f7598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(
     ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext)>(&::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x44f7a5c;
+  constexpr static std::size_t addrs = 0x44f79e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)()>(
     &::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::Dispose)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44f7e2c;
+  constexpr static std::size_t addrs = 0x44f7db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

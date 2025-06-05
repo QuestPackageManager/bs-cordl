@@ -79,7 +79,7 @@ public:
 
   static inline ::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4919798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4919720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription_PoseData>* getStaticF_DeviceData();

@@ -38,7 +38,7 @@ public:
                       put = __cordl_internal_set__colorBoostEvents)) ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>
       _colorBoostEvents;
 
-  /// @brief Method Convert, addr 0x270e2cc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270e2a4, size 0x130, virtual false, abstract: false, final false
   inline void Convert(::BeatmapSaveDataVersion4::BeatIndex* index, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
 
-  /// @brief Method .ctor, addr 0x270e154, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270e12c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

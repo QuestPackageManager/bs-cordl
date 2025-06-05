@@ -38,26 +38,26 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x23972f0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x23972b0, size 0x24, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x2397314, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x23972d4, size 0xf0, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x23972b4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x2397274, size 0x18, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x239706c, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x239702c, size 0x180, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::GMac* New_ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::GMac* New_ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher, int32_t macSizeBits);
 
-  /// @brief Method Reset, addr 0x2397404, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x23973c4, size 0x24, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x23972cc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x239728c, size 0x24, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* const& __cordl_internal_get_cipher() const;
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_macSizeBits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x239700c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2396fcc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0x239703c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2396ffc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher, int32_t macSizeBits);
 
-  /// @brief Method get_AlgorithmName, addr 0x23971ec, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x23971ac, size 0xc8, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"

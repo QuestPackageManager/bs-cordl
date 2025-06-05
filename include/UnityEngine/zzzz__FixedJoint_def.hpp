@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::FixedJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490c8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x490c868, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

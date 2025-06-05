@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)(::Org::BouncyCastle::Asn1::Asn1SequenceParser*)>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2301fd4;
+  constexpr static std::size_t addrs = 0x2301f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23020f8;
+  constexpr static std::size_t addrs = 0x23020b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetOriginatorInfo)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x2302100;
+  constexpr static std::size_t addrs = 0x23020c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1SetParser* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetRecipientInfos)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2302544;
+  constexpr static std::size_t addrs = 0x2302504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetMacAlgorithm)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2302644;
+  constexpr static std::size_t addrs = 0x2302604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetDigestAlgorithm)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x23027ac;
+  constexpr static std::size_t addrs = 0x230276c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetEnapsulatedContentInfo)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2302948;
+  constexpr static std::size_t addrs = 0x2302908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1SetParser* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetAuthAttrs)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x2302c3c;
+  constexpr static std::size_t addrs = 0x2302bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetMac)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2302df4;
+  constexpr static std::size_t addrs = 0x2302db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1SetParser* (::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::GetUnauthAttrs)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2302f24;
+  constexpr static std::size_t addrs = 0x2302ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser*>::get(),

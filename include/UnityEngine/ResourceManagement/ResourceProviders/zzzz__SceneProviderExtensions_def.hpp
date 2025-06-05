@@ -33,7 +33,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE SceneProviderExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReleaseScene, addr 0x479eba4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseScene, addr 0x479eb2c, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* provider, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle,

@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree* value);
 
-  /// @brief Method .ctor, addr 0x25e39c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e3984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method bi_reverse, addr 0x25e3738, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method bi_reverse, addr 0x25e36f8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t bi_reverse(int32_t code, int32_t len);
 
-  /// @brief Method build_tree, addr 0x25e3148, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method build_tree, addr 0x25e3108, size 0x474, virtual false, abstract: false, final false
   inline void build_tree(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method d_code, addr 0x25e2dd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method d_code, addr 0x25e2d98, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t d_code(int32_t dist);
 
-  /// @brief Method gen_bitlen, addr 0x25e2e7c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method gen_bitlen, addr 0x25e2e3c, size 0x2cc, virtual false, abstract: false, final false
   inline void gen_bitlen(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method gen_codes, addr 0x25e35bc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method gen_codes, addr 0x25e357c, size 0x17c, virtual false, abstract: false, final false
   static inline void gen_codes(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code, ::ArrayW<int16_t, ::Array<int16_t>*> bl_count);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__dist_code();

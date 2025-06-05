@@ -39,16 +39,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x49a94c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x49a9450, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method Dispose, addr 0x49a9b6c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49a9af4, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a9de0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a9d68, size 0x64, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MergeAndReset, addr 0x49a9534, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MergeAndReset, addr 0x49a94bc, size 0x88, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle MergeAndReset();
 
   static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t capacity);
@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> value);
 
-  /// @brief Method .ctor, addr 0x49a9d14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a9c9c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_disposed, addr 0x49a9dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x49a9d54, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x49a9dd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x49a9d5c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

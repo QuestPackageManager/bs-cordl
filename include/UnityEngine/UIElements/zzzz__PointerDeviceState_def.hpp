@@ -105,25 +105,25 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) ::UnityEngine::Vector2 Position;
 
-  /// @brief Method SetLocation, addr 0x4a31068, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetLocation, addr 0x4a30ff0, size 0x108, virtual false, abstract: false, final false
   inline void SetLocation(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method get_Flags, addr 0x4a31698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x4a31620, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDeviceState_LocationFlag get_Flags();
 
-  /// @brief Method get_Panel, addr 0x4a31688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Panel, addr 0x4a31610, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_Panel();
 
-  /// @brief Method get_Position, addr 0x4a31678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4a31600, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Position();
 
-  /// @brief Method set_Flags, addr 0x4a316a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Flags, addr 0x4a31628, size 0x8, virtual false, abstract: false, final false
   inline void set_Flags(::UnityEngine::UIElements::PointerDeviceState_LocationFlag value);
 
-  /// @brief Method set_Panel, addr 0x4a31690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Panel, addr 0x4a31618, size 0x8, virtual false, abstract: false, final false
   inline void set_Panel(::UnityEngine::UIElements::IPanel* value);
 
-  /// @brief Method set_Position, addr 0x4a31680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Position, addr 0x4a31608, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(::UnityEngine::Vector2 value);
 
   // Ctor Parameters []
@@ -188,43 +188,43 @@ public:
   /// @brief Field s_PressedButtons, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PressedButtons, put = setStaticF_s_PressedButtons)) ::ArrayW<int32_t, ::Array<int32_t>*> s_PressedButtons;
 
-  /// @brief Method GetPanel, addr 0x4a31218, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetPanel, addr 0x4a311a0, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IPanel* GetPanel(int32_t pointerId, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method GetPlayerPanelWithSoftPointerCapture, addr 0x4a314f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerPanelWithSoftPointerCapture, addr 0x4a31480, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IPanel* GetPlayerPanelWithSoftPointerCapture(int32_t pointerId);
 
-  /// @brief Method GetPointerPosition, addr 0x4a26d14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetPointerPosition, addr 0x4a26c9c, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetPointerPosition(int32_t pointerId, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method GetPressedButtons, addr 0x4a31338, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPressedButtons, addr 0x4a312c0, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetPressedButtons(int32_t pointerId);
 
-  /// @brief Method HasAdditionalPressedButtons, addr 0x4a313b4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HasAdditionalPressedButtons, addr 0x4a3133c, size 0x98, virtual false, abstract: false, final false
   static inline bool HasAdditionalPressedButtons(int32_t pointerId, int32_t exceptButtonId);
 
-  /// @brief Method HasFlagFast, addr 0x4a31298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasFlagFast, addr 0x4a31220, size 0xc, virtual false, abstract: false, final false
   static inline bool HasFlagFast(::UnityEngine::UIElements::PointerDeviceState_LocationFlag flagSet, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag flag);
 
-  /// @brief Method HasLocationFlag, addr 0x4a312a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HasLocationFlag, addr 0x4a3122c, size 0x94, virtual false, abstract: false, final false
   static inline bool HasLocationFlag(int32_t pointerId, ::UnityEngine::UIElements::ContextType contextType, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag flag);
 
-  /// @brief Method PressButton, addr 0x4a2cddc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method PressButton, addr 0x4a2cd64, size 0xdc, virtual false, abstract: false, final false
   static inline void PressButton(int32_t pointerId, int32_t buttonId);
 
-  /// @brief Method ReleaseAllButtons, addr 0x4a2e9c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseAllButtons, addr 0x4a2e948, size 0x7c, virtual false, abstract: false, final false
   static inline void ReleaseAllButtons(int32_t pointerId);
 
-  /// @brief Method ReleaseButton, addr 0x4a2d338, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseButton, addr 0x4a2d2c0, size 0xdc, virtual false, abstract: false, final false
   static inline void ReleaseButton(int32_t pointerId, int32_t buttonId);
 
-  /// @brief Method RemovePanelData, addr 0x4a30e84, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RemovePanelData, addr 0x4a30e0c, size 0x1e4, virtual false, abstract: false, final false
   static inline void RemovePanelData(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SavePointerPosition, addr 0x4a31170, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SavePointerPosition, addr 0x4a310f8, size 0xa8, virtual false, abstract: false, final false
   static inline void SavePointerPosition(int32_t pointerId, ::UnityEngine::Vector2 position, ::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method SetPlayerPanelWithSoftPointerCapture, addr 0x4a3144c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerPanelWithSoftPointerCapture, addr 0x4a313d4, size 0xac, virtual false, abstract: false, final false
   static inline void SetPlayerPanelWithSoftPointerCapture(int32_t pointerId, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::ArrayW<::UnityEngine::UIElements::IPanel*, ::Array<::UnityEngine::UIElements::IPanel*>*> getStaticF_s_PlayerPanelWithSoftPointerCapture();

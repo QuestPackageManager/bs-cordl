@@ -33,12 +33,12 @@ public:
   /// @brief Field _handlers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers)) ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
 
-  /// @brief Method Construct, addr 0x4b4445c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x4b443e4, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
 
   static inline ::Zenject::AnimatorIkHandlerManager* New_ctor();
 
-  /// @brief Method OnAnimatorIk, addr 0x4b44464, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnAnimatorIk, addr 0x4b443ec, size 0x1b0, virtual false, abstract: false, final false
   inline void OnAnimatorIk();
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* const& __cordl_internal_get__handlers() const;
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b446f8, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b44680, size 0x2fc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x4b4461c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x4b445a4, size 0xdc, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x4b44614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4459c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

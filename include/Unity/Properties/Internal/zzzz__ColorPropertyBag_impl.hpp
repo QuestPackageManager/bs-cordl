@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_RProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916778;
+  constexpr static std::size_t addrs = 0x4916700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_RProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_RProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916658;
+  constexpr static std::size_t addrs = 0x49165e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_GProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49167b8;
+  constexpr static std::size_t addrs = 0x4916740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_GProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_GProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49166a0;
+  constexpr static std::size_t addrs = 0x4916628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_BProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49167f8;
+  constexpr static std::size_t addrs = 0x4916780;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_BProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_BProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49166e8;
+  constexpr static std::size_t addrs = 0x4916670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_AProperty::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916838;
+  constexpr static std::size_t addrs = 0x49167c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag_AProperty::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag_AProperty::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916730;
+  constexpr static std::size_t addrs = 0x49166b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::ColorPropertyBag::*)()>(
     &::Unity::Properties::Internal::ColorPropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4915960;
+  constexpr static std::size_t addrs = 0x49158e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::ColorPropertyBag*>::get(), ".ctor",

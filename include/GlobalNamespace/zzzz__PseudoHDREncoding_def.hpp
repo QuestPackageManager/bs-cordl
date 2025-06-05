@@ -28,7 +28,7 @@ public:
   /// @brief Field _material, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__material, put = setStaticF__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x3b16214, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x3b161ec, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();

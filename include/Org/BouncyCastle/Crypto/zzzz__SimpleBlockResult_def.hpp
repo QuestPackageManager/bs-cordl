@@ -28,10 +28,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Method Collect, addr 0x244a954, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x244a914, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect, addr 0x244a95c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Collect, addr 0x244a91c, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t offset);
 
   static inline ::Org::BouncyCastle::Crypto::SimpleBlockResult* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_result(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x244a910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244a8d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
-  /// @brief Method get_Length, addr 0x244a938, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x244a8f8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"

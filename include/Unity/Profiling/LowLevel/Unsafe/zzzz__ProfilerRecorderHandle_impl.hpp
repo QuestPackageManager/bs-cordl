@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::get_Valid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4861100;
+  constexpr static std::size_t addrs = 0x4861088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription (*)(
     ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescription)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4861114;
+  constexpr static std::size_t addrs = 0x486109c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>*)>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetAvailable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4861260;
+  constexpr static std::size_t addrs = 0x48611e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle (*)(
     ::Unity::Profiling::ProfilerCategory, ::cordl_internals::Ptr<uint8_t>, int32_t)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName__Unmanaged)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x486129c;
+  constexpr static std::size_t addrs = 0x4861224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle (*)(
     ::Unity::Profiling::ProfilerCategory, ::cordl_internals::Ptr<char16_t>, int32_t)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x486135c;
+  constexpr static std::size_t addrs = 0x48612e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle (*)(
     ::Unity::Profiling::ProfilerCategory, ::cordl_internals::Ptr<char16_t>, int32_t)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName_Unsafe)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4861364;
+  constexpr static std::size_t addrs = 0x48612ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription (*)(
     ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle)>(&::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescriptionInternal)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48611dc;
+  constexpr static std::size_t addrs = 0x4861164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::Unity::Profiling::ProfilerCategory>, ::cordl_internals::Ptr<uint8_t>, int32_t, ::ByRef<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName__Unmanaged_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4861300;
+  constexpr static std::size_t addrs = 0x4861288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::Unity::Profiling::ProfilerCategory>, ::cordl_internals::Ptr<char16_t>, int32_t, ::ByRef<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetByName_Unsafe_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48613c8;
+  constexpr static std::size_t addrs = 0x4861350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle>, ::ByRef<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>)>(
         &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle::GetDescriptionInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4861424;
+  constexpr static std::size_t addrs = 0x48613ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

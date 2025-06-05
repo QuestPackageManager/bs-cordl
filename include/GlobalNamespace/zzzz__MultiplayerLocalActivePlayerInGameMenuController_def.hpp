@@ -85,39 +85,39 @@ public:
   /// @brief Field requestsDisconnectEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_requestsDisconnectEvent, put = __cordl_internal_set_requestsDisconnectEvent)) ::System::Action* requestsDisconnectEvent;
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x3bacf54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressDisconnectButton, addr 0x3bacf2c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressDisconnectButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x3bacf18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressGiveUpButton, addr 0x3bacef0, size 0x3c, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressGiveUpButton();
 
-  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x3bacf14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuViewControllerDidPressResumeButton, addr 0x3baceec, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuViewControllerDidPressResumeButton();
 
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x3bacf10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x3bacee8, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleMenuButtonTriggered, addr 0x3bacf0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButtonTriggered, addr 0x3bacee4, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandleStateChanged, addr 0x3bacf70, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3bacf48, size 0x1c8, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
-  /// @brief Method HideInGameMenu, addr 0x3bac4d0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method HideInGameMenu, addr 0x3bac4a8, size 0x184, virtual false, abstract: false, final false
   inline void HideInGameMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x3bacd44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3bacd1c, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x3bac828, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bac800, size 0x348, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowInGameMenu, addr 0x3bacd50, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ShowInGameMenu, addr 0x3bacd28, size 0x128, virtual false, abstract: false, final false
   inline void ShowInGameMenu();
 
-  /// @brief Method Start, addr 0x3bac208, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bac1e0, size 0x2c8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -186,25 +186,25 @@ public:
 
   constexpr void __cordl_internal_set_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bad138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bad110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didGiveUpEvent, addr 0x3babf60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didGiveUpEvent, addr 0x3babf38, size 0x9c, virtual false, abstract: false, final false
   inline void add_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method add_requestsDisconnectEvent, addr 0x3bac098, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_requestsDisconnectEvent, addr 0x3bac070, size 0x9c, virtual false, abstract: false, final false
   inline void add_requestsDisconnectEvent(::System::Action* value);
 
-  /// @brief Method get_canChangeMenuState, addr 0x3bac1d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_canChangeMenuState, addr 0x3bac1b0, size 0x30, virtual false, abstract: false, final false
   inline bool get_canChangeMenuState();
 
-  /// @brief Method get_gameMenuIsShown, addr 0x3bac1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameMenuIsShown, addr 0x3bac1a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameMenuIsShown();
 
-  /// @brief Method remove_didGiveUpEvent, addr 0x3babffc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didGiveUpEvent, addr 0x3babfd4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didGiveUpEvent(::System::Action* value);
 
-  /// @brief Method remove_requestsDisconnectEvent, addr 0x3bac134, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_requestsDisconnectEvent, addr 0x3bac10c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_requestsDisconnectEvent(::System::Action* value);
 
 protected:

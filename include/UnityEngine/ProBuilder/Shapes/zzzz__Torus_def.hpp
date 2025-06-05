@@ -53,23 +53,23 @@ public:
   /// @brief Field m_VerticalCircumference, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_VerticalCircumference, put = __cordl_internal_set_m_VerticalCircumference)) float_t m_VerticalCircumference;
 
-  /// @brief Method CopyShape, addr 0x4756c50, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4756bd8, size 0x94, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method GetCirclePoints, addr 0x4757a1c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetCirclePoints, addr 0x47579a4, size 0x29c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    ::UnityEngine::Vector3 offset);
 
-  /// @brief Method GetCirclePoints, addr 0x47576cc, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method GetCirclePoints, addr 0x4757654, size 0x350, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    float_t offset);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Torus* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x4756d64, size 0x968, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x4756cec, size 0x968, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x4756ce4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x4756c6c, size 0x80, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_Columns() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalCircumference(float_t value);
 
-  /// @brief Method .ctor, addr 0x4757cb8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4757c40, size 0x234, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

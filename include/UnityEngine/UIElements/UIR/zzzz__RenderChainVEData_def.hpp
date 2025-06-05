@@ -49,16 +49,16 @@ public:
 
   __declspec(property(get = get_lastClosingOrLastCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method AllocatesID, addr 0x49af034, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x49aefbc, size 0x6c, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID, addr 0x49af0b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x49af038, size 0x68, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x49af118, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isIgnoringDynamicColorHint, addr 0x49af0a0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isIgnoringDynamicColorHint();
 
-  /// @brief Method get_lastClosingOrLastCommand, addr 0x49af01c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_lastClosingOrLastCommand, addr 0x49aefa4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
 
   // Ctor Parameters []

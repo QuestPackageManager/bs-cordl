@@ -91,24 +91,24 @@ public:
   /// @brief Field Log, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Buffers::ArrayPoolEventSource* Log;
 
-  /// @brief Method BufferAllocated, addr 0x3dc9d74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method BufferAllocated, addr 0x3dc9cfc, size 0x10c, virtual false, abstract: false, final false
   inline void BufferAllocated(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId, ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason reason);
 
-  /// @brief Method BufferRented, addr 0x3dc9c88, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method BufferRented, addr 0x3dc9c10, size 0xec, virtual false, abstract: false, final false
   inline void BufferRented(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId);
 
-  /// @brief Method BufferReturned, addr 0x3dc9e80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BufferReturned, addr 0x3dc9e08, size 0x10, virtual false, abstract: false, final false
   inline void BufferReturned(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
-  /// @brief Method BufferTrimPoll, addr 0x3dc9ea0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method BufferTrimPoll, addr 0x3dc9e28, size 0xc, virtual false, abstract: false, final false
   inline void BufferTrimPoll(int32_t milliseconds, int32_t pressure);
 
-  /// @brief Method BufferTrimmed, addr 0x3dc9e90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BufferTrimmed, addr 0x3dc9e18, size 0x10, virtual false, abstract: false, final false
   inline void BufferTrimmed(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
   static inline ::System::Buffers::ArrayPoolEventSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3dc9bdc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc9b64, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Buffers::ArrayPoolEventSource* getStaticF_Log();

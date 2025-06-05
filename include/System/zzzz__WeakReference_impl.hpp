@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WeakReference::*)(::System::Object*)>(&::System::WeakReference::AllocateHandle)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e4575c;
+  constexpr static std::size_t addrs = 0x3e456e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WeakReference::*)()>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e45784;
+  constexpr static std::size_t addrs = 0x3e4570c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WeakReference*>::get(), ".ctor",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WeakReference::*)(::System::Object*)>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3e4578c;
+  constexpr static std::size_t addrs = 0x3e45714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WeakReference::*)(::System::Object*, bool)>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e457bc;
+  constexpr static std::size_t addrs = 0x3e45744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::WeakReference::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::WeakReference::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3e457f0;
+  constexpr static std::size_t addrs = 0x3e45778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::WeakReference::*)()>(&::System::WeakReference::get_IsAlive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e45924;
+  constexpr static std::size_t addrs = 0x3e458ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::WeakReference::*)()>(&::System::WeakReference::get_Target)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e45944;
+  constexpr static std::size_t addrs = 0x3e458cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WeakReference::*)(::System::Object*)>(&::System::WeakReference::set_Target)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e45978;
+  constexpr static std::size_t addrs = 0x3e45900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::WeakReference::*)()>(&::System::WeakReference::get_TrackResurrection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e45984;
+  constexpr static std::size_t addrs = 0x3e4590c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WeakReference::*)()>(&::System::WeakReference::Finalize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e4598c;
+  constexpr static std::size_t addrs = 0x3e45914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::WeakReference::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::WeakReference::GetObjectData)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3e45a28;
+  constexpr static std::size_t addrs = 0x3e459b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

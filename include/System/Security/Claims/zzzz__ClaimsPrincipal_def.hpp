@@ -62,26 +62,26 @@ public:
   /// @brief Convert operator to "::System::Security::Principal::IPrincipal"
   constexpr operator ::System::Security::Principal::IPrincipal*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x3cc1674, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x3cc15fc, size 0x150, virtual false, abstract: false, final false
   inline void Deserialize(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method DeserializeIdentities, addr 0x3cc22cc, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method DeserializeIdentities, addr 0x3cc2254, size 0x6e0, virtual false, abstract: false, final false
   inline void DeserializeIdentities(::StringW identities);
 
   static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor();
 
   static inline ::System::Security::Claims::ClaimsPrincipal* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserializedMethod, addr 0x3cc226c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializedMethod, addr 0x3cc21f4, size 0x60, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnSerializingMethod, addr 0x3cc17c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnSerializingMethod, addr 0x3cc174c, size 0x5c, virtual false, abstract: false, final false
   inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SelectPrimaryIdentity, addr 0x3cc11a8, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method SelectPrimaryIdentity, addr 0x3cc1130, size 0x378, virtual false, abstract: false, final false
   static inline ::System::Security::Claims::ClaimsIdentity* SelectPrimaryIdentity(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>* identities);
 
-  /// @brief Method SerializeIdentities, addr 0x3cc1820, size 0xa4c, virtual false, abstract: false, final false
+  /// @brief Method SerializeIdentities, addr 0x3cc17a8, size 0xa4c, virtual false, abstract: false, final false
   inline ::StringW SerializeIdentities();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* const& __cordl_internal_get_m_identities() const;
@@ -102,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cb948c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb9414, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc1578, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc1500, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>*
@@ -113,7 +113,7 @@ public:
 
   static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* getStaticF_s_principalSelector();
 
-  /// @brief Method get_ClaimsPrincipalSelector, addr 0x3cc1520, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ClaimsPrincipalSelector, addr 0x3cc14a8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>* get_ClaimsPrincipalSelector();
 
   /// @brief Convert to "::System::Security::Principal::IPrincipal"

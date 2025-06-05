@@ -112,10 +112,10 @@ public:
   /// @brief Field s_true, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_true, put = setStaticF_s_true)) ::System::Linq::Expressions::ConstantExpression* s_true;
 
-  /// @brief Method Constant, addr 0x40be6a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x40be62c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(bool value);
 
-  /// @brief Method Constant, addr 0x40be710, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x40be698, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(int32_t value);
 
   static inline ::System::Object* getStaticF_BoxedDefaultByte();

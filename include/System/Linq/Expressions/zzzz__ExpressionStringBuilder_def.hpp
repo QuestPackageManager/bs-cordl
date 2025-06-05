@@ -104,57 +104,57 @@ public:
   /// @brief Field _out, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out)) ::System::Text::StringBuilder* _out;
 
-  /// @brief Method CatchBlockToString, addr 0x40aebe4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CatchBlockToString, addr 0x40aeb6c, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW CatchBlockToString(::System::Linq::Expressions::CatchBlock* node);
 
-  /// @brief Method DumpLabel, addr 0x40b76c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DumpLabel, addr 0x40b7650, size 0xbc, virtual false, abstract: false, final false
   inline void DumpLabel(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method ExpressionToString, addr 0x40b5d7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExpressionToString, addr 0x40b5d04, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ExpressionToString(::System::Linq::Expressions::Expression* node);
 
-  /// @brief Method GetId, addr 0x40b5c30, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x40b5bb8, size 0x110, virtual false, abstract: false, final false
   inline int32_t GetId(::System::Object* o);
 
-  /// @brief Method GetLabelId, addr 0x40b5c2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLabelId, addr 0x40b5bb4, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetLabelId(::System::Linq::Expressions::LabelTarget* label);
 
-  /// @brief Method GetParamId, addr 0x40b5d40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParamId, addr 0x40b5cc8, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetParamId(::System::Linq::Expressions::ParameterExpression* p);
 
-  /// @brief Method IsBool, addr 0x40b62fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsBool, addr 0x40b6284, size 0x11c, virtual false, abstract: false, final false
   static inline bool IsBool(::System::Linq::Expressions::Expression* node);
 
   static inline ::System::Linq::Expressions::ExpressionStringBuilder* New_ctor();
 
-  /// @brief Method Out, addr 0x40b5d60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Out, addr 0x40b5ce8, size 0x1c, virtual false, abstract: false, final false
   inline void Out(char16_t c);
 
-  /// @brief Method Out, addr 0x40b5d44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Out, addr 0x40b5ccc, size 0x1c, virtual false, abstract: false, final false
   inline void Out(::StringW s);
 
-  /// @brief Method OutMember, addr 0x40b679c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OutMember, addr 0x40b6724, size 0xb0, virtual false, abstract: false, final false
   inline void OutMember(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method ToString, addr 0x40b5c0c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40b5b94, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method VisitBinary, addr 0x40b5df4, size 0x508, virtual true, abstract: false, final false
+  /// @brief Method VisitBinary, addr 0x40b5d7c, size 0x508, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBinary(::System::Linq::Expressions::BinaryExpression* node);
 
-  /// @brief Method VisitBlock, addr 0x40b7258, size 0x33c, virtual true, abstract: false, final false
+  /// @brief Method VisitBlock, addr 0x40b71e0, size 0x33c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* node);
 
-  /// @brief Method VisitCatchBlock, addr 0x40b793c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method VisitCatchBlock, addr 0x40b78c4, size 0x108, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node);
 
-  /// @brief Method VisitConditional, addr 0x40b6524, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method VisitConditional, addr 0x40b64ac, size 0x100, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node);
 
-  /// @brief Method VisitConstant, addr 0x40b6624, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method VisitConstant, addr 0x40b65ac, size 0x178, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConstant(::System::Linq::Expressions::ConstantExpression* node);
 
-  /// @brief Method VisitDefault, addr 0x40b7594, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method VisitDefault, addr 0x40b751c, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitDefault(::System::Linq::Expressions::DefaultExpression* node);
 
   /// @brief Method VisitExpressions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -163,46 +163,46 @@ public:
   /// @brief Method VisitExpressions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VisitExpressions(char16_t open, ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* expressions, char16_t close, ::StringW seperator);
 
-  /// @brief Method VisitExtension, addr 0x40b7d74, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method VisitExtension, addr 0x40b7cfc, size 0x1fc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitExtension(::System::Linq::Expressions::Expression* node);
 
-  /// @brief Method VisitGoto, addr 0x40b7784, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method VisitGoto, addr 0x40b770c, size 0x158, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitGoto(::System::Linq::Expressions::GotoExpression* node);
 
-  /// @brief Method VisitIndex, addr 0x40b7aa4, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method VisitIndex, addr 0x40b7a2c, size 0x188, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitIndex(::System::Linq::Expressions::IndexExpression* node);
 
-  /// @brief Method VisitInvocation, addr 0x40b68a4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method VisitInvocation, addr 0x40b682c, size 0x128, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitInvocation(::System::Linq::Expressions::InvocationExpression* node);
 
-  /// @brief Method VisitLabel, addr 0x40b7644, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method VisitLabel, addr 0x40b75cc, size 0x84, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitLabel(::System::Linq::Expressions::LabelExpression* node);
 
   /// @brief Method VisitLambda, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Linq::Expressions::Expression* VisitLambda(::System::Linq::Expressions::Expression_1<T>* node);
 
-  /// @brief Method VisitLoop, addr 0x40b78dc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method VisitLoop, addr 0x40b7864, size 0x60, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitLoop(::System::Linq::Expressions::LoopExpression* node);
 
-  /// @brief Method VisitMember, addr 0x40b684c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method VisitMember, addr 0x40b67d4, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitMember(::System::Linq::Expressions::MemberExpression* node);
 
-  /// @brief Method VisitMethodCall, addr 0x40b69cc, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method VisitMethodCall, addr 0x40b6954, size 0x1fc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitMethodCall(::System::Linq::Expressions::MethodCallExpression* node);
 
-  /// @brief Method VisitNewArray, addr 0x40b6bd4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method VisitNewArray, addr 0x40b6b5c, size 0x128, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitNewArray(::System::Linq::Expressions::NewArrayExpression* node);
 
-  /// @brief Method VisitParameter, addr 0x40b6418, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method VisitParameter, addr 0x40b63a0, size 0x100, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* node);
 
-  /// @brief Method VisitTry, addr 0x40b7a44, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method VisitTry, addr 0x40b79cc, size 0x60, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitTry(::System::Linq::Expressions::TryExpression* node);
 
-  /// @brief Method VisitTypeBinary, addr 0x40b6cfc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method VisitTypeBinary, addr 0x40b6c84, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitTypeBinary(::System::Linq::Expressions::TypeBinaryExpression* node);
 
-  /// @brief Method VisitUnary, addr 0x40b6e08, size 0x450, virtual true, abstract: false, final false
+  /// @brief Method VisitUnary, addr 0x40b6d90, size 0x450, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitUnary(::System::Linq::Expressions::UnaryExpression* node);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, int32_t>* const& __cordl_internal_get__ids() const;
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set__out(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x40b5ba0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b5b28, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

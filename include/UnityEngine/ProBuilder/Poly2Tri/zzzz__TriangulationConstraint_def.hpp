@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_Q(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method .ctor, addr 0x46fd48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fd414, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

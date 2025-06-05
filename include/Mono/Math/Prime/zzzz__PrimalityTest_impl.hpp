@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::Prime::PrimalityTest::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Math::Prime::PrimalityTest::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3c6e218;
+  constexpr static std::size_t addrs = 0x3c6e1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::Prime::PrimalityTest::*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTest::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c6e31c;
+  constexpr static std::size_t addrs = 0x3c6e2a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

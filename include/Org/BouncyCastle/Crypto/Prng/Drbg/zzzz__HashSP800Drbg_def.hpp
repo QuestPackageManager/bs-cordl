@@ -67,26 +67,26 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
 
-  /// @brief Method AddTo, addr 0x23c816c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x23c812c, size 0xc8, virtual false, abstract: false, final false
   inline void AddTo(::ArrayW<uint8_t, ::Array<uint8_t>*> longer, ::ArrayW<uint8_t, ::Array<uint8_t>*> shorter);
 
-  /// @brief Method DoHash, addr 0x23c8474, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method DoHash, addr 0x23c8434, size 0x13c, virtual false, abstract: false, final false
   inline void DoHash(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Generate, addr 0x23c7b58, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x23c7b18, size 0x358, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method GetEntropy, addr 0x23c7998, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0x23c7958, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
-  /// @brief Method Hash, addr 0x23c807c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x23c803c, size 0xf0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, int32_t securityStrength,
                                                                                  ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method Reseed, addr 0x23c7eb0, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0x23c7e70, size 0x1cc, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mC() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23c758c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c754c, size 0x40c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
@@ -143,10 +143,10 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_seedlens();
 
-  /// @brief Method get_BlockSize, addr 0x23c7aac, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0x23c7a6c, size 0xac, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method hashgen, addr 0x23c8234, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method hashgen, addr 0x23c81f4, size 0x240, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> hashgen(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t lengthInBits);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"

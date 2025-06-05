@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError* New_ctor();
 
-  /// @brief Method .ctor, addr 0x46f6594, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46f651c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

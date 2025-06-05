@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::Start)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3ba6cac;
+  constexpr static std::size_t addrs = 0x3ba6c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameEnergyUIPanel*>::get(), "Start",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::Init)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x3ba6e2c;
+  constexpr static std::size_t addrs = 0x3ba6e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameEnergyUIPanel*>::get(), "Init",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::OnDestroy)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3ba7738;
+  constexpr static std::size_t addrs = 0x3ba7710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameEnergyUIPanel*>::get(), "OnDestroy",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)(int32_t)>(
     &::GlobalNamespace::GameEnergyUIPanel::CreateUIForBatteryEnergyType)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x3ba71c4;
+  constexpr static std::size_t addrs = 0x3ba719c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)(float_t)>(&::GlobalNamespace::GameEnergyUIPanel::RefreshEnergyUI)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x3ba7464;
+  constexpr static std::size_t addrs = 0x3ba743c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(
     &::GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyCounterDidInit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba78f4;
+  constexpr static std::size_t addrs = 0x3ba78cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameEnergyUIPanel*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)(float_t)>(
     &::GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba78f8;
+  constexpr static std::size_t addrs = 0x3ba78d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameEnergyUIPanel::*)()>(&::GlobalNamespace::GameEnergyUIPanel::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ba78fc;
+  constexpr static std::size_t addrs = 0x3ba78d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameEnergyUIPanel*>::get(), ".ctor",

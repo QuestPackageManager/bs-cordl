@@ -53,15 +53,15 @@ public:
 
   static inline ::UnityEngine::ObjectDispatcher___c* New_ctor();
 
-  /// @brief Method <.cctor>b__54_0, addr 0x48a5e68, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__54_0, addr 0x48a5df0, size 0xd0, virtual false, abstract: false, final false
   inline void __cctor_b__54_0(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> changed, ::System::IntPtr changedID, ::System::IntPtr destroyedID, int32_t changedCount,
                               int32_t destroyedCount, ::System::Action_1<::UnityEngine::TypeDispatchData>* callback);
 
-  /// @brief Method <.cctor>b__54_1, addr 0x48a5f38, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__54_1, addr 0x48a5ec0, size 0x204, virtual false, abstract: false, final false
   inline void __cctor_b__54_1(::System::IntPtr transformed, ::System::IntPtr parents, ::System::IntPtr localToWorldMatrices, ::System::IntPtr positions, ::System::IntPtr rotations,
                               ::System::IntPtr scales, int32_t count, ::System::Action_1<::UnityEngine::TransformDispatchData>* callback);
 
-  /// @brief Method .ctor, addr 0x48a5e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a5de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ObjectDispatcher___c* getStaticF___9();

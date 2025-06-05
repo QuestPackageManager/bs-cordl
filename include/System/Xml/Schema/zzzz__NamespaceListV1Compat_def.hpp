@@ -19,12 +19,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList {
 public:
   // Declarations
-  /// @brief Method Allows, addr 0x426d7b4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x426d73c, size 0x24, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
   static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method .ctor, addr 0x426d7b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426d738, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
 protected:

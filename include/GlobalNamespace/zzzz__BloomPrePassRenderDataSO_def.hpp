@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x39d4e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d4e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::BloomPrePassRenderDataSO_Data* value);
 
-  /// @brief Method .ctor, addr 0x39d9304, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d92dc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

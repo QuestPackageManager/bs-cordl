@@ -42,7 +42,7 @@ public:
   /// @brief Field ns, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
-  /// @brief Method AddKeyHash, addr 0x43712b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x4371238, size 0xb8, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlRootAttribute* New_ctor();
@@ -73,34 +73,34 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4379f2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4379eb4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4379f3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4379ec4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName);
 
-  /// @brief Method get_DataType, addr 0x4379f6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x4379ef4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_ElementName, addr 0x4376134, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x43760bc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_IsNullable, addr 0x4379fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x4379f58, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x4379fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x4379f6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_DataType, addr 0x4379fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x4379f48, size 0x8, virtual false, abstract: false, final false
   inline void set_DataType(::StringW value);
 
-  /// @brief Method set_ElementName, addr 0x4379fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ElementName, addr 0x4379f50, size 0x8, virtual false, abstract: false, final false
   inline void set_ElementName(::StringW value);
 
-  /// @brief Method set_IsNullable, addr 0x4379fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x4379f60, size 0xc, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
-  /// @brief Method set_Namespace, addr 0x4379fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x4379f74, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:

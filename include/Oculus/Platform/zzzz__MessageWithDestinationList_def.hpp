@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithDestinationList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::DestinationList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7eb58, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7eae0, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::DestinationList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetDestinationList, addr 0x3f7eb1c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetDestinationList, addr 0x3f7eaa4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::DestinationList* GetDestinationList();
 
   static inline ::Oculus::Platform::MessageWithDestinationList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c324, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7c2ac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

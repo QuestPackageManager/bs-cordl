@@ -33,7 +33,7 @@ public:
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                     ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 
-  /// @brief Method SendOverOut, addr 0x4a26d94, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method SendOverOut, addr 0x4a26d1c, size 0x378, virtual false, abstract: false, final false
   static inline void SendOverOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                  ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 

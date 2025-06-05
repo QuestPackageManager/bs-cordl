@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__transposeOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x3b91944, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9191c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

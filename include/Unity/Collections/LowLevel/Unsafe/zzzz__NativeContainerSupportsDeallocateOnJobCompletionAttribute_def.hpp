@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeallocateOnJobCompletionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4861e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4861dac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Manipulator::*)()>(
     &::UnityEngine::UIElements::Manipulator::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a41338;
+  constexpr static std::size_t addrs = 0x4a412c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Manipulator*>::get(), "get_target",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Manipulator::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::Manipulator::set_target)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a41fc4;
+  constexpr static std::size_t addrs = 0x4a41f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Manipulator::*)()>(&::UnityEngine::UIElements::Manipulator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a4112c;
+  constexpr static std::size_t addrs = 0x4a410b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Manipulator*>::get(), ".ctor",

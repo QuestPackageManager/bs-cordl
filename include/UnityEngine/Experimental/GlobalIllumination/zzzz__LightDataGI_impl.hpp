@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48cfa98;
+  constexpr static std::size_t addrs = 0x48cfa20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48cfb0c;
+  constexpr static std::size_t addrs = 0x48cfa94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48cfb88;
+  constexpr static std::size_t addrs = 0x48cfb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48cfc08;
+  constexpr static std::size_t addrs = 0x48cfb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48cfc80;
+  constexpr static std::size_t addrs = 0x48cfc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(int32_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48cfcfc;
+  constexpr static std::size_t addrs = 0x48cfc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

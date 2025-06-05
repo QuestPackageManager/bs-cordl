@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> (
     ::GlobalNamespace::MenuLightsPresetSO::*)()>(&::GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c28cfc;
+  constexpr static std::size_t addrs = 0x3c28c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsPresetSO::*)(
     ::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*>)>(&::GlobalNamespace::MenuLightsPresetSO::set_lightIdColorPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c28d04;
+  constexpr static std::size_t addrs = 0x3c28c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsPresetSO::*)()>(&::GlobalNamespace::MenuLightsPresetSO::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c28d0c;
+  constexpr static std::size_t addrs = 0x3c28c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsPresetSO*>::get(), ".ctor",

@@ -57,34 +57,34 @@ public:
   /// @brief Field _vrRenderingScale, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__vrRenderingScale, put = __cordl_internal_set__vrRenderingScale)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _vrRenderingScale;
 
-  /// @brief Method DidActivate, addr 0x3af9c3c, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af9c14, size 0x3e4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3afa020, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3af9ff8, size 0x2e4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x3afa304, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x3afa2dc, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAntiAliasingLevelChanged(int32_t newValue);
 
-  /// @brief Method HandleFullscreenToggled, addr 0x3afa33c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFullscreenToggled, addr 0x3afa314, size 0x20, virtual false, abstract: false, final false
   inline void HandleFullscreenToggled(bool newValue);
 
-  /// @brief Method HandleMainEffectChanged, addr 0x3afa3bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectChanged, addr 0x3afa394, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMainEffectChanged(int32_t newValue);
 
-  /// @brief Method HandleMirrorChanged, addr 0x3afa3d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x3afa3b0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method HandleScreenDisplacementToggled, addr 0x3afa39c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenDisplacementToggled, addr 0x3afa374, size 0x20, virtual false, abstract: false, final false
   inline void HandleScreenDisplacementToggled(bool newValue);
 
-  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x3afa35c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x3afa334, size 0x1c, virtual false, abstract: false, final false
   inline void HandleShockwaveMaxParticlesChanged(int32_t newValue);
 
-  /// @brief Method HandleSmokeToggled, addr 0x3afa378, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSmokeToggled, addr 0x3afa350, size 0x24, virtual false, abstract: false, final false
   inline void HandleSmokeToggled(bool newValue);
 
-  /// @brief Method HandleVrRenderingScaleChanged, addr 0x3afa320, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleVrRenderingScaleChanged, addr 0x3afa2f8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleVrRenderingScaleChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::StandaloneGraphicSettingsViewController* New_ctor();
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__vrRenderingScale(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x3afa3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afa3cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

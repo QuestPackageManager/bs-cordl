@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::get_IsFull)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x430bb3c;
+  constexpr static std::size_t addrs = 0x430bac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::IncrementalReadDummyDecoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::IncrementalReadDummyDecoder::Decode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x430bb44;
+  constexpr static std::size_t addrs = 0x430bacc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x430bb4c;
+  constexpr static std::size_t addrs = 0x430bad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IncrementalReadDummyDecoder*>::get(), ".ctor",

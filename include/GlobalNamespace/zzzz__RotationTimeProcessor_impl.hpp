@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotationTimeProcessor_RotationChangeData::*)(float_t, int32_t)>(
     &::GlobalNamespace::RotationTimeProcessor_RotationChangeData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26baed4;
+  constexpr static std::size_t addrs = 0x26baeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotationTimeProcessor___c::*)()>(&::GlobalNamespace::RotationTimeProcessor___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bb480;
+  constexpr static std::size_t addrs = 0x26bb460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotationTimeProcessor___c*>::get(), ".ctor",
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RotationTimeProcessor___c::*)(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*)>(
     &::GlobalNamespace::RotationTimeProcessor___c::__ctor_b__3_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26bb488;
+  constexpr static std::size_t addrs = 0x26bb468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotationTimeProcessor::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*)>(&::GlobalNamespace::RotationTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x26baaa4;
+  constexpr static std::size_t addrs = 0x26baa84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotationTimeProcessor::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::RotationEventData*>*)>(&::GlobalNamespace::RotationTimeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x26baee0;
+  constexpr static std::size_t addrs = 0x26baec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::RotationTimeProcessor::*)(float_t)>(
     &::GlobalNamespace::RotationTimeProcessor::ConvertBeatToRotation)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26ba8fc;
+  constexpr static std::size_t addrs = 0x26ba8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotationTimeProcessor::*)()>(&::GlobalNamespace::RotationTimeProcessor::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bb388;
+  constexpr static std::size_t addrs = 0x26bb368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotationTimeProcessor*>::get(), "Reset",
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::RotationTimeProcessor::SpawnRotationForEventValue)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26bae24;
+  constexpr static std::size_t addrs = 0x26bae04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

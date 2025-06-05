@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TitleViewController> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_titleViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b574;
+  constexpr static std::size_t addrs = 0x228b534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "get_titleViewController",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_mainScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b57c;
+  constexpr static std::size_t addrs = 0x228b53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "get_mainScreen",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_leftScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b584;
+  constexpr static std::size_t addrs = 0x228b544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "get_leftScreen",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_rightScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b58c;
+  constexpr static std::size_t addrs = 0x228b54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "get_rightScreen",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_bottomScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b594;
+  constexpr static std::size_t addrs = 0x228b554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "get_bottomScreen",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::Screen> (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::get_topScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b59c;
+  constexpr static std::size_t addrs = 0x228b55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "get_topScreen",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)(::System::Action*)>(&::HMUI::ScreenSystem::add_backButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x228883c;
+  constexpr static std::size_t addrs = 0x22887fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)(::System::Action*)>(&::HMUI::ScreenSystem::remove_backButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22888d8;
+  constexpr static std::size_t addrs = 0x2288898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::Awake)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x228b5a4;
+  constexpr static std::size_t addrs = 0x228b564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "Awake",
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x228b664;
+  constexpr static std::size_t addrs = 0x228b624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "OnDestroy",
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)(bool, bool)>(&::HMUI::ScreenSystem::SetBackButton)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2287280;
+  constexpr static std::size_t addrs = 0x2287240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b680;
+  constexpr static std::size_t addrs = 0x228b640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), ".ctor",
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenSystem::*)()>(&::HMUI::ScreenSystem::_Awake_b__24_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x228b688;
+  constexpr static std::size_t addrs = 0x228b648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenSystem*>::get(), "<Awake>b__24_0",

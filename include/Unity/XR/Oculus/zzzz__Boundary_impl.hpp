@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Boundary::GetBoundaryConfigured)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x483351c;
+  constexpr static std::size_t addrs = 0x48334a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Boundary*>::get(), "GetBoundaryConfigured",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Unity::XR::Oculus::Boundary_BoundaryType, ::ByRef<::UnityEngine::Vector3>)>(
     &::Unity::XR::Oculus::Boundary::GetBoundaryDimensions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4833524;
+  constexpr static std::size_t addrs = 0x48334ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Boundary::GetBoundaryVisible)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x483352c;
+  constexpr static std::size_t addrs = 0x48334b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Boundary*>::get(), "GetBoundaryVisible",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::Boundary::SetBoundaryVisible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4833534;
+  constexpr static std::size_t addrs = 0x48334bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

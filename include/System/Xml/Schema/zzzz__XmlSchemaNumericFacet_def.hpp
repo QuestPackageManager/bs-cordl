@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaNumericFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42bef08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bee90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

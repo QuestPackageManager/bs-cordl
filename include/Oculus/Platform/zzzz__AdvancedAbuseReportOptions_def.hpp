@@ -33,30 +33,30 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method AddSuggestedUser, addr 0x3f5b76c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddSuggestedUser, addr 0x3f5b6f4, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearDeveloperDefinedContext, addr 0x3f5b4a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearDeveloperDefinedContext, addr 0x3f5b42c, size 0x58, virtual false, abstract: false, final false
   inline void ClearDeveloperDefinedContext();
 
-  /// @brief Method ClearSuggestedUsers, addr 0x3f5b858, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearSuggestedUsers, addr 0x3f5b7e0, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method Finalize, addr 0x3f5ba24, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f5b9ac, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AdvancedAbuseReportOptions* New_ctor();
 
-  /// @brief Method SetDeveloperDefinedContext, addr 0x3f5b374, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperDefinedContext, addr 0x3f5b2fc, size 0x70, virtual false, abstract: false, final false
   inline void SetDeveloperDefinedContext(::StringW key, ::StringW value);
 
-  /// @brief Method SetObjectType, addr 0x3f5b578, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetObjectType, addr 0x3f5b500, size 0x68, virtual false, abstract: false, final false
   inline void SetObjectType(::StringW value);
 
-  /// @brief Method SetReportType, addr 0x3f5b680, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x3f5b608, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  /// @brief Method SetVideoMode, addr 0x3f5b92c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVideoMode, addr 0x3f5b8b4, size 0x68, virtual false, abstract: false, final false
   inline void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3f5b2a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5b230, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3f5ba18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f5b9a0, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AdvancedAbuseReportOptions* options);
 
 protected:

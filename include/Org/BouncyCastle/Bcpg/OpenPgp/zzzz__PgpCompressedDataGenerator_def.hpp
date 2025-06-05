@@ -46,12 +46,12 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE PgpCompressedDataGenerator_SafeCBZip2OutputStream : public ::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream {
 public:
   // Declarations
-  /// @brief Method Close, addr 0x2525974, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2525934, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator_SafeCBZip2OutputStream* New_ctor(::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x25258c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525880, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output);
 
 protected:
@@ -84,12 +84,12 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE PgpCompressedDataGenerator_SafeZOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
 public:
   // Declarations
-  /// @brief Method Close, addr 0x25259dc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x252599c, size 0x30, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator_SafeZOutputStream* New_ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method .ctor, addr 0x25258b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525874, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
 protected:
@@ -141,17 +141,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
 
-  /// @brief Method Close, addr 0x25258c8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x2525888, size 0xa4, virtual true, abstract: false, final true
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression);
 
-  /// @brief Method Open, addr 0x25254c4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2525484, size 0x134, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr);
 
-  /// @brief Method Open, addr 0x2525754, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2525714, size 0x160, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const& __cordl_internal_get_algorithm() const;
@@ -178,13 +178,13 @@ public:
 
   constexpr void __cordl_internal_set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  /// @brief Method .ctor, addr 0x25253a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 
-  /// @brief Method .ctor, addr 0x25253b0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525370, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression);
 
-  /// @brief Method doOpen, addr 0x25255f8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method doOpen, addr 0x25255b8, size 0x15c, virtual false, abstract: false, final false
   inline void doOpen();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"

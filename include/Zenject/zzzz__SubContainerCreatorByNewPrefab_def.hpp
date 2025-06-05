@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4b42460, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4b423e8, size 0x1a4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefab* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x4b42424, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b423ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"

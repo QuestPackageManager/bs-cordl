@@ -28,24 +28,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedTextMeshProUGUI : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshProUGUI>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x22b1fe8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x22b1fa8, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x22b1fc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x22b1f80, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x22b1f6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x22b1f2c, size 0x54, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshProUGUI* New_ctor();
 
-  /// @brief Method SetText, addr 0x22b1e6c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x22b1e2c, size 0x2c, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshProUGUI* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x22b1e98, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x22b1e58, size 0xd4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshProUGUI* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x22b2010, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b1fd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

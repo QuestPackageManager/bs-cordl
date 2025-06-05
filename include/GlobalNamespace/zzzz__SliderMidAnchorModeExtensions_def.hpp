@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SliderMidAnchorModeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection, addr 0x2246ac8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x2246a88, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderMidAnchorMode OppositeDirection(::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BackgroundPosition::*)(::UnityEngine::UIElements::BackgroundPositionKeyword)>(
     &::UnityEngine::UIElements::BackgroundPosition::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49707a4;
+  constexpr static std::size_t addrs = 0x497072c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BackgroundPosition::*)(
     ::UnityEngine::UIElements::BackgroundPositionKeyword, ::UnityEngine::UIElements::Length)>(&::UnityEngine::UIElements::BackgroundPosition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49707dc;
+  constexpr static std::size_t addrs = 0x4970764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundPosition (*)()>(&::UnityEngine::UIElements::BackgroundPosition::Initial)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49707e8;
+  constexpr static std::size_t addrs = 0x4970770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BackgroundPosition>::get(), "Initial",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BackgroundPosition::*)(::System::Object*)>(
     &::UnityEngine::UIElements::BackgroundPosition::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4970850;
+  constexpr static std::size_t addrs = 0x49707d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BackgroundPosition::*)(::UnityEngine::UIElements::BackgroundPosition)>(
     &::UnityEngine::UIElements::BackgroundPosition::Equals)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49708cc;
+  constexpr static std::size_t addrs = 0x4970854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BackgroundPosition::*)()>(
     &::UnityEngine::UIElements::BackgroundPosition::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4970920;
+  constexpr static std::size_t addrs = 0x49708a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition)>(
     &::UnityEngine::UIElements::BackgroundPosition::op_Equality)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4970968;
+  constexpr static std::size_t addrs = 0x49708f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition)>(
     &::UnityEngine::UIElements::BackgroundPosition::op_Inequality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49709b8;
+  constexpr static std::size_t addrs = 0x4970940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::BackgroundPosition::*)()>(
     &::UnityEngine::UIElements::BackgroundPosition::ToString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4970a0c;
+  constexpr static std::size_t addrs = 0x4970994;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Collider*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Collider*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a98f98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a98f70, size 0x8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Collider* other);
 
-  /// @brief Method IsNull, addr 0x3a98f38, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a98f10, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_Collider* New_ctor(::UnityEngine::Collider* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Collider> value);
 
-  /// @brief Method .ctor, addr 0x3a98f10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a98ee8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Collider* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Collider*>"

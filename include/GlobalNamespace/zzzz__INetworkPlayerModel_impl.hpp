@@ -463,8 +463,10 @@ inline void GlobalNamespace::INetworkPlayerModel::remove_inviteRequestedEvent(::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename T> inline bool GlobalNamespace::INetworkPlayerModel::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T>* config) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::INetworkPlayerModel*>::get(), 22)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::INetworkPlayerModel*>::get(), 22)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, config);
 }
 inline void GlobalNamespace::INetworkPlayerModel::DestroyPartyConnection() {

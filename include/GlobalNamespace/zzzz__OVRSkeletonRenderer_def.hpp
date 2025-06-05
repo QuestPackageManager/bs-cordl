@@ -119,28 +119,28 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x4047524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x40474ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x4047510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x4047498, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_RootScale, addr 0x4047500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootScale, addr 0x4047488, size 0x8, virtual false, abstract: false, final false
   inline float_t get_RootScale();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4047538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x40474c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x404752c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x40474b4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4047518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x40474a0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_RootScale, addr 0x4047508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootScale, addr 0x4047490, size 0x8, virtual false, abstract: false, final false
   inline void set_RootScale(float_t value);
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x4047540, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x40474c8, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters []
@@ -323,7 +323,7 @@ public:
   static inline ::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                    float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end);
 
-  /// @brief Method Update, addr 0x4046e68, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4046df0, size 0x1d8, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior systemGestureBehavior);
 
@@ -363,7 +363,7 @@ public:
 
   constexpr void __cordl_internal_set_SystemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x404690c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4046894, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::UnityEngine::Transform* begin,
                     ::UnityEngine::Transform* end);
 
@@ -448,7 +448,7 @@ public:
   static inline ::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                       float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
-  /// @brief Method Update, addr 0x4047040, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4046fc8, size 0x320, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior systemGestureBehavior);
 
@@ -488,7 +488,7 @@ public:
 
   constexpr void __cordl_internal_set_capsuleScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x4046ae4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4046a6c, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
 protected:
@@ -636,24 +636,24 @@ public:
   /// @brief Field _systemGestureMaterial, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial)) ::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
-  /// @brief Method Awake, addr 0x4046028, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4045fb0, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x40461c0, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4046148, size 0x74c, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRSkeletonRenderer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4047360, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x40472e8, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShouldInitialize, addr 0x404618c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x4046114, size 0x34, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Start, addr 0x40460e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4046068, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4046ca4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4046c2c, size 0x1c4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
@@ -770,35 +770,35 @@ public:
 
   constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x404748c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4047414, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Quaternion getStaticF__capsuleRotationOffset();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x4046000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x4045f88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x4045fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x4045f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_IsInitialized, addr 0x4045fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x4045f60, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4046014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x4045f9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
   static inline void setStaticF__capsuleRotationOffset(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x4046008, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x4045f90, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4045ff4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x4045f7c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_IsInitialized, addr 0x4045fe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x4045f68, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x404601c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x4045fa4, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
 protected:

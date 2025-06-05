@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::add_songControllerFixedTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ad5aac;
+  constexpr static std::size_t addrs = 0x3ad5a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::remove_songControllerFixedTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ad5b5c;
+  constexpr static std::size_t addrs = 0x3ad5b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::add_songControllerTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ad5c0c;
+  constexpr static std::size_t addrs = 0x3ad5be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)(::System::Action*)>(
     &::GlobalNamespace::SongTimeFixedUpdateController::remove_songControllerTimeDidUpdateEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ad5ca8;
+  constexpr static std::size_t addrs = 0x3ad5c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(
     &::GlobalNamespace::SongTimeFixedUpdateController::get_fixedDeltaTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad5d44;
+  constexpr static std::size_t addrs = 0x3ad5d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeFixedUpdateController*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(
     &::GlobalNamespace::SongTimeFixedUpdateController::get_interpolationFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad5d50;
+  constexpr static std::size_t addrs = 0x3ad5d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeFixedUpdateController*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(
     &::GlobalNamespace::SongTimeFixedUpdateController::Update)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3ad5d58;
+  constexpr static std::size_t addrs = 0x3ad5d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeFixedUpdateController*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeFixedUpdateController::*)()>(
     &::GlobalNamespace::SongTimeFixedUpdateController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad5e98;
+  constexpr static std::size_t addrs = 0x3ad5e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeFixedUpdateController*>::get(),

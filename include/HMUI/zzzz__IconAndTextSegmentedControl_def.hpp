@@ -72,25 +72,25 @@ public:
 
   constexpr void __cordl_internal_set__text_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x408a324, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408a2ac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* icon, ::StringW text, bool interactable);
 
-  /// @brief Method get_icon, addr 0x408a2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x408a278, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_interactable, addr 0x408a310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x408a298, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_text, addr 0x408a300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x408a288, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_icon, addr 0x408a2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x408a280, size 0x8, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_interactable, addr 0x408a318, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x408a2a0, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_text, addr 0x408a308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x408a290, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -163,21 +163,21 @@ public:
   /// @brief Convert operator to "::HMUI::SegmentedControl_IDataSource"
   constexpr operator ::HMUI::SegmentedControl_IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x4089c68, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x4089bf0, size 0x150, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
-  /// @brief Method Init, addr 0x4089708, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4089690, size 0x1c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::IconAndTextSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x4089c50, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x4089bd8, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x408972c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x40896b4, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::HMUI::IconAndTextSegmentedControl_DataItem*, ::Array<::HMUI::IconAndTextSegmentedControl_DataItem*>*> dataItems);
 
-  /// @brief Method SetTextsActive, addr 0x4089df8, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method SetTextsActive, addr 0x4089d80, size 0x328, virtual false, abstract: false, final false
   inline void SetTextsActive(bool active);
 
   constexpr ::ArrayW<::HMUI::IconAndTextSegmentedControl_DataItem*, ::Array<::HMUI::IconAndTextSegmentedControl_DataItem*>*> const& __cordl_internal_get__dataItems() const;
@@ -216,7 +216,7 @@ public:
 
   constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::IconAndTextSegmentedControlCell> value);
 
-  /// @brief Method .ctor, addr 0x408a150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408a0d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::SegmentedControl_IDataSource"

@@ -33,7 +33,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ad3ec0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad3e48, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,46 +79,46 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr operator ::UnityEngine::UI::CoroutineTween::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x4ad3e38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x4ad3dc0, size 0x88, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>* callback);
 
-  /// @brief Method GetDuration, addr 0x4ad3f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x4ad3e98, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x4ad3f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x4ad3e90, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x4ad3d9c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x4ad3d24, size 0x8c, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x4ad3e28, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x4ad3db0, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x4ad3d78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x4ad3d00, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x4ad3d88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x4ad3d10, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startValue, addr 0x4ad3d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startValue, addr 0x4ad3ce0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();
 
-  /// @brief Method get_targetValue, addr 0x4ad3d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetValue, addr 0x4ad3cf0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetValue();
 
   /// @brief Convert to "::UnityEngine::UI::CoroutineTween::ITweenValue"
   constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* i___UnityEngine__UI__CoroutineTween__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x4ad3d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x4ad3d08, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x4ad3d90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x4ad3d18, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startValue, addr 0x4ad3d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startValue, addr 0x4ad3ce8, size 0x8, virtual false, abstract: false, final false
   inline void set_startValue(float_t value);
 
-  /// @brief Method set_targetValue, addr 0x4ad3d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetValue, addr 0x4ad3cf8, size 0x8, virtual false, abstract: false, final false
   inline void set_targetValue(float_t value);
 
   // Ctor Parameters []

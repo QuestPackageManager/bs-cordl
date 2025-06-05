@@ -48,12 +48,12 @@ public:
 
   __declspec(property(put = set_difficultyValue)) int32_t difficultyValue;
 
-  /// @brief Method HighlightDidChange, addr 0x3bfc764, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3bfc7ac, size 0x40, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::DifficultyTableCell* New_ctor();
 
-  /// @brief Method SelectionDidChange, addr 0x3bfc6cc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3bfc714, size 0x98, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3bfc7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfc7ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_difficultyText, addr 0x3bfc62c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyText, addr 0x3bfc674, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_difficultyText();
 
-  /// @brief Method set_difficultyText, addr 0x3bfc608, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyText, addr 0x3bfc650, size 0x24, virtual false, abstract: false, final false
   inline void set_difficultyText(::StringW value);
 
-  /// @brief Method set_difficultyValue, addr 0x3bfc650, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_difficultyValue, addr 0x3bfc698, size 0x38, virtual false, abstract: false, final false
   inline void set_difficultyValue(int32_t value);
 
 protected:

@@ -50,22 +50,22 @@ public:
   /// @brief Field k_DefaultTangent, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_k_DefaultTangent, put = setStaticF_k_DefaultTangent)) ::UnityEngine::Vector4 k_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x492fc64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x492fbec, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x492fc90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x492fc18, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x492fa6c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x492f9f4, size 0x1f8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method SortGeometry, addr 0x492fccc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x492fc54, size 0xb4, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x492fd80, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x492fd08, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x492f650, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492f5d8, size 0x41c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();

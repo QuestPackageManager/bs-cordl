@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::AutoIncrementValue::*)()>(&::System::Data::AutoIncrementValue::get_Auto)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x413d5ec;
+  constexpr static std::size_t addrs = 0x413d574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::AutoIncrementValue*>::get(), "get_Auto",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementValue::*)(bool)>(&::System::Data::AutoIncrementValue::set_Auto)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x413d5f4;
+  constexpr static std::size_t addrs = 0x413d57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::AutoIncrementValue* (::System::Data::AutoIncrementValue::*)()>(
     &::System::Data::AutoIncrementValue::Clone)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x413c6dc;
+  constexpr static std::size_t addrs = 0x413c664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::AutoIncrementValue*>::get(), "Clone",
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::AutoIncrementValue::*)()>(&::System::Data::AutoIncrementValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x413d600;
+  constexpr static std::size_t addrs = 0x413d588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::AutoIncrementValue*>::get(), ".ctor",

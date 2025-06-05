@@ -26,13 +26,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>*();
 
-  /// @brief Method Equals, addr 0x48866ac, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4886634, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4886724, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48866ac, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::GraphicsBufferHandle other);
 
-  /// @brief Method GetHashCode, addr 0x48866a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x488662c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"

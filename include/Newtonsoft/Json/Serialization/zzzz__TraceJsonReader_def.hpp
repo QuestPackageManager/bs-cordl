@@ -80,51 +80,51 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method Close, addr 0x3eff474, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3eff3fc, size 0x24, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetDeserializedJsonMessage, addr 0x3eff05c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetDeserializedJsonMessage, addr 0x3efefe4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetDeserializedJsonMessage();
 
   static inline ::Newtonsoft::Json::Serialization::TraceJsonReader* New_ctor(::Newtonsoft::Json::JsonReader* innerReader);
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3eff498, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3eff420, size 0xb4, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3eff54c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3eff4d4, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3eff604, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3eff58c, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  /// @brief Method Read, addr 0x3eff07c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3eff004, size 0x44, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsBoolean, addr 0x3eff28c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x3eff214, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBytes, addr 0x3eff180, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x3eff108, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsDateTime, addr 0x3eff2d0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x3eff258, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3eff31c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x3eff2a4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDecimal, addr 0x3eff1c4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x3eff14c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x3eff240, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x3eff1c8, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsInt32, addr 0x3eff0f8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x3eff080, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsString, addr 0x3eff13c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x3eff0c4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method WriteCurrentToken, addr 0x3eff0c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteCurrentToken, addr 0x3eff048, size 0x38, virtual false, abstract: false, final false
   inline void WriteCurrentToken();
 
   constexpr ::Newtonsoft::Json::JsonReader* const& __cordl_internal_get__innerReader() const;
@@ -145,31 +145,31 @@ public:
 
   constexpr void __cordl_internal_set__textWriter(::Newtonsoft::Json::JsonTextWriter* value);
 
-  /// @brief Method .ctor, addr 0x3efef1c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efeea4, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonReader* innerReader);
 
-  /// @brief Method get_Depth, addr 0x3eff378, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x3eff300, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Path, addr 0x3eff39c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3eff324, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x3eff3c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3eff348, size 0x24, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_TokenType, addr 0x3eff408, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3eff390, size 0x24, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x3eff42c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3eff3b4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x3eff450, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x3eff3d8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  /// @brief Method set_QuoteChar, addr 0x3eff3e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3eff36c, size 0x24, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::SoapServices_TypeInfo::*)()>(
     &::System::Runtime::Remoting::SoapServices_TypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cd7798;
+  constexpr static std::size_t addrs = 0x3cd7720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices_TypeInfo*>::get(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cd6760;
+  constexpr static std::size_t addrs = 0x3cd66e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cd67a0;
+  constexpr static std::size_t addrs = 0x3cd6728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SoapServices*>::get(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cd67e0;
+  constexpr static std::size_t addrs = 0x3cd6768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(
     &::System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3cd6820;
+  constexpr static std::size_t addrs = 0x3cd67a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::GetNameKey)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cd6a9c;
+  constexpr static std::size_t addrs = 0x3cd6a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3cd6b04;
+  constexpr static std::size_t addrs = 0x3cd6a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3cd6c38;
+  constexpr static std::size_t addrs = 0x3cd6bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(
     &::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cd6d0c;
+  constexpr static std::size_t addrs = 0x3cd6c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(
     &::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cd6da0;
+  constexpr static std::size_t addrs = 0x3cd6d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3cd6e34;
+  constexpr static std::size_t addrs = 0x3cd6dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cd6efc;
+  constexpr static std::size_t addrs = 0x3cd6e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x3cd6fb8;
+  constexpr static std::size_t addrs = 0x3cd6f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(
     &::System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3cd760c;
+  constexpr static std::size_t addrs = 0x3cd7594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(
     &::System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3cd7480;
+  constexpr static std::size_t addrs = 0x3cd7408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Remoting::SoapServices::EncodeNs)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3cd69b8;
+  constexpr static std::size_t addrs = 0x3cd6940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

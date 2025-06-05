@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x26e30ac, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x26e308c, size 0x1dc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x26e3080, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e3060, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);
 
   /// @brief Convert to "::System::IComparable"

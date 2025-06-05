@@ -40,12 +40,12 @@ public:
   /// @brief Field m_WidthSegments, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WidthSegments, put = __cordl_internal_set_m_WidthSegments)) int32_t m_WidthSegments;
 
-  /// @brief Method CopyShape, addr 0x4751c40, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4751bc8, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Plane* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x4751cec, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x4751c74, size 0x258, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   constexpr int32_t const& __cordl_internal_get_m_HeightSegments() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WidthSegments(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4751f44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4751ecc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

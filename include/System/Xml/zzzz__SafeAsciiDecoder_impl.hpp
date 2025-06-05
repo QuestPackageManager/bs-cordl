@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::SafeAsciiDecoder::*)()>(&::System::Xml::SafeAsciiDecoder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fb34;
+  constexpr static std::size_t addrs = 0x435fabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::SafeAsciiDecoder*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::SafeAsciiDecoder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::SafeAsciiDecoder::GetCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fb3c;
+  constexpr static std::size_t addrs = 0x435fac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::SafeAsciiDecoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Xml::SafeAsciiDecoder::GetChars)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x435fb44;
+  constexpr static std::size_t addrs = 0x435facc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, bool, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<bool>)>(
     &::System::Xml::SafeAsciiDecoder::Convert)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x435fbb0;
+  constexpr static std::size_t addrs = 0x435fb38;
 
   inline static ::MethodInfo const* methodInfo() {
 

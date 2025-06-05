@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DecrementInstruction_DecrementUInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x40c6508, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c6490, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c62e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c6270, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

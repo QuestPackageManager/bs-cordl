@@ -29,15 +29,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method New, addr 0x4797e68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x4797df0, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
   static inline ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy* New_ctor();
 
-  /// @brief Method Release, addr 0x4797e74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x4797dfc, size 0x4, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x4797e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4797e00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"

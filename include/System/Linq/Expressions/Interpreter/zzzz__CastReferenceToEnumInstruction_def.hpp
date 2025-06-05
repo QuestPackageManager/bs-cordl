@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x40f9a74, size 0x4cc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f99fc, size 0x4cc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__t() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40f9a4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f99d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

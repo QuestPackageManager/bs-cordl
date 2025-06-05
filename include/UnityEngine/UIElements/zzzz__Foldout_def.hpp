@@ -71,7 +71,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Foldout_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49968cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4996854, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   /// @brief Field m_Value, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x4996914, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x499689c, size 0x12c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Foldout_UxmlTraits* New_ctor();
@@ -127,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4996a40, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49969c8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -223,21 +223,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
   constexpr operator ::UnityEngine::UIElements::INotifyValueChanged_1<bool>*() noexcept;
 
-  /// @brief Method Apply, addr 0x4996040, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x4995fc8, size 0xd4, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method Apply, addr 0x4996010, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x4995f98, size 0x30, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
   static inline ::UnityEngine::UIElements::Foldout* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x49964bc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x4996444, size 0x1e0, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x4995fd0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x4995f58, size 0x40, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4995e8c, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method SetValueWithoutNotify, addr 0x4995e14, size 0x144, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(bool newValue);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -264,10 +264,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(bool value);
 
-  /// @brief Method <.ctor>b__29_0, addr 0x499687c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__29_0, addr 0x4996804, size 0x50, virtual false, abstract: false, final false
   inline void __ctor_b__29_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method .ctor, addr 0x4996114, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499609c, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -288,10 +288,10 @@ public:
 
   static inline int32_t getStaticF_ussFoldoutMaxDepth();
 
-  /// @brief Method get_contentContainer, addr 0x4995b48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x4995ad0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_value, addr 0x4995c78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4995c00, size 0x8, virtual true, abstract: false, final true
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<bool>"
@@ -315,10 +315,10 @@ public:
 
   static inline void setStaticF_ussFoldoutMaxDepth(int32_t value);
 
-  /// @brief Method set_text, addr 0x4995b50, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x4995ad8, size 0x128, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_value, addr 0x4995c80, size 0x20c, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x4995c08, size 0x20c, virtual true, abstract: false, final true
   inline void set_value(bool value);
 
 protected:

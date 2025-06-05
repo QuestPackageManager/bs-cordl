@@ -18,3 +18,4 @@ constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironm
 constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::DevelopmentB{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::ProductionC{ static_cast<int32_t>(0x9) };
 constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::ProductionQuest1{ static_cast<int32_t>(0xa) };
+constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::ProductionPlayStation{ static_cast<int32_t>(0xb) };

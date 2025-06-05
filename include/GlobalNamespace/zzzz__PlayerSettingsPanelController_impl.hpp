@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::System::Action*)>(
     &::GlobalNamespace::PlayerSettingsPanelController::add_didChangePlayerSettingsEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c19a4c;
+  constexpr static std::size_t addrs = 0x3c199d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::System::Action*)>(
     &::GlobalNamespace::PlayerSettingsPanelController::remove_didChangePlayerSettingsEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c1a8e8;
+  constexpr static std::size_t addrs = 0x3c1a870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::get_playerSpecificSettings)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x3c18bbc;
+  constexpr static std::size_t addrs = 0x3c18b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerSettingsPanelController::SetData)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c198bc;
+  constexpr static std::size_t addrs = 0x3c19844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(
     ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout)>(&::GlobalNamespace::PlayerSettingsPanelController::SetLayout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c190fc;
+  constexpr static std::size_t addrs = 0x3c19084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::Awake)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c1a9ec;
+  constexpr static std::size_t addrs = 0x3c1a974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::OnEnable)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x3c1aa44;
+  constexpr static std::size_t addrs = 0x3c1a9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c1adf4;
+  constexpr static std::size_t addrs = 0x3c1ad7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c1ae2c;
+  constexpr static std::size_t addrs = 0x3c1adb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::UnsubscribeAllUICallbacks)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c1adf8;
+  constexpr static std::size_t addrs = 0x3c1ad80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3c1a484;
+  constexpr static std::size_t addrs = 0x3c1a40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::PlayerSettingsPanelController::HandleSFXVolumeSettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1af4c;
+  constexpr static std::size_t addrs = 0x3c1aed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, ::GlobalNamespace::ArcVisibilityType)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleArcVisibilityDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c1af94;
+  constexpr static std::size_t addrs = 0x3c1af1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::PlayerSettingsPanelController::HandleSaberTrailIntensitySettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1aff4;
+  constexpr static std::size_t addrs = 0x3c1af7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandlePlayerHeightSettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b018;
+  constexpr static std::size_t addrs = 0x3c1afa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::PlayerSettingsPanelController::HandleHeadsetHapticIntensityControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b03c;
+  constexpr static std::size_t addrs = 0x3c1afc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, float_t)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoteJumpStartBeatOffsetPositionSelected)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b060;
+  constexpr static std::size_t addrs = 0x3c1afe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(
     int32_t, ::GlobalNamespace::EnvironmentEffectsFilterPreset)>(&::GlobalNamespace::PlayerSettingsPanelController::HandleLightReductionAmountSelected)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b084;
+  constexpr static std::size_t addrs = 0x3c1b00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleAdvancedHudToggleChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c1b0a8;
+  constexpr static std::size_t addrs = 0x3c1b030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(int32_t, ::GlobalNamespace::NoteJumpDurationTypeSettings)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c1b0f8;
+  constexpr static std::size_t addrs = 0x3c1b080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::PlayerSettingsPanelController::HandleNoteJumpFixedDurationSettingsControllerValueDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b134;
+  constexpr static std::size_t addrs = 0x3c1b0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::HandleNoTextsAndHudsToggleChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c1b158;
+  constexpr static std::size_t addrs = 0x3c1b0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::SetIsDirty)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1af70;
+  constexpr static std::size_t addrs = 0x3c1aef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::NoteJumpDurationTypeSettings)>(
     &::GlobalNamespace::PlayerSettingsPanelController::RefreshNoteJumpUI)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c1ae30;
+  constexpr static std::size_t addrs = 0x3c1adb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::UnityEngine::CanvasGroup*, bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::SetSectionDisabled)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c1a984;
+  constexpr static std::size_t addrs = 0x3c1a90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(::GlobalNamespace::ArcVisibilityType, bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::RefreshArcsWarning)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3c1ae6c;
+  constexpr static std::size_t addrs = 0x3c1adf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c1b1a8;
+  constexpr static std::size_t addrs = 0x3c1b130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b208;
+  constexpr static std::size_t addrs = 0x3c1b190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b22c;
+  constexpr static std::size_t addrs = 0x3c1b1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b250;
+  constexpr static std::size_t addrs = 0x3c1b1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b274;
+  constexpr static std::size_t addrs = 0x3c1b1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_4)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b298;
+  constexpr static std::size_t addrs = 0x3c1b220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_5)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3c1b2bc;
+  constexpr static std::size_t addrs = 0x3c1b244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_6)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1b300;
+  constexpr static std::size_t addrs = 0x3c1b288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_7)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x3c1b324;
+  constexpr static std::size_t addrs = 0x3c1b2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSettingsPanelController::*)()>(
     &::GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_8)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x3c1b6d0;
+  constexpr static std::size_t addrs = 0x3c1b658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSettingsPanelController*>::get(),

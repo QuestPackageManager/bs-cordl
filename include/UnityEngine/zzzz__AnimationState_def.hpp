@@ -32,19 +32,19 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x484d99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484d924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x484d508, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x484d490, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method set_normalizedTime, addr 0x484d904, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x484d88c, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x484d950, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x484d8d8, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_time, addr 0x484d8b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x484d840, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:

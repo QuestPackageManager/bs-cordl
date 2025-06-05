@@ -69,10 +69,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x271d6fc, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x271d6d4, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x271d8e8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x271d8c0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -168,24 +168,24 @@ public:
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler)) ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>
       _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x271d218, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x271d1f0, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x271d488, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x271d460, size 0x214, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS5AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x271d158, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x271d130, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x271d280, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x271d258, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x271d320, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x271d2f8, size 0xfc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method TransitionToNextSceneInternal, addr 0x271d41c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextSceneInternal, addr 0x271d3f4, size 0x6c, virtual false, abstract: false, final false
   inline void TransitionToNextSceneInternal();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
@@ -248,10 +248,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x271d6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x271d6cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x271d69c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271d674, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

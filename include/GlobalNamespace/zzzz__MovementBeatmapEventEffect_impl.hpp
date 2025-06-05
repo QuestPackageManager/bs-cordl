@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::MovementBeatmapEventEffect_MovementData::*)()>(
     &::GlobalNamespace::MovementBeatmapEventEffect_MovementData::get_localPositionOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b9d188;
+  constexpr static std::size_t addrs = 0x3b9d160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect_MovementData::*)()>(
     &::GlobalNamespace::MovementBeatmapEventEffect_MovementData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d194;
+  constexpr static std::size_t addrs = 0x3b9d16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)()>(&::GlobalNamespace::MovementBeatmapEventEffect::Start)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3b9ccd0;
+  constexpr static std::size_t addrs = 0x3b9cca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementBeatmapEventEffect*>::get(), "Start",
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)()>(
     &::GlobalNamespace::MovementBeatmapEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b9cf90;
+  constexpr static std::size_t addrs = 0x3b9cf68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementBeatmapEventEffect*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)()>(
     &::GlobalNamespace::MovementBeatmapEventEffect::FixedUpdate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3b9cfac;
+  constexpr static std::size_t addrs = 0x3b9cf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementBeatmapEventEffect*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)()>(
     &::GlobalNamespace::MovementBeatmapEventEffect::LateUpdate)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b9d0bc;
+  constexpr static std::size_t addrs = 0x3b9d094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementBeatmapEventEffect*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::MovementBeatmapEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b9d148;
+  constexpr static std::size_t addrs = 0x3b9d120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MovementBeatmapEventEffect::SetLocalPositionOffsetsForAllObjects)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b9ced4;
+  constexpr static std::size_t addrs = 0x3b9ceac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementBeatmapEventEffect::*)()>(&::GlobalNamespace::MovementBeatmapEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d180;
+  constexpr static std::size_t addrs = 0x3b9d158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementBeatmapEventEffect*>::get(), ".ctor",

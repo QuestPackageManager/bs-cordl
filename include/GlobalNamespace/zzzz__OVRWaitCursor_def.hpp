@@ -24,7 +24,7 @@ public:
 
   static inline ::GlobalNamespace::OVRWaitCursor* New_ctor();
 
-  /// @brief Method Update, addr 0x404b9a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x404b930, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotateSpeeds() const;
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_rotateSpeeds(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x404ba00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404b988, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

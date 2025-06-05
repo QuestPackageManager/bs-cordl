@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (
     ::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_RemoteCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c464d0;
+  constexpr static std::size_t addrs = 0x3c46458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(
     ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&::Mono::Security::Interface::MonoTlsSettings::set_RemoteCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c464d8;
+  constexpr static std::size_t addrs = 0x3c46460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* (
     ::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_ClientCertificateSelectionCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c464e0;
+  constexpr static std::size_t addrs = 0x3c46468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(
     ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&::Mono::Security::Interface::MonoTlsSettings::set_ClientCertificateSelectionCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c464e8;
+  constexpr static std::size_t addrs = 0x3c46470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<bool> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_UseServicePointManagerCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c464f0;
+  constexpr static std::size_t addrs = 0x3c46478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Nullable_1<bool>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_UseServicePointManagerCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c464f8;
+  constexpr static std::size_t addrs = 0x3c46480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CallbackNeedsCertificateChain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46500;
+  constexpr static std::size_t addrs = 0x3c46488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTime> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CertificateValidationTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c46508;
+  constexpr static std::size_t addrs = 0x3c46490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Nullable_1<::System::DateTime>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_CertificateValidationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46514;
+  constexpr static std::size_t addrs = 0x3c4649c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (
     ::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_TrustAnchors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4651c;
+  constexpr static std::size_t addrs = 0x3c464a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(
     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&::Mono::Security::Interface::MonoTlsSettings::set_TrustAnchors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46524;
+  constexpr static std::size_t addrs = 0x3c464ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_UserSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4652c;
+  constexpr static std::size_t addrs = 0x3c464b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::System::Object*)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_UserSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46534;
+  constexpr static std::size_t addrs = 0x3c464bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4653c;
+  constexpr static std::size_t addrs = 0x3c464c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46544;
+  constexpr static std::size_t addrs = 0x3c464cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_SendCloseNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4654c;
+  constexpr static std::size_t addrs = 0x3c464d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(bool)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_SendCloseNotify)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c46554;
+  constexpr static std::size_t addrs = 0x3c464dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_ClientCertificateIssuers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46560;
+  constexpr static std::size_t addrs = 0x3c464e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_ClientCertificateIssuers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46568;
+  constexpr static std::size_t addrs = 0x3c464f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_DisallowUnauthenticatedCertificateRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46570;
+  constexpr static std::size_t addrs = 0x3c464f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(bool)>(
     &::Mono::Security::Interface::MonoTlsSettings::set_DisallowUnauthenticatedCertificateRequest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c46578;
+  constexpr static std::size_t addrs = 0x3c46500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_EnabledProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46584;
+  constexpr static std::size_t addrs = 0x3c4650c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(
     ::System::Nullable_1<::Mono::Security::Interface::TlsProtocols>)>(&::Mono::Security::Interface::MonoTlsSettings::set_EnabledProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4658c;
+  constexpr static std::size_t addrs = 0x3c46514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> (
     ::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c46594;
+  constexpr static std::size_t addrs = 0x3c4651c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(
     ::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*>)>(&::Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4659c;
+  constexpr static std::size_t addrs = 0x3c46524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)()>(&::Mono::Security::Interface::MonoTlsSettings::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c465a4;
+  constexpr static std::size_t addrs = 0x3c4652c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(), ".ctor",
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_DefaultSettings)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c465b8;
+  constexpr static std::size_t addrs = 0x3c46540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::CopyDefaultSettings)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c46644;
+  constexpr static std::size_t addrs = 0x3c465cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::ICertificateValidator* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::get_CertificateValidator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c466b4;
+  constexpr static std::size_t addrs = 0x3c4663c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(),
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (
     ::Mono::Security::Interface::MonoTlsSettings::*)(::Mono::Security::Interface::ICertificateValidator*)>(&::Mono::Security::Interface::MonoTlsSettings::CloneWithValidator)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c466bc;
+  constexpr static std::size_t addrs = 0x3c46644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Security::Interface::MonoTlsSettings::*)()>(
     &::Mono::Security::Interface::MonoTlsSettings::Clone)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c4665c;
+  constexpr static std::size_t addrs = 0x3c465e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsSettings*>::get(), "Clone",
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsSettings::*)(::Mono::Security::Interface::MonoTlsSettings*)>(
     &::Mono::Security::Interface::MonoTlsSettings::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3c4673c;
+  constexpr static std::size_t addrs = 0x3c466c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

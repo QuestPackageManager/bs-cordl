@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::RadioButton_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a03574;
+  constexpr static std::size_t addrs = 0x4a034fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButton_UxmlFactory*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::RadioButton_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4a035bc;
+  constexpr static std::size_t addrs = 0x4a03544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::RadioButton_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a036d8;
+  constexpr static std::size_t addrs = 0x4a03660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButton_UxmlTraits*>::get(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::RadioButton::*)()>(&::UnityEngine::UIElements::RadioButton::get_value)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a02cf0;
+  constexpr static std::size_t addrs = 0x4a02c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)(bool)>(&::UnityEngine::UIElements::RadioButton::set_value)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4a02d38;
+  constexpr static std::size_t addrs = 0x4a02cc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)()>(&::UnityEngine::UIElements::RadioButton::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a02f10;
+  constexpr static std::size_t addrs = 0x4a02e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButton*>::get(), ".ctor",
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)(::StringW)>(&::UnityEngine::UIElements::RadioButton::_ctor)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x4a02f18;
+  constexpr static std::size_t addrs = 0x4a02ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::RadioButton::OnOptionAttachToPanel)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4a03198;
+  constexpr static std::size_t addrs = 0x4a03120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::RadioButton::OnOptionDetachFromPanel)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4a03204;
+  constexpr static std::size_t addrs = 0x4a0318c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)()>(&::UnityEngine::UIElements::RadioButton::InitLabel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a03270;
+  constexpr static std::size_t addrs = 0x4a031f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)()>(&::UnityEngine::UIElements::RadioButton::ToggleValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a032ec;
+  constexpr static std::size_t addrs = 0x4a03274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)(bool)>(
     &::UnityEngine::UIElements::RadioButton::UnityEngine_UIElements_IGroupBoxOption_SetSelected)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a0332c;
+  constexpr static std::size_t addrs = 0x4a032b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)(bool)>(
     &::UnityEngine::UIElements::RadioButton::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a03340;
+  constexpr static std::size_t addrs = 0x4a032c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)()>(&::UnityEngine::UIElements::RadioButton::UpdateCheckmark)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4a02e1c;
+  constexpr static std::size_t addrs = 0x4a02da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButton*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButton::*)()>(
     &::UnityEngine::UIElements::RadioButton::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a03360;
+  constexpr static std::size_t addrs = 0x4a032e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -32,19 +32,19 @@ public:
 
   __declspec(property(get = get_Velocity)) int32_t Velocity;
 
-  /// @brief Method get_Channel, addr 0x3c2a15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x3c2a0e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Channel();
 
-  /// @brief Method get_MetaEventType, addr 0x3c2a154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaEventType, addr 0x3c2a0dc, size 0x8, virtual false, abstract: false, final false
   inline ::MidiParser::MetaEventType get_MetaEventType();
 
-  /// @brief Method get_Note, addr 0x3c2a164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Note, addr 0x3c2a0ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Note();
 
-  /// @brief Method get_Value, addr 0x3c2a174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c2a0fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
-  /// @brief Method get_Velocity, addr 0x3c2a16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Velocity, addr 0x3c2a0f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Velocity();
 
   // Ctor Parameters []

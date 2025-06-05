@@ -145,7 +145,7 @@ public:
 
   __declspec(property(get = get_transform, put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method GetTileData, addr 0x4956294, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetTileData, addr 0x495621c, size 0xa0, virtual true, abstract: false, final false
   inline void GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::ByRef<::UnityEngine::Tilemaps::TileData> tileData);
 
   static inline ::UnityEngine::Tilemaps::Tile* New_ctor();
@@ -186,43 +186,43 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x495648c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4956414, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colliderType, addr 0x4956284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colliderType, addr 0x495620c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::Tile_ColliderType get_colliderType();
 
-  /// @brief Method get_color, addr 0x4956224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x49561ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_flags, addr 0x4956274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x49561fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Tilemaps::TileFlags get_flags();
 
-  /// @brief Method get_gameObject, addr 0x4956264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x49561ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_sprite, addr 0x4956214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x495619c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_transform, addr 0x495623c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x49561c4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_transform();
 
-  /// @brief Method set_colliderType, addr 0x495628c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderType, addr 0x4956214, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderType(::UnityEngine::Tilemaps::Tile_ColliderType value);
 
-  /// @brief Method set_color, addr 0x4956230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x49561b8, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_flags, addr 0x495627c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x4956204, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Tilemaps::TileFlags value);
 
-  /// @brief Method set_gameObject, addr 0x495626c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x49561f4, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_sprite, addr 0x495621c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x49561a4, size 0x8, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_transform, addr 0x4956250, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x49561d8, size 0x14, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
 protected:

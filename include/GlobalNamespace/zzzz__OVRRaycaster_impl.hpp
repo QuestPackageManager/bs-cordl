@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster___c::*)()>(&::GlobalNamespace::OVRRaycaster___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4041734;
+  constexpr static std::size_t addrs = 0x40416bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get(), ".ctor",
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRRaycaster___c::*)(
     ::GlobalNamespace::OVRRaycaster_RaycastHit, ::GlobalNamespace::OVRRaycaster_RaycastHit)>(&::GlobalNamespace::OVRRaycaster___c::_GraphicRaycast_b__16_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x404173c;
+  constexpr static std::size_t addrs = 0x40416c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x403fe00;
+  constexpr static std::size_t addrs = 0x403fd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), ".ctor",
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Canvas> (::GlobalNamespace::OVRRaycaster::*)()>(
     &::GlobalNamespace::OVRRaycaster::get_canvas)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x403fea0;
+  constexpr static std::size_t addrs = 0x403fe28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "get_canvas",
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::GlobalNamespace::OVRRaycaster::*)()>(
     &::GlobalNamespace::OVRRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x403ff34;
+  constexpr static std::size_t addrs = 0x403febc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::get_sortOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403ff50;
+  constexpr static std::size_t addrs = 0x403fed8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::Start)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x403ff58;
+  constexpr static std::size_t addrs = 0x403fee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*, ::UnityEngine::Ray, bool)>(
     &::GlobalNamespace::OVRRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x6c8;
-  constexpr static std::size_t addrs = 0x40400a8;
+  constexpr static std::size_t addrs = 0x4040030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::GlobalNamespace::OVRRaycaster::Raycast)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4040df8;
+  constexpr static std::size_t addrs = 0x4040d80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::GlobalNamespace::OVRRaycaster::RaycastPointer)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x4040e64;
+  constexpr static std::size_t addrs = 0x4040dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
     ::UnityEngine::Canvas*, ::UnityEngine::Ray, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*)>(&::GlobalNamespace::OVRRaycaster::GraphicRaycast)> {
   constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x4040770;
+  constexpr static std::size_t addrs = 0x40406f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::OVRRaycaster::*)(::UnityEngine::EventSystems::RaycastResult)>(
     &::GlobalNamespace::OVRRaycaster::GetScreenPosition)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x40413f8;
+  constexpr static std::size_t addrs = 0x4041380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Ray, ::ByRef<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::OVRRaycaster::RayIntersectsRectTransform)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x4041124;
+  constexpr static std::size_t addrs = 0x40410ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::IsFocussed)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4041430;
+  constexpr static std::size_t addrs = 0x40413b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "IsFocussed",
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::OVRRaycaster::OnPointerEnter)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4041548;
+  constexpr static std::size_t addrs = 0x40414d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

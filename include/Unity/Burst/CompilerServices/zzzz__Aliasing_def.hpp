@@ -27,7 +27,7 @@ public:
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename B> static inline void ExpectAliased(::cordl_internals::Ptr<void> a, ::ByRef<B> b);
 
-  /// @brief Method ExpectAliased, addr 0x453b9c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectAliased, addr 0x453b950, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -39,7 +39,7 @@ public:
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename B> static inline void ExpectNotAliased(::cordl_internals::Ptr<void> a, ::ByRef<B> b);
 
-  /// @brief Method ExpectNotAliased, addr 0x453b9cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectNotAliased, addr 0x453b954, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
 
 protected:

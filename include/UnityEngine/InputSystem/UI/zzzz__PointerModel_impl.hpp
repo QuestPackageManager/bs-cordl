@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::get_isPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f5650;
+  constexpr static std::size_t addrs = 0x45f55d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)(bool)>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::set_isPressed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45f44f0;
+  constexpr static std::size_t addrs = 0x45f4478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::get_ignoreNextClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f5658;
+  constexpr static std::size_t addrs = 0x45f55e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)(bool)>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::set_ignoreNextClick)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f5660;
+  constexpr static std::size_t addrs = 0x45f55e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::get_pressTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f566c;
+  constexpr static std::size_t addrs = 0x45f55f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::set_pressTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f5674;
+  constexpr static std::size_t addrs = 0x45f55fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::get_clickedOnSameGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f567c;
+  constexpr static std::size_t addrs = 0x45f5604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)(bool)>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::set_clickedOnSameGameObject)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f5684;
+  constexpr static std::size_t addrs = 0x45f560c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::get_wasPressedThisFrame)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45f11e4;
+  constexpr static std::size_t addrs = 0x45f116c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::get_wasReleasedThisFrame)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f0b48;
+  constexpr static std::size_t addrs = 0x45f0ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::CopyPressStateTo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x45efc78;
+  constexpr static std::size_t addrs = 0x45efc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::CopyPressStateFrom)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x45f11f4;
+  constexpr static std::size_t addrs = 0x45f117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel_ButtonState::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel_ButtonState::OnEndFrame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f5644;
+  constexpr static std::size_t addrs = 0x45f55cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel_ButtonState>::get(),
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::UI::UIPointerType (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_pointerType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45efd70;
+  constexpr static std::size_t addrs = 0x45efcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_screenPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f551c;
+  constexpr static std::size_t addrs = 0x45f54a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_screenPosition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x45f3e34;
+  constexpr static std::size_t addrs = 0x45f3dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_worldPosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45f5528;
+  constexpr static std::size_t addrs = 0x45f54b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_worldPosition)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45f4a48;
+  constexpr static std::size_t addrs = 0x45f49d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_worldOrientation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f5538;
+  constexpr static std::size_t addrs = 0x45f54c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_worldOrientation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45f4948;
+  constexpr static std::size_t addrs = 0x45f48d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_scrollDelta)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f554c;
+  constexpr static std::size_t addrs = 0x45f54d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_scrollDelta)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x45f4800;
+  constexpr static std::size_t addrs = 0x45f4788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_pressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f5558;
+  constexpr static std::size_t addrs = 0x45f54e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_pressure)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45f5560;
+  constexpr static std::size_t addrs = 0x45f54e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_azimuthAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f5580;
+  constexpr static std::size_t addrs = 0x45f5508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_azimuthAngle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45f5588;
+  constexpr static std::size_t addrs = 0x45f5510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_altitudeAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f55a8;
+  constexpr static std::size_t addrs = 0x45f5530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_altitudeAngle)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45f55b0;
+  constexpr static std::size_t addrs = 0x45f5538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_twist)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f55d0;
+  constexpr static std::size_t addrs = 0x45f5558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(), "get_twist",
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_twist)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45f55d8;
+  constexpr static std::size_t addrs = 0x45f5560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::get_radius)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f55f8;
+  constexpr static std::size_t addrs = 0x45f5580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::UI::PointerModel::set_radius)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x45f5604;
+  constexpr static std::size_t addrs = 0x45f558c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::InputSystem::UI::ExtendedPointerEventData*)>(
     &::UnityEngine::InputSystem::UI::PointerModel::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x45f3e74;
+  constexpr static std::size_t addrs = 0x45f3dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)()>(
     &::UnityEngine::InputSystem::UI::PointerModel::OnFrameFinished)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45f4e98;
+  constexpr static std::size_t addrs = 0x45f4e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::PointerModel>::get(),
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::PointerModel::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::InputSystem::UI::PointerModel::CopyTouchOrPenStateFrom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x45f4c34;
+  constexpr static std::size_t addrs = 0x45f4bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

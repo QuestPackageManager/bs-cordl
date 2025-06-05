@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Mesh_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a99a00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a999d8, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Mesh* _ToTestObject_b__1_0(::UnityEngine::Mesh* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a99a5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a99a34, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Mesh* _ToTestObject_b__2_0(::UnityEngine::Mesh* lod);
 
-  /// @brief Method .ctor, addr 0x3a999f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a999d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_Mesh_Extensions___c* getStaticF___9();
@@ -101,13 +101,13 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_Mesh_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3a997b4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9978c, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Mesh*, ::Array<::HoudiniEngineUnity::Test_Mesh*>*> ToTestObject(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a99758, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a99730, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Mesh* ToTestObject(::UnityEngine::Mesh* self);
 
-  /// @brief Method ToTestObject, addr 0x3a998a4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9987c, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Mesh*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* self);
 
 protected:

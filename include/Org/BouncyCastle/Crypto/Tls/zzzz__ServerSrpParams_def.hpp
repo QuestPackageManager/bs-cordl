@@ -45,13 +45,13 @@ public:
   /// @brief Field m_s, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_s, put = __cordl_internal_set_m_s)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_s;
 
-  /// @brief Method Encode, addr 0x241b1e4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x241b1a4, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s,
                                                                             ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method Parse, addr 0x241b280, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x241b240, size 0xd8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* Parse(::System::IO::Stream* input);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_m_B() const;
@@ -78,19 +78,19 @@ public:
 
   constexpr void __cordl_internal_set_m_s(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x241b134, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241b0f4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s, ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method get_B, addr 0x241b1c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_B, addr 0x241b184, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_B();
 
-  /// @brief Method get_G, addr 0x241b1cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G, addr 0x241b18c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N, addr 0x241b1d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_N, addr 0x241b194, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
-  /// @brief Method get_S, addr 0x241b1dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_S, addr 0x241b19c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_S();
 
 protected:

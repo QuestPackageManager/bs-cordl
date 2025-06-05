@@ -194,70 +194,70 @@ public:
 
   __declspec(property(get = get_Years)) int32_t Years;
 
-  /// @brief Method ToString, addr 0x4301480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4301408, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x4301488, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4301410, size 0x42c, virtual false, abstract: false, final false
   inline ::StringW ToString(::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method ToTimeSpan, addr 0x4300f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x4300f00, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan ToTimeSpan();
 
-  /// @brief Method ToTimeSpan, addr 0x4300f80, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x4300f08, size 0x48, virtual false, abstract: false, final false
   inline ::System::TimeSpan ToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method TryParse, addr 0x43007f8, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x4300780, size 0x738, virtual false, abstract: false, final false
   static inline ::System::Exception* TryParse(::StringW s, ::System::Xml::Schema::XsdDuration_DurationType durationType, ::ByRef<::System::Xml::Schema::XsdDuration> result);
 
-  /// @brief Method TryParse, addr 0x43018b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x430183c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Exception* TryParse(::StringW s, ::ByRef<::System::Xml::Schema::XsdDuration> result);
 
-  /// @brief Method TryParseDigits, addr 0x43018c0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TryParseDigits, addr 0x4301848, size 0x1bc, virtual false, abstract: false, final false
   static inline ::StringW TryParseDigits(::StringW s, ::ByRef<int32_t> offset, bool eatDigits, ::ByRef<int32_t> result, ::ByRef<int32_t> numDigits);
 
-  /// @brief Method TryToTimeSpan, addr 0x4300fc8, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method TryToTimeSpan, addr 0x4300f50, size 0x4ac, virtual false, abstract: false, final false
   inline ::System::Exception* TryToTimeSpan(::System::Xml::Schema::XsdDuration_DurationType durationType, ::ByRef<::System::TimeSpan> result);
 
-  /// @brief Method TryToTimeSpan, addr 0x4301474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryToTimeSpan, addr 0x43013fc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Exception* TryToTimeSpan(::ByRef<::System::TimeSpan> result);
 
-  /// @brief Method .ctor, addr 0x4300448, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43003d0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(bool isNegative, int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, int32_t nanoseconds);
 
-  /// @brief Method .ctor, addr 0x430077c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4300704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x4300784, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430070c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW s, ::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method .ctor, addr 0x43005a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430052c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan timeSpan);
 
-  /// @brief Method .ctor, addr 0x43005ac, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4300534, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan timeSpan, ::System::Xml::Schema::XsdDuration_DurationType durationType);
 
-  /// @brief Method get_Days, addr 0x4300f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Days, addr 0x4300ee0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Days();
 
-  /// @brief Method get_Hours, addr 0x4300f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hours, addr 0x4300ee8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Hours();
 
-  /// @brief Method get_IsNegative, addr 0x4300f3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsNegative, addr 0x4300ec4, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsNegative();
 
-  /// @brief Method get_Minutes, addr 0x4300f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Minutes, addr 0x4300ef0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Minutes();
 
-  /// @brief Method get_Months, addr 0x4300f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Months, addr 0x4300ed8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Months();
 
-  /// @brief Method get_Nanoseconds, addr 0x4300f30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Nanoseconds, addr 0x4300eb8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Nanoseconds();
 
-  /// @brief Method get_Seconds, addr 0x4300f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x4300ef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
-  /// @brief Method get_Years, addr 0x4300f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Years, addr 0x4300ed0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Years();
 
   // Ctor Parameters []

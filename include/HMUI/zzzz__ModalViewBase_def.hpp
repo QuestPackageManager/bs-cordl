@@ -29,7 +29,7 @@ public:
   /// @brief Method Show, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
-  /// @brief Method .ctor, addr 0x39f9a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f9a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method add_blockerClickedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Comparer::*)(::System::Globalization::CultureInfo*)>(
     &::System::Collections::Comparer::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3db8cc0;
+  constexpr static std::size_t addrs = 0x3db8c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Comparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Comparer::_ctor)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3db8d44;
+  constexpr static std::size_t addrs = 0x3db8ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Comparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Comparer::GetObjectData)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3db8eb4;
+  constexpr static std::size_t addrs = 0x3db8e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Comparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Comparer::Compare)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3db8f54;
+  constexpr static std::size_t addrs = 0x3db8edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

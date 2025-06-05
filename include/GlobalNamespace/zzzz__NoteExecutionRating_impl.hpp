@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteExecutionRating::*)(
     float_t, ::GlobalNamespace::NoteData_ScoringType, ::GlobalNamespace::NoteExecutionRating_Rating, int32_t, int32_t, int32_t, int32_t)>(&::GlobalNamespace::NoteExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26e4974;
+  constexpr static std::size_t addrs = 0x26e4954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

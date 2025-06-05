@@ -189,19 +189,19 @@ public:
 
   constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3aaf0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaf078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Internal, addr 0x3aaf7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Internal, addr 0x3aaf7ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
-  /// @brief Method get_Token, addr 0x3aaf7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3aaf7bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_Internal, addr 0x3aaf7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Internal, addr 0x3aaf7b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
-  /// @brief Method set_Token, addr 0x3aaf7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x3aaf7c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
 protected:
@@ -279,25 +279,25 @@ public:
 
   constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3aae8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aae8b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_External, addr 0x3aaf804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_External, addr 0x3aaf7dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_External();
 
-  /// @brief Method get_Internal, addr 0x3aaf7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Internal, addr 0x3aaf7cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
-  /// @brief Method get_Token, addr 0x3aaf814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3aaf7ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_External, addr 0x3aaf80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_External, addr 0x3aaf7e4, size 0x8, virtual false, abstract: false, final false
   inline void set_External(::System::Net::IPEndPoint* value);
 
-  /// @brief Method set_Internal, addr 0x3aaf7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Internal, addr 0x3aaf7d4, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
-  /// @brief Method set_Token, addr 0x3aaf81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x3aaf7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
 protected:
@@ -369,19 +369,19 @@ public:
 
   constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3aaf31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaf2f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsExternal, addr 0x3aaf834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsExternal, addr 0x3aaf80c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExternal();
 
-  /// @brief Method get_Token, addr 0x3aaf824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3aaf7fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_IsExternal, addr 0x3aaf83c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsExternal, addr 0x3aaf814, size 0xc, virtual false, abstract: false, final false
   inline void set_IsExternal(bool value);
 
-  /// @brief Method set_Token, addr 0x3aaf82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x3aaf804, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
 protected:
@@ -457,37 +457,37 @@ public:
   __declspec(property(get = __cordl_internal_get__successEvents,
                       put = __cordl_internal_set__successEvents)) ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>* _successEvents;
 
-  /// @brief Method Init, addr 0x3aae80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3aae7e4, size 0x8, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::INatPunchListener* listener);
 
-  /// @brief Method NatIntroduce, addr 0x3aae814, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method NatIntroduce, addr 0x3aae7ec, size 0xcc, virtual false, abstract: false, final false
   inline void NatIntroduce(::System::Net::IPEndPoint* hostInternal, ::System::Net::IPEndPoint* hostExternal, ::System::Net::IPEndPoint* clientInternal, ::System::Net::IPEndPoint* clientExternal,
                            ::StringW additionalInfo);
 
   static inline ::LiteNetLib::NatPunchModule* New_ctor(::LiteNetLib::NetSocket* socket);
 
-  /// @brief Method OnNatIntroductionRequest, addr 0x3aaf0a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OnNatIntroductionRequest, addr 0x3aaf080, size 0x120, virtual false, abstract: false, final false
   inline void OnNatIntroductionRequest(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
 
-  /// @brief Method OnNatIntroductionResponse, addr 0x3aaf1c8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnNatIntroductionResponse, addr 0x3aaf1a0, size 0x154, virtual false, abstract: false, final false
   inline void OnNatIntroductionResponse(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket* req);
 
-  /// @brief Method OnNatPunch, addr 0x3aaf6a4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnNatPunch, addr 0x3aaf67c, size 0x130, virtual false, abstract: false, final false
   inline void OnNatPunch(::LiteNetLib::NatPunchModule_NatPunchPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
 
-  /// @brief Method PollEvents, addr 0x3aae8e8, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method PollEvents, addr 0x3aae8c0, size 0x360, virtual false, abstract: false, final false
   inline void PollEvents();
 
-  /// @brief Method ProcessMessage, addr 0x3aae6f0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMessage, addr 0x3aae6c8, size 0x10c, virtual false, abstract: false, final false
   inline void ProcessMessage(::System::Net::IPEndPoint* senderEndPoint, ::LiteNetLib::NetPacket* packet);
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Send(T packet, ::System::Net::IPEndPoint* target);
 
-  /// @brief Method SendNatIntroduceRequest, addr 0x3aaec48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SendNatIntroduceRequest, addr 0x3aaec20, size 0x84, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::StringW host, int32_t port, ::StringW additionalInfo);
 
-  /// @brief Method SendNatIntroduceRequest, addr 0x3aaed6c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendNatIntroduceRequest, addr 0x3aaed44, size 0x11c, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::System::Net::IPEndPoint* masterServerEndPoint, ::StringW additionalInfo);
 
   constexpr ::LiteNetLib::Utils::NetDataReader* const& __cordl_internal_get__cacheReader() const;
@@ -532,7 +532,7 @@ public:
 
   constexpr void __cordl_internal_set__successEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>* value);
 
-  /// @brief Method .ctor, addr 0x3aae420, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aae3f8, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetSocket* socket);
 
 protected:

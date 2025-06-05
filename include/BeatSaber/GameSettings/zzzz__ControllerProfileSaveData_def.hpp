@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_rightController(::BeatSaber::GameSettings::Controller value);
 
-  /// @brief Method .ctor, addr 0x226fea8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226fe68, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(bool alternativeHandling, ::BeatSaber::GameSettings::Controller leftController, ::BeatSaber::GameSettings::Controller rightController);
 
 protected:

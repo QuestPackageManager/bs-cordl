@@ -43,46 +43,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>*();
 
-  /// @brief Method Equals, addr 0x48c4614, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48c459c, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x48c46bc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48c4644, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::VertexAttributeDescriptor other);
 
-  /// @brief Method GetHashCode, addr 0x48c45ec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48c4574, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x48c4418, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48c43a0, size 0x1d4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x48c440c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c4394, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::VertexAttribute attribute, ::UnityEngine::Rendering::VertexAttributeFormat format, int32_t dimension, int32_t stream);
 
-  /// @brief Method get_attribute, addr 0x48c43cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attribute, addr 0x48c4354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttribute get_attribute();
 
-  /// @brief Method get_dimension, addr 0x48c43ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dimension, addr 0x48c4374, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_dimension();
 
-  /// @brief Method get_format, addr 0x48c43dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x48c4364, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VertexAttributeFormat get_format();
 
-  /// @brief Method get_stream, addr 0x48c43fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stream, addr 0x48c4384, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stream();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::VertexAttributeDescriptor>* i___System__IEquatable_1___UnityEngine__Rendering__VertexAttributeDescriptor_();
 
-  /// @brief Method set_attribute, addr 0x48c43d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attribute, addr 0x48c435c, size 0x8, virtual false, abstract: false, final false
   inline void set_attribute(::UnityEngine::Rendering::VertexAttribute value);
 
-  /// @brief Method set_dimension, addr 0x48c43f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x48c437c, size 0x8, virtual false, abstract: false, final false
   inline void set_dimension(int32_t value);
 
-  /// @brief Method set_format, addr 0x48c43e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x48c436c, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::Rendering::VertexAttributeFormat value);
 
-  /// @brief Method set_stream, addr 0x48c4404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stream, addr 0x48c438c, size 0x8, virtual false, abstract: false, final false
   inline void set_stream(int32_t value);
 
   // Ctor Parameters []

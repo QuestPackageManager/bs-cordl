@@ -63,24 +63,24 @@ public:
   /// @brief Field _whiteBoost, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteBoost, put = __cordl_internal_set__whiteBoost)) float_t _whiteBoost;
 
-  /// @brief Method Awake, addr 0x225b678, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x225b638, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x225b688, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x225b648, size 0xc4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColor, addr 0x225b74c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x225b70c, size 0x38, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetColors, addr 0x225b784, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x225b744, size 0x14, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color mainColor, ::UnityEngine::Color rimLightColor);
 
-  /// @brief Method SetHighlight, addr 0x225b934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0x225b8f4, size 0xc, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method UpdateRenderer, addr 0x225b798, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderer, addr 0x225b758, size 0x19c, virtual false, abstract: false, final false
   inline void UpdateRenderer();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__boostColor() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
-  /// @brief Method .ctor, addr 0x225b940, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225b900, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();

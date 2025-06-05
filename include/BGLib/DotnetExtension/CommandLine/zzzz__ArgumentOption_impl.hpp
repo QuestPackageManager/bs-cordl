@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)(
     ::StringW, ::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentType, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::BGLib::DotnetExtension::CommandLine::ArgumentOption::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22a168c;
+  constexpr static std::size_t addrs = 0x22a164c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)()>(
     &::BGLib::DotnetExtension::CommandLine::ArgumentOption::get_required)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a169c;
+  constexpr static std::size_t addrs = 0x22a165c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)()>(
     &::BGLib::DotnetExtension::CommandLine::ArgumentOption::get_expectsValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22a16b0;
+  constexpr static std::size_t addrs = 0x22a1670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)(::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::ArgumentOption::ValidateArgumentValue)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x22a16d8;
+  constexpr static std::size_t addrs = 0x22a1698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_id)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40069ec;
+  constexpr static std::size_t addrs = 0x4006974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_id",
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_userName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4006a2c;
+  constexpr static std::size_t addrs = 0x40069b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_userName",
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_locale)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4006a6c;
+  constexpr static std::size_t addrs = 0x40069f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_locale",
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_ipd)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4006aac;
+  constexpr static std::size_t addrs = 0x4006a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_ipd",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_eyeHeight)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4006be0;
+  constexpr static std::size_t addrs = 0x4006b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_eyeHeight",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_eyeDepth)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4006c30;
+  constexpr static std::size_t addrs = 0x4006bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_eyeDepth",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::get_neckHeight)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4006c80;
+  constexpr static std::size_t addrs = 0x4006c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_neckHeight",
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRProfile_State (::GlobalNamespace::OVRProfile::*)()>(
     &::GlobalNamespace::OVRProfile::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4006c9c;
+  constexpr static std::size_t addrs = 0x4006c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), "get_state",
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRProfile::*)()>(&::GlobalNamespace::OVRProfile::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4006ca4;
+  constexpr static std::size_t addrs = 0x4006c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRProfile*>::get(), ".ctor",

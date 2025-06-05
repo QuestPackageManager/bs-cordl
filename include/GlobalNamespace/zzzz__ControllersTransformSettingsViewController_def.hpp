@@ -52,18 +52,18 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method DidActivate, addr 0x3af8b6c, size 0x520, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af8b44, size 0x520, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandlePositionSliderValueDidChange, addr 0x3af9344, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandlePositionSliderValueDidChange, addr 0x3af931c, size 0x124, virtual false, abstract: false, final false
   inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleRotationSliderValueDidChange, addr 0x3af9468, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationSliderValueDidChange, addr 0x3af9440, size 0x118, virtual false, abstract: false, final false
   inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3af908c, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3af9064, size 0x2b8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3af9580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af9558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::set_localPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39db424;
+  constexpr static std::size_t addrs = 0x39db3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39db46c;
+  constexpr static std::size_t addrs = 0x39db444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxFakeGlowController*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39db48c;
+  constexpr static std::size_t addrs = 0x39db464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxFakeGlowController*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39db5d8;
+  constexpr static std::size_t addrs = 0x39db5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxFakeGlowController*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::Refresh)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x39db4b4;
+  constexpr static std::size_t addrs = 0x39db48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxFakeGlowController*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39db5f8;
+  constexpr static std::size_t addrs = 0x39db5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxFakeGlowController*>::get(),

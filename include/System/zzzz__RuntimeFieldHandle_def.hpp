@@ -50,33 +50,33 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method Equals, addr 0x3e3ba7c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e3ba04, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3e3bb78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e3bb00, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetObjectData, addr 0x3e3b8ec, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3e3b874, size 0x190, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetValue, addr 0x3e3bb84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3e3bb0c, size 0x4, virtual false, abstract: false, final false
   static inline void SetValue(::System::Reflection::RuntimeFieldInfo* field, ::System::Object* obj, ::System::Object* value, ::System::RuntimeType* fieldType,
                               ::System::Reflection::FieldAttributes fieldAttr, ::System::RuntimeType* declaringType, ::ByRef<bool> domainInitialized);
 
-  /// @brief Method SetValueDirect, addr 0x3e3bb88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueDirect, addr 0x3e3bb10, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueDirect(::System::Reflection::RuntimeFieldInfo* field, ::System::RuntimeType* fieldType, ::cordl_internals::Ptr<void> pTypedRef, ::System::Object* value,
                                     ::System::RuntimeType* contextType);
 
-  /// @brief Method SetValueInternal, addr 0x3e3bb80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueInternal, addr 0x3e3bb08, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e3b75c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e3b6e4, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e3b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e3b6dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr v);
 
-  /// @brief Method get_Value, addr 0x3e3b8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3e3b86c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

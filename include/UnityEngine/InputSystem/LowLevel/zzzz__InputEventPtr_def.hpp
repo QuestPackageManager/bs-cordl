@@ -58,102 +58,102 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
 
-  /// @brief Method Equals, addr 0x460c050, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x460bfd8, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x460c038, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x460bfc0, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::LowLevel::InputEventPtr other);
 
-  /// @brief Method From, addr 0x460c0f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x460c080, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr From(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method FromInputEventPtr, addr 0x460c0fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FromInputEventPtr, addr 0x460c084, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> FromInputEventPtr(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method GetHashCode, addr 0x460c0d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x460c060, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsA, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TOtherEvent> inline bool IsA();
 
-  /// @brief Method Next, addr 0x460c004, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Next, addr 0x460bf8c, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr Next();
 
-  /// @brief Method ToPointer, addr 0x460c030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToPointer, addr 0x460bfb8, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> ToPointer();
 
-  /// @brief Method ToString, addr 0x460bc60, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x460bbe8, size 0x90, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x460b94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x460b8d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method get_data, addr 0x460bbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x460bb34, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> get_data();
 
-  /// @brief Method get_deviceId, addr 0x460ba10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x460b998, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_handled, addr 0x460b954, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_handled, addr 0x460b8dc, size 0x1c, virtual false, abstract: false, final false
   inline bool get_handled();
 
-  /// @brief Method get_id, addr 0x460b970, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x460b8f8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_internalTime, addr 0x460bb34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_internalTime, addr 0x460babc, size 0x18, virtual false, abstract: false, final false
   inline double_t get_internalTime();
 
-  /// @brief Method get_sizeInBytes, addr 0x460b9f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x460b980, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBytes();
 
-  /// @brief Method get_stateFormat, addr 0x460bbb4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x460bb3c, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat();
 
-  /// @brief Method get_stateOffset, addr 0x460bf30, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_stateOffset, addr 0x460beb8, size 0xd4, virtual false, abstract: false, final false
   inline uint32_t get_stateOffset();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x460bcf0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x460bc78, size 0x110, virtual false, abstract: false, final false
   inline uint32_t get_stateSizeInBytes();
 
-  /// @brief Method get_time, addr 0x4605a08, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x4605990, size 0x60, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_type, addr 0x4601364, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x46012ec, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_type();
 
-  /// @brief Method get_valid, addr 0x4601354, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x46012dc, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
 
-  /// @brief Method op_Equality, addr 0x460c0e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x460c068, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::LowLevel::InputEventPtr left, ::UnityEngine::InputSystem::LowLevel::InputEventPtr right);
 
-  /// @brief Method op_Implicit, addr 0x460ab04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x460aa8c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr
   op_Implicit___UnityEngine__InputSystem__LowLevel__InputEventPtr(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method op_Implicit, addr 0x460b458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x460b3e0, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>
   op_Implicit___cordl_internals__Ptr___UnityEngine__InputSystem__LowLevel__InputEvent_(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method op_Inequality, addr 0x460c0ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x460c074, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::LowLevel::InputEventPtr left, ::UnityEngine::InputSystem::LowLevel::InputEventPtr right);
 
-  /// @brief Method set_deviceId, addr 0x460ba28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_deviceId, addr 0x460b9b0, size 0x60, virtual false, abstract: false, final false
   inline void set_deviceId(int32_t value);
 
-  /// @brief Method set_handled, addr 0x4604f90, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_handled, addr 0x4604f18, size 0x74, virtual false, abstract: false, final false
   inline void set_handled(bool value);
 
-  /// @brief Method set_id, addr 0x460b98c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x460b914, size 0x6c, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
-  /// @brief Method set_internalTime, addr 0x460bb4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_internalTime, addr 0x460bad4, size 0x60, virtual false, abstract: false, final false
   inline void set_internalTime(double_t value);
 
-  /// @brief Method set_time, addr 0x460ba88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x460ba10, size 0xac, virtual false, abstract: false, final false
   inline void set_time(double_t value);
 
   // Ctor Parameters []

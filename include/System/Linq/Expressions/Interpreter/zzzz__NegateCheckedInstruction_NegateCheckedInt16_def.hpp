@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x40ef054, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40eefdc, size 0x13c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40eef1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eeea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(::Unity::Mathematics::uint2, ::Unity::Mathematics::uint2)>(
     &::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46d75a8;
+  constexpr static std::size_t addrs = 0x46d7530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(uint32_t, uint32_t, uint32_t, uint32_t)>(
     &::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x46d75b0;
+  constexpr static std::size_t addrs = 0x46d7538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(uint32_t)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46d75c8;
+  constexpr static std::size_t addrs = 0x46d7550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(bool)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x46d75d8;
+  constexpr static std::size_t addrs = 0x46d7560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(::Unity::Mathematics::bool2x2)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46d75ec;
+  constexpr static std::size_t addrs = 0x46d7574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(int32_t)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46d760c;
+  constexpr static std::size_t addrs = 0x46d7594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(::Unity::Mathematics::int2x2)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46d761c;
+  constexpr static std::size_t addrs = 0x46d75a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(float_t)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46d7624;
+  constexpr static std::size_t addrs = 0x46d75ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(::Unity::Mathematics::float2x2)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46d7640;
+  constexpr static std::size_t addrs = 0x46d75c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(double_t)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46d7690;
+  constexpr static std::size_t addrs = 0x46d7618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::uint2x2::*)(::Unity::Mathematics::double2x2)>(&::Unity::Mathematics::uint2x2::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46d76ac;
+  constexpr static std::size_t addrs = 0x46d7634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Implicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46d76fc;
+  constexpr static std::size_t addrs = 0x46d7684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(bool)>(&::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x46d770c;
+  constexpr static std::size_t addrs = 0x46d7694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::bool2x2)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7720;
+  constexpr static std::size_t addrs = 0x46d76a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(int32_t)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46d7744;
+  constexpr static std::size_t addrs = 0x46d76cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::int2x2)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d7754;
+  constexpr static std::size_t addrs = 0x46d76dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(float_t)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46d7758;
+  constexpr static std::size_t addrs = 0x46d76e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::float2x2)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x46d7774;
+  constexpr static std::size_t addrs = 0x46d76fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(double_t)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46d77c0;
+  constexpr static std::size_t addrs = 0x46d7748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::double2x2)>(
     &::Unity::Mathematics::uint2x2::op_Explicit___Unity__Mathematics__uint2x2)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x46d77dc;
+  constexpr static std::size_t addrs = 0x46d7764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Multiply)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d7828;
+  constexpr static std::size_t addrs = 0x46d77b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Multiply)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7854;
+  constexpr static std::size_t addrs = 0x46d77dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Multiply)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d7878;
+  constexpr static std::size_t addrs = 0x46d7800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Addition)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d78a0;
+  constexpr static std::size_t addrs = 0x46d7828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Addition)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d78cc;
+  constexpr static std::size_t addrs = 0x46d7854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Addition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d78f0;
+  constexpr static std::size_t addrs = 0x46d7878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Subtraction)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d7918;
+  constexpr static std::size_t addrs = 0x46d78a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Subtraction)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7944;
+  constexpr static std::size_t addrs = 0x46d78cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Subtraction)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d7968;
+  constexpr static std::size_t addrs = 0x46d78f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Division)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d7990;
+  constexpr static std::size_t addrs = 0x46d7918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Division)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d79bc;
+  constexpr static std::size_t addrs = 0x46d7944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Division)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d79e0;
+  constexpr static std::size_t addrs = 0x46d7968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Modulus)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46d7a08;
+  constexpr static std::size_t addrs = 0x46d7990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Modulus)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x46d7a44;
+  constexpr static std::size_t addrs = 0x46d79cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Modulus)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7a78;
+  constexpr static std::size_t addrs = 0x46d7a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2)>(&::Unity::Mathematics::uint2x2::op_Increment)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d7ab0;
+  constexpr static std::size_t addrs = 0x46d7a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2)>(&::Unity::Mathematics::uint2x2::op_Decrement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d7ad8;
+  constexpr static std::size_t addrs = 0x46d7a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_LessThan)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x46d7b00;
+  constexpr static std::size_t addrs = 0x46d7a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_LessThan)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7b40;
+  constexpr static std::size_t addrs = 0x46d7ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_LessThan)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7b78;
+  constexpr static std::size_t addrs = 0x46d7b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -625,91 +625,91 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x46d7b38;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_LessThanOrEqual", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_LessThanOrEqual
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
+    &::Unity::Mathematics::uint2x2::op_LessThanOrEqual)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x46d7b78;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_LessThanOrEqual", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_LessThanOrEqual
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
+    &::Unity::Mathematics::uint2x2::op_LessThanOrEqual)> {
+  constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x46d7bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_LessThanOrEqual", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_GreaterThan
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
+    &::Unity::Mathematics::uint2x2::op_GreaterThan)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x46d7be8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_GreaterThan", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_LessThanOrEqual
+//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_GreaterThan
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
-    &::Unity::Mathematics::uint2x2::op_LessThanOrEqual)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7bf0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_LessThanOrEqual", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_LessThanOrEqual
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
-    &::Unity::Mathematics::uint2x2::op_LessThanOrEqual)> {
+    &::Unity::Mathematics::uint2x2::op_GreaterThan)> {
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x46d7c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_LessThanOrEqual", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_GreaterThan", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_GreaterThan
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_GreaterThan)> {
-  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x46d7c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_GreaterThan", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_GreaterThan
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
-    &::Unity::Mathematics::uint2x2::op_GreaterThan)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7ca0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_GreaterThan", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::Mathematics::uint2x2.op_GreaterThan
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
-    &::Unity::Mathematics::uint2x2::op_GreaterThan)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7cd8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::uint2x2>::get(), "op_GreaterThan", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Mathematics::uint2x2>::get() })));
     return ___internal_method;
@@ -721,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x46d7d10;
+  constexpr static std::size_t addrs = 0x46d7c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -737,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7d50;
+  constexpr static std::size_t addrs = 0x46d7cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7d88;
+  constexpr static std::size_t addrs = 0x46d7d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -768,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2)>(&::Unity::Mathematics::uint2x2::op_UnaryNegation)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46d7dc0;
+  constexpr static std::size_t addrs = 0x46d7d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2)>(&::Unity::Mathematics::uint2x2::op_UnaryPlus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d7ddc;
+  constexpr static std::size_t addrs = 0x46d7d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -797,7 +797,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, int32_t)>(
     &::Unity::Mathematics::uint2x2::op_LeftShift)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7de0;
+  constexpr static std::size_t addrs = 0x46d7d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -813,7 +813,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, int32_t)>(
     &::Unity::Mathematics::uint2x2::op_RightShift)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7e04;
+  constexpr static std::size_t addrs = 0x46d7d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -829,7 +829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Equality)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x46d7e28;
+  constexpr static std::size_t addrs = 0x46d7db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Equality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7e68;
+  constexpr static std::size_t addrs = 0x46d7df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Equality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7ea0;
+  constexpr static std::size_t addrs = 0x46d7e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Inequality)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x46d7ed8;
+  constexpr static std::size_t addrs = 0x46d7e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -893,7 +893,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7f18;
+  constexpr static std::size_t addrs = 0x46d7ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -909,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d7f50;
+  constexpr static std::size_t addrs = 0x46d7ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -925,7 +925,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_OnesComplement)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46d7f88;
+  constexpr static std::size_t addrs = 0x46d7f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -940,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46d7f94;
+  constexpr static std::size_t addrs = 0x46d7f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -956,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7fa0;
+  constexpr static std::size_t addrs = 0x46d7f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -972,7 +972,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d7fc4;
+  constexpr static std::size_t addrs = 0x46d7f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -988,7 +988,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_BitwiseOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46d7fec;
+  constexpr static std::size_t addrs = 0x46d7f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1004,7 +1004,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d7ff8;
+  constexpr static std::size_t addrs = 0x46d7f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1020,7 +1020,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d801c;
+  constexpr static std::size_t addrs = 0x46d7fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1036,7 +1036,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46d8044;
+  constexpr static std::size_t addrs = 0x46d7fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1052,7 +1052,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(::Unity::Mathematics::uint2x2, uint32_t)>(
     &::Unity::Mathematics::uint2x2::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x46d8050;
+  constexpr static std::size_t addrs = 0x46d7fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1068,7 +1068,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2x2 (*)(uint32_t, ::Unity::Mathematics::uint2x2)>(
     &::Unity::Mathematics::uint2x2::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d8074;
+  constexpr static std::size_t addrs = 0x46d7ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1084,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::Unity::Mathematics::uint2> (::Unity::Mathematics::uint2x2::*)(int32_t)>(
     &::Unity::Mathematics::uint2x2::get_Item)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46d809c;
+  constexpr static std::size_t addrs = 0x46d8024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1098,7 +1098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::uint2x2::*)(::Unity::Mathematics::uint2x2)>(&::Unity::Mathematics::uint2x2::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x46d80a4;
+  constexpr static std::size_t addrs = 0x46d802c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1112,7 +1112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::uint2x2::*)(::System::Object*)>(&::Unity::Mathematics::uint2x2::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x46d80e8;
+  constexpr static std::size_t addrs = 0x46d8070;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1126,7 +1126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Mathematics::uint2x2::*)()>(&::Unity::Mathematics::uint2x2::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x46d8190;
+  constexpr static std::size_t addrs = 0x46d8118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1140,7 +1140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Mathematics::uint2x2::*)()>(&::Unity::Mathematics::uint2x2::ToString)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x46d81e4;
+  constexpr static std::size_t addrs = 0x46d816c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1155,7 +1155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Mathematics::uint2x2::*)(::StringW, ::System::IFormatProvider*)>(
     &::Unity::Mathematics::uint2x2::ToString)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x46d8390;
+  constexpr static std::size_t addrs = 0x46d8318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

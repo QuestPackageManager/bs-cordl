@@ -77,27 +77,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x39f0404, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x39f03dc, size 0x98, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x39f100c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x39f0fe4, size 0x54, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float_t normalizedValue);
 
   static inline ::HMUI::ColorGradientSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39f05e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39f05b8, size 0x8c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x39f1060, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x39f1038, size 0x98, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SetColors, addr 0x39f0720, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x39f06f8, size 0x30, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
-  /// @brief Method TextForNormalizedValue, addr 0x39f0e74, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method TextForNormalizedValue, addr 0x39f0e4c, size 0x198, virtual true, abstract: false, final false
   inline ::StringW TextForNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method UpdateVisuals, addr 0x39f0750, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x39f0728, size 0x1b4, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
@@ -142,10 +142,10 @@ public:
 
   constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x39f10f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f10d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x39f029c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x39f0274, size 0xb4, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline ::System::Text::StringBuilder* getStaticF__stringBuilder();
@@ -156,7 +156,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x39f0350, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x39f0328, size 0xb4, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline void setStaticF__stringBuilder(::System::Text::StringBuilder* value);

@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetCachePath)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a3a518;
+  constexpr static std::size_t addrs = 0x3a3a4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetUnityProjectPath)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3a3a578;
+  constexpr static std::size_t addrs = 0x3a3a550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetRelativePath)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3a3a608;
+  constexpr static std::size_t addrs = 0x3a3a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetPackagesRelativePath)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3a3a7b4;
+  constexpr static std::size_t addrs = 0x3a3a78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetValidAssetPath)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3a3a8d8;
+  constexpr static std::size_t addrs = 0x3a3a8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3aaa4;
+  constexpr static std::size_t addrs = 0x3a3aa7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetPathWithSubAssetSupport)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3aaf0;
+  constexpr static std::size_t addrs = 0x3a3aac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::GetSubAssetPathFromPath)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3a3ab3c;
+  constexpr static std::size_t addrs = 0x3a3ab14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetRelativePathStart)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3a3ac38;
+  constexpr static std::size_t addrs = 0x3a3ac10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetPackagesRelativePathStart)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3a3accc;
+  constexpr static std::size_t addrs = 0x3a3aca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetFullPath)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3a3ad60;
+  constexpr static std::size_t addrs = 0x3a3ad38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsPathRelativeToAssets)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a3ae0c;
+  constexpr static std::size_t addrs = 0x3a3ade4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsPathRelativeToPackages)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a3ae34;
+  constexpr static std::size_t addrs = 0x3a3ae0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetRootPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3ae5c;
+  constexpr static std::size_t addrs = 0x3a3ae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetUniqueAssetPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3aea8;
+  constexpr static std::size_t addrs = 0x3a3ae80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetOrScenePath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3aef4;
+  constexpr static std::size_t addrs = 0x3a3aecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsPathInAssetCache)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3a3af40;
+  constexpr static std::size_t addrs = 0x3a3af18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsPathInAssetCacheBakedFolder)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3afd0;
+  constexpr static std::size_t addrs = 0x3a3afa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsPathInAssetCacheWorkingFolder)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b01c;
+  constexpr static std::size_t addrs = 0x3a3aff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsAssetInAssetCacheBakedFolder)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b068;
+  constexpr static std::size_t addrs = 0x3a3b040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsAssetInAssetCacheWorkingFolder)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b0b4;
+  constexpr static std::size_t addrs = 0x3a3b08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t)>(&::HoudiniEngineUnity::HEU_AssetDatabase::CreateAssetCacheFolder)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b100;
+  constexpr static std::size_t addrs = 0x3a3b0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::DeleteAssetCacheFolder)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b14c;
+  constexpr static std::size_t addrs = 0x3a3b124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::DeleteAsset)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b190;
+  constexpr static std::size_t addrs = 0x3a3b168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::DeleteAssetAtPath)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b1d4;
+  constexpr static std::size_t addrs = 0x3a3b1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::DeleteAssetIfInBakedFolder)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b218;
+  constexpr static std::size_t addrs = 0x3a3b1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::ContainsAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b25c;
+  constexpr static std::size_t addrs = 0x3a3b234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::CopyAsset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b2a8;
+  constexpr static std::size_t addrs = 0x3a3b280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::StringW, ::StringW, ::System::Type*, bool)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::CopyAndLoadAssetWithRelativePath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b2f4;
+  constexpr static std::size_t addrs = 0x3a3b2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::StringW, ::System::Type*, bool)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::CopyAndLoadAssetFromAssetCachePath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b340;
+  constexpr static std::size_t addrs = 0x3a3b318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::StringW, ::System::Type*, bool)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::CopyAndLoadAssetAtAnyPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b38c;
+  constexpr static std::size_t addrs = 0x3a3b364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::StringW, ::System::Type*)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::CopyAndLoadAssetAtGivenPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b3d8;
+  constexpr static std::size_t addrs = 0x3a3b3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::UnityEngine::Object*, ::StringW, ::System::Type*)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::CopyUniqueAndLoadAssetAtAnyPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b424;
+  constexpr static std::size_t addrs = 0x3a3b3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW, ::StringW, ::StringW, ::System::Type*, bool)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::CreateObjectInAssetCacheFolder)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b470;
+  constexpr static std::size_t addrs = 0x3a3b448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::CreateAsset)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b4b4;
+  constexpr static std::size_t addrs = 0x3a3b48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::StringW, ::StringW, ::UnityEngine::Object*, ::StringW, ::ByRef<::StringW>, ::ByRef<::UnityEngine::Object*>)>(&::HoudiniEngineUnity::HEU_AssetDatabase::CreateAddObjectInAssetCacheFolder)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b4f8;
+  constexpr static std::size_t addrs = 0x3a3b4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::UnityEngine::Object*)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::AddObjectToAsset)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b53c;
+  constexpr static std::size_t addrs = 0x3a3b514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::SaveAndRefreshDatabase)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a3b580;
+  constexpr static std::size_t addrs = 0x3a3b558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::SaveAssetDatabase)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a3b584;
+  constexpr static std::size_t addrs = 0x3a3b55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::RefreshAssetDatabase)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a3b588;
+  constexpr static std::size_t addrs = 0x3a3b560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW, ::System::Type*)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::LoadAssetAtPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b58c;
+  constexpr static std::size_t addrs = 0x3a3b564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (*)(::StringW, ::StringW)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::LoadSubAssetAtPath)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a3b5d8;
+  constexpr static std::size_t addrs = 0x3a3b5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::StringW)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetsAtPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b638;
+  constexpr static std::size_t addrs = 0x3a3b610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> (*)(::StringW)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetRepresentationsAtPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b5ec;
+  constexpr static std::size_t addrs = 0x3a3b5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -663,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::HoudiniEngineUnity::HEU_AssetDatabase_HEU_ImportAssetOptions)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::ImportAsset)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b684;
+  constexpr static std::size_t addrs = 0x3a3b65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -678,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetWorkingPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b6c8;
+  constexpr static std::size_t addrs = 0x3a3b6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -691,7 +691,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetBakedPath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b714;
+  constexpr static std::size_t addrs = 0x3a3b6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetBakedPathWithAssetName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b760;
+  constexpr static std::size_t addrs = 0x3a3b738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::CreateUniqueBakePath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3b7ac;
+  constexpr static std::size_t addrs = 0x3a3b784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -732,7 +732,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::CreatePathWithFolders)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a3b7f8;
+  constexpr static std::size_t addrs = 0x3a3b7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -746,7 +746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::AppendMeshesPathToAssetFolder)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a3b83c;
+  constexpr static std::size_t addrs = 0x3a3b814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -760,7 +760,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::AppendTexturesPathToAssetFolder)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a3ba38;
+  constexpr static std::size_t addrs = 0x3a3ba10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,7 +774,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::AppendMaterialsPathToAssetFolder)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a3bb10;
+  constexpr static std::size_t addrs = 0x3a3bae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -788,7 +788,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::AppendTerrainPathToAssetFolder)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a3bbe8;
+  constexpr static std::size_t addrs = 0x3a3bbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -802,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetSubFolders)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3a3bcc0;
+  constexpr static std::size_t addrs = 0x3a3bc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetDatabase*>::get(),
@@ -815,7 +815,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::AppendPrefabPath)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3a3bda4;
+  constexpr static std::size_t addrs = 0x3a3bd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -829,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::AppendMeshesAssetFileName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3be94;
+  constexpr static std::size_t addrs = 0x3a3be6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -843,7 +843,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsSubAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a3bee0;
+  constexpr static std::size_t addrs = 0x3a3beb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -858,7 +858,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW)>(
     &::HoudiniEngineUnity::HEU_AssetDatabase::GetAssetPathsFromAssetBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a3bee8;
+  constexpr static std::size_t addrs = 0x3a3bec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -872,7 +872,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::IsAssetSavedInScene)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3a3bef0;
+  constexpr static std::size_t addrs = 0x3a3bec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -886,7 +886,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::HoudiniEngineUnity::HEU_AssetDatabase::SelectAssetAtPath)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a3bf3c;
+  constexpr static std::size_t addrs = 0x3a3bf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -900,7 +900,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::PrintDependencies)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a3bf40;
+  constexpr static std::size_t addrs = 0x3a3bf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -914,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Object*)>(&::HoudiniEngineUnity::HEU_AssetDatabase::GetUniqueAssetPathForUnityAsset)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3a3bf44;
+  constexpr static std::size_t addrs = 0x3a3bf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

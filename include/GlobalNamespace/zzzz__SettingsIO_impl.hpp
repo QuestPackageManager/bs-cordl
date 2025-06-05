@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsIO__LoadAsync_d__8::*)()>(
     &::GlobalNamespace::SettingsIO__LoadAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0xf8c;
-  constexpr static std::size_t addrs = 0x226b938;
+  constexpr static std::size_t addrs = 0x226b8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsIO__LoadAsync_d__8>::get(), "MoveNext",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsIO__LoadAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SettingsIO__LoadAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x226c8c4;
+  constexpr static std::size_t addrs = 0x226c884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsIO__SaveAsync_d__7::*)()>(
     &::GlobalNamespace::SettingsIO__SaveAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x788;
-  constexpr static std::size_t addrs = 0x226c940;
+  constexpr static std::size_t addrs = 0x226c900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsIO__SaveAsync_d__7>::get(), "MoveNext",
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsIO__SaveAsync_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SettingsIO__SaveAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x226d0c8;
+  constexpr static std::size_t addrs = 0x226d088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsIO__WipeAsync_d__6::*)()>(
     &::GlobalNamespace::SettingsIO__WipeAsync_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x1024;
-  constexpr static std::size_t addrs = 0x226d130;
+  constexpr static std::size_t addrs = 0x226d0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsIO__WipeAsync_d__6>::get(), "MoveNext",
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsIO__WipeAsync_d__6::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::SettingsIO__WipeAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x226e154;
+  constexpr static std::size_t addrs = 0x226e114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::GlobalNamespace::IFileStorage*)>(&::GlobalNamespace::SettingsIO::WipeAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x226ac74;
+  constexpr static std::size_t addrs = 0x226ac34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::GlobalNamespace::IFileStorage*, ::BeatSaber::Settings::Settings)>(
     &::GlobalNamespace::SettingsIO::SaveAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x226ad38;
+  constexpr static std::size_t addrs = 0x226acf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Threading::Tasks::Task_1<::BeatSaber::Settings::Settings>* (*)(::GlobalNamespace::IFileStorage*, ::GlobalNamespace::HardwareCategory)>(&::GlobalNamespace::SettingsIO::LoadAsync)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x226ae24;
+  constexpr static std::size_t addrs = 0x226ade4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::Settings (*)(::GlobalNamespace::IFileStorage*, ::GlobalNamespace::HardwareCategory)>(
     &::GlobalNamespace::SettingsIO::Load)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x226af34;
+  constexpr static std::size_t addrs = 0x226aef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ByRef<::BeatSaber::Settings::Settings>)>(&::GlobalNamespace::SettingsIO::Encode)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x226b768;
+  constexpr static std::size_t addrs = 0x226b728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::StringW)>(&::GlobalNamespace::SettingsIO::Decode)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x226b508;
+  constexpr static std::size_t addrs = 0x226b4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

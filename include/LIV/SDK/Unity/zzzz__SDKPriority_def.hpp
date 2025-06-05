@@ -20,10 +20,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3ac7904, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ac78dc, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3ac78f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac78d0, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
   // Ctor Parameters []

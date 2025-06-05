@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49f66d0;
+  constexpr static std::size_t addrs = 0x49f6658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider_UxmlFactory*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x49f6718;
+  constexpr static std::size_t addrs = 0x49f66a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider_UxmlTraits*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::MinMaxSlider_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x49f68a0;
+  constexpr static std::size_t addrs = 0x49f6828;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::get_dragElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3aa4;
+  constexpr static std::size_t addrs = 0x49f3a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::MinMaxSlider::set_dragElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3aac;
+  constexpr static std::size_t addrs = 0x49f3a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::get_dragMinThumb)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3ab4;
+  constexpr static std::size_t addrs = 0x49f3a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::MinMaxSlider::set_dragMinThumb)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3abc;
+  constexpr static std::size_t addrs = 0x49f3a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::get_dragMaxThumb)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3ac4;
+  constexpr static std::size_t addrs = 0x49f3a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::MinMaxSlider::set_dragMaxThumb)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3acc;
+  constexpr static std::size_t addrs = 0x49f3a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ClampedDragger_1<float_t>* (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::get_clampedDragger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3ad4;
+  constexpr static std::size_t addrs = 0x49f3a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::UIElements::ClampedDragger_1<float_t>*)>(
     &::UnityEngine::UIElements::MinMaxSlider::set_clampedDragger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f3adc;
+  constexpr static std::size_t addrs = 0x49f3a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)()>(&::UnityEngine::UIElements::MinMaxSlider::get_minValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49f3ae4;
+  constexpr static std::size_t addrs = 0x49f3a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(), "get_minValue",
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(float_t)>(&::UnityEngine::UIElements::MinMaxSlider::set_minValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49f3af4;
+  constexpr static std::size_t addrs = 0x49f3a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)()>(&::UnityEngine::UIElements::MinMaxSlider::get_maxValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49f3bd4;
+  constexpr static std::size_t addrs = 0x49f3b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(), "get_maxValue",
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(float_t)>(&::UnityEngine::UIElements::MinMaxSlider::set_maxValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49f3bf4;
+  constexpr static std::size_t addrs = 0x49f3b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::get_value)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49f3c9c;
+  constexpr static std::size_t addrs = 0x49f3c24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::MinMaxSlider::set_value)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x49f3ce4;
+  constexpr static std::size_t addrs = 0x49f3c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::MinMaxSlider::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x49f3d70;
+  constexpr static std::size_t addrs = 0x49f3cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)()>(&::UnityEngine::UIElements::MinMaxSlider::get_lowLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f4c1c;
+  constexpr static std::size_t addrs = 0x49f4ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(), "get_lowLimit",
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(float_t)>(&::UnityEngine::UIElements::MinMaxSlider::set_lowLimit)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x49f4c24;
+  constexpr static std::size_t addrs = 0x49f4bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)()>(&::UnityEngine::UIElements::MinMaxSlider::get_highLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f4d88;
+  constexpr static std::size_t addrs = 0x49f4d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(), "get_highLimit",
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(float_t)>(
     &::UnityEngine::UIElements::MinMaxSlider::set_highLimit)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x49f4d90;
+  constexpr static std::size_t addrs = 0x49f4d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(&::UnityEngine::UIElements::MinMaxSlider::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49f4ef4;
+  constexpr static std::size_t addrs = 0x49f4e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(), ".ctor",
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::StringW, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::MinMaxSlider::_ctor)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x49f4f14;
+  constexpr static std::size_t addrs = 0x49f4e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::MinMaxSlider::ClampValues)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49f3b9c;
+  constexpr static std::size_t addrs = 0x49f3b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::MinMaxSlider::UpdateDragElementPosition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49f548c;
+  constexpr static std::size_t addrs = 0x49f5414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::UpdateDragElementPosition)> {
   constexpr static std::size_t size = 0xe18;
-  constexpr static std::size_t addrs = 0x49f3e04;
+  constexpr static std::size_t addrs = 0x49f3d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::UpdateDragThumbsRect)> {
   constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x49f54ec;
+  constexpr static std::size_t addrs = 0x49f5474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::MinMaxSlider::SliderLerpUnclamped)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49f54dc;
+  constexpr static std::size_t addrs = 0x49f5464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::MinMaxSlider::SliderNormalizeValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49f54cc;
+  constexpr static std::size_t addrs = 0x49f5454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::MinMaxSlider::*)(float_t)>(
     &::UnityEngine::UIElements::MinMaxSlider::ComputeValueFromPosition)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x49f5b74;
+  constexpr static std::size_t addrs = 0x49f5afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::MinMaxSlider::ExecuteDefaultAction)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x49f5d14;
+  constexpr static std::size_t addrs = 0x49f5c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::SetSliderValueFromDrag)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x49f5e20;
+  constexpr static std::size_t addrs = 0x49f5da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::SetSliderValueFromClick)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x49f6058;
+  constexpr static std::size_t addrs = 0x49f5fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MinMaxSlider*>::get(),
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)(float_t, float_t)>(
     &::UnityEngine::UIElements::MinMaxSlider::ComputeValueFromDraggingThumb)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x49f5eb4;
+  constexpr static std::size_t addrs = 0x49f5e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::UpdateMixedValueContent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49f627c;
+  constexpr static std::size_t addrs = 0x49f6204;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::RegisterEditingCallbacks)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x49f6280;
+  constexpr static std::size_t addrs = 0x49f6208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -641,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MinMaxSlider::*)()>(
     &::UnityEngine::UIElements::MinMaxSlider::UnregisterEditingCallbacks)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x49f63d8;
+  constexpr static std::size_t addrs = 0x49f6360;
 
   inline static ::MethodInfo const* methodInfo() {
 

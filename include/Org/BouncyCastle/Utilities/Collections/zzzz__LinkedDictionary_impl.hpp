@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25d3048;
+  constexpr static std::size_t addrs = 0x25d3008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Add)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x25d30b8;
+  constexpr static std::size_t addrs = 0x25d3078;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Clear)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x25d31f0;
+  constexpr static std::size_t addrs = 0x25d31b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Contains)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x25d330c;
+  constexpr static std::size_t addrs = 0x25d32cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Array*, int32_t)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::CopyTo)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x25d33b8;
+  constexpr static std::size_t addrs = 0x25d3378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Count)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x25d3754;
+  constexpr static std::size_t addrs = 0x25d3714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25d37f8;
+  constexpr static std::size_t addrs = 0x25d37b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25d3808;
+  constexpr static std::size_t addrs = 0x25d37c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::Remove)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25d389c;
+  constexpr static std::size_t addrs = 0x25d385c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d39c4;
+  constexpr static std::size_t addrs = 0x25d3984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d39cc;
+  constexpr static std::size_t addrs = 0x25d398c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d39d4;
+  constexpr static std::size_t addrs = 0x25d3994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25d39dc;
+  constexpr static std::size_t addrs = 0x25d399c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Keys)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x25d3a28;
+  constexpr static std::size_t addrs = 0x25d39e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Values)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x25d3a84;
+  constexpr static std::size_t addrs = 0x25d3a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::get_Item)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x25d3f28;
+  constexpr static std::size_t addrs = 0x25d3ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::set_Item)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25d3fd0;
+  constexpr static std::size_t addrs = 0x25d3f90;
 
   inline static ::MethodInfo const* methodInfo() {
 

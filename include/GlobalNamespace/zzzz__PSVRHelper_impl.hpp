@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::add_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd374;
+  constexpr static std::size_t addrs = 0x39cd34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_inputFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd410;
+  constexpr static std::size_t addrs = 0x39cd3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::add_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd4ac;
+  constexpr static std::size_t addrs = 0x39cd484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_inputFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd548;
+  constexpr static std::size_t addrs = 0x39cd520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::add_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd5e4;
+  constexpr static std::size_t addrs = 0x39cd5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_vrFocusWasCapturedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd680;
+  constexpr static std::size_t addrs = 0x39cd658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::add_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd71c;
+  constexpr static std::size_t addrs = 0x39cd6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_vrFocusWasReleasedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd7b8;
+  constexpr static std::size_t addrs = 0x39cd790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(&::GlobalNamespace::PSVRHelper::add_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd854;
+  constexpr static std::size_t addrs = 0x39cd82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_hmdUnmountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd8f0;
+  constexpr static std::size_t addrs = 0x39cd8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(&::GlobalNamespace::PSVRHelper::add_hmdMountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cd98c;
+  constexpr static std::size_t addrs = 0x39cd964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(&::GlobalNamespace::PSVRHelper::remove_hmdMountedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cda28;
+  constexpr static std::size_t addrs = 0x39cda00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::add_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cdac4;
+  constexpr static std::size_t addrs = 0x39cda9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_controllersDidChangeReferenceEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cdb60;
+  constexpr static std::size_t addrs = 0x39cdb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::add_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cdbfc;
+  constexpr static std::size_t addrs = 0x39cdbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::PSVRHelper::remove_controllersDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cdc98;
+  constexpr static std::size_t addrs = 0x39cdc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cdd34;
+  constexpr static std::size_t addrs = 0x39cdd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "get_hasInputFocus",
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cdd3c;
+  constexpr static std::size_t addrs = 0x39cdd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "get_hasVrFocus",
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cdd44;
+  constexpr static std::size_t addrs = 0x39cdd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "get_isAlwaysWireless",
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRPlatformSDK (::GlobalNamespace::PSVRHelper::*)()>(
     &::GlobalNamespace::PSVRHelper::get_vrPlatformSDK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cdd4c;
+  constexpr static std::size_t addrs = 0x39cdd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "get_vrPlatformSDK",
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cdd54;
+  constexpr static std::size_t addrs = 0x39cdd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "Start",
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cdd58;
+  constexpr static std::size_t addrs = 0x39cdd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "OnDestroy",
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::HandleMoveDeviceDidDisconnectEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39cdd5c;
+  constexpr static std::size_t addrs = 0x39cdd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cdd78;
+  constexpr static std::size_t addrs = 0x39cdd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "Update",
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cdd7c;
+  constexpr static std::size_t addrs = 0x39cdd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "LateUpdate",
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::PSVRHelper::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cdd84;
+  constexpr static std::size_t addrs = 0x39cdd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::PSVRHelper::StopHaptics)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cdd88;
+  constexpr static std::size_t addrs = 0x39cdd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode, ::ByRef<::UnityEngine::Pose>)>(
     &::GlobalNamespace::PSVRHelper::TryGetPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39cdd8c;
+  constexpr static std::size_t addrs = 0x39cdd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::PSVRHelper::XRNodeToPSDeviceIndex)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x39cde14;
+  constexpr static std::size_t addrs = 0x39cddec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)(
     ::UnityEngine::XR::XRNode, int32_t, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(&::GlobalNamespace::PSVRHelper::GetNodePose)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x39cdee8;
+  constexpr static std::size_t addrs = 0x39cdec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVRHelper::GetRootPositionOffsetForLegacyNodePose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39ce284;
+  constexpr static std::size_t addrs = 0x39ce25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)(
     ::UnityEngine::XR::XRNode, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::PSVRHelper::TryGetLegacyPoseOffsetForNode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39ce2f8;
+  constexpr static std::size_t addrs = 0x39ce2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ce370;
+  constexpr static std::size_t addrs = 0x39ce348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "GetAnyJoystickMaxAxis",
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVRHelper::GetTriggerValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ce3b0;
+  constexpr static std::size_t addrs = 0x39ce388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVRHelper::GetThumbstickValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ce3b8;
+  constexpr static std::size_t addrs = 0x39ce390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::PSVRHelper::IsAdvancedHapticsSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ce3f8;
+  constexpr static std::size_t addrs = 0x39ce3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -542,7 +542,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::GetMenuButton)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ce400;
+  constexpr static std::size_t addrs = 0x39ce3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "GetMenuButton",
@@ -555,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ce404;
+  constexpr static std::size_t addrs = 0x39ce3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), "GetMenuButtonDown",
@@ -568,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::RefreshControllersReference)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39ce408;
+  constexpr static std::size_t addrs = 0x39ce3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(),
@@ -581,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PSVRHelper::*)()>(&::GlobalNamespace::PSVRHelper::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39ce424;
+  constexpr static std::size_t addrs = 0x39ce3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PSVRHelper*>::get(), ".ctor",

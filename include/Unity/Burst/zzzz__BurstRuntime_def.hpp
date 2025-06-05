@@ -112,7 +112,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::BurstRuntime_PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45073e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x450736c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,40 +154,40 @@ public:
   /// @brief Method GetHashCode32, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t GetHashCode32();
 
-  /// @brief Method GetHashCode32, addr 0x4506f38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode32, addr 0x4506ec0, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GetHashCode32(::System::Type* type);
 
   /// @brief Method GetHashCode64, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int64_t GetHashCode64();
 
-  /// @brief Method GetHashCode64, addr 0x4506fe0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode64, addr 0x4506f68, size 0x24, virtual false, abstract: false, final false
   static inline int64_t GetHashCode64(::System::Type* type);
 
-  /// @brief Method GetUTF8LiteralPointer, addr 0x4507398, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetUTF8LiteralPointer, addr 0x4507320, size 0x4c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> GetUTF8LiteralPointer(::StringW str, ::ByRef<int32_t> byteCount);
 
-  /// @brief Method HashStringWithFNV1A32, addr 0x4506f5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A32, addr 0x4506ee4, size 0x84, virtual false, abstract: false, final false
   static inline int32_t HashStringWithFNV1A32(::StringW text);
 
-  /// @brief Method HashStringWithFNV1A64, addr 0x4507004, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HashStringWithFNV1A64, addr 0x4506f8c, size 0x8c, virtual false, abstract: false, final false
   static inline int64_t HashStringWithFNV1A64(::StringW text);
 
-  /// @brief Method Initialize, addr 0x4507270, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45071f8, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadAdditionalLibrary, addr 0x4507090, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLibrary, addr 0x4507018, size 0x6c, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibrary(::StringW pathToLibBurstGenerated);
 
-  /// @brief Method LoadAdditionalLibraryInternal, addr 0x45070fc, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method LoadAdditionalLibraryInternal, addr 0x4507084, size 0x15c, virtual false, abstract: false, final false
   static inline bool LoadAdditionalLibraryInternal(::StringW pathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x4507380, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x4507308, size 0x18, virtual false, abstract: false, final false
   static inline void Log(::cordl_internals::Ptr<uint8_t> message, int32_t logType, ::cordl_internals::Ptr<uint8_t> fileName, int32_t lineNumber);
 
-  /// @brief Method PreventRequiredAttributeStrip, addr 0x4507274, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PreventRequiredAttributeStrip, addr 0x45071fc, size 0x10c, virtual false, abstract: false, final false
   static inline void PreventRequiredAttributeStrip();
 
-  /// @brief Method RuntimeLog, addr 0x4507258, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x45071e0, size 0x18, virtual false, abstract: false, final false
   static inline void RuntimeLog(::cordl_internals::Ptr<uint8_t> message, int32_t logType, ::cordl_internals::Ptr<uint8_t> fileName, int32_t lineNumber);
 
 protected:

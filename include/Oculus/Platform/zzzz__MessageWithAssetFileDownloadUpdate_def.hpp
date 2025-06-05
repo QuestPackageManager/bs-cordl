@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetFileDownloadUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetAssetFileDownloadUpdate, addr 0x3f7e50c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadUpdate, addr 0x3f7e494, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetAssetFileDownloadUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f7e548, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7e4d0, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetFileDownloadUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c064, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7bfec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

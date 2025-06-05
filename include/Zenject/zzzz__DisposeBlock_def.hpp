@@ -126,30 +126,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x4b53cac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4b53c34, size 0xe4, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Dispose, addr 0x4b53e6c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4b53df4, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LazyInitializeDisposableList, addr 0x4b53bb8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeDisposableList, addr 0x4b53b40, size 0xf4, virtual false, abstract: false, final false
   inline void LazyInitializeDisposableList();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x4b53858, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x4b537e0, size 0x360, virtual false, abstract: false, final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnSpawned, addr 0x4b5382c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x4b537b4, size 0x2c, virtual false, abstract: false, final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method Remove, addr 0x4b53d90, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4b53d18, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
-  /// @brief Method Spawn, addr 0x4b53df4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Spawn, addr 0x4b53d7c, size 0x78, virtual false, abstract: false, final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::DisposeBlock_SpawnedObjectPoolPair>* value);
 
-  /// @brief Method .ctor, addr 0x4b53eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b53e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();

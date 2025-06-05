@@ -50,14 +50,14 @@ public:
   /// @brief Field _systemId, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__systemId, put = __cordl_internal_set__systemId)) ::StringW _systemId;
 
-  /// @brief Method CloneNode, addr 0x424b2bc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x424b244, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method WriteTo, addr 0x424b24c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x424b1d4, size 0x70, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get__internalSubset() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x424a368, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424a2f0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
-  /// @brief Method .ctor, addr 0x424b1a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424b12c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method get_InternalSubset, addr 0x424b224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x424b1ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_Name, addr 0x424b22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x424b1b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x424b234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x424b1bc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_PublicId, addr 0x424b23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x424b1c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x424b244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x424b1cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
 protected:

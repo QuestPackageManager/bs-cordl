@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x407ccfc, size 0x590, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x407cc84, size 0x590, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_swipeStart() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_worldSpaceRay(::UnityEngine::Ray value);
 
-  /// @brief Method .ctor, addr 0x407ab34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407aabc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:

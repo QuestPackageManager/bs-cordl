@@ -19,7 +19,7 @@ namespace LufsMetering {
 struct CORDL_TYPE LoudnessData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x270b700, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b6d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t lufs, ::ArrayW<float_t, ::Array<float_t>*> momentaryValues, float_t blockDuration);
 
   // Ctor Parameters []

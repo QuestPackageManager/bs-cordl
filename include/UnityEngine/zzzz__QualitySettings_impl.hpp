@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::QualitySettings::OnActiveQualityLevelChanged)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48786fc;
+  constexpr static std::size_t addrs = 0x4878684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::QualitySettings::set_vSyncCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487877c;
+  constexpr static std::size_t addrs = 0x4878704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::QualitySettings::get_antiAliasing)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48787b8;
+  constexpr static std::size_t addrs = 0x4878740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::QualitySettings*>::get(), "get_antiAliasing",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::QualitySettings::set_antiAliasing)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48787e0;
+  constexpr static std::size_t addrs = 0x4878768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)()>(&::UnityEngine::QualitySettings::get_INTERNAL_renderPipeline)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x487881c;
+  constexpr static std::size_t addrs = 0x48787a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::QualitySettings*>::get(),
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::QualitySettings::set_INTERNAL_renderPipeline)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4878844;
+  constexpr static std::size_t addrs = 0x48787cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> (*)()>(&::UnityEngine::QualitySettings::get_renderPipeline)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4878880;
+  constexpr static std::size_t addrs = 0x4878808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::QualitySettings*>::get(), "get_renderPipeline",
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::RenderPipelineAsset*)>(&::UnityEngine::QualitySettings::set_renderPipeline)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4878910;
+  constexpr static std::size_t addrs = 0x4878898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::QualitySettings::set_maxQueuedFrames)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487894c;
+  constexpr static std::size_t addrs = 0x48788d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ColorSpace (*)()>(&::UnityEngine::QualitySettings::get_desiredColorSpace)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4877704;
+  constexpr static std::size_t addrs = 0x487768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::QualitySettings*>::get(), "get_desiredColorSpace",
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ColorSpace (*)()>(&::UnityEngine::QualitySettings::get_activeColorSpace)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4878988;
+  constexpr static std::size_t addrs = 0x4878910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::QualitySettings*>::get(), "get_activeColorSpace",

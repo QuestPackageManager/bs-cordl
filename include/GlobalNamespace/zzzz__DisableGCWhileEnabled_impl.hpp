@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableGCWhileEnabled::*)()>(&::GlobalNamespace::DisableGCWhileEnabled::OnEnable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39c1ed4;
+  constexpr static std::size_t addrs = 0x39c1eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableGCWhileEnabled*>::get(), "OnEnable",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableGCWhileEnabled::*)()>(&::GlobalNamespace::DisableGCWhileEnabled::OnDisable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39c1ee0;
+  constexpr static std::size_t addrs = 0x39c1eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableGCWhileEnabled*>::get(), "OnDisable",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DisableGCWhileEnabled::*)()>(&::GlobalNamespace::DisableGCWhileEnabled::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c1eec;
+  constexpr static std::size_t addrs = 0x39c1ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisableGCWhileEnabled*>::get(), ".ctor",

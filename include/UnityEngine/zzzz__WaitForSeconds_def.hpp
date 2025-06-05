@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Seconds(float_t value);
 
-  /// @brief Method .ctor, addr 0x48b38a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b3828, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t seconds);
 
 protected:

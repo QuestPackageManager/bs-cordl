@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController__LoadMusicPackPromoDataAsync_d__21::*)()>(
     &::GlobalNamespace::MainMenuViewController__LoadMusicPackPromoDataAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x3b6b694;
+  constexpr static std::size_t addrs = 0x3b6b66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController__LoadMusicPackPromoDataAsync_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MainMenuViewController__LoadMusicPackPromoDataAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b6ba38;
+  constexpr static std::size_t addrs = 0x3b6ba10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>*)>(&::GlobalNamespace::MainMenuViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6ab70;
+  constexpr static std::size_t addrs = 0x3b6ab48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MainMenuViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::MainMenuViewController_MenuButton>*)>(
         &::GlobalNamespace::MainMenuViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6ac20;
+  constexpr static std::size_t addrs = 0x3b6abf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)(
     ::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>*)>(&::GlobalNamespace::MainMenuViewController::add_promoButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6acd0;
+  constexpr static std::size_t addrs = 0x3b6aca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)(
     ::System::Action_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>*)>(&::GlobalNamespace::MainMenuViewController::remove_promoButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6ad80;
+  constexpr static std::size_t addrs = 0x3b6ad58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MainMenuViewController::DidActivate)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x3b6ae30;
+  constexpr static std::size_t addrs = 0x3b6ae08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::LoadMusicPackPromoDataAsync)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b6b3a8;
+  constexpr static std::size_t addrs = 0x3b6b380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::PackPromoButtonWasPressed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b6b438;
+  constexpr static std::size_t addrs = 0x3b6b410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)(::GlobalNamespace::MainMenuViewController_MenuButton)>(
     &::GlobalNamespace::MainMenuViewController::HandleMenuButton)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3b6b49c;
+  constexpr static std::size_t addrs = 0x3b6b474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(&::GlobalNamespace::MainMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b64c;
+  constexpr static std::size_t addrs = 0x3b6b624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(), ".ctor",
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b654;
+  constexpr static std::size_t addrs = 0x3b6b62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b65c;
+  constexpr static std::size_t addrs = 0x3b6b634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b664;
+  constexpr static std::size_t addrs = 0x3b6b63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b66c;
+  constexpr static std::size_t addrs = 0x3b6b644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b674;
+  constexpr static std::size_t addrs = 0x3b6b64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b67c;
+  constexpr static std::size_t addrs = 0x3b6b654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b684;
+  constexpr static std::size_t addrs = 0x3b6b65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuViewController::*)()>(
     &::GlobalNamespace::MainMenuViewController::_DidActivate_b__20_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6b68c;
+  constexpr static std::size_t addrs = 0x3b6b664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuViewController*>::get(),

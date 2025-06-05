@@ -29,24 +29,24 @@ public:
   /// @brief Method ApplyValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method DecButtonPressed, addr 0x3c28214, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x3c2819c, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   /// @brief Method GetInitValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method IncButtonPressed, addr 0x3c281d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x3c2815c, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ListSettingsController* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3c280f0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c28078, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3c28178, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3c28100, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method RefreshUI, addr 0x3c28124, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3c280ac, size 0x54, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   /// @brief Method TextForValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c2824c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c281d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -39,28 +39,28 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x39d2edc, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x39d2eb4, size 0x3f4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleHMDMounted, addr 0x39d32dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHMDMounted, addr 0x39d32b4, size 0x4, virtual false, abstract: false, final false
   inline void HandleHMDMounted();
 
-  /// @brief Method HandleHMDUnmounted, addr 0x39d32d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHMDUnmounted, addr 0x39d32b0, size 0x4, virtual false, abstract: false, final false
   inline void HandleHMDUnmounted();
 
-  /// @brief Method HandleInputFocusWasCaptured, addr 0x39d32d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x39d32a8, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleInputFocusWasReleased, addr 0x39d32d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusWasReleased, addr 0x39d32ac, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasReleased();
 
-  /// @brief Method HandleVRFocusWasCaptured, addr 0x39d32e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVRFocusWasCaptured, addr 0x39d32b8, size 0x4, virtual false, abstract: false, final false
   inline void HandleVRFocusWasCaptured();
 
-  /// @brief Method HandleVRFocusWasReleased, addr 0x39d32e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVRFocusWasReleased, addr 0x39d32bc, size 0x4, virtual false, abstract: false, final false
   inline void HandleVRFocusWasReleased();
 
-  /// @brief Method Initialize, addr 0x39d2aec, size 0x3f0, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x39d2ac4, size 0x3f0, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::VRPlatformEventsDebugger* New_ctor();
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39d32e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d32c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x39d2aac, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x39d2a84, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"

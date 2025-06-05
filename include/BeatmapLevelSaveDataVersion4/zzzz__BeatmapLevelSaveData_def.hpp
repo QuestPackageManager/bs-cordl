@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x270b690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -462,7 +462,7 @@ public:
 
   constexpr void __cordl_internal_set_noteJumpStartBeatOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x270b698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -639,7 +639,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x270b5b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b588, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Version* getStaticF_kCustomColorOverridesVersion();

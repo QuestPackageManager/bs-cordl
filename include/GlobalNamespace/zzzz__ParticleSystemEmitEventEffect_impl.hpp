@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BasicBeatmapEventType, ::UnityEngine::Transform*, int32_t, ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::BeatmapCallbacksController*,
     ::GlobalNamespace::ParticleSystemEventController_Pool*)>(&::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3b97328;
+  constexpr static std::size_t addrs = 0x3b97300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::Dispose)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b974d0;
+  constexpr static std::size_t addrs = 0x3b974a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::*)(
     ::GlobalNamespace::BasicBeatmapEventData*)>(&::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3b97678;
+  constexpr static std::size_t addrs = 0x3b97650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ParticleSystemEventController> (
     ::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::*)(float_t)>(&::GlobalNamespace::ParticleSystemEmitEventEffect_ParticleSystemEmitBehavior::EmitParticles)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3b977dc;
+  constexpr static std::size_t addrs = 0x3b977b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BasicBeatmapEventType, ::UnityEngine::Transform*, int32_t, ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::BeatmapCallbacksController*,
     ::GlobalNamespace::ParticleSystemEventController_Pool*, ::Zenject::TickableManager*)>(&::GlobalNamespace::ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b97978;
+  constexpr static std::size_t addrs = 0x3b97950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior::Tick)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3b979b0;
+  constexpr static std::size_t addrs = 0x3b97988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_BeatmapEditorParticleSystemEmitBehavior::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b97d58;
+  constexpr static std::size_t addrs = 0x3b97d30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +339,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ParticleSystemEventController_Pool*, ::GlobalNamespace::PauseController*, ::GlobalNamespace::SongSpeedData*)>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b97d80;
+  constexpr static std::size_t addrs = 0x3b97d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::Dispose)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3b97eb0;
+  constexpr static std::size_t addrs = 0x3b97e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::HandlePauseControllerDidPause)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3b97fd4;
+  constexpr static std::size_t addrs = 0x3b97fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::HandlePauseControllerDidResume)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3b98168;
+  constexpr static std::size_t addrs = 0x3b98140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::GlobalNamespace::ParticleSystemEventController> (::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::*)(float_t)>(
         &::GlobalNamespace::ParticleSystemEmitEventEffect_GameplayParticleSystemEmitBehavior::EmitParticles)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b982fc;
+  constexpr static std::size_t addrs = 0x3b982d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect::Start)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3b9708c;
+  constexpr static std::size_t addrs = 0x3b97064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEmitEventEffect*>::get(),
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b97300;
+  constexpr static std::size_t addrs = 0x3b972d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEmitEventEffect*>::get(),
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEmitEventEffect::*)()>(
     &::GlobalNamespace::ParticleSystemEmitEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b97318;
+  constexpr static std::size_t addrs = 0x3b972f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEmitEventEffect*>::get(),

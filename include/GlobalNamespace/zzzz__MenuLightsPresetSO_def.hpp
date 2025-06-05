@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> value);
 
-  /// @brief Method .ctor, addr 0x3c28d0c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28c94, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightIdColorPairs, addr 0x3c28cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightIdColorPairs, addr 0x3c28c84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> get_lightIdColorPairs();
 
-  /// @brief Method set_lightIdColorPairs, addr 0x3c28d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightIdColorPairs, addr 0x3c28c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> value);
 
 protected:

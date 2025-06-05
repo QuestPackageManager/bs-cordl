@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE MultiplayerAvatarData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2721788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2721760, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters []

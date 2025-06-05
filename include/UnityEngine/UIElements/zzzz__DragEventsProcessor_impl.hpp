@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)()>(
     &::UnityEngine::UIElements::DragEventsProcessor::get_supportsDragEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a19484;
+  constexpr static std::size_t addrs = 0x4a1940c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)()>(
     &::UnityEngine::UIElements::DragEventsProcessor::get_useDragEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4a1948c;
+  constexpr static std::size_t addrs = 0x4a19414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragEventsProcessor*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IDragAndDrop* (::UnityEngine::UIElements::DragEventsProcessor::*)()>(
     &::UnityEngine::UIElements::DragEventsProcessor::get_dragAndDrop)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a194c4;
+  constexpr static std::size_t addrs = 0x4a1944c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragEventsProcessor*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DragEventsProcessor::*)()>(
     &::UnityEngine::UIElements::DragEventsProcessor::get_isEditorContext)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4a194e4;
+  constexpr static std::size_t addrs = 0x4a1946c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4a19604;
+  constexpr static std::size_t addrs = 0x4a1958c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::RegisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a19a38;
+  constexpr static std::size_t addrs = 0x4a199c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)()>(
     &::UnityEngine::UIElements::DragEventsProcessor::RegisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x4a19738;
+  constexpr static std::size_t addrs = 0x4a196c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragEventsProcessor*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a19a3c;
+  constexpr static std::size_t addrs = 0x4a199c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(bool)>(
     &::UnityEngine::UIElements::DragEventsProcessor::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x4a19a44;
+  constexpr static std::size_t addrs = 0x4a199cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerDownEvent)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4a19e40;
+  constexpr static std::size_t addrs = 0x4a19dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerUpEvent)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4a19f28;
+  constexpr static std::size_t addrs = 0x4a19eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerLeaveEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerLeaveEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a1a1b4;
+  constexpr static std::size_t addrs = 0x4a1a13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerCancelEvent)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4a1a1c4;
+  constexpr static std::size_t addrs = 0x4a1a14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerCaptureOutEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerCapturedOut)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4a1a2f4;
+  constexpr static std::size_t addrs = 0x4a1a27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::DragEventsProcessor::OnPointerMoveEvent)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x4a1a400;
+  constexpr static std::size_t addrs = 0x4a1a388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragEventsProcessor* (
     ::UnityEngine::UIElements::DragEventsProcessor::*)(::UnityEngine::Vector2)>(&::UnityEngine::UIElements::DragEventsProcessor::GetDropTarget)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4a1a0cc;
+  constexpr static std::size_t addrs = 0x4a1a054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

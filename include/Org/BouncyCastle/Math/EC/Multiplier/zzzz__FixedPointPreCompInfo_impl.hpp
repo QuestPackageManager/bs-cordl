@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECLookupTable* (
     ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(&::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_LookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b83d4;
+  constexpr static std::size_t addrs = 0x24b8394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)(
     ::Org::BouncyCastle::Math::EC::ECLookupTable*)>(&::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::set_LookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b83dc;
+  constexpr static std::size_t addrs = 0x24b839c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b83e4;
+  constexpr static std::size_t addrs = 0x24b83a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::set_Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b83ec;
+  constexpr static std::size_t addrs = 0x24b83ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b83f4;
+  constexpr static std::size_t addrs = 0x24b83b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b83fc;
+  constexpr static std::size_t addrs = 0x24b83bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24b8404;
+  constexpr static std::size_t addrs = 0x24b83c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

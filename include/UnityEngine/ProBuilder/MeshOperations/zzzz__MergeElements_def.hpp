@@ -62,10 +62,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* New_ctor();
 
-  /// @brief Method <Merge>b__1_0, addr 0x477d0f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Merge>b__1_0, addr 0x477d080, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _Merge_b__1_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x477d0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x477d078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* getStaticF___9();
@@ -111,7 +111,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <MergePairs>b__0, addr 0x477d110, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <MergePairs>b__0, addr 0x477d098, size 0x64, virtual false, abstract: false, final false
   inline bool _MergePairs_b__0(::UnityEngine::ProBuilder::Face* x);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* const& __cordl_internal_get_remove() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_remove(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method .ctor, addr 0x477c518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x477c4a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,13 +162,13 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0;
 
-  /// @brief Method CollapseCoincidentVertices, addr 0x477c520, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CollapseCoincidentVertices, addr 0x477c4a8, size 0x4dc, virtual false, abstract: false, final false
   static inline void CollapseCoincidentVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Merge, addr 0x477c9fc, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x477c984, size 0x374, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method MergePairs, addr 0x477be88, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method MergePairs, addr 0x477be10, size 0x690, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target,
              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs,

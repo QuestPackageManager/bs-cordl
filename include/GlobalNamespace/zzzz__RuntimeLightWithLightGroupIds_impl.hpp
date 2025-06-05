@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4d98;
+  constexpr static std::size_t addrs = 0x39e4d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::*)(float_t)>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::set_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4da0;
+  constexpr static std::size_t addrs = 0x39e4d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::*)(int32_t, float_t)>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds_LightIntensitiesWithId::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e4bf4;
+  constexpr static std::size_t addrs = 0x39e4bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithLightGroupIds::*)()>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds::Awake)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x39e4a30;
+  constexpr static std::size_t addrs = 0x39e4a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithLightGroupIds::*)()>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds::ProcessNewColorData)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x39e4c1c;
+  constexpr static std::size_t addrs = 0x39e4bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* (
     ::GlobalNamespace::RuntimeLightWithLightGroupIds::*)()>(&::GlobalNamespace::RuntimeLightWithLightGroupIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4d78;
+  constexpr static std::size_t addrs = 0x39e4d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RuntimeLightWithLightGroupIds::*)(::UnityEngine::Color, float_t)>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds::ProcessColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39e4d58;
+  constexpr static std::size_t addrs = 0x39e4d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RuntimeLightWithLightGroupIds*>::get(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithLightGroupIds::*)()>(
     &::GlobalNamespace::RuntimeLightWithLightGroupIds::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39e4d80;
+  constexpr static std::size_t addrs = 0x39e4d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RuntimeLightWithLightGroupIds*>::get(),

@@ -64,7 +64,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9db40, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9db18, size 0x374, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* New_ctor();
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__widthScales(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3a9deb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9de8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"

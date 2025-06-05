@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::Dump::*)()>(&::Org::BouncyCastle::Asn1::Utilities::Dump::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24ffdb8;
+  constexpr static std::size_t addrs = 0x24ffd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Utilities::Dump*>::get(), ".ctor",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(&::Org::BouncyCastle::Asn1::Utilities::Dump::Main)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x24ffdc0;
+  constexpr static std::size_t addrs = 0x24ffd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

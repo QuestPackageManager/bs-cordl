@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::*)()>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d49f8;
+  constexpr static std::size_t addrs = 0x26d49d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::_CreateData_b__4_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26d4a00;
+  constexpr static std::size_t addrs = 0x26d49e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                       ::ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x26d43c0;
+  constexpr static std::size_t addrs = 0x26d43a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::IsNumericOrSpecial)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26d4914;
+  constexpr static std::size_t addrs = 0x26d48f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

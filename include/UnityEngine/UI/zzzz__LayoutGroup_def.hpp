@@ -77,21 +77,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4abc3e0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4abc368, size 0x88, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__56* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4abc468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4abc3f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4abc470, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4abc3f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4abc4a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4abc430, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4abc3dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4abc364, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x4abc3b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4abc33c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -230,66 +230,66 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutGroup"
   constexpr operator ::UnityEngine::UI::ILayoutGroup*() noexcept;
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4ab9594, size 0x3b8, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4ab951c, size 0x3b8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
   /// @brief Method CalculateLayoutInputVertical, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method DelayedSetDirty, addr 0x4abc354, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DelayedSetDirty, addr 0x4abc2dc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedSetDirty(::UnityEngine::RectTransform* rectTransform);
 
-  /// @brief Method GetAlignmentOnAxis, addr 0x4abb37c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAlignmentOnAxis, addr 0x4abb304, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetAlignmentOnAxis(int32_t axis);
 
-  /// @brief Method GetStartOffset, addr 0x4aba404, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetStartOffset, addr 0x4aba38c, size 0x148, virtual false, abstract: false, final false
   inline float_t GetStartOffset(int32_t axis, float_t requiredSpaceWithoutPadding);
 
-  /// @brief Method GetTotalFlexibleSize, addr 0x4abb8d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTotalFlexibleSize, addr 0x4abb860, size 0x70, virtual false, abstract: false, final false
   inline float_t GetTotalFlexibleSize(int32_t axis);
 
-  /// @brief Method GetTotalMinSize, addr 0x4abb948, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTotalMinSize, addr 0x4abb8d0, size 0x70, virtual false, abstract: false, final false
   inline float_t GetTotalMinSize(int32_t axis);
 
-  /// @brief Method GetTotalPreferredSize, addr 0x4abb868, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTotalPreferredSize, addr 0x4abb7f0, size 0x70, virtual false, abstract: false, final false
   inline float_t GetTotalPreferredSize(int32_t axis);
 
   static inline ::UnityEngine::UI::LayoutGroup* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x4abc13c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x4abc0c4, size 0x4, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x4abc0c0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4abc048, size 0x7c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4abbfd0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4abbf58, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x4abc320, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x4abc2a8, size 0x30, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformChildrenChanged, addr 0x4abc350, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnTransformChildrenChanged, addr 0x4abc2d8, size 0x4, virtual true, abstract: false, final false
   inline void OnTransformChildrenChanged();
 
-  /// @brief Method SetChildAlongAxis, addr 0x4abc140, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxis, addr 0x4abc0c8, size 0xa8, virtual false, abstract: false, final false
   inline void SetChildAlongAxis(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos);
 
-  /// @brief Method SetChildAlongAxis, addr 0x4aba54c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxis, addr 0x4aba4d4, size 0xb0, virtual false, abstract: false, final false
   inline void SetChildAlongAxis(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos, float_t size);
 
-  /// @brief Method SetChildAlongAxisWithScale, addr 0x4abb63c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxisWithScale, addr 0x4abb5c4, size 0x22c, virtual false, abstract: false, final false
   inline void SetChildAlongAxisWithScale(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos, float_t scaleFactor);
 
-  /// @brief Method SetChildAlongAxisWithScale, addr 0x4abb3c8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxisWithScale, addr 0x4abb350, size 0x274, virtual false, abstract: false, final false
   inline void SetChildAlongAxisWithScale(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos, float_t size, float_t scaleFactor);
 
-  /// @brief Method SetDirty, addr 0x4abbfec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x4abbf74, size 0xd4, virtual false, abstract: false, final false
   inline void SetDirty();
 
   /// @brief Method SetLayoutHorizontal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutInputForAxis, addr 0x4ab994c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLayoutInputForAxis, addr 0x4ab98d4, size 0x80, virtual false, abstract: false, final false
   inline void SetLayoutInputForAxis(float_t totalMin, float_t totalPreferred, float_t totalFlexible, int32_t axis);
 
   /// @brief Method SetLayoutVertical, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -346,43 +346,43 @@ public:
 
   constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  /// @brief Method .ctor, addr 0x4ab92ac, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab9234, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childAlignment, addr 0x4abbf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childAlignment, addr 0x4abbeb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAnchor get_childAlignment();
 
-  /// @brief Method get_flexibleHeight, addr 0x4abbfc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x4abbf48, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x4abbfa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x4abbf30, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_isRootLayoutGroup, addr 0x4abc1e8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_isRootLayoutGroup, addr 0x4abc170, size 0x138, virtual false, abstract: false, final false
   inline bool get_isRootLayoutGroup();
 
-  /// @brief Method get_layoutPriority, addr 0x4abbfc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x4abbf50, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_minHeight, addr 0x4abbfb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x4abbf38, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x4abbf98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x4abbf20, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_padding, addr 0x4abbec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_padding, addr 0x4abbe50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* get_padding();
 
-  /// @brief Method get_preferredHeight, addr 0x4abbfb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x4abbf40, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x4abbfa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4abbf28, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_rectChildren, addr 0x4abbf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectChildren, addr 0x4abbf18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* get_rectChildren();
 
-  /// @brief Method get_rectTransform, addr 0x4ab9bd4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4ab9b5c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
@@ -394,10 +394,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutGroup"
   constexpr ::UnityEngine::UI::ILayoutGroup* i___UnityEngine__UI__ILayoutGroup() noexcept;
 
-  /// @brief Method set_childAlignment, addr 0x4abbf34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childAlignment, addr 0x4abbebc, size 0x5c, virtual false, abstract: false, final false
   inline void set_childAlignment(::UnityEngine::TextAnchor value);
 
-  /// @brief Method set_padding, addr 0x4abbed0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_padding, addr 0x4abbe58, size 0x5c, virtual false, abstract: false, final false
   inline void set_padding(::UnityEngine::RectOffset* value);
 
 protected:

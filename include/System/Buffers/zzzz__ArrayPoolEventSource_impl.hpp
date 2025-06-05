@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)()>(&::System::Buffers::ArrayPoolEventSource::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3dc9bdc;
+  constexpr static std::size_t addrs = 0x3dc9b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get(), ".ctor",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferRented)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3dc9c88;
+  constexpr static std::size_t addrs = 0x3dc9c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(
     int32_t, int32_t, int32_t, int32_t, ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason)>(&::System::Buffers::ArrayPoolEventSource::BufferAllocated)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3dc9d74;
+  constexpr static std::size_t addrs = 0x3dc9cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferReturned)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3dc9e80;
+  constexpr static std::size_t addrs = 0x3dc9e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferTrimmed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3dc9e90;
+  constexpr static std::size_t addrs = 0x3dc9e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferTrimPoll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dc9ea0;
+  constexpr static std::size_t addrs = 0x3dc9e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

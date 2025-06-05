@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::RedefineEntry::*)(::System::Xml::Schema::XmlSchemaRedefine*, ::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::RedefineEntry::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x426eeb4;
+  constexpr static std::size_t addrs = 0x426ee3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

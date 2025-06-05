@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSpaceConvertor* New_ctor();
 
-  /// @brief Method Start, addr 0x3be8568, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be85b0, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldToPlayerSpaceRotation() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x3be85a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be85e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x3be855c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x3be85a4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
 
 protected:

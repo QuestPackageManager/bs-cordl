@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE TimelineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindTrackAssetByName, addr 0x3b35760, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method FindTrackAssetByName, addr 0x3b35738, size 0x3d0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::TrackAsset> FindTrackAssetByName(::UnityEngine::Timeline::TimelineAsset* timeline, ::StringW name);
 
 protected:

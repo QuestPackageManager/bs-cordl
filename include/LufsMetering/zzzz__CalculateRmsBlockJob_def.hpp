@@ -27,10 +27,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Create, addr 0x3b73bfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3b73bd4, size 0xc, virtual false, abstract: false, final false
   static inline ::LufsMetering::CalculateRmsBlockJob Create(::Unity::Collections::NativeArray_1<float_t> inputData);
 
-  /// @brief Method Execute, addr 0x3b73c08, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3b73be0, size 0xb4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"

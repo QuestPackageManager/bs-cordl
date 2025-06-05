@@ -38,21 +38,21 @@ public:
 
   __declspec(property(get = get_styles)) ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* styles;
 
-  /// @brief Method GetStyle, addr 0x48039d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x480395c, size 0x88, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle, addr 0x4803a5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetStyle, addr 0x48039e4, size 0xb8, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(::StringW name);
 
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x48036d4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x480365c, size 0x300, virtual false, abstract: false, final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::TMPro::TMP_StyleSheet* New_ctor();
 
-  /// @brief Method RefreshStyles, addr 0x4803b14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyles, addr 0x4803a9c, size 0x4, virtual false, abstract: false, final false
   inline void RefreshStyles();
 
-  /// @brief Method Reset, addr 0x48036d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4803658, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* const& __cordl_internal_get_m_StyleList() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
 
-  /// @brief Method .ctor, addr 0x4803b18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4803aa0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_styles, addr 0x48036c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styles, addr 0x4803650, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();
 
 protected:

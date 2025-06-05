@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_InitData::*)(
     ::GlobalNamespace::IReadonlyBeatmapData*, float_t, bool)>(&::GlobalNamespace::BeatmapCallbacksController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3adc06c;
+  constexpr static std::size_t addrs = 0x3adc044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior::*)(
     ::GlobalNamespace::CallbacksInTime*, ::GlobalNamespace::BeatmapDataItem*)>(&::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior::CallCallbacks)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3adc0ac;
+  constexpr static std::size_t addrs = 0x3adc084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior::*)(
     ::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*)>(&::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior::Replay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3adc0c8;
+  constexpr static std::size_t addrs = 0x3adc0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior::*)()>(
     &::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehavior::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3adab38;
+  constexpr static std::size_t addrs = 0x3adab10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState::*)(
     ::GlobalNamespace::CallbacksInTime*, ::GlobalNamespace::BeatmapDataItem*)>(&::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState::CallCallbacks)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3adc0cc;
+  constexpr static std::size_t addrs = 0x3adc0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState::*)(
     ::System::Collections::Generic::Dictionary_2<float_t, ::GlobalNamespace::CallbacksInTime*>*)>(&::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState::Replay)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3adc194;
+  constexpr static std::size_t addrs = 0x3adc16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState::*)()>(
     &::GlobalNamespace::BeatmapCallbacksController_CallCallbacksBehaviorWithLastState::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3adab40;
+  constexpr static std::size_t addrs = 0x3adab18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapCallbacksController::*)()>(
     &::GlobalNamespace::BeatmapCallbacksController::get_sendCallbacksOnBeatmapDataChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ada578;
+  constexpr static std::size_t addrs = 0x3ada550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(bool)>(
     &::GlobalNamespace::BeatmapCallbacksController::set_sendCallbacksOnBeatmapDataChange)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ada580;
+  constexpr static std::size_t addrs = 0x3ada558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapCallbacksController::*)()>(
     &::GlobalNamespace::BeatmapCallbacksController::get_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ada58c;
+  constexpr static std::size_t addrs = 0x3ada564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController*>::get(),
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::BeatmapCallbacksController::add_willStartProcessingCallbacksThisFrameEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ada594;
+  constexpr static std::size_t addrs = 0x3ada56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::BeatmapCallbacksController::remove_willStartProcessingCallbacksThisFrameEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ada644;
+  constexpr static std::size_t addrs = 0x3ada61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::System::Action*)>(
     &::GlobalNamespace::BeatmapCallbacksController::add_didProcessAllCallbacksThisFrameEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ada6f4;
+  constexpr static std::size_t addrs = 0x3ada6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::System::Action*)>(
     &::GlobalNamespace::BeatmapCallbacksController::remove_didProcessAllCallbacksThisFrameEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ada790;
+  constexpr static std::size_t addrs = 0x3ada768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::GlobalNamespace::BeatmapCallbacksController_InitData*)>(
     &::GlobalNamespace::BeatmapCallbacksController::_ctor)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3ada82c;
+  constexpr static std::size_t addrs = 0x3ada804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)()>(&::GlobalNamespace::BeatmapCallbacksController::Dispose)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3adabbc;
+  constexpr static std::size_t addrs = 0x3adab94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController*>::get(), "Dispose",
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)()>(
     &::GlobalNamespace::BeatmapCallbacksController::ReplayState)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3adae10;
+  constexpr static std::size_t addrs = 0x3adade8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksController*>::get(),
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(float_t)>(
     &::GlobalNamespace::BeatmapCallbacksController::ManualUpdate)> {
   constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x3adaebc;
+  constexpr static std::size_t addrs = 0x3adae94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::BeatmapCallbacksController::RemoveBeatmapCallback)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ad82c8;
+  constexpr static std::size_t addrs = 0x3ad82a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapCallbacksController::TriggerBeatmapEvent)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3adb4b4;
+  constexpr static std::size_t addrs = 0x3adb48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -507,7 +507,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(
         &::GlobalNamespace::BeatmapCallbacksController::HandleBeatmapEventDataWasInserted)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x3adb618;
+  constexpr static std::size_t addrs = 0x3adb5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -524,7 +524,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(
         &::GlobalNamespace::BeatmapCallbacksController::HandleBeatmapEventDataWillBeRemoved)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3adbc0c;
+  constexpr static std::size_t addrs = 0x3adbbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksController::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapCallbacksController::HandleBeatmapEventDataWasRemoved)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3adbe60;
+  constexpr static std::size_t addrs = 0x3adbe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

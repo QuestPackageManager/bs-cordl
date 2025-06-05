@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(
     int32_t, int32_t, int32_t, ::System::Type*, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(&::System::Linq::Expressions::Interpreter::ExceptionHandler::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x40d7c70;
+  constexpr static std::size_t addrs = 0x40d7bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::ExceptionHandler::Matches)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40d7cc4;
+  constexpr static std::size_t addrs = 0x40d7c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::ExceptionHandler::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x40d7ce8;
+  constexpr static std::size_t addrs = 0x40d7c70;
 
   inline static ::MethodInfo const* methodInfo() {
 

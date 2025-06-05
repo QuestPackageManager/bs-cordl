@@ -38,19 +38,19 @@ public:
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject CreateInstance(::StringW idOverride);
 
-  /// @brief Method GetAsyncInitHandle, addr 0x47986e4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncInitHandle, addr 0x479866c, size 0x244, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
 
-  /// @brief Method ToString, addr 0x479864c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47985d4, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Data, addr 0x4798644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x47985cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_Id, addr 0x479862c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x47985b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_ObjectType, addr 0x4798634, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x47985bc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
 
   // Ctor Parameters []

@@ -147,21 +147,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3aced08, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3acece0, size 0xf8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3acee00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3acedd8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3acee08, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3acede0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3acee40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3acee18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3aced04, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3acecdc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -212,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_fadeType(::GlobalNamespace::AudioManagerSO_AudioFadeType value);
 
-  /// @brief Method .ctor, addr 0x3acecb4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acec8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -347,18 +347,18 @@ public:
 
   __declspec(property(get = get_sfxVolume, put = set_sfxVolume)) float_t sfxVolume;
 
-  /// @brief Method FadeMainVolume, addr 0x3acec34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FadeMainVolume, addr 0x3acec0c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FadeMainVolume(::GlobalNamespace::AudioManagerSO_AudioFadeType fadeType, float_t duration);
 
-  /// @brief Method Init, addr 0x3ace794, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ace76c, size 0xb0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ICoroutineStarter* coroutineStarter);
 
   static inline ::GlobalNamespace::AudioManagerSO* New_ctor();
 
-  /// @brief Method StartMainVolumeFade, addr 0x3aceaec, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method StartMainVolumeFade, addr 0x3aceac4, size 0x148, virtual false, abstract: false, final false
   inline void StartMainVolumeFade(::GlobalNamespace::AudioManagerSO_AudioFadeType fadeType, float_t duration);
 
-  /// @brief Method UpdateMainMixerBus, addr 0x3ace85c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UpdateMainMixerBus, addr 0x3ace834, size 0x84, virtual false, abstract: false, final false
   inline void UpdateMainMixerBus();
 
   constexpr ::UnityW<::UnityEngine::Audio::AudioMixer> const& __cordl_internal_get__audioMixer() const;
@@ -427,40 +427,40 @@ public:
 
   constexpr void __cordl_internal_set__spatializerSfxVolumeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3acecdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acecb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainVolume, addr 0x3ace84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainVolume, addr 0x3ace824, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mainVolume();
 
-  /// @brief Method get_mainVolumeFade, addr 0x3ace844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainVolumeFade, addr 0x3ace81c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mainVolumeFade();
 
-  /// @brief Method get_sfxEnabled, addr 0x3ace960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sfxEnabled, addr 0x3ace938, size 0x8, virtual false, abstract: false, final false
   inline bool get_sfxEnabled();
 
-  /// @brief Method get_sfxLatency, addr 0x3ace734, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_sfxLatency, addr 0x3ace70c, size 0x60, virtual false, abstract: false, final false
   inline float_t get_sfxLatency();
 
-  /// @brief Method get_sfxVolume, addr 0x3ace948, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sfxVolume, addr 0x3ace920, size 0x18, virtual false, abstract: false, final false
   inline float_t get_sfxVolume();
 
-  /// @brief Method set_mainVolume, addr 0x3ace854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mainVolume, addr 0x3ace82c, size 0x8, virtual false, abstract: false, final false
   inline void set_mainVolume(float_t value);
 
-  /// @brief Method set_musicPitch, addr 0x3ace988, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_musicPitch, addr 0x3ace960, size 0x100, virtual false, abstract: false, final false
   inline void set_musicPitch(float_t value);
 
-  /// @brief Method set_musicSpeed, addr 0x3acea88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_musicSpeed, addr 0x3acea60, size 0x64, virtual false, abstract: false, final false
   inline void set_musicSpeed(float_t value);
 
-  /// @brief Method set_musicVolume, addr 0x3ace8e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_musicVolume, addr 0x3ace8b8, size 0x68, virtual false, abstract: false, final false
   inline void set_musicVolume(float_t value);
 
-  /// @brief Method set_sfxEnabled, addr 0x3ace968, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sfxEnabled, addr 0x3ace940, size 0x20, virtual false, abstract: false, final false
   inline void set_sfxEnabled(bool value);
 
-  /// @brief Method set_sfxVolume, addr 0x3acdb50, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_sfxVolume, addr 0x3acdb28, size 0x84, virtual false, abstract: false, final false
   inline void set_sfxVolume(float_t value);
 
 protected:

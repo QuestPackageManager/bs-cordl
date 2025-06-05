@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldDataBinder::*)()>(&::HMUI::InputFieldDataBinder::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39e9dc4;
+  constexpr static std::size_t addrs = 0x39e9d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), ".ctor",
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldDataBinder::*)()>(&::HMUI::InputFieldDataBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x39e9e44;
+  constexpr static std::size_t addrs = 0x39e9e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldDataBinder*>::get(), "ClearBindings",

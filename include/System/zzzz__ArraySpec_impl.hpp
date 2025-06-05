@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ArraySpec::*)(int32_t, bool)>(&::System::ArraySpec::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e42fdc;
+  constexpr static std::size_t addrs = 0x3e42f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ArraySpec::*)(::System::Type*)>(&::System::ArraySpec::Resolve)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e42fec;
+  constexpr static std::size_t addrs = 0x3e42f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (::System::ArraySpec::*)(::System::Text::StringBuilder*)>(
     &::System::ArraySpec::Append)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3e43054;
+  constexpr static std::size_t addrs = 0x3e42fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ArraySpec::*)()>(&::System::ArraySpec::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e430f4;
+  constexpr static std::size_t addrs = 0x3e4307c;
 
   inline static ::MethodInfo const* methodInfo() {
 

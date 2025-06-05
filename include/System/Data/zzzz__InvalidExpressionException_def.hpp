@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Data::InvalidExpressionException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x417c140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417c0c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x417c138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417c0c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x417c148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417c0d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

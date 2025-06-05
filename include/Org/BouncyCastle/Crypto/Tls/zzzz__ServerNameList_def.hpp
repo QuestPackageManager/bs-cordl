@@ -30,15 +30,15 @@ public:
   /// @brief Field mServerNameList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mServerNameList, put = __cordl_internal_set_mServerNameList)) ::System::Collections::IList* mServerNameList;
 
-  /// @brief Method CheckNameType, addr 0x241adf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckNameType, addr 0x241adb4, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckNameType(::ArrayW<uint8_t, ::Array<uint8_t>*> nameTypesSeen, uint8_t nameType);
 
-  /// @brief Method Encode, addr 0x241a944, size 0x4b0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x241a904, size 0x4b0, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* New_ctor(::System::Collections::IList* serverNameList);
 
-  /// @brief Method Parse, addr 0x241ae90, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x241ae50, size 0x294, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Parse(::System::IO::Stream* input);
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_mServerNameList() const;
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_mServerNameList(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x241a8c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241a888, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* serverNameList);
 
-  /// @brief Method get_ServerNames, addr 0x241a93c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerNames, addr 0x241a8fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ServerNames();
 
 protected:

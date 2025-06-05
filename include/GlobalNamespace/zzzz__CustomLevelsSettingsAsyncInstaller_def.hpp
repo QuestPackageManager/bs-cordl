@@ -44,10 +44,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2717c90, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2717c68, size 0x158, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2717de8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2717dc0, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -108,13 +108,13 @@ public:
   /// @brief Field _customLevelsEnabled, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__customLevelsEnabled, put = __cordl_internal_set__customLevelsEnabled)) bool _customLevelsEnabled;
 
-  /// @brief Method InstallBindings, addr 0x2717bcc, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2717ba4, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2717a98, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2717a70, size 0x64, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2717afc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2717ad4, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::CustomLevelsSettingsAsyncInstaller* New_ctor();
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__customLevelsEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x2717c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2717c60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

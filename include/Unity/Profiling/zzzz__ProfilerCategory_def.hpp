@@ -26,7 +26,7 @@ public:
   /// @brief Field m_CategoryId, offset 0x0, size 0x2
   __declspec(property(get = __cordl_internal_get_m_CategoryId, put = __cordl_internal_set_m_CategoryId)) uint16_t m_CategoryId;
 
-  /// @brief Method ToString, addr 0x486090c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4860894, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr uint16_t const& __cordl_internal_get_m_CategoryId() const;
@@ -35,25 +35,25 @@ public:
 
   constexpr void __cordl_internal_set_m_CategoryId(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x4860708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4860690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint16_t category);
 
-  /// @brief Method get_Internal, addr 0x4860928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Internal, addr 0x48608b0, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerCategory get_Internal();
 
-  /// @brief Method get_Memory, addr 0x4860920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Memory, addr 0x48608a8, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerCategory get_Memory();
 
-  /// @brief Method get_Name, addr 0x4860710, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4860698, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Render, addr 0x4860910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Render, addr 0x4860898, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerCategory get_Render();
 
-  /// @brief Method get_Scripts, addr 0x4860918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scripts, addr 0x48608a0, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerCategory get_Scripts();
 
-  /// @brief Method op_Implicit, addr 0x4860930, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48608b8, size 0x4, virtual false, abstract: false, final false
   static inline uint16_t op_Implicit_uint16_t(::Unity::Profiling::ProfilerCategory category);
 
   // Ctor Parameters []

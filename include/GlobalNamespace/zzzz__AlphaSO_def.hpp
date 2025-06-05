@@ -30,10 +30,10 @@ public:
 
   constexpr void __cordl_internal_set_alphaValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x26a0fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0fa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Implicit, addr 0x26a0fc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26a0f88, size 0x18, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::GlobalNamespace::AlphaSO* obj);
 
 protected:

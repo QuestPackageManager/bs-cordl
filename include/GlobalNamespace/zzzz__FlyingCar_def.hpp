@@ -37,13 +37,13 @@ public:
 
   static inline ::GlobalNamespace::FlyingCar* New_ctor();
 
-  /// @brief Method Start, addr 0x3b9c8e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9c8b8, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b9c968, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9c940, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePos, addr 0x3b9c924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdatePos, addr 0x3b9c8fc, size 0x44, virtual false, abstract: false, final false
   inline void UpdatePos();
 
   constexpr float_t const& __cordl_internal_get__endZ() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__startZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b9c9c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9c9a0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

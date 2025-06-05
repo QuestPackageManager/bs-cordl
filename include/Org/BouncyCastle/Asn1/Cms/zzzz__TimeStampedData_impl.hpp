@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerIA5String*, ::Org::BouncyCastle::Asn1::Cms::MetaData*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::Cms::Evidence*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23101b4;
+  constexpr static std::size_t addrs = 0x2310174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampedData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::_ctor)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x2310240;
+  constexpr static std::size_t addrs = 0x2310200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampedData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2310590;
+  constexpr static std::size_t addrs = 0x2310550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Cms::TimeStampedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::get_DataUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2310634;
+  constexpr static std::size_t addrs = 0x23105f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::MetaData* (::Org::BouncyCastle::Asn1::Cms::TimeStampedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::get_MetaData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x231063c;
+  constexpr static std::size_t addrs = 0x23105fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampedData*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::TimeStampedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2310644;
+  constexpr static std::size_t addrs = 0x2310604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampedData*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::Evidence* (::Org::BouncyCastle::Asn1::Cms::TimeStampedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::get_TemporalEvidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x231064c;
+  constexpr static std::size_t addrs = 0x231060c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::TimeStampedData*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::TimeStampedData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampedData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2310654;
+  constexpr static std::size_t addrs = 0x2310614;
 
   inline static ::MethodInfo const* methodInfo() {
 

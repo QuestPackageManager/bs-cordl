@@ -96,21 +96,21 @@ public:
   /// @brief Field _target, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target)) ::UnityW<::UnityEngine::Transform> _target;
 
-  /// @brief Method GetBar, addr 0x22656c8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetBar, addr 0x2265688, size 0x1a8, virtual false, abstract: false, final false
   inline ::StringW GetBar(float_t songTime);
 
-  /// @brief Method LateUpdate, addr 0x2264afc, size 0xbcc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2264abc, size 0xbcc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::WaypointsTestGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2265870, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2265830, size 0x320, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmos, addr 0x2265b90, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x2265b50, size 0x1d8, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method Start, addr 0x2264ac8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2264a88, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2265d68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2265d28, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

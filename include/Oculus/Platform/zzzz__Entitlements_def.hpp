@@ -21,7 +21,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Entitlements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUserEntitledToApplication, addr 0x3f89804, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsUserEntitledToApplication, addr 0x3f8978c, size 0x13c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* IsUserEntitledToApplication();
 
 protected:

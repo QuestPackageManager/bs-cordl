@@ -19,7 +19,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE CharacterSubstitution {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x494a594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494a51c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, uint32_t unicode);
 
   // Ctor Parameters []

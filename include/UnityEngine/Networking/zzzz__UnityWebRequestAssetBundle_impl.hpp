@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae355c;
+  constexpr static std::size_t addrs = 0x4ae34e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::System::Uri*)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae3620;
+  constexpr static std::size_t addrs = 0x4ae35a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW, uint32_t)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4ae3564;
+  constexpr static std::size_t addrs = 0x4ae34ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::System::Uri*, uint32_t)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4ae3628;
+  constexpr static std::size_t addrs = 0x4ae35b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::System::Uri*, ::UnityEngine::CachedAssetBundle, uint32_t)>(
     &::UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4ae3764;
+  constexpr static std::size_t addrs = 0x4ae36ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

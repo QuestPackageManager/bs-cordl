@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c8fc;
+  constexpr static std::size_t addrs = 0x453c884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c904;
+  constexpr static std::size_t addrs = 0x453c88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_volumeUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c90c;
+  constexpr static std::size_t addrs = 0x453c894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_volumeUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c914;
+  constexpr static std::size_t addrs = 0x453c89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_recentered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c91c;
+  constexpr static std::size_t addrs = 0x453c8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_recentered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c924;
+  constexpr static std::size_t addrs = 0x453c8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_volumeDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c92c;
+  constexpr static std::size_t addrs = 0x453c8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_volumeDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c934;
+  constexpr static std::size_t addrs = 0x453c8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_recentering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c93c;
+  constexpr static std::size_t addrs = 0x453c8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_recentering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c944;
+  constexpr static std::size_t addrs = 0x453c8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_app)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c94c;
+  constexpr static std::size_t addrs = 0x453c8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(), "get_app",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_app)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c954;
+  constexpr static std::size_t addrs = 0x453c8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_home)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c95c;
+  constexpr static std::size_t addrs = 0x453c8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(), "get_home",
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_home)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c964;
+  constexpr static std::size_t addrs = 0x453c8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c96c;
+  constexpr static std::size_t addrs = 0x453c8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c974;
+  constexpr static std::size_t addrs = 0x453c8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c97c;
+  constexpr static std::size_t addrs = 0x453c904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c984;
+  constexpr static std::size_t addrs = 0x453c90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c98c;
+  constexpr static std::size_t addrs = 0x453c914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c994;
+  constexpr static std::size_t addrs = 0x453c91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c99c;
+  constexpr static std::size_t addrs = 0x453c924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453c9a4;
+  constexpr static std::size_t addrs = 0x453c92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)()>(&::Unity::XR::GoogleVr::DaydreamController::FinishSetup)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x453c9ac;
+  constexpr static std::size_t addrs = 0x453c934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)()>(&::Unity::XR::GoogleVr::DaydreamController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453cbf8;
+  constexpr static std::size_t addrs = 0x453cb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::GoogleVr::DaydreamController*>::get(), ".ctor",

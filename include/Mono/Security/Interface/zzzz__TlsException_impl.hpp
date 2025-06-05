@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::TlsException::*)(::Mono::Security::Interface::Alert*, ::StringW)>(
     &::Mono::Security::Interface::TlsException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c46888;
+  constexpr static std::size_t addrs = 0x3c46810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::TlsException::*)(::Mono::Security::Interface::AlertDescription, ::StringW)>(
     &::Mono::Security::Interface::TlsException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c468fc;
+  constexpr static std::size_t addrs = 0x3c46884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

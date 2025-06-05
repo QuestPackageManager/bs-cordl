@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPeer*)>(&::LiteNetLib::BaseChannel::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3aabbec;
+  constexpr static std::size_t addrs = 0x3aabbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::BaseChannel::*)()>(&::LiteNetLib::BaseChannel::get_PacketsInQueue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3aabc78;
+  constexpr static std::size_t addrs = 0x3aabc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::BaseChannel*>::get(), "get_PacketsInQueue",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::BaseChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::BaseChannel::AddToQueue)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3aabcc0;
+  constexpr static std::size_t addrs = 0x3aabc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

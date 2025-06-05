@@ -69,7 +69,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVRSimpleJSON::JSONNode*, ::GlobalNamespace::OVRBinaryChunk, ::GlobalNamespace::OVRGLTFInputNode, ::UnityEngine::GameObject*, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::_ctor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x3fac8f8;
+  constexpr static std::size_t addrs = 0x3fac880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::OVRSimpleJSON::JSONNode*, ::OVRSimpleJSON::JSONNode*)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::AddChannel)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3facc18;
+  constexpr static std::size_t addrs = 0x3facba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(bool)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3fad710;
+  constexpr static std::size_t addrs = 0x3fad698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(float_t, bool)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x3fad8a4;
+  constexpr static std::size_t addrs = 0x3fad82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::UpdatePose)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x3fadd04;
+  constexpr static std::size_t addrs = 0x3fadc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>* (
         ::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector2)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalThumbsticks)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3fae034;
+  constexpr static std::size_t addrs = 0x3fadfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Vector2, ::System::Tuple_2<::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection, ::GlobalNamespace::OVRGLTFAnimatinonNode_ThumbstickDirection>*)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::GetCardinalWeights)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3fae1e8;
+  constexpr static std::size_t addrs = 0x3fae170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::OVRSimpleJSON::JSONNode*, int32_t, ::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType, ::OVRSimpleJSON::JSONNode*)>(
         &::GlobalNamespace::OVRGLTFAnimatinonNode::ProcessAnimationSampler)> {
   constexpr static std::size_t size = 0x7f4;
-  constexpr static std::size_t addrs = 0x3facf1c;
+  constexpr static std::size_t addrs = 0x3facea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRGLTFTransformType (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::StringW)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::GetTransformType)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3facda8;
+  constexpr static std::size_t addrs = 0x3facd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRGLTFAnimatinonNode_OVRInterpolationType (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(
     ::StringW)>(&::GlobalNamespace::OVRGLTFAnimatinonNode::ToOVRInterpolationType)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3fae33c;
+  constexpr static std::size_t addrs = 0x3fae2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::CloneVector3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3facc10;
+  constexpr static std::size_t addrs = 0x3facb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::OVRGLTFAnimatinonNode::*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::OVRGLTFAnimatinonNode::CloneQuaternion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3facc14;
+  constexpr static std::size_t addrs = 0x3facb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

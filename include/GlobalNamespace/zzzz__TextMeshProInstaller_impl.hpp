@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextMeshProInstaller::*)()>(
     &::GlobalNamespace::TextMeshProInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x271deec;
+  constexpr static std::size_t addrs = 0x271dec4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::GlobalNamespace::TextMeshProInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x271df2c;
+  constexpr static std::size_t addrs = 0x271df04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProInstaller::*)()>(&::GlobalNamespace::TextMeshProInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x271df84;
+  constexpr static std::size_t addrs = 0x271df5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProInstaller::*)()>(&::GlobalNamespace::TextMeshProInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x271e0c4;
+  constexpr static std::size_t addrs = 0x271e09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProInstaller*>::get(), ".ctor",

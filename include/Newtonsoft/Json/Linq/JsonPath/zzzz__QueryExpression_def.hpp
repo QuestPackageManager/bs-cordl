@@ -31,7 +31,7 @@ public:
   /// @brief Field Operator, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_Operator, put = __cordl_internal_set_Operator)) ::Newtonsoft::Json::Linq::JsonPath::QueryOperator Operator;
 
-  /// @brief Method IsMatch, addr 0x3f3723c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x3f371c4, size 0x10, virtual false, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t);
 
   /// @brief Method IsMatch, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_Operator(::Newtonsoft::Json::Linq::JsonPath::QueryOperator value);
 
-  /// @brief Method .ctor, addr 0x3f37214, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3719c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
 protected:

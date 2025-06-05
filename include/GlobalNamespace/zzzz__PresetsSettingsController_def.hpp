@@ -41,27 +41,27 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x3c136e8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c13670, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c13644, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c135cc, size 0xa4, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method GetValue, addr 0x3c13588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3c13510, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
   static inline ::GlobalNamespace::PresetsSettingsController* New_ctor();
 
-  /// @brief Method SetInteractable, addr 0x3c13610, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetInteractable, addr 0x3c13598, size 0x34, virtual false, abstract: false, final false
   inline void SetInteractable(bool interactable);
 
-  /// @brief Method SetNumberOfElementsLimit, addr 0x3c135f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetNumberOfElementsLimit, addr 0x3c13578, size 0x20, virtual false, abstract: false, final false
   inline void SetNumberOfElementsLimit(int32_t numberOfElementsLimit);
 
-  /// @brief Method SetValue, addr 0x3c13590, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c13518, size 0x60, virtual false, abstract: false, final false
   inline void SetValue(int32_t index);
 
-  /// @brief Method TextForValue, addr 0x3c13708, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c13690, size 0x50, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__customIndex() const;
@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c13758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c136e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3c13428, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3c133b0, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3c134d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3c13460, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:

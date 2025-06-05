@@ -62,24 +62,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x239c330, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x239c2f0, size 0xf0, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x239b81c, size 0x448, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x239b7dc, size 0x448, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x239bca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMacSize, addr 0x239bc64, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x239bcac, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x239bc6c, size 0x1a4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::VmpcMac* New_ctor();
 
-  /// @brief Method Reset, addr 0x239c048, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x239c008, size 0x9c, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x239c0e4, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x239c0a4, size 0x24c, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_P() const;
@@ -148,16 +148,16 @@ public:
 
   constexpr void __cordl_internal_set_x4(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x239c420, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239c3e0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x239bc64, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x239bc24, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  /// @brief Method initKey, addr 0x239be50, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method initKey, addr 0x239be10, size 0x1f8, virtual false, abstract: false, final false
   inline void initKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
 protected:

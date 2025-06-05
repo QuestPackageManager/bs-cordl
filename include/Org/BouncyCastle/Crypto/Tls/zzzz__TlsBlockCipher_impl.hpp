@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsMac* (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::get_WriteMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241f2b0;
+  constexpr static std::size_t addrs = 0x241f270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsMac* (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::get_ReadMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241f2b8;
+  constexpr static std::size_t addrs = 0x241f278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*,
     ::Org::BouncyCastle::Crypto::IDigest*, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0xb58;
-  constexpr static std::size_t addrs = 0x241f2c0;
+  constexpr static std::size_t addrs = 0x241f280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::GetPlaintextLimit)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x241fe18;
+  constexpr static std::size_t addrs = 0x241fdd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::EncodePlaintext)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x241ff18;
+  constexpr static std::size_t addrs = 0x241fed8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::DecodeCiphertext)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x2420568;
+  constexpr static std::size_t addrs = 0x2420528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::CheckPaddingConstantTime)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x2420a14;
+  constexpr static std::size_t addrs = 0x24209d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::ChooseExtraPadBlocks)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2420bbc;
+  constexpr static std::size_t addrs = 0x2420b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::LowestBitSet)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2420c64;
+  constexpr static std::size_t addrs = 0x2420c24;
 
   inline static ::MethodInfo const* methodInfo() {
 

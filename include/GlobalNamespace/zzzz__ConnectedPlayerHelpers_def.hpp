@@ -21,22 +21,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectedPlayerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasFinishedLevel, addr 0x22c22e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HasFinishedLevel, addr 0x22c22a8, size 0xbc, virtual false, abstract: false, final false
   static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActive, addr 0x22c222c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x22c21ec, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActiveOrFinished, addr 0x22c23a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsActiveOrFinished, addr 0x22c2364, size 0x28, virtual false, abstract: false, final false
   static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsFailed, addr 0x22c23cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsFailed, addr 0x22c238c, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WantsToPlayNextLevel, addr 0x22c20b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WantsToPlayNextLevel, addr 0x22c2074, size 0xbc, virtual false, abstract: false, final false
   static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WasActiveAtLevelStart, addr 0x22c2170, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WasActiveAtLevelStart, addr 0x22c2130, size 0xbc, virtual false, abstract: false, final false
   static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
 protected:

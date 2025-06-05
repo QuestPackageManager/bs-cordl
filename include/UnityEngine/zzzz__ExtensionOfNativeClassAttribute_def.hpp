@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ExtensionOfNativeClassAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48ac4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ac454, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

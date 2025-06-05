@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ProgressBar_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a02ca8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a02c30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ProgressBar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a02c54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a02bdc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

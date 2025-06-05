@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAudioClip*, ::StringW, ::UnityEngine::AudioType)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::Create)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ae3bfc;
+  constexpr static std::size_t addrs = 0x4ae3b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)(::StringW, ::UnityEngine::AudioType)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::InternalCreateAudioClip)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ae3c50;
+  constexpr static std::size_t addrs = 0x4ae3bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)(::StringW, ::UnityEngine::AudioType)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4ae3cac;
+  constexpr static std::size_t addrs = 0x4ae3c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::GetNativeData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ae3d10;
+  constexpr static std::size_t addrs = 0x4ae3c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4ae3d1c;
+  constexpr static std::size_t addrs = 0x4ae3ca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::GetText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4ae3d40;
+  constexpr static std::size_t addrs = 0x4ae3cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::get_audioClip)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae3d8c;
+  constexpr static std::size_t addrs = 0x4ae3d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAudioClip*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAudioClip::*)(bool)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::set_streamAudio)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4ae3dc8;
+  constexpr static std::size_t addrs = 0x4ae3d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::Networking::DownloadHandlerAudioClip::GetContent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4ae3e0c;
+  constexpr static std::size_t addrs = 0x4ae3d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

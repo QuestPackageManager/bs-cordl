@@ -90,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x44d9c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9bf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledMaterial, addr 0x44d9c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledMaterial, addr 0x44d9be0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_disabledMaterial();
 
-  /// @brief Method get_highlightedMaterial, addr 0x44d9c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedMaterial, addr 0x44d9bd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_highlightedMaterial();
 
-  /// @brief Method get_normalMaterial, addr 0x44d9c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalMaterial, addr 0x44d9bc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_normalMaterial();
 
-  /// @brief Method get_pressedMaterial, addr 0x44d9c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedMaterial, addr 0x44d9bd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_pressedMaterial();
 
-  /// @brief Method get_selectedAndHighlightedMaterial, addr 0x44d9c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedMaterial, addr 0x44d9bf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_selectedAndHighlightedMaterial();
 
-  /// @brief Method get_selectedMaterial, addr 0x44d9c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMaterial, addr 0x44d9be8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_selectedMaterial();
 
 protected:

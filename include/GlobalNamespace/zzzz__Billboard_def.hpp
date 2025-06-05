@@ -104,12 +104,12 @@ public:
   /// @brief Field _transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x39c0d20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c0cf8, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Billboard* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x39c0d3c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x39c0d14, size 0xd0, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr bool const& __cordl_internal_get__flipDirection() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x39c0e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c0de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

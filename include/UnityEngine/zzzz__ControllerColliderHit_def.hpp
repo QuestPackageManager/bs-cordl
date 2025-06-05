@@ -124,40 +124,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Push(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48f59e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f596c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_collider, addr 0x48f58cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x48f5854, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_controller, addr 0x48f58c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controller, addr 0x48f584c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CharacterController> get_controller();
 
-  /// @brief Method get_gameObject, addr 0x48f5954, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x48f58dc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_moveDirection, addr 0x48f59a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_moveDirection, addr 0x48f592c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_moveDirection();
 
-  /// @brief Method get_moveLength, addr 0x48f59b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveLength, addr 0x48f5938, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveLength();
 
-  /// @brief Method get_normal, addr 0x48f5998, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x48f5920, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_point, addr 0x48f598c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x48f5914, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_push, addr 0x48f59b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_push, addr 0x48f5940, size 0x10, virtual false, abstract: false, final false
   inline bool get_push();
 
-  /// @brief Method get_rigidbody, addr 0x48f58d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rigidbody, addr 0x48f585c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_rigidbody();
 
-  /// @brief Method get_transform, addr 0x48f5970, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x48f58f8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method set_push, addr 0x48f59c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_push, addr 0x48f5950, size 0x1c, virtual false, abstract: false, final false
   inline void set_push(bool value);
 
 protected:

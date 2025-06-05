@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_InitData::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ad54b4;
+  constexpr static std::size_t addrs = 0x3ad548c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad54dc;
+  constexpr static std::size_t addrs = 0x3ad54b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_reverbZoneMix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad54e8;
+  constexpr static std::size_t addrs = 0x3ad54c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spatialBlend)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad54f0;
+  constexpr static std::size_t addrs = 0x3ad54c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::get_spread)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad54f8;
+  constexpr static std::size_t addrs = 0x3ad54d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceParams::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad5500;
+  constexpr static std::size_t addrs = 0x3ad54d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*>::get(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_volume)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ad4c6c;
+  constexpr static std::size_t addrs = 0x3ad4c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_volume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad5508;
+  constexpr static std::size_t addrs = 0x3ad54e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)()>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::get_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad5510;
+  constexpr static std::size_t addrs = 0x3ad54e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::set_maxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad5518;
+  constexpr static std::size_t addrs = 0x3ad54f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::*)(::UnityEngine::AudioSource*)>(
     &::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ad4838;
+  constexpr static std::size_t addrs = 0x3ad4810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)(int32_t)>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ad49ec;
+  constexpr static std::size_t addrs = 0x3ad49c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ad5520;
+  constexpr static std::size_t addrs = 0x3ad54f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -384,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::MoveNext)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ad5524;
+  constexpr static std::size_t addrs = 0x3ad54fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad55cc;
+  constexpr static std::size_t addrs = 0x3ad55a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ad55d4;
+  constexpr static std::size_t addrs = 0x3ad55ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::*)()>(
     &::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad560c;
+  constexpr static std::size_t addrs = 0x3ad55e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(
     &::GlobalNamespace::SongPreviewPlayer::get_activeAudioClip)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ad460c;
+  constexpr static std::size_t addrs = 0x3ad45e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::SongPreviewPlayer::*)()>(
     &::GlobalNamespace::SongPreviewPlayer::get_defaultAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad4660;
+  constexpr static std::size_t addrs = 0x3ad4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Awake)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3ad4668;
+  constexpr static std::size_t addrs = 0x3ad4640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Awake",
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Start)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ad4868;
+  constexpr static std::size_t addrs = 0x3ad4840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Start",
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::OnEnable)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ad4888;
+  constexpr static std::size_t addrs = 0x3ad4860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "OnEnable",
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(
     &::GlobalNamespace::SongPreviewPlayer::CrossFadeAfterDelayCoroutine)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3ad497c;
+  constexpr static std::size_t addrs = 0x3ad4954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::OnDisable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ad4a14;
+  constexpr static std::size_t addrs = 0x3ad49ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "OnDisable",
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::Update)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3ad4ae8;
+  constexpr static std::size_t addrs = 0x3ad4ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), "Update",
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeToDefault)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3ad5020;
+  constexpr static std::size_t addrs = 0x3ad4ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::SongPreviewPlayer::CrossfadeToNewDefault)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ad5198;
+  constexpr static std::size_t addrs = 0x3ad5170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -695,7 +695,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, ::System::Action*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad5278;
+  constexpr static std::size_t addrs = 0x3ad5250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t, bool, ::System::Action*)>(&::GlobalNamespace::SongPreviewPlayer::CrossfadeTo)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3ad4d28;
+  constexpr static std::size_t addrs = 0x3ad4d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::StopCurrentChannel)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ad5284;
+  constexpr static std::size_t addrs = 0x3ad525c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(),
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::PauseCurrentChannel)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3ad531c;
+  constexpr static std::size_t addrs = 0x3ad52f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -756,7 +756,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::UnPauseCurrentChannel)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3ad5390;
+  constexpr static std::size_t addrs = 0x3ad5368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -770,7 +770,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(float_t)>(&::GlobalNamespace::SongPreviewPlayer::FadeOut)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad5400;
+  constexpr static std::size_t addrs = 0x3ad53d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)(int32_t)>(
     &::GlobalNamespace::SongPreviewPlayer::ReportChannelDidFadeOut)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ad4ca0;
+  constexpr static std::size_t addrs = 0x3ad4c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -799,7 +799,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPreviewPlayer::*)()>(&::GlobalNamespace::SongPreviewPlayer::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ad541c;
+  constexpr static std::size_t addrs = 0x3ad53f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPreviewPlayer*>::get(), ".ctor",

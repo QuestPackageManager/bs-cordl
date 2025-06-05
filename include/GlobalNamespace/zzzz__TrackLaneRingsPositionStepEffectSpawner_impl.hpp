@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3ba0338;
+  constexpr static std::size_t addrs = 0x3ba0310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ba0460;
+  constexpr static std::size_t addrs = 0x3ba0438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ba047c;
+  constexpr static std::size_t addrs = 0x3ba0454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ba04fc;
+  constexpr static std::size_t addrs = 0x3ba04d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

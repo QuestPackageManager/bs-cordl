@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_TZifType::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::TimeZoneInfo_TZifType::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3d4d78c;
+  constexpr static std::size_t addrs = 0x3d4d714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_TZifHead::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::TimeZoneInfo_TZifHead::_ctor)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3d4d5e0;
+  constexpr static std::size_t addrs = 0x3d4d568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::TimeZoneInfo_TransitionTime::*)()>(
     &::System::TimeZoneInfo_TransitionTime::get_TimeOfDay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53850;
+  constexpr static std::size_t addrs = 0x3d537d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(), "get_TimeOfDay",
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo_TransitionTime::*)()>(&::System::TimeZoneInfo_TransitionTime::get_Month)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53858;
+  constexpr static std::size_t addrs = 0x3d537e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(), "get_Month",
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo_TransitionTime::*)()>(&::System::TimeZoneInfo_TransitionTime::get_Week)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53860;
+  constexpr static std::size_t addrs = 0x3d537e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(), "get_Week",
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo_TransitionTime::*)()>(&::System::TimeZoneInfo_TransitionTime::get_Day)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53868;
+  constexpr static std::size_t addrs = 0x3d537f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(), "get_Day",
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DayOfWeek (::System::TimeZoneInfo_TransitionTime::*)()>(
     &::System::TimeZoneInfo_TransitionTime::get_DayOfWeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53870;
+  constexpr static std::size_t addrs = 0x3d537f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(), "get_DayOfWeek",
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_TransitionTime::*)()>(&::System::TimeZoneInfo_TransitionTime::get_IsFixedDateRule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53878;
+  constexpr static std::size_t addrs = 0x3d53800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(),
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_TransitionTime::*)(::System::Object*)>(&::System::TimeZoneInfo_TransitionTime::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3d53880;
+  constexpr static std::size_t addrs = 0x3d53808;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::TimeZoneInfo_TransitionTime, ::System::TimeZoneInfo_TransitionTime)>(
     &::System::TimeZoneInfo_TransitionTime::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d52960;
+  constexpr static std::size_t addrs = 0x3d528e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_TransitionTime::*)(::System::TimeZoneInfo_TransitionTime)>(
     &::System::TimeZoneInfo_TransitionTime::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3d52994;
+  constexpr static std::size_t addrs = 0x3d5291c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo_TransitionTime::*)()>(&::System::TimeZoneInfo_TransitionTime::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d53910;
+  constexpr static std::size_t addrs = 0x3d53898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::TimeZoneInfo_TransitionTime::*)(::System::DateTime, int32_t, int32_t, int32_t, ::System::DayOfWeek, bool)>(&::System::TimeZoneInfo_TransitionTime::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d53918;
+  constexpr static std::size_t addrs = 0x3d538a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_TransitionTime (*)(::System::DateTime, int32_t, int32_t)>(
     &::System::TimeZoneInfo_TransitionTime::CreateFixedDateRule)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d48f8c;
+  constexpr static std::size_t addrs = 0x3d48f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_TransitionTime (*)(::System::DateTime, int32_t, int32_t, ::System::DayOfWeek)>(
     &::System::TimeZoneInfo_TransitionTime::CreateFloatingDateRule)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d4cb04;
+  constexpr static std::size_t addrs = 0x3d4ca8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::DateTime, int32_t, int32_t, int32_t, ::System::DayOfWeek)>(
     &::System::TimeZoneInfo_TransitionTime::ValidateTransitionTime)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3d53988;
+  constexpr static std::size_t addrs = 0x3d53910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_TransitionTime::*)(::System::Object*)>(
     &::System::TimeZoneInfo_TransitionTime::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3d53c34;
+  constexpr static std::size_t addrs = 0x3d53bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_TransitionTime>::get(),
@@ -333,7 +333,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::TimeZoneInfo_TransitionTime::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::TimeZoneInfo_TransitionTime::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3d53d20;
+  constexpr static std::size_t addrs = 0x3d53ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_TransitionTime::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::TimeZoneInfo_TransitionTime::_ctor)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3d53ec8;
+  constexpr static std::size_t addrs = 0x3d53e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_DateStart)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d52910;
+  constexpr static std::size_t addrs = 0x3d52898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(), "get_DateStart",
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_DateEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d52918;
+  constexpr static std::size_t addrs = 0x3d528a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(), "get_DateEnd",
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_DaylightDelta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d52920;
+  constexpr static std::size_t addrs = 0x3d528a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_TransitionTime (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_DaylightTransitionStart)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d52928;
+  constexpr static std::size_t addrs = 0x3d528b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_TransitionTime (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_DaylightTransitionEnd)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d5293c;
+  constexpr static std::size_t addrs = 0x3d528c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_BaseUtcOffsetDelta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d52950;
+  constexpr static std::size_t addrs = 0x3d528d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::get_NoDaylightTransitions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d52958;
+  constexpr static std::size_t addrs = 0x3d528e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -606,7 +606,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_AdjustmentRule::*)()>(&::System::TimeZoneInfo_AdjustmentRule::get_HasDaylightSaving)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3d4e69c;
+  constexpr static std::size_t addrs = 0x3d4e624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_AdjustmentRule::*)(::System::TimeZoneInfo_AdjustmentRule*)>(
     &::System::TimeZoneInfo_AdjustmentRule::Equals)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3d4f6a0;
+  constexpr static std::size_t addrs = 0x3d4f628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo_AdjustmentRule::*)()>(&::System::TimeZoneInfo_AdjustmentRule::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d52a6c;
+  constexpr static std::size_t addrs = 0x3d529f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -650,7 +650,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::DateTime, ::System::DateTime, ::System::TimeSpan, ::System::TimeZoneInfo_TransitionTime, ::System::TimeZoneInfo_TransitionTime, ::System::TimeSpan, bool)>(
     &::System::TimeZoneInfo_AdjustmentRule::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d52ac4;
+  constexpr static std::size_t addrs = 0x3d52a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -670,7 +670,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TimeZoneInfo_AdjustmentRule* (*)(::System::DateTime, ::System::DateTime, ::System::TimeSpan, ::System::TimeZoneInfo_TransitionTime, ::System::TimeZoneInfo_TransitionTime)>(
         &::System::TimeZoneInfo_AdjustmentRule::CreateAdjustmentRule)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3d48fec;
+  constexpr static std::size_t addrs = 0x3d48f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -689,7 +689,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TimeZoneInfo_AdjustmentRule* (*)(::System::DateTime, ::System::DateTime, ::System::TimeSpan, ::System::TimeZoneInfo_TransitionTime, ::System::TimeZoneInfo_TransitionTime,
                                                            ::System::TimeSpan, bool)>(&::System::TimeZoneInfo_AdjustmentRule::CreateAdjustmentRule)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d4b968;
+  constexpr static std::size_t addrs = 0x3d4b8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -708,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::IsStartDateMarkerForBeginningOfYear)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3d50b40;
+  constexpr static std::size_t addrs = 0x3d50ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -723,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo_AdjustmentRule::*)()>(
     &::System::TimeZoneInfo_AdjustmentRule::IsEndDateMarkerForEndOfYear)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3d50c58;
+  constexpr static std::size_t addrs = 0x3d50be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -738,7 +738,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::DateTime, ::System::DateTime, ::System::TimeSpan, ::System::TimeZoneInfo_TransitionTime, ::System::TimeZoneInfo_TransitionTime, bool)>(
         &::System::TimeZoneInfo_AdjustmentRule::ValidateAdjustmentRule)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x3d52b8c;
+  constexpr static std::size_t addrs = 0x3d52b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -756,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_AdjustmentRule::*)(::System::Object*)>(
     &::System::TimeZoneInfo_AdjustmentRule::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3d530b0;
+  constexpr static std::size_t addrs = 0x3d53038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(),
@@ -772,7 +772,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::TimeZoneInfo_AdjustmentRule::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::TimeZoneInfo_AdjustmentRule::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3d531c4;
+  constexpr static std::size_t addrs = 0x3d5314c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -789,7 +789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_AdjustmentRule::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::TimeZoneInfo_AdjustmentRule::_ctor)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x3d53404;
+  constexpr static std::size_t addrs = 0x3d5338c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -804,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_AdjustmentRule::*)()>(&::System::TimeZoneInfo_AdjustmentRule::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d53818;
+  constexpr static std::size_t addrs = 0x3d537a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_AdjustmentRule*>::get(), ".ctor",
@@ -1080,7 +1080,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (::System::TimeZoneInfo_CachedData::*)()>(&::System::TimeZoneInfo_CachedData::CreateLocal)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3d54240;
+  constexpr static std::size_t addrs = 0x3d541c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_CachedData*>::get(), "CreateLocal",
@@ -1093,7 +1093,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (::System::TimeZoneInfo_CachedData::*)()>(&::System::TimeZoneInfo_CachedData::get_Local)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d4dda0;
+  constexpr static std::size_t addrs = 0x3d4dd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_CachedData*>::get(), "get_Local",
@@ -1107,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeKind (::System::TimeZoneInfo_CachedData::*)(::System::TimeZoneInfo*)>(
     &::System::TimeZoneInfo_CachedData::GetCorrespondingKind)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d4de50;
+  constexpr static std::size_t addrs = 0x3d4ddd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1121,7 +1121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo_CachedData::*)()>(&::System::TimeZoneInfo_CachedData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d528d0;
+  constexpr static std::size_t addrs = 0x3d52858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo_CachedData*>::get(), ".ctor",
@@ -1172,7 +1172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo___c__DisplayClass16_0::*)()>(&::System::TimeZoneInfo___c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d4a290;
+  constexpr static std::size_t addrs = 0x3d4a218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo___c__DisplayClass16_0*>::get(), ".ctor",
@@ -1186,7 +1186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo___c__DisplayClass16_0::*)(::StringW)>(
     &::System::TimeZoneInfo___c__DisplayClass16_0::_FindTimeZoneId_b__0)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d543c4;
+  constexpr static std::size_t addrs = 0x3d5434c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,7 +1288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo___c::*)()>(&::System::TimeZoneInfo___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d54514;
+  constexpr static std::size_t addrs = 0x3d5449c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo___c*>::get(), ".ctor",
@@ -1301,7 +1301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo___c::*)(char16_t)>(&::System::TimeZoneInfo___c::_TZif_ParsePosixName_b__34_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d5451c;
+  constexpr static std::size_t addrs = 0x3d544a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1315,7 +1315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo___c::*)(char16_t)>(&::System::TimeZoneInfo___c::_TZif_ParsePosixName_b__34_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d5452c;
+  constexpr static std::size_t addrs = 0x3d544b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1329,7 +1329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo___c::*)(char16_t)>(&::System::TimeZoneInfo___c::_TZif_ParsePosixOffset_b__35_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d54620;
+  constexpr static std::size_t addrs = 0x3d545a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1343,7 +1343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo___c::*)(char16_t)>(&::System::TimeZoneInfo___c::_TZif_ParsePosixDate_b__37_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d546a0;
+  constexpr static std::size_t addrs = 0x3d54628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1357,7 +1357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo___c::*)(char16_t)>(&::System::TimeZoneInfo___c::_TZif_ParsePosixTime_b__38_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d546bc;
+  constexpr static std::size_t addrs = 0x3d54644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1372,7 +1372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::TimeZoneInfo___c::*)(::System::TimeZoneInfo_AdjustmentRule*, ::System::TimeZoneInfo_AdjustmentRule*)>(&::System::TimeZoneInfo___c::_CreateLocalUnity_b__161_0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d546cc;
+  constexpr static std::size_t addrs = 0x3d54654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1486,7 +1486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW, bool)>(
     &::System::TimeZoneInfo::_ctor)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x3d47cb4;
+  constexpr static std::size_t addrs = 0x3d47c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1502,7 +1502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::GetAdjustmentRules)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x3d48b1c;
+  constexpr static std::size_t addrs = 0x3d48aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "GetAdjustmentRules",
@@ -1515,7 +1515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)(::System::TimeZoneInfo_CachedData*)>(&::System::TimeZoneInfo::GetLocalTimeZone)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d490f4;
+  constexpr static std::size_t addrs = 0x3d4907c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1530,7 +1530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<::StringW>)>(
     &::System::TimeZoneInfo::TryGetLocalTzFile)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3d492a4;
+  constexpr static std::size_t addrs = 0x3d4922c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1545,7 +1545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::TimeZoneInfo::GetTzEnvironmentVariable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3d4945c;
+  constexpr static std::size_t addrs = 0x3d493e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "GetTzEnvironmentVariable",
@@ -1559,7 +1559,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<::StringW>)>(
     &::System::TimeZoneInfo::TryLoadTzFile)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3d494f4;
+  constexpr static std::size_t addrs = 0x3d4947c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1575,7 +1575,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::TimeZoneInfo::FindTimeZoneIdUsingReadLink)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3d497f4;
+  constexpr static std::size_t addrs = 0x3d4977c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1590,7 +1590,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ByRef<::GlobalNamespace::Sys_Interop_DirectoryEntry>, ::StringW)>(
     &::System::TimeZoneInfo::GetDirectoryEntryFullPath)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3d49b6c;
+  constexpr static std::size_t addrs = 0x3d49af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1605,7 +1605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Predicate_1<::StringW>*)>(&::System::TimeZoneInfo::EnumerateFilesRecursively)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x3d49cd8;
+  constexpr static std::size_t addrs = 0x3d49c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1620,7 +1620,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::TimeZoneInfo::FindTimeZoneId)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3d49900;
+  constexpr static std::size_t addrs = 0x3d49888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1635,7 +1635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::TimeZoneInfo::CompareTimeZoneFile)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x3d4a298;
+  constexpr static std::size_t addrs = 0x3d4a220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1651,7 +1651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)()>(&::System::TimeZoneInfo::GetLocalTimeZoneFromTzFile)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3d49140;
+  constexpr static std::size_t addrs = 0x3d490c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "GetLocalTimeZoneFromTzFile",
@@ -1665,7 +1665,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW)>(
     &::System::TimeZoneInfo::GetTimeZoneFromTzData)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3d4a648;
+  constexpr static std::size_t addrs = 0x3d4a5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1680,7 +1680,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::TimeZoneInfo::GetTimeZoneDirectory)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3d49684;
+  constexpr static std::size_t addrs = 0x3d4960c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "GetTimeZoneDirectory",
@@ -1693,7 +1693,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::ByRef<bool>)>(&::System::TimeZoneInfo::GetDateTimeNowUtcOffsetFromUtc)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d4ad10;
+  constexpr static std::size_t addrs = 0x3d4ac98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1711,7 +1711,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*>, ::ArrayW<bool, ::Array<bool>*>, ::ArrayW<bool, ::Array<bool>*>,
     ::StringW)>(&::System::TimeZoneInfo::TZif_GenerateAdjustmentRules)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3d4868c;
+  constexpr static std::size_t addrs = 0x3d48614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1735,7 +1735,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*>, ::ArrayW<bool, ::Array<bool>*>, ::ArrayW<bool, ::Array<bool>*>,
     ::StringW)>(&::System::TimeZoneInfo::TZif_GenerateAdjustmentRule)> {
   constexpr static std::size_t size = 0x6f0;
-  constexpr static std::size_t addrs = 0x3d4b0d8;
+  constexpr static std::size_t addrs = 0x3d4b060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1757,7 +1757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::TimeSpan, ::System::TimeSpan)>(
     &::System::TimeZoneInfo::TZif_CalculateTransitionOffsetFromBase)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3d4b878;
+  constexpr static std::size_t addrs = 0x3d4b800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1773,7 +1773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TimeZoneInfo_TZifType (*)(::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*>)>(&::System::TimeZoneInfo::TZif_GetEarlyDateTransitionType)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d4b7c8;
+  constexpr static std::size_t addrs = 0x3d4b750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1788,7 +1788,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_AdjustmentRule* (*)(::StringW, ::System::DateTime, ::System::TimeSpan)>(
     &::System::TimeZoneInfo::TZif_CreateAdjustmentRuleForPosixFormat)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x3d4bce4;
+  constexpr static std::size_t addrs = 0x3d4bc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1803,7 +1803,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (*)(::StringW)>(&::System::TimeZoneInfo::TZif_ParseOffsetString)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3d4c248;
+  constexpr static std::size_t addrs = 0x3d4c1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1817,7 +1817,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::TimeZoneInfo::ParseTimeOfDay)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3d4c6b4;
+  constexpr static std::size_t addrs = 0x3d4c63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1832,7 +1832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_TransitionTime (*)(::StringW, ::StringW)>(
     &::System::TimeZoneInfo::TZif_CreateTransitionTimeFromPosixRule)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x3d4c45c;
+  constexpr static std::size_t addrs = 0x3d4c3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1846,7 +1846,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::System::TimeZoneInfo::TZif_ParseJulianDay)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3d4cb6c;
+  constexpr static std::size_t addrs = 0x3d4caf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1862,7 +1862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::System::DayOfWeek>)>(
     &::System::TimeZoneInfo::TZif_ParseMDateRule)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x3d4c908;
+  constexpr static std::size_t addrs = 0x3d4c890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1880,7 +1880,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
         &::System::TimeZoneInfo::TZif_ParsePosixFormat)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x3d4c04c;
+  constexpr static std::size_t addrs = 0x3d4bfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1899,7 +1899,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ByRef<int32_t>)>(&::System::TimeZoneInfo::TZif_ParsePosixName)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x3d4cd34;
+  constexpr static std::size_t addrs = 0x3d4ccbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1914,7 +1914,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ByRef<int32_t>)>(&::System::TimeZoneInfo::TZif_ParsePosixOffset)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3d4cf68;
+  constexpr static std::size_t addrs = 0x3d4cef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1930,7 +1930,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<int32_t>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::TimeZoneInfo::TZif_ParsePosixDateTime)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3d4d074;
+  constexpr static std::size_t addrs = 0x3d4cffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1946,7 +1946,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ByRef<int32_t>)>(&::System::TimeZoneInfo::TZif_ParsePosixDate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3d4d1e8;
+  constexpr static std::size_t addrs = 0x3d4d170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1961,7 +1961,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ByRef<int32_t>)>(&::System::TimeZoneInfo::TZif_ParsePosixTime)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3d4d2f4;
+  constexpr static std::size_t addrs = 0x3d4d27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1977,7 +1977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ByRef<int32_t>, ::System::Func_2<char16_t, bool>*)>(
     &::System::TimeZoneInfo::TZif_ParsePosixString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3d4d150;
+  constexpr static std::size_t addrs = 0x3d4d0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1992,7 +1992,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::TimeZoneInfo::TZif_GetZoneAbbreviation)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d48628;
+  constexpr static std::size_t addrs = 0x3d485b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2006,7 +2006,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::TimeZoneInfo::TZif_ToInt32)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3d4d400;
+  constexpr static std::size_t addrs = 0x3d4d388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2021,7 +2021,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::TimeZoneInfo::TZif_ToInt64)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3d4d430;
+  constexpr static std::size_t addrs = 0x3d4d3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2037,7 +2037,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::System::TimeZoneInfo_TZVersion)>(
     &::System::TimeZoneInfo::TZif_ToUnixTime)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d4d460;
+  constexpr static std::size_t addrs = 0x3d4d3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2053,7 +2053,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int64_t)>(&::System::TimeZoneInfo::TZif_UnixTimeToDateTime)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3d4d4e8;
+  constexpr static std::size_t addrs = 0x3d4d470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2070,7 +2070,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*>>, ::ByRef<::StringW>,
                          ::ByRef<::ArrayW<bool, ::Array<bool>*>>, ::ByRef<::ArrayW<bool, ::Array<bool>*>>, ::ByRef<::StringW>)>(&::System::TimeZoneInfo::TZif_ParseRaw)> {
   constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x3d48100;
+  constexpr static std::size_t addrs = 0x3d48088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2092,7 +2092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::get_DisplayName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d4d8c8;
+  constexpr static std::size_t addrs = 0x3d4d850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_DisplayName",
@@ -2105,7 +2105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::get_StandardName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d4d91c;
+  constexpr static std::size_t addrs = 0x3d4d8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_StandardName",
@@ -2118,7 +2118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::get_DaylightName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d4d970;
+  constexpr static std::size_t addrs = 0x3d4d8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_DaylightName",
@@ -2131,7 +2131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::get_BaseUtcOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d4d9c4;
+  constexpr static std::size_t addrs = 0x3d4d94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_BaseUtcOffset",
@@ -2144,7 +2144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::get_SupportsDaylightSavingTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d4d9cc;
+  constexpr static std::size_t addrs = 0x3d4d954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_SupportsDaylightSavingTime",
@@ -2158,7 +2158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_AdjustmentRule* (
     ::System::TimeZoneInfo::*)(::System::TimeZoneInfo_AdjustmentRule*, ::System::Nullable_1<int32_t>)>(&::System::TimeZoneInfo::GetPreviousAdjustmentRule)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3d4d9d4;
+  constexpr static std::size_t addrs = 0x3d4d95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2173,7 +2173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo::*)(::System::DateTime)>(&::System::TimeZoneInfo::GetUtcOffset)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d4daf8;
+  constexpr static std::size_t addrs = 0x3d4da80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2188,7 +2188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::TimeZoneInfoOptions)>(
     &::System::TimeZoneInfo::GetLocalUtcOffset)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d4dd04;
+  constexpr static std::size_t addrs = 0x3d4dc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2204,7 +2204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo::*)(::System::DateTime, ::System::TimeZoneInfoOptions)>(
     &::System::TimeZoneInfo::GetUtcOffset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d4ddd8;
+  constexpr static std::size_t addrs = 0x3d4dd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2220,7 +2220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TimeSpan (::System::TimeZoneInfo::*)(::System::DateTime, ::System::TimeZoneInfoOptions, ::System::TimeZoneInfo_CachedData*)>(&::System::TimeZoneInfo::GetUtcOffset)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3d4db6c;
+  constexpr static std::size_t addrs = 0x3d4daf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2237,7 +2237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::DateTime (*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfo*, ::System::TimeZoneInfoOptions)>(&::System::TimeZoneInfo::ConvertTime)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d4dedc;
+  constexpr static std::size_t addrs = 0x3d4de64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2255,7 +2255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(
     ::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfo*, ::System::TimeZoneInfoOptions, ::System::TimeZoneInfo_CachedData*)>(&::System::TimeZoneInfo::ConvertTime)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x3d4e184;
+  constexpr static std::size_t addrs = 0x3d4e10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2274,7 +2274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::DateTime, ::System::TimeZoneInfoOptions)>(
     &::System::TimeZoneInfo::ConvertTimeToUtc)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d4f2f4;
+  constexpr static std::size_t addrs = 0x3d4f27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2289,7 +2289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo::*)(::System::TimeZoneInfo*)>(&::System::TimeZoneInfo::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d4f3e8;
+  constexpr static std::size_t addrs = 0x3d4f370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2303,7 +2303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo::*)(::System::Object*)>(&::System::TimeZoneInfo::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d4f59c;
+  constexpr static std::size_t addrs = 0x3d4f524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2317,7 +2317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::GetHashCode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d4f600;
+  constexpr static std::size_t addrs = 0x3d4f588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2331,7 +2331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TimeZoneInfo::*)(::System::TimeZoneInfo*)>(&::System::TimeZoneInfo::HasSameRules)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3d4f438;
+  constexpr static std::size_t addrs = 0x3d4f3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2345,7 +2345,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)()>(&::System::TimeZoneInfo::get_Local)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d4ad88;
+  constexpr static std::size_t addrs = 0x3d4ad10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_Local",
@@ -2358,7 +2358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::ToString)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d4f804;
+  constexpr static std::size_t addrs = 0x3d4f78c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2372,7 +2372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)()>(&::System::TimeZoneInfo::get_Utc)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d4f858;
+  constexpr static std::size_t addrs = 0x3d4f7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "get_Utc",
@@ -2387,7 +2387,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::TimeSpan, ::StringW, ::StringW, ::StringW, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*>, bool)>(
     &::System::TimeZoneInfo::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3d4f8b0;
+  constexpr static std::size_t addrs = 0x3d4f838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2407,7 +2407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)(::StringW, ::System::TimeSpan, ::StringW, ::StringW)>(
     &::System::TimeZoneInfo::CreateCustomTimeZone)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3d4f990;
+  constexpr static std::size_t addrs = 0x3d4f918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2424,7 +2424,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TimeZoneInfo* (*)(::StringW, ::System::TimeSpan, ::StringW, ::StringW, ::StringW,
                                             ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*>, bool)>(&::System::TimeZoneInfo::CreateCustomTimeZone)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d4fa24;
+  constexpr static std::size_t addrs = 0x3d4f9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2444,7 +2444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo::*)(::System::Object*)>(
     &::System::TimeZoneInfo::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3d4fb28;
+  constexpr static std::size_t addrs = 0x3d4fab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2459,7 +2459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::TimeZoneInfo::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3d4fcfc;
+  constexpr static std::size_t addrs = 0x3d4fc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2475,7 +2475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::TimeZoneInfo::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::TimeZoneInfo::_ctor)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x3d4fed4;
+  constexpr static std::size_t addrs = 0x3d4fe5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2491,7 +2491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TimeZoneInfo_AdjustmentRule* (::System::TimeZoneInfo::*)(::System::DateTime, ::ByRef<::System::Nullable_1<int32_t>>)>(&::System::TimeZoneInfo::GetAdjustmentRuleForTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d4e690;
+  constexpr static std::size_t addrs = 0x3d4e618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2507,7 +2507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo_AdjustmentRule* (
     ::System::TimeZoneInfo::*)(::System::DateTime, bool, ::ByRef<::System::Nullable_1<int32_t>>)>(&::System::TimeZoneInfo::GetAdjustmentRuleForTime)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3d502e4;
+  constexpr static std::size_t addrs = 0x3d5026c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2523,7 +2523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TimeZoneInfo::*)(
     ::System::TimeZoneInfo_AdjustmentRule*, ::System::TimeZoneInfo_AdjustmentRule*, ::System::DateTime, ::System::DateTime, bool)>(&::System::TimeZoneInfo::CompareAdjustmentRuleToDateTime)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3d50498;
+  constexpr static std::size_t addrs = 0x3d50420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2541,7 +2541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::TimeZoneInfo::*)(::System::DateTime, ::System::TimeSpan, ::System::TimeSpan)>(
     &::System::TimeZoneInfo::ConvertToUtc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d50644;
+  constexpr static std::size_t addrs = 0x3d505cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2558,7 +2558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::TimeZoneInfo::*)(::System::DateTime, ::System::TimeSpan, ::System::TimeSpan)>(
     &::System::TimeZoneInfo::ConvertFromUtc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d507ec;
+  constexpr static std::size_t addrs = 0x3d50774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2575,7 +2575,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::TimeZoneInfo::*)(::System::DateTime, ::System::TimeSpan, ::System::TimeSpan, bool)>(
     &::System::TimeZoneInfo::ConvertToFromUtc)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3d5064c;
+  constexpr static std::size_t addrs = 0x3d505d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2592,7 +2592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int64_t, ::System::TimeZoneInfo*, ::ByRef<bool>)>(
     &::System::TimeZoneInfo::ConvertUtcToTimeZone)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3d4f0ec;
+  constexpr static std::size_t addrs = 0x3d4f074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2609,7 +2609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::DaylightTimeStruct (::System::TimeZoneInfo::*)(
     int32_t, ::System::TimeZoneInfo_AdjustmentRule*, ::System::Nullable_1<int32_t>)>(&::System::TimeZoneInfo::GetDaylightTime)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3d4e804;
+  constexpr static std::size_t addrs = 0x3d4e78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2626,7 +2626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::DateTime, ::System::TimeZoneInfo_AdjustmentRule*, ::System::Globalization::DaylightTimeStruct,
                                                                                            ::System::TimeZoneInfoOptions)>(&::System::TimeZoneInfo::GetIsDaylightSavings)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3d4ed0c;
+  constexpr static std::size_t addrs = 0x3d4ec94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2644,7 +2644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo::*)(
     ::System::TimeSpan, ::System::TimeZoneInfo_AdjustmentRule*, ::System::Nullable_1<int32_t>)>(&::System::TimeZoneInfo::GetDaylightSavingsStartOffsetFromUtc)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d5135c;
+  constexpr static std::size_t addrs = 0x3d512e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2661,7 +2661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::TimeZoneInfo::*)(::System::TimeSpan, ::System::TimeZoneInfo_AdjustmentRule*)>(
     &::System::TimeZoneInfo::GetDaylightSavingsEndOffsetFromUtc)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d51424;
+  constexpr static std::size_t addrs = 0x3d513ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2678,7 +2678,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::DateTime, int32_t, ::System::TimeSpan, ::System::TimeZoneInfo_AdjustmentRule*, ::System::Nullable_1<int32_t>, ::ByRef<bool>, ::System::TimeZoneInfo*)>(
         &::System::TimeZoneInfo::GetIsDaylightSavingsFromUtc)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x3d5149c;
+  constexpr static std::size_t addrs = 0x3d51424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2697,7 +2697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::DateTime, ::System::DateTime, ::System::DateTime, bool, ::System::TimeZoneInfo_AdjustmentRule*)>(
     &::System::TimeZoneInfo::CheckIsDst)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3d50d70;
+  constexpr static std::size_t addrs = 0x3d50cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2715,7 +2715,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::DateTime, ::System::TimeZoneInfo_AdjustmentRule*, ::System::Globalization::DaylightTimeStruct)>(
     &::System::TimeZoneInfo::GetIsAmbiguousTime)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x3d50f98;
+  constexpr static std::size_t addrs = 0x3d50f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2732,7 +2732,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::DateTime, ::System::TimeZoneInfo_AdjustmentRule*, ::System::Globalization::DaylightTimeStruct)>(
     &::System::TimeZoneInfo::GetIsInvalidTime)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x3d4e940;
+  constexpr static std::size_t addrs = 0x3d4e8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2749,7 +2749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::TimeZoneInfo*, ::System::TimeZoneInfoOptions)>(
     &::System::TimeZoneInfo::GetUtcOffset)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3d4dfd4;
+  constexpr static std::size_t addrs = 0x3d4df5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2765,7 +2765,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::TimeZoneInfo*)>(&::System::TimeZoneInfo::GetUtcOffsetFromUtc)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d4df64;
+  constexpr static std::size_t addrs = 0x3d4deec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2781,7 +2781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::TimeZoneInfo*, ::ByRef<bool>)>(
     &::System::TimeZoneInfo::GetUtcOffsetFromUtc)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d507f4;
+  constexpr static std::size_t addrs = 0x3d5077c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2798,7 +2798,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::DateTime, ::System::TimeZoneInfo*, ::ByRef<bool>, ::ByRef<bool>)>(
     &::System::TimeZoneInfo::GetUtcOffsetFromUtc)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3d4ae08;
+  constexpr static std::size_t addrs = 0x3d4ad90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2815,7 +2815,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(int32_t, ::System::TimeZoneInfo_TransitionTime)>(
     &::System::TimeZoneInfo::TransitionTimeToDateTime)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x3d50874;
+  constexpr static std::size_t addrs = 0x3d507fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2831,7 +2831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::StringW, ::System::TimeSpan, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*>, ::ByRef<bool>)>(&::System::TimeZoneInfo::ValidateTimeZoneInfo)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3d487d4;
+  constexpr static std::size_t addrs = 0x3d4875c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2848,7 +2848,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::TimeSpan)>(&::System::TimeZoneInfo::UtcOffsetOutOfRange)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3d51c88;
+  constexpr static std::size_t addrs = 0x3d51c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2863,7 +2863,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::System::TimeSpan, ::System::TimeZoneInfo_AdjustmentRule*)>(
     &::System::TimeZoneInfo::GetUtcOffset)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d51db0;
+  constexpr static std::size_t addrs = 0x3d51d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2879,7 +2879,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::TimeSpan, ::System::TimeZoneInfo_AdjustmentRule*)>(
     &::System::TimeZoneInfo::IsValidAdjustmentRuleOffest)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3d4ba30;
+  constexpr static std::size_t addrs = 0x3d4b9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2895,7 +2895,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::TimeSpan, ::ByRef<::System::TimeZoneInfo_AdjustmentRule*>)>(
     &::System::TimeZoneInfo::NormalizeAdjustmentRuleOffset)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3d4baa4;
+  constexpr static std::size_t addrs = 0x3d4ba2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2910,7 +2910,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::TimeZoneInfo::GetTimeZoneDirectoryUnity)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3d51e78;
+  constexpr static std::size_t addrs = 0x3d51e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "GetTimeZoneDirectoryUnity",
@@ -2925,7 +2925,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* (*)(int32_t, ::ByRef<::ArrayW<int64_t, ::Array<int64_t>*>>, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>)>(
     &::System::TimeZoneInfo::CreateAdjustmentRule)> {
   constexpr static std::size_t size = 0x8a4;
-  constexpr static std::size_t addrs = 0x3d51ec0;
+  constexpr static std::size_t addrs = 0x3d51e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2941,7 +2941,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeZoneInfo* (*)()>(&::System::TimeZoneInfo::CreateLocalUnity)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x3d4a7f0;
+  constexpr static std::size_t addrs = 0x3d4a778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), "CreateLocalUnity",
@@ -2954,7 +2954,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TimeZoneInfo::*)()>(&::System::TimeZoneInfo::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d528d8;
+  constexpr static std::size_t addrs = 0x3d52860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TimeZoneInfo*>::get(), ".ctor",

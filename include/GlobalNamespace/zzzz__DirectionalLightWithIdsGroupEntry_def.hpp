@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  /// @brief Method .ctor, addr 0x39e15b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e1590, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup);
 
-  /// @brief Method get_groupIntensity, addr 0x39e15b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x39e1588, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_lightGroup, addr 0x39e15a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x39e1580, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
 protected:
@@ -145,13 +145,13 @@ public:
 
   constexpr void __cordl_internal_set__lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e15f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e15d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x39e15f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e15c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_lightId, addr 0x39e15e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x39e15c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
 protected:
@@ -255,16 +255,16 @@ public:
 
   constexpr void __cordl_internal_set__individualLightData(::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* value);
 
-  /// @brief Method .ctor, addr 0x39e15a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e1578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupLightData, addr 0x39e1588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x39e1560, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x39e1598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x39e1570, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
-  /// @brief Method get_individualLightData, addr 0x39e1590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x39e1568, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* get_individualLightData();
 
 protected:

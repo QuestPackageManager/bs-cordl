@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::NetworkPlayersViewController::add_onJoinRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af39d0;
+  constexpr static std::size_t addrs = 0x3af39a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::NetworkPlayersViewController::remove_onJoinRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af3a80;
+  constexpr static std::size_t addrs = 0x3af3a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::NetworkPlayersViewController::add_onInviteRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af3b30;
+  constexpr static std::size_t addrs = 0x3af3b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::NetworkPlayersViewController::remove_onInviteRequestEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af3be0;
+  constexpr static std::size_t addrs = 0x3af3bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::NetworkPlayersViewController::DidActivate)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x3af3c90;
+  constexpr static std::size_t addrs = 0x3af3c68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(bool, bool)>(
     &::GlobalNamespace::NetworkPlayersViewController::NetworkPlayersViewControllerDidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af40fc;
+  constexpr static std::size_t addrs = 0x3af40d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(bool, bool)>(
     &::GlobalNamespace::NetworkPlayersViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3af4100;
+  constexpr static std::size_t addrs = 0x3af40d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(bool)>(
     &::GlobalNamespace::NetworkPlayersViewController::NetworkPlayersViewControllerDidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af43a8;
+  constexpr static std::size_t addrs = 0x3af4380;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)()>(
     &::GlobalNamespace::NetworkPlayersViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af43ac;
+  constexpr static std::size_t addrs = 0x3af4384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::GlobalNamespace::INetworkPlayerModel*)>(
     &::GlobalNamespace::NetworkPlayersViewController::HandlePartyChanged)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3af43b4;
+  constexpr static std::size_t addrs = 0x3af438c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::NetworkPlayersViewController::HandleJoinRequest)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3af43cc;
+  constexpr static std::size_t addrs = 0x3af43a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::NetworkPlayersViewController::HandleInviteRequest)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3af43e8;
+  constexpr static std::size_t addrs = 0x3af43c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)()>(
     &::GlobalNamespace::NetworkPlayersViewController::Refresh)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3af3f6c;
+  constexpr static std::size_t addrs = 0x3af3f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersViewController*>::get(),
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersViewController::*)()>(
     &::GlobalNamespace::NetworkPlayersViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af4404;
+  constexpr static std::size_t addrs = 0x3af43dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersViewController*>::get(), ".ctor",

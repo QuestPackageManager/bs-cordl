@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::TemplateContainer_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::TemplateContainer_UxmlFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a908cc;
+  constexpr static std::size_t addrs = 0x4a90854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::TemplateContainer_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::TemplateContainer_UxmlFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a9090c;
+  constexpr static std::size_t addrs = 0x4a90894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::TemplateContainer_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a90980;
+  constexpr static std::size_t addrs = 0x4a90908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TemplateContainer_UxmlFactory*>::get(),
@@ -84,7 +84,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::TemplateContainer_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x4a909c8;
+  constexpr static std::size_t addrs = 0x4a90950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::TemplateContainer_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a91734;
+  constexpr static std::size_t addrs = 0x4a916bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TemplateContainer_UxmlTraits*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::TemplateContainer::*)()>(
     &::UnityEngine::UIElements::TemplateContainer::get_templateId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a90858;
+  constexpr static std::size_t addrs = 0x4a907e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TemplateContainer*>::get(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer::*)(::StringW)>(
     &::UnityEngine::UIElements::TemplateContainer::set_templateId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a90860;
+  constexpr static std::size_t addrs = 0x4a907e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
     &::UnityEngine::UIElements::TemplateContainer::set_templateSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a90868;
+  constexpr static std::size_t addrs = 0x4a907f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer::*)()>(&::UnityEngine::UIElements::TemplateContainer::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a90870;
+  constexpr static std::size_t addrs = 0x4a907f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TemplateContainer*>::get(), ".ctor",
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer::*)(::StringW)>(
     &::UnityEngine::UIElements::TemplateContainer::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4a90890;
+  constexpr static std::size_t addrs = 0x4a90818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TemplateContainer::*)()>(
     &::UnityEngine::UIElements::TemplateContainer::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a908bc;
+  constexpr static std::size_t addrs = 0x4a90844;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TemplateContainer::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TemplateContainer::SetContentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a908c4;
+  constexpr static std::size_t addrs = 0x4a9084c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

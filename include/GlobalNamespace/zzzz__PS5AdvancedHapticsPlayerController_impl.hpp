@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39caf60;
+  constexpr static std::size_t addrs = 0x39caf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass6_0::*)(
     ::GlobalNamespace::HapticsAudioClipPlayer*)>(&::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass6_0::_PlayContinuousHapticPreset_b__0)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39cb044;
+  constexpr static std::size_t addrs = 0x39cb01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass7_0::*)()>(
     &::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39caf68;
+  constexpr static std::size_t addrs = 0x39caf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass7_0::*)(
     ::GlobalNamespace::HapticsAudioClipPlayer*)>(&::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass7_0::_PlayOneShotHapticPreset_b__0)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39cb0f0;
+  constexpr static std::size_t addrs = 0x39cb0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)()>(
     &::GlobalNamespace::PS5AdvancedHapticsPlayerController::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39caa9c;
+  constexpr static std::size_t addrs = 0x39caa74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AdvancedHapticsPlayerController*>::get(),
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::PS5AdvancedHapticsPlayerController::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39caaa0;
+  constexpr static std::size_t addrs = 0x39caa78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)(
     ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::PS5AdvancedHapticsPlayerController::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39cae68;
+  constexpr static std::size_t addrs = 0x39cae40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::PS5AdvancedHapticsPlayerController::PlayContinuousHapticPreset)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x39cac94;
+  constexpr static std::size_t addrs = 0x39cac6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::PS5AdvancedHapticsPlayerController::PlayOneShotHapticPreset)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x39caac4;
+  constexpr static std::size_t addrs = 0x39caa9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)(::GlobalNamespace::HapticsAudioClipPlayer*)>(
     &::GlobalNamespace::PS5AdvancedHapticsPlayerController::OnHapticPlayFinishedCallback)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39caf70;
+  constexpr static std::size_t addrs = 0x39caf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5AdvancedHapticsPlayerController::*)()>(
     &::GlobalNamespace::PS5AdvancedHapticsPlayerController::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39cafc8;
+  constexpr static std::size_t addrs = 0x39cafa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AdvancedHapticsPlayerController*>::get(),

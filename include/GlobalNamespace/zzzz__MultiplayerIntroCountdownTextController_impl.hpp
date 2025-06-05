@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::SetText)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3bd75d0;
+  constexpr static std::size_t addrs = 0x3bd7618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::SetDistances)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3bd6c3c;
+  constexpr static std::size_t addrs = 0x3bd6c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(bool)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bd6688;
+  constexpr static std::size_t addrs = 0x3bd66d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_fontSize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3bd6abc;
+  constexpr static std::size_t addrs = 0x3bd6b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::get_fontSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bd66b4;
+  constexpr static std::size_t addrs = 0x3bd66fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_alpha)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bd6b44;
+  constexpr static std::size_t addrs = 0x3bd6b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::get_alpha)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bd66ec;
+  constexpr static std::size_t addrs = 0x3bd6734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bd7794;
+  constexpr static std::size_t addrs = 0x3bd77dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

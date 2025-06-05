@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketsSent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab92c0;
+  constexpr static std::size_t addrs = 0x3ab9298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "get_PacketsSent",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketsReceived)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab92cc;
+  constexpr static std::size_t addrs = 0x3ab92a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "get_PacketsReceived",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_BytesSent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab92d8;
+  constexpr static std::size_t addrs = 0x3ab92b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "get_BytesSent",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_BytesReceived)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab92e4;
+  constexpr static std::size_t addrs = 0x3ab92bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "get_BytesReceived",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketLoss)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab92f0;
+  constexpr static std::size_t addrs = 0x3ab92c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "get_PacketLoss",
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::get_PacketLossPercent)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ab92fc;
+  constexpr static std::size_t addrs = 0x3ab92d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "get_PacketLossPercent",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::Reset)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ab9348;
+  constexpr static std::size_t addrs = 0x3ab9320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "Reset",
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::IncrementPacketsSent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab1488;
+  constexpr static std::size_t addrs = 0x3ab1460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "IncrementPacketsSent",
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::IncrementPacketsReceived)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab341c;
+  constexpr static std::size_t addrs = 0x3ab33f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "IncrementPacketsReceived",
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)(int64_t)>(&::LiteNetLib::NetStatistics::AddBytesSent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab1494;
+  constexpr static std::size_t addrs = 0x3ab146c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)(int64_t)>(&::LiteNetLib::NetStatistics::AddBytesReceived)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab3428;
+  constexpr static std::size_t addrs = 0x3ab3400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::IncrementPacketLoss)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab93a4;
+  constexpr static std::size_t addrs = 0x3ab937c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), "IncrementPacketLoss",
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)(int64_t)>(&::LiteNetLib::NetStatistics::AddPacketLoss)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ab93b0;
+  constexpr static std::size_t addrs = 0x3ab9388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::ToString)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3ab93bc;
+  constexpr static std::size_t addrs = 0x3ab9394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetStatistics::*)()>(&::LiteNetLib::NetStatistics::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ab0c50;
+  constexpr static std::size_t addrs = 0x3ab0c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetStatistics*>::get(), ".ctor",

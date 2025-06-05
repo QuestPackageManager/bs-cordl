@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f883c;
+  constexpr static std::size_t addrs = 0x40f87c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f8844;
+  constexpr static std::size_t addrs = 0x40f87cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40f884c;
+  constexpr static std::size_t addrs = 0x40f87d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f888c;
+  constexpr static std::size_t addrs = 0x40f8814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::StringW, int32_t, ::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::Create)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x40f8894;
+  constexpr static std::size_t addrs = 0x40f881c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)()>(
     &::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction::CreateGetValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40f8c4c;
+  constexpr static std::size_t addrs = 0x40f8bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

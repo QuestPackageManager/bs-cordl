@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method DecButtonPressed, addr 0x3c289e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x3c28970, size 0x1c, virtual false, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method IncButtonPressed, addr 0x3c289cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x3c28954, size 0x1c, virtual false, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::StepValuePicker* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3c288e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3c2886c, size 0xe8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3c287fc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c28784, size 0xe8, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
@@ -93,31 +93,31 @@ public:
 
   constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3c28a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2898c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x3c27c1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x3c27ba4, size 0x9c, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x3c27cb8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x3c27c40, size 0x9c, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_text, addr 0x3c287d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3c28760, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x3c27e50, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x3c27dd8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x3c27eec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x3c27e74, size 0x9c, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method set_decButtonInteractable, addr 0x3c27ab4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_decButtonInteractable, addr 0x3c27a3c, size 0x20, virtual false, abstract: false, final false
   inline void set_decButtonInteractable(bool value);
 
-  /// @brief Method set_incButtonInteractable, addr 0x3c27afc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_incButtonInteractable, addr 0x3c27a84, size 0x20, virtual false, abstract: false, final false
   inline void set_incButtonInteractable(bool value);
 
-  /// @brief Method set_text, addr 0x3c27b48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3c27ad0, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

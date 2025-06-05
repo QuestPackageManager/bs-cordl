@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoaderHelper::*)()>(
     &::UnityEngine::XR::Management::XRLoaderHelper::Deinitialize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4831e44;
+  constexpr static std::size_t addrs = 0x4831dcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRLoaderHelper::*)()>(&::UnityEngine::XR::Management::XRLoaderHelper::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4831e9c;
+  constexpr static std::size_t addrs = 0x4831e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRLoaderHelper*>::get(), ".ctor",
@@ -49,8 +49,10 @@ UnityEngine::XR::Management::XRLoaderHelper::__cordl_internal_set_m_SubsystemIns
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SubsystemInstanceMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline T UnityEngine::XR::Management::XRLoaderHelper::GetLoadedSubsystem() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRLoaderHelper*>::get(), 8)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRLoaderHelper*>::get(), 8)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::XR::Management::XRLoaderHelper::StartSubsystem() {

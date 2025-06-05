@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlUnionConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlUnionConverter::_ctor)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x42f1b50;
+  constexpr static std::size_t addrs = 0x42f1ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlUnionConverter::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42f1d94;
+  constexpr static std::size_t addrs = 0x42f1d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlUnionConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlUnionConverter::ChangeType)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x42f1dec;
+  constexpr static std::size_t addrs = 0x42f1d74;
 
   inline static ::MethodInfo const* methodInfo() {
 

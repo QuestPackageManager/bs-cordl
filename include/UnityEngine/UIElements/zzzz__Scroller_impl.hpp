@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller_ScrollerSlider::*)(
     float_t, float_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(&::UnityEngine::UIElements::Scroller_ScrollerSlider::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a0bb10;
+  constexpr static std::size_t addrs = 0x4a0ba98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Scroller_ScrollerSlider::*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::Scroller_ScrollerSlider::SliderNormalizeValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a0c020;
+  constexpr static std::size_t addrs = 0x4a0bfa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::Scroller_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a0c054;
+  constexpr static std::size_t addrs = 0x4a0bfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller_UxmlFactory*>::get(), ".ctor",
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::Scroller_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4a0c09c;
+  constexpr static std::size_t addrs = 0x4a0c024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller_UxmlTraits::*)()>(&::UnityEngine::UIElements::Scroller_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x4a0c288;
+  constexpr static std::size_t addrs = 0x4a0c210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller_UxmlTraits*>::get(), ".ctor",
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::System::Action_1<float_t>*)>(
     &::UnityEngine::UIElements::Scroller::add_valueChanged)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a0b21c;
+  constexpr static std::size_t addrs = 0x4a0b1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::System::Action_1<float_t>*)>(
     &::UnityEngine::UIElements::Scroller::remove_valueChanged)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a0b2d0;
+  constexpr static std::size_t addrs = 0x4a0b258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Slider* (::UnityEngine::UIElements::Scroller::*)()>(
     &::UnityEngine::UIElements::Scroller::get_slider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0b384;
+  constexpr static std::size_t addrs = 0x4a0b30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "get_slider",
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::Slider*)>(
     &::UnityEngine::UIElements::Scroller::set_slider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0b38c;
+  constexpr static std::size_t addrs = 0x4a0b314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::RepeatButton* (::UnityEngine::UIElements::Scroller::*)()>(
     &::UnityEngine::UIElements::Scroller::get_lowButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0b394;
+  constexpr static std::size_t addrs = 0x4a0b31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "get_lowButton",
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::RepeatButton*)>(
     &::UnityEngine::UIElements::Scroller::set_lowButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0b39c;
+  constexpr static std::size_t addrs = 0x4a0b324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::RepeatButton* (::UnityEngine::UIElements::Scroller::*)()>(
     &::UnityEngine::UIElements::Scroller::get_highButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0b3a4;
+  constexpr static std::size_t addrs = 0x4a0b32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "get_highButton",
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::RepeatButton*)>(
     &::UnityEngine::UIElements::Scroller::set_highButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0b3ac;
+  constexpr static std::size_t addrs = 0x4a0b334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_value)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a0b3b4;
+  constexpr static std::size_t addrs = 0x4a0b33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "get_value",
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::set_value)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a0b3d8;
+  constexpr static std::size_t addrs = 0x4a0b360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_lowValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a0b3fc;
+  constexpr static std::size_t addrs = 0x4a0b384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "get_lowValue",
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::set_lowValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a0b44c;
+  constexpr static std::size_t addrs = 0x4a0b3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::get_highValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a0b4ac;
+  constexpr static std::size_t addrs = 0x4a0b434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "get_highValue",
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::set_highValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a0b4fc;
+  constexpr static std::size_t addrs = 0x4a0b484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::SliderDirection)>(
     &::UnityEngine::UIElements::Scroller::set_direction)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x4a0b55c;
+  constexpr static std::size_t addrs = 0x4a0b4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a0b784;
+  constexpr static std::size_t addrs = 0x4a0b70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), ".ctor",
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(
     float_t, float_t, ::System::Action_1<float_t>*, ::UnityEngine::UIElements::SliderDirection)>(&::UnityEngine::UIElements::Scroller::_ctor)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x4a0b798;
+  constexpr static std::size_t addrs = 0x4a0b720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::Adjust)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a0bba0;
+  constexpr static std::size_t addrs = 0x4a0bb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(::UnityEngine::UIElements::ChangeEvent_1<float_t>*)>(
     &::UnityEngine::UIElements::Scroller::OnSliderValueChange)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4a0bc18;
+  constexpr static std::size_t addrs = 0x4a0bba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::ScrollPageUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0bcb4;
+  constexpr static std::size_t addrs = 0x4a0bc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "ScrollPageUp",
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)()>(&::UnityEngine::UIElements::Scroller::ScrollPageDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0bdac;
+  constexpr static std::size_t addrs = 0x4a0bd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scroller*>::get(), "ScrollPageDown",
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::ScrollPageUp)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4a0bcbc;
+  constexpr static std::size_t addrs = 0x4a0bc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scroller::*)(float_t)>(&::UnityEngine::UIElements::Scroller::ScrollPageDown)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4a0bdb4;
+  constexpr static std::size_t addrs = 0x4a0bd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

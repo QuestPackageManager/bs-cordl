@@ -72,12 +72,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x484d84c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x484d7d4, size 0x60, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Animation_Enumerator* New_ctor(::UnityEngine::Animation* outer);
 
-  /// @brief Method Reset, addr 0x484d8ac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x484d834, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_m_CurrentIndex() const;
@@ -92,10 +92,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Outer(::UnityW<::UnityEngine::Animation> value);
 
-  /// @brief Method .ctor, addr 0x484d3c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484d34c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animation* outer);
 
-  /// @brief Method get_Current, addr 0x484d800, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x484d788, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -164,189 +164,189 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method AddClip, addr 0x484d038, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddClip, addr 0x484cfc0, size 0x60, virtual false, abstract: false, final false
   inline void AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName);
 
-  /// @brief Method AddClip, addr 0x484d098, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddClip, addr 0x484d020, size 0x70, virtual false, abstract: false, final false
   inline void AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame);
 
-  /// @brief Method AddClip, addr 0x484d108, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddClip, addr 0x484d090, size 0x74, virtual false, abstract: false, final false
   inline void AddClip(::UnityEngine::AnimationClip* clip, ::StringW newName, int32_t firstFrame, int32_t lastFrame, bool addLoopFrame);
 
-  /// @brief Method Blend, addr 0x484ccac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Blend, addr 0x484cc34, size 0x50, virtual false, abstract: false, final false
   inline void Blend(::StringW animation);
 
-  /// @brief Method Blend, addr 0x484ccfc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Blend, addr 0x484cc84, size 0x5c, virtual false, abstract: false, final false
   inline void Blend(::StringW animation, float_t targetWeight);
 
-  /// @brief Method Blend, addr 0x484cd58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Blend, addr 0x484cce0, size 0x5c, virtual false, abstract: false, final false
   inline void Blend(::StringW animation, float_t targetWeight, float_t fadeLength);
 
-  /// @brief Method CrossFade, addr 0x484cba0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CrossFade, addr 0x484cb28, size 0x50, virtual false, abstract: false, final false
   inline void CrossFade(::StringW animation);
 
-  /// @brief Method CrossFade, addr 0x484cbf0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CrossFade, addr 0x484cb78, size 0x58, virtual false, abstract: false, final false
   inline void CrossFade(::StringW animation, float_t fadeLength);
 
-  /// @brief Method CrossFade, addr 0x484cc48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CrossFade, addr 0x484cbd0, size 0x64, virtual false, abstract: false, final false
   inline void CrossFade(::StringW animation, float_t fadeLength, ::UnityEngine::PlayMode mode);
 
-  /// @brief Method CrossFadeQueued, addr 0x484cdb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeQueued, addr 0x484cd3c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation);
 
-  /// @brief Method CrossFadeQueued, addr 0x484ce08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeQueued, addr 0x484cd90, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, float_t fadeLength);
 
-  /// @brief Method CrossFadeQueued, addr 0x484ce64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeQueued, addr 0x484cdec, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, float_t fadeLength, ::UnityEngine::QueueMode queue);
 
-  /// @brief Method CrossFadeQueued, addr 0x484cecc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeQueued, addr 0x484ce54, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* CrossFadeQueued(::StringW animation, float_t fadeLength, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode);
 
-  /// @brief Method GetClip, addr 0x484d474, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetClip, addr 0x484d3fc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> GetClip(::StringW name);
 
-  /// @brief Method GetClipCount, addr 0x484d248, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetClipCount, addr 0x484d1d0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetClipCount();
 
-  /// @brief Method GetEnumerator, addr 0x484d360, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x484d2e8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetState, addr 0x484c9f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetState, addr 0x484c980, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* GetState(::StringW name);
 
-  /// @brief Method GetStateAtIndex, addr 0x484d3f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetStateAtIndex, addr 0x484d37c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* GetStateAtIndex(int32_t index);
 
-  /// @brief Method GetStateCount, addr 0x484d438, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetStateCount, addr 0x484d3c0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetStateCount();
 
-  /// @brief Method IsPlaying, addr 0x484c970, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsPlaying, addr 0x484c8f8, size 0x44, virtual false, abstract: false, final false
   inline bool IsPlaying(::StringW name);
 
   static inline ::UnityEngine::Animation* New_ctor();
 
-  /// @brief Method Play, addr 0x484ca3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x484c9c4, size 0x40, virtual false, abstract: false, final false
   inline bool Play();
 
-  /// @brief Method Play, addr 0x484cb04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x484ca8c, size 0x48, virtual false, abstract: false, final false
   inline bool Play(::StringW animation);
 
-  /// @brief Method Play, addr 0x484d2c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x484d250, size 0x54, virtual false, abstract: false, final false
   inline bool Play(::StringW animation, ::UnityEngine::AnimationPlayMode mode);
 
-  /// @brief Method Play, addr 0x484cb4c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x484cad4, size 0x54, virtual false, abstract: false, final false
   inline bool Play(::StringW animation, ::UnityEngine::PlayMode mode);
 
-  /// @brief Method Play, addr 0x484d284, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x484d20c, size 0x44, virtual false, abstract: false, final false
   inline bool Play(::UnityEngine::AnimationPlayMode mode);
 
-  /// @brief Method Play, addr 0x484ca7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x484ca04, size 0x44, virtual false, abstract: false, final false
   inline bool Play(::UnityEngine::PlayMode mode);
 
-  /// @brief Method PlayDefaultAnimation, addr 0x484cac0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PlayDefaultAnimation, addr 0x484ca48, size 0x44, virtual false, abstract: false, final false
   inline bool PlayDefaultAnimation(::UnityEngine::PlayMode mode);
 
-  /// @brief Method PlayQueued, addr 0x484cf38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PlayQueued, addr 0x484cec0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation);
 
-  /// @brief Method PlayQueued, addr 0x484cf84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method PlayQueued, addr 0x484cf0c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation, ::UnityEngine::QueueMode queue);
 
-  /// @brief Method PlayQueued, addr 0x484cfdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PlayQueued, addr 0x484cf64, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* PlayQueued(::StringW animation, ::UnityEngine::QueueMode queue, ::UnityEngine::PlayMode mode);
 
-  /// @brief Method RemoveClip, addr 0x484d17c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveClip, addr 0x484d104, size 0x44, virtual false, abstract: false, final false
   inline void RemoveClip(::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method RemoveClip, addr 0x484d1c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveClip, addr 0x484d148, size 0x44, virtual false, abstract: false, final false
   inline void RemoveClip(::StringW clipName);
 
-  /// @brief Method RemoveClipNamed, addr 0x484d204, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveClipNamed, addr 0x484d18c, size 0x44, virtual false, abstract: false, final false
   inline void RemoveClipNamed(::StringW clipName);
 
-  /// @brief Method Rewind, addr 0x484c834, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Rewind, addr 0x484c7bc, size 0x3c, virtual false, abstract: false, final false
   inline void Rewind();
 
-  /// @brief Method Rewind, addr 0x484c870, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Rewind, addr 0x484c7f8, size 0x44, virtual false, abstract: false, final false
   inline void Rewind(::StringW name);
 
-  /// @brief Method RewindNamed, addr 0x484c8b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RewindNamed, addr 0x484c83c, size 0x44, virtual false, abstract: false, final false
   inline void RewindNamed(::StringW name);
 
-  /// @brief Method Sample, addr 0x484c8f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Sample, addr 0x484c880, size 0x3c, virtual false, abstract: false, final false
   inline void Sample();
 
-  /// @brief Method Stop, addr 0x484c770, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x484c6f8, size 0x3c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Stop, addr 0x484c7ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x484c734, size 0x44, virtual false, abstract: false, final false
   inline void Stop(::StringW name);
 
-  /// @brief Method StopNamed, addr 0x484c7f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopNamed, addr 0x484c778, size 0x44, virtual false, abstract: false, final false
   inline void StopNamed(::StringW name);
 
-  /// @brief Method SyncLayer, addr 0x484d31c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SyncLayer, addr 0x484d2a4, size 0x44, virtual false, abstract: false, final false
   inline void SyncLayer(int32_t layer);
 
-  /// @brief Method .ctor, addr 0x484d7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484d780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x484c9b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x484c93c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationState* get_Item(::StringW name);
 
-  /// @brief Method get_animateOnlyIfVisible, addr 0x484d5c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animateOnlyIfVisible, addr 0x484d54c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_animateOnlyIfVisible();
 
-  /// @brief Method get_animatePhysics, addr 0x484d544, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animatePhysics, addr 0x484d4cc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_animatePhysics();
 
-  /// @brief Method get_clip, addr 0x484c5f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x484c578, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method get_cullingType, addr 0x484d644, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cullingType, addr 0x484d5cc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCullingType get_cullingType();
 
-  /// @brief Method get_isPlaying, addr 0x484c934, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x484c8bc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method get_localBounds, addr 0x484d6c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_localBounds, addr 0x484d64c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_localBounds();
 
-  /// @brief Method get_localBounds_Injected, addr 0x484d72c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localBounds_Injected, addr 0x484d6b4, size 0x44, virtual false, abstract: false, final false
   inline void get_localBounds_Injected(::ByRef<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_playAutomatically, addr 0x484c670, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playAutomatically, addr 0x484c5f8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_playAutomatically();
 
-  /// @brief Method get_wrapMode, addr 0x484c6f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_wrapMode, addr 0x484c678, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::WrapMode get_wrapMode();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_animateOnlyIfVisible, addr 0x484d600, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_animateOnlyIfVisible, addr 0x484d588, size 0x44, virtual false, abstract: false, final false
   inline void set_animateOnlyIfVisible(bool value);
 
-  /// @brief Method set_animatePhysics, addr 0x484d580, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_animatePhysics, addr 0x484d508, size 0x44, virtual false, abstract: false, final false
   inline void set_animatePhysics(bool value);
 
-  /// @brief Method set_clip, addr 0x484c62c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x484c5b4, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AnimationClip* value);
 
-  /// @brief Method set_cullingType, addr 0x484d680, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_cullingType, addr 0x484d608, size 0x44, virtual false, abstract: false, final false
   inline void set_cullingType(::UnityEngine::AnimationCullingType value);
 
-  /// @brief Method set_localBounds, addr 0x484d770, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localBounds, addr 0x484d6f8, size 0x44, virtual false, abstract: false, final false
   inline void set_localBounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_localBounds_Injected, addr 0x484d7b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localBounds_Injected, addr 0x484d73c, size 0x44, virtual false, abstract: false, final false
   inline void set_localBounds_Injected(::ByRef<::UnityEngine::Bounds> value);
 
-  /// @brief Method set_playAutomatically, addr 0x484c6ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_playAutomatically, addr 0x484c634, size 0x44, virtual false, abstract: false, final false
   inline void set_playAutomatically(bool value);
 
-  /// @brief Method set_wrapMode, addr 0x484c72c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_wrapMode, addr 0x484c6b4, size 0x44, virtual false, abstract: false, final false
   inline void set_wrapMode(::UnityEngine::WrapMode value);
 
 protected:

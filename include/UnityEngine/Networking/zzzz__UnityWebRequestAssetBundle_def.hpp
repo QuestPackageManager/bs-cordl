@@ -29,19 +29,19 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0x4ae355c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae34e4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3564, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae34ec, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae35a8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::System::Uri* uri);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3764, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae36ec, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::System::Uri* uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x4ae3628, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x4ae35b0, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::System::Uri* uri, uint32_t crc);
 
 protected:

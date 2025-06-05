@@ -23,24 +23,24 @@ namespace crypto {
 class CORDL_TYPE Security : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash, addr 0x244a2d0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x244a290, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW ComputeHash(::StringW text, ::StringW salt);
 
-  /// @brief Method CreateCipher, addr 0x244a53c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x244a4fc, size 0x214, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateCipher(bool isEncryption, ::StringW key, ::StringW iv);
 
-  /// @brief Method Decrypt, addr 0x244a434, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0x244a3f4, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW Decrypt(::StringW cipherText, ::StringW key, ::StringW iv);
 
-  /// @brief Method Encrypt, addr 0x244a750, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0x244a710, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW Encrypt(::StringW plainText, ::StringW key, ::StringW iv);
 
-  /// @brief Method GenerateText, addr 0x244a844, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GenerateText, addr 0x244a804, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GenerateText(int32_t size);
 
   static inline ::crypto::Security* New_ctor();
 
-  /// @brief Method .ctor, addr 0x244a908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244a8c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

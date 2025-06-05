@@ -38,21 +38,21 @@ public:
 
   __declspec(property(get = get_tableCellOwner)) ::HMUI::ITableCellOwner* tableCellOwner;
 
-  /// @brief Method InternalToggle, addr 0x39ff814, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x39ff7ec, size 0x264, virtual true, abstract: false, final false
   inline void InternalToggle();
 
-  /// @brief Method MoveIdx, addr 0x39ff804, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MoveIdx, addr 0x39ff7dc, size 0x10, virtual false, abstract: false, final false
   inline void MoveIdx(int32_t offset);
 
   static inline ::HMUI::TableCell* New_ctor();
 
-  /// @brief Method TableViewSetup, addr 0x39ff7f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method TableViewSetup, addr 0x39ff7d0, size 0xc, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
-  /// @brief Method WasPreparedForReuse, addr 0x39ffa88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WasPreparedForReuse, addr 0x39ffa60, size 0x4, virtual true, abstract: false, final false
   inline void WasPreparedForReuse();
 
-  /// @brief Method __WasPreparedForReuse, addr 0x39ffa78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method __WasPreparedForReuse, addr 0x39ffa50, size 0x10, virtual false, abstract: false, final false
   inline void __WasPreparedForReuse();
 
   constexpr int32_t const& __cordl_internal_get__idx_k__BackingField() const;
@@ -73,22 +73,22 @@ public:
 
   constexpr void __cordl_internal_set__tableCellOwner(::HMUI::ITableCellOwner* value);
 
-  /// @brief Method .ctor, addr 0x39ffa8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ffa64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_idx, addr 0x39ff7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_idx, addr 0x39ff7b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_idx();
 
-  /// @brief Method get_reuseIdentifier, addr 0x39ff7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reuseIdentifier, addr 0x39ff7a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_reuseIdentifier();
 
-  /// @brief Method get_tableCellOwner, addr 0x39ff7f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tableCellOwner, addr 0x39ff7c8, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ITableCellOwner* get_tableCellOwner();
 
-  /// @brief Method set_idx, addr 0x39ff7e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_idx, addr 0x39ff7c0, size 0x8, virtual false, abstract: false, final false
   inline void set_idx(int32_t value);
 
-  /// @brief Method set_reuseIdentifier, addr 0x39ff7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reuseIdentifier, addr 0x39ff7b0, size 0x8, virtual false, abstract: false, final false
   inline void set_reuseIdentifier(::StringW value);
 
 protected:

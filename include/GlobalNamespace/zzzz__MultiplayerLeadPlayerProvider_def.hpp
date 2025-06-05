@@ -61,27 +61,27 @@ public:
   /// @brief Field newLeaderWasSelectedEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_newLeaderWasSelectedEvent, put = __cordl_internal_set_newLeaderWasSelectedEvent)) ::System::Action_1<::StringW>* newLeaderWasSelectedEvent;
 
-  /// @brief Method HandleFirstPlayerDidChange, addr 0x3bd7d78, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x3bd7dc0, size 0xe8, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* firstPlayer);
 
-  /// @brief Method HandleStateChanged, addr 0x3bd78d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3bd7920, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerLeadPlayerProvider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bd78e8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd7930, size 0x158, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bd7820, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd7868, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartProviding, addr 0x3bd7cd8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartProviding, addr 0x3bd7d20, size 0xa0, virtual false, abstract: false, final false
   inline void StartProviding();
 
-  /// @brief Method StopProviding, addr 0x3bd7c3c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StopProviding, addr 0x3bd7c84, size 0x9c, virtual false, abstract: false, final false
   inline void StopProviding();
 
-  /// @brief Method Update, addr 0x3bd7af0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bd7b38, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__currentLeadingPlayerStartTime() const;
@@ -132,13 +132,13 @@ public:
 
   constexpr void __cordl_internal_set_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3bd7f60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd7fa8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_newLeaderWasSelectedEvent, addr 0x3bd4808, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_newLeaderWasSelectedEvent, addr 0x3bd4850, size 0xb0, virtual false, abstract: false, final false
   inline void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_newLeaderWasSelectedEvent, addr 0x3bd45fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_newLeaderWasSelectedEvent, addr 0x3bd4644, size 0xb0, virtual false, abstract: false, final false
   inline void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
 protected:

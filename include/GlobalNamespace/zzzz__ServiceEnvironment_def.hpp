@@ -34,6 +34,7 @@ public:
     __E_DevelopmentB = static_cast<int32_t>(0x8),
     __E_ProductionC = static_cast<int32_t>(0x9),
     __E_ProductionQuest1 = static_cast<int32_t>(0xa),
+    __E_ProductionPlayStation = static_cast<int32_t>(0xb),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -76,6 +77,9 @@ public:
 
   /// @brief Field ProductionC value: I32(9)
   static ::GlobalNamespace::ServiceEnvironment const ProductionC;
+
+  /// @brief Field ProductionPlayStation value: I32(11)
+  static ::GlobalNamespace::ServiceEnvironment const ProductionPlayStation;
 
   /// @brief Field ProductionQuest1 value: I32(10)
   static ::GlobalNamespace::ServiceEnvironment const ProductionQuest1;

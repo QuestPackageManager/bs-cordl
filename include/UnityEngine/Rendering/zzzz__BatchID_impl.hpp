@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchID::*)()>(&::UnityEngine::Rendering::BatchID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48cac00;
+  constexpr static std::size_t addrs = 0x48cab88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::System::Object*)>(&::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x48cac08;
+  constexpr static std::size_t addrs = 0x48cab90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::UnityEngine::Rendering::BatchID)>(
     &::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48cacb0;
+  constexpr static std::size_t addrs = 0x48cac38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

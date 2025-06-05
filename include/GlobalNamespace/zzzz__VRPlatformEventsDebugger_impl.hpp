@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39d2aac;
+  constexpr static std::size_t addrs = 0x39d2a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(&::GlobalNamespace::VRPlatformEventsDebugger::Initialize)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x39d2aec;
+  constexpr static std::size_t addrs = 0x39d2ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(&::GlobalNamespace::VRPlatformEventsDebugger::Dispose)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x39d2edc;
+  constexpr static std::size_t addrs = 0x39d2eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(), "Dispose",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleInputFocusWasCaptured)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d32d0;
+  constexpr static std::size_t addrs = 0x39d32a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleInputFocusWasReleased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d32d4;
+  constexpr static std::size_t addrs = 0x39d32ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleHMDUnmounted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d32d8;
+  constexpr static std::size_t addrs = 0x39d32b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleHMDMounted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d32dc;
+  constexpr static std::size_t addrs = 0x39d32b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleVRFocusWasCaptured)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d32e0;
+  constexpr static std::size_t addrs = 0x39d32b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleVRFocusWasReleased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d32e4;
+  constexpr static std::size_t addrs = 0x39d32bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(&::GlobalNamespace::VRPlatformEventsDebugger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d32e8;
+  constexpr static std::size_t addrs = 0x39d32c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(), ".ctor",

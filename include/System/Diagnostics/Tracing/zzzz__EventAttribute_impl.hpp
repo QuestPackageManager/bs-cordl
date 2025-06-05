@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(int32_t)>(
     &::System::Diagnostics::Tracing::EventAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3db83e8;
+  constexpr static std::size_t addrs = 0x3db8370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(int32_t)>(
     &::System::Diagnostics::Tracing::EventAttribute::set_EventId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db8410;
+  constexpr static std::size_t addrs = 0x3db8398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(::System::Diagnostics::Tracing::EventLevel)>(
     &::System::Diagnostics::Tracing::EventAttribute::set_Level)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db8418;
+  constexpr static std::size_t addrs = 0x3db83a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(::System::Diagnostics::Tracing::EventKeywords)>(
     &::System::Diagnostics::Tracing::EventAttribute::set_Keywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db8420;
+  constexpr static std::size_t addrs = 0x3db83a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Tracing::EventAttribute::*)(::StringW)>(
     &::System::Diagnostics::Tracing::EventAttribute::set_Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db8428;
+  constexpr static std::size_t addrs = 0x3db83b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

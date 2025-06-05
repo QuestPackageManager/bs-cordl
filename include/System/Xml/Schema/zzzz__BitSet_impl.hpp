@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)()>(&::System::Xml::Schema::BitSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43980b4;
+  constexpr static std::size_t addrs = 0x439803c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BitSet*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43980bc;
+  constexpr static std::size_t addrs = 0x4398044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::BitSet::*)()>(&::System::Xml::Schema::BitSet::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4398134;
+  constexpr static std::size_t addrs = 0x43980bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BitSet*>::get(), "get_Count",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x439813c;
+  constexpr static std::size_t addrs = 0x43980c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)()>(&::System::Xml::Schema::BitSet::Clear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4398190;
+  constexpr static std::size_t addrs = 0x4398118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BitSet*>::get(), "Clear",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::Set)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43981e4;
+  constexpr static std::size_t addrs = 0x439816c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::Get)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4398140;
+  constexpr static std::size_t addrs = 0x43980c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::NextSet)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43982d4;
+  constexpr static std::size_t addrs = 0x439825c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)(::System::Xml::Schema::BitSet*)>(&::System::Xml::Schema::BitSet::And)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x439836c;
+  constexpr static std::size_t addrs = 0x43982f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)(::System::Xml::Schema::BitSet*)>(&::System::Xml::Schema::BitSet::Or)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4398428;
+  constexpr static std::size_t addrs = 0x43983b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::BitSet::*)()>(&::System::Xml::Schema::BitSet::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43984cc;
+  constexpr static std::size_t addrs = 0x4398454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BitSet::*)(::System::Object*)>(&::System::Xml::Schema::BitSet::Equals)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4398504;
+  constexpr static std::size_t addrs = 0x439848c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::BitSet* (::System::Xml::Schema::BitSet::*)()>(&::System::Xml::Schema::BitSet::Clone)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4398660;
+  constexpr static std::size_t addrs = 0x43985e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BitSet*>::get(), "Clone",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BitSet::*)()>(&::System::Xml::Schema::BitSet::get_IsEmpty)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4398734;
+  constexpr static std::size_t addrs = 0x43986bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BitSet*>::get(), "get_IsEmpty",
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BitSet::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::BitSet::Intersects)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x439879c;
+  constexpr static std::size_t addrs = 0x4398724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::Subscript)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439812c;
+  constexpr static std::size_t addrs = 0x43980b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BitSet::*)(int32_t)>(&::System::Xml::Schema::BitSet::EnsureLength)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4398240;
+  constexpr static std::size_t addrs = 0x43981c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

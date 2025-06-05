@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::TextElement*, ::StringW, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode)>(
     &::UnityEngine::UIElements::TextUtilities::MeasureVisualElementTextSize)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4a96530;
+  constexpr static std::size_t addrs = 0x4a964b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextUtilities::GetFontAsset)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x4a95fdc;
+  constexpr static std::size_t addrs = 0x4a95f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TextUtilities::IsFontAssigned)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a966ac;
+  constexpr static std::size_t addrs = 0x4a96634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::PanelTextSettings> (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextUtilities::GetTextSettingsFrom)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a95f18;
+  constexpr static std::size_t addrs = 0x4a95ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::TextCore::Text::FontAsset*)>(
     &::UnityEngine::UIElements::TextUtilities::ConvertPixelUnitsToTextCoreRelativeUnits)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a9642c;
+  constexpr static std::size_t addrs = 0x4a963b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::TextCoreSettings (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextUtilities::GetTextCoreSettingsForElement)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x4a96770;
+  constexpr static std::size_t addrs = 0x4a966f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(
     &::GlobalNamespace::PlayerDataFileManagerSO::get_defaultLastSelectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f4774;
+  constexpr static std::size_t addrs = 0x26f4754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(
     &::GlobalNamespace::PlayerDataFileManagerSO::get_buildInSongPackSerializedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f477c;
+  constexpr static std::size_t addrs = 0x26f475c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(
     &::GlobalNamespace::PlayerDataFileManagerSO::get_allSongPackSerializedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f4784;
+  constexpr static std::size_t addrs = 0x26f4764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(&::GlobalNamespace::PlayerDataFileManagerSO::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26f478c;
+  constexpr static std::size_t addrs = 0x26f476c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), ".ctor",

@@ -76,18 +76,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnterPlayerGuestNameViewController_FinishDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3c17180, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3c17108, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3c171a8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3c17130, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3c1716c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3c170f4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::EnterPlayerGuestNameViewController* viewController, ::StringW playerName);
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3c17068, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c16ff0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -128,7 +128,7 @@ public:
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <DidActivate>b__0, addr 0x3c171b4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__0, addr 0x3c1713c, size 0x108, virtual false, abstract: false, final false
   inline void _DidActivate_b__0(int32_t idx, ::GlobalNamespace::GuestNameButtonsListItem* item);
 
   constexpr ::UnityW<::GlobalNamespace::EnterPlayerGuestNameViewController> const& __cordl_internal_get___4__this() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3c16ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c16e54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,7 +195,7 @@ public:
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_1* New_ctor();
 
-  /// @brief Method <DidActivate>b__1, addr 0x3c172c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__1, addr 0x3c1724c, size 0x34, virtual false, abstract: false, final false
   inline void _DidActivate_b__1();
 
   constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController___c__DisplayClass10_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -210,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set_guestPlayerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c172bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c17244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -280,18 +280,18 @@ public:
   /// @brief Field _uiKeyboard, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard)) ::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
-  /// @brief Method DidActivate, addr 0x3c16cb0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c16c38, size 0x21c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c16ed4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c16e5c, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init, addr 0x3c16ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c16c30, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* didFinishCallback);
 
   static inline ::GlobalNamespace::EnterPlayerGuestNameViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x3c16f80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x3c16f08, size 0xe0, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController_FinishDelegate* const& __cordl_internal_get__didFinishCallback() const;
@@ -330,7 +330,7 @@ public:
 
   constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
 
-  /// @brief Method .ctor, addr 0x3c17060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c16fe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

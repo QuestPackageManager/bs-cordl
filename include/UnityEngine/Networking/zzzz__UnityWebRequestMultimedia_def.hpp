@@ -25,7 +25,7 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestMultimedia : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioClip, addr 0x4ae3e88, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAudioClip, addr 0x4ae3e10, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAudioClip(::StringW uri, ::UnityEngine::AudioType audioType);
 
 protected:

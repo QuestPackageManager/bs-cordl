@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_PositiveIntermediate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44913b0;
+  constexpr static std::size_t addrs = 0x4491338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ResponseDescription*>::get(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_PositiveCompletion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44913c4;
+  constexpr static std::size_t addrs = 0x449134c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ResponseDescription*>::get(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_TransientFailure)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44913d8;
+  constexpr static std::size_t addrs = 0x4491360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ResponseDescription*>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_PermanentFailure)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44913ec;
+  constexpr static std::size_t addrs = 0x4491374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ResponseDescription*>::get(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::get_InvalidStatusCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4491400;
+  constexpr static std::size_t addrs = 0x4491388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ResponseDescription*>::get(),
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ResponseDescription::*)()>(&::System::Net::ResponseDescription::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4491414;
+  constexpr static std::size_t addrs = 0x449139c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ResponseDescription*>::get(), ".ctor",

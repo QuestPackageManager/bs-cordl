@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4af3c10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3b98, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x4af3bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x4af3b84, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x4af3c04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x4af3b8c, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:

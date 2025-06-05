@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Lock::*)()>(&::System::Threading::Lock::Acquire)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e51bd0;
+  constexpr static std::size_t addrs = 0x3e51b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Lock*>::get(), "Acquire",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Lock::*)()>(&::System::Threading::Lock::Release)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e51bf4;
+  constexpr static std::size_t addrs = 0x3e51b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Lock*>::get(), "Release",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Lock::*)()>(&::System::Threading::Lock::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e51c04;
+  constexpr static std::size_t addrs = 0x3e51b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Lock*>::get(), ".ctor",

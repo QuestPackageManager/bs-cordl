@@ -69,35 +69,35 @@ public:
   /// @brief Field v, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) ::Org::BouncyCastle::Math::BigInteger* v;
 
-  /// @brief Method CalculateS, addr 0x268c998, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateS, addr 0x268c958, size 0x5c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateS();
 
-  /// @brief Method CalculateSecret, addr 0x268c954, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CalculateSecret, addr 0x268c914, size 0x44, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSecret(::Org::BouncyCastle::Math::BigInteger* clientA);
 
-  /// @brief Method CalculateServerEvidenceMessage, addr 0x268caac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CalculateServerEvidenceMessage, addr 0x268ca6c, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateServerEvidenceMessage();
 
-  /// @brief Method CalculateSessionKey, addr 0x268cb2c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CalculateSessionKey, addr 0x268caec, size 0x80, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateSessionKey();
 
-  /// @brief Method GenerateServerCredentials, addr 0x268c8a4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerCredentials, addr 0x268c864, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* GenerateServerCredentials();
 
-  /// @brief Method Init, addr 0x268c864, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x268c824, size 0x10, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* v, ::Org::BouncyCastle::Crypto::IDigest* digest,
                    ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0x268c874, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x268c834, size 0x30, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* v, ::Org::BouncyCastle::Crypto::IDigest* digest,
                    ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server* New_ctor();
 
-  /// @brief Method SelectPrivateValue, addr 0x268c9f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SelectPrivateValue, addr 0x268c9b4, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* SelectPrivateValue();
 
-  /// @brief Method VerifyClientEvidenceMessage, addr 0x268ca00, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method VerifyClientEvidenceMessage, addr 0x268c9c0, size 0xac, virtual true, abstract: false, final false
   inline bool VerifyClientEvidenceMessage(::Org::BouncyCastle::Math::BigInteger* clientM1);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_A() const;
@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_v(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x268c85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268c81c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

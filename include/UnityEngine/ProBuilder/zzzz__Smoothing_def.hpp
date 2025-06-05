@@ -62,13 +62,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Smoothing___c* New_ctor();
 
-  /// @brief Method <ApplySmoothingGroups>b__9_0, addr 0x47405d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ApplySmoothingGroups>b__9_0, addr 0x4740560, size 0x18, virtual false, abstract: false, final false
   inline int32_t _ApplySmoothingGroups_b__9_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <GetUnusedSmoothingGroup>b__5_0, addr 0x47405c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetUnusedSmoothingGroup>b__5_0, addr 0x4740548, size 0x18, virtual false, abstract: false, final false
   inline int32_t _GetUnusedSmoothingGroup_b__5_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x47405b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4740540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::Smoothing___c* getStaticF___9();
@@ -115,28 +115,28 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::Smoothing___c;
 
-  /// @brief Method ApplySmoothingGroups, addr 0x473f608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x473f590, size 0x8, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold);
 
-  /// @brief Method ApplySmoothingGroups, addr 0x473f610, size 0x858, virtual false, abstract: false, final false
+  /// @brief Method ApplySmoothingGroups, addr 0x473f598, size 0x858, virtual false, abstract: false, final false
   static inline void ApplySmoothingGroups(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces,
                                           float_t angleThreshold, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals);
 
-  /// @brief Method FindSoftEdgesRecursive, addr 0x473fe68, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method FindSoftEdgesRecursive, addr 0x473fdf0, size 0x2dc, virtual false, abstract: false, final false
   static inline bool FindSoftEdgesRecursive(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::UnityEngine::ProBuilder::WingedEdge* wing, float_t angleThreshold,
                                             ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* processed);
 
-  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x473f538, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetNextUnusedSmoothingGroup, addr 0x473f4c0, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetNextUnusedSmoothingGroup(int32_t start, ::System::Collections::Generic::HashSet_1<int32_t>* used);
 
-  /// @brief Method GetUnusedSmoothingGroup, addr 0x473f360, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetUnusedSmoothingGroup, addr 0x473f2e8, size 0x1d8, virtual false, abstract: false, final false
   static inline int32_t GetUnusedSmoothingGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method IsSmooth, addr 0x473f5e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsSmooth, addr 0x473f570, size 0x20, virtual false, abstract: false, final false
   static inline bool IsSmooth(int32_t index);
 
-  /// @brief Method IsSoftEdge, addr 0x4740144, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method IsSoftEdge, addr 0x47400cc, size 0x418, virtual false, abstract: false, final false
   static inline bool IsSoftEdge(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::UnityEngine::ProBuilder::EdgeLookup left, ::UnityEngine::ProBuilder::EdgeLookup right,
                                 float_t threshold);
 

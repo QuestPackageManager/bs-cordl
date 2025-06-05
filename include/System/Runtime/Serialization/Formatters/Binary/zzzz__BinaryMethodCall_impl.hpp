@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3d00fb8;
+  constexpr static std::size_t addrs = 0x3d00f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d01100;
+  constexpr static std::size_t addrs = 0x3d01088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d01104;
+  constexpr static std::size_t addrs = 0x3d0108c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

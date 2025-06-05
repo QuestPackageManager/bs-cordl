@@ -42,14 +42,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x25020e8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25020a8, size 0x1e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(::StringW alphabetic);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(int32_t numeric);
 
-  /// @brief Method ToAsn1Object, addr 0x2502760, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2502720, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
@@ -58,19 +58,19 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x25024e8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25024a8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW alphabetic);
 
-  /// @brief Method .ctor, addr 0x25022d0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2502290, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(int32_t numeric);
 
-  /// @brief Method get_Alphabetic, addr 0x2502660, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Alphabetic, addr 0x2502620, size 0x80, virtual false, abstract: false, final false
   inline ::StringW get_Alphabetic();
 
-  /// @brief Method get_IsAlphabetic, addr 0x25025e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlphabetic, addr 0x25025a4, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsAlphabetic();
 
-  /// @brief Method get_Numeric, addr 0x25026e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Numeric, addr 0x25026a0, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_Numeric();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -94,7 +94,7 @@ public:
 
   static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x3b528b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0, addr 0x3b5288c, size 0xd4, virtual false, abstract: false, final false
   inline void _ProcessLevelCompletionResultsAfterLevelDidFinish_b__0(::GlobalNamespace::EnterPlayerGuestNameViewController* _, ::StringW playerName);
 
   constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  /// @brief Method .ctor, addr 0x3b52378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b52350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,7 +215,7 @@ public:
 
   static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x3b52988, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x3b52960, size 0x54, virtual false, abstract: false, final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::PartyFreePlayFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -230,7 +230,7 @@ public:
 
   constexpr void __cordl_internal_set_resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b5262c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b52604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -314,32 +314,32 @@ public:
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x3b52528, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x3b52500, size 0x40, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x3b52568, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x3b52540, size 0xc4, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method IsNewHighScore, addr 0x3b523f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsNewHighScore, addr 0x3b523cc, size 0x44, virtual false, abstract: false, final false
   inline bool IsNewHighScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId);
 
   static inline ::GlobalNamespace::PartyFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x3b520bc, size 0x2bc, virtual true, abstract: false, final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x3b52094, size 0x2bc, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* modifiers,
                                                                bool practice);
 
-  /// @brief Method ProcessScore, addr 0x3b52438, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x3b52410, size 0xf0, virtual false, abstract: false, final false
   inline void ProcessScore(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, ::StringW playerName);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x3b51d38, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x3b51d10, size 0x210, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x3b51f78, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x3b51f50, size 0x144, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method WillScoreGoToLeaderboard, addr 0x3b523a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WillScoreGoToLeaderboard, addr 0x3b5237c, size 0x50, virtual false, abstract: false, final false
   inline bool WillScoreGoToLeaderboard(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::StringW leaderboardId, bool practice);
 
   constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultLightsPreset() const;
@@ -390,19 +390,19 @@ public:
 
   constexpr void __cordl_internal_set__resultsViewController(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b528a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5287c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameMode, addr 0x3b51ca4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_gameMode, addr 0x3b51c7c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_leaderboardViewController, addr 0x3b51ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_leaderboardViewController, addr 0x3b51cbc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LeaderboardViewController> get_leaderboardViewController();
 
-  /// @brief Method get_mainTitle, addr 0x3b51cf4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_mainTitle, addr 0x3b51ccc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method get_showBackButtonForMainViewController, addr 0x3b51cec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x3b51cc4, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
 protected:

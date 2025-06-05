@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlTypeMapMemberNamespaces* New_ctor();
 
-  /// @brief Method .ctor, addr 0x439072c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43906b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

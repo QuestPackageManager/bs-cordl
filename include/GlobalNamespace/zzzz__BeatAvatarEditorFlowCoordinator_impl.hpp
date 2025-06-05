@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(
     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode)>(&::GlobalNamespace::BeatAvatarEditorFlowCoordinator::Setup)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2252040;
+  constexpr static std::size_t addrs = 0x2252000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x2252108;
+  constexpr static std::size_t addrs = 0x22520c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x2252e28;
+  constexpr static std::size_t addrs = 0x2252de8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t)>(
         &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarViewControllerDidRequestColorChange)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2253608;
+  constexpr static std::size_t addrs = 0x22535c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::BeatSaber::BeatAvatarSDK::AvatarPart)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarViewControllerChangedAvatarPart)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22536f8;
+  constexpr static std::size_t addrs = 0x22536b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarEditorViewCancelButtonWasPressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2253798;
+  constexpr static std::size_t addrs = 0x2253758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleBeatAvatarEditorViewOkButtonWasPressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22537a4;
+  constexpr static std::size_t addrs = 0x2253764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleEditColorViewControllerDidChangedColor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22537b0;
+  constexpr static std::size_t addrs = 0x2253770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::HandleEditColorViewControllerControllerDidFinish)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22537d8;
+  constexpr static std::size_t addrs = 0x2253798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*>::get(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::OneTimeInitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22538e8;
+  constexpr static std::size_t addrs = 0x22538a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatAvatarEditorFlowCoordinator::*)()>(
     &::GlobalNamespace::BeatAvatarEditorFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22538ec;
+  constexpr static std::size_t addrs = 0x22538ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*>::get(),

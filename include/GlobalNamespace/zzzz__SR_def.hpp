@@ -22,17 +22,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x4136020, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x424571c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
 
-  /// @brief Method Format, addr 0x4136090, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x424578c, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
-
-  /// @brief Method Format, addr 0x4136108, size 0x88, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
-
-  /// @brief Method GetString, addr 0x413601c, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
 
 protected:
   // Ctor Parameters []
@@ -49,7 +43,7 @@ public:
   SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

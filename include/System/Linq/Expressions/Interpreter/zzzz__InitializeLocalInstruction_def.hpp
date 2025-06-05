@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction* New_ctor(int32_t index);
 
-  /// @brief Method .ctor, addr 0x40ea3c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ea348, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
 protected:

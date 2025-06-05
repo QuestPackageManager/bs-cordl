@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::JapaneseCalendar::*)()>(
     &::System::Globalization::JapaneseCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3da1ed0;
+  constexpr static std::size_t addrs = 0x3da1e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::JapaneseCalendar::*)()>(
     &::System::Globalization::JapaneseCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3da1f28;
+  constexpr static std::size_t addrs = 0x3da1eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> (*)()>(
     &::System::Globalization::JapaneseCalendar::GetEraInfo)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x3da1f80;
+  constexpr static std::size_t addrs = 0x3da1f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::JapaneseCalendar*>::get(), "GetEraInfo",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*> (*)()>(
     &::System::Globalization::JapaneseCalendar::GetErasFromRegistry)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da23d8;
+  constexpr static std::size_t addrs = 0x3da2360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::JapaneseCalendar*>::get(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::Calendar* (*)()>(&::System::Globalization::JapaneseCalendar::GetDefaultInstance)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3da23e0;
+  constexpr static std::size_t addrs = 0x3da2368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::JapaneseCalendar*>::get(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::JapaneseCalendar::*)()>(&::System::Globalization::JapaneseCalendar::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3da2490;
+  constexpr static std::size_t addrs = 0x3da2418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::JapaneseCalendar*>::get(), ".ctor",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)()>(&::System::Globalization::JapaneseCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da2648;
+  constexpr static std::size_t addrs = 0x3da25d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::JapaneseCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da2650;
+  constexpr static std::size_t addrs = 0x3da25d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::JapaneseCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da2668;
+  constexpr static std::size_t addrs = 0x3da25f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(::System::DateTime)>(
     &::System::Globalization::JapaneseCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da2680;
+  constexpr static std::size_t addrs = 0x3da2608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DayOfWeek (::System::Globalization::JapaneseCalendar::*)(::System::DateTime)>(
     &::System::Globalization::JapaneseCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da2698;
+  constexpr static std::size_t addrs = 0x3da2620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::JapaneseCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3da26b0;
+  constexpr static std::size_t addrs = 0x3da2638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(::System::DateTime)>(
     &::System::Globalization::JapaneseCalendar::GetEra)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da26d4;
+  constexpr static std::size_t addrs = 0x3da265c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(::System::DateTime)>(
     &::System::Globalization::JapaneseCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da26ec;
+  constexpr static std::size_t addrs = 0x3da2674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(::System::DateTime)>(
     &::System::Globalization::JapaneseCalendar::GetYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da2704;
+  constexpr static std::size_t addrs = 0x3da268c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::JapaneseCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::JapaneseCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da271c;
+  constexpr static std::size_t addrs = 0x3da26a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::JapaneseCalendar::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::JapaneseCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3da2734;
+  constexpr static std::size_t addrs = 0x3da26bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)(int32_t)>(
     &::System::Globalization::JapaneseCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3da2754;
+  constexpr static std::size_t addrs = 0x3da26dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::JapaneseCalendar::*)()>(
     &::System::Globalization::JapaneseCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3da28a0;
+  constexpr static std::size_t addrs = 0x3da2828;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::System::Globalization::JapaneseCalendar::EraNames)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d9d6a0;
+  constexpr static std::size_t addrs = 0x3d9d628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::JapaneseCalendar*>::get(), "EraNames",
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::System::Globalization::JapaneseCalendar::EnglishEraNames)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d9d774;
+  constexpr static std::size_t addrs = 0x3d9d6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::JapaneseCalendar*>::get(),
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::JapaneseCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::JapaneseCalendar::IsValidYear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3da28b8;
+  constexpr static std::size_t addrs = 0x3da2840;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::JapaneseCalendar::*)()>(
     &::System::Globalization::JapaneseCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3da28e0;
+  constexpr static std::size_t addrs = 0x3da2868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::JapaneseCalendar::*)(int32_t)>(
     &::System::Globalization::JapaneseCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3da2924;
+  constexpr static std::size_t addrs = 0x3da28ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

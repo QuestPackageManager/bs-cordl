@@ -86,16 +86,16 @@ public:
 
   constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
-  /// @brief Method .ctor, addr 0x225d7d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225d794, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_darkerColorMultiplier, addr 0x225d7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_darkerColorMultiplier, addr 0x225d784, size 0x8, virtual false, abstract: false, final false
   inline float_t get_darkerColorMultiplier();
 
-  /// @brief Method get_defaultColor, addr 0x225d7b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultColor, addr 0x225d778, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_defaultColor();
 
-  /// @brief Method get_whiteBoost, addr 0x225d7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_whiteBoost, addr 0x225d78c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_whiteBoost();
 
 protected:
@@ -152,10 +152,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* New_ctor();
 
-  /// @brief Method <OnValidate>b__10_0, addr 0x225d854, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnValidate>b__10_0, addr 0x225d814, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OnValidate_b__10_0(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData* x);
 
-  /// @brief Method .ctor, addr 0x225d84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225d80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* getStaticF___9();
@@ -232,16 +232,16 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x225d438, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x225d3f8, size 0x1a4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColors, addr 0x225d024, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x225cfe4, size 0x1d0, virtual false, abstract: false, final false
   inline void SetColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method SetHighlight, addr 0x225d30c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0x225d2cc, size 0x10, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method UpdateRenderer, addr 0x225d5dc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderer, addr 0x225d59c, size 0x174, virtual false, abstract: false, final false
   inline void UpdateRenderer();
 
   constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__boostColors() const;
@@ -295,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set__uvSegment(int32_t value);
 
-  /// @brief Method .ctor, addr 0x225d750, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225d710, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();

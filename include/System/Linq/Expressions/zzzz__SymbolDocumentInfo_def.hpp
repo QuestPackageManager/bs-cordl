@@ -36,7 +36,7 @@ public:
 
   static inline ::System::Guid getStaticF_DocumentType_Text();
 
-  /// @brief Method get_FileName, addr 0x40bd130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x40bd0b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
   static inline void setStaticF_DocumentType_Text(::System::Guid value);

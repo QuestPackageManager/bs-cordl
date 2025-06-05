@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)(::System::IntPtr)>(
     &::System::Security::Principal::WindowsImpersonationContext::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3cbd578;
+  constexpr static std::size_t addrs = 0x3cbd500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)()>(
     &::System::Security::Principal::WindowsImpersonationContext::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cbdc5c;
+  constexpr static std::size_t addrs = 0x3cbdbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)()>(
     &::System::Security::Principal::WindowsImpersonationContext::Undo)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3cbdc6c;
+  constexpr static std::size_t addrs = 0x3cbdbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::CloseToken)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbdd30;
+  constexpr static std::size_t addrs = 0x3cbdcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::System::Security::Principal::WindowsImpersonationContext::DuplicateToken)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbdc54;
+  constexpr static std::size_t addrs = 0x3cbdbdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::SetCurrentToken)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbdc58;
+  constexpr static std::size_t addrs = 0x3cbdbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Security::Principal::WindowsImpersonationContext::RevertToSelf)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbdd2c;
+  constexpr static std::size_t addrs = 0x3cbdcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

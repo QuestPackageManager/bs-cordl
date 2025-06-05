@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_hasSelection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x48e76a0;
+  constexpr static std::size_t addrs = 0x48e7628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_revealCursor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e76e8;
+  constexpr static std::size_t addrs = 0x48e7670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(bool)>(&::UnityEngine::TextSelectingUtilities::set_revealCursor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x48e76f0;
+  constexpr static std::size_t addrs = 0x48e7678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_m_CharacterCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48e7720;
+  constexpr static std::size_t addrs = 0x48e76a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_characterCount)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48e7748;
+  constexpr static std::size_t addrs = 0x48e76d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> (
     ::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_m_TextElementInfos)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48e77dc;
+  constexpr static std::size_t addrs = 0x48e7764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_cursorIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e76d8;
+  constexpr static std::size_t addrs = 0x48e7660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "get_cursorIndex",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::set_cursorIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x48e785c;
+  constexpr static std::size_t addrs = 0x48e77e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::SetCursorIndexWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e7888;
+  constexpr static std::size_t addrs = 0x48e7810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_selectIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e76e0;
+  constexpr static std::size_t addrs = 0x48e7668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "get_selectIndex",
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(&::UnityEngine::TextSelectingUtilities::set_selectIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x48e7890;
+  constexpr static std::size_t addrs = 0x48e7818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::SetSelectIndexWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e78bc;
+  constexpr static std::size_t addrs = 0x48e7844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::get_selectedText)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48e78c4;
+  constexpr static std::size_t addrs = 0x48e784c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextSelectingUtilities::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48e79d4;
+  constexpr static std::size_t addrs = 0x48e795c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::Event*)>(
     &::UnityEngine::TextSelectingUtilities::HandleKeyEvent)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x48e7a1c;
+  constexpr static std::size_t addrs = 0x48e79a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::TextSelectOp)>(
     &::UnityEngine::TextSelectingUtilities::PerformOperation)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x48e7f2c;
+  constexpr static std::size_t addrs = 0x48e7eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::TextSelectOp)>(&::UnityEngine::TextSelectingUtilities::MapKey)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48e8dc4;
+  constexpr static std::size_t addrs = 0x48e8d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::InitKeyActions)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x48e7b28;
+  constexpr static std::size_t addrs = 0x48e7ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "InitKeyActions",
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::ClearCursorPos)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48e8e54;
+  constexpr static std::size_t addrs = 0x48e8ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "ClearCursorPos",
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(bool)>(&::UnityEngine::TextSelectingUtilities::OnFocus)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48e8e64;
+  constexpr static std::size_t addrs = 0x48e8dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectAll)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48e8d0c;
+  constexpr static std::size_t addrs = 0x48e8c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectAll",
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectNone)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48e8d78;
+  constexpr static std::size_t addrs = 0x48e8d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectNone",
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectLeft)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48e811c;
+  constexpr static std::size_t addrs = 0x48e80a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectLeft",
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectRight)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48e8218;
+  constexpr static std::size_t addrs = 0x48e81a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectRight",
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectUp)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48e8314;
+  constexpr static std::size_t addrs = 0x48e829c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectUp",
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectDown)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48e8380;
+  constexpr static std::size_t addrs = 0x48e8308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectDown",
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectTextEnd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48e872c;
+  constexpr static std::size_t addrs = 0x48e86b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectTextEnd",
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectTextStart)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48e8704;
+  constexpr static std::size_t addrs = 0x48e868c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectTextStart",
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectToStartOfNextWord)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e86a8;
+  constexpr static std::size_t addrs = 0x48e8630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(
     &::UnityEngine::TextSelectingUtilities::SelectToEndOfPreviousWord)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e864c;
+  constexpr static std::size_t addrs = 0x48e85d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectWordRight)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x48e83ec;
+  constexpr static std::size_t addrs = 0x48e8374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectWordRight",
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectWordLeft)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x48e851c;
+  constexpr static std::size_t addrs = 0x48e84a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "SelectWordLeft",
@@ -471,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(
     &::UnityEngine::TextSelectingUtilities::SelectGraphicalLineStart)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e8bbc;
+  constexpr static std::size_t addrs = 0x48e8b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectGraphicalLineEnd)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e8c18;
+  constexpr static std::size_t addrs = 0x48e8ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectParagraphForward)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48e894c;
+  constexpr static std::size_t addrs = 0x48e88d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -510,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectParagraphBackward)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x48e8a60;
+  constexpr static std::size_t addrs = 0x48e89e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectCurrentWord)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48e9690;
+  constexpr static std::size_t addrs = 0x48e9618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::SelectCurrentParagraph)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48e98e4;
+  constexpr static std::size_t addrs = 0x48e986c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveRight)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48e99d4;
+  constexpr static std::size_t addrs = 0x48e995c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveRight",
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveLeft)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x48e9ae8;
+  constexpr static std::size_t addrs = 0x48e9a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveLeft",
@@ -575,7 +575,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveUp)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x48e9bf4;
+  constexpr static std::size_t addrs = 0x48e9b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveUp",
@@ -588,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveDown)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x48e9d28;
+  constexpr static std::size_t addrs = 0x48e9cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveDown",
@@ -601,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveLineStart)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x48e9e68;
+  constexpr static std::size_t addrs = 0x48e9df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveLineStart",
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveLineEnd)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x48e9f9c;
+  constexpr static std::size_t addrs = 0x48e9f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveLineEnd",
@@ -627,7 +627,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveGraphicalLineStart)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48ea0e8;
+  constexpr static std::size_t addrs = 0x48ea070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -640,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveGraphicalLineEnd)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48ea19c;
+  constexpr static std::size_t addrs = 0x48ea124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveTextStart)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48ea250;
+  constexpr static std::size_t addrs = 0x48ea1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveTextStart",
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveTextEnd)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48ea2ac;
+  constexpr static std::size_t addrs = 0x48ea234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveTextEnd",
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveParagraphForward)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x48ea324;
+  constexpr static std::size_t addrs = 0x48ea2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveParagraphBackward)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x48ea430;
+  constexpr static std::size_t addrs = 0x48ea3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveWordRight)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48e9308;
+  constexpr static std::size_t addrs = 0x48e9290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveWordRight",
@@ -718,7 +718,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveToStartOfNextWord)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x48ea604;
+  constexpr static std::size_t addrs = 0x48ea58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveToEndOfPreviousWord)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x48ea6cc;
+  constexpr static std::size_t addrs = 0x48ea654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -744,7 +744,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::MoveWordLeft)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x48e93f8;
+  constexpr static std::size_t addrs = 0x48e9380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "MoveWordLeft",
@@ -758,7 +758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(bool)>(
     &::UnityEngine::TextSelectingUtilities::MouseDragSelectsWholeWords)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48ea830;
+  constexpr static std::size_t addrs = 0x48ea7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -773,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(
     &::UnityEngine::TextSelectingUtilities::ExpandSelectGraphicalLineStart)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48e876c;
+  constexpr static std::size_t addrs = 0x48e86f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -787,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(
     &::UnityEngine::TextSelectingUtilities::ExpandSelectGraphicalLineEnd)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48e885c;
+  constexpr static std::size_t addrs = 0x48e87e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -801,7 +801,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::TextEditor_DblClickSnapping)>(
     &::UnityEngine::TextSelectingUtilities::DblClickSnap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ea8c8;
+  constexpr static std::size_t addrs = 0x48ea850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -816,7 +816,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::Vector2, bool)>(
     &::UnityEngine::TextSelectingUtilities::MoveCursorToPosition_Internal)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48ea8d0;
+  constexpr static std::size_t addrs = 0x48ea858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(),
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::TextSelectingUtilities::SelectToPosition)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x48ea96c;
+  constexpr static std::size_t addrs = 0x48ea8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::FindNextSeperator)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48ea580;
+  constexpr static std::size_t addrs = 0x48ea508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -862,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::FindPrevSeperator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48ea794;
+  constexpr static std::size_t addrs = 0x48ea71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -877,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::FindStartOfNextWord)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x48e9068;
+  constexpr static std::size_t addrs = 0x48e8ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::FindEndOfPreviousWord)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x48e922c;
+  constexpr static std::size_t addrs = 0x48e91b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -907,7 +907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t, ::UnityEngine::TextSelectingUtilities_Direction)>(
     &::UnityEngine::TextSelectingUtilities::FindEndOfClassification)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x48e97a0;
+  constexpr static std::size_t addrs = 0x48e9728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -923,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::ClampTextIndex)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48ead60;
+  constexpr static std::size_t addrs = 0x48eace8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -938,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::EnsureValidCodePointIndex)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48e7804;
+  constexpr static std::size_t addrs = 0x48e778c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::IsValidCodePointIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x48ead84;
+  constexpr static std::size_t addrs = 0x48ead0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -968,7 +968,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::IndexOfEndOfLine)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48e9650;
+  constexpr static std::size_t addrs = 0x48e95d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -983,7 +983,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::PreviousCodePointIndex)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x48e8eb0;
+  constexpr static std::size_t addrs = 0x48e8e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -998,7 +998,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::NextCodePointIndex)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x48e8f88;
+  constexpr static std::size_t addrs = 0x48e8f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1013,7 +1013,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::GetGraphicalLineStart)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x48e94f0;
+  constexpr static std::size_t addrs = 0x48e9478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1028,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::GetGraphicalLineEnd)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48e959c;
+  constexpr static std::size_t addrs = 0x48e9524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1042,7 +1042,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextSelectingUtilities::*)()>(&::UnityEngine::TextSelectingUtilities::Copy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48e8c74;
+  constexpr static std::size_t addrs = 0x48e8bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextSelectingUtilities*>::get(), "Copy",
@@ -1056,7 +1056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextSelectingUtilities_CharacterType (::UnityEngine::TextSelectingUtilities::*)(int32_t)>(
     &::UnityEngine::TextSelectingUtilities::ClassifyChar)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x48eac54;
+  constexpr static std::size_t addrs = 0x48eabdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

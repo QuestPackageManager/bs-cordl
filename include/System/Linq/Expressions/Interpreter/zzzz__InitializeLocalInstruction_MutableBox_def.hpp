@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_MutableBox* New_ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method Run, addr 0x40ead28, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40eacb0, size 0x178, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__type() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40eacb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eac40, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method get_InstructionName, addr 0x40eaea0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40eae28, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

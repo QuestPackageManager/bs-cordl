@@ -40,27 +40,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x48cbef8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48cbe80, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method Equals, addr 0x48cc104, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48cc08c, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::Playable other);
 
-  /// @brief Method GetHandle, addr 0x48cbff8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x48cbf80, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method GetPlayableType, addr 0x48cc004, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPlayableType, addr 0x48cbf8c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Type* GetPlayableType();
 
   /// @brief Method IsPlayableOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOfType();
 
-  /// @brief Method .ctor, addr 0x48cbff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cbf78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Playables::Playable getStaticF_m_NullPlayable();
 
-  /// @brief Method get_Null, addr 0x48cbea0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x48cbe28, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable get_Null();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"

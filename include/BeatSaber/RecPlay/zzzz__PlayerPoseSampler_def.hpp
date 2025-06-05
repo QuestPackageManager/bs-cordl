@@ -42,7 +42,7 @@ public:
 
   static inline ::BeatSaber::RecPlay::PlayerPoseSampler* New_ctor();
 
-  /// @brief Method Sample, addr 0x227bd08, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Sample, addr 0x227bcc8, size 0x104, virtual false, abstract: false, final false
   inline void Sample(float_t time, ::ByRef<::BeatSaber::RecPlay::PlayerPose> player);
 
   constexpr int32_t const& __cordl_internal_get__headNearestFrame() const;
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_offsets(::BeatSaber::RecPlay::PoseOffsets value);
 
-  /// @brief Method .ctor, addr 0x227c07c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227c03c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -146,60 +146,60 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddConnection, addr 0x44c6330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AddConnection, addr 0x44c62b8, size 0x28, virtual false, abstract: false, final false
   inline void AddConnection(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method BeginGetContext, addr 0x44c880c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method BeginGetContext, addr 0x44c8794, size 0x2bc, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CheckDisposed, addr 0x44c7c58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckDisposed, addr 0x44c7be0, size 0x78, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
-  /// @brief Method Cleanup, addr 0x44c7d80, size 0xa8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x44c7d08, size 0xa8c, virtual false, abstract: false, final false
   inline void Cleanup(bool close_existing);
 
-  /// @brief Method Close, addr 0x44c7cd8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x44c7c60, size 0x34, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close, addr 0x44c7d0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x44c7c94, size 0x74, virtual false, abstract: false, final false
   inline void Close(bool force);
 
-  /// @brief Method CreateSslStream, addr 0x44c4ed8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CreateSslStream, addr 0x44c4e60, size 0x184, virtual false, abstract: false, final false
   inline ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream* innerStream, bool ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
-  /// @brief Method EndGetContext, addr 0x44c8b8c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method EndGetContext, addr 0x44c8b14, size 0x2b8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method GetContext, addr 0x44c8f9c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x44c8f24, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method GetContextFromQueue, addr 0x44c8ac8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetContextFromQueue, addr 0x44c8a50, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContextFromQueue();
 
-  /// @brief Method LoadCertificateAndKey, addr 0x44c0ac8, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method LoadCertificateAndKey, addr 0x44c0a50, size 0x400, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress* addr, int32_t port);
 
   static inline ::System::Net::HttpListener* New_ctor();
 
-  /// @brief Method RegisterContext, addr 0x44c6358, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method RegisterContext, addr 0x44c62e0, size 0x374, virtual false, abstract: false, final false
   inline void RegisterContext(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method RemoveConnection, addr 0x44c66cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x44c6654, size 0x24, virtual false, abstract: false, final false
   inline void RemoveConnection(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method SelectAuthenticationScheme, addr 0x44c8e44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SelectAuthenticationScheme, addr 0x44c8dcc, size 0x38, virtual false, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Start, addr 0x44c90dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x44c9064, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x44c914c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x44c90d4, size 0x20, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x44c916c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x44c90f4, size 0x30, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method UnregisterContext, addr 0x44c1e2c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterContext, addr 0x44c1db4, size 0x1c8, virtual false, abstract: false, final false
   inline void UnregisterContext(::System::Net::HttpListenerContext* context);
 
   constexpr ::System::Object* const& __cordl_internal_get__internalLock() const;
@@ -304,25 +304,25 @@ public:
 
   constexpr void __cordl_internal_set_wait_queue(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x44c7a10, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c7998, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationSchemeSelectorDelegate, addr 0x44c7c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticationSchemeSelectorDelegate, addr 0x44c7bc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::AuthenticationSchemeSelector* get_AuthenticationSchemeSelectorDelegate();
 
-  /// @brief Method get_AuthenticationSchemes, addr 0x44c7c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthenticationSchemes, addr 0x44c7bc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes get_AuthenticationSchemes();
 
-  /// @brief Method get_IgnoreWriteExceptions, addr 0x44c7c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreWriteExceptions, addr 0x44c7bd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreWriteExceptions();
 
-  /// @brief Method get_IsListening, addr 0x44c7c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsListening, addr 0x44c7bd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsListening();
 
-  /// @brief Method get_Prefixes, addr 0x44c3cd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Prefixes, addr 0x44c3c60, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerPrefixCollection* get_Prefixes();
 
-  /// @brief Method get_Realm, addr 0x44c7cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x44c7c58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   /// @brief Convert to "::System::IDisposable"

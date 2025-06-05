@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44349ec;
+  constexpr static std::size_t addrs = 0x4434974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader___c*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ReadT61String_b__45_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x44349f4;
+  constexpr static std::size_t addrs = 0x443497c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader___c*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ReadT61String_b__45_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4434a50;
+  constexpr static std::size_t addrs = 0x44349d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader___c*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::DateTimeFormatInfo* (::System::Security::Cryptography::DerSequenceReader___c::*)()>(
     &::System::Security::Cryptography::DerSequenceReader___c::_ReadTime_b__51_0)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4434a94;
+  constexpr static std::size_t addrs = 0x4434a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader___c*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(int32_t)>(
     &::System::Security::Cryptography::DerSequenceReader::set_ContentLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443344c;
+  constexpr static std::size_t addrs = 0x44333d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::DerSequenceReader::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4433454;
+  constexpr static std::size_t addrs = 0x44333dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::DerSequenceReader::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4433478;
+  constexpr static std::size_t addrs = 0x4433400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(
     ::System::Security::Cryptography::DerSequenceReader_DerTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::DerSequenceReader::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x443348c;
+  constexpr static std::size_t addrs = 0x4433414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::get_HasData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4433638;
+  constexpr static std::size_t addrs = 0x44335c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::PeekTag)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4433648;
+  constexpr static std::size_t addrs = 0x44335d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::SkipValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44336dc;
+  constexpr static std::size_t addrs = 0x4433664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadNextEncodedValue)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x443372c;
+  constexpr static std::size_t addrs = 0x44336b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadBoolean)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4433908;
+  constexpr static std::size_t addrs = 0x4433890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadInteger)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x44339d0;
+  constexpr static std::size_t addrs = 0x4433958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadIntegerBytes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4433a84;
+  constexpr static std::size_t addrs = 0x4433a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadBitString)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4433b54;
+  constexpr static std::size_t addrs = 0x4433adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadOctetString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4433c98;
+  constexpr static std::size_t addrs = 0x4433c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadOidAsString)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x4433cb4;
+  constexpr static std::size_t addrs = 0x4433c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadUtf8String)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4433f7c;
+  constexpr static std::size_t addrs = 0x4433f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DerSequenceReader* (
     ::System::Security::Cryptography::DerSequenceReader::*)(::System::Security::Cryptography::DerSequenceReader_DerTag)>(&::System::Security::Cryptography::DerSequenceReader::ReadCollectionWithTag)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4434078;
+  constexpr static std::size_t addrs = 0x4434000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DerSequenceReader* (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadSequence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44341d0;
+  constexpr static std::size_t addrs = 0x4434158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DerSequenceReader* (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44341d8;
+  constexpr static std::size_t addrs = 0x4434160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadPrintableString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44341e0;
+  constexpr static std::size_t addrs = 0x4434168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadIA5String)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4434260;
+  constexpr static std::size_t addrs = 0x44341e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadT61String)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x44342e0;
+  constexpr static std::size_t addrs = 0x4434268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadX509Date)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44345b8;
+  constexpr static std::size_t addrs = 0x4434540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadUtcTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4434638;
+  constexpr static std::size_t addrs = 0x44345c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadGeneralizedTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4434684;
+  constexpr static std::size_t addrs = 0x443460c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadBMPString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4434910;
+  constexpr static std::size_t addrs = 0x4434898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Security::Cryptography::DerSequenceReader::TrimTrailingNulls)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4433ffc;
+  constexpr static std::size_t addrs = 0x4433f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Security::Cryptography::DerSequenceReader::*)(
     ::System::Security::Cryptography::DerSequenceReader_DerTag, ::StringW)>(&::System::Security::Cryptography::DerSequenceReader::ReadTime)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x44346d0;
+  constexpr static std::size_t addrs = 0x4434658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::ReadContentAsBytes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4433aa0;
+  constexpr static std::size_t addrs = 0x4433a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DerSequenceReader::*)(
     ::System::Security::Cryptography::DerSequenceReader_DerTag)>(&::System::Security::Cryptography::DerSequenceReader::EatTag)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x443357c;
+  constexpr static std::size_t addrs = 0x4433504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Security::Cryptography::DerSequenceReader_DerTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::Cryptography::DerSequenceReader::CheckTag)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x443413c;
+  constexpr static std::size_t addrs = 0x44340c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -585,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::DerSequenceReader::*)()>(
     &::System::Security::Cryptography::DerSequenceReader::EatLength)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x44335fc;
+  constexpr static std::size_t addrs = 0x4433584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DerSequenceReader*>::get(),
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(
     &::System::Security::Cryptography::DerSequenceReader::ScanContentLength)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x44337e4;
+  constexpr static std::size_t addrs = 0x443376c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

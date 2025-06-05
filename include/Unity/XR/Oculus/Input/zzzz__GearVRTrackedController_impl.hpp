@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b20;
+  constexpr static std::size_t addrs = 0x4838aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b28;
+  constexpr static std::size_t addrs = 0x4838ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b30;
+  constexpr static std::size_t addrs = 0x4838ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b38;
+  constexpr static std::size_t addrs = 0x4838ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_back)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b40;
+  constexpr static std::size_t addrs = 0x4838ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_back)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b48;
+  constexpr static std::size_t addrs = 0x4838ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b50;
+  constexpr static std::size_t addrs = 0x4838ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b58;
+  constexpr static std::size_t addrs = 0x4838ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b60;
+  constexpr static std::size_t addrs = 0x4838ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b68;
+  constexpr static std::size_t addrs = 0x4838af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b70;
+  constexpr static std::size_t addrs = 0x4838af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b78;
+  constexpr static std::size_t addrs = 0x4838b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b80;
+  constexpr static std::size_t addrs = 0x4838b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b88;
+  constexpr static std::size_t addrs = 0x4838b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b90;
+  constexpr static std::size_t addrs = 0x4838b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_isTracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838b98;
+  constexpr static std::size_t addrs = 0x4838b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838ba0;
+  constexpr static std::size_t addrs = 0x4838b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_devicePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838ba8;
+  constexpr static std::size_t addrs = 0x4838b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838bb0;
+  constexpr static std::size_t addrs = 0x4838b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::Unity::XR::Oculus::Input::GearVRTrackedController::set_deviceRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838bb8;
+  constexpr static std::size_t addrs = 0x4838b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838bc0;
+  constexpr static std::size_t addrs = 0x4838b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838bc8;
+  constexpr static std::size_t addrs = 0x4838b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838bd0;
+  constexpr static std::size_t addrs = 0x4838b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838bd8;
+  constexpr static std::size_t addrs = 0x4838b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::get_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838be0;
+  constexpr static std::size_t addrs = 0x4838b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::set_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838be8;
+  constexpr static std::size_t addrs = 0x4838b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::FinishSetup)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x4838bf0;
+  constexpr static std::size_t addrs = 0x4838b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::GearVRTrackedController::*)()>(
     &::Unity::XR::Oculus::Input::GearVRTrackedController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838a34;
+  constexpr static std::size_t addrs = 0x48389bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::GearVRTrackedController*>::get(),

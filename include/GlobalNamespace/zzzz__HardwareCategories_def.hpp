@@ -21,10 +21,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE HardwareCategories : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHardwareCategory, addr 0x226ac00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0x226abc0, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategory();
 
-  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x226abfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x226abbc, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategoryWithEditorOverride();
 
 protected:

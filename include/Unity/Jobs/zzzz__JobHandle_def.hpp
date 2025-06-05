@@ -31,43 +31,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Jobs::JobHandle>"
   constexpr operator ::System::IEquatable_1<::Unity::Jobs::JobHandle>*();
 
-  /// @brief Method CombineDependencies, addr 0x4860044, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x485ffcc, size 0x28, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Jobs::JobHandle job0, ::Unity::Jobs::JobHandle job1);
 
-  /// @brief Method CombineDependencies, addr 0x48600c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x4860050, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> jobs);
 
-  /// @brief Method CombineDependencies, addr 0x4860184, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CombineDependencies, addr 0x486010c, size 0x98, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependencies(::Unity::Collections::NativeSlice_1<::Unity::Jobs::JobHandle> jobs);
 
-  /// @brief Method CombineDependenciesInternal2, addr 0x486006c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternal2, addr 0x485fff4, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternal2(::ByRef<::Unity::Jobs::JobHandle> job0, ::ByRef<::Unity::Jobs::JobHandle> job1);
 
-  /// @brief Method CombineDependenciesInternal2_Injected, addr 0x486021c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternal2_Injected, addr 0x48601a4, size 0x54, virtual false, abstract: false, final false
   static inline void CombineDependenciesInternal2_Injected(::ByRef<::Unity::Jobs::JobHandle> job0, ::ByRef<::Unity::Jobs::JobHandle> job1, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method CombineDependenciesInternalPtr, addr 0x4860128, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternalPtr, addr 0x48600b0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle CombineDependenciesInternalPtr(::cordl_internals::Ptr<void> jobs, int32_t count);
 
-  /// @brief Method CombineDependenciesInternalPtr_Injected, addr 0x4860270, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CombineDependenciesInternalPtr_Injected, addr 0x48601f8, size 0x54, virtual false, abstract: false, final false
   static inline void CombineDependenciesInternalPtr_Injected(::cordl_internals::Ptr<void> jobs, int32_t count, ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method Complete, addr 0x485ff18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x485fea0, size 0x50, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Equals, addr 0x48602c4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x486024c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Jobs::JobHandle other);
 
-  /// @brief Method ScheduleBatchedJobs, addr 0x486001c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobs, addr 0x485ffa4, size 0x28, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobs();
 
-  /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x485ff68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobsAndComplete, addr 0x485fef0, size 0x3c, virtual false, abstract: false, final false
   static inline void ScheduleBatchedJobsAndComplete(::ByRef<::Unity::Jobs::JobHandle> job);
 
-  /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x485ffe0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatchedJobsAndIsCompleted, addr 0x485ff68, size 0x3c, virtual false, abstract: false, final false
   static inline bool ScheduleBatchedJobsAndIsCompleted(::ByRef<::Unity::Jobs::JobHandle> job);
 
-  /// @brief Method get_IsCompleted, addr 0x485ffa4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x485ff2c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Jobs::JobHandle>"

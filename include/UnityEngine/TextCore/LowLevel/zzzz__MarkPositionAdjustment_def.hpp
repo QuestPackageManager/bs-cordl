@@ -23,10 +23,10 @@ public:
 
   __declspec(property(get = get_yPositionAdjustment)) float_t yPositionAdjustment;
 
-  /// @brief Method get_xPositionAdjustment, addr 0x492394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xPositionAdjustment, addr 0x49238d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xPositionAdjustment();
 
-  /// @brief Method get_yPositionAdjustment, addr 0x4923954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yPositionAdjustment, addr 0x49238dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yPositionAdjustment();
 
   // Ctor Parameters []

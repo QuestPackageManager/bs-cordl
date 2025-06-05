@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(bool)>(&::Org::BouncyCastle::Bcpg::Sig::Revocable::BooleanToByteArray)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x263f688;
+  constexpr static std::size_t addrs = 0x263f648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Revocable::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::Revocable::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x263f6f4;
+  constexpr static std::size_t addrs = 0x263f6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Revocable::*)(bool, bool)>(&::Org::BouncyCastle::Bcpg::Sig::Revocable::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x263f73c;
+  constexpr static std::size_t addrs = 0x263f6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Revocable::*)()>(&::Org::BouncyCastle::Bcpg::Sig::Revocable::IsRevocable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x263f788;
+  constexpr static std::size_t addrs = 0x263f748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::Revocable*>::get(), "IsRevocable",

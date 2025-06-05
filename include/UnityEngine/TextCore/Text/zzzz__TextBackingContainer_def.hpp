@@ -25,25 +25,25 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) uint32_t Item[];
 
-  /// @brief Method Resize, addr 0x494a4d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x494a458, size 0x64, virtual false, abstract: false, final false
   inline void Resize(int32_t size);
 
-  /// @brief Method .ctor, addr 0x494a534, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494a4bc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method get_Capacity, addr 0x494a414, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x494a39c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_Count, addr 0x494a430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x494a3b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x494a440, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x494a3c8, size 0x30, virtual false, abstract: false, final false
   inline uint32_t get_Item(int32_t index);
 
-  /// @brief Method set_Count, addr 0x494a438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x494a3c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method set_Item, addr 0x494a470, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x494a3f8, size 0x60, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, uint32_t value);
 
   // Ctor Parameters []

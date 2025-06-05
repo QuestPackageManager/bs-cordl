@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::RefreshRate::*)()>(&::UnityEngine::RefreshRate::get_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4874ff4;
+  constexpr static std::size_t addrs = 0x4874f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RefreshRate>::get(), "get_value",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::RefreshRate::*)(::UnityEngine::RefreshRate)>(&::UnityEngine::RefreshRate::Equals)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4875008;
+  constexpr static std::size_t addrs = 0x4874f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RefreshRate::*)(::UnityEngine::RefreshRate)>(&::UnityEngine::RefreshRate::CompareTo)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4875044;
+  constexpr static std::size_t addrs = 0x4874fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::RefreshRate::*)()>(&::UnityEngine::RefreshRate::ToString)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4875094;
+  constexpr static std::size_t addrs = 0x487501c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b3c0c8;
+  constexpr static std::size_t addrs = 0x3b3c0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b3c5a8;
+  constexpr static std::size_t addrs = 0x3b3c580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::get_missionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ea1c;
+  constexpr static std::size_t addrs = 0x3b3e9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(::StringW)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::set_missionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ea24;
+  constexpr static std::size_t addrs = 0x3b3e9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*,
     ::GlobalNamespace::BeatmapDataLoader*, ::StringW)>(&::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x3b38f5c;
+  constexpr static std::size_t addrs = 0x3b38f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::BeatmapDataLoader*, ::StringW)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x3b3d19c;
+  constexpr static std::size_t addrs = 0x3b3d174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::MissionCompletionResults*)>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Finish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b3ea2c;
+  constexpr static std::size_t addrs = 0x3b3ea04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ea54;
+  constexpr static std::size_t addrs = 0x3b3ea2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

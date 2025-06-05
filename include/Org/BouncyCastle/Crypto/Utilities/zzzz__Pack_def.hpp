@@ -19,153 +19,153 @@ namespace Org::BouncyCastle::Crypto::Utilities {
 class CORDL_TYPE Pack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BE_To_UInt16, addr 0x2446228, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt16, addr 0x24461e8, size 0x34, virtual false, abstract: false, final false
   static inline uint16_t BE_To_UInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method BE_To_UInt16, addr 0x244625c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt16, addr 0x244621c, size 0x40, virtual false, abstract: false, final false
   static inline uint16_t BE_To_UInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method BE_To_UInt32, addr 0x2446544, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt32, addr 0x2446504, size 0x58, virtual false, abstract: false, final false
   static inline uint32_t BE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method BE_To_UInt32, addr 0x244659c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt32, addr 0x244655c, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t BE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method BE_To_UInt32, addr 0x2446684, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt32, addr 0x2446644, size 0x88, virtual false, abstract: false, final false
   static inline void BE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ns, int32_t nsOff, int32_t nsLen);
 
-  /// @brief Method BE_To_UInt32, addr 0x2446610, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt32, addr 0x24465d0, size 0x74, virtual false, abstract: false, final false
   static inline void BE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, ::ArrayW<uint32_t, ::Array<uint32_t>*> ns);
 
-  /// @brief Method BE_To_UInt64, addr 0x2446988, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt64, addr 0x2446948, size 0x34, virtual false, abstract: false, final false
   static inline uint64_t BE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method BE_To_UInt64, addr 0x24469bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt64, addr 0x244697c, size 0x38, virtual false, abstract: false, final false
   static inline uint64_t BE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method BE_To_UInt64, addr 0x2446a8c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt64, addr 0x2446a4c, size 0xac, virtual false, abstract: false, final false
   static inline void BE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff, ::ArrayW<uint64_t, ::Array<uint64_t>*> ns, int32_t nsOff, int32_t nsLen);
 
-  /// @brief Method BE_To_UInt64, addr 0x24469f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method BE_To_UInt64, addr 0x24469b4, size 0x98, virtual false, abstract: false, final false
   static inline void BE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, ::ArrayW<uint64_t, ::Array<uint64_t>*> ns);
 
-  /// @brief Method LE_To_UInt16, addr 0x2446bb4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt16, addr 0x2446b74, size 0x2c, virtual false, abstract: false, final false
   static inline uint16_t LE_To_UInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method LE_To_UInt16, addr 0x2446be0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt16, addr 0x2446ba0, size 0x40, virtual false, abstract: false, final false
   static inline uint16_t LE_To_UInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method LE_To_UInt32, addr 0x2447008, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt32, addr 0x2446fc8, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> LE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, int32_t count);
 
-  /// @brief Method LE_To_UInt32, addr 0x2446e40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt32, addr 0x2446e00, size 0x58, virtual false, abstract: false, final false
   static inline uint32_t LE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method LE_To_UInt32, addr 0x2446e98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt32, addr 0x2446e58, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t LE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method LE_To_UInt32, addr 0x2446f80, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt32, addr 0x2446f40, size 0x88, virtual false, abstract: false, final false
   static inline void LE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ns, int32_t nOff, int32_t count);
 
-  /// @brief Method LE_To_UInt32, addr 0x2446f0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt32, addr 0x2446ecc, size 0x74, virtual false, abstract: false, final false
   static inline void LE_To_UInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, ::ArrayW<uint32_t, ::Array<uint32_t>*> ns);
 
-  /// @brief Method LE_To_UInt64, addr 0x244732c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt64, addr 0x24472ec, size 0x38, virtual false, abstract: false, final false
   static inline uint64_t LE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method LE_To_UInt64, addr 0x2447364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt64, addr 0x2447324, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t LE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method LE_To_UInt64, addr 0x2447438, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt64, addr 0x24473f8, size 0xac, virtual false, abstract: false, final false
   static inline void LE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff, ::ArrayW<uint64_t, ::Array<uint64_t>*> ns, int32_t nsOff, int32_t nsLen);
 
-  /// @brief Method LE_To_UInt64, addr 0x24473a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LE_To_UInt64, addr 0x2447360, size 0x98, virtual false, abstract: false, final false
   static inline void LE_To_UInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, ::ArrayW<uint64_t, ::Array<uint64_t>*> ns);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::Pack* New_ctor();
 
-  /// @brief Method UInt16_To_BE, addr 0x24461ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UInt16_To_BE, addr 0x244616c, size 0x34, virtual false, abstract: false, final false
   static inline void UInt16_To_BE(uint16_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method UInt16_To_BE, addr 0x24461e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method UInt16_To_BE, addr 0x24461a0, size 0x48, virtual false, abstract: false, final false
   static inline void UInt16_To_BE(uint16_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt16_To_LE, addr 0x2446b38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UInt16_To_LE, addr 0x2446af8, size 0x34, virtual false, abstract: false, final false
   static inline void UInt16_To_LE(uint16_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method UInt16_To_LE, addr 0x2446b6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method UInt16_To_LE, addr 0x2446b2c, size 0x48, virtual false, abstract: false, final false
   static inline void UInt16_To_LE(uint16_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt32_To_BE, addr 0x244629c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x244625c, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt32_To_BE(uint32_t n);
 
-  /// @brief Method UInt32_To_BE, addr 0x24463d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x2446394, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt32_To_BE(::ArrayW<uint32_t, ::Array<uint32_t>*> ns);
 
-  /// @brief Method UInt32_To_BE, addr 0x2446380, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x2446340, size 0x54, virtual false, abstract: false, final false
   static inline void UInt32_To_BE(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method UInt32_To_BE, addr 0x2446300, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x24462c0, size 0x80, virtual false, abstract: false, final false
   static inline void UInt32_To_BE(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt32_To_BE, addr 0x2446444, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x2446404, size 0x78, virtual false, abstract: false, final false
   static inline void UInt32_To_BE(::ArrayW<uint32_t, ::Array<uint32_t>*> ns, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt32_To_BE, addr 0x24464bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_BE, addr 0x244647c, size 0x88, virtual false, abstract: false, final false
   static inline void UInt32_To_BE(::ArrayW<uint32_t, ::Array<uint32_t>*> ns, int32_t nsOff, int32_t nsLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff);
 
-  /// @brief Method UInt32_To_LE, addr 0x2446c20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_LE, addr 0x2446be0, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt32_To_LE(uint32_t n);
 
-  /// @brief Method UInt32_To_LE, addr 0x2446d58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_LE, addr 0x2446d18, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt32_To_LE(::ArrayW<uint32_t, ::Array<uint32_t>*> ns);
 
-  /// @brief Method UInt32_To_LE, addr 0x2446d04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_LE, addr 0x2446cc4, size 0x54, virtual false, abstract: false, final false
   static inline void UInt32_To_LE(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method UInt32_To_LE, addr 0x2446c84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_LE, addr 0x2446c44, size 0x80, virtual false, abstract: false, final false
   static inline void UInt32_To_LE(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt32_To_LE, addr 0x2446dc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UInt32_To_LE, addr 0x2446d88, size 0x78, virtual false, abstract: false, final false
   static inline void UInt32_To_LE(::ArrayW<uint32_t, ::Array<uint32_t>*> ns, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt64_To_BE, addr 0x244670c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x24466cc, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt64_To_BE(uint64_t n);
 
-  /// @brief Method UInt64_To_BE, addr 0x24467e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x24467a4, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt64_To_BE(::ArrayW<uint64_t, ::Array<uint64_t>*> ns);
 
-  /// @brief Method UInt64_To_BE, addr 0x24467b4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x2446774, size 0x30, virtual false, abstract: false, final false
   static inline void UInt64_To_BE(uint64_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method UInt64_To_BE, addr 0x2446780, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x2446740, size 0x34, virtual false, abstract: false, final false
   static inline void UInt64_To_BE(uint64_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt64_To_BE, addr 0x2446854, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x2446814, size 0x94, virtual false, abstract: false, final false
   static inline void UInt64_To_BE(::ArrayW<uint64_t, ::Array<uint64_t>*> ns, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt64_To_BE, addr 0x24468e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_BE, addr 0x24468a8, size 0xa0, virtual false, abstract: false, final false
   static inline void UInt64_To_BE(::ArrayW<uint64_t, ::Array<uint64_t>*> ns, int32_t nsOff, int32_t nsLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff);
 
-  /// @brief Method UInt64_To_LE, addr 0x24470b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_LE, addr 0x2447078, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt64_To_LE(uint64_t n);
 
-  /// @brief Method UInt64_To_LE, addr 0x2447188, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_LE, addr 0x2447148, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> UInt64_To_LE(::ArrayW<uint64_t, ::Array<uint64_t>*> ns);
 
-  /// @brief Method UInt64_To_LE, addr 0x244715c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_LE, addr 0x244711c, size 0x2c, virtual false, abstract: false, final false
   static inline void UInt64_To_LE(uint64_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method UInt64_To_LE, addr 0x244712c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_LE, addr 0x24470ec, size 0x30, virtual false, abstract: false, final false
   static inline void UInt64_To_LE(uint64_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt64_To_LE, addr 0x24471f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_LE, addr 0x24471b8, size 0x94, virtual false, abstract: false, final false
   static inline void UInt64_To_LE(::ArrayW<uint64_t, ::Array<uint64_t>*> ns, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off);
 
-  /// @brief Method UInt64_To_LE, addr 0x244728c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UInt64_To_LE, addr 0x244724c, size 0xa0, virtual false, abstract: false, final false
   static inline void UInt64_To_LE(::ArrayW<uint64_t, ::Array<uint64_t>*> ns, int32_t nsOff, int32_t nsLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t bsOff);
 
-  /// @brief Method .ctor, addr 0x24461a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2446164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

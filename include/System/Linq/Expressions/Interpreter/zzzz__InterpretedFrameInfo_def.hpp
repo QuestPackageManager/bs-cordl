@@ -22,10 +22,10 @@ namespace System::Linq::Expressions::Interpreter {
 struct CORDL_TYPE InterpretedFrameInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x40d8560, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40d84e8, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x40d4c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d4bec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName, ::System::Linq::Expressions::Interpreter::DebugInfo* info);
 
   // Ctor Parameters []

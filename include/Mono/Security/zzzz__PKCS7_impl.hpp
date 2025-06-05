@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c32948;
+  constexpr static std::size_t addrs = 0x3c328d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::StringW)>(&::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c329b8;
+  constexpr static std::size_t addrs = 0x3c32940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c329dc;
+  constexpr static std::size_t addrs = 0x3c32964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(
     &::Mono::Security::PKCS7_ContentInfo::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3c32a44;
+  constexpr static std::size_t addrs = 0x3c329cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_ASN1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c32bc0;
+  constexpr static std::size_t addrs = 0x3c32b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_ASN1",
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(
     &::Mono::Security::PKCS7_ContentInfo::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32c70;
+  constexpr static std::size_t addrs = 0x3c32bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_Content",
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::Mono::Security::ASN1*)>(
     &::Mono::Security::PKCS7_ContentInfo::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32c78;
+  constexpr static std::size_t addrs = 0x3c32c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32c80;
+  constexpr static std::size_t addrs = 0x3c32c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "get_ContentType",
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_ContentInfo::*)(::StringW)>(&::Mono::Security::PKCS7_ContentInfo::set_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32c88;
+  constexpr static std::size_t addrs = 0x3c32c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (::Mono::Security::PKCS7_ContentInfo::*)()>(&::Mono::Security::PKCS7_ContentInfo::GetASN1)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c32bc4;
+  constexpr static std::size_t addrs = 0x3c32b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_ContentInfo*>::get(), "GetASN1",
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)()>(&::Mono::Security::PKCS7_EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c32c90;
+  constexpr static std::size_t addrs = 0x3c32c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(), ".ctor",
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_EncryptedData::*)(::Mono::Security::ASN1*)>(
     &::Mono::Security::PKCS7_EncryptedData::_ctor)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3c32cac;
+  constexpr static std::size_t addrs = 0x3c32c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_EncryptedData::*)()>(
     &::Mono::Security::PKCS7_EncryptedData::get_EncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32f64;
+  constexpr static std::size_t addrs = 0x3c32eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::PKCS7_EncryptedData::*)()>(
     &::Mono::Security::PKCS7_EncryptedData::get_EncryptedContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c32f6c;
+  constexpr static std::size_t addrs = 0x3c32ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_EncryptedData*>::get(),
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignedData::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_SignedData::_ctor)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x3c32fe0;
+  constexpr static std::size_t addrs = 0x3c32f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509CertificateCollection* (::Mono::Security::PKCS7_SignedData::*)()>(
     &::Mono::Security::PKCS7_SignedData::get_Certificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33c70;
+  constexpr static std::size_t addrs = 0x3c33bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_Certificates",
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::PKCS7_SignedData::*)()>(
     &::Mono::Security::PKCS7_SignedData::get_ContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33c78;
+  constexpr static std::size_t addrs = 0x3c33c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_ContentInfo",
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignedData::*)(::StringW)>(&::Mono::Security::PKCS7_SignedData::set_HashName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c33c50;
+  constexpr static std::size_t addrs = 0x3c33bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_SignerInfo* (::Mono::Security::PKCS7_SignedData::*)()>(
     &::Mono::Security::PKCS7_SignedData::get_SignerInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33c80;
+  constexpr static std::size_t addrs = 0x3c33c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignedData*>::get(), "get_SignerInfo",
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_SignedData::*)(::StringW)>(&::Mono::Security::PKCS7_SignedData::OidToName)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3c33a9c;
+  constexpr static std::size_t addrs = 0x3c33a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c33a18;
+  constexpr static std::size_t addrs = 0x3c339a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), ".ctor",
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)(::Mono::Security::ASN1*)>(&::Mono::Security::PKCS7_SignerInfo::_ctor)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x3c336a8;
+  constexpr static std::size_t addrs = 0x3c33630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_IssuerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33dc4;
+  constexpr static std::size_t addrs = 0x3c33d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_IssuerName",
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::PKCS7_SignerInfo::*)()>(
     &::Mono::Security::PKCS7_SignerInfo::get_SerialNumber)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c33dcc;
+  constexpr static std::size_t addrs = 0x3c33d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_SerialNumber",
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(
     &::Mono::Security::PKCS7_SignerInfo::get_AuthenticatedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33e40;
+  constexpr static std::size_t addrs = 0x3c33dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33e48;
+  constexpr static std::size_t addrs = 0x3c33dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_HashName",
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::PKCS7_SignerInfo::*)(::StringW)>(&::Mono::Security::PKCS7_SignerInfo::set_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33e50;
+  constexpr static std::size_t addrs = 0x3c33dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::PKCS7_SignerInfo::*)()>(
     &::Mono::Security::PKCS7_SignerInfo::get_Signature)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c33e58;
+  constexpr static std::size_t addrs = 0x3c33de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_Signature",
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::PKCS7_SignerInfo::*)()>(
     &::Mono::Security::PKCS7_SignerInfo::get_UnauthenticatedAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33ecc;
+  constexpr static std::size_t addrs = 0x3c33e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(),
@@ -705,7 +705,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Security::PKCS7_SignerInfo::*)()>(&::Mono::Security::PKCS7_SignerInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c33ed4;
+  constexpr static std::size_t addrs = 0x3c33e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::PKCS7_SignerInfo*>::get(), "get_Version",

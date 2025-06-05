@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_cutAngleTolerance(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7d7a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7d77c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t cutAngleTolerance);
 
 protected:
@@ -156,29 +156,29 @@ public:
 
   __declspec(property(get = get_activeObstacleControllers)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  /// @brief Method DespawnInternal, addr 0x3b7d588, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3b7d560, size 0x15c, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal, addr 0x3b7d6e4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3b7d6bc, size 0x58, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal, addr 0x3b7d73c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DespawnInternal, addr 0x3b7d714, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
-  /// @brief Method Init, addr 0x3b7d260, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b7d238, size 0x130, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::TutorialBeatmapObjectManager_InitData* initData, ::GlobalNamespace::VariableMovementDataProvider* variableMovementDataProvider,
                    ::GlobalNamespace::TutorialNoteController_Pool* tutorialNotePool, ::GlobalNamespace::BombNoteController_Pool* bombNotePool,
                    ::GlobalNamespace::ObstacleController_Pool* obstaclePool);
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectManager* New_ctor();
 
-  /// @brief Method ProcessNoteData, addr 0x3b7d43c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ProcessNoteData, addr 0x3b7d414, size 0x148, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessObstacleData, addr 0x3b7d390, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ProcessObstacleData, addr 0x3b7d368, size 0xac, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
-  /// @brief Method ProcessSliderData, addr 0x3b7d584, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessSliderData, addr 0x3b7d55c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* const& __cordl_internal_get__bombNotePoolContainer() const;
@@ -217,10 +217,10 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3b7d740, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7d718, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeObstacleControllers, addr 0x3b7d210, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_activeObstacleControllers, addr 0x3b7d1e8, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
 protected:

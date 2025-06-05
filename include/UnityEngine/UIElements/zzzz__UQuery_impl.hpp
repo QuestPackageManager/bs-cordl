@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQueryMatcher_UQuery___c::*)()>(
     &::UnityEngine::UIElements::UQueryMatcher_UQuery___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa1134;
+  constexpr static std::size_t addrs = 0x4aa10bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryMatcher_UQuery___c*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQueryMatcher_UQuery___c::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo)>(&::UnityEngine::UIElements::UQueryMatcher_UQuery___c::_TraverseRecursive_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4aa113c;
+  constexpr static std::size_t addrs = 0x4aa10c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa0eb4;
+  constexpr static std::size_t addrs = 0x4aa0e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQuery_UQueryMatcher*>::get(), ".ctor",
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::Traverse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa0ebc;
+  constexpr static std::size_t addrs = 0x4aa0e44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(
     ::UnityEngine::UIElements::RuleMatcher, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UQuery_UQueryMatcher::OnRuleMatchedElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa0ec4;
+  constexpr static std::size_t addrs = 0x4aa0e4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::NoProcessResult)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4aa0ecc;
+  constexpr static std::size_t addrs = 0x4aa0e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::UQuery_UQueryMatcher::TraverseRecursive)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4aa0ed0;
+  constexpr static std::size_t addrs = 0x4aa0e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_UQueryMatcher::*)(
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*)>(&::UnityEngine::UIElements::UQuery_UQueryMatcher::Run)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4aa10c8;
+  constexpr static std::size_t addrs = 0x4aa1050;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_SingleQueryMatcher::get_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa1140;
+  constexpr static std::size_t addrs = 0x4aa10c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>::get(),
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UQuery_SingleQueryMatcher::set_match)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa1148;
+  constexpr static std::size_t addrs = 0x4aa10d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)(
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>*)>(&::UnityEngine::UIElements::UQuery_SingleQueryMatcher::Run)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4aa1150;
+  constexpr static std::size_t addrs = 0x4aa10d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_SingleQueryMatcher::IsInUse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4aa1174;
+  constexpr static std::size_t addrs = 0x4aa10fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>::get(),
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_SingleQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_SingleQueryMatcher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa1184;
+  constexpr static std::size_t addrs = 0x4aa110c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQuery_SingleQueryMatcher*>::get(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UQuery_FirstQueryMatcher::*)(
     ::UnityEngine::UIElements::RuleMatcher, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UQuery_FirstQueryMatcher::OnRuleMatchedElement)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aa118c;
+  constexpr static std::size_t addrs = 0x4aa1114;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UQuery_SingleQueryMatcher* (::UnityEngine::UIElements::UQuery_FirstQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_FirstQueryMatcher::CreateNew)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4aa11a0;
+  constexpr static std::size_t addrs = 0x4aa1128;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UQuery_FirstQueryMatcher::*)()>(
     &::UnityEngine::UIElements::UQuery_FirstQueryMatcher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa11f4;
+  constexpr static std::size_t addrs = 0x4aa117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQuery_FirstQueryMatcher*>::get(),

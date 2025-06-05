@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_pageWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b1fc4;
+  constexpr static std::size_t addrs = 0x49b1f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_pageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b1fcc;
+  constexpr static std::size_t addrs = 0x49b1f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (*)(
     ::ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32>, ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocToTexelCoord)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49b1fd4;
+  constexpr static std::size_t addrs = 0x49b1f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocToConstantBufferIndex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x49b2024;
+  constexpr static std::size_t addrs = 0x49b1fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32>, ::UnityEngine::UIElements::UIR::BMPAlloc,
                                                                                            ::UnityEngine::RectInt)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AtlasRectMatchesPage)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x49b2084;
+  constexpr static std::size_t addrs = 0x49b200c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> (
     ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_transformConstants)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49b21ec;
+  constexpr static std::size_t addrs = 0x49b2174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> (
     ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_clipRectConstants)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49b2234;
+  constexpr static std::size_t addrs = 0x49b21bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::get_atlas)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49b227c;
+  constexpr static std::size_t addrs = 0x49b2204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::Construct)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x49b296c;
+  constexpr static std::size_t addrs = 0x49b28f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ReallyCreateStorage)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x49b2dc0;
+  constexpr static std::size_t addrs = 0x49b2d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::Dispose)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49b3abc;
+  constexpr static std::size_t addrs = 0x49b3a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::IssuePendingStorageChanges)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49b3b64;
+  constexpr static std::size_t addrs = 0x49b3aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocTransform)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x49b3b7c;
+  constexpr static std::size_t addrs = 0x49b3b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocClipRect)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x49b3c7c;
+  constexpr static std::size_t addrs = 0x49b3c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocOpacity)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49b3d7c;
+  constexpr static std::size_t addrs = 0x49b3d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocColor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49b3de4;
+  constexpr static std::size_t addrs = 0x49b3d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator>::get(),
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::TextCoreSettings)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::AllocTextCoreSettings)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49b3e4c;
+  constexpr static std::size_t addrs = 0x49b3dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::Matrix4x4)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetTransformValue)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x49b31c4;
+  constexpr static std::size_t addrs = 0x49b314c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::Vector4)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetClipRectValue)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x49b3400;
+  constexpr static std::size_t addrs = 0x49b3388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc, float_t)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetOpacityValue)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x49b355c;
+  constexpr static std::size_t addrs = 0x49b34e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::Color, bool)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetColorValue)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x49b365c;
+  constexpr static std::size_t addrs = 0x49b35e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc, ::UnityEngine::UIElements::UIR::TextCoreSettings, bool)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::SetTextCoreSettingValue)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x49b37e4;
+  constexpr static std::size_t addrs = 0x49b376c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeTransform)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49b3eb4;
+  constexpr static std::size_t addrs = 0x49b3e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeClipRect)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49b3f4c;
+  constexpr static std::size_t addrs = 0x49b3ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeOpacity)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49b3fe4;
+  constexpr static std::size_t addrs = 0x49b3f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeColor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49b407c;
+  constexpr static std::size_t addrs = 0x49b4004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::FreeTextCoreSettings)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49b4114;
+  constexpr static std::size_t addrs = 0x49b409c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::TransformAllocToVertexData)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x49b41ac;
+  constexpr static std::size_t addrs = 0x49b4134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ClipRectAllocToVertexData)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x49b42bc;
+  constexpr static std::size_t addrs = 0x49b4244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::OpacityAllocToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x49b43cc;
+  constexpr static std::size_t addrs = 0x49b4354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::ColorAllocToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x49b44c8;
+  constexpr static std::size_t addrs = 0x49b4450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::*)(
     ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator::TextCoreSettingsToVertexData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x49b45c4;
+  constexpr static std::size_t addrs = 0x49b454c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

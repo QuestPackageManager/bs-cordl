@@ -35,24 +35,24 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x44bbdc0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x44bbd48, size 0xac, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method GetBytes, addr 0x44bc16c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x44bc0f4, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(::StringW str);
 
-  /// @brief Method InternalAuthenticate, addr 0x44bbe6c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method InternalAuthenticate, addr 0x44bbdf4, size 0x300, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* InternalAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::BasicClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x44bc208, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x44bc190, size 0xc, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x44bb224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bb1ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationType, addr 0x44bc214, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x44bc19c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"

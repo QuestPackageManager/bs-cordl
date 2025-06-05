@@ -116,22 +116,22 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassNonLightPass* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39d9254, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39d922c, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d7aec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39d7ac4, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x39d8648, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39d8620, size 0x2c, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Register, addr 0x39d69e0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x39d69b8, size 0x128, virtual false, abstract: false, final false
   inline void Register();
 
   /// @brief Method Render, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method Unregister, addr 0x39d6b94, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x39d6b6c, size 0xc4, virtual false, abstract: false, final false
   inline void Unregister();
 
   constexpr ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType const& __cordl_internal_get__executionTimeType() const;
@@ -146,20 +146,20 @@ public:
 
   constexpr void __cordl_internal_set__registeredExecutionTimeType(::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType value);
 
-  /// @brief Method .ctor, addr 0x39d6628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d6600, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassAfterBlurList();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* getStaticF__bloomPrePassBeforeBlurList();
 
-  /// @brief Method get_bloomPrePassAfterBlurList, addr 0x39d91a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassAfterBlurList, addr 0x39d917c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassAfterBlurList();
 
-  /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x39d91fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassBeforeBlurList, addr 0x39d91d4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* get_bloomPrePassBeforeBlurList();
 
-  /// @brief Method get_executionTimeType, addr 0x39d919c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTimeType, addr 0x39d9174, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType get_executionTimeType();
 
   static inline void setStaticF__bloomPrePassAfterBlurList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* value);

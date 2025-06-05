@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Method DidActivate, addr 0x3b454fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b454d4, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b45500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b454d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

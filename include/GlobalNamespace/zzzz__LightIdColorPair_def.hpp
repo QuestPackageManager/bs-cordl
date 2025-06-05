@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c28cec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28c74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightColor, addr 0x3c28c98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_lightColor, addr 0x3c28c20, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_lightColor();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x3c28cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColor, addr 0x3c28c60, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColor();
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x3c28ce0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColor, addr 0x3c28c68, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:

@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::JsonReader*, bool, bool, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteTokenAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3f2b2d0;
+  constexpr static std::size_t addrs = 0x3f2b258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(
     &::Newtonsoft::Json::Linq::JTokenWriter::get_CurrentToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2b3dc;
+  constexpr static std::size_t addrs = 0x3f2b364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JTokenWriter*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(
     &::Newtonsoft::Json::Linq::JTokenWriter::get_Token)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f2b3e4;
+  constexpr static std::size_t addrs = 0x3f2b36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JTokenWriter*>::get(), "get_Token",
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::Linq::JContainer*)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3f2b400;
+  constexpr static std::size_t addrs = 0x3f2b388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f2b490;
+  constexpr static std::size_t addrs = 0x3f2b418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JTokenWriter*>::get(), ".ctor",
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f2b4e8;
+  constexpr static std::size_t addrs = 0x3f2b470;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::Close)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2b4ec;
+  constexpr static std::size_t addrs = 0x3f2b474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteStartObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f2b4f4;
+  constexpr static std::size_t addrs = 0x3f2b47c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::Linq::JContainer*)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::AddParent)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3f2b578;
+  constexpr static std::size_t addrs = 0x3f2b500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::RemoveParent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3f2b5b8;
+  constexpr static std::size_t addrs = 0x3f2b540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JTokenWriter*>::get(), "RemoveParent",
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteStartArray)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f2b60c;
+  constexpr static std::size_t addrs = 0x3f2b594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteStartConstructor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3f2b690;
+  constexpr static std::size_t addrs = 0x3f2b618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::JsonToken)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteEnd)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f2b728;
+  constexpr static std::size_t addrs = 0x3f2b6b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3f2b72c;
+  constexpr static std::size_t addrs = 0x3f2b6b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(
     ::System::Object*, ::Newtonsoft::Json::Linq::JTokenType, ::Newtonsoft::Json::JsonToken)>(&::Newtonsoft::Json::Linq::JTokenWriter::AddRawValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3f2b80c;
+  constexpr static std::size_t addrs = 0x3f2b794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::Linq::JValue*, ::Newtonsoft::Json::JsonToken)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::AddJValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3f2b8f0;
+  constexpr static std::size_t addrs = 0x3f2b878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3f2b9d4;
+  constexpr static std::size_t addrs = 0x3f2b95c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteNull)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3f2ba64;
+  constexpr static std::size_t addrs = 0x3f2b9ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)()>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteUndefined)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3f2ba88;
+  constexpr static std::size_t addrs = 0x3f2ba10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::StringW)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f2bb04;
+  constexpr static std::size_t addrs = 0x3f2ba8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::StringW)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteComment)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3f2bb80;
+  constexpr static std::size_t addrs = 0x3f2bb08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::StringW)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f2bc10;
+  constexpr static std::size_t addrs = 0x3f2bb98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(int32_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f2bc94;
+  constexpr static std::size_t addrs = 0x3f2bc1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(uint32_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f2bd14;
+  constexpr static std::size_t addrs = 0x3f2bc9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(int64_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2bd94;
+  constexpr static std::size_t addrs = 0x3f2bd1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(uint64_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2be80;
+  constexpr static std::size_t addrs = 0x3f2be08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(float_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2bf64;
+  constexpr static std::size_t addrs = 0x3f2beec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(double_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2c048;
+  constexpr static std::size_t addrs = 0x3f2bfd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(bool)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f2c134;
+  constexpr static std::size_t addrs = 0x3f2c0bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(int16_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f2c224;
+  constexpr static std::size_t addrs = 0x3f2c1ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(uint16_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f2c2a4;
+  constexpr static std::size_t addrs = 0x3f2c22c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(char16_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3f2c324;
+  constexpr static std::size_t addrs = 0x3f2c2ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(uint8_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f2c418;
+  constexpr static std::size_t addrs = 0x3f2c3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,7 +494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(int8_t)>(&::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f2c498;
+  constexpr static std::size_t addrs = 0x3f2c420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Decimal)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f2c518;
+  constexpr static std::size_t addrs = 0x3f2c4a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::DateTime)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f2c618;
+  constexpr static std::size_t addrs = 0x3f2c5a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::DateTimeOffset)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f2c73c;
+  constexpr static std::size_t addrs = 0x3f2c6c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f2c838;
+  constexpr static std::size_t addrs = 0x3f2c7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::TimeSpan)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2c8b4;
+  constexpr static std::size_t addrs = 0x3f2c83c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Guid)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f2c998;
+  constexpr static std::size_t addrs = 0x3f2c920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::System::Uri*)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f2ca94;
+  constexpr static std::size_t addrs = 0x3f2ca1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenWriter::*)(::Newtonsoft::Json::JsonReader*, bool, bool, bool)>(
     &::Newtonsoft::Json::Linq::JTokenWriter::WriteToken)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3f2cb90;
+  constexpr static std::size_t addrs = 0x3f2cb18;
 
   inline static ::MethodInfo const* methodInfo() {
 

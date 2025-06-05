@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)()>(&::HMUI::SelectableCellStaticAnimations::Awake)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39fcf74;
+  constexpr static std::size_t addrs = 0x39fcf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCellStaticAnimations*>::get(), "Awake",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)()>(&::HMUI::SelectableCellStaticAnimations::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39fd058;
+  constexpr static std::size_t addrs = 0x39fd030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCellStaticAnimations*>::get(), "Start",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)()>(&::HMUI::SelectableCellStaticAnimations::OnDestroy)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39fd0c0;
+  constexpr static std::size_t addrs = 0x39fd098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCellStaticAnimations*>::get(), "OnDestroy",
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)(
     ::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*)>(&::HMUI::SelectableCellStaticAnimations::HandleSelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39fd1a4;
+  constexpr static std::size_t addrs = 0x39fd17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)(::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType)>(
     &::HMUI::SelectableCellStaticAnimations::HandleHighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39fd1a8;
+  constexpr static std::size_t addrs = 0x39fd180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)()>(&::HMUI::SelectableCellStaticAnimations::RefreshVisuals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39fd05c;
+  constexpr static std::size_t addrs = 0x39fd034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCellStaticAnimations*>::get(), "RefreshVisuals",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SelectableCellStaticAnimations::*)()>(&::HMUI::SelectableCellStaticAnimations::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39fd1ac;
+  constexpr static std::size_t addrs = 0x39fd184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SelectableCellStaticAnimations*>::get(), ".ctor",

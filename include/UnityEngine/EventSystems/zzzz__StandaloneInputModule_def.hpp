@@ -159,60 +159,60 @@ public:
 
   __declspec(property(get = get_verticalAxis, put = set_verticalAxis)) ::StringW verticalAxis;
 
-  /// @brief Method ActivateModule, addr 0x4adf84c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ActivateModule, addr 0x4adf7d4, size 0x100, virtual true, abstract: false, final false
   inline void ActivateModule();
 
-  /// @brief Method DeactivateModule, addr 0x4adf94c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeactivateModule, addr 0x4adf8d4, size 0x4, virtual true, abstract: false, final false
   inline void DeactivateModule();
 
-  /// @brief Method ForceAutoSelect, addr 0x4ae0b64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ForceAutoSelect, addr 0x4ae0aec, size 0x8, virtual true, abstract: false, final false
   inline bool ForceAutoSelect();
 
-  /// @brief Method GetCurrentFocusedGameObject, addr 0x4ae0ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentFocusedGameObject, addr 0x4ae0e68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetCurrentFocusedGameObject();
 
-  /// @brief Method GetRawMoveVector, addr 0x4ae07b0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetRawMoveVector, addr 0x4ae0738, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetRawMoveVector();
 
   static inline ::UnityEngine::EventSystems::StandaloneInputModule* New_ctor();
 
-  /// @brief Method Process, addr 0x4adf950, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4adf8d8, size 0xa4, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method ProcessMouseEvent, addr 0x4adfca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ProcessMouseEvent, addr 0x4adfc28, size 0x8, virtual false, abstract: false, final false
   inline void ProcessMouseEvent();
 
-  /// @brief Method ProcessMouseEvent, addr 0x4ae08bc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method ProcessMouseEvent, addr 0x4ae0844, size 0x2a8, virtual false, abstract: false, final false
   inline void ProcessMouseEvent(int32_t id);
 
-  /// @brief Method ProcessMousePress, addr 0x4ae0b6c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x4ae0af4, size 0x374, virtual false, abstract: false, final false
   inline void ProcessMousePress(::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData* data);
 
-  /// @brief Method ProcessTouchEvents, addr 0x4adfb3c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchEvents, addr 0x4adfac4, size 0x164, virtual false, abstract: false, final false
   inline bool ProcessTouchEvents();
 
-  /// @brief Method ProcessTouchPress, addr 0x4ae011c, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchPress, addr 0x4ae00a4, size 0x694, virtual false, abstract: false, final false
   inline void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
 
-  /// @brief Method ReleaseMouse, addr 0x4adf2a8, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMouse, addr 0x4adf230, size 0x36c, virtual false, abstract: false, final false
   inline void ReleaseMouse(::UnityEngine::EventSystems::PointerEventData* pointerEvent, ::UnityEngine::GameObject* currentOverGo);
 
-  /// @brief Method SendMoveEventToSelectedObject, addr 0x4adfca8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method SendMoveEventToSelectedObject, addr 0x4adfc30, size 0x260, virtual false, abstract: false, final false
   inline bool SendMoveEventToSelectedObject();
 
-  /// @brief Method SendSubmitEventToSelectedObject, addr 0x4adff08, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SendSubmitEventToSelectedObject, addr 0x4adfe90, size 0x214, virtual false, abstract: false, final false
   inline bool SendSubmitEventToSelectedObject();
 
-  /// @brief Method SendUpdateEventToSelectedObject, addr 0x4adf9f4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SendUpdateEventToSelectedObject, addr 0x4adf97c, size 0x148, virtual false, abstract: false, final false
   inline bool SendUpdateEventToSelectedObject();
 
-  /// @brief Method ShouldActivateModule, addr 0x4adf614, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method ShouldActivateModule, addr 0x4adf59c, size 0x238, virtual true, abstract: false, final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method ShouldIgnoreEventsOnNoFocus, addr 0x4adf1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldIgnoreEventsOnNoFocus, addr 0x4adf158, size 0x8, virtual false, abstract: false, final false
   inline bool ShouldIgnoreEventsOnNoFocus();
 
-  /// @brief Method UpdateModule, addr 0x4adf1d8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method UpdateModule, addr 0x4adf160, size 0xd0, virtual true, abstract: false, final false
   inline void UpdateModule();
 
   constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
@@ -299,58 +299,58 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalAxis(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4adf08c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4adf014, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowActivationOnMobileDevice, addr 0x4adf148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowActivationOnMobileDevice, addr 0x4adf0d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowActivationOnMobileDevice();
 
-  /// @brief Method get_cancelButton, addr 0x4adf1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancelButton, addr 0x4adf148, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_cancelButton();
 
-  /// @brief Method get_forceModuleActive, addr 0x4adf15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceModuleActive, addr 0x4adf0e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceModuleActive();
 
-  /// @brief Method get_horizontalAxis, addr 0x4adf190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalAxis, addr 0x4adf118, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_horizontalAxis();
 
-  /// @brief Method get_inputActionsPerSecond, addr 0x4adf170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputActionsPerSecond, addr 0x4adf0f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inputActionsPerSecond();
 
-  /// @brief Method get_inputMode, addr 0x4adf140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputMode, addr 0x4adf0c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::StandaloneInputModule_InputMode get_inputMode();
 
-  /// @brief Method get_repeatDelay, addr 0x4adf180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repeatDelay, addr 0x4adf108, size 0x8, virtual false, abstract: false, final false
   inline float_t get_repeatDelay();
 
-  /// @brief Method get_submitButton, addr 0x4adf1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_submitButton, addr 0x4adf138, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_submitButton();
 
-  /// @brief Method get_verticalAxis, addr 0x4adf1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalAxis, addr 0x4adf128, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_verticalAxis();
 
-  /// @brief Method set_allowActivationOnMobileDevice, addr 0x4adf150, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_allowActivationOnMobileDevice, addr 0x4adf0d8, size 0xc, virtual false, abstract: false, final false
   inline void set_allowActivationOnMobileDevice(bool value);
 
-  /// @brief Method set_cancelButton, addr 0x4adf1c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cancelButton, addr 0x4adf150, size 0x8, virtual false, abstract: false, final false
   inline void set_cancelButton(::StringW value);
 
-  /// @brief Method set_forceModuleActive, addr 0x4adf164, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceModuleActive, addr 0x4adf0ec, size 0xc, virtual false, abstract: false, final false
   inline void set_forceModuleActive(bool value);
 
-  /// @brief Method set_horizontalAxis, addr 0x4adf198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalAxis, addr 0x4adf120, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalAxis(::StringW value);
 
-  /// @brief Method set_inputActionsPerSecond, addr 0x4adf178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inputActionsPerSecond, addr 0x4adf100, size 0x8, virtual false, abstract: false, final false
   inline void set_inputActionsPerSecond(float_t value);
 
-  /// @brief Method set_repeatDelay, addr 0x4adf188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repeatDelay, addr 0x4adf110, size 0x8, virtual false, abstract: false, final false
   inline void set_repeatDelay(float_t value);
 
-  /// @brief Method set_submitButton, addr 0x4adf1b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_submitButton, addr 0x4adf140, size 0x8, virtual false, abstract: false, final false
   inline void set_submitButton(::StringW value);
 
-  /// @brief Method set_verticalAxis, addr 0x4adf1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalAxis, addr 0x4adf130, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalAxis(::StringW value);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::HalfTrace)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x24848d4;
+  constexpr static std::size_t addrs = 0x2484894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::get_HasFastTrace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2484a10;
+  constexpr static std::size_t addrs = 0x24849d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::Trace)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2484a18;
+  constexpr static std::size_t addrs = 0x24849d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2484b5c;
+  constexpr static std::size_t addrs = 0x2484b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*>::get(),

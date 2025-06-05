@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::*)(
     ::GlobalNamespace::HealthWarningSceneSetupData*)>(&::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b38df4;
+  constexpr static std::size_t addrs = 0x3b38dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3c6e4;
+  constexpr static std::size_t addrs = 0x3b3c6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -47,18 +47,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method LateUpdate, addr 0x39bf1b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39bf190, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::DeactivateVRControllersOnFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39bf024, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39beffc, size 0x194, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x39beba0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39beb78, size 0x224, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateVRControllerActiveState, addr 0x39bedc4, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method UpdateVRControllerActiveState, addr 0x39bed9c, size 0x260, virtual false, abstract: false, final false
   inline void UpdateVRControllerActiveState();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__vrControllerGameObjects() const;
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39bf1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x39beb60, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x39beb38, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"

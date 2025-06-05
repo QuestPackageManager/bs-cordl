@@ -28,10 +28,10 @@ public:
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::System::Object* _value;
 
-  /// @brief Method Equals, addr 0x44467c4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x444674c, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x44468d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4446858, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(::StringW value);
@@ -50,22 +50,22 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x444676c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44466f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4446794, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444671c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x44466fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4446684, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x4446624, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44465ac, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4446690, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4446618, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method get_Value, addr 0x44467bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4446744, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

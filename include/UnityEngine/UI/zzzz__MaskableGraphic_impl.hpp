@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent::*)()>(
     &::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4ac07ec;
+  constexpr static std::size_t addrs = 0x4ac0774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent* (::UnityEngine::UI::MaskableGraphic::*)()>(
     &::UnityEngine::UI::MaskableGraphic::get_onCullStateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abfa48;
+  constexpr static std::size_t addrs = 0x4abf9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent*)>(
     &::UnityEngine::UI::MaskableGraphic::set_onCullStateChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abfa50;
+  constexpr static std::size_t addrs = 0x4abf9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::get_maskable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abfa58;
+  constexpr static std::size_t addrs = 0x4abf9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic*>::get(), "get_maskable",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(bool)>(&::UnityEngine::UI::MaskableGraphic::set_maskable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4abfa60;
+  constexpr static std::size_t addrs = 0x4abf9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::get_isMaskingGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abfa90;
+  constexpr static std::size_t addrs = 0x4abfa18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic*>::get(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(bool)>(&::UnityEngine::UI::MaskableGraphic::set_isMaskingGraphic)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4abeeac;
+  constexpr static std::size_t addrs = 0x4abee34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Material*)>(
     &::UnityEngine::UI::MaskableGraphic::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4abfa98;
+  constexpr static std::size_t addrs = 0x4abfa20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Rect, bool)>(&::UnityEngine::UI::MaskableGraphic::Cull)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4abfb98;
+  constexpr static std::size_t addrs = 0x4abfb20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(bool)>(&::UnityEngine::UI::MaskableGraphic::UpdateCull)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4abfe20;
+  constexpr static std::size_t addrs = 0x4abfda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Rect, bool)>(
     &::UnityEngine::UI::MaskableGraphic::SetClipRect)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4abff04;
+  constexpr static std::size_t addrs = 0x4abfe8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::MaskableGraphic::SetClipSoftness)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4abff70;
+  constexpr static std::size_t addrs = 0x4abfef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnEnable)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4abffa8;
+  constexpr static std::size_t addrs = 0x4abff30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnDisable)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4ac014c;
+  constexpr static std::size_t addrs = 0x4ac00d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4ac01f8;
+  constexpr static std::size_t addrs = 0x4ac0180;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::ParentMaskStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac0248;
+  constexpr static std::size_t addrs = 0x4ac01d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4ac024c;
+  constexpr static std::size_t addrs = 0x4ac01d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::MaskableGraphic::*)()>(
     &::UnityEngine::UI::MaskableGraphic::get_rootCanvasRect)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4abfc68;
+  constexpr static std::size_t addrs = 0x4abfbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic*>::get(), "get_rootCanvasRect",
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::UpdateClipParent)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x4abfff8;
+  constexpr static std::size_t addrs = 0x4abff80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic*>::get(), "UpdateClipParent",
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::RecalculateClipping)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac06b0;
+  constexpr static std::size_t addrs = 0x4ac0638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::RecalculateMasking)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4ac06b4;
+  constexpr static std::size_t addrs = 0x4ac063c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskableGraphic::*)()>(&::UnityEngine::UI::MaskableGraphic::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4ac0730;
+  constexpr static std::size_t addrs = 0x4ac06b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskableGraphic*>::get(), ".ctor",
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::MaskableGraphic::*)()>(
     &::UnityEngine::UI::MaskableGraphic::UnityEngine_UI_IClippable_get_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac0834;
+  constexpr static std::size_t addrs = 0x4ac07bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

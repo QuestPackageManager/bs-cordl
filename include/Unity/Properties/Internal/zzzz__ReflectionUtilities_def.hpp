@@ -22,7 +22,7 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE ReflectionUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SanitizeMemberName, addr 0x4913870, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SanitizeMemberName, addr 0x49137f8, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW SanitizeMemberName(::System::Reflection::MemberInfo* info);
 
 protected:

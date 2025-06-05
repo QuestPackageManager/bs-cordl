@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cad8c8;
+  constexpr static std::size_t addrs = 0x3cad850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   constexpr static std::size_t size = 0x1ec4;
-  constexpr static std::size_t addrs = 0x3caeb0c;
+  constexpr static std::size_t addrs = 0x3caea94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfig::MapNameToOID)> {
   constexpr static std::size_t size = 0x7d4;
-  constexpr static std::size_t addrs = 0x3cb0aa4;
+  constexpr static std::size_t addrs = 0x3cb0a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfig::EncodeOID)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x3cb1278;
+  constexpr static std::size_t addrs = 0x3cb1200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int64_t)>(
     &::System::Security::Cryptography::CryptoConfig::EncodeLongNumber)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3cb1678;
+  constexpr static std::size_t addrs = 0x3cb1600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Security::Cryptography::CryptoConfig::get_AllowOnlyFipsAlgorithms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ca9624;
+  constexpr static std::size_t addrs = 0x3ca95ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::CryptoConfig*>::get(),

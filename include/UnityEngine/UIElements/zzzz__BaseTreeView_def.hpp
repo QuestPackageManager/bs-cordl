@@ -63,7 +63,7 @@ public:
   /// @brief Field m_AutoExpand, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AutoExpand, put = __cordl_internal_set_m_AutoExpand)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_AutoExpand;
 
-  /// @brief Method Init, addr 0x4985b84, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4985b0c, size 0xf4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BaseTreeView_UxmlTraits* New_ctor();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_m_AutoExpand(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4985c78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4985c00, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,62 +146,62 @@ public:
 
   __declspec(property(get = get_viewController)) ::UnityEngine::UIElements::BaseTreeViewController* viewController;
 
-  /// @brief Method CollapseItem, addr 0x498595c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CollapseItem, addr 0x49858e4, size 0x40, virtual false, abstract: false, final false
   inline void CollapseItem(int32_t id, bool collapseAllChildren);
 
-  /// @brief Method CollapseItemByIndex, addr 0x498510c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CollapseItemByIndex, addr 0x4985094, size 0x74, virtual false, abstract: false, final false
   inline void CollapseItemByIndex(int32_t index, bool collapseAll);
 
-  /// @brief Method CreateDragAndDropController, addr 0x49847f0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateDragAndDropController, addr 0x4984778, size 0x5c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* CreateDragAndDropController();
 
-  /// @brief Method CreateVirtualizationController, addr 0x4984470, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x49843f8, size 0x48, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
-  /// @brief Method ExpandItem, addr 0x498599c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ExpandItem, addr 0x4985924, size 0x38, virtual false, abstract: false, final false
   inline void ExpandItem(int32_t id, bool expandAllChildren);
 
-  /// @brief Method ExpandItemByIndex, addr 0x4985094, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExpandItemByIndex, addr 0x498501c, size 0x78, virtual false, abstract: false, final false
   inline void ExpandItemByIndex(int32_t index, bool expandAll);
 
-  /// @brief Method GetItemIndex, addr 0x4985838, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetItemIndex, addr 0x49857c0, size 0x100, virtual false, abstract: false, final false
   inline int32_t GetItemIndex(int32_t id, bool expand);
 
-  /// @brief Method HandleItemNavigation, addr 0x4984b38, size 0x538, virtual true, abstract: false, final false
+  /// @brief Method HandleItemNavigation, addr 0x4984ac0, size 0x538, virtual true, abstract: false, final false
   inline bool HandleItemNavigation(bool moveIn, bool altPressed);
 
-  /// @brief Method IsExpanded, addr 0x4985938, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsExpanded, addr 0x49858c0, size 0x24, virtual false, abstract: false, final false
   inline bool IsExpanded(int32_t id);
 
-  /// @brief Method IsExpandedByIndex, addr 0x4985070, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsExpandedByIndex, addr 0x4984ff8, size 0x24, virtual false, abstract: false, final false
   inline bool IsExpandedByIndex(int32_t index);
 
   static inline ::UnityEngine::UIElements::BaseTreeView* New_ctor();
 
   static inline ::UnityEngine::UIElements::BaseTreeView* New_ctor(int32_t itemHeight);
 
-  /// @brief Method OnItemIndexChanged, addr 0x498467c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnItemIndexChanged, addr 0x4984604, size 0x4, virtual false, abstract: false, final false
   inline void OnItemIndexChanged(int32_t srcIndex, int32_t dstIndex);
 
-  /// @brief Method OnTreeViewPointerUp, addr 0x49859d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnTreeViewPointerUp, addr 0x498595c, size 0x38, virtual false, abstract: false, final false
   inline void OnTreeViewPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x4984aac, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x4984a34, size 0x44, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetSelectionById, addr 0x49851f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSelectionById, addr 0x498517c, size 0x7c, virtual false, abstract: false, final false
   inline void SetSelectionById(int32_t id);
 
-  /// @brief Method SetSelectionById, addr 0x4985400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSelectionById, addr 0x4985388, size 0x8, virtual false, abstract: false, final false
   inline void SetSelectionById(::System::Collections::Generic::IEnumerable_1<int32_t>* ids);
 
-  /// @brief Method SetSelectionInternalById, addr 0x4985408, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetSelectionInternalById, addr 0x4985390, size 0xec, virtual false, abstract: false, final false
   inline void SetSelectionInternalById(::System::Collections::Generic::IEnumerable_1<int32_t>* ids, bool sendNotification);
 
-  /// @brief Method SetViewController, addr 0x49844b8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x4984440, size 0x120, virtual true, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
-  /// @brief Method <SetSelectionInternalById>b__47_0, addr 0x4985b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SetSelectionInternalById>b__47_0, addr 0x4985b04, size 0x8, virtual false, abstract: false, final false
   inline int32_t _SetSelectionInternalById_b__47_0(int32_t id);
 
   constexpr bool const& __cordl_internal_get_m_AutoExpand() const;
@@ -216,10 +216,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x4984890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4984818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4984898, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4984820, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(int32_t itemHeight);
 
   static inline ::StringW getStaticF_itemContentContainerUssClassName();
@@ -234,16 +234,16 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_autoExpand, addr 0x498484c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoExpand, addr 0x49847d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoExpand();
 
-  /// @brief Method get_expandedItemIds, addr 0x4984880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_expandedItemIds, addr 0x4984808, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_expandedItemIds();
 
-  /// @brief Method get_itemsSource, addr 0x49843d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_itemsSource, addr 0x498435c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_itemsSource();
 
-  /// @brief Method get_viewController, addr 0x49843f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x498437c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseTreeViewController* get_viewController();
 
   static inline void setStaticF_itemContentContainerUssClassName(::StringW value);
@@ -258,10 +258,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_autoExpand, addr 0x4984854, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_autoExpand, addr 0x49847dc, size 0x2c, virtual false, abstract: false, final false
   inline void set_autoExpand(bool value);
 
-  /// @brief Method set_expandedItemIds, addr 0x4984888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_expandedItemIds, addr 0x4984810, size 0x8, virtual false, abstract: false, final false
   inline void set_expandedItemIds(::System::Collections::Generic::List_1<int32_t>* value);
 
 protected:

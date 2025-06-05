@@ -86,15 +86,15 @@ public:
                       put = __cordl_internal_set__tubeLights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
       _tubeLights;
 
-  /// @brief Method EnableObjects, addr 0x3b364fc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x3b364d4, size 0xd4, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3b365d0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3b365a8, size 0xd4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3b36180, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b36158, size 0x37c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
@@ -193,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b366a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3667c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

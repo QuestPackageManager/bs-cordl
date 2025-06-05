@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set__pressedValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x4aed0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aed05c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x4aed0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x4aed03c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
 
-  /// @brief Method get_eventData, addr 0x4aed0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventData, addr 0x4aed02c, size 0x8, virtual false, abstract: false, final false
   inline ::VRUIControls::MouseButtonEventData* get_eventData();
 
-  /// @brief Method get_pressedValue, addr 0x4aed0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedValue, addr 0x4aed04c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedValue();
 
-  /// @brief Method set_button, addr 0x4aed0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_button, addr 0x4aed044, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
-  /// @brief Method set_eventData, addr 0x4aed0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventData, addr 0x4aed034, size 0x8, virtual false, abstract: false, final false
   inline void set_eventData(::VRUIControls::MouseButtonEventData* value);
 
-  /// @brief Method set_pressedValue, addr 0x4aed0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedValue, addr 0x4aed054, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedValue(float_t value);
 
 protected:

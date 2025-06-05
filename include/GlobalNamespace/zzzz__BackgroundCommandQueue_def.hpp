@@ -48,10 +48,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22b2620, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22b25e0, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22b2a4c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22b2a0c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -118,12 +118,12 @@ public:
   /// @brief Field _sync, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__sync, put = __cordl_internal_set__sync)) ::System::Object* _sync;
 
-  /// @brief Method Enqueue, addr 0x22b2328, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Enqueue, addr 0x22b22e8, size 0x190, virtual false, abstract: false, final false
   inline void Enqueue(::GlobalNamespace::IBackgroundCommand* command);
 
   static inline ::GlobalNamespace::BackgroundCommandQueue* New_ctor();
 
-  /// @brief Method RunInternal, addr 0x22b24b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x22b2478, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunInternal();
 
   constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::IBackgroundCommand*>* const& __cordl_internal_get__commandsQueue() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__sync(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x22b2578, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b2538, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

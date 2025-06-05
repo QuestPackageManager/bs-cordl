@@ -27,10 +27,10 @@ public:
 
   static inline ::HMUI::EmptyBoxGraphic* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x39f3ce0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x39f3cb8, size 0x124, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnPopulateMesh, addr 0x39f3a4c, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x39f3a24, size 0x294, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   constexpr float_t const& __cordl_internal_get__depth() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__depth(float_t value);
 
-  /// @brief Method .ctor, addr 0x39f3e04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f3ddc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

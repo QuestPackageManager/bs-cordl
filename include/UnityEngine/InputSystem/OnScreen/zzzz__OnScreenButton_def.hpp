@@ -41,10 +41,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenButton* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x45f7930, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x45f78b8, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x45f78e4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x45f786c, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45f798c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45f7914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPathInternal, addr 0x45f797c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x45f7904, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -68,7 +68,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_controlPathInternal, addr 0x45f7984, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x45f790c, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
 protected:

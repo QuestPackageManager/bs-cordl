@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::SphereCollider::*)()>(&::UnityEngine::SphereCollider::get_center)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490aec4;
+  constexpr static std::size_t addrs = 0x490ae4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_center",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::SphereCollider::set_center)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490af64;
+  constexpr static std::size_t addrs = 0x490aeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SphereCollider::*)()>(&::UnityEngine::SphereCollider::get_radius)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490affc;
+  constexpr static std::size_t addrs = 0x490af84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_radius",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(float_t)>(&::UnityEngine::SphereCollider::set_radius)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490b038;
+  constexpr static std::size_t addrs = 0x490afc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)()>(&::UnityEngine::SphereCollider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x490b084;
+  constexpr static std::size_t addrs = 0x490b00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), ".ctor",
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::SphereCollider::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490af20;
+  constexpr static std::size_t addrs = 0x490aea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::SphereCollider::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490afb8;
+  constexpr static std::size_t addrs = 0x490af40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

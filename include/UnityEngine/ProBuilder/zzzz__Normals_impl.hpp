@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::ProBuilder::Normals::ClearIntArray)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x471c324;
+  constexpr static std::size_t addrs = 0x471c2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::Normals::CalculateTangents)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x471c420;
+  constexpr static std::size_t addrs = 0x471c3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::Normals::CalculateHardNormals)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x471c920;
+  constexpr static std::size_t addrs = 0x471c8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::Normals::CalculateNormals)> {
   constexpr static std::size_t size = 0x5a8;
-  constexpr static std::size_t addrs = 0x471cddc;
+  constexpr static std::size_t addrs = 0x471cd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

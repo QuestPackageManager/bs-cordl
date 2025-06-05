@@ -27,12 +27,12 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlNodeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4367e1c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4367da4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Serialization::XmlNodeEventArgs* e);
 
   static inline ::System::Xml::Serialization::XmlNodeEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4367d18, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4367ca0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

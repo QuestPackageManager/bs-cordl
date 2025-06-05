@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorBoostBeatmapEventData::*)(float_t, bool)>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2242f2c;
+  constexpr static std::size_t addrs = 0x2242eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::ColorBoostBeatmapEventData::*)()>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2242f78;
+  constexpr static std::size_t addrs = 0x2242f38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::ColorBoostBeatmapEventData::*)()>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2242ffc;
+  constexpr static std::size_t addrs = 0x2242fbc;
 
   inline static ::MethodInfo const* methodInfo() {
 

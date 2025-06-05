@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Xml::XmlTextWriterBase64Encoder* New_ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder);
 
-  /// @brief Method WriteChars, addr 0x42361f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x4236178, size 0x1c, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   constexpr ::System::Xml::XmlTextEncoder* const& __cordl_internal_get_xmlTextEncoder() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlTextEncoder(::System::Xml::XmlTextEncoder* value);
 
-  /// @brief Method .ctor, addr 0x42361cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4236154, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder);
 
 protected:

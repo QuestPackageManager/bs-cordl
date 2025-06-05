@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::FileWebRequestCreator::*)()>(&::System::Net::FileWebRequestCreator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b7cbc;
+  constexpr static std::size_t addrs = 0x44b7c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FileWebRequestCreator*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebRequest* (::System::Net::FileWebRequestCreator::*)(::System::Uri*)>(
     &::System::Net::FileWebRequestCreator::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44b7cc4;
+  constexpr static std::size_t addrs = 0x44b7c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

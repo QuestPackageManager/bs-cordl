@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerData::*)()>(&::GlobalNamespace::LobbyPlayerData::get_isPartyOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd23c;
+  constexpr static std::size_t addrs = 0x26dd21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerData*>::get(), "get_isPartyOwner",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerData::*)(bool)>(&::GlobalNamespace::LobbyPlayerData::set_isPartyOwner)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd244;
+  constexpr static std::size_t addrs = 0x26dd224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerData::*)()>(&::GlobalNamespace::LobbyPlayerData::get_isActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd250;
+  constexpr static std::size_t addrs = 0x26dd230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerData*>::get(), "get_isActive",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerData::*)(bool)>(&::GlobalNamespace::LobbyPlayerData::set_isActive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd258;
+  constexpr static std::size_t addrs = 0x26dd238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerData::*)()>(&::GlobalNamespace::LobbyPlayerData::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd264;
+  constexpr static std::size_t addrs = 0x26dd244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerData*>::get(), "get_isReady",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerData::*)(bool)>(&::GlobalNamespace::LobbyPlayerData::set_isReady)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd26c;
+  constexpr static std::size_t addrs = 0x26dd24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerData::*)()>(&::GlobalNamespace::LobbyPlayerData::get_isInLobby)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd278;
+  constexpr static std::size_t addrs = 0x26dd258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerData*>::get(), "get_isInLobby",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerData::*)(bool)>(&::GlobalNamespace::LobbyPlayerData::set_isInLobby)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd280;
+  constexpr static std::size_t addrs = 0x26dd260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerData::*)()>(&::GlobalNamespace::LobbyPlayerData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26dd28c;
+  constexpr static std::size_t addrs = 0x26dd26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerData*>::get(), ".ctor",

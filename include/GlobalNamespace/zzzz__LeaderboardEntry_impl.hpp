@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardEntry::*)(int32_t, ::StringW, int32_t, bool, bool)>(
     &::GlobalNamespace::LeaderboardEntry::SetScore)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3c0a2a8;
+  constexpr static std::size_t addrs = 0x3c0a228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardEntry::*)()>(&::GlobalNamespace::LeaderboardEntry::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c0a438;
+  constexpr static std::size_t addrs = 0x3c0a3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardEntry*>::get(), ".ctor",

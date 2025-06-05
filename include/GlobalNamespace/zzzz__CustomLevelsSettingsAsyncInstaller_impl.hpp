@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::MoveNext)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2717c90;
+  constexpr static std::size_t addrs = 0x2717c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2717de8;
+  constexpr static std::size_t addrs = 0x2717dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)(
     ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2717a98;
+  constexpr static std::size_t addrs = 0x2717a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::LoadResourcesBeforeInstallAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2717afc;
+  constexpr static std::size_t addrs = 0x2717ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2717bcc;
+  constexpr static std::size_t addrs = 0x2717ba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2717c88;
+  constexpr static std::size_t addrs = 0x2717c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomLevelsSettingsAsyncInstaller*>::get(),

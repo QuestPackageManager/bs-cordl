@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fd0a6c;
+  constexpr static std::size_t addrs = 0x3fd09f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fd0a70;
+  constexpr static std::size_t addrs = 0x3fd09f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fd0a74;
+  constexpr static std::size_t addrs = 0x3fd09fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fd0a78;
+  constexpr static std::size_t addrs = 0x3fd0a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::Update)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3fd0a7c;
+  constexpr static std::size_t addrs = 0x3fd0a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::EnableMultiModality)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3fd0b64;
+  constexpr static std::size_t addrs = 0x3fd0aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::DisableMultiModality)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3fd0be4;
+  constexpr static std::size_t addrs = 0x3fd0b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMultimodalHandsAndControllersSample::*)()>(
     &::GlobalNamespace::OVRMultimodalHandsAndControllersSample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd0c64;
+  constexpr static std::size_t addrs = 0x3fd0bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

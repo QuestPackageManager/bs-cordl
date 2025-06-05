@@ -48,18 +48,18 @@ public:
   __declspec(property(get = __cordl_internal_get__renderers, put = __cordl_internal_set__renderers)) ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>
       _renderers;
 
-  /// @brief Method ApplyParams, addr 0x39e6494, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x39e646c, size 0x184, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39e6618, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e65f0, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x39e663c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x39e6614, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x39e6490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e6468, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::MaterialPropertyBlock*, ::Array<::UnityEngine::MaterialPropertyBlock*>*> const& __cordl_internal_get__materialPropertyBlocks() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x39e665c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e6634, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

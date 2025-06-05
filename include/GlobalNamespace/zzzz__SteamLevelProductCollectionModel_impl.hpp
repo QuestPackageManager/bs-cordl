@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb4d4;
+  constexpr static std::size_t addrs = 0x26eb4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::get_appId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb4dc;
+  constexpr static std::size_t addrs = 0x26eb4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::get_levelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb4e4;
+  constexpr static std::size_t addrs = 0x26eb4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamLevelProductCollectionModel_LevelDepotData* (
     ::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::*)()>(&::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::get_levelDepotData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb4ec;
+  constexpr static std::size_t addrs = 0x26eb4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::*)(::StringW, uint32_t)>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26eb4f4;
+  constexpr static std::size_t addrs = 0x26eb4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::get_bundleId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb524;
+  constexpr static std::size_t addrs = 0x26eb504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::get_levelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb52c;
+  constexpr static std::size_t addrs = 0x26eb50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* (
         ::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::*)()>(&::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::get_levelProductsData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb534;
+  constexpr static std::size_t addrs = 0x26eb514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, uint32_t, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>*)>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26eb53c;
+  constexpr static std::size_t addrs = 0x26eb51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::get_targetLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb5bc;
+  constexpr static std::size_t addrs = 0x26eb59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::get_shouldOwnLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb5c4;
+  constexpr static std::size_t addrs = 0x26eb5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::get_redirectedBundleId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb5cc;
+  constexpr static std::size_t addrs = 0x26eb5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::get_validUntilDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb5d4;
+  constexpr static std::size_t addrs = 0x26eb5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eb5dc;
+  constexpr static std::size_t addrs = 0x26eb5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SteamLevelProductCollectionModel::*)()>(
     &::GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductDataCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eaa90;
+  constexpr static std::size_t addrs = 0x26eaa70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*)>(&::GlobalNamespace::SteamLevelProductCollectionModel::_ctor)> {
   constexpr static std::size_t size = 0x8e4;
-  constexpr static std::size_t addrs = 0x26eaa98;
+  constexpr static std::size_t addrs = 0x26eaa78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -534,7 +534,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData*>* (::GlobalNamespace::SteamLevelProductCollectionModel::*)()>(
         &::GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductsData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x26eb37c;
+  constexpr static std::size_t addrs = 0x26eb35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamLevelProductCollectionModel_LevelProductData* (
     ::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelProductData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26eb3cc;
+  constexpr static std::size_t addrs = 0x26eb3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackProductData* (
     ::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackProductData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26eb424;
+  constexpr static std::size_t addrs = 0x26eb404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SteamLevelProductCollectionModel_LevelPackRedirectionData* (
     ::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackRedirectionData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26eb47c;
+  constexpr static std::size_t addrs = 0x26eb45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::SortingGroup::get_invalidSortingGroupID)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48cb594;
+  constexpr static std::size_t addrs = 0x48cb51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Rendering::SortingGroup::UpdateAllSortingGroups)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48cb5bc;
+  constexpr static std::size_t addrs = 0x48cb544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rendering::SortingGroup> (*)(int32_t)>(
     &::UnityEngine::Rendering::SortingGroup::GetSortingGroupByIndex)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb5e4;
+  constexpr static std::size_t addrs = 0x48cb56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::SortingGroup::*)()>(
     &::UnityEngine::Rendering::SortingGroup::get_sortingLayerName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb620;
+  constexpr static std::size_t addrs = 0x48cb5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(::StringW)>(
     &::UnityEngine::Rendering::SortingGroup::set_sortingLayerName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cb65c;
+  constexpr static std::size_t addrs = 0x48cb5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingLayerID)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb6a0;
+  constexpr static std::size_t addrs = 0x48cb628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(int32_t)>(
     &::UnityEngine::Rendering::SortingGroup::set_sortingLayerID)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cb6dc;
+  constexpr static std::size_t addrs = 0x48cb664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingOrder)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb720;
+  constexpr static std::size_t addrs = 0x48cb6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(int32_t)>(
     &::UnityEngine::Rendering::SortingGroup::set_sortingOrder)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cb75c;
+  constexpr static std::size_t addrs = 0x48cb6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortAtRoot)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb7a0;
+  constexpr static std::size_t addrs = 0x48cb728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(), "get_sortAtRoot",
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)(bool)>(&::UnityEngine::Rendering::SortingGroup::set_sortAtRoot)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cb7dc;
+  constexpr static std::size_t addrs = 0x48cb764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingGroupID)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb820;
+  constexpr static std::size_t addrs = 0x48cb7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(
     &::UnityEngine::Rendering::SortingGroup::get_sortingGroupOrder)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb85c;
+  constexpr static std::size_t addrs = 0x48cb7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(),
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_index)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb898;
+  constexpr static std::size_t addrs = 0x48cb820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(), "get_index",
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::get_sortingKey)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cb8d4;
+  constexpr static std::size_t addrs = 0x48cb85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(), "get_sortingKey",
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SortingGroup::*)()>(&::UnityEngine::Rendering::SortingGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48cb910;
+  constexpr static std::size_t addrs = 0x48cb898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SortingGroup*>::get(), ".ctor",

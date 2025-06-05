@@ -2,155 +2,100 @@
 // IWYU pragma private; include "Newtonsoft/Json/JsonTextReader.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringBuffer_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_impl.hpp"
-#include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_impl.hpp"
-#include "Newtonsoft/Json/zzzz__JsonNameTable_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
-#include "Newtonsoft/Json/zzzz__JsonTextReader_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_impl.hpp"
-#include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReadType_impl.hpp"
-#include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Numerics/zzzz__BigInteger_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
+#include "System/Threading/zzzz__CancellationToken_impl.hpp"
+#include "System/zzzz__DateTimeOffset_impl.hpp"
+#include "System/zzzz__DateTime_impl.hpp"
+#include "System/zzzz__Decimal_impl.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
+#include "Newtonsoft/Json/zzzz__JsonTextReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonNameTable_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonReaderException_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonTextReader_def.hpp"
+#include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/IO/zzzz__TextReader_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__DateTimeOffset_impl.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Decimal_def.hpp"
-#include "System/zzzz__Decimal_impl.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40.MoveNext
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::MoveNext)> {
   constexpr static std::size_t size = 0xdf8;
-  constexpr static std::size_t addrs = 0x3e90b68;
+  constexpr static std::size_t addrs = 0x3e90af0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e91960;
+  constexpr static std::size_t addrs = 0x3e918e8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__2", ty:
-// "::System::Numerics::BigInteger", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_isTrue_5__3", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
-    JsonTextReader__DoReadAsBooleanAsync_d__40(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Nullable_1<bool>>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::System::Numerics::BigInteger _i_5__2, bool _isTrue_5__3,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_i_5__2", ty: "::System::Numerics::BigInteger", modifiers: "", def_value: Some("{}") }, CppParam { name: "_isTrue_5__3", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::JsonTextReader__DoReadAsBooleanAsync_d__40(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<bool>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1, ::System::Numerics::BigInteger _i_5__2,
+    bool _isTrue_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -161,129 +106,70 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::
-    JsonTextReader__DoReadAsBooleanAsync_d__40() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBooleanAsync_d__40::JsonTextReader__DoReadAsBooleanAsync_d__40() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::MoveNext)> {
   constexpr static std::size_t size = 0xe10;
-  constexpr static std::size_t addrs = 0x3e919dc;
+  constexpr static std::size_t addrs = 0x3e91964;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e927ec;
+  constexpr static std::size_t addrs = 0x3e92774;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t,::Array<uint8_t>*>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_isWrapped_5__2", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_data_5__3", ty:
-// "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t,::Array<uint8_t>*>>",
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "_isWrapped_5__2", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_data_5__3", ty:
+// "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t,::Array<uint8_t>*>>",
 // modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
-    JsonTextReader__DoReadAsBytesAsync_d__42(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::ArrayW<uint8_t, ::Array<uint8_t> *>>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        bool _isWrapped_5__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::ArrayW<uint8_t, ::Array<uint8_t> *> _data_5__3,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<
-                ::ArrayW<uint8_t, ::Array<uint8_t> *>>
-                __u__3) noexcept {
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::JsonTextReader__DoReadAsBytesAsync_d__42(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, bool _isWrapped_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::ArrayW<uint8_t, ::Array<uint8_t>*> _data_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -295,116 +181,64 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::
-    JsonTextReader__DoReadAsBytesAsync_d__42() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsBytesAsync_d__42::JsonTextReader__DoReadAsBytesAsync_d__42() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::MoveNext)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3e92868;
+  constexpr static std::size_t addrs = 0x3e927f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e92b0c;
+  constexpr static std::size_t addrs = 0x3e92a94;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
-    JsonTextReader__DoReadAsDateTimeAsync_d__45(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Nullable_1<::System::DateTime>>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::JsonTextReader__DoReadAsDateTimeAsync_d__45(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTime>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -412,119 +246,65 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::
-    JsonTextReader__DoReadAsDateTimeAsync_d__45() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeAsync_d__45::JsonTextReader__DoReadAsDateTimeAsync_d__45() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-            *)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::MoveNext)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x3e92b88;
+  constexpr static std::size_t addrs = 0x3e92b10;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-            *)(::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e92e64;
+  constexpr static std::size_t addrs = 0x3e92dec;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::
-    JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::
-    JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-        JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47(
-            int32_t __1__state,
-            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-                ::System::Nullable_1<::System::DateTimeOffset>>
-                __t__builder,
-            ::Newtonsoft::Json::JsonTextReader *__4__this,
-            ::System::Threading::CancellationToken cancellationToken,
-            ::System::Runtime::CompilerServices::
-                ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<
-                    ::System::Object *>
-                    __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::DateTimeOffset>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -532,117 +312,64 @@ constexpr ::Newtonsoft::Json::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::
-        JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47::JsonTextReader__DoReadAsDateTimeOffsetAsync_d__47() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::MoveNext)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x3e92ee0;
+  constexpr static std::size_t addrs = 0x3e92e68;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e931bc;
+  constexpr static std::size_t addrs = 0x3e93144;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
-    JsonTextReader__DoReadAsDecimalAsync_d__49(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Nullable_1<::System::Decimal>>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::JsonTextReader__DoReadAsDecimalAsync_d__49(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<::System::Decimal>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -650,114 +377,64 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::
-    JsonTextReader__DoReadAsDecimalAsync_d__49() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDecimalAsync_d__49::JsonTextReader__DoReadAsDecimalAsync_d__49() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::MoveNext)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x3e93238;
+  constexpr static std::size_t addrs = 0x3e931c0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e93504;
+  constexpr static std::size_t addrs = 0x3e9348c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
-    JsonTextReader__DoReadAsDoubleAsync_d__51(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Nullable_1<double_t>>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::JsonTextReader__DoReadAsDoubleAsync_d__51(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<double_t>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -765,114 +442,64 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::
-    JsonTextReader__DoReadAsDoubleAsync_d__51() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsDoubleAsync_d__51::JsonTextReader__DoReadAsDoubleAsync_d__51() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::MoveNext)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x3e93580;
+  constexpr static std::size_t addrs = 0x3e93508;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e93820;
+  constexpr static std::size_t addrs = 0x3e937a8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
-    JsonTextReader__DoReadAsInt32Async_d__53(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Nullable_1<int32_t>>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
+// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::JsonTextReader__DoReadAsInt32Async_d__53(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<int32_t>> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -880,113 +507,64 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::
-    JsonTextReader__DoReadAsInt32Async_d__53() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsInt32Async_d__53::JsonTextReader__DoReadAsInt32Async_d__53() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::MoveNext)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x3e9389c;
+  constexpr static std::size_t addrs = 0x3e93824;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e93b1c;
+  constexpr static std::size_t addrs = 0x3e93aa4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
-    JsonTextReader__DoReadAsStringAsync_d__55(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::JsonTextReader__DoReadAsStringAsync_d__55(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -994,110 +572,63 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::
-    JsonTextReader__DoReadAsStringAsync_d__55() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsStringAsync_d__55::JsonTextReader__DoReadAsStringAsync_d__55() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x3e93b98;
+  constexpr static std::size_t addrs = 0x3e93b20;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e93ec0;
+  constexpr static std::size_t addrs = 0x3e93e48;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty:
-// "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::
-    JsonTextReader__DoReadAsync_d__3(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::System::Threading::Tasks::Task_1<bool> *task,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::JsonTextReader__DoReadAsync_d__3(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::System::Threading::Tasks::Task_1<bool>* task, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->task = task;
@@ -1106,117 +637,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::
-    JsonTextReader__DoReadAsync_d__3() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__DoReadAsync_d__3::JsonTextReader__DoReadAsync_d__3() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3e93f3c;
+  constexpr static std::size_t addrs = 0x3e93ec4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e9431c;
+  constexpr static std::size_t addrs = 0x3e942a4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
-    JsonTextReader__EatWhitespaceAsync_d__17(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::JsonTextReader__EatWhitespaceAsync_d__17(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1225,114 +705,64 @@ constexpr ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::
-    JsonTextReader__EatWhitespaceAsync_d__17() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__EatWhitespaceAsync_d__17::JsonTextReader__EatWhitespaceAsync_d__17() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x3e94384;
+  constexpr static std::size_t addrs = 0x3e9430c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e94740;
+  constexpr static std::size_t addrs = 0x3e946c8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::
-    JsonTextReader__HandleNullAsync_d__35(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::JsonTextReader__HandleNullAsync_d__35(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1341,116 +771,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::
-    JsonTextReader__HandleNullAsync_d__35() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__HandleNullAsync_d__35::JsonTextReader__HandleNullAsync_d__35() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x3e947a8;
+  constexpr static std::size_t addrs = 0x3e94730;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e94aa8;
+  constexpr static std::size_t addrs = 0x3e94a30;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "newToken", ty:
-// "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "tokenValue", ty: "::System::Object*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::
-    JsonTextReader__MatchAndSetAsync_d__21(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this, ::StringW value,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::Newtonsoft::Json::JsonToken newToken, ::System::Object *tokenValue,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "newToken", ty: "::Newtonsoft::Json::JsonToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "tokenValue", ty:
+// "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::JsonTextReader__MatchAndSetAsync_d__21(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this, ::StringW value,
+    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::JsonToken newToken, ::System::Object* tokenValue,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1461,111 +841,63 @@ constexpr ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::
-    JsonTextReader__MatchAndSetAsync_d__21() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__MatchAndSetAsync_d__21::JsonTextReader__MatchAndSetAsync_d__21() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3e94b10;
+  constexpr static std::size_t addrs = 0x3e94a98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e94da0;
+  constexpr static std::size_t addrs = 0x3e94d28;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::
-    JsonTextReader__MatchValueAsync_d__19(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this, ::StringW value,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::JsonTextReader__MatchValueAsync_d__19(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this, ::StringW value,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1574,126 +906,68 @@ constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::
-    JsonTextReader__MatchValueAsync_d__19() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueAsync_d__19::JsonTextReader__MatchValueAsync_d__19() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::*)()>(
-        &::Newtonsoft::Json::
-            JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::
-                MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x3e94e1c;
+  constexpr static std::size_t addrs = 0x3e94da4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::
-            JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::
-                SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e951f4;
+  constexpr static std::size_t addrs = 0x3e9517c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::
-    JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::
-    JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::
-    JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::
-    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::
-        JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20(
-            int32_t __1__state,
-            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-                __t__builder,
-            ::Newtonsoft::Json::JsonTextReader *__4__this, ::StringW value,
-            ::System::Threading::CancellationToken cancellationToken,
-            ::System::Runtime::CompilerServices::
-                ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                    __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this, ::StringW value,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1702,126 +976,69 @@ constexpr ::Newtonsoft::Json::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::
-        JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20::JsonTextReader__MatchValueWithTrailingSeparatorAsync_d__20() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x854;
-  constexpr static std::size_t addrs = 0x3e95270;
+  constexpr static std::size_t addrs = 0x3e951f8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e95ac4;
+  constexpr static std::size_t addrs = 0x3e95a4c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "setToken", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_singlelineComment_5__2", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::
-    JsonTextReader__ParseCommentAsync_d__16(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken, bool setToken,
-        bool _singlelineComment_5__2, int32_t _initialPosition_5__3,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__3) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "setToken", ty: "bool",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_singlelineComment_5__2", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_initialPosition_5__3", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::JsonTextReader__ParseCommentAsync_d__16(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, bool setToken, bool _singlelineComment_5__2, int32_t _initialPosition_5__3,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1834,131 +1051,69 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::
-    JsonTextReader__ParseCommentAsync_d__16() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseCommentAsync_d__16::JsonTextReader__ParseCommentAsync_d__16() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x9a8;
-  constexpr static std::size_t addrs = 0x3e95b2c;
+  constexpr static std::size_t addrs = 0x3e95ab4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e964d4;
+  constexpr static std::size_t addrs = 0x3e9645c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_initialPosition_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_endPosition_5__3", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_constructorName_5__4", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
-    JsonTextReader__ParseConstructorAsync_d__25(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        int32_t _initialPosition_5__2, int32_t _endPosition_5__3,
-        ::StringW _constructorName_5__4,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__3) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_initialPosition_5__2", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_endPosition_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_constructorName_5__4", ty: "::StringW",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::JsonTextReader__ParseConstructorAsync_d__25(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1, int32_t _initialPosition_5__2,
+    int32_t _endPosition_5__3, ::StringW _constructorName_5__4, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -1971,116 +1126,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::
-    JsonTextReader__ParseConstructorAsync_d__25() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseConstructorAsync_d__25::JsonTextReader__ParseConstructorAsync_d__25() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3e9653c;
+  constexpr static std::size_t addrs = 0x3e964c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e96784;
+  constexpr static std::size_t addrs = 0x3e9670c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_firstChar_5__2", ty: "char16_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_initialPosition_5__3", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty:
+// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam { name: "_firstChar_5__2", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
 // modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::
-    JsonTextReader__ParseNumberAsync_d__29(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::Newtonsoft::Json::ReadType readType, char16_t _firstChar_5__2,
-        int32_t _initialPosition_5__3,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::JsonTextReader__ParseNumberAsync_d__29(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType readType, char16_t _firstChar_5__2, int32_t _initialPosition_5__3,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -2091,119 +1196,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::
-    JsonTextReader__ParseNumberAsync_d__29() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberAsync_d__29::JsonTextReader__ParseNumberAsync_d__29() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3e967ec;
+  constexpr static std::size_t addrs = 0x3e96774;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e96aa4;
+  constexpr static std::size_t addrs = 0x3e96a2c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken",
-// ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__7__wrap1", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
-    JsonTextReader__ParseNumberNaNAsync_d__26(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Object *>
-            __t__builder,
-        ::Newtonsoft::Json::ReadType readType,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::Newtonsoft::Json::ReadType __7__wrap1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::JsonTextReader__ParseNumberNaNAsync_d__26(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::Newtonsoft::Json::ReadType readType,
+    ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType __7__wrap1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->readType = readType;
@@ -2213,126 +1265,69 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::
-    JsonTextReader__ParseNumberNaNAsync_d__26() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNaNAsync_d__26::JsonTextReader__ParseNumberNaNAsync_d__26() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::*)()>(
-        &::Newtonsoft::Json::
-            JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3e96b20;
+  constexpr static std::size_t addrs = 0x3e96aa8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::
-            JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::
-                SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e96dd8;
+  constexpr static std::size_t addrs = 0x3e96d60;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::
-    JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::
-    JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::
-    JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::
-    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken",
-// ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__7__wrap1", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::
-        JsonTextReader__ParseNumberNegativeInfinityAsync_d__28(
-            int32_t __1__state,
-            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-                ::System::Object *>
-                __t__builder,
-            ::Newtonsoft::Json::ReadType readType,
-            ::Newtonsoft::Json::JsonTextReader *__4__this,
-            ::System::Threading::CancellationToken cancellationToken,
-            ::Newtonsoft::Json::ReadType __7__wrap1,
-            ::System::Runtime::CompilerServices::
-                ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                    __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::Newtonsoft::Json::ReadType readType,
+    ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType __7__wrap1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->readType = readType;
@@ -2342,127 +1337,69 @@ constexpr ::Newtonsoft::Json::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::
-        JsonTextReader__ParseNumberNegativeInfinityAsync_d__28() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28::JsonTextReader__ParseNumberNegativeInfinityAsync_d__28() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::*)()>(
-        &::Newtonsoft::Json::
-            JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3e96e54;
+  constexpr static std::size_t addrs = 0x3e96ddc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::
-            JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::
-                SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9710c;
+  constexpr static std::size_t addrs = 0x3e97094;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::
-    JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::
-    JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::
-    JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::
-    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken",
-// ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__7__wrap1", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::
-        JsonTextReader__ParseNumberPositiveInfinityAsync_d__27(
-            int32_t __1__state,
-            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-                ::System::Object *>
-                __t__builder,
-            ::Newtonsoft::Json::ReadType readType,
-            ::Newtonsoft::Json::JsonTextReader *__4__this,
-            ::System::Threading::CancellationToken cancellationToken,
-            ::Newtonsoft::Json::ReadType __7__wrap1,
-            ::System::Runtime::CompilerServices::
-                ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                    __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::Newtonsoft::Json::ReadType readType,
+    ::Newtonsoft::Json::JsonTextReader* __4__this, ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType __7__wrap1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->readType = readType;
@@ -2472,121 +1409,67 @@ constexpr ::Newtonsoft::Json::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::
-        JsonTextReader__ParseNumberPositiveInfinityAsync_d__27() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27::JsonTextReader__ParseNumberPositiveInfinityAsync_d__27() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x3e97188;
+  constexpr static std::size_t addrs = 0x3e97110;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e977b4;
+  constexpr static std::size_t addrs = 0x3e9773c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::
-    JsonTextReader__ParseObjectAsync_d__15(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__3) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::JsonTextReader__ParseObjectAsync_d__15(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -2596,119 +1479,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::
-    JsonTextReader__ParseObjectAsync_d__15() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseObjectAsync_d__15::JsonTextReader__ParseObjectAsync_d__15() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x3e97830;
+  constexpr static std::size_t addrs = 0x3e977b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e97eb8;
+  constexpr static std::size_t addrs = 0x3e97e40;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "ignoreComments", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
-    JsonTextReader__ParsePostValueAsync_d__4(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        bool ignoreComments,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "ignoreComments", ty:
+// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::JsonTextReader__ParsePostValueAsync_d__4(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, bool ignoreComments, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -2718,116 +1548,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::
-    JsonTextReader__ParsePostValueAsync_d__4() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4::JsonTextReader__ParsePostValueAsync_d__4() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x3e97f34;
+  constexpr static std::size_t addrs = 0x3e97ebc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e985ac;
+  constexpr static std::size_t addrs = 0x3e98534;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_quoteChar_5__2", ty: "char16_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "_propertyName_5__3", ty:
-// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
-    JsonTextReader__ParsePropertyAsync_d__31(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        char16_t _quoteChar_5__2, ::StringW _propertyName_5__3,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_quoteChar_5__2", ty:
+// "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_propertyName_5__3", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::JsonTextReader__ParsePropertyAsync_d__31(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, char16_t _quoteChar_5__2, ::StringW _propertyName_5__3,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -2837,114 +1617,65 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::
-    JsonTextReader__ParsePropertyAsync_d__31() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParsePropertyAsync_d__31::JsonTextReader__ParsePropertyAsync_d__31() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x3e98628;
+  constexpr static std::size_t addrs = 0x3e985b0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e98878;
+  constexpr static std::size_t addrs = 0x3e98800;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "quote", ty: "char16_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::
-    JsonTextReader__ParseStringAsync_d__18(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::Newtonsoft::Json::JsonTextReader *__4__this, char16_t quote,
-        ::Newtonsoft::Json::ReadType readType,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "quote", ty: "char16_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "readType", ty: "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::JsonTextReader__ParseStringAsync_d__18(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::CancellationToken cancellationToken,
+    ::Newtonsoft::Json::JsonTextReader* __4__this, char16_t quote, ::Newtonsoft::Json::ReadType readType,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->cancellationToken = cancellationToken;
@@ -2954,111 +1685,63 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::
-    JsonTextReader__ParseStringAsync_d__18() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseStringAsync_d__18::JsonTextReader__ParseStringAsync_d__18() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3e988e0;
+  constexpr static std::size_t addrs = 0x3e98868;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e98b58;
+  constexpr static std::size_t addrs = 0x3e98ae0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::
-    JsonTextReader__ParseUnicodeAsync_d__12(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::JsonTextReader__ParseUnicodeAsync_d__12(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<char16_t> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3066,118 +1749,67 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::
-    JsonTextReader__ParseUnicodeAsync_d__12() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12::JsonTextReader__ParseUnicodeAsync_d__12() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-            *)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3e98bd4;
+  constexpr static std::size_t addrs = 0x3e98b5c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-            *)(::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e98ee8;
+  constexpr static std::size_t addrs = 0x3e98e70;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-    SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_initialPosition_5__2", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-    JsonTextReader__ParseUnquotedPropertyAsync_d__33(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        int32_t _initialPosition_5__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_initialPosition_5__2", ty:
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::JsonTextReader__ParseUnquotedPropertyAsync_d__33(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, int32_t _initialPosition_5__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3186,123 +1818,67 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::
-    JsonTextReader__ParseUnquotedPropertyAsync_d__33() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseUnquotedPropertyAsync_d__33::JsonTextReader__ParseUnquotedPropertyAsync_d__33() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x11c0;
-  constexpr static std::size_t addrs = 0x3e98f50;
+  constexpr static std::size_t addrs = 0x3e98ed8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9a110;
+  constexpr static std::size_t addrs = 0x3e9a098;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::
-    JsonTextReader__ParseValueAsync_d__8(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__3,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__4) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::JsonTextReader__ParseValueAsync_d__8(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__3,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__4) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3313,116 +1889,65 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::
   this->__u__4 = __u__4;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::
-    JsonTextReader__ParseValueAsync_d__8() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8::JsonTextReader__ParseValueAsync_d__8() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-            *)()>(
-        &::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3e9a18c;
+  constexpr static std::size_t addrs = 0x3e9a114;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-            *)(::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e9a3b8;
+  constexpr static std::size_t addrs = 0x3e9a340;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-    SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "task", ty:
-// "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-    JsonTextReader__ProcessCarriageReturnAsync_d__11(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::System::Threading::Tasks::Task_1<bool> *task,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::JsonTextReader__ProcessCarriageReturnAsync_d__11(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task_1<bool>* task, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->task = task;
@@ -3430,113 +1955,64 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::
-    JsonTextReader__ProcessCarriageReturnAsync_d__11() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ProcessCarriageReturnAsync_d__11::JsonTextReader__ProcessCarriageReturnAsync_d__11() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x3e9a420;
+  constexpr static std::size_t addrs = 0x3e9a3a8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9a6c0;
+  constexpr static std::size_t addrs = 0x3e9a648;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "relativePosition", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "append", ty: "bool", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_charsRequired_5__2", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::
-    JsonTextReader__ReadCharsAsync_d__14(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this, int32_t relativePosition,
-        bool append, ::System::Threading::CancellationToken cancellationToken,
-        int32_t _charsRequired_5__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "relativePosition", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_charsRequired_5__2", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::JsonTextReader__ReadCharsAsync_d__14(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this, int32_t relativePosition, bool append,
+    ::System::Threading::CancellationToken cancellationToken, int32_t _charsRequired_5__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3547,112 +2023,63 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::
-    JsonTextReader__ReadCharsAsync_d__14() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadCharsAsync_d__14::JsonTextReader__ReadCharsAsync_d__14() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x3e9a73c;
+  constexpr static std::size_t addrs = 0x3e9a6c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9aa6c;
+  constexpr static std::size_t addrs = 0x3e9a9f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 inline void Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "append", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "charsRequired", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::
-    JsonTextReader__ReadDataAsync_d__7(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this, bool append,
-        int32_t charsRequired,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "append", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "charsRequired", ty: "int32_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::JsonTextReader__ReadDataAsync_d__7(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this, bool append, int32_t charsRequired,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3662,115 +2089,65 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::
-    JsonTextReader__ReadDataAsync_d__7() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadDataAsync_d__7::JsonTextReader__ReadDataAsync_d__7() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::MoveNext)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x3e9aae8;
+  constexpr static std::size_t addrs = 0x3e9aa70;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e9b000;
+  constexpr static std::size_t addrs = 0x3e9af88;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::
-    JsonTextReader__ReadFinishedAsync_d__36(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::JsonTextReader__ReadFinishedAsync_d__36(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3779,119 +2156,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::
-    JsonTextReader__ReadFinishedAsync_d__36() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadFinishedAsync_d__36::JsonTextReader__ReadFinishedAsync_d__36() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x3e9b068;
+  constexpr static std::size_t addrs = 0x3e9aff0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9b5b4;
+  constexpr static std::size_t addrs = 0x3e9b53c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
-    JsonTextReader__ReadFromFinishedAsync_d__5(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::JsonTextReader__ReadFromFinishedAsync_d__5(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -3900,119 +2224,66 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::
-    JsonTextReader__ReadFromFinishedAsync_d__5() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5::JsonTextReader__ReadFromFinishedAsync_d__5() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::*)()>(
-        &::Newtonsoft::Json::
-            JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::MoveNext)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x3e9b630;
+  constexpr static std::size_t addrs = 0x3e9b5b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::
-            JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::
-            JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::
-                SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e9bba8;
+  constexpr static std::size_t addrs = 0x3e9bb30;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void Newtonsoft::Json::
-    JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::
-    JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::
-              JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::
-    JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::
-    operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::
-        JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43(
-            int32_t __1__state,
-            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-                __t__builder,
-            ::Newtonsoft::Json::JsonTextReader *__4__this,
-            ::System::Threading::CancellationToken cancellationToken,
-            ::System::Runtime::CompilerServices::
-                ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -4020,112 +2291,63 @@ constexpr ::Newtonsoft::Json::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::
-    JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::
-        JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43::JsonTextReader__ReadIntoWrappedTypeObjectAsync_d__43() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::MoveNext)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x3e9bc10;
+  constexpr static std::size_t addrs = 0x3e9bb98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9bea4;
+  constexpr static std::size_t addrs = 0x3e9be2c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::operator ::
-    System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::
-    JsonTextReader__ReadNullCharAsync_d__34(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::JsonTextReader__ReadNullCharAsync_d__34(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -4133,118 +2355,65 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::
-    JsonTextReader__ReadNullCharAsync_d__34() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34::JsonTextReader__ReadNullCharAsync_d__34() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-            *)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3e9bf20;
+  constexpr static std::size_t addrs = 0x3e9bea8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ReadNumberIntoBufferAsync_d__32>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e9c1e0;
+  constexpr static std::size_t addrs = 0x3e9c168;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ReadNumberIntoBufferAsync_d__32>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-    SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_charPos_5__2", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-    JsonTextReader__ReadNumberIntoBufferAsync_d__32(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        int32_t _charPos_5__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_charPos_5__2", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::JsonTextReader__ReadNumberIntoBufferAsync_d__32(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, int32_t _charPos_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -4253,128 +2422,68 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::
-    JsonTextReader__ReadNumberIntoBufferAsync_d__32() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberIntoBufferAsync_d__32::JsonTextReader__ReadNumberIntoBufferAsync_d__32() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::MoveNext)> {
   constexpr static std::size_t size = 0xf44;
-  constexpr static std::size_t addrs = 0x3e9c248;
+  constexpr static std::size_t addrs = 0x3e9c1d0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9d18c;
+  constexpr static std::size_t addrs = 0x3e9d114;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
-    JsonTextReader__ReadNumberValueAsync_d__38(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Object *>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::Newtonsoft::Json::ReadType readType,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__3) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty:
+// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::JsonTextReader__ReadNumberValueAsync_d__38(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType readType, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -4385,144 +2494,75 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::
-    JsonTextReader__ReadNumberValueAsync_d__38() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadNumberValueAsync_d__38::JsonTextReader__ReadNumberValueAsync_d__38() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::
-                          JsonTextReader__ReadStringIntoBufferAsync_d__9::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0xc9c;
-  constexpr static std::size_t addrs = 0x3e9d208;
+  constexpr static std::size_t addrs = 0x3e9d190;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ReadStringIntoBufferAsync_d__9>::get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e9dea4;
+  constexpr static std::size_t addrs = 0x3e9de2c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::
-                JsonTextReader__ReadStringIntoBufferAsync_d__9>::get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-    SetStateMachine(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "quote", ty: "char16_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_charPos_5__2", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_initialPosition_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "_lastWritePosition_5__4", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_escapeStartPos_5__5", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_writeChar_5__6", ty: "char16_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_anotherHighSurrogate_5__7", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_highSurrogate_5__8", ty: "char16_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-    JsonTextReader__ReadStringIntoBufferAsync_d__9(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        char16_t quote, int32_t _charPos_5__2, int32_t _initialPosition_5__3,
-        int32_t _lastWritePosition_5__4, int32_t _escapeStartPos_5__5,
-        char16_t _writeChar_5__6,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>
-                __u__1,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t>
-                __u__3,
-        bool _anotherHighSurrogate_5__7, char16_t _highSurrogate_5__8,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__4) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "quote", ty: "char16_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_charPos_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_initialPosition_5__3", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_lastWritePosition_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_escapeStartPos_5__5", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_writeChar_5__6", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_anotherHighSurrogate_5__7", ty: "bool",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_highSurrogate_5__8", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::JsonTextReader__ReadStringIntoBufferAsync_d__9(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, char16_t quote, int32_t _charPos_5__2, int32_t _initialPosition_5__3, int32_t _lastWritePosition_5__4, int32_t _escapeStartPos_5__5,
+    char16_t _writeChar_5__6, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<char16_t> __u__3, bool _anotherHighSurrogate_5__7, char16_t _highSurrogate_5__8,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__4) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -4541,131 +2581,69 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
   this->__u__4 = __u__4;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::
-    JsonTextReader__ReadStringIntoBufferAsync_d__9() {}
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37.MoveNext
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9::JsonTextReader__ReadStringIntoBufferAsync_d__9() {}
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::*)()>(
-        &::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
-            MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::*)()>(
+    &::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::MoveNext)> {
   constexpr static std::size_t size = 0x10f8;
-  constexpr static std::size_t addrs = 0x3e9df0c;
+  constexpr static std::size_t addrs = 0x3e9de94;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::
-            get(),
-        "MoveNext", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (
-        ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::*)(
-        ::System::Runtime::CompilerServices::IAsyncStateMachine *)>(
-        &::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
-            SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e9f004;
+  constexpr static std::size_t addrs = 0x3e9ef8c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::
-            get(),
-        "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Runtime::CompilerServices::IAsyncStateMachine
-                    *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void
-Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::MoveNext() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::
-          get(),
-      "MoveNext", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+inline void Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::SetStateMachine(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine *stateMachine) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::
-          get(),
-      "SetStateMachine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *,
-                   1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Runtime::CompilerServices::IAsyncStateMachine *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, stateMachine);
+inline void Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
-/// @brief Convert operator to
-/// "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
-operator ::System::Runtime::CompilerServices::IAsyncStateMachine *() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine *
-Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
-    i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine *>(
-      static_cast<void *>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::Newtonsoft::Json::JsonTextReader*", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "readType", ty:
-// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_expected_5__2",
-// ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "__u__2", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
-// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
-    JsonTextReader__ReadStringValueAsync_d__37(
-        int32_t __1__state,
-        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<
-            ::System::Object *>
-            __t__builder,
-        ::Newtonsoft::Json::JsonTextReader *__4__this,
-        ::System::Threading::CancellationToken cancellationToken,
-        ::Newtonsoft::Json::ReadType readType,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>
-                __u__1,
-        ::StringW _expected_5__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
-        ::System::Runtime::CompilerServices::
-            ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object *>
-                __u__3) noexcept {
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonTextReader*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "readType", ty:
+// "::Newtonsoft::Json::ReadType", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_expected_5__2", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::JsonTextReader__ReadStringValueAsync_d__37(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Object*> __t__builder, ::Newtonsoft::Json::JsonTextReader* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::ReadType readType, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::StringW _expected_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -4677,5008 +2655,2944 @@ constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::
-    JsonTextReader__ReadStringValueAsync_d__37() {}
+constexpr ::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37::JsonTextReader__ReadStringValueAsync_d__37() {}
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsync)> {
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e87b8c;
+  constexpr static std::size_t addrs = 0x3e87b14;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            5));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 5));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsync)> {
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsync)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3e87b9c;
+  constexpr static std::size_t addrs = 0x3e87b24;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::Tasks::Task_1<bool> *,
-               ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::Tasks::Task_1<bool>*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3e880f8;
+  constexpr static std::size_t addrs = 0x3e88080;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::Tasks::Task_1<bool> *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<bool>*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParsePostValueAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParsePostValueAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(bool, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParsePostValueAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParsePostValueAsync)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e87fe4;
+  constexpr static std::size_t addrs = 0x3e87f6c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParsePostValueAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParsePostValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadFromFinishedAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadFromFinishedAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadFromFinishedAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadFromFinishedAsync)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3e88200;
+  constexpr static std::size_t addrs = 0x3e88188;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadFromFinishedAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadFromFinishedAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadDataAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadDataAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<int32_t> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(bool, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadDataAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadDataAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e882fc;
+  constexpr static std::size_t addrs = 0x3e88284;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadDataAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadDataAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadDataAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadDataAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<int32_t> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(bool, int32_t, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadDataAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadDataAsync)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3e8830c;
+  constexpr static std::size_t addrs = 0x3e88294;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadDataAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadDataAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseValueAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseValueAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseValueAsync)> {
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseValueAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3e87de8;
+  constexpr static std::size_t addrs = 0x3e87d70;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseValueAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadStringIntoBufferAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadStringIntoBufferAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(char16_t, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadStringIntoBufferAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
+    ::Newtonsoft::Json::JsonTextReader::*)(char16_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadStringIntoBufferAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3e88424;
+  constexpr static std::size_t addrs = 0x3e883ac;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadStringIntoBufferAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringIntoBufferAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ProcessCarriageReturnAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ProcessCarriageReturnAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(bool, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
+    ::Newtonsoft::Json::JsonTextReader::*)(bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3e88508;
+  constexpr static std::size_t addrs = 0x3e88490;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ProcessCarriageReturnAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessCarriageReturnAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ProcessCarriageReturnAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ProcessCarriageReturnAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::Tasks::Task_1<bool> *)>(
-        &::Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::Tasks::Task_1<bool>*)>(
+    &::Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3e88730;
+  constexpr static std::size_t addrs = 0x3e886b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ProcessCarriageReturnAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::Tasks::Task_1<bool> *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessCarriageReturnAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<bool>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseUnicodeAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseUnicodeAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<char16_t> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseUnicodeAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<char16_t>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseUnicodeAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e88800;
+  constexpr static std::size_t addrs = 0x3e88788;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseUnicodeAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUnicodeAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EnsureCharsAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EnsureCharsAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(int32_t, bool, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::EnsureCharsAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(int32_t, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::EnsureCharsAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3e88608;
+  constexpr static std::size_t addrs = 0x3e88590;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EnsureCharsAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureCharsAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadCharsAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadCharsAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(int32_t, bool, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadCharsAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(int32_t, bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadCharsAsync)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3e888f8;
+  constexpr static std::size_t addrs = 0x3e88880;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadCharsAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadCharsAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseObjectAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseObjectAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseObjectAsync)> {
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseObjectAsync)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3e87ee8;
+  constexpr static std::size_t addrs = 0x3e87e70;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseObjectAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseObjectAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseCommentAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseCommentAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(bool, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseCommentAsync)> {
+    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(bool, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseCommentAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3e88a10;
+  constexpr static std::size_t addrs = 0x3e88998;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseCommentAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseCommentAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EatWhitespaceAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EatWhitespaceAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::EatWhitespaceAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::EatWhitespaceAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3e88af4;
+  constexpr static std::size_t addrs = 0x3e88a7c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EatWhitespaceAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EatWhitespaceAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseStringAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseStringAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(char16_t, ::Newtonsoft::Json::ReadType,
-               ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseStringAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
+    ::Newtonsoft::Json::JsonTextReader::*)(char16_t, ::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseStringAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3e88bc8;
+  constexpr static std::size_t addrs = 0x3e88b50;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseStringAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseStringAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.MatchValueAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.MatchValueAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::StringW, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::MatchValueAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::MatchValueAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3e88cb4;
+  constexpr static std::size_t addrs = 0x3e88c3c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "MatchValueAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.MatchValueWithTrailingSeparatorAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.MatchValueWithTrailingSeparatorAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::StringW, ::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::
-            MatchValueWithTrailingSeparatorAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::StringW, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparatorAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3e88dbc;
+  constexpr static std::size_t addrs = 0x3e88d44;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "MatchValueWithTrailingSeparatorAsync",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValueWithTrailingSeparatorAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.MatchAndSetAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.MatchAndSetAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::StringW, ::Newtonsoft::Json::JsonToken, ::System::Object *,
-               ::System::Threading::CancellationToken)>(
+    static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::StringW, ::Newtonsoft::Json::JsonToken, ::System::Object*, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::JsonTextReader::MatchAndSetAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3e88ec4;
+  constexpr static std::size_t addrs = 0x3e88e4c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "MatchAndSetAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::JsonToken>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Object *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchAndSetAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseTrueAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseTrueAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseTrueAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseTrueAsync)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3e88fb8;
+  constexpr static std::size_t addrs = 0x3e88f40;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseTrueAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseTrueAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseFalseAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseFalseAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseFalseAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseFalseAsync)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3e89060;
+  constexpr static std::size_t addrs = 0x3e88fe8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseFalseAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseFalseAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNullAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNullAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNullAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNullAsync)> {
   constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3e8908c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNullAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseConstructorAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseConstructorAsync)> {
+  constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x3e89104;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNullAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseConstructorAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseConstructorAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberNaNAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseConstructorAsync)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e8917c;
-
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseConstructorAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberNaNAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Object *> *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType,
-                                               ::System::Threading::
-                                                   CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberNaNAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseNumberNaNAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3e89254;
+  constexpr static std::size_t addrs = 0x3e891dc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberNaNAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNaNAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberPositiveInfinityAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberPositiveInfinityAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Object *> *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType,
-                                               ::System::Threading::
-                                                   CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::
-            ParseNumberPositiveInfinityAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinityAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3e89360;
+  constexpr static std::size_t addrs = 0x3e892e8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberPositiveInfinityAsync",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberPositiveInfinityAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberNegativeInfinityAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberNegativeInfinityAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Object *> *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType,
-                                               ::System::Threading::
-                                                   CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::
-            ParseNumberNegativeInfinityAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinityAsync)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3e8946c;
+  constexpr static std::size_t addrs = 0x3e893f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberNegativeInfinityAsync",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNegativeInfinityAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType,
-                                               ::System::Threading::
-                                                   CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParseNumberAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3e89578;
+  constexpr static std::size_t addrs = 0x3e89500;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseUndefinedAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseUndefinedAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseUndefinedAsync)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3e895dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUndefinedAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParsePropertyAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseUndefinedAsync)> {
-  constexpr static std::size_t size = 0x78;
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ParsePropertyAsync)> {
+  constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x3e89654;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseUndefinedAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParsePropertyAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParsePropertyAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNumberIntoBufferAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParsePropertyAsync)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3e896cc;
-
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParsePropertyAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNumberIntoBufferAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNumberIntoBufferAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadNumberIntoBufferAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3e897c8;
+  constexpr static std::size_t addrs = 0x3e89750;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNumberIntoBufferAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberIntoBufferAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseUnquotedPropertyAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseUnquotedPropertyAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseUnquotedPropertyAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseUnquotedPropertyAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3e8989c;
+  constexpr static std::size_t addrs = 0x3e89824;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseUnquotedPropertyAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUnquotedPropertyAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNullCharAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNullCharAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<bool> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNullCharAsync)> {
+    static_cast<::System::Threading::Tasks::Task_1<bool>* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadNullCharAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e89970;
+  constexpr static std::size_t addrs = 0x3e898f8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNullCharAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNullCharAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.HandleNullAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.HandleNullAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::HandleNullAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::HandleNullAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3e89a68;
+  constexpr static std::size_t addrs = 0x3e899f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "HandleNullAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "HandleNullAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadFinishedAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadFinishedAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadFinishedAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadFinishedAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3e89b3c;
+  constexpr static std::size_t addrs = 0x3e89ac4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadFinishedAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadFinishedAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadStringValueAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadStringValueAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Object *> *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType,
-                                               ::System::Threading::
-                                                   CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadStringValueAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadStringValueAsync)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3e89c10;
+  constexpr static std::size_t addrs = 0x3e89b98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadStringValueAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNumberValueAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNumberValueAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Object *> *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType,
-                                               ::System::Threading::
-                                                   CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNumberValueAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadNumberValueAsync)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3e89d20;
+  constexpr static std::size_t addrs = 0x3e89ca8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNumberValueAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsBooleanAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsBooleanAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>
-                    *(::Newtonsoft::Json::JsonTextReader::
-                          *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsBooleanAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsBooleanAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e89e30;
+  constexpr static std::size_t addrs = 0x3e89db8;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            6));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 6));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsBooleanAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsBooleanAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>
-                    *(::Newtonsoft::Json::JsonTextReader::
-                          *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsBooleanAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsBooleanAsync)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3e89e40;
+  constexpr static std::size_t addrs = 0x3e89dc8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsBooleanAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsBooleanAsync", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsBytesAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsBytesAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<
-        ::ArrayW<uint8_t, ::Array<uint8_t> *>> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsBytesAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsBytesAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e89f40;
+  constexpr static std::size_t addrs = 0x3e89ec8;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            7));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsBytesAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsBytesAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<
-        ::ArrayW<uint8_t, ::Array<uint8_t> *>> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsBytesAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsBytesAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3e89f50;
+  constexpr static std::size_t addrs = 0x3e89ed8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsBytesAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsBytesAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadIntoWrappedTypeObjectAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadIntoWrappedTypeObjectAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadIntoWrappedTypeObjectAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadIntoWrappedTypeObjectAsync)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3e8a040;
+  constexpr static std::size_t addrs = 0x3e89fc8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadIntoWrappedTypeObjectAsync",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadIntoWrappedTypeObjectAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDateTimeAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDateTimeAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        ::System::DateTime>> *(::Newtonsoft::Json::JsonTextReader::
-                                   *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDateTimeAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsDateTimeAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a110;
+  constexpr static std::size_t addrs = 0x3e8a098;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            8));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 8));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsDateTimeAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsDateTimeAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        ::System::DateTime>> *(::Newtonsoft::Json::JsonTextReader::
-                                   *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e8a120;
+  constexpr static std::size_t addrs = 0x3e8a0a8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsDateTimeAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDateTimeAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDateTimeOffsetAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDateTimeOffsetAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<
-        ::System::Nullable_1<::System::DateTimeOffset>> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffsetAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffsetAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a218;
+  constexpr static std::size_t addrs = 0x3e8a1a0;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            9));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 9));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsDateTimeOffsetAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsDateTimeOffsetAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<
-        ::System::Nullable_1<::System::DateTimeOffset>> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeOffsetAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeOffsetAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e8a228;
+  constexpr static std::size_t addrs = 0x3e8a1b0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsDateTimeOffsetAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDateTimeOffsetAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDecimalAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDecimalAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        ::System::Decimal>> *(::Newtonsoft::Json::JsonTextReader::
-                                  *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDecimalAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsDecimalAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a320;
+  constexpr static std::size_t addrs = 0x3e8a2a8;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            10));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 10));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsDecimalAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsDecimalAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        ::System::Decimal>> *(::Newtonsoft::Json::JsonTextReader::
-                                  *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsDecimalAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsDecimalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e8a330;
+  constexpr static std::size_t addrs = 0x3e8a2b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsDecimalAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDecimalAsync", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDoubleAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDoubleAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        double_t>> *(::Newtonsoft::Json::JsonTextReader::
-                         *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDoubleAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsDoubleAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a428;
+  constexpr static std::size_t addrs = 0x3e8a3b0;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            11));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 11));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsDoubleAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsDoubleAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        double_t>> *(::Newtonsoft::Json::JsonTextReader::
-                         *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsDoubleAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsDoubleAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e8a438;
+  constexpr static std::size_t addrs = 0x3e8a3c0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsDoubleAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDoubleAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsInt32Async
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsInt32Async
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        int32_t>> *(::Newtonsoft::Json::JsonTextReader::
-                        *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsInt32Async)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsInt32Async)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a530;
+  constexpr static std::size_t addrs = 0x3e8a4b8;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            12));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 12));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsInt32Async
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsInt32Async
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<
-        int32_t>> *(::Newtonsoft::Json::JsonTextReader::
-                        *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsInt32Async)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsInt32Async)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e8a540;
+  constexpr static std::size_t addrs = 0x3e8a4c8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsInt32Async", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsInt32Async", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsStringAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsStringAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::StringW> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsStringAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::ReadAsStringAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a638;
+  constexpr static std::size_t addrs = 0x3e8a5c0;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            13));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.DoReadAsStringAsync
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.DoReadAsStringAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Threading::Tasks::Task_1<::StringW> *(
-        ::Newtonsoft::Json::JsonTextReader::
-            *)(::System::Threading::CancellationToken)>(
-        &::Newtonsoft::Json::JsonTextReader::DoReadAsStringAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
+    ::Newtonsoft::Json::JsonTextReader::*)(::System::Threading::CancellationToken)>(&::Newtonsoft::Json::JsonTextReader::DoReadAsStringAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3e8a648;
+  constexpr static std::size_t addrs = 0x3e8a5d0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "DoReadAsStringAsync", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Threading::CancellationToken>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsStringAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        ::System::IO::TextReader *)>(
-        &::Newtonsoft::Json::JsonTextReader::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(::System::IO::TextReader*)>(
+    &::Newtonsoft::Json::JsonTextReader::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3e7ac9c;
+  constexpr static std::size_t addrs = 0x3e7ac24;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        ".ctor", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::IO::TextReader *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextReader*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.get_PropertyNameTable
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.get_PropertyNameTable
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Newtonsoft::Json::JsonNameTable *(
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::get_PropertyNameTable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonNameTable* (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::get_PropertyNameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e8a730;
+  constexpr static std::size_t addrs = 0x3e8a6b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "get_PropertyNameTable", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                               "get_PropertyNameTable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.set_PropertyNameTable
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.set_PropertyNameTable
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        ::Newtonsoft::Json::JsonNameTable *)>(
-        &::Newtonsoft::Json::JsonTextReader::set_PropertyNameTable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::JsonNameTable*)>(
+    &::Newtonsoft::Json::JsonTextReader::set_PropertyNameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e8a738;
+  constexpr static std::size_t addrs = 0x3e8a6c0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "set_PropertyNameTable", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::JsonNameTable *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "set_PropertyNameTable", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonNameTable*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.get_ArrayPool
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.get_ArrayPool
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Newtonsoft::Json::IArrayPool_1<char16_t> *(
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::get_ArrayPool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::IArrayPool_1<char16_t>* (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::get_ArrayPool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e8a740;
+  constexpr static std::size_t addrs = 0x3e8a6c8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "get_ArrayPool", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "get_ArrayPool",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.set_ArrayPool
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.set_ArrayPool
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        ::Newtonsoft::Json::IArrayPool_1<char16_t> *)>(
-        &::Newtonsoft::Json::JsonTextReader::set_ArrayPool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::IArrayPool_1<char16_t>*)>(
+    &::Newtonsoft::Json::JsonTextReader::set_ArrayPool)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e8a748;
+  constexpr static std::size_t addrs = 0x3e8a6d0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "set_ArrayPool", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::IArrayPool_1<char16_t> *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "set_ArrayPool", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::IArrayPool_1<char16_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EnsureBufferNotEmpty
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EnsureBufferNotEmpty
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::EnsureBufferNotEmpty)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::EnsureBufferNotEmpty)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e8a7a4;
+  constexpr static std::size_t addrs = 0x3e8a72c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EnsureBufferNotEmpty", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                               "EnsureBufferNotEmpty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.SetNewLine
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.SetNewLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool)>(
-        &::Newtonsoft::Json::JsonTextReader::SetNewLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool)>(&::Newtonsoft::Json::JsonTextReader::SetNewLine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e886d0;
+  constexpr static std::size_t addrs = 0x3e88658;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "SetNewLine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "SetNewLine",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.OnNewLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::OnNewLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(int32_t)>(&::Newtonsoft::Json::JsonTextReader::OnNewLine)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e8a7f8;
+  constexpr static std::size_t addrs = 0x3e8a780;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "OnNewLine", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "OnNewLine", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseString
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        char16_t, ::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(char16_t, ::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseString)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e8a808;
+  constexpr static std::size_t addrs = 0x3e8a790;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseString", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseString", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseReadString
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseReadString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        char16_t, ::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseReadString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(char16_t, ::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseReadString)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x3e8ad70;
+  constexpr static std::size_t addrs = 0x3e8acf8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseReadString", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseReadString", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.BlockCopyChars
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.BlockCopyChars
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::ArrayW<char16_t, ::Array<char16_t> *>, int32_t,
-                         ::ArrayW<char16_t, ::Array<char16_t> *>, int32_t,
-                         int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::BlockCopyChars)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::BlockCopyChars)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e8b168;
+  constexpr static std::size_t addrs = 0x3e8b0f0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "BlockCopyChars", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 5>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<char16_t, ::Array<char16_t> *>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<char16_t, ::Array<char16_t> *>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "BlockCopyChars", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ShiftBufferIfNeeded
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ShiftBufferIfNeeded
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ShiftBufferIfNeeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ShiftBufferIfNeeded)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3e8a850;
+  constexpr static std::size_t addrs = 0x3e8a7d8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ShiftBufferIfNeeded", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                               "ShiftBufferIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadData
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)(bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)(bool)>(&::Newtonsoft::Json::JsonTextReader::ReadData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e8b17c;
+  constexpr static std::size_t addrs = 0x3e8b104;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadData", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadData",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.PrepareBufferForReadData
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.PrepareBufferForReadData
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::PrepareBufferForReadData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::PrepareBufferForReadData)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3e8b218;
+  constexpr static std::size_t addrs = 0x3e8b1a0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "PrepareBufferForReadData", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "PrepareBufferForReadData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadData
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t)>(&::Newtonsoft::Json::JsonTextReader::ReadData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e8b188;
+  constexpr static std::size_t addrs = 0x3e8b110;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadData", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EnsureChars
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EnsureChars
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(int32_t, bool)>(
-        &::Newtonsoft::Json::JsonTextReader::EnsureChars)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(int32_t, bool)>(&::Newtonsoft::Json::JsonTextReader::EnsureChars)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e8b3b0;
+  constexpr static std::size_t addrs = 0x3e8b338;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EnsureChars", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureChars", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadChars
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(int32_t, bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadChars)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(int32_t, bool)>(&::Newtonsoft::Json::JsonTextReader::ReadChars)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e8b3d0;
+  constexpr static std::size_t addrs = 0x3e8b358;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadChars", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadChars", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.Read
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::Read)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::Read)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3e8b440;
+  constexpr static std::size_t addrs = 0x3e8b3c8;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            21));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 21));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsInt32
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsInt32
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Nullable_1<int32_t> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsInt32)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsInt32)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e8c268;
+  constexpr static std::size_t addrs = 0x3e8c1f0;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            22));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 22));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDateTime
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDateTime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Nullable_1<::System::DateTime> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDateTime)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTime> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsDateTime)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e8c6c8;
+  constexpr static std::size_t addrs = 0x3e8c650;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            28));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 28));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsString
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::StringW (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ReadAsString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e8cc14;
+  constexpr static std::size_t addrs = 0x3e8cb9c;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            23));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 23));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsBytes
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsBytes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<uint8_t, ::Array<uint8_t> *> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsBytes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsBytes)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x3e8cc78;
+  constexpr static std::size_t addrs = 0x3e8cc00;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            24));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 24));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadStringValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadStringValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadStringValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadStringValue)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x3e8c758;
+  constexpr static std::size_t addrs = 0x3e8c6e0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadStringValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringValue", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.FinishReadQuotedStringValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.FinishReadQuotedStringValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3e8d528;
+  constexpr static std::size_t addrs = 0x3e8d4b0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "FinishReadQuotedStringValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "FinishReadQuotedStringValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.CreateUnexpectedCharacterException
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.CreateUnexpectedCharacterException
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Newtonsoft::Json::JsonReaderException *(
-        ::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(
-        &::Newtonsoft::Json::JsonTextReader::
-            CreateUnexpectedCharacterException)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonReaderException* (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(
+    &::Newtonsoft::Json::JsonTextReader::CreateUnexpectedCharacterException)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3e8d2a8;
+  constexpr static std::size_t addrs = 0x3e8d230;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "CreateUnexpectedCharacterException",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "CreateUnexpectedCharacterException",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsBoolean
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsBoolean
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Nullable_1<bool> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsBoolean)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<bool> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsBoolean)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x3e8da08;
+  constexpr static std::size_t addrs = 0x3e8d990;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            26));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 26));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ProcessValueComma
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ProcessValueComma
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ProcessValueComma)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ProcessValueComma)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e8d23c;
+  constexpr static std::size_t addrs = 0x3e8d1c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ProcessValueComma", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessValueComma",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNumberValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNumberValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNumberValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadNumberValue)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x3e8c2f8;
+  constexpr static std::size_t addrs = 0x3e8c280;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNumberValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberValue", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.FinishReadQuotedNumber
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.FinishReadQuotedNumber
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3e8df80;
+  constexpr static std::size_t addrs = 0x3e8df08;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "FinishReadQuotedNumber", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "FinishReadQuotedNumber", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDateTimeOffset
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDateTimeOffset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Nullable_1<::System::DateTimeOffset> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3e8e108;
+  constexpr static std::size_t addrs = 0x3e8e090;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            29));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 29));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDecimal
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDecimal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Nullable_1<::System::Decimal> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDecimal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::Decimal> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsDecimal)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3e8e1d4;
+  constexpr static std::size_t addrs = 0x3e8e15c;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            27));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 27));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadAsDouble
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadAsDouble
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Nullable_1<double_t> (
-        ::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadAsDouble)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<double_t> (::Newtonsoft::Json::JsonTextReader::*)()>(
+    &::Newtonsoft::Json::JsonTextReader::ReadAsDouble)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3e8e2a0;
+  constexpr static std::size_t addrs = 0x3e8e228;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            25));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 25));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.HandleNull
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.HandleNull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::HandleNull)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::HandleNull)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3e8d16c;
+  constexpr static std::size_t addrs = 0x3e8d0f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "HandleNull", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "HandleNull",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadFinished
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadFinished
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadFinished)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ReadFinished)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3e8d3dc;
+  constexpr static std::size_t addrs = 0x3e8d364;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadFinished", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadFinished",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNullChar
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNullChar
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNullChar)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ReadNullChar)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e8d11c;
+  constexpr static std::size_t addrs = 0x3e8d0a4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNullChar", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNullChar",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EnsureBuffer
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EnsureBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::EnsureBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::EnsureBuffer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3e87da4;
+  constexpr static std::size_t addrs = 0x3e87d2c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EnsureBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureBuffer",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadStringIntoBuffer
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadStringIntoBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadStringIntoBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(&::Newtonsoft::Json::JsonTextReader::ReadStringIntoBuffer)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x3e8a904;
+  constexpr static std::size_t addrs = 0x3e8a88c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadStringIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringIntoBuffer",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.FinishReadStringIntoBuffer
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.FinishReadStringIntoBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(int32_t, int32_t,
-                                                             int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::FinishReadStringIntoBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(int32_t, int32_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::FinishReadStringIntoBuffer)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e8e490;
+  constexpr static std::size_t addrs = 0x3e8e418;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "FinishReadStringIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "FinishReadStringIntoBuffer", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.WriteCharToBuffer
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.WriteCharToBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(char16_t, int32_t,
-                                                             int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::WriteCharToBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(char16_t, int32_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::WriteCharToBuffer)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e8e440;
+  constexpr static std::size_t addrs = 0x3e8e3c8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "WriteCharToBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "WriteCharToBuffer", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ConvertUnicode
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ConvertUnicode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (::Newtonsoft::Json::JsonTextReader::*)(bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ConvertUnicode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Newtonsoft::Json::JsonTextReader::*)(bool)>(&::Newtonsoft::Json::JsonTextReader::ConvertUnicode)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3e8e528;
+  constexpr static std::size_t addrs = 0x3e8e4b0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ConvertUnicode", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ConvertUnicode",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseUnicode
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseUnicode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<char16_t (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseUnicode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseUnicode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3e8e400;
+  constexpr static std::size_t addrs = 0x3e8e388;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseUnicode", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUnicode",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNumberIntoBuffer
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNumberIntoBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNumberIntoBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ReadNumberIntoBuffer)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e8e67c;
+  constexpr static std::size_t addrs = 0x3e8e604;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNumberIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                               "ReadNumberIntoBuffer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadNumberCharIntoBuffer
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadNumberCharIntoBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t,
-                                                             int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::ReadNumberCharIntoBuffer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadNumberCharIntoBuffer)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3e8e700;
+  constexpr static std::size_t addrs = 0x3e8e688;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadNumberCharIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberCharIntoBuffer", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ClearRecentString
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ClearRecentString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ClearRecentString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ClearRecentString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e8e87c;
+  constexpr static std::size_t addrs = 0x3e8e804;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ClearRecentString", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ClearRecentString",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParsePostValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParsePostValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ParsePostValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(bool)>(&::Newtonsoft::Json::JsonTextReader::ParsePostValue)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3e8bc1c;
+  constexpr static std::size_t addrs = 0x3e8bba4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParsePostValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParsePostValue",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseObject
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseObject)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3e8ba8c;
+  constexpr static std::size_t addrs = 0x3e8ba14;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseObject", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseObject",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseProperty
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseProperty
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseProperty)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseProperty)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3e8e888;
+  constexpr static std::size_t addrs = 0x3e8e810;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseProperty", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseProperty",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ValidIdentifierChar
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ValidIdentifierChar
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(
-        &::Newtonsoft::Json::JsonTextReader::ValidIdentifierChar)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(&::Newtonsoft::Json::JsonTextReader::ValidIdentifierChar)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e8eaac;
+  constexpr static std::size_t addrs = 0x3e8ea34;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ValidIdentifierChar", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ValidIdentifierChar", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseUnquotedProperty
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseUnquotedProperty
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseUnquotedProperty)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseUnquotedProperty)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3e8eb28;
+  constexpr static std::size_t addrs = 0x3e8eab0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseUnquotedProperty", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                               "ParseUnquotedProperty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ReadUnquotedPropertyReportIfDone
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ReadUnquotedPropertyReportIfDone
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(
-        char16_t, int32_t)>(&::Newtonsoft::Json::JsonTextReader::
-                                ReadUnquotedPropertyReportIfDone)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::ReadUnquotedPropertyReportIfDone)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3e8ec1c;
+  constexpr static std::size_t addrs = 0x3e8eba4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ReadUnquotedPropertyReportIfDone",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadUnquotedPropertyReportIfDone", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseValue)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x3e8b66c;
+  constexpr static std::size_t addrs = 0x3e8b5f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseValue",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ProcessLineFeed
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ProcessLineFeed
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ProcessLineFeed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ProcessLineFeed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e8d3c0;
+  constexpr static std::size_t addrs = 0x3e8d348;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ProcessLineFeed", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessLineFeed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ProcessCarriageReturn
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ProcessCarriageReturn
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ProcessCarriageReturn)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool)>(&::Newtonsoft::Json::JsonTextReader::ProcessCarriageReturn)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e8d378;
+  constexpr static std::size_t addrs = 0x3e8d300;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ProcessCarriageReturn", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessCarriageReturn",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EatWhitespace
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EatWhitespace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::EatWhitespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::EatWhitespace)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e8bec8;
+  constexpr static std::size_t addrs = 0x3e8be50;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EatWhitespace", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EatWhitespace",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseConstructor
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseConstructor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseConstructor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseConstructor)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3e8ef1c;
+  constexpr static std::size_t addrs = 0x3e8eea4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseConstructor", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseConstructor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumber
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumber
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        ::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumber)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumber)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e8d804;
+  constexpr static std::size_t addrs = 0x3e8d78c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumber", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumber", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseReadNumber
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseReadNumber
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(
-        ::Newtonsoft::Json::ReadType, char16_t, int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseReadNumber)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, char16_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseReadNumber)> {
   constexpr static std::size_t size = 0xfcc;
-  constexpr static std::size_t addrs = 0x3e8f2e8;
+  constexpr static std::size_t addrs = 0x3e8f270;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseReadNumber", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseReadNumber", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ThrowReaderError
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ThrowReaderError
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Newtonsoft::Json::JsonReaderException *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::StringW,
-                                               ::System::Exception *)>(
-        &::Newtonsoft::Json::JsonTextReader::ThrowReaderError)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonReaderException* (::Newtonsoft::Json::JsonTextReader::*)(::StringW, ::System::Exception*)>(
+    &::Newtonsoft::Json::JsonTextReader::ThrowReaderError)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e902b4;
+  constexpr static std::size_t addrs = 0x3e9023c;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ThrowReaderError", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Exception *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ThrowReaderError", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.BigIntegerParse
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.BigIntegerParse
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(*)(::StringW,
-                                      ::System::Globalization::CultureInfo *)>(
-        &::Newtonsoft::Json::JsonTextReader::BigIntegerParse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, ::System::Globalization::CultureInfo*)>(
+    &::Newtonsoft::Json::JsonTextReader::BigIntegerParse)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3e90330;
+  constexpr static std::size_t addrs = 0x3e902b8;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "BigIntegerParse", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::System::Globalization::CultureInfo *>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "BigIntegerParse", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseComment
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseComment
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseComment)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool)>(&::Newtonsoft::Json::JsonTextReader::ParseComment)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3e8bfdc;
+  constexpr static std::size_t addrs = 0x3e8bf64;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseComment", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseComment",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.EndComment
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.EndComment
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t,
-                                                             int32_t)>(
-        &::Newtonsoft::Json::JsonTextReader::EndComment)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)(bool, int32_t, int32_t)>(
+    &::Newtonsoft::Json::JsonTextReader::EndComment)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e903b8;
+  constexpr static std::size_t addrs = 0x3e90340;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "EndComment", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                int32_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EndComment", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.MatchValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.MatchValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(::StringW)>(
-        &::Newtonsoft::Json::JsonTextReader::MatchValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(::StringW)>(&::Newtonsoft::Json::JsonTextReader::MatchValue)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e90418;
+  constexpr static std::size_t addrs = 0x3e903a0;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "MatchValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValue", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.MatchValue
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.MatchValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(bool, ::StringW)>(
-        &::Newtonsoft::Json::JsonTextReader::MatchValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(bool, ::StringW)>(&::Newtonsoft::Json::JsonTextReader::MatchValue)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e90474;
+  constexpr static std::size_t addrs = 0x3e903fc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "MatchValue", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.MatchValueWithTrailingSeparator
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.MatchValueWithTrailingSeparator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(::StringW)>(
-        &::Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(::StringW)>(
+    &::Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3e8d86c;
+  constexpr static std::size_t addrs = 0x3e8d7f4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "MatchValueWithTrailingSeparator",
-        std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::StringW>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValueWithTrailingSeparator",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.IsSeparator
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.IsSeparator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(
-        &::Newtonsoft::Json::JsonTextReader::IsSeparator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)(char16_t)>(&::Newtonsoft::Json::JsonTextReader::IsSeparator)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3e90554;
+  constexpr static std::size_t addrs = 0x3e904dc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "IsSeparator", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                char16_t>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "IsSeparator", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseTrue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseTrue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseTrue)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e8ed6c;
+  constexpr static std::size_t addrs = 0x3e8ecf4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseTrue", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseTrue",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNull)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseNull)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3e8e354;
+  constexpr static std::size_t addrs = 0x3e8e2dc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNull", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNull",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseUndefined
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseUndefined
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseUndefined)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseUndefined)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3e8f23c;
+  constexpr static std::size_t addrs = 0x3e8f1c4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseUndefined", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUndefined",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseFalse
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseFalse
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::ParseFalse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::ParseFalse)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e8ee44;
+  constexpr static std::size_t addrs = 0x3e8edcc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseFalse", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseFalse",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberNegativeInfinity
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberNegativeInfinity
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e8d788;
+  constexpr static std::size_t addrs = 0x3e8d710;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberNegativeInfinity", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNegativeInfinity", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberNegativeInfinity
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberNegativeInfinity
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(::Newtonsoft::Json::JsonTextReader::
-                                       *)(::Newtonsoft::Json::ReadType, bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, bool)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3e906ac;
+  constexpr static std::size_t addrs = 0x3e90634;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberNegativeInfinity", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNegativeInfinity", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberPositiveInfinity
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberPositiveInfinity
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e8d910;
+  constexpr static std::size_t addrs = 0x3e8d898;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberPositiveInfinity", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberPositiveInfinity", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberPositiveInfinity
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberPositiveInfinity
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(::Newtonsoft::Json::JsonTextReader::
-                                       *)(::Newtonsoft::Json::ReadType, bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, bool)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3e90800;
+  constexpr static std::size_t addrs = 0x3e90788;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberPositiveInfinity", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberPositiveInfinity", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberNaN
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberNaN
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(
-        ::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e8d98c;
+  constexpr static std::size_t addrs = 0x3e8d914;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberNaN", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNaN", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.ParseNumberNaN
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.ParseNumberNaN
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object *(::Newtonsoft::Json::JsonTextReader::
-                                       *)(::Newtonsoft::Json::ReadType, bool)>(
-        &::Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonTextReader::*)(::Newtonsoft::Json::ReadType, bool)>(
+    &::Newtonsoft::Json::JsonTextReader::ParseNumberNaN)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3e90954;
+  constexpr static std::size_t addrs = 0x3e908dc;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "ParseNumberNaN", std::span<const Il2CppClass *const, 0>(),
-        ::std::array<const Il2CppType *, 2>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::Newtonsoft::Json::ReadType>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                bool>::get()})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNaN", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.Close
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::Close)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::Close)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e90aa8;
+  constexpr static std::size_t addrs = 0x3e90a30;
 
-  inline static const ::MethodInfo *methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
-    static auto *___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-                ::Newtonsoft::Json::JsonTextReader *>::get(),
-            31));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 31));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.HasLineInfo
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.HasLineInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::HasLineInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e90b08;
+  constexpr static std::size_t addrs = 0x3e90a90;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "HasLineInfo", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "HasLineInfo",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.get_LineNumber
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.get_LineNumber
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::get_LineNumber)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::get_LineNumber)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e90b10;
+  constexpr static std::size_t addrs = 0x3e90a98;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "get_LineNumber", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "get_LineNumber",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method:
-//  ::Newtonsoft::Json::JsonTextReader.get_LinePosition
+//  Writing Method size for method: ::Newtonsoft::Json::JsonTextReader.get_LinePosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)()>(
-        &::Newtonsoft::Json::JsonTextReader::get_LinePosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonTextReader::*)()>(&::Newtonsoft::Json::JsonTextReader::get_LinePosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e90b5c;
+  constexpr static std::size_t addrs = 0x3e90ae4;
 
-  inline static const ::MethodInfo *methodInfo() {
-    static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-            ::Newtonsoft::Json::JsonTextReader *>::get(),
-        "get_LinePosition", std::span<const Il2CppClass *const, 0>(),
-        ::std::span<const Il2CppType *const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "get_LinePosition",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__safeAsync() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr bool& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__safeAsync() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____safeAsync;
 }
-constexpr bool const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__safeAsync() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr bool const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__safeAsync() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____safeAsync;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__safeAsync(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__safeAsync(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____safeAsync = value;
 }
-constexpr ::System::IO::TextReader *&
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__reader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::System::IO::TextReader*& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__reader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
-constexpr ::System::IO::TextReader *const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__reader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::System::IO::TextReader* const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__reader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reader;
 }
-constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__reader(
-    ::System::IO::TextReader *value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
-  il2cpp_functions::gc_wbarrier_set_field(
-      this, static_cast<void **>(static_cast<void *>(&this->____reader)),
-      cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__reader(::System::IO::TextReader* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t> *> &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__chars() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__chars() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chars;
 }
-constexpr ::ArrayW<char16_t, ::Array<char16_t> *> const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__chars() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__chars() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chars;
 }
-constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__chars(
-    ::ArrayW<char16_t, ::Array<char16_t> *> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
-  il2cpp_functions::gc_wbarrier_set_field(
-      this, static_cast<void **>(static_cast<void *>(&this->____chars)),
-      cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__chars(::ArrayW<char16_t, ::Array<char16_t>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____chars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charsUsed() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charsUsed() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charsUsed;
 }
-constexpr int32_t const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charsUsed() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charsUsed() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charsUsed;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__charsUsed(
-    int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__charsUsed(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charsUsed = value;
 }
-constexpr int32_t &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charPos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charPos;
 }
-constexpr int32_t const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__charPos() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____charPos;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__charPos(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__charPos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____charPos = value;
 }
-constexpr int32_t &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineStartPos() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineStartPos;
 }
-constexpr int32_t const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineStartPos() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineStartPos;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__lineStartPos(
-    int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__lineStartPos(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineStartPos = value;
 }
-constexpr int32_t &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineNumber() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineNumber() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineNumber;
 }
-constexpr int32_t const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineNumber() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr int32_t const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__lineNumber() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lineNumber;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__lineNumber(
-    int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__lineNumber(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lineNumber = value;
 }
-constexpr bool &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__isEndOfFile() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr bool& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__isEndOfFile() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEndOfFile;
 }
-constexpr bool const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__isEndOfFile() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr bool const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__isEndOfFile() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isEndOfFile;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__isEndOfFile(
-    bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__isEndOfFile(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isEndOfFile = value;
 }
-constexpr ::Newtonsoft::Json::Utilities::StringBuffer &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::Utilities::StringBuffer& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringBuffer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuffer;
 }
-constexpr ::Newtonsoft::Json::Utilities::StringBuffer const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::Utilities::StringBuffer const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringBuffer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuffer;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__stringBuffer(
-    ::Newtonsoft::Json::Utilities::StringBuffer value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stringBuffer = value;
 }
-constexpr ::Newtonsoft::Json::Utilities::StringReference &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringReference() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::Utilities::StringReference& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringReference() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringReference;
 }
-constexpr ::Newtonsoft::Json::Utilities::StringReference const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringReference()
-    const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::Utilities::StringReference const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__stringReference() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringReference;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__stringReference(
-    ::Newtonsoft::Json::Utilities::StringReference value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__stringReference(::Newtonsoft::Json::Utilities::StringReference value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stringReference = value;
 }
-constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t> *&
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__arrayPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__arrayPool() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayPool;
 }
-constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t> *const &
-Newtonsoft::Json::JsonTextReader::__cordl_internal_get__arrayPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>* const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__arrayPool() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrayPool;
 }
-constexpr void
-Newtonsoft::Json::JsonTextReader::__cordl_internal_set__arrayPool(
-    ::Newtonsoft::Json::IArrayPool_1<char16_t> *value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
-  il2cpp_functions::gc_wbarrier_set_field(
-      this, static_cast<void **>(static_cast<void *>(&this->____arrayPool)),
-      cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrayPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Newtonsoft::Json::JsonNameTable *&Newtonsoft::Json::JsonTextReader::
-    __cordl_internal_get__PropertyNameTable_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::JsonNameTable*& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__PropertyNameTable_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PropertyNameTable_k__BackingField;
 }
-constexpr ::Newtonsoft::Json::JsonNameTable *const &
-Newtonsoft::Json::JsonTextReader::
-    __cordl_internal_get__PropertyNameTable_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
+constexpr ::Newtonsoft::Json::JsonNameTable* const& Newtonsoft::Json::JsonTextReader::__cordl_internal_get__PropertyNameTable_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____PropertyNameTable_k__BackingField;
 }
-constexpr void Newtonsoft::Json::JsonTextReader::
-    __cordl_internal_set__PropertyNameTable_k__BackingField(
-        ::Newtonsoft::Json::JsonNameTable *value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const *>(this));
-  il2cpp_functions::gc_wbarrier_set_field(
-      this,
-      static_cast<void **>(
-          static_cast<void *>(&this->____PropertyNameTable_k__BackingField)),
-      cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Newtonsoft::Json::JsonTextReader::__cordl_internal_set__PropertyNameTable_k__BackingField(::Newtonsoft::Json::JsonNameTable* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PropertyNameTable_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ReadAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      5)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ReadAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::DoReadAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::DoReadAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::DoReadAsync(
-    ::System::Threading::Tasks::Task_1<bool> *task,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::Tasks::Task_1<bool> *>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, task, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::DoReadAsync(::System::Threading::Tasks::Task_1<bool>* task,
+                                                                                               ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<bool>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, task, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ParsePostValueAsync(
-    bool ignoreComments,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParsePostValueAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, ignoreComments, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ParsePostValueAsync(bool ignoreComments, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParsePostValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, ignoreComments, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ReadFromFinishedAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadFromFinishedAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ReadFromFinishedAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadFromFinishedAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<int32_t> *
-Newtonsoft::Json::JsonTextReader::ReadDataAsync(
-    bool append, ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadDataAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<int32_t> *, false>(
-      this, ___internal_method, append, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<int32_t>* Newtonsoft::Json::JsonTextReader::ReadDataAsync(bool append, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadDataAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*, false>(this, ___internal_method, append, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<int32_t> *
-Newtonsoft::Json::JsonTextReader::ReadDataAsync(
-    bool append, int32_t charsRequired,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadDataAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<int32_t> *, false>(
-      this, ___internal_method, append, charsRequired, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<int32_t>* Newtonsoft::Json::JsonTextReader::ReadDataAsync(bool append, int32_t charsRequired, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadDataAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*, false>(this, ___internal_method, append, charsRequired, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ParseValueAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseValueAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ParseValueAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ReadStringIntoBufferAsync(
-    char16_t quote, ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadStringIntoBufferAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    quote, cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ReadStringIntoBufferAsync(char16_t quote, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringIntoBufferAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, quote, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync(
-    bool append, ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ProcessCarriageReturnAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    append, cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync(bool append, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessCarriageReturnAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, append, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync(
-    ::System::Threading::Tasks::Task_1<bool> *task) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ProcessCarriageReturnAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::Tasks::Task_1<bool> *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    task);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ProcessCarriageReturnAsync(::System::Threading::Tasks::Task_1<bool>* task) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessCarriageReturnAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<bool>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, task);
 }
-inline ::System::Threading::Tasks::Task_1<char16_t> *
-Newtonsoft::Json::JsonTextReader::ParseUnicodeAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseUnicodeAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<char16_t> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<char16_t>* Newtonsoft::Json::JsonTextReader::ParseUnicodeAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUnicodeAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<char16_t>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::EnsureCharsAsync(
-    int32_t relativePosition, bool append,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EnsureCharsAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, relativePosition, append, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::EnsureCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureCharsAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, relativePosition, append, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ReadCharsAsync(
-    int32_t relativePosition, bool append,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadCharsAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, relativePosition, append, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ReadCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadCharsAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, relativePosition, append, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ParseObjectAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseObjectAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ParseObjectAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseObjectAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseCommentAsync(
-    bool setToken, ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseCommentAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(
-      this, ___internal_method, setToken, cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseCommentAsync(bool setToken, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseCommentAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, setToken, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::EatWhitespaceAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EatWhitespaceAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::EatWhitespaceAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EatWhitespaceAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseStringAsync(
-    char16_t quote, ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseStringAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(
-      this, ___internal_method, quote, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseStringAsync(char16_t quote, ::Newtonsoft::Json::ReadType readType,
+                                                                                            ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseStringAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, quote, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::MatchValueAsync(
-    ::StringW value, ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "MatchValueAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, value, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::MatchValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, value, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparatorAsync(
-    ::StringW value, ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "MatchValueWithTrailingSeparatorAsync",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, value, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparatorAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValueWithTrailingSeparatorAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, value, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::MatchAndSetAsync(
-    ::StringW value, ::Newtonsoft::Json::JsonToken newToken,
-    ::System::Object *tokenValue,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "MatchAndSetAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::JsonToken>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Object *>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(
-      this, ___internal_method, value, newToken, tokenValue, cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::MatchAndSetAsync(::StringW value, ::Newtonsoft::Json::JsonToken newToken, ::System::Object* tokenValue,
+                                                                                            ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchAndSetAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonToken>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value, newToken, tokenValue, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseTrueAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseTrueAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseTrueAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseTrueAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseFalseAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseFalseAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseFalseAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseFalseAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseNullAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNullAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseNullAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNullAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseConstructorAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseConstructorAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseConstructorAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseConstructorAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Object *> *
-Newtonsoft::Json::JsonTextReader::ParseNumberNaNAsync(
-    ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberNaNAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Object *> *, false>(
-      this, ___internal_method, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Object*>* Newtonsoft::Json::JsonTextReader::ParseNumberNaNAsync(::Newtonsoft::Json::ReadType readType,
+                                                                                                                    ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNaNAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Object*>*, false>(this, ___internal_method, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Object *> *
-Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinityAsync(
-    ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberPositiveInfinityAsync",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Object *> *, false>(
-      this, ___internal_method, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Object*>* Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinityAsync(::Newtonsoft::Json::ReadType readType,
+                                                                                                                                 ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberPositiveInfinityAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Object*>*, false>(this, ___internal_method, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Object *> *
-Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinityAsync(
-    ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberNegativeInfinityAsync",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Object *> *, false>(
-      this, ___internal_method, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Object*>* Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinityAsync(::Newtonsoft::Json::ReadType readType,
+                                                                                                                                 ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNegativeInfinityAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Object*>*, false>(this, ___internal_method, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseNumberAsync(
-    ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(
-      this, ___internal_method, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseNumberAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseUndefinedAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseUndefinedAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseUndefinedAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUndefinedAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ParsePropertyAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParsePropertyAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ParsePropertyAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParsePropertyAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ReadNumberIntoBufferAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNumberIntoBufferAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ReadNumberIntoBufferAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberIntoBufferAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ParseUnquotedPropertyAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseUnquotedPropertyAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ParseUnquotedPropertyAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUnquotedPropertyAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<bool> *
-Newtonsoft::Json::JsonTextReader::ReadNullCharAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNullCharAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<bool> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<bool>* Newtonsoft::Json::JsonTextReader::ReadNullCharAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNullCharAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::HandleNullAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "HandleNullAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::HandleNullAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "HandleNullAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ReadFinishedAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadFinishedAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ReadFinishedAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadFinishedAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Object *> *
-Newtonsoft::Json::JsonTextReader::ReadStringValueAsync(
-    ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadStringValueAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Object *> *, false>(
-      this, ___internal_method, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Object*>* Newtonsoft::Json::JsonTextReader::ReadStringValueAsync(::Newtonsoft::Json::ReadType readType,
+                                                                                                                     ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Object*>*, false>(this, ___internal_method, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Object *> *
-Newtonsoft::Json::JsonTextReader::ReadNumberValueAsync(
-    ::Newtonsoft::Json::ReadType readType,
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNumberValueAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Object *> *, false>(
-      this, ___internal_method, readType, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Object*>* Newtonsoft::Json::JsonTextReader::ReadNumberValueAsync(::Newtonsoft::Json::ReadType readType,
+                                                                                                                     ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberValueAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Object*>*, false>(this, ___internal_method, readType, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>> *
-Newtonsoft::Json::JsonTextReader::ReadAsBooleanAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      6)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* Newtonsoft::Json::JsonTextReader::ReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsBooleanAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsBooleanAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* Newtonsoft::Json::JsonTextReader::DoReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsBooleanAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::ArrayW<uint8_t, ::Array<uint8_t> *>> *
-Newtonsoft::Json::JsonTextReader::ReadAsBytesAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      7)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t> *>>
-          *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* Newtonsoft::Json::JsonTextReader::ReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::ArrayW<uint8_t, ::Array<uint8_t> *>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsBytesAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsBytesAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t> *>>
-          *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* Newtonsoft::Json::JsonTextReader::DoReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsBytesAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task *
-Newtonsoft::Json::JsonTextReader::ReadIntoWrappedTypeObjectAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadIntoWrappedTypeObjectAsync",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task *,
-                                             false>(this, ___internal_method,
-                                                    cancellationToken);
+inline ::System::Threading::Tasks::Task* Newtonsoft::Json::JsonTextReader::ReadIntoWrappedTypeObjectAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadIntoWrappedTypeObjectAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::System::Nullable_1<::System::DateTime>> *
-Newtonsoft::Json::JsonTextReader::ReadAsDateTimeAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      8)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<
-          ::System::Nullable_1<::System::DateTime>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* Newtonsoft::Json::JsonTextReader::ReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::System::Nullable_1<::System::DateTime>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsDateTimeAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<
-          ::System::Nullable_1<::System::DateTime>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDateTimeAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::System::Nullable_1<::System::DateTimeOffset>> *
-Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffsetAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      9)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<
-          ::System::Nullable_1<::System::DateTimeOffset>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>*
+Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::System::Nullable_1<::System::DateTimeOffset>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeOffsetAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsDateTimeOffsetAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<
-          ::System::Nullable_1<::System::DateTimeOffset>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>*
+Newtonsoft::Json::JsonTextReader::DoReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDateTimeOffsetAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::System::Nullable_1<::System::Decimal>> *
-Newtonsoft::Json::JsonTextReader::ReadAsDecimalAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      10)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<
-          ::System::Nullable_1<::System::Decimal>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* Newtonsoft::Json::JsonTextReader::ReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<
-    ::System::Nullable_1<::System::Decimal>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsDecimalAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsDecimalAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<
-          ::System::Nullable_1<::System::Decimal>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* Newtonsoft::Json::JsonTextReader::DoReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDecimalAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>> *
-Newtonsoft::Json::JsonTextReader::ReadAsDoubleAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      11)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* Newtonsoft::Json::JsonTextReader::ReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsDoubleAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsDoubleAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* Newtonsoft::Json::JsonTextReader::DoReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsDoubleAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>> *
-Newtonsoft::Json::JsonTextReader::ReadAsInt32Async(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      12)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* Newtonsoft::Json::JsonTextReader::ReadAsInt32Async(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>> *
-Newtonsoft::Json::JsonTextReader::DoReadAsInt32Async(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsInt32Async", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>> *,
-      false>(this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* Newtonsoft::Json::JsonTextReader::DoReadAsInt32Async(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsInt32Async", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW> *
-Newtonsoft::Json::JsonTextReader::ReadAsStringAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      13)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::StringW> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::StringW>* Newtonsoft::Json::JsonTextReader::ReadAsStringAsync(::System::Threading::CancellationToken cancellationToken) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method, cancellationToken);
 }
-inline ::System::Threading::Tasks::Task_1<::StringW> *
-Newtonsoft::Json::JsonTextReader::DoReadAsStringAsync(
-    ::System::Threading::CancellationToken cancellationToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "DoReadAsStringAsync", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Threading::CancellationToken>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Threading::Tasks::Task_1<::StringW> *, false>(
-      this, ___internal_method, cancellationToken);
+inline ::System::Threading::Tasks::Task_1<::StringW>* Newtonsoft::Json::JsonTextReader::DoReadAsStringAsync(::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "DoReadAsStringAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(this, ___internal_method, cancellationToken);
 }
-inline void
-Newtonsoft::Json::JsonTextReader::_ctor(::System::IO::TextReader *reader) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      ".ctor", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::IO::TextReader *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, reader);
+inline void Newtonsoft::Json::JsonTextReader::_ctor(::System::IO::TextReader* reader) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextReader*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
 }
-inline ::Newtonsoft::Json::JsonNameTable *
-Newtonsoft::Json::JsonTextReader::get_PropertyNameTable() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "get_PropertyNameTable", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Newtonsoft::Json::JsonNameTable *, false>(this, ___internal_method);
+inline ::Newtonsoft::Json::JsonNameTable* Newtonsoft::Json::JsonTextReader::get_PropertyNameTable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                             "get_PropertyNameTable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonNameTable*, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader::set_PropertyNameTable(
-    ::Newtonsoft::Json::JsonNameTable *value) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "set_PropertyNameTable", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::JsonNameTable *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonTextReader::set_PropertyNameTable(::Newtonsoft::Json::JsonNameTable* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "set_PropertyNameTable", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonNameTable*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::IArrayPool_1<char16_t> *
-Newtonsoft::Json::JsonTextReader::get_ArrayPool() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "get_ArrayPool", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Newtonsoft::Json::IArrayPool_1<char16_t> *, false>(this,
-                                                           ___internal_method);
+inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* Newtonsoft::Json::JsonTextReader::get_ArrayPool() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "get_ArrayPool",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::IArrayPool_1<char16_t>*, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader::set_ArrayPool(
-    ::Newtonsoft::Json::IArrayPool_1<char16_t> *value) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "set_ArrayPool", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::IArrayPool_1<char16_t> *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, value);
+inline void Newtonsoft::Json::JsonTextReader::set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "set_ArrayPool", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::IArrayPool_1<char16_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonTextReader::EnsureBufferNotEmpty() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EnsureBufferNotEmpty", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureBufferNotEmpty",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::SetNewLine(bool hasNextChar) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "SetNewLine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, hasNextChar);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "SetNewLine",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hasNextChar);
 }
 inline void Newtonsoft::Json::JsonTextReader::OnNewLine(int32_t pos) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "OnNewLine", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, pos);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "OnNewLine",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos);
 }
-inline void Newtonsoft::Json::JsonTextReader::ParseString(
-    char16_t quote, ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseString", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, quote, readType);
+inline void Newtonsoft::Json::JsonTextReader::ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseString", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, quote, readType);
 }
-inline void Newtonsoft::Json::JsonTextReader::ParseReadString(
-    char16_t quote, ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseReadString", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, quote, readType);
+inline void Newtonsoft::Json::JsonTextReader::ParseReadString(char16_t quote, ::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseReadString", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, quote, readType);
 }
-inline void Newtonsoft::Json::JsonTextReader::BlockCopyChars(
-    ::ArrayW<char16_t, ::Array<char16_t> *> src, int32_t srcOffset,
-    ::ArrayW<char16_t, ::Array<char16_t> *> dst, int32_t dstOffset,
-    int32_t count) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "BlockCopyChars", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 5>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<char16_t, ::Array<char16_t> *>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<char16_t, ::Array<char16_t> *>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      nullptr, ___internal_method, src, srcOffset, dst, dstOffset, count);
+inline void Newtonsoft::Json::JsonTextReader::BlockCopyChars(::ArrayW<char16_t, ::Array<char16_t>*> src, int32_t srcOffset, ::ArrayW<char16_t, ::Array<char16_t>*> dst, int32_t dstOffset,
+                                                             int32_t count) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "BlockCopyChars", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcOffset, dst, dstOffset, count);
 }
 inline void Newtonsoft::Json::JsonTextReader::ShiftBufferIfNeeded() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ShiftBufferIfNeeded", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ShiftBufferIfNeeded",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline int32_t Newtonsoft::Json::JsonTextReader::ReadData(bool append) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadData", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      this, ___internal_method, append);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadData", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, append);
 }
-inline void Newtonsoft::Json::JsonTextReader::PrepareBufferForReadData(
-    bool append, int32_t charsRequired) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "PrepareBufferForReadData", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, append, charsRequired);
+inline void Newtonsoft::Json::JsonTextReader::PrepareBufferForReadData(bool append, int32_t charsRequired) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "PrepareBufferForReadData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, append, charsRequired);
 }
-inline int32_t
-Newtonsoft::Json::JsonTextReader::ReadData(bool append, int32_t charsRequired) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadData", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      this, ___internal_method, append, charsRequired);
+inline int32_t Newtonsoft::Json::JsonTextReader::ReadData(bool append, int32_t charsRequired) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, append, charsRequired);
 }
-inline bool
-Newtonsoft::Json::JsonTextReader::EnsureChars(int32_t relativePosition,
-                                              bool append) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EnsureChars", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, relativePosition, append);
+inline bool Newtonsoft::Json::JsonTextReader::EnsureChars(int32_t relativePosition, bool append) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureChars", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, relativePosition, append);
 }
-inline bool
-Newtonsoft::Json::JsonTextReader::ReadChars(int32_t relativePosition,
-                                            bool append) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadChars", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, relativePosition, append);
+inline bool Newtonsoft::Json::JsonTextReader::ReadChars(int32_t relativePosition, bool append) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadChars", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, relativePosition, append);
 }
 inline bool Newtonsoft::Json::JsonTextReader::Read() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      21)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
-                                                          ___internal_method);
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 21)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Nullable_1<int32_t>
-Newtonsoft::Json::JsonTextReader::ReadAsInt32() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      22)));
-  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<int32_t>,
-                                             false>(this, ___internal_method);
+inline ::System::Nullable_1<int32_t> Newtonsoft::Json::JsonTextReader::ReadAsInt32() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 22)));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<int32_t>, false>(this, ___internal_method);
 }
-inline ::System::Nullable_1<::System::DateTime>
-Newtonsoft::Json::JsonTextReader::ReadAsDateTime() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      28)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Nullable_1<::System::DateTime>, false>(this,
-                                                       ___internal_method);
+inline ::System::Nullable_1<::System::DateTime> Newtonsoft::Json::JsonTextReader::ReadAsDateTime() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 28)));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::DateTime>, false>(this, ___internal_method);
 }
 inline ::StringW Newtonsoft::Json::JsonTextReader::ReadAsString() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      23)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(
-      this, ___internal_method);
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 23)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t> *>
-Newtonsoft::Json::JsonTextReader::ReadAsBytes() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      24)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<uint8_t, ::Array<uint8_t> *>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Newtonsoft::Json::JsonTextReader::ReadAsBytes() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 24)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::System::Object *Newtonsoft::Json::JsonTextReader::ReadStringValue(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadStringValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ReadStringValue(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringValue", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::System::Object *
-Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "FinishReadQuotedStringValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::FinishReadQuotedStringValue(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "FinishReadQuotedStringValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::Newtonsoft::Json::JsonReaderException *
-Newtonsoft::Json::JsonTextReader::CreateUnexpectedCharacterException(
-    char16_t c) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "CreateUnexpectedCharacterException",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Newtonsoft::Json::JsonReaderException *, false>(this,
-                                                        ___internal_method, c);
+inline ::Newtonsoft::Json::JsonReaderException* Newtonsoft::Json::JsonTextReader::CreateUnexpectedCharacterException(char16_t c) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "CreateUnexpectedCharacterException",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonReaderException*, false>(this, ___internal_method, c);
 }
-inline ::System::Nullable_1<bool>
-Newtonsoft::Json::JsonTextReader::ReadAsBoolean() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      26)));
-  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<bool>, false>(
-      this, ___internal_method);
+inline ::System::Nullable_1<bool> Newtonsoft::Json::JsonTextReader::ReadAsBoolean() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 26)));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<bool>, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ProcessValueComma() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ProcessValueComma", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessValueComma",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object *Newtonsoft::Json::JsonTextReader::ReadNumberValue(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNumberValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ReadNumberValue(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberValue", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::System::Object *
-Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "FinishReadQuotedNumber", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::FinishReadQuotedNumber(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "FinishReadQuotedNumber", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::System::Nullable_1<::System::DateTimeOffset>
-Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      29)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Nullable_1<::System::DateTimeOffset>, false>(
-      this, ___internal_method);
+inline ::System::Nullable_1<::System::DateTimeOffset> Newtonsoft::Json::JsonTextReader::ReadAsDateTimeOffset() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 29)));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::DateTimeOffset>, false>(this, ___internal_method);
 }
-inline ::System::Nullable_1<::System::Decimal>
-Newtonsoft::Json::JsonTextReader::ReadAsDecimal() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      27)));
-  return ::cordl_internals::RunMethodRethrow<
-      ::System::Nullable_1<::System::Decimal>, false>(this, ___internal_method);
+inline ::System::Nullable_1<::System::Decimal> Newtonsoft::Json::JsonTextReader::ReadAsDecimal() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 27)));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::System::Decimal>, false>(this, ___internal_method);
 }
-inline ::System::Nullable_1<double_t>
-Newtonsoft::Json::JsonTextReader::ReadAsDouble() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      25)));
-  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<double_t>,
-                                             false>(this, ___internal_method);
+inline ::System::Nullable_1<double_t> Newtonsoft::Json::JsonTextReader::ReadAsDouble() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 25)));
+  return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<double_t>, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::HandleNull() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "HandleNull", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "HandleNull",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ReadFinished() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadFinished", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadFinished",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool Newtonsoft::Json::JsonTextReader::ReadNullChar() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNullChar", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNullChar",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::EnsureBuffer() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EnsureBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EnsureBuffer",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader::ReadStringIntoBuffer(char16_t quote) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadStringIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, quote);
+inline void Newtonsoft::Json::JsonTextReader::ReadStringIntoBuffer(char16_t quote) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadStringIntoBuffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, quote);
 }
-inline void Newtonsoft::Json::JsonTextReader::FinishReadStringIntoBuffer(
-    int32_t charPos, int32_t initialPosition, int32_t lastWritePosition) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "FinishReadStringIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, charPos, initialPosition, lastWritePosition);
+inline void Newtonsoft::Json::JsonTextReader::FinishReadStringIntoBuffer(int32_t charPos, int32_t initialPosition, int32_t lastWritePosition) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "FinishReadStringIntoBuffer", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, charPos, initialPosition, lastWritePosition);
 }
-inline void Newtonsoft::Json::JsonTextReader::WriteCharToBuffer(
-    char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "WriteCharToBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, writeChar, lastWritePosition, writeToPosition);
+inline void Newtonsoft::Json::JsonTextReader::WriteCharToBuffer(char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "WriteCharToBuffer", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writeChar, lastWritePosition, writeToPosition);
 }
-inline char16_t
-Newtonsoft::Json::JsonTextReader::ConvertUnicode(bool enoughChars) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ConvertUnicode", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      this, ___internal_method, enoughChars);
+inline char16_t Newtonsoft::Json::JsonTextReader::ConvertUnicode(bool enoughChars) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ConvertUnicode",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(this, ___internal_method, enoughChars);
 }
 inline char16_t Newtonsoft::Json::JsonTextReader::ParseUnicode() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseUnicode", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<char16_t, false>(
-      this, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUnicode",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<char16_t, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ReadNumberIntoBuffer() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNumberIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberIntoBuffer",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool
-Newtonsoft::Json::JsonTextReader::ReadNumberCharIntoBuffer(char16_t currentChar,
-                                                           int32_t charPos) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadNumberCharIntoBuffer", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, currentChar, charPos);
+inline bool Newtonsoft::Json::JsonTextReader::ReadNumberCharIntoBuffer(char16_t currentChar, int32_t charPos) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadNumberCharIntoBuffer", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, currentChar, charPos);
 }
 inline void Newtonsoft::Json::JsonTextReader::ClearRecentString() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ClearRecentString", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ClearRecentString",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool
-Newtonsoft::Json::JsonTextReader::ParsePostValue(bool ignoreComments) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParsePostValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, ignoreComments);
+inline bool Newtonsoft::Json::JsonTextReader::ParsePostValue(bool ignoreComments) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParsePostValue",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ignoreComments);
 }
 inline bool Newtonsoft::Json::JsonTextReader::ParseObject() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseObject", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseObject",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool Newtonsoft::Json::JsonTextReader::ParseProperty() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseProperty", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseProperty",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool
-Newtonsoft::Json::JsonTextReader::ValidIdentifierChar(char16_t value) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ValidIdentifierChar", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, value);
+inline bool Newtonsoft::Json::JsonTextReader::ValidIdentifierChar(char16_t value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ValidIdentifierChar", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseUnquotedProperty() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseUnquotedProperty", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(),
+                                                                             "ParseUnquotedProperty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::JsonTextReader::ReadUnquotedPropertyReportIfDone(
-    char16_t currentChar, int32_t initialPosition) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ReadUnquotedPropertyReportIfDone",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, currentChar, initialPosition);
+inline bool Newtonsoft::Json::JsonTextReader::ReadUnquotedPropertyReportIfDone(char16_t currentChar, int32_t initialPosition) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ReadUnquotedPropertyReportIfDone", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, currentChar, initialPosition);
 }
 inline bool Newtonsoft::Json::JsonTextReader::ParseValue() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseValue",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ProcessLineFeed() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ProcessLineFeed", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessLineFeed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void
-Newtonsoft::Json::JsonTextReader::ProcessCarriageReturn(bool append) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ProcessCarriageReturn", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, append);
+inline void Newtonsoft::Json::JsonTextReader::ProcessCarriageReturn(bool append) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ProcessCarriageReturn",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, append);
 }
 inline void Newtonsoft::Json::JsonTextReader::EatWhitespace() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EatWhitespace", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EatWhitespace",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseConstructor() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseConstructor", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseConstructor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::JsonTextReader::ParseNumber(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumber", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, readType);
+inline void Newtonsoft::Json::JsonTextReader::ParseNumber(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumber", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, readType);
 }
-inline void Newtonsoft::Json::JsonTextReader::ParseReadNumber(
-    ::Newtonsoft::Json::ReadType readType, char16_t firstChar,
-    int32_t initialPosition) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseReadNumber", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, readType, firstChar, initialPosition);
+inline void Newtonsoft::Json::JsonTextReader::ParseReadNumber(::Newtonsoft::Json::ReadType readType, char16_t firstChar, int32_t initialPosition) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseReadNumber", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, readType, firstChar, initialPosition);
 }
-inline ::Newtonsoft::Json::JsonReaderException *
-Newtonsoft::Json::JsonTextReader::ThrowReaderError(::StringW message,
-                                                   ::System::Exception *ex) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ThrowReaderError", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Exception *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<
-      ::Newtonsoft::Json::JsonReaderException *, false>(
-      this, ___internal_method, message, ex);
+inline ::Newtonsoft::Json::JsonReaderException* Newtonsoft::Json::JsonTextReader::ThrowReaderError(::StringW message, ::System::Exception* ex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ThrowReaderError", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::JsonReaderException*, false>(this, ___internal_method, message, ex);
 }
-inline ::System::Object *Newtonsoft::Json::JsonTextReader::BigIntegerParse(
-    ::StringW number, ::System::Globalization::CultureInfo *culture) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "BigIntegerParse", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::System::Globalization::CultureInfo *>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      nullptr, ___internal_method, number, culture);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::BigIntegerParse(::StringW number, ::System::Globalization::CultureInfo* culture) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "BigIntegerParse", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, number, culture);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseComment(bool setToken) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseComment", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, setToken);
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseComment",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, setToken);
 }
-inline void Newtonsoft::Json::JsonTextReader::EndComment(
-    bool setToken, int32_t initialPosition, int32_t endPosition) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "EndComment", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              int32_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(
-      this, ___internal_method, setToken, initialPosition, endPosition);
+inline void Newtonsoft::Json::JsonTextReader::EndComment(bool setToken, int32_t initialPosition, int32_t endPosition) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "EndComment", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, setToken, initialPosition, endPosition);
 }
 inline bool Newtonsoft::Json::JsonTextReader::MatchValue(::StringW value) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "MatchValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, value);
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValue", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
-inline bool Newtonsoft::Json::JsonTextReader::MatchValue(bool enoughChars,
-                                                         ::StringW value) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "MatchValue", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, enoughChars, value);
+inline bool Newtonsoft::Json::JsonTextReader::MatchValue(bool enoughChars, ::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, enoughChars, value);
 }
-inline bool Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparator(
-    ::StringW value) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "MatchValueWithTrailingSeparator",
-      std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::StringW>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, value);
+inline bool Newtonsoft::Json::JsonTextReader::MatchValueWithTrailingSeparator(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "MatchValueWithTrailingSeparator",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
 inline bool Newtonsoft::Json::JsonTextReader::IsSeparator(char16_t c) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "IsSeparator", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              char16_t>::get()})));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(
-      this, ___internal_method, c);
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "IsSeparator", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, c);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseTrue() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseTrue", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseTrue",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseNull() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNull", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNull",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseUndefined() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseUndefined", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseUndefined",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Newtonsoft::Json::JsonTextReader::ParseFalse() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseFalse", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseFalse",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object *
-Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberNegativeInfinity", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNegativeInfinity", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::System::Object *
-Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity(
-    ::Newtonsoft::Json::ReadType readType, bool matched) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberNegativeInfinity", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType, matched);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType, bool matched) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNegativeInfinity", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType, matched);
 }
-inline ::System::Object *
-Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberPositiveInfinity", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberPositiveInfinity", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::System::Object *
-Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity(
-    ::Newtonsoft::Json::ReadType readType, bool matched) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberPositiveInfinity", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType, matched);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType, bool matched) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberPositiveInfinity", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType, matched);
 }
-inline ::System::Object *Newtonsoft::Json::JsonTextReader::ParseNumberNaN(
-    ::Newtonsoft::Json::ReadType readType) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberNaN", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ParseNumberNaN(::Newtonsoft::Json::ReadType readType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNaN", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType);
 }
-inline ::System::Object *Newtonsoft::Json::JsonTextReader::ParseNumberNaN(
-    ::Newtonsoft::Json::ReadType readType, bool matched) {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "ParseNumberNaN", std::span<const Il2CppClass *const, 0>(),
-      ::std::array<const Il2CppType *, 2>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::Newtonsoft::Json::ReadType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              bool>::get()})));
-  return ::cordl_internals::RunMethodRethrow<::System::Object *, false>(
-      this, ___internal_method, readType, matched);
+inline ::System::Object* Newtonsoft::Json::JsonTextReader::ParseNumberNaN(::Newtonsoft::Json::ReadType readType, bool matched) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "ParseNumberNaN", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::ReadType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, readType, matched);
 }
 inline void Newtonsoft::Json::JsonTextReader::Close() {
-  auto *___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
-      il2cpp_functions::object_get_class(
-          reinterpret_cast<Il2CppObject *>(this)),
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      31)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this,
-                                                          ___internal_method);
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), 31)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool Newtonsoft::Json::JsonTextReader::HasLineInfo() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "HasLineInfo", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this,
-                                                          ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "HasLineInfo",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline int32_t Newtonsoft::Json::JsonTextReader::get_LineNumber() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "get_LineNumber", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      this, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "get_LineNumber",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline int32_t Newtonsoft::Json::JsonTextReader::get_LinePosition() {
-  static auto *___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<
-          ::Newtonsoft::Json::JsonTextReader *>::get(),
-      "get_LinePosition", std::span<const Il2CppClass *const, 0>(),
-      ::std::span<const Il2CppType *const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(
-      this, ___internal_method);
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonTextReader*>::get(), "get_LinePosition",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::JsonTextReader *
-Newtonsoft::Json::JsonTextReader::New_ctor(::System::IO::TextReader *reader) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::NewSpecific<::Newtonsoft::Json::JsonTextReader *>(
-          reader));
+inline ::Newtonsoft::Json::JsonTextReader* Newtonsoft::Json::JsonTextReader::New_ctor(::System::IO::TextReader* reader) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::JsonTextReader*>(reader));
 }
 /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
-constexpr Newtonsoft::Json::JsonTextReader::operator ::Newtonsoft::Json::
-    IJsonLineInfo *() noexcept {
-  return static_cast<::Newtonsoft::Json::IJsonLineInfo *>(
-      static_cast<void *>(this));
+constexpr Newtonsoft::Json::JsonTextReader::operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept {
+  return static_cast<::Newtonsoft::Json::IJsonLineInfo*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
-constexpr ::Newtonsoft::Json::IJsonLineInfo *Newtonsoft::Json::JsonTextReader::
-    i___Newtonsoft__Json__IJsonLineInfo() noexcept {
-  return static_cast<::Newtonsoft::Json::IJsonLineInfo *>(
-      static_cast<void *>(this));
+constexpr ::Newtonsoft::Json::IJsonLineInfo* Newtonsoft::Json::JsonTextReader::i___Newtonsoft__Json__IJsonLineInfo() noexcept {
+  return static_cast<::Newtonsoft::Json::IJsonLineInfo*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonTextReader::JsonTextReader() {}

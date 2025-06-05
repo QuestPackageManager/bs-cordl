@@ -39,31 +39,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x4855e1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4855da4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable Create(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandle, addr 0x4855eac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x4855e34, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandleInternal, addr 0x4856084, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x485600c, size 0x8c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x4856300, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x4856288, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x485619c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4856124, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);
 
-  /// @brief Method GetHandle, addr 0x4856110, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4856098, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetAbsoluteMotion, addr 0x4856238, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotion, addr 0x48561c0, size 0x84, virtual false, abstract: false, final false
   inline void SetAbsoluteMotion(bool value);
 
-  /// @brief Method SetAbsoluteMotionInternal, addr 0x48562bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotionInternal, addr 0x4856244, size 0x44, virtual false, abstract: false, final false
   static inline void SetAbsoluteMotionInternal(::ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method .ctor, addr 0x4855f94, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4855f1c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable getStaticF_m_NullPlayable();
@@ -74,7 +74,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x485611c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48560a4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);

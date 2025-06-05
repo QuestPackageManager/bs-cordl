@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::Awake)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bf0d54;
+  constexpr static std::size_t addrs = 0x3bf0d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "Awake",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf0ea0;
+  constexpr static std::size_t addrs = 0x3bf0ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "Update",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::RefreshState)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3bf0ea4;
+  constexpr static std::size_t addrs = 0x3bf0eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), "RefreshState",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::RefreshTextAlpha)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3bf0dd0;
+  constexpr static std::size_t addrs = 0x3bf0e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)(::StringW, float_t)>(
     &::GlobalNamespace::TextFadeTransitions::ShowText)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3be84cc;
+  constexpr static std::size_t addrs = 0x3be8514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextFadeTransitions::*)()>(&::GlobalNamespace::TextFadeTransitions::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3bf0fc4;
+  constexpr static std::size_t addrs = 0x3bf100c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextFadeTransitions*>::get(), ".ctor",

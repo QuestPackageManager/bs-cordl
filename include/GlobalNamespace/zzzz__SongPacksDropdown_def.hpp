@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::SongPacksDropdown___c* New_ctor();
 
-  /// @brief Method <LazyInit>b__7_0, addr 0x3b57d10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <LazyInit>b__7_0, addr 0x3b57ce8, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _LazyInit_b__7_0(::StringW serializedName);
 
-  /// @brief Method .ctor, addr 0x3b57d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b57ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SongPacksDropdown___c* getStaticF___9();
@@ -119,30 +119,30 @@ public:
   /// @brief Field didSelectCellWithIdxEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
 
-  /// @brief Method GetIdxForSongPackMask, addr 0x3b57bc8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetIdxForSongPackMask, addr 0x3b57ba0, size 0xb8, virtual false, abstract: false, final false
   inline int32_t GetIdxForSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method GetSelectedSongPackMask, addr 0x3b57a80, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedSongPackMask, addr 0x3b57a58, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask GetSelectedSongPackMask();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3b57c80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x3b57c58, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  /// @brief Method LazyInit, addr 0x3b57768, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x3b57740, size 0x1a8, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::SongPacksDropdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b579a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b57980, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithSongPackMask, addr 0x3b57b18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithSongPackMask, addr 0x3b57af0, size 0xb0, virtual false, abstract: false, final false
   inline void SelectCellWithSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
 
-  /// @brief Method SetOverrideSongPacks, addr 0x3b57a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetOverrideSongPacks, addr 0x3b57a50, size 0x8, virtual false, abstract: false, final false
   inline void SetOverrideSongPacks(::System::Collections::Generic::List_1<::StringW>* songPackSerializedNames);
 
-  /// @brief Method Start, addr 0x3b57910, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b578e8, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__initialized() const;
@@ -175,13 +175,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b57ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b57c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3b57608, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x3b575e0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3b576b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x3b57690, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
 protected:

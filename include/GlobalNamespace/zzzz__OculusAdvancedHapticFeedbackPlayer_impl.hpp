@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::*)()>(
     &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer_HapticPlayerState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c7aa4;
+  constexpr static std::size_t addrs = 0x39c7a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x39c77fc;
+  constexpr static std::size_t addrs = 0x39c77d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(
     ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x39c7b5c;
+  constexpr static std::size_t addrs = 0x39c7b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Initialize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39c7e30;
+  constexpr static std::size_t addrs = 0x39c7e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Dispose)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x39c7ed4;
+  constexpr static std::size_t addrs = 0x39c7eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::Tick)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x39c80e0;
+  constexpr static std::size_t addrs = 0x39c80b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Oculus::Haptics::HapticClip> (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::GetHapticClip)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39c7aac;
+  constexpr static std::size_t addrs = 0x39c7a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::HandleApplicationQuitting)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39c8320;
+  constexpr static std::size_t addrs = 0x39c82f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39c8388;
+  constexpr static std::size_t addrs = 0x39c8360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAdvancedHapticFeedbackPlayer*>::get(),

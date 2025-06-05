@@ -113,37 +113,37 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method ApplyDelta, addr 0x22e9d78, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0x22e9d38, size 0x110, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NodePoseSyncState ApplyDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> delta);
 
-  /// @brief Method Deserialize, addr 0x22e9af8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22e9ab8, size 0x40, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x22e9bd4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x22e9b94, size 0x94, virtual false, abstract: false, final false
   inline bool Equals(::ByRef<::GlobalNamespace::NodePoseSyncState> other);
 
-  /// @brief Method GetDelta, addr 0x22e9c68, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetDelta, addr 0x22e9c28, size 0x110, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NodePoseSyncState GetDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> latest);
 
-  /// @brief Method GetSize, addr 0x22e9e88, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetSize, addr 0x22e9e48, size 0x48, virtual true, abstract: false, final true
   inline int32_t GetSize();
 
-  /// @brief Method GetState, addr 0x22e9b88, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method GetState, addr 0x22e9b48, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PoseSerializable GetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose);
 
-  /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0x22e9f30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IEquatableByReference<NodePoseSyncState>.Equals, addr 0x22e9ef0, size 0x4, virtual true, abstract: false, final true
   inline bool IEquatableByReference_NodePoseSyncState__Equals(::ByRef<::GlobalNamespace::NodePoseSyncState> other);
 
-  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0x22e9f00, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta, addr 0x22e9ec0, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> delta);
 
-  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0x22e9ed0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta, addr 0x22e9e90, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NodePoseSyncState IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta(::ByRef<::GlobalNamespace::NodePoseSyncState> stateTable);
 
-  /// @brief Method Serialize, addr 0x22e9ab8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22e9a78, size 0x40, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetState, addr 0x22e9b38, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x22e9af8, size 0x50, virtual true, abstract: false, final true
   inline void SetState(::GlobalNamespace::NodePoseSyncState_NodePose nodePose, ::GlobalNamespace::PoseSerializable pose);
 
   /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::NodePoseSyncState>"

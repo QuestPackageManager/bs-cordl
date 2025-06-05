@@ -61,7 +61,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BoundsField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498c7e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498c76c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +112,7 @@ public:
   /// @brief Field m_ExtentsZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExtentsZValue, put = __cordl_internal_set_m_ExtentsZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ExtentsZValue;
 
-  /// @brief Method Init, addr 0x498c82c, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x498c7b4, size 0x25c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BoundsField_UxmlTraits* New_ctor();
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtentsZValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x498ca88, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498ca10, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,10 +245,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BoundsField* New_ctor(::StringW label);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x498c3e4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x498c36c, size 0xfc, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::Bounds newValue);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x498c4e0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x498c468, size 0x74, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::Vector3Field* const& __cordl_internal_get_m_CenterField() const;
@@ -263,16 +263,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtentsField(::UnityEngine::UIElements::Vector3Field* value);
 
-  /// @brief Method <.ctor>b__10_0, addr 0x498c68c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x498c614, size 0xac, virtual false, abstract: false, final false
   inline void __ctor_b__10_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
 
-  /// @brief Method <.ctor>b__10_1, addr 0x498c738, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_1, addr 0x498c6c0, size 0xac, virtual false, abstract: false, final false
   inline void __ctor_b__10_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
 
-  /// @brief Method .ctor, addr 0x498bf44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498becc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498bf4c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x498bed4, size 0x378, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_centerFieldUssClassName();

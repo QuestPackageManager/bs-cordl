@@ -57,19 +57,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x225175c, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x225171c, size 0x100, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleOptionalAvatarDataProviderDataDidChange, addr 0x2251680, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataProviderDataDidChange, addr 0x2251640, size 0x18, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataProviderDataDidChange(::BeatSaber::AvatarCore::OptionalAvatarData data);
 
   static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSender* New_ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                             ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
-  /// @brief Method SetCurrentLocalAvatarDisplayContext, addr 0x2251698, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentLocalAvatarDisplayContext, addr 0x2251658, size 0xc4, virtual false, abstract: false, final false
   inline void SetCurrentLocalAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
 
-  /// @brief Method SetSelectedAvatarTypeId, addr 0x2251258, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedAvatarTypeId, addr 0x2251218, size 0x428, virtual false, abstract: false, final false
   inline void SetSelectedAvatarTypeId(::StringW selectedAvatarTypeId);
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedAvatarTypeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x225122c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22511ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection, ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
 
   /// @brief Convert to "::System::IDisposable"

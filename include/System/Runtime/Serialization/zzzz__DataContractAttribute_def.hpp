@@ -29,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set_isReference(bool value);
 
-  /// @brief Method get_IsReference, addr 0x4235b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x4235b18, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
 protected:

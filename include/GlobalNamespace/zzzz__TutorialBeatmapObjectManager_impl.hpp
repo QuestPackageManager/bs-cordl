@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager_InitData::*)(float_t)>(
     &::GlobalNamespace::TutorialBeatmapObjectManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b7d7a4;
+  constexpr static std::size_t addrs = 0x3b7d77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* (
     ::GlobalNamespace::TutorialBeatmapObjectManager::*)()>(&::GlobalNamespace::TutorialBeatmapObjectManager::get_activeObstacleControllers)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b7d210;
+  constexpr static std::size_t addrs = 0x3b7d1e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::TutorialBeatmapObjectManager_InitData*, ::GlobalNamespace::VariableMovementDataProvider*, ::GlobalNamespace::TutorialNoteController_Pool*,
     ::GlobalNamespace::BombNoteController_Pool*, ::GlobalNamespace::ObstacleController_Pool*)>(&::GlobalNamespace::TutorialBeatmapObjectManager::Init)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b7d260;
+  constexpr static std::size_t addrs = 0x3b7d238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)(
     ::GlobalNamespace::ObstacleData*, ::ByRef<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::TutorialBeatmapObjectManager::ProcessObstacleData)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b7d390;
+  constexpr static std::size_t addrs = 0x3b7d368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)(
     ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, bool)>(&::GlobalNamespace::TutorialBeatmapObjectManager::ProcessNoteData)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3b7d43c;
+  constexpr static std::size_t addrs = 0x3b7d414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)(
     ::GlobalNamespace::SliderData*, ::ByRef<::GlobalNamespace::SliderSpawnData>)>(&::GlobalNamespace::TutorialBeatmapObjectManager::ProcessSliderData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b7d584;
+  constexpr static std::size_t addrs = 0x3b7d55c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3b7d588;
+  constexpr static std::size_t addrs = 0x3b7d560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b7d6e4;
+  constexpr static std::size_t addrs = 0x3b7d6bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b7d73c;
+  constexpr static std::size_t addrs = 0x3b7d714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialBeatmapObjectManager::*)()>(
     &::GlobalNamespace::TutorialBeatmapObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b7d740;
+  constexpr static std::size_t addrs = 0x3b7d718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialBeatmapObjectManager*>::get(), ".ctor",

@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__inputMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataMesh*>* value);
 
-  /// @brief Method .ctor, addr 0x3a7dd54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7dd2c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a7ddd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7dda8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -308,31 +308,31 @@ public:
 
   using HEU_InputDataMeshes = ::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataMeshes;
 
-  /// @brief Method CreateInputNodeWithDataUpload, addr 0x3a7b0e8, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x3a7b0c0, size 0x184, virtual true, abstract: false, final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ::ByRef<int32_t> inputNodeID);
 
-  /// @brief Method CreateSingleMeshData, addr 0x3a7d978, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CreateSingleMeshData, addr 0x3a7d950, size 0x1d4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataMesh* CreateSingleMeshData(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x3a7b26c, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x3a7b244, size 0x374, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputInterfaceMesh_HEU_InputDataMeshes* GenerateMeshDatasFromGameObject(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method GetMeshFromObject, addr 0x3a7db4c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetMeshFromObject, addr 0x3a7db24, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GetUVsFromMesh, addr 0x3a7d8e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetUVsFromMesh, addr 0x3a7d8c0, size 0x90, virtual false, abstract: false, final false
   static inline void GetUVsFromMesh(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> srcUVs,
                                     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* destUVs, int32_t index);
 
-  /// @brief Method IsThisInputObjectSupported, addr 0x3a7d784, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method IsThisInputObjectSupported, addr 0x3a7d75c, size 0x164, virtual true, abstract: false, final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceMesh* New_ctor();
 
-  /// @brief Method UploadData, addr 0x3a7b5e0, size 0x21a4, virtual false, abstract: false, final false
+  /// @brief Method UploadData, addr 0x3a7b5b8, size 0x21a4, virtual false, abstract: false, final false
   inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
 
-  /// @brief Method .ctor, addr 0x3a7b0c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7b0a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

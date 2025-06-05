@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::XR::Eyes::*)()>(
     &::UnityEngine::InputSystem::XR::Eyes::get_leftEyePosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7ac0;
+  constexpr static std::size_t addrs = 0x45e7a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_leftEyePosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7acc;
+  constexpr static std::size_t addrs = 0x45e7a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::XR::Eyes::*)()>(
     &::UnityEngine::InputSystem::XR::Eyes::get_leftEyeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7ad8;
+  constexpr static std::size_t addrs = 0x45e7a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_leftEyeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7ae4;
+  constexpr static std::size_t addrs = 0x45e7a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::XR::Eyes::*)()>(
     &::UnityEngine::InputSystem::XR::Eyes::get_rightEyePosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7af0;
+  constexpr static std::size_t addrs = 0x45e7a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_rightEyePosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7afc;
+  constexpr static std::size_t addrs = 0x45e7a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::XR::Eyes::*)()>(
     &::UnityEngine::InputSystem::XR::Eyes::get_rightEyeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7b08;
+  constexpr static std::size_t addrs = 0x45e7a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_rightEyeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7b14;
+  constexpr static std::size_t addrs = 0x45e7a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::XR::Eyes::*)()>(
     &::UnityEngine::InputSystem::XR::Eyes::get_fixationPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7b20;
+  constexpr static std::size_t addrs = 0x45e7aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(), "get_fixationPoint",
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_fixationPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e7b2c;
+  constexpr static std::size_t addrs = 0x45e7ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::XR::Eyes::*)()>(&::UnityEngine::InputSystem::XR::Eyes::get_leftEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7b38;
+  constexpr static std::size_t addrs = 0x45e7ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(float_t)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_leftEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7b40;
+  constexpr static std::size_t addrs = 0x45e7ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::XR::Eyes::*)()>(&::UnityEngine::InputSystem::XR::Eyes::get_rightEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7b48;
+  constexpr static std::size_t addrs = 0x45e7ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::Eyes>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Eyes::*)(float_t)>(
     &::UnityEngine::InputSystem::XR::Eyes::set_rightEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7b50;
+  constexpr static std::size_t addrs = 0x45e7ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4AppInit__PreloadAsync_d__7::*)()>(
     &::GlobalNamespace::PS4AppInit__PreloadAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x271cf04;
+  constexpr static std::size_t addrs = 0x271cedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4AppInit__PreloadAsync_d__7>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4AppInit__PreloadAsync_d__7::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PS4AppInit__PreloadAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x271d0f0;
+  constexpr static std::size_t addrs = 0x271d0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::PS4AppInit::InitializeModules)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x271c994;
+  constexpr static std::size_t addrs = 0x271c96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4AppInit*>::get(), "InitializeModules",
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PS4AppInit::*)()>(
     &::GlobalNamespace::PS4AppInit::PreloadAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x271c9fc;
+  constexpr static std::size_t addrs = 0x271c9d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4AppInit::*)()>(&::GlobalNamespace::PS4AppInit::AppStartAndMultiSceneEditorSetup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x271cabc;
+  constexpr static std::size_t addrs = 0x271ca94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PS4AppInit::*)()>(
     &::GlobalNamespace::PS4AppInit::RepeatableSetupAsync)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x271cb24;
+  constexpr static std::size_t addrs = 0x271cafc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4AppInit::*)()>(&::GlobalNamespace::PS4AppInit::TransitionToNextScene)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x271cbc4;
+  constexpr static std::size_t addrs = 0x271cb9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4AppInit::*)()>(&::GlobalNamespace::PS4AppInit::InstallBindings)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x271cc90;
+  constexpr static std::size_t addrs = 0x271cc68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4AppInit::*)()>(&::GlobalNamespace::PS4AppInit::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x271cea4;
+  constexpr static std::size_t addrs = 0x271ce7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4AppInit*>::get(), ".ctor",
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PS4AppInit::*)()>(&::GlobalNamespace::PS4AppInit::__n__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271cefc;
+  constexpr static std::size_t addrs = 0x271ced4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS4AppInit*>::get(), "<>n__0",

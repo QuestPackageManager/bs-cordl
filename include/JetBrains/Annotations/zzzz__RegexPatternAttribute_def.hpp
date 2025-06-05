@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::RegexPatternAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4af3b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

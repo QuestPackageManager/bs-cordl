@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4af35e8;
+  constexpr static std::size_t addrs = 0x4af3570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MeansImplicitUseAttribute*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MeansImplicitUseAttribute::*)(::JetBrains::Annotations::ImplicitUseKindFlags)>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4af3638;
+  constexpr static std::size_t addrs = 0x4af35c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MeansImplicitUseAttribute::*)(::JetBrains::Annotations::ImplicitUseTargetFlags)>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4af3664;
+  constexpr static std::size_t addrs = 0x4af35ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MeansImplicitUseAttribute::*)(
     ::JetBrains::Annotations::ImplicitUseKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags)>(&::JetBrains::Annotations::MeansImplicitUseAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4af360c;
+  constexpr static std::size_t addrs = 0x4af3594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::JetBrains::Annotations::ImplicitUseKindFlags (::JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::get_UseKindFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3690;
+  constexpr static std::size_t addrs = 0x4af3618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MeansImplicitUseAttribute*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MeansImplicitUseAttribute::*)(::JetBrains::Annotations::ImplicitUseKindFlags)>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::set_UseKindFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3698;
+  constexpr static std::size_t addrs = 0x4af3620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::JetBrains::Annotations::ImplicitUseTargetFlags (::JetBrains::Annotations::MeansImplicitUseAttribute::*)()>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::get_TargetFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af36a0;
+  constexpr static std::size_t addrs = 0x4af3628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::MeansImplicitUseAttribute*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::MeansImplicitUseAttribute::*)(::JetBrains::Annotations::ImplicitUseTargetFlags)>(
     &::JetBrains::Annotations::MeansImplicitUseAttribute::set_TargetFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af36a8;
+  constexpr static std::size_t addrs = 0x4af3630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

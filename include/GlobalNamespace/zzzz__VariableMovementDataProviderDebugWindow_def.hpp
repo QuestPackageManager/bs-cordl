@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x3ae5818, size 0xb1c, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x3ae57f0, size 0xb1c, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr float_t const& __cordl_internal_get__njs() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3ae6334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae630c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

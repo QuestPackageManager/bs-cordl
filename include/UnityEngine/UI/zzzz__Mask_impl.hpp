@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::get_rectTransform)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4abeb40;
+  constexpr static std::size_t addrs = 0x4abeac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Mask*>::get(), "get_rectTransform",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::get_showMaskGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4abeb98;
+  constexpr static std::size_t addrs = 0x4abeb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Mask*>::get(), "get_showMaskGraphic",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Mask::*)(bool)>(&::UnityEngine::UI::Mask::set_showMaskGraphic)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4abeba0;
+  constexpr static std::size_t addrs = 0x4abeb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::get_graphic)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4abec50;
+  constexpr static std::size_t addrs = 0x4abebd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Mask*>::get(), "get_graphic",
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4abeca8;
+  constexpr static std::size_t addrs = 0x4abec30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Mask*>::get(), ".ctor",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::MaskEnabled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4abecb8;
+  constexpr static std::size_t addrs = 0x4abec40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::OnSiblingGraphicEnabledDisabled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4abed48;
+  constexpr static std::size_t addrs = 0x4abecd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::OnEnable)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4abed4c;
+  constexpr static std::size_t addrs = 0x4abecd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Mask::*)()>(&::UnityEngine::UI::Mask::OnDisable)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4abf11c;
+  constexpr static std::size_t addrs = 0x4abf0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Mask::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(
     &::UnityEngine::UI::Mask::IsRaycastLocationValid)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4abf2e0;
+  constexpr static std::size_t addrs = 0x4abf268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UI::Mask::*)(::UnityEngine::Material*)>(
     &::UnityEngine::UI::Mask::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x4abf38c;
+  constexpr static std::size_t addrs = 0x4abf314;
 
   inline static ::MethodInfo const* methodInfo() {
 

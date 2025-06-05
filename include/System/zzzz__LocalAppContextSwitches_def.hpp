@@ -18,19 +18,13 @@ namespace System {
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field DontThrowOnInvalidSurrogatePairs, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_DontThrowOnInvalidSurrogatePairs, put = setStaticF_DontThrowOnInvalidSurrogatePairs)) bool DontThrowOnInvalidSurrogatePairs;
+  /// @brief Field MemberDescriptorEqualsReturnsFalseIfEquivalent, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent,
+                      put = setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent)) bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
 
-  /// @brief Field IgnoreEmptyKeySequences, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_IgnoreEmptyKeySequences, put = setStaticF_IgnoreEmptyKeySequences)) bool IgnoreEmptyKeySequences;
+  static inline bool getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent();
 
-  static inline bool getStaticF_DontThrowOnInvalidSurrogatePairs();
-
-  static inline bool getStaticF_IgnoreEmptyKeySequences();
-
-  static inline void setStaticF_DontThrowOnInvalidSurrogatePairs(bool value);
-
-  static inline void setStaticF_IgnoreEmptyKeySequences(bool value);
+  static inline void setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +41,7 @@ public:
   LocalAppContextSwitches(LocalAppContextSwitches const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -79,10 +79,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x42180d8, size 0x684, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4218060, size 0x684, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x421875c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x42186e4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -180,10 +180,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x42187d8, size 0x534, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4218760, size 0x534, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4218e94, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4218e1c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -287,32 +287,32 @@ public:
   /// @brief Field timeout, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout)) ::System::TimeSpan timeout;
 
-  /// @brief Method Dispose, addr 0x42176c4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x421764c, size 0x6c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetAsync, addr 0x4217768, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAsync, addr 0x42176f0, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method GetStringAsync, addr 0x4217f2c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetStringAsync, addr 0x4217eb4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
 
   static inline ::System::Net::Http::HttpClient* New_ctor();
 
   static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method SendAsync, addr 0x4217b68, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x4217af0, size 0xc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsync, addr 0x4217878, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x4217800, size 0x78, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method SendAsync, addr 0x42178f0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x4217878, size 0x278, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsyncWorker, addr 0x4217e24, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncWorker, addr 0x4217dac, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
@@ -352,24 +352,24 @@ public:
 
   constexpr void __cordl_internal_set_timeout(::System::TimeSpan value);
 
-  /// @brief Method <>n__0, addr 0x4218098, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x4218020, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* request,
                                                                                                ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x42173f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4217378, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x421744c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42173d4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
   static inline ::System::TimeSpan getStaticF_TimeoutDefault();
 
-  /// @brief Method get_MaxResponseContentBufferSize, addr 0x4217580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxResponseContentBufferSize, addr 0x4217508, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxResponseContentBufferSize();
 
   static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
 
-  /// @brief Method set_Timeout, addr 0x4217588, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x4217510, size 0x13c, virtual false, abstract: false, final false
   inline void set_Timeout(::System::TimeSpan value);
 
 protected:

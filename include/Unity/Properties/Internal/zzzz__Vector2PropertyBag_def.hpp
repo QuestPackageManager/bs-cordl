@@ -40,10 +40,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2PropertyBag_XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916878, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916800, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916908, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4916890, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -80,10 +80,10 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2PropertyBag_YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49168c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916848, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916948, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x49168d0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -122,7 +122,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector2PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4915ac0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4915a48, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

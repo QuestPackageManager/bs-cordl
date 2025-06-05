@@ -172,27 +172,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d12c0, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d12a0, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator, addr 0x26d16bc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator, addr 0x26d169c, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current, addr 0x26d1674, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current, addr 0x26d1654, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d1758, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d1738, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d167c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d165c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d16b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d1694, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d12a4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d1284, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -231,10 +231,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d15c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d15a4, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d0fe0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0fc0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
@@ -356,27 +356,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d1778, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d1758, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x26d1b74, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x26d1b54, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x26d1b2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x26d1b0c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d1c10, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d1bf0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d1b34, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d1b14, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d1b6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d1b4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d175c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d173c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -415,10 +415,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d1a7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d1a5c, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d0e98, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0e78, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
@@ -540,27 +540,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d1c30, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d1c10, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PS4LevelProductPacksSO>.GetEnumerator, addr 0x26d202c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<PS4LevelProductPacksSO>.GetEnumerator, addr 0x26d200c, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* System_Collections_Generic_IEnumerable_PS4LevelProductPacksSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PS4LevelProductPacksSO>.get_Current, addr 0x26d1fe4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<PS4LevelProductPacksSO>.get_Current, addr 0x26d1fc4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d20c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d20a8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d1fec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d1fcc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d2024, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d2004, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d1c14, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d1bf4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -599,10 +599,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d1f34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d1f14, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d1128, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1108, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
@@ -724,27 +724,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d20e8, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d20c8, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x26d24e4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x26d24c4, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x26d249c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x26d247c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d2580, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d2560, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d24a4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d2484, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d24dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d24bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d20cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d20ac, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -783,10 +783,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d23ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d23cc, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d0f3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0f1c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
@@ -908,27 +908,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d25a0, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d2580, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PS5LevelProductPacksSO>.GetEnumerator, addr 0x26d299c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<PS5LevelProductPacksSO>.GetEnumerator, addr 0x26d297c, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* System_Collections_Generic_IEnumerable_PS5LevelProductPacksSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PS5LevelProductPacksSO>.get_Current, addr 0x26d2954, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<PS5LevelProductPacksSO>.get_Current, addr 0x26d2934, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d2a38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d2a18, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d295c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d293c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d2994, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d2974, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d2584, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d2564, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -967,10 +967,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d28a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d2884, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d11cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d11ac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
@@ -1092,27 +1092,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d2a58, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d2a38, size 0x2e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator, addr 0x26d2e30, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator, addr 0x26d2e10, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current, addr 0x26d2de8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current, addr 0x26d2dc8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d2ecc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d2eac, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d2df0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d2dd0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d2e28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d2e08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d2a3c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d2a1c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1151,10 +1151,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d2d38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d2d18, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d1270, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1250, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
@@ -1276,27 +1276,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d2eec, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d2ecc, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26d32e8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26d32c8, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26d32a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26d3280, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d3384, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d3364, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d32a8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d3288, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d32e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d32c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d2ed0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d2eb0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1335,10 +1335,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d31f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d31d0, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d0cac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0c8c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
@@ -1460,27 +1460,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d33a4, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d3384, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26d37a0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26d3780, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26d3758, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26d3738, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d383c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d381c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d3760, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d3740, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d3798, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d3778, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d3388, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d3368, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1519,10 +1519,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d36a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d3688, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d0d50, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0d30, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
@@ -1644,27 +1644,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d385c, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d383c, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26d3c58, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26d3c38, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26d3c10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26d3bf0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d3cf4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d3cd4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d3c18, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d3bf8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d3c50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d3c30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d3840, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d3820, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1703,10 +1703,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d3b60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d3b40, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d0df4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d0dd4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
@@ -1828,27 +1828,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26d3d14, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d3cf4, size 0x304, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator, addr 0x26d4110, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator, addr 0x26d40f0, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current, addr 0x26d40c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current, addr 0x26d40a8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d41ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26d418c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d40d0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26d40b0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d4108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26d40e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26d3cf8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26d3cd8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1887,10 +1887,10 @@ public:
 
   constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x26d4018, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26d3ff8, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26d1084, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1064, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
@@ -1990,43 +1990,43 @@ public:
 
   using _GetSteamLevelProductPacks_d__6 = ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6;
 
-  /// @brief Method GetOculusLevelProductPacks, addr 0x26d0f70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetOculusLevelProductPacks, addr 0x26d0f50, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
   GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetPS4LeaderboardIds, addr 0x26d0e28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPS4LeaderboardIds, addr 0x26d0e08, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
   GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetPS4LevelProductPacks, addr 0x26d10b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPS4LevelProductPacks, addr 0x26d1098, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
   GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetPS5LeaderboardIds, addr 0x26d0ecc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPS5LeaderboardIds, addr 0x26d0eac, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
   GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetPS5LevelProductPacks, addr 0x26d115c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPS5LevelProductPacks, addr 0x26d113c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
   GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetPerceivedLoudnessSOs, addr 0x26d1200, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPerceivedLoudnessSOs, addr 0x26d11e0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
   GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetQuestLeaderboardIds, addr 0x26d0c3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetQuestLeaderboardIds, addr 0x26d0c1c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
   GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetRiftLeaderboardIds, addr 0x26d0ce0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetRiftLeaderboardIds, addr 0x26d0cc0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
   GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetSteamLeaderboardIds, addr 0x26d0d84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSteamLeaderboardIds, addr 0x26d0d64, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
   GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetSteamLevelProductPacks, addr 0x26d1014, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetSteamLevelProductPacks, addr 0x26d0ff4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
   GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 

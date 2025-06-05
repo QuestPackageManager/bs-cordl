@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController_Pool::*)()>(
     &::GlobalNamespace::MirroredGameNoteController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3aea8b4;
+  constexpr static std::size_t addrs = 0x3aea88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController_Pool*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*)>(&::GlobalNamespace::MirroredGameNoteController::add_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aea404;
+  constexpr static std::size_t addrs = 0x3aea3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>>*)>(&::GlobalNamespace::MirroredGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aea4b4;
+  constexpr static std::size_t addrs = 0x3aea48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::NoteMovement> (::GlobalNamespace::MirroredGameNoteController::*)()>(
     &::GlobalNamespace::MirroredGameNoteController::get_noteMovement)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3aea564;
+  constexpr static std::size_t addrs = 0x3aea53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteVisualModifierType (::GlobalNamespace::MirroredGameNoteController::*)()>(
     &::GlobalNamespace::MirroredGameNoteController::get_noteVisualModifierType)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3aea610;
+  constexpr static std::size_t addrs = 0x3aea5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)(::GlobalNamespace::IGameNoteMirrorable*)>(
     &::GlobalNamespace::MirroredGameNoteController::Mirror)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3aea6b4;
+  constexpr static std::size_t addrs = 0x3aea68c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredGameNoteController::*)()>(&::GlobalNamespace::MirroredGameNoteController::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3aea804;
+  constexpr static std::size_t addrs = 0x3aea7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredGameNoteController*>::get(), ".ctor",

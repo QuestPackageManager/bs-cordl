@@ -31,31 +31,31 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteCutDirectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Direction, addr 0x224533c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Direction, addr 0x22452fc, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Direction(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method IsMainDirection, addr 0x22453c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsMainDirection, addr 0x2245380, size 0xc, virtual false, abstract: false, final false
   static inline bool IsMainDirection(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method IsOnSamePlane, addr 0x2245488, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsOnSamePlane, addr 0x2245448, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsOnSamePlane(::GlobalNamespace::NoteCutDirection noteCutDirection1, ::GlobalNamespace::NoteCutDirection noteCutDirection2);
 
-  /// @brief Method MainNoteCutDirectionFromCutDirAngle, addr 0x22453cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MainNoteCutDirectionFromCutDirAngle, addr 0x224538c, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection MainNoteCutDirectionFromCutDirAngle(float_t angle);
 
-  /// @brief Method Mirrored, addr 0x2245454, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Mirrored, addr 0x2245414, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection Mirrored(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method NoteCutDirectionFromDirection, addr 0x2245560, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method NoteCutDirectionFromDirection, addr 0x2245520, size 0x218, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection NoteCutDirectionFromDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method Opposite, addr 0x2245470, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0x2245430, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutDirection Opposite(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method Rotation, addr 0x2245388, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Rotation, addr 0x2245348, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Rotation(::GlobalNamespace::NoteCutDirection cutDirection, float_t offset);
 
-  /// @brief Method RotationAngle, addr 0x2245368, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RotationAngle, addr 0x2245328, size 0x20, virtual false, abstract: false, final false
   static inline float_t RotationAngle(::GlobalNamespace::NoteCutDirection cutDirection);
 
 protected:

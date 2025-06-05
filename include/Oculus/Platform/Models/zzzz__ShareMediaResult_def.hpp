@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::ShareMediaStatus value);
 
-  /// @brief Method .ctor, addr 0x3f93fbc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f93f44, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

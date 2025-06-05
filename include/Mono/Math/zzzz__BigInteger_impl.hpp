@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c5242c;
+  constexpr static std::size_t addrs = 0x3c6d21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::BarrettReduction)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x3c52728;
+  constexpr static std::size_t addrs = 0x3c6d564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_ModulusRing::Multiply)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3c52d7c;
+  constexpr static std::size_t addrs = 0x3c6dbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_ModulusRing::Difference)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3c52ef8;
+  constexpr static std::size_t addrs = 0x3c6dd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_ModulusRing::Pow)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3c52500;
+  constexpr static std::size_t addrs = 0x3c6d2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger_ModulusRing::*)(uint32_t, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_ModulusRing::Pow)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c530ac;
+  constexpr static std::size_t addrs = 0x3c6dee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_Kernel::Subtract)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3c50af0;
+  constexpr static std::size_t addrs = 0x3c6b740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::MinusEq)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3c52abc;
+  constexpr static std::size_t addrs = 0x3c6d8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::PlusEq)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3c52bec;
+  constexpr static std::size_t addrs = 0x3c6da28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger_Sign (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_Kernel::Compare)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3c509ac;
+  constexpr static std::size_t addrs = 0x3c6b5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::SingleByteDivideInPlace)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c51d18;
+  constexpr static std::size_t addrs = 0x3c6cacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::DwordMod)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c50cb4;
+  constexpr static std::size_t addrs = 0x3c6b904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Mono::Math::BigInteger*, ::Array<::Mono::Math::BigInteger*>*> (*)(::Mono::Math::BigInteger*, uint32_t)>(
     &::Mono::Math::BigInteger_Kernel::DwordDivMod)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3c5311c;
+  constexpr static std::size_t addrs = 0x3c6df58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Mono::Math::BigInteger*, ::Array<::Mono::Math::BigInteger*>*> (*)(
     ::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger_Kernel::multiByteDivide)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x3c50d18;
+  constexpr static std::size_t addrs = 0x3c6b968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger_Kernel::LeftShift)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3c512a8;
+  constexpr static std::size_t addrs = 0x3c6bfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger_Kernel::RightShift)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3c51490;
+  constexpr static std::size_t addrs = 0x3c6c1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,13 +331,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Mono::Math::BigInteger_Kernel.MultiplyByDword
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, uint32_t)>(
+    &::Mono::Math::BigInteger_Kernel::MultiplyByDword)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3c6becc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger_Kernel*>::get(), "MultiplyByDword", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::Math::BigInteger_Kernel.Multiply
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t, uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t,
                                                                                            uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(&::Mono::Math::BigInteger_Kernel::Multiply)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3c511a8;
+  constexpr static std::size_t addrs = 0x3c6bdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,7 +373,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, int32_t)>(
         &::Mono::Math::BigInteger_Kernel::MultiplyMod2p32pmod)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3c52980;
+  constexpr static std::size_t addrs = 0x3c6d7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -376,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger_Kernel::modInverse)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c532a4;
+  constexpr static std::size_t addrs = 0x3c6e0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger_Kernel::modInverse)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x3c51f34;
+  constexpr static std::size_t addrs = 0x3c6cd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,6 +488,13 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger_Kernel::RightShift(::Mon
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(nullptr, ___internal_method, bi, n);
 }
+inline ::Mono::Math::BigInteger* Mono::Math::BigInteger_Kernel::MultiplyByDword(::Mono::Math::BigInteger* n, uint32_t f) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger_Kernel*>::get(), "MultiplyByDword", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(nullptr, ___internal_method, n, f);
+}
 inline void Mono::Math::BigInteger_Kernel::Multiply(::ArrayW<uint32_t, ::Array<uint32_t>*> x, uint32_t xOffset, uint32_t xLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, uint32_t yOffset,
                                                     uint32_t yLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> d, uint32_t dOffset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -516,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger_Sign, uint32_t)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c50658;
+  constexpr static std::size_t addrs = 0x3c6b314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -531,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c506cc;
+  constexpr static std::size_t addrs = 0x3c6b388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -545,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c5078c;
+  constexpr static std::size_t addrs = 0x3c6b448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -560,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3c4c348;
+  constexpr static std::size_t addrs = 0x3c66858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -574,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c508b8;
+  constexpr static std::size_t addrs = 0x3c6b574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -588,7 +611,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(uint32_t)>(&::Mono::Math::BigInteger::op_Implicit___Mono__Math__BigInteger_)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c4ba74;
+  constexpr static std::size_t addrs = 0x3c65f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -602,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(int32_t)>(&::Mono::Math::BigInteger::op_Implicit___Mono__Math__BigInteger_)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c4be14;
+  constexpr static std::size_t addrs = 0x3c66324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -617,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::op_Subtraction)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3c4beb8;
+  constexpr static std::size_t addrs = 0x3c663c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -632,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::op_Modulus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c4bb38;
+  constexpr static std::size_t addrs = 0x3c66048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -648,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::op_Modulus)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c4c028;
+  constexpr static std::size_t addrs = 0x3c66538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -664,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::op_Division)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c51180;
+  constexpr static std::size_t addrs = 0x3c6a390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -680,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::op_Multiply)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3c4bbec;
+  constexpr static std::size_t addrs = 0x3c660fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -690,12 +713,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Mono::Math::BigInteger.op_Multiply
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger::op_Multiply)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3c6a264;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "op_Multiply", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::Math::BigInteger.op_LeftShift
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger::op_LeftShift)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c512a4;
+  constexpr static std::size_t addrs = 0x3c6bfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -710,7 +748,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(::Mono::Math::BigInteger*, int32_t)>(&::Mono::Math::BigInteger::op_RightShift)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c5148c;
+  constexpr static std::size_t addrs = 0x3c6c1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -725,7 +763,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (*)()>(&::Mono::Math::BigInteger::get_Rng)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c51608;
+  constexpr static std::size_t addrs = 0x3c6c320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "get_Rng",
@@ -739,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(int32_t, ::System::Security::Cryptography::RandomNumberGenerator*)>(
     &::Mono::Math::BigInteger::GenerateRandom)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3c516b0;
+  constexpr static std::size_t addrs = 0x3c6c3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -754,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(int32_t)>(&::Mono::Math::BigInteger::GenerateRandom)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c51810;
+  constexpr static std::size_t addrs = 0x3c69ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -763,12 +801,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Mono::Math::BigInteger.Randomize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(::System::Security::Cryptography::RandomNumberGenerator*)>(
+    &::Mono::Math::BigInteger::Randomize)> {
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x3c6c528;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Randomize", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::RandomNumberGenerator*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::BigInteger.Randomize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Randomize)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3c69f20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Randomize",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::Math::BigInteger.BitCount
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::BitCount)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c4bd94;
+  constexpr static std::size_t addrs = 0x3c662a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "BitCount",
@@ -779,9 +845,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Mono::Math::BigInteger.TestBit
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::TestBit)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x3c6a354;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "TestBit", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Mono::Math::BigInteger.TestBit
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::BigInteger::*)(int32_t)>(&::Mono::Math::BigInteger::TestBit)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c5186c;
+  constexpr static std::size_t addrs = 0x3c6c6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -795,7 +875,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::SetBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c51900;
+  constexpr static std::size_t addrs = 0x3c6c73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -809,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)(uint32_t, bool)>(&::Mono::Math::BigInteger::SetBit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c51908;
+  constexpr static std::size_t addrs = 0x3c6c744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -823,7 +903,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::LowestSetBit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c51964;
+  constexpr static std::size_t addrs = 0x3c6c7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "LowestSetBit",
@@ -836,7 +916,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::GetBytes)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3c4c9f8;
+  constexpr static std::size_t addrs = 0x3c66f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "GetBytes",
@@ -849,7 +929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c50940;
+  constexpr static std::size_t addrs = 0x3c69f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -864,7 +944,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, uint32_t)>(&::Mono::Math::BigInteger::op_Inequality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c519e0;
+  constexpr static std::size_t addrs = 0x3c6a780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -879,7 +959,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Equality)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c4c190;
+  constexpr static std::size_t addrs = 0x3c666a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -894,7 +974,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_Inequality)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c4bb3c;
+  constexpr static std::size_t addrs = 0x3c6604c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -909,7 +989,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_GreaterThan)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c51a4c;
+  constexpr static std::size_t addrs = 0x3c6c81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -924,7 +1004,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_LessThan)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c4be00;
+  constexpr static std::size_t addrs = 0x3c66310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -939,7 +1019,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c51a64;
+  constexpr static std::size_t addrs = 0x3c69fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -954,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(&::Mono::Math::BigInteger::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c51a7c;
+  constexpr static std::size_t addrs = 0x3c6a3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -969,7 +1049,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Math::BigInteger::*)(uint32_t)>(&::Mono::Math::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c51a94;
+  constexpr static std::size_t addrs = 0x3c6c834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -982,8 +1062,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Math::BigInteger::*)(uint32_t, ::StringW)>(&::Mono::Math::BigInteger::ToString)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3c51aec;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x3c6c88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -997,7 +1077,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Normalize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c50860;
+  constexpr static std::size_t addrs = 0x3c6b51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Normalize",
@@ -1010,7 +1090,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c4c680;
+  constexpr static std::size_t addrs = 0x3c66b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Clear",
@@ -1023,7 +1103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::GetHashCode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c51d8c;
+  constexpr static std::size_t addrs = 0x3c6cb7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1037,7 +1117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c51de4;
+  constexpr static std::size_t addrs = 0x3c6cbd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1051,7 +1131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::BigInteger::*)(::System::Object*)>(&::Mono::Math::BigInteger::Equals)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3c51dec;
+  constexpr static std::size_t addrs = 0x3c6cbdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1066,7 +1146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::ModInverse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c4c024;
+  constexpr static std::size_t addrs = 0x3c66534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1081,7 +1161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::BigInteger::*)(::Mono::Math::BigInteger*, ::Mono::Math::BigInteger*)>(
     &::Mono::Math::BigInteger::ModPow)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3c4c558;
+  constexpr static std::size_t addrs = 0x3c66a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1091,12 +1171,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Mono::Math::BigInteger.IsProbablePrime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::IsProbablePrime)> {
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x3c6a0bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "IsProbablePrime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Mono::Math::BigInteger.GeneratePseudoPrime
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (*)(int32_t)>(&::Mono::Math::BigInteger::GeneratePseudoPrime)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c4bacc;
+  constexpr static std::size_t addrs = 0x3c65fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1110,7 +1203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::BigInteger::*)()>(&::Mono::Math::BigInteger::Incr2)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c5260c;
+  constexpr static std::size_t addrs = 0x3c6d448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Incr2",
@@ -1235,6 +1328,13 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::op_Multiply(::Mono::Mat
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(nullptr, ___internal_method, bi1, bi2);
 }
+inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::op_Multiply(::Mono::Math::BigInteger* bi, int32_t i) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "op_Multiply", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(nullptr, ___internal_method, bi, i);
+}
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::op_LeftShift(::Mono::Math::BigInteger* bi1, int32_t shiftVal) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "op_LeftShift", std::span<Il2CppClass const* const, 0>(),
@@ -1267,10 +1367,27 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::GenerateRandom(int32_t 
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(nullptr, ___internal_method, bits);
 }
+inline void Mono::Math::BigInteger::Randomize(::System::Security::Cryptography::RandomNumberGenerator* rng) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Randomize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::RandomNumberGenerator*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rng);
+}
+inline void Mono::Math::BigInteger::Randomize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "Randomize",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline int32_t Mono::Math::BigInteger::BitCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "BitCount",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline bool Mono::Math::BigInteger::TestBit(uint32_t bitNum) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "TestBit", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, bitNum);
 }
 inline bool Mono::Math::BigInteger::TestBit(int32_t bitNum) {
   static auto* ___internal_method =
@@ -1405,6 +1522,11 @@ inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::ModPow(::Mono::Math::Bi
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(this, ___internal_method, exp, n);
+}
+inline bool Mono::Math::BigInteger::IsProbablePrime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::BigInteger*>::get(), "IsProbablePrime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::Mono::Math::BigInteger* Mono::Math::BigInteger::GeneratePseudoPrime(int32_t bits) {
   static auto* ___internal_method =

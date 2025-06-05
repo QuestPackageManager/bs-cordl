@@ -114,12 +114,12 @@ public:
   /// @brief Field _animator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method Awake, addr 0x2284888, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2284848, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x22848a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x2284868, size 0x70, virtual false, abstract: false, final false
   inline void StartAnimation(::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType animationType);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenBackButtonAnimationController_AnimationType, int32_t>* const& __cordl_internal_get__animationHashes() const;
@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x2284918, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22848d8, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -70,7 +70,7 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE UvUnwrapping_UVTransform {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x4745f30, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4745eb8, size 0x114, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -123,10 +123,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::UvUnwrapping___c* New_ctor();
 
-  /// @brief Method <SetAutoUV>b__0_0, addr 0x47460a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SetAutoUV>b__0_0, addr 0x4746030, size 0x18, virtual false, abstract: false, final false
   inline bool _SetAutoUV_b__0_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x47460a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4746028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::UvUnwrapping___c* getStaticF___9();
@@ -181,53 +181,53 @@ public:
   __declspec(property(get = getStaticF_s_UVTransformProjectionBuffer,
                       put = setStaticF_s_UVTransformProjectionBuffer)) ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* s_UVTransformProjectionBuffer;
 
-  /// @brief Method ApplyUVAnchor, addr 0x4745970, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVAnchor, addr 0x47458f8, size 0x380, virtual false, abstract: false, final false
   static inline void ApplyUVAnchor(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                    ::UnityEngine::ProBuilder::AutoUnwrapSettings_Anchor anchor);
 
-  /// @brief Method ApplyUVSettings, addr 0x4744cd0, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyUVSettings, addr 0x4744c58, size 0x8f0, virtual false, abstract: false, final false
   static inline void ApplyUVSettings(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                      ::UnityEngine::ProBuilder::AutoUnwrapSettings uvSettings);
 
-  /// @brief Method CalculateDelta, addr 0x47442d4, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method CalculateDelta, addr 0x474425c, size 0x444, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform CalculateDelta(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* src,
                                                                                    ::System::Collections::Generic::IList_1<int32_t>* srcIndices,
                                                                                    ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* dst,
                                                                                    ::System::Collections::Generic::IList_1<int32_t>* dstIndices);
 
-  /// @brief Method CopyUVs, addr 0x473c820, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CopyUVs, addr 0x473c7a8, size 0xbc, virtual false, abstract: false, final false
   static inline void CopyUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* source, ::UnityEngine::ProBuilder::Face* dest);
 
-  /// @brief Method GetAutoUnwrapSettings, addr 0x4744718, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetAutoUnwrapSettings, addr 0x47446a0, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings GetAutoUnwrapSettings(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method GetIndex, addr 0x4744924, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetIndex, addr 0x47448ac, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetIndex(::System::Collections::Generic::IList_1<int32_t>* collection, int32_t index);
 
-  /// @brief Method GetRotatedSize, addr 0x47449d4, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetRotatedSize, addr 0x474495c, size 0x2fc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetRotatedSize(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ::System::Collections::Generic::IList_1<int32_t>* indices,
                                                       ::UnityEngine::Vector2 center, float_t rotation);
 
-  /// @brief Method GetUVTransform, addr 0x474481c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetUVTransform, addr 0x47447a4, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::UvUnwrapping_UVTransform GetUVTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method ProjectTextureGroup, addr 0x47455c0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ProjectTextureGroup, addr 0x4745548, size 0x194, virtual false, abstract: false, final false
   static inline void ProjectTextureGroup(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t group, ::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
 
-  /// @brief Method ScaleUVs, addr 0x4745754, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ScaleUVs, addr 0x47456dc, size 0x21c, virtual false, abstract: false, final false
   static inline void ScaleUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs, ::System::Collections::Generic::IList_1<int32_t>* indexes, ::UnityEngine::Vector2 scale,
                               ::UnityEngine::ProBuilder::Bounds2D* bounds);
 
-  /// @brief Method SetAutoAndAlignUnwrapParamsToUVs, addr 0x47440e8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SetAutoAndAlignUnwrapParamsToUVs, addr 0x4744070, size 0x1ec, virtual false, abstract: false, final false
   static inline void SetAutoAndAlignUnwrapParamsToUVs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* facesToConvert);
 
-  /// @brief Method SetAutoUV, addr 0x4743f58, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetAutoUV, addr 0x4743ee0, size 0x190, virtual false, abstract: false, final false
   static inline void SetAutoUV(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, bool _cordl_auto);
 
-  /// @brief Method Unwrap, addr 0x473c6e0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x473c668, size 0x140, virtual false, abstract: false, final false
   static inline void Unwrap(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection);
 
-  /// @brief Method UpgradeAutoUVScaleOffset, addr 0x4745cf0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method UpgradeAutoUVScaleOffset, addr 0x4745c78, size 0x124, virtual false, abstract: false, final false
   static inline void UpgradeAutoUVScaleOffset(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline ::System::Collections::Generic::List_1<int32_t>* getStaticF_s_IndexBuffer();

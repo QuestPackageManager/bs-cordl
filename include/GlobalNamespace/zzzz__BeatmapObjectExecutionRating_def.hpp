@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x26aead4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aeab4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method get_time, addr 0x26aeacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x26aeaac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
 protected:

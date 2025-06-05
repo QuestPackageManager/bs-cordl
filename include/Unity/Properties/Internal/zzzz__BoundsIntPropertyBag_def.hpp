@@ -40,10 +40,10 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsIntPropertyBag_PositionProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4917538, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49174c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49175c8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917550, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -80,10 +80,10 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsIntPropertyBag_SizeProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4917580, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917508, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4917608, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917590, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -122,7 +122,7 @@ public:
 
   static inline ::Unity::Properties::Internal::BoundsIntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916408, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916390, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

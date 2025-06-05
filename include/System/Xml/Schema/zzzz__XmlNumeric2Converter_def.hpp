@@ -35,45 +35,45 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlNumeric2Converter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x42e01c4, size 0x390, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42e014c, size 0x390, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42e0554, size 0x6c8, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42e04dc, size 0x6c8, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42dfe68, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42dfdf0, size 0x35c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(double_t value, ::System::Type* destinationType);
 
-  /// @brief Method Create, addr 0x42df164, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42df0ec, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlNumeric2Converter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToDouble, addr 0x42df1bc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x42df144, size 0xcc, virtual true, abstract: false, final false
   inline double_t ToDouble(::StringW value);
 
-  /// @brief Method ToDouble, addr 0x42df288, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x42df210, size 0x344, virtual true, abstract: false, final false
   inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x42df5d4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x42df55c, size 0xcc, virtual true, abstract: false, final false
   inline float_t ToSingle(::StringW value);
 
-  /// @brief Method ToSingle, addr 0x42df6a0, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x42df628, size 0x34c, virtual true, abstract: false, final false
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x42df5cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x42df554, size 0x8, virtual true, abstract: false, final false
   inline float_t ToSingle(double_t value);
 
-  /// @brief Method ToString, addr 0x42dfb28, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42dfab0, size 0x340, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToString, addr 0x42df9ec, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42df974, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString(double_t value);
 
-  /// @brief Method ToString, addr 0x42dfaa0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42dfa28, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString(float_t value);
 
-  /// @brief Method .ctor, addr 0x42df0fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42df084, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

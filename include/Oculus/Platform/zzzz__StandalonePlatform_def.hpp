@@ -52,18 +52,18 @@ namespace Oculus::Platform {
 class CORDL_TYPE StandalonePlatform_UnityLogDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3f8d9b0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3f8d938, size 0x9c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr tag, ::System::IntPtr msg, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3f8da4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3f8d9d4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3f8d99c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3f8d924, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr tag, ::System::IntPtr msg);
 
   static inline ::Oculus::Platform::StandalonePlatform_UnityLogDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3f8d910, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8d898, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -98,19 +98,19 @@ public:
   // Declarations
   using UnityLogDelegate = ::Oculus::Platform::StandalonePlatform_UnityLogDelegate;
 
-  /// @brief Method AsyncInitialize, addr 0x3f8d064, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x3f8cfec, size 0xc0, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(uint64_t appID, ::StringW accessToken);
 
-  /// @brief Method AsyncInitializeWithAccessTokenAndOptions, addr 0x3f824dc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitializeWithAccessTokenAndOptions, addr 0x3f82464, size 0x118, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
   AsyncInitializeWithAccessTokenAndOptions(::StringW appId, ::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions);
 
-  /// @brief Method InitializeInEditor, addr 0x3f8201c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method InitializeInEditor, addr 0x3f81fa4, size 0x120, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeInEditor();
 
   static inline ::Oculus::Platform::StandalonePlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f82014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f81f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

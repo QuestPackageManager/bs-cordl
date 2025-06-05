@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_KeyChar)) char16_t KeyChar;
 
-  /// @brief Method Equals, addr 0x3e0bf8c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e0bf14, size 0x34, virtual false, abstract: false, final false
   inline bool Equals(::System::ConsoleKeyInfo obj);
 
-  /// @brief Method Equals, addr 0x3e0bef4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e0be7c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3e0bfc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e0bf48, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x3e0be48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0bdd0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(char16_t keyChar, ::System::ConsoleKey key, bool shift, bool alt, bool control);
 
-  /// @brief Method get_Key, addr 0x3e0beec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3e0be74, size 0x8, virtual false, abstract: false, final false
   inline ::System::ConsoleKey get_Key();
 
-  /// @brief Method get_KeyChar, addr 0x3e0bee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyChar, addr 0x3e0be6c, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_KeyChar();
 
   // Ctor Parameters []

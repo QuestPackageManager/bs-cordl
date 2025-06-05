@@ -32,46 +32,46 @@ public:
   /// @brief Field _value, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int64_t _value;
 
-  /// @brief Method AtomicAddAndGet, addr 0x3aa26b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AtomicAddAndGet, addr 0x3aa268c, size 0xc, virtual false, abstract: false, final false
   inline int64_t AtomicAddAndGet(int64_t delta);
 
-  /// @brief Method AtomicCompareExchange, addr 0x3aa2684, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AtomicCompareExchange, addr 0x3aa265c, size 0x24, virtual false, abstract: false, final false
   inline bool AtomicCompareExchange(int64_t newValue, int64_t comparand);
 
-  /// @brief Method AtomicDecrementAndGet, addr 0x3aa26cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AtomicDecrementAndGet, addr 0x3aa26a4, size 0xc, virtual false, abstract: false, final false
   inline int64_t AtomicDecrementAndGet();
 
-  /// @brief Method AtomicExchange, addr 0x3aa26a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AtomicExchange, addr 0x3aa2680, size 0xc, virtual false, abstract: false, final false
   inline int64_t AtomicExchange(int64_t newValue);
 
-  /// @brief Method AtomicIncrementAndGet, addr 0x3aa26c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AtomicIncrementAndGet, addr 0x3aa2698, size 0xc, virtual false, abstract: false, final false
   inline int64_t AtomicIncrementAndGet();
 
-  /// @brief Method ReadAcquireFence, addr 0x3aa25a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadAcquireFence, addr 0x3aa257c, size 0x1c, virtual false, abstract: false, final false
   inline int64_t ReadAcquireFence();
 
-  /// @brief Method ReadCompilerOnlyFence, addr 0x3aa25dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadCompilerOnlyFence, addr 0x3aa25b4, size 0x24, virtual false, abstract: false, final false
   inline int64_t ReadCompilerOnlyFence();
 
-  /// @brief Method ReadFullFence, addr 0x3aa25c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadFullFence, addr 0x3aa2598, size 0x1c, virtual false, abstract: false, final false
   inline int64_t ReadFullFence();
 
-  /// @brief Method ReadUnfenced, addr 0x3aa259c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadUnfenced, addr 0x3aa2574, size 0x8, virtual false, abstract: false, final false
   inline int64_t ReadUnfenced();
 
-  /// @brief Method ToString, addr 0x3aa26d8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3aa26b0, size 0x34, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method WriteCompilerOnlyFence, addr 0x3aa2650, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteCompilerOnlyFence, addr 0x3aa2628, size 0x2c, virtual false, abstract: false, final false
   inline void WriteCompilerOnlyFence(int64_t newValue);
 
-  /// @brief Method WriteFullFence, addr 0x3aa2628, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteFullFence, addr 0x3aa2600, size 0x28, virtual false, abstract: false, final false
   inline void WriteFullFence(int64_t newValue);
 
-  /// @brief Method WriteReleaseFence, addr 0x3aa2600, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteReleaseFence, addr 0x3aa25d8, size 0x28, virtual false, abstract: false, final false
   inline void WriteReleaseFence(int64_t newValue);
 
-  /// @brief Method WriteUnfenced, addr 0x3aa267c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WriteUnfenced, addr 0x3aa2654, size 0x8, virtual false, abstract: false, final false
   inline void WriteUnfenced(int64_t newValue);
 
   constexpr int64_t const& __cordl_internal_get__value() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__value(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3aa2594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa256c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
   // Ctor Parameters []

@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Properties::IPropertyBag* (*)(::System::Type*)>(
     &::Unity::Properties::Internal::PropertyBagStore::GetPropertyBag)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x4914e14;
+  constexpr static std::size_t addrs = 0x4914d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInstaller::*)()>(
     &::GlobalNamespace::BeatmapObjectsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x3bf38b8;
+  constexpr static std::size_t addrs = 0x3bf3900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInstaller::*)()>(&::GlobalNamespace::BeatmapObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf3cd8;
+  constexpr static std::size_t addrs = 0x3bf3d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInstaller*>::get(), ".ctor",

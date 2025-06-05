@@ -27,12 +27,12 @@ public:
   /// @brief Field m_EntityType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_EntityType, put = __cordl_internal_set_m_EntityType)) ::UnityEngine::ProBuilder::EntityType m_EntityType;
 
-  /// @brief Method Awake, addr 0x4708d60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4708ce8, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::ProBuilder::Entity* New_ctor();
 
-  /// @brief Method SetEntity, addr 0x4708e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEntity, addr 0x4708db0, size 0x8, virtual false, abstract: false, final false
   inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
 
   constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
 
-  /// @brief Method .ctor, addr 0x4708e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4708db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_entityType, addr 0x4708d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_entityType, addr 0x4708ce0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EntityType get_entityType();
 
 protected:

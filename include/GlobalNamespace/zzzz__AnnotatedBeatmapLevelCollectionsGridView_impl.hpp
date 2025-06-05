@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::get_numberOfCells)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3afc690;
+  constexpr static std::size_t addrs = 0x3afc668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::get_cellWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afc73c;
+  constexpr static std::size_t addrs = 0x3afc714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::get_cellHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afc744;
+  constexpr static std::size_t addrs = 0x3afc71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(::System::Action*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::add_didOpenAnnotatedBeatmapLevelCollectionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3afc74c;
+  constexpr static std::size_t addrs = 0x3afc724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(::System::Action*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::remove_didOpenAnnotatedBeatmapLevelCollectionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3afc7e8;
+  constexpr static std::size_t addrs = 0x3afc7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(::System::Action*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::add_didCloseAnnotatedBeatmapLevelCollectionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3afc884;
+  constexpr static std::size_t addrs = 0x3afc85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(::System::Action*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::remove_didCloseAnnotatedBeatmapLevelCollectionEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3afc920;
+  constexpr static std::size_t addrs = 0x3afc8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::add_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afc9bc;
+  constexpr static std::size_t addrs = 0x3afc994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::System::Action_1<::GlobalNamespace::BeatmapLevelPack*>*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::remove_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afca6c;
+  constexpr static std::size_t addrs = 0x3afca44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::SetData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3afcb1c;
+  constexpr static std::size_t addrs = 0x3afcaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::OnEnable)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3afd118;
+  constexpr static std::size_t addrs = 0x3afd0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::OnDisable)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3afd2b0;
+  constexpr static std::size_t addrs = 0x3afd288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::Show)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3afd4bc;
+  constexpr static std::size_t addrs = 0x3afd494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::Hide)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3afd4e0;
+  constexpr static std::size_t addrs = 0x3afd4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::CancelAsyncOperations)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3afd504;
+  constexpr static std::size_t addrs = 0x3afd4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::RefreshAvailability)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3afd76c;
+  constexpr static std::size_t addrs = 0x3afd744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::SelectAndScrollToCellWithIdx)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3afda90;
+  constexpr static std::size_t addrs = 0x3afda68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::UnityEngine::EventSystems::PointerEventData*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::OnPointerEnter)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3afddb0;
+  constexpr static std::size_t addrs = 0x3afdd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::UnityEngine::EventSystems::PointerEventData*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::OnPointerExit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3afde28;
+  constexpr static std::size_t addrs = 0x3afde00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::CloseLevelCollection)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3afd45c;
+  constexpr static std::size_t addrs = 0x3afd434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3afde50;
+  constexpr static std::size_t addrs = 0x3afde28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::HandleVRPlatformHelperInputFocusCaptured)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afe594;
+  constexpr static std::size_t addrs = 0x3afe56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::HMUI::SelectableCell*, ::HMUI::SelectableCell_TransitionType, ::System::Object*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::HandleCellSelectionDidChange)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x3afe59c;
+  constexpr static std::size_t addrs = 0x3afe574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MonoBehaviour> (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)(
     ::GlobalNamespace::GridView*, int32_t)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::CellForIdx)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3afea24;
+  constexpr static std::size_t addrs = 0x3afe9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::ShouldExpandCollection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3afddfc;
+  constexpr static std::size_t addrs = 0x3afddd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afec24;
+  constexpr static std::size_t addrs = 0x3afebfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker_InitData::*)(bool)>(
     &::GlobalNamespace::SafeAreaRectChecker_InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c00348;
+  constexpr static std::size_t addrs = 0x3c00390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker::*)()>(&::GlobalNamespace::SafeAreaRectChecker::Start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c0009c;
+  constexpr static std::size_t addrs = 0x3c000e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), "Start",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker::*)()>(&::GlobalNamespace::SafeAreaRectChecker::Update)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3c00100;
+  constexpr static std::size_t addrs = 0x3c00148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), "Update",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaRectChecker::*)()>(&::GlobalNamespace::SafeAreaRectChecker::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c002e4;
+  constexpr static std::size_t addrs = 0x3c0032c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SafeAreaRectChecker*>::get(), ".ctor",

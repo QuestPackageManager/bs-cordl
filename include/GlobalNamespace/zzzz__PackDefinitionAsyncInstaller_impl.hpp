@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller___c::*)()>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d0c1c;
+  constexpr static std::size_t addrs = 0x26d0bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionAsyncInstaller___c*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PackDefinitionAsyncInstaller___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller___c::_LoadResourcesBeforeInstall_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26d0c24;
+  constexpr static std::size_t addrs = 0x26d0c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26d089c;
+  constexpr static std::size_t addrs = 0x26d087c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x26d08dc;
+  constexpr static std::size_t addrs = 0x26d08bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26d0a38;
+  constexpr static std::size_t addrs = 0x26d0a18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>> (*)()>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::LoadPackDefinitionListAsync)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26d0aac;
+  constexpr static std::size_t addrs = 0x26d0a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionAsyncInstaller*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26d0b30;
+  constexpr static std::size_t addrs = 0x26d0b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionAsyncInstaller*>::get(), ".ctor",

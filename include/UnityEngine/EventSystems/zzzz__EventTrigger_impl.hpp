@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger_TriggerEvent::*)()>(
     &::UnityEngine::EventSystems::EventTrigger_TriggerEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4ada784;
+  constexpr static std::size_t addrs = 0x4ada70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger_TriggerEvent*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger_Entry::*)()>(
     &::UnityEngine::EventSystems::EventTrigger_Entry::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4ada7cc;
+  constexpr static std::size_t addrs = 0x4ada754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger_Entry*>::get(), ".ctor",
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>* (
     ::UnityEngine::EventSystems::EventTrigger::*)()>(&::UnityEngine::EventSystems::EventTrigger::get_delegates)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ada540;
+  constexpr static std::size_t addrs = 0x4ada4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>*)>(&::UnityEngine::EventSystems::EventTrigger::set_delegates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada5bc;
+  constexpr static std::size_t addrs = 0x4ada544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)()>(&::UnityEngine::EventSystems::EventTrigger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada5c4;
+  constexpr static std::size_t addrs = 0x4ada54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(), ".ctor",
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>* (
     ::UnityEngine::EventSystems::EventTrigger::*)()>(&::UnityEngine::EventSystems::EventTrigger::get_triggers)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4ada544;
+  constexpr static std::size_t addrs = 0x4ada4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventTrigger*>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventTrigger_Entry*>*)>(&::UnityEngine::EventSystems::EventTrigger::set_triggers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada5cc;
+  constexpr static std::size_t addrs = 0x4ada554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(
     ::UnityEngine::EventSystems::EventTriggerType, ::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::EventSystems::EventTrigger::Execute)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4ada5d4;
+  constexpr static std::size_t addrs = 0x4ada55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerEnter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada6b8;
+  constexpr static std::size_t addrs = 0x4ada640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerExit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada6c4;
+  constexpr static std::size_t addrs = 0x4ada64c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada6d0;
+  constexpr static std::size_t addrs = 0x4ada658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnDrop)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada6dc;
+  constexpr static std::size_t addrs = 0x4ada664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerDown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada6e8;
+  constexpr static std::size_t addrs = 0x4ada670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerUp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada6f4;
+  constexpr static std::size_t addrs = 0x4ada67c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnPointerClick)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada700;
+  constexpr static std::size_t addrs = 0x4ada688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnSelect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada70c;
+  constexpr static std::size_t addrs = 0x4ada694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnDeselect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada718;
+  constexpr static std::size_t addrs = 0x4ada6a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnScroll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada724;
+  constexpr static std::size_t addrs = 0x4ada6ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::AxisEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnMove)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada730;
+  constexpr static std::size_t addrs = 0x4ada6b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnUpdateSelected)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada73c;
+  constexpr static std::size_t addrs = 0x4ada6c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnInitializePotentialDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada748;
+  constexpr static std::size_t addrs = 0x4ada6d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnBeginDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada754;
+  constexpr static std::size_t addrs = 0x4ada6dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnEndDrag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada760;
+  constexpr static std::size_t addrs = 0x4ada6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnSubmit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada76c;
+  constexpr static std::size_t addrs = 0x4ada6f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventTrigger::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::EventSystems::EventTrigger::OnCancel)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada778;
+  constexpr static std::size_t addrs = 0x4ada700;
 
   inline static ::MethodInfo const* methodInfo() {
 

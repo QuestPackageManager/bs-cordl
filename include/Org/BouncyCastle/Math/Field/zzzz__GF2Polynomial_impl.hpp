@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24dceac;
+  constexpr static std::size_t addrs = 0x24dce6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::get_Degree)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24dd584;
+  constexpr static std::size_t addrs = 0x24dd544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24dd5b8;
+  constexpr static std::size_t addrs = 0x24dd578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x24dd614;
+  constexpr static std::size_t addrs = 0x24dd5d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24dd6ec;
+  constexpr static std::size_t addrs = 0x24dd6ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

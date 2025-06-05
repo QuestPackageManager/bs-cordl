@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::UnityEngine::QueryParameters, float_t)>(&::UnityEngine::CapsulecastCommand::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4911c14;
+  constexpr static std::size_t addrs = 0x4911b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::UnityEngine::QueryParameters, float_t)>(
     &::UnityEngine::CapsulecastCommand::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4911cf8;
+  constexpr static std::size_t addrs = 0x4911c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CapsulecastCommand::*)()>(&::UnityEngine::CapsulecastCommand::get_point1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4911d28;
+  constexpr static std::size_t addrs = 0x4911cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_point1",
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::CapsulecastCommand::set_point1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4911d34;
+  constexpr static std::size_t addrs = 0x4911cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CapsulecastCommand::*)()>(&::UnityEngine::CapsulecastCommand::get_point2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4911d40;
+  constexpr static std::size_t addrs = 0x4911cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_point2",
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::CapsulecastCommand::set_point2)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4911d4c;
+  constexpr static std::size_t addrs = 0x4911cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CapsulecastCommand::*)()>(&::UnityEngine::CapsulecastCommand::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911d58;
+  constexpr static std::size_t addrs = 0x4911ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_radius",
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(float_t)>(&::UnityEngine::CapsulecastCommand::set_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911d60;
+  constexpr static std::size_t addrs = 0x4911ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CapsulecastCommand::*)()>(&::UnityEngine::CapsulecastCommand::get_direction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4911d68;
+  constexpr static std::size_t addrs = 0x4911cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_direction",
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::CapsulecastCommand::set_direction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4911d74;
+  constexpr static std::size_t addrs = 0x4911cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CapsulecastCommand::*)()>(&::UnityEngine::CapsulecastCommand::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911d80;
+  constexpr static std::size_t addrs = 0x4911d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_distance",
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(float_t)>(&::UnityEngine::CapsulecastCommand::set_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911d88;
+  constexpr static std::size_t addrs = 0x4911d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PhysicsScene (::UnityEngine::CapsulecastCommand::*)()>(
     &::UnityEngine::CapsulecastCommand::get_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911d90;
+  constexpr static std::size_t addrs = 0x4911d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_physicsScene",
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(::UnityEngine::PhysicsScene)>(
     &::UnityEngine::CapsulecastCommand::set_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911d98;
+  constexpr static std::size_t addrs = 0x4911d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeArray_1<::UnityEngine::CapsulecastCommand>, ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>, int32_t, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::CapsulecastCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4911da0;
+  constexpr static std::size_t addrs = 0x4911d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,7 +242,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeArray_1<::UnityEngine::CapsulecastCommand>, ::Unity::Collections::NativeArray_1<::UnityEngine::RaycastHit>, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::CapsulecastCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4912020;
+  constexpr static std::size_t addrs = 0x4911fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::cordl_internals::Ptr<void>, int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t, int32_t)>(
     &::UnityEngine::CapsulecastCommand::ScheduleCapsulecastBatch)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4911f84;
+  constexpr static std::size_t addrs = 0x4911f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, int32_t)>(&::UnityEngine::CapsulecastCommand::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49120d0;
+  constexpr static std::size_t addrs = 0x4912058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(
     ::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, int32_t)>(&::UnityEngine::CapsulecastCommand::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49121cc;
+  constexpr static std::size_t addrs = 0x4912154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::CapsulecastCommand::*)()>(&::UnityEngine::CapsulecastCommand::get_layerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4912204;
+  constexpr static std::size_t addrs = 0x491218c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsulecastCommand>::get(), "get_layerMask",
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsulecastCommand::*)(int32_t)>(&::UnityEngine::CapsulecastCommand::set_layerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49121c4;
+  constexpr static std::size_t addrs = 0x491214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t, int32_t, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::CapsulecastCommand::ScheduleCapsulecastBatch_Injected)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4912044;
+  constexpr static std::size_t addrs = 0x4911fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

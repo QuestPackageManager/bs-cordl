@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
     &::System::MemoryExtensions::EqualsOrdinal)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ded748;
+  constexpr static std::size_t addrs = 0x3ded6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
     &::System::MemoryExtensions::EqualsOrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ded7e4;
+  constexpr static std::size_t addrs = 0x3ded76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, char16_t)>(&::System::MemoryExtensions::Contains)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ded890;
+  constexpr static std::size_t addrs = 0x3ded818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Span_1<char16_t>)>(
     &::System::MemoryExtensions::ToUpperInvariant)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3ded924;
+  constexpr static std::size_t addrs = 0x3ded8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::StringComparison)>(
     &::System::MemoryExtensions::EndsWith)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3deda7c;
+  constexpr static std::size_t addrs = 0x3deda04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::StringW)>(&::System::MemoryExtensions::AsSpan)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dedcf0;
+  constexpr static std::size_t addrs = 0x3dedc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::StringW, int32_t)>(&::System::MemoryExtensions::AsSpan)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3dedd48;
+  constexpr static std::size_t addrs = 0x3dedcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::StringW, int32_t, int32_t)>(&::System::MemoryExtensions::AsSpan)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3deddd4;
+  constexpr static std::size_t addrs = 0x3dedd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::Trim)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3de51ac;
+  constexpr static std::size_t addrs = 0x3de5134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::TrimStart)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3dede74;
+  constexpr static std::size_t addrs = 0x3deddfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<char16_t> (*)(::System::ReadOnlySpan_1<char16_t>)>(&::System::MemoryExtensions::TrimEnd)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3dedf68;
+  constexpr static std::size_t addrs = 0x3dedef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

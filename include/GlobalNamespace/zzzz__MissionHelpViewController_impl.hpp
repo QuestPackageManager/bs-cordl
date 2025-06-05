@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::*)()>(
     &::GlobalNamespace::MissionHelpViewController_MissionHelpGameObjectPair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c1d134;
+  constexpr static std::size_t addrs = 0x3c1d0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*)>(&::GlobalNamespace::MissionHelpViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c1ce08;
+  constexpr static std::size_t addrs = 0x3c1cd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>*)>(&::GlobalNamespace::MissionHelpViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c1ceb8;
+  constexpr static std::size_t addrs = 0x3c1ce40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(::GlobalNamespace::MissionHelpSO*)>(
     &::GlobalNamespace::MissionHelpViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c1cf68;
+  constexpr static std::size_t addrs = 0x3c1cef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionHelpViewController::DidActivate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c1d064;
+  constexpr static std::size_t addrs = 0x3c1cfec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(
     &::GlobalNamespace::MissionHelpViewController::RefreshContent)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3c1cf94;
+  constexpr static std::size_t addrs = 0x3c1cf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(
     &::GlobalNamespace::MissionHelpViewController::OkButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c1d10c;
+  constexpr static std::size_t addrs = 0x3c1d094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(),
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionHelpViewController::*)()>(&::GlobalNamespace::MissionHelpViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c1d12c;
+  constexpr static std::size_t addrs = 0x3c1d0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionHelpViewController*>::get(), ".ctor",

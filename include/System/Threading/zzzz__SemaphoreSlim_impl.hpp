@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim_TaskNode::*)()>(&::System::Threading::SemaphoreSlim_TaskNode::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e529c0;
+  constexpr static std::size_t addrs = 0x3e52948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim_TaskNode*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim_TaskNode::*)()>(
     &::System::Threading::SemaphoreSlim_TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e530d0;
+  constexpr static std::size_t addrs = 0x3e53058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim_TaskNode::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::SemaphoreSlim_TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5311c;
+  constexpr static std::size_t addrs = 0x3e530a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::*)()>(
     &::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x804;
-  constexpr static std::size_t addrs = 0x3e53120;
+  constexpr static std::size_t addrs = 0x3e530a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e53924;
+  constexpr static std::size_t addrs = 0x3e538ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::get_CurrentCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e51c64;
+  constexpr static std::size_t addrs = 0x3e51bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(), "get_CurrentCount",
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim::*)(int32_t)>(&::System::Threading::SemaphoreSlim::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e51c7c;
+  constexpr static std::size_t addrs = 0x3e51c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim::*)(int32_t, int32_t)>(&::System::Threading::SemaphoreSlim::_ctor)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3e51c84;
+  constexpr static std::size_t addrs = 0x3e51c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::Wait)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e51e10;
+  constexpr static std::size_t addrs = 0x3e51d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(), "Wait",
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(int32_t)>(&::System::Threading::SemaphoreSlim::Wait)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e5233c;
+  constexpr static std::size_t addrs = 0x3e522c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(int32_t, ::System::Threading::CancellationToken)>(
     &::System::Threading::SemaphoreSlim::Wait)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x3e51e1c;
+  constexpr static std::size_t addrs = 0x3e51da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(int32_t, uint32_t, ::System::Threading::CancellationToken)>(
     &::System::Threading::SemaphoreSlim::WaitUntilCountOrTimeout)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3e526e4;
+  constexpr static std::size_t addrs = 0x3e5266c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Threading::SemaphoreSlim::*)()>(
     &::System::Threading::SemaphoreSlim::WaitAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e5280c;
+  constexpr static std::size_t addrs = 0x3e52794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(), "WaitAsync",
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Threading::SemaphoreSlim::*)(::System::Threading::CancellationToken)>(
     &::System::Threading::SemaphoreSlim::WaitAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e52818;
+  constexpr static std::size_t addrs = 0x3e527a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::System::Threading::SemaphoreSlim::*)(int32_t, ::System::Threading::CancellationToken)>(&::System::Threading::SemaphoreSlim::WaitAsync)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x3e523c0;
+  constexpr static std::size_t addrs = 0x3e52348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SemaphoreSlim_TaskNode* (::System::Threading::SemaphoreSlim::*)()>(
     &::System::Threading::SemaphoreSlim::CreateAndAddAsyncWaiter)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e52824;
+  constexpr static std::size_t addrs = 0x3e527ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::SemaphoreSlim::*)(::System::Threading::SemaphoreSlim_TaskNode*)>(
     &::System::Threading::SemaphoreSlim::RemoveAsyncWaiter)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3e52a08;
+  constexpr static std::size_t addrs = 0x3e52990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::System::Threading::SemaphoreSlim::*)(::System::Threading::SemaphoreSlim_TaskNode*, int32_t, ::System::Threading::CancellationToken)>(
         &::System::Threading::SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3e528a8;
+  constexpr static std::size_t addrs = 0x3e52830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::Release)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e52a88;
+  constexpr static std::size_t addrs = 0x3e52a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(), "Release",
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::SemaphoreSlim::*)(int32_t)>(&::System::Threading::SemaphoreSlim::Release)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x3e52a90;
+  constexpr static std::size_t addrs = 0x3e52a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::SemaphoreSlim_TaskNode*)>(&::System::Threading::SemaphoreSlim::QueueWaiterTask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e52dc8;
+  constexpr static std::size_t addrs = 0x3e52d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e52dd4;
+  constexpr static std::size_t addrs = 0x3e52d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(), "Dispose",
@@ -444,7 +444,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim::*)(bool)>(&::System::Threading::SemaphoreSlim::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e52e40;
+  constexpr static std::size_t addrs = 0x3e52dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::SemaphoreSlim::CancellationTokenCanceledEventHandler)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3e52e9c;
+  constexpr static std::size_t addrs = 0x3e52e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SemaphoreSlim::*)()>(&::System::Threading::SemaphoreSlim::CheckDispose)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e52344;
+  constexpr static std::size_t addrs = 0x3e522cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SemaphoreSlim*>::get(), "CheckDispose",
@@ -485,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Threading::SemaphoreSlim::GetResourceString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e51e08;
+  constexpr static std::size_t addrs = 0x3e51d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

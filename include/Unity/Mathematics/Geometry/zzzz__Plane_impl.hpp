@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)(float_t, float_t, float_t, float_t)>(
     &::Unity::Mathematics::Geometry::Plane::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x46706cc;
+  constexpr static std::size_t addrs = 0x4670654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)(::Unity::Mathematics::float3, float_t)>(
     &::Unity::Mathematics::Geometry::Plane::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4670774;
+  constexpr static std::size_t addrs = 0x46706fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::Plane::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x467081c;
+  constexpr static std::size_t addrs = 0x46707a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)(
     ::Unity::Mathematics::float3, ::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(&::Unity::Mathematics::Geometry::Plane::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x46708ec;
+  constexpr static std::size_t addrs = 0x4670874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Geometry::Plane (*)(::Unity::Mathematics::float3, float_t)>(
     &::Unity::Mathematics::Geometry::Plane::CreateFromUnitNormalAndDistance)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46709e0;
+  constexpr static std::size_t addrs = 0x4670968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Geometry::Plane (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::Plane::CreateFromUnitNormalAndPointInPlane)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46709e4;
+  constexpr static std::size_t addrs = 0x467096c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Geometry::Plane::*)()>(
     &::Unity::Mathematics::Geometry::Plane::get_Normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4670a00;
+  constexpr static std::size_t addrs = 0x4670988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::Plane>::get(), "get_Normal",
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)(::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::Plane::set_Normal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4670a0c;
+  constexpr static std::size_t addrs = 0x4670994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Mathematics::Geometry::Plane::*)()>(&::Unity::Mathematics::Geometry::Plane::get_Distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4670a18;
+  constexpr static std::size_t addrs = 0x46709a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::Plane>::get(), "get_Distance",
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)(float_t)>(&::Unity::Mathematics::Geometry::Plane::set_Distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4670a20;
+  constexpr static std::size_t addrs = 0x46709a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Geometry::Plane (*)(::Unity::Mathematics::Geometry::Plane)>(
     &::Unity::Mathematics::Geometry::Plane::Normalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4670a28;
+  constexpr static std::size_t addrs = 0x46709b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float4 (*)(::Unity::Mathematics::float4)>(&::Unity::Mathematics::Geometry::Plane::Normalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4670abc;
+  constexpr static std::size_t addrs = 0x4670a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Mathematics::Geometry::Plane::*)(::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::Plane::SignedDistanceToPoint)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4670b50;
+  constexpr static std::size_t addrs = 0x4670ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Geometry::Plane::*)(::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::Plane::Projection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4670b74;
+  constexpr static std::size_t addrs = 0x4670afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Geometry::Plane (::Unity::Mathematics::Geometry::Plane::*)()>(
     &::Unity::Mathematics::Geometry::Plane::get_Flipped)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4670bb0;
+  constexpr static std::size_t addrs = 0x4670b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::Plane>::get(), "get_Flipped",
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float4 (*)(::Unity::Mathematics::Geometry::Plane)>(
     &::Unity::Mathematics::Geometry::Plane::op_Implicit___Unity__Mathematics__float4)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4670bcc;
+  constexpr static std::size_t addrs = 0x4670b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::Plane::*)()>(&::Unity::Mathematics::Geometry::Plane::CheckPlaneIsNormalized)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x4670bd0;
+  constexpr static std::size_t addrs = 0x4670b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::Plane>::get(),

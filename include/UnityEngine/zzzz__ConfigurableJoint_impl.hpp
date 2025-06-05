@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_secondaryAxis)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490d2d0;
+  constexpr static std::size_t addrs = 0x490d258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_secondaryAxis",
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ConfigurableJoint::set_secondaryAxis)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490d370;
+  constexpr static std::size_t addrs = 0x490d2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ConfigurableJointMotion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_xMotion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490d408;
+  constexpr static std::size_t addrs = 0x490d390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_xMotion",
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::ConfigurableJointMotion)>(
     &::UnityEngine::ConfigurableJoint::set_xMotion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d444;
+  constexpr static std::size_t addrs = 0x490d3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ConfigurableJointMotion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_yMotion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490d488;
+  constexpr static std::size_t addrs = 0x490d410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_yMotion",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::ConfigurableJointMotion)>(
     &::UnityEngine::ConfigurableJoint::set_yMotion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d4c4;
+  constexpr static std::size_t addrs = 0x490d44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ConfigurableJointMotion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_zMotion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490d508;
+  constexpr static std::size_t addrs = 0x490d490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_zMotion",
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::ConfigurableJointMotion)>(
     &::UnityEngine::ConfigurableJoint::set_zMotion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d544;
+  constexpr static std::size_t addrs = 0x490d4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ConfigurableJointMotion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularXMotion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490d588;
+  constexpr static std::size_t addrs = 0x490d510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularXMotion",
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::ConfigurableJointMotion)>(
     &::UnityEngine::ConfigurableJoint::set_angularXMotion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d5c4;
+  constexpr static std::size_t addrs = 0x490d54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ConfigurableJointMotion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularYMotion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490d608;
+  constexpr static std::size_t addrs = 0x490d590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularYMotion",
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::ConfigurableJointMotion)>(
     &::UnityEngine::ConfigurableJoint::set_angularYMotion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d644;
+  constexpr static std::size_t addrs = 0x490d5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ConfigurableJointMotion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularZMotion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490d688;
+  constexpr static std::size_t addrs = 0x490d610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularZMotion",
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::ConfigurableJointMotion)>(
     &::UnityEngine::ConfigurableJoint::set_angularZMotion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d6c4;
+  constexpr static std::size_t addrs = 0x490d64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimitSpring (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_linearLimitSpring)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490d708;
+  constexpr static std::size_t addrs = 0x490d690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimitSpring)>(
     &::UnityEngine::ConfigurableJoint::set_linearLimitSpring)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x490d798;
+  constexpr static std::size_t addrs = 0x490d720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimitSpring (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularXLimitSpring)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490d824;
+  constexpr static std::size_t addrs = 0x490d7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimitSpring)>(
     &::UnityEngine::ConfigurableJoint::set_angularXLimitSpring)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x490d8b4;
+  constexpr static std::size_t addrs = 0x490d83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimitSpring (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularYZLimitSpring)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490d940;
+  constexpr static std::size_t addrs = 0x490d8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimitSpring)>(
     &::UnityEngine::ConfigurableJoint::set_angularYZLimitSpring)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x490d9d0;
+  constexpr static std::size_t addrs = 0x490d958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimit (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_linearLimit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490da5c;
+  constexpr static std::size_t addrs = 0x490d9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_linearLimit",
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimit)>(
     &::UnityEngine::ConfigurableJoint::set_linearLimit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490dafc;
+  constexpr static std::size_t addrs = 0x490da84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimit (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_lowAngularXLimit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490db94;
+  constexpr static std::size_t addrs = 0x490db1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_lowAngularXLimit",
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimit)>(
     &::UnityEngine::ConfigurableJoint::set_lowAngularXLimit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490dc34;
+  constexpr static std::size_t addrs = 0x490dbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimit (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_highAngularXLimit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490dccc;
+  constexpr static std::size_t addrs = 0x490dc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimit)>(
     &::UnityEngine::ConfigurableJoint::set_highAngularXLimit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490dd6c;
+  constexpr static std::size_t addrs = 0x490dcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimit (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularYLimit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490de04;
+  constexpr static std::size_t addrs = 0x490dd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularYLimit",
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimit)>(
     &::UnityEngine::ConfigurableJoint::set_angularYLimit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490dea4;
+  constexpr static std::size_t addrs = 0x490de2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SoftJointLimit (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularZLimit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490df3c;
+  constexpr static std::size_t addrs = 0x490dec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularZLimit",
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::SoftJointLimit)>(
     &::UnityEngine::ConfigurableJoint::set_angularZLimit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490dfdc;
+  constexpr static std::size_t addrs = 0x490df64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_targetPosition)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490e074;
+  constexpr static std::size_t addrs = 0x490dffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_targetPosition",
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ConfigurableJoint::set_targetPosition)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e114;
+  constexpr static std::size_t addrs = 0x490e09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_targetVelocity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490e1ac;
+  constexpr static std::size_t addrs = 0x490e134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_targetVelocity",
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ConfigurableJoint::set_targetVelocity)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e24c;
+  constexpr static std::size_t addrs = 0x490e1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointDrive (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_xDrive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e2e4;
+  constexpr static std::size_t addrs = 0x490e26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_xDrive",
@@ -522,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointDrive)>(
     &::UnityEngine::ConfigurableJoint::set_xDrive)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x490e37c;
+  constexpr static std::size_t addrs = 0x490e304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointDrive (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_yDrive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e410;
+  constexpr static std::size_t addrs = 0x490e398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_yDrive",
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointDrive)>(
     &::UnityEngine::ConfigurableJoint::set_yDrive)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x490e4a8;
+  constexpr static std::size_t addrs = 0x490e430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointDrive (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_zDrive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e53c;
+  constexpr static std::size_t addrs = 0x490e4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_zDrive",
@@ -578,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointDrive)>(
     &::UnityEngine::ConfigurableJoint::set_zDrive)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x490e5d4;
+  constexpr static std::size_t addrs = 0x490e55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_targetRotation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x490e668;
+  constexpr static std::size_t addrs = 0x490e5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_targetRotation",
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::ConfigurableJoint::set_targetRotation)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e704;
+  constexpr static std::size_t addrs = 0x490e68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_targetAngularVelocity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490e79c;
+  constexpr static std::size_t addrs = 0x490e724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ConfigurableJoint::set_targetAngularVelocity)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e83c;
+  constexpr static std::size_t addrs = 0x490e7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RotationDriveMode (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_rotationDriveMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490e8d4;
+  constexpr static std::size_t addrs = 0x490e85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -665,7 +665,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::RotationDriveMode)>(
     &::UnityEngine::ConfigurableJoint::set_rotationDriveMode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e910;
+  constexpr static std::size_t addrs = 0x490e898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointDrive (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularXDrive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490e954;
+  constexpr static std::size_t addrs = 0x490e8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularXDrive",
@@ -694,7 +694,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointDrive)>(
     &::UnityEngine::ConfigurableJoint::set_angularXDrive)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x490e9ec;
+  constexpr static std::size_t addrs = 0x490e974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -709,7 +709,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointDrive (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_angularYZDrive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490ea80;
+  constexpr static std::size_t addrs = 0x490ea08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_angularYZDrive",
@@ -723,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointDrive)>(
     &::UnityEngine::ConfigurableJoint::set_angularYZDrive)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x490eb18;
+  constexpr static std::size_t addrs = 0x490eaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointDrive (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_slerpDrive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490ebac;
+  constexpr static std::size_t addrs = 0x490eb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_slerpDrive",
@@ -752,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointDrive)>(
     &::UnityEngine::ConfigurableJoint::set_slerpDrive)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x490ec44;
+  constexpr static std::size_t addrs = 0x490ebcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::JointProjectionMode (::UnityEngine::ConfigurableJoint::*)()>(
     &::UnityEngine::ConfigurableJoint::get_projectionMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490ecd8;
+  constexpr static std::size_t addrs = 0x490ec60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_projectionMode",
@@ -781,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::UnityEngine::JointProjectionMode)>(
     &::UnityEngine::ConfigurableJoint::set_projectionMode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ed14;
+  constexpr static std::size_t addrs = 0x490ec9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_projectionDistance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490ed58;
+  constexpr static std::size_t addrs = 0x490ece0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -808,7 +808,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(float_t)>(&::UnityEngine::ConfigurableJoint::set_projectionDistance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490ed94;
+  constexpr static std::size_t addrs = 0x490ed1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -822,7 +822,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_projectionAngle)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490ede0;
+  constexpr static std::size_t addrs = 0x490ed68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_projectionAngle",
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(float_t)>(&::UnityEngine::ConfigurableJoint::set_projectionAngle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490ee1c;
+  constexpr static std::size_t addrs = 0x490eda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -849,7 +849,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_configuredInWorldSpace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490ee68;
+  constexpr static std::size_t addrs = 0x490edf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(),
@@ -862,7 +862,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(bool)>(&::UnityEngine::ConfigurableJoint::set_configuredInWorldSpace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490eea4;
+  constexpr static std::size_t addrs = 0x490ee2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -876,7 +876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::get_swapBodies)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490eee8;
+  constexpr static std::size_t addrs = 0x490ee70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), "get_swapBodies",
@@ -889,7 +889,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(bool)>(&::UnityEngine::ConfigurableJoint::set_swapBodies)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ef24;
+  constexpr static std::size_t addrs = 0x490eeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -903,7 +903,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)()>(&::UnityEngine::ConfigurableJoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x490ef68;
+  constexpr static std::size_t addrs = 0x490eef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ConfigurableJoint*>::get(), ".ctor",
@@ -917,7 +917,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::get_secondaryAxis_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d32c;
+  constexpr static std::size_t addrs = 0x490d2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -932,7 +932,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::set_secondaryAxis_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d3c4;
+  constexpr static std::size_t addrs = 0x490d34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -947,7 +947,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimitSpring>)>(
     &::UnityEngine::ConfigurableJoint::get_linearLimitSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d754;
+  constexpr static std::size_t addrs = 0x490d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimitSpring>)>(
     &::UnityEngine::ConfigurableJoint::set_linearLimitSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d7e0;
+  constexpr static std::size_t addrs = 0x490d768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -977,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimitSpring>)>(
     &::UnityEngine::ConfigurableJoint::get_angularXLimitSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d870;
+  constexpr static std::size_t addrs = 0x490d7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -992,7 +992,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimitSpring>)>(
     &::UnityEngine::ConfigurableJoint::set_angularXLimitSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d8fc;
+  constexpr static std::size_t addrs = 0x490d884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1007,7 +1007,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimitSpring>)>(
     &::UnityEngine::ConfigurableJoint::get_angularYZLimitSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490d98c;
+  constexpr static std::size_t addrs = 0x490d914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1022,7 +1022,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimitSpring>)>(
     &::UnityEngine::ConfigurableJoint::set_angularYZLimitSpring_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490da18;
+  constexpr static std::size_t addrs = 0x490d9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::get_linearLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490dab8;
+  constexpr static std::size_t addrs = 0x490da40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1052,7 +1052,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::set_linearLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490db50;
+  constexpr static std::size_t addrs = 0x490dad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1067,7 +1067,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::get_lowAngularXLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490dbf0;
+  constexpr static std::size_t addrs = 0x490db78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1082,7 +1082,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::set_lowAngularXLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490dc88;
+  constexpr static std::size_t addrs = 0x490dc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1097,7 +1097,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::get_highAngularXLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490dd28;
+  constexpr static std::size_t addrs = 0x490dcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1112,7 +1112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::set_highAngularXLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ddc0;
+  constexpr static std::size_t addrs = 0x490dd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1127,7 +1127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::get_angularYLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490de60;
+  constexpr static std::size_t addrs = 0x490dde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1142,7 +1142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::set_angularYLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490def8;
+  constexpr static std::size_t addrs = 0x490de80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1157,7 +1157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::get_angularZLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490df98;
+  constexpr static std::size_t addrs = 0x490df20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1172,7 +1172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::SoftJointLimit>)>(
     &::UnityEngine::ConfigurableJoint::set_angularZLimit_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e030;
+  constexpr static std::size_t addrs = 0x490dfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1187,7 +1187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::get_targetPosition_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e0d0;
+  constexpr static std::size_t addrs = 0x490e058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1202,7 +1202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::set_targetPosition_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e168;
+  constexpr static std::size_t addrs = 0x490e0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1217,7 +1217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::get_targetVelocity_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e208;
+  constexpr static std::size_t addrs = 0x490e190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1232,7 +1232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::set_targetVelocity_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e2a0;
+  constexpr static std::size_t addrs = 0x490e228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1247,7 +1247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::get_xDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e338;
+  constexpr static std::size_t addrs = 0x490e2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1262,7 +1262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::set_xDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e3cc;
+  constexpr static std::size_t addrs = 0x490e354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1277,7 +1277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::get_yDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e464;
+  constexpr static std::size_t addrs = 0x490e3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1292,7 +1292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::set_yDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e4f8;
+  constexpr static std::size_t addrs = 0x490e480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1307,7 +1307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::get_zDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e590;
+  constexpr static std::size_t addrs = 0x490e518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1322,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::set_zDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e624;
+  constexpr static std::size_t addrs = 0x490e5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1337,7 +1337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Quaternion>)>(
     &::UnityEngine::ConfigurableJoint::get_targetRotation_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e6c0;
+  constexpr static std::size_t addrs = 0x490e648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1352,7 +1352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Quaternion>)>(
     &::UnityEngine::ConfigurableJoint::set_targetRotation_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e758;
+  constexpr static std::size_t addrs = 0x490e6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1367,7 +1367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::get_targetAngularVelocity_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e7f8;
+  constexpr static std::size_t addrs = 0x490e780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1382,7 +1382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::ConfigurableJoint::set_targetAngularVelocity_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e890;
+  constexpr static std::size_t addrs = 0x490e818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1397,7 +1397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::get_angularXDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490e9a8;
+  constexpr static std::size_t addrs = 0x490e930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1412,7 +1412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::set_angularXDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ea3c;
+  constexpr static std::size_t addrs = 0x490e9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1427,7 +1427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::get_angularYZDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ead4;
+  constexpr static std::size_t addrs = 0x490ea5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1442,7 +1442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::set_angularYZDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490eb68;
+  constexpr static std::size_t addrs = 0x490eaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1457,7 +1457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::get_slerpDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ec00;
+  constexpr static std::size_t addrs = 0x490eb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1472,7 +1472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ConfigurableJoint::*)(::ByRef<::UnityEngine::JointDrive>)>(
     &::UnityEngine::ConfigurableJoint::set_slerpDrive_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ec94;
+  constexpr static std::size_t addrs = 0x490ec1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

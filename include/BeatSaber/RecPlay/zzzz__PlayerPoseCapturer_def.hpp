@@ -35,10 +35,10 @@ public:
   /// @brief Field frames, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_frames, put = __cordl_internal_set_frames)) ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PlayerPoseFrame>* frames;
 
-  /// @brief Method Capture, addr 0x227a888, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x227a848, size 0x120, virtual false, abstract: false, final false
   inline void Capture(float_t time, ::BeatSaber::RecPlay::PlayerPose pose);
 
-  /// @brief Method CreatePlayerPoseFrames, addr 0x227a9a8, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayerPoseFrames, addr 0x227a968, size 0x24c, virtual false, abstract: false, final false
   inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames();
 
   static inline ::BeatSaber::RecPlay::PlayerPoseCapturer* New_ctor(int32_t capacity);
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_frames(::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PlayerPoseFrame>* value);
 
-  /// @brief Method .ctor, addr 0x227a800, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a7c0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
 protected:

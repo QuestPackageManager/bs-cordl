@@ -49,10 +49,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController* New_ctor();
 
-  /// @brief Method UpdateBodyPosition, addr 0x225c494, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateBodyPosition, addr 0x225c454, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateBodyPosition();
 
-  /// @brief Method UpdateTransforms, addr 0x225c3c0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransforms, addr 0x225c380, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateTransforms(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ::UnityEngine::Quaternion headRotation,
                                ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x225c640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225c600, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyWorldPosition, addr 0x225c3a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_bodyWorldPosition, addr 0x225c364, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyWorldPosition();
 
 protected:

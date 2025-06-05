@@ -38,41 +38,41 @@ namespace Org::BouncyCastle::Security {
 class CORDL_TYPE PrivateKeyFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateKey, addr 0x25b9e60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x25b9e20, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::System::IO::Stream* inStr);
 
-  /// @brief Method CreateKey, addr 0x25b89dc, size 0x1484, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x25b899c, size 0x1484, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
 
-  /// @brief Method CreateKey, addr 0x25b89c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x25b8980, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfoData);
 
-  /// @brief Method DecryptKey, addr 0x25b9f48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method DecryptKey, addr 0x25b9f08, size 0x2c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method DecryptKey, addr 0x25b9f10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DecryptKey, addr 0x25b9ed0, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
 
-  /// @brief Method DecryptKey, addr 0x25b9f24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DecryptKey, addr 0x25b9ee4, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPrivateKeyInfoData);
 
-  /// @brief Method DecryptKey, addr 0x25b9f74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DecryptKey, addr 0x25b9f34, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::System::IO::Stream* encryptedPrivateKeyInfoStream);
 
-  /// @brief Method EncryptKey, addr 0x25b9f98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EncryptKey, addr 0x25b9f58, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptKey(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method EncryptKey, addr 0x25b9fb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EncryptKey, addr 0x25b9f78, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptKey(::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                 int32_t iterationCount, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method GetRawKey, addr 0x25b9e7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetRawKey, addr 0x25b9e3c, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawKey(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo, int32_t expectedSize);
 
   static inline ::Org::BouncyCastle::Security::PrivateKeyFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25b89b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b8978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

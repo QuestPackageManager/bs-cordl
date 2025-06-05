@@ -989,7 +989,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetSerializer_CustomType::*)()>(&::LiteNetLib::Utils::NetSerializer_CustomType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abecc8;
+  constexpr static std::size_t addrs = 0x3abeca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer_CustomType*>::get(), ".ctor",
@@ -998,8 +998,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomType::Get() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer_CustomType*>::get(), 4)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer_CustomType*>::get(), 4)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*, false>(this, ___internal_method);
 }
 inline void LiteNetLib::Utils::NetSerializer_CustomType::_ctor() {
@@ -1013,9 +1015,11 @@ inline ::LiteNetLib::Utils::NetSerializer_CustomType* LiteNetLib::Utils::NetSeri
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetSerializer_CustomType::NetSerializer_CustomType() {}
 template <typename TProperty> template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::Get() {
-  auto* ___internal_method =
+  auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>*>::get(), 4)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*, false>(this, ___internal_method);
 }
 template <typename TProperty> inline void LiteNetLib::Utils::NetSerializer_CustomTypeStruct_1<TProperty>::_ctor() {
@@ -1048,9 +1052,11 @@ template <typename TProperty> inline void LiteNetLib::Utils::NetSerializer_Custo
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, constructor);
 }
 template <typename TProperty> template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>::Get() {
-  auto* ___internal_method =
+  auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer_CustomTypeClass_1<TProperty>*>::get(), 4)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*, false>(this, ___internal_method);
 }
 template <typename TProperty>
@@ -1099,9 +1105,11 @@ inline void LiteNetLib::Utils::NetSerializer_CustomTypeStatic_1<TProperty>::_cto
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, reader);
 }
 template <typename TProperty> template <typename T> inline ::LiteNetLib::Utils::NetSerializer_FastCall_1<T>* LiteNetLib::Utils::NetSerializer_CustomTypeStatic_1<TProperty>::Get() {
-  auto* ___internal_method =
+  auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer_CustomTypeStatic_1<TProperty>*>::get(), 4)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetSerializer_FastCall_1<T>*, false>(this, ___internal_method);
 }
 template <typename TProperty>
@@ -1117,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetSerializer::*)()>(&::LiteNetLib::Utils::NetSerializer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abe7c0;
+  constexpr static std::size_t addrs = 0x3abe798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetSerializer*>::get(), ".ctor",
@@ -1130,7 +1138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetSerializer::*)(int32_t)>(&::LiteNetLib::Utils::NetSerializer::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3abe8ac;
+  constexpr static std::size_t addrs = 0x3abe884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

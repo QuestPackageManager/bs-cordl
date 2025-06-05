@@ -36,13 +36,13 @@ public:
   /// @brief Field _encoding, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::System::Text::Encoding* _encoding;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x3c78ba0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x3c78b28, size 0x58, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x3c78d24, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c78cac, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3c78de8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c78d70, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::InternalEncoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  /// @brief Method .ctor, addr 0x3c78b70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c78af8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_MaxCharCount, addr 0x3c78d1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x3c78ca4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:

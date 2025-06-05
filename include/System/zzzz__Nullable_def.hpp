@@ -21,7 +21,7 @@ namespace System {
 class CORDL_TYPE Nullable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUnderlyingType, addr 0x3dee4d8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingType, addr 0x3dee460, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Type* GetUnderlyingType(::System::Type* nullableType);
 
 protected:

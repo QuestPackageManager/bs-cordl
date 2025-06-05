@@ -27,25 +27,25 @@ public:
 
   __declspec(property(get = get_wantsMouseMove, put = set_wantsMouseMove)) bool wantsMouseMove;
 
-  /// @brief Method WantsEvent, addr 0x48d7a7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WantsEvent, addr 0x48d7a04, size 0x30, virtual false, abstract: false, final false
   inline bool WantsEvent(::UnityEngine::EventType type);
 
-  /// @brief Method WantsLayoutPass, addr 0x48d7aac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WantsLayoutPass, addr 0x48d7a34, size 0xdc, virtual false, abstract: false, final false
   inline bool WantsLayoutPass(::UnityEngine::EventType type);
 
-  /// @brief Method get_wantsLessLayoutEvents, addr 0x48d7a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wantsLessLayoutEvents, addr 0x48d79fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsLessLayoutEvents();
 
-  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x48d7a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x48d79e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseEnterLeaveWindow();
 
-  /// @brief Method get_wantsMouseMove, addr 0x48d7a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wantsMouseMove, addr 0x48d79d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseMove();
 
-  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x48d7a68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x48d79f0, size 0xc, virtual false, abstract: false, final false
   inline void set_wantsMouseEnterLeaveWindow(bool value);
 
-  /// @brief Method set_wantsMouseMove, addr 0x48d7a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_wantsMouseMove, addr 0x48d79dc, size 0xc, virtual false, abstract: false, final false
   inline void set_wantsMouseMove(bool value);
 
   // Ctor Parameters []

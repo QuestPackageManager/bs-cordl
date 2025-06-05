@@ -30,10 +30,10 @@ public:
 
   static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
 
-  /// @brief Method Run, addr 0x22e978c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x22e974c, size 0x4, virtual true, abstract: false, final true
   inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
 
-  /// @brief Method .ctor, addr 0x22e9790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e9750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();

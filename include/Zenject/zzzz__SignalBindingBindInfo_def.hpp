@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__SignalType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4afb680, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afb608, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x4afb6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x4afb630, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method get_SignalType, addr 0x4afb6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x4afb640, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method set_Identifier, addr 0x4afb6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x4afb638, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method set_SignalType, addr 0x4afb6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x4afb648, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
 protected:

@@ -26,24 +26,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
 
-  /// @brief Method LoadRecording, addr 0x3b1860c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x3b185e4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
   static inline ::GlobalNamespace::EmptyPosesSerializer* New_ctor();
 
-  /// @brief Method RecordingCanBeCreated, addr 0x3b1861c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x3b185f4, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x3b18614, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x3b185ec, size 0x8, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method SaveRecording, addr 0x3b18608, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x3b185e0, size 0x4, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method SaveToOldFormat, addr 0x3b18604, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x3b185dc, size 0x4, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method .ctor, addr 0x3b18624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b185fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"

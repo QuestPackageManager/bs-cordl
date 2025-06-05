@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_TransformType(::GlobalNamespace::OVRSceneObjectTransformType_Transformation value);
 
-  /// @brief Method .ctor, addr 0x400ea3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400e9c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

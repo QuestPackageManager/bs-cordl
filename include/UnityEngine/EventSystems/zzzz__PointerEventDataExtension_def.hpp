@@ -27,16 +27,16 @@ namespace UnityEngine::EventSystems {
 class CORDL_TYPE PointerEventDataExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRay, addr 0x407cb90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetRay, addr 0x407cb18, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method GetSwipeStart, addr 0x407c004, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetSwipeStart, addr 0x407bf8c, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method IsVRPointer, addr 0x407a4d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsVRPointer, addr 0x407a458, size 0x78, virtual false, abstract: false, final false
   static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
-  /// @brief Method SetSwipeStart, addr 0x407a548, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetSwipeStart, addr 0x407a4d0, size 0x8c, virtual false, abstract: false, final false
   static inline void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
 
 protected:

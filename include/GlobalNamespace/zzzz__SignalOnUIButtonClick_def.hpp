@@ -32,10 +32,10 @@ public:
 
   static inline ::GlobalNamespace::SignalOnUIButtonClick* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39c4e28, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39c4e00, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x39c4da0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39c4d78, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x39c4ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c4ecc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

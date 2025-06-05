@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::add_nodeAdded)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4aeab24;
+  constexpr static std::size_t addrs = 0x4aeaaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::remove_nodeAdded)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4aeabf4;
+  constexpr static std::size_t addrs = 0x4aeab7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(&::UnityEngine::XR::InputTracking::add_nodeRemoved)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4aeacc4;
+  constexpr static std::size_t addrs = 0x4aeac4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityEngine::XR::XRNodeState>*)>(
     &::UnityEngine::XR::InputTracking::remove_nodeRemoved)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4aead94;
+  constexpr static std::size_t addrs = 0x4aead1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::XR::InputTracking_TrackingStateEventType, ::UnityEngine::XR::XRNode, int64_t, bool)>(
     &::UnityEngine::XR::InputTracking::InvokeTrackingEvent)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4aeae64;
+  constexpr static std::size_t addrs = 0x4aeadec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*)>(
     &::UnityEngine::XR::InputTracking::GetNodeStates)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4aeb028;
+  constexpr static std::size_t addrs = 0x4aeafb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*)>(
     &::UnityEngine::XR::InputTracking::GetNodeStates_Internal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4aeb0dc;
+  constexpr static std::size_t addrs = 0x4aeb064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::UnityEngine::XR::XRNode)>(&::UnityEngine::XR::InputTracking::GetDeviceIdAtXRNode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4aeb118;
+  constexpr static std::size_t addrs = 0x4aeb0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

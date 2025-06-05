@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Org::BouncyCastle::Asn1::X509::X509Name::get_DefaultReverse)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2619ecc;
+  constexpr static std::size_t addrs = 0x2619e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509Name*>::get(),
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Org::BouncyCastle::Asn1::X509::X509Name::set_DefaultReverse)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2619f3c;
+  constexpr static std::size_t addrs = 0x2619efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::GetInstance)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26073a8;
+  constexpr static std::size_t addrs = 0x2607368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2607574;
+  constexpr static std::size_t addrs = 0x2607534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)()>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x261c1f4;
+  constexpr static std::size_t addrs = 0x261c1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509Name*>::get(), ".ctor",
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x920;
-  constexpr static std::size_t addrs = 0x261b8d4;
+  constexpr static std::size_t addrs = 0x261b894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::System::Collections::IList*, ::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x261c270;
+  constexpr static std::size_t addrs = 0x261c230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(
     ::System::Collections::IList*, ::System::Collections::IDictionary*, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x654;
-  constexpr static std::size_t addrs = 0x261c2e4;
+  constexpr static std::size_t addrs = 0x261c2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::System::Collections::IList*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x261c938;
+  constexpr static std::size_t addrs = 0x261c8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(
     ::System::Collections::IList*, ::System::Collections::IList*, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x261c9ac;
+  constexpr static std::size_t addrs = 0x261c96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2606d18;
+  constexpr static std::size_t addrs = 0x2606cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::StringW, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x261ceb0;
+  constexpr static std::size_t addrs = 0x261ce70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(bool, ::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x261d978;
+  constexpr static std::size_t addrs = 0x261d938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(bool, ::StringW, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x261d9f0;
+  constexpr static std::size_t addrs = 0x261d9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(bool, ::System::Collections::IDictionary*, ::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x261ce2c;
+  constexpr static std::size_t addrs = 0x261cdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (
     ::Org::BouncyCastle::Asn1::X509::X509Name::*)(::StringW, ::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::DecodeOid)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x261da78;
+  constexpr static std::size_t addrs = 0x261da38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(
     bool, ::System::Collections::IDictionary*, ::StringW, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::_ctor)> {
   constexpr static std::size_t size = 0xa48;
-  constexpr static std::size_t addrs = 0x261cf30;
+  constexpr static std::size_t addrs = 0x261cef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Asn1::X509::X509Name::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::GetOidList)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x261df5c;
+  constexpr static std::size_t addrs = 0x261df1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509Name*>::get(), "GetOidList",
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Asn1::X509::X509Name::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::GetValueList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x261dfb8;
+  constexpr static std::size_t addrs = 0x261df78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509Name*>::get(),
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (
     ::Org::BouncyCastle::Asn1::X509::X509Name::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Asn1::X509::X509Name::GetValueList)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x261dfc0;
+  constexpr static std::size_t addrs = 0x261df80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::X509Name::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::ToAsn1Object)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x261e2b4;
+  constexpr static std::size_t addrs = 0x261e274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::Org::BouncyCastle::Asn1::X509::X509Name*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::Equivalent)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x261e778;
+  constexpr static std::size_t addrs = 0x261e738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509Name::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::Equivalent)> {
   constexpr static std::size_t size = 0x624;
-  constexpr static std::size_t addrs = 0x261ebd8;
+  constexpr static std::size_t addrs = 0x261eb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509Name::equivalentStrings)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x261f1fc;
+  constexpr static std::size_t addrs = 0x261f1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509Name::canonicalize)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x261f2d4;
+  constexpr static std::size_t addrs = 0x261f294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509Name::decodeObject)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x261f59c;
+  constexpr static std::size_t addrs = 0x261f55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509Name::stripInternalSpaces)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x261f4a0;
+  constexpr static std::size_t addrs = 0x261f460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509Name::*)(
     ::System::Text::StringBuilder*, ::System::Collections::IDictionary*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::StringW)>(&::Org::BouncyCastle::Asn1::X509::X509Name::AppendValue)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x261f704;
+  constexpr static std::size_t addrs = 0x261f6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::X509Name::*)(bool, ::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Asn1::X509::X509Name::ToString)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x261f9d8;
+  constexpr static std::size_t addrs = 0x261f998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::X509Name::*)()>(&::Org::BouncyCastle::Asn1::X509::X509Name::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x261ffb4;
+  constexpr static std::size_t addrs = 0x261ff74;
 
   inline static ::MethodInfo const* methodInfo() {
 

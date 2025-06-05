@@ -50,18 +50,18 @@ public:
 
   __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x3b9d26c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b9d244, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::RectangleFakeGlow* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b9d45c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b9d434, size 0x6c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b9d2d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b9d2b0, size 0x74, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3b9d34c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b9d324, size 0x110, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -88,21 +88,21 @@ public:
 
   constexpr void __cordl_internal_set__size(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b9d4c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9d4a0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
 
   static inline int32_t getStaticF__sizeParamsID();
 
-  /// @brief Method get_color, addr 0x3b9d260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3b9d238, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorID(int32_t value);
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_color, addr 0x3b9d19c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3b9d174, size 0xc4, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

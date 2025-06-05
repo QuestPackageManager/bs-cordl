@@ -29,7 +29,7 @@ public:
   /// @brief Field content, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::System::Xml::Schema::XmlSchemaSimpleTypeContent* content;
 
-  /// @brief Method Clone, addr 0x42c9b30, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42c9ab8, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* New_ctor();
@@ -40,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
 
-  /// @brief Method .ctor, addr 0x42c9aa8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c9a30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x42c9b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x42c9aa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleTypeContent* get_Content();
 
-  /// @brief Method set_Content, addr 0x42c9b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x42c9ab0, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
 
 protected:

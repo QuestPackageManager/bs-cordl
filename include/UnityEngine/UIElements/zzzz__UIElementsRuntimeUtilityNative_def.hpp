@@ -30,22 +30,22 @@ public:
   /// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_UpdateRuntimePanelsCallback, put = setStaticF_UpdateRuntimePanelsCallback)) ::System::Action* UpdateRuntimePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x4a42d34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x4a42cbc, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RepaintOffscreenPanels, addr 0x4a42cd0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOffscreenPanels, addr 0x4a42c58, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOffscreenPanels();
 
-  /// @brief Method RepaintOverlayPanels, addr 0x4a42c08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOverlayPanels, addr 0x4a42b90, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanels();
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x4a42d5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x4a42ce4, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdateRuntimePanels, addr 0x4a42c6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateRuntimePanels, addr 0x4a42bf4, size 0x64, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x4a42d84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x4a42d0c, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RepaintOffscreenPanelsCallback();

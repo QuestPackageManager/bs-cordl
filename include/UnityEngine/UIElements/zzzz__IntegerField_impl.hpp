@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::IntegerField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49f2838;
+  constexpr static std::size_t addrs = 0x49f27c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_UxmlFactory*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::IntegerField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49f2880;
+  constexpr static std::size_t addrs = 0x49f2808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_UxmlTraits*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IntegerField* (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(
     &::UnityEngine::UIElements::IntegerField_IntegerInput::get_parentIntegerField)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49f28c8;
+  constexpr static std::size_t addrs = 0x49f2850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(
     &::UnityEngine::UIElements::IntegerField_IntegerInput::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x49f264c;
+  constexpr static std::size_t addrs = 0x49f25d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(
     &::UnityEngine::UIElements::IntegerField_IntegerInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49f2948;
+  constexpr static std::size_t addrs = 0x49f28d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::IntegerField_IntegerInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x49f29a0;
+  constexpr static std::size_t addrs = 0x49f2928;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(int32_t)>(
     &::UnityEngine::UIElements::IntegerField_IntegerInput::ValueToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x49f2bf0;
+  constexpr static std::size_t addrs = 0x49f2b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(::StringW)>(
     &::UnityEngine::UIElements::IntegerField_IntegerInput::StringToValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49f2c3c;
+  constexpr static std::size_t addrs = 0x49f2bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IntegerField_IntegerInput* (::UnityEngine::UIElements::IntegerField::*)()>(
     &::UnityEngine::UIElements::IntegerField::get_integerInput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49f22d8;
+  constexpr static std::size_t addrs = 0x49f2260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField::*)(int32_t)>(
     &::UnityEngine::UIElements::IntegerField::ValueToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x49f235c;
+  constexpr static std::size_t addrs = 0x49f22e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::IntegerField::*)(::StringW)>(
     &::UnityEngine::UIElements::IntegerField::StringToValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x49f2414;
+  constexpr static std::size_t addrs = 0x49f239c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)()>(&::UnityEngine::UIElements::IntegerField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49f24f0;
+  constexpr static std::size_t addrs = 0x49f2478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(), ".ctor",
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::IntegerField::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x49f24fc;
+  constexpr static std::size_t addrs = 0x49f2484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IntegerField::*)(::StringW)>(
     &::UnityEngine::UIElements::IntegerField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49f26e0;
+  constexpr static std::size_t addrs = 0x49f2668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::IntegerField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49f2704;
+  constexpr static std::size_t addrs = 0x49f268c;
 
   inline static ::MethodInfo const* methodInfo() {
 

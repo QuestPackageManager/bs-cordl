@@ -31,37 +31,37 @@ public:
   // Declarations
   __declspec(property(get = get_InitiallyDirectory, put = set_InitiallyDirectory)) bool InitiallyDirectory;
 
-  /// @brief Method EnsureStatInitialized, addr 0x3d69f34, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EnsureStatInitialized, addr 0x3d69ebc, size 0xc0, virtual false, abstract: false, final false
   inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetAttributes, addr 0x3d69ff4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x3d69f7c, size 0xe8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
 
-  /// @brief Method GetExists, addr 0x3d6a0dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExists, addr 0x3d6a064, size 0x44, virtual false, abstract: false, final false
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetLastWriteTime, addr 0x3d6a2b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLastWriteTime, addr 0x3d6a240, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetLength, addr 0x3d6a404, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x3d6a38c, size 0x1c, virtual false, abstract: false, final false
   inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Initialize, addr 0x3d69e30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3d69db8, size 0x14, virtual false, abstract: false, final false
   static inline void Initialize(::ByRef<::System::IO::FileStatus> status, bool isDirectory);
 
-  /// @brief Method IsReadOnly, addr 0x3d69e44, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsReadOnly, addr 0x3d69dcc, size 0xf0, virtual false, abstract: false, final false
   inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Refresh, addr 0x3d6a120, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3d6a0a8, size 0x198, virtual false, abstract: false, final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method UnixTimeToDateTimeOffset, addr 0x3d6a354, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UnixTimeToDateTimeOffset, addr 0x3d6a2dc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
-  /// @brief Method get_InitiallyDirectory, addr 0x3d69e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitiallyDirectory, addr 0x3d69da4, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitiallyDirectory();
 
-  /// @brief Method set_InitiallyDirectory, addr 0x3d69e24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InitiallyDirectory, addr 0x3d69dac, size 0xc, virtual false, abstract: false, final false
   inline void set_InitiallyDirectory(bool value);
 
   // Ctor Parameters []

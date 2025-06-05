@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_GPUAppTime)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4834f00;
+  constexpr static std::size_t addrs = 0x4834e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_GPUCompositorTime)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4834fb0;
+  constexpr static std::size_t addrs = 0x4834f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_MotionToPhoton)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4835060;
+  constexpr static std::size_t addrs = 0x4834fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_RefreshRate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4835110;
+  constexpr static std::size_t addrs = 0x4835098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_BatteryTemp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48351c0;
+  constexpr static std::size_t addrs = 0x4835148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_BatteryLevel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x483523c;
+  constexpr static std::size_t addrs = 0x48351c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_PowerSavingMode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48352b8;
+  constexpr static std::size_t addrs = 0x4835240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_AdaptivePerformanceScale)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x483533c;
+  constexpr static std::size_t addrs = 0x48352c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_CPULevel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x48353b8;
+  constexpr static std::size_t addrs = 0x4835340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::Stats_AdaptivePerformance::get_GPULevel)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x483544c;
+  constexpr static std::size_t addrs = 0x48353d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AdaptivePerformance*>::get(),
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_AppCPUTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48354e0;
+  constexpr static std::size_t addrs = 0x4835468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(), "get_AppCPUTime",
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_AppGPUTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x483555c;
+  constexpr static std::size_t addrs = 0x48354e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(), "get_AppGPUTime",
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_CompositorCPUTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48355d8;
+  constexpr static std::size_t addrs = 0x4835560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_CompositorGPUTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835654;
+  constexpr static std::size_t addrs = 0x48355dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_GPUUtilization)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48356d0;
+  constexpr static std::size_t addrs = 0x4835658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_CPUUtilizationAverage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x483574c;
+  constexpr static std::size_t addrs = 0x48356d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_CPUUtilizationWorst)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48357c8;
+  constexpr static std::size_t addrs = 0x4835750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_CPUClockFrequency)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835844;
+  constexpr static std::size_t addrs = 0x48357cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_PerfMetrics::get_GPUClockFrequency)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48358c0;
+  constexpr static std::size_t addrs = 0x4835848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_PerfMetrics*>::get(),
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::Stats_PerfMetrics::EnablePerfMetrics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483593c;
+  constexpr static std::size_t addrs = 0x48358c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_AppQueueAheadTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x483594c;
+  constexpr static std::size_t addrs = 0x48358d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_AppCPUElapsedTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48359c8;
+  constexpr static std::size_t addrs = 0x4835950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_CompositorDroppedFrames)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835a44;
+  constexpr static std::size_t addrs = 0x48359cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_CompositorLatency)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835ac0;
+  constexpr static std::size_t addrs = 0x4835a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_CompositorCPUTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835b3c;
+  constexpr static std::size_t addrs = 0x4835ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_CPUStartToGPUEnd)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835bb8;
+  constexpr static std::size_t addrs = 0x4835b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::Stats_AppMetrics::get_GPUEndToVsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4835c34;
+  constexpr static std::size_t addrs = 0x4835bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats_AppMetrics*>::get(),
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::Stats_AppMetrics::EnableAppMetrics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4835cb0;
+  constexpr static std::size_t addrs = 0x4835c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Unity::XR::Oculus::Stats::get_PluginVersion)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4834a04;
+  constexpr static std::size_t addrs = 0x483498c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats*>::get(), "get_PluginVersion",
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IntegratedSubsystem* (*)()>(&::Unity::XR::Oculus::Stats::GetOculusDisplaySubsystem)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x4834b54;
+  constexpr static std::size_t addrs = 0x4834adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats*>::get(), "GetOculusDisplaySubsystem",
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Stats::*)()>(&::Unity::XR::Oculus::Stats::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4834e90;
+  constexpr static std::size_t addrs = 0x4834e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Stats*>::get(), ".ctor",

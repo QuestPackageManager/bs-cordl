@@ -42,10 +42,10 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x485394c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48538d4, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x4853a28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48539b0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AnimatorControllerParameter* New_ctor();
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::AnimatorControllerParameterType value);
 
-  /// @brief Method .ctor, addr 0x4853a48, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48539d0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x4853944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x48538cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:

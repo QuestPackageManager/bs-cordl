@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_DidUnblock(bool value);
 
-  /// @brief Method .ctor, addr 0x3f91bdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f91b64, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::BaseListView*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a1fc6c;
+  constexpr static std::size_t addrs = 0x4a1fbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::HandleDragAndDrop)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4a1fc90;
+  constexpr static std::size_t addrs = 0x4a1fc18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::ListViewReorderableDragAndDropController::OnDrop)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4a1fdd8;
+  constexpr static std::size_t addrs = 0x4a1fd60;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -47,25 +47,25 @@ public:
   /// @brief Field start, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
-  /// @brief Method Asn1Equals, addr 0x2407b54, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x2407b14, size 0xbc, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x2407c10, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x2407bd0, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x2407b2c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2407aec, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromOctetString, addr 0x2407488, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method FromOctetString, addr 0x2407448, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::ArrayW<uint8_t, ::Array<uint8_t>*> enc);
 
-  /// @brief Method GetInstance, addr 0x2407370, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2407330, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x24070ec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24070ac, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::System::Object* obj);
 
-  /// @brief Method HasValue, addr 0x2407a34, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HasValue, addr 0x24079f4, size 0x78, virtual false, abstract: false, final false
   inline bool HasValue(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
@@ -88,24 +88,24 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x24078ac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240786c, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x2407808, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24077c8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method .ctor, addr 0x2407640, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2407600, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t val);
 
-  /// @brief Method .ctor, addr 0x2407724, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24076e4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int64_t val);
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> getStaticF_cache();
 
-  /// @brief Method get_IntValueExact, addr 0x2407aac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IntValueExact, addr 0x2407a6c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_IntValueExact();
 
-  /// @brief Method get_Value, addr 0x24079d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2407994, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
   static inline void setStaticF_cache(::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> value);

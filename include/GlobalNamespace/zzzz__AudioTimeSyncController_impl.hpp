@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController_InitData::*)(::UnityEngine::AudioClip*, float_t, float_t, float_t)>(
     &::GlobalNamespace::AudioTimeSyncController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ad0478;
+  constexpr static std::size_t addrs = 0x3ad0450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AudioTimeSyncController_State (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf174;
+  constexpr static std::size_t addrs = 0x3acf14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "get_state",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf17c;
+  constexpr static std::size_t addrs = 0x3acf154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_lastFrameDeltaSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf184;
+  constexpr static std::size_t addrs = 0x3acf15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_songLength)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3acf18c;
+  constexpr static std::size_t addrs = 0x3acf164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_songFailedToLoad)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3acf224;
+  constexpr static std::size_t addrs = 0x3acf1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_isAudioLoaded)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3acf2fc;
+  constexpr static std::size_t addrs = 0x3acf2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_startSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf3d8;
+  constexpr static std::size_t addrs = 0x3acf3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_songEndTime)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3acf3e0;
+  constexpr static std::size_t addrs = 0x3acf3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_timeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf404;
+  constexpr static std::size_t addrs = 0x3acf3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_dspTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf40c;
+  constexpr static std::size_t addrs = 0x3acf3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_waitUntilAudioIsLoaded)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3acf414;
+  constexpr static std::size_t addrs = 0x3acf3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf4bc;
+  constexpr static std::size_t addrs = 0x3acf494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_songTimeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf4c4;
+  constexpr static std::size_t addrs = 0x3acf49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_forceNoAudioSyncOrAudioSyncErrorFixing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acf4cc;
+  constexpr static std::size_t addrs = 0x3acf4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(bool)>(
     &::GlobalNamespace::AudioTimeSyncController::set_forceNoAudioSyncOrAudioSyncErrorFixing)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3acf4d4;
+  constexpr static std::size_t addrs = 0x3acf4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::AudioTimeSyncController::add_stateChangedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3acf4e0;
+  constexpr static std::size_t addrs = 0x3acf4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::AudioTimeSyncController::remove_stateChangedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3acf57c;
+  constexpr static std::size_t addrs = 0x3acf554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::get_timeSinceStart)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3acf618;
+  constexpr static std::size_t addrs = 0x3acf5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(),
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Awake)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3acf638;
+  constexpr static std::size_t addrs = 0x3acf610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "Awake",
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Start)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3acf684;
+  constexpr static std::size_t addrs = 0x3acf65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "Start",
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::OnDestroy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3acf7f8;
+  constexpr static std::size_t addrs = 0x3acf7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "OnDestroy",
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(bool)>(
     &::GlobalNamespace::AudioTimeSyncController::HandleAudioConfigurationChanged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3acf878;
+  constexpr static std::size_t addrs = 0x3acf850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Update)> {
   constexpr static std::size_t size = 0x924;
-  constexpr static std::size_t addrs = 0x3acf8bc;
+  constexpr static std::size_t addrs = 0x3acf894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "Update",
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(float_t)>(
     &::GlobalNamespace::AudioTimeSyncController::StartSong)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ad01e0;
+  constexpr static std::size_t addrs = 0x3ad01b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)(float_t)>(&::GlobalNamespace::AudioTimeSyncController::SeekTo)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3ad0224;
+  constexpr static std::size_t addrs = 0x3ad01fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::StopSong)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ad0370;
+  constexpr static std::size_t addrs = 0x3ad0348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "StopSong",
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Pause)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ad03b8;
+  constexpr static std::size_t addrs = 0x3ad0390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "Pause",
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::Resume)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ad0410;
+  constexpr static std::size_t addrs = 0x3ad03e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), "Resume",
@@ -494,7 +494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioTimeSyncController::*)()>(&::GlobalNamespace::AudioTimeSyncController::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ad0460;
+  constexpr static std::size_t addrs = 0x3ad0438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioTimeSyncController*>::get(), ".ctor",
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioTimeSyncController::*)()>(
     &::GlobalNamespace::AudioTimeSyncController::_get_waitUntilAudioIsLoaded_b__32_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ad0474;
+  constexpr static std::size_t addrs = 0x3ad044c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

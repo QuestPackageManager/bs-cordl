@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_MeshFilter_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a9a3f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a9a3cc, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshFilter* _ToTestObject_b__1_0(::UnityEngine::MeshFilter* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a9a450, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a9a428, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshFilter* _ToTestObject_b__2_0(::UnityEngine::MeshFilter* lod);
 
-  /// @brief Method .ctor, addr 0x3a9a3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9a3c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_MeshFilter_Extensions___c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_MeshFilter_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3a9a1a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9a180, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_MeshFilter*, ::Array<::HoudiniEngineUnity::Test_MeshFilter*>*>
   ToTestObject(::ArrayW<::UnityEngine::MeshFilter*, ::Array<::UnityEngine::MeshFilter*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a95f94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a95f6c, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_MeshFilter* ToTestObject(::UnityEngine::MeshFilter* self);
 
-  /// @brief Method ToTestObject, addr 0x3a9a298, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a9a270, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshFilter*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* self);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_hidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40327dc;
+  constexpr static std::size_t addrs = 0x4032764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_hidden",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(bool)>(&::GlobalNamespace::OVRGazePointer::set_hidden)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40327e4;
+  constexpr static std::size_t addrs = 0x403276c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_currentScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40327f0;
+  constexpr static std::size_t addrs = 0x4032778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_currentScale",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(float_t)>(&::GlobalNamespace::OVRGazePointer::set_currentScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40327f8;
+  constexpr static std::size_t addrs = 0x4032780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRGazePointer> (*)()>(&::GlobalNamespace::OVRGazePointer::get_instance)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x4032800;
+  constexpr static std::size_t addrs = 0x4032788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "get_instance",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_visibilityStrength)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4032a0c;
+  constexpr static std::size_t addrs = 0x4032994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_SelectionProgress)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4032aa8;
+  constexpr static std::size_t addrs = 0x4032a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(),
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(float_t)>(&::GlobalNamespace::OVRGazePointer::set_SelectionProgress)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4032b20;
+  constexpr static std::size_t addrs = 0x4032aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Awake)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4032ba0;
+  constexpr static std::size_t addrs = 0x4032b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Awake",
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Update)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4032d10;
+  constexpr static std::size_t addrs = 0x4032c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Update",
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGazePointer::SetCursorStartDest)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x40330d8;
+  constexpr static std::size_t addrs = 0x4033060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRGazePointer::SetCursorRay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40332d8;
+  constexpr static std::size_t addrs = 0x4033260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::LateUpdate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x40332dc;
+  constexpr static std::size_t addrs = 0x4033264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "LateUpdate",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::RequestHide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4033454;
+  constexpr static std::size_t addrs = 0x40333dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "RequestHide",
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::RequestShow)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40332b8;
+  constexpr static std::size_t addrs = 0x4033240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "RequestShow",
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Hide)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4032ea4;
+  constexpr static std::size_t addrs = 0x4032e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Hide",
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Show)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4032fc0;
+  constexpr static std::size_t addrs = 0x4032f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), "Show",
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4033480;
+  constexpr static std::size_t addrs = 0x4033408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGazePointer*>::get(), ".ctor",

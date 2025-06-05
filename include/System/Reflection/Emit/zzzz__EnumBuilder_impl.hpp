@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_Assembly)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3569c;
+  constexpr static std::size_t addrs = 0x3d35624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d356d4;
+  constexpr static std::size_t addrs = 0x3d3565c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_BaseType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3570c;
+  constexpr static std::size_t addrs = 0x3d35694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_FullName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35744;
+  constexpr static std::size_t addrs = 0x3d356cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_GUID)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3577c;
+  constexpr static std::size_t addrs = 0x3d35704;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_Module)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d357b4;
+  constexpr static std::size_t addrs = 0x3d3573c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d357ec;
+  constexpr static std::size_t addrs = 0x3d35774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Namespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35824;
+  constexpr static std::size_t addrs = 0x3d357ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3585c;
+  constexpr static std::size_t addrs = 0x3d357e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35894;
+  constexpr static std::size_t addrs = 0x3d3581c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::EnumBuilder::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d358cc;
+  constexpr static std::size_t addrs = 0x3d35854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetConstructors)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35904;
+  constexpr static std::size_t addrs = 0x3d3588c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::EnumBuilder::*)(bool)>(
     &::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3593c;
+  constexpr static std::size_t addrs = 0x3d358c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::EnumBuilder::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35974;
+  constexpr static std::size_t addrs = 0x3d358fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetElementType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d359ac;
+  constexpr static std::size_t addrs = 0x3d35934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::EventInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d359e4;
+  constexpr static std::size_t addrs = 0x3d3596c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::EventInfo*, ::Array<::System::Reflection::EventInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35a1c;
+  constexpr static std::size_t addrs = 0x3d359a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::FieldInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetField)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35a54;
+  constexpr static std::size_t addrs = 0x3d359dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetFields)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35a8c;
+  constexpr static std::size_t addrs = 0x3d35a14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetInterfaces)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35ac4;
+  constexpr static std::size_t addrs = 0x3d35a4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetMembers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35afc;
+  constexpr static std::size_t addrs = 0x3d35a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -342,7 +342,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
         &::System::Reflection::Emit::EnumBuilder::GetMethodImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35b34;
+  constexpr static std::size_t addrs = 0x3d35abc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetMethods)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35b6c;
+  constexpr static std::size_t addrs = 0x3d35af4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetNestedType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35ba4;
+  constexpr static std::size_t addrs = 0x3d35b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35bdc;
+  constexpr static std::size_t addrs = 0x3d35b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -404,7 +404,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::EnumBuilder::GetPropertyImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35c14;
+  constexpr static std::size_t addrs = 0x3d35b9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35c4c;
+  constexpr static std::size_t addrs = 0x3d35bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -436,7 +436,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>, ::System::Globalization::CultureInfo*,
                                                 ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Reflection::Emit::EnumBuilder::InvokeMember)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35c84;
+  constexpr static std::size_t addrs = 0x3d35c0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsArrayImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35cbc;
+  constexpr static std::size_t addrs = 0x3d35c44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsByRefImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35cf4;
+  constexpr static std::size_t addrs = 0x3d35c7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35d2c;
+  constexpr static std::size_t addrs = 0x3d35cb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::EnumBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35d64;
+  constexpr static std::size_t addrs = 0x3d35cec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -507,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPointerImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35d9c;
+  constexpr static std::size_t addrs = 0x3d35d24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35dd4;
+  constexpr static std::size_t addrs = 0x3d35d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

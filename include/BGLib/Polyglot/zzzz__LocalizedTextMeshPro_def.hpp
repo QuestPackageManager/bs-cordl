@@ -28,24 +28,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedTextMeshPro : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshPro>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x22b1dfc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x22b1dbc, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x22b1dd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x22b1d94, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x22b1d80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x22b1d40, size 0x54, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshPro* New_ctor();
 
-  /// @brief Method SetText, addr 0x22b1c80, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x22b1c40, size 0x2c, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x22b1cac, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x22b1c6c, size 0xd4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x22b1e24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b1de4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

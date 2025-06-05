@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23d1e40;
+  constexpr static std::size_t addrs = 0x23d1e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23d1ee8;
+  constexpr static std::size_t addrs = 0x23d1ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::Init)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x23d1f28;
+  constexpr static std::size_t addrs = 0x23d1ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::Update)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23d20a0;
+  constexpr static std::size_t addrs = 0x23d2060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::BlockUpdate)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23d214c;
+  constexpr static std::size_t addrs = 0x23d210c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::GenerateSignature)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x23d2210;
+  constexpr static std::size_t addrs = 0x23d21d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::VerifySignature)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x23d2444;
+  constexpr static std::size_t addrs = 0x23d2404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23d1ffc;
+  constexpr static std::size_t addrs = 0x23d1fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner*>::get(),

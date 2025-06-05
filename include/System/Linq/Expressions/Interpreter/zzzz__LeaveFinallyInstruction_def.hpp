@@ -35,18 +35,18 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LeaveFinallyInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40c5320, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c52a8, size 0x48, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c52d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c5258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x40c52d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c5260, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c52e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c5268, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::Instruction* value);

@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__flatArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4390428, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43903b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FlatArrayIndex, addr 0x4390418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FlatArrayIndex, addr 0x43903a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FlatArrayIndex();
 
-  /// @brief Method set_FlatArrayIndex, addr 0x4390420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FlatArrayIndex, addr 0x43903a8, size 0x8, virtual false, abstract: false, final false
   inline void set_FlatArrayIndex(int32_t value);
 
 protected:

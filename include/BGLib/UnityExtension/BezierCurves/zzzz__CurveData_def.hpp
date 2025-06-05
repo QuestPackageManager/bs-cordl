@@ -26,13 +26,13 @@ namespace BGLib::UnityExtension::BezierCurves {
 struct CORDL_TYPE CurveData {
 public:
   // Declarations
-  /// @brief Method Evaluate, addr 0x22b81a4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x22b8164, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t t);
 
-  /// @brief Method RotatePointAroundPivot, addr 0x22b8900, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RotatePointAroundPivot, addr 0x22b88c0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatePointAroundPivot(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method RotatePointsAroundPivot, addr 0x22b87c4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RotatePointsAroundPivot, addr 0x22b8784, size 0x13c, virtual false, abstract: false, final false
   inline ::BGLib::UnityExtension::BezierCurves::CurveData RotatePointsAroundPivot(::UnityEngine::Vector3 pivot, ::UnityEngine::Quaternion rot);
 
   // Ctor Parameters []

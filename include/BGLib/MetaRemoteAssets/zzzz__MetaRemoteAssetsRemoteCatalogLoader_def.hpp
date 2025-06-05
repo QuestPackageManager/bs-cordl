@@ -61,10 +61,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* New_ctor();
 
-  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x22aafac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x22aaf6c, size 0xd8, virtual false, abstract: false, final false
   inline bool _LoadRemoteCatalogAsync_b__0_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x22aafa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aaf64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* getStaticF___9();
@@ -108,10 +108,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22ab084, size 0x4c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22ab044, size 0x4c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22ab548, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22ab508, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -169,12 +169,12 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x22aae5c, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x22aae1c, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22aaf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aaf00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"

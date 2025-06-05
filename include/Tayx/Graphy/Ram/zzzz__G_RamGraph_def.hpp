@@ -83,21 +83,21 @@ public:
   /// @brief Field m_shaderGraphReserved, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphReserved, put = __cordl_internal_set_m_shaderGraphReserved)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphReserved;
 
-  /// @brief Method CreatePoints, addr 0x44d2ff4, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x44d2f7c, size 0x2ec, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x44d2c30, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d2bb8, size 0x158, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamGraph* New_ctor();
 
-  /// @brief Method Update, addr 0x44d29d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d2960, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x44d2d88, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x44d2d10, size 0x26c, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x44d29e4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d296c, size 0x24c, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphReserved(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x44d32e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d3268, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

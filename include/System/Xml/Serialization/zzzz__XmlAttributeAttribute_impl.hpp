@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlAttributeAttribute::*)(::StringW)>(
     &::System::Xml::Serialization::XmlAttributeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x436eff0;
+  constexpr static std::size_t addrs = 0x436ef78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(
     &::System::Xml::Serialization::XmlAttributeAttribute::get_AttributeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x436f018;
+  constexpr static std::size_t addrs = 0x436efa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlAttributeAttribute*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(
     &::System::Xml::Serialization::XmlAttributeAttribute::get_DataType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x436f06c;
+  constexpr static std::size_t addrs = 0x436eff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlAttributeAttribute*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlAttributeAttribute::*)(::StringW)>(
     &::System::Xml::Serialization::XmlAttributeAttribute::set_DataType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f0c0;
+  constexpr static std::size_t addrs = 0x436f048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaForm (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(
     &::System::Xml::Serialization::XmlAttributeAttribute::get_Form)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f0c8;
+  constexpr static std::size_t addrs = 0x436f050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlAttributeAttribute*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Serialization::XmlAttributeAttribute::*)()>(
     &::System::Xml::Serialization::XmlAttributeAttribute::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436f0d0;
+  constexpr static std::size_t addrs = 0x436f058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlAttributeAttribute*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlAttributeAttribute::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Serialization::XmlAttributeAttribute::AddKeyHash)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x436f0d8;
+  constexpr static std::size_t addrs = 0x436f060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -69,22 +69,22 @@ public:
 
   constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x408a7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408a728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x408a784, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x408a70c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hideBackgroundImage, addr 0x408a628, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x408a5b0, size 0x9c, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_hintText, addr 0x408a60c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x408a594, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_iconSize, addr 0x408a6c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_iconSize, addr 0x408a64c, size 0x3c, virtual false, abstract: false, final false
   inline void set_iconSize(float_t value);
 
-  /// @brief Method set_sprite, addr 0x408a5f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x408a578, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:

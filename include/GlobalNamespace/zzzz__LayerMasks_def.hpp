@@ -42,18 +42,18 @@ public:
   /// @brief Field saberLayerMask, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_saberLayerMask, put = setStaticF_saberLayerMask)) ::UnityEngine::LayerMask saberLayerMask;
 
-  /// @brief Method GetLayer, addr 0x26a2824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLayer, addr 0x26a27e4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetLayer(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x26a27cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x26a278c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x26a27fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x26a27bc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
 
   static inline ::GlobalNamespace::LayerMasks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26a282c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a27ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_cutEffectParticlesLayer();

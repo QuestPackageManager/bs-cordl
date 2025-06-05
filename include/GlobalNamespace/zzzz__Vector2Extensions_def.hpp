@@ -25,13 +25,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x22b6414, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x22b63d4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
-  /// @brief Method Clamp, addr 0x22b6438, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x22b63f8, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Rect within);
 
-  /// @brief Method SignedAngleToLine, addr 0x22b6260, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0x22b6220, size 0x1b4, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
 protected:

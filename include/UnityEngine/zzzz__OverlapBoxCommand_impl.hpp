@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::OverlapBoxCommand::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::QueryParameters)>(&::UnityEngine::OverlapBoxCommand::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4912fb8;
+  constexpr static std::size_t addrs = 0x4912f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::OverlapBoxCommand::*)(
     ::UnityEngine::PhysicsScene, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::QueryParameters)>(&::UnityEngine::OverlapBoxCommand::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4913098;
+  constexpr static std::size_t addrs = 0x4913020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::OverlapBoxCommand::*)()>(&::UnityEngine::OverlapBoxCommand::get_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49130bc;
+  constexpr static std::size_t addrs = 0x4913044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::OverlapBoxCommand>::get(), "get_center",
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::OverlapBoxCommand::*)(::UnityEngine::Vector3)>(&::UnityEngine::OverlapBoxCommand::set_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49130c8;
+  constexpr static std::size_t addrs = 0x4913050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::OverlapBoxCommand::*)()>(&::UnityEngine::OverlapBoxCommand::get_halfExtents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49130d4;
+  constexpr static std::size_t addrs = 0x491305c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::OverlapBoxCommand>::get(), "get_halfExtents",
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::OverlapBoxCommand::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::OverlapBoxCommand::set_halfExtents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49130e0;
+  constexpr static std::size_t addrs = 0x4913068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::OverlapBoxCommand::*)()>(
     &::UnityEngine::OverlapBoxCommand::get_orientation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49130ec;
+  constexpr static std::size_t addrs = 0x4913074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::OverlapBoxCommand>::get(), "get_orientation",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::OverlapBoxCommand::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::OverlapBoxCommand::set_orientation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49130f8;
+  constexpr static std::size_t addrs = 0x4913080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PhysicsScene (::UnityEngine::OverlapBoxCommand::*)()>(
     &::UnityEngine::OverlapBoxCommand::get_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4913104;
+  constexpr static std::size_t addrs = 0x491308c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::OverlapBoxCommand>::get(), "get_physicsScene",
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::OverlapBoxCommand::*)(::UnityEngine::PhysicsScene)>(
     &::UnityEngine::OverlapBoxCommand::set_physicsScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491310c;
+  constexpr static std::size_t addrs = 0x4913094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeArray_1<::UnityEngine::OverlapBoxCommand>, ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit>, int32_t, int32_t, ::Unity::Jobs::JobHandle)>(
     &::UnityEngine::OverlapBoxCommand::ScheduleBatch)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4913114;
+  constexpr static std::size_t addrs = 0x491309c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::cordl_internals::Ptr<void>, int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t, int32_t)>(
     &::UnityEngine::OverlapBoxCommand::ScheduleOverlapBoxBatch)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49132f8;
+  constexpr static std::size_t addrs = 0x4913280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t, int32_t, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::UnityEngine::OverlapBoxCommand::ScheduleOverlapBoxBatch_Injected)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4913394;
+  constexpr static std::size_t addrs = 0x491331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

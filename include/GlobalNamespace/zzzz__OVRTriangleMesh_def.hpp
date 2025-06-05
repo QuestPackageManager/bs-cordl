@@ -79,7 +79,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x3fa23d8, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fa2360, size 0xd4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -172,7 +172,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x3fa24ac, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fa2434, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -212,7 +212,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x3fa24c8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3fa2450, size 0x1c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -278,58 +278,58 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>*();
 
-  /// @brief Method Equals, addr 0x3fa1e20, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3fa1da8, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3fa1cdc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3fa1c64, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::OVRTriangleMesh other);
 
-  /// @brief Method GetHashCode, addr 0x3fa1eb0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3fa1e38, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.FromAnchor, addr 0x3fa1ab0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.FromAnchor, addr 0x3fa1a38, size 0x30, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTriangleMesh IOVRAnchorComponent_OVRTriangleMesh__FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.SetEnabledAsync, addr 0x3fa1c90, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.SetEnabledAsync, addr 0x3fa1c18, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRTask_1<bool> IOVRAnchorComponent_OVRTriangleMesh__SetEnabledAsync(bool enabled, double_t timeout);
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Handle, addr 0x3fa1a5c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Handle, addr 0x3fa19e4, size 0x54, virtual true, abstract: false, final true
   inline uint64_t IOVRAnchorComponent_OVRTriangleMesh__get_Handle();
 
-  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Type, addr 0x3fa19fc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method IOVRAnchorComponent<OVRTriangleMesh>.get_Type, addr 0x3fa1984, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType IOVRAnchorComponent_OVRTriangleMesh__get_Type();
 
-  /// @brief Method ScheduleGetMeshJob, addr 0x3fa2250, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ScheduleGetMeshJob, addr 0x3fa21d8, size 0x184, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle ScheduleGetMeshJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices,
                                                      ::Unity::Jobs::JobHandle dependencies);
 
-  /// @brief Method ToString, addr 0x3fa1f48, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3fa1ed0, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetCounts, addr 0x3fa1ff8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetCounts, addr 0x3fa1f80, size 0x98, virtual false, abstract: false, final false
   inline bool TryGetCounts(::ByRef<int32_t> vertexCount, ::ByRef<int32_t> triangleCount);
 
-  /// @brief Method TryGetMesh, addr 0x3fa2140, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method TryGetMesh, addr 0x3fa20c8, size 0x110, virtual false, abstract: false, final false
   inline bool TryGetMesh(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices);
 
-  /// @brief Method TryGetMeshRawUntransformed, addr 0x3fa2090, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryGetMeshRawUntransformed, addr 0x3fa2018, size 0xb0, virtual false, abstract: false, final false
   inline bool TryGetMeshRawUntransformed(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> positions, ::Unity::Collections::NativeArray_1<int32_t> indices);
 
-  /// @brief Method .ctor, addr 0x3fa1ae0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fa1a68, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRAnchor anchor);
 
   static inline ::GlobalNamespace::OVRTriangleMesh getStaticF_Null();
 
-  /// @brief Method get_Handle, addr 0x3fa1ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x3fa1f78, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x3fa1ba0, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method get_IsEnabled, addr 0x3fa1b28, size 0xf0, virtual true, abstract: false, final true
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x3fa1b44, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x3fa1acc, size 0x5c, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x3fa1a50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3fa19d8, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   /// @brief Convert to "::GlobalNamespace::IOVRAnchorComponent_1<::GlobalNamespace::OVRTriangleMesh>"
@@ -338,10 +338,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::OVRTriangleMesh>* i___System__IEquatable_1___GlobalNamespace__OVRTriangleMesh_();
 
-  /// @brief Method op_Equality, addr 0x3fa1d44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3fa1ccc, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRTriangleMesh lhs, ::GlobalNamespace::OVRTriangleMesh rhs);
 
-  /// @brief Method op_Inequality, addr 0x3fa1db0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3fa1d38, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRTriangleMesh lhs, ::GlobalNamespace::OVRTriangleMesh rhs);
 
   static inline void setStaticF_Null(::GlobalNamespace::OVRTriangleMesh value);

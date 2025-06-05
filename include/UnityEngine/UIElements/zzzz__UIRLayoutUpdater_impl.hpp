@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::UIRLayoutUpdater::*)()>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a49e98;
+  constexpr static std::size_t addrs = 0x4a49e20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRLayoutUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::UIRLayoutUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a49ef0;
+  constexpr static std::size_t addrs = 0x4a49e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRLayoutUpdater::*)()>(&::UnityEngine::UIElements::UIRLayoutUpdater::Update)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4a49f38;
+  constexpr static std::size_t addrs = 0x4a49ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*)>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::UpdateSubTree)> {
   constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x4a4a130;
+  constexpr static std::size_t addrs = 0x4a4a0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*, int32_t)>(
     &::UnityEngine::UIElements::UIRLayoutUpdater::DispatchChangeEvents)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x4a4a854;
+  constexpr static std::size_t addrs = 0x4a4a7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIRLayoutUpdater::*)()>(&::UnityEngine::UIElements::UIRLayoutUpdater::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a4aba8;
+  constexpr static std::size_t addrs = 0x4a4ab30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIRLayoutUpdater*>::get(), ".ctor",

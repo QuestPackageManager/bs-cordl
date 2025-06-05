@@ -1348,8 +1348,10 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::Upda
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> template <typename T2> inline bool GlobalNamespace::NetworkPlayerModel_1<T>::CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 62)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 62)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() }));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, config);
 }
 template <typename T>

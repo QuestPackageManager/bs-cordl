@@ -37,30 +37,30 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509Helper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInvalidContextException, addr 0x3cb88f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidContextException, addr 0x3cb8880, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidContextException();
 
-  /// @brief Method Import, addr 0x3cb7508, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x3cb7490, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method Import, addr 0x3cb79e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Import, addr 0x3cb7968, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData,
                                                                                                 ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                                 ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method InitFromCertificate, addr 0x3cb7b84, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitFromCertificate, addr 0x3cb7b0c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* InitFromCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method InitFromCertificate, addr 0x3cb7658, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InitFromCertificate, addr 0x3cb75e0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* InitFromCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
-  /// @brief Method IsValid, addr 0x3cb8598, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3cb8520, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x3cb887c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x3cb8804, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl);
 
-  /// @brief Method get_CertificateProvider, addr 0x3cb8c3c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateProvider, addr 0x3cb8bc4, size 0xc8, virtual false, abstract: false, final false
   static inline ::Mono::ISystemCertificateProvider* get_CertificateProvider();
 
 protected:

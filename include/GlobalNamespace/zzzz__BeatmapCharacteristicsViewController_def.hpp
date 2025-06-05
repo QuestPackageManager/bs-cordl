@@ -51,18 +51,18 @@ public:
 
   __declspec(property(get = get_selectedBeatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> selectedBeatmapCharacteristic;
 
-  /// @brief Method DidActivate, addr 0x3c1c624, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1c5ac, size 0xb0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c1c6d4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1c65c, size 0x9c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic, addr 0x3c1c7d4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic, addr 0x3c1c75c, size 0x1c0, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicsTableViewDidSelecteCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   static inline ::GlobalNamespace::BeatmapCharacteristicsViewController* New_ctor();
 
-  /// @brief Method SetData, addr 0x3c1c770, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c1c6f8, size 0x64, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, int32_t selectedCharacteristicNum);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3c1c994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1c91c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x3c1c400, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x3c1c388, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method get_beatmapCharacteristicCollection, addr 0x3c1c560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristicCollection, addr 0x3c1c4e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristicCollection* get_beatmapCharacteristicCollection();
 
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x3c1c568, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x3c1c4f0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
 
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x3c1c4b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x3c1c438, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectBeatmapCharacteristicEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
 protected:

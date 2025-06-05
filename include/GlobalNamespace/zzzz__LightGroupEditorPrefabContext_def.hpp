@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_lightGroups(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
-  /// @brief Method .ctor, addr 0x39e07bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e0794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

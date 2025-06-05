@@ -28,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::Parametric3SliceUpdater* New_ctor();
 
-  /// @brief Method Update, addr 0x39daf40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39daf18, size 0x18, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSpriteController() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__parametric3SliceSpriteController(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
 
-  /// @brief Method .ctor, addr 0x39daf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39daf30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

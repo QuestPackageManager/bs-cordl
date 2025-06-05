@@ -66,10 +66,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerPositionHUDController* New_ctor();
 
-  /// @brief Method Start, addr 0x3ba8abc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba8a94, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ba8c0c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba8be4, size 0x1b0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x3ba8dbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba8d94, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_alpha, addr 0x3ba8aa0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3ba8a78, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
 protected:

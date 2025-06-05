@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDeclarationBindInfo* (*)(::Zenject::DiContainer*, ::System::Type*)>(
     &::Zenject::SignalExtensions::CreateDefaultSignalDeclarationBindInfo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4afba10;
+  constexpr static std::size_t addrs = 0x4afb998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

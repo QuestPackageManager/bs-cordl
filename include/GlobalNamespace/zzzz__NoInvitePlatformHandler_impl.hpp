@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoInvitePlatformHandler::*)()>(
     &::GlobalNamespace::NoInvitePlatformHandler::get_isSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dc5d4;
+  constexpr static std::size_t addrs = 0x26dc5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoInvitePlatformHandler*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoInvitePlatformHandler::*)()>(
     &::GlobalNamespace::NoInvitePlatformHandler::OpenInvitePanel)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26dc5dc;
+  constexpr static std::size_t addrs = 0x26dc5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoInvitePlatformHandler*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoInvitePlatformHandler::*)()>(&::GlobalNamespace::NoInvitePlatformHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dc614;
+  constexpr static std::size_t addrs = 0x26dc5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoInvitePlatformHandler*>::get(), ".ctor",

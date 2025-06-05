@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LocalLeaderboardsSettingsSO::*)()>(
     &::GlobalNamespace::LocalLeaderboardsSettingsSO::get_maxNumberOfScoresInLeaderboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2705c50;
+  constexpr static std::size_t addrs = 0x2705c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsSettingsSO::*)(int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsSettingsSO::set_maxNumberOfScoresInLeaderboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2705c58;
+  constexpr static std::size_t addrs = 0x2705c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsSettingsSO::*)()>(&::GlobalNamespace::LocalLeaderboardsSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2705c60;
+  constexpr static std::size_t addrs = 0x2705c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsSettingsSO*>::get(), ".ctor",

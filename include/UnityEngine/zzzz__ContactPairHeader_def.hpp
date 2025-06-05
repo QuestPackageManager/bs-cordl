@@ -40,28 +40,28 @@ public:
 
   __declspec(property(get = get_PairCount)) int32_t PairCount;
 
-  /// @brief Method GetContactPair, addr 0x4905608, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetContactPair, addr 0x4905590, size 0x4, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::ContactPair> GetContactPair(int32_t index);
 
-  /// @brief Method GetContactPair_Internal, addr 0x4910dbc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetContactPair_Internal, addr 0x4910d44, size 0x80, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::ContactPair> GetContactPair_Internal(int32_t index);
 
-  /// @brief Method get_Body, addr 0x48f5bb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x48f5b38, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_Body();
 
-  /// @brief Method get_BodyInstanceID, addr 0x4910da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodyInstanceID, addr 0x4910d2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BodyInstanceID();
 
-  /// @brief Method get_HasRemovedBody, addr 0x49055f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasRemovedBody, addr 0x4905580, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasRemovedBody();
 
-  /// @brief Method get_OtherBody, addr 0x48f5b38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_OtherBody, addr 0x48f5ac0, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> get_OtherBody();
 
-  /// @brief Method get_OtherBodyInstanceID, addr 0x4910dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherBodyInstanceID, addr 0x4910d34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OtherBodyInstanceID();
 
-  /// @brief Method get_PairCount, addr 0x4910db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PairCount, addr 0x4910d3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PairCount();
 
   // Ctor Parameters []

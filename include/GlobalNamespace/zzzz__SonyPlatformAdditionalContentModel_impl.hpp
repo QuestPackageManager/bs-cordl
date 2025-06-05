@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x26eea44;
+  constexpr static std::size_t addrs = 0x26eea24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26eee84;
+  constexpr static std::size_t addrs = 0x26eee64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x26eef00;
+  constexpr static std::size_t addrs = 0x26eeee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ef160;
+  constexpr static std::size_t addrs = 0x26ef140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x26ef1dc;
+  constexpr static std::size_t addrs = 0x26ef1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ef444;
+  constexpr static std::size_t addrs = 0x26ef424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x26ef4c0;
+  constexpr static std::size_t addrs = 0x26ef4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ef728;
+  constexpr static std::size_t addrs = 0x26ef708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x26ef7a4;
+  constexpr static std::size_t addrs = 0x26ef784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26efaec;
+  constexpr static std::size_t addrs = 0x26efacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x26efb68;
+  constexpr static std::size_t addrs = 0x26efb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26f01d0;
+  constexpr static std::size_t addrs = 0x26f01b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x26f024c;
+  constexpr static std::size_t addrs = 0x26f022c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26f0628;
+  constexpr static std::size_t addrs = 0x26f0608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26f06a4;
+  constexpr static std::size_t addrs = 0x26f0684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26f09a8;
+  constexpr static std::size_t addrs = 0x26f0988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x26f0a24;
+  constexpr static std::size_t addrs = 0x26f0a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26f0de0;
+  constexpr static std::size_t addrs = 0x26f0dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(
     ::GlobalNamespace::ISonyCommerceHelper*, ::GlobalNamespace::SonyLevelProductCollectionModel*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26eb744;
+  constexpr static std::size_t addrs = 0x26eb724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -693,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::GlobalNamespace::IVRPlatformHelper*)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::Init)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26edbbc;
+  constexpr static std::size_t addrs = 0x26edb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -708,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::Dispose)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x26edcb4;
+  constexpr static std::size_t addrs = 0x26edc94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)()>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::InvalidateDataInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eddc0;
+  constexpr static std::size_t addrs = 0x26edda0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -741,7 +741,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26eddc8;
+  constexpr static std::size_t addrs = 0x26edda8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -758,7 +758,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26edec0;
+  constexpr static std::size_t addrs = 0x26edea0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -775,7 +775,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::GetLevelDataVersionInternalAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26edfb8;
+  constexpr static std::size_t addrs = 0x26edf98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* (
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel::OpenLevelProductStoreAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26ee0b0;
+  constexpr static std::size_t addrs = 0x26ee090;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -808,7 +808,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26ee1a8;
+  constexpr static std::size_t addrs = 0x26ee188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -825,7 +825,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26ee2a4;
+  constexpr static std::size_t addrs = 0x26ee284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -841,7 +841,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::OpenStore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ee39c;
+  constexpr static std::size_t addrs = 0x26ee37c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -858,7 +858,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::SonyPlatformAdditionalContentModel::GetRedirectedLevelPackProductData)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26ee3a0;
+  constexpr static std::size_t addrs = 0x26ee380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::HasLevelEntitlement)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x26ee49c;
+  constexpr static std::size_t addrs = 0x26ee47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -890,7 +890,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::HasLevelPackEntitlement)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26ee5b4;
+  constexpr static std::size_t addrs = 0x26ee594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelDataVersion (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::StringW)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::GetLevelDataVersion)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26ee67c;
+  constexpr static std::size_t addrs = 0x26ee65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel::EnsureDataValidity)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26ee710;
+  constexpr static std::size_t addrs = 0x26ee6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -935,7 +935,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>* (
     ::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel::UpdateEntitlementsAsync)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26ee808;
+  constexpr static std::size_t addrs = 0x26ee7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -950,7 +950,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::_OpenLevelProductStoreAsync_g__GetProductLabelForProductBrowseDialog_13_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26ee8f4;
+  constexpr static std::size_t addrs = 0x26ee8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -966,7 +966,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData*)>(
     &::GlobalNamespace::SonyPlatformAdditionalContentModel::_GetRedirectedLevelPackProductData_g__GetProductLabel_17_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26ee930;
+  constexpr static std::size_t addrs = 0x26ee910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -982,7 +982,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyPlatformAdditionalContentModel::*)(
     ::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData*)>(&::GlobalNamespace::SonyPlatformAdditionalContentModel::_HasLevelPackEntitlement_b__19_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26ee9a0;
+  constexpr static std::size_t addrs = 0x26ee980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

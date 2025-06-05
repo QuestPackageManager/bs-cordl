@@ -30,7 +30,7 @@ public:
   /// @brief Field parameters, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters;
 
-  /// @brief Method GetStrength, addr 0x23be2f4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetStrength, addr 0x23be2b4, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* value);
 
-  /// @brief Method .ctor, addr 0x23be2b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23be278, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0x23be328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23be2e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26a40b0;
+  constexpr static std::size_t addrs = 0x26a4070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26a4140;
+  constexpr static std::size_t addrs = 0x26a4100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26a41d0;
+  constexpr static std::size_t addrs = 0x26a4190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a41f0;
+  constexpr static std::size_t addrs = 0x26a41b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),

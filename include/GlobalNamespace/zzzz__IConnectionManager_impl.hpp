@@ -536,8 +536,10 @@ inline void GlobalNamespace::IConnectionManager::SendToAll(::LiteNetLib::Utils::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, deliveryMethod, excludingConnection);
 }
 template <typename T> inline bool GlobalNamespace::IConnectionManager::Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(), 24)));
+  auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(), 24)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, initParams);
 }
 inline void GlobalNamespace::IConnectionManager::Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason) {

@@ -76,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bfeab4, size 0x490, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bfeafc, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bfef44, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bfef8c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -157,10 +157,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bfef50, size 0x898, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bfef98, size 0x898, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bff7e8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bff830, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -320,27 +320,27 @@ public:
   /// @brief Field _updatedBadgeGo, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo)) ::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
 
-  /// @brief Method CancelAsyncOperations, addr 0x3bfe9c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x3bfea10, size 0x38, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method HighlightDidChange, addr 0x3bfe9c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3bfea08, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x3bfea00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x3bfea48, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel, ::StringW levelID);
 
-  /// @brief Method RefreshVisuals, addr 0x3bfe8fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3bfe944, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3bfe8f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3bfe940, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetDataFromLevelAsync, addr 0x3bfe81c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetDataFromLevelAsync, addr 0x3bfe864, size 0xdc, virtual false, abstract: false, final false
   inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool isFavorite, bool isPromoted, bool isUpdated, bool interactable);
 
-  /// @brief Method WasPreparedForReuse, addr 0x3bfe9c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WasPreparedForReuse, addr 0x3bfea0c, size 0x4, virtual true, abstract: false, final false
   inline void WasPreparedForReuse();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
@@ -469,7 +469,7 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3bfeaa4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfeaec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

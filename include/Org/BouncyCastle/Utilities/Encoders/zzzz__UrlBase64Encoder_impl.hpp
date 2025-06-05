@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder::*)()>(
     &::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25d9c24;
+  constexpr static std::size_t addrs = 0x25d9be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

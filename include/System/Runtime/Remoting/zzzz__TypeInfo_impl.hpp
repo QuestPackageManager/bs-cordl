@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::TypeInfo::*)(::System::Type*)>(&::System::Runtime::Remoting::TypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x3cd51c0;
+  constexpr static std::size_t addrs = 0x3cd5148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::TypeInfo::*)()>(&::System::Runtime::Remoting::TypeInfo::get_TypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cd78b8;
+  constexpr static std::size_t addrs = 0x3cd7840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::TypeInfo*>::get(), "get_TypeName",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::TypeInfo::*)(::System::Type*, ::System::Object*)>(
     &::System::Runtime::Remoting::TypeInfo::CanCastTo)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3cd78c0;
+  constexpr static std::size_t addrs = 0x3cd7848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

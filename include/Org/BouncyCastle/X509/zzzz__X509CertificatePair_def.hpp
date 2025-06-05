@@ -38,13 +38,13 @@ public:
   /// @brief Field reverse, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reverse, put = __cordl_internal_set_reverse)) ::Org::BouncyCastle::X509::X509Certificate* reverse;
 
-  /// @brief Method Equals, addr 0x25f41c0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25f4180, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEncoded, addr 0x25f3f5c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x25f3f1c, size 0x254, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x25f4280, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25f4240, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::X509::X509CertificatePair* New_ctor(::Org::BouncyCastle::X509::X509Certificate* forward, ::Org::BouncyCastle::X509::X509Certificate* reverse);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_reverse(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method .ctor, addr 0x25f3e90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3e50, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* forward, ::Org::BouncyCastle::X509::X509Certificate* reverse);
 
-  /// @brief Method .ctor, addr 0x25f3ebc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f3e7c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::CertificatePair* pair);
 
-  /// @brief Method get_Forward, addr 0x25f41b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Forward, addr 0x25f4170, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Forward();
 
-  /// @brief Method get_Reverse, addr 0x25f41b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reverse, addr 0x25f4178, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Reverse();
 
 protected:

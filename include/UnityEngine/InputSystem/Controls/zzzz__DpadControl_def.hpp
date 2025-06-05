@@ -47,12 +47,12 @@ public:
 
   __declspec(property(get = get_component, put = set_component)) int32_t component;
 
-  /// @brief Method FinishSetup, addr 0x4562f48, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4562ed0, size 0x84, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DpadControl_DpadAxisControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x4562fcc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x4562f54, size 0xec, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
   constexpr int32_t const& __cordl_internal_get__component_k__BackingField() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set__component_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x45630b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4563040, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_component, addr 0x4562f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_component, addr 0x4562ec0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_component();
 
-  /// @brief Method set_component, addr 0x4562f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_component, addr 0x4562ec8, size 0x8, virtual false, abstract: false, final false
   inline void set_component(int32_t value);
 
 protected:
@@ -193,21 +193,21 @@ public:
 
   __declspec(property(get = get_up, put = set_up)) ::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
-  /// @brief Method FinishSetup, addr 0x45629f4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x456297c, size 0xf4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeDpadVector, addr 0x4562d20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MakeDpadVector, addr 0x4562ca8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(bool up, bool down, bool left, bool right, bool normalize);
 
-  /// @brief Method MakeDpadVector, addr 0x4562f28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MakeDpadVector, addr 0x4562eb0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MakeDpadVector(float_t up, float_t down, float_t left, float_t right);
 
   static inline ::UnityEngine::InputSystem::Controls::DpadControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x4562ae8, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x4562a70, size 0x238, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x4562d7c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x4562d04, size 0x1ac, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::Vector2 value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__down_k__BackingField() const;
@@ -234,31 +234,31 @@ public:
 
   constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x4562984, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456290c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_down, addr 0x4562954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x45628dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_down();
 
-  /// @brief Method get_left, addr 0x4562964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x45628ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_left();
 
-  /// @brief Method get_right, addr 0x4562974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x45628fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_right();
 
-  /// @brief Method get_up, addr 0x4562944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x45628cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();
 
-  /// @brief Method set_down, addr 0x456295c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_down, addr 0x45628e4, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_left, addr 0x456296c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_left, addr 0x45628f4, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_right, addr 0x456297c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x4562904, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_up, addr 0x456294c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x45628d4, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)()>(
     &::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4435338;
+  constexpr static std::size_t addrs = 0x44352c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsnEncodedData*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4435340;
+  constexpr static std::size_t addrs = 0x44352c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(
     ::System::Security::Cryptography::Oid*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x44354ac;
+  constexpr static std::size_t addrs = 0x4435434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::AsnEncodedData::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4435560;
+  constexpr static std::size_t addrs = 0x44354e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::Oid* (::System::Security::Cryptography::AsnEncodedData::*)()>(
     &::System::Security::Cryptography::AsnEncodedData::get_Oid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4435634;
+  constexpr static std::size_t addrs = 0x44355bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsnEncodedData*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::Oid*)>(
     &::System::Security::Cryptography::AsnEncodedData::set_Oid)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44354e8;
+  constexpr static std::size_t addrs = 0x4435470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::AsnEncodedData::*)()>(
     &::System::Security::Cryptography::AsnEncodedData::get_RawData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x443563c;
+  constexpr static std::size_t addrs = 0x44355c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsnEncodedData*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::AsnEncodedData::set_RawData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x44353bc;
+  constexpr static std::size_t addrs = 0x4435344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsnEncodedData::*)(::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::AsnEncodedData::CopyFrom)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4435644;
+  constexpr static std::size_t addrs = 0x44355cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::Format)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4435734;
+  constexpr static std::size_t addrs = 0x44356bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::ToString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x44358dc;
+  constexpr static std::size_t addrs = 0x4435864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::Default)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x44357c4;
+  constexpr static std::size_t addrs = 0x443574c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::BasicConstraintsExtension)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4435a8c;
+  constexpr static std::size_t addrs = 0x4435a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::EnhancedKeyUsageExtension)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4435b98;
+  constexpr static std::size_t addrs = 0x4435b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::KeyUsageExtension)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4435ca4;
+  constexpr static std::size_t addrs = 0x4435c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::SubjectKeyIdentifierExtension)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4435db4;
+  constexpr static std::size_t addrs = 0x4435d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::SubjectAltName)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x4435ec4;
+  constexpr static std::size_t addrs = 0x4435e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsnEncodedData::*)(bool)>(
     &::System::Security::Cryptography::AsnEncodedData::NetscapeCertType)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x443628c;
+  constexpr static std::size_t addrs = 0x4436214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

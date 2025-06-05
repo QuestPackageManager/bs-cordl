@@ -30,10 +30,10 @@ public:
 
   __declspec(property(get = get_goStraightToEditor, put = set_goStraightToEditor)) bool goStraightToEditor;
 
-  /// @brief Method Finish, addr 0x3b3b838, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3b3b810, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x3b3b7c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b3b798, size 0x78, virtual false, abstract: false, final false
   inline void Init(bool goStraightToEditor);
 
   static inline ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* New_ctor();
@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b3b858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3b830, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b3b64c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b3b624, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method get_goStraightToEditor, addr 0x3b3b7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_goStraightToEditor, addr 0x3b3b784, size 0x8, virtual false, abstract: false, final false
   inline bool get_goStraightToEditor();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b3b6fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b3b6d4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method set_goStraightToEditor, addr 0x3b3b7b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_goStraightToEditor, addr 0x3b3b78c, size 0xc, virtual false, abstract: false, final false
   inline void set_goStraightToEditor(bool value);
 
 protected:

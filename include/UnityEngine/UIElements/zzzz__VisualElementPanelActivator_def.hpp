@@ -54,19 +54,19 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementPanelActivator* New_ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method OnEnter, addr 0x49a0dc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnter, addr 0x49a0d4c, size 0x10, virtual false, abstract: false, final false
   inline void OnEnter(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnLeave, addr 0x49a0dd4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnLeave, addr 0x49a0d5c, size 0x74, virtual false, abstract: false, final false
   inline void OnLeave(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method SendActivation, addr 0x49a0b94, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendActivation, addr 0x49a0b1c, size 0x118, virtual false, abstract: false, final false
   inline void SendActivation();
 
-  /// @brief Method SendDeactivation, addr 0x49a0cac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendDeactivation, addr 0x49a0c34, size 0x118, virtual false, abstract: false, final false
   inline void SendDeactivation();
 
-  /// @brief Method SetActive, addr 0x49a0944, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x49a08cc, size 0x250, virtual false, abstract: false, final false
   inline void SetActive(bool action);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set_m_OnDetachFromPanelCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>* value);
 
-  /// @brief Method .ctor, addr 0x49a0864, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a07ec, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method get_isActive, addr 0x49a083c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x49a07c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isDetaching, addr 0x49a0850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDetaching, addr 0x49a07d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDetaching();
 
-  /// @brief Method set_isActive, addr 0x49a0844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x49a07cc, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isDetaching, addr 0x49a0858, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDetaching, addr 0x49a07e0, size 0xc, virtual false, abstract: false, final false
   inline void set_isDetaching(bool value);
 
 protected:

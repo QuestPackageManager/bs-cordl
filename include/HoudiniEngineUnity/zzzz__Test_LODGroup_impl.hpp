@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_LODGroup::*)(::UnityEngine::LODGroup*)>(
     &::HoudiniEngineUnity::Test_LODGroup::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a97e94;
+  constexpr static std::size_t addrs = 0x3a97e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_LODGroup::*)()>(&::HoudiniEngineUnity::Test_LODGroup::IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a97ebc;
+  constexpr static std::size_t addrs = 0x3a97e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_LODGroup*>::get(), "IsNull",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_LODGroup::*)(::HoudiniEngineUnity::Test_LODGroup*)>(
     &::HoudiniEngineUnity::Test_LODGroup::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3a97f1c;
+  constexpr static std::size_t addrs = 0x3a97ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

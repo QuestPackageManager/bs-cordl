@@ -51,13 +51,13 @@ public:
 
   __declspec(property(get = get_currentLinearVelocity)) ::UnityEngine::Vector3 currentLinearVelocity;
 
-  /// @brief Method Awake, addr 0x3aed248, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3aed220, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x3aed2b8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3aed290, size 0xa4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity, bool forceOnlySimplePhysics);
 
-  /// @brief Method LateUpdate, addr 0x3aecf68, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3aecf40, size 0x178, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3aed35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aed334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentAngularVelocityDegrees, addr 0x3aed23c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentAngularVelocityDegrees, addr 0x3aed214, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentAngularVelocityDegrees();
 
-  /// @brief Method get_currentLinearVelocity, addr 0x3aed230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentLinearVelocity, addr 0x3aed208, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_currentLinearVelocity();
 
 protected:

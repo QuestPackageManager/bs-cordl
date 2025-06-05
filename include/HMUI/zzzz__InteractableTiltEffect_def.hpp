@@ -62,15 +62,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerMoveHandler*() noexcept;
 
-  /// @brief Method ComputeNewTargetRotation, addr 0x39f4ca8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ComputeNewTargetRotation, addr 0x39f4c80, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ComputeNewTargetRotation(::UnityEngine::Vector2 localPoint);
 
   static inline ::HMUI::InteractableTiltEffect* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x39f4d40, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x39f4d18, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerMove, addr 0x39f4d90, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OnPointerMove, addr 0x39f4d68, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerMove(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr float_t const& __cordl_internal_get__effectStrengthMultiplier() const;
@@ -103,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x39f4de0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f4db8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectStrengthMultiplier, addr 0x39f4d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectStrengthMultiplier, addr 0x39f4d10, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectStrengthMultiplier();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -118,7 +118,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr ::UnityEngine::EventSystems::IPointerMoveHandler* i___UnityEngine__EventSystems__IPointerMoveHandler() noexcept;
 
-  /// @brief Method set_effectStrengthMultiplier, addr 0x39f4c78, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_effectStrengthMultiplier, addr 0x39f4c50, size 0x30, virtual false, abstract: false, final false
   inline void set_effectStrengthMultiplier(float_t value);
 
 protected:

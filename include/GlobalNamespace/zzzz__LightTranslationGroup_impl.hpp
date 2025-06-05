@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_xTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b92900;
+  constexpr static std::size_t addrs = 0x3b928d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_yTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b92908;
+  constexpr static std::size_t addrs = 0x3b928e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_zTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b92910;
+  constexpr static std::size_t addrs = 0x3b928e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_xDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b92918;
+  constexpr static std::size_t addrs = 0x3b928f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_yDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b92920;
+  constexpr static std::size_t addrs = 0x3b928f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_zDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b92928;
+  constexpr static std::size_t addrs = 0x3b92900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::__Validate)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3b92930;
+  constexpr static std::size_t addrs = 0x3b92908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), "__Validate",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b92b44;
+  constexpr static std::size_t addrs = 0x3b92b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), ".ctor",

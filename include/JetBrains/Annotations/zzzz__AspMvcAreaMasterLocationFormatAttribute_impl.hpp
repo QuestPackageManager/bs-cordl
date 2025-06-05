@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4af37c8;
+  constexpr static std::size_t addrs = 0x4af3750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af37f0;
+  constexpr static std::size_t addrs = 0x4af3778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcAreaMasterLocationFormatAttribute::set_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af37f8;
+  constexpr static std::size_t addrs = 0x4af3780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

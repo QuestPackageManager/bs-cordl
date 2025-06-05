@@ -66,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId* New_ctor();
 
-  /// @brief Method SetDataToShaders, addr 0x39e1f64, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x39e1f3c, size 0xf4, virtual false, abstract: false, final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
   constexpr ::GlobalNamespace::LightConstants_BakeId const& __cordl_internal_get__bakeId() const;
@@ -105,22 +105,22 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e2098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e2070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakeId, addr 0x39e2070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakeId, addr 0x39e2048, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightConstants_BakeId get_bakeId();
 
-  /// @brief Method get_intensity, addr 0x39e2078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e2050, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_weight, addr 0x39e2088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight, addr 0x39e2060, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight();
 
-  /// @brief Method set_intensity, addr 0x39e2080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x39e2058, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method set_weight, addr 0x39e2090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight, addr 0x39e2068, size 0x8, virtual false, abstract: false, final false
   inline void set_weight(float_t value);
 
 protected:
@@ -196,12 +196,12 @@ public:
 
   __declspec(property(get = get_maxTotalIntensity, put = set_maxTotalIntensity)) float_t maxTotalIntensity;
 
-  /// @brief Method GetLightWithIds, addr 0x39e2058, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x39e2030, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::LightmapLightsWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x39e1d64, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x39e1d3c, size 0x200, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr ::ArrayW<::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId*, ::Array<::GlobalNamespace::LightmapLightsWithIds_LightIntensitiesWithId*>*> const&
@@ -219,13 +219,13 @@ public:
 
   constexpr void __cordl_internal_set__maxTotalIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e2060, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e2038, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxTotalIntensity, addr 0x39e1d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxTotalIntensity, addr 0x39e1d2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxTotalIntensity();
 
-  /// @brief Method set_maxTotalIntensity, addr 0x39e1d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxTotalIntensity, addr 0x39e1d34, size 0x8, virtual false, abstract: false, final false
   inline void set_maxTotalIntensity(float_t value);
 
 protected:

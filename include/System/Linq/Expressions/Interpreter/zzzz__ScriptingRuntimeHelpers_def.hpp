@@ -25,10 +25,10 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ScriptingRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPrimitiveDefaultValue, addr 0x40fa670, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveDefaultValue, addr 0x40fa5f8, size 0x31c, virtual false, abstract: false, final false
   static inline ::System::Object* GetPrimitiveDefaultValue(::System::Type* type);
 
-  /// @brief Method Int32ToObject, addr 0x40ebff0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Int32ToObject, addr 0x40ebf78, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Object* Int32ToObject(int32_t i);
 
 protected:

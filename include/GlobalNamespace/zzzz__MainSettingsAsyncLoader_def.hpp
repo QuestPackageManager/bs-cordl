@@ -66,10 +66,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x27198c4, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x271989c, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2719ba4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2719b7c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -165,16 +165,16 @@ public:
 
   __declspec(property(get = get_isRunningFromTests)) bool isRunningFromTests;
 
-  /// @brief Method InstallBindings, addr 0x2719188, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2719160, size 0x108, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallBindingsThatRelyOnSettings, addr 0x2719290, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method InstallBindingsThatRelyOnSettings, addr 0x2719268, size 0x610, virtual false, abstract: false, final false
   inline void InstallBindingsThatRelyOnSettings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2718fdc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2718fb4, size 0xdc, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x27190b8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2719090, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MainSettingsAsyncLoader* New_ctor();
@@ -221,10 +221,10 @@ public:
 
   constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  /// @brief Method .ctor, addr 0x27198a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2719878, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isRunningFromTests, addr 0x2718fbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isRunningFromTests, addr 0x2718f94, size 0x20, virtual false, abstract: false, final false
   inline bool get_isRunningFromTests();
 
 protected:

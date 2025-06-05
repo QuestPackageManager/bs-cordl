@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, bool)>(&::System::IriHelper::CheckIriUnicodeRange)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x440aac0;
+  constexpr static std::size_t addrs = 0x440aa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, char16_t, ::ByRef<bool>, bool)>(&::System::IriHelper::CheckIriUnicodeRange)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x440ab18;
+  constexpr static std::size_t addrs = 0x440aaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, ::System::UriComponents)>(&::System::IriHelper::CheckIsReserved)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x440b148;
+  constexpr static std::size_t addrs = 0x440b0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t, ::System::UriComponents)>(
     &::System::IriHelper::EscapeUnescapeIri)> {
   constexpr static std::size_t size = 0x85c;
-  constexpr static std::size_t addrs = 0x440b28c;
+  constexpr static std::size_t addrs = 0x440b214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

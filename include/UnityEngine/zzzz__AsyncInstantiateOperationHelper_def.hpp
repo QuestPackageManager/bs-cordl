@@ -24,7 +24,7 @@ namespace UnityEngine {
 class CORDL_TYPE AsyncInstantiateOperationHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAsyncInstantiateOperationResult, addr 0x48a80cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetAsyncInstantiateOperationResult, addr 0x48a8054, size 0x18, virtual false, abstract: false, final false
   static inline void SetAsyncInstantiateOperationResult(::UnityEngine::AsyncInstantiateOperation* op, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> result);
 
 protected:

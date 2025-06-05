@@ -54,52 +54,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*();
 
-  /// @brief Method Add, addr 0x481b4bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x481b444, size 0xe8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::ScriptableObject* item);
 
-  /// @brief Method BuildCache, addr 0x4825d80, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method BuildCache, addr 0x4825d08, size 0x2d0, virtual false, abstract: false, final false
   inline void BuildCache();
 
-  /// @brief Method Clear, addr 0x481b444, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x481b3cc, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x4826050, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x4825fd8, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::ScriptableObject* item);
 
-  /// @brief Method CreateMarker, addr 0x481a284, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x481a20c, size 0x2f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* CreateMarker(::System::Type* type, double_t time, ::UnityEngine::Timeline::TrackAsset* owner);
 
-  /// @brief Method GetMarkers, addr 0x481a764, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetMarkers, addr 0x481a6ec, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* GetMarkers();
 
-  /// @brief Method GetRawMarkerList, addr 0x48260a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRawMarkerList, addr 0x4826030, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* GetRawMarkerList();
 
-  /// @brief Method HasNotifications, addr 0x481e84c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasNotifications, addr 0x481e7d4, size 0x18, virtual false, abstract: false, final false
   inline bool HasNotifications();
 
-  /// @brief Method Remove, addr 0x481b5d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x481b560, size 0xbc, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::ScriptableObject* item, ::UnityEngine::Timeline::TimelineAsset* timelineAsset, ::UnityEngine::Playables::PlayableAsset* thingToDirty);
 
-  /// @brief Method Remove, addr 0x481a584, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x481a50c, size 0x1e0, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::Timeline::IMarker* item);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x48260b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x482603c, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x48260b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x4826038, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method .ctor, addr 0x481e864, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481e7ec, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x481a77c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x481a704, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x481a7d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x481a75c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* get_Item(int32_t idx);
 
-  /// @brief Method get_markers, addr 0x4825d68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_markers, addr 0x4825cf0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* get_markers();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

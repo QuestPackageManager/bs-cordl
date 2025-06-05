@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::FileSystemBeatmapLevelData::*)()>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce2f4;
+  constexpr static std::size_t addrs = 0x26ce2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemBeatmapLevelData*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)()>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::get_songAudioClipPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce2fc;
+  constexpr static std::size_t addrs = 0x26ce2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemBeatmapLevelData*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)()>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce304;
+  constexpr static std::size_t addrs = 0x26ce2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemBeatmapLevelData*>::get(),
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::GlobalNamespace::BeatmapDifficulty>,
                                                  ::GlobalNamespace::FileDifficultyBeatmap*>*)>(&::GlobalNamespace::FileSystemBeatmapLevelData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26ce30c;
+  constexpr static std::size_t addrs = 0x26ce2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileSystemBeatmapLevelData::*)()>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::GetAudioDataStringAsync)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26ce34c;
+  constexpr static std::size_t addrs = 0x26ce32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemBeatmapLevelData*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::FileSystemBeatmapLevelData::GetBeatmapStringAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26ce404;
+  constexpr static std::size_t addrs = 0x26ce3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::FileSystemBeatmapLevelData::GetLightshowStringAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26ce544;
+  constexpr static std::size_t addrs = 0x26ce524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)()>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::GetAudioDataString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26ce5d8;
+  constexpr static std::size_t addrs = 0x26ce5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemBeatmapLevelData*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::GetBeatmapString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26ce650;
+  constexpr static std::size_t addrs = 0x26ce630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::GetLightshowString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26ce66c;
+  constexpr static std::size_t addrs = 0x26ce64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::ContainsBeatmapData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26ce688;
+  constexpr static std::size_t addrs = 0x26ce668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::FileDifficultyBeatmap* (
     ::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::FileSystemBeatmapLevelData::GetDifficultyBeatmap)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x26ce498;
+  constexpr static std::size_t addrs = 0x26ce478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_GetBeatmapStringAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ce6a0;
+  constexpr static std::size_t addrs = 0x26ce680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_GetLightshowStringAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ce6a4;
+  constexpr static std::size_t addrs = 0x26ce684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_GetBeatmapString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ce6a8;
+  constexpr static std::size_t addrs = 0x26ce688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_GetLightshowString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ce6ac;
+  constexpr static std::size_t addrs = 0x26ce68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FileSystemBeatmapLevelData::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::FileSystemBeatmapLevelData::IBeatmapLevelData_ContainsBeatmapData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26ce6b0;
+  constexpr static std::size_t addrs = 0x26ce690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

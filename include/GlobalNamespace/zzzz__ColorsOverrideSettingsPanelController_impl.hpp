@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ModalView> (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::get_editColorSchemeModalView)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bfa2c4;
+  constexpr static std::size_t addrs = 0x3bfa30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorsOverrideSettingsPanelController*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::GlobalNamespace::ColorSchemesSettings*)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::SetData)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x3bfa2cc;
+  constexpr static std::size_t addrs = 0x3bfa314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3bfa758;
+  constexpr static std::size_t addrs = 0x3bfa7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorsOverrideSettingsPanelController*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::OnDisable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bfab40;
+  constexpr static std::size_t addrs = 0x3bfab88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorsOverrideSettingsPanelController*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::OnEnable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bfab68;
+  constexpr static std::size_t addrs = 0x3bfabb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorsOverrideSettingsPanelController*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3bfab78;
+  constexpr static std::size_t addrs = 0x3bfabc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorsOverrideSettingsPanelController*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HideDropdown)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3bfad70;
+  constexpr static std::size_t addrs = 0x3bfadb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3bfadbc;
+  constexpr static std::size_t addrs = 0x3bfae04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3bfaf4c;
+  constexpr static std::size_t addrs = 0x3bfaf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleColorOverrideTypeDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bfb1a8;
+  constexpr static std::size_t addrs = 0x3bfb1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bfb1c4;
+  constexpr static std::size_t addrs = 0x3bfb20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidFinish)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3bfb25c;
+  constexpr static std::size_t addrs = 0x3bfb2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bfb2b0;
+  constexpr static std::size_t addrs = 0x3bfb2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bfb2dc;
+  constexpr static std::size_t addrs = 0x3bfb324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorsOverrideSettingsPanelController*>::get(),
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorsOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::ColorsOverrideSettingsPanelController::_HandleOverrideColorsToggleValueChanged_b__23_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bfb2e4;
+  constexpr static std::size_t addrs = 0x3bfb32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

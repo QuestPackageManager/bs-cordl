@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_enableMixedReality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a094;
+  constexpr static std::size_t addrs = 0x403a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_enableMixedReality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a09c;
+  constexpr static std::size_t addrs = 0x403a024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0a8;
+  constexpr static std::size_t addrs = 0x403a030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0b0;
+  constexpr static std::size_t addrs = 0x403a038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0b8;
+  constexpr static std::size_t addrs = 0x403a040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0c0;
+  constexpr static std::size_t addrs = 0x403a048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0c8;
+  constexpr static std::size_t addrs = 0x403a050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a0d0;
+  constexpr static std::size_t addrs = 0x403a058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_CompositionMethod (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_compositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0dc;
+  constexpr static std::size_t addrs = 0x403a064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_CompositionMethod)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_compositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a0e4;
+  constexpr static std::size_t addrs = 0x403a06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a0ec;
+  constexpr static std::size_t addrs = 0x403a074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a0f8;
+  constexpr static std::size_t addrs = 0x403a080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a104;
+  constexpr static std::size_t addrs = 0x403a08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a110;
+  constexpr static std::size_t addrs = 0x403a098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_CameraDevice (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a11c;
+  constexpr static std::size_t addrs = 0x403a0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_CameraDevice)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a124;
+  constexpr static std::size_t addrs = 0x403a0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a12c;
+  constexpr static std::size_t addrs = 0x403a0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a134;
+  constexpr static std::size_t addrs = 0x403a0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a140;
+  constexpr static std::size_t addrs = 0x403a0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a148;
+  constexpr static std::size_t addrs = 0x403a0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a154;
+  constexpr static std::size_t addrs = 0x403a0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a15c;
+  constexpr static std::size_t addrs = 0x403a0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a164;
+  constexpr static std::size_t addrs = 0x403a0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a16c;
+  constexpr static std::size_t addrs = 0x403a0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a174;
+  constexpr static std::size_t addrs = 0x403a0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(int32_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a17c;
+  constexpr static std::size_t addrs = 0x403a104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a184;
+  constexpr static std::size_t addrs = 0x403a10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a190;
+  constexpr static std::size_t addrs = 0x403a118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a19c;
+  constexpr static std::size_t addrs = 0x403a124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1a4;
+  constexpr static std::size_t addrs = 0x403a12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1ac;
+  constexpr static std::size_t addrs = 0x403a134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1b4;
+  constexpr static std::size_t addrs = 0x403a13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1bc;
+  constexpr static std::size_t addrs = 0x403a144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -513,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1c4;
+  constexpr static std::size_t addrs = 0x403a14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_useDynamicLighting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1cc;
+  constexpr static std::size_t addrs = 0x403a154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_useDynamicLighting)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a1d4;
+  constexpr static std::size_t addrs = 0x403a15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_DepthQuality (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_depthQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1e0;
+  constexpr static std::size_t addrs = 0x403a168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_DepthQuality)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_depthQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1e8;
+  constexpr static std::size_t addrs = 0x403a170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1f0;
+  constexpr static std::size_t addrs = 0x403a178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a1f8;
+  constexpr static std::size_t addrs = 0x403a180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a200;
+  constexpr static std::size_t addrs = 0x403a188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -633,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a208;
+  constexpr static std::size_t addrs = 0x403a190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_VirtualGreenScreenType (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a210;
+  constexpr static std::size_t addrs = 0x403a198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_VirtualGreenScreenType)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a218;
+  constexpr static std::size_t addrs = 0x403a1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a220;
+  constexpr static std::size_t addrs = 0x403a1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -695,7 +695,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a228;
+  constexpr static std::size_t addrs = 0x403a1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a230;
+  constexpr static std::size_t addrs = 0x403a1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -725,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a238;
+  constexpr static std::size_t addrs = 0x403a1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a240;
+  constexpr static std::size_t addrs = 0x403a1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -755,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(bool)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403a248;
+  constexpr static std::size_t addrs = 0x403a1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -770,7 +770,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a254;
+  constexpr static std::size_t addrs = 0x403a1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(float_t)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a25c;
+  constexpr static std::size_t addrs = 0x403a1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -800,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_MrcActivationMode (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_mrcActivationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a264;
+  constexpr static std::size_t addrs = 0x403a1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -815,7 +815,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_MrcActivationMode)>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_mrcActivationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a26c;
+  constexpr static std::size_t addrs = 0x403a1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -831,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a274;
+  constexpr static std::size_t addrs = 0x403a1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),
@@ -847,7 +847,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)>(
         &::GlobalNamespace::OVRMixedRealityCaptureSettings::OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403a27c;
+  constexpr static std::size_t addrs = 0x403a204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -863,7 +863,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMixedRealityCaptureSettings::*)()>(
     &::GlobalNamespace::OVRMixedRealityCaptureSettings::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x403a284;
+  constexpr static std::size_t addrs = 0x403a20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureSettings*>::get(),

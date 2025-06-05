@@ -31,10 +31,10 @@ namespace UnityEngine::Animations {
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x4854954, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x48548dc, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAnimationOutput, addr 0x4854a80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationOutput, addr 0x4854a08, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:

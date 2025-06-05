@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResetLocalLeaderboardOnKey::*)()>(&::GlobalNamespace::ResetLocalLeaderboardOnKey::Update)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2707fdc;
+  constexpr static std::size_t addrs = 0x2707fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResetLocalLeaderboardOnKey*>::get(), "Update",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResetLocalLeaderboardOnKey::*)()>(&::GlobalNamespace::ResetLocalLeaderboardOnKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x270808c;
+  constexpr static std::size_t addrs = 0x2708064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResetLocalLeaderboardOnKey*>::get(), ".ctor",

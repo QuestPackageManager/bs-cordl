@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__input(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x4306a58, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43069e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::AstNode* input, ::MS::Internal::Xml::XPath::AstNode* condition);
 
-  /// @brief Method get_ReturnType, addr 0x4306a8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x4306a14, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x4306a84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4306a0c, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:

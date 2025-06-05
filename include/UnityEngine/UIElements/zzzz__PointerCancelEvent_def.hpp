@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a34100, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a34088, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a340f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a34080, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* getStaticF___9();
@@ -76,18 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerCancelEvent___c;
 
-  /// @brief Method Init, addr 0x4a33bac, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a33b34, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a33bfc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a33b84, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a33d50, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a33cd8, size 0x34c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a33d00, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a33c88, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrepassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x39db94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39db924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

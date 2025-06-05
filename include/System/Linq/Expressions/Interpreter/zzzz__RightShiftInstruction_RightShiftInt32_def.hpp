@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::RightShiftInstruction_RightShiftInt32* New_ctor();
 
-  /// @brief Method Run, addr 0x40f5928, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f58b0, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f5708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f5690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

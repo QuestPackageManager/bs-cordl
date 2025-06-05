@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x491967c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4919604, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4919684, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491960c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_GenerateProxy, addr 0x49196c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateProxy, addr 0x4919648, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
-  /// @brief Method set_Name, addr 0x49196ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x4919634, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional, addr 0x49196b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x491963c, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
 protected:

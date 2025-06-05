@@ -22,7 +22,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x491b358, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x491b2e0, size 0x74, virtual true, abstract: false, final true
   inline void Destroy();
 
   static inline ::UnityEngine::Subsystem* New_ctor();
@@ -36,7 +36,7 @@ public:
   /// @brief Method Stop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method .ctor, addr 0x491b44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491b3d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"

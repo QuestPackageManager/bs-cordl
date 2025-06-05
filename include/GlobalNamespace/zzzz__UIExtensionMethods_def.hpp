@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UIExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CopySizeAndPositionFrom, addr 0x39c4344, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CopySizeAndPositionFrom, addr 0x39c431c, size 0xcc, virtual false, abstract: false, final false
   static inline void CopySizeAndPositionFrom(::UnityEngine::RectTransform* target, ::UnityEngine::RectTransform* source);
 
 protected:

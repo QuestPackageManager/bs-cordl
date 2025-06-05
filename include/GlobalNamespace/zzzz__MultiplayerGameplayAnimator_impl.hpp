@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerGameplayAnimator::*)()>(&::GlobalNamespace::MultiplayerGameplayAnimator::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3bd43e8;
+  constexpr static std::size_t addrs = 0x3bd4430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerGameplayAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bd4478;
+  constexpr static std::size_t addrs = 0x3bd44c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerGameplayAnimator::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerGameplayAnimator::HandleStateChanged)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3bd46ac;
+  constexpr static std::size_t addrs = 0x3bd46f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerGameplayAnimator::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3bd48b8;
+  constexpr static std::size_t addrs = 0x3bd4900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerGameplayAnimator::*)()>(&::GlobalNamespace::MultiplayerGameplayAnimator::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3bd49a0;
+  constexpr static std::size_t addrs = 0x3bd49e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), ".ctor",

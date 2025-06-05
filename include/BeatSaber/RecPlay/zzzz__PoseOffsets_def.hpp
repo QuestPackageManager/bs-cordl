@@ -25,7 +25,7 @@ public:
   /// @brief Field kDefault, offset 0xffffffff, size 0x54
   __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault)) ::BeatSaber::RecPlay::PoseOffsets kDefault;
 
-  /// @brief Method Adjust, addr 0x227be7c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Adjust, addr 0x227be3c, size 0x200, virtual false, abstract: false, final false
   inline void Adjust(::ByRef<::BeatSaber::RecPlay::PlayerPose> pose);
 
   static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault();

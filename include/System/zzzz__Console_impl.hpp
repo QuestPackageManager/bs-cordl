@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WindowsConsole_Console_WindowsCancelHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::WindowsConsole_Console_WindowsCancelHandler::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e33f00;
+  constexpr static std::size_t addrs = 0x3e33e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::WindowsConsole_Console_WindowsCancelHandler::*)(int32_t)>(
     &::System::WindowsConsole_Console_WindowsCancelHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e33f8c;
+  constexpr static std::size_t addrs = 0x3e33f14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleCP)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e33d30;
+  constexpr static std::size_t addrs = 0x3e33cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetConsoleCP",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleOutputCP)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e33d98;
+  constexpr static std::size_t addrs = 0x3e33d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetConsoleOutputCP",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Console_WindowsConsole::DoWindowsConsoleCancelEvent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e33e04;
+  constexpr static std::size_t addrs = 0x3e33d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetInputCodePage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e32d98;
+  constexpr static std::size_t addrs = 0x3e32d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetInputCodePage",
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetOutputCodePage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e32de4;
+  constexpr static std::size_t addrs = 0x3e32d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetOutputCodePage",
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::Encoding*, ::System::Text::Encoding*)>(&::System::Console::SetupStreams)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x3e32e30;
+  constexpr static std::size_t addrs = 0x3e32db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Error)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e334c8;
+  constexpr static std::size_t addrs = 0x3e33450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_Error",
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Out)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e33520;
+  constexpr static std::size_t addrs = 0x3e334a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_Out",
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(::System::IntPtr, ::System::IO::FileAccess, int32_t)>(&::System::Console::Open)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3e33578;
+  constexpr static std::size_t addrs = 0x3e33500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardError)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e33438;
+  constexpr static std::size_t addrs = 0x3e333c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e33318;
+  constexpr static std::size_t addrs = 0x3e332a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardOutput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e333a8;
+  constexpr static std::size_t addrs = 0x3e33330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetError)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e336c8;
+  constexpr static std::size_t addrs = 0x3e33650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetOut)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e337a8;
+  constexpr static std::size_t addrs = 0x3e33730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Console::WriteLine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e33888;
+  constexpr static std::size_t addrs = 0x3e33810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_InputEncoding)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e338fc;
+  constexpr static std::size_t addrs = 0x3e33884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_InputEncoding",
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_OutputEncoding)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e33954;
+  constexpr static std::size_t addrs = 0x3e338dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_OutputEncoding",
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)()>(&::System::Console::ReadKey)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e339ac;
+  constexpr static std::size_t addrs = 0x3e33934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "ReadKey",
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&::System::Console::ReadKey)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e33a04;
+  constexpr static std::size_t addrs = 0x3e3398c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Console::DoConsoleCancelEvent)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3e33b38;
+  constexpr static std::size_t addrs = 0x3e33ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "DoConsoleCancelEvent",

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::CodePointIndexer_TableRange::*)(int32_t, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::CodePointIndexer_TableRange::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c58618;
+  constexpr static std::size_t addrs = 0x3c585a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::CodePointIndexer::*)(
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(&::Mono::Globalization::Unicode::CodePointIndexer::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3c584c0;
+  constexpr static std::size_t addrs = 0x3c58448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::CodePointIndexer::*)(int32_t)>(
     &::Mono::Globalization::Unicode::CodePointIndexer::ToIndex)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c58630;
+  constexpr static std::size_t addrs = 0x3c585b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

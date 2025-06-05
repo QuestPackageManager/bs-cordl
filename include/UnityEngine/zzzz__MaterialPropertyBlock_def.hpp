@@ -43,123 +43,123 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Clear, addr 0x487a44c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x487a3d4, size 0x40, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x487a408, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x487a390, size 0x44, virtual false, abstract: false, final false
   inline void Clear(bool keepMemory);
 
-  /// @brief Method CreateImpl, addr 0x487a3a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CreateImpl, addr 0x487a32c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateImpl();
 
-  /// @brief Method DestroyImpl, addr 0x487a3cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyImpl, addr 0x487a354, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyImpl(::System::IntPtr mpb);
 
-  /// @brief Method Dispose, addr 0x487a88c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x487a814, size 0xa4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x487a7f8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x487a780, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetColor, addr 0x487abfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x487ab84, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColor(int32_t nameID);
 
-  /// @brief Method GetColorImpl, addr 0x4879f04, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetColorImpl, addr 0x4879e8c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColorImpl(int32_t name);
 
-  /// @brief Method GetColorImpl_Injected, addr 0x4879f64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetColorImpl_Injected, addr 0x4879eec, size 0x54, virtual false, abstract: false, final false
   inline void GetColorImpl_Injected(int32_t name, ::ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method GetFloat, addr 0x487abb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x487ab3c, size 0x44, virtual false, abstract: false, final false
   inline float_t GetFloat(int32_t nameID);
 
-  /// @brief Method GetFloatImpl, addr 0x4879e0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFloatImpl, addr 0x4879d94, size 0x44, virtual false, abstract: false, final false
   inline float_t GetFloatImpl(int32_t name);
 
-  /// @brief Method GetMatrix, addr 0x487ac00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix, addr 0x487ab88, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetMatrix(int32_t nameID);
 
-  /// @brief Method GetMatrixImpl, addr 0x4879fb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetMatrixImpl, addr 0x4879f40, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetMatrixImpl(int32_t name);
 
-  /// @brief Method GetMatrixImpl_Injected, addr 0x487a034, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetMatrixImpl_Injected, addr 0x4879fbc, size 0x54, virtual false, abstract: false, final false
   inline void GetMatrixImpl_Injected(int32_t name, ::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetVector, addr 0x487abf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetVector, addr 0x487ab80, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetVector(int32_t nameID);
 
-  /// @brief Method GetVectorImpl, addr 0x4879e50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetVectorImpl, addr 0x4879dd8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetVectorImpl(int32_t name);
 
-  /// @brief Method GetVectorImpl_Injected, addr 0x4879eb0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetVectorImpl_Injected, addr 0x4879e38, size 0x54, virtual false, abstract: false, final false
   inline void GetVectorImpl_Injected(int32_t name, ::ByRef<::UnityEngine::Vector4> ret);
 
   static inline ::UnityEngine::MaterialPropertyBlock* New_ctor();
 
-  /// @brief Method SetColor, addr 0x487a9dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x487a964, size 0x7c, virtual false, abstract: false, final false
   inline void SetColor(::StringW name, ::UnityEngine::Color value);
 
-  /// @brief Method SetColor, addr 0x487aa94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x487aa1c, size 0x4, virtual false, abstract: false, final false
   inline void SetColor(int32_t nameID, ::UnityEngine::Color value);
 
-  /// @brief Method SetColorImpl, addr 0x487a18c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetColorImpl, addr 0x487a114, size 0x5c, virtual false, abstract: false, final false
   inline void SetColorImpl(int32_t name, ::UnityEngine::Color value);
 
-  /// @brief Method SetColorImpl_Injected, addr 0x487a1e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetColorImpl_Injected, addr 0x487a170, size 0x54, virtual false, abstract: false, final false
   inline void SetColorImpl_Injected(int32_t name, ::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method SetFloat, addr 0x487a984, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x487a90c, size 0x54, virtual false, abstract: false, final false
   inline void SetFloat(int32_t nameID, float_t value);
 
-  /// @brief Method SetFloatArray, addr 0x487a48c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetFloatArray, addr 0x487a414, size 0x10c, virtual false, abstract: false, final false
   inline void SetFloatArray(int32_t name, ::ArrayW<float_t, ::Array<float_t>*> values, int32_t count);
 
-  /// @brief Method SetFloatArray, addr 0x487ab6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetFloatArray, addr 0x487aaf4, size 0x18, virtual false, abstract: false, final false
   inline void SetFloatArray(int32_t nameID, ::ArrayW<float_t, ::Array<float_t>*> values);
 
-  /// @brief Method SetFloatArray, addr 0x487aaec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetFloatArray, addr 0x487aa74, size 0x80, virtual false, abstract: false, final false
   inline void SetFloatArray(int32_t nameID, ::System::Collections::Generic::List_1<float_t>* values);
 
-  /// @brief Method SetFloatArrayImpl, addr 0x487a290, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetFloatArrayImpl, addr 0x487a218, size 0x5c, virtual false, abstract: false, final false
   inline void SetFloatArrayImpl(int32_t name, ::ArrayW<float_t, ::Array<float_t>*> values, int32_t count);
 
-  /// @brief Method SetFloatImpl, addr 0x487a088, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetFloatImpl, addr 0x487a010, size 0x54, virtual false, abstract: false, final false
   inline void SetFloatImpl(int32_t name, float_t value);
 
-  /// @brief Method SetInt, addr 0x487a930, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x487a8b8, size 0x54, virtual false, abstract: false, final false
   inline void SetInt(int32_t nameID, int32_t value);
 
-  /// @brief Method SetMatrixArray, addr 0x487a6a4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetMatrixArray, addr 0x487a62c, size 0x10c, virtual false, abstract: false, final false
   inline void SetMatrixArray(int32_t name, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> values, int32_t count);
 
-  /// @brief Method SetMatrixArray, addr 0x487ab9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetMatrixArray, addr 0x487ab24, size 0x18, virtual false, abstract: false, final false
   inline void SetMatrixArray(int32_t nameID, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> values);
 
-  /// @brief Method SetMatrixArrayImpl, addr 0x487a348, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMatrixArrayImpl, addr 0x487a2d0, size 0x5c, virtual false, abstract: false, final false
   inline void SetMatrixArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> values, int32_t count);
 
-  /// @brief Method SetTexture, addr 0x487aa98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetTexture, addr 0x487aa20, size 0x54, virtual false, abstract: false, final false
   inline void SetTexture(int32_t nameID, ::UnityEngine::Texture* value);
 
-  /// @brief Method SetTextureImpl, addr 0x487a23c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetTextureImpl, addr 0x487a1c4, size 0x54, virtual false, abstract: false, final false
   inline void SetTextureImpl(int32_t name, ::UnityEngine::Texture* value);
 
-  /// @brief Method SetVector, addr 0x487a9d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetVector, addr 0x487a960, size 0x4, virtual false, abstract: false, final false
   inline void SetVector(int32_t nameID, ::UnityEngine::Vector4 value);
 
-  /// @brief Method SetVectorArray, addr 0x487a598, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetVectorArray, addr 0x487a520, size 0x10c, virtual false, abstract: false, final false
   inline void SetVectorArray(int32_t name, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> values, int32_t count);
 
-  /// @brief Method SetVectorArray, addr 0x487ab84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetVectorArray, addr 0x487ab0c, size 0x18, virtual false, abstract: false, final false
   inline void SetVectorArray(int32_t nameID, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> values);
 
-  /// @brief Method SetVectorArrayImpl, addr 0x487a2ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetVectorArrayImpl, addr 0x487a274, size 0x5c, virtual false, abstract: false, final false
   inline void SetVectorArrayImpl(int32_t name, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> values, int32_t count);
 
-  /// @brief Method SetVectorImpl, addr 0x487a0dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetVectorImpl, addr 0x487a064, size 0x5c, virtual false, abstract: false, final false
   inline void SetVectorImpl(int32_t name, ::UnityEngine::Vector4 value);
 
-  /// @brief Method SetVectorImpl_Injected, addr 0x487a138, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetVectorImpl_Injected, addr 0x487a0c0, size 0x54, virtual false, abstract: false, final false
   inline void SetVectorImpl_Injected(int32_t name, ::ByRef<::UnityEngine::Vector4> value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x487a7b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x487a738, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4078db4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4078d3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg);
 
 protected:

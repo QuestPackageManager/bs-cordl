@@ -60,13 +60,13 @@ public:
 
   static inline ::HMUI::HoverHint* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39ed66c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39ed644, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerEnter, addr 0x39ed4d0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x39ed4a8, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x39ed538, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x39ed510, size 0xbc, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get__hoverHintController() const;
@@ -87,16 +87,16 @@ public:
 
   constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x39ed6ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ed6c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_size, addr 0x39ed35c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x39ed334, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
-  /// @brief Method get_text, addr 0x39ed34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39ed324, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_worldCenter, addr 0x39ed3d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_worldCenter, addr 0x39ed3ac, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldCenter();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -108,7 +108,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_text, addr 0x39ed354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39ed32c, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

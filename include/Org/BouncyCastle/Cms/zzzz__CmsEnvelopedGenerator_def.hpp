@@ -131,36 +131,36 @@ public:
   __declspec(property(get = __cordl_internal_get_unprotectedAttributeGenerator,
                       put = __cordl_internal_set_unprotectedAttributeGenerator)) ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unprotectedAttributeGenerator;
 
-  /// @brief Method AddKekRecipient, addr 0x264f6d8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddKekRecipient, addr 0x264f698, size 0x104, virtual false, abstract: false, final false
   inline void AddKekRecipient(::StringW keyAlgorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekIdentifier);
 
-  /// @brief Method AddKekRecipient, addr 0x264f64c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddKekRecipient, addr 0x264f60c, size 0x8c, virtual false, abstract: false, final false
   inline void AddKekRecipient(::StringW keyAlgorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier);
 
-  /// @brief Method AddKeyAgreementRecipient, addr 0x264f99c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddKeyAgreementRecipient, addr 0x264f95c, size 0x120, virtual false, abstract: false, final false
   inline void AddKeyAgreementRecipient(::StringW agreementAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPrivateKey,
                                        ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPublicKey, ::Org::BouncyCastle::X509::X509Certificate* recipientCert, ::StringW cekWrapAlgorithm);
 
-  /// @brief Method AddKeyAgreementRecipients, addr 0x264fabc, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method AddKeyAgreementRecipients, addr 0x264fa7c, size 0x234, virtual false, abstract: false, final false
   inline void AddKeyAgreementRecipients(::StringW agreementAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPrivateKey,
                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPublicKey, ::System::Collections::ICollection* recipientCerts, ::StringW cekWrapAlgorithm);
 
-  /// @brief Method AddKeyTransRecipient, addr 0x264f438, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddKeyTransRecipient, addr 0x264f3f8, size 0xf0, virtual false, abstract: false, final false
   inline void AddKeyTransRecipient(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method AddKeyTransRecipient, addr 0x264f528, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AddKeyTransRecipient, addr 0x264f4e8, size 0x124, virtual false, abstract: false, final false
   inline void AddKeyTransRecipient(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subKeyId);
 
-  /// @brief Method AddPasswordRecipient, addr 0x264f7dc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddPasswordRecipient, addr 0x264f79c, size 0x1c0, virtual false, abstract: false, final false
   inline void AddPasswordRecipient(::Org::BouncyCastle::Cms::CmsPbeKey* pbeKey, ::StringW kekAlgorithmOid);
 
-  /// @brief Method AddRecipientInfoGenerator, addr 0x264fcf0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddRecipientInfoGenerator, addr 0x264fcb0, size 0xac, virtual false, abstract: false, final false
   inline void AddRecipientInfoGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator* recipientInfoGenerator);
 
-  /// @brief Method GenerateAsn1Parameters, addr 0x264fed4, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method GenerateAsn1Parameters, addr 0x264fe94, size 0x22c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateAsn1Parameters(::StringW encryptionOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> encKeyBytes);
 
-  /// @brief Method GetAlgorithmIdentifier, addr 0x264fd9c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GetAlgorithmIdentifier, addr 0x264fd5c, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetAlgorithmIdentifier(::StringW encryptionOid, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                       ::Org::BouncyCastle::Asn1::Asn1Encodable* asn1Params,
                                                                                       ::ByRef<::Org::BouncyCastle::Crypto::ICipherParameters*> cipherParameters);
@@ -187,10 +187,10 @@ public:
 
   constexpr void __cordl_internal_set_unprotectedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method .ctor, addr 0x264f350, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264f310, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x264f3ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264f36c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
   static inline ::StringW getStaticF_Aes128Cbc();
@@ -233,7 +233,7 @@ public:
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Table();
 
-  /// @brief Method get_UnprotectedAttributeGenerator, addr 0x264f428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnprotectedAttributeGenerator, addr 0x264f3e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* get_UnprotectedAttributeGenerator();
 
   static inline void setStaticF_Aes128Cbc(::StringW value);
@@ -276,7 +276,7 @@ public:
 
   static inline void setStaticF_rc2Table(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  /// @brief Method set_UnprotectedAttributeGenerator, addr 0x264f430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnprotectedAttributeGenerator, addr 0x264f3f0, size 0x8, virtual false, abstract: false, final false
   inline void set_UnprotectedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
 protected:

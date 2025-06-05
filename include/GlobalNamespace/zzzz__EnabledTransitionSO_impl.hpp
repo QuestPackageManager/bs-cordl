@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9bc8;
+  constexpr static std::size_t addrs = 0x44d9b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9bd0;
+  constexpr static std::size_t addrs = 0x44d9b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9bd8;
+  constexpr static std::size_t addrs = 0x44d9b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9be0;
+  constexpr static std::size_t addrs = 0x44d9b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9be8;
+  constexpr static std::size_t addrs = 0x44d9b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(
     &::GlobalNamespace::EnabledTransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9bf0;
+  constexpr static std::size_t addrs = 0x44d9b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9bf8;
+  constexpr static std::size_t addrs = 0x44d9b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(), ".ctor",

@@ -29,10 +29,10 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::TMPro::Extents zero;
 
-  /// @brief Method ToString, addr 0x47c5c00, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47c5b88, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x47c5bf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c5b7c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   static inline ::TMPro::Extents getStaticF_uninitialized();

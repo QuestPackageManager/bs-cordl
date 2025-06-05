@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BoolSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39c47d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c47ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_ColorScheme::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_ColorScheme::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270b690;
+  constexpr static std::size_t addrs = 0x270b668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_DifficultyBeatmap::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData_DifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270b698;
+  constexpr static std::size_t addrs = 0x270b670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x270b5b0;
+  constexpr static std::size_t addrs = 0x270b588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>::get(),

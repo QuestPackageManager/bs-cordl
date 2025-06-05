@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DlcPromoPanelModel_PromoInfo* (::GlobalNamespace::MusicPackPromoBanner::*)()>(
     &::GlobalNamespace::MusicPackPromoBanner::get_promoInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05d74;
+  constexpr static std::size_t addrs = 0x3b05d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MusicPackPromoBanner*>::get(), "get_promoInfo",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
     &::GlobalNamespace::MusicPackPromoBanner::set_promoInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05d7c;
+  constexpr static std::size_t addrs = 0x3b05d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MusicPackPromoBanner::*)()>(
     &::GlobalNamespace::MusicPackPromoBanner::get_promoButtonText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05d84;
+  constexpr static std::size_t addrs = 0x3b05d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MusicPackPromoBanner*>::get(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::StartLoading)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b05d8c;
+  constexpr static std::size_t addrs = 0x3b05d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MusicPackPromoBanner*>::get(), "StartLoading",
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool)>(
     &::GlobalNamespace::MusicPackPromoBanner::Setup)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b05df8;
+  constexpr static std::size_t addrs = 0x3b05dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05f44;
+  constexpr static std::size_t addrs = 0x3b05f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MusicPackPromoBanner*>::get(), ".ctor",

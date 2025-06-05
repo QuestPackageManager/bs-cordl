@@ -33,13 +33,13 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE FloatFxEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x270f548, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x270f520, size 0x21c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x270e480, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270e458, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:

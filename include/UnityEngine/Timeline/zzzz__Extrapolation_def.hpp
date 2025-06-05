@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Extrapolation___c* New_ctor();
 
-  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x482d130, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x482d0b8, size 0x30, virtual false, abstract: false, final false
   inline int32_t _SortClipsByStartTime_b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
 
-  /// @brief Method .ctor, addr 0x482d128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482d0b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Timeline::Extrapolation___c* getStaticF___9();
@@ -93,10 +93,10 @@ public:
   /// @brief Field kMinExtrapolationTime, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kMinExtrapolationTime, put = setStaticF_kMinExtrapolationTime)) double_t kMinExtrapolationTime;
 
-  /// @brief Method CalculateExtrapolationTimes, addr 0x482caf8, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CalculateExtrapolationTimes, addr 0x482ca80, size 0x418, virtual false, abstract: false, final false
   static inline void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SortClipsByStartTime, addr 0x482cf10, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SortClipsByStartTime, addr 0x482ce98, size 0x138, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>
   SortClipsByStartTime(::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> clips);
 

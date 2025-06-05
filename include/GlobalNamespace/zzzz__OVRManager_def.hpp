@@ -1450,19 +1450,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRManager_InstantiateMrcCameraDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3fd0658, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3fd05e0, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3fd06ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3fd0674, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3fd0644, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3fd05cc, size 0x14, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> Invoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::OVRManager_MrcCameraType cameraType);
 
   static inline ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3fd05a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd052c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1595,16 +1595,16 @@ public:
 
   constexpr void __cordl_internal_set__SupportsPassthrough_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3fd0160, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd00e8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool supportsPassthrough, bool supportsColorPassthrough, uint32_t maxColorLutResolution);
 
-  /// @brief Method get_MaxColorLutResolution, addr 0x3fd0708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxColorLutResolution, addr 0x3fd0690, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_MaxColorLutResolution();
 
-  /// @brief Method get_SupportsColorPassthrough, addr 0x3fd0700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsColorPassthrough, addr 0x3fd0688, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsColorPassthrough();
 
-  /// @brief Method get_SupportsPassthrough, addr 0x3fd06f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportsPassthrough, addr 0x3fd0680, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsPassthrough();
 
 protected:
@@ -1663,13 +1663,13 @@ public:
 
   static inline ::GlobalNamespace::OVRManager___c* New_ctor();
 
-  /// @brief Method <FindMainCamera>b__434_0, addr 0x3fd0790, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <FindMainCamera>b__434_0, addr 0x3fd0718, size 0x8c, virtual false, abstract: false, final false
   inline int32_t _FindMainCamera_b__434_0(::UnityEngine::Camera* c0, ::UnityEngine::Camera* c1);
 
-  /// @brief Method <InitOVRManager>b__418_0, addr 0x3fd0774, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <InitOVRManager>b__418_0, addr 0x3fd06fc, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _InitOVRManager_b__418_0(float_t f);
 
-  /// @brief Method .ctor, addr 0x3fd076c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd06f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRManager___c* getStaticF___9();
@@ -2298,325 +2298,325 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept;
 
-  /// @brief Method Awake, addr 0x3fcb944, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fcb8cc, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateMixedRealityCaptureConfigurationFileFromCmd, addr 0x3fc9cb4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateMixedRealityCaptureConfigurationFileFromCmd, addr 0x3fc9c3c, size 0xb8, virtual false, abstract: false, final false
   static inline bool CreateMixedRealityCaptureConfigurationFileFromCmd();
 
-  /// @brief Method DeregisterEventListener, addr 0x3fc993c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DeregisterEventListener, addr 0x3fc98c4, size 0x58, virtual false, abstract: false, final false
   inline void DeregisterEventListener(::GlobalNamespace::OVRManager_EventListener* listener);
 
-  /// @brief Method FindMainCamera, addr 0x3fc8f50, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method FindMainCamera, addr 0x3fc8ed8, size 0x680, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Camera> FindMainCamera();
 
-  /// @brief Method FixedUpdate, addr 0x3fcf658, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3fcf5e0, size 0x50, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetCurrentDisplaySubsystem, addr 0x3fcbb00, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystem, addr 0x3fcba88, size 0x18c, virtual false, abstract: false, final false
   static inline Il2CppObject* GetCurrentDisplaySubsystem();
 
-  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x3fcbc8c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDisplaySubsystemDescriptor, addr 0x3fcbc14, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* GetCurrentDisplaySubsystemDescriptor();
 
-  /// @brief Method GetCurrentInputSubsystem, addr 0x3fcbe18, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInputSubsystem, addr 0x3fcbda0, size 0x18c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::XRInputSubsystem* GetCurrentInputSubsystem();
 
-  /// @brief Method GetOpenVRControllerOffset, addr 0x3fc8ae4, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetOpenVRControllerOffset, addr 0x3fc8a6c, size 0x1f8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose GetOpenVRControllerOffset(::UnityEngine::XR::XRNode hand);
 
-  /// @brief Method GetPassthroughCapabilities, addr 0x3fd000c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetPassthroughCapabilities, addr 0x3fcff94, size 0x154, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_PassthroughCapabilities* GetPassthroughCapabilities();
 
-  /// @brief Method GetSpaceWarp, addr 0x3fc95d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceWarp, addr 0x3fc9558, size 0x58, virtual false, abstract: false, final false
   static inline bool GetSpaceWarp();
 
-  /// @brief Method HasInsightPassthroughInitFailed, addr 0x3fd0200, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasInsightPassthroughInitFailed, addr 0x3fd0188, size 0x60, virtual false, abstract: false, final false
   static inline bool HasInsightPassthroughInitFailed();
 
-  /// @brief Method InitOVRManager, addr 0x3fc9f14, size 0xf8c, virtual false, abstract: false, final false
+  /// @brief Method InitOVRManager, addr 0x3fc9e9c, size 0xf8c, virtual false, abstract: false, final false
   inline void InitOVRManager();
 
-  /// @brief Method InitPermissionRequest, addr 0x3fcb670, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InitPermissionRequest, addr 0x3fcb5f8, size 0x100, virtual false, abstract: false, final false
   inline void InitPermissionRequest();
 
-  /// @brief Method Initialize, addr 0x3fcb3f0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3fcb378, size 0x280, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeInsightPassthrough, addr 0x3fcb770, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method InitializeInsightPassthrough, addr 0x3fcb6f8, size 0x1d4, virtual false, abstract: false, final false
   static inline bool InitializeInsightPassthrough();
 
-  /// @brief Method IsAdaptiveResSupportedByEngine, addr 0x3fc7208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAdaptiveResSupportedByEngine, addr 0x3fc7190, size 0x8, virtual false, abstract: false, final false
   static inline bool IsAdaptiveResSupportedByEngine();
 
-  /// @brief Method IsInsightPassthroughInitPending, addr 0x3fd0260, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsInsightPassthroughInitPending, addr 0x3fd01e8, size 0x60, virtual false, abstract: false, final false
   static inline bool IsInsightPassthroughInitPending();
 
-  /// @brief Method IsInsightPassthroughInitialized, addr 0x3fd01a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsInsightPassthroughInitialized, addr 0x3fd0128, size 0x60, virtual false, abstract: false, final false
   static inline bool IsInsightPassthroughInitialized();
 
-  /// @brief Method IsInsightPassthroughSupported, addr 0x3fcffbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsInsightPassthroughSupported, addr 0x3fcff44, size 0x50, virtual false, abstract: false, final false
   static inline bool IsInsightPassthroughSupported();
 
-  /// @brief Method IsMultimodalHandsControllersSupported, addr 0x3fcff6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsMultimodalHandsControllersSupported, addr 0x3fcfef4, size 0x50, virtual false, abstract: false, final false
   static inline bool IsMultimodalHandsControllersSupported();
 
-  /// @brief Method IsPassthroughRecommended, addr 0x3fd02c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsPassthroughRecommended, addr 0x3fd0248, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsPassthroughRecommended();
 
-  /// @brief Method IsUnityAlphaOrBetaVersion, addr 0x3fc9e24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsUnityAlphaOrBetaVersion, addr 0x3fc9dac, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsUnityAlphaOrBetaVersion();
 
-  /// @brief Method LateUpdate, addr 0x3fcf46c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3fcf3f4, size 0x1ec, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LoadMixedRealityCaptureConfigurationFileFromCmd, addr 0x3fc9d6c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method LoadMixedRealityCaptureConfigurationFileFromCmd, addr 0x3fc9cf4, size 0xb8, virtual false, abstract: false, final false
   static inline bool LoadMixedRealityCaptureConfigurationFileFromCmd();
 
-  /// @brief Method MixedRealityEnabledFromCmd, addr 0x3fc9a8c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MixedRealityEnabledFromCmd, addr 0x3fc9a14, size 0xb8, virtual false, abstract: false, final false
   static inline bool MixedRealityEnabledFromCmd();
 
   static inline ::GlobalNamespace::OVRManager* New_ctor();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_capturingCameraDevice, addr 0x3fc7558, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_capturingCameraDevice, addr 0x3fc74e0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_CameraDevice OVRMixedRealityCaptureConfiguration_get_capturingCameraDevice();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeyColor, addr 0x3fc75c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeyColor, addr 0x3fc7548, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_chromaKeyColor();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeySimilarity, addr 0x3fc75d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeySimilarity, addr 0x3fc7560, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_chromaKeySimilarity();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange, addr 0x3fc75e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeySmoothRange, addr 0x3fc7570, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_chromaKeySmoothRange();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeySpillRange, addr 0x3fc75f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_chromaKeySpillRange, addr 0x3fc7580, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_chromaKeySpillRange();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_compositionMethod, addr 0x3fc7518, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_compositionMethod, addr 0x3fc74a0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_CompositionMethod OVRMixedRealityCaptureConfiguration_get_compositionMethod();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_depthQuality, addr 0x3fc761c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_depthQuality, addr 0x3fc75a4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_DepthQuality OVRMixedRealityCaptureConfiguration_get_depthQuality();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_dynamicCullingMask, addr 0x3fc7504, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_dynamicCullingMask, addr 0x3fc748c, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_dynamicCullingMask();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_dynamicLightingDepthVariationClampingValue, addr 0x3fc763c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_dynamicLightingDepthVariationClampingValue, addr 0x3fc75c4, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_dynamicLightingDepthVariationClampingValue();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_dynamicLightingSmoothFactor, addr 0x3fc762c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_dynamicLightingSmoothFactor, addr 0x3fc75b4, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_dynamicLightingSmoothFactor();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_enableMixedReality, addr 0x3fc74d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_enableMixedReality, addr 0x3fc7458, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_enableMixedReality();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorQuest, addr 0x3fc7540, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorQuest, addr 0x3fc74c8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorQuest();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorRift, addr 0x3fc7528, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_externalCompositionBackdropColorRift, addr 0x3fc74b0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color OVRMixedRealityCaptureConfiguration_get_externalCompositionBackdropColorRift();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers, addr 0x3fc74e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_extraHiddenLayers, addr 0x3fc746c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::LayerMask OVRMixedRealityCaptureConfiguration_get_extraHiddenLayers();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_extraVisibleLayers, addr 0x3fc74f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_extraVisibleLayers, addr 0x3fc747c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::LayerMask OVRMixedRealityCaptureConfiguration_get_extraVisibleLayers();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_flipCameraFrameHorizontally, addr 0x3fc7568, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_flipCameraFrameHorizontally, addr 0x3fc74f0, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_flipCameraFrameHorizontally();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_flipCameraFrameVertically, addr 0x3fc757c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_flipCameraFrameVertically, addr 0x3fc7504, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_flipCameraFrameVertically();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency, addr 0x3fc7590, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_handPoseStateLatency, addr 0x3fc7518, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_handPoseStateLatency();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject, addr 0x3fc76b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_instantiateMixedRealityCameraGameObject, addr 0x3fc7638, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* OVRMixedRealityCaptureConfiguration_get_instantiateMixedRealityCameraGameObject();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_mrcActivationMode, addr 0x3fc76a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_mrcActivationMode, addr 0x3fc7628, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_MrcActivationMode OVRMixedRealityCaptureConfiguration_get_mrcActivationMode();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_sandwichCompositionBufferedFrames, addr 0x3fc75b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_sandwichCompositionBufferedFrames, addr 0x3fc7538, size 0x8, virtual true, abstract: false, final true
   inline int32_t OVRMixedRealityCaptureConfiguration_get_sandwichCompositionBufferedFrames();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency, addr 0x3fc75a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_sandwichCompositionRenderLatency, addr 0x3fc7528, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_sandwichCompositionRenderLatency();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_useDynamicLighting, addr 0x3fc7608, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_useDynamicLighting, addr 0x3fc7590, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_useDynamicLighting();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenApplyDepthCulling, addr 0x3fc767c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenApplyDepthCulling, addr 0x3fc7604, size 0x8, virtual true, abstract: false, final true
   inline bool OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenApplyDepthCulling();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenBottomY, addr 0x3fc766c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenBottomY, addr 0x3fc75f4, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenBottomY();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance, addr 0x3fc7690, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenDepthTolerance, addr 0x3fc7618, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenDepthTolerance();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenTopY, addr 0x3fc765c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenTopY, addr 0x3fc75e4, size 0x8, virtual true, abstract: false, final true
   inline float_t OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenTopY();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenType, addr 0x3fc764c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.get_virtualGreenScreenType, addr 0x3fc75d4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OVRManager_VirtualGreenScreenType OVRMixedRealityCaptureConfiguration_get_virtualGreenScreenType();
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_capturingCameraDevice, addr 0x3fc7560, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_capturingCameraDevice, addr 0x3fc74e8, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_capturingCameraDevice(::GlobalNamespace::OVRManager_CameraDevice value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeyColor, addr 0x3fc75cc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeyColor, addr 0x3fc7554, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_chromaKeyColor(::UnityEngine::Color value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeySimilarity, addr 0x3fc75e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeySimilarity, addr 0x3fc7568, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_chromaKeySimilarity(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeySmoothRange, addr 0x3fc75f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeySmoothRange, addr 0x3fc7578, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_chromaKeySmoothRange(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeySpillRange, addr 0x3fc7600, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_chromaKeySpillRange, addr 0x3fc7588, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_chromaKeySpillRange(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_compositionMethod, addr 0x3fc7520, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_compositionMethod, addr 0x3fc74a8, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_compositionMethod(::GlobalNamespace::OVRManager_CompositionMethod value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_depthQuality, addr 0x3fc7624, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_depthQuality, addr 0x3fc75ac, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_depthQuality(::GlobalNamespace::OVRManager_DepthQuality value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_dynamicCullingMask, addr 0x3fc750c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_dynamicCullingMask, addr 0x3fc7494, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_dynamicCullingMask(bool value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue, addr 0x3fc7644, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_dynamicLightingDepthVariationClampingValue, addr 0x3fc75cc, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_dynamicLightingDepthVariationClampingValue(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_dynamicLightingSmoothFactor, addr 0x3fc7634, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_dynamicLightingSmoothFactor, addr 0x3fc75bc, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_dynamicLightingSmoothFactor(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_enableMixedReality, addr 0x3fc74d8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_enableMixedReality, addr 0x3fc7460, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_enableMixedReality(bool value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorQuest, addr 0x3fc754c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorQuest, addr 0x3fc74d4, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorRift, addr 0x3fc7534, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_externalCompositionBackdropColorRift, addr 0x3fc74bc, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers, addr 0x3fc74ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_extraHiddenLayers, addr 0x3fc7474, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_extraHiddenLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_extraVisibleLayers, addr 0x3fc74fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_extraVisibleLayers, addr 0x3fc7484, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_extraVisibleLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally, addr 0x3fc7570, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_flipCameraFrameHorizontally, addr 0x3fc74f8, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_flipCameraFrameHorizontally(bool value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically, addr 0x3fc7584, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_flipCameraFrameVertically, addr 0x3fc750c, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_flipCameraFrameVertically(bool value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency, addr 0x3fc7598, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_handPoseStateLatency, addr 0x3fc7520, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_handPoseStateLatency(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject, addr 0x3fc76b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_instantiateMixedRealityCameraGameObject, addr 0x3fc7640, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_mrcActivationMode, addr 0x3fc76a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_mrcActivationMode, addr 0x3fc7630, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_mrcActivationMode(::GlobalNamespace::OVRManager_MrcActivationMode value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_sandwichCompositionBufferedFrames, addr 0x3fc75b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_sandwichCompositionBufferedFrames, addr 0x3fc7540, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_sandwichCompositionBufferedFrames(int32_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency, addr 0x3fc75a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_sandwichCompositionRenderLatency, addr 0x3fc7530, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_sandwichCompositionRenderLatency(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_useDynamicLighting, addr 0x3fc7610, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_useDynamicLighting, addr 0x3fc7598, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_useDynamicLighting(bool value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenApplyDepthCulling, addr 0x3fc7684, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenApplyDepthCulling, addr 0x3fc760c, size 0xc, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenApplyDepthCulling(bool value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenBottomY, addr 0x3fc7674, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenBottomY, addr 0x3fc75fc, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenBottomY(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance, addr 0x3fc7698, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenDepthTolerance, addr 0x3fc7620, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenDepthTolerance(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenTopY, addr 0x3fc7664, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenTopY, addr 0x3fc75ec, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenTopY(float_t value);
 
-  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenType, addr 0x3fc7654, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OVRMixedRealityCaptureConfiguration.set_virtualGreenScreenType, addr 0x3fc75dc, size 0x8, virtual true, abstract: false, final true
   inline void OVRMixedRealityCaptureConfiguration_set_virtualGreenScreenType(::GlobalNamespace::OVRManager_VirtualGreenScreenType value);
 
-  /// @brief Method OnApplicationFocus, addr 0x3fcf7cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x3fcf754, size 0x88, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool focus);
 
-  /// @brief Method OnApplicationPause, addr 0x3fcf744, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3fcf6cc, size 0x88, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pause);
 
-  /// @brief Method OnApplicationQuit, addr 0x3fcf854, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x3fcf7dc, size 0x68, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method OnDestroy, addr 0x3fcf6a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3fcf630, size 0x9c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3fcf3b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fcf33c, size 0xb8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPermissionGranted, addr 0x3fc8318, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x3fc82a0, size 0xd4, virtual false, abstract: false, final false
   static inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method PassthroughInitializedOrPending, addr 0x3fcff5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PassthroughInitializedOrPending, addr 0x3fcfee4, size 0x10, virtual false, abstract: false, final false
   static inline bool PassthroughInitializedOrPending(::GlobalNamespace::OVRManager_PassthroughInitializationState state);
 
-  /// @brief Method PlatformUIConfirmQuit, addr 0x3fcf908, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method PlatformUIConfirmQuit, addr 0x3fcf890, size 0x8c, virtual false, abstract: false, final false
   static inline void PlatformUIConfirmQuit();
 
-  /// @brief Method RegisterEventListener, addr 0x3fc98e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventListener, addr 0x3fc986c, size 0x58, virtual false, abstract: false, final false
   inline void RegisterEventListener(::GlobalNamespace::OVRManager_EventListener* listener);
 
-  /// @brief Method ReturnToLauncher, addr 0x3fcf8bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReturnToLauncher, addr 0x3fcf844, size 0x4c, virtual false, abstract: false, final false
   inline void ReturnToLauncher();
 
-  /// @brief Method SetColorScaleAndOffset, addr 0x3fc8924, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScaleAndOffset, addr 0x3fc88ac, size 0xb8, virtual false, abstract: false, final false
   static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
 
-  /// @brief Method SetCurrentXRDevice, addr 0x3fcb9b0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentXRDevice, addr 0x3fcb938, size 0x150, virtual false, abstract: false, final false
   inline void SetCurrentXRDevice();
 
-  /// @brief Method SetDepthSubmission, addr 0x3fc9628, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetDepthSubmission, addr 0x3fc95b0, size 0x1c, virtual false, abstract: false, final false
   static inline bool SetDepthSubmission(bool enable);
 
-  /// @brief Method SetOpenVRLocalPose, addr 0x3fc89dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetOpenVRLocalPose, addr 0x3fc8964, size 0x108, virtual false, abstract: false, final false
   static inline void SetOpenVRLocalPose(::UnityEngine::Vector3 leftPos, ::UnityEngine::Vector3 rightPos, ::UnityEngine::Quaternion leftRot, ::UnityEngine::Quaternion rightRot);
 
-  /// @brief Method SetSpaceWarp, addr 0x3fc8cdc, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceWarp, addr 0x3fc8c64, size 0x274, virtual false, abstract: false, final false
   static inline void SetSpaceWarp(bool enabled);
 
-  /// @brief Method ShutdownInsightPassthrough, addr 0x3fce0cc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ShutdownInsightPassthrough, addr 0x3fce054, size 0x130, virtual false, abstract: false, final false
   static inline void ShutdownInsightPassthrough();
 
-  /// @brief Method StaticInitializeMixedRealityCapture, addr 0x3fcaea0, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method StaticInitializeMixedRealityCapture, addr 0x3fcae28, size 0x550, virtual false, abstract: false, final false
   static inline void StaticInitializeMixedRealityCapture(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method StaticShutdownMixedRealityCapture, addr 0x3fcdfc4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method StaticShutdownMixedRealityCapture, addr 0x3fcdf4c, size 0x108, virtual false, abstract: false, final false
   static inline void StaticShutdownMixedRealityCapture(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
 
-  /// @brief Method StaticUpdateMixedRealityCapture, addr 0x3fcecec, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method StaticUpdateMixedRealityCapture, addr 0x3fcec74, size 0x4c4, virtual false, abstract: false, final false
   static inline void StaticUpdateMixedRealityCapture(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration, ::UnityEngine::GameObject* gameObject,
                                                      ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin);
 
-  /// @brief Method Update, addr 0x3fcbfa4, size 0x2020, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fcbf2c, size 0x2020, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateHMDEvents, addr 0x3fce1fc, size 0xaf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateHMDEvents, addr 0x3fce184, size 0xaf0, virtual false, abstract: false, final false
   inline void UpdateHMDEvents();
 
-  /// @brief Method UpdateInsightPassthrough, addr 0x3fcf1b0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method UpdateInsightPassthrough, addr 0x3fcf138, size 0x204, virtual false, abstract: false, final false
   static inline void UpdateInsightPassthrough(bool shouldBeEnabled);
 
-  /// @brief Method UseDirectCompositionFromCmd, addr 0x3fc9b44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UseDirectCompositionFromCmd, addr 0x3fc9acc, size 0xb8, virtual false, abstract: false, final false
   static inline bool UseDirectCompositionFromCmd();
 
-  /// @brief Method UseExternalCompositionFromCmd, addr 0x3fc9bfc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method UseExternalCompositionFromCmd, addr 0x3fc9b84, size 0xb8, virtual false, abstract: false, final false
   static inline bool UseExternalCompositionFromCmd();
 
   constexpr bool const& __cordl_internal_get_AllowRecenter() const;
@@ -2991,76 +2991,76 @@ public:
 
   constexpr void __cordl_internal_set_virtualGreenScreenType(::GlobalNamespace::OVRManager_VirtualGreenScreenType value);
 
-  /// @brief Method .ctor, addr 0x3fd032c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd02b4, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_AudioInChanged, addr 0x3fc5130, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_AudioInChanged, addr 0x3fc50b8, size 0xdc, virtual false, abstract: false, final false
   static inline void add_AudioInChanged(::System::Action* value);
 
-  /// @brief Method add_AudioOutChanged, addr 0x3fc4f78, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_AudioOutChanged, addr 0x3fc4f00, size 0xdc, virtual false, abstract: false, final false
   static inline void add_AudioOutChanged(::System::Action* value);
 
-  /// @brief Method add_DisplayRefreshRateChanged, addr 0x3fc5658, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_DisplayRefreshRateChanged, addr 0x3fc55e0, size 0xf4, virtual false, abstract: false, final false
   static inline void add_DisplayRefreshRateChanged(::System::Action_2<float_t, float_t>* value);
 
-  /// @brief Method add_HMDAcquired, addr 0x3fc41b8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_HMDAcquired, addr 0x3fc4140, size 0xdc, virtual false, abstract: false, final false
   static inline void add_HMDAcquired(::System::Action* value);
 
-  /// @brief Method add_HMDLost, addr 0x3fc4370, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_HMDLost, addr 0x3fc42f8, size 0xdc, virtual false, abstract: false, final false
   static inline void add_HMDLost(::System::Action* value);
 
-  /// @brief Method add_HMDMounted, addr 0x3fc4528, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_HMDMounted, addr 0x3fc44b0, size 0xdc, virtual false, abstract: false, final false
   static inline void add_HMDMounted(::System::Action* value);
 
-  /// @brief Method add_HMDUnmounted, addr 0x3fc46e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_HMDUnmounted, addr 0x3fc4668, size 0xdc, virtual false, abstract: false, final false
   static inline void add_HMDUnmounted(::System::Action* value);
 
-  /// @brief Method add_HSWDismissed, addr 0x3fc6968, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_HSWDismissed, addr 0x3fc68f0, size 0xdc, virtual false, abstract: false, final false
   static inline void add_HSWDismissed(::System::Action* value);
 
-  /// @brief Method add_InputFocusAcquired, addr 0x3fc4c08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_InputFocusAcquired, addr 0x3fc4b90, size 0xdc, virtual false, abstract: false, final false
   static inline void add_InputFocusAcquired(::System::Action* value);
 
-  /// @brief Method add_InputFocusLost, addr 0x3fc4dc0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_InputFocusLost, addr 0x3fc4d48, size 0xdc, virtual false, abstract: false, final false
   static inline void add_InputFocusLost(::System::Action* value);
 
-  /// @brief Method add_SceneCaptureComplete, addr 0x3fc6780, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SceneCaptureComplete, addr 0x3fc6708, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SceneCaptureComplete(::System::Action_2<uint64_t, bool>* value);
 
-  /// @brief Method add_ShareSpacesComplete, addr 0x3fc63b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_ShareSpacesComplete, addr 0x3fc6338, size 0xf4, virtual false, abstract: false, final false
   static inline void add_ShareSpacesComplete(::System::Action_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
-  /// @brief Method add_SpaceEraseComplete, addr 0x3fc61c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpaceEraseComplete, addr 0x3fc6150, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpaceEraseComplete(::System::Action_4<uint64_t, bool, ::System::Guid, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation>* value);
 
-  /// @brief Method add_SpaceListSaveComplete, addr 0x3fc6598, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpaceListSaveComplete, addr 0x3fc6520, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpaceListSaveComplete(::System::Action_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
-  /// @brief Method add_SpaceQueryComplete, addr 0x3fc5df8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpaceQueryComplete, addr 0x3fc5d80, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpaceQueryComplete(::System::Action_2<uint64_t, bool>* value);
 
-  /// @brief Method add_SpaceQueryResults, addr 0x3fc5c10, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpaceQueryResults, addr 0x3fc5b98, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpaceQueryResults(::System::Action_1<uint64_t>* value);
 
-  /// @brief Method add_SpaceSaveComplete, addr 0x3fc5fe0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpaceSaveComplete, addr 0x3fc5f68, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpaceSaveComplete(::System::Action_4<uint64_t, ::GlobalNamespace::OVRSpace, bool, ::System::Guid>* value);
 
-  /// @brief Method add_SpaceSetComponentStatusComplete, addr 0x3fc5a28, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpaceSetComponentStatusComplete, addr 0x3fc59b0, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpaceSetComponentStatusComplete(::System::Action_6<uint64_t, bool, ::GlobalNamespace::OVRSpace, ::System::Guid, ::GlobalNamespace::OVRPlugin_SpaceComponentType, bool>* value);
 
-  /// @brief Method add_SpatialAnchorCreateComplete, addr 0x3fc5840, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_SpatialAnchorCreateComplete, addr 0x3fc57c8, size 0xf4, virtual false, abstract: false, final false
   static inline void add_SpatialAnchorCreateComplete(::System::Action_4<uint64_t, bool, ::GlobalNamespace::OVRSpace, ::System::Guid>* value);
 
-  /// @brief Method add_TrackingAcquired, addr 0x3fc52e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_TrackingAcquired, addr 0x3fc5270, size 0xdc, virtual false, abstract: false, final false
   static inline void add_TrackingAcquired(::System::Action* value);
 
-  /// @brief Method add_TrackingLost, addr 0x3fc54a0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_TrackingLost, addr 0x3fc5428, size 0xdc, virtual false, abstract: false, final false
   static inline void add_TrackingLost(::System::Action* value);
 
-  /// @brief Method add_VrFocusAcquired, addr 0x3fc4898, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_VrFocusAcquired, addr 0x3fc4820, size 0xdc, virtual false, abstract: false, final false
   static inline void add_VrFocusAcquired(::System::Action* value);
 
-  /// @brief Method add_VrFocusLost, addr 0x3fc4a50, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_VrFocusLost, addr 0x3fc49d8, size 0xdc, virtual false, abstract: false, final false
   static inline void add_VrFocusLost(::System::Action* value);
 
   static inline ::System::Action* getStaticF_AudioInChanged();
@@ -3201,233 +3201,233 @@ public:
 
   static inline bool getStaticF_wasPositionTracked();
 
-  /// @brief Method get_IsSimultaneousHandsAndControllersSupported, addr 0x3fc9770, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsSimultaneousHandsAndControllersSupported, addr 0x3fc96f8, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsSimultaneousHandsAndControllersSupported();
 
-  /// @brief Method get_audioInId, addr 0x3fc6cb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_audioInId, addr 0x3fc6c38, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW get_audioInId();
 
-  /// @brief Method get_audioOutId, addr 0x3fc6c60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_audioOutId, addr 0x3fc6be8, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW get_audioOutId();
 
-  /// @brief Method get_batteryLevel, addr 0x3fc78cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_batteryLevel, addr 0x3fc7854, size 0x8c, virtual false, abstract: false, final false
   static inline float_t get_batteryLevel();
 
-  /// @brief Method get_batteryStatus, addr 0x3fc79e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_batteryStatus, addr 0x3fc796c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t get_batteryStatus();
 
-  /// @brief Method get_batteryTemperature, addr 0x3fc7958, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_batteryTemperature, addr 0x3fc78e0, size 0x8c, virtual false, abstract: false, final false
   static inline float_t get_batteryTemperature();
 
-  /// @brief Method get_boundary, addr 0x3fc3f58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_boundary, addr 0x3fc3ee0, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRBoundary* get_boundary();
 
-  /// @brief Method get_chromatic, addr 0x3fc6e90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_chromatic, addr 0x3fc6e18, size 0x8c, virtual false, abstract: false, final false
   inline bool get_chromatic();
 
-  /// @brief Method get_colorGamut, addr 0x3fc7148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorGamut, addr 0x3fc70d0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRManager_ColorSpace get_colorGamut();
 
-  /// @brief Method get_cpuLevel, addr 0x3fc7d34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_cpuLevel, addr 0x3fc7cbc, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t get_cpuLevel();
 
-  /// @brief Method get_display, addr 0x3fc3df0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_display, addr 0x3fc3d78, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRDisplay* get_display();
 
-  /// @brief Method get_eyeFovPremultipliedAlphaModeEnabled, addr 0x3fc7428, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeFovPremultipliedAlphaModeEnabled, addr 0x3fc73b0, size 0x50, virtual false, abstract: false, final false
   static inline bool get_eyeFovPremultipliedAlphaModeEnabled();
 
-  /// @brief Method get_eyeTextureFormat, addr 0x3fc7ff8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTextureFormat, addr 0x3fc7f80, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_EyeTextureFormat get_eyeTextureFormat();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x3fc80f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x3fc8078, size 0x50, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x3fc80a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x3fc8028, size 0x50, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingSupported();
 
-  /// @brief Method get_fixedFoveatedRenderingLevel, addr 0x3fc84e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_fixedFoveatedRenderingLevel, addr 0x3fc846c, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
 
-  /// @brief Method get_fixedFoveatedRenderingSupported, addr 0x3fc8494, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_fixedFoveatedRenderingSupported, addr 0x3fc841c, size 0x50, virtual false, abstract: false, final false
   static inline bool get_fixedFoveatedRenderingSupported();
 
-  /// @brief Method get_foveatedRenderingLevel, addr 0x3fc83ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevel, addr 0x3fc8374, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_FoveatedRenderingLevel get_foveatedRenderingLevel();
 
-  /// @brief Method get_gpuLevel, addr 0x3fc7e50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_gpuLevel, addr 0x3fc7dd8, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t get_gpuLevel();
 
-  /// @brief Method get_gpuUtilLevel, addr 0x3fc8824, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_gpuUtilLevel, addr 0x3fc87ac, size 0xb0, virtual false, abstract: false, final false
   static inline float_t get_gpuUtilLevel();
 
-  /// @brief Method get_gpuUtilSupported, addr 0x3fc87d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_gpuUtilSupported, addr 0x3fc875c, size 0x50, virtual false, abstract: false, final false
   static inline bool get_gpuUtilSupported();
 
-  /// @brief Method get_hasInputFocus, addr 0x3fc6e40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_hasInputFocus, addr 0x3fc6dc8, size 0x50, virtual false, abstract: false, final false
   static inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x3fc6d00, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_hasVrFocus, addr 0x3fc6c88, size 0xd8, virtual false, abstract: false, final false
   static inline bool get_hasVrFocus();
 
-  /// @brief Method get_headPoseRelativeOffsetRotation, addr 0x3fc7210, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPoseRelativeOffsetRotation, addr 0x3fc7198, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPoseRelativeOffsetRotation();
 
-  /// @brief Method get_headPoseRelativeOffsetTranslation, addr 0x3fc7304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPoseRelativeOffsetTranslation, addr 0x3fc728c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPoseRelativeOffsetTranslation();
 
-  /// @brief Method get_instance, addr 0x3fc3d3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x3fc3cc4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRManager> get_instance();
 
-  /// @brief Method get_isHmdPresent, addr 0x3fc6b20, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_isHmdPresent, addr 0x3fc6aa8, size 0xd8, virtual false, abstract: false, final false
   static inline bool get_isHmdPresent();
 
-  /// @brief Method get_isPowerSavingActive, addr 0x3fc7f6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_isPowerSavingActive, addr 0x3fc7ef4, size 0x8c, virtual false, abstract: false, final false
   static inline bool get_isPowerSavingActive();
 
-  /// @brief Method get_isSupportedPlatform, addr 0x3fc9790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSupportedPlatform, addr 0x3fc9718, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSupportedPlatform();
 
-  /// @brief Method get_isUserPresent, addr 0x3fc97a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_isUserPresent, addr 0x3fc972c, size 0xd8, virtual false, abstract: false, final false
   inline bool get_isUserPresent();
 
-  /// @brief Method get_monoscopic, addr 0x3fc6fac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_monoscopic, addr 0x3fc6f34, size 0x90, virtual false, abstract: false, final false
   inline bool get_monoscopic();
 
-  /// @brief Method get_nativeColorGamut, addr 0x3fc71b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_nativeColorGamut, addr 0x3fc7140, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRManager_ColorSpace get_nativeColorGamut();
 
-  /// @brief Method get_pluginVersion, addr 0x3fc99ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_pluginVersion, addr 0x3fc9974, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Version* get_pluginVersion();
 
-  /// @brief Method get_profile, addr 0x3fc40c0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_profile, addr 0x3fc4048, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRProfile> get_profile();
 
-  /// @brief Method get_runtimeSettings, addr 0x3fc400c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_runtimeSettings, addr 0x3fc3f94, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_runtimeSettings();
 
-  /// @brief Method get_sdkVersion, addr 0x3fc9a3c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_sdkVersion, addr 0x3fc99c4, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Version* get_sdkVersion();
 
-  /// @brief Method get_sharpenType, addr 0x3fc70d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sharpenType, addr 0x3fc7060, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_LayerSharpenType get_sharpenType();
 
-  /// @brief Method get_suggestedCpuPerfLevel, addr 0x3fc7afc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_suggestedCpuPerfLevel, addr 0x3fc7a84, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel get_suggestedCpuPerfLevel();
 
-  /// @brief Method get_suggestedGpuPerfLevel, addr 0x3fc7c18, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_suggestedGpuPerfLevel, addr 0x3fc7ba0, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_ProcessorPerformanceLevel get_suggestedGpuPerfLevel();
 
-  /// @brief Method get_systemHeadsetType, addr 0x3fc88d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_systemHeadsetType, addr 0x3fc885c, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_SystemHeadsetType get_systemHeadsetType();
 
-  /// @brief Method get_tiledMultiResLevel, addr 0x3fc872c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_tiledMultiResLevel, addr 0x3fc86b4, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRManager_TiledMultiResLevel get_tiledMultiResLevel();
 
-  /// @brief Method get_tiledMultiResSupported, addr 0x3fc86dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_tiledMultiResSupported, addr 0x3fc8664, size 0x50, virtual false, abstract: false, final false
   static inline bool get_tiledMultiResSupported();
 
-  /// @brief Method get_tracker, addr 0x3fc3ea4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_tracker, addr 0x3fc3e2c, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTracker* get_tracker();
 
-  /// @brief Method get_trackingOriginType, addr 0x3fc9644, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_trackingOriginType, addr 0x3fc95cc, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRManager_TrackingOrigin get_trackingOriginType();
 
-  /// @brief Method get_useDynamicFixedFoveatedRendering, addr 0x3fc8634, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFixedFoveatedRendering, addr 0x3fc85bc, size 0x50, virtual false, abstract: false, final false
   static inline bool get_useDynamicFixedFoveatedRendering();
 
-  /// @brief Method get_useDynamicFoveatedRendering, addr 0x3fc858c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFoveatedRendering, addr 0x3fc8514, size 0x50, virtual false, abstract: false, final false
   static inline bool get_useDynamicFoveatedRendering();
 
-  /// @brief Method get_utilitiesVersion, addr 0x3fc9994, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_utilitiesVersion, addr 0x3fc991c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Version* get_utilitiesVersion();
 
-  /// @brief Method get_volumeLevel, addr 0x3fc7a70, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_volumeLevel, addr 0x3fc79f8, size 0x8c, virtual false, abstract: false, final false
   static inline float_t get_volumeLevel();
 
-  /// @brief Method get_vsyncCount, addr 0x3fc77b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_vsyncCount, addr 0x3fc7738, size 0x8c, virtual false, abstract: false, final false
   inline int32_t get_vsyncCount();
 
-  /// @brief Method get_xrApi, addr 0x3fc76c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_xrApi, addr 0x3fc7648, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRManager_XrApi get_xrApi();
 
-  /// @brief Method get_xrInstance, addr 0x3fc7710, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_xrInstance, addr 0x3fc7698, size 0x50, virtual false, abstract: false, final false
   inline uint64_t get_xrInstance();
 
-  /// @brief Method get_xrSession, addr 0x3fc7760, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_xrSession, addr 0x3fc76e8, size 0x50, virtual false, abstract: false, final false
   inline uint64_t get_xrSession();
 
   /// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept;
 
-  /// @brief Method remove_AudioInChanged, addr 0x3fc520c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_AudioInChanged, addr 0x3fc5194, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_AudioInChanged(::System::Action* value);
 
-  /// @brief Method remove_AudioOutChanged, addr 0x3fc5054, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_AudioOutChanged, addr 0x3fc4fdc, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_AudioOutChanged(::System::Action* value);
 
-  /// @brief Method remove_DisplayRefreshRateChanged, addr 0x3fc574c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_DisplayRefreshRateChanged, addr 0x3fc56d4, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_DisplayRefreshRateChanged(::System::Action_2<float_t, float_t>* value);
 
-  /// @brief Method remove_HMDAcquired, addr 0x3fc4294, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_HMDAcquired, addr 0x3fc421c, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_HMDAcquired(::System::Action* value);
 
-  /// @brief Method remove_HMDLost, addr 0x3fc444c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_HMDLost, addr 0x3fc43d4, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_HMDLost(::System::Action* value);
 
-  /// @brief Method remove_HMDMounted, addr 0x3fc4604, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_HMDMounted, addr 0x3fc458c, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_HMDMounted(::System::Action* value);
 
-  /// @brief Method remove_HMDUnmounted, addr 0x3fc47bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_HMDUnmounted, addr 0x3fc4744, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_HMDUnmounted(::System::Action* value);
 
-  /// @brief Method remove_HSWDismissed, addr 0x3fc6a44, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_HSWDismissed, addr 0x3fc69cc, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_HSWDismissed(::System::Action* value);
 
-  /// @brief Method remove_InputFocusAcquired, addr 0x3fc4ce4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_InputFocusAcquired, addr 0x3fc4c6c, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_InputFocusAcquired(::System::Action* value);
 
-  /// @brief Method remove_InputFocusLost, addr 0x3fc4e9c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_InputFocusLost, addr 0x3fc4e24, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_InputFocusLost(::System::Action* value);
 
-  /// @brief Method remove_SceneCaptureComplete, addr 0x3fc6874, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SceneCaptureComplete, addr 0x3fc67fc, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SceneCaptureComplete(::System::Action_2<uint64_t, bool>* value);
 
-  /// @brief Method remove_ShareSpacesComplete, addr 0x3fc64a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_ShareSpacesComplete, addr 0x3fc642c, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_ShareSpacesComplete(::System::Action_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
-  /// @brief Method remove_SpaceEraseComplete, addr 0x3fc62bc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpaceEraseComplete, addr 0x3fc6244, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SpaceEraseComplete(::System::Action_4<uint64_t, bool, ::System::Guid, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation>* value);
 
-  /// @brief Method remove_SpaceListSaveComplete, addr 0x3fc668c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpaceListSaveComplete, addr 0x3fc6614, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SpaceListSaveComplete(::System::Action_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor_OperationResult>* value);
 
-  /// @brief Method remove_SpaceQueryComplete, addr 0x3fc5eec, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpaceQueryComplete, addr 0x3fc5e74, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SpaceQueryComplete(::System::Action_2<uint64_t, bool>* value);
 
-  /// @brief Method remove_SpaceQueryResults, addr 0x3fc5d04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpaceQueryResults, addr 0x3fc5c8c, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SpaceQueryResults(::System::Action_1<uint64_t>* value);
 
-  /// @brief Method remove_SpaceSaveComplete, addr 0x3fc60d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpaceSaveComplete, addr 0x3fc605c, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SpaceSaveComplete(::System::Action_4<uint64_t, ::GlobalNamespace::OVRSpace, bool, ::System::Guid>* value);
 
-  /// @brief Method remove_SpaceSetComponentStatusComplete, addr 0x3fc5b1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpaceSetComponentStatusComplete, addr 0x3fc5aa4, size 0xf4, virtual false, abstract: false, final false
   static inline void
   remove_SpaceSetComponentStatusComplete(::System::Action_6<uint64_t, bool, ::GlobalNamespace::OVRSpace, ::System::Guid, ::GlobalNamespace::OVRPlugin_SpaceComponentType, bool>* value);
 
-  /// @brief Method remove_SpatialAnchorCreateComplete, addr 0x3fc5934, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_SpatialAnchorCreateComplete, addr 0x3fc58bc, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_SpatialAnchorCreateComplete(::System::Action_4<uint64_t, bool, ::GlobalNamespace::OVRSpace, ::System::Guid>* value);
 
-  /// @brief Method remove_TrackingAcquired, addr 0x3fc53c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_TrackingAcquired, addr 0x3fc534c, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_TrackingAcquired(::System::Action* value);
 
-  /// @brief Method remove_TrackingLost, addr 0x3fc557c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_TrackingLost, addr 0x3fc5504, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_TrackingLost(::System::Action* value);
 
-  /// @brief Method remove_VrFocusAcquired, addr 0x3fc4974, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_VrFocusAcquired, addr 0x3fc48fc, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_VrFocusAcquired(::System::Action* value);
 
-  /// @brief Method remove_VrFocusLost, addr 0x3fc4b2c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_VrFocusLost, addr 0x3fc4ab4, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_VrFocusLost(::System::Action* value);
 
   static inline void setStaticF_AudioInChanged(::System::Action* value);
@@ -3569,91 +3569,91 @@ public:
 
   static inline void setStaticF_wasPositionTracked(bool value);
 
-  /// @brief Method set_boundary, addr 0x3fc3fb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_boundary, addr 0x3fc3f38, size 0x5c, virtual false, abstract: false, final false
   static inline void set_boundary(::GlobalNamespace::OVRBoundary* value);
 
-  /// @brief Method set_chromatic, addr 0x3fc6f1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_chromatic, addr 0x3fc6ea4, size 0x90, virtual false, abstract: false, final false
   inline void set_chromatic(bool value);
 
-  /// @brief Method set_colorGamut, addr 0x3fc7150, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_colorGamut, addr 0x3fc70d8, size 0x68, virtual false, abstract: false, final false
   inline void set_colorGamut(::GlobalNamespace::OVRManager_ColorSpace value);
 
-  /// @brief Method set_cpuLevel, addr 0x3fc7dc0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_cpuLevel, addr 0x3fc7d48, size 0x90, virtual false, abstract: false, final false
   static inline void set_cpuLevel(int32_t value);
 
-  /// @brief Method set_display, addr 0x3fc3e48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_display, addr 0x3fc3dd0, size 0x5c, virtual false, abstract: false, final false
   static inline void set_display(::GlobalNamespace::OVRDisplay* value);
 
-  /// @brief Method set_eyeFovPremultipliedAlphaModeEnabled, addr 0x3fc7478, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_eyeFovPremultipliedAlphaModeEnabled, addr 0x3fc7400, size 0x58, virtual false, abstract: false, final false
   static inline void set_eyeFovPremultipliedAlphaModeEnabled(bool value);
 
-  /// @brief Method set_eyeTextureFormat, addr 0x3fc8048, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTextureFormat, addr 0x3fc7fd0, size 0x58, virtual false, abstract: false, final false
   static inline void set_eyeTextureFormat(::GlobalNamespace::OVRManager_EyeTextureFormat value);
 
-  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x3fc8140, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x3fc80c8, size 0x1d8, virtual false, abstract: false, final false
   static inline void set_eyeTrackedFoveatedRenderingEnabled(bool value);
 
-  /// @brief Method set_fixedFoveatedRenderingLevel, addr 0x3fc8534, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_fixedFoveatedRenderingLevel, addr 0x3fc84bc, size 0x58, virtual false, abstract: false, final false
   static inline void set_fixedFoveatedRenderingLevel(::GlobalNamespace::OVRManager_FixedFoveatedRenderingLevel value);
 
-  /// @brief Method set_foveatedRenderingLevel, addr 0x3fc843c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingLevel, addr 0x3fc83c4, size 0x58, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingLevel(::GlobalNamespace::OVRManager_FoveatedRenderingLevel value);
 
-  /// @brief Method set_gpuLevel, addr 0x3fc7edc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_gpuLevel, addr 0x3fc7e64, size 0x90, virtual false, abstract: false, final false
   static inline void set_gpuLevel(int32_t value);
 
-  /// @brief Method set_hasVrFocus, addr 0x3fc6dd8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_hasVrFocus, addr 0x3fc6d60, size 0x68, virtual false, abstract: false, final false
   static inline void set_hasVrFocus(bool value);
 
-  /// @brief Method set_headPoseRelativeOffsetRotation, addr 0x3fc721c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_headPoseRelativeOffsetRotation, addr 0x3fc71a4, size 0xe8, virtual false, abstract: false, final false
   inline void set_headPoseRelativeOffsetRotation(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_headPoseRelativeOffsetTranslation, addr 0x3fc7310, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_headPoseRelativeOffsetTranslation, addr 0x3fc7298, size 0x118, virtual false, abstract: false, final false
   inline void set_headPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_instance, addr 0x3fc3d94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_instance, addr 0x3fc3d1c, size 0x5c, virtual false, abstract: false, final false
   static inline void set_instance(::GlobalNamespace::OVRManager* value);
 
-  /// @brief Method set_isHmdPresent, addr 0x3fc6bf8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_isHmdPresent, addr 0x3fc6b80, size 0x68, virtual false, abstract: false, final false
   static inline void set_isHmdPresent(bool value);
 
-  /// @brief Method set_isSupportedPlatform, addr 0x3fc9798, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isSupportedPlatform, addr 0x3fc9720, size 0xc, virtual false, abstract: false, final false
   inline void set_isSupportedPlatform(bool value);
 
-  /// @brief Method set_isUserPresent, addr 0x3fc987c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_isUserPresent, addr 0x3fc9804, size 0x68, virtual false, abstract: false, final false
   inline void set_isUserPresent(bool value);
 
-  /// @brief Method set_monoscopic, addr 0x3fc703c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_monoscopic, addr 0x3fc6fc4, size 0x9c, virtual false, abstract: false, final false
   inline void set_monoscopic(bool value);
 
-  /// @brief Method set_runtimeSettings, addr 0x3fc4064, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_runtimeSettings, addr 0x3fc3fec, size 0x5c, virtual false, abstract: false, final false
   static inline void set_runtimeSettings(::GlobalNamespace::OVRRuntimeSettings* value);
 
-  /// @brief Method set_sharpenType, addr 0x3fc70e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_sharpenType, addr 0x3fc7068, size 0x68, virtual false, abstract: false, final false
   inline void set_sharpenType(::GlobalNamespace::OVRPlugin_LayerSharpenType value);
 
-  /// @brief Method set_suggestedCpuPerfLevel, addr 0x3fc7b88, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_suggestedCpuPerfLevel, addr 0x3fc7b10, size 0x90, virtual false, abstract: false, final false
   static inline void set_suggestedCpuPerfLevel(::GlobalNamespace::OVRManager_ProcessorPerformanceLevel value);
 
-  /// @brief Method set_suggestedGpuPerfLevel, addr 0x3fc7ca4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_suggestedGpuPerfLevel, addr 0x3fc7c2c, size 0x90, virtual false, abstract: false, final false
   static inline void set_suggestedGpuPerfLevel(::GlobalNamespace::OVRManager_ProcessorPerformanceLevel value);
 
-  /// @brief Method set_tiledMultiResLevel, addr 0x3fc877c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_tiledMultiResLevel, addr 0x3fc8704, size 0x58, virtual false, abstract: false, final false
   static inline void set_tiledMultiResLevel(::GlobalNamespace::OVRManager_TiledMultiResLevel value);
 
-  /// @brief Method set_tracker, addr 0x3fc3efc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_tracker, addr 0x3fc3e84, size 0x5c, virtual false, abstract: false, final false
   static inline void set_tracker(::GlobalNamespace::OVRTracker* value);
 
-  /// @brief Method set_trackingOriginType, addr 0x3fc96d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_trackingOriginType, addr 0x3fc965c, size 0x9c, virtual false, abstract: false, final false
   inline void set_trackingOriginType(::GlobalNamespace::OVRManager_TrackingOrigin value);
 
-  /// @brief Method set_useDynamicFixedFoveatedRendering, addr 0x3fc8684, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFixedFoveatedRendering, addr 0x3fc860c, size 0x58, virtual false, abstract: false, final false
   static inline void set_useDynamicFixedFoveatedRendering(bool value);
 
-  /// @brief Method set_useDynamicFoveatedRendering, addr 0x3fc85dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFoveatedRendering, addr 0x3fc8564, size 0x58, virtual false, abstract: false, final false
   static inline void set_useDynamicFoveatedRendering(bool value);
 
-  /// @brief Method set_vsyncCount, addr 0x3fc783c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_vsyncCount, addr 0x3fc77c4, size 0x90, virtual false, abstract: false, final false
   inline void set_vsyncCount(int32_t value);
 
 protected:

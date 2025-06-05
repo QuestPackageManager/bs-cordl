@@ -59,13 +59,13 @@ public:
   /// @brief Field <Value>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::System::Linq::Expressions::Expression* _Value_k__BackingField;
 
-  /// @brief Method Accept, addr 0x40b945c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40b93e4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::GotoExpression* New_ctor(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target,
                                                                       ::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
-  /// @brief Method Update, addr 0x40b8624, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40b85ac, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::GotoExpression* Update(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value);
 
   constexpr ::System::Linq::Expressions::GotoExpressionKind const& __cordl_internal_get__Kind_k__BackingField() const;
@@ -92,22 +92,22 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40b93ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b9334, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
-  /// @brief Method get_Kind, addr 0x40b9454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x40b93dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::GotoExpressionKind get_Kind();
 
-  /// @brief Method get_NodeType, addr 0x40b943c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40b93c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Target, addr 0x40b944c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x40b93d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* get_Target();
 
-  /// @brief Method get_Type, addr 0x40b9434, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40b93bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_Value, addr 0x40b9444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x40b93cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Value();
 
 protected:

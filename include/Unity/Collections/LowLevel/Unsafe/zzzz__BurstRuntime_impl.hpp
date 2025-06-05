@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&::Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4861d80;
+  constexpr static std::size_t addrs = 0x4861d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

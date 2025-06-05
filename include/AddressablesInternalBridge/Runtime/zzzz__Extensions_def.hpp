@@ -50,13 +50,13 @@ public:
 
   static inline ::AddressablesInternalBridge::Runtime::Extensions___c* New_ctor();
 
-  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_0, addr 0x44dd1e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_0, addr 0x44dd168, size 0x14, virtual false, abstract: false, final false
   inline bool _GetUpdateableCatalogLocationDatas_b__1_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* locatorInfo);
 
-  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_1, addr 0x44dd398, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_1, addr 0x44dd320, size 0xfc, virtual false, abstract: false, final false
   inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* _GetUpdateableCatalogLocationDatas_b__1_1(::UnityEngine::AddressableAssets::ResourceLocatorInfo* locatorInfo);
 
-  /// @brief Method .ctor, addr 0x44dd1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dd160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::AddressablesInternalBridge::Runtime::Extensions___c* getStaticF___9();
@@ -103,10 +103,10 @@ public:
   // Declarations
   using __c = ::AddressablesInternalBridge::Runtime::Extensions___c;
 
-  /// @brief Method GetCatalogLocationData, addr 0x44dcc38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCatalogLocationData, addr 0x44dcbc0, size 0xb4, virtual false, abstract: false, final false
   static inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* GetCatalogLocationData(::StringW locatorId);
 
-  /// @brief Method GetUpdateableCatalogLocationDatas, addr 0x44dcfa0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateableCatalogLocationDatas, addr 0x44dcf28, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* GetUpdateableCatalogLocationDatas();
 
 protected:

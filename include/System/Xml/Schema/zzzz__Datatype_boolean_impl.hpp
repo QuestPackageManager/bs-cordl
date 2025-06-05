@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (
     ::System::Xml::Schema::Datatype_boolean::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_boolean::CreateValueConverter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43aa590;
+  constexpr static std::size_t addrs = 0x43aa518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_boolean::*)()>(
     &::System::Xml::Schema::Datatype_boolean::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43aa59c;
+  constexpr static std::size_t addrs = 0x43aa524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_boolean::*)()>(
     &::System::Xml::Schema::Datatype_boolean::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43aa5f4;
+  constexpr static std::size_t addrs = 0x43aa57c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_boolean::*)()>(
     &::System::Xml::Schema::Datatype_boolean::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43aa5fc;
+  constexpr static std::size_t addrs = 0x43aa584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_boolean::*)()>(
     &::System::Xml::Schema::Datatype_boolean::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43aa654;
+  constexpr static std::size_t addrs = 0x43aa5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_boolean::*)()>(
     &::System::Xml::Schema::Datatype_boolean::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43aa6ac;
+  constexpr static std::size_t addrs = 0x43aa634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_boolean::*)()>(
     &::System::Xml::Schema::Datatype_boolean::get_ValidRestrictionFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43aa6b4;
+  constexpr static std::size_t addrs = 0x43aa63c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_boolean::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_boolean::Compare)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x43aa6bc;
+  constexpr static std::size_t addrs = 0x43aa644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_boolean::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_boolean::TryParseValue)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x43aa760;
+  constexpr static std::size_t addrs = 0x43aa6e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_boolean::*)()>(&::System::Xml::Schema::Datatype_boolean::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43a5370;
+  constexpr static std::size_t addrs = 0x43a52f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_boolean*>::get(), ".ctor",

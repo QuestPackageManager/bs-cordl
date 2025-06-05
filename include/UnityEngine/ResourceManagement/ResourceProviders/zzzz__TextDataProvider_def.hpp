@@ -73,30 +73,30 @@ public:
   /// @brief Field m_Timeout, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Timeout, put = __cordl_internal_set_m_Timeout)) int32_t m_Timeout;
 
-  /// @brief Method CompleteOperation, addr 0x47a1f5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x47a1ee4, size 0xac, virtual false, abstract: false, final false
   inline void CompleteOperation(::StringW text, ::System::Exception* exception);
 
-  /// @brief Method ConvertText, addr 0x47a1c34, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ConvertText, addr 0x47a1bbc, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* ConvertText(::StringW text);
 
-  /// @brief Method GetPercentComplete, addr 0x47a1c1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPercentComplete, addr 0x47a1ba4, size 0x18, virtual false, abstract: false, final false
   inline float_t GetPercentComplete();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider_InternalOp* New_ctor();
 
-  /// @brief Method RequestOperation_completed, addr 0x47a1da0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RequestOperation_completed, addr 0x47a1d28, size 0x1bc, virtual false, abstract: false, final false
   inline void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method SendWebRequest, addr 0x47a2008, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method SendWebRequest, addr 0x47a1f90, size 0x2a8, virtual true, abstract: false, final false
   inline void SendWebRequest(::StringW path);
 
-  /// @brief Method Start, addr 0x47a1828, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x47a17b0, size 0x3f4, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x47a1d2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x47a1cb4, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method <SendWebRequest>b__13_0, addr 0x47a22b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <SendWebRequest>b__13_0, addr 0x47a2238, size 0x94, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
   constexpr bool const& __cordl_internal_get_m_Complete() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47a1820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a17a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -216,12 +216,12 @@ public:
   /// @brief Field <IgnoreFailures>k__BackingField, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get__IgnoreFailures_k__BackingField, put = __cordl_internal_set__IgnoreFailures_k__BackingField)) bool _IgnoreFailures_k__BackingField;
 
-  /// @brief Method Convert, addr 0x47a1778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x47a1700, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x47a1780, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x47a1708, size 0xa0, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   constexpr bool const& __cordl_internal_get__IgnoreFailures_k__BackingField() const;
@@ -230,13 +230,13 @@ public:
 
   constexpr void __cordl_internal_set__IgnoreFailures_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x479eda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479ed30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IgnoreFailures, addr 0x47a1764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x47a16ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures, addr 0x47a176c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x47a16f4, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
 protected:

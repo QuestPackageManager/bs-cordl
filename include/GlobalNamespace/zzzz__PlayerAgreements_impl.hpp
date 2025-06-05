@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)(::System::Action*)>(
     &::GlobalNamespace::PlayerAgreements::add_agreedToEulaEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f2484;
+  constexpr static std::size_t addrs = 0x26f2464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)(::System::Action*)>(
     &::GlobalNamespace::PlayerAgreements::remove_agreedToEulaEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f2520;
+  constexpr static std::size_t addrs = 0x26f2500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26f25bc;
+  constexpr static std::size_t addrs = 0x26f259c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(), ".ctor",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::PlayerAgreements::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x26f25dc;
+  constexpr static std::size_t addrs = 0x26f25bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToEula)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26f262c;
+  constexpr static std::size_t addrs = 0x26f260c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(), "AgreeToEula",
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToPrivacyPolicy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f2650;
+  constexpr static std::size_t addrs = 0x26f2630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToHealthAndSafety)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f265c;
+  constexpr static std::size_t addrs = 0x26f263c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(
     &::GlobalNamespace::PlayerAgreements::AgreeToPlayerSensitivityFlag)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f2668;
+  constexpr static std::size_t addrs = 0x26f2648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreeToEndOfLifeNotice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f2674;
+  constexpr static std::size_t addrs = 0x26f2654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(
     &::GlobalNamespace::PlayerAgreements::AgreedToPreviousPrivacyPolicy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f2680;
+  constexpr static std::size_t addrs = 0x26f2660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousEula)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26f2690;
+  constexpr static std::size_t addrs = 0x26f2670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(
     &::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousPrivacyPolicy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26f26ac;
+  constexpr static std::size_t addrs = 0x26f268c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(
     &::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousHealthAndSafety)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f26c8;
+  constexpr static std::size_t addrs = 0x26f26a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(
     &::GlobalNamespace::PlayerAgreements::AgreedToAnyPreviousPlayerSensitivityFlag)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26f26d4;
+  constexpr static std::size_t addrs = 0x26f26b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToEula)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f26f0;
+  constexpr static std::size_t addrs = 0x26f26d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(), "AgreedToEula",
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToPrivacyPolicy)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f2700;
+  constexpr static std::size_t addrs = 0x26f26e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToHealthAndSafety)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f2710;
+  constexpr static std::size_t addrs = 0x26f26f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(
     &::GlobalNamespace::PlayerAgreements::AgreedToPlayerSenstivityFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f2720;
+  constexpr static std::size_t addrs = 0x26f2700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerAgreements::*)()>(&::GlobalNamespace::PlayerAgreements::AgreedToEndOfLifeNotice)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26f2730;
+  constexpr static std::size_t addrs = 0x26f2710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerAgreements*>::get(),

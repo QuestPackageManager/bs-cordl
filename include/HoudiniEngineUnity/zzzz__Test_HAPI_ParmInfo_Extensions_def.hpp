@@ -24,7 +24,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_HAPI_ParmInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3a97e14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a97dec, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_ParmInfo* ToTestObject(::HoudiniEngineUnity::HAPI_ParmInfo self);
 
 protected:

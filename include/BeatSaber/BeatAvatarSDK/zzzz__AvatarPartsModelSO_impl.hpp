@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_headTops)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b638;
+  constexpr static std::size_t addrs = 0x225b5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Eyes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b640;
+  constexpr static std::size_t addrs = 0x225b600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Mouths)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b648;
+  constexpr static std::size_t addrs = 0x225b608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Glasses)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b650;
+  constexpr static std::size_t addrs = 0x225b610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_FacialHair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b658;
+  constexpr static std::size_t addrs = 0x225b618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Hands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b660;
+  constexpr static std::size_t addrs = 0x225b620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::get_Clothes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b668;
+  constexpr static std::size_t addrs = 0x225b628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225b670;
+  constexpr static std::size_t addrs = 0x225b630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*>::get(), ".ctor",

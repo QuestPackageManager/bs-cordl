@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3b5b868;
+  constexpr static std::size_t addrs = 0x3b5b840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b5bb2c;
+  constexpr static std::size_t addrs = 0x3b5bb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::*)(int32_t)>(
     &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b5b704;
+  constexpr static std::size_t addrs = 0x3b5b6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b5bb38;
+  constexpr static std::size_t addrs = 0x3b5bb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3b5bb3c;
+  constexpr static std::size_t addrs = 0x3b5bb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5bd90;
+  constexpr static std::size_t addrs = 0x3b5bd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b5bd98;
+  constexpr static std::size_t addrs = 0x3b5bd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5bdd0;
+  constexpr static std::size_t addrs = 0x3b5bda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5a830;
+  constexpr static std::size_t addrs = 0x3b5a808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardViewController*>::get(),
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::SetData)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b5a838;
+  constexpr static std::size_t addrs = 0x3b5a810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::RefreshLevelStats)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b5a980;
+  constexpr static std::size_t addrs = 0x3b5a958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::DidActivate)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x3b5a9b0;
+  constexpr static std::size_t addrs = 0x3b5a988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b5af80;
+  constexpr static std::size_t addrs = 0x3b5af58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3b5b098;
+  constexpr static std::size_t addrs = 0x3b5b070;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PlatformLeaderboardViewController::*)(
     ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope)>(&::GlobalNamespace::PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b5aeec;
+  constexpr static std::size_t addrs = 0x3b5aec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope (::GlobalNamespace::PlatformLeaderboardViewController::*)(
     int32_t)>(&::GlobalNamespace::PlatformLeaderboardViewController::ScopeScopeIndexToScoreScope)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b5b258;
+  constexpr static std::size_t addrs = 0x3b5b230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleDidPressRefreshButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b5b294;
+  constexpr static std::size_t addrs = 0x3b5b26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardViewController*>::get(),
@@ -456,7 +456,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*>, int32_t)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3b5b2a0;
+  constexpr static std::size_t addrs = 0x3b5b278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3b5b504;
+  constexpr static std::size_t addrs = 0x3b5b4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::HandlePlatformLeaderboardsModelAllScoresDidUpload)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b5b574;
+  constexpr static std::size_t addrs = 0x3b5b54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::Refresh)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b5a8d4;
+  constexpr static std::size_t addrs = 0x3b5a8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::RefreshAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b5b580;
+  constexpr static std::size_t addrs = 0x3b5b558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlatformLeaderboardViewController::RefreshDelayed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b5b684;
+  constexpr static std::size_t addrs = 0x3b5b65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::ClearContent)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b5b72c;
+  constexpr static std::size_t addrs = 0x3b5b704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardViewController*>::get(),
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformLeaderboardViewController::*)()>(
     &::GlobalNamespace::PlatformLeaderboardViewController::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b5b7e8;
+  constexpr static std::size_t addrs = 0x3b5b7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformLeaderboardViewController*>::get(),

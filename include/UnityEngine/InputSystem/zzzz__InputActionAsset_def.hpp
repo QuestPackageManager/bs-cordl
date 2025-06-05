@@ -157,7 +157,7 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE InputActionAsset_ReadFileJson {
 public:
   // Declarations
-  /// @brief Method ToAsset, addr 0x454097c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ToAsset, addr 0x4540904, size 0xa0, virtual false, abstract: false, final false
   inline void ToAsset(::UnityEngine::InputSystem::InputActionAsset* asset);
 
   // Ctor Parameters []
@@ -242,21 +242,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4542fcc, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4542f54, size 0x118, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current, addr 0x4543144, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current, addr 0x45430cc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputAction* System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x454314c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x45430d4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4543184, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x454310c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4542fc8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4542f50, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -301,7 +301,7 @@ public:
 
   constexpr void __cordl_internal_set__n_5__5(int32_t value);
 
-  /// @brief Method .ctor, addr 0x45419c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4541948, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
@@ -429,27 +429,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4543190, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4543118, size 0x14c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBinding>.GetEnumerator, addr 0x4543388, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBinding>.GetEnumerator, addr 0x4543310, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>* System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBinding>.get_Current, addr 0x45432dc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBinding>.get_Current, addr 0x4543264, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputBinding System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4543424, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45433ac, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x45432ec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4543274, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4543324, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x45432ac, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x454318c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4543114, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -506,7 +506,7 @@ public:
 
   constexpr void __cordl_internal_set__numBindings_5__5(int32_t value);
 
-  /// @brief Method .ctor, addr 0x453fcb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x453fc40, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>"
@@ -664,72 +664,72 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr operator ::UnityEngine::InputSystem::IInputActionCollection2*() noexcept;
 
-  /// @brief Method Contains, addr 0x45418d4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x454185c, size 0x8c, virtual true, abstract: false, final true
   inline bool Contains(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method Disable, addr 0x4541740, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Disable, addr 0x45416c8, size 0x160, virtual true, abstract: false, final true
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x4541594, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Enable, addr 0x454151c, size 0x160, virtual true, abstract: false, final true
   inline void Enable();
 
-  /// @brief Method FindAction, addr 0x4540180, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method FindAction, addr 0x4540108, size 0x31c, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
 
-  /// @brief Method FindAction, addr 0x4541048, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FindAction, addr 0x4540fd0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::System::Guid guid);
 
-  /// @brief Method FindActionMap, addr 0x4540fbc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FindActionMap, addr 0x4540f44, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* FindActionMap(::System::Guid id);
 
-  /// @brief Method FindActionMap, addr 0x4540db4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindActionMap, addr 0x4540d3c, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* FindActionMap(::StringW nameOrId, bool throwIfNotFound);
 
-  /// @brief Method FindBinding, addr 0x4540be8, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method FindBinding, addr 0x4540b70, size 0xec, virtual true, abstract: false, final true
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding mask, ::ByRef<::UnityEngine::InputSystem::InputAction*> action);
 
-  /// @brief Method FindControlScheme, addr 0x45411e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FindControlScheme, addr 0x454116c, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> FindControlScheme(::StringW name);
 
-  /// @brief Method FindControlSchemeIndex, addr 0x454110c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FindControlSchemeIndex, addr 0x4541094, size 0xd8, virtual false, abstract: false, final false
   inline int32_t FindControlSchemeIndex(::StringW name);
 
-  /// @brief Method FromJson, addr 0x4540a1c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x45409a4, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> FromJson(::StringW json);
 
-  /// @brief Method GetEnumerator, addr 0x4541960, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x45418e8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* GetEnumerator();
 
-  /// @brief Method IsUsableWithDevice, addr 0x4541310, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsUsableWithDevice, addr 0x4541298, size 0x170, virtual false, abstract: false, final false
   inline bool IsUsableWithDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method LoadFromJson, addr 0x45408ac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LoadFromJson, addr 0x4540834, size 0xd0, virtual false, abstract: false, final false
   inline void LoadFromJson(::StringW json);
 
-  /// @brief Method MarkAsDirty, addr 0x45419ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MarkAsDirty, addr 0x4541974, size 0x4, virtual false, abstract: false, final false
   inline void MarkAsDirty();
 
   static inline ::UnityEngine::InputSystem::InputActionAsset* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4541fe4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4541f6c, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnSetupChanged, addr 0x4541cf0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnSetupChanged, addr 0x4541c78, size 0x84, virtual false, abstract: false, final false
   inline void OnSetupChanged();
 
-  /// @brief Method OnWantToChangeSetup, addr 0x45419f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnWantToChangeSetup, addr 0x4541978, size 0x80, virtual false, abstract: false, final false
   inline void OnWantToChangeSetup();
 
-  /// @brief Method ReResolveIfNecessary, addr 0x453fe24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReResolveIfNecessary, addr 0x453fdac, size 0x40, virtual false, abstract: false, final false
   inline void ReResolveIfNecessary(bool fullResolve);
 
-  /// @brief Method ResolveBindingsIfNecessary, addr 0x4541f44, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ResolveBindingsIfNecessary, addr 0x4541ecc, size 0xa0, virtual false, abstract: false, final false
   inline void ResolveBindingsIfNecessary();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45419e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4541970, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToJson, addr 0x454049c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4540424, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> const& __cordl_internal_get_m_ActionMaps() const;
@@ -777,28 +777,28 @@ public:
 
   constexpr void __cordl_internal_set_m_SharedStateForAllMaps(::UnityEngine::InputSystem::InputActionState* value);
 
-  /// @brief Method .ctor, addr 0x454200c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4541f94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x4540100, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4540088, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_Item(::StringW actionNameOrId);
 
-  /// @brief Method get_actionMaps, addr 0x453fb78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_actionMaps, addr 0x453fb00, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputActionMap*> get_actionMaps();
 
-  /// @brief Method get_bindingMask, addr 0x453fcec, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_bindingMask, addr 0x453fc74, size 0x10, virtual true, abstract: false, final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
-  /// @brief Method get_bindings, addr 0x453fc48, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method get_bindings, addr 0x453fbd0, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* get_bindings();
 
-  /// @brief Method get_controlSchemes, addr 0x453fbe8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method get_controlSchemes, addr 0x453fb70, size 0x60, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes();
 
-  /// @brief Method get_devices, addr 0x453fe64, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method get_devices, addr 0x453fdec, size 0x34, virtual true, abstract: false, final true
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> get_devices();
 
-  /// @brief Method get_enabled, addr 0x453f9e4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x453f96c, size 0x194, virtual false, abstract: false, final false
   inline bool get_enabled();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputAction*>"
@@ -814,10 +814,10 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::IInputActionCollection2"
   constexpr ::UnityEngine::InputSystem::IInputActionCollection2* i___UnityEngine__InputSystem__IInputActionCollection2() noexcept;
 
-  /// @brief Method set_bindingMask, addr 0x453fcfc, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method set_bindingMask, addr 0x453fc84, size 0x128, virtual true, abstract: false, final true
   inline void set_bindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
 
-  /// @brief Method set_devices, addr 0x453ff40, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method set_devices, addr 0x453fec8, size 0x44, virtual true, abstract: false, final true
   inline void set_devices(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> value);
 
 protected:

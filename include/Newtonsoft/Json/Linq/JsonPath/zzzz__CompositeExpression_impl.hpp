@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* (
     ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)()>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::get_Expressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f3724c;
+  constexpr static std::size_t addrs = 0x3f371d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::CompositeExpression*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)(
     ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*)>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::set_Expressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f37254;
+  constexpr static std::size_t addrs = 0x3f371dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)(::Newtonsoft::Json::Linq::JsonPath::QueryOperator)>(
     &::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3f369f0;
+  constexpr static std::size_t addrs = 0x3f36978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::*)(
     ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::CompositeExpression::IsMatch)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3f3725c;
+  constexpr static std::size_t addrs = 0x3f371e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

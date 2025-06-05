@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::AppDomain::IsAppXModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e3045c;
+  constexpr static std::size_t addrs = 0x3e303e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "IsAppXModel",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)()>(&::System::AppDomain::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e30464;
+  constexpr static std::size_t addrs = 0x3e303ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), ".ctor",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::AppDomain::*)()>(&::System::AppDomain::getFriendlyName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e3046c;
+  constexpr static std::size_t addrs = 0x3e303f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "getFriendlyName",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AppDomain* (*)()>(&::System::AppDomain::getCurDomain)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e30470;
+  constexpr static std::size_t addrs = 0x3e303f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "getCurDomain",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AppDomain* (*)()>(&::System::AppDomain::get_CurrentDomain)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e30474;
+  constexpr static std::size_t addrs = 0x3e303fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "get_CurrentDomain",
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> (::System::AppDomain::*)(bool)>(
     &::System::AppDomain::GetAssemblies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e30478;
+  constexpr static std::size_t addrs = 0x3e30400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> (::System::AppDomain::*)()>(
     &::System::AppDomain::GetAssemblies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e30480;
+  constexpr static std::size_t addrs = 0x3e30408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "GetAssemblies",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::AppDomain::*)(::StringW)>(&::System::AppDomain::GetData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e30488;
+  constexpr static std::size_t addrs = 0x3e30410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::AppDomain::*)()>(&::System::AppDomain::InitializeLifetimeService)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e3048c;
+  constexpr static std::size_t addrs = 0x3e30414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (
     ::System::AppDomain::*)(::StringW, ::System::Security::Policy::Evidence*, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(&::System::AppDomain::LoadAssembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e30494;
+  constexpr static std::size_t addrs = 0x3e3041c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::AppDomain::*)(::StringW)>(&::System::AppDomain::Load)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e3049c;
+  constexpr static std::size_t addrs = 0x3e30424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (
     ::System::AppDomain::*)(::StringW, ::System::Security::Policy::Evidence*, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(&::System::AppDomain::Load)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3e304c0;
+  constexpr static std::size_t addrs = 0x3e30448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AppDomain* (*)(int32_t)>(&::System::AppDomain::InternalSetDomainByID)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305c0;
+  constexpr static std::size_t addrs = 0x3e30548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AppDomain* (*)(::System::AppDomain*)>(&::System::AppDomain::InternalSetDomain)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305c4;
+  constexpr static std::size_t addrs = 0x3e3054c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::System::AppDomain::InternalPushDomainRefByID)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305c8;
+  constexpr static std::size_t addrs = 0x3e30550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::AppDomain::InternalPopDomainRef)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305cc;
+  constexpr static std::size_t addrs = 0x3e30554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "InternalPopDomainRef",
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::AppDomain::InternalSetContext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305d0;
+  constexpr static std::size_t addrs = 0x3e30558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(&::System::AppDomain::InternalGetContext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305d4;
+  constexpr static std::size_t addrs = 0x3e3055c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "InternalGetContext",
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(&::System::AppDomain::InternalGetDefaultContext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305d8;
+  constexpr static std::size_t addrs = 0x3e30560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "InternalGetDefaultContext",
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::AppDomain::InternalGetProcessGuid)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e305dc;
+  constexpr static std::size_t addrs = 0x3e30564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Object* (*)(int32_t, ::System::Reflection::MethodInfo*, ::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::AppDomain::InvokeInDomainByID)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3e305e0;
+  constexpr static std::size_t addrs = 0x3e30568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::AppDomain::GetProcessGuid)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3e30770;
+  constexpr static std::size_t addrs = 0x3e306f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "GetProcessGuid",
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::AppDomain::InternalIsFinalizingForUnload)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e307f8;
+  constexpr static std::size_t addrs = 0x3e30780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AppDomain::*)()>(&::System::AppDomain::IsFinalizingForUnload)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e307fc;
+  constexpr static std::size_t addrs = 0x3e30784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "IsFinalizingForUnload",
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::AppDomain::*)()>(&::System::AppDomain::getDomainID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e30810;
+  constexpr static std::size_t addrs = 0x3e30798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "getDomainID",
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::AppDomain::*)()>(&::System::AppDomain::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e30818;
+  constexpr static std::size_t addrs = 0x3e307a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::Reflection::Assembly*)>(&::System::AppDomain::DoAssemblyLoad)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e3081c;
+  constexpr static std::size_t addrs = 0x3e307a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::AppDomain::*)(::StringW, ::System::Reflection::Assembly*, bool)>(
     &::System::AppDomain::DoAssemblyResolve)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x3e308ac;
+  constexpr static std::size_t addrs = 0x3e30834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::AppDomain::*)(::StringW)>(&::System::AppDomain::DoTypeResolve)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x3e30ba8;
+  constexpr static std::size_t addrs = 0x3e30b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)()>(&::System::AppDomain::DoDomainUnload)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e30e74;
+  constexpr static std::size_t addrs = 0x3e30dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "DoDomainUnload",
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::AppDomain::*)()>(&::System::AppDomain::GetMarshalledDomainObjRef)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e30e98;
+  constexpr static std::size_t addrs = 0x3e30e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "GetMarshalledDomainObjRef",
@@ -464,7 +464,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::AppDomain::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage*, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>,
                                               ::ByRef<::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*>)>(&::System::AppDomain::ProcessMessageInDomain)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3e30f70;
+  constexpr static std::size_t addrs = 0x3e30ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::ResolveEventHandler*)>(&::System::AppDomain::add_AssemblyResolve)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e31098;
+  constexpr static std::size_t addrs = 0x3e31020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::ResolveEventHandler*)>(&::System::AppDomain::remove_AssemblyResolve)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e31290;
+  constexpr static std::size_t addrs = 0x3e31218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::EventHandler*)>(&::System::AppDomain::add_DomainUnload)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e31484;
+  constexpr static std::size_t addrs = 0x3e3140c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::EventHandler*)>(&::System::AppDomain::remove_DomainUnload)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e3151c;
+  constexpr static std::size_t addrs = 0x3e314a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::UnhandledExceptionEventHandler*)>(
     &::System::AppDomain::add_UnhandledException)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e315b4;
+  constexpr static std::size_t addrs = 0x3e3153c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AppDomain::*)(::System::UnhandledExceptionEventHandler*)>(
     &::System::AppDomain::remove_UnhandledException)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e3164c;
+  constexpr static std::size_t addrs = 0x3e315d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -567,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AppDomain::*)()>(&::System::AppDomain::get_IsHomogenous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e316e4;
+  constexpr static std::size_t addrs = 0x3e3166c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "get_IsHomogenous",
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AppDomain::*)()>(&::System::AppDomain::get_IsFullyTrusted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e316ec;
+  constexpr static std::size_t addrs = 0x3e31674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppDomain*>::get(), "get_IsFullyTrusted",

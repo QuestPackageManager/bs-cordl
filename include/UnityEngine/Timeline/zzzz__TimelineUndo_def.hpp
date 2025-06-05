@@ -25,22 +25,22 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimelineUndo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PushDestroyUndo, addr 0x482ed60, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PushDestroyUndo, addr 0x482ece8, size 0x88, virtual false, abstract: false, final false
   static inline void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
 
-  /// @brief Method PushUndo, addr 0x482edec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x482ed74, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
 
-  /// @brief Method PushUndo, addr 0x482ede8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x482ed70, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> thingsToDirty, ::StringW operation);
 
-  /// @brief Method RegisterCreatedObjectUndo, addr 0x482edf0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCreatedObjectUndo, addr 0x482ed78, size 0x4, virtual false, abstract: false, final false
   static inline void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
 
-  /// @brief Method UndoName, addr 0x482edf4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UndoName, addr 0x482ed7c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UndoName(::StringW name);
 
-  /// @brief Method get_undoEnabled, addr 0x482ed58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_undoEnabled, addr 0x482ece0, size 0x8, virtual false, abstract: false, final false
   static inline bool get_undoEnabled();
 
 protected:

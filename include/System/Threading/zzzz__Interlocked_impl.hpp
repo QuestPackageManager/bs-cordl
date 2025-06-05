@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<int32_t>, int32_t, int32_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e58aa4;
+  constexpr static std::size_t addrs = 0x3e58a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<int32_t>, int32_t, int32_t, ::ByRef<bool>)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c180;
+  constexpr static std::size_t addrs = 0x3e5c108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::System::Object*>, ::ByRef<::System::Object*>, ::ByRef<::System::Object*>, ::ByRef<::System::Object*>)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c184;
+  constexpr static std::size_t addrs = 0x3e5c10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::System::Object*>, ::System::Object*, ::System::Object*)>(
     &::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e5c188;
+  constexpr static std::size_t addrs = 0x3e5c110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ByRef<float_t>, float_t, float_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1b4;
+  constexpr static std::size_t addrs = 0x3e5c13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<int32_t>)>(&::System::Threading::Interlocked::Decrement)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1b8;
+  constexpr static std::size_t addrs = 0x3e5c140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ByRef<int64_t>)>(&::System::Threading::Interlocked::Decrement)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1bc;
+  constexpr static std::size_t addrs = 0x3e5c144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<int32_t>)>(&::System::Threading::Interlocked::Increment)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1c0;
+  constexpr static std::size_t addrs = 0x3e5c148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ByRef<int64_t>)>(&::System::Threading::Interlocked::Increment)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1c4;
+  constexpr static std::size_t addrs = 0x3e5c14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<int32_t>, int32_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5a054;
+  constexpr static std::size_t addrs = 0x3e59fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::System::Object*>, ::ByRef<::System::Object*>, ::ByRef<::System::Object*>)>(
     &::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1c8;
+  constexpr static std::size_t addrs = 0x3e5c150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ByRef<::System::Object*>, ::System::Object*)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e5c1cc;
+  constexpr static std::size_t addrs = 0x3e5c154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ByRef<float_t>, float_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1f0;
+  constexpr static std::size_t addrs = 0x3e5c178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ByRef<int64_t>, int64_t, int64_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1f4;
+  constexpr static std::size_t addrs = 0x3e5c17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ByRef<::System::IntPtr>, ::System::IntPtr, ::System::IntPtr)>(
     &::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1f8;
+  constexpr static std::size_t addrs = 0x3e5c180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::ByRef<double_t>, double_t, double_t)>(&::System::Threading::Interlocked::CompareExchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c1fc;
+  constexpr static std::size_t addrs = 0x3e5c184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ByRef<int64_t>, int64_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c200;
+  constexpr static std::size_t addrs = 0x3e5c188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ByRef<::System::IntPtr>, ::System::IntPtr)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c204;
+  constexpr static std::size_t addrs = 0x3e5c18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::ByRef<double_t>, double_t)>(&::System::Threading::Interlocked::Exchange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c208;
+  constexpr static std::size_t addrs = 0x3e5c190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ByRef<int64_t>)>(&::System::Threading::Interlocked::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c20c;
+  constexpr static std::size_t addrs = 0x3e5c194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<int32_t>, int32_t)>(&::System::Threading::Interlocked::Add)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c210;
+  constexpr static std::size_t addrs = 0x3e5c198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ByRef<int64_t>, int64_t)>(&::System::Threading::Interlocked::Add)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5c214;
+  constexpr static std::size_t addrs = 0x3e5c19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Threading::Interlocked::MemoryBarrier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e5c218;
+  constexpr static std::size_t addrs = 0x3e5c1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Interlocked*>::get(), "MemoryBarrier",

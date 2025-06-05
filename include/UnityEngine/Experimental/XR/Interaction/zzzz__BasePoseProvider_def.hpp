@@ -24,15 +24,15 @@ namespace UnityEngine::Experimental::XR::Interaction {
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetPoseFromProvider, addr 0x491ae50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetPoseFromProvider, addr 0x491add8, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(::ByRef<::UnityEngine::Pose> output);
 
   static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
-  /// @brief Method TryGetPoseFromProvider, addr 0x491ae74, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method TryGetPoseFromProvider, addr 0x491adfc, size 0x88, virtual true, abstract: false, final false
   inline bool TryGetPoseFromProvider(::ByRef<::UnityEngine::Pose> output);
 
-  /// @brief Method .ctor, addr 0x491aefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491ae84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

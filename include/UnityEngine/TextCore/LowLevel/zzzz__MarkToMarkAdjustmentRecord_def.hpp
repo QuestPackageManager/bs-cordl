@@ -35,16 +35,16 @@ public:
 
   __declspec(property(get = get_combiningMarkPositionAdjustment)) ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment combiningMarkPositionAdjustment;
 
-  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x4923984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphAnchorPoint, addr 0x492390c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint get_baseMarkGlyphAnchorPoint();
 
-  /// @brief Method get_baseMarkGlyphID, addr 0x492397c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseMarkGlyphID, addr 0x4923904, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseMarkGlyphID();
 
-  /// @brief Method get_combiningMarkGlyphID, addr 0x492398c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkGlyphID, addr 0x4923914, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_combiningMarkGlyphID();
 
-  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x4923994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_combiningMarkPositionAdjustment, addr 0x492391c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment get_combiningMarkPositionAdjustment();
 
   // Ctor Parameters []

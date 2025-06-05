@@ -25,13 +25,13 @@ public:
 
   static inline ::GlobalNamespace::ColorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26a1034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_color, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method op_Implicit, addr 0x26a2284, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26a2244, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSO* c);
 
 protected:

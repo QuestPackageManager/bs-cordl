@@ -55,32 +55,32 @@ public:
   /// @brief Field sCrlDataObjectCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_sCrlDataObjectCount, put = __cordl_internal_set_sCrlDataObjectCount)) int32_t sCrlDataObjectCount;
 
-  /// @brief Method CreateX509Crl, addr 0x25f8904, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateX509Crl, addr 0x25f88c4, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* CreateX509Crl(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
 
-  /// @brief Method GetCrl, addr 0x25f8880, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetCrl, addr 0x25f8840, size 0x84, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* GetCrl();
 
   static inline ::Org::BouncyCastle::X509::X509CrlParser* New_ctor();
 
   static inline ::Org::BouncyCastle::X509::X509CrlParser* New_ctor(bool lazyAsn1);
 
-  /// @brief Method ReadCrl, addr 0x25f89cc, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ReadCrl, addr 0x25f898c, size 0x338, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCrl, addr 0x25f895c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadCrl, addr 0x25f891c, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCrls, addr 0x25f8d74, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCrls, addr 0x25f8d34, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCrls(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCrls, addr 0x25f8d04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadCrls, addr 0x25f8cc4, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCrls(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadDerCrl, addr 0x25f8668, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrl, addr 0x25f8628, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadDerCrl(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
 
-  /// @brief Method ReadPemCrl, addr 0x25f85c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ReadPemCrl, addr 0x25f8580, size 0xa8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Crl* ReadPemCrl(::System::IO::Stream* inStream);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_currentCrlStream() const;
@@ -107,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set_sCrlDataObjectCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25f857c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f853c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25f8598, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f8558, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool lazyAsn1);
 
   static inline ::Org::BouncyCastle::X509::PemParser* getStaticF_PemCrlParser();

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ad778;
+  constexpr static std::size_t addrs = 0x43ad700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ad780;
+  constexpr static std::size_t addrs = 0x43ad708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::get_HasValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ad788;
+  constexpr static std::size_t addrs = 0x43ad710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_normalizedString::*)()>(
     &::System::Xml::Schema::Datatype_normalizedString::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43a5c1c;
+  constexpr static std::size_t addrs = 0x43a5ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_normalizedString*>::get(),

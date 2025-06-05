@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::SByteConverter::*)()>(
     &::System::ComponentModel::SByteConverter::get_TargetType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x445adf0;
+  constexpr static std::size_t addrs = 0x445ad78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::SByteConverter::*)(::StringW, int32_t)>(
     &::System::ComponentModel::SByteConverter::FromString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x445ae5c;
+  constexpr static std::size_t addrs = 0x445ade4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::SByteConverter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::SByteConverter::FromString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x445aef0;
+  constexpr static std::size_t addrs = 0x445ae78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::System::ComponentModel::SByteConverter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::SByteConverter::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x445af64;
+  constexpr static std::size_t addrs = 0x445aeec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::SByteConverter::*)()>(&::System::ComponentModel::SByteConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445b014;
+  constexpr static std::size_t addrs = 0x445af9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::SByteConverter*>::get(), ".ctor",

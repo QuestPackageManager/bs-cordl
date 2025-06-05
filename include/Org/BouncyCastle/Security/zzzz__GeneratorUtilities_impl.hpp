@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::GeneratorUtilities::*)()>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a6778;
+  constexpr static std::size_t addrs = 0x25a6738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Security::GeneratorUtilities*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x25a9b50;
+  constexpr static std::size_t addrs = 0x25a9b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x25a9398;
+  constexpr static std::size_t addrs = 0x25a9358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x25a9928;
+  constexpr static std::size_t addrs = 0x25a98e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x25a95c0;
+  constexpr static std::size_t addrs = 0x25a9580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x25a9cb4;
+  constexpr static std::size_t addrs = 0x25a9c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyPairGeneratorAlgorithm)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x25a9dec;
+  constexpr static std::size_t addrs = 0x25a9dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::CipherKeyGenerator* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyGenerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25a9f24;
+  constexpr static std::size_t addrs = 0x25a9ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::CipherKeyGenerator* (*)(::StringW)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyGenerator)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x25a9f84;
+  constexpr static std::size_t addrs = 0x25a9f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyPairGenerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25aa3e0;
+  constexpr static std::size_t addrs = 0x25aa3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* (*)(::StringW)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetKeyPairGenerator)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x25aa440;
+  constexpr static std::size_t addrs = 0x25aa400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25aa960;
+  constexpr static std::size_t addrs = 0x25aa920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x25aa9c0;
+  constexpr static std::size_t addrs = 0x25aa980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::Org::BouncyCastle::Security::GeneratorUtilities::FindDefaultKeySize)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25aa23c;
+  constexpr static std::size_t addrs = 0x25aa1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

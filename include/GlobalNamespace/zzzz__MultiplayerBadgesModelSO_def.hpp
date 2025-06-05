@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__positiveBadges(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* value);
 
-  /// @brief Method .ctor, addr 0x26dab54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dab34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_negativeBadges, addr 0x26dab4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_negativeBadges, addr 0x26dab2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_negativeBadges();
 
-  /// @brief Method get_positiveBadges, addr 0x26dab44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positiveBadges, addr 0x26dab24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_positiveBadges();
 
 protected:

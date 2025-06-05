@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)(
     ::StringW, ::StringW, bool)>(&::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x447fd54;
+  constexpr static std::size_t addrs = 0x447fcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)()>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::get_SerializerBaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447fd90;
+  constexpr static std::size_t addrs = 0x447fd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::*)()>(
     &::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::get_TypeId)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x447fd98;
+  constexpr static std::size_t addrs = 0x447fd20;
 
   inline static ::MethodInfo const* methodInfo() {
 

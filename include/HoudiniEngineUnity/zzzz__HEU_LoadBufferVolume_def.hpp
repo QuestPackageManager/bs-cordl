@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set__tileIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a6221c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a621f4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

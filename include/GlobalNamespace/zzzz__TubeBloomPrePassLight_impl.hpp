@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(::System::Action*)>(
     &::GlobalNamespace::TubeBloomPrePassLight::add_didRefreshEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39dba10;
+  constexpr static std::size_t addrs = 0x39db9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(::System::Action*)>(
     &::GlobalNamespace::TubeBloomPrePassLight::remove_didRefreshEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39dbaac;
+  constexpr static std::size_t addrs = 0x39dba84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_enabledRenderers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbb48;
+  constexpr static std::size_t addrs = 0x39dbb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_colorAlphaMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbb50;
+  constexpr static std::size_t addrs = 0x39dbb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::get_center)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbb58;
+  constexpr static std::size_t addrs = 0x39dbb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "get_center",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::get_useCollision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbb60;
+  constexpr static std::size_t addrs = 0x39dbb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(bool)>(
     &::GlobalNamespace::TubeBloomPrePassLight::set_useCollision)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39dbb68;
+  constexpr static std::size_t addrs = 0x39dbb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_collisionLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbc7c;
+  constexpr static std::size_t addrs = 0x39dbc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(float_t)>(
     &::GlobalNamespace::TubeBloomPrePassLight::set_collisionLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39dbc84;
+  constexpr static std::size_t addrs = 0x39dbc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_collisionEndAlpha)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39dbc94;
+  constexpr static std::size_t addrs = 0x39dbc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_calculatedCollisionLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39dbcfc;
+  constexpr static std::size_t addrs = 0x39dbcd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::MarkDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39dbd20;
+  constexpr static std::size_t addrs = 0x39dbcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "MarkDirty",
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd2c;
+  constexpr static std::size_t addrs = 0x39dbd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "get_length",
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(float_t)>(&::GlobalNamespace::TubeBloomPrePassLight::set_length)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39dbd34;
+  constexpr static std::size_t addrs = 0x39dbd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd44;
+  constexpr static std::size_t addrs = 0x39dbd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "get_width",
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(float_t)>(&::GlobalNamespace::TubeBloomPrePassLight::set_width)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39dbd4c;
+  constexpr static std::size_t addrs = 0x39dbd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::get_startAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd5c;
+  constexpr static std::size_t addrs = 0x39dbd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(float_t)>(
     &::GlobalNamespace::TubeBloomPrePassLight::set_startAlpha)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39dbd64;
+  constexpr static std::size_t addrs = 0x39dbd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_lightWidthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd74;
+  constexpr static std::size_t addrs = 0x39dbd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(float_t)>(
     &::GlobalNamespace::TubeBloomPrePassLight::set_lightWidthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd7c;
+  constexpr static std::size_t addrs = 0x39dbd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_bloomFogIntensityMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd84;
+  constexpr static std::size_t addrs = 0x39dbd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(float_t)>(
     &::GlobalNamespace::TubeBloomPrePassLight::set_bloomFogIntensityMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dbd8c;
+  constexpr static std::size_t addrs = 0x39dbd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::TubeBloomPrePassLight::set_color)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39dbd94;
+  constexpr static std::size_t addrs = 0x39dbd6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::TubeBloomPrePassLight::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLight::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39dbe44;
+  constexpr static std::size_t addrs = 0x39dbe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "get_color",
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::Awake)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39dbe50;
+  constexpr static std::size_t addrs = 0x39dbe28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "Awake",
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::InitIfNeeded)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39dbbb8;
+  constexpr static std::size_t addrs = 0x39dbb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "InitIfNeeded",
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39dbe64;
+  constexpr static std::size_t addrs = 0x39dbe3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::DidRegisterLight)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39dbe84;
+  constexpr static std::size_t addrs = 0x39dbe5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::NeedsRefresh)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39dbea0;
+  constexpr static std::size_t addrs = 0x39dbe78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "NeedsRefresh",
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::Refresh)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x39dbf08;
+  constexpr static std::size_t addrs = 0x39dbee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -441,7 +441,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<int32_t>, ::ArrayW<::GlobalNamespace::BloomPrePassLight_QuadData, ::Array<::GlobalNamespace::BloomPrePassLight_QuadData>*>, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, float_t)>(
     &::GlobalNamespace::TubeBloomPrePassLight::FillMeshData)> {
   constexpr static std::size_t size = 0x8a4;
-  constexpr static std::size_t addrs = 0x39dc29c;
+  constexpr static std::size_t addrs = 0x39dc274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector4>, ::ByRef<::UnityEngine::Vector4>, ::ByRef<::UnityEngine::Vector3>,
                                                                                            ::ByRef<::UnityEngine::Vector3>, bool, float_t)>(&::GlobalNamespace::TubeBloomPrePassLight::ClipPoints)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39dcbd8;
+  constexpr static std::size_t addrs = 0x39dcbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -475,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::GlobalNamespace::BloomPrePassLight_QuadData>)>(
     &::GlobalNamespace::TubeBloomPrePassLight::ZeroQuad)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39dcb40;
+  constexpr static std::size_t addrs = 0x39dcb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::OnDrawGizmos)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x39dcc6c;
+  constexpr static std::size_t addrs = 0x39dcc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), "OnDrawGizmos",
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLight::*)()>(&::GlobalNamespace::TubeBloomPrePassLight::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x39dcdc8;
+  constexpr static std::size_t addrs = 0x39dcda0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLight*>::get(), ".ctor",

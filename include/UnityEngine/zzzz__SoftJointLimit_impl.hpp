@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SoftJointLimit::*)()>(&::UnityEngine::SoftJointLimit::get_limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5768;
+  constexpr static std::size_t addrs = 0x48f56f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SoftJointLimit>::get(), "get_limit",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SoftJointLimit::*)(float_t)>(&::UnityEngine::SoftJointLimit::set_limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5770;
+  constexpr static std::size_t addrs = 0x48f56f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SoftJointLimit::*)()>(&::UnityEngine::SoftJointLimit::get_bounciness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5778;
+  constexpr static std::size_t addrs = 0x48f5700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SoftJointLimit>::get(), "get_bounciness",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SoftJointLimit::*)(float_t)>(&::UnityEngine::SoftJointLimit::set_bounciness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5780;
+  constexpr static std::size_t addrs = 0x48f5708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SoftJointLimit::*)()>(&::UnityEngine::SoftJointLimit::get_contactDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5788;
+  constexpr static std::size_t addrs = 0x48f5710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SoftJointLimit>::get(), "get_contactDistance",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SoftJointLimit::*)(float_t)>(&::UnityEngine::SoftJointLimit::set_contactDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5790;
+  constexpr static std::size_t addrs = 0x48f5718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SoftJointLimit::*)()>(&::UnityEngine::SoftJointLimit::get_spring)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f5798;
+  constexpr static std::size_t addrs = 0x48f5720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SoftJointLimit>::get(), "get_spring",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SoftJointLimit::*)(float_t)>(&::UnityEngine::SoftJointLimit::set_spring)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48f57a0;
+  constexpr static std::size_t addrs = 0x48f5728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SoftJointLimit::*)()>(&::UnityEngine::SoftJointLimit::get_damper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f57a4;
+  constexpr static std::size_t addrs = 0x48f572c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SoftJointLimit>::get(), "get_damper",
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SoftJointLimit::*)(float_t)>(&::UnityEngine::SoftJointLimit::set_damper)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48f57ac;
+  constexpr static std::size_t addrs = 0x48f5734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SoftJointLimit::*)()>(&::UnityEngine::SoftJointLimit::get_bouncyness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f57b0;
+  constexpr static std::size_t addrs = 0x48f5738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SoftJointLimit>::get(), "get_bouncyness",
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SoftJointLimit::*)(float_t)>(&::UnityEngine::SoftJointLimit::set_bouncyness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f57b8;
+  constexpr static std::size_t addrs = 0x48f5740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -50,18 +50,18 @@ public:
   /// @brief Field m_Subdivisions, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Subdivisions, put = __cordl_internal_set_m_Subdivisions)) int32_t m_Subdivisions;
 
-  /// @brief Method CopyShape, addr 0x475364c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x47535d4, size 0x84, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Sphere* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x475373c, size 0x8d8, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x47536c4, size 0x8d8, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SubdivideIcosahedron, addr 0x4754014, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method SubdivideIcosahedron, addr 0x4753f9c, size 0x568, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, float_t radius);
 
-  /// @brief Method UpdateBounds, addr 0x47536d0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x4753658, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_BottomMostVertexIndex() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Subdivisions(int32_t value);
 
-  /// @brief Method .ctor, addr 0x475457c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4754504, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_IcosphereTriangles();

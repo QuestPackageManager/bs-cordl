@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x47996b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4799638, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
 protected:

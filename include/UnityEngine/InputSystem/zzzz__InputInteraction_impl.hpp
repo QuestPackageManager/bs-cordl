@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::UnityEngine::InputSystem::InputInteraction::GetValueType)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x453d284;
+  constexpr static std::size_t addrs = 0x453d20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::InputSystem::InputInteraction::GetDisplayName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x453d374;
+  constexpr static std::size_t addrs = 0x453d2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::UnityEngine::InputSystem::InputInteraction::GetDisplayName)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x453d474;
+  constexpr static std::size_t addrs = 0x453d3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

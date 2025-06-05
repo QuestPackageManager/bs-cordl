@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBinaryStorage::*)(::System::Data::DataColumn*)>(
     &::System::Data::Common::SqlBinaryStorage::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x41e173c;
+  constexpr static std::size_t addrs = 0x41e16c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Data::Common::SqlBinaryStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::SqlBinaryStorage::Aggregate)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x41f2bb4;
+  constexpr static std::size_t addrs = 0x41f2b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlBinaryStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::SqlBinaryStorage::Compare)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x41f2df0;
+  constexpr static std::size_t addrs = 0x41f2d78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::SqlBinaryStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::SqlBinaryStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x41f2e90;
+  constexpr static std::size_t addrs = 0x41f2e18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBinaryStorage::*)(::System::Object*)>(
     &::System::Data::Common::SqlBinaryStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41f2f4c;
+  constexpr static std::size_t addrs = 0x41f2ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBinaryStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::SqlBinaryStorage::Copy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x41f2fc0;
+  constexpr static std::size_t addrs = 0x41f2f48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBinaryStorage::*)(int32_t)>(
     &::System::Data::Common::SqlBinaryStorage::Get)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x41f2ffc;
+  constexpr static std::size_t addrs = 0x41f2f84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Common::SqlBinaryStorage::*)(int32_t)>(&::System::Data::Common::SqlBinaryStorage::IsNull)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x41f307c;
+  constexpr static std::size_t addrs = 0x41f3004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBinaryStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::SqlBinaryStorage::Set)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x41f30f8;
+  constexpr static std::size_t addrs = 0x41f3080;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBinaryStorage::*)(int32_t)>(
     &::System::Data::Common::SqlBinaryStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x41f313c;
+  constexpr static std::size_t addrs = 0x41f30c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBinaryStorage::*)(::StringW)>(
     &::System::Data::Common::SqlBinaryStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x41f31f4;
+  constexpr static std::size_t addrs = 0x41f317c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::SqlBinaryStorage::*)(::System::Object*)>(
     &::System::Data::Common::SqlBinaryStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x41f34dc;
+  constexpr static std::size_t addrs = 0x41f3464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::SqlBinaryStorage::*)(int32_t)>(
     &::System::Data::Common::SqlBinaryStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41f3780;
+  constexpr static std::size_t addrs = 0x41f3708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::Common::SqlBinaryStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::SqlBinaryStorage::CopyValue)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x41f37c8;
+  constexpr static std::size_t addrs = 0x41f3750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::SqlBinaryStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::SqlBinaryStorage::SetStorage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x41f38c8;
+  constexpr static std::size_t addrs = 0x41f3850;
 
   inline static ::MethodInfo const* methodInfo() {
 

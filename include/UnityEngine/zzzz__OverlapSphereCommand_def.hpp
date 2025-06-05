@@ -50,42 +50,42 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method ScheduleBatch, addr 0x4912cac, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x4912c34, size 0x1e4, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapSphereCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit> results, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ::Unity::Jobs::JobHandle dependsOn);
 
-  /// @brief Method ScheduleOverlapSphereBatch, addr 0x4912e90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleOverlapSphereBatch, addr 0x4912e18, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleOverlapSphereBatch(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::cordl_internals::Ptr<void> commands,
                                                                     int32_t commandLen, ::cordl_internals::Ptr<void> result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
 
-  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x4912f2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x4912eb4, size 0x8c, virtual false, abstract: false, final false
   static inline void ScheduleOverlapSphereBatch_Injected(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, ::cordl_internals::Ptr<void> commands,
                                                          int32_t commandLen, ::cordl_internals::Ptr<void> result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits,
                                                          ::ByRef<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method .ctor, addr 0x4912c5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912be4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
-  /// @brief Method .ctor, addr 0x4912bc4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4912b4c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
-  /// @brief Method get_physicsScene, addr 0x4912c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsScene, addr 0x4912c24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicsScene get_physicsScene();
 
-  /// @brief Method get_point, addr 0x4912c74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x4912bfc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_radius, addr 0x4912c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x4912c14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_physicsScene, addr 0x4912ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicsScene, addr 0x4912c2c, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
-  /// @brief Method set_point, addr 0x4912c80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x4912c08, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_radius, addr 0x4912c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x4912c1c, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
   // Ctor Parameters []

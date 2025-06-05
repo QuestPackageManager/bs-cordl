@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::FloatField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4995740;
+  constexpr static std::size_t addrs = 0x49956c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_UxmlFactory*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::FloatField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4995788;
+  constexpr static std::size_t addrs = 0x4995710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_UxmlTraits*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FloatField* (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::get_parentFloatField)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49957d0;
+  constexpr static std::size_t addrs = 0x4995758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x499555c;
+  constexpr static std::size_t addrs = 0x49954e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4995850;
+  constexpr static std::size_t addrs = 0x49957d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(&::UnityEngine::UIElements::FloatField_FloatInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x49958a8;
+  constexpr static std::size_t addrs = 0x4995830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)(float_t)>(
     &::UnityEngine::UIElements::FloatField_FloatInput::ValueToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4995a54;
+  constexpr static std::size_t addrs = 0x49959dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::FloatField_FloatInput::*)(::StringW)>(
     &::UnityEngine::UIElements::FloatField_FloatInput::StringToValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4995aa0;
+  constexpr static std::size_t addrs = 0x4995a28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FloatField_FloatInput* (::UnityEngine::UIElements::FloatField::*)()>(
     &::UnityEngine::UIElements::FloatField::get_floatInput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49951e8;
+  constexpr static std::size_t addrs = 0x4995170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), "get_floatInput",
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FloatField::*)(float_t)>(
     &::UnityEngine::UIElements::FloatField::ValueToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x499526c;
+  constexpr static std::size_t addrs = 0x49951f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::FloatField::*)(::StringW)>(
     &::UnityEngine::UIElements::FloatField::StringToValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4995324;
+  constexpr static std::size_t addrs = 0x49952ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField::*)()>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4995400;
+  constexpr static std::size_t addrs = 0x4995388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), ".ctor",
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x499540c;
+  constexpr static std::size_t addrs = 0x4995394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::FloatField::*)(::StringW)>(&::UnityEngine::UIElements::FloatField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49955f0;
+  constexpr static std::size_t addrs = 0x4995578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(&::UnityEngine::UIElements::FloatField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4995614;
+  constexpr static std::size_t addrs = 0x499559c;
 
   inline static ::MethodInfo const* methodInfo() {
 

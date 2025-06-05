@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType (
     ::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::get_deviceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a6ac;
+  constexpr static std::size_t addrs = 0x491a634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::set_deviceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a6b4;
+  constexpr static std::size_t addrs = 0x491a63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose (
     ::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::get_poseSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a6bc;
+  constexpr static std::size_t addrs = 0x491a644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::set_poseSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a6c4;
+  constexpr static std::size_t addrs = 0x491a64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType, ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::SetPoseSource)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x491a6cc;
+  constexpr static std::size_t addrs = 0x491a654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider> (
     ::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::get_poseProviderComponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a810;
+  constexpr static std::size_t addrs = 0x491a798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider*)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::set_poseProviderComponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a818;
+  constexpr static std::size_t addrs = 0x491a7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::SpatialTracking::TrackedPoseDriver_DeviceType, ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose, ::ByRef<::UnityEngine::Pose>)>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::GetPoseData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x491a820;
+  constexpr static std::size_t addrs = 0x491a7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType (
     ::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::get_trackingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a8ec;
+  constexpr static std::size_t addrs = 0x491a874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackingType)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::set_trackingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a8f4;
+  constexpr static std::size_t addrs = 0x491a87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType (
     ::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::get_updateType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a8fc;
+  constexpr static std::size_t addrs = 0x491a884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::SpatialTracking::TrackedPoseDriver_UpdateType)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::set_updateType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a904;
+  constexpr static std::size_t addrs = 0x491a88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::get_UseRelativeTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491a90c;
+  constexpr static std::size_t addrs = 0x491a894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(bool)>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::set_UseRelativeTransform)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491a914;
+  constexpr static std::size_t addrs = 0x491a89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::get_originPose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x491a920;
+  constexpr static std::size_t addrs = 0x491a8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(::UnityEngine::Pose)>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::set_originPose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x491a934;
+  constexpr static std::size_t addrs = 0x491a8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::CacheLocalPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x491a950;
+  constexpr static std::size_t addrs = 0x491a8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::ResetToCachedLocalPosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x491a9a0;
+  constexpr static std::size_t addrs = 0x491a928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x491a9c0;
+  constexpr static std::size_t addrs = 0x491a948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x491a9c4;
+  constexpr static std::size_t addrs = 0x491a94c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::OnEnable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x491a9c8;
+  constexpr static std::size_t addrs = 0x491a950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::OnDisable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x491aa5c;
+  constexpr static std::size_t addrs = 0x491a9e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::FixedUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x491aaf8;
+  constexpr static std::size_t addrs = 0x491aa80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::Update)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x491ab14;
+  constexpr static std::size_t addrs = 0x491aa9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::OnBeforeRender)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x491ab30;
+  constexpr static std::size_t addrs = 0x491aab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::SpatialTracking::PoseDataFlags)>(&::UnityEngine::SpatialTracking::TrackedPoseDriver::SetLocalTransform)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x491ab50;
+  constexpr static std::size_t addrs = 0x491aad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)(::UnityEngine::Pose)>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::TransformPoseByOriginIfNeeded)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x491ac34;
+  constexpr static std::size_t addrs = 0x491abbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::HasStereoCamera)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x491acf4;
+  constexpr static std::size_t addrs = 0x491ac7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::PerformUpdate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x491adac;
+  constexpr static std::size_t addrs = 0x491ad34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriver::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriver::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x491ae40;
+  constexpr static std::size_t addrs = 0x491adc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(),

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x26454fc;
+  constexpr static std::size_t addrs = 0x26454bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)(::Org::BouncyCastle::Bcpg::PublicKeyPacket*, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, ::Org::BouncyCastle::Bcpg::S2k*,
                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x264a2d0;
+  constexpr static std::size_t addrs = 0x264a290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Bcpg::PublicKeyPacket*, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag, int32_t, ::Org::BouncyCastle::Bcpg::S2k*, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::SecretKeyPacket::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x264a384;
+  constexpr static std::size_t addrs = 0x264a344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_EncAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264a430;
+  constexpr static std::size_t addrs = 0x264a3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_S2kUsage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264a438;
+  constexpr static std::size_t addrs = 0x264a3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::GetIV)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x264a440;
+  constexpr static std::size_t addrs = 0x264a400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(), "GetIV",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::S2k* (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_S2k)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264a49c;
+  constexpr static std::size_t addrs = 0x264a45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(), "get_S2k",
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyPacket* (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::get_PublicKeyPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264a4a4;
+  constexpr static std::size_t addrs = 0x264a464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::GetSecretKeyData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264a4ac;
+  constexpr static std::size_t addrs = 0x264a46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::GetEncodedContents)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x264a4b4;
+  constexpr static std::size_t addrs = 0x264a474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SecretKeyPacket*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::SecretKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::SecretKeyPacket::Encode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x264a61c;
+  constexpr static std::size_t addrs = 0x264a5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

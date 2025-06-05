@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x3c004e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c00530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x3c004e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x3c00528, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x3c004d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3c00520, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_text();
 
 protected:

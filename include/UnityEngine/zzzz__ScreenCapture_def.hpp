@@ -89,10 +89,10 @@ public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::ScreenCapture_StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x4918c54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x4918bdc, size 0x44, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot, addr 0x4918c98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x4918c20, size 0x54, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
 
 protected:

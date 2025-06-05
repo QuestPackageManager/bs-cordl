@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_rounds(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23c1068, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c1028, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t rounds);
 
-  /// @brief Method get_Rounds, addr 0x23c10f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rounds, addr 0x23c10b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Rounds();
 
 protected:

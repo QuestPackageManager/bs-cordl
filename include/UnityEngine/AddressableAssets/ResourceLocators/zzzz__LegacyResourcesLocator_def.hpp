@@ -42,19 +42,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Locate, addr 0x44fe030, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x44fdfb8, size 0x274, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type,
                      ::ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44fe2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Keys, addr 0x44fe2a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x44fe22c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_LocatorId, addr 0x44fe2ac, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x44fe234, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"

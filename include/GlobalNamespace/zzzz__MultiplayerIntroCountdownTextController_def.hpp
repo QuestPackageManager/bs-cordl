@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdownTextController* New_ctor();
 
-  /// @brief Method SetDistances, addr 0x3bd6c3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetDistances, addr 0x3bd6c84, size 0x88, virtual false, abstract: false, final false
   inline void SetDistances(float_t distance);
 
-  /// @brief Method SetText, addr 0x3bd75d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3bd7618, size 0x70, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__texts() const;
@@ -46,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
 
-  /// @brief Method .ctor, addr 0x3bd7794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd77dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x3bd66ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x3bd6734, size 0x40, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_fontSize, addr 0x3bd66b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x3bd66fc, size 0x38, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method set_alpha, addr 0x3bd6b44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3bd6b8c, size 0x80, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_fontSize, addr 0x3bd6abc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x3bd6b04, size 0x70, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hide, addr 0x3bd6688, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3bd66d0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::RoleSyntax* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x260e25c;
+  constexpr static std::size_t addrs = 0x260e21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(
     ::Org::BouncyCastle::Asn1::X509::GeneralNames*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x260e504;
+  constexpr static std::size_t addrs = 0x260e4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x260e694;
+  constexpr static std::size_t addrs = 0x260e654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x260e6a0;
+  constexpr static std::size_t addrs = 0x260e660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x260e300;
+  constexpr static std::size_t addrs = 0x260e2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralNames* (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::get_RoleAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x260e730;
+  constexpr static std::size_t addrs = 0x260e6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::get_RoleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x260e738;
+  constexpr static std::size_t addrs = 0x260e6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::GetRoleNameAsString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x260e740;
+  constexpr static std::size_t addrs = 0x260e700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::GetRoleAuthorityAsString)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x260e82c;
+  constexpr static std::size_t addrs = 0x260e7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x260ea00;
+  constexpr static std::size_t addrs = 0x260e9c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::ToString)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x260eaf4;
+  constexpr static std::size_t addrs = 0x260eab4;
 
   inline static ::MethodInfo const* methodInfo() {
 

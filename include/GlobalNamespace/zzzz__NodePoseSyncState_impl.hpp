@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncState::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NodePoseSyncState::Serialize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22e9ab8;
+  constexpr static std::size_t addrs = 0x22e9a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncState::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NodePoseSyncState::Deserialize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22e9af8;
+  constexpr static std::size_t addrs = 0x22e9ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::NodePoseSyncState::*)(::GlobalNamespace::NodePoseSyncState_NodePose, ::GlobalNamespace::PoseSerializable)>(&::GlobalNamespace::NodePoseSyncState::SetState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22e9b38;
+  constexpr static std::size_t addrs = 0x22e9af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::PoseSerializable (::GlobalNamespace::NodePoseSyncState::*)(::GlobalNamespace::NodePoseSyncState_NodePose)>(&::GlobalNamespace::NodePoseSyncState::GetState)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22e9b88;
+  constexpr static std::size_t addrs = 0x22e9b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NodePoseSyncState::*)(::ByRef<::GlobalNamespace::NodePoseSyncState>)>(
     &::GlobalNamespace::NodePoseSyncState::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22e9bd4;
+  constexpr static std::size_t addrs = 0x22e9b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(::ByRef<::GlobalNamespace::NodePoseSyncState>)>(&::GlobalNamespace::NodePoseSyncState::GetDelta)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x22e9c68;
+  constexpr static std::size_t addrs = 0x22e9c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(::ByRef<::GlobalNamespace::NodePoseSyncState>)>(&::GlobalNamespace::NodePoseSyncState::ApplyDelta)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x22e9d78;
+  constexpr static std::size_t addrs = 0x22e9d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NodePoseSyncState::*)()>(&::GlobalNamespace::NodePoseSyncState::GetSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22e9e88;
+  constexpr static std::size_t addrs = 0x22e9e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncState>::get(), "GetSize",
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(
     ::ByRef<::GlobalNamespace::NodePoseSyncState>)>(&::GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__GetDelta)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22e9ed0;
+  constexpr static std::size_t addrs = 0x22e9e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncState::*)(
     ::ByRef<::GlobalNamespace::NodePoseSyncState>)>(&::GlobalNamespace::NodePoseSyncState::IStateTable_NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable__ApplyDelta)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22e9f00;
+  constexpr static std::size_t addrs = 0x22e9ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NodePoseSyncState::*)(::ByRef<::GlobalNamespace::NodePoseSyncState>)>(
     &::GlobalNamespace::NodePoseSyncState::IEquatableByReference_NodePoseSyncState__Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22e9f30;
+  constexpr static std::size_t addrs = 0x22e9ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

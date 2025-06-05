@@ -30,13 +30,13 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::Root* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4306fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4306f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0x4306ff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x4306f78, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x4306fe8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4306f70, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:

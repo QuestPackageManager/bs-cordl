@@ -30,15 +30,15 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Method HandleNoteWasCut, addr 0x3bb2d64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x3bb2dac, size 0x8c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method Init, addr 0x3bb2b54, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb2b9c, size 0x144, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb2cd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb2d1c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method .ctor, addr 0x3bb2f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb2f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

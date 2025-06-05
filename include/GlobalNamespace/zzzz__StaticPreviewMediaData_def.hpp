@@ -37,18 +37,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x26ce6c8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x26ce6a8, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync();
 
-  /// @brief Method GetPreviewAudioClip, addr 0x26ce738, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x26ce718, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip();
 
   static inline ::GlobalNamespace::StaticPreviewMediaData* New_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
-  /// @brief Method UnloadCoverSprite, addr 0x26ce7ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnloadCoverSprite, addr 0x26ce78c, size 0x4, virtual true, abstract: false, final true
   inline void UnloadCoverSprite();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x26ce7a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x26ce788, size 0x4, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverSprite() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x26c980c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c97ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
   /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"

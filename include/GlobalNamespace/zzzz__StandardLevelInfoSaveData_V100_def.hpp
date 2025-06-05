@@ -86,22 +86,22 @@ public:
 
   constexpr void __cordl_internal_set__noteJumpStartBeatOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26ff4e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ff4bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset);
 
-  /// @brief Method get_beatmapFilename, addr 0x26ff4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapFilename, addr 0x26ff4a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapFilename();
 
-  /// @brief Method get_difficulty, addr 0x26ff4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x26ff494, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_difficulty();
 
-  /// @brief Method get_difficultyRank, addr 0x26ff4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyRank, addr 0x26ff49c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_difficultyRank();
 
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x26ff4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x26ff4ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26ff4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26ff4b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_noteJumpStartBeatOffset();
 
 protected:
@@ -336,52 +336,52 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ff4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ff48c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatsPerMinute, addr 0x26ff464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatsPerMinute, addr 0x26ff43c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_coverImageFilename, addr 0x26ff49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImageFilename, addr 0x26ff474, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_coverImageFilename();
 
-  /// @brief Method get_difficultyBeatmaps, addr 0x26ff4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyBeatmaps, addr 0x26ff484, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_V100_DifficultyBeatmap*>*> get_difficultyBeatmaps();
 
-  /// @brief Method get_environmentName, addr 0x26ff4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x26ff47c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_levelAuthorName, addr 0x26ff45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAuthorName, addr 0x26ff434, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_previewDuration, addr 0x26ff48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewDuration, addr 0x26ff464, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewDuration();
 
-  /// @brief Method get_previewStartTime, addr 0x26ff484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewStartTime, addr 0x26ff45c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_shuffle, addr 0x26ff474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shuffle, addr 0x26ff44c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod, addr 0x26ff47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shufflePeriod, addr 0x26ff454, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_songAuthorName, addr 0x26ff454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAuthorName, addr 0x26ff42c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_songFilename, addr 0x26ff494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songFilename, addr 0x26ff46c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songFilename();
 
-  /// @brief Method get_songName, addr 0x26ff444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x26ff41c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName, addr 0x26ff44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSubName, addr 0x26ff424, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songTimeOffset, addr 0x26ff46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x26ff444, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_version, addr 0x26ff43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x26ff414, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:

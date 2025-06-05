@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243470;
+  constexpr static std::size_t addrs = 0x2243430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(int32_t)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243478;
+  constexpr static std::size_t addrs = 0x2243438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_elementId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243480;
+  constexpr static std::size_t addrs = 0x2243440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(int32_t)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_elementId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243488;
+  constexpr static std::size_t addrs = 0x2243448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_usePreviousValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243490;
+  constexpr static std::size_t addrs = 0x2243450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(bool)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_usePreviousValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2243498;
+  constexpr static std::size_t addrs = 0x2243458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EaseType (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434a4;
+  constexpr static std::size_t addrs = 0x2243464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434ac;
+  constexpr static std::size_t addrs = 0x224346c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentColorType (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434b4;
+  constexpr static std::size_t addrs = 0x2243474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(::GlobalNamespace::EnvironmentColorType)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434bc;
+  constexpr static std::size_t addrs = 0x224347c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434c4;
+  constexpr static std::size_t addrs = 0x2243484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434cc;
+  constexpr static std::size_t addrs = 0x224348c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_strobeBeatFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434d4;
+  constexpr static std::size_t addrs = 0x2243494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(int32_t)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_strobeBeatFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434dc;
+  constexpr static std::size_t addrs = 0x224349c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_strobeBrightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434e4;
+  constexpr static std::size_t addrs = 0x22434a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_strobeBrightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434ec;
+  constexpr static std::size_t addrs = 0x22434ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::get_strobeFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22434f4;
+  constexpr static std::size_t addrs = 0x22434b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(bool)>(
     &::GlobalNamespace::LightColorBeatmapEventData::set_strobeFade)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22434fc;
+  constexpr static std::size_t addrs = 0x22434bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(
     float_t, int32_t, int32_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::GlobalNamespace::LightColorBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2243508;
+  constexpr static std::size_t addrs = 0x22434c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::LightColorBeatmapEventData::CopyColorDataFrom)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2243608;
+  constexpr static std::size_t addrs = 0x22435c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::DisableStrobe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243644;
+  constexpr static std::size_t addrs = 0x2243604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventData*>::get(),
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x224364c;
+  constexpr static std::size_t addrs = 0x224360c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::LightColorBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22435fc;
+  constexpr static std::size_t addrs = 0x22435bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::LightColorBeatmapEventData::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2243718;
+  constexpr static std::size_t addrs = 0x22436d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

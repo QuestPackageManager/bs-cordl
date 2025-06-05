@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::LocalCertificateSelectionCallback* (
     ::System::Net::Security::SslClientAuthenticationOptions::*)()>(&::System::Net::Security::SslClientAuthenticationOptions::get_LocalCertificateSelectionCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f08;
+  constexpr static std::size_t addrs = 0x4405e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)(
     ::System::Net::Security::LocalCertificateSelectionCallback*)>(&::System::Net::Security::SslClientAuthenticationOptions::set_LocalCertificateSelectionCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f10;
+  constexpr static std::size_t addrs = 0x4405e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (
     ::System::Net::Security::SslClientAuthenticationOptions::*)()>(&::System::Net::Security::SslClientAuthenticationOptions::get_RemoteCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f18;
+  constexpr static std::size_t addrs = 0x4405ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Security::SslClientAuthenticationOptions::*)()>(
     &::System::Net::Security::SslClientAuthenticationOptions::get_TargetHost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f20;
+  constexpr static std::size_t addrs = 0x4405ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslClientAuthenticationOptions*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)(::StringW)>(
     &::System::Net::Security::SslClientAuthenticationOptions::set_TargetHost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f28;
+  constexpr static std::size_t addrs = 0x4405eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (
     ::System::Net::Security::SslClientAuthenticationOptions::*)()>(&::System::Net::Security::SslClientAuthenticationOptions::get_ClientCertificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f30;
+  constexpr static std::size_t addrs = 0x4405eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslClientAuthenticationOptions*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)(
     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&::System::Net::Security::SslClientAuthenticationOptions::set_ClientCertificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4405f38;
+  constexpr static std::size_t addrs = 0x4405ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)(
     ::System::Security::Cryptography::X509Certificates::X509RevocationMode)>(&::System::Net::Security::SslClientAuthenticationOptions::set_CertificateRevocationCheckMode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4405f40;
+  constexpr static std::size_t addrs = 0x4405ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)(::System::Net::Security::EncryptionPolicy)>(
     &::System::Net::Security::SslClientAuthenticationOptions::set_EncryptionPolicy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4405fdc;
+  constexpr static std::size_t addrs = 0x4405f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Authentication::SslProtocols (::System::Net::Security::SslClientAuthenticationOptions::*)()>(
     &::System::Net::Security::SslClientAuthenticationOptions::get_EnabledSslProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4406078;
+  constexpr static std::size_t addrs = 0x4406000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslClientAuthenticationOptions*>::get(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)(::System::Security::Authentication::SslProtocols)>(
     &::System::Net::Security::SslClientAuthenticationOptions::set_EnabledSslProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4406080;
+  constexpr static std::size_t addrs = 0x4406008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::SslClientAuthenticationOptions::*)()>(
     &::System::Net::Security::SslClientAuthenticationOptions::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4406088;
+  constexpr static std::size_t addrs = 0x4406010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::SslClientAuthenticationOptions*>::get(),

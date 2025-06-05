@@ -34,37 +34,37 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x3d1b218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d1b1a0, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::System::Object* o);
 
-  /// @brief Method GetObjectValue, addr 0x3d1b220, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetObjectValue, addr 0x3d1b1a8, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* GetObjectValue(::System::Object* obj);
 
-  /// @brief Method InitializeArray, addr 0x3d1b1a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeArray, addr 0x3d1b128, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeArray(::System::Array* array, ::System::IntPtr fldHandle);
 
-  /// @brief Method InitializeArray, addr 0x3d1b1a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InitializeArray, addr 0x3d1b12c, size 0x70, virtual false, abstract: false, final false
   static inline void InitializeArray(::System::Array* array, ::System::RuntimeFieldHandle fldHandle);
 
   /// @brief Method IsReferenceOrContainsReferences, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsReferenceOrContainsReferences();
 
-  /// @brief Method PrepareConstrainedRegions, addr 0x3d1b2b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PrepareConstrainedRegions, addr 0x3d1b240, size 0x4, virtual false, abstract: false, final false
   static inline void PrepareConstrainedRegions();
 
-  /// @brief Method RunClassConstructor, addr 0x3d1b224, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RunClassConstructor, addr 0x3d1b1ac, size 0x4, virtual false, abstract: false, final false
   static inline void RunClassConstructor(::System::IntPtr type);
 
-  /// @brief Method RunClassConstructor, addr 0x3d1b228, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RunClassConstructor, addr 0x3d1b1b0, size 0x88, virtual false, abstract: false, final false
   static inline void RunClassConstructor(::System::RuntimeTypeHandle type);
 
-  /// @brief Method SufficientExecutionStack, addr 0x3d1b2b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SufficientExecutionStack, addr 0x3d1b238, size 0x4, virtual false, abstract: false, final false
   static inline bool SufficientExecutionStack();
 
-  /// @brief Method TryEnsureSufficientExecutionStack, addr 0x3d1b2b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryEnsureSufficientExecutionStack, addr 0x3d1b23c, size 0x4, virtual false, abstract: false, final false
   static inline bool TryEnsureSufficientExecutionStack();
 
-  /// @brief Method get_OffsetToStringData, addr 0x3d1b214, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetToStringData, addr 0x3d1b19c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_OffsetToStringData();
 
 protected:

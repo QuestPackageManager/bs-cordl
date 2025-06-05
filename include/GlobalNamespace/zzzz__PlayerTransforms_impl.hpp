@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_headWorldPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85a8;
+  constexpr static std::size_t addrs = 0x3be85f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(), "get_headWorldPos",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_headWorldRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85b4;
+  constexpr static std::size_t addrs = 0x3be85fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(), "get_headWorldRot",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_headPseudoLocalPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85c0;
+  constexpr static std::size_t addrs = 0x3be8608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_headPseudoLocalZOnlyPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85cc;
+  constexpr static std::size_t addrs = 0x3be8614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_headPseudoLocalRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85d8;
+  constexpr static std::size_t addrs = 0x3be8620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_leftHandPseudoLocalPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85e4;
+  constexpr static std::size_t addrs = 0x3be862c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_leftHandPseudoLocalRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85f0;
+  constexpr static std::size_t addrs = 0x3be8638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_rightHandPseudoLocalPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be85fc;
+  constexpr static std::size_t addrs = 0x3be8644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::PlayerTransforms::*)()>(
     &::GlobalNamespace::PlayerTransforms::get_rightHandPseudoLocalRot)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be8608;
+  constexpr static std::size_t addrs = 0x3be8650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3be8614;
+  constexpr static std::size_t addrs = 0x3be865c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(), "Awake",
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::PlayerTransforms::OverrideHeadPos)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3be8698;
+  constexpr static std::size_t addrs = 0x3be86e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::ClearHeadPositionOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be86b8;
+  constexpr static std::size_t addrs = 0x3be8700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(),
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::Update)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3be86c0;
+  constexpr static std::size_t addrs = 0x3be8708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(), "Update",
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerTransforms::*)()>(&::GlobalNamespace::PlayerTransforms::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be88e4;
+  constexpr static std::size_t addrs = 0x3be892c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerTransforms*>::get(), ".ctor",

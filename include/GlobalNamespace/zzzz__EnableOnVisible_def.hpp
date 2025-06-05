@@ -31,15 +31,15 @@ public:
   __declspec(property(get = __cordl_internal_get__components, put = __cordl_internal_set__components)) ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*>
       _components;
 
-  /// @brief Method Awake, addr 0x39c23b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c2388, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x39c249c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x39c2474, size 0x88, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x39c2414, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x39c23ec, size 0x88, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::System::Action_1<bool>* const& __cordl_internal_get_VisibilityChangedEvent() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> value);
 
-  /// @brief Method .ctor, addr 0x39c2524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c24fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_VisibilityChangedEvent, addr 0x39c2250, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_VisibilityChangedEvent, addr 0x39c2228, size 0xb0, virtual false, abstract: false, final false
   inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_VisibilityChangedEvent, addr 0x39c2300, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_VisibilityChangedEvent, addr 0x39c22d8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaGroupRef::get_RefName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bf170;
+  constexpr static std::size_t addrs = 0x42bf0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), "get_RefName",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaGroupRef::set_RefName)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42bcf58;
+  constexpr static std::size_t addrs = 0x42bcee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaGroupBase* (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaGroupRef::get_Particle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bf178;
+  constexpr static std::size_t addrs = 0x42bf100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), "get_Particle",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)(::System::Xml::Schema::XmlSchemaGroupBase*)>(
     &::System::Xml::Schema::XmlSchemaGroupRef::SetParticle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bf180;
+  constexpr static std::size_t addrs = 0x42bf108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaGroup* (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaGroupRef::get_Redefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bf188;
+  constexpr static std::size_t addrs = 0x42bf110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)(::System::Xml::Schema::XmlSchemaGroup*)>(
     &::System::Xml::Schema::XmlSchemaGroupRef::set_Redefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bf190;
+  constexpr static std::size_t addrs = 0x42bf118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(&::System::Xml::Schema::XmlSchemaGroupRef::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x42bf198;
+  constexpr static std::size_t addrs = 0x42bf120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), ".ctor",

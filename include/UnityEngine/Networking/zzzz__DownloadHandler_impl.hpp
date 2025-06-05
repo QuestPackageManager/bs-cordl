@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)()>(&::UnityEngine::Networking::DownloadHandler::Release)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae5778;
+  constexpr static std::size_t addrs = 0x4ae5700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(), "Release",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)()>(&::UnityEngine::Networking::DownloadHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae57b4;
+  constexpr static std::size_t addrs = 0x4ae573c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)()>(&::UnityEngine::Networking::DownloadHandler::Finalize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4ae57bc;
+  constexpr static std::size_t addrs = 0x4ae5744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)()>(&::UnityEngine::Networking::DownloadHandler::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ae5858;
+  constexpr static std::size_t addrs = 0x4ae57e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::get_error)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae58b0;
+  constexpr static std::size_t addrs = 0x4ae5838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(), "get_error",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::GetErrorMsg)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae58ec;
+  constexpr static std::size_t addrs = 0x4ae5874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1_ReadOnly<uint8_t> (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::get_nativeData)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4ae5928;
+  constexpr static std::size_t addrs = 0x4ae58b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::get_data)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ae5998;
+  constexpr static std::size_t addrs = 0x4ae5920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(), "get_data",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandler::*)()>(&::UnityEngine::Networking::DownloadHandler::get_text)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ae59a4;
+  constexpr static std::size_t addrs = 0x4ae592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(), "get_text",
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::GetNativeData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ae59b0;
+  constexpr static std::size_t addrs = 0x4ae5938;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::GetData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ae59bc;
+  constexpr static std::size_t addrs = 0x4ae5944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandler::*)()>(&::UnityEngine::Networking::DownloadHandler::GetText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4ae5a44;
+  constexpr static std::size_t addrs = 0x4ae59cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::GetTextEncoder)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x4ae5b04;
+  constexpr static std::size_t addrs = 0x4ae5a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::GetContentType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae5d74;
+  constexpr static std::size_t addrs = 0x4ae5cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandler*>::get(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::DownloadHandler::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityEngine::Networking::DownloadHandler::ReceiveData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae5db0;
+  constexpr static std::size_t addrs = 0x4ae5d38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)(uint64_t)>(
     &::UnityEngine::Networking::DownloadHandler::ReceiveContentLengthHeader)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ae5db8;
+  constexpr static std::size_t addrs = 0x4ae5d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)(int32_t)>(
     &::UnityEngine::Networking::DownloadHandler::ReceiveContentLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ae5dc4;
+  constexpr static std::size_t addrs = 0x4ae5d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::CompleteContent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ae5dc8;
+  constexpr static std::size_t addrs = 0x4ae5d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Networking::DownloadHandler::*)()>(
     &::UnityEngine::Networking::DownloadHandler::GetProgress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae5dcc;
+  constexpr static std::size_t addrs = 0x4ae5d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (*)(::UnityEngine::Networking::DownloadHandler*, ::ByRef<int32_t>)>(
     &::UnityEngine::Networking::DownloadHandler::InternalGetByteArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4ae5dd4;
+  constexpr static std::size_t addrs = 0x4ae5d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::UnityEngine::Networking::DownloadHandler*)>(
     &::UnityEngine::Networking::DownloadHandler::InternalGetByteArray)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4ae59c0;
+  constexpr static std::size_t addrs = 0x4ae5948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(
     ::UnityEngine::Networking::DownloadHandler*, ::ByRef<::Unity::Collections::NativeArray_1<uint8_t>>)>(&::UnityEngine::Networking::DownloadHandler::InternalGetNativeArray)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4ae5e18;
+  constexpr static std::size_t addrs = 0x4ae5da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Collections::NativeArray_1<uint8_t>>)>(
     &::UnityEngine::Networking::DownloadHandler::DisposeNativeArray)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4ae5ef0;
+  constexpr static std::size_t addrs = 0x4ae5e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Collections::NativeArray_1<uint8_t>>, ::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Networking::DownloadHandler::CreateNativeArrayForNativeData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ae5f34;
+  constexpr static std::size_t addrs = 0x4ae5ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

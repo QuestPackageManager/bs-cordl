@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>)>(&::MidiParser::MidiFile_Reader::Read16)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3c29954;
+  constexpr static std::size_t addrs = 0x3c298dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>)>(&::MidiParser::MidiFile_Reader::Read32)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c298c4;
+  constexpr static std::size_t addrs = 0x3c2984c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>)>(&::MidiParser::MidiFile_Reader::Read8)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c29ed8;
+  constexpr static std::size_t addrs = 0x3c29e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::System::IO::Stream*)>(
     &::MidiParser::MidiFile_Reader::ReadAllBytesFromStream)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3c29f10;
+  constexpr static std::size_t addrs = 0x3c29e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(
     &::MidiParser::MidiFile_Reader::ReadString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c2986c;
+  constexpr static std::size_t addrs = 0x3c297f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>)>(&::MidiParser::MidiFile_Reader::ReadVarInt)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c29dd8;
+  constexpr static std::size_t addrs = 0x3c29d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MidiParser::MidiFile::*)(::StringW)>(&::MidiParser::MidiFile::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c29530;
+  constexpr static std::size_t addrs = 0x3c294b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MidiParser::MidiFile::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::MidiParser::MidiFile::_ctor)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x3c29554;
+  constexpr static std::size_t addrs = 0x3c294dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, uint8_t, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::MidiParser::MidiFile::ParseMetaEvent)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c29ce8;
+  constexpr static std::size_t addrs = 0x3c29c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MidiParser::MidiTrack* (*)(int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>)>(
     &::MidiParser::MidiFile::ParseTrack)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x3c299a8;
+  constexpr static std::size_t addrs = 0x3c29930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

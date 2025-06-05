@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SceneInfo> (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_sceneInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afae4;
+  constexpr static std::size_t addrs = 0x26afac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(), "get_sceneInfo",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentInfoSO::*)()>(&::GlobalNamespace::EnvironmentInfoSO::get_environmentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afaec;
+  constexpr static std::size_t addrs = 0x26afacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ColorSchemeSO> (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afaf4;
+  constexpr static std::size_t addrs = 0x26afad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(), "get_colorScheme",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentInfoSO::*)()>(&::GlobalNamespace::EnvironmentInfoSO::get_serializedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afafc;
+  constexpr static std::size_t addrs = 0x26afadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentType (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_environmentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb04;
+  constexpr static std::size_t addrs = 0x26afae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentSizeData* (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_environmentSizeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb0c;
+  constexpr static std::size_t addrs = 0x26afaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentIntensityReductionOptions* (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_environmentIntensityReductionOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb14;
+  constexpr static std::size_t addrs = 0x26afaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_environmentKeywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb1c;
+  constexpr static std::size_t addrs = 0x26afafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IEnvironmentLightGroups* (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_environmentLightGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb24;
+  constexpr static std::size_t addrs = 0x26afb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextAsset> (::GlobalNamespace::EnvironmentInfoSO::*)()>(
     &::GlobalNamespace::EnvironmentInfoSO::get_defaultLightshowAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb2c;
+  constexpr static std::size_t addrs = 0x26afb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::EnvironmentInfoSO::*)()>(&::GlobalNamespace::EnvironmentInfoSO::get_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb34;
+  constexpr static std::size_t addrs = 0x26afb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(), "get_order",
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnvironmentInfoSO::*)()>(&::GlobalNamespace::EnvironmentInfoSO::get_isBranded)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26afb3c;
+  constexpr static std::size_t addrs = 0x26afb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(), "get_isBranded",
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnvironmentInfoSO::*)()>(&::GlobalNamespace::EnvironmentInfoSO::get_isInDevelopment)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26afb48;
+  constexpr static std::size_t addrs = 0x26afb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(),
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentInfoSO::*)()>(&::GlobalNamespace::EnvironmentInfoSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afb54;
+  constexpr static std::size_t addrs = 0x26afb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentInfoSO*>::get(), ".ctor",

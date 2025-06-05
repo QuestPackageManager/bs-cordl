@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_enabled)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea6d4;
+  constexpr static std::size_t addrs = 0x4aea65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_enabled",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_isDeviceActive)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea6fc;
+  constexpr static std::size_t addrs = 0x4aea684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_isDeviceActive",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_showDeviceView)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea724;
+  constexpr static std::size_t addrs = 0x4aea6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_showDeviceView",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::XR::XRSettings::set_showDeviceView)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4aea74c;
+  constexpr static std::size_t addrs = 0x4aea6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureResolutionScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea788;
+  constexpr static std::size_t addrs = 0x4aea710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(),
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::XRSettings::set_eyeTextureResolutionScale)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4aea7b0;
+  constexpr static std::size_t addrs = 0x4aea738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureWidth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea7e8;
+  constexpr static std::size_t addrs = 0x4aea770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureWidth",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureHeight)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea810;
+  constexpr static std::size_t addrs = 0x4aea798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureHeight",
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::TextureDimension (*)()>(&::UnityEngine::XR::XRSettings::get_deviceEyeTextureDimension)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea838;
+  constexpr static std::size_t addrs = 0x4aea7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(),
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_renderViewportScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea860;
+  constexpr static std::size_t addrs = 0x4aea7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_renderViewportScale",
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::XRSettings::set_renderViewportScale)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aea8b0;
+  constexpr static std::size_t addrs = 0x4aea838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_renderViewportScaleInternal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea888;
+  constexpr static std::size_t addrs = 0x4aea810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::XRSettings::set_renderViewportScaleInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4aea960;
+  constexpr static std::size_t addrs = 0x4aea8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_occlusionMaskScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea998;
+  constexpr static std::size_t addrs = 0x4aea920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_occlusionMaskScale",
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_useOcclusionMesh)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea9c0;
+  constexpr static std::size_t addrs = 0x4aea948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_useOcclusionMesh",
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::UnityEngine::XR::XRSettings::get_loadedDeviceName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea9e8;
+  constexpr static std::size_t addrs = 0x4aea970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_loadedDeviceName",
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRSettings_StereoRenderingMode (*)()>(&::UnityEngine::XR::XRSettings::get_stereoRenderingMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aeaa10;
+  constexpr static std::size_t addrs = 0x4aea998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_stereoRenderingMode",

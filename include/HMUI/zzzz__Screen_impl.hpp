@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Screen__TransitionCoroutine_d__5::*)(int32_t)>(&::HMUI::Screen__TransitionCoroutine_d__5::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x228ab20;
+  constexpr static std::size_t addrs = 0x228aae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(
     &::HMUI::Screen__TransitionCoroutine_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x228ab5c;
+  constexpr static std::size_t addrs = 0x228ab1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Screen__TransitionCoroutine_d__5*>::get(),
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(&::HMUI::Screen__TransitionCoroutine_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x228ab60;
+  constexpr static std::size_t addrs = 0x228ab20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Screen__TransitionCoroutine_d__5*>::get(), "MoveNext",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(
     &::HMUI::Screen__TransitionCoroutine_d__5::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b124;
+  constexpr static std::size_t addrs = 0x228b0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(
     &::HMUI::Screen__TransitionCoroutine_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x228b12c;
+  constexpr static std::size_t addrs = 0x228b0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::Screen__TransitionCoroutine_d__5::*)()>(
     &::HMUI::Screen__TransitionCoroutine_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228b164;
+  constexpr static std::size_t addrs = 0x228b124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::Screen::*)()>(&::HMUI::Screen::get_isBeingDestroyed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228aaa4;
+  constexpr static std::size_t addrs = 0x228aa64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Screen*>::get(), "get_isBeingDestroyed",
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Screen::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::HMUI::Screen::SetRootViewController)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2287cd4;
+  constexpr static std::size_t addrs = 0x2287c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::HMUI::Screen::*)(::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::HMUI::Screen::TransitionCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x228aaac;
+  constexpr static std::size_t addrs = 0x228aa6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Screen::*)()>(&::HMUI::Screen::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x228ab48;
+  constexpr static std::size_t addrs = 0x228ab08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Screen*>::get(), "OnDestroy",
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Screen::*)()>(&::HMUI::Screen::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228ab54;
+  constexpr static std::size_t addrs = 0x228ab14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Screen*>::get(), ".ctor",

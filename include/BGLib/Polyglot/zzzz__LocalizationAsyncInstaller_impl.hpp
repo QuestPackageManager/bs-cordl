@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)()>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22af324;
+  constexpr static std::size_t addrs = 0x22af2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LocalizationAsset* (
     ::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)(::UnityEngine::TextAsset*)>(&::BGLib::Polyglot::LocalizationAsyncInstaller___c::_LocalizationContentToAsset_b__6_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22af32c;
+  constexpr static std::size_t addrs = 0x22af2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22aef68;
+  constexpr static std::size_t addrs = 0x22aef28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22aefa8;
+  constexpr static std::size_t addrs = 0x22aef68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*)>(
         &::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationContentToAsset)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22aefc4;
+  constexpr static std::size_t addrs = 0x22aef84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x22af0d8;
+  constexpr static std::size_t addrs = 0x22af098;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)()>(
     &::BGLib::Polyglot::LocalizationAsyncInstaller::LoadLocalizationAssetsSync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22af224;
+  constexpr static std::size_t addrs = 0x22af1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22af280;
+  constexpr static std::size_t addrs = 0x22af240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), ".ctor",

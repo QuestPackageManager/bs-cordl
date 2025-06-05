@@ -114,13 +114,13 @@ public:
 
   constexpr void __cordl_internal_set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType value);
 
-  /// @brief Method .ctor, addr 0x2294ab0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2294a70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType appInitOverrideStartType);
 
-  /// @brief Method get_appInitOverrideStartType, addr 0x229bab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_appInitOverrideStartType, addr 0x229ba78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType get_appInitOverrideStartType();
 
-  /// @brief Method set_appInitOverrideStartType, addr 0x229bac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_appInitOverrideStartType, addr 0x229ba80, size 0x8, virtual false, abstract: false, final false
   inline void set_appInitOverrideStartType(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType value);
 
 protected:
@@ -162,18 +162,18 @@ public:
 
   using AppInitSceneSetupData = ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData;
 
-  /// @brief Method Init, addr 0x229b888, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x229b848, size 0x64, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InitAsAppStart, addr 0x229b9d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InitAsAppStart, addr 0x229b998, size 0x64, virtual false, abstract: false, final false
   inline void InitAsAppStart();
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method __Init, addr 0x229ba3c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method __Init, addr 0x229b9fc, size 0x6c, virtual false, abstract: false, final false
   inline void __Init(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType appInitOverrideStartType);
 
-  /// @brief Method .ctor, addr 0x229baa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229ba68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

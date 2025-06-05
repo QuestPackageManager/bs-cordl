@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_Queue::*)(int32_t)>(&::System::Net::TimerThread_Queue::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44ac3f0;
+  constexpr static std::size_t addrs = 0x44ac378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::TimerThread_Queue::*)()>(&::System::Net::TimerThread_Queue::get_Duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ac418;
+  constexpr static std::size_t addrs = 0x44ac3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_Queue*>::get(), "get_Duration",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_Timer::*)(int32_t)>(&::System::Net::TimerThread_Timer::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44ac420;
+  constexpr static std::size_t addrs = 0x44ac3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::TimerThread_Timer::*)()>(&::System::Net::TimerThread_Timer::get_StartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ac454;
+  constexpr static std::size_t addrs = 0x44ac3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_Timer*>::get(), "get_StartTime",
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::TimerThread_Timer::*)()>(&::System::Net::TimerThread_Timer::get_Expiration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ac45c;
+  constexpr static std::size_t addrs = 0x44ac3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_Timer*>::get(), "get_Expiration",
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_Timer::*)()>(&::System::Net::TimerThread_Timer::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ac468;
+  constexpr static std::size_t addrs = 0x44ac3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_Timer*>::get(), "Dispose",
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_Callback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Net::TimerThread_Callback::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4497da0;
+  constexpr static std::size_t addrs = 0x4497d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_Callback::*)(::System::Net::TimerThread_Timer*, int32_t, ::System::Object*)>(
     &::System::Net::TimerThread_Callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44ac474;
+  constexpr static std::size_t addrs = 0x44ac3fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_TimerQueue::*)(int32_t)>(&::System::Net::TimerThread_TimerQueue::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44ab790;
+  constexpr static std::size_t addrs = 0x44ab718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread_Timer* (
     ::System::Net::TimerThread_TimerQueue::*)(::System::Net::TimerThread_Callback*, ::System::Object*)>(&::System::Net::TimerThread_TimerQueue::CreateTimer)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x44ac4b8;
+  constexpr static std::size_t addrs = 0x44ac440;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::TimerThread_TimerQueue::*)(::ByRef<int32_t>)>(&::System::Net::TimerThread_TimerQueue::Fire)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44ac0fc;
+  constexpr static std::size_t addrs = 0x44ac084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_InfiniteTimerQueue::*)()>(&::System::Net::TimerThread_InfiniteTimerQueue::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44ab770;
+  constexpr static std::size_t addrs = 0x44ab6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_InfiniteTimerQueue*>::get(), ".ctor",
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread_Timer* (
     ::System::Net::TimerThread_InfiniteTimerQueue::*)(::System::Net::TimerThread_Callback*, ::System::Object*)>(&::System::Net::TimerThread_InfiniteTimerQueue::CreateTimer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44ac968;
+  constexpr static std::size_t addrs = 0x44ac8f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::TimerThread_TimerNode::*)(::System::Net::TimerThread_Callback*, ::System::Object*, int32_t, ::System::Object*)>(&::System::Net::TimerThread_TimerNode::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44ac698;
+  constexpr static std::size_t addrs = 0x44ac620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,7 +452,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44ac488;
+  constexpr static std::size_t addrs = 0x44ac410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_TimerNode*>::get(), ".ctor",
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::get_HasExpired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44ac9fc;
+  constexpr static std::size_t addrs = 0x44ac984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread_TimerNode* (::System::Net::TimerThread_TimerNode::*)()>(
     &::System::Net::TimerThread_TimerNode::get_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44aca0c;
+  constexpr static std::size_t addrs = 0x44ac994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_TimerNode*>::get(), "get_Next",
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_TimerNode::*)(::System::Net::TimerThread_TimerNode*)>(
     &::System::Net::TimerThread_TimerNode::set_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44aca14;
+  constexpr static std::size_t addrs = 0x44ac99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread_TimerNode* (::System::Net::TimerThread_TimerNode::*)()>(
     &::System::Net::TimerThread_TimerNode::get_Prev)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44aca1c;
+  constexpr static std::size_t addrs = 0x44ac9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_TimerNode*>::get(), "get_Prev",
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_TimerNode::*)(::System::Net::TimerThread_TimerNode*)>(
     &::System::Net::TimerThread_TimerNode::set_Prev)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44aca24;
+  constexpr static std::size_t addrs = 0x44ac9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::Cancel)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x44aca2c;
+  constexpr static std::size_t addrs = 0x44ac9b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::TimerThread_TimerNode::*)()>(&::System::Net::TimerThread_TimerNode::Fire)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x44ac6f0;
+  constexpr static std::size_t addrs = 0x44ac678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_TimerNode*>::get(), "Fire",
@@ -695,7 +695,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::TimerThread_InfiniteTimer::*)()>(&::System::Net::TimerThread_InfiniteTimer::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44ac9d0;
+  constexpr static std::size_t addrs = 0x44ac958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread_InfiniteTimer*>::get(), ".ctor",
@@ -708,7 +708,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::TimerThread_InfiniteTimer::*)()>(&::System::Net::TimerThread_InfiniteTimer::get_HasExpired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44acb4c;
+  constexpr static std::size_t addrs = 0x44acad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -722,7 +722,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::TimerThread_InfiniteTimer::*)()>(&::System::Net::TimerThread_InfiniteTimer::Cancel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44acb54;
+  constexpr static std::size_t addrs = 0x44acadc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -768,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread_Queue* (*)(int32_t)>(&::System::Net::TimerThread::CreateQueue)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x44a7100;
+  constexpr static std::size_t addrs = 0x44a7088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -782,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::TimerThread_Queue* (*)(int32_t)>(&::System::Net::TimerThread::GetOrCreateQueue)> {
   constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x449ba30;
+  constexpr static std::size_t addrs = 0x449b9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -796,7 +796,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::TimerThread::Prod)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x44ab820;
+  constexpr static std::size_t addrs = 0x44ab7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread*>::get(), "Prod",
@@ -809,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::TimerThread::ThreadProc)> {
   constexpr static std::size_t size = 0x7cc;
-  constexpr static std::size_t addrs = 0x44ab930;
+  constexpr static std::size_t addrs = 0x44ab8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread*>::get(), "ThreadProc",
@@ -822,7 +822,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::TimerThread::StopTimerThread)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x44ac2b0;
+  constexpr static std::size_t addrs = 0x44ac238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::TimerThread*>::get(), "StopTimerThread",
@@ -835,7 +835,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t, int32_t)>(&::System::Net::TimerThread::IsTickBetween)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44ac28c;
+  constexpr static std::size_t addrs = 0x44ac214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -850,7 +850,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::EventArgs*)>(&::System::Net::TimerThread::OnDomainUnload)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44ac32c;
+  constexpr static std::size_t addrs = 0x44ac2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

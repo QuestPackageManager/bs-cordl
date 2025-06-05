@@ -30,10 +30,10 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::Org::BouncyCastle::Asn1::BerSequence* Empty;
 
-  /// @brief Method Encode, addr 0x2635190, size 0x3f4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2635150, size 0x3f4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromVector, addr 0x2631804, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FromVector, addr 0x26317c4, size 0x88, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerSequence* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor();
@@ -44,16 +44,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
-  /// @brief Method .ctor, addr 0x26350d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635098, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x262f744, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262f704, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
-  /// @brief Method .ctor, addr 0x2635074, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635034, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor, addr 0x263512c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26350ec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
 
   static inline ::Org::BouncyCastle::Asn1::BerSequence* getStaticF_Empty();

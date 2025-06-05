@@ -32,7 +32,7 @@ public:
 
   static inline ::HMUI::DropdownWithTitleView* New_ctor();
 
-  /// @brief Method RefreshSize, addr 0x39f56c0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method RefreshSize, addr 0x39f5698, size 0x60, virtual true, abstract: false, final false
   inline void RefreshSize(::HMUI::TableView_IDataSource* dataSource);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__titleRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x39f5720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f56f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

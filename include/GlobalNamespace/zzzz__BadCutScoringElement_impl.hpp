@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BadCutScoringElement_Pool::*)()>(&::GlobalNamespace::BadCutScoringElement_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bef95c;
+  constexpr static std::size_t addrs = 0x3bef9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BadCutScoringElement_Pool*>::get(), ".ctor",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::get_cutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef930;
+  constexpr static std::size_t addrs = 0x3bef978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef938;
+  constexpr static std::size_t addrs = 0x3bef980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_multiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef940;
+  constexpr static std::size_t addrs = 0x3bef988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_executionOrder)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bef948;
+  constexpr static std::size_t addrs = 0x3bef990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BadCutScoringElement::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BadCutScoringElement::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3bef3a4;
+  constexpr static std::size_t addrs = 0x3bef3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef954;
+  constexpr static std::size_t addrs = 0x3bef99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BadCutScoringElement*>::get(), ".ctor",

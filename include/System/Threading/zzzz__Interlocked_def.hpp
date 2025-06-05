@@ -26,79 +26,79 @@ namespace System::Threading {
 class CORDL_TYPE Interlocked : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x3e5c210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3e5c198, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Add(::ByRef<int32_t> location1, int32_t value);
 
-  /// @brief Method Add, addr 0x3e5c214, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3e5c19c, size 0x4, virtual false, abstract: false, final false
   static inline int64_t Add(::ByRef<int64_t> location1, int64_t value);
 
-  /// @brief Method CompareExchange, addr 0x3e5c1f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c180, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr CompareExchange(::ByRef<::System::IntPtr> location1, ::System::IntPtr value, ::System::IntPtr comparand);
 
-  /// @brief Method CompareExchange, addr 0x3e5c188, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c110, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Object* CompareExchange(::ByRef<::System::Object*> location1, ::System::Object* value, ::System::Object* comparand);
 
   /// @brief Method CompareExchange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T CompareExchange(::ByRef<T> location1, T value, T comparand);
 
-  /// @brief Method CompareExchange, addr 0x3e5c1fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c184, size 0x4, virtual false, abstract: false, final false
   static inline double_t CompareExchange(::ByRef<double_t> location1, double_t value, double_t comparand);
 
-  /// @brief Method CompareExchange, addr 0x3e5c1b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c13c, size 0x4, virtual false, abstract: false, final false
   static inline float_t CompareExchange(::ByRef<float_t> location1, float_t value, float_t comparand);
 
-  /// @brief Method CompareExchange, addr 0x3e58aa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e58a2c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t CompareExchange(::ByRef<int32_t> location1, int32_t value, int32_t comparand);
 
-  /// @brief Method CompareExchange, addr 0x3e5c180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c108, size 0x4, virtual false, abstract: false, final false
   static inline int32_t CompareExchange(::ByRef<int32_t> location1, int32_t value, int32_t comparand, ::ByRef<bool> succeeded);
 
-  /// @brief Method CompareExchange, addr 0x3e5c1f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c17c, size 0x4, virtual false, abstract: false, final false
   static inline int64_t CompareExchange(::ByRef<int64_t> location1, int64_t value, int64_t comparand);
 
-  /// @brief Method CompareExchange, addr 0x3e5c184, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CompareExchange, addr 0x3e5c10c, size 0x4, virtual false, abstract: false, final false
   static inline void CompareExchange(::ByRef<::System::Object*> location1, ::ByRef<::System::Object*> value, ::ByRef<::System::Object*> comparand, ::ByRef<::System::Object*> result);
 
-  /// @brief Method Decrement, addr 0x3e5c1b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Decrement, addr 0x3e5c140, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Decrement(::ByRef<int32_t> location);
 
-  /// @brief Method Decrement, addr 0x3e5c1bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Decrement, addr 0x3e5c144, size 0x4, virtual false, abstract: false, final false
   static inline int64_t Decrement(::ByRef<int64_t> location);
 
-  /// @brief Method Exchange, addr 0x3e5c204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e5c18c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr Exchange(::ByRef<::System::IntPtr> location1, ::System::IntPtr value);
 
-  /// @brief Method Exchange, addr 0x3e5c1cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e5c154, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Object* Exchange(::ByRef<::System::Object*> location1, ::System::Object* value);
 
   /// @brief Method Exchange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Exchange(::ByRef<T> location1, T value);
 
-  /// @brief Method Exchange, addr 0x3e5c208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e5c190, size 0x4, virtual false, abstract: false, final false
   static inline double_t Exchange(::ByRef<double_t> location1, double_t value);
 
-  /// @brief Method Exchange, addr 0x3e5c1f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e5c178, size 0x4, virtual false, abstract: false, final false
   static inline float_t Exchange(::ByRef<float_t> location1, float_t value);
 
-  /// @brief Method Exchange, addr 0x3e5a054, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e59fdc, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Exchange(::ByRef<int32_t> location1, int32_t value);
 
-  /// @brief Method Exchange, addr 0x3e5c200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e5c188, size 0x4, virtual false, abstract: false, final false
   static inline int64_t Exchange(::ByRef<int64_t> location1, int64_t value);
 
-  /// @brief Method Exchange, addr 0x3e5c1c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Exchange, addr 0x3e5c150, size 0x4, virtual false, abstract: false, final false
   static inline void Exchange(::ByRef<::System::Object*> location1, ::ByRef<::System::Object*> value, ::ByRef<::System::Object*> result);
 
-  /// @brief Method Increment, addr 0x3e5c1c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x3e5c148, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Increment(::ByRef<int32_t> location);
 
-  /// @brief Method Increment, addr 0x3e5c1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x3e5c14c, size 0x4, virtual false, abstract: false, final false
   static inline int64_t Increment(::ByRef<int64_t> location);
 
-  /// @brief Method MemoryBarrier, addr 0x3e5c218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MemoryBarrier, addr 0x3e5c1a0, size 0x8, virtual false, abstract: false, final false
   static inline void MemoryBarrier();
 
-  /// @brief Method Read, addr 0x3e5c20c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3e5c194, size 0x4, virtual false, abstract: false, final false
   static inline int64_t Read(::ByRef<int64_t> location);
 
 protected:

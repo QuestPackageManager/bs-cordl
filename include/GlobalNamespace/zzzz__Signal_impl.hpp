@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Signal::*)(::System::Action*)>(&::GlobalNamespace::Signal::add__event)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39c48f4;
+  constexpr static std::size_t addrs = 0x39c48cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Signal::*)(::System::Action*)>(&::GlobalNamespace::Signal::remove__event)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39c4990;
+  constexpr static std::size_t addrs = 0x39c4968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Signal::*)()>(&::GlobalNamespace::Signal::Raise)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39c4a2c;
+  constexpr static std::size_t addrs = 0x39c4a04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Signal::*)(::System::Action*)>(&::GlobalNamespace::Signal::Subscribe)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39c4a48;
+  constexpr static std::size_t addrs = 0x39c4a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Signal::*)(::System::Action*)>(&::GlobalNamespace::Signal::Unsubscribe)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39c4a70;
+  constexpr static std::size_t addrs = 0x39c4a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Signal::*)()>(&::GlobalNamespace::Signal::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4a74;
+  constexpr static std::size_t addrs = 0x39c4a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Signal*>::get(), ".ctor",

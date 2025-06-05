@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_minIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e0d28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e0d00, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
                                                                       ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
       _elements;
 
-  /// @brief Method ColorWasSet, addr 0x39e0c5c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e0c34, size 0xac, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor();
@@ -147,7 +147,7 @@ public:
       ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*, ::Array<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId_Elements*>*>
           value);
 
-  /// @brief Method .ctor, addr 0x39e0d08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e0ce0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

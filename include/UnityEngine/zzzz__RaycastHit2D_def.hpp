@@ -37,19 +37,19 @@ public:
 
   __declspec(property(get = get_point)) ::UnityEngine::Vector2 point;
 
-  /// @brief Method get_collider, addr 0x48f566c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x48f55f4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x48f565c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x48f55e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x48f5664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x48f55ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_normal, addr 0x48f5654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x48f55dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_point, addr 0x48f564c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x48f55d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
   // Ctor Parameters []

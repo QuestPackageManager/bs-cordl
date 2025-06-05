@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (*)()>(
     &::Mono::Security::Cryptography::KeyBuilder::get_Rng)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c61d2c;
+  constexpr static std::size_t addrs = 0x3c61cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyBuilder*>::get(), "get_Rng",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int32_t)>(&::Mono::Security::Cryptography::KeyBuilder::Key)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c61d94;
+  constexpr static std::size_t addrs = 0x3c61d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int32_t)>(&::Mono::Security::Cryptography::KeyBuilder::IV)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c61e04;
+  constexpr static std::size_t addrs = 0x3c61d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

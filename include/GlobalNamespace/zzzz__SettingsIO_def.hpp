@@ -75,10 +75,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x226b938, size 0xf8c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226b8f8, size 0xf8c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x226c8c4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x226c884, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -167,10 +167,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x226c940, size 0x788, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226c900, size 0x788, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x226d0c8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x226d088, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -247,10 +247,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x226d130, size 0x1024, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x226d0f0, size 0x1024, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x226e154, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x226e114, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -320,22 +320,22 @@ public:
   /// @brief Field _lock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__lock, put = setStaticF__lock)) ::System::Threading::SemaphoreSlim* _lock;
 
-  /// @brief Method Decode, addr 0x226b508, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x226b4c8, size 0x118, virtual false, abstract: false, final false
   static inline bool Decode(::ByRef<::BeatSaber::Settings::Settings> settings, ::StringW text);
 
-  /// @brief Method Encode, addr 0x226b768, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x226b728, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW Encode(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method Load, addr 0x226af34, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x226aef4, size 0x440, virtual false, abstract: false, final false
   static inline ::BeatSaber::Settings::Settings Load(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
-  /// @brief Method LoadAsync, addr 0x226ae24, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x226ade4, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::Settings::Settings>* LoadAsync(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::HardwareCategory platform);
 
-  /// @brief Method SaveAsync, addr 0x226ad38, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x226acf8, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveAsync(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::Settings::Settings settings);
 
-  /// @brief Method WipeAsync, addr 0x226ac74, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method WipeAsync, addr 0x226ac34, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WipeAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
   static inline ::System::Threading::SemaphoreSlim* getStaticF__lock();

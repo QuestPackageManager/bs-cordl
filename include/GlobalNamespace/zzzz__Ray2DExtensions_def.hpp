@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Ray2DExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CircleIntersections, addr 0x22b52fc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CircleIntersections, addr 0x22b52bc, size 0x120, virtual false, abstract: false, final false
   static inline int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t, ::Array<float_t>*> distances);
 
 protected:

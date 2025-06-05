@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e0a2bc;
+  constexpr static std::size_t addrs = 0x3e0a244;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::Equals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0a318;
+  constexpr static std::size_t addrs = 0x3e0a2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralEquatable_Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e0a320;
+  constexpr static std::size_t addrs = 0x3e0a2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::System_IComparable_CompareTo)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e0a37c;
+  constexpr static std::size_t addrs = 0x3e0a304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::CompareTo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0a490;
+  constexpr static std::size_t addrs = 0x3e0a418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralComparable_CompareTo)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e0a498;
+  constexpr static std::size_t addrs = 0x3e0a420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0a5ac;
+  constexpr static std::size_t addrs = 0x3e0a534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralEquatable_GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0a5b4;
+  constexpr static std::size_t addrs = 0x3e0a53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_IValueTupleInternal_GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0a5bc;
+  constexpr static std::size_t addrs = 0x3e0a544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::ToString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3e0a5c4;
+  constexpr static std::size_t addrs = 0x3e0a54c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::System_IValueTupleInternal_ToStringEnd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3e0a604;
+  constexpr static std::size_t addrs = 0x3e0a58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::System_Runtime_CompilerServices_ITuple_get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0a644;
+  constexpr static std::size_t addrs = 0x3e0a5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e0a64c;
+  constexpr static std::size_t addrs = 0x3e0a5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3e0a6c8;
+  constexpr static std::size_t addrs = 0x3e0a650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e0a748;
+  constexpr static std::size_t addrs = 0x3e0a6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e0a7d8;
+  constexpr static std::size_t addrs = 0x3e0a760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3e0a870;
+  constexpr static std::size_t addrs = 0x3e0a7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e0a918;
+  constexpr static std::size_t addrs = 0x3e0a8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e0a9c8;
+  constexpr static std::size_t addrs = 0x3e0a950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -26,7 +26,7 @@ public:
   /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField)) ::Zenject::BindInfo* _BindInfo_k__BackingField;
 
-  /// @brief Method IfNotBound, addr 0x4b12dc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IfNotBound, addr 0x4b12d48, size 0x20, virtual false, abstract: false, final false
   inline void IfNotBound();
 
   static inline ::Zenject::IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo);
@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4b12d88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b12d10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_BindInfo, addr 0x4b12db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindInfo, addr 0x4b12d38, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::BindInfo* get_BindInfo();
 
-  /// @brief Method set_BindInfo, addr 0x4b12db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindInfo, addr 0x4b12d40, size 0x8, virtual false, abstract: false, final false
   inline void set_BindInfo(::Zenject::BindInfo* value);
 
 protected:

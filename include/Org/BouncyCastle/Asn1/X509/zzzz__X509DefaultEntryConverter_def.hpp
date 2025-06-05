@@ -25,12 +25,12 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE X509DefaultEntryConverter : public ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter {
 public:
   // Declarations
-  /// @brief Method GetConvertedValue, addr 0x26161d4, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method GetConvertedValue, addr 0x2616194, size 0x380, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2616554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

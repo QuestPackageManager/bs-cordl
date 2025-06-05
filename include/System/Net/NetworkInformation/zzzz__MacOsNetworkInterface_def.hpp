@@ -31,7 +31,7 @@ public:
   /// @brief Field _ifa_flags, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__ifa_flags, put = __cordl_internal_set__ifa_flags)) uint32_t _ifa_flags;
 
-  /// @brief Method GetIPProperties, addr 0x43ee4d4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x43ee45c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags);
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__ifa_flags(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x43ee4b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ee438, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags);
 
-  /// @brief Method get_OperationalStatus, addr 0x43ee540, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x43ee4c8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:

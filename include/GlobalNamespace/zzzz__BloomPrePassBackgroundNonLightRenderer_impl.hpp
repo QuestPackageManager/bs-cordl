@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7a8c;
+  constexpr static std::size_t addrs = 0x39d7a64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshFilter> (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::get_meshFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7a94;
+  constexpr static std::size_t addrs = 0x39d7a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::get_cachedTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7a9c;
+  constexpr static std::size_t addrs = 0x39d7a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)(bool)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::set_isPartOfInstancedRendering)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39d6f58;
+  constexpr static std::size_t addrs = 0x39d6f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::Awake)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39d7aa4;
+  constexpr static std::size_t addrs = 0x39d7a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::OnEnable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39d7adc;
+  constexpr static std::size_t addrs = 0x39d7ab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::OnValidate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39d7af0;
+  constexpr static std::size_t addrs = 0x39d7ac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::SetRenderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7b24;
+  constexpr static std::size_t addrs = 0x39d7afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::InitIfNeeded)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39d7b2c;
+  constexpr static std::size_t addrs = 0x39d7b04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39d7d08;
+  constexpr static std::size_t addrs = 0x39d7ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

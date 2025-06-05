@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234ecf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234ecb0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

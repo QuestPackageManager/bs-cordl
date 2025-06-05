@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebProxy::*)()>(&::System::Net::WebProxy::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44b8ae4;
+  constexpr static std::size_t addrs = 0x44b8a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebProxy*>::get(), ".ctor",
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebProxy::*)(::System::Uri*, bool, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Net::ICredentials*)>(&::System::Net::WebProxy::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44b8af8;
+  constexpr static std::size_t addrs = 0x44b8a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICredentials* (::System::Net::WebProxy::*)()>(&::System::Net::WebProxy::get_Credentials)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b8dd8;
+  constexpr static std::size_t addrs = 0x44b8d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebProxy*>::get(), "get_Credentials",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)()>(&::System::Net::WebProxy::get_UseDefaultCredentials)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x44b8de0;
+  constexpr static std::size_t addrs = 0x44b8d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebProxy*>::get(), "get_UseDefaultCredentials",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebProxy::*)(bool)>(&::System::Net::WebProxy::set_UseDefaultCredentials)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44b8e5c;
+  constexpr static std::size_t addrs = 0x44b8de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::WebProxy::*)(::System::Uri*)>(&::System::Net::WebProxy::GetProxy)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44b8ed0;
+  constexpr static std::size_t addrs = 0x44b8e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebProxy::*)(bool)>(&::System::Net::WebProxy::UpdateRegExList)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x44b8ba4;
+  constexpr static std::size_t addrs = 0x44b8b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*)>(&::System::Net::WebProxy::IsMatchInBypassList)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44b917c;
+  constexpr static std::size_t addrs = 0x44b9104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*)>(&::System::Net::WebProxy::IsLocal)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x44b9314;
+  constexpr static std::size_t addrs = 0x44b929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*)>(&::System::Net::WebProxy::IsLocalInProxyHash)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x44b9470;
+  constexpr static std::size_t addrs = 0x44b93f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*)>(&::System::Net::WebProxy::IsBypassed)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x44b9560;
+  constexpr static std::size_t addrs = 0x44b94e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*)>(&::System::Net::WebProxy::IsBypassedManual)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x44b90b4;
+  constexpr static std::size_t addrs = 0x44b903c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebProxy::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebProxy::_ctor)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x44b9684;
+  constexpr static std::size_t addrs = 0x44b960c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebProxy::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebProxy::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44b99e4;
+  constexpr static std::size_t addrs = 0x44b996c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebProxy::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebProxy::GetObjectData)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x44b99f0;
+  constexpr static std::size_t addrs = 0x44b9978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::AutoWebProxyScriptEngine* (::System::Net::WebProxy::*)()>(
     &::System::Net::WebProxy::get_ScriptEngine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b9b14;
+  constexpr static std::size_t addrs = 0x44b9a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebProxy*>::get(), "get_ScriptEngine",
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (*)()>(&::System::Net::WebProxy::CreateDefaultProxy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x44b9b1c;
+  constexpr static std::size_t addrs = 0x44b9aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebProxy*>::get(), "CreateDefaultProxy",
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebProxy::*)(bool)>(&::System::Net::WebProxy::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44b9b7c;
+  constexpr static std::size_t addrs = 0x44b9b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebProxy::*)()>(&::System::Net::WebProxy::UnsafeUpdateFromRegistry)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44b99d8;
+  constexpr static std::size_t addrs = 0x44b9960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebProxy*>::get(), "UnsafeUpdateFromRegistry",
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*, ::ByRef<::System::Uri*>)>(&::System::Net::WebProxy::GetProxyAuto)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44b9068;
+  constexpr static std::size_t addrs = 0x44b8ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebProxy::*)(::System::Uri*, ::ByRef<bool>)>(&::System::Net::WebProxy::IsBypassedAuto)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44b9640;
+  constexpr static std::size_t addrs = 0x44b95c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Collections::Generic::IEnumerable_1<::StringW>*, bool)>(
     &::System::Net::WebProxy::AreAllBypassed)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x44b9bb8;
+  constexpr static std::size_t addrs = 0x44b9b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (*)(::StringW)>(&::System::Net::WebProxy::ProxyUri)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44b9ebc;
+  constexpr static std::size_t addrs = 0x44b9e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

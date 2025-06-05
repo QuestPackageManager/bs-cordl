@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e6f374, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6f2fc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e6f344, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6f2cc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3e6f3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6f358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:

@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SubOvfInstruction_SubOvfUInt32* New_ctor();
 
-  /// @brief Method Run, addr 0x40f7f08, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f7e90, size 0x1cc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f7698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f7620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

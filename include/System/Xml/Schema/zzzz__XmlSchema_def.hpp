@@ -223,35 +223,35 @@ public:
   /// @brief Field version, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
-  /// @brief Method AddAnnotation, addr 0x42b9380, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42b9308, size 0x18, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
-  /// @brief Method Clone, addr 0x42b84ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x42b8474, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* Clone();
 
-  /// @brief Method CompileSchema, addr 0x42b7eec, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CompileSchema, addr 0x42b7e74, size 0x1dc, virtual false, abstract: false, final false
   inline bool CompileSchema(::System::Xml::Schema::XmlSchemaCollection* xsc, ::System::Xml::XmlResolver* resolver, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::StringW ns,
                             ::System::Xml::Schema::ValidationEventHandler* validationEventHandler, ::System::Xml::XmlNameTable* nameTable, bool CompileContentModel);
 
-  /// @brief Method CompileSchemaInSet, addr 0x42b80c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CompileSchemaInSet, addr 0x42b8050, size 0xb0, virtual false, abstract: false, final false
   inline void CompileSchemaInSet(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::ValidationEventHandler* eventHandler,
                                  ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings);
 
-  /// @brief Method DeepClone, addr 0x42b85ec, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method DeepClone, addr 0x42b8574, size 0x300, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* DeepClone();
 
-  /// @brief Method GetExternalSchemasList, addr 0x42b9460, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetExternalSchemasList, addr 0x42b93e8, size 0x1c0, virtual false, abstract: false, final false
   inline void GetExternalSchemasList(::System::Collections::IList* extList, ::System::Xml::Schema::XmlSchema* schema);
 
   static inline ::System::Xml::Schema::XmlSchema* New_ctor();
 
-  /// @brief Method Read, addr 0x42b7d38, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x42b7cc0, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchema* Read(::System::Xml::XmlReader* reader, ::System::Xml::Schema::ValidationEventHandler* validationEventHandler);
 
-  /// @brief Method SetIsCompiled, addr 0x42b936c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetIsCompiled, addr 0x42b92f4, size 0xc, virtual false, abstract: false, final false
   inline void SetIsCompiled(bool isCompiled);
 
-  /// @brief Method SetUnhandledAttributes, addr 0x42b9378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x42b9300, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_attributeFormDefault() const;
@@ -428,137 +428,137 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x42b7bc8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b7b50, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_globalIdCounter();
 
-  /// @brief Method get_AttributeFormDefault, addr 0x42b8178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeFormDefault, addr 0x42b8100, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_AttributeFormDefault();
 
-  /// @brief Method get_AttributeGroups, addr 0x42b8288, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeGroups, addr 0x42b8210, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeGroups();
 
-  /// @brief Method get_Attributes, addr 0x42b8224, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x42b81ac, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Attributes();
 
-  /// @brief Method get_BaseUri, addr 0x42b83dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseUri, addr 0x42b8364, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_BaseUri();
 
-  /// @brief Method get_BlockDefault, addr 0x42b8188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockDefault, addr 0x42b8110, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_BlockDefault();
 
-  /// @brief Method get_Document, addr 0x42b8478, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x42b8400, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_Document();
 
-  /// @brief Method get_ElementFormDefault, addr 0x42b81a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementFormDefault, addr 0x42b8130, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_ElementFormDefault();
 
-  /// @brief Method get_Elements, addr 0x42b8350, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Elements, addr 0x42b82d8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Elements();
 
-  /// @brief Method get_ErrorCount, addr 0x42b84dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorCount, addr 0x42b8464, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorCount();
 
-  /// @brief Method get_FinalDefault, addr 0x42b8198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalDefault, addr 0x42b8120, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDerivationMethod get_FinalDefault();
 
-  /// @brief Method get_Groups, addr 0x42b83c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x42b834c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Groups();
 
-  /// @brief Method get_Id, addr 0x42b83b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x42b833c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x42b935c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x42b92e4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_IdentityConstraints, addr 0x42b83d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IdentityConstraints, addr 0x42b835c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_IdentityConstraints();
 
-  /// @brief Method get_Ids, addr 0x42b8470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ids, addr 0x42b83f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_Ids();
 
-  /// @brief Method get_ImportedNamespaces, addr 0x42b93fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ImportedNamespaces, addr 0x42b9384, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ImportedNamespaces();
 
-  /// @brief Method get_ImportedSchemas, addr 0x42b9398, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ImportedSchemas, addr 0x42b9320, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ImportedSchemas();
 
-  /// @brief Method get_Includes, addr 0x42b81d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Includes, addr 0x42b8160, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Includes();
 
-  /// @brief Method get_IsChameleon, addr 0x42b845c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsChameleon, addr 0x42b83e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsChameleon();
 
-  /// @brief Method get_IsCompiledBySet, addr 0x42b81e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompiledBySet, addr 0x42b8170, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompiledBySet();
 
-  /// @brief Method get_IsPreprocessed, addr 0x42b81fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPreprocessed, addr 0x42b8184, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPreprocessed();
 
-  /// @brief Method get_IsRedefined, addr 0x42b8210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRedefined, addr 0x42b8198, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRedefined();
 
-  /// @brief Method get_Items, addr 0x42b81e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x42b8168, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
-  /// @brief Method get_Notations, addr 0x42b83cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Notations, addr 0x42b8354, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Notations();
 
-  /// @brief Method get_SchemaId, addr 0x42b83ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaId, addr 0x42b8374, size 0x70, virtual false, abstract: false, final false
   inline int32_t get_SchemaId();
 
-  /// @brief Method get_SchemaTypes, addr 0x42b82ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypes, addr 0x42b8274, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_SchemaTypes();
 
-  /// @brief Method get_TargetNamespace, addr 0x42b81b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetNamespace, addr 0x42b8140, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetNamespace();
 
-  /// @brief Method get_Version, addr 0x42b81c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x42b8150, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
   static inline void setStaticF_globalIdCounter(int32_t value);
 
-  /// @brief Method set_AttributeFormDefault, addr 0x42b8180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeFormDefault, addr 0x42b8108, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeFormDefault(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_BaseUri, addr 0x42b83e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseUri, addr 0x42b836c, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseUri(::System::Uri* value);
 
-  /// @brief Method set_BlockDefault, addr 0x42b8190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlockDefault, addr 0x42b8118, size 0x8, virtual false, abstract: false, final false
   inline void set_BlockDefault(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method set_ElementFormDefault, addr 0x42b81b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ElementFormDefault, addr 0x42b8138, size 0x8, virtual false, abstract: false, final false
   inline void set_ElementFormDefault(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_ErrorCount, addr 0x42b84e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorCount, addr 0x42b846c, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorCount(int32_t value);
 
-  /// @brief Method set_FinalDefault, addr 0x42b81a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FinalDefault, addr 0x42b8128, size 0x8, virtual false, abstract: false, final false
   inline void set_FinalDefault(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  /// @brief Method set_Id, addr 0x42b83bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x42b8344, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x42b9364, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x42b92ec, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_IsChameleon, addr 0x42b8464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsChameleon, addr 0x42b83ec, size 0xc, virtual false, abstract: false, final false
   inline void set_IsChameleon(bool value);
 
-  /// @brief Method set_IsCompiledBySet, addr 0x42b81f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompiledBySet, addr 0x42b8178, size 0xc, virtual false, abstract: false, final false
   inline void set_IsCompiledBySet(bool value);
 
-  /// @brief Method set_IsPreprocessed, addr 0x42b8204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsPreprocessed, addr 0x42b818c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsPreprocessed(bool value);
 
-  /// @brief Method set_IsRedefined, addr 0x42b8218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsRedefined, addr 0x42b81a0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsRedefined(bool value);
 
-  /// @brief Method set_TargetNamespace, addr 0x42b81c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetNamespace, addr 0x42b8148, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetNamespace(::StringW value);
 
-  /// @brief Method set_Version, addr 0x42b81d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x42b8158, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
 protected:

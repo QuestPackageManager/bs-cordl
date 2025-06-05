@@ -37,21 +37,21 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LeaveFaultInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40c5630, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c55b8, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c55d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c5560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedContinuations, addr 0x40c55e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedContinuations, addr 0x40c5570, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedContinuations();
 
-  /// @brief Method get_ConsumedStack, addr 0x40c55e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c5568, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c55f0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c5578, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::Instruction* value);

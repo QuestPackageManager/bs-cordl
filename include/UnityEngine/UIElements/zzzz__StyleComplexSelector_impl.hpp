@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::*)(
     ::UnityEngine::UIElements::PseudoStates, bool)>(&::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a8d1cc;
+  constexpr static std::size_t addrs = 0x4a8d154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector___c::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8d95c;
+  constexpr static std::size_t addrs = 0x4a8d8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector___c*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleComplexSelector___c::*)(::UnityEngine::UIElements::StyleSelector*)>(
     &::UnityEngine::UIElements::StyleComplexSelector___c::_ToString_b__24_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a8d964;
+  constexpr static std::size_t addrs = 0x4a8d8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleComplexSelector___c::*)(::UnityEngine::UIElements::StyleSelectorPart)>(
     &::UnityEngine::UIElements::StyleComplexSelector___c::_CalculateHashes_b__27_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a8d988;
+  constexpr static std::size_t addrs = 0x4a8d910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_specificity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8cc98;
+  constexpr static std::size_t addrs = 0x4a8cc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleRule* (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_rule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8cca0;
+  constexpr static std::size_t addrs = 0x4a8cc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::UnityEngine::UIElements::StyleRule*)>(
     &::UnityEngine::UIElements::StyleComplexSelector::set_rule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8cca8;
+  constexpr static std::size_t addrs = 0x4a8cc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_isSimple)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8ccb0;
+  constexpr static std::size_t addrs = 0x4a8cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> (
     ::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::get_selectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8ccb8;
+  constexpr static std::size_t addrs = 0x4a8cc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(
     ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*>)>(&::UnityEngine::UIElements::StyleComplexSelector::set_selectors)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8ccc0;
+  constexpr static std::size_t addrs = 0x4a8cc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a8cce8;
+  constexpr static std::size_t addrs = 0x4a8cc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8ccec;
+  constexpr static std::size_t addrs = 0x4a8cc74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::CachePseudoStateMasks)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x4a8cd14;
+  constexpr static std::size_t addrs = 0x4a8cc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::ToString)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4a8d1f4;
+  constexpr static std::size_t addrs = 0x4a8d17c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::UIElements::StyleSelectorPart, ::UnityEngine::UIElements::StyleSelectorPart)>(
     &::UnityEngine::UIElements::StyleComplexSelector::StyleSelectorPartCompare)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a8d364;
+  constexpr static std::size_t addrs = 0x4a8d2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::CalculateHashes)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x4a8d3b0;
+  constexpr static std::size_t addrs = 0x4a8d338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8d86c;
+  constexpr static std::size_t addrs = 0x4a8d7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleComplexSelector*>::get(), ".ctor",

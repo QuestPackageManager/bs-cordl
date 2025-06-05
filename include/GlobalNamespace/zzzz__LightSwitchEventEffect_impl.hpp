@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::get_lightsId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b95ba8;
+  constexpr static std::size_t addrs = 0x3b95b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightSwitchEventEffect*>::get(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BasicBeatmapEventType (::GlobalNamespace::LightSwitchEventEffect::*)()>(
     &::GlobalNamespace::LightSwitchEventEffect::get_eventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b95bb0;
+  constexpr static std::size_t addrs = 0x3b95b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightSwitchEventEffect*>::get(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::Start)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x3b95bb8;
+  constexpr static std::size_t addrs = 0x3b95b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightSwitchEventEffect*>::get(), "Start",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b95f48;
+  constexpr static std::size_t addrs = 0x3b95f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightSwitchEventEffect*>::get(), "OnDestroy",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightSwitchEventEffect::HandleColorChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x3b95ff8;
+  constexpr static std::size_t addrs = 0x3b95fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::GlobalNamespace::ColorBoostBeatmapEventData*)>(
     &::GlobalNamespace::LightSwitchEventEffect::HandleColorBoostBeatmapEvent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b966b8;
+  constexpr static std::size_t addrs = 0x3b96690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(&::GlobalNamespace::LightSwitchEventEffect::SetupTweenAndSaveOtherColors)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b95f0c;
+  constexpr static std::size_t addrs = 0x3b95ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightSwitchEventEffect::CheckNextEventForFade)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3b96368;
+  constexpr static std::size_t addrs = 0x3b96340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightSwitchEventEffect::*)(int32_t, bool)>(
     &::GlobalNamespace::LightSwitchEventEffect::GetNormalColor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b96588;
+  constexpr static std::size_t addrs = 0x3b96560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightSwitchEventEffect::*)(int32_t, bool)>(
     &::GlobalNamespace::LightSwitchEventEffect::GetHighlightColor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b96620;
+  constexpr static std::size_t addrs = 0x3b965f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::LightSwitchEventEffect::SetColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b96344;
+  constexpr static std::size_t addrs = 0x3b9631c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b96784;
+  constexpr static std::size_t addrs = 0x3b9675c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightSwitchEventEffect*>::get(), ".ctor",

@@ -62,30 +62,30 @@ public:
 
   __declspec(property(get = get_ValidRestrictionFlags)) ::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
 
-  /// @brief Method CreateValueConverter, addr 0x43aa438, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x43aa3c0, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_string* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x43aa4bc, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43aa444, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x43a5dc4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a5d4c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43aa444, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43aa3cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x43aa44c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x43aa3d4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TokenizedType, addr 0x43aa4ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x43aa434, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x43aa4a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43aa42c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x43aa4b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x43aa43c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
 protected:

@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__InsertionIndex_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x22a14bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a147c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InsertionIndex, addr 0x22a14ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InsertionIndex, addr 0x22a146c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
-  /// @brief Method set_InsertionIndex, addr 0x22a14b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InsertionIndex, addr 0x22a1474, size 0x8, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
 protected:

@@ -33,7 +33,7 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockColorSetter)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>
       _materialPropertyBlockColorSetter;
 
-  /// @brief Method ColorWasSet, addr 0x39e4164, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e413c, size 0x30, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
 
-  /// @brief Method .ctor, addr 0x39e4274, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e424c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

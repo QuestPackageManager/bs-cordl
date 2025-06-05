@@ -106,7 +106,7 @@ public:
 
   static inline ::ModestTree::TypeExtensions___c__DisplayClass35_0* New_ctor();
 
-  /// @brief Method <AllAttributes>b__0, addr 0x4af683c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__0, addr 0x4af67c4, size 0xd4, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__0(::System::Attribute* a);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_attributeTypes() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x4af653c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af64c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,7 +158,7 @@ public:
 
   static inline ::ModestTree::TypeExtensions___c__DisplayClass35_1* New_ctor();
 
-  /// @brief Method <AllAttributes>b__1, addr 0x4af6918, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__1, addr 0x4af68a0, size 0x78, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__1(::System::Type* x);
 
   constexpr ::System::Attribute* const& __cordl_internal_get_a() const;
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_a(::System::Attribute* value);
 
-  /// @brief Method .ctor, addr 0x4af6910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af6898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,7 +210,7 @@ public:
 
   static inline ::ModestTree::TypeExtensions___c__DisplayClass39_0* New_ctor();
 
-  /// @brief Method <AllAttributes>b__0, addr 0x4af6990, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__0, addr 0x4af6918, size 0xd4, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__0(::System::Attribute* a);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_attributeTypes() const;
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x4af6718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af66a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -262,7 +262,7 @@ public:
 
   static inline ::ModestTree::TypeExtensions___c__DisplayClass39_1* New_ctor();
 
-  /// @brief Method <AllAttributes>b__1, addr 0x4af6a6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <AllAttributes>b__1, addr 0x4af69f4, size 0x78, virtual false, abstract: false, final false
   inline bool _AllAttributes_b__1(::System::Type* x);
 
   constexpr ::System::Attribute* const& __cordl_internal_get_a() const;
@@ -271,7 +271,7 @@ public:
 
   constexpr void __cordl_internal_set_a(::System::Attribute* value);
 
-  /// @brief Method .ctor, addr 0x4af6a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af69ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -347,27 +347,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4af6b00, size 0x4e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4af6a88, size 0x4e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::ModestTree::TypeExtensions__GetParentTypes_d__28* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4af70d8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4af7060, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4af7090, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4af7018, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af7174, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4af70fc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af7098, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4af7020, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af70d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4af7058, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4af6ae4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4af6a6c, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -406,10 +406,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method <>m__Finally1, addr 0x4af6fe0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4af6f68, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4af61c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af614c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
@@ -510,11 +510,11 @@ public:
   /// @brief Field _isValueType, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__isValueType, put = setStaticF__isValueType)) ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _isValueType;
 
-  /// @brief Method AllAttributes, addr 0x4af63e8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AllAttributes, addr 0x4af6370, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::MemberInfo* provider,
                                                                                                    ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
-  /// @brief Method AllAttributes, addr 0x4af65c4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AllAttributes, addr 0x4af654c, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* AllAttributes(::System::Reflection::ParameterInfo* provider,
                                                                                                    ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
@@ -524,97 +524,97 @@ public:
   /// @brief Method AllAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* AllAttributes(::System::Reflection::ParameterInfo* provider);
 
-  /// @brief Method BaseType, addr 0x4af5e48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BaseType, addr 0x4af5dd0, size 0x20, virtual false, abstract: false, final false
   static inline ::System::Type* BaseType(::System::Type* type);
 
-  /// @brief Method Constructors, addr 0x4af5f4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Constructors, addr 0x4af5ed4, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> Constructors(::System::Type* type);
 
-  /// @brief Method ContainsGenericParameters, addr 0x4af5ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ContainsGenericParameters, addr 0x4af5e58, size 0x20, virtual false, abstract: false, final false
   static inline bool ContainsGenericParameters(::System::Type* type);
 
-  /// @brief Method DeclaredInstanceFields, addr 0x4af5e24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeclaredInstanceFields, addr 0x4af5dac, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> DeclaredInstanceFields(::System::Type* type);
 
-  /// @brief Method DeclaredInstanceMethods, addr 0x4af5ddc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeclaredInstanceMethods, addr 0x4af5d64, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> DeclaredInstanceMethods(::System::Type* type);
 
-  /// @brief Method DeclaredInstanceProperties, addr 0x4af5e00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DeclaredInstanceProperties, addr 0x4af5d88, size 0x24, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> DeclaredInstanceProperties(::System::Type* type);
 
   /// @brief Method DerivesFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DerivesFrom(::System::Type* a);
 
-  /// @brief Method DerivesFrom, addr 0x4af4080, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DerivesFrom, addr 0x4af4008, size 0xb0, virtual false, abstract: false, final false
   static inline bool DerivesFrom(::System::Type* a, ::System::Type* b);
 
   /// @brief Method DerivesFromOrEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DerivesFromOrEqual(::System::Type* a);
 
-  /// @brief Method DerivesFromOrEqual, addr 0x4af42e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DerivesFromOrEqual, addr 0x4af426c, size 0xa0, virtual false, abstract: false, final false
   static inline bool DerivesFromOrEqual(::System::Type* a, ::System::Type* b);
 
-  /// @brief Method GenericArguments, addr 0x4af5f2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GenericArguments, addr 0x4af5eb4, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GenericArguments(::System::Type* type);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetAttribute(::System::Reflection::MemberInfo* provider);
 
-  /// @brief Method GetDefaultValue, addr 0x4af5f70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValue, addr 0x4af5ef8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* GetDefaultValue(::System::Type* type);
 
-  /// @brief Method GetParentTypes, addr 0x4af6154, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetParentTypes, addr 0x4af60dc, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetParentTypes(::System::Type* type);
 
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAttribute(::System::Reflection::MemberInfo* provider);
 
-  /// @brief Method HasAttribute, addr 0x4af6368, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasAttribute, addr 0x4af62f0, size 0x80, virtual false, abstract: false, final false
   static inline bool HasAttribute(::System::Reflection::MemberInfo* provider, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider);
 
-  /// @brief Method HasAttribute, addr 0x4af6544, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HasAttribute, addr 0x4af64cc, size 0x80, virtual false, abstract: false, final false
   static inline bool HasAttribute(::System::Reflection::ParameterInfo* provider, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes);
 
-  /// @brief Method Interfaces, addr 0x4af5bc0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Interfaces, addr 0x4af5b48, size 0x100, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> Interfaces(::System::Type* type);
 
-  /// @brief Method IsAbstract, addr 0x4af5ef0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsAbstract, addr 0x4af5e78, size 0x14, virtual false, abstract: false, final false
   static inline bool IsAbstract(::System::Type* type);
 
-  /// @brief Method IsAssignableToGenericType, addr 0x4af59e8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableToGenericType, addr 0x4af5970, size 0x1d8, virtual false, abstract: false, final false
   static inline bool IsAssignableToGenericType(::System::Type* givenType, ::System::Type* genericType);
 
-  /// @brief Method IsClosedGenericType, addr 0x4af5fe4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsClosedGenericType, addr 0x4af5f6c, size 0x170, virtual false, abstract: false, final false
   static inline bool IsClosedGenericType(::System::Type* type);
 
-  /// @brief Method IsEnum, addr 0x4af5cc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEnum, addr 0x4af5c48, size 0x20, virtual false, abstract: false, final false
   static inline bool IsEnum(::System::Type* type);
 
-  /// @brief Method IsGenericType, addr 0x4af5e68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsGenericType, addr 0x4af5df0, size 0x20, virtual false, abstract: false, final false
   static inline bool IsGenericType(::System::Type* type);
 
-  /// @brief Method IsGenericTypeDefinition, addr 0x4af5e88, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsGenericTypeDefinition, addr 0x4af5e10, size 0x20, virtual false, abstract: false, final false
   static inline bool IsGenericTypeDefinition(::System::Type* type);
 
-  /// @brief Method IsInterface, addr 0x4af5ebc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsInterface, addr 0x4af5e44, size 0x14, virtual false, abstract: false, final false
   static inline bool IsInterface(::System::Type* type);
 
-  /// @brief Method IsOpenGenericType, addr 0x4af61f8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsOpenGenericType, addr 0x4af6180, size 0x170, virtual false, abstract: false, final false
   static inline bool IsOpenGenericType(::System::Type* type);
 
-  /// @brief Method IsPrimitive, addr 0x4af5ea8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x4af5e30, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* type);
 
-  /// @brief Method IsSealed, addr 0x4af5f04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSealed, addr 0x4af5e8c, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSealed(::System::Type* type);
 
-  /// @brief Method IsValueType, addr 0x4af5ce0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsValueType, addr 0x4af5c68, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsValueType(::System::Type* type);
 
-  /// @brief Method Method, addr 0x4af5f18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Method, addr 0x4af5ea0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* Method(::System::Delegate* del);
 
   /// @brief Method TryGetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

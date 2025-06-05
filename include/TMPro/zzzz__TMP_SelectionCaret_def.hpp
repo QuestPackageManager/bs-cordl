@@ -21,15 +21,15 @@ namespace TMPro {
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
-  /// @brief Method Cull, addr 0x47fe28c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x47fe214, size 0xd0, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
   static inline ::TMPro::TMP_SelectionCaret* New_ctor();
 
-  /// @brief Method UpdateGeometry, addr 0x47fe35c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x47fe2e4, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method .ctor, addr 0x47fe360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fe2e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

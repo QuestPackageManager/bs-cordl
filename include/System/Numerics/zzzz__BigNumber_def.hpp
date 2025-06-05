@@ -49,7 +49,7 @@ namespace System::Numerics {
 struct CORDL_TYPE BigNumber_BigNumberBuffer {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x422f6ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x422f674, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigNumber_BigNumberBuffer Create();
 
   // Ctor Parameters []
@@ -101,37 +101,37 @@ public:
   // Declarations
   using BigNumberBuffer = ::System::Numerics::BigNumber_BigNumberBuffer;
 
-  /// @brief Method FormatBigInteger, addr 0x4230708, size 0x9e0, virtual false, abstract: false, final false
+  /// @brief Method FormatBigInteger, addr 0x4230690, size 0x9e0, virtual false, abstract: false, final false
   static inline ::StringW FormatBigInteger(bool targetSpan, ::System::Numerics::BigInteger value, ::StringW formatString, ::System::ReadOnlySpan_1<char16_t> formatSpan,
                                            ::System::Globalization::NumberFormatInfo* info, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::ByRef<bool> spanSuccess);
 
-  /// @brief Method FormatBigInteger, addr 0x422bd7c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method FormatBigInteger, addr 0x422bd04, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW FormatBigInteger(::System::Numerics::BigInteger value, ::StringW format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatBigIntegerToHex, addr 0x422fdd0, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method FormatBigIntegerToHex, addr 0x422fd58, size 0x5b0, virtual false, abstract: false, final false
   static inline ::StringW FormatBigIntegerToHex(bool targetSpan, ::System::Numerics::BigInteger value, char16_t format, int32_t digits, ::System::Globalization::NumberFormatInfo* info,
                                                 ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::ByRef<bool> spanSuccess);
 
-  /// @brief Method HexNumberToBigInteger, addr 0x422f83c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method HexNumberToBigInteger, addr 0x422f7c4, size 0x1a4, virtual false, abstract: false, final false
   static inline bool HexNumberToBigInteger(::ByRef<::System::Numerics::BigNumber_BigNumberBuffer> number, ::ByRef<::System::Numerics::BigInteger> value);
 
-  /// @brief Method NumberToBigInteger, addr 0x422f9e0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method NumberToBigInteger, addr 0x422f968, size 0x1c8, virtual false, abstract: false, final false
   static inline bool NumberToBigInteger(::ByRef<::System::Numerics::BigNumber_BigNumberBuffer> number, ::ByRef<::System::Numerics::BigInteger> value);
 
-  /// @brief Method ParseBigInteger, addr 0x422b010, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseBigInteger, addr 0x422af98, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger ParseBigInteger(::StringW value, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseBigInteger, addr 0x422fba8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ParseBigInteger, addr 0x422fb30, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger ParseBigInteger(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseFormatSpecifier, addr 0x422fce0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ParseFormatSpecifier, addr 0x422fc68, size 0xf0, virtual false, abstract: false, final false
   static inline char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ::ByRef<int32_t> digits);
 
-  /// @brief Method TryParseBigInteger, addr 0x422f5a4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method TryParseBigInteger, addr 0x422f52c, size 0x148, virtual false, abstract: false, final false
   static inline bool TryParseBigInteger(::System::ReadOnlySpan_1<char16_t> value, ::System::Globalization::NumberStyles style, ::System::Globalization::NumberFormatInfo* info,
                                         ::ByRef<::System::Numerics::BigInteger> result);
 
-  /// @brief Method TryValidateParseStyleInteger, addr 0x422f4b4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryValidateParseStyleInteger, addr 0x422f43c, size 0xf0, virtual false, abstract: false, final false
   static inline bool TryValidateParseStyleInteger(::System::Globalization::NumberStyles style, ::ByRef<::System::ArgumentException*> e);
 
 protected:

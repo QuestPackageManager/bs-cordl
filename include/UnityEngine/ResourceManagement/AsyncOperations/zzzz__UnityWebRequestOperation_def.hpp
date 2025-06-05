@@ -27,12 +27,12 @@ public:
   /// @brief Field m_UWR, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UWR, put = __cordl_internal_set_m_UWR)) ::UnityEngine::Networking::UnityWebRequest* m_UWR;
 
-  /// @brief Method Execute, addr 0x47a6614, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x47a659c, size 0x9c, virtual true, abstract: false, final false
   inline void Execute();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::UnityWebRequestOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
-  /// @brief Method <Execute>b__2_0, addr 0x47a66b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__2_0, addr 0x47a6638, size 0x94, virtual false, abstract: false, final false
   inline void _Execute_b__2_0(::UnityEngine::AsyncOperation* request);
 
   constexpr ::UnityEngine::Networking::UnityWebRequest* const& __cordl_internal_get_m_UWR() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UWR(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x47a65b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a6540, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* webRequest);
 
 protected:

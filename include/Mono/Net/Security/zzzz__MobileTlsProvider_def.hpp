@@ -55,7 +55,7 @@ public:
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ::ByRef<::System::Net::Security::SslPolicyErrors> errors, ::ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x410fffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410ff84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

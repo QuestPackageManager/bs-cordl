@@ -29,36 +29,36 @@ namespace OVR::OpenVR {
 class CORDL_TYPE OpenVRInterop : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGenericInterface, addr 0x4076f60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetGenericInterface, addr 0x4076ee8, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetGenericInterface(::ByRefConst<::StringW> pchInterfaceVersion, ::ByRef<::OVR::OpenVR::EVRInitError> peError);
 
-  /// @brief Method GetInitToken, addr 0x4077094, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInitToken, addr 0x407701c, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t GetInitToken();
 
-  /// @brief Method GetStringForHmdError, addr 0x4076ee4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringForHmdError, addr 0x4076e6c, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
 
-  /// @brief Method InitInternal, addr 0x4076c6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitInternal, addr 0x4076bf4, size 0x84, virtual false, abstract: false, final false
   static inline uint32_t InitInternal(::ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
 
-  /// @brief Method InitInternal2, addr 0x4076cf0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitInternal2, addr 0x4076c78, size 0xb0, virtual false, abstract: false, final false
   static inline uint32_t InitInternal2(::ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ::ByRefConst<::StringW> pStartupInfo);
 
-  /// @brief Method IsHmdPresent, addr 0x4076e04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsHmdPresent, addr 0x4076d8c, size 0x70, virtual false, abstract: false, final false
   static inline bool IsHmdPresent();
 
-  /// @brief Method IsInterfaceVersionValid, addr 0x4076ffc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsInterfaceVersionValid, addr 0x4076f84, size 0x98, virtual false, abstract: false, final false
   static inline bool IsInterfaceVersionValid(::ByRefConst<::StringW> pchInterfaceVersion);
 
-  /// @brief Method IsRuntimeInstalled, addr 0x4076e74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsRuntimeInstalled, addr 0x4076dfc, size 0x70, virtual false, abstract: false, final false
   static inline bool IsRuntimeInstalled();
 
   static inline ::OVR::OpenVR::OpenVRInterop* New_ctor();
 
-  /// @brief Method ShutdownInternal, addr 0x4076da0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShutdownInternal, addr 0x4076d28, size 0x64, virtual false, abstract: false, final false
   static inline void ShutdownInternal();
 
-  /// @brief Method .ctor, addr 0x40770fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4077084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

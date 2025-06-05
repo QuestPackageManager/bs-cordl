@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithHttpTransferUpdate::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithHttpTransferUpdate::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7ced4;
+  constexpr static std::size_t addrs = 0x3f7ce5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::HttpTransferUpdate* (::Oculus::Platform::MessageWithHttpTransferUpdate::*)()>(
     &::Oculus::Platform::MessageWithHttpTransferUpdate::GetHttpTransferUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f81424;
+  constexpr static std::size_t addrs = 0x3f813ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::HttpTransferUpdate* (
     ::Oculus::Platform::MessageWithHttpTransferUpdate::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithHttpTransferUpdate::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f81460;
+  constexpr static std::size_t addrs = 0x3f813e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

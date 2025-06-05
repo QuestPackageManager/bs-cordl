@@ -24,18 +24,18 @@ namespace UnityEngine {
 class CORDL_TYPE GridLayout : public ::UnityEngine::Behaviour {
 public:
   // Declarations
-  /// @brief Method CellToLocal, addr 0x48d4080, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CellToLocal, addr 0x48d4008, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 CellToLocal(::UnityEngine::Vector3Int cellPosition);
 
-  /// @brief Method CellToLocal_Injected, addr 0x48d40e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CellToLocal_Injected, addr 0x48d4070, size 0x54, virtual false, abstract: false, final false
   inline void CellToLocal_Injected(::ByRef<::UnityEngine::Vector3Int> cellPosition, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method DoNothing, addr 0x48d413c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoNothing, addr 0x48d40c4, size 0x4, virtual false, abstract: false, final false
   inline void DoNothing();
 
   static inline ::UnityEngine::GridLayout* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48d4078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d4000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

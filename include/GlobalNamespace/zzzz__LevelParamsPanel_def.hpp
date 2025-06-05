@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b05864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0583c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bombsCount, addr 0x3b0581c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bombsCount, addr 0x3b057f4, size 0x48, virtual false, abstract: false, final false
   inline void set_bombsCount(int32_t value);
 
-  /// @brief Method set_notesCount, addr 0x3b0578c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_notesCount, addr 0x3b05764, size 0x48, virtual false, abstract: false, final false
   inline void set_notesCount(int32_t value);
 
-  /// @brief Method set_notesPerSecond, addr 0x3b0570c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_notesPerSecond, addr 0x3b056e4, size 0x80, virtual false, abstract: false, final false
   inline void set_notesPerSecond(float_t value);
 
-  /// @brief Method set_obstaclesCount, addr 0x3b057d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesCount, addr 0x3b057ac, size 0x48, virtual false, abstract: false, final false
   inline void set_obstaclesCount(int32_t value);
 
 protected:

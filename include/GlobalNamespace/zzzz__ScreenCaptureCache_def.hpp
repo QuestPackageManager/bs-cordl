@@ -99,12 +99,12 @@ public:
                       put =
                           __cordl_internal_set__cache)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* _cache;
 
-  /// @brief Method GetLastScreenshot, addr 0x40866e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLastScreenshot, addr 0x4086668, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetLastScreenshot(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType);
 
   static inline ::GlobalNamespace::ScreenCaptureCache* New_ctor();
 
-  /// @brief Method StoreScreenshot, addr 0x40863b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StoreScreenshot, addr 0x4086338, size 0xac, virtual false, abstract: false, final false
   inline void StoreScreenshot(::GlobalNamespace::ScreenCaptureCache_ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* const& __cordl_internal_get__cache() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ScreenCaptureCache_ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x4086758, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40866e0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

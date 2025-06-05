@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9690c, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a968e4, size 0x1b8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_ObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_ObjectInfo* New_ctor(::HoudiniEngineUnity::HAPI_ObjectInfo self);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_ObjectInfo value);
 
-  /// @brief Method .ctor, addr 0x3a968d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a968a8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_ObjectInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ObjectInfo*>"

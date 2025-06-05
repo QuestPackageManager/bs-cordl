@@ -39,16 +39,16 @@ public:
 
   constexpr void __cordl_internal_set__filter(::GlobalNamespace::BeatmapLevelPromoIdFilter value);
 
-  /// @brief Method .ctor, addr 0x26f9b30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f9b10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPromoIdFilter filter);
 
-  /// @brief Method get_allowEmpty, addr 0x26f9b24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmpty, addr 0x26f9b04, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowEmpty();
 
-  /// @brief Method get_allowLevels, addr 0x26f9b18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowLevels, addr 0x26f9af8, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowLevels();
 
-  /// @brief Method get_allowPacks, addr 0x26f9b0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allowPacks, addr 0x26f9aec, size 0xc, virtual false, abstract: false, final false
   inline bool get_allowPacks();
 
 protected:

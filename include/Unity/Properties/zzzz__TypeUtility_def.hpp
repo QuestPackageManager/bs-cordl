@@ -270,15 +270,15 @@ public:
   /// @brief Convert operator to "::Unity::Properties::TypeUtility_ITypeConstructor"
   constexpr operator ::Unity::Properties::TypeUtility_ITypeConstructor*() noexcept;
 
-  /// @brief Method Instantiate, addr 0x49154cc, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x4915454, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* Instantiate();
 
   static inline ::Unity::Properties::TypeUtility_NonConstructable* New_ctor();
 
-  /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x49154c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Unity.Properties.TypeUtility.ITypeConstructor.get_CanBeInstantiated, addr 0x491544c, size 0x8, virtual true, abstract: false, final true
   inline bool Unity_Properties_TypeUtility_ITypeConstructor_get_CanBeInstantiated();
 
-  /// @brief Method .ctor, addr 0x49150a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4915028, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::TypeUtility_ITypeConstructor"
@@ -363,7 +363,7 @@ public:
 
   constexpr void __cordl_internal_set_TypeConstructor(::Unity::Properties::TypeUtility_ITypeConstructor* value);
 
-  /// @brief Method .ctor, addr 0x4915098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4915020, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Unity::Properties::ITypeVisitor"
@@ -409,16 +409,16 @@ public:
 
   static inline ::Unity::Properties::TypeUtility___c* New_ctor();
 
-  /// @brief Method <.cctor>b__11_0, addr 0x491557c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_0, addr 0x4915504, size 0x54, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* __cctor_b__11_0();
 
-  /// @brief Method <.cctor>b__11_1, addr 0x49155d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_1, addr 0x4915558, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__11_1(::System::Text::StringBuilder* sb);
 
-  /// @brief Method <.cctor>b__11_2, addr 0x49155e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__11_2, addr 0x4915570, size 0x48, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__11_2();
 
-  /// @brief Method .ctor, addr 0x4915574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49154fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::TypeUtility___c* getStaticF___9();
@@ -490,37 +490,37 @@ public:
   /// @brief Method CanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool CanBeInstantiated();
 
-  /// @brief Method CanBeInstantiated, addr 0x4915160, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CanBeInstantiated, addr 0x49150e8, size 0xcc, virtual false, abstract: false, final false
   static inline bool CanBeInstantiated(::System::Type* type);
 
-  /// @brief Method CheckCanBeInstantiated, addr 0x4915394, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CheckCanBeInstantiated, addr 0x491531c, size 0x130, virtual false, abstract: false, final false
   static inline void CheckCanBeInstantiated(::Unity::Properties::TypeUtility_ITypeConstructor* constructor, ::System::Type* type);
 
   /// @brief Method CheckCanBeInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CheckCanBeInstantiated(::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* constructor);
 
-  /// @brief Method CheckIsAssignableFrom, addr 0x491522c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CheckIsAssignableFrom, addr 0x49151b4, size 0x168, virtual false, abstract: false, final false
   static inline void CheckIsAssignableFrom(::System::Type* type, ::System::Type* derivedType);
 
-  /// @brief Method CreateTypeConstructor, addr 0x4914b9c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateTypeConstructor, addr 0x4914b24, size 0x278, virtual false, abstract: false, final false
   static inline ::Unity::Properties::TypeUtility_ITypeConstructor* CreateTypeConstructor(::System::Type* type);
 
   /// @brief Method CreateTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* CreateTypeConstructor();
 
-  /// @brief Method GetRootType, addr 0x4914a68, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetRootType, addr 0x49149f0, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Type* GetRootType(::System::Type* type);
 
-  /// @brief Method GetTypeConstructor, addr 0x49150a8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeConstructor, addr 0x4915030, size 0xb8, virtual false, abstract: false, final false
   static inline ::Unity::Properties::TypeUtility_ITypeConstructor* GetTypeConstructor(::System::Type* type);
 
   /// @brief Method GetTypeConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Properties::TypeUtility_ITypeConstructor_1<T>* GetTypeConstructor();
 
-  /// @brief Method GetTypeDisplayName, addr 0x4913fac, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDisplayName, addr 0x4913f34, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW GetTypeDisplayName(::System::Type* type);
 
-  /// @brief Method GetTypeDisplayName, addr 0x49140c4, size 0x9a4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeDisplayName, addr 0x491404c, size 0x9a4, virtual false, abstract: false, final false
   static inline ::StringW GetTypeDisplayName(::System::Type* type, ::System::Collections::Generic::IReadOnlyList_1<::System::Type*>* args, ::ByRef<int32_t> argIndex);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

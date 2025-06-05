@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method get_Value, addr 0x4235bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4235b40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:

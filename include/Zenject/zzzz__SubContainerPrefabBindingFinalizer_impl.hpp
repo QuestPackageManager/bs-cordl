@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_0::*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1f454;
+  constexpr static std::size_t addrs = 0x4b1f3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::IProvider* (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_0::*)(::Zenject::DiContainer*, ::System::Type*)>(
         &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_0::_FinalizeBindingConcrete_b__0)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4b1f474;
+  constexpr static std::size_t addrs = 0x4b1f3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b1f524;
+  constexpr static std::size_t addrs = 0x4b1f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b1f578;
+  constexpr static std::size_t addrs = 0x4b1f500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_1::*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1f45c;
+  constexpr static std::size_t addrs = 0x4b1f3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::IProvider* (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_1::*)(::Zenject::DiContainer*, ::System::Type*)>(
         &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_1::_FinalizeBindingConcrete_b__1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4b1f730;
+  constexpr static std::size_t addrs = 0x4b1f6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_1::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b1f7c4;
+  constexpr static std::size_t addrs = 0x4b1f74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass5_1::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b1f818;
+  constexpr static std::size_t addrs = 0x4b1f7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_0::*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1f464;
+  constexpr static std::size_t addrs = 0x4b1f3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::IProvider* (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_0::*)(::Zenject::DiContainer*, ::System::Type*)>(
         &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_0::_FinalizeBindingSelf_b__0)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4b1f9d0;
+  constexpr static std::size_t addrs = 0x4b1f958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b1fa80;
+  constexpr static std::size_t addrs = 0x4b1fa08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b1fad4;
+  constexpr static std::size_t addrs = 0x4b1fa5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_1::*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1f46c;
+  constexpr static std::size_t addrs = 0x4b1f3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::IProvider* (::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_1::*)(::Zenject::DiContainer*, ::System::Type*)>(
         &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_1::_FinalizeBindingSelf_b__1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4b1fc8c;
+  constexpr static std::size_t addrs = 0x4b1fc14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_1::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b1fd20;
+  constexpr static std::size_t addrs = 0x4b1fca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::SubContainerPrefabBindingFinalizer___c__DisplayClass6_1::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b1fd74;
+  constexpr static std::size_t addrs = 0x4b1fcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer::*)(
     ::Zenject::BindInfo*, ::System::Object*, bool, ::System::Func_2<::Zenject::DiContainer*, ::Zenject::ISubContainerCreator*>*)>(&::Zenject::SubContainerPrefabBindingFinalizer::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4b13700;
+  constexpr static std::size_t addrs = 0x4b13688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer::*)(::Zenject::DiContainer*)>(
     &::Zenject::SubContainerPrefabBindingFinalizer::OnFinalizeBinding)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4b1f028;
+  constexpr static std::size_t addrs = 0x4b1efb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer::*)(
     ::Zenject::DiContainer*, ::System::Collections::Generic::List_1<::System::Type*>*)>(&::Zenject::SubContainerPrefabBindingFinalizer::FinalizeBindingConcrete)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4b1f27c;
+  constexpr static std::size_t addrs = 0x4b1f204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerPrefabBindingFinalizer::*)(::Zenject::DiContainer*)>(
     &::Zenject::SubContainerPrefabBindingFinalizer::FinalizeBindingSelf)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x4b1f0ac;
+  constexpr static std::size_t addrs = 0x4b1f034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

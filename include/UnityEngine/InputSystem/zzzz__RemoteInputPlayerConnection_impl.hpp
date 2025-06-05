@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c7494;
+  constexpr static std::size_t addrs = 0x45c741c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection_Subscriber::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c6dc4;
+  constexpr static std::size_t addrs = 0x45c6d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection*, bool)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::Bind)> {
   constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x45c6498;
+  constexpr static std::size_t addrs = 0x45c6420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IDisposable* (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>*)>(
         &::UnityEngine::InputSystem::RemoteInputPlayerConnection::Subscribe)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x45c6c28;
+  constexpr static std::size_t addrs = 0x45c6bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(int32_t)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnConnected)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x45c6b4c;
+  constexpr static std::size_t addrs = 0x45c6ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(int32_t)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnDisconnected)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x45c6ed8;
+  constexpr static std::size_t addrs = 0x45c6e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnNewDevice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6fa8;
+  constexpr static std::size_t addrs = 0x45c6f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnNewLayout)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6fb4;
+  constexpr static std::size_t addrs = 0x45c6f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnNewEvents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6fc0;
+  constexpr static std::size_t addrs = 0x45c6f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnRemoveDevice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6fcc;
+  constexpr static std::size_t addrs = 0x45c6f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnChangeUsages)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6fd8;
+  constexpr static std::size_t addrs = 0x45c6f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnStartSending)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6fe4;
+  constexpr static std::size_t addrs = 0x45c6f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(
     ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&::UnityEngine::InputSystem::RemoteInputPlayerConnection::OnStopSending)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45c6ff0;
+  constexpr static std::size_t addrs = 0x45c6f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,7 +268,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputRemoting_MessageType, ::UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::SendToSubscribers)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x45c6dcc;
+  constexpr static std::size_t addrs = 0x45c6d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::UnityEngine::InputSystem::InputRemoting_Message)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x45c6ffc;
+  constexpr static std::size_t addrs = 0x45c6f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)(::System::Exception*)>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45c72a0;
+  constexpr static std::size_t addrs = 0x45c7228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45c72a4;
+  constexpr static std::size_t addrs = 0x45c722c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::RemoteInputPlayerConnection*>::get(),
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::RemoteInputPlayerConnection::*)()>(
     &::UnityEngine::InputSystem::RemoteInputPlayerConnection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c72a8;
+  constexpr static std::size_t addrs = 0x45c7230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::RemoteInputPlayerConnection*>::get(),

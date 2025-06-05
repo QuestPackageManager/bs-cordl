@@ -152,10 +152,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
-  /// @brief Method ClearHighlight, addr 0x39fcd84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearHighlight, addr 0x39fcd5c, size 0x10, virtual false, abstract: false, final false
   inline void ClearHighlight(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange, addr 0x39fcd98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x39fcd70, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   /// @brief Method InternalToggle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -163,31 +163,31 @@ public:
 
   static inline ::HMUI::SelectableCell* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39fcc54, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39fcc2c, size 0x28, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerClick, addr 0x39fcd9c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x39fcd74, size 0xe0, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x39fcf28, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x39fcf00, size 0x34, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x39fcf5c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x39fcf34, size 0x10, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x39fce7c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x39fce54, size 0xac, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method SelectionDidChange, addr 0x39fcd94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x39fcd6c, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetHighlight, addr 0x39fcc7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0x39fcc54, size 0x80, virtual false, abstract: false, final false
   inline void SetHighlight(bool value, ::HMUI::SelectableCell_TransitionType transitionType, bool ignoreCurrentValue);
 
-  /// @brief Method SetSelected, addr 0x39fccfc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x39fccd4, size 0x88, virtual false, abstract: false, final false
   inline void SetSelected(bool value, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner, bool ignoreCurrentValue);
 
-  /// @brief Method Start, addr 0x39fcc10, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x39fcbe8, size 0x44, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__highlighted_k__BackingField() const;
@@ -226,22 +226,22 @@ public:
 
   constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x39fcf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fcf44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_highlightDidChangeEvent, addr 0x39fc928, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_highlightDidChangeEvent, addr 0x39fc900, size 0xb0, virtual false, abstract: false, final false
   inline void add_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value);
 
-  /// @brief Method add_nonInteractableCellWasPressedEvent, addr 0x39fca88, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_nonInteractableCellWasPressedEvent, addr 0x39fca60, size 0xb0, virtual false, abstract: false, final false
   inline void add_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value);
 
-  /// @brief Method add_selectionDidChangeEvent, addr 0x39fc7c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionDidChangeEvent, addr 0x39fc7a0, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
-  /// @brief Method get_highlighted, addr 0x39fcbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlighted, addr 0x39fcbc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
-  /// @brief Method get_selected, addr 0x39fcbfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x39fcbd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -259,19 +259,19 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  /// @brief Method remove_highlightDidChangeEvent, addr 0x39fc9d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_highlightDidChangeEvent, addr 0x39fc9b0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_highlightDidChangeEvent(::System::Action_2<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType>* value);
 
-  /// @brief Method remove_nonInteractableCellWasPressedEvent, addr 0x39fcb38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_nonInteractableCellWasPressedEvent, addr 0x39fcb10, size 0xb0, virtual false, abstract: false, final false
   inline void remove_nonInteractableCellWasPressedEvent(::System::Action_1<::UnityW<::HMUI::SelectableCell>>* value);
 
-  /// @brief Method remove_selectionDidChangeEvent, addr 0x39fc878, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionDidChangeEvent, addr 0x39fc850, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_3<::UnityW<::HMUI::SelectableCell>, ::HMUI::SelectableCell_TransitionType, ::System::Object*>* value);
 
-  /// @brief Method set_highlighted, addr 0x39fcbf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_highlighted, addr 0x39fcbc8, size 0xc, virtual false, abstract: false, final false
   inline void set_highlighted(bool value);
 
-  /// @brief Method set_selected, addr 0x39fcc04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_selected, addr 0x39fcbdc, size 0xc, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
 protected:

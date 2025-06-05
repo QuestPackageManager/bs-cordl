@@ -39,34 +39,34 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method ClosestPointOnPlane, addr 0x4872090, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClosestPointOnPlane, addr 0x4872018, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnPlane(::UnityEngine::Vector3 point);
 
-  /// @brief Method GetDistanceToPoint, addr 0x48720cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToPoint, addr 0x4872054, size 0x24, virtual false, abstract: false, final false
   inline float_t GetDistanceToPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method Raycast, addr 0x487215c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48720e4, size 0x100, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ::ByRef<float_t> enter);
 
-  /// @brief Method SameSide, addr 0x48720f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SameSide, addr 0x4872078, size 0x6c, virtual false, abstract: false, final false
   inline bool SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1);
 
-  /// @brief Method ToString, addr 0x487225c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48721e4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x487226c, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x48721f4, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x4871f18, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4871ea0, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c);
 
-  /// @brief Method .ctor, addr 0x4871e08, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4871d90, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint);
 
-  /// @brief Method get_distance, addr 0x4871e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x4871d88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_normal, addr 0x4871df4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x4871d7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
   /// @brief Convert to "::System::IFormattable"

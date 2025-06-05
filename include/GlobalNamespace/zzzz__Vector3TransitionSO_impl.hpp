@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d9cc8;
+  constexpr static std::size_t addrs = 0x44d9c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d9cd4;
+  constexpr static std::size_t addrs = 0x44d9c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d9ce0;
+  constexpr static std::size_t addrs = 0x44d9c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d9cec;
+  constexpr static std::size_t addrs = 0x44d9c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d9cf8;
+  constexpr static std::size_t addrs = 0x44d9c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Vector3TransitionSO::*)()>(
     &::GlobalNamespace::Vector3TransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d9d04;
+  constexpr static std::size_t addrs = 0x44d9c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector3TransitionSO::*)()>(&::GlobalNamespace::Vector3TransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9d10;
+  constexpr static std::size_t addrs = 0x44d9c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3TransitionSO*>::get(), ".ctor",

@@ -29,12 +29,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE EnvironmentEffectsFilterPresetDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::EnvironmentEffectsFilterPreset> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x3c13760, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x3c136e8, size 0x128, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c13888, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c13810, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

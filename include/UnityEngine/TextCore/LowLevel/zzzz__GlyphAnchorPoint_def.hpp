@@ -23,10 +23,10 @@ public:
 
   __declspec(property(get = get_yCoordinate)) float_t yCoordinate;
 
-  /// @brief Method get_xCoordinate, addr 0x492393c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xCoordinate, addr 0x49238c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_xCoordinate();
 
-  /// @brief Method get_yCoordinate, addr 0x4923944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yCoordinate, addr 0x49238cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_yCoordinate();
 
   // Ctor Parameters []

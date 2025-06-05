@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23c0888;
+  constexpr static std::size_t addrs = 0x23c0848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t, int32_t, bool)>(&::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23c093c;
+  constexpr static std::size_t addrs = 0x23c08fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::get_Certainty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c0940;
+  constexpr static std::size_t addrs = 0x23c0900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::get_CountSmallPrimes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c0948;
+  constexpr static std::size_t addrs = 0x23c0908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters::get_IsDebug)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c0950;
+  constexpr static std::size_t addrs = 0x23c0910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

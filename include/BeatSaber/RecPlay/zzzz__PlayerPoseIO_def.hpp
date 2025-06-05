@@ -31,19 +31,19 @@ namespace BeatSaber::RecPlay {
 class CORDL_TYPE PlayerPoseIO : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clamp, addr 0x227bbbc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x227bb7c, size 0x14c, virtual false, abstract: false, final false
   static inline bool Clamp(::ByRef<::System::ReadOnlySpan_1<char16_t>> s, char16_t start, char16_t end);
 
-  /// @brief Method DeserializeFromText, addr 0x227b388, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeFromText, addr 0x227b348, size 0x68c, virtual false, abstract: false, final false
   static inline bool DeserializeFromText(::StringW text, ::ByRef<::BeatSaber::RecPlay::PlayerPoseFrames> playerPoseFrames, ::ByRef<::StringW> log);
 
-  /// @brief Method NextToken, addr 0x227ba14, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x227b9d4, size 0x1a8, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> NextToken(::ByRef<::System::ReadOnlySpan_1<char16_t>> s);
 
-  /// @brief Method SerializeAsText, addr 0x227abf4, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method SerializeAsText, addr 0x227abb4, size 0x388, virtual false, abstract: false, final false
   static inline ::StringW SerializeAsText(::BeatSaber::RecPlay::PlayerPoseFrames frames);
 
-  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x227af7c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method <SerializeAsText>g__WriteFrames|0_0, addr 0x227af3c, size 0x40c, virtual false, abstract: false, final false
   static inline void _SerializeAsText_g__WriteFrames_0_0(::System::Text::StringBuilder* sb, ::StringW name,
                                                          ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 

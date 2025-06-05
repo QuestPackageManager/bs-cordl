@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewSetting* (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSettingCollection::get_Item)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x416ead4;
+  constexpr static std::size_t addrs = 0x416ea5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*, ::System::Data::DataViewSetting*)>(
     &::System::Data::DataViewSettingCollection::set_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x416ebcc;
+  constexpr static std::size_t addrs = 0x416eb54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSettingCollection::Remove)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x416ec4c;
+  constexpr static std::size_t addrs = 0x416ebd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

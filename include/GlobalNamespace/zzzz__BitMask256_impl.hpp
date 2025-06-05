@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BitMask256::*)()>(&::GlobalNamespace::BitMask256::get_bitCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271f1e0;
+  constexpr static std::size_t addrs = 0x271f1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMask256>::get(), "get_bitCount",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)()>(&::GlobalNamespace::BitMask256::get_maxValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x271f1e8;
+  constexpr static std::size_t addrs = 0x271f1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMask256>::get(), "get_maxValue",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMask256::*)(uint64_t, uint64_t, uint64_t, uint64_t)>(
     &::GlobalNamespace::BitMask256::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x271f1f4;
+  constexpr static std::size_t addrs = 0x271f1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMask256::*)(uint64_t)>(&::GlobalNamespace::BitMask256::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x271f200;
+  constexpr static std::size_t addrs = 0x271f1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (::GlobalNamespace::BitMask256::*)(int32_t, uint64_t)>(
     &::GlobalNamespace::BitMask256::SetBits)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x271f20c;
+  constexpr static std::size_t addrs = 0x271f1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::BitMask256::*)(int32_t, int32_t)>(&::GlobalNamespace::BitMask256::GetBits)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x271f2dc;
+  constexpr static std::size_t addrs = 0x271f2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(::ByRef<::GlobalNamespace::BitMask256>, ::ByRef<::GlobalNamespace::BitMask256>)>(
     &::GlobalNamespace::BitMask256::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x271f430;
+  constexpr static std::size_t addrs = 0x271f408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(::ByRef<::GlobalNamespace::BitMask256>, ::ByRef<::GlobalNamespace::BitMask256>)>(
     &::GlobalNamespace::BitMask256::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x271f448;
+  constexpr static std::size_t addrs = 0x271f420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(::ByRef<::GlobalNamespace::BitMask256>, ::ByRef<::GlobalNamespace::BitMask256>)>(
     &::GlobalNamespace::BitMask256::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x271f460;
+  constexpr static std::size_t addrs = 0x271f438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(::ByRef<::GlobalNamespace::BitMask256>, int32_t)>(
     &::GlobalNamespace::BitMask256::op_LeftShift)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x271f478;
+  constexpr static std::size_t addrs = 0x271f450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(::ByRef<::GlobalNamespace::BitMask256>, int32_t)>(
     &::GlobalNamespace::BitMask256::op_RightShift)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x271f4d0;
+  constexpr static std::size_t addrs = 0x271f4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::GlobalNamespace::BitMask256>, ::ByRef<::GlobalNamespace::BitMask256>)>(
     &::GlobalNamespace::BitMask256::op_Equality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x271f528;
+  constexpr static std::size_t addrs = 0x271f500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::GlobalNamespace::BitMask256>, ::ByRef<::GlobalNamespace::BitMask256>)>(
     &::GlobalNamespace::BitMask256::op_Inequality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x271f574;
+  constexpr static std::size_t addrs = 0x271f54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(uint64_t)>(
     &::GlobalNamespace::BitMask256::op_Implicit___GlobalNamespace__BitMask256)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x271f5c0;
+  constexpr static std::size_t addrs = 0x271f598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMask256::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::BitMask256::Serialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x271f5cc;
+  constexpr static std::size_t addrs = 0x271f5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (::GlobalNamespace::BitMask256::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BitMask256::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x271f62c;
+  constexpr static std::size_t addrs = 0x271f604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMask256 (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BitMask256::Deserialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x271f658;
+  constexpr static std::size_t addrs = 0x271f630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BitMask256::*)()>(&::GlobalNamespace::BitMask256::ToString)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x271f6c4;
+  constexpr static std::size_t addrs = 0x271f69c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BitMask256::*)(::GlobalNamespace::BitMask256)>(&::GlobalNamespace::BitMask256::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x271f798;
+  constexpr static std::size_t addrs = 0x271f770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BitMask256::*)(::System::Object*)>(&::GlobalNamespace::BitMask256::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x271f7e4;
+  constexpr static std::size_t addrs = 0x271f7bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BitMask256::*)()>(&::GlobalNamespace::BitMask256::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x271f88c;
+  constexpr static std::size_t addrs = 0x271f864;
 
   inline static ::MethodInfo const* methodInfo() {
 

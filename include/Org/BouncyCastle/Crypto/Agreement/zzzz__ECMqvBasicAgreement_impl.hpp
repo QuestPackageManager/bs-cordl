@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x268f038;
+  constexpr static std::size_t addrs = 0x268eff8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::GetFieldSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x268f124;
+  constexpr static std::size_t addrs = 0x268f0e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
         &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::CalculateAgreement)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x268f17c;
+  constexpr static std::size_t addrs = 0x268f13c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                             ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*)>(
         &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::CalculateMqvAgreement)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x268f380;
+  constexpr static std::size_t addrs = 0x268f340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268f5d4;
+  constexpr static std::size_t addrs = 0x268f594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

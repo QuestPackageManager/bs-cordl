@@ -128,31 +128,31 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x270a4dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a4b4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t rotationDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent,
                     ::BeatmapSaveDataCommon::EaseType rotationDistributionEaseType, ::BeatmapSaveDataCommon::Axis axis, bool flipRotation,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method get_axis, addr 0x270a4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x270a47c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::Axis get_axis();
 
-  /// @brief Method get_flipRotation, addr 0x270a4ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_flipRotation, addr 0x270a484, size 0x10, virtual false, abstract: false, final false
   inline bool get_flipRotation();
 
-  /// @brief Method get_lightRotationBaseDataList, addr 0x270a4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightRotationBaseDataList, addr 0x270a4ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* get_lightRotationBaseDataList();
 
-  /// @brief Method get_rotationDistributionEaseType, addr 0x270a4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionEaseType, addr 0x270a4a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_rotationDistributionEaseType();
 
-  /// @brief Method get_rotationDistributionParam, addr 0x270a494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionParam, addr 0x270a46c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationDistributionParam();
 
-  /// @brief Method get_rotationDistributionParamType, addr 0x270a49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionParamType, addr 0x270a474, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_rotationDistributionParamType();
 
-  /// @brief Method get_rotationDistributionShouldAffectFirstBaseEvent, addr 0x270a4bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionShouldAffectFirstBaseEvent, addr 0x270a494, size 0x10, virtual false, abstract: false, final false
   inline bool get_rotationDistributionShouldAffectFirstBaseEvent();
 
 protected:

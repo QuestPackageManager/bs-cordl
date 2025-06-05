@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass2_0::*)()>(
     &::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea404;
+  constexpr static std::size_t addrs = 0x26ea3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass2_0::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*>*)>(&::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass2_0::_UnlockAchievement_b__0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26ea508;
+  constexpr static std::size_t addrs = 0x26ea4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea4f8;
+  constexpr static std::size_t addrs = 0x26ea4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_0::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*>*)>(&::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_0::_GetUnlockedAchievements_b__0)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x26ea548;
+  constexpr static std::size_t addrs = 0x26ea528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_1::*)()>(
     &::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26eaa60;
+  constexpr static std::size_t addrs = 0x26eaa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_1::*)(
     ::GlobalNamespace::AchievementSO*)>(&::GlobalNamespace::OculusPlatformAchievementHandler___c__DisplayClass3_1::_GetUnlockedAchievements_b__1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26eaa68;
+  constexpr static std::size_t addrs = 0x26eaa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler::*)()>(
     &::GlobalNamespace::OculusPlatformAchievementHandler::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ea310;
+  constexpr static std::size_t addrs = 0x26ea2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusPlatformAchievementHandler*>::get(),
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OculusPlatformAchievementHandler::*)(::StringW, ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler*)>(
     &::GlobalNamespace::OculusPlatformAchievementHandler::UnlockAchievement)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26ea314;
+  constexpr static std::size_t addrs = 0x26ea2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::HMAsyncRequest* (::GlobalNamespace::OculusPlatformAchievementHandler::*)(::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler*)>(
         &::GlobalNamespace::OculusPlatformAchievementHandler::GetUnlockedAchievements)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26ea40c;
+  constexpr static std::size_t addrs = 0x26ea3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusPlatformAchievementHandler::*)()>(
     &::GlobalNamespace::OculusPlatformAchievementHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ea500;
+  constexpr static std::size_t addrs = 0x26ea4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusPlatformAchievementHandler*>::get(),

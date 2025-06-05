@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bedb8;
+  constexpr static std::size_t addrs = 0x26bed98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bedc0;
+  constexpr static std::size_t addrs = 0x26beda0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IndexFilter*, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*)>(&::GlobalNamespace::LightColorBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x26bedc8;
+  constexpr static std::size_t addrs = 0x26beda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*,
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::GlobalNamespace::LightColorBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x26befd0;
+  constexpr static std::size_t addrs = 0x26befb0;
 
   inline static ::MethodInfo const* methodInfo() {
 

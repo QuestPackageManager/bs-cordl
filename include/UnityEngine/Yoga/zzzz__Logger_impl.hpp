@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::Logger::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::Yoga::Logger::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x496c1b4;
+  constexpr static std::size_t addrs = 0x496c13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Yoga::Logger::*)(
     ::UnityEngine::Yoga::YogaConfig*, ::UnityEngine::Yoga::YogaNode*, ::UnityEngine::Yoga::YogaLogLevel, ::StringW)>(&::UnityEngine::Yoga::Logger::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x496c2b8;
+  constexpr static std::size_t addrs = 0x496c240;
 
   inline static ::MethodInfo const* methodInfo() {
 

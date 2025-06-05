@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675780;
+  constexpr static std::size_t addrs = 0x2675740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream::Read)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2675798;
+  constexpr static std::size_t addrs = 0x2675758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2675648;
+  constexpr static std::size_t addrs = 0x2675608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)(::StringW, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2663adc;
+  constexpr static std::size_t addrs = 0x2663a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)(::StringW, ::System::IO::Stream*, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsTypedStream::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26756c8;
+  constexpr static std::size_t addrs = 0x2675688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsTypedStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsTypedStream::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675788;
+  constexpr static std::size_t addrs = 0x2675748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsTypedStream*>::get(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsTypedStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsTypedStream::get_ContentStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2675790;
+  constexpr static std::size_t addrs = 0x2675750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsTypedStream*>::get(),
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsTypedStream::*)()>(&::Org::BouncyCastle::Cms::CmsTypedStream::Drain)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2663ae4;
+  constexpr static std::size_t addrs = 0x2663aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsTypedStream*>::get(), "Drain",

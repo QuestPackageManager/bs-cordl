@@ -72,15 +72,15 @@ public:
   /// @brief Field _rigidbody, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody)) ::UnityW<::UnityEngine::Rigidbody> _rigidbody;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x22684d4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x2268494, size 0x11c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarJumpEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x22684b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2268478, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2268340, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2268300, size 0x178, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x22685f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22685b0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

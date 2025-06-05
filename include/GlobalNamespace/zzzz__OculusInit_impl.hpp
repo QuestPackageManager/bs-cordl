@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__CheckEntitlementsAsync_d__8::*)()>(
     &::GlobalNamespace::OculusInit__CheckEntitlementsAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x22761d0;
+  constexpr static std::size_t addrs = 0x2276190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__CheckEntitlementsAsync_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusInit__CheckEntitlementsAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2276498;
+  constexpr static std::size_t addrs = 0x2276458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__CheckUserAgeCategoryAsync_d__9::*)()>(
     &::GlobalNamespace::OculusInit__CheckUserAgeCategoryAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x2276500;
+  constexpr static std::size_t addrs = 0x22764c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__CheckUserAgeCategoryAsync_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusInit__CheckUserAgeCategoryAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2276a5c;
+  constexpr static std::size_t addrs = 0x2276a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__GetAppVersionQuestAsync_d__5::*)()>(
     &::GlobalNamespace::OculusInit__GetAppVersionQuestAsync_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x2276ac4;
+  constexpr static std::size_t addrs = 0x2276a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__GetAppVersionQuestAsync_d__5::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusInit__GetAppVersionQuestAsync_d__5::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2276ea8;
+  constexpr static std::size_t addrs = 0x2276e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__InitializeCoreAsync_d__7::*)()>(
     &::GlobalNamespace::OculusInit__InitializeCoreAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x2276f24;
+  constexpr static std::size_t addrs = 0x2276ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit__InitializeCoreAsync_d__7>::get(),
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__InitializeCoreAsync_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusInit__InitializeCoreAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22772d0;
+  constexpr static std::size_t addrs = 0x2277290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__InitializeInternalAsync_d__3::*)()>(
     &::GlobalNamespace::OculusInit__InitializeInternalAsync_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x2277338;
+  constexpr static std::size_t addrs = 0x22772f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__InitializeInternalAsync_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusInit__InitializeInternalAsync_d__3::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22775f8;
+  constexpr static std::size_t addrs = 0x22775b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__InitializeOculusAsync_d__6::*)()>(
     &::GlobalNamespace::OculusInit__InitializeOculusAsync_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x2277674;
+  constexpr static std::size_t addrs = 0x2277634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit__InitializeOculusAsync_d__6>::get(),
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit__InitializeOculusAsync_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusInit__InitializeOculusAsync_d__6::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22779d4;
+  constexpr static std::size_t addrs = 0x2277994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInit::*)()>(&::GlobalNamespace::OculusInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2275cf0;
+  constexpr static std::size_t addrs = 0x2275cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), ".ctor",
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::OculusInit::*)()>(
     &::GlobalNamespace::OculusInit::InitializeInternalAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2275cf8;
+  constexpr static std::size_t addrs = 0x2275cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::OculusInit::*)()>(
     &::GlobalNamespace::OculusInit::GetAppVersionAsync)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2275de8;
+  constexpr static std::size_t addrs = 0x2275da8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::OculusInit::*)()>(
     &::GlobalNamespace::OculusInit::GetAppVersionQuestAsync)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2275dec;
+  constexpr static std::size_t addrs = 0x2275dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "GetAppVersionQuestAsync",
@@ -456,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::OculusInit::*)()>(
     &::GlobalNamespace::OculusInit::InitializeOculusAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2275ed4;
+  constexpr static std::size_t addrs = 0x2275e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "InitializeOculusAsync",
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::GlobalNamespace::OculusInit::InitializeCoreAsync)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2275f94;
+  constexpr static std::size_t addrs = 0x2275f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "InitializeCoreAsync",
@@ -482,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::GlobalNamespace::OculusInit::CheckEntitlementsAsync)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2276050;
+  constexpr static std::size_t addrs = 0x2276010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(), "CheckEntitlementsAsync",
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::OculusInit::*)()>(
     &::GlobalNamespace::OculusInit::CheckUserAgeCategoryAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x227610c;
+  constexpr static std::size_t addrs = 0x22760cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInit*>::get(),

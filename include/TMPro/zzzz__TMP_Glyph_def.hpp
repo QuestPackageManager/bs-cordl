@@ -18,12 +18,12 @@ namespace TMPro {
 class CORDL_TYPE TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy {
 public:
   // Declarations
-  /// @brief Method Clone, addr 0x47d46b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x47d4640, size 0x7c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Glyph* Clone(::TMPro::TMP_Glyph* source);
 
   static inline ::TMPro::TMP_Glyph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47d4734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d46bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

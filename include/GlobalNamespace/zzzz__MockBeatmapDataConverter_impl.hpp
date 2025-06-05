@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataConverter___c::*)()>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc767c;
+  constexpr static std::size_t addrs = 0x3bc76c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataConverter___c*>::get(), ".ctor",
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bc7684;
+  constexpr static std::size_t addrs = 0x3bc76cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc76a4;
+  constexpr static std::size_t addrs = 0x3bc76ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bc76ac;
+  constexpr static std::size_t addrs = 0x3bc76f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc76cc;
+  constexpr static std::size_t addrs = 0x3bc7714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_4)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bc76d4;
+  constexpr static std::size_t addrs = 0x3bc771c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc76f4;
+  constexpr static std::size_t addrs = 0x3bc773c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockObstacleData* (
     ::GlobalNamespace::MockBeatmapDataConverter___c::*)(::GlobalNamespace::ObstacleData*)>(&::GlobalNamespace::MockBeatmapDataConverter___c::_ToMockBeatmapData_b__0_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc76fc;
+  constexpr static std::size_t addrs = 0x3bc7744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
   constexpr static std::size_t size = 0x8d0;
-  constexpr static std::size_t addrs = 0x3bc6c48;
+  constexpr static std::size_t addrs = 0x3bc6c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockNoteData* (*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter::ToMockNoteData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3bc7518;
+  constexpr static std::size_t addrs = 0x3bc7560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MockObstacleData* (*)(::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::MockBeatmapDataConverter::ToMockObstacleData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3bc759c;
+  constexpr static std::size_t addrs = 0x3bc75e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

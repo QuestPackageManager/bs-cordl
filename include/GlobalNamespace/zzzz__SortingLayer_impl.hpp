@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::SortingLayer::*)()>(
     &::GlobalNamespace::SortingLayer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4f54;
+  constexpr static std::size_t addrs = 0x39c4f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortingLayer*>::get(), "get_renderer",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortingLayer::*)()>(&::GlobalNamespace::SortingLayer::Reset)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39c4f5c;
+  constexpr static std::size_t addrs = 0x39c4f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortingLayer*>::get(), "Reset",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SortingLayer::*)()>(&::GlobalNamespace::SortingLayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4fac;
+  constexpr static std::size_t addrs = 0x39c4f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SortingLayer*>::get(), ".ctor",

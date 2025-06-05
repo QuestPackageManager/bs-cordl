@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method GetExtraInfo, addr 0x268b0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetExtraInfo, addr 0x268b068, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetExtraInfo();
 
-  /// @brief Method GetZ, addr 0x268b0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetZ, addr 0x268b060, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ();
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize,
@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x268b00c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268afcc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method .ctor, addr 0x268b04c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268b00c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, int32_t keySize, ::ArrayW<uint8_t, ::Array<uint8_t>*> z, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraInfo);
 
-  /// @brief Method get_Algorithm, addr 0x268b090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x268b050, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_KeySize, addr 0x268b098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x268b058, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_KeySize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

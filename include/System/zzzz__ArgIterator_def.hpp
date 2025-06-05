@@ -23,10 +23,10 @@ namespace System {
 struct CORDL_TYPE ArgIterator {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3e32ae4, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e32a6c, size 0x4c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x3e32b30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e32ab8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []

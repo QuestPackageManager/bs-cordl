@@ -50,10 +50,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRVirtualKeyboardSampleControls_OVRVirtualKeyboardBackup {
 public:
   // Declarations
-  /// @brief Method RestoreTo, addr 0x40272bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RestoreTo, addr 0x4027244, size 0xc8, virtual false, abstract: false, final false
   inline void RestoreTo(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
 
-  /// @brief Method .ctor, addr 0x40277d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4027760, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRVirtualKeyboard* keyboard);
 
   // Ctor Parameters []
@@ -218,39 +218,39 @@ public:
   /// @brief Field keyboardScale_, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_keyboardScale_, put = __cordl_internal_set_keyboardScale_)) float_t keyboardScale_;
 
-  /// @brief Method DestroyKeyboard, addr 0x40276f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method DestroyKeyboard, addr 0x402767c, size 0xe4, virtual false, abstract: false, final false
   inline void DestroyKeyboard();
 
-  /// @brief Method HideKeyboard, addr 0x40276b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HideKeyboard, addr 0x4027640, size 0x3c, virtual false, abstract: false, final false
   inline void HideKeyboard();
 
-  /// @brief Method MoveKeyboard, addr 0x40274d8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method MoveKeyboard, addr 0x4027460, size 0x12c, virtual false, abstract: false, final false
   inline void MoveKeyboard();
 
-  /// @brief Method MoveKeyboardFar, addr 0x4027670, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveKeyboardFar, addr 0x40275f8, size 0x48, virtual false, abstract: false, final false
   inline void MoveKeyboardFar();
 
-  /// @brief Method MoveKeyboardNear, addr 0x4027628, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveKeyboardNear, addr 0x40275b0, size 0x48, virtual false, abstract: false, final false
   inline void MoveKeyboardNear();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardSampleControls* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x40270e0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4027068, size 0x1dc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnHideKeyboard, addr 0x40278b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnHideKeyboard, addr 0x402783c, size 0x4, virtual false, abstract: false, final false
   inline void OnHideKeyboard();
 
-  /// @brief Method ShowKeyboard, addr 0x4026fe0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ShowKeyboard, addr 0x4026f68, size 0x100, virtual false, abstract: false, final false
   inline void ShowKeyboard();
 
-  /// @brief Method Start, addr 0x4026e24, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4026dac, size 0x1bc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x40278b8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4027840, size 0x274, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateButtonInteractable, addr 0x4027384, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonInteractable, addr 0x402730c, size 0x154, virtual false, abstract: false, final false
   inline void UpdateButtonInteractable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_DestroyKeyboardButton() const;
@@ -331,7 +331,7 @@ public:
 
   constexpr void __cordl_internal_set_keyboardScale_(float_t value);
 
-  /// @brief Method .ctor, addr 0x4027e4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4027dd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

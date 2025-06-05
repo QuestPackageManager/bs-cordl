@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::Sig::TrustSignature::IntToByteArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26401a4;
+  constexpr static std::size_t addrs = 0x2640164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::TrustSignature::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2640220;
+  constexpr static std::size_t addrs = 0x26401e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)(bool, int32_t, int32_t)>(
     &::Org::BouncyCastle::Bcpg::Sig::TrustSignature::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2640268;
+  constexpr static std::size_t addrs = 0x2640228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::TrustSignature::get_Depth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26402b8;
+  constexpr static std::size_t addrs = 0x2640278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::TrustSignature*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::Sig::TrustSignature::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::TrustSignature::get_TrustAmount)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26402e0;
+  constexpr static std::size_t addrs = 0x26402a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::TrustSignature*>::get(),

@@ -52,10 +52,10 @@ public:
   /// @brief Field _rightHorizontalLaser, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rightHorizontalLaser, put = __cordl_internal_set__rightHorizontalLaser)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _rightHorizontalLaser;
 
-  /// @brief Method InitIfNeeded, addr 0x3b8816c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3b88144, size 0xc0, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method LateUpdate, addr 0x3b8822c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b88204, size 0x110, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SpawnLaserAnimation* New_ctor();
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHorizontalLaser(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b8833c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b88314, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -32,7 +32,7 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x4102738, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x41026c0, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
@@ -41,7 +41,7 @@ public:
                                                               ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args,
                                                               ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
-  /// @brief Method FallbackInvokeMember, addr 0x4101274, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackInvokeMember, addr 0x41011fc, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject* target,
                                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method get_IgnoreCase, addr 0x4102730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x41026b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_Name, addr 0x4102728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x41026b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

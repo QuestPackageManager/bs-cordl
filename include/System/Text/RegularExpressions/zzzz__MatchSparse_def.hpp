@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__caps(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x4412dc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4412d48, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method get_Groups, addr 0x4412e70, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x4412df8, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::GroupCollection* get_Groups();
 
 protected:

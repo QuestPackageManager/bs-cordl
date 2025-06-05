@@ -28,13 +28,13 @@ namespace Oculus::Platform {
 class CORDL_TYPE ApplicationLifecycle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLaunchDetails, addr 0x3f82ac4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetLaunchDetails, addr 0x3f82a4c, size 0x88, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
 
-  /// @brief Method LogDeeplinkResult, addr 0x3f82b4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method LogDeeplinkResult, addr 0x3f82ad4, size 0x64, virtual false, abstract: false, final false
   static inline void LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result);
 
-  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x3f82bb0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x3f82b38, size 0x74, virtual false, abstract: false, final false
   static inline void SetLaunchIntentChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
 protected:

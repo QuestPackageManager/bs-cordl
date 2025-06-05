@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE ObstacleSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3ae4f40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae4f18, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 moveOffset, float_t obstacleWidth, float_t obstacleHeight);
 
   // Ctor Parameters []

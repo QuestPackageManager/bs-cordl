@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::DeltaControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::get_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4562184;
+  constexpr static std::size_t addrs = 0x456210c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DeltaControl*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DeltaControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::set_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456218c;
+  constexpr static std::size_t addrs = 0x4562114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::DeltaControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::get_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4562194;
+  constexpr static std::size_t addrs = 0x456211c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DeltaControl*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DeltaControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::set_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456219c;
+  constexpr static std::size_t addrs = 0x4562124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::DeltaControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45621a4;
+  constexpr static std::size_t addrs = 0x456212c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DeltaControl*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DeltaControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45621ac;
+  constexpr static std::size_t addrs = 0x4562134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::DeltaControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45621b4;
+  constexpr static std::size_t addrs = 0x456213c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DeltaControl*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DeltaControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45621bc;
+  constexpr static std::size_t addrs = 0x4562144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DeltaControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::FinishSetup)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x45621c4;
+  constexpr static std::size_t addrs = 0x456214c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::DeltaControl::*)()>(
     &::UnityEngine::InputSystem::Controls::DeltaControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4562378;
+  constexpr static std::size_t addrs = 0x4562300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::DeltaControl*>::get(),

@@ -42,10 +42,10 @@ public:
 
   static inline ::UnityEngine::UnhandledExceptionHandler___c* New_ctor();
 
-  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x48b0fb8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x48b0f40, size 0xb4, virtual false, abstract: false, final false
   inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
 
-  /// @brief Method .ctor, addr 0x48b0fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b0f38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UnhandledExceptionHandler___c* getStaticF___9();
@@ -88,7 +88,7 @@ public:
   // Declarations
   using __c = ::UnityEngine::UnhandledExceptionHandler___c;
 
-  /// @brief Method RegisterUECatcher, addr 0x48b0e60, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RegisterUECatcher, addr 0x48b0de8, size 0xf4, virtual false, abstract: false, final false
   static inline void RegisterUECatcher();
 
 protected:

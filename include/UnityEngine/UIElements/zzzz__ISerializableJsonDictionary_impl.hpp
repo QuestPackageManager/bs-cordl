@@ -35,15 +35,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 template <typename T> inline void UnityEngine::UIElements::ISerializableJsonDictionary::Set(::StringW key, T value) {
-  auto* ___internal_method =
+  auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ISerializableJsonDictionary*>::get(), 0)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
 }
 template <typename T> inline T UnityEngine::UIElements::ISerializableJsonDictionary::Get(::StringW key) {
-  auto* ___internal_method =
+  auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ISerializableJsonDictionary*>::get(), 1)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, key);
 }
 inline void UnityEngine::UIElements::ISerializableJsonDictionary::Overwrite(::System::Object* obj, ::StringW key) {

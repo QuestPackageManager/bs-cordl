@@ -44,10 +44,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa4058, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa3fe0, size 0x10, virtual false, abstract: false, final false
   inline bool _GetValueFromBag_b__3_0(::StringW s, bool b);
 
-  /// @brief Method .ctor, addr 0x4aa4050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa3fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c* getStaticF___9();
@@ -90,15 +90,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlBoolAttributeDescription___c;
 
-  /// @brief Method ConvertValueToBool, addr 0x4aa3f6c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToBool, addr 0x4aa3ef4, size 0x88, virtual false, abstract: false, final false
   static inline bool ConvertValueToBool(::StringW v, bool defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4aa3e1c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa3da4, size 0x150, virtual true, abstract: false, final false
   inline bool GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlBoolAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a9b09c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9b024, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

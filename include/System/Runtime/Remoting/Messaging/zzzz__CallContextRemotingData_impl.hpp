@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextRemotingData::get_LogicalCallID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7410;
+  constexpr static std::size_t addrs = 0x3ce7398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CallContextRemotingData::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::CallContextRemotingData::set_LogicalCallID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7418;
+  constexpr static std::size_t addrs = 0x3ce73a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextRemotingData::get_HasInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ce7314;
+  constexpr static std::size_t addrs = 0x3ce729c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextRemotingData::Clone)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce7244;
+  constexpr static std::size_t addrs = 0x3ce71cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CallContextRemotingData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextRemotingData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7420;
+  constexpr static std::size_t addrs = 0x3ce73a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

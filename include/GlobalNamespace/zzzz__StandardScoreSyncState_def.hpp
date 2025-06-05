@@ -117,38 +117,38 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Method ApplyDelta, addr 0x22ea9cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0x22ea98c, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardScoreSyncState ApplyDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
 
-  /// @brief Method Deserialize, addr 0x22eaaac, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x22eaa6c, size 0x6c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x22eab18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x22eaad8, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::ByRef<::GlobalNamespace::StandardScoreSyncState> other);
 
-  /// @brief Method GetDelta, addr 0x22ea9a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDelta, addr 0x22ea968, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardScoreSyncState GetDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
-  /// @brief Method GetSize, addr 0x22eab74, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetSize, addr 0x22eab34, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetSize();
 
-  /// @brief Method GetState, addr 0x22ea9f0, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetState, addr 0x22ea9b0, size 0x50, virtual true, abstract: false, final true
   inline int32_t GetState(::GlobalNamespace::StandardScoreSyncState_Score s);
 
-  /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0x22eac48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IEquatableByReference<StandardScoreSyncState>.Equals, addr 0x22eac08, size 0x4, virtual true, abstract: false, final true
   inline bool IEquatableByReference_StandardScoreSyncState__Equals(::ByRef<::GlobalNamespace::StandardScoreSyncState> other);
 
-  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0x22eac24, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.ApplyDelta, addr 0x22eabe4, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__ApplyDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> delta);
 
-  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0x22eac00, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method IStateTable<StandardScoreSyncState,StandardScoreSyncState.Score,System.Int32>.GetDelta, addr 0x22eabc0, size 0x24, virtual true, abstract: false, final true
   inline ::GlobalNamespace::StandardScoreSyncState
   IStateTable_StandardScoreSyncState_StandardScoreSyncState_Score_System_Int32__GetDelta(::ByRef<::GlobalNamespace::StandardScoreSyncState> stateTable);
 
-  /// @brief Method Serialize, addr 0x22eaa40, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x22eaa00, size 0x6c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetState, addr 0x22ea960, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x22ea920, size 0x48, virtual true, abstract: false, final true
   inline void SetState(::GlobalNamespace::StandardScoreSyncState_Score s, int32_t value);
 
   /// @brief Convert to "::GlobalNamespace::IEquatableByReference_1<::GlobalNamespace::StandardScoreSyncState>"

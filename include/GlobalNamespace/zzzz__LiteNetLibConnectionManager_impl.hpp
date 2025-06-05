@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_LiteNetLibConnectionParamsBase::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d2720;
+  constexpr static std::size_t addrs = 0x22d26e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_StartServerParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d2730;
+  constexpr static std::size_t addrs = 0x22d26f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_StartClientParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d2740;
+  constexpr static std::size_t addrs = 0x22d2700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_ConnectToServerParams::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d2750;
+  constexpr static std::size_t addrs = 0x22d2710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d2768;
+  constexpr static std::size_t addrs = 0x22d2728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d2770;
+  constexpr static std::size_t addrs = 0x22d2730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d2778;
+  constexpr static std::size_t addrs = 0x22d2738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::get_endPoint)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d2780;
+  constexpr static std::size_t addrs = 0x22d2740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)(
     ::LiteNetLib::ConnectionRequest*, ::StringW, ::StringW, bool)>(&::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x22d279c;
+  constexpr static std::size_t addrs = 0x22d275c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPeer* (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnectionRequest::Accept)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d27e0;
+  constexpr static std::size_t addrs = 0x22d27a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d27fc;
+  constexpr static std::size_t addrs = 0x22d27bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d2804;
+  constexpr static std::size_t addrs = 0x22d27c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -581,7 +581,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d280c;
+  constexpr static std::size_t addrs = 0x22d27cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(
     ::LiteNetLib::NetPeer*, ::StringW, ::StringW, bool)>(&::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x22d2814;
+  constexpr static std::size_t addrs = 0x22d27d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -613,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Send)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22d2858;
+  constexpr static std::size_t addrs = 0x22d2818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(
     ::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*)>(&::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Equals)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22d28e0;
+  constexpr static std::size_t addrs = 0x22d28a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)(::System::Object*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Equals)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x22d290c;
+  constexpr static std::size_t addrs = 0x22d28cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22d2a24;
+  constexpr static std::size_t addrs = 0x22d29e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection::Disconnect)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d2a44;
+  constexpr static std::size_t addrs = 0x22d2a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -818,7 +818,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager___c::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d2abc;
+  constexpr static std::size_t addrs = 0x22d2a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager___c*>::get(),
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager___c::*)(
     ::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*)>(&::GlobalNamespace::LiteNetLibConnectionManager___c::_get_hasConnectionOwner_b__70_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d2ac4;
+  constexpr static std::size_t addrs = 0x22d2a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -881,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126::MoveNext)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x22d2adc;
+  constexpr static std::size_t addrs = 0x22d2a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -896,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LiteNetLibConnectionManager__BackgroundDisconnectSentry_d__126::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22d2f04;
+  constexpr static std::size_t addrs = 0x22d2ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127::MoveNext)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x22d2f6c;
+  constexpr static std::size_t addrs = 0x22d2f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -964,7 +964,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LiteNetLibConnectionManager__BackgroundShutdownSentry_d__127::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22d3398;
+  constexpr static std::size_t addrs = 0x22d3358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1017,7 +1017,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cf2b4;
+  constexpr static std::size_t addrs = 0x22cf274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cf350;
+  constexpr static std::size_t addrs = 0x22cf310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cf3ec;
+  constexpr static std::size_t addrs = 0x22cf3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1062,7 +1062,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cf488;
+  constexpr static std::size_t addrs = 0x22cf448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf524;
+  constexpr static std::size_t addrs = 0x22cf4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf5d4;
+  constexpr static std::size_t addrs = 0x22cf594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1107,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf684;
+  constexpr static std::size_t addrs = 0x22cf644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1122,7 +1122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf734;
+  constexpr static std::size_t addrs = 0x22cf6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1137,7 +1137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf7e4;
+  constexpr static std::size_t addrs = 0x22cf7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1152,7 +1152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf894;
+  constexpr static std::size_t addrs = 0x22cf854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1167,7 +1167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf944;
+  constexpr static std::size_t addrs = 0x22cf904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cf9f4;
+  constexpr static std::size_t addrs = 0x22cf9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1201,7 +1201,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::LiteNetLibConnectionManager::add_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cfaa4;
+  constexpr static std::size_t addrs = 0x22cfa64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1218,7 +1218,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::LiteNetLibConnectionManager::remove_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cfb54;
+  constexpr static std::size_t addrs = 0x22cfb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1234,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::add_onReceiveUnconnectedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cfc04;
+  constexpr static std::size_t addrs = 0x22cfbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1249,7 +1249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*)>(&::GlobalNamespace::LiteNetLibConnectionManager::remove_onReceiveUnconnectedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cfcb4;
+  constexpr static std::size_t addrs = 0x22cfc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1265,7 +1265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*)>(&::GlobalNamespace::LiteNetLibConnectionManager::add_onStatisticsUpdatedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cfd64;
+  constexpr static std::size_t addrs = 0x22cfd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1280,7 +1280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*)>(&::GlobalNamespace::LiteNetLibConnectionManager::remove_onStatisticsUpdatedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22cfe00;
+  constexpr static std::size_t addrs = 0x22cfdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1295,7 +1295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cfe9c;
+  constexpr static std::size_t addrs = 0x22cfe5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1309,7 +1309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cfea4;
+  constexpr static std::size_t addrs = 0x22cfe64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1323,7 +1323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22cfeac;
+  constexpr static std::size_t addrs = 0x22cfe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1337,7 +1337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22cfebc;
+  constexpr static std::size_t addrs = 0x22cfe7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1351,7 +1351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22cfecc;
+  constexpr static std::size_t addrs = 0x22cfe8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1365,7 +1365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22cfedc;
+  constexpr static std::size_t addrs = 0x22cfe9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1379,7 +1379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_hasConnectionOwner)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x22cfeec;
+  constexpr static std::size_t addrs = 0x22cfeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1393,7 +1393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isServer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22cfff4;
+  constexpr static std::size_t addrs = 0x22cffb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1407,7 +1407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isClient)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d0004;
+  constexpr static std::size_t addrs = 0x22cffc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1421,7 +1421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_isDisposed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d0014;
+  constexpr static std::size_t addrs = 0x22cffd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1435,7 +1435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_connectionCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22d0024;
+  constexpr static std::size_t addrs = 0x22cffe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1449,7 +1449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectionRequestHandler* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_connectionRequestHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d006c;
+  constexpr static std::size_t addrs = 0x22d002c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1463,7 +1463,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_port)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d0074;
+  constexpr static std::size_t addrs = 0x22d0034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1477,7 +1477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d0090;
+  constexpr static std::size_t addrs = 0x22d0050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1491,7 +1491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketEncryptionLayer* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::get_encryptionLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d0098;
+  constexpr static std::size_t addrs = 0x22d0058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1504,7 +1504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22d00a0;
+  constexpr static std::size_t addrs = 0x22d0060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1517,7 +1517,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(&::GlobalNamespace::LiteNetLibConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22d01a0;
+  constexpr static std::size_t addrs = 0x22d0160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(), ".ctor",
@@ -1531,7 +1531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*)>(&::GlobalNamespace::LiteNetLibConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x22d0238;
+  constexpr static std::size_t addrs = 0x22d01f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1547,7 +1547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::LiteNetLibConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22d0434;
+  constexpr static std::size_t addrs = 0x22d03f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1563,7 +1563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::LiteNetLibConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x22d04d8;
+  constexpr static std::size_t addrs = 0x22d0498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1580,7 +1580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataWriter*)>(&::GlobalNamespace::LiteNetLibConnectionManager::SendUnconnectedMessage)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22d05c0;
+  constexpr static std::size_t addrs = 0x22d0580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1596,7 +1596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::PollUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22d05e8;
+  constexpr static std::size_t addrs = 0x22d05a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1610,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::StringW, ::StringW, ::System::Net::IPEndPoint*, ::StringW, ::StringW, bool)>(&::GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22d0990;
+  constexpr static std::size_t addrs = 0x22d0950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1628,7 +1628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22d0c9c;
+  constexpr static std::size_t addrs = 0x22d0c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1642,7 +1642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x22d0d00;
+  constexpr static std::size_t addrs = 0x22d0cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1656,7 +1656,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::DisposeInternal)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22d0cc0;
+  constexpr static std::size_t addrs = 0x22d0c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1670,7 +1670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d0e78;
+  constexpr static std::size_t addrs = 0x22d0e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1685,7 +1685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::GlobalNamespace::DisconnectedReason, ::GlobalNamespace::ConnectionFailedReason)>(&::GlobalNamespace::LiteNetLibConnectionManager::DisconnectInternal)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22d0e80;
+  constexpr static std::size_t addrs = 0x22d0e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1701,7 +1701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(int32_t, bool)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::TryStartNetManager)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22d0f44;
+  constexpr static std::size_t addrs = 0x22d0f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1716,7 +1716,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::StartBackgroundSentry)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x22d0fdc;
+  constexpr static std::size_t addrs = 0x22d0f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1730,7 +1730,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::CheckSentryState)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22d0684;
+  constexpr static std::size_t addrs = 0x22d0644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1744,7 +1744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::UpdateStatistics)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x22d06d4;
+  constexpr static std::size_t addrs = 0x22d0694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1758,7 +1758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::LiteNetLibConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d1228;
+  constexpr static std::size_t addrs = 0x22d11e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1773,7 +1773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22d1280;
+  constexpr static std::size_t addrs = 0x22d1240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1788,7 +1788,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::HasConnectionToEndPoint)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22d132c;
+  constexpr static std::size_t addrs = 0x22d12ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1803,7 +1803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::HasPendingConnectionToEndPoint)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22d13e0;
+  constexpr static std::size_t addrs = 0x22d13a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1818,7 +1818,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x22d1494;
+  constexpr static std::size_t addrs = 0x22d1454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1833,7 +1833,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::System::Net::IPEndPoint*, ::System::Net::Sockets::SocketError)>(&::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkError)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22d16b0;
+  constexpr static std::size_t addrs = 0x22d1670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1850,7 +1850,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, int32_t)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22d16cc;
+  constexpr static std::size_t addrs = 0x22d168c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1866,7 +1866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::ConnectionRequest*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x22d16d0;
+  constexpr static std::size_t addrs = 0x22d1690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1881,7 +1881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectInfo)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d1940;
+  constexpr static std::size_t addrs = 0x22d1900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1898,7 +1898,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::LiteNetLib::NetPeer*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::DeliveryMethod)>(&::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22d1b84;
+  constexpr static std::size_t addrs = 0x22d1b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1917,7 +1917,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NetPacketReader*, ::LiteNetLib::UnconnectedMessageType)>(
         &::GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22d1d20;
+  constexpr static std::size_t addrs = 0x22d1ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1935,7 +1935,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection* (
     ::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*)>(&::GlobalNamespace::LiteNetLibConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22d1c4c;
+  constexpr static std::size_t addrs = 0x22d1c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1950,7 +1950,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::AcceptAllPendingRequests)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x22d1d5c;
+  constexpr static std::size_t addrs = 0x22d1d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -1964,7 +1964,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::ConnectionRequest*, ::StringW, ::StringW, bool)>(&::GlobalNamespace::LiteNetLibConnectionManager::TryAccept)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22d1820;
+  constexpr static std::size_t addrs = 0x22d17e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1981,7 +1981,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::StringW, ::StringW, bool)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x22d0b74;
+  constexpr static std::size_t addrs = 0x22d0b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1998,7 +1998,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::NetPeer*, ::LiteNetLib::DisconnectReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::RemoveConnection)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x22d1998;
+  constexpr static std::size_t addrs = 0x22d1958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2014,7 +2014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::LiteNetLib::DisconnectReason)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::TryDisconnect)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22d1874;
+  constexpr static std::size_t addrs = 0x22d1834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2029,7 +2029,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::LiteNetLib::DisconnectReason)>(&::GlobalNamespace::LiteNetLibConnectionManager::ToDisconnectedReason)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22d1e44;
+  constexpr static std::size_t addrs = 0x22d1e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2044,7 +2044,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectionFailedReason (::GlobalNamespace::LiteNetLibConnectionManager::*)(
     ::LiteNetLib::DisconnectReason)>(&::GlobalNamespace::LiteNetLibConnectionManager::ToConnectionFailedReason)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22d1e7c;
+  constexpr static std::size_t addrs = 0x22d1e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2059,7 +2059,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetConnectionMessage)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22d0a80;
+  constexpr static std::size_t addrs = 0x22d0a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -2073,7 +2073,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::BackgroundDisconnectSentry)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22d1e90;
+  constexpr static std::size_t addrs = 0x22d1e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -2087,7 +2087,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::BackgroundShutdownSentry)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22d1f54;
+  constexpr static std::size_t addrs = 0x22d1f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),
@@ -2101,7 +2101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::DeliveryMethod (*)(::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::ToLiteNetDeliveryMethod)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d04c0;
+  constexpr static std::size_t addrs = 0x22d0480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2116,7 +2116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGNet::Core::DeliveryMethod (*)(::LiteNetLib::DeliveryMethod)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::FromLiteNetDeliveryMethod)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d1d10;
+  constexpr static std::size_t addrs = 0x22d1cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2131,7 +2131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22d2018;
+  constexpr static std::size_t addrs = 0x22d1fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2146,7 +2146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::LogError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22d20a4;
+  constexpr static std::size_t addrs = 0x22d2064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2161,7 +2161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::LiteNetLibConnectionManager_NetPeerConnection*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetLogFormatConnection)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22d2130;
+  constexpr static std::size_t addrs = 0x22d20f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2176,7 +2176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::System::Net::IPEndPoint*)>(
     &::GlobalNamespace::LiteNetLibConnectionManager::GetLogFormatUserInfo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22d21a0;
+  constexpr static std::size_t addrs = 0x22d2160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2192,7 +2192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LiteNetLibConnectionManager::*)()>(
     &::GlobalNamespace::LiteNetLibConnectionManager::_DisposeAsync_b__98_0)> {
   constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x22d21fc;
+  constexpr static std::size_t addrs = 0x22d21bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LiteNetLibConnectionManager*>::get(),

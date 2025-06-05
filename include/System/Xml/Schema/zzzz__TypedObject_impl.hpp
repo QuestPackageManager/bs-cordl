@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
     &::System::Xml::Schema::TypedObject_DecimalStruct::get_IsDecimal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4399f3c;
+  constexpr static std::size_t addrs = 0x4399ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)(bool)>(
     &::System::Xml::Schema::TypedObject_DecimalStruct::set_IsDecimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4399f44;
+  constexpr static std::size_t addrs = 0x4399ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
     &::System::Xml::Schema::TypedObject_DecimalStruct::get_Dvalue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4399f50;
+  constexpr static std::size_t addrs = 0x4399ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
     &::System::Xml::Schema::TypedObject_DecimalStruct::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4399b5c;
+  constexpr static std::size_t addrs = 0x4399ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject_DecimalStruct*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)(int32_t)>(
     &::System::Xml::Schema::TypedObject_DecimalStruct::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4399af4;
+  constexpr static std::size_t addrs = 0x4399a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Dim)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43996c8;
+  constexpr static std::size_t addrs = 0x4399650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Dim",
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_IsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43996d0;
+  constexpr static std::size_t addrs = 0x4399658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_IsList",
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_IsDecimal)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43996d8;
+  constexpr static std::size_t addrs = 0x4399660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_IsDecimal",
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> (::System::Xml::Schema::TypedObject::*)()>(
     &::System::Xml::Schema::TypedObject::get_Dvalue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43996f4;
+  constexpr static std::size_t addrs = 0x439967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Dvalue",
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4399710;
+  constexpr static std::size_t addrs = 0x4399698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Value",
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (::System::Xml::Schema::TypedObject::*)()>(
     &::System::Xml::Schema::TypedObject::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4399718;
+  constexpr static std::size_t addrs = 0x43996a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "get_Type",
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::TypedObject::*)(::System::Object*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::TypedObject::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4399720;
+  constexpr static std::size_t addrs = 0x43996a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439987c;
+  constexpr static std::size_t addrs = 0x4399804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::SetDecimal)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x4399884;
+  constexpr static std::size_t addrs = 0x439980c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::TypedObject*>::get(), "SetDecimal",
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(
     &::System::Xml::Schema::TypedObject::ListDValueEquals)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4399bb8;
+  constexpr static std::size_t addrs = 0x4399b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(
     &::System::Xml::Schema::TypedObject::Equals)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x4399ccc;
+  constexpr static std::size_t addrs = 0x4399c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

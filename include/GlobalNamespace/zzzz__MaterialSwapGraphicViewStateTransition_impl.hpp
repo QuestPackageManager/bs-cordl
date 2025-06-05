@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d83d8;
+  constexpr static std::size_t addrs = 0x44d8360;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44d83e0;
+  constexpr static std::size_t addrs = 0x44d8368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44d83ec;
+  constexpr static std::size_t addrs = 0x44d8374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44d83fc;
+  constexpr static std::size_t addrs = 0x44d8384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44d840c;
+  constexpr static std::size_t addrs = 0x44d8394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44d841c;
+  constexpr static std::size_t addrs = 0x44d83a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44d842c;
+  constexpr static std::size_t addrs = 0x44d83b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44d843c;
+  constexpr static std::size_t addrs = 0x44d83c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44d846c;
+  constexpr static std::size_t addrs = 0x44d83f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44d849c;
+  constexpr static std::size_t addrs = 0x44d8424;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44d84cc;
+  constexpr static std::size_t addrs = 0x44d8454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44d84fc;
+  constexpr static std::size_t addrs = 0x44d8484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44d852c;
+  constexpr static std::size_t addrs = 0x44d84b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialSwapGraphicViewStateTransition::*)()>(
     &::GlobalNamespace::MaterialSwapGraphicViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44d855c;
+  constexpr static std::size_t addrs = 0x44d84e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA384Managed::*)()>(
     &::System::Security::Cryptography::SHA384Managed::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3caadfc;
+  constexpr static std::size_t addrs = 0x3caad84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA384Managed*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA384Managed::*)()>(
     &::System::Security::Cryptography::SHA384Managed::Initialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3caafc4;
+  constexpr static std::size_t addrs = 0x3caaf4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA384Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::SHA384Managed::HashCore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cab008;
+  constexpr static std::size_t addrs = 0x3caaf90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SHA384Managed::*)()>(
     &::System::Security::Cryptography::SHA384Managed::HashFinal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cab1d4;
+  constexpr static std::size_t addrs = 0x3cab15c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA384Managed::*)()>(
     &::System::Security::Cryptography::SHA384Managed::InitializeState)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3caaec4;
+  constexpr static std::size_t addrs = 0x3caae4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA384Managed*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA384Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::SHA384Managed::_HashData)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3cab00c;
+  constexpr static std::size_t addrs = 0x3caaf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SHA384Managed::*)()>(
     &::System::Security::Cryptography::SHA384Managed::_EndHash)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3cab1d8;
+  constexpr static std::size_t addrs = 0x3cab160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA384Managed*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint64_t>, ::cordl_internals::Ptr<uint64_t>, ::cordl_internals::Ptr<uint8_t>)>(
     &::System::Security::Cryptography::SHA384Managed::SHATransform)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x3cab380;
+  constexpr static std::size_t addrs = 0x3cab308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int32_t)>(&::System::Security::Cryptography::SHA384Managed::RotateRight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cabcb0;
+  constexpr static std::size_t addrs = 0x3cabc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&::System::Security::Cryptography::SHA384Managed::Ch)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cabc30;
+  constexpr static std::size_t addrs = 0x3cabbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&::System::Security::Cryptography::SHA384Managed::Maj)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3cabc9c;
+  constexpr static std::size_t addrs = 0x3cabc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::System::Security::Cryptography::SHA384Managed::Sigma_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cabc40;
+  constexpr static std::size_t addrs = 0x3cabbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::System::Security::Cryptography::SHA384Managed::Sigma_1)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cabbd4;
+  constexpr static std::size_t addrs = 0x3cabb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::System::Security::Cryptography::SHA384Managed::sigma_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cabcb8;
+  constexpr static std::size_t addrs = 0x3cabc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::System::Security::Cryptography::SHA384Managed::sigma_1)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cabd14;
+  constexpr static std::size_t addrs = 0x3cabc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint64_t>)>(&::System::Security::Cryptography::SHA384Managed::SHA384Expand)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3cabb2c;
+  constexpr static std::size_t addrs = 0x3cabab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

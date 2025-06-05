@@ -93,25 +93,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x44d9bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor, addr 0x44d9b9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x44d9b24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_highlightedColor, addr 0x44d9b84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x44d9b0c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_normalColor, addr 0x44d9b78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x44d9b00, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_pressedColor, addr 0x44d9b90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x44d9b18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor, addr 0x44d9bb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor, addr 0x44d9b3c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
-  /// @brief Method get_selectedColor, addr 0x44d9ba8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x44d9b30, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
 protected:

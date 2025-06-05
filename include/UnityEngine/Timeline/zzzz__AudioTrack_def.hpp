@@ -108,27 +108,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4820170, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x48200f8, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Timeline::AudioTrack__get_outputs_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x48202a8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x4820230, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x4820200, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x4820188, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4820344, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x48202cc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4820210, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4820198, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4820248, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x48201d0, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x482016c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x48200f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4820050, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481ffd8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
@@ -232,17 +232,17 @@ public:
 
   __declspec(property(get = get_outputs)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method CompileClips, addr 0x481f8c4, size 0x6a8, virtual true, abstract: false, final false
+  /// @brief Method CompileClips, addr 0x481f84c, size 0x6a8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CompileClips(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go,
                                                          ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>* timelineClips,
                                                          ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree);
 
-  /// @brief Method CreateClip, addr 0x481f790, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateClip, addr 0x481f718, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClip(::UnityEngine::AudioClip* clip);
 
   static inline ::UnityEngine::Timeline::AudioTrack* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x4820084, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x482000c, size 0x58, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityEngine::Timeline::AudioMixerProperties* const& __cordl_internal_get_m_TrackProperties() const;
@@ -251,10 +251,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TrackProperties(::UnityEngine::Timeline::AudioMixerProperties* value);
 
-  /// @brief Method .ctor, addr 0x48200dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4820064, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x481ffe0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x481ff68, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:

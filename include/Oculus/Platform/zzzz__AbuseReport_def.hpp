@@ -28,10 +28,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE AbuseReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReportRequestHandled, addr 0x3f5a644, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReportRequestHandled, addr 0x3f5a5cc, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response);
 
-  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x3f5a874, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x3f5a7fc, size 0x74, virtual false, abstract: false, final false
   static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
 protected:

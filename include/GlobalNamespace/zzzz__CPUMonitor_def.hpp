@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::CPUMonitor* New_ctor();
 
-  /// @brief Method PollUpdate, addr 0x22c2584, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x22c2544, size 0x11c, virtual true, abstract: false, final true
   inline void PollUpdate();
 
   constexpr ::System::Diagnostics::Process* const& __cordl_internal_get__currentProcess() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__utilization(::GlobalNamespace::RollingAverage* value);
 
-  /// @brief Method .ctor, addr 0x22c26c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c2688, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_utilization, addr 0x22c26a0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_utilization, addr 0x22c2660, size 0x28, virtual true, abstract: false, final true
   inline float_t get_utilization();
 
   /// @brief Convert to "::GlobalNamespace::ICPUMonitor"

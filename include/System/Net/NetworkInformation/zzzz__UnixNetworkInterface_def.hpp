@@ -52,12 +52,12 @@ public:
   /// @brief Field type, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Net::NetworkInformation::NetworkInterfaceType type;
 
-  /// @brief Method AddAddress, addr 0x43ebb14, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddAddress, addr 0x43eba9c, size 0xa4, virtual false, abstract: false, final false
   inline void AddAddress(::System::Net::IPAddress* address);
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method SetLinkLayerInfo, addr 0x43ebbb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkLayerInfo, addr 0x43ebb40, size 0xc, virtual false, abstract: false, final false
   inline void SetLinkLayerInfo(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* const& __cordl_internal_get_addresses() const;
@@ -90,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Net::NetworkInformation::NetworkInterfaceType value);
 
-  /// @brief Method .ctor, addr 0x43ebbd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ebb5c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x43eeecc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x43eee54, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x43eeed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x43eee5c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
 protected:

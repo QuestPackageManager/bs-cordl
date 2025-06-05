@@ -19,20 +19,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE PrimaryUserId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x263f558, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x263f518, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool val);
 
-  /// @brief Method IsPrimaryUserId, addr 0x263f658, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsPrimaryUserId, addr 0x263f618, size 0x30, virtual false, abstract: false, final false
   inline bool IsPrimaryUserId();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool critical, bool isPrimaryUserId);
 
-  /// @brief Method .ctor, addr 0x263f5c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f584, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x263f60c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263f5cc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isPrimaryUserId);
 
 protected:

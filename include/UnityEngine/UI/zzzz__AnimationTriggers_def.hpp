@@ -76,37 +76,37 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedTrigger(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49576bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4957644, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledTrigger, addr 0x49576ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledTrigger, addr 0x4957634, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_disabledTrigger();
 
-  /// @brief Method get_highlightedTrigger, addr 0x495767c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedTrigger, addr 0x4957604, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_highlightedTrigger();
 
-  /// @brief Method get_normalTrigger, addr 0x495766c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalTrigger, addr 0x49575f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_normalTrigger();
 
-  /// @brief Method get_pressedTrigger, addr 0x495768c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedTrigger, addr 0x4957614, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pressedTrigger();
 
-  /// @brief Method get_selectedTrigger, addr 0x495769c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedTrigger, addr 0x4957624, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedTrigger();
 
-  /// @brief Method set_disabledTrigger, addr 0x49576b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledTrigger, addr 0x495763c, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledTrigger(::StringW value);
 
-  /// @brief Method set_highlightedTrigger, addr 0x4957684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedTrigger, addr 0x495760c, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedTrigger(::StringW value);
 
-  /// @brief Method set_normalTrigger, addr 0x4957674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalTrigger, addr 0x49575fc, size 0x8, virtual false, abstract: false, final false
   inline void set_normalTrigger(::StringW value);
 
-  /// @brief Method set_pressedTrigger, addr 0x4957694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedTrigger, addr 0x495761c, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedTrigger(::StringW value);
 
-  /// @brief Method set_selectedTrigger, addr 0x49576a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedTrigger, addr 0x495762c, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedTrigger(::StringW value);
 
 protected:

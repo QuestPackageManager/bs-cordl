@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x270b49c, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x270b474, size 0x114, virtual true, abstract: false, final true
   inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
   /// @brief Method get_beat, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

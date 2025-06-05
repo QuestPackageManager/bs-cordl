@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_LoadBufferBase::*)(int32_t, ::StringW, bool, bool)>(
     &::HoudiniEngineUnity::HEU_LoadBufferBase::InitializeBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a621f0;
+  constexpr static std::size_t addrs = 0x3a621c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_LoadBufferBase::*)()>(&::HoudiniEngineUnity::HEU_LoadBufferBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a6220c;
+  constexpr static std::size_t addrs = 0x3a621e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_LoadBufferBase*>::get(), ".ctor",

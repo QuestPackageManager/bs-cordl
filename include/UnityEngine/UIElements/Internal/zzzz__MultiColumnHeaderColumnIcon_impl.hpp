@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::get_isImageInline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ec800;
+  constexpr static std::size_t addrs = 0x49ec788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)(bool)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::set_isImageInline)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49ec808;
+  constexpr static std::size_t addrs = 0x49ec790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49ec814;
+  constexpr static std::size_t addrs = 0x49ec79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::UpdateClassList)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x49ec91c;
+  constexpr static std::size_t addrs = 0x49ec8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)(
     ::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::__ctor_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49ecb18;
+  constexpr static std::size_t addrs = 0x49ecaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

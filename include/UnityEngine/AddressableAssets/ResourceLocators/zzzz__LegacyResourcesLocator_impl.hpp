@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Type*, ::ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(
     &::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::Locate)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x44fe030;
+  constexpr static std::size_t addrs = 0x44fdfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>* (
     ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::*)()>(&::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::get_Keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fe2a4;
+  constexpr static std::size_t addrs = 0x44fe22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::*)()>(
     &::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::get_LocatorId)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x44fe2ac;
+  constexpr static std::size_t addrs = 0x44fe234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::*)()>(
     &::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44fe2ec;
+  constexpr static std::size_t addrs = 0x44fe274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

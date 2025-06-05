@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x229bb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x229bacc, size 0x8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229bb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229bac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

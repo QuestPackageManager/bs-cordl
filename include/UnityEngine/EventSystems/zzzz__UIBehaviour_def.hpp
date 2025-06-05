@@ -18,48 +18,48 @@ namespace UnityEngine::EventSystems {
 class CORDL_TYPE UIBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x4ae34e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x4ae3468, size 0x4, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsActive, addr 0x4ae34e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsActive, addr 0x4ae3470, size 0x8, virtual true, abstract: false, final false
   inline bool IsActive();
 
-  /// @brief Method IsDestroyed, addr 0x4ae3500, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method IsDestroyed, addr 0x4ae3488, size 0x5c, virtual true, abstract: false, final true
   inline bool IsDestroyed();
 
   static inline ::UnityEngine::EventSystems::UIBehaviour* New_ctor();
 
-  /// @brief Method OnBeforeTransformParentChanged, addr 0x4ae34f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnBeforeTransformParentChanged, addr 0x4ae347c, size 0x4, virtual true, abstract: false, final false
   inline void OnBeforeTransformParentChanged();
 
-  /// @brief Method OnCanvasGroupChanged, addr 0x4ae34fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x4ae3484, size 0x4, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x4ae222c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x4ae21b4, size 0x4, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDestroy, addr 0x4ae34e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4ae346c, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x4ae34f8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x4ae3480, size 0x4, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x4ad4524, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4ad44ac, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4ad451c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4ad44a4, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x4ae34f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x4ae3478, size 0x4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformParentChanged, addr 0x4ae2238, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x4ae21c0, size 0x4, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method Start, addr 0x4ad9bec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x4ad9b74, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method .ctor, addr 0x4ad68c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad6848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

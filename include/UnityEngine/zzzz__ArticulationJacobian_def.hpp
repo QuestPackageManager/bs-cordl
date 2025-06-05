@@ -31,31 +31,31 @@ public:
 
   __declspec(property(get = get_rows, put = set_rows)) int32_t rows;
 
-  /// @brief Method .ctor, addr 0x48f67f8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f6780, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(int32_t rows, int32_t cols);
 
-  /// @brief Method get_Item, addr 0x48f6910, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48f6898, size 0xb8, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t row, int32_t col);
 
-  /// @brief Method get_columns, addr 0x48f6aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x48f6a28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columns();
 
-  /// @brief Method get_elements, addr 0x48f6ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elements, addr 0x48f6a38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_elements();
 
-  /// @brief Method get_rows, addr 0x48f6a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rows, addr 0x48f6a18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rows();
 
-  /// @brief Method set_Item, addr 0x48f69c8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48f6950, size 0xc8, virtual false, abstract: false, final false
   inline void set_Item(int32_t row, int32_t col, float_t value);
 
-  /// @brief Method set_columns, addr 0x48f6aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columns, addr 0x48f6a30, size 0x8, virtual false, abstract: false, final false
   inline void set_columns(int32_t value);
 
-  /// @brief Method set_elements, addr 0x48f6ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elements, addr 0x48f6a40, size 0x8, virtual false, abstract: false, final false
   inline void set_elements(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method set_rows, addr 0x48f6a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rows, addr 0x48f6a20, size 0x8, virtual false, abstract: false, final false
   inline void set_rows(int32_t value);
 
   // Ctor Parameters []

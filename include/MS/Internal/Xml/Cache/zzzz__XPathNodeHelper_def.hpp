@@ -22,24 +22,24 @@ namespace MS::Internal::Xml::Cache {
 class CORDL_TYPE XPathNodeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInScopeNamespaces, addr 0x430ad10, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetInScopeNamespaces, addr 0x430ac98, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                              ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
-  /// @brief Method GetLocalNamespaces, addr 0x430acac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetLocalNamespaces, addr 0x430ac34, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                            ::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
-  /// @brief Method GetLocation, addr 0x430b3a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetLocation, addr 0x430b330, size 0x38, virtual false, abstract: false, final false
   static inline int32_t GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageNode, int32_t idxNode);
 
-  /// @brief Method GetNonDescendant, addr 0x430a7bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNonDescendant, addr 0x430a744, size 0x80, virtual false, abstract: false, final false
   static inline bool GetNonDescendant(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode, ::ByRef<int32_t> idxNode);
 
-  /// @brief Method GetParent, addr 0x430afdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetParent, addr 0x430af64, size 0x54, virtual false, abstract: false, final false
   static inline bool GetParent(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode, ::ByRef<int32_t> idxNode);
 
-  /// @brief Method GetTextFollowing, addr 0x430a83c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetTextFollowing, addr 0x430a7c4, size 0x160, virtual false, abstract: false, final false
   static inline bool GetTextFollowing(::ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageCurrent, ::ByRef<int32_t> idxCurrent,
                                       ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageEnd, int32_t idxEnd);
 

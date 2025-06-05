@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BookmarksFoldersModel___c::*)()>(&::GlobalNamespace::BookmarksFoldersModel___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af1a0;
+  constexpr static std::size_t addrs = 0x26af180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BookmarksFoldersModel___c*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BookmarksFoldersModel___c::*)(::System::Environment_SpecialFolder)>(
     &::GlobalNamespace::BookmarksFoldersModel___c::_get_bookmarksFolders_b__3_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26af1a8;
+  constexpr static std::size_t addrs = 0x26af188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> (
     ::GlobalNamespace::BookmarksFoldersModel::*)()>(&::GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x26aeb3c;
+  constexpr static std::size_t addrs = 0x26aeb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BookmarksFoldersModel*>::get(),
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BookmarksFoldersModel::*)()>(&::GlobalNamespace::BookmarksFoldersModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af13c;
+  constexpr static std::size_t addrs = 0x26af11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BookmarksFoldersModel*>::get(), ".ctor",

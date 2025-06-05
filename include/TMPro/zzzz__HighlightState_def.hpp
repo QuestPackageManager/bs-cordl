@@ -30,22 +30,22 @@ namespace TMPro {
 struct CORDL_TYPE HighlightState {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x47c66b4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47c663c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x47c6734, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x47c66bc, size 0xa4, virtual false, abstract: false, final false
   inline bool Equals(::TMPro::HighlightState other);
 
-  /// @brief Method GetHashCode, addr 0x47c6648, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47c65d0, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x47c6524, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c64ac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color32 color, ::TMPro::TMP_Offset padding);
 
-  /// @brief Method op_Equality, addr 0x47c6534, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x47c64bc, size 0xcc, virtual false, abstract: false, final false
   static inline bool op_Equality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
-  /// @brief Method op_Inequality, addr 0x47c6600, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x47c6588, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::TMPro::HighlightState lhs, ::TMPro::HighlightState rhs);
 
   // Ctor Parameters []

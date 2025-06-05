@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(&::GlobalNamespace::FloatFxBeatmapEventData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224313c;
+  constexpr static std::size_t addrs = 0x22430fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(), "get_value",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243144;
+  constexpr static std::size_t addrs = 0x2243104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EaseType (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224314c;
+  constexpr static std::size_t addrs = 0x224310c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::set_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243154;
+  constexpr static std::size_t addrs = 0x2243114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(float_t, int32_t, int32_t, bool, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::FloatFxBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x224315c;
+  constexpr static std::size_t addrs = 0x224311c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(::GlobalNamespace::FloatFxBeatmapEventData*)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::UpdateBy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22431d8;
+  constexpr static std::size_t addrs = 0x2243198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22431fc;
+  constexpr static std::size_t addrs = 0x22431bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x22432ac;
+  constexpr static std::size_t addrs = 0x224326c;
 
   inline static ::MethodInfo const* methodInfo() {
 

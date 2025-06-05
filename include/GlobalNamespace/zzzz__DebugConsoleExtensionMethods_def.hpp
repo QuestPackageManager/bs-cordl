@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE DebugConsoleExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConsoleMessage, addr 0x3b0a06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToConsoleMessage, addr 0x3b0a044, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::DebugConsoleController_ConsoleMessage ToConsoleMessage(::StringW message, ::UnityEngine::LogType type);
 
 protected:

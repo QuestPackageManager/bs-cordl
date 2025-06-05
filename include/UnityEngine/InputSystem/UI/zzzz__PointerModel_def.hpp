@@ -65,43 +65,43 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method CopyPressStateFrom, addr 0x45f11f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CopyPressStateFrom, addr 0x45f117c, size 0x74, virtual false, abstract: false, final false
   inline void CopyPressStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method CopyPressStateTo, addr 0x45efc78, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CopyPressStateTo, addr 0x45efc00, size 0xac, virtual false, abstract: false, final false
   inline void CopyPressStateTo(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEndFrame, addr 0x45f5644, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEndFrame, addr 0x45f55cc, size 0xc, virtual false, abstract: false, final false
   inline void OnEndFrame();
 
-  /// @brief Method get_clickedOnSameGameObject, addr 0x45f567c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickedOnSameGameObject, addr 0x45f5604, size 0x8, virtual false, abstract: false, final false
   inline bool get_clickedOnSameGameObject();
 
-  /// @brief Method get_ignoreNextClick, addr 0x45f5658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreNextClick, addr 0x45f55e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreNextClick();
 
-  /// @brief Method get_isPressed, addr 0x45f5650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x45f55d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method get_pressTime, addr 0x45f566c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressTime, addr 0x45f55f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressTime();
 
-  /// @brief Method get_wasPressedThisFrame, addr 0x45f11e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_wasPressedThisFrame, addr 0x45f116c, size 0x10, virtual false, abstract: false, final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame, addr 0x45f0b48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_wasReleasedThisFrame, addr 0x45f0ad0, size 0x14, virtual false, abstract: false, final false
   inline bool get_wasReleasedThisFrame();
 
-  /// @brief Method set_clickedOnSameGameObject, addr 0x45f5684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clickedOnSameGameObject, addr 0x45f560c, size 0xc, virtual false, abstract: false, final false
   inline void set_clickedOnSameGameObject(bool value);
 
-  /// @brief Method set_ignoreNextClick, addr 0x45f5660, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreNextClick, addr 0x45f55e8, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreNextClick(bool value);
 
-  /// @brief Method set_isPressed, addr 0x45f44f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_isPressed, addr 0x45f4478, size 0x54, virtual false, abstract: false, final false
   inline void set_isPressed(bool value);
 
-  /// @brief Method set_pressTime, addr 0x45f5674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressTime, addr 0x45f55fc, size 0x8, virtual false, abstract: false, final false
   inline void set_pressTime(float_t value);
 
   // Ctor Parameters []
@@ -232,70 +232,70 @@ public:
 
   __declspec(property(get = get_worldPosition, put = set_worldPosition)) ::UnityEngine::Vector3 worldPosition;
 
-  /// @brief Method CopyTouchOrPenStateFrom, addr 0x45f4c34, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CopyTouchOrPenStateFrom, addr 0x45f4bbc, size 0xc8, virtual false, abstract: false, final false
   inline void CopyTouchOrPenStateFrom(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnFrameFinished, addr 0x45f4e98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnFrameFinished, addr 0x45f4e20, size 0x48, virtual false, abstract: false, final false
   inline void OnFrameFinished();
 
-  /// @brief Method .ctor, addr 0x45f3e74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45f3dfc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
 
-  /// @brief Method get_altitudeAngle, addr 0x45f55a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altitudeAngle, addr 0x45f5530, size 0x8, virtual false, abstract: false, final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method get_azimuthAngle, addr 0x45f5580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_azimuthAngle, addr 0x45f5508, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method get_pointerType, addr 0x45efd70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_pointerType, addr 0x45efcf8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::UIPointerType get_pointerType();
 
-  /// @brief Method get_pressure, addr 0x45f5558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x45f54e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_radius, addr 0x45f55f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x45f5580, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method get_screenPosition, addr 0x45f551c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_screenPosition, addr 0x45f54a4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
-  /// @brief Method get_scrollDelta, addr 0x45f554c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_scrollDelta, addr 0x45f54d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scrollDelta();
 
-  /// @brief Method get_twist, addr 0x45f55d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x45f5558, size 0x8, virtual false, abstract: false, final false
   inline float_t get_twist();
 
-  /// @brief Method get_worldOrientation, addr 0x45f5538, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_worldOrientation, addr 0x45f54c0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldOrientation();
 
-  /// @brief Method get_worldPosition, addr 0x45f5528, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldPosition, addr 0x45f54b0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldPosition();
 
-  /// @brief Method set_altitudeAngle, addr 0x45f55b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_altitudeAngle, addr 0x45f5538, size 0x20, virtual false, abstract: false, final false
   inline void set_altitudeAngle(float_t value);
 
-  /// @brief Method set_azimuthAngle, addr 0x45f5588, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_azimuthAngle, addr 0x45f5510, size 0x20, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
-  /// @brief Method set_pressure, addr 0x45f5560, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_pressure, addr 0x45f54e8, size 0x20, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
-  /// @brief Method set_radius, addr 0x45f5604, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x45f558c, size 0x40, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_screenPosition, addr 0x45f3e34, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_screenPosition, addr 0x45f3dbc, size 0x40, virtual false, abstract: false, final false
   inline void set_screenPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_scrollDelta, addr 0x45f4800, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_scrollDelta, addr 0x45f4788, size 0x40, virtual false, abstract: false, final false
   inline void set_scrollDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_twist, addr 0x45f55d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x45f5560, size 0x20, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
-  /// @brief Method set_worldOrientation, addr 0x45f4948, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_worldOrientation, addr 0x45f48d0, size 0x58, virtual false, abstract: false, final false
   inline void set_worldOrientation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_worldPosition, addr 0x45f4a48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_worldPosition, addr 0x45f49d0, size 0x54, virtual false, abstract: false, final false
   inline void set_worldPosition(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []

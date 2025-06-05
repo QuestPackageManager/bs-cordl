@@ -32,10 +32,10 @@ public:
   /// @brief Field _particleSystem, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Awake, addr 0x3b8523c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b85214, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Emit, addr 0x3b8524c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x3b85224, size 0x110, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int32_t count);
 
   static inline ::GlobalNamespace::NoteTrailParticleSystem* New_ctor();
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x3b8535c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b85334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

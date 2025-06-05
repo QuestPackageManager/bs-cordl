@@ -73,7 +73,7 @@ public:
 
   static inline ::System::Xml::XmlDownloadManager___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <GetStreamAsync>b__0, addr 0x435ea08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <GetStreamAsync>b__0, addr 0x435e990, size 0x8c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* _GetStreamAsync_b__0();
 
   constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x435e8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435e878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,10 +124,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x435ea94, size 0x790, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x435ea1c, size 0x790, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x435f224, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x435f1ac, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -219,23 +219,23 @@ public:
   /// @brief Field connections, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_connections, put = __cordl_internal_set_connections)) ::System::Collections::Hashtable* connections;
 
-  /// @brief Method GetNonFileStream, addr 0x435dfc8, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStream, addr 0x435df50, size 0x468, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetNonFileStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetNonFileStreamAsync, addr 0x435e8f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetNonFileStreamAsync, addr 0x435e880, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetNonFileStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                           ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetStream, addr 0x435dec8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStream, addr 0x435de50, size 0x100, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetStream(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy, ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
-  /// @brief Method GetStreamAsync, addr 0x435e790, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetStreamAsync, addr 0x435e718, size 0x160, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* GetStreamAsync(::System::Uri* uri, ::System::Net::ICredentials* credentials, ::System::Net::IWebProxy* proxy,
                                                                                    ::System::Net::Cache::RequestCachePolicy* cachePolicy);
 
   static inline ::System::Xml::XmlDownloadManager* New_ctor();
 
-  /// @brief Method Remove, addr 0x435e624, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x435e5ac, size 0x16c, virtual false, abstract: false, final false
   inline void Remove(::StringW host);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_connections() const;
@@ -244,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x435ea00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435e988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__difficulties_k__BackingField(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x22dd108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd0c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_characteristic, addr 0x22dd0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characteristic, addr 0x22dd0a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristic();
 
-  /// @brief Method get_difficulties, addr 0x22dd0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulties, addr 0x22dd0b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_difficulties();
 
-  /// @brief Method set_characteristic, addr 0x22dd0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_characteristic, addr 0x22dd0b0, size 0x8, virtual false, abstract: false, final false
   inline void set_characteristic(::StringW value);
 
-  /// @brief Method set_difficulties, addr 0x22dd100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_difficulties, addr 0x22dd0c0, size 0x8, virtual false, abstract: false, final false
   inline void set_difficulties(::GlobalNamespace::BeatmapDifficultyMask value);
 
 protected:

@@ -57,16 +57,16 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4223058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4222fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x4223060, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x4222fe8, size 0x50, virtual false, abstract: false, final false
   inline bool _get_ConnectionClose_b__19_0(::StringW l);
 
-  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x42230b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x4223038, size 0x58, virtual false, abstract: false, final false
   inline bool _get_ExpectContinue_b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
-  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x4223108, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x4223090, size 0x58, virtual false, abstract: false, final false
   inline bool _get_TransferEncodingChunked_b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders___c* getStaticF___9();
@@ -134,7 +134,7 @@ public:
   /// @brief Field expectContinue, offset 0x20, size 0x2
   __declspec(property(get = __cordl_internal_get_expectContinue, put = __cordl_internal_set_expectContinue)) ::System::Nullable_1<bool> expectContinue;
 
-  /// @brief Method AddHeaders, addr 0x4217b90, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AddHeaders, addr 0x4217b18, size 0x294, virtual false, abstract: false, final false
   inline void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders* New_ctor();
@@ -145,28 +145,28 @@ public:
 
   constexpr void __cordl_internal_set_expectContinue(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x421a418, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421a3a0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Connection, addr 0x42139e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x421396c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
 
-  /// @brief Method get_ConnectionClose, addr 0x42143cc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionClose, addr 0x4214354, size 0x184, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ConnectionClose();
 
-  /// @brief Method get_ExpectContinue, addr 0x4214550, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_ExpectContinue, addr 0x42144d8, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ExpectContinue();
 
-  /// @brief Method get_Host, addr 0x421471c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Host, addr 0x42146a4, size 0x68, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_TransferEncoding, addr 0x4222f94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncoding, addr 0x4222f1c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
 
-  /// @brief Method get_TransferEncodingChunked, addr 0x4216944, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method get_TransferEncodingChunked, addr 0x42168cc, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_TransferEncodingChunked();
 
-  /// @brief Method set_Authorization, addr 0x4222f20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Authorization, addr 0x4222ea8, size 0x74, virtual false, abstract: false, final false
   inline void set_Authorization(::System::Net::Http::Headers::AuthenticationHeaderValue* value);
 
 protected:

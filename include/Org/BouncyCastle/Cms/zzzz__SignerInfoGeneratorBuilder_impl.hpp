@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)()>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267e298;
+  constexpr static std::size_t addrs = 0x267e258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* (
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(bool)>(&::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::SetDirectSignature)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x267e2a0;
+  constexpr static std::size_t addrs = 0x267e260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* (::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(
         &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::WithSignedAttributeGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267e2ac;
+  constexpr static std::size_t addrs = 0x267e26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* (::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(
         &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::WithUnsignedAttributeGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267e2b4;
+  constexpr static std::size_t addrs = 0x267e274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*, ::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::Build)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x267e2bc;
+  constexpr static std::size_t addrs = 0x267e27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::Build)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x267e4e0;
+  constexpr static std::size_t addrs = 0x267e4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*)>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::CreateGenerator)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x267e3e4;
+  constexpr static std::size_t addrs = 0x267e3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

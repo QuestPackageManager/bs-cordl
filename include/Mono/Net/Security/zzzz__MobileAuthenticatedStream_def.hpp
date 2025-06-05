@@ -289,10 +289,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4114fec, size 0x920, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4114f74, size 0x920, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x411590c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4115894, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -370,10 +370,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4115974, size 0x7a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x41158fc, size 0x7a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x411611c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x41160a4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -456,7 +456,7 @@ public:
 
   static inline ::Mono::Net::Security::MobileAuthenticatedStream___c__DisplayClass66_0* New_ctor();
 
-  /// @brief Method <InnerRead>b__0, addr 0x41161a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <InnerRead>b__0, addr 0x4116128, size 0x48, virtual false, abstract: false, final false
   inline int32_t _InnerRead_b__0();
 
   constexpr ::Mono::Net::Security::MobileAuthenticatedStream* const& __cordl_internal_get___4__this() const;
@@ -471,7 +471,7 @@ public:
 
   constexpr void __cordl_internal_set_len(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4116198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4116120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -518,10 +518,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x41161e8, size 0x4a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4116170, size 0x4a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x411668c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4116614, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -598,10 +598,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4116708, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4116690, size 0x2fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4116a04, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x411698c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -770,104 +770,104 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AuthenticateAsClient, addr 0x4113b30, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AuthenticateAsClient, addr 0x4113ab8, size 0x1d8, virtual false, abstract: false, final false
   inline void AuthenticateAsClient(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates,
                                    ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
 
-  /// @brief Method AuthenticateAsClientAsync, addr 0x4114098, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method AuthenticateAsClientAsync, addr 0x4114020, size 0x11c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* AuthenticateAsClientAsync(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates,
                                                                      ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
 
-  /// @brief Method AuthenticateAsServer, addr 0x4113e5c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AuthenticateAsServer, addr 0x4113de4, size 0x1d8, virtual false, abstract: false, final false
   inline void AuthenticateAsServer(::System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, bool clientCertificateRequired,
                                    ::System::Security::Authentication::SslProtocols enabledSslProtocols, bool checkCertificateRevocation);
 
-  /// @brief Method CheckThrow, addr 0x411385c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CheckThrow, addr 0x41137e4, size 0xc0, virtual false, abstract: false, final false
   inline void CheckThrow(bool authSuccessCheck, bool shutdownCheck);
 
   /// @brief Method CreateContext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::MobileTlsContext* CreateContext(::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method Dispose, addr 0x41148f0, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4114878, size 0x1d4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush, addr 0x4114b34, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x4114abc, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetIOException, addr 0x411391c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetIOException, addr 0x41138a4, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Exception* GetIOException(::System::Exception* e, ::StringW message);
 
-  /// @brief Method GetInternalError, addr 0x4113a98, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetInternalError, addr 0x4113a20, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInternalError();
 
-  /// @brief Method GetInvalidNestedCallException, addr 0x4113ae4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidNestedCallException, addr 0x4113a6c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidNestedCallException();
 
-  /// @brief Method GetSSPIException, addr 0x41118a4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetSSPIException, addr 0x411182c, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Exception* GetSSPIException(::System::Exception* e);
 
-  /// @brief Method InnerRead, addr 0x4111f1c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method InnerRead, addr 0x4111ea4, size 0x118, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* InnerRead(bool sync, int32_t requestedSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InnerWrite, addr 0x4111a38, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InnerWrite, addr 0x41119c0, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InnerWrite(bool sync, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InternalRead, addr 0x411459c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InternalRead, addr 0x4114524, size 0x178, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> InternalRead(::Mono::Net::Security::AsyncProtocolRequest* asyncRequest, ::Mono::Net::Security::BufferOffsetSize* internalBuffer,
                                                             ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method InternalRead, addr 0x410e684, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method InternalRead, addr 0x410e60c, size 0x10c, virtual false, abstract: false, final false
   inline int32_t InternalRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::ByRef<bool> outWantMore);
 
-  /// @brief Method InternalWrite, addr 0x4114714, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InternalWrite, addr 0x411469c, size 0xf4, virtual false, abstract: false, final false
   inline bool InternalWrite(::Mono::Net::Security::AsyncProtocolRequest* asyncRequest, ::Mono::Net::Security::BufferOffsetSize2* internalBuffer, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
                             int32_t offset, int32_t size);
 
-  /// @brief Method InternalWrite, addr 0x410e1a4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method InternalWrite, addr 0x410e12c, size 0x1e8, virtual false, abstract: false, final false
   inline bool InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   static inline ::Mono::Net::Security::MobileAuthenticatedStream* New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider);
 
-  /// @brief Method ProcessAuthentication, addr 0x4113d6c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ProcessAuthentication, addr 0x4113cf4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessAuthentication(bool runSynchronously, ::Mono::Net::Security::MonoSslAuthenticationOptions* options,
                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ProcessHandshake, addr 0x41120d4, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method ProcessHandshake, addr 0x411205c, size 0x3c4, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus ProcessHandshake(::Mono::Net::Security::AsyncOperationStatus status, bool renegotiate);
 
-  /// @brief Method ProcessRead, addr 0x4112618, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ProcessRead, addr 0x41125a0, size 0x160, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> ProcessRead(::Mono::Net::Security::BufferOffsetSize* userBuffer);
 
-  /// @brief Method ProcessWrite, addr 0x41127f8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ProcessWrite, addr 0x4112780, size 0x160, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> ProcessWrite(::Mono::Net::Security::BufferOffsetSize* userBuffer);
 
-  /// @brief Method Read, addr 0x41141b4, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x411413c, size 0xe0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x4114474, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x41143fc, size 0x94, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek, addr 0x4114d34, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x4114cbc, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetException, addr 0x41112cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x4111254, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* SetException(::System::Exception* e);
 
-  /// @brief Method SetLength, addr 0x4114d6c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x4114cf4, size 0x24, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method StartOperation, addr 0x4114294, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x411421c, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* StartOperation(::Mono::Net::Security::MobileAuthenticatedStream_OperationType type, ::Mono::Net::Security::AsyncProtocolRequest* asyncRequest,
                                                                      ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Write, addr 0x41143a8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x4114330, size 0xcc, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x4114508, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x4114490, size 0x94, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <InnerWrite>b__67_0, addr 0x4114fb8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <InnerWrite>b__67_0, addr 0x4114f40, size 0x34, virtual false, abstract: false, final false
   inline void _InnerWrite_b__67_0();
 
   constexpr ::Mono::Net::Security::MobileTlsProvider* const& __cordl_internal_get__Provider_k__BackingField() const;
@@ -966,7 +966,7 @@ public:
 
   constexpr void __cordl_internal_set_xobileTlsContext(::Mono::Net::Security::MobileTlsContext* value);
 
-  /// @brief Method .ctor, addr 0x4110004, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410ff8c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner, ::Mono::Security::Interface::MonoTlsSettings* settings,
                     ::Mono::Net::Security::MobileTlsProvider* provider);
 
@@ -974,49 +974,49 @@ public:
 
   static inline int32_t getStaticF_uniqueNameInteger();
 
-  /// @brief Method get_CanRead, addr 0x4114d90, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x4114d18, size 0x44, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x4114e58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x4114de0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanTimeout, addr 0x4114dd4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanTimeout, addr 0x4114d5c, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
-  /// @brief Method get_CanWrite, addr 0x4114df4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x4114d7c, size 0x64, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_InternalLocalCertificate, addr 0x4114c34, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method get_InternalLocalCertificate, addr 0x4114bbc, size 0x100, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_InternalLocalCertificate();
 
-  /// @brief Method get_IsAuthenticated, addr 0x4114808, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAuthenticated, addr 0x4114790, size 0xe8, virtual true, abstract: false, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_Length, addr 0x4114e60, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4114de8, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_LocalCertificate, addr 0x4114b58, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method get_LocalCertificate, addr 0x4114ae0, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalCertificate();
 
-  /// @brief Method get_Position, addr 0x4114e80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4114e08, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method get_Provider, addr 0x4113844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x41137cc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileTlsProvider* get_Provider();
 
-  /// @brief Method get_ReadTimeout, addr 0x4114edc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ReadTimeout, addr 0x4114e64, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_ReadTimeout();
 
-  /// @brief Method get_Settings, addr 0x411383c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x41137c4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
-  /// @brief Method get_SslStream, addr 0x4113834, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_SslStream, addr 0x41137bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Security::SslStream* get_SslStream();
 
-  /// @brief Method get_TargetHost, addr 0x411384c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x41137d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method get_WriteTimeout, addr 0x4114f24, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_WriteTimeout, addr 0x4114eac, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_WriteTimeout();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1026,16 +1026,16 @@ public:
 
   static inline void setStaticF_uniqueNameInteger(int32_t value);
 
-  /// @brief Method set_Position, addr 0x4114ea4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x4114e2c, size 0x38, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method set_ReadTimeout, addr 0x4114f00, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_ReadTimeout, addr 0x4114e88, size 0x24, virtual true, abstract: false, final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method set_TargetHost, addr 0x4113854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetHost, addr 0x41137dc, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetHost(::StringW value);
 
-  /// @brief Method set_WriteTimeout, addr 0x4114f48, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_WriteTimeout, addr 0x4114ed0, size 0x24, virtual true, abstract: false, final false
   inline void set_WriteTimeout(int32_t value);
 
 protected:

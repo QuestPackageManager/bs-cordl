@@ -32,10 +32,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a97f1c, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a97ef4, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
 
-  /// @brief Method IsNull, addr 0x3a97ebc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a97e94, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::LODGroup> value);
 
-  /// @brief Method .ctor, addr 0x3a97e94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a97e6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LODGroup* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"

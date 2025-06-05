@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Interpolation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x44da8a8, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x44da830, size 0x54c, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t t, ::GlobalNamespace::EaseType easeType);
 
 protected:

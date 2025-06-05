@@ -31,15 +31,15 @@ public:
 
   static inline ::GlobalNamespace::ClientCertificateValidator* New_ctor();
 
-  /// @brief Method ValidateCertificateChain, addr 0x22ba910, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ValidateCertificateChain, addr 0x22ba8d0, size 0x4, virtual true, abstract: false, final true
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainInternal, addr 0x22ba914, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainInternal, addr 0x22ba8d4, size 0x1bc, virtual false, abstract: false, final false
   inline void ValidateCertificateChainInternal(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method .ctor, addr 0x22baad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22baa90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICertificateValidator"

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::BerGenerator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2633110;
+  constexpr static std::size_t addrs = 0x26330d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::System::IO::Stream*, int32_t, bool)>(
     &::Org::BouncyCastle::Asn1::BerGenerator::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x263313c;
+  constexpr static std::size_t addrs = 0x26330fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::BerGenerator::AddObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2633188;
+  constexpr static std::size_t addrs = 0x2633148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::BerGenerator::GetRawOutputStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263320c;
+  constexpr static std::size_t addrs = 0x26331cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)()>(&::Org::BouncyCastle::Asn1::BerGenerator::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2633214;
+  constexpr static std::size_t addrs = 0x26331d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(int32_t)>(&::Org::BouncyCastle::Asn1::BerGenerator::WriteHdr)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x26332b0;
+  constexpr static std::size_t addrs = 0x2633270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::BerGenerator::WriteBerHeader)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26332f4;
+  constexpr static std::size_t addrs = 0x26332b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::BerGenerator::WriteBerBody)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x263334c;
+  constexpr static std::size_t addrs = 0x263330c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)()>(&::Org::BouncyCastle::Asn1::BerGenerator::WriteBerEnd)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2633218;
+  constexpr static std::size_t addrs = 0x26331d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerGenerator*>::get(), "WriteBerEnd",

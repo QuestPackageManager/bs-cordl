@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_speedMul(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b0ea4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0e84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t speedMul);
 
 protected:

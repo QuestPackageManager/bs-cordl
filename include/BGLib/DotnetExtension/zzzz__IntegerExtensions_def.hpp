@@ -19,7 +19,7 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUInt, addr 0x229fd40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt, addr 0x229fd00, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ::ByRef<uint32_t> uNumber, ::ByRef<bool> isNegative);
 
 protected:

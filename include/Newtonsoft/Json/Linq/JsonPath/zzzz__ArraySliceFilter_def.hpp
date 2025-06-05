@@ -120,27 +120,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3f32304, size 0x930, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3f3228c, size 0x930, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x3f32d2c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x3f32cb4, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x3f32ce4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x3f32c6c, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3f32dd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3f32d60, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f32cec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f32c74, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f32d24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f32cac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3f322e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3f32270, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -227,10 +227,10 @@ public:
 
   constexpr void __cordl_internal_set_settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value);
 
-  /// @brief Method <>m__Finally1, addr 0x3f32c34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x3f32bbc, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x3f32294, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3221c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -365,12 +365,12 @@ public:
   /// @brief Field <Step>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Step_k__BackingField, put = __cordl_internal_set__Step_k__BackingField)) ::System::Nullable_1<int32_t> _Step_k__BackingField;
 
-  /// @brief Method ExecuteFilter, addr 0x3f3220c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x3f32194, size 0x88, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method IsValid, addr 0x3f322c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3f32250, size 0x18, virtual false, abstract: false, final false
   inline bool IsValid(int32_t index, int32_t stopIndex, bool positiveStep);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter* New_ctor();
@@ -393,25 +393,25 @@ public:
 
   constexpr void __cordl_internal_set__Step_k__BackingField(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x3f322e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f32268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_End, addr 0x3f321ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x3f32174, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_End();
 
-  /// @brief Method get_Start, addr 0x3f321dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x3f32164, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Start();
 
-  /// @brief Method get_Step, addr 0x3f321fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Step, addr 0x3f32184, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Step();
 
-  /// @brief Method set_End, addr 0x3f321f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_End, addr 0x3f3217c, size 0x8, virtual false, abstract: false, final false
   inline void set_End(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_Start, addr 0x3f321e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Start, addr 0x3f3216c, size 0x8, virtual false, abstract: false, final false
   inline void set_Start(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_Step, addr 0x3f32204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Step, addr 0x3f3218c, size 0x8, virtual false, abstract: false, final false
   inline void set_Step(::System::Nullable_1<int32_t> value);
 
 protected:

@@ -98,7 +98,7 @@ public:
   /// @brief Field _roundingType, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__roundingType, put = __cordl_internal_set__roundingType)) ::Tweening::IntTween_RoundingType _roundingType;
 
-  /// @brief Method GetValue, addr 0x44dafac, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44daf34, size 0x254, virtual true, abstract: false, final false
   inline int32_t GetValue(float_t t);
 
   static inline ::Tweening::IntTween* New_ctor();
@@ -112,10 +112,10 @@ public:
 
   constexpr void __cordl_internal_set__roundingType(::Tweening::IntTween_RoundingType value);
 
-  /// @brief Method .ctor, addr 0x44daec0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dae48, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44daf08, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dae90, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t fromValue, int32_t toValue, ::System::Action_1<int32_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, ::Tweening::IntTween_RoundingType roundingType,
                     float_t delay);
 

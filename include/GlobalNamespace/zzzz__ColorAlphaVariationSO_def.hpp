@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__baseColor(::UnityW<::GlobalNamespace::NoAlphaColorSO> value);
 
-  /// @brief Method .ctor, addr 0x26a102c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x26a1024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x26a0fe4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::AlphaSO> get_alpha();
 
-  /// @brief Method get_baseColor, addr 0x26a101c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseColor, addr 0x26a0fdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::NoAlphaColorSO> get_baseColor();
 
-  /// @brief Method get_color, addr 0x26a0fe8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x26a0fa8, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

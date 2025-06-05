@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapBasicData::*)(float_t, float_t, ::GlobalNamespace::EnvironmentName, ::GlobalNamespace::ColorScheme*, int32_t, int32_t, int32_t, int32_t,
                                                               ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::GlobalNamespace::BeatmapBasicData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26c482c;
+  constexpr static std::size_t addrs = 0x26c480c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

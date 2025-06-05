@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::CrossFadeAudioSource::*)()>(
     &::GlobalNamespace::CrossFadeAudioSource::get_clip)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad0c80;
+  constexpr static std::size_t addrs = 0x3ad0c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), "get_clip",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::CrossFadeAudioSource::set_clip)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3ad0c9c;
+  constexpr static std::size_t addrs = 0x3ad0c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::set_pitch)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3ad0cdc;
+  constexpr static std::size_t addrs = 0x3ad0cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(&::GlobalNamespace::CrossFadeAudioSource::set_time)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3ad0d1c;
+  constexpr static std::size_t addrs = 0x3ad0cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::get_isPlaying)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad0d5c;
+  constexpr static std::size_t addrs = 0x3ad0d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), "get_isPlaying",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::Awake)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3ad0d78;
+  constexpr static std::size_t addrs = 0x3ad0d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), "Awake",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ad0ecc;
+  constexpr static std::size_t addrs = 0x3ad0ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), "OnDestroy",
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(
     &::GlobalNamespace::CrossFadeAudioSource::PlayPitchGainEffect)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ad0f54;
+  constexpr static std::size_t addrs = 0x3ad0f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(
     &::GlobalNamespace::CrossFadeAudioSource::InterruptLastPitchGainEffect)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ad0f8c;
+  constexpr static std::size_t addrs = 0x3ad0f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t, float_t)>(
     &::GlobalNamespace::CrossFadeAudioSource::CrossFade)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3ad0fa4;
+  constexpr static std::size_t addrs = 0x3ad0f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::Play)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad1170;
+  constexpr static std::size_t addrs = 0x3ad1148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), "Play",
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::Stop)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ad118c;
+  constexpr static std::size_t addrs = 0x3ad1164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), "Stop",
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ad11dc;
+  constexpr static std::size_t addrs = 0x3ad11b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(), ".ctor",
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(
     &::GlobalNamespace::CrossFadeAudioSource::_Awake_b__21_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad11f0;
+  constexpr static std::size_t addrs = 0x3ad11c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(
     &::GlobalNamespace::CrossFadeAudioSource::_Awake_b__21_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad120c;
+  constexpr static std::size_t addrs = 0x3ad11e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(
     &::GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad1228;
+  constexpr static std::size_t addrs = 0x3ad1200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)(float_t)>(
     &::GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ad1244;
+  constexpr static std::size_t addrs = 0x3ad121c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CrossFadeAudioSource::*)()>(&::GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_2)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ad1260;
+  constexpr static std::size_t addrs = 0x3ad1238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CrossFadeAudioSource*>::get(),

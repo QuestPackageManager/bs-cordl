@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)()>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26132f4;
+  constexpr static std::size_t addrs = 0x26132b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetSerialNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2613390;
+  constexpr static std::size_t addrs = 0x2613350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetSignature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2613398;
+  constexpr static std::size_t addrs = 0x2613358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetIssuer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26133a0;
+  constexpr static std::size_t addrs = 0x2613360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::X509::Time*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetStartDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26133a8;
+  constexpr static std::size_t addrs = 0x2613368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::DerUtcTime*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetStartDate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26133b0;
+  constexpr static std::size_t addrs = 0x2613370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::X509::Time*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetEndDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2613414;
+  constexpr static std::size_t addrs = 0x26133d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::DerUtcTime*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetEndDate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x261341c;
+  constexpr static std::size_t addrs = 0x26133dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(
     &::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetSubject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2613480;
+  constexpr static std::size_t addrs = 0x2613440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)(
     ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(&::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::SetSubjectPublicKeyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2613488;
+  constexpr static std::size_t addrs = 0x2613448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* (
     ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::*)()>(&::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator::GenerateTbsCertificate)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x2613490;
+  constexpr static std::size_t addrs = 0x2613450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

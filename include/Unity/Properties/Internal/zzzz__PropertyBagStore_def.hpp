@@ -97,7 +97,7 @@ public:
   /// @brief Method AddPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> static inline void AddPropertyBag(::Unity::Properties::IPropertyBag_1<TContainer>* propertyBag);
 
-  /// @brief Method GetPropertyBag, addr 0x4914e14, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBag, addr 0x4914d9c, size 0x284, virtual false, abstract: false, final false
   static inline ::Unity::Properties::IPropertyBag* GetPropertyBag(::System::Type* type);
 
   /// @brief Method GetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

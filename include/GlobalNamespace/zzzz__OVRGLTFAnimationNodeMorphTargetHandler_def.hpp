@@ -34,12 +34,12 @@ public:
   /// @brief Field modified, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_modified, put = __cordl_internal_set_modified)) bool modified;
 
-  /// @brief Method MarkModified, addr 0x3faedf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkModified, addr 0x3faed7c, size 0xc, virtual false, abstract: false, final false
   inline void MarkModified();
 
   static inline ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler* New_ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method Update, addr 0x3faea68, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fae9f0, size 0x38c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_Weights() const;
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_modified(bool value);
 
-  /// @brief Method .ctor, addr 0x3faea34, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fae9bc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRMeshData meshData);
 
-  /// @brief Method get_MeshData, addr 0x3faea0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_MeshData, addr 0x3fae994, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRMeshData get_MeshData();
 
-  /// @brief Method set_MeshData, addr 0x3faea1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_MeshData, addr 0x3fae9a4, size 0x18, virtual false, abstract: false, final false
   inline void set_MeshData(::GlobalNamespace::OVRMeshData value);
 
 protected:

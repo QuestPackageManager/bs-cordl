@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NtlmClient::*)()>(&::System::Net::NtlmClient::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43d37c8;
+  constexpr static std::size_t addrs = 0x43d3750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NtlmClient*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::System::Net::NtlmClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::NtlmClient::Authenticate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43d382c;
+  constexpr static std::size_t addrs = 0x43d37b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::System::Net::NtlmClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::NtlmClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d38fc;
+  constexpr static std::size_t addrs = 0x43d3884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NtlmClient::*)()>(&::System::Net::NtlmClient::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43d3904;
+  constexpr static std::size_t addrs = 0x43d388c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NtlmClient*>::get(), "get_AuthenticationType",

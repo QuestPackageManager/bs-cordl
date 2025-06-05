@@ -57,37 +57,37 @@ public:
   __declspec(property(get = getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy,
                       put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy)) ::System::IntPtr s_ReflectionHelperSetNativeExceptionOnProxy;
 
-  /// @brief Method GetConstructorMember, addr 0x4849b98, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorMember, addr 0x4849b20, size 0x188, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetConstructorMember(::System::IntPtr jclass, ::StringW signature);
 
-  /// @brief Method GetFieldClass, addr 0x484a118, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetFieldClass, addr 0x484a0a0, size 0x64, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldClass(::System::IntPtr field);
 
-  /// @brief Method GetFieldMember, addr 0x4849f1c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetFieldMember, addr 0x4849ea4, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFieldMember(::System::IntPtr jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldSignature, addr 0x484a17c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldSignature, addr 0x484a104, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetFieldSignature(::System::IntPtr field);
 
-  /// @brief Method GetMethodID, addr 0x4849afc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x4849a84, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodMember, addr 0x4849d20, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetMethodMember, addr 0x4849ca8, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetMethodMember(::System::IntPtr jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetStaticMethodID, addr 0x4849a60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetStaticMethodID, addr 0x48499e8, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method IsAssignableFrom, addr 0x4849a40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableFrom, addr 0x48499c8, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method IsPrimitive, addr 0x4849a2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x48499b4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method NewProxyInstance, addr 0x484a224, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method NewProxyInstance, addr 0x484a1ac, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::IntPtr NewProxyInstance(::System::IntPtr player, ::System::IntPtr delegateHandle, ::System::IntPtr interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy, addr 0x4847470, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetNativeExceptionOnProxy, addr 0x48473f8, size 0x108, virtual false, abstract: false, final false
   static inline void SetNativeExceptionOnProxy(::System::IntPtr proxy, ::System::Exception* e, bool methodNotFound);
 
   static inline ::System::IntPtr getStaticF_s_FieldGetDeclaringClass();

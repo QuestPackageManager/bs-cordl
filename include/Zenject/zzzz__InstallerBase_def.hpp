@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2c4d4, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2c45c, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x4b2c3a0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x4b2c328, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x4b2c21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2c1a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x4b2c390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4b2c318, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled, addr 0x4b2c398, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x4b2c320, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
   /// @brief Convert to "::Zenject::IInstaller"

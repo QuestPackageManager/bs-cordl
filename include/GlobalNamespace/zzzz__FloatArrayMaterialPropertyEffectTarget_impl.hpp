@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::*)()>(
     &::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b8d9e4;
+  constexpr static std::size_t addrs = 0x3b8d9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8da04;
+  constexpr static std::size_t addrs = 0x3b8d9dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8dab4;
+  constexpr static std::size_t addrs = 0x3b8da8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b8da08;
+  constexpr static std::size_t addrs = 0x3b8d9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::*)()>(
     &::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b8dab8;
+  constexpr static std::size_t addrs = 0x3b8da90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

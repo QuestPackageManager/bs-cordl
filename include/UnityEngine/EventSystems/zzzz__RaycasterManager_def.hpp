@@ -27,13 +27,13 @@ public:
   /// @brief Field s_Raycasters, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* s_Raycasters;
 
-  /// @brief Method AddRaycaster, addr 0x4ae1cd8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddRaycaster, addr 0x4ae1c60, size 0x110, virtual false, abstract: false, final false
   static inline void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
-  /// @brief Method GetRaycasters, addr 0x4ae1de8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRaycasters, addr 0x4ae1d70, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* GetRaycasters();
 
-  /// @brief Method RemoveRaycasters, addr 0x4ae1e40, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRaycasters, addr 0x4ae1dc8, size 0xd0, virtual false, abstract: false, final false
   static inline void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* getStaticF_s_Raycasters();

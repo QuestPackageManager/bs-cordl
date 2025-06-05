@@ -20,16 +20,16 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GroundShadow* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x39e714c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39e7124, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x39e71ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e71c4, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Setup, addr 0x39e7150, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x39e7128, size 0x9c, virtual false, abstract: false, final false
   inline void Setup();
 
-  /// @brief Method .ctor, addr 0x39e71f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e71c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* New_ctor();
 
-  /// @brief Method PlatformUsesMultiThreading, addr 0x4797e54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PlatformUsesMultiThreading, addr 0x4797ddc, size 0xc, virtual false, abstract: false, final false
   static inline bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method .ctor, addr 0x4797e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4797de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

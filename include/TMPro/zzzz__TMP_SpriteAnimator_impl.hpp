@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)(int32_t)>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x480096c;
+  constexpr static std::size_t addrs = 0x48008f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4800a14;
+  constexpr static std::size_t addrs = 0x480099c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x910;
-  constexpr static std::size_t addrs = 0x4800a18;
+  constexpr static std::size_t addrs = 0x48009a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x480134c;
+  constexpr static std::size_t addrs = 0x48012d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4801354;
+  constexpr static std::size_t addrs = 0x48012dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::*)()>(
     &::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x480138c;
+  constexpr static std::size_t addrs = 0x4801314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4800738;
+  constexpr static std::size_t addrs = 0x48006c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "Awake",
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4800788;
+  constexpr static std::size_t addrs = 0x4800710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "OnEnable",
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x480078c;
+  constexpr static std::size_t addrs = 0x4800714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "OnDisable",
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::StopAllAnimations)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4800790;
+  constexpr static std::size_t addrs = 0x4800718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), "StopAllAnimations",
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)(int32_t, ::TMPro::TMP_SpriteAsset*, int32_t, int32_t, int32_t)>(
     &::TMPro::TMP_SpriteAnimator::DoSpriteAnimation)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x48007ec;
+  constexpr static std::size_t addrs = 0x4800774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::TMPro::TMP_SpriteAnimator::*)(int32_t, ::TMPro::TMP_SpriteAsset*, int32_t, int32_t, int32_t)>(&::TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48008d4;
+  constexpr static std::size_t addrs = 0x480085c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAnimator::*)()>(&::TMPro::TMP_SpriteAnimator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4800994;
+  constexpr static std::size_t addrs = 0x480091c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAnimator*>::get(), ".ctor",

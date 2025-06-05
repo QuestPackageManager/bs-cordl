@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497efcc;
+  constexpr static std::size_t addrs = 0x497ef54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x497efd4;
+  constexpr static std::size_t addrs = 0x497ef5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Columns*, bool)>(&::UnityEngine::UIElements::ReusableMultiColumnListViewItem::Init)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x497d05c;
+  constexpr static std::size_t addrs = 0x497cfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableMultiColumnListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableMultiColumnListViewItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x497efd8;
+  constexpr static std::size_t addrs = 0x497ef60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

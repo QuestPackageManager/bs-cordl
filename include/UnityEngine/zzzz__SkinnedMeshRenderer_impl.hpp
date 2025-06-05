@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SkinQuality (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::get_quality)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886ccc;
+  constexpr static std::size_t addrs = 0x4886c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(), "get_quality",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::UnityEngine::SkinQuality)>(
     &::UnityEngine::SkinnedMeshRenderer::set_quality)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4886d08;
+  constexpr static std::size_t addrs = 0x4886c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SkinnedMeshRenderer::*)()>(&::UnityEngine::SkinnedMeshRenderer::get_updateWhenOffscreen)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886d4c;
+  constexpr static std::size_t addrs = 0x4886cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(bool)>(&::UnityEngine::SkinnedMeshRenderer::set_updateWhenOffscreen)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4886d88;
+  constexpr static std::size_t addrs = 0x4886d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::get_forceMatrixRecalculationPerRender)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886dcc;
+  constexpr static std::size_t addrs = 0x4886d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(bool)>(
     &::UnityEngine::SkinnedMeshRenderer::set_forceMatrixRecalculationPerRender)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4886e08;
+  constexpr static std::size_t addrs = 0x4886d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::get_rootBone)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886e4c;
+  constexpr static std::size_t addrs = 0x4886dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(), "get_rootBone",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::UnityEngine::Transform*)>(
     &::UnityEngine::SkinnedMeshRenderer::set_rootBone)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4886e88;
+  constexpr static std::size_t addrs = 0x4886e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> (::UnityEngine::SkinnedMeshRenderer::*)()>(&::UnityEngine::SkinnedMeshRenderer::get_bones)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886ecc;
+  constexpr static std::size_t addrs = 0x4886e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(), "get_bones",
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(&::UnityEngine::SkinnedMeshRenderer::set_bones)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4886f08;
+  constexpr static std::size_t addrs = 0x4886e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::get_sharedMesh)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886f4c;
+  constexpr static std::size_t addrs = 0x4886ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(), "get_sharedMesh",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::UnityEngine::Mesh*)>(
     &::UnityEngine::SkinnedMeshRenderer::set_sharedMesh)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4886f88;
+  constexpr static std::size_t addrs = 0x4886f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SkinnedMeshRenderer::*)()>(&::UnityEngine::SkinnedMeshRenderer::get_skinnedMotionVectors)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4886fcc;
+  constexpr static std::size_t addrs = 0x4886f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(),
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(bool)>(&::UnityEngine::SkinnedMeshRenderer::set_skinnedMotionVectors)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4887008;
+  constexpr static std::size_t addrs = 0x4886f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SkinnedMeshRenderer::*)(int32_t)>(&::UnityEngine::SkinnedMeshRenderer::GetBlendShapeWeight)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x488704c;
+  constexpr static std::size_t addrs = 0x4886fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(int32_t, float_t)>(
     &::UnityEngine::SkinnedMeshRenderer::SetBlendShapeWeight)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4887090;
+  constexpr static std::size_t addrs = 0x4887018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::UnityEngine::Mesh*)>(&::UnityEngine::SkinnedMeshRenderer::BakeMesh)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48870e4;
+  constexpr static std::size_t addrs = 0x488706c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::UnityEngine::Mesh*, bool)>(
     &::UnityEngine::SkinnedMeshRenderer::BakeMesh)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x488712c;
+  constexpr static std::size_t addrs = 0x48870b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::GetVertexBuffer)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4887180;
+  constexpr static std::size_t addrs = 0x4887108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(), "GetVertexBuffer",
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::GetPreviousVertexBuffer)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4887278;
+  constexpr static std::size_t addrs = 0x4887200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(),
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::GetVertexBufferImpl)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x488723c;
+  constexpr static std::size_t addrs = 0x48871c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::GetPreviousVertexBufferImpl)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4887334;
+  constexpr static std::size_t addrs = 0x48872bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(),
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GraphicsBuffer_Target (::UnityEngine::SkinnedMeshRenderer::*)()>(
     &::UnityEngine::SkinnedMeshRenderer::get_vertexBufferTarget)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4887370;
+  constexpr static std::size_t addrs = 0x48872f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(),
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)(::UnityEngine::GraphicsBuffer_Target)>(
     &::UnityEngine::SkinnedMeshRenderer::set_vertexBufferTarget)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48873ac;
+  constexpr static std::size_t addrs = 0x4887334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SkinnedMeshRenderer::*)()>(&::UnityEngine::SkinnedMeshRenderer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48873f0;
+  constexpr static std::size_t addrs = 0x4887378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SkinnedMeshRenderer*>::get(), ".ctor",

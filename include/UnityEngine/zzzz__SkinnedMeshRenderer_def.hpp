@@ -51,81 +51,81 @@ public:
 
   __declspec(property(get = get_vertexBufferTarget, put = set_vertexBufferTarget)) ::UnityEngine::GraphicsBuffer_Target vertexBufferTarget;
 
-  /// @brief Method BakeMesh, addr 0x48870e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x488706c, size 0x48, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method BakeMesh, addr 0x488712c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BakeMesh, addr 0x48870b4, size 0x54, virtual false, abstract: false, final false
   inline void BakeMesh(::UnityEngine::Mesh* mesh, bool useScale);
 
-  /// @brief Method GetBlendShapeWeight, addr 0x488704c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBlendShapeWeight, addr 0x4886fd4, size 0x44, virtual false, abstract: false, final false
   inline float_t GetBlendShapeWeight(int32_t index);
 
-  /// @brief Method GetPreviousVertexBuffer, addr 0x4887278, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousVertexBuffer, addr 0x4887200, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetPreviousVertexBuffer();
 
-  /// @brief Method GetPreviousVertexBufferImpl, addr 0x4887334, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousVertexBufferImpl, addr 0x48872bc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetPreviousVertexBufferImpl();
 
-  /// @brief Method GetVertexBuffer, addr 0x4887180, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBuffer, addr 0x4887108, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBuffer();
 
-  /// @brief Method GetVertexBufferImpl, addr 0x488723c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexBufferImpl, addr 0x48871c4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* GetVertexBufferImpl();
 
   static inline ::UnityEngine::SkinnedMeshRenderer* New_ctor();
 
-  /// @brief Method SetBlendShapeWeight, addr 0x4887090, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetBlendShapeWeight, addr 0x4887018, size 0x54, virtual false, abstract: false, final false
   inline void SetBlendShapeWeight(int32_t index, float_t value);
 
-  /// @brief Method .ctor, addr 0x48873f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4887378, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bones, addr 0x4886ecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bones, addr 0x4886e54, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_bones();
 
-  /// @brief Method get_forceMatrixRecalculationPerRender, addr 0x4886dcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_forceMatrixRecalculationPerRender, addr 0x4886d54, size 0x3c, virtual false, abstract: false, final false
   inline bool get_forceMatrixRecalculationPerRender();
 
-  /// @brief Method get_quality, addr 0x4886ccc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_quality, addr 0x4886c54, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::SkinQuality get_quality();
 
-  /// @brief Method get_rootBone, addr 0x4886e4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootBone, addr 0x4886dd4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_rootBone();
 
-  /// @brief Method get_sharedMesh, addr 0x4886f4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x4886ed4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method get_skinnedMotionVectors, addr 0x4886fcc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_skinnedMotionVectors, addr 0x4886f54, size 0x3c, virtual false, abstract: false, final false
   inline bool get_skinnedMotionVectors();
 
-  /// @brief Method get_updateWhenOffscreen, addr 0x4886d4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateWhenOffscreen, addr 0x4886cd4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_updateWhenOffscreen();
 
-  /// @brief Method get_vertexBufferTarget, addr 0x4887370, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBufferTarget, addr 0x48872f8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer_Target get_vertexBufferTarget();
 
-  /// @brief Method set_bones, addr 0x4886f08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bones, addr 0x4886e90, size 0x44, virtual false, abstract: false, final false
   inline void set_bones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
 
-  /// @brief Method set_forceMatrixRecalculationPerRender, addr 0x4886e08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_forceMatrixRecalculationPerRender, addr 0x4886d90, size 0x44, virtual false, abstract: false, final false
   inline void set_forceMatrixRecalculationPerRender(bool value);
 
-  /// @brief Method set_quality, addr 0x4886d08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_quality, addr 0x4886c90, size 0x44, virtual false, abstract: false, final false
   inline void set_quality(::UnityEngine::SkinQuality value);
 
-  /// @brief Method set_rootBone, addr 0x4886e88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rootBone, addr 0x4886e10, size 0x44, virtual false, abstract: false, final false
   inline void set_rootBone(::UnityEngine::Transform* value);
 
-  /// @brief Method set_sharedMesh, addr 0x4886f88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x4886f10, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_skinnedMotionVectors, addr 0x4887008, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_skinnedMotionVectors, addr 0x4886f90, size 0x44, virtual false, abstract: false, final false
   inline void set_skinnedMotionVectors(bool value);
 
-  /// @brief Method set_updateWhenOffscreen, addr 0x4886d88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_updateWhenOffscreen, addr 0x4886d10, size 0x44, virtual false, abstract: false, final false
   inline void set_updateWhenOffscreen(bool value);
 
-  /// @brief Method set_vertexBufferTarget, addr 0x48873ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_vertexBufferTarget, addr 0x4887334, size 0x44, virtual false, abstract: false, final false
   inline void set_vertexBufferTarget(::UnityEngine::GraphicsBuffer_Target value);
 
 protected:

@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileStorageInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2718490, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2718468, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FileStorageInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27184ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27184c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

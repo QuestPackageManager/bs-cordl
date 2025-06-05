@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)()>(&::System::Xml::Schema::SymbolsDictionary::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x439a700;
+  constexpr static std::size_t addrs = 0x439a688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SymbolsDictionary*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::SymbolsDictionary::*)()>(&::System::Xml::Schema::SymbolsDictionary::get_Count)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x439a7a0;
+  constexpr static std::size_t addrs = 0x439a728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SymbolsDictionary*>::get(), "get_Count",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SymbolsDictionary::*)()>(&::System::Xml::Schema::SymbolsDictionary::get_IsUpaEnforced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439a7ac;
+  constexpr static std::size_t addrs = 0x439a734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SymbolsDictionary*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)(bool)>(
     &::System::Xml::Schema::SymbolsDictionary::set_IsUpaEnforced)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x439a7b4;
+  constexpr static std::size_t addrs = 0x439a73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*, ::System::Object*)>(
     &::System::Xml::Schema::SymbolsDictionary::AddName)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x439a7c0;
+  constexpr static std::size_t addrs = 0x439a748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*, bool)>(
     &::System::Xml::Schema::SymbolsDictionary::AddNamespaceList)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x439a8f4;
+  constexpr static std::size_t addrs = 0x439a87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SymbolsDictionary::*)(::StringW, ::System::Object*)>(
     &::System::Xml::Schema::SymbolsDictionary::AddWildcard)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x439ac94;
+  constexpr static std::size_t addrs = 0x439ac1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::Schema::NamespaceList*)>(&::System::Xml::Schema::SymbolsDictionary::GetNamespaceListSymbols)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x439adf8;
+  constexpr static std::size_t addrs = 0x439ad80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::SymbolsDictionary::get_Item)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x439b59c;
+  constexpr static std::size_t addrs = 0x439b524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SymbolsDictionary::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::SymbolsDictionary::Exists)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x439b654;
+  constexpr static std::size_t addrs = 0x439b5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::SymbolsDictionary::*)(int32_t)>(
     &::System::Xml::Schema::SymbolsDictionary::GetParticle)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x439b684;
+  constexpr static std::size_t addrs = 0x439b60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::SymbolsDictionary::*)(int32_t)>(
     &::System::Xml::Schema::SymbolsDictionary::NameOf)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x439b6c0;
+  constexpr static std::size_t addrs = 0x439b648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(bool)>(&::UnityEngine::Rendering::StencilState::set_enabled)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48ca0d0;
+  constexpr static std::size_t addrs = 0x48ca058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(uint8_t)>(&::UnityEngine::Rendering::StencilState::set_readMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca13c;
+  constexpr static std::size_t addrs = 0x48ca0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(uint8_t)>(&::UnityEngine::Rendering::StencilState::set_writeMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca144;
+  constexpr static std::size_t addrs = 0x48ca0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::CompareFunction)>(
     &::UnityEngine::Rendering::StencilState::set_compareFunctionFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca14c;
+  constexpr static std::size_t addrs = 0x48ca0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_passOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca154;
+  constexpr static std::size_t addrs = 0x48ca0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_failOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca15c;
+  constexpr static std::size_t addrs = 0x48ca0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_zFailOperationFront)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca164;
+  constexpr static std::size_t addrs = 0x48ca0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::CompareFunction)>(
     &::UnityEngine::Rendering::StencilState::set_compareFunctionBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca16c;
+  constexpr static std::size_t addrs = 0x48ca0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_passOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca174;
+  constexpr static std::size_t addrs = 0x48ca0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_failOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca17c;
+  constexpr static std::size_t addrs = 0x48ca104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilOp)>(
     &::UnityEngine::Rendering::StencilState::set_zFailOperationBack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca184;
+  constexpr static std::size_t addrs = 0x48ca10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::StencilState::*)(::UnityEngine::Rendering::StencilState)>(
     &::UnityEngine::Rendering::StencilState::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x48ca18c;
+  constexpr static std::size_t addrs = 0x48ca114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::StencilState::*)(::System::Object*)>(
     &::UnityEngine::Rendering::StencilState::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48ca23c;
+  constexpr static std::size_t addrs = 0x48ca1c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::StencilState::*)()>(&::UnityEngine::Rendering::StencilState::GetHashCode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48ca2b8;
+  constexpr static std::size_t addrs = 0x48ca240;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -81,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set__updatedBeatmapLevels(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26f9b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f9b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promotedBeatmapLevelPacks, addr 0x26f9b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promotedBeatmapLevelPacks, addr 0x26f9b50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_promotedBeatmapLevelPacks();
 
-  /// @brief Method get_promotedBeatmapLevels, addr 0x26f9b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promotedBeatmapLevels, addr 0x26f9b60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_promotedBeatmapLevels();
 
-  /// @brief Method get_updatedBeatmapLevelPacks, addr 0x26f9b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updatedBeatmapLevelPacks, addr 0x26f9b58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_updatedBeatmapLevelPacks();
 
-  /// @brief Method get_updatedBeatmapLevels, addr 0x26f9b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updatedBeatmapLevels, addr 0x26f9b68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_updatedBeatmapLevels();
 
 protected:
@@ -161,13 +161,13 @@ public:
 
   constexpr void __cordl_internal_set__promo(::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* value);
 
-  /// @brief Method .ctor, addr 0x26f9b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f9b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_promo, addr 0x26f9b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promo, addr 0x26f9b38, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* get_promo();
 
-  /// @brief Method set_promo, addr 0x26f9b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promo, addr 0x26f9b40, size 0x8, virtual false, abstract: false, final false
   inline void set_promo(::GlobalNamespace::BeatmapLevelsPromoDataSO_BeatmapLevelsPromo* value);
 
 protected:

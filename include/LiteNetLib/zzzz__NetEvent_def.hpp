@@ -225,7 +225,7 @@ public:
 
   constexpr void __cordl_internal_set_UserData(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ab0154, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab012c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetManager* manager);
 
 protected:

@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream_PipelineEntry::*)(::StringW)>(
     &::System::Net::CommandStream_PipelineEntry::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4491358;
+  constexpr static std::size_t addrs = 0x44912e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream_PipelineEntry::*)(::StringW, ::System::Net::CommandStream_PipelineEntryFlags)>(
     &::System::Net::CommandStream_PipelineEntry::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4491380;
+  constexpr static std::size_t addrs = 0x4491308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CommandStream_PipelineEntry::*)(::System::Net::CommandStream_PipelineEntryFlags)>(
     &::System::Net::CommandStream_PipelineEntry::HasFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4490050;
+  constexpr static std::size_t addrs = 0x448ffd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)(::System::Net::Sockets::TcpClient*)>(&::System::Net::CommandStream::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x448f4c0;
+  constexpr static std::size_t addrs = 0x448f448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)(::System::Exception*)>(&::System::Net::CommandStream::Abort)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x448f558;
+  constexpr static std::size_t addrs = 0x448f4e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)(bool)>(&::System::Net::CommandStream::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x448f740;
+  constexpr static std::size_t addrs = 0x448f6c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)(::System::Object*)>(&::System::Net::CommandStream::InvokeRequestCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x448f7d4;
+  constexpr static std::size_t addrs = 0x448f75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::get_RecoverableFailure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448f848;
+  constexpr static std::size_t addrs = 0x448f7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CommandStream*>::get(), "get_RecoverableFailure",
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::MarkAsRecoverableFailure)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x448f850;
+  constexpr static std::size_t addrs = 0x448f7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CommandStream*>::get(), "MarkAsRecoverableFailure",
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::CommandStream::*)(::System::Net::WebRequest*, bool, bool)>(
     &::System::Net::CommandStream::SubmitRequest)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x448f868;
+  constexpr static std::size_t addrs = 0x448f7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::ClearState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x448fe4c;
+  constexpr static std::size_t addrs = 0x448fdd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*> (
     ::System::Net::CommandStream::*)(::System::Net::WebRequest*)>(&::System::Net::CommandStream::BuildCommandsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448fe5c;
+  constexpr static std::size_t addrs = 0x448fde4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Net::CommandStream::*)(::StringW, ::System::Net::WebExceptionStatus, ::System::Exception*)>(&::System::Net::CommandStream::GenerateException)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x448fe64;
+  constexpr static std::size_t addrs = 0x448fdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Net::CommandStream::*)(::System::Net::FtpStatusCode, ::StringW, ::System::Exception*)>(&::System::Net::CommandStream::GenerateException)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x448fedc;
+  constexpr static std::size_t addrs = 0x448fe64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +303,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::CommandStream::*)(::System::Net::WebRequest*, ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*>, bool)>(
         &::System::Net::CommandStream::InitCommandPipeline)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x448f8e8;
+  constexpr static std::size_t addrs = 0x448f870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::CheckContinuePipeline)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x448ff9c;
+  constexpr static std::size_t addrs = 0x448ff24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CommandStream*>::get(), "CheckContinuePipeline",
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::ContinueCommandPipeline)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x448f97c;
+  constexpr static std::size_t addrs = 0x448f904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CommandStream*>::get(), "ContinueCommandPipeline",
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CommandStream::*)(::ByRef<::System::IO::Stream*>)>(
     &::System::Net::CommandStream::PostSendCommandProcessing)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4490060;
+  constexpr static std::size_t addrs = 0x448ffe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CommandStream::*)(::ByRef<::System::IO::Stream*>)>(
     &::System::Net::CommandStream::PostReadCommandProcessing)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x44904d8;
+  constexpr static std::size_t addrs = 0x4490460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CommandStream_PipelineInstruction (::System::Net::CommandStream::*)(
     ::System::Net::CommandStream_PipelineEntry*, ::System::Net::ResponseDescription*, bool, ::ByRef<::System::IO::Stream*>)>(&::System::Net::CommandStream::PipelineCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44906dc;
+  constexpr static std::size_t addrs = 0x4490664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::CommandStream::ReadCallback)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x44906e4;
+  constexpr static std::size_t addrs = 0x449066c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::CommandStream::WriteCallback)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x4490ef4;
+  constexpr static std::size_t addrs = 0x4490e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44911a8;
+  constexpr static std::size_t addrs = 0x4491130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CommandStream*>::get(), "get_Encoding",
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)(::System::Text::Encoding*)>(&::System::Net::CommandStream::set_Encoding)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44911b0;
+  constexpr static std::size_t addrs = 0x4491138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CommandStream::*)(::System::Net::ResponseDescription*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::System::Net::CommandStream::CheckValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44911e8;
+  constexpr static std::size_t addrs = 0x4491170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ResponseDescription* (::System::Net::CommandStream::*)()>(
     &::System::Net::CommandStream::ReceiveCommandResponse)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x4490190;
+  constexpr static std::size_t addrs = 0x4490118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CommandStream*>::get(), "ReceiveCommandResponse",
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CommandStream::*)(::System::Net::ReceiveState*, int32_t)>(
     &::System::Net::CommandStream::ReceiveCommandResponseCallback)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x44909ac;
+  constexpr static std::size_t addrs = 0x4490934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

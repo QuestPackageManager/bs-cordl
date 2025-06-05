@@ -61,118 +61,118 @@ public:
 
   __declspec(property(get = get_underlineThickness, put = set_underlineThickness)) float_t underlineThickness;
 
-  /// @brief Method get_ascentLine, addr 0x4921064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ascentLine, addr 0x4920fec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ascentLine();
 
-  /// @brief Method get_baseline, addr 0x4921094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseline, addr 0x492101c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_baseline();
 
-  /// @brief Method get_capLine, addr 0x4921074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capLine, addr 0x4920ffc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_capLine();
 
-  /// @brief Method get_descentLine, addr 0x49210a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descentLine, addr 0x492102c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_descentLine();
 
-  /// @brief Method get_faceIndex, addr 0x492100c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_faceIndex, addr 0x4920f94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_faceIndex();
 
-  /// @brief Method get_familyName, addr 0x4921014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_familyName, addr 0x4920f9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_familyName();
 
-  /// @brief Method get_lineHeight, addr 0x4921054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineHeight, addr 0x4920fdc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lineHeight();
 
-  /// @brief Method get_meanLine, addr 0x4921084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meanLine, addr 0x492100c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_meanLine();
 
-  /// @brief Method get_pointSize, addr 0x4921034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointSize, addr 0x4920fbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pointSize();
 
-  /// @brief Method get_scale, addr 0x4921044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scale, addr 0x4920fcc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scale();
 
-  /// @brief Method get_strikethroughOffset, addr 0x4921114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strikethroughOffset, addr 0x492109c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_strikethroughOffset();
 
-  /// @brief Method get_styleName, addr 0x4921024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleName, addr 0x4920fac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleName();
 
-  /// @brief Method get_subscriptOffset, addr 0x49210d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subscriptOffset, addr 0x492105c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_subscriptOffset();
 
-  /// @brief Method get_subscriptSize, addr 0x49210e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subscriptSize, addr 0x492106c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_subscriptSize();
 
-  /// @brief Method get_superscriptOffset, addr 0x49210b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_superscriptOffset, addr 0x492103c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_superscriptOffset();
 
-  /// @brief Method get_superscriptSize, addr 0x49210c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_superscriptSize, addr 0x492104c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_superscriptSize();
 
-  /// @brief Method get_tabWidth, addr 0x492112c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabWidth, addr 0x49210b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tabWidth();
 
-  /// @brief Method get_underlineOffset, addr 0x49210f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_underlineOffset, addr 0x492107c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_underlineOffset();
 
-  /// @brief Method get_underlineThickness, addr 0x4921104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_underlineThickness, addr 0x492108c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_underlineThickness();
 
-  /// @brief Method set_ascentLine, addr 0x492106c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ascentLine, addr 0x4920ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_ascentLine(float_t value);
 
-  /// @brief Method set_baseline, addr 0x492109c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseline, addr 0x4921024, size 0x8, virtual false, abstract: false, final false
   inline void set_baseline(float_t value);
 
-  /// @brief Method set_capLine, addr 0x492107c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_capLine, addr 0x4921004, size 0x8, virtual false, abstract: false, final false
   inline void set_capLine(float_t value);
 
-  /// @brief Method set_descentLine, addr 0x49210ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_descentLine, addr 0x4921034, size 0x8, virtual false, abstract: false, final false
   inline void set_descentLine(float_t value);
 
-  /// @brief Method set_familyName, addr 0x492101c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_familyName, addr 0x4920fa4, size 0x8, virtual false, abstract: false, final false
   inline void set_familyName(::StringW value);
 
-  /// @brief Method set_lineHeight, addr 0x492105c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineHeight, addr 0x4920fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_lineHeight(float_t value);
 
-  /// @brief Method set_meanLine, addr 0x492108c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_meanLine, addr 0x4921014, size 0x8, virtual false, abstract: false, final false
   inline void set_meanLine(float_t value);
 
-  /// @brief Method set_pointSize, addr 0x492103c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointSize, addr 0x4920fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_pointSize(int32_t value);
 
-  /// @brief Method set_scale, addr 0x492104c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scale, addr 0x4920fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_scale(float_t value);
 
-  /// @brief Method set_strikethroughOffset, addr 0x492111c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_strikethroughOffset, addr 0x49210a4, size 0x8, virtual false, abstract: false, final false
   inline void set_strikethroughOffset(float_t value);
 
-  /// @brief Method set_strikethroughThickness, addr 0x4921124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_strikethroughThickness, addr 0x49210ac, size 0x8, virtual false, abstract: false, final false
   inline void set_strikethroughThickness(float_t value);
 
-  /// @brief Method set_styleName, addr 0x492102c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_styleName, addr 0x4920fb4, size 0x8, virtual false, abstract: false, final false
   inline void set_styleName(::StringW value);
 
-  /// @brief Method set_subscriptOffset, addr 0x49210dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subscriptOffset, addr 0x4921064, size 0x8, virtual false, abstract: false, final false
   inline void set_subscriptOffset(float_t value);
 
-  /// @brief Method set_subscriptSize, addr 0x49210ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subscriptSize, addr 0x4921074, size 0x8, virtual false, abstract: false, final false
   inline void set_subscriptSize(float_t value);
 
-  /// @brief Method set_superscriptOffset, addr 0x49210bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_superscriptOffset, addr 0x4921044, size 0x8, virtual false, abstract: false, final false
   inline void set_superscriptOffset(float_t value);
 
-  /// @brief Method set_superscriptSize, addr 0x49210cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_superscriptSize, addr 0x4921054, size 0x8, virtual false, abstract: false, final false
   inline void set_superscriptSize(float_t value);
 
-  /// @brief Method set_tabWidth, addr 0x4921134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tabWidth, addr 0x49210bc, size 0x8, virtual false, abstract: false, final false
   inline void set_tabWidth(float_t value);
 
-  /// @brief Method set_underlineOffset, addr 0x49210fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_underlineOffset, addr 0x4921084, size 0x8, virtual false, abstract: false, final false
   inline void set_underlineOffset(float_t value);
 
-  /// @brief Method set_underlineThickness, addr 0x492110c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_underlineThickness, addr 0x4921094, size 0x8, virtual false, abstract: false, final false
   inline void set_underlineThickness(float_t value);
 
   // Ctor Parameters []

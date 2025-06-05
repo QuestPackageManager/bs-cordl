@@ -37,21 +37,21 @@ namespace UnityEngine::InputSystem::Layouts {
 class CORDL_TYPE InputDeviceFindControlLayoutDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4619de8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x4619d70, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                              ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4619e88, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x4619e10, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW EndInvoke(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4619dd4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4619d5c, size 0x14, virtual true, abstract: false, final false
   inline ::StringW Invoke(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                           ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4619d34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4619cbc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

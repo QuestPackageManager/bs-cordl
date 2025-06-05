@@ -39,13 +39,13 @@ public:
   /// @brief Field _arg1, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__arg1, put = __cordl_internal_set__arg1)) ::System::Linq::Expressions::Expression* _arg1;
 
-  /// @brief Method GetArgument, addr 0x40b9b1c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x40b9aa4, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression2* New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0,
                                                                              ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Rewrite, addr 0x40b9bd4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40b9b5c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -61,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set__arg1(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40b9af4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b9a7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method get_ArgumentCount, addr 0x40b9bcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x40b9b54, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:

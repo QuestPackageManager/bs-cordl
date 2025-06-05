@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_showEnergyPanel(bool value);
 
-  /// @brief Method .ctor, addr 0x3ba6c6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba6c44, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
 protected:
@@ -137,7 +137,7 @@ public:
 
   __declspec(property(get = get_songProgressPanelGO)) ::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
 
-  /// @brief Method Initialize, addr 0x3ba6bd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3ba6bac, size 0x90, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::CoreGameHUDController_InitData* initData);
 
   static inline ::GlobalNamespace::CoreGameHUDController* New_ctor();
@@ -172,22 +172,22 @@ public:
 
   constexpr void __cordl_internal_set__songProgressPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3ba6c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba6c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_energyPanelGo, addr 0x3ba6bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_energyPanelGo, addr 0x3ba6b88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_energyPanelGo();
 
-  /// @brief Method get_immediateRankGo, addr 0x3ba6ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRankGo, addr 0x3ba6b80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_immediateRankGo();
 
-  /// @brief Method get_relativeScoreGo, addr 0x3ba6ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScoreGo, addr 0x3ba6b78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_relativeScoreGo();
 
-  /// @brief Method get_songProgressPanelGO, addr 0x3ba6b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songProgressPanelGO, addr 0x3ba6b70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_songProgressPanelGO();
 
-  /// @brief Method set_alpha, addr 0x3ba6bb8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3ba6b90, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
 protected:

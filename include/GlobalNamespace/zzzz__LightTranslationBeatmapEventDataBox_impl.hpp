@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c0170;
+  constexpr static std::size_t addrs = 0x26c0150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c0178;
+  constexpr static std::size_t addrs = 0x26c0158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, bool, ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*)>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x26c0180;
+  constexpr static std::size_t addrs = 0x26c0160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*,
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::GlobalNamespace::LightTranslationBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x26c03b0;
+  constexpr static std::size_t addrs = 0x26c0390;
 
   inline static ::MethodInfo const* methodInfo() {
 

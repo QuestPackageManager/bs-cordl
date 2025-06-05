@@ -22,10 +22,10 @@ namespace TMPro {
 struct CORDL_TYPE VertexGradient {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47c5828, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c57b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x47c584c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47c57d4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters []

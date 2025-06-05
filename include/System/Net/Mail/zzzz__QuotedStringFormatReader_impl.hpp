@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, bool)>(&::System::Net::Mail::QuotedStringFormatReader::ReadReverseQuoted)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x44050fc;
+  constexpr static std::size_t addrs = 0x4405084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, bool, bool)>(&::System::Net::Mail::QuotedStringFormatReader::ReadReverseUnQuoted)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44052c0;
+  constexpr static std::size_t addrs = 0x4405248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, char16_t)>(&::System::Net::Mail::QuotedStringFormatReader::IsValidQtext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44054fc;
+  constexpr static std::size_t addrs = 0x4405484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

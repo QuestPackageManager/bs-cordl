@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::System::Xml::XmlName*, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlAttribute::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4332e58;
+  constexpr static std::size_t addrs = 0x4332de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_LocalNameHash)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4333034;
+  constexpr static std::size_t addrs = 0x4332fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAttribute*>::get(), "get_LocalNameHash",
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::StringW, ::StringW, ::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4333050;
+  constexpr static std::size_t addrs = 0x4332fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlName* (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_XmlName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43331a0;
+  constexpr static std::size_t addrs = 0x4333128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAttribute*>::get(), "get_XmlName",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::System::Xml::XmlName*)>(&::System::Xml::XmlAttribute::set_XmlName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43331a8;
+  constexpr static std::size_t addrs = 0x4333130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(bool)>(&::System::Xml::XmlAttribute::CloneNode)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43331b0;
+  constexpr static std::size_t addrs = 0x4333138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_ParentNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4333278;
+  constexpr static std::size_t addrs = 0x4333200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_Name)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4333280;
+  constexpr static std::size_t addrs = 0x4333208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_LocalName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x433329c;
+  constexpr static std::size_t addrs = 0x4333224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43332b8;
+  constexpr static std::size_t addrs = 0x4333240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_Prefix)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43332d4;
+  constexpr static std::size_t addrs = 0x433325c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::StringW)>(&::System::Xml::XmlAttribute::set_Prefix)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x43332f0;
+  constexpr static std::size_t addrs = 0x4333278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4333384;
+  constexpr static std::size_t addrs = 0x433330c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDocument* (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_OwnerDocument)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x433338c;
+  constexpr static std::size_t addrs = 0x4333314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_Value)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43333a8;
+  constexpr static std::size_t addrs = 0x4333330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::StringW)>(&::System::Xml::XmlAttribute::set_Value)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43333b8;
+  constexpr static std::size_t addrs = 0x4333340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (::System::Xml::XmlAttribute::*)()>(
     &::System::Xml::XmlAttribute::get_SchemaInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43333c8;
+  constexpr static std::size_t addrs = 0x4333350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::StringW)>(&::System::Xml::XmlAttribute::set_InnerText)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43333d0;
+  constexpr static std::size_t addrs = 0x4333358;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::PrepareOwnerElementInElementIdAttrMap)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4333434;
+  constexpr static std::size_t addrs = 0x43333bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::StringW)>(
     &::System::Xml::XmlAttribute::ResetOwnerElementInElementIdAttrMap)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43334e4;
+  constexpr static std::size_t addrs = 0x433346c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_IsContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4333714;
+  constexpr static std::size_t addrs = 0x433369c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlAttribute::AppendChildForLoad)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x433371c;
+  constexpr static std::size_t addrs = 0x43336a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -330,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlLinkedNode* (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_LastNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4333934;
+  constexpr static std::size_t addrs = 0x43338bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::System::Xml::XmlLinkedNode*)>(&::System::Xml::XmlAttribute::set_LastNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433393c;
+  constexpr static std::size_t addrs = 0x43338c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNodeType)>(&::System::Xml::XmlAttribute::IsValidChildType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4333944;
+  constexpr static std::size_t addrs = 0x43338cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_Specified)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433395c;
+  constexpr static std::size_t addrs = 0x43338e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(
     &::System::Xml::XmlAttribute::InsertBefore)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4333964;
+  constexpr static std::size_t addrs = 0x43338ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(
     &::System::Xml::XmlAttribute::InsertAfter)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x43339f4;
+  constexpr static std::size_t addrs = 0x433397c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlAttribute::RemoveChild)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4333a84;
+  constexpr static std::size_t addrs = 0x4333a0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -432,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlAttribute::PrependChild)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4333afc;
+  constexpr static std::size_t addrs = 0x4333a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlAttribute::AppendChild)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4333b74;
+  constexpr static std::size_t addrs = 0x4333afc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_OwnerElement)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4333bec;
+  constexpr static std::size_t addrs = 0x4333b74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::StringW)>(&::System::Xml::XmlAttribute::set_InnerXml)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4333c68;
+  constexpr static std::size_t addrs = 0x4333bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlAttribute::WriteTo)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4333d04;
+  constexpr static std::size_t addrs = 0x4333c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlAttribute::WriteContentTo)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4333db8;
+  constexpr static std::size_t addrs = 0x4333d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -517,7 +517,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_BaseURI)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4333e20;
+  constexpr static std::size_t addrs = 0x4333da8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAttribute::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlAttribute::SetParent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4333eb8;
+  constexpr static std::size_t addrs = 0x4333e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -545,7 +545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_XmlSpace)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4333ec0;
+  constexpr static std::size_t addrs = 0x4333e48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAttribute::*)()>(&::System::Xml::XmlAttribute::get_XmlLang)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4333f14;
+  constexpr static std::size_t addrs = 0x4333e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 

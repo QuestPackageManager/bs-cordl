@@ -22,10 +22,10 @@ namespace System::Xml {
 class CORDL_TYPE Res : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x4358a88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x4358a10, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x43566cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x4356654, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:

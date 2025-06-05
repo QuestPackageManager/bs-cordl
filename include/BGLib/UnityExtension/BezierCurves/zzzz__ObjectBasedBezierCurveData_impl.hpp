@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::get_startPoint)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22b9280;
+  constexpr static std::size_t addrs = 0x22b9240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::get_endPoint)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22b929c;
+  constexpr static std::size_t addrs = 0x22b925c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::get_hasReferences)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22b901c;
+  constexpr static std::size_t addrs = 0x22b8fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b92b8;
+  constexpr static std::size_t addrs = 0x22b9278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

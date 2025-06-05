@@ -60,19 +60,19 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*, ::Array<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26eb6a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb684, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x26ed5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackProductData, addr 0x26ed580, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x26ed5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x26ed590, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* get_levelPackRedirectionData();
 
-  /// @brief Method set_levelPackProductData, addr 0x26ed5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackProductData, addr 0x26ed588, size 0x8, virtual false, abstract: false, final false
   inline void set_levelPackProductData(::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* value);
 
-  /// @brief Method set_levelPackRedirectionData, addr 0x26ed5b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_levelPackRedirectionData, addr 0x26ed598, size 0x5c, virtual false, abstract: false, final false
   inline void set_levelPackRedirectionData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
 protected:

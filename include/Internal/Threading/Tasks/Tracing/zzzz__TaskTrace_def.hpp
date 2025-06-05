@@ -25,21 +25,21 @@ public:
   /// @brief Field s_callbacks, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_callbacks, put = setStaticF_s_callbacks)) ::Internal::Runtime::Augments::TaskTraceCallbacks* s_callbacks;
 
-  /// @brief Method TaskScheduled, addr 0x3c6f384, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TaskScheduled, addr 0x3c6f30c, size 0xa0, virtual false, abstract: false, final false
   static inline void TaskScheduled(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID, int32_t CreatingTaskID, int32_t TaskCreationOptions);
 
-  /// @brief Method TaskWaitBegin_Asynchronous, addr 0x3c6f1f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TaskWaitBegin_Asynchronous, addr 0x3c6f180, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitBegin_Asynchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitBegin_Synchronous, addr 0x3c6f27c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TaskWaitBegin_Synchronous, addr 0x3c6f204, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitBegin_Synchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitEnd, addr 0x3c6f300, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TaskWaitEnd, addr 0x3c6f288, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitEnd(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
   static inline ::Internal::Runtime::Augments::TaskTraceCallbacks* getStaticF_s_callbacks();
 
-  /// @brief Method get_Enabled, addr 0x3c6f198, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Enabled, addr 0x3c6f120, size 0x60, virtual false, abstract: false, final false
   static inline bool get_Enabled();
 
   static inline void setStaticF_s_callbacks(::Internal::Runtime::Augments::TaskTraceCallbacks* value);

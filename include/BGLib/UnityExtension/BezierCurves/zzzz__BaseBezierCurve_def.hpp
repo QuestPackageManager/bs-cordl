@@ -27,7 +27,7 @@ public:
   // Declarations
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method Evaluate, addr 0x22b8158, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x22b8118, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t current);
 
   /// @brief Method GetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -38,7 +38,7 @@ public:
   /// @brief Method SetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData data);
 
-  /// @brief Method .ctor, addr 0x22b8270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b8230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

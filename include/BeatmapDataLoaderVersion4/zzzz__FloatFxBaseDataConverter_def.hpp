@@ -25,7 +25,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE FloatFxBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x270f764, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270f73c, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::FloatFxBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::FloatFxEvent floatFxEvent);
 
 protected:

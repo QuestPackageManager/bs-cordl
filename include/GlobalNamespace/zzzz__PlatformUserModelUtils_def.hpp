@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlatformUserModelUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateXPlatformAccessToken, addr 0x4080be4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ValidateXPlatformAccessToken, addr 0x4080b6c, size 0x14, virtual false, abstract: false, final false
   static inline bool ValidateXPlatformAccessToken(::StringW token);
 
 protected:

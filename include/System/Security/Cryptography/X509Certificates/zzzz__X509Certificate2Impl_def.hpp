@@ -67,7 +67,7 @@ public:
   /// @brief Method AppendPrivateKeyInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method CopyWithPrivateKey, addr 0x443c0d0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CopyWithPrivateKey, addr 0x443c058, size 0xac, virtual true, abstract: false, final true
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
   /// @brief Method GetNameInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -78,7 +78,7 @@ public:
   /// @brief Method Verify, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
 
-  /// @brief Method .ctor, addr 0x443c17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443c104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Extensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

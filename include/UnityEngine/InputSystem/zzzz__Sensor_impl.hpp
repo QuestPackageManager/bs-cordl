@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Sensor::*)()>(&::UnityEngine::InputSystem::Sensor::get_samplingFrequency)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x45c74ec;
+  constexpr static std::size_t addrs = 0x45c7474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Sensor*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Sensor::*)(float_t)>(&::UnityEngine::InputSystem::Sensor::set_samplingFrequency)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x45c75d8;
+  constexpr static std::size_t addrs = 0x45c7560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Sensor::*)()>(&::UnityEngine::InputSystem::Sensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c7678;
+  constexpr static std::size_t addrs = 0x45c7600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Sensor*>::get(), ".ctor",

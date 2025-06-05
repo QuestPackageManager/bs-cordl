@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12_DeriveBytes::*)()>(&::Mono::Security::X509::PKCS12_DeriveBytes::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c36540;
+  constexpr static std::size_t addrs = 0x3c364c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12_DeriveBytes*>::get(), ".ctor",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12_DeriveBytes::*)(::StringW)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::set_HashName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3ad6c;
+  constexpr static std::size_t addrs = 0x3c3acf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12_DeriveBytes::*)(int32_t)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::set_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3ad74;
+  constexpr static std::size_t addrs = 0x3c3acfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12_DeriveBytes::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::set_Password)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c36548;
+  constexpr static std::size_t addrs = 0x3c364d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12_DeriveBytes::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::set_Salt)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c36604;
+  constexpr static std::size_t addrs = 0x3c3658c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12_DeriveBytes::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::X509::PKCS12_DeriveBytes::Adjust)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c3ad7c;
+  constexpr static std::size_t addrs = 0x3c3ad04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12_DeriveBytes::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::X509::PKCS12_DeriveBytes::Derive)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3c3ae3c;
+  constexpr static std::size_t addrs = 0x3c3adc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12_DeriveBytes::*)(int32_t)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::DeriveKey)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c366ac;
+  constexpr static std::size_t addrs = 0x3c36634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12_DeriveBytes::*)(int32_t)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::DeriveIV)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c3671c;
+  constexpr static std::size_t addrs = 0x3c366a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12_DeriveBytes::*)(int32_t)>(
     &::Mono::Security::X509::PKCS12_DeriveBytes::DeriveMAC)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c37f18;
+  constexpr static std::size_t addrs = 0x3c37ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)()>(&::Mono::Security::X509::PKCS12::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3c33f18;
+  constexpr static std::size_t addrs = 0x3c33ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), ".ctor",
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::X509::PKCS12::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c33ff0;
+  constexpr static std::size_t addrs = 0x3c33f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -339,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW)>(
     &::Mono::Security::X509::PKCS12::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c34864;
+  constexpr static std::size_t addrs = 0x3c347ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::X509::PKCS12::Decode)> {
   constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x3c341e0;
+  constexpr static std::size_t addrs = 0x3c34168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)()>(&::Mono::Security::X509::PKCS12::Finalize)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c351dc;
+  constexpr static std::size_t addrs = 0x3c35164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::StringW)>(&::Mono::Security::X509::PKCS12::set_Password)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3c34024;
+  constexpr static std::size_t addrs = 0x3c33fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Security::X509::PKCS12::*)()>(&::Mono::Security::X509::PKCS12::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c35288;
+  constexpr static std::size_t addrs = 0x3c35210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), "get_IterationCount",
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(int32_t)>(&::Mono::Security::X509::PKCS12::set_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c35290;
+  constexpr static std::size_t addrs = 0x3c35218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Mono::Security::X509::PKCS12::*)()>(&::Mono::Security::X509::PKCS12::get_Keys)> {
   constexpr static std::size_t size = 0x704;
-  constexpr static std::size_t addrs = 0x3c35298;
+  constexpr static std::size_t addrs = 0x3c35220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), "get_Keys",
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509CertificateCollection* (::Mono::Security::X509::PKCS12::*)()>(
     &::Mono::Security::X509::PKCS12::get_Certificates)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x3c35b4c;
+  constexpr static std::size_t addrs = 0x3c35ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), "get_Certificates",
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (::Mono::Security::X509::PKCS12::*)()>(
     &::Mono::Security::X509::PKCS12::get_RNG)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c35f8c;
+  constexpr static std::size_t addrs = 0x3c35f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), "get_RNG",
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::X509::PKCS12::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::X509::PKCS12::Compare)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c349f0;
+  constexpr static std::size_t addrs = 0x3c34978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -482,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::SymmetricAlgorithm* (
     ::Mono::Security::X509::PKCS12::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::X509::PKCS12::GetSymmetricAlgorithm)> {
   constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x3c35fac;
+  constexpr static std::size_t addrs = 0x3c35f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::X509::PKCS12::Decrypt)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3c3599c;
+  constexpr static std::size_t addrs = 0x3c35924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12::*)(::Mono::Security::PKCS7_EncryptedData*)>(
     &::Mono::Security::X509::PKCS12::Decrypt)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c3514c;
+  constexpr static std::size_t addrs = 0x3c350d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::X509::PKCS12::Encrypt)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x3c3678c;
+  constexpr static std::size_t addrs = 0x3c36714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -550,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DSAParameters (::Mono::Security::X509::PKCS12::*)(::ByRef<bool>)>(
     &::Mono::Security::X509::PKCS12::GetExistingParameters)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3c369dc;
+  constexpr static std::size_t addrs = 0x3c36964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::Mono::Security::Cryptography::PKCS8_PrivateKeyInfo*)>(
     &::Mono::Security::X509::PKCS12::AddPrivateKey)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3c370e4;
+  constexpr static std::size_t addrs = 0x3c3706c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::Mono::Security::ASN1*)>(&::Mono::Security::X509::PKCS12::ReadSafeBag)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x3c34a78;
+  constexpr static std::size_t addrs = 0x3c34a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (
     ::Mono::Security::X509::PKCS12::*)(::Mono::Security::X509::X509Certificate*, ::System::Collections::IDictionary*)>(&::Mono::Security::X509::PKCS12::CertificateSafeBag)> {
   constexpr static std::size_t size = 0xbd8;
-  constexpr static std::size_t addrs = 0x3c37340;
+  constexpr static std::size_t addrs = 0x3c372c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::X509::PKCS12::MAC)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3c3489c;
+  constexpr static std::size_t addrs = 0x3c34824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::X509::PKCS12::*)()>(
     &::Mono::Security::X509::PKCS12::GetBytes)> {
   constexpr static std::size_t size = 0x2220;
-  constexpr static std::size_t addrs = 0x3c37f88;
+  constexpr static std::size_t addrs = 0x3c37f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), "GetBytes",
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::PKCS7_ContentInfo* (::Mono::Security::X509::PKCS12::*)(::Mono::Security::ASN1*, ::StringW)>(
     &::Mono::Security::X509::PKCS12::EncryptedContentInfo)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3c3a1b8;
+  constexpr static std::size_t addrs = 0x3c3a140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::PKCS12::AddCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3a1b0;
+  constexpr static std::size_t addrs = 0x3c3a138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -673,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Security::X509::PKCS12::*)(::Mono::Security::X509::X509Certificate*, ::System::Collections::IDictionary*)>(&::Mono::Security::X509::PKCS12::AddCertificate)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x3c3a4a8;
+  constexpr static std::size_t addrs = 0x3c3a430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::PKCS12::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::PKCS12::RemoveCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3a1a8;
+  constexpr static std::size_t addrs = 0x3c3a130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Security::X509::PKCS12::*)(::Mono::Security::X509::X509Certificate*, ::System::Collections::IDictionary*)>(&::Mono::Security::X509::PKCS12::RemoveCertificate)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x3c3a6f4;
+  constexpr static std::size_t addrs = 0x3c3a67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,7 +719,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Mono::Security::X509::PKCS12::*)()>(&::Mono::Security::X509::PKCS12::Clone)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c3ac00;
+  constexpr static std::size_t addrs = 0x3c3ab88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(), "Clone",
@@ -732,7 +732,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Mono::Security::X509::PKCS12::get_MaximumPasswordLength)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c3acc8;
+  constexpr static std::size_t addrs = 0x3c3ac50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::PKCS12*>::get(),

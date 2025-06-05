@@ -109,10 +109,10 @@ public:
   /// @brief Field timeToPrevColorNote, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToPrevColorNote, put = __cordl_internal_set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  /// @brief Method Deserialize, addr 0x2723450, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2723428, size 0x194, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x27230cc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x27230a4, size 0x118, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, float_t beat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::NoteData_GameplayType gameplayType,
                                                                ::GlobalNamespace::NoteData_ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
@@ -122,10 +122,10 @@ public:
 
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x2723068, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x2723040, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x272323c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2723214, size 0x214, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_beat() const;
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToPrevColorNote(float_t value);
 
-  /// @brief Method .ctor, addr 0x27231e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27231bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

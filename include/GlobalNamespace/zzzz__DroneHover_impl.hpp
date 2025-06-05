@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover_SineLayer::*)()>(&::GlobalNamespace::DroneHover_SineLayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acb4ec;
+  constexpr static std::size_t addrs = 0x3acb4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover_SineLayer*>::get(), ".ctor",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::Start)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3acaf54;
+  constexpr static std::size_t addrs = 0x3acaf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "Start",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::Update)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3acaf84;
+  constexpr static std::size_t addrs = 0x3acaf5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "Update",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::DroneHover::*)(float_t)>(&::GlobalNamespace::DroneHover::GetNoiseVec3)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3acb09c;
+  constexpr static std::size_t addrs = 0x3acb074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DroneHover::*)(float_t, float_t)>(&::GlobalNamespace::DroneHover::GetNoise)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3acb3dc;
+  constexpr static std::size_t addrs = 0x3acb3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::UpdateTiltTransform)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3acb118;
+  constexpr static std::size_t addrs = 0x3acb0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "UpdateTiltTransform",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3acb4d0;
+  constexpr static std::size_t addrs = 0x3acb4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), ".ctor",

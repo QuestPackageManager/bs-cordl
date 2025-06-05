@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::ToString)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4028db4;
+  constexpr static std::size_t addrs = 0x4028d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_processName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f1c;
+  constexpr static std::size_t addrs = 0x4028ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProcessPort*>::get(), "get_processName",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProcessPort::*)(::StringW)>(&::GlobalNamespace::ProcessPort::set_processName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f24;
+  constexpr static std::size_t addrs = 0x4028eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_processId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f2c;
+  constexpr static std::size_t addrs = 0x4028eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProcessPort*>::get(), "get_processId",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProcessPort::*)(int32_t)>(&::GlobalNamespace::ProcessPort::set_processId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f34;
+  constexpr static std::size_t addrs = 0x4028ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_portNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f3c;
+  constexpr static std::size_t addrs = 0x4028ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProcessPort*>::get(), "get_portNumber",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProcessPort::*)(::StringW)>(&::GlobalNamespace::ProcessPort::set_portNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f44;
+  constexpr static std::size_t addrs = 0x4028ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_protocol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f4c;
+  constexpr static std::size_t addrs = 0x4028ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProcessPort*>::get(), "get_protocol",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProcessPort::*)(::StringW)>(&::GlobalNamespace::ProcessPort::set_protocol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028f54;
+  constexpr static std::size_t addrs = 0x4028edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::ProcessPort::LookupProcess)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4028f5c;
+  constexpr static std::size_t addrs = 0x4028ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::ProcessPort*>* (*)(::StringW)>(
     &::GlobalNamespace::ProcessPort::GetProcessesByPort)> {
   constexpr static std::size_t size = 0xae4;
-  constexpr static std::size_t addrs = 0x4029028;
+  constexpr static std::size_t addrs = 0x4028fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4029b0c;
+  constexpr static std::size_t addrs = 0x4029a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProcessPort*>::get(), ".ctor",

@@ -32,21 +32,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFileStorage"
   constexpr operator ::GlobalNamespace::IFileStorage*() noexcept;
 
-  /// @brief Method DeleteFileAsync, addr 0x22a5cb8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method DeleteFileAsync, addr 0x22a5c78, size 0x88, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DeleteFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExistsAsync, addr 0x22a5d40, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method FileExistsAsync, addr 0x22a5d00, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* FileExistsAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method LoadFileAsync, addr 0x22a5c50, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method LoadFileAsync, addr 0x22a5c10, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* LoadFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   static inline ::GlobalNamespace::NoFileStorage* New_ctor();
 
-  /// @brief Method SaveFileAsync, addr 0x22a5bc8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method SaveFileAsync, addr 0x22a5b88, size 0x88, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* SaveFileAsync(::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method .ctor, addr 0x22a5da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a5d68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFileStorage"

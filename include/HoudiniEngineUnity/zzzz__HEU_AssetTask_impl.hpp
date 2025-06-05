@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_SessionBase* (::HoudiniEngineUnity::HEU_AssetTask::*)()>(
     &::HoudiniEngineUnity::HEU_AssetTask::GetTaskSession)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3a60eac;
+  constexpr static std::size_t addrs = 0x3a60e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), "GetTaskSession",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)()>(&::HoudiniEngineUnity::HEU_AssetTask::DoTask)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x3a60f60;
+  constexpr static std::size_t addrs = 0x3a60f38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)()>(&::HoudiniEngineUnity::HEU_AssetTask::KillTask)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a61524;
+  constexpr static std::size_t addrs = 0x3a614fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::HEU_Task_TaskResult)>(
     &::HoudiniEngineUnity::HEU_AssetTask::CompleteTask)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a61754;
+  constexpr static std::size_t addrs = 0x3a6172c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(
     ::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*)>(&::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a61984;
+  constexpr static std::size_t addrs = 0x3a6195c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::HEU_CookedEventData*)>(
     &::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a61a04;
+  constexpr static std::size_t addrs = 0x3a619dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)(::HoudiniEngineUnity::HEU_ReloadEventData*)>(
     &::HoudiniEngineUnity::HEU_AssetTask::CookCompletedCallback)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a61a14;
+  constexpr static std::size_t addrs = 0x3a619ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetTask::*)()>(&::HoudiniEngineUnity::HEU_AssetTask::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3a61a24;
+  constexpr static std::size_t addrs = 0x3a619fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetTask*>::get(), ".ctor",

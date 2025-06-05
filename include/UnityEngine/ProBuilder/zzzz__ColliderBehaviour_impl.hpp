@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(
     &::UnityEngine::ProBuilder::ColliderBehaviour::Initialize)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x47050f4;
+  constexpr static std::size_t addrs = 0x470507c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(
     &::UnityEngine::ProBuilder::ColliderBehaviour::OnEnterPlayMode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x47052e4;
+  constexpr static std::size_t addrs = 0x470526c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)(
     ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(&::UnityEngine::ProBuilder::ColliderBehaviour::OnSceneLoaded)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x470539c;
+  constexpr static std::size_t addrs = 0x4705324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(&::UnityEngine::ProBuilder::ColliderBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4705454;
+  constexpr static std::size_t addrs = 0x47053dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColliderBehaviour*>::get(), ".ctor",

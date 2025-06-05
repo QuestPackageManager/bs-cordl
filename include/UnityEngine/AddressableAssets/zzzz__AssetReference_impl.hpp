@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (
     ::UnityEngine::AddressableAssets::AssetReference::*)()>(&::UnityEngine::AddressableAssets::AssetReference::get_OperationHandle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44f2600;
+  constexpr static std::size_t addrs = 0x44f2588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReference::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::AddressableAssets::AssetReference::set_OperationHandle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44f2614;
+  constexpr static std::size_t addrs = 0x44f259c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::get_RuntimeKey)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44f2628;
+  constexpr static std::size_t addrs = 0x44f25b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::get_AssetGUID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f26c4;
+  constexpr static std::size_t addrs = 0x44f264c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::get_SubObjectName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f26cc;
+  constexpr static std::size_t addrs = 0x44f2654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReference::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReference::set_SubObjectName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f26d4;
+  constexpr static std::size_t addrs = 0x44f265c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::get_SubOjbectType)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44f26dc;
+  constexpr static std::size_t addrs = 0x44f2664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::IsValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44f2788;
+  constexpr static std::size_t addrs = 0x44f2710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::get_IsDone)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44f2794;
+  constexpr static std::size_t addrs = 0x44f271c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(),
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44f27a0;
+  constexpr static std::size_t addrs = 0x44f2728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReference::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReference::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44f27f0;
+  constexpr static std::size_t addrs = 0x44f2778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::get_Asset)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x44f2854;
+  constexpr static std::size_t addrs = 0x44f27dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44f28f4;
+  constexpr static std::size_t addrs = 0x44f287c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (::UnityEngine::AddressableAssets::AssetReference::*)()>(&::UnityEngine::AddressableAssets::AssetReference::LoadScene)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x44f2960;
+  constexpr static std::size_t addrs = 0x44f28e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(),
@@ -234,7 +234,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(
     &::UnityEngine::AddressableAssets::AssetReference::Instantiate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44f29a0;
+  constexpr static std::size_t addrs = 0x44f2928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> (
     ::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::Transform*, bool)>(&::UnityEngine::AddressableAssets::AssetReference::Instantiate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44f29d4;
+  constexpr static std::size_t addrs = 0x44f295c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,7 +268,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (
         ::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::SceneManagement::LoadSceneMode, bool, int32_t)>(&::UnityEngine::AddressableAssets::AssetReference::LoadSceneAsync)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x44f2a0c;
+  constexpr static std::size_t addrs = 0x44f2994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
     ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (::UnityEngine::AddressableAssets::AssetReference::*)()>(&::UnityEngine::AddressableAssets::AssetReference::UnLoadScene)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44f2b6c;
+  constexpr static std::size_t addrs = 0x44f2af4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -301,7 +301,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(
     &::UnityEngine::AddressableAssets::AssetReference::InstantiateAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44f2c08;
+  constexpr static std::size_t addrs = 0x44f2b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> (
     ::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::Transform*, bool)>(&::UnityEngine::AddressableAssets::AssetReference::InstantiateAsync)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44f2cfc;
+  constexpr static std::size_t addrs = 0x44f2c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::RuntimeKeyIsValid)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44f2da8;
+  constexpr static std::size_t addrs = 0x44f2d30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReference::*)()>(
     &::UnityEngine::AddressableAssets::AssetReference::ReleaseAsset)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x44f2e28;
+  constexpr static std::size_t addrs = 0x44f2db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::AddressableAssets::AssetReference::ReleaseInstance)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x44f2f14;
+  constexpr static std::size_t addrs = 0x44f2e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReference::*)(::UnityEngine::Object*)>(
     &::UnityEngine::AddressableAssets::AssetReference::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f2f68;
+  constexpr static std::size_t addrs = 0x44f2ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReference::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReference::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f2f70;
+  constexpr static std::size_t addrs = 0x44f2ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -565,8 +565,11 @@ UnityEngine::AddressableAssets::AssetReference::Instantiate(::UnityEngine::Trans
                                                                                                                                                                      instantiateInWorldSpace);
 }
 template <typename TObject> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> UnityEngine::AddressableAssets::AssetReference::LoadAssetAsync() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(), 12)));
+  auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReference*>::get(), 12)));
+  auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get() }));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___internal_method);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>

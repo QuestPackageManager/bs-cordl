@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::*)(
     ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23c3500;
+  constexpr static std::size_t addrs = 0x23c34c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x23c35a4;
+  constexpr static std::size_t addrs = 0x23c3564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x23c3660;
+  constexpr static std::size_t addrs = 0x23c3620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::Encode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23c3764;
+  constexpr static std::size_t addrs = 0x23c3724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::GetEncoded)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23c37e8;
+  constexpr static std::size_t addrs = 0x23c37a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::GeneratePublicKey)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23c3844;
+  constexpr static std::size_t addrs = 0x23c3804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::GenerateSecret)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23c39a4;
+  constexpr static std::size_t addrs = 0x23c3964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

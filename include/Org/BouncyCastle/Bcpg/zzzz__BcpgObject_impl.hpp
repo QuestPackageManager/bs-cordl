@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::BcpgObject::*)()>(
     &::Org::BouncyCastle::Bcpg::BcpgObject::GetEncoded)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26464bc;
+  constexpr static std::size_t addrs = 0x264647c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::BcpgObject::*)()>(&::Org::BouncyCastle::Bcpg::BcpgObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2646610;
+  constexpr static std::size_t addrs = 0x26465d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::BcpgObject*>::get(), ".ctor",

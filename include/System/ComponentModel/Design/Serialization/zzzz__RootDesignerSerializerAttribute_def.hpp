@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set__typeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x447fd54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447fcdc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable);
 
-  /// @brief Method get_SerializerBaseTypeName, addr 0x447fd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializerBaseTypeName, addr 0x447fd18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SerializerBaseTypeName();
 
-  /// @brief Method get_TypeId, addr 0x447fd98, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x447fd20, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
 protected:

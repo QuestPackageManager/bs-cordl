@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NullableMethodCallInstruction_HasValue* New_ctor();
 
-  /// @brief Method Run, addr 0x40f8cd0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f8c58, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f8bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f8b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -33,7 +33,7 @@ public:
   /// @brief Field m_Type, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type)) ::System::Type* m_Type;
 
-  /// @brief Method GetResult, addr 0x48a787c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x48a7804, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
   static inline ::UnityEngine::ResourceRequest* New_ctor();
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x48a790c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a7894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_asset, addr 0x48a7900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x48a7888, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:

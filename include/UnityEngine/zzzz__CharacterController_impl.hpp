@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::CharacterController::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::CharacterController::SimpleMove)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4909ea4;
+  constexpr static std::size_t addrs = 0x4909e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CollisionFlags (::UnityEngine::CharacterController::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::CharacterController::Move)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4909f40;
+  constexpr static std::size_t addrs = 0x4909ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CharacterController::*)()>(
     &::UnityEngine::CharacterController::get_velocity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4909fd8;
+  constexpr static std::size_t addrs = 0x4909f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_velocity",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_isGrounded)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a078;
+  constexpr static std::size_t addrs = 0x490a000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_isGrounded",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CollisionFlags (::UnityEngine::CharacterController::*)()>(
     &::UnityEngine::CharacterController::get_collisionFlags)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a0b4;
+  constexpr static std::size_t addrs = 0x490a03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_collisionFlags",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_radius)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a0f0;
+  constexpr static std::size_t addrs = 0x490a078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_radius",
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_radius)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a12c;
+  constexpr static std::size_t addrs = 0x490a0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_height)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a178;
+  constexpr static std::size_t addrs = 0x490a100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_height",
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_height)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a1b4;
+  constexpr static std::size_t addrs = 0x490a13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_center)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490a200;
+  constexpr static std::size_t addrs = 0x490a188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_center",
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::CharacterController::set_center)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490a2a0;
+  constexpr static std::size_t addrs = 0x490a228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_slopeLimit)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a338;
+  constexpr static std::size_t addrs = 0x490a2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_slopeLimit",
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_slopeLimit)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a374;
+  constexpr static std::size_t addrs = 0x490a2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_stepOffset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a3c0;
+  constexpr static std::size_t addrs = 0x490a348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_stepOffset",
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_stepOffset)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a3fc;
+  constexpr static std::size_t addrs = 0x490a384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_skinWidth)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a448;
+  constexpr static std::size_t addrs = 0x490a3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), "get_skinWidth",
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_skinWidth)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a484;
+  constexpr static std::size_t addrs = 0x490a40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_minMoveDistance)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a4d0;
+  constexpr static std::size_t addrs = 0x490a458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(),
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(float_t)>(&::UnityEngine::CharacterController::set_minMoveDistance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a50c;
+  constexpr static std::size_t addrs = 0x490a494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_detectCollisions)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a558;
+  constexpr static std::size_t addrs = 0x490a4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(),
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(bool)>(&::UnityEngine::CharacterController::set_detectCollisions)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a594;
+  constexpr static std::size_t addrs = 0x490a51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::get_enableOverlapRecovery)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a5d8;
+  constexpr static std::size_t addrs = 0x490a560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(),
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(bool)>(&::UnityEngine::CharacterController::set_enableOverlapRecovery)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a614;
+  constexpr static std::size_t addrs = 0x490a59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)()>(&::UnityEngine::CharacterController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x490a658;
+  constexpr static std::size_t addrs = 0x490a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CharacterController*>::get(), ".ctor",
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::CharacterController::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CharacterController::SimpleMove_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4909efc;
+  constexpr static std::size_t addrs = 0x4909e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CollisionFlags (::UnityEngine::CharacterController::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CharacterController::Move_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4909f94;
+  constexpr static std::size_t addrs = 0x4909f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CharacterController::get_velocity_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a034;
+  constexpr static std::size_t addrs = 0x4909fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CharacterController::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a25c;
+  constexpr static std::size_t addrs = 0x490a1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CharacterController::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CharacterController::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a2f4;
+  constexpr static std::size_t addrs = 0x490a27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x442ddf8;
+  constexpr static std::size_t addrs = 0x442dd80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)(bool)>(&::System::Diagnostics::AsyncStreamReader::Dispose)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x442de08;
+  constexpr static std::size_t addrs = 0x442dd90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::CancelOperation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x442e178;
+  constexpr static std::size_t addrs = 0x442e100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::AsyncStreamReader*>::get(),

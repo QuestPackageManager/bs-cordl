@@ -27,12 +27,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE PropertyChangingEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x445d14c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x445d0d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangingEventArgs* e);
 
   static inline ::System::ComponentModel::PropertyChangingEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x445d048, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445cfd0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

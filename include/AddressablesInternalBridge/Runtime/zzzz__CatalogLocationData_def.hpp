@@ -59,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x44dcf64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dceec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW locatorId, ::StringW localHash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
-  /// @brief Method get_CatalogLocation, addr 0x44dd5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocation, addr 0x44dd548, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
-  /// @brief Method get_LocalHash, addr 0x44dd5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalHash, addr 0x44dd540, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
-  /// @brief Method get_LocatorId, addr 0x44dd5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocatorId, addr 0x44dd538, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocatorId();
 
 protected:

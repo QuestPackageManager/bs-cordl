@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour___c::*)()>(&::GlobalNamespace::CustomTweenBehaviour___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b34c90;
+  constexpr static std::size_t addrs = 0x3b34c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get(), ".ctor",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CustomTweenBehaviour___c::*)(int32_t)>(
     &::GlobalNamespace::CustomTweenBehaviour___c::_OnBehaviourPlay_b__21_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b34c98;
+  constexpr static std::size_t addrs = 0x3b34c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b34410;
+  constexpr static std::size_t addrs = 0x3b343e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::CustomTweenBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3b3454c;
+  constexpr static std::size_t addrs = 0x3b34524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b34934;
+  constexpr static std::size_t addrs = 0x3b3490c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3b34a38;
+  constexpr static std::size_t addrs = 0x3b34a10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)()>(&::GlobalNamespace::CustomTweenBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b34c1c;
+  constexpr static std::size_t addrs = 0x3b34bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), ".ctor",

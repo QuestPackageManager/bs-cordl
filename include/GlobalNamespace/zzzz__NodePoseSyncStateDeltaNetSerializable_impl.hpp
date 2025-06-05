@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* (*)()>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22e9f34;
+  constexpr static std::size_t addrs = 0x22e9ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_baseId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e9f74;
+  constexpr static std::size_t addrs = 0x22e9f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(::GlobalNamespace::SyncStateId)>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_baseId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e9f7c;
+  constexpr static std::size_t addrs = 0x22e9f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_timeOffsetMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e9f84;
+  constexpr static std::size_t addrs = 0x22e9f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(int32_t)>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_timeOffsetMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e9f8c;
+  constexpr static std::size_t addrs = 0x22e9f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NodePoseSyncState (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::get_delta)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22e9f94;
+  constexpr static std::size_t addrs = 0x22e9f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(::GlobalNamespace::NodePoseSyncState)>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::set_delta)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e9fa4;
+  constexpr static std::size_t addrs = 0x22e9f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22e9fbc;
+  constexpr static std::size_t addrs = 0x22e9f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22ea084;
+  constexpr static std::size_t addrs = 0x22ea044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::Release)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22ea124;
+  constexpr static std::size_t addrs = 0x22ea0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>::get(),
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::*)()>(
     &::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ea1d0;
+  constexpr static std::size_t addrs = 0x22ea190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>::get(),

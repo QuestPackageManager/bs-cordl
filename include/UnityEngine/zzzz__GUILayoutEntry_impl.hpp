@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_style)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48e2464;
+  constexpr static std::size_t addrs = 0x48e23ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutEntry*>::get(), "get_style",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(::UnityEngine::GUIStyle*)>(&::UnityEngine::GUILayoutEntry::set_style)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48dcb88;
+  constexpr static std::size_t addrs = 0x48dcb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginLeft)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48e246c;
+  constexpr static std::size_t addrs = 0x48e23f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginRight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48e2490;
+  constexpr static std::size_t addrs = 0x48e2418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginTop)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48e24b4;
+  constexpr static std::size_t addrs = 0x48e243c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginBottom)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48e24d8;
+  constexpr static std::size_t addrs = 0x48e2460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginHorizontal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48e24fc;
+  constexpr static std::size_t addrs = 0x48e2484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutEntry*>::get(), "get_marginHorizontal",
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginVertical)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48e2538;
+  constexpr static std::size_t addrs = 0x48e24c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutEntry*>::get(), "get_marginVertical",
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t, float_t, float_t, ::UnityEngine::GUIStyle*)>(
     &::UnityEngine::GUILayoutEntry::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x48e2574;
+  constexpr static std::size_t addrs = 0x48e24fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(
     float_t, float_t, float_t, float_t, ::UnityEngine::GUIStyle*, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*>)>(&::UnityEngine::GUILayoutEntry::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x48ddd28;
+  constexpr static std::size_t addrs = 0x48ddcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::CalcWidth)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48e2648;
+  constexpr static std::size_t addrs = 0x48e25d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::CalcHeight)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48e264c;
+  constexpr static std::size_t addrs = 0x48e25d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t)>(&::UnityEngine::GUILayoutEntry::SetHorizontal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48e2650;
+  constexpr static std::size_t addrs = 0x48e25d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t)>(&::UnityEngine::GUILayoutEntry::SetVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48e265c;
+  constexpr static std::size_t addrs = 0x48e25e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(::UnityEngine::GUIStyle*)>(
     &::UnityEngine::GUILayoutEntry::ApplyStyleSettings)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48e2668;
+  constexpr static std::size_t addrs = 0x48e25f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::GUILayoutEntry::*)(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*>)>(&::UnityEngine::GUILayoutEntry::ApplyOptions)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x48e2764;
+  constexpr static std::size_t addrs = 0x48e26ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::ToString)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x48e2a38;
+  constexpr static std::size_t addrs = 0x48e29c0;
 
   inline static ::MethodInfo const* methodInfo() {
 

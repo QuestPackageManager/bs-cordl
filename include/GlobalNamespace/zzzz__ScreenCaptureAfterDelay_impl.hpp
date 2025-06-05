@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay_InitData::*)(
     ::GlobalNamespace::ScreenCaptureCache_ScreenshotType, float_t, int32_t, int32_t)>(&::GlobalNamespace::ScreenCaptureAfterDelay_InitData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4086464;
+  constexpr static std::size_t addrs = 0x40863ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::*)(int32_t)>(
     &::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40860b4;
+  constexpr static std::size_t addrs = 0x408603c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::*)()>(
     &::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40864c4;
+  constexpr static std::size_t addrs = 0x408644c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::*)()>(
     &::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x40864c8;
+  constexpr static std::size_t addrs = 0x4086450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::*)()>(
     &::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4086698;
+  constexpr static std::size_t addrs = 0x4086620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::*)()>(
     &::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x40866a0;
+  constexpr static std::size_t addrs = 0x4086628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::*)()>(
     &::GlobalNamespace::ScreenCaptureAfterDelay__Start_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40866d8;
+  constexpr static std::size_t addrs = 0x4086660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ScreenCaptureAfterDelay::*)()>(
     &::GlobalNamespace::ScreenCaptureAfterDelay::Start)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4086054;
+  constexpr static std::size_t addrs = 0x4085fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenCaptureAfterDelay*>::get(), "Start",
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay::*)()>(&::GlobalNamespace::ScreenCaptureAfterDelay::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x40860dc;
+  constexpr static std::size_t addrs = 0x4086064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenCaptureAfterDelay*>::get(), "OnDestroy",
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay::*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::ScreenCaptureAfterDelay::HandleMainEffectControllerAfterImageEffectEvent)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x40861b8;
+  constexpr static std::size_t addrs = 0x4086140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScreenCaptureAfterDelay::*)()>(&::GlobalNamespace::ScreenCaptureAfterDelay::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408645c;
+  constexpr static std::size_t addrs = 0x40863e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScreenCaptureAfterDelay*>::get(), ".ctor",

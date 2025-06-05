@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetPSSaberGlowColor::*)()>(&::GlobalNamespace::SetPSSaberGlowColor::Start)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bec294;
+  constexpr static std::size_t addrs = 0x3bec2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetPSSaberGlowColor*>::get(), "Start",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetPSSaberGlowColor::*)()>(&::GlobalNamespace::SetPSSaberGlowColor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bec314;
+  constexpr static std::size_t addrs = 0x3bec35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetPSSaberGlowColor*>::get(), ".ctor",

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_center)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490a80c;
+  constexpr static std::size_t addrs = 0x490a794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), "get_center",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::CapsuleCollider::set_center)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490a8ac;
+  constexpr static std::size_t addrs = 0x490a834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_radius)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a944;
+  constexpr static std::size_t addrs = 0x490a8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), "get_radius",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(float_t)>(&::UnityEngine::CapsuleCollider::set_radius)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490a980;
+  constexpr static std::size_t addrs = 0x490a908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_height)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490a9cc;
+  constexpr static std::size_t addrs = 0x490a954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), "get_height",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(float_t)>(&::UnityEngine::CapsuleCollider::set_height)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490aa08;
+  constexpr static std::size_t addrs = 0x490a990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_direction)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490aa54;
+  constexpr static std::size_t addrs = 0x490a9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), "get_direction",
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(int32_t)>(&::UnityEngine::CapsuleCollider::set_direction)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490aa90;
+  constexpr static std::size_t addrs = 0x490aa18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::GetGlobalExtents)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490aad4;
+  constexpr static std::size_t addrs = 0x490aa5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), "GetGlobalExtents",
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::CapsuleCollider::*)()>(
     &::UnityEngine::CapsuleCollider::CalculateTransform)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x490ab64;
+  constexpr static std::size_t addrs = 0x490aaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), "CalculateTransform",
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x490ac14;
+  constexpr static std::size_t addrs = 0x490ab9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CapsuleCollider*>::get(), ".ctor",
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CapsuleCollider::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a868;
+  constexpr static std::size_t addrs = 0x490a7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::CapsuleCollider::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490a900;
+  constexpr static std::size_t addrs = 0x490a888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(::ByRef<::UnityEngine::Vector2>)>(
     &::UnityEngine::CapsuleCollider::GetGlobalExtents_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ab20;
+  constexpr static std::size_t addrs = 0x490aaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CapsuleCollider::*)(::ByRef<::UnityEngine::Matrix4x4>)>(
     &::UnityEngine::CapsuleCollider::CalculateTransform_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490abd0;
+  constexpr static std::size_t addrs = 0x490ab58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

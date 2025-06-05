@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (
     ::GlobalNamespace::MirroredDisappearingArrowController::*)()>(&::GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aea390;
+  constexpr static std::size_t addrs = 0x3aea368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredDisappearingArrowController::*)()>(
     &::GlobalNamespace::MirroredDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3aea398;
+  constexpr static std::size_t addrs = 0x3aea370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredDisappearingArrowController*>::get(),

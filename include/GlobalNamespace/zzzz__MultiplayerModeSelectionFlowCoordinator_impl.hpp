@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::MoveNext)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x3b4ff1c;
+  constexpr static std::size_t addrs = 0x3b4fef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b502ec;
+  constexpr static std::size_t addrs = 0x3b502c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::MoveNext)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x3b502f8;
+  constexpr static std::size_t addrs = 0x3b502d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b50718;
+  constexpr static std::size_t addrs = 0x3b506f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::MoveNext)> {
   constexpr static std::size_t size = 0xadc;
-  constexpr static std::size_t addrs = 0x3b50724;
+  constexpr static std::size_t addrs = 0x3b506fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b51200;
+  constexpr static std::size_t addrs = 0x3b511d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b4cb00;
+  constexpr static std::size_t addrs = 0x3b4cad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b4cbb4;
+  constexpr static std::size_t addrs = 0x3b4cb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::GlobalNamespace::SelectMultiplayerLobbyDestination*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4cc68;
+  constexpr static std::size_t addrs = 0x3b4cc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x3b4cc70;
+  constexpr static std::size_t addrs = 0x3b4cc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3b4d1d0;
+  constexpr static std::size_t addrs = 0x3b4d1a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b4d5b0;
+  constexpr static std::size_t addrs = 0x3b4d588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x3b4d67c;
+  constexpr static std::size_t addrs = 0x3b4d654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TransitionDidStart)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b4d8c8;
+  constexpr static std::size_t addrs = 0x3b4d8a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TransitionDidFinish)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3b4da14;
+  constexpr static std::size_t addrs = 0x3b4d9ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b4e2c8;
+  constexpr static std::size_t addrs = 0x3b4e2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccess)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b4e2e4;
+  constexpr static std::size_t addrs = 0x3b4e2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionFailed)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b4e310;
+  constexpr static std::size_t addrs = 0x3b4e2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -464,7 +464,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerModeSelectionViewController*, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyControllerDidFinish)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x3b4e3d4;
+  constexpr static std::size_t addrs = 0x3b4e3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::GlobalNamespace::GameServerBrowserFlowCoordinator*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleGameServerBrowserFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b4e9b4;
+  constexpr static std::size_t addrs = 0x3b4e98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -497,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleJoiningLobbyViewControllerDidCancel)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b4e9c8;
+  constexpr static std::size_t addrs = 0x3b4e9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleJoinQuickPlayViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x3b4ea8c;
+  constexpr static std::size_t addrs = 0x3b4ea64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, ::StringW)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleServerCodeEntryViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3b4eec4;
+  constexpr static std::size_t addrs = 0x3b4ee9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, ::GlobalNamespace::CreateServerFormData)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleCreateServerViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x3b4efe4;
+  constexpr static std::size_t addrs = 0x3b4efbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleGameServerLobbyFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3b4f3dc;
+  constexpr static std::size_t addrs = 0x3b4f3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleGameServerLobbyFlowCoordinatorWillFinish)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b4f650;
+  constexpr static std::size_t addrs = 0x3b4f628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::GlobalNamespace::INetworkPlayerModel*)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleConnectedPlayerManagerCreated)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b4f6f4;
+  constexpr static std::size_t addrs = 0x3b4f6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TryShowModeSelection)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b4d134;
+  constexpr static std::size_t addrs = 0x3b4d10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -621,7 +621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::ResolveAndPresentNextFlowCoordinator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b4dc9c;
+  constexpr static std::size_t addrs = 0x3b4dc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -637,7 +637,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::PresentConnectionErrorDialog)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x3b4dd38;
+  constexpr static std::size_t addrs = 0x3b4dd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -655,7 +655,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::GlobalNamespace::MultiplayerUnavailableReason, ::System::Exception*, ::System::Nullable_1<int64_t>, ::StringW)>(
         &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::PresentMasterServerUnavailableErrorDialog)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x3b4f78c;
+  constexpr static std::size_t addrs = 0x3b4f764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::ProcessDeeplinkingToLobby)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3b4fc4c;
+  constexpr static std::size_t addrs = 0x3b4fc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4fd3c;
+  constexpr static std::size_t addrs = 0x3b4fd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -704,7 +704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ResolveAndPresentNextFlowCoordinator_b__52_0)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3b4fd44;
+  constexpr static std::size_t addrs = 0x3b4fd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__53_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b4fecc;
+  constexpr static std::size_t addrs = 0x3b4fea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__53_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b4fee4;
+  constexpr static std::size_t addrs = 0x3b4febc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentMasterServerUnavailableErrorDialog_b__54_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b4fefc;
+  constexpr static std::size_t addrs = 0x3b4fed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

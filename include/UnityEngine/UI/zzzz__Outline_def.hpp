@@ -21,12 +21,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x4ad3130, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x4ad30b8, size 0x240, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::Outline* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ad3128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad30b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

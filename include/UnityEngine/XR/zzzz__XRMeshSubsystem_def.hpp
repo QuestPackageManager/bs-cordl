@@ -40,10 +40,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x4aecba0, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4aecb28, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4aecbdc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4aecb64, size 0x3c, virtual false, abstract: false, final false
   static inline void Dispose(::System::IntPtr self);
 
   /// @brief Convert to "::System::IDisposable"
@@ -82,12 +82,12 @@ public:
   // Declarations
   using MeshTransformList = ::UnityEngine::XR::XRMeshSubsystem_MeshTransformList;
 
-  /// @brief Method InvokeMeshReadyDelegate, addr 0x4aecb00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeshReadyDelegate, addr 0x4aeca88, size 0x58, virtual false, abstract: false, final false
   inline void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
 
   static inline ::UnityEngine::XR::XRMeshSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4aecb58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aecae0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

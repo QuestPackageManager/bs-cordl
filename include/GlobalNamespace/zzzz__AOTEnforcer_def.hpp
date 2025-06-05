@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE AOTEnforcer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x39bd6a8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39bd680, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AOTEnforcer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39bd70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bd6e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

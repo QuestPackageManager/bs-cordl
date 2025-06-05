@@ -67,18 +67,18 @@ public:
 
   __declspec(property(get = get_useCustomMaterial)) bool useCustomMaterial;
 
-  /// @brief Method Awake, addr 0x39d7ad0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x39d7aa8, size 0xc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x39d7bf4, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x39d7bcc, size 0x114, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore* New_ctor();
 
-  /// @brief Method Render, addr 0x39d7e20, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x39d7df8, size 0x304, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method SetCustomPropertyBlock, addr 0x39d7d6c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetCustomPropertyBlock, addr 0x39d7d44, size 0xb4, virtual false, abstract: false, final false
   inline void SetCustomPropertyBlock(::UnityEngine::MaterialPropertyBlock* bloomPropertyBlock);
 
   constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__commandBuffer() const;
@@ -117,20 +117,20 @@ public:
 
   constexpr void __cordl_internal_set__useCustomPropertyBlock(bool value);
 
-  /// @brief Method .ctor, addr 0x39d6cac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d6c84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
 
-  /// @brief Method get_customMaterial, addr 0x39d7d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customMaterial, addr 0x39d7d3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_customMaterial();
 
   /// @brief Method get_renderer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_useCustomMaterial, addr 0x39d7d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomMaterial, addr 0x39d7d34, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomMaterial();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);

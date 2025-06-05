@@ -83,18 +83,18 @@ public:
   /// @brief Field _springJoint, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__springJoint, put = __cordl_internal_set__springJoint)) ::UnityW<::UnityEngine::SpringJoint> _springJoint;
 
-  /// @brief Method HandleContractBeatmapEvent, addr 0x2268864, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleContractBeatmapEvent, addr 0x2268824, size 0xa4, virtual false, abstract: false, final false
   inline void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleExpandBeatmapEvent, addr 0x2268908, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleExpandBeatmapEvent, addr 0x22688c8, size 0xa4, virtual false, abstract: false, final false
   inline void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarSuspensionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2268824, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22687e4, size 0x40, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x226860c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22685cc, size 0x218, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set__springJoint(::UnityW<::UnityEngine::SpringJoint> value);
 
-  /// @brief Method .ctor, addr 0x22689ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226896c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

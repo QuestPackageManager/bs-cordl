@@ -19,10 +19,10 @@ namespace System::Net::Http {
 class CORDL_TYPE HttpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsSecureWebSocketScheme, addr 0x4212c34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsSecureWebSocketScheme, addr 0x4212bbc, size 0x50, virtual false, abstract: false, final false
   static inline bool IsSecureWebSocketScheme(::StringW scheme);
 
-  /// @brief Method IsSupportedSecureScheme, addr 0x4212bc8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsSupportedSecureScheme, addr 0x4212b50, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsSupportedSecureScheme(::StringW scheme);
 
 protected:

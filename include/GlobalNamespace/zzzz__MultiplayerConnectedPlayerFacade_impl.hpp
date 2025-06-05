@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bb8e88;
+  constexpr static std::size_t addrs = 0x3bb8ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> (
     ::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb8aa0;
+  constexpr static std::size_t addrs = 0x3bb8ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_outroAnimator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb8aa8;
+  constexpr static std::size_t addrs = 0x3bb8af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb8ab0;
+  constexpr static std::size_t addrs = 0x3bb8af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::SetSongStartSyncTime)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bb8ab8;
+  constexpr static std::size_t addrs = 0x3bb8b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::PauseSpawning)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3bb8c10;
+  constexpr static std::size_t addrs = 0x3bb8c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::ResumeSpawning)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3bb8cb4;
+  constexpr static std::size_t addrs = 0x3bb8cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::__ForceStopSong)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3bb8d58;
+  constexpr static std::size_t addrs = 0x3bb8da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::HideBigAvatar)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3bb8d98;
+  constexpr static std::size_t addrs = 0x3bb8de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::BeatSaber::AvatarCore::Avatar> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::__GetPlayerAvatar)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3bb8e28;
+  constexpr static std::size_t addrs = 0x3bb8e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3bb8e74;
+  constexpr static std::size_t addrs = 0x3bb8ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),

@@ -26,19 +26,19 @@ public:
   // Declarations
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
-  /// @brief Method GetHumanoidBodyPartActive, addr 0x4854780, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive, addr 0x4854708, size 0x44, virtual false, abstract: false, final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method GetTransformActive, addr 0x4854888, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetTransformActive, addr 0x4854810, size 0x54, virtual false, abstract: false, final false
   inline bool GetTransformActive(int32_t index);
 
-  /// @brief Method GetTransformPath, addr 0x4854800, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath, addr 0x4854788, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetTransformPath(int32_t index);
 
-  /// @brief Method GetTransformWeight, addr 0x4854844, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformWeight, addr 0x48547cc, size 0x44, virtual false, abstract: false, final false
   inline float_t GetTransformWeight(int32_t index);
 
-  /// @brief Method get_transformCount, addr 0x48547c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transformCount, addr 0x485474c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_transformCount();
 
 protected:

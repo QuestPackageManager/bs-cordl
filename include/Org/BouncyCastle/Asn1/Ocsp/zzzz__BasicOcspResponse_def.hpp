@@ -60,25 +60,25 @@ public:
   /// @brief Field tbsResponseData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tbsResponseData, put = __cordl_internal_set_tbsResponseData)) ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData;
 
-  /// @brief Method GetCerts, addr 0x2405678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0x2405638, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* GetCerts();
 
-  /// @brief Method GetInstance, addr 0x2405120, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24050e0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2405138, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24050f8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSignature, addr 0x2405648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSignature, addr 0x2405608, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* GetSignature();
 
-  /// @brief Method GetSignatureAlgorithm, addr 0x2405638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureAlgorithm, addr 0x24055f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSignatureAlgorithm();
 
-  /// @brief Method GetSignatureOctets, addr 0x2405658, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureOctets, addr 0x2405618, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
-  /// @brief Method GetTbsResponseData, addr 0x2405628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTbsResponseData, addr 0x24055e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetTbsResponseData();
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -87,7 +87,7 @@ public:
                                                                              ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm,
                                                                              ::Org::BouncyCastle::Asn1::DerBitString* signature, ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
-  /// @brief Method ToAsn1Object, addr 0x2405688, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2405648, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_certs() const;
@@ -114,23 +114,23 @@ public:
 
   constexpr void __cordl_internal_set_tbsResponseData(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
 
-  /// @brief Method .ctor, addr 0x24052b4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2405274, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x240546c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240542c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerBitString* signature, ::Org::BouncyCastle::Asn1::Asn1Sequence* certs);
 
-  /// @brief Method get_Certs, addr 0x2405680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certs, addr 0x2405640, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Certs();
 
-  /// @brief Method get_Signature, addr 0x2405650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x2405610, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x2405640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x2405600, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_TbsResponseData, addr 0x2405630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TbsResponseData, addr 0x24055f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* get_TbsResponseData();
 
 protected:

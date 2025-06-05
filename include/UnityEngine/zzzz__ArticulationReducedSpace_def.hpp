@@ -67,19 +67,19 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
-  /// @brief Method .ctor, addr 0x48f67c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f674c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a);
 
-  /// @brief Method .ctor, addr 0x48f67d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f675c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x48f67e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f676c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b, float_t c);
 
-  /// @brief Method get_Item, addr 0x48f671c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48f66a4, size 0x54, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method set_Item, addr 0x48f6770, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48f66f8, size 0x54, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, float_t value);
 
   // Ctor Parameters []

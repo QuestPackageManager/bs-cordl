@@ -80,51 +80,51 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_UpdateManager* s_Instance;
 
-  /// @brief Method DoRebuilds, addr 0x480af60, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method DoRebuilds, addr 0x480aee8, size 0x254, virtual false, abstract: false, final false
   inline void DoRebuilds();
 
-  /// @brief Method InternalRegisterTextElementForCullingUpdate, addr 0x480ae4c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextElementForCullingUpdate, addr 0x480add4, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextElementForCullingUpdate(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalRegisterTextElementForGraphicRebuild, addr 0x480acdc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextElementForGraphicRebuild, addr 0x480ac64, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalRegisterTextElementForLayoutRebuild, addr 0x480ab6c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextElementForLayoutRebuild, addr 0x480aaf4, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalRegisterTextObjectForUpdate, addr 0x480a9fc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method InternalRegisterTextObjectForUpdate, addr 0x480a984, size 0x110, virtual false, abstract: false, final false
   inline void InternalRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
-  /// @brief Method InternalUnRegisterTextElementForGraphicRebuild, addr 0x480b32c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterTextElementForGraphicRebuild, addr 0x480b2b4, size 0x98, virtual false, abstract: false, final false
   inline void InternalUnRegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalUnRegisterTextElementForLayoutRebuild, addr 0x480b3c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterTextElementForLayoutRebuild, addr 0x480b34c, size 0x98, virtual false, abstract: false, final false
   inline void InternalUnRegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method InternalUnRegisterTextObjectForUpdate, addr 0x480b214, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalUnRegisterTextObjectForUpdate, addr 0x480b19c, size 0x98, virtual false, abstract: false, final false
   inline void InternalUnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
   static inline ::TMPro::TMP_UpdateManager* New_ctor();
 
-  /// @brief Method OnCameraPreCull, addr 0x480af5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreCull, addr 0x480aee4, size 0x4, virtual false, abstract: false, final false
   inline void OnCameraPreCull();
 
-  /// @brief Method RegisterTextElementForCullingUpdate, addr 0x480adec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextElementForCullingUpdate, addr 0x480ad74, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextElementForCullingUpdate(::TMPro::TMP_Text* element);
 
-  /// @brief Method RegisterTextElementForGraphicRebuild, addr 0x480ac7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextElementForGraphicRebuild, addr 0x480ac04, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextElementForGraphicRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method RegisterTextElementForLayoutRebuild, addr 0x480ab0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextElementForLayoutRebuild, addr 0x480aa94, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextElementForLayoutRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method RegisterTextObjectForUpdate, addr 0x480a99c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterTextObjectForUpdate, addr 0x480a924, size 0x60, virtual false, abstract: false, final false
   static inline void RegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
-  /// @brief Method UnRegisterTextElementForRebuild, addr 0x480b2ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterTextElementForRebuild, addr 0x480b234, size 0x80, virtual false, abstract: false, final false
   static inline void UnRegisterTextElementForRebuild(::TMPro::TMP_Text* element);
 
-  /// @brief Method UnRegisterTextObjectForUpdate, addr 0x480b1b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterTextObjectForUpdate, addr 0x480b13c, size 0x60, virtual false, abstract: false, final false
   static inline void UnRegisterTextObjectForUpdate(::TMPro::TMP_Text* textObject);
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get_m_CullingUpdateLookup() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* value);
 
-  /// @brief Method .ctor, addr 0x480a7f0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x480a778, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_RegisterTextElementForCullingUpdateMarker();
@@ -190,7 +190,7 @@ public:
 
   static inline ::TMPro::TMP_UpdateManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x480a750, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x480a6d8, size 0xa0, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_UpdateManager* get_instance();
 
   static inline void setStaticF_k_RegisterTextElementForCullingUpdateMarker(::Unity::Profiling::ProfilerMarker value);

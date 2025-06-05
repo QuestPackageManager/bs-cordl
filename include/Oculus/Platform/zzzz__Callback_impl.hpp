@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Callback_RequestCallback::*)()>(&::Oculus::Platform::Callback_RequestCallback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f5d0f8;
+  constexpr static std::size_t addrs = 0x3f5d080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback_RequestCallback*>::get(), ".ctor",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Callback_RequestCallback::*)(::Oculus::Platform::Message_Callback*)>(
     &::Oculus::Platform::Callback_RequestCallback::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f5c9c0;
+  constexpr static std::size_t addrs = 0x3f5c948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Callback_RequestCallback::*)(::Oculus::Platform::Message*)>(
     &::Oculus::Platform::Callback_RequestCallback::HandleMessage)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f5d100;
+  constexpr static std::size_t addrs = 0x3f5d088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_MessageType, ::Oculus::Platform::Message_Callback*)>(
     &::Oculus::Platform::Callback::SetNotificationCallback)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3f5c8b4;
+  constexpr static std::size_t addrs = 0x3f5c83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Request*)>(&::Oculus::Platform::Callback::AddRequest)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3f5c9e8;
+  constexpr static std::size_t addrs = 0x3f5c970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::RunCallbacks)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f5cac4;
+  constexpr static std::size_t addrs = 0x3f5ca4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(), "RunCallbacks",
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t)>(&::Oculus::Platform::Callback::RunLimitedCallbacks)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3f5ce4c;
+  constexpr static std::size_t addrs = 0x3f5cdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::OnApplicationQuit)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f5ced4;
+  constexpr static std::size_t addrs = 0x3f5ce5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Callback*>::get(), "OnApplicationQuit",
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Callback::FlushJoinIntentNotificationQueue)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5cf78;
+  constexpr static std::size_t addrs = 0x3f5cf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message*)>(&::Oculus::Platform::Callback::HandleMessage)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3f5cc04;
+  constexpr static std::size_t addrs = 0x3f5cb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

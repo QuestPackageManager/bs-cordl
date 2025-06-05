@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset_UsingEntry::*)(::StringW, ::StringW)>(
     &::UnityEngine::UIElements::VisualTreeAsset_UsingEntry::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x499c3a4;
+  constexpr static std::size_t addrs = 0x499c32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer::*)(
     ::UnityEngine::UIElements::VisualTreeAsset_UsingEntry, ::UnityEngine::UIElements::VisualTreeAsset_UsingEntry)>(&::UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x499c428;
+  constexpr static std::size_t addrs = 0x499c3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset_UsingEntryComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499c420;
+  constexpr static std::size_t addrs = 0x499c3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry::*)(
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlObjectAsset*>*)>(&::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x499c438;
+  constexpr static std::size_t addrs = 0x499c3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::UIElements::VisualTreeAsset_AssetEntry::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset_AssetEntry::get_type)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x499c444;
+  constexpr static std::size_t addrs = 0x499c3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset_AssetEntry>::get(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset_AssetEntry::*)(::StringW, ::System::Type*, ::UnityEngine::Object*)>(
     &::UnityEngine::UIElements::VisualTreeAsset_AssetEntry::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x499c4dc;
+  constexpr static std::size_t addrs = 0x499c464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass61_0::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass61_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499c524;
+  constexpr static std::size_t addrs = 0x499c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass61_0::*)(
     ::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry)>(&::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass61_0::_CloneSetupRecursively_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x499c52c;
+  constexpr static std::size_t addrs = 0x499c4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x499c550;
+  constexpr static std::size_t addrs = 0x499c4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x499c584;
+  constexpr static std::size_t addrs = 0x499c50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x499c670;
+  constexpr static std::size_t addrs = 0x499c5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x499cd20;
+  constexpr static std::size_t addrs = 0x499cca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::__m__Finally2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x499cc80;
+  constexpr static std::size_t addrs = 0x499cc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::__m__Finally3)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x499ccd0;
+  constexpr static std::size_t addrs = 0x499cc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::UIElements::StyleSheet> (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
         &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499cd70;
+  constexpr static std::size_t addrs = 0x499ccf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x499cd78;
+  constexpr static std::size_t addrs = 0x499cd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499cdb0;
+  constexpr static std::size_t addrs = 0x499cd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
         &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StyleSheet__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x499cdb8;
+  constexpr static std::size_t addrs = 0x499cd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_stylesheets_d__23::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x499ce54;
+  constexpr static std::size_t addrs = 0x499cddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -734,7 +734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x499ce58;
+  constexpr static std::size_t addrs = 0x499cde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x499ce8c;
+  constexpr static std::size_t addrs = 0x499ce14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x499ceb8;
+  constexpr static std::size_t addrs = 0x499ce40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x499d3b8;
+  constexpr static std::size_t addrs = 0x499d340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -796,7 +796,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
         &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d408;
+  constexpr static std::size_t addrs = 0x499d390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -811,7 +811,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x499d410;
+  constexpr static std::size_t addrs = 0x499d398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -826,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d448;
+  constexpr static std::size_t addrs = 0x499d3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -843,7 +843,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
         &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_VisualTreeAsset__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x499d450;
+  constexpr static std::size_t addrs = 0x499d3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -859,7 +859,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::*)()>(
         &::UnityEngine::UIElements::VisualTreeAsset__get_templateDependencies_d__19::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x499d4ec;
+  constexpr static std::size_t addrs = 0x499d474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1081,7 +1081,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::get_importedWithErrors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa719c;
+  constexpr static std::size_t addrs = 0x4aa7124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1095,7 +1095,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(bool)>(
     &::UnityEngine::UIElements::VisualTreeAsset::set_importedWithErrors)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aa71a4;
+  constexpr static std::size_t addrs = 0x4aa712c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1110,7 +1110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::get_importedWithWarnings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa71b0;
+  constexpr static std::size_t addrs = 0x4aa7138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1124,7 +1124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(bool)>(
     &::UnityEngine::UIElements::VisualTreeAsset::set_importedWithWarnings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aa71b8;
+  constexpr static std::size_t addrs = 0x4aa7140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1139,7 +1139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::GetNextChildSerialNumber)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4aa71c4;
+  constexpr static std::size_t addrs = 0x4aa714c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1153,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_templateDependencies)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4aa7240;
+  constexpr static std::size_t addrs = 0x4aa71c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1167,7 +1167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_stylesheets)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4aa72a8;
+  constexpr static std::size_t addrs = 0x4aa7230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1181,7 +1181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_visualElementAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7310;
+  constexpr static std::size_t addrs = 0x4aa7298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1195,7 +1195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*)>(&::UnityEngine::UIElements::VisualTreeAsset::set_visualElementAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7318;
+  constexpr static std::size_t addrs = 0x4aa72a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1210,7 +1210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_templateAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7320;
+  constexpr static std::size_t addrs = 0x4aa72a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1224,7 +1224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*)>(&::UnityEngine::UIElements::VisualTreeAsset::set_templateAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7328;
+  constexpr static std::size_t addrs = 0x4aa72b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1239,7 +1239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_uxmlObjectEntries)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7330;
+  constexpr static std::size_t addrs = 0x4aa72b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1253,7 +1253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::get_uxmlObjectIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7338;
+  constexpr static std::size_t addrs = 0x4aa72c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1267,7 +1267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(::UnityEngine::UIElements::UxmlObjectAsset*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::RegisterUxmlObject)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4aa7340;
+  constexpr static std::size_t addrs = 0x4aa72c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1282,7 +1282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::AssetEntryExists)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x4aa77ac;
+  constexpr static std::size_t addrs = 0x4aa7734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1297,7 +1297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW, ::System::Type*, ::UnityEngine::Object*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::RegisterAssetEntry)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4aa79b0;
+  constexpr static std::size_t addrs = 0x4aa7938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1313,7 +1313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualTreeAsset_UxmlObjectEntry (::UnityEngine::UIElements::VisualTreeAsset::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualTreeAsset::GetUxmlObjectEntry)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4aa7638;
+  constexpr static std::size_t addrs = 0x4aa75c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1328,7 +1328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IBaseUxmlObjectFactory* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)(::UnityEngine::UIElements::UxmlObjectAsset*)>(&::UnityEngine::UIElements::VisualTreeAsset::GetUxmlObjectFactory)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x4aa7ae4;
+  constexpr static std::size_t addrs = 0x4aa7a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1343,7 +1343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition>* (
     ::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::get_slots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7e70;
+  constexpr static std::size_t addrs = 0x4aa7df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(), "get_slots",
@@ -1357,7 +1357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotDefinition>*)>(&::UnityEngine::UIElements::VisualTreeAsset::set_slots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7e78;
+  constexpr static std::size_t addrs = 0x4aa7e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1373,7 +1373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::get_contentContainerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7e80;
+  constexpr static std::size_t addrs = 0x4aa7e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1387,7 +1387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualTreeAsset::set_contentContainerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa7e88;
+  constexpr static std::size_t addrs = 0x4aa7e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1402,7 +1402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TemplateContainer* (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::Instantiate)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4aa7e90;
+  constexpr static std::size_t addrs = 0x4aa7e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1416,7 +1416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TemplateContainer* (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW)>(
     &::UnityEngine::UIElements::VisualTreeAsset::Instantiate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aa8010;
+  constexpr static std::size_t addrs = 0x4aa7f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1431,7 +1431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TemplateContainer* (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::CloneTree)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4aa8030;
+  constexpr static std::size_t addrs = 0x4aa7fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(), "CloneTree",
@@ -1445,7 +1445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TemplateContainer* (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW)>(
     &::UnityEngine::UIElements::VisualTreeAsset::CloneTree)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aa8034;
+  constexpr static std::size_t addrs = 0x4aa7fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1460,7 +1460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::CloneTree)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4aa8054;
+  constexpr static std::size_t addrs = 0x4aa7fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1475,7 +1475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(
     ::UnityEngine::UIElements::VisualElement*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::UnityEngine::UIElements::VisualTreeAsset::CloneTree)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4aa8070;
+  constexpr static std::size_t addrs = 0x4aa7ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1493,7 +1493,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*)>(&::UnityEngine::UIElements::VisualTreeAsset::CloneTree)> {
   constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x4a910cc;
+  constexpr static std::size_t addrs = 0x4a91054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1513,7 +1513,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                    ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*>*,
                                                    ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::VisualTreeAsset::CloneSetupRecursively)> {
   constexpr static std::size_t size = 0xa60;
-  constexpr static std::size_t addrs = 0x4aa846c;
+  constexpr static std::size_t addrs = 0x4aa83f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1531,7 +1531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::UIElements::VisualElementAsset*, ::UnityEngine::UIElements::VisualElementAsset*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::CompareForOrder)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4aa94f8;
+  constexpr static std::size_t addrs = 0x4aa9480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1547,7 +1547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeAsset::*)(int32_t, ::ByRef<::StringW>)>(
     &::UnityEngine::UIElements::VisualTreeAsset::TryGetSlotInsertionPoint)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aa9448;
+  constexpr static std::size_t addrs = 0x4aa93d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1563,7 +1563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::VisualTreeAsset::*)(::StringW)>(
     &::UnityEngine::UIElements::VisualTreeAsset::ResolveTemplate)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x4a90da4;
+  constexpr static std::size_t addrs = 0x4a90d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1578,7 +1578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::VisualElementAsset*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::VisualTreeAsset::Create)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x4aa8ecc;
+  constexpr static std::size_t addrs = 0x4aa8e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1594,7 +1594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElementAsset*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::AssignClassListFromAssetToElement)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4aa8248;
+  constexpr static std::size_t addrs = 0x4aa81d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1610,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElementAsset*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeAsset::AssignStyleSheetFromAssetToElement)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4aa82b4;
+  constexpr static std::size_t addrs = 0x4aa823c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1626,7 +1626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::VisualTreeAsset::*)()>(
     &::UnityEngine::UIElements::VisualTreeAsset::get_contentHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa966c;
+  constexpr static std::size_t addrs = 0x4aa95f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
@@ -1640,7 +1640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)(int32_t)>(
     &::UnityEngine::UIElements::VisualTreeAsset::set_contentHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa9674;
+  constexpr static std::size_t addrs = 0x4aa95fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1654,7 +1654,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeAsset::*)()>(&::UnityEngine::UIElements::VisualTreeAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa967c;
+  constexpr static std::size_t addrs = 0x4aa9604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeAsset*>::get(), ".ctor",
@@ -1669,7 +1669,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::VisualElement* (*)(::ByRef<::UnityEngine::UIElements::VisualTreeAsset___c__DisplayClass65_0>)>(
         &::UnityEngine::UIElements::VisualTreeAsset::_Create_g__CreateError_65_0)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4aa9528;
+  constexpr static std::size_t addrs = 0x4aa94b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

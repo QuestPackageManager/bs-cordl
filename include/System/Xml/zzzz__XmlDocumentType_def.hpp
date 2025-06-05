@@ -83,15 +83,15 @@ public:
   /// @brief Field systemId, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId)) ::StringW systemId;
 
-  /// @brief Method CloneNode, addr 0x433b29c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x433b224, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x433b394, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x433b31c, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x433b368, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x433b2f0, size 0x2c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::System::Xml::XmlNamedNodeMap* const& __cordl_internal_get_entities() const;
@@ -142,43 +142,43 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43381a0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4338128, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_DtdSchemaInfo, addr 0x433b398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DtdSchemaInfo, addr 0x433b320, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_DtdSchemaInfo();
 
-  /// @brief Method get_Entities, addr 0x433a574, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Entities, addr 0x433a4fc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamedNodeMap* get_Entities();
 
-  /// @brief Method get_InternalSubset, addr 0x433b358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x433b2e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_IsReadOnly, addr 0x433b2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x433b260, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LocalName, addr 0x433b28c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x433b214, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x433b284, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x433b20c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x433b294, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x433b21c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Notations, addr 0x433b2e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Notations, addr 0x433b268, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamedNodeMap* get_Notations();
 
-  /// @brief Method get_ParseWithNamespaces, addr 0x433b360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParseWithNamespaces, addr 0x433b2e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParseWithNamespaces();
 
-  /// @brief Method get_PublicId, addr 0x433b348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x433b2d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x433b350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x433b2d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
-  /// @brief Method set_DtdSchemaInfo, addr 0x433b3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DtdSchemaInfo, addr 0x433b328, size 0x8, virtual false, abstract: false, final false
   inline void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:

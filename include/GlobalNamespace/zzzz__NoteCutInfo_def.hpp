@@ -120,19 +120,19 @@ public:
 
   __declspec(property(get = get_failReason)) ::GlobalNamespace::NoteCutInfo_FailReason failReason;
 
-  /// @brief Method .ctor, addr 0x27223b8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2722390, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
                     ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
 
-  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x272234c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x2722324, size 0x28, virtual false, abstract: false, final false
   inline bool get_allExceptSaberTypeIsOK();
 
-  /// @brief Method get_allIsOK, addr 0x272231c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_allIsOK, addr 0x27222f4, size 0x30, virtual false, abstract: false, final false
   inline bool get_allIsOK();
 
-  /// @brief Method get_failReason, addr 0x2722374, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_failReason, addr 0x272234c, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfo_FailReason get_failReason();
 
   // Ctor Parameters []

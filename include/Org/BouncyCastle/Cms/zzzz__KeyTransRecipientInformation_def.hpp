@@ -40,16 +40,16 @@ public:
   /// @brief Field info, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info;
 
-  /// @brief Method GetContentStream, addr 0x267abe4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x267aba4, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
-  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x267a6a8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x267a668, size 0x1c4, virtual false, abstract: false, final false
   inline ::StringW GetExchangeEncryptionAlgorithmName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algo);
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
                                                                                  ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method UnwrapKey, addr 0x267a86c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method UnwrapKey, addr 0x267a82c, size 0x378, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapKey(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* const& __cordl_internal_get_info() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* value);
 
-  /// @brief Method .ctor, addr 0x26591e8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26591a8, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
 protected:

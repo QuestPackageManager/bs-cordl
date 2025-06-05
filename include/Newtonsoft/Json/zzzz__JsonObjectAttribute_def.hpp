@@ -89,37 +89,37 @@ public:
 
   constexpr void __cordl_internal_set__missingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> value);
 
-  /// @brief Method .ctor, addr 0x3e7c548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7c4d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e7c578, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7c500, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x3e7c550, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7c4d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method get_ItemNullValueHandling, addr 0x3e7c400, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemNullValueHandling, addr 0x3e7c388, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::NullValueHandling get_ItemNullValueHandling();
 
-  /// @brief Method get_ItemRequired, addr 0x3e7c4a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemRequired, addr 0x3e7c42c, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Required get_ItemRequired();
 
-  /// @brief Method get_MemberSerialization, addr 0x3e7c34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberSerialization, addr 0x3e7c2d4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
 
-  /// @brief Method get_MissingMemberHandling, addr 0x3e7c35c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MissingMemberHandling, addr 0x3e7c2e4, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MissingMemberHandling get_MissingMemberHandling();
 
-  /// @brief Method set_ItemNullValueHandling, addr 0x3e7c43c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemNullValueHandling, addr 0x3e7c3c4, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemNullValueHandling(::Newtonsoft::Json::NullValueHandling value);
 
-  /// @brief Method set_ItemRequired, addr 0x3e7c4e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemRequired, addr 0x3e7c468, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemRequired(::Newtonsoft::Json::Required value);
 
-  /// @brief Method set_MemberSerialization, addr 0x3e7c354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberSerialization, addr 0x3e7c2dc, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
-  /// @brief Method set_MissingMemberHandling, addr 0x3e7c398, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_MissingMemberHandling, addr 0x3e7c320, size 0x68, virtual false, abstract: false, final false
   inline void set_MissingMemberHandling(::Newtonsoft::Json::MissingMemberHandling value);
 
 protected:

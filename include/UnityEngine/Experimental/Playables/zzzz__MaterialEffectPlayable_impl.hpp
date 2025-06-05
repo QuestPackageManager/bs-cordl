@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)()>(
     &::UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48d11a8;
+  constexpr static std::size_t addrs = 0x48d1130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)(
     ::UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(&::UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48d11b4;
+  constexpr static std::size_t addrs = 0x48d113c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

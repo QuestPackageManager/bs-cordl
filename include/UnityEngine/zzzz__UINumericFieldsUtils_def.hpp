@@ -39,31 +39,31 @@ public:
   /// @brief Field k_IntFieldFormatString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_IntFieldFormatString, put = setStaticF_k_IntFieldFormatString)) ::StringW k_IntFieldFormatString;
 
-  /// @brief Method TryConvertStringToDouble, addr 0x48b55b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToDouble, addr 0x48b5538, size 0x108, virtual false, abstract: false, final false
   static inline bool TryConvertStringToDouble(::StringW str, ::StringW initialValueAsString, ::ByRef<double_t> value);
 
-  /// @brief Method TryConvertStringToDouble, addr 0x48b5420, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToDouble, addr 0x48b53a8, size 0x190, virtual false, abstract: false, final false
   static inline bool TryConvertStringToDouble(::StringW str, ::ByRef<double_t> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> expr);
 
-  /// @brief Method TryConvertStringToFloat, addr 0x48b56b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToFloat, addr 0x48b5640, size 0x94, virtual false, abstract: false, final false
   static inline bool TryConvertStringToFloat(::StringW str, ::StringW initialValueAsString, ::ByRef<float_t> value);
 
-  /// @brief Method TryConvertStringToInt, addr 0x48b5a5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToInt, addr 0x48b59e4, size 0x9c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToInt(::StringW str, ::StringW initialValueAsString, ::ByRef<int32_t> value);
 
-  /// @brief Method TryConvertStringToLong, addr 0x48b57d0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToLong, addr 0x48b5758, size 0x104, virtual false, abstract: false, final false
   static inline bool TryConvertStringToLong(::StringW str, ::StringW initialValueAsString, ::ByRef<int64_t> value);
 
-  /// @brief Method TryConvertStringToLong, addr 0x48b574c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToLong, addr 0x48b56d4, size 0x84, virtual false, abstract: false, final false
   static inline bool TryConvertStringToLong(::StringW str, ::ByRef<int64_t> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> expr);
 
-  /// @brief Method TryConvertStringToUInt, addr 0x48b5af8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToUInt, addr 0x48b5a80, size 0x9c, virtual false, abstract: false, final false
   static inline bool TryConvertStringToUInt(::StringW str, ::StringW initialValueAsString, ::ByRef<uint32_t> value);
 
-  /// @brief Method TryConvertStringToULong, addr 0x48b5958, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToULong, addr 0x48b58e0, size 0x104, virtual false, abstract: false, final false
   static inline bool TryConvertStringToULong(::StringW str, ::StringW initialValueAsString, ::ByRef<uint64_t> value);
 
-  /// @brief Method TryConvertStringToULong, addr 0x48b58d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryConvertStringToULong, addr 0x48b585c, size 0x84, virtual false, abstract: false, final false
   static inline bool TryConvertStringToULong(::StringW str, ::ByRef<uint64_t> value, ::ByRef<::UnityEngine::ExpressionEvaluator_Expression*> expr);
 
   static inline ::StringW getStaticF_k_AllowedCharactersForFloat();

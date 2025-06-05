@@ -23,41 +23,41 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::TMPro::TMP_TextParsingUtilities* s_Instance;
 
-  /// @brief Method ConvertToUTF32, addr 0x4807654, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUTF32, addr 0x48075dc, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t ConvertToUTF32(uint32_t highSurrogate, uint32_t lowSurrogate);
 
-  /// @brief Method GetHashCode, addr 0x4803414, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x480339c, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::StringW s);
 
-  /// @brief Method GetHashCodeCaseSensitive, addr 0x4802f64, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseSensitive, addr 0x4802eec, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseSensitive(::StringW s);
 
-  /// @brief Method IsHighSurrogate, addr 0x480762c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsHighSurrogate, addr 0x48075b4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsHighSurrogate(uint32_t c);
 
-  /// @brief Method IsLowSurrogate, addr 0x4807640, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsLowSurrogate, addr 0x48075c8, size 0x14, virtual false, abstract: false, final false
   static inline bool IsLowSurrogate(uint32_t c);
 
   static inline ::TMPro::TMP_TextParsingUtilities* New_ctor();
 
-  /// @brief Method ToLowerASCIIFast, addr 0x48074d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToLowerASCIIFast, addr 0x4807458, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToLowerASCIIFast(char16_t c);
 
-  /// @brief Method ToLowerASCIIFast, addr 0x48075b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToLowerASCIIFast, addr 0x4807540, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToLowerASCIIFast(uint32_t c);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x480745c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x48073e4, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToUpperASCIIFast(char16_t c);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x4807544, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x48074cc, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUpperASCIIFast(uint32_t c);
 
-  /// @brief Method .ctor, addr 0x48073fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4807384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_TextParsingUtilities* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x4807404, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x480738c, size 0x58, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_TextParsingUtilities* get_instance();
 
   static inline void setStaticF_s_Instance(::TMPro::TMP_TextParsingUtilities* value);

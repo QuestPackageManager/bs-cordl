@@ -62,7 +62,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_fileNameField();
 
-  /// @brief Method get_DefaultEncoding, addr 0x4ae4914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultEncoding, addr 0x4ae489c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_DefaultEncoding();
 
   static inline void setStaticF_ampersand(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

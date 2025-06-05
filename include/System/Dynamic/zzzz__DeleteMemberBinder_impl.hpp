@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Dynamic::DeleteMemberBinder::*)()>(&::System::Dynamic::DeleteMemberBinder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40fca00;
+  constexpr static std::size_t addrs = 0x40fc988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::DeleteMemberBinder*>::get(), "get_Name",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::DeleteMemberBinder::*)()>(&::System::Dynamic::DeleteMemberBinder::get_IgnoreCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40fca08;
+  constexpr static std::size_t addrs = 0x40fc990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::DeleteMemberBinder*>::get(), "get_IgnoreCase",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::DeleteMemberBinder::*)(::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::DeleteMemberBinder::FallbackDeleteMember)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40fca10;
+  constexpr static std::size_t addrs = 0x40fc998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::DeleteMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::DeleteMemberBinder::Bind)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x40fca20;
+  constexpr static std::size_t addrs = 0x40fc9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

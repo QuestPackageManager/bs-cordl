@@ -58,28 +58,28 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x4af3520, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af34a8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4af359c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3524, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor, addr 0x4af3570, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af34f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
-  /// @brief Method .ctor, addr 0x4af3544, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af34cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method get_TargetFlags, addr 0x4af35d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetFlags, addr 0x4af3560, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
 
-  /// @brief Method get_UseKindFlags, addr 0x4af35c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseKindFlags, addr 0x4af3550, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
 
-  /// @brief Method set_TargetFlags, addr 0x4af35e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetFlags, addr 0x4af3568, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
 
-  /// @brief Method set_UseKindFlags, addr 0x4af35d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseKindFlags, addr 0x4af3558, size 0x8, virtual false, abstract: false, final false
   inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
 protected:

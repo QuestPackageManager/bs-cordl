@@ -333,7 +333,7 @@ public:
 
   constexpr void __cordl_internal_set_lights(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* value);
 
-  /// @brief Method .ctor, addr 0x39d8d98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d8d70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
 protected:
@@ -412,22 +412,22 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39d8d8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39d8d64, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x39d8cc4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39d8c9c, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d8a1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39d89f4, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method Refresh, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method RegisterLight, addr 0x39d8a20, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x39d89f8, size 0x2a4, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method UnregisterLight, addr 0x39d8cc8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x39d8ca0, size 0xc4, virtual false, abstract: false, final false
   inline void UnregisterLight();
 
   constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
@@ -454,7 +454,7 @@ public:
 
   constexpr void __cordl_internal_set__registeredWithLightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
 
-  /// @brief Method .ctor, addr 0x39d8dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d8d9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
@@ -463,12 +463,12 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* getStaticF__lightsDataItems();
 
-  /// @brief Method get_bloomLightsDict, addr 0x39d896c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_bloomLightsDict, addr 0x39d8944, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
   get_bloomLightsDict();
 
-  /// @brief Method get_lightsDataItems, addr 0x39d89c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lightsDataItems, addr 0x39d899c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::BloomPrePassLight_LightsDataItem*>* get_lightsDataItems();
 
   static inline void setStaticF__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,

@@ -29,7 +29,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaValidationException : public ::System::Xml::Schema::XmlSchemaException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x42cab7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x42cab04, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor();
@@ -44,19 +44,19 @@ public:
   static inline ::System::Xml::Schema::XmlSchemaValidationException* New_ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::StringW sourceUri, int32_t lineNumber,
                                                                               int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x42cab84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cab0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x42cab74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42caafc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x42cab90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cab18, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x42cac80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cac08, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x42cac50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42cabd8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
 protected:

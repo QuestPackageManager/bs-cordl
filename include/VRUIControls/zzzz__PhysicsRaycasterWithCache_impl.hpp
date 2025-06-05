@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast::*)(
     bool, ::UnityEngine::Ray, ::UnityEngine::RaycastHit, float_t, int32_t)>(&::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4aed978;
+  constexpr static std::size_t addrs = 0x4aed900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::VRUIControls::PhysicsRaycasterWithCache::*)(::UnityEngine::Ray, ::ByRef<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::VRUIControls::PhysicsRaycasterWithCache::Raycast)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x4aed4a4;
+  constexpr static std::size_t addrs = 0x4aed42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::PhysicsRaycasterWithCache::*)()>(&::VRUIControls::PhysicsRaycasterWithCache::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4aed9b8;
+  constexpr static std::size_t addrs = 0x4aed940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::PhysicsRaycasterWithCache*>::get(), ".ctor",

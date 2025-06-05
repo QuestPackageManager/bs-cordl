@@ -28,18 +28,18 @@ namespace Org::BouncyCastle::X509 {
 class CORDL_TYPE SubjectPublicKeyInfoFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateSubjectPublicKeyInfo, addr 0x25ef34c, size 0xe60, virtual false, abstract: false, final false
+  /// @brief Method CreateSubjectPublicKeyInfo, addr 0x25ef30c, size 0xe60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* CreateSubjectPublicKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ExtractBytes, addr 0x25f02b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x25f0274, size 0xc4, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t offset, ::Org::BouncyCastle::Math::BigInteger* bI);
 
-  /// @brief Method ExtractBytes, addr 0x25f01ac, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ExtractBytes, addr 0x25f016c, size 0x108, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t size, int32_t offSet, ::Org::BouncyCastle::Math::BigInteger* bI);
 
   static inline ::Org::BouncyCastle::X509::SubjectPublicKeyInfoFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ef344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ef304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

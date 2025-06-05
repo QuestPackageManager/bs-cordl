@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)(::System::Action*)>(
     &::GlobalNamespace::AdditionalContentModel::add_didInvalidateDataEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26a4350;
+  constexpr static std::size_t addrs = 0x26a4310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)(::System::Action*)>(
     &::GlobalNamespace::AdditionalContentModel::remove_didInvalidateDataEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26a43ec;
+  constexpr static std::size_t addrs = 0x26a43ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)()>(&::GlobalNamespace::AdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26a4488;
+  constexpr static std::size_t addrs = 0x26a4448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdditionalContentModel*>::get(), ".ctor",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)()>(&::GlobalNamespace::AdditionalContentModel::Dispose)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26a4538;
+  constexpr static std::size_t addrs = 0x26a44f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)(bool)>(
     &::GlobalNamespace::AdditionalContentModel::OnApplicationFocusChanged)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26a45dc;
+  constexpr static std::size_t addrs = 0x26a459c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdditionalContentModel::*)()>(&::GlobalNamespace::AdditionalContentModel::InvalidateData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26a461c;
+  constexpr static std::size_t addrs = 0x26a45dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdditionalContentModel*>::get(),
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26a4658;
+  constexpr static std::size_t addrs = 0x26a4618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26a4668;
+  constexpr static std::size_t addrs = 0x26a4628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* (::GlobalNamespace::AdditionalContentModel::*)(::StringW, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::AdditionalContentModel::IAdditionalContentEntitlementModel_GetLevelDataVersionAsync)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26a4678;
+  constexpr static std::size_t addrs = 0x26a4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

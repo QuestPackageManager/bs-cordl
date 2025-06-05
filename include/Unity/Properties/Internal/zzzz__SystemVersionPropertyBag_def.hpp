@@ -56,10 +56,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4917648, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49175d0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49178c8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917850, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -96,10 +96,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49176e8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917670, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4917908, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917890, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -136,10 +136,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4917788, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4917710, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4917948, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x49178d0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -176,10 +176,10 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4917828, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49177b0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4917988, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4917910, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -222,7 +222,7 @@ public:
 
   static inline ::Unity::Properties::Internal::SystemVersionPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49164f8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916480, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -83,28 +83,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* New_ctor();
 
-  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x477bdec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x477bd74, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x477be04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x477bd8c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x477be1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x477bda4, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x);
 
-  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x477be7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x477be04, size 0xc, virtual false, abstract: false, final false
   inline bool _FilterUnusedSubmeshIndexes_b__3_0(bool x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x477be34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x477bdbc, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x477be4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x477bdd4, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x477be64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x477bdec, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x);
 
-  /// @brief Method .ctor, addr 0x477bde4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x477bd6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* getStaticF___9();
@@ -171,17 +171,17 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c;
 
-  /// @brief Method AverageNormalWithIndexes, addr 0x4777e5c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AverageNormalWithIndexes, addr 0x4777de4, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 AverageNormalWithIndexes(::UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayW<int32_t, ::Array<int32_t>*> all,
                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* norm);
 
-  /// @brief Method CreateMeshWithTransform, addr 0x4779364, size 0x10b0, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshWithTransform, addr 0x47792ec, size 0x10b0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateMeshWithTransform(::UnityEngine::Transform* t, bool preserveFaces);
 
-  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x477b838, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x477b7c0, size 0x550, virtual false, abstract: false, final false
   static inline void FilterUnusedSubmeshIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x477a6ec, size 0x114c, virtual false, abstract: false, final false
+  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x477a674, size 0x114c, virtual false, abstract: false, final false
   static inline bool ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
 
 protected:

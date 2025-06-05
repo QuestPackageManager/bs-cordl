@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::ColorScheme*)>(
         &::GlobalNamespace::ColorSchemeExtensions::ResolveColorScheme)> {
   constexpr static std::size_t size = 0xa3c;
-  constexpr static std::size_t addrs = 0x26a14ac;
+  constexpr static std::size_t addrs = 0x26a146c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Color (*)(::System::Nullable_1<::UnityEngine::Color>, bool, ::System::Nullable_1<bool>, ::System::Nullable_1<::UnityEngine::Color>, ::UnityEngine::Color)>(
         &::GlobalNamespace::ColorSchemeExtensions::ResolveColor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x26a1ee8;
+  constexpr static std::size_t addrs = 0x26a1ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

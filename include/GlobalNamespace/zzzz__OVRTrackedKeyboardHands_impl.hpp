@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::get_RightHandOverKeyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401ec98;
+  constexpr static std::size_t addrs = 0x401ec20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)(bool)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::set_RightHandOverKeyboard)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401eca0;
+  constexpr static std::size_t addrs = 0x401ec28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::get_LeftHandOverKeyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401ecac;
+  constexpr static std::size_t addrs = 0x401ec34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)(bool)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::set_LeftHandOverKeyboard)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401ecb4;
+  constexpr static std::size_t addrs = 0x401ec3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(&::GlobalNamespace::OVRTrackedKeyboardHands::Awake)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x401ecc0;
+  constexpr static std::size_t addrs = 0x401ec48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(), "Awake",
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(&::GlobalNamespace::OVRTrackedKeyboardHands::Start)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x401ee9c;
+  constexpr static std::size_t addrs = 0x401ee24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(), "Start",
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::get_AreControllersActive)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x401f310;
+  constexpr static std::size_t addrs = 0x401f298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(),
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(&::GlobalNamespace::OVRTrackedKeyboardHands::LateUpdate)> {
   constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x401f34c;
+  constexpr static std::size_t addrs = 0x401f2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(), "LateUpdate",
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardHands::*)(float_t)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::ShouldEnablePassthrough)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x401fef4;
+  constexpr static std::size_t addrs = 0x401fe7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboardHands::*)(float_t)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::ShouldEnableModel)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x401ff60;
+  constexpr static std::size_t addrs = 0x401fee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRTrackedKeyboardHands::*)(::GlobalNamespace::OVRSkeleton*)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::GetHandDistanceToKeyboard)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x401fc24;
+  constexpr static std::size_t addrs = 0x401fbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRTrackedKeyboardHands::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::ComputeOpacity)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40201d4;
+  constexpr static std::size_t addrs = 0x402015c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)(bool, bool)>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::SetHandModelsEnabled)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x401ffcc;
+  constexpr static std::size_t addrs = 0x401ff54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::RetargetHandTrackingToHandPresence)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x401f1a0;
+  constexpr static std::size_t addrs = 0x401f128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::StopHandPresence)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x40201f8;
+  constexpr static std::size_t addrs = 0x4020180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(),
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboardHands::DisableHandObjects)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x401fb38;
+  constexpr static std::size_t addrs = 0x401fac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(),
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)(
     ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent)>(&::GlobalNamespace::OVRTrackedKeyboardHands::TrackedKeyboardActiveUpdated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4020228;
+  constexpr static std::size_t addrs = 0x40201b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)(
     ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent)>(&::GlobalNamespace::OVRTrackedKeyboardHands::TrackedKeyboardVisibilityChanged)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x4020234;
+  constexpr static std::size_t addrs = 0x40201bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboardHands::*)()>(&::GlobalNamespace::OVRTrackedKeyboardHands::_ctor)> {
   constexpr static std::size_t size = 0x754;
-  constexpr static std::size_t addrs = 0x40203cc;
+  constexpr static std::size_t addrs = 0x4020354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboardHands*>::get(), ".ctor",

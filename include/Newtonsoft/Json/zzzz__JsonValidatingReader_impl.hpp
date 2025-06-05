@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::*)()>(
     &::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb116c;
+  constexpr static std::size_t addrs = 0x3eb10f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::*)(::StringW)>(
     &::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::__ctor_b__27_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb1174;
+  constexpr static std::size_t addrs = 0x3eb10fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::*)(::StringW)>(
     &::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::__ctor_b__27_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb117c;
+  constexpr static std::size_t addrs = 0x3eb1104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::__ctor_b__27_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3eb1184;
+  constexpr static std::size_t addrs = 0x3eb110c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>)>(
         &::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::_GetRequiredProperties_b__28_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3eb119c;
+  constexpr static std::size_t addrs = 0x3eb1124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>)>(
         &::Newtonsoft::Json::SchemaScope_JsonValidatingReader___c::_GetRequiredProperties_b__28_1)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3eb11e0;
+  constexpr static std::size_t addrs = 0x3eb1168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_CurrentPropertyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0e90;
+  constexpr static std::size_t addrs = 0x3eb0e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)(::StringW)>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::set_CurrentPropertyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0e98;
+  constexpr static std::size_t addrs = 0x3eb0e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_ArrayItemCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ea0;
+  constexpr static std::size_t addrs = 0x3eb0e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)(int32_t)>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::set_ArrayItemCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ea8;
+  constexpr static std::size_t addrs = 0x3eb0e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_IsUniqueArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0eb0;
+  constexpr static std::size_t addrs = 0x3eb0e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* (
     ::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(&::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_UniqueArrayItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0eb8;
+  constexpr static std::size_t addrs = 0x3eb0e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenWriter* (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_CurrentItemWriter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ec0;
+  constexpr static std::size_t addrs = 0x3eb0e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)(::Newtonsoft::Json::Linq::JTokenWriter*)>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::set_CurrentItemWriter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ec8;
+  constexpr static std::size_t addrs = 0x3eb0e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* (
     ::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(&::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_Schemas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ed0;
+  constexpr static std::size_t addrs = 0x3eb0e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, bool>* (
     ::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(&::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_RequiredProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ed8;
+  constexpr static std::size_t addrs = 0x3eb0e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenType (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader_SchemaScope::get_TokenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb0ee0;
+  constexpr static std::size_t addrs = 0x3eb0e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader_SchemaScope*>::get(),
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)(
     ::Newtonsoft::Json::Linq::JTokenType, ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>*)>(&::Newtonsoft::Json::JsonValidatingReader_SchemaScope::_ctor)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x3eada58;
+  constexpr static std::size_t addrs = 0x3ead9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (
     ::Newtonsoft::Json::JsonValidatingReader_SchemaScope::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(&::Newtonsoft::Json::JsonValidatingReader_SchemaScope::GetRequiredProperties)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3eb0ee8;
+  constexpr static std::size_t addrs = 0x3eb0e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader___c::*)()>(&::Newtonsoft::Json::JsonValidatingReader___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eb1278;
+  constexpr static std::size_t addrs = 0x3eb1200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader___c*>::get(), ".ctor",
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader___c::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader___c::_WriteToken_b__50_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3eb1280;
+  constexpr static std::size_t addrs = 0x3eb1208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader___c::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader___c::_WriteToken_b__50_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3eb12a0;
+  constexpr static std::size_t addrs = 0x3eb1228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader___c::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader___c::_WriteToken_b__50_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3eb12b8;
+  constexpr static std::size_t addrs = 0x3eb1240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader___c::*)(bool)>(
     &::Newtonsoft::Json::JsonValidatingReader___c::_ValidateEndObject_b__51_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eb12d8;
+  constexpr static std::size_t addrs = 0x3eb1260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, bool>)>(&::Newtonsoft::Json::JsonValidatingReader___c::_ValidateEndObject_b__51_1)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3eb12e4;
+  constexpr static std::size_t addrs = 0x3eb126c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -687,7 +687,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonValidatingReader___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, bool>)>(&::Newtonsoft::Json::JsonValidatingReader___c::_ValidateEndObject_b__51_2)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3eb1324;
+  constexpr static std::size_t addrs = 0x3eb12ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -808,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::ValidationEventHandler*)>(
     &::Newtonsoft::Json::JsonValidatingReader::add_ValidationEventHandler)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3eaa2bc;
+  constexpr static std::size_t addrs = 0x3eaa244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -823,7 +823,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::ValidationEventHandler*)>(
     &::Newtonsoft::Json::JsonValidatingReader::remove_ValidationEventHandler)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3eaa358;
+  constexpr static std::size_t addrs = 0x3eaa2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -838,7 +838,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::get_Value)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eaa3f4;
+  constexpr static std::size_t addrs = 0x3eaa37c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -852,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::get_Depth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eaa418;
+  constexpr static std::size_t addrs = 0x3eaa3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -866,7 +866,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::get_Path)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eaa43c;
+  constexpr static std::size_t addrs = 0x3eaa3c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -880,7 +880,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eaa460;
+  constexpr static std::size_t addrs = 0x3eaa3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -895,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(char16_t)>(
     &::Newtonsoft::Json::JsonValidatingReader::set_QuoteChar)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3eaa484;
+  constexpr static std::size_t addrs = 0x3eaa40c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonToken (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::get_TokenType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eaa488;
+  constexpr static std::size_t addrs = 0x3eaa410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -925,7 +925,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::get_ValueType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3eaa4ac;
+  constexpr static std::size_t addrs = 0x3eaa434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -940,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::JsonValidatingReader_SchemaScope*)>(
     &::Newtonsoft::Json::JsonValidatingReader::Push)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eaa4d0;
+  constexpr static std::size_t addrs = 0x3eaa458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -955,7 +955,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonValidatingReader_SchemaScope* (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::Pop)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3eaa530;
+  constexpr static std::size_t addrs = 0x3eaa4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(), "Pop",
@@ -969,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* (
     ::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::get_CurrentSchemas)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eaa5d4;
+  constexpr static std::size_t addrs = 0x3eaa55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(),
@@ -983,7 +983,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* (
     ::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::get_CurrentMemberSchemas)> {
   constexpr static std::size_t size = 0x11ac;
-  constexpr static std::size_t addrs = 0x3eaa5f0;
+  constexpr static std::size_t addrs = 0x3eaa578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(),
@@ -997,7 +997,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::RaiseError)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3eab79c;
+  constexpr static std::size_t addrs = 0x3eab724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1013,7 +1013,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaException*)>(
     &::Newtonsoft::Json::JsonValidatingReader::OnValidationEvent)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3eabae4;
+  constexpr static std::size_t addrs = 0x3eaba6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1028,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::JsonValidatingReader::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3eabb7c;
+  constexpr static std::size_t addrs = 0x3eabb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1043,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::get_Schema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eabc30;
+  constexpr static std::size_t addrs = 0x3eabbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(), "get_Schema",
@@ -1057,7 +1057,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchema*)>(
     &::Newtonsoft::Json::JsonValidatingReader::set_Schema)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3eabc38;
+  constexpr static std::size_t addrs = 0x3eabbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1072,7 +1072,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::JsonReader* (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::get_Reader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eabcb8;
+  constexpr static std::size_t addrs = 0x3eabc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(), "get_Reader",
@@ -1085,7 +1085,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::Close)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3eabcc0;
+  constexpr static std::size_t addrs = 0x3eabc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1100,7 +1100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateNotDisallowed)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3eabcfc;
+  constexpr static std::size_t addrs = 0x3eabc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1115,7 +1115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::GetCurrentNodeSchemaType)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3eabe30;
+  constexpr static std::size_t addrs = 0x3eabdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(),
@@ -1129,7 +1129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsInt32)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3eabf48;
+  constexpr static std::size_t addrs = 0x3eabed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1144,7 +1144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsBytes)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ead7b8;
+  constexpr static std::size_t addrs = 0x3ead740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1159,7 +1159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::Decimal> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsDecimal)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ead7fc;
+  constexpr static std::size_t addrs = 0x3ead784;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1174,7 +1174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<double_t> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsDouble)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ead878;
+  constexpr static std::size_t addrs = 0x3ead800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1189,7 +1189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<bool> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsBoolean)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ead8c4;
+  constexpr static std::size_t addrs = 0x3ead84c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1203,7 +1203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::ReadAsString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ead908;
+  constexpr static std::size_t addrs = 0x3ead890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1218,7 +1218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTime> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsDateTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3ead94c;
+  constexpr static std::size_t addrs = 0x3ead8d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1233,7 +1233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ReadAsDateTimeOffset)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ead998;
+  constexpr static std::size_t addrs = 0x3ead920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1247,7 +1247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::Read)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ead9f4;
+  constexpr static std::size_t addrs = 0x3ead97c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1262,7 +1262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateCurrentToken)> {
   constexpr static std::size_t size = 0x182c;
-  constexpr static std::size_t addrs = 0x3eabf8c;
+  constexpr static std::size_t addrs = 0x3eabf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(),
@@ -1276,7 +1276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>*)>(&::Newtonsoft::Json::JsonValidatingReader::WriteToken)> {
   constexpr static std::size_t size = 0xb30;
-  constexpr static std::size_t addrs = 0x3eae1f8;
+  constexpr static std::size_t addrs = 0x3eae180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1291,7 +1291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateEndObject)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x3eaffbc;
+  constexpr static std::size_t addrs = 0x3eaff44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1306,7 +1306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateEndArray)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3eb0310;
+  constexpr static std::size_t addrs = 0x3eb0298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1321,7 +1321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateNull)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3eaff7c;
+  constexpr static std::size_t addrs = 0x3eaff04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1336,7 +1336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateBoolean)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3eaff3c;
+  constexpr static std::size_t addrs = 0x3eafec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1351,7 +1351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateString)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x3eaf9f4;
+  constexpr static std::size_t addrs = 0x3eaf97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1366,7 +1366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateInteger)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x3eaeed0;
+  constexpr static std::size_t addrs = 0x3eaee58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1380,7 +1380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)()>(&::Newtonsoft::Json::JsonValidatingReader::ProcessValue)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x3eadd9c;
+  constexpr static std::size_t addrs = 0x3eadd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonValidatingReader*>::get(), "ProcessValue",
@@ -1394,7 +1394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateFloat)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x3eaf4fc;
+  constexpr static std::size_t addrs = 0x3eaf484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::Newtonsoft::Json::JsonValidatingReader::FloatingPointRemainder)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3eb0728;
+  constexpr static std::size_t addrs = 0x3eb06b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1422,7 +1422,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t)>(&::Newtonsoft::Json::JsonValidatingReader::IsZero)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3eb06bc;
+  constexpr static std::size_t addrs = 0x3eb0644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1437,7 +1437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidatePropertyName)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3eaed28;
+  constexpr static std::size_t addrs = 0x3eaecb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1452,7 +1452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*, ::StringW)>(
     &::Newtonsoft::Json::JsonValidatingReader::IsPropertyDefinied)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x3eb0794;
+  constexpr static std::size_t addrs = 0x3eb071c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1468,7 +1468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateArray)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3eb0bb8;
+  constexpr static std::size_t addrs = 0x3eb0b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1483,7 +1483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader::*)(::Newtonsoft::Json::Schema::JsonSchemaModel*)>(
     &::Newtonsoft::Json::JsonValidatingReader::ValidateObject)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3eb0bcc;
+  constexpr static std::size_t addrs = 0x3eb0b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1498,7 +1498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader::*)(
     ::Newtonsoft::Json::Schema::JsonSchemaModel*, ::Newtonsoft::Json::Schema::JsonSchemaType)>(&::Newtonsoft::Json::JsonValidatingReader::TestType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3eb057c;
+  constexpr static std::size_t addrs = 0x3eb0504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1514,7 +1514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::Newtonsoft_Json_IJsonLineInfo_HasLineInfo)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3eb0be0;
+  constexpr static std::size_t addrs = 0x3eb0b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1529,7 +1529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::Newtonsoft_Json_IJsonLineInfo_get_LineNumber)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3eb0c94;
+  constexpr static std::size_t addrs = 0x3eb0c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1544,7 +1544,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::JsonValidatingReader::*)()>(
     &::Newtonsoft::Json::JsonValidatingReader::Newtonsoft_Json_IJsonLineInfo_get_LinePosition)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3eb0d4c;
+  constexpr static std::size_t addrs = 0x3eb0cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

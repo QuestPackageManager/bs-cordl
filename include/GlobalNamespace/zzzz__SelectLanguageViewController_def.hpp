@@ -46,18 +46,18 @@ public:
   /// @brief Field didPressContinueButtonEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent)) ::System::Action* didPressContinueButtonEvent;
 
-  /// @brief Method DidActivate, addr 0x3b6f72c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6f704, size 0xf8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x3b6f900, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x3b6f8d8, size 0x38, virtual false, abstract: false, final false
   inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
 
   static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6f824, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b6f7fc, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x3b6f940, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3b6f918, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -84,19 +84,19 @@ public:
 
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b6f938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6f910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeLanguageEvent, addr 0x3b6f494, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeLanguageEvent, addr 0x3b6f46c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b6f5f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b6f5cc, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x3b6f544, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x3b6f51c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b6f690, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b6f668, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
 protected:

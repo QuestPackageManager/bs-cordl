@@ -378,174 +378,174 @@ public:
 
   __declspec(property(get = get_xrTrackingOrigin, put = set_xrTrackingOrigin)) ::UnityW<::UnityEngine::Transform> xrTrackingOrigin;
 
-  /// @brief Method ActivateModule, addr 0x45eebd4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ActivateModule, addr 0x45eeb5c, size 0xb4, virtual true, abstract: false, final false
   inline void ActivateModule();
 
-  /// @brief Method AllocatePointer, addr 0x45f3c34, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method AllocatePointer, addr 0x45f3bbc, size 0x200, virtual false, abstract: false, final false
   inline int32_t AllocatePointer(int32_t pointerId, int32_t displayIndex, int32_t touchId, ::UnityEngine::InputSystem::UI::UIPointerType pointerType, ::UnityEngine::InputSystem::InputControl* control,
                                  ::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputControl* touchControl);
 
-  /// @brief Method AssignDefaultActions, addr 0x45f2300, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method AssignDefaultActions, addr 0x45f2288, size 0x2c8, virtual false, abstract: false, final false
   inline void AssignDefaultActions();
 
-  /// @brief Method Awake, addr 0x45f296c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x45f28f4, size 0x58, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckForRemovedDevice, addr 0x45f32f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CheckForRemovedDevice, addr 0x45f3280, size 0x64, virtual false, abstract: false, final false
   inline bool CheckForRemovedDevice(::ByRef<::UnityEngine::InputSystem::InputAction_CallbackContext> context);
 
-  /// @brief Method ConvertUIToolkitPointerId, addr 0x45f4ee0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ConvertUIToolkitPointerId, addr 0x45f4e68, size 0xd0, virtual true, abstract: false, final false
   inline int32_t ConvertUIToolkitPointerId(::UnityEngine::EventSystems::PointerEventData* sourcePointerData);
 
-  /// @brief Method DisableAllActions, addr 0x45f3034, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DisableAllActions, addr 0x45f2fbc, size 0xa8, virtual false, abstract: false, final false
   inline void DisableAllActions();
 
-  /// @brief Method EnableAllActions, addr 0x45f2f38, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnableAllActions, addr 0x45f2ec0, size 0x5c, virtual false, abstract: false, final false
   inline void EnableAllActions();
 
-  /// @brief Method EnableInputAction, addr 0x45f2058, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method EnableInputAction, addr 0x45f1fe0, size 0x168, virtual false, abstract: false, final false
   inline void EnableInputAction(::UnityEngine::InputSystem::InputActionReference* inputActionReference);
 
-  /// @brief Method FilterPointerStatesByType, addr 0x45f4aa8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method FilterPointerStatesByType, addr 0x45f4a30, size 0x18c, virtual false, abstract: false, final false
   inline void FilterPointerStatesByType();
 
-  /// @brief Method GetDisplayIndexFor, addr 0x45f31ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayIndexFor, addr 0x45f3174, size 0xac, virtual false, abstract: false, final false
   inline int32_t GetDisplayIndexFor(::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method GetLastRaycastResult, addr 0x45eef20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLastRaycastResult, addr 0x45eeea8, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult GetLastRaycastResult(int32_t pointerOrTouchId);
 
-  /// @brief Method GetPointerStateForIndex, addr 0x45f31a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPointerStateForIndex, addr 0x45f3130, size 0x44, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::InputSystem::UI::PointerModel> GetPointerStateForIndex(int32_t index);
 
-  /// @brief Method GetPointerStateIndexFor, addr 0x45f3298, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPointerStateIndexFor, addr 0x45f3220, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetPointerStateIndexFor(::ByRef<::UnityEngine::InputSystem::InputAction_CallbackContext> context);
 
-  /// @brief Method GetPointerStateIndexFor, addr 0x45f335c, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method GetPointerStateIndexFor, addr 0x45f32e4, size 0x80c, virtual false, abstract: false, final false
   inline int32_t GetPointerStateIndexFor(::UnityEngine::InputSystem::InputControl* control, bool createIfNotExists);
 
-  /// @brief Method GetPointerStateIndexFor, addr 0x45eedf0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetPointerStateIndexFor, addr 0x45eed78, size 0x130, virtual false, abstract: false, final false
   inline int32_t GetPointerStateIndexFor(int32_t pointerOrTouchId);
 
-  /// @brief Method HasNoActions, addr 0x45f2b50, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method HasNoActions, addr 0x45f2ad8, size 0x130, virtual false, abstract: false, final false
   inline bool HasNoActions();
 
-  /// @brief Method HaveControlForDevice, addr 0x45f3b68, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HaveControlForDevice, addr 0x45f3af0, size 0xcc, virtual false, abstract: false, final false
   static inline bool HaveControlForDevice(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputActionReference* actionReference);
 
-  /// @brief Method HookActions, addr 0x45f2cc4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method HookActions, addr 0x45f2c4c, size 0x274, virtual false, abstract: false, final false
   inline void HookActions();
 
-  /// @brief Method IgnoreNextClick, addr 0x45f42e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method IgnoreNextClick, addr 0x45f426c, size 0x124, virtual false, abstract: false, final false
   inline bool IgnoreNextClick(::ByRef<::UnityEngine::InputSystem::InputAction_CallbackContext> context, bool wasPressed);
 
-  /// @brief Method IsMoveAllowed, addr 0x45f18a0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method IsMoveAllowed, addr 0x45f1828, size 0x1f8, virtual false, abstract: false, final false
   inline bool IsMoveAllowed(::UnityEngine::EventSystems::AxisEventData* eventData);
 
-  /// @brief Method IsPointerOverGameObject, addr 0x45eec88, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method IsPointerOverGameObject, addr 0x45eec10, size 0x168, virtual true, abstract: false, final false
   inline bool IsPointerOverGameObject(int32_t pointerOrTouchId);
 
   static inline ::UnityEngine::InputSystem::UI::InputSystemUIInputModule* New_ctor();
 
-  /// @brief Method OnControlsChanged, addr 0x45f4a9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnControlsChanged, addr 0x45f4a24, size 0xc, virtual false, abstract: false, final false
   inline void OnControlsChanged(::System::Object* obj);
 
-  /// @brief Method OnDestroy, addr 0x45f2a14, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x45f299c, size 0x30, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x45f2f94, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x45f2f1c, size 0xa0, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x45f2a58, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x45f29e0, size 0xf8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnLeftClickCallback, addr 0x45f4408, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnLeftClickCallback, addr 0x45f4390, size 0xe8, virtual false, abstract: false, final false
   inline void OnLeftClickCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnMiddleClickCallback, addr 0x45f462c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnMiddleClickCallback, addr 0x45f45b4, size 0xe8, virtual false, abstract: false, final false
   inline void OnMiddleClickCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnMoveCallback, addr 0x45f4840, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnMoveCallback, addr 0x45f47c8, size 0x60, virtual false, abstract: false, final false
   inline void OnMoveCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnPointCallback, addr 0x45f41d8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnPointCallback, addr 0x45f4160, size 0x10c, virtual false, abstract: false, final false
   inline void OnPointCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnRightClickCallback, addr 0x45f4544, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnRightClickCallback, addr 0x45f44cc, size 0xe8, virtual false, abstract: false, final false
   inline void OnRightClickCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnScrollCallback, addr 0x45f4714, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnScrollCallback, addr 0x45f469c, size 0xec, virtual false, abstract: false, final false
   inline void OnScrollCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackedDeviceOrientationCallback, addr 0x45f48a0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnTrackedDeviceOrientationCallback, addr 0x45f4828, size 0xa8, virtual false, abstract: false, final false
   inline void OnTrackedDeviceOrientationCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackedDevicePositionCallback, addr 0x45f49a0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnTrackedDevicePositionCallback, addr 0x45f4928, size 0xa8, virtual false, abstract: false, final false
   inline void OnTrackedDevicePositionCallback(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method PerformRaycast, addr 0x45eefd0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method PerformRaycast, addr 0x45eef58, size 0x254, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult PerformRaycast(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
 
-  /// @brief Method PointerShouldIgnoreTransform, addr 0x45f0a5c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PointerShouldIgnoreTransform, addr 0x45f09e4, size 0xec, virtual false, abstract: false, final false
   inline bool PointerShouldIgnoreTransform(::UnityEngine::Transform* t);
 
-  /// @brief Method Process, addr 0x45f4cfc, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45f4c84, size 0x19c, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method ProcessNavigation, addr 0x45f1268, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method ProcessNavigation, addr 0x45f11f0, size 0x638, virtual false, abstract: false, final false
   inline void ProcessNavigation(::ByRef<::UnityEngine::InputSystem::UI::NavigationModel> navigationState);
 
-  /// @brief Method ProcessPointer, addr 0x45ef8a8, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointer, addr 0x45ef830, size 0x3d0, virtual false, abstract: false, final false
   inline void ProcessPointer(::ByRef<::UnityEngine::InputSystem::UI::PointerModel> state);
 
-  /// @brief Method ProcessPointerButton, addr 0x45efd8c, size 0x830, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerButton, addr 0x45efd14, size 0x830, virtual false, abstract: false, final false
   inline void ProcessPointerButton(::ByRef<::UnityEngine::InputSystem::UI::PointerModel_ButtonState> button, ::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method ProcessPointerButtonDrag, addr 0x45f05bc, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerButtonDrag, addr 0x45f0544, size 0x30c, virtual false, abstract: false, final false
   inline void ProcessPointerButtonDrag(::ByRef<::UnityEngine::InputSystem::UI::PointerModel_ButtonState> button, ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
 
-  /// @brief Method ProcessPointerMovement, addr 0x45f0b5c, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerMovement, addr 0x45f0ae4, size 0x688, virtual false, abstract: false, final false
   inline void ProcessPointerMovement(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData, ::UnityEngine::GameObject* currentPointerTarget);
 
-  /// @brief Method ProcessPointerMovement, addr 0x45efd24, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerMovement, addr 0x45efcac, size 0x4c, virtual false, abstract: false, final false
   inline void ProcessPointerMovement(::ByRef<::UnityEngine::InputSystem::UI::PointerModel> pointer, ::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData);
 
-  /// @brief Method ProcessPointerScroll, addr 0x45f08c8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerScroll, addr 0x45f0850, size 0x194, virtual false, abstract: false, final false
   static inline void ProcessPointerScroll(::ByRef<::UnityEngine::InputSystem::UI::PointerModel> pointer, ::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method PurgeStalePointers, addr 0x45f40c0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method PurgeStalePointers, addr 0x45f4048, size 0x118, virtual false, abstract: false, final false
   inline void PurgeStalePointers();
 
-  /// @brief Method RemovePointerAtIndex, addr 0x45f3ee4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method RemovePointerAtIndex, addr 0x45f3e6c, size 0x1dc, virtual false, abstract: false, final false
   inline void RemovePointerAtIndex(int32_t index);
 
-  /// @brief Method ResetPointers, addr 0x45f2c80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ResetPointers, addr 0x45f2c08, size 0x44, virtual false, abstract: false, final false
   inline void ResetPointers();
 
-  /// @brief Method SendPointerExitEventsAndRemovePointer, addr 0x45f30dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SendPointerExitEventsAndRemovePointer, addr 0x45f3064, size 0xcc, virtual false, abstract: false, final false
   inline void SendPointerExitEventsAndRemovePointer(int32_t index);
 
-  /// @brief Method SetActionCallback, addr 0x45f5098, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetActionCallback, addr 0x45f5020, size 0xe4, virtual false, abstract: false, final false
   static inline void SetActionCallback(::UnityEngine::InputSystem::InputActionReference* actionReference, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* callback,
                                        bool install);
 
-  /// @brief Method SetActionCallbacks, addr 0x45f4fb0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetActionCallbacks, addr 0x45f4f38, size 0xe8, virtual false, abstract: false, final false
   inline void SetActionCallbacks(bool install);
 
-  /// @brief Method SwapAction, addr 0x45f1c28, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method SwapAction, addr 0x45f1bb0, size 0x2b8, virtual false, abstract: false, final false
   inline void SwapAction(::ByRef<::UnityEngine::InputSystem::InputActionReference*> property, ::UnityEngine::InputSystem::InputActionReference* newValue, bool actionsHooked,
                          ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* actionCallback);
 
-  /// @brief Method TryDisableInputAction, addr 0x45f1ee0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryDisableInputAction, addr 0x45f1e68, size 0x178, virtual false, abstract: false, final false
   inline void TryDisableInputAction(::UnityEngine::InputSystem::InputActionReference* inputActionReference, bool isComponentDisabling);
 
-  /// @brief Method UnassignActions, addr 0x45f27f8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UnassignActions, addr 0x45f2780, size 0x104, virtual false, abstract: false, final false
   inline void UnassignActions();
 
-  /// @brief Method UnhookActions, addr 0x45f2a44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method UnhookActions, addr 0x45f29cc, size 0x14, virtual false, abstract: false, final false
   inline void UnhookActions();
 
-  /// @brief Method UpdateReferenceForNewAsset, addr 0x45f517c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UpdateReferenceForNewAsset, addr 0x45f5104, size 0x88, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> UpdateReferenceForNewAsset(::UnityEngine::InputSystem::InputActionReference* actionReference);
 
   constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get_m_ActionsAsset() const;
@@ -770,151 +770,151 @@ public:
 
   constexpr void __cordl_internal_set_m_XRTrackingOrigin(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x45f520c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45f5194, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_InputActionReferenceState>*
   getStaticF_s_InputActionReferenceCounts();
 
-  /// @brief Method get_actionsAsset, addr 0x45f5204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionsAsset, addr 0x45f518c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_actionsAsset();
 
-  /// @brief Method get_cancel, addr 0x45f22a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancel, addr 0x45f2228, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_cancel();
 
-  /// @brief Method get_cursorLockBehavior, addr 0x45eebb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorLockBehavior, addr 0x45eeb3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_CursorLockBehavior get_cursorLockBehavior();
 
-  /// @brief Method get_deselectOnBackgroundClick, addr 0x45eeb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deselectOnBackgroundClick, addr 0x45eeb18, size 0x8, virtual false, abstract: false, final false
   inline bool get_deselectOnBackgroundClick();
 
-  /// @brief Method get_explictlyIgnoreFocus, addr 0x45f1ab8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_explictlyIgnoreFocus, addr 0x45f1a40, size 0x68, virtual false, abstract: false, final false
   inline bool get_explictlyIgnoreFocus();
 
-  /// @brief Method get_leftClick, addr 0x45f2200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftClick, addr 0x45f2188, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_leftClick();
 
-  /// @brief Method get_localMultiPlayerRoot, addr 0x45eebc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localMultiPlayerRoot, addr 0x45eeb4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_localMultiPlayerRoot();
 
-  /// @brief Method get_middleClick, addr 0x45f2220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_middleClick, addr 0x45f21a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_middleClick();
 
-  /// @brief Method get_move, addr 0x45f2260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_move, addr 0x45f21e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_move();
 
-  /// @brief Method get_moveRepeatDelay, addr 0x45f1a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveRepeatDelay, addr 0x45f1a20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveRepeatDelay();
 
-  /// @brief Method get_moveRepeatRate, addr 0x45f1aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveRepeatRate, addr 0x45f1a30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_moveRepeatRate();
 
-  /// @brief Method get_point, addr 0x45f21c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x45f2148, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_point();
 
-  /// @brief Method get_pointerBehavior, addr 0x45eeba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerBehavior, addr 0x45eeb2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::UIPointerBehavior get_pointerBehavior();
 
-  /// @brief Method get_repeatDelay, addr 0x45f1bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repeatDelay, addr 0x45f1b80, size 0x8, virtual false, abstract: false, final false
   inline float_t get_repeatDelay();
 
-  /// @brief Method get_repeatRate, addr 0x45f1be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repeatRate, addr 0x45f1b70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_repeatRate();
 
-  /// @brief Method get_rightClick, addr 0x45f2240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightClick, addr 0x45f21c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_rightClick();
 
-  /// @brief Method get_scrollWheel, addr 0x45f21e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollWheel, addr 0x45f2168, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_scrollWheel();
 
-  /// @brief Method get_shouldIgnoreFocus, addr 0x45f1b20, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldIgnoreFocus, addr 0x45f1aa8, size 0xc8, virtual false, abstract: false, final false
   inline bool get_shouldIgnoreFocus();
 
-  /// @brief Method get_submit, addr 0x45f2280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_submit, addr 0x45f2208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_submit();
 
-  /// @brief Method get_trackedDeviceDragThresholdMultiplier, addr 0x45f1c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDeviceDragThresholdMultiplier, addr 0x45f1ba0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_trackedDeviceDragThresholdMultiplier();
 
-  /// @brief Method get_trackedDeviceOrientation, addr 0x45f22c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDeviceOrientation, addr 0x45f2248, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_trackedDeviceOrientation();
 
-  /// @brief Method get_trackedDevicePosition, addr 0x45f22e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDevicePosition, addr 0x45f2268, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_trackedDevicePosition();
 
-  /// @brief Method get_trackedDeviceSelect, addr 0x45f28fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_trackedDeviceSelect, addr 0x45f2884, size 0x38, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_trackedDeviceSelect();
 
-  /// @brief Method get_xrTrackingOrigin, addr 0x45f1c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xrTrackingOrigin, addr 0x45f1b90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_xrTrackingOrigin();
 
   static inline void setStaticF_s_InputActionReferenceCounts(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::UI::InputSystemUIInputModule_InputActionReferenceState>* value);
 
-  /// @brief Method set_actionsAsset, addr 0x45f25c8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method set_actionsAsset, addr 0x45f2550, size 0x230, virtual false, abstract: false, final false
   inline void set_actionsAsset(::UnityEngine::InputSystem::InputActionAsset* value);
 
-  /// @brief Method set_cancel, addr 0x45f22a8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_cancel, addr 0x45f2230, size 0x18, virtual false, abstract: false, final false
   inline void set_cancel(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_cursorLockBehavior, addr 0x45eebbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cursorLockBehavior, addr 0x45eeb44, size 0x8, virtual false, abstract: false, final false
   inline void set_cursorLockBehavior(::UnityEngine::InputSystem::UI::InputSystemUIInputModule_CursorLockBehavior value);
 
-  /// @brief Method set_deselectOnBackgroundClick, addr 0x45eeb98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_deselectOnBackgroundClick, addr 0x45eeb20, size 0xc, virtual false, abstract: false, final false
   inline void set_deselectOnBackgroundClick(bool value);
 
-  /// @brief Method set_leftClick, addr 0x45f2208, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_leftClick, addr 0x45f2190, size 0x18, virtual false, abstract: false, final false
   inline void set_leftClick(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_localMultiPlayerRoot, addr 0x45eebcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localMultiPlayerRoot, addr 0x45eeb54, size 0x8, virtual false, abstract: false, final false
   inline void set_localMultiPlayerRoot(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_middleClick, addr 0x45f2228, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_middleClick, addr 0x45f21b0, size 0x18, virtual false, abstract: false, final false
   inline void set_middleClick(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_move, addr 0x45f2268, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_move, addr 0x45f21f0, size 0x18, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_moveRepeatDelay, addr 0x45f1aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveRepeatDelay, addr 0x45f1a28, size 0x8, virtual false, abstract: false, final false
   inline void set_moveRepeatDelay(float_t value);
 
-  /// @brief Method set_moveRepeatRate, addr 0x45f1ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveRepeatRate, addr 0x45f1a38, size 0x8, virtual false, abstract: false, final false
   inline void set_moveRepeatRate(float_t value);
 
-  /// @brief Method set_point, addr 0x45f21c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x45f2150, size 0x18, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_pointerBehavior, addr 0x45eebac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerBehavior, addr 0x45eeb34, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerBehavior(::UnityEngine::InputSystem::UI::UIPointerBehavior value);
 
-  /// @brief Method set_repeatDelay, addr 0x45f1c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repeatDelay, addr 0x45f1b88, size 0x8, virtual false, abstract: false, final false
   inline void set_repeatDelay(float_t value);
 
-  /// @brief Method set_repeatRate, addr 0x45f1bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repeatRate, addr 0x45f1b78, size 0x8, virtual false, abstract: false, final false
   inline void set_repeatRate(float_t value);
 
-  /// @brief Method set_rightClick, addr 0x45f2248, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_rightClick, addr 0x45f21d0, size 0x18, virtual false, abstract: false, final false
   inline void set_rightClick(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_scrollWheel, addr 0x45f21e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_scrollWheel, addr 0x45f2170, size 0x18, virtual false, abstract: false, final false
   inline void set_scrollWheel(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_submit, addr 0x45f2288, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_submit, addr 0x45f2210, size 0x18, virtual false, abstract: false, final false
   inline void set_submit(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_trackedDeviceDragThresholdMultiplier, addr 0x45f1c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDeviceDragThresholdMultiplier, addr 0x45f1ba8, size 0x8, virtual false, abstract: false, final false
   inline void set_trackedDeviceDragThresholdMultiplier(float_t value);
 
-  /// @brief Method set_trackedDeviceOrientation, addr 0x45f22c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDeviceOrientation, addr 0x45f2250, size 0x18, virtual false, abstract: false, final false
   inline void set_trackedDeviceOrientation(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_trackedDevicePosition, addr 0x45f22e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDevicePosition, addr 0x45f2270, size 0x18, virtual false, abstract: false, final false
   inline void set_trackedDevicePosition(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_trackedDeviceSelect, addr 0x45f2934, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_trackedDeviceSelect, addr 0x45f28bc, size 0x38, virtual false, abstract: false, final false
   inline void set_trackedDeviceSelect(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_xrTrackingOrigin, addr 0x45f1c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xrTrackingOrigin, addr 0x45f1b98, size 0x8, virtual false, abstract: false, final false
   inline void set_xrTrackingOrigin(::UnityEngine::Transform* value);
 
 protected:

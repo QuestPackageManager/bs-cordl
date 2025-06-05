@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::NullableMethodCallInstruction_GetValueOrDefault* New_ctor(::System::Reflection::MethodInfo* mi);
 
-  /// @brief Method Run, addr 0x40f8d7c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f8d04, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__defaultValueType() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultValueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40f8bf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f8b80, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* mi);
 
 protected:

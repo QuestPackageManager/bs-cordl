@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method .ctor, addr 0x42c97c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c9748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x42c97b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x42c9738, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method set_Content, addr 0x42c97b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x42c9740, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
 protected:

@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu_MenuItem::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu_MenuItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499833c;
+  constexpr static std::size_t addrs = 0x49982c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass54_0::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass54_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4998468;
+  constexpr static std::size_t addrs = 0x49983f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass54_0::*)(
     ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem*)>(&::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass54_0::_UpdateItem_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49994c0;
+  constexpr static std::size_t addrs = 0x4999448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu::get_isSingleSelectionDropdown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4996b24;
+  constexpr static std::size_t addrs = 0x4996aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu*>::get(),
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::set_isSingleSelectionDropdown)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4996b2c;
+  constexpr static std::size_t addrs = 0x4996ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu::get_closeOnParentResize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4996b38;
+  constexpr static std::size_t addrs = 0x4996ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu*>::get(),
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::set_closeOnParentResize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4996b40;
+  constexpr static std::size_t addrs = 0x4996ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu::get_contentContainer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4996b4c;
+  constexpr static std::size_t addrs = 0x4996ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu*>::get(),
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(&::UnityEngine::UIElements::GenericDropdownMenu::_ctor)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x4994860;
+  constexpr static std::size_t addrs = 0x49947e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu*>::get(), ".ctor",
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::AttachToPanelEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnAttachToPanel)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x4996b70;
+  constexpr static std::size_t addrs = 0x4996af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnDetachFromPanel)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x4996f88;
+  constexpr static std::size_t addrs = 0x4996f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::Hide)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4997320;
+  constexpr static std::size_t addrs = 0x49972a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
     ::UnityEngine::UIElements::KeyboardNavigationOperation, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::GenericDropdownMenu::Apply)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x49973b0;
+  constexpr static std::size_t addrs = 0x4997338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::KeyboardNavigationOperation)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::Apply)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x49973ec;
+  constexpr static std::size_t addrs = 0x4997374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnPointerDown)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4997784;
+  constexpr static std::size_t addrs = 0x499770c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnPointerMove)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x49979e0;
+  constexpr static std::size_t addrs = 0x4997968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnPointerUp)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4997b0c;
+  constexpr static std::size_t addrs = 0x4997a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::FocusOutEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnFocusOut)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4997c54;
+  constexpr static std::size_t addrs = 0x4997bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnParentResized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4997d9c;
+  constexpr static std::size_t addrs = 0x4997d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::UpdateSelection)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x49978b0;
+  constexpr static std::size_t addrs = 0x4997838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::ChangeSelectedIndex)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4997db0;
+  constexpr static std::size_t addrs = 0x4997d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu::GetSelectedIndex)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4997580;
+  constexpr static std::size_t addrs = 0x4997508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu*>::get(),
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool, ::System::Action*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4997eec;
+  constexpr static std::size_t addrs = 0x4997e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
     ::StringW, bool, ::System::Action_1<::System::Object*>*, ::System::Object*)>(&::UnityEngine::UIElements::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4998248;
+  constexpr static std::size_t addrs = 0x49981d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::AddDisabledItem)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x499826c;
+  constexpr static std::size_t addrs = 0x49981f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -499,7 +499,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::AddSeparator)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x499827c;
+  constexpr static std::size_t addrs = 0x4998204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* (
     ::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool, bool, ::System::Object*)>(&::UnityEngine::UIElements::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x4997f14;
+  constexpr static std::size_t addrs = 0x4997e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::StringW, bool)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::UpdateItem)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4998344;
+  constexpr static std::size_t addrs = 0x49982cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
     ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*, bool)>(&::UnityEngine::UIElements::GenericDropdownMenu::DropDown)> {
   constexpr static std::size_t size = 0x928;
-  constexpr static std::size_t addrs = 0x4998470;
+  constexpr static std::size_t addrs = 0x49983f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::DetachFromPanelEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnTargetElementDetachFromPanel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4999314;
+  constexpr static std::size_t addrs = 0x499929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::GenericDropdownMenu::OnContainerGeometryChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x499931c;
+  constexpr static std::size_t addrs = 0x49992a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)()>(
     &::UnityEngine::UIElements::GenericDropdownMenu::EnsureVisibilityInParent)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x4998d98;
+  constexpr static std::size_t addrs = 0x4998d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::GenericDropdownMenu*>::get(),
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
     int32_t, ::ByRef<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass39_0>)>(&::UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionDown_39_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x49976c8;
+  constexpr static std::size_t addrs = 0x4997650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::GenericDropdownMenu::*)(
     int32_t, ::ByRef<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass39_0>)>(&::UnityEngine::UIElements::GenericDropdownMenu::_Apply_g__UpdateSelectionUp_39_1)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4997620;
+  constexpr static std::size_t addrs = 0x49975a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

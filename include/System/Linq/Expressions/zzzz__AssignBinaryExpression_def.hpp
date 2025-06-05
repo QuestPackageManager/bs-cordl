@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Linq::Expressions::AssignBinaryExpression* New_ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method .ctor, addr 0x4097104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409708c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method get_NodeType, addr 0x4097128, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40970b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x4097108, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x4097090, size 0x20, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

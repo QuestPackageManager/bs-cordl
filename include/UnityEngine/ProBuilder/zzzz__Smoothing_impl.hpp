@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Smoothing___c::*)()>(&::UnityEngine::ProBuilder::Smoothing___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47405b8;
+  constexpr static std::size_t addrs = 0x4740540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Smoothing___c*>::get(), ".ctor",
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Smoothing___c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::Smoothing___c::_GetUnusedSmoothingGroup_b__5_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47405c0;
+  constexpr static std::size_t addrs = 0x4740548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Smoothing___c::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::Smoothing___c::_ApplySmoothingGroups_b__9_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47405d8;
+  constexpr static std::size_t addrs = 0x4740560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::Smoothing::GetUnusedSmoothingGroup)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x473f360;
+  constexpr static std::size_t addrs = 0x473f2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::System::Collections::Generic::HashSet_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Smoothing::GetNextUnusedSmoothingGroup)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x473f538;
+  constexpr static std::size_t addrs = 0x473f4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::UnityEngine::ProBuilder::Smoothing::IsSmooth)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x473f5e8;
+  constexpr static std::size_t addrs = 0x473f570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, float_t)>(
         &::UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x473f608;
+  constexpr static std::size_t addrs = 0x473f590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, float_t,
                          ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>)>(&::UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups)> {
   constexpr static std::size_t size = 0x858;
-  constexpr static std::size_t addrs = 0x473f610;
+  constexpr static std::size_t addrs = 0x473f598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            float_t, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)>(
     &::UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x473fe68;
+  constexpr static std::size_t addrs = 0x473fdf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::UnityEngine::ProBuilder::EdgeLookup,
                                                                                            ::UnityEngine::ProBuilder::EdgeLookup, float_t)>(&::UnityEngine::ProBuilder::Smoothing::IsSoftEdge)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x4740144;
+  constexpr static std::size_t addrs = 0x47400cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

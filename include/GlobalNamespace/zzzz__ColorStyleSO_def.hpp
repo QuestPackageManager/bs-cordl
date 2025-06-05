@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__colorStyle(::GlobalNamespace::ColorStyle* value);
 
-  /// @brief Method .ctor, addr 0x26a2538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a24f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorStyle, addr 0x26a2530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorStyle, addr 0x26a24f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyColorStyle* get_colorStyle();
 
 protected:

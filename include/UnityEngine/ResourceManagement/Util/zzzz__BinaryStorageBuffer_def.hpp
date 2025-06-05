@@ -182,7 +182,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <FindBestSeparator>b__0, addr 0x4793e94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <FindBestSeparator>b__0, addr 0x4793e1c, size 0x10, virtual false, abstract: false, final false
   inline bool _FindBestSeparator_b__0(char16_t c);
 
   constexpr char16_t const& __cordl_internal_get_s() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set_s(char16_t value);
 
-  /// @brief Method .ctor, addr 0x4793a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47939a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,21 +309,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<int64_t>"
   constexpr operator ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<int64_t>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x47934f4, size 0x348, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x479347c, size 0x348, virtual true, abstract: false, final true
   inline ::System::Object* Deserialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader* reader, ::System::Type* t, uint32_t offset);
 
-  /// @brief Method FindBestSeparator, addr 0x4793864, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method FindBestSeparator, addr 0x47937ec, size 0x1b8, virtual false, abstract: false, final false
   inline char16_t FindBestSeparator(::StringW str, ::ArrayW<char16_t, ::Array<char16_t>*> seps);
 
   static inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer* New_ctor();
 
-  /// @brief Method Serialize, addr 0x4793a24, size 0x44c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x47939ac, size 0x44c, virtual true, abstract: false, final true
   inline uint32_t Serialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer* writer, ::System::Object* val);
 
-  /// @brief Method .ctor, addr 0x4793e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4793e14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Dependencies, addr 0x47934ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Dependencies, addr 0x4793474, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* get_Dependencies();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
@@ -425,18 +425,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<::System::Type*>"
   constexpr operator ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<::System::Type*>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x4793eac, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x4793e34, size 0x1b4, virtual true, abstract: false, final true
   inline ::System::Object* Deserialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader* reader, ::System::Type* type, uint32_t offset);
 
   static inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer* New_ctor();
 
-  /// @brief Method Serialize, addr 0x4794060, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x4793fe8, size 0x130, virtual true, abstract: false, final true
   inline uint32_t Serialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer* writer, ::System::Object* val);
 
-  /// @brief Method .ctor, addr 0x4794190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4794118, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Dependencies, addr 0x4793ea4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Dependencies, addr 0x4793e2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* get_Dependencies();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
@@ -561,13 +561,13 @@ public:
   /// @brief Field stringBuilder, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_stringBuilder, put = __cordl_internal_set_stringBuilder)) ::System::Text::StringBuilder* stringBuilder;
 
-  /// @brief Method AddSerializationAdapter, addr 0x4794364, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddSerializationAdapter, addr 0x47942ec, size 0xc, virtual false, abstract: false, final false
   inline void AddSerializationAdapter(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter* a);
 
-  /// @brief Method GetBuffer, addr 0x47943b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBuffer, addr 0x479433c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer();
 
-  /// @brief Method Init, addr 0x4794198, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4794120, size 0x1cc, virtual false, abstract: false, final false
   inline void
   Init(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t maxCachedObjects,
        ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
@@ -583,34 +583,34 @@ public:
            ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
                adapters);
 
-  /// @brief Method ReadAutoEncodedString, addr 0x47949d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadAutoEncodedString, addr 0x479495c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW ReadAutoEncodedString(uint32_t id, bool cacheValue);
 
-  /// @brief Method ReadDynamicString, addr 0x4794a28, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ReadDynamicString, addr 0x47949b0, size 0x1a8, virtual false, abstract: false, final false
   inline ::StringW ReadDynamicString(uint32_t id, char16_t sep, bool cacheValue);
 
-  /// @brief Method ReadObject, addr 0x47945dc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x4794564, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Object* ReadObject(uint32_t id, bool cacheValue);
 
-  /// @brief Method ReadObject, addr 0x47947d8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x4794760, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Object* ReadObject(::System::Type* t, uint32_t id, bool cacheValue);
 
   /// @brief Method ReadObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T ReadObject(uint32_t offset, bool cacheValue);
 
-  /// @brief Method ReadObjectArray, addr 0x47944a0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectArray, addr 0x4794428, size 0x13c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ReadObjectArray(uint32_t id, bool cacheValues);
 
-  /// @brief Method ReadObjectArray, addr 0x4794694, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectArray, addr 0x479461c, size 0x144, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ReadObjectArray(::System::Type* t, uint32_t id, bool cacheValues);
 
   /// @brief Method ReadObjectArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> ReadObjectArray(uint32_t id, bool cacheValues);
 
-  /// @brief Method ReadString, addr 0x479383c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x47937c4, size 0x28, virtual false, abstract: false, final false
   inline ::StringW ReadString(uint32_t id, char16_t sep, bool cacheValue);
 
-  /// @brief Method ReadStringInternal, addr 0x4794bd0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ReadStringInternal, addr 0x4794b58, size 0x238, virtual false, abstract: false, final false
   inline ::StringW ReadStringInternal(uint32_t offset, ::System::Text::Encoding* enc, bool cacheValue);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -648,13 +648,13 @@ public:
 
   constexpr void __cordl_internal_set_stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x4794370, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47942f8, size 0x44, virtual false, abstract: false, final false
   inline void
   _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t maxCachedObjects,
         ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
             adapters);
 
-  /// @brief Method .ctor, addr 0x47943bc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4794344, size 0xe4, virtual false, abstract: false, final false
   inline void
   _ctor(::System::IO::Stream* inputStream, uint32_t bufferSize, int32_t maxCachedObjects,
         ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
@@ -730,7 +730,7 @@ public:
 
   constexpr void __cordl_internal_set_position(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x479509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4795024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -839,13 +839,13 @@ public:
   /// @brief Field totalBytes, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_totalBytes, put = __cordl_internal_set_totalBytes)) uint32_t totalBytes;
 
-  /// @brief Method ComputeStringSize, addr 0x4795ec4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ComputeStringSize, addr 0x4795e4c, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t ComputeStringSize(::StringW str, ::ByRef<bool> isUnicode);
 
-  /// @brief Method FindChunkWithSpace, addr 0x47950a4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FindChunkWithSpace, addr 0x479502c, size 0x180, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk* FindChunkWithSpace(uint32_t length);
 
-  /// @brief Method IsUnicode, addr 0x4795e20, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsUnicode, addr 0x4795da8, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsUnicode(::StringW str);
 
   static inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*
@@ -853,7 +853,7 @@ public:
            ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
                adapters);
 
-  /// @brief Method RecurseDynamicStringParts, addr 0x4795f18, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RecurseDynamicStringParts, addr 0x4795ea0, size 0x1ec, virtual false, abstract: false, final false
   inline uint32_t RecurseDynamicStringParts(
       ::ArrayW<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts, ::Array<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts>*> parts,
       int32_t index, char16_t sep, uint32_t minSize);
@@ -864,13 +864,13 @@ public:
   /// @brief Method Reserve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline uint32_t Reserve(uint32_t count);
 
-  /// @brief Method ReserveInternal, addr 0x47953d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReserveInternal, addr 0x479535c, size 0x58, virtual false, abstract: false, final false
   inline uint32_t ReserveInternal(uint32_t dataSize, bool prefixSize);
 
-  /// @brief Method SerializeToByteArray, addr 0x4795a54, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method SerializeToByteArray, addr 0x47959dc, size 0x24c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeToByteArray();
 
-  /// @brief Method SerializeToStream, addr 0x4795ca0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method SerializeToStream, addr 0x4795c28, size 0x180, virtual false, abstract: false, final false
   inline uint32_t SerializeToStream(::System::IO::Stream* str);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -891,31 +891,31 @@ public:
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline uint32_t Write(::ArrayW<T, ::Array<T>*> values, bool hashElements);
 
-  /// @brief Method WriteAutoEncodedString, addr 0x4795958, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteAutoEncodedString, addr 0x47958e0, size 0xa0, virtual false, abstract: false, final false
   inline uint32_t WriteAutoEncodedString(::StringW str);
 
-  /// @brief Method WriteDynamicString, addr 0x47957f4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method WriteDynamicString, addr 0x479577c, size 0x164, virtual false, abstract: false, final false
   inline uint32_t WriteDynamicString(::StringW str, char16_t sep);
 
-  /// @brief Method WriteInternal, addr 0x4795224, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method WriteInternal, addr 0x47951ac, size 0x1b0, virtual false, abstract: false, final false
   inline uint32_t WriteInternal(::cordl_internals::Ptr<void> pData, uint32_t dataSize, bool prefixSize);
 
-  /// @brief Method WriteInternal, addr 0x479542c, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method WriteInternal, addr 0x47953b4, size 0x280, virtual false, abstract: false, final false
   inline void WriteInternal(uint32_t id, ::cordl_internals::Ptr<void> pData, uint32_t dataSize, bool prefixSize);
 
-  /// @brief Method WriteObject, addr 0x47956ac, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x4795634, size 0x148, virtual false, abstract: false, final false
   inline uint32_t WriteObject(::System::Object* obj, bool serializeTypeData);
 
   /// @brief Method WriteObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline uint32_t WriteObjects(::System::Collections::Generic::IEnumerable_1<T>* objs, bool serizalizeTypeData);
 
-  /// @brief Method WriteString, addr 0x4793e70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteString, addr 0x4793df8, size 0x1c, virtual false, abstract: false, final false
   inline uint32_t WriteString(::StringW str, char16_t sep);
 
-  /// @brief Method WriteStringInternal, addr 0x47959f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringInternal, addr 0x4795980, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t WriteStringInternal(::StringW val, ::System::Text::Encoding* enc);
 
-  /// @brief Method WriteUnicodeString, addr 0x4795e8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteUnicodeString, addr 0x4795e14, size 0x38, virtual false, abstract: false, final false
   inline uint32_t WriteUnicodeString(::StringW str);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk*>* const& __cordl_internal_get_chunks() const;
@@ -951,13 +951,13 @@ public:
 
   constexpr void __cordl_internal_set_totalBytes(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x4794e10, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4794d98, size 0x28c, virtual false, abstract: false, final false
   inline void
   _ctor(int32_t chunkSize,
         ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
             adapters);
 
-  /// @brief Method get_Length, addr 0x4794e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4794d90, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Length();
 
 protected:
@@ -1031,22 +1031,22 @@ public:
 
   using Writer = ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer;
 
-  /// @brief Method AddSerializationAdapter, addr 0x4792cb0, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method AddSerializationAdapter, addr 0x4792c38, size 0x5fc, virtual false, abstract: false, final false
   static inline void
   AddSerializationAdapter(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* serializationAdapters,
                           ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter* adapter, bool forceOverride);
 
-  /// @brief Method ComputeHash, addr 0x4792c98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x4792c20, size 0x18, virtual false, abstract: false, final false
   static inline void ComputeHash(::cordl_internals::Ptr<void> pData, uint64_t size, ::cordl_internals::Ptr<::UnityEngine::Hash128> hash);
 
-  /// @brief Method GetSerializationAdapter, addr 0x47932ac, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationAdapter, addr 0x4793234, size 0x238, virtual false, abstract: false, final false
   static inline bool
   GetSerializationAdapter(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* serializationAdapters,
                           ::System::Type* t, ::ByRef<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*> adapter);
 
   static inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47934e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479346c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

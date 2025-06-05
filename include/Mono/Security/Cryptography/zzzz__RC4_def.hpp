@@ -33,26 +33,26 @@ public:
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
       s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x3c4b534, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c4b4bc, size 0x50, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::RC4* Create();
 
   static inline ::Mono::Security::Cryptography::RC4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c469f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c46978, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_IV, addr 0x3c4b4ec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x3c4b474, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IV();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method set_IV, addr 0x3c4b530, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x3c4b4b8, size 0x4, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

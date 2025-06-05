@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::get_renderersLength)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x407d354;
+  constexpr static std::size_t addrs = 0x407d2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "get_renderersLength",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TrueOverdraw::TrueOverdraw_OverdrawType (::TrueOverdraw::TrueOverdraw::*)()>(
     &::TrueOverdraw::TrueOverdraw::get_overdrawType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407d370;
+  constexpr static std::size_t addrs = 0x407d2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "get_overdrawType",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)(::TrueOverdraw::TrueOverdraw_OverdrawType)>(
     &::TrueOverdraw::TrueOverdraw::set_overdrawType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407d378;
+  constexpr static std::size_t addrs = 0x407d300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)(::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*>)>(
     &::TrueOverdraw::TrueOverdraw::_ctor)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x407d380;
+  constexpr static std::size_t addrs = 0x407d308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::Enable)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x407d74c;
+  constexpr static std::size_t addrs = 0x407d6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "Enable",
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Renderer*, ::UnityEngine::Material*)>(
     &::TrueOverdraw::TrueOverdraw::ResolveRendererColor)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x407daa8;
+  constexpr static std::size_t addrs = 0x407da30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::Disable)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x407ddd4;
+  constexpr static std::size_t addrs = 0x407dd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "Disable",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::Dispose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x407dffc;
+  constexpr static std::size_t addrs = 0x407df84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "Dispose",
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::ShowEverything)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x407e0ec;
+  constexpr static std::size_t addrs = 0x407e074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "ShowEverything",
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::ShowOnlyTransparent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x407e1d4;
+  constexpr static std::size_t addrs = 0x407e15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "ShowOnlyTransparent",
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::ShowOnlyOpaque)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x407e234;
+  constexpr static std::size_t addrs = 0x407e1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TrueOverdraw::TrueOverdraw*>::get(), "ShowOnlyOpaque",
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t, float_t)>(&::TrueOverdraw::TrueOverdraw::SetGlobalFloats)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x407da20;
+  constexpr static std::size_t addrs = 0x407d9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t)>(&::TrueOverdraw::TrueOverdraw::SetOverdrawValues)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x407e14c;
+  constexpr static std::size_t addrs = 0x407e0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Color)>(&::TrueOverdraw::TrueOverdraw::SetMaterialValues)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x407dcac;
+  constexpr static std::size_t addrs = 0x407dc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

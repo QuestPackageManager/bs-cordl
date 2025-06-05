@@ -25,25 +25,25 @@ namespace UnityEngine {
 class CORDL_TYPE JsonUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x48ed558, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x48ed4e0, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Object* FromJson(::StringW json, ::System::Type* type);
 
   /// @brief Method FromJson, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromJson(::StringW json);
 
-  /// @brief Method FromJsonInternal, addr 0x48ed38c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromJsonInternal, addr 0x48ed314, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method FromJsonOverwrite, addr 0x48ed744, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method FromJsonOverwrite, addr 0x48ed6cc, size 0x1bc, virtual false, abstract: false, final false
   static inline void FromJsonOverwrite(::StringW json, ::System::Object* objectToOverwrite);
 
-  /// @brief Method ToJson, addr 0x48ed3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x48ed368, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj);
 
-  /// @brief Method ToJson, addr 0x48ed3e8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x48ed370, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
-  /// @brief Method ToJsonInternal, addr 0x48ed348, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ToJsonInternal, addr 0x48ed2d0, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW ToJsonInternal(::System::Object* obj, bool prettyPrint);
 
 protected:

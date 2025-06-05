@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::System::Action_1<::UnityEngine::Vector3>*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::add_didUpdatePoseEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x224ba44;
+  constexpr static std::size_t addrs = 0x224ba04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::System::Action_1<::UnityEngine::Vector3>*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::remove_didUpdatePoseEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x224bbc0;
+  constexpr static std::size_t addrs = 0x224bb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::set_connectedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22500bc;
+  constexpr static std::size_t addrs = 0x225007c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22500c4;
+  constexpr static std::size_t addrs = 0x2250084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Update)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x22500dc;
+  constexpr static std::size_t addrs = 0x225009c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22505c4;
+  constexpr static std::size_t addrs = 0x2250584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),

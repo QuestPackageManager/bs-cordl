@@ -75,10 +75,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method CreateOriginatorPublicKey, addr 0x26793b0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateOriginatorPublicKey, addr 0x2679370, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* CreateOriginatorPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method Generate, addr 0x2678264, size 0x114c, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2678224, size 0x114c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator* New_ctor();
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_senderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
 
-  /// @brief Method .ctor, addr 0x26781d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -117,16 +117,16 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KeyAgreementOID, addr 0x26781e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyAgreementOID, addr 0x26781a0, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAgreementOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionOID, addr 0x26781e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionOID, addr 0x26781a8, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_RecipientCerts, addr 0x26781f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_RecipientCerts, addr 0x26781b0, size 0x6c, virtual false, abstract: false, final false
   inline void set_RecipientCerts(::System::Collections::ICollection* value);
 
-  /// @brief Method set_SenderKeyPair, addr 0x267825c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SenderKeyPair, addr 0x267821c, size 0x8, virtual false, abstract: false, final false
   inline void set_SenderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
 
 protected:

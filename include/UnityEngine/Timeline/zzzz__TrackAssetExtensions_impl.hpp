@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Timeline::GroupTrack> (*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x48273b0;
+  constexpr static std::size_t addrs = 0x4827338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::GroupTrack*)>(
     &::UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x4827474;
+  constexpr static std::size_t addrs = 0x48273fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

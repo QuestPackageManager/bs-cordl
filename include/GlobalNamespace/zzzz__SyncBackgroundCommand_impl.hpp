@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SyncBackgroundCommand::*)()>(
     &::GlobalNamespace::SyncBackgroundCommand::get_resultTask)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22b2ab4;
+  constexpr static std::size_t addrs = 0x22b2a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SyncBackgroundCommand::*)()>(
     &::GlobalNamespace::SyncBackgroundCommand::Execute)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22b2afc;
+  constexpr static std::size_t addrs = 0x22b2abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand*>::get(), "Execute",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SyncBackgroundCommand::*)()>(&::GlobalNamespace::SyncBackgroundCommand::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22b2c64;
+  constexpr static std::size_t addrs = 0x22b2c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand*>::get(), ".ctor",

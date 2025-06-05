@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4078a0c;
+  constexpr static std::size_t addrs = 0x4078994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::Samples::SampleMetadata*>::get(), "Awake",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::Start)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4078a28;
+  constexpr static std::size_t addrs = 0x40789b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::Samples::SampleMetadata*>::get(), "Start",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4078da0;
+  constexpr static std::size_t addrs = 0x4078d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::Samples::SampleMetadata*>::get(), "OnDestroy",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)(int32_t)>(&::Meta::XR::Samples::SampleMetadata::SendEvent)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x4078a9c;
+  constexpr static std::size_t addrs = 0x4078a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Meta::XR::Samples::SampleMetadata::*)()>(&::Meta::XR::Samples::SampleMetadata::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078dac;
+  constexpr static std::size_t addrs = 0x4078d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Meta::XR::Samples::SampleMetadata*>::get(), ".ctor",

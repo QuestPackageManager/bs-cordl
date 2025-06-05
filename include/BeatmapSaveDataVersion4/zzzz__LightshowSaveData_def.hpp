@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set_waypointsData(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
 
-  /// @brief Method .ctor, addr 0x2708da4, size 0x730, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2708d7c, size 0x730, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle, addr 0x49529f8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x4952980, size 0x1b4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -106,18 +106,18 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x49529ac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4952934, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x494b5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x494b574, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x494bb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x494bb10, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x494b5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x494b57c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle* value);

@@ -69,7 +69,7 @@ public:
 
   __declspec(property(get = get_thumbstickActionReference, put = set_thumbstickActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference> thumbstickActionReference;
 
-  /// @brief Method CreateController, addr 0x39cc148, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateController, addr 0x39cc120, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* CreateController(::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::UnityXRController_Configuration* New_ctor();
@@ -92,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set__thumbstickActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  /// @brief Method .ctor, addr 0x39cef98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cef70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_orientationActionReference, addr 0x39cef78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orientationActionReference, addr 0x39cef50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_orientationActionReference();
 
-  /// @brief Method get_positionActionReference, addr 0x39cef68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionActionReference, addr 0x39cef40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_positionActionReference();
 
-  /// @brief Method get_thumbstickActionReference, addr 0x39cef88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickActionReference, addr 0x39cef60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_thumbstickActionReference();
 
-  /// @brief Method set_orientationActionReference, addr 0x39cef80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_orientationActionReference, addr 0x39cef58, size 0x8, virtual false, abstract: false, final false
   inline void set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_positionActionReference, addr 0x39cef70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionActionReference, addr 0x39cef48, size 0x8, virtual false, abstract: false, final false
   inline void set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
-  /// @brief Method set_thumbstickActionReference, addr 0x39cef90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickActionReference, addr 0x39cef68, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
 protected:
@@ -186,16 +186,16 @@ public:
   static inline ::GlobalNamespace::UnityXRController* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction,
                                                                ::UnityEngine::InputSystem::InputAction* rotationAction, ::UnityEngine::InputSystem::InputAction* thumbstickAction);
 
-  /// @brief Method ResetManufacturerName, addr 0x39cef60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetManufacturerName, addr 0x39cef38, size 0x8, virtual false, abstract: false, final false
   inline void ResetManufacturerName();
 
-  /// @brief Method SetupController, addr 0x39cec58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetupController, addr 0x39cec30, size 0x34, virtual false, abstract: false, final false
   inline bool SetupController(::UnityEngine::XR::InputDevice device, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TryToUpdateManufacturerName, addr 0x39cec8c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method TryToUpdateManufacturerName, addr 0x39cec64, size 0x150, virtual false, abstract: false, final false
   inline bool TryToUpdateManufacturerName(::UnityEngine::XR::InputDevice device);
 
-  /// @brief Method UpdateHapticsHandler, addr 0x39ceddc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateHapticsHandler, addr 0x39cedb4, size 0x184, virtual false, abstract: false, final false
   inline void UpdateHapticsHandler(::UnityEngine::MonoBehaviour* coroutineRunner);
 
   constexpr ::GlobalNamespace::IUnityXRHapticsHandler* const& __cordl_internal_get__hapticsHandler() const;
@@ -234,17 +234,17 @@ public:
 
   constexpr void __cordl_internal_set_thumbstickAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method .ctor, addr 0x39ceb8c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ceb64, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction, ::UnityEngine::InputSystem::InputAction* rotationAction,
                     ::UnityEngine::InputSystem::InputAction* thumbstickAction);
 
-  /// @brief Method get_hapticsHandler, addr 0x39ceb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hapticsHandler, addr 0x39ceb4c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IUnityXRHapticsHandler* get_hapticsHandler();
 
-  /// @brief Method get_manufacturerName, addr 0x39ceb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturerName, addr 0x39ceb54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName get_manufacturerName();
 
-  /// @brief Method set_manufacturerName, addr 0x39ceb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_manufacturerName, addr 0x39ceb5c, size 0x8, virtual false, abstract: false, final false
   inline void set_manufacturerName(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName value);
 
 protected:

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::DataTableConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::DataTableConverter::WriteJson)> {
   constexpr static std::size_t size = 0x80c;
-  constexpr static std::size_t addrs = 0x3f3beec;
+  constexpr static std::size_t addrs = 0x3f3be74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::DataTableConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::DataTableConverter::ReadJson)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3f3c6f8;
+  constexpr static std::size_t addrs = 0x3f3c680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Newtonsoft::Json::JsonReader*, ::System::Data::DataTable*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Converters::DataTableConverter::CreateRow)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x3f3ca00;
+  constexpr static std::size_t addrs = 0x3f3c988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Converters::DataTableConverter::GetColumnDataType)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3f3cf40;
+  constexpr static std::size_t addrs = 0x3f3cec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::DataTableConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::DataTableConverter::CanConvert)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f3d118;
+  constexpr static std::size_t addrs = 0x3f3d0a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::DataTableConverter::*)()>(
     &::Newtonsoft::Json::Converters::DataTableConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f3bb50;
+  constexpr static std::size_t addrs = 0x3f3bad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::DataTableConverter*>::get(),

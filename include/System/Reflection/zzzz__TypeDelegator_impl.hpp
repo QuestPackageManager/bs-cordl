@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::TypeDelegator::*)(::System::Type*)>(&::System::Reflection::TypeDelegator::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3d23958;
+  constexpr static std::size_t addrs = 0x3d238e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_GUID)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d289d0;
+  constexpr static std::size_t addrs = 0x3d28958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_MetadataToken)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d289f4;
+  constexpr static std::size_t addrs = 0x3d2897c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>, ::System::Globalization::CultureInfo*,
                                             ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Reflection::TypeDelegator::InvokeMember)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d28a18;
+  constexpr static std::size_t addrs = 0x3d289a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_Module)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28a44;
+  constexpr static std::size_t addrs = 0x3d289cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_Assembly)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28a68;
+  constexpr static std::size_t addrs = 0x3d289f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeTypeHandle (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_TypeHandle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28a8c;
+  constexpr static std::size_t addrs = 0x3d28a14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d28ab0;
+  constexpr static std::size_t addrs = 0x3d28a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_FullName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28ad0;
+  constexpr static std::size_t addrs = 0x3d28a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_Namespace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28af4;
+  constexpr static std::size_t addrs = 0x3d28a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28b18;
+  constexpr static std::size_t addrs = 0x3d28aa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_BaseType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28b3c;
+  constexpr static std::size_t addrs = 0x3d28ac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
         &::System::Reflection::TypeDelegator::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28b60;
+  constexpr static std::size_t addrs = 0x3d28ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetConstructors)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28b7c;
+  constexpr static std::size_t addrs = 0x3d28b04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                            ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
         &::System::Reflection::TypeDelegator::GetMethodImpl)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d28ba0;
+  constexpr static std::size_t addrs = 0x3d28b28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetMethods)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28bcc;
+  constexpr static std::size_t addrs = 0x3d28b54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::FieldInfo* (::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetField)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28bf0;
+  constexpr static std::size_t addrs = 0x3d28b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetFields)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28c14;
+  constexpr static std::size_t addrs = 0x3d28b9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::GetInterfaces)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28c38;
+  constexpr static std::size_t addrs = 0x3d28bc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::EventInfo* (::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetEvent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28c5c;
+  constexpr static std::size_t addrs = 0x3d28be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -330,7 +330,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::TypeDelegator::GetPropertyImpl)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d28c80;
+  constexpr static std::size_t addrs = 0x3d28c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetProperties)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28d74;
+  constexpr static std::size_t addrs = 0x3d28cfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::EventInfo*, ::Array<::System::Reflection::EventInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetEvents)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28d98;
+  constexpr static std::size_t addrs = 0x3d28d20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::TypeDelegator::GetNestedType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28dbc;
+  constexpr static std::size_t addrs = 0x3d28d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::StringW, ::System::Reflection::MemberTypes, ::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetMember)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28de0;
+  constexpr static std::size_t addrs = 0x3d28d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (
     ::System::Reflection::TypeDelegator::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::TypeDelegator::GetMembers)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28e04;
+  constexpr static std::size_t addrs = 0x3d28d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28e28;
+  constexpr static std::size_t addrs = 0x3d28db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_IsSZArray)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28e44;
+  constexpr static std::size_t addrs = 0x3d28dcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsArrayImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28e68;
+  constexpr static std::size_t addrs = 0x3d28df0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28e84;
+  constexpr static std::size_t addrs = 0x3d28e0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsByRefImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28ea0;
+  constexpr static std::size_t addrs = 0x3d28e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_IsGenericMethodParameter)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28ebc;
+  constexpr static std::size_t addrs = 0x3d28e44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsPointerImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28ee0;
+  constexpr static std::size_t addrs = 0x3d28e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsValueTypeImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28efc;
+  constexpr static std::size_t addrs = 0x3d28e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28f18;
+  constexpr static std::size_t addrs = 0x3d28ea0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_IsConstructedGenericType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28f34;
+  constexpr static std::size_t addrs = 0x3d28ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -562,7 +562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::get_IsCollectible)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28f58;
+  constexpr static std::size_t addrs = 0x3d28ee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -576,7 +576,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::GetElementType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28f7c;
+  constexpr static std::size_t addrs = 0x3d28f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -590,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)()>(&::System::Reflection::TypeDelegator::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d28fa0;
+  constexpr static std::size_t addrs = 0x3d28f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::TypeDelegator::*)()>(
     &::System::Reflection::TypeDelegator::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d28fbc;
+  constexpr static std::size_t addrs = 0x3d28f44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::TypeDelegator::*)(bool)>(
     &::System::Reflection::TypeDelegator::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d28fe0;
+  constexpr static std::size_t addrs = 0x3d28f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::TypeDelegator::*)(::System::Type*, bool)>(&::System::Reflection::TypeDelegator::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d29008;
+  constexpr static std::size_t addrs = 0x3d28f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeDelegator::*)(::System::Type*, bool)>(
     &::System::Reflection::TypeDelegator::IsDefined)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d29030;
+  constexpr static std::size_t addrs = 0x3d28fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 

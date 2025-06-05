@@ -27,10 +27,10 @@ public:
   /// @brief Field MIN_16BIT, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_MIN_16BIT, put = setStaticF_MIN_16BIT)) ::UnityEngine::Vector2 MIN_16BIT;
 
-  /// @brief Method Approximately, addr 0x47c5778, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x47c5700, size 0x30, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b);
 
-  /// @brief Method Mod, addr 0x47c57a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x47c5730, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t a, int32_t b);
 
   static inline ::UnityEngine::Vector2 getStaticF_MAX_16BIT();

@@ -29,13 +29,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
-  /// @brief Method Equals, addr 0x49af864, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x49af7ec, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49af8f4, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49af87c, size 0xf4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode, addr 0x49af9e8, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49af970, size 0x198, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"

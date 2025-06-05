@@ -27,7 +27,7 @@ public:
   static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                                ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
-  /// @brief Method .ctor, addr 0x26eb90c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb8ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper, ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
 protected:

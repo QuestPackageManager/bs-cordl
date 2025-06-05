@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatToTimeConverter::*)(::GlobalNamespace::IBeatToTimeConverter*)>(
     &::GlobalNamespace::BeatToTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26ba7e0;
+  constexpr static std::size_t addrs = 0x26ba7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatToTimeConverter::*)(float_t)>(&::GlobalNamespace::BeatToTimeConverter::BeatToTime)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26ba808;
+  constexpr static std::size_t addrs = 0x26ba7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

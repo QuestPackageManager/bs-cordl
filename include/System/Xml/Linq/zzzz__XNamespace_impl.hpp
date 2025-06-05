@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XNamespace::*)(::StringW)>(&::System::Xml::Linq::XNamespace::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x424d7e4;
+  constexpr static std::size_t addrs = 0x424d76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::XNamespace::*)()>(&::System::Xml::Linq::XNamespace::get_NamespaceName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424d8dc;
+  constexpr static std::size_t addrs = 0x424d864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XNamespace*>::get(), "get_NamespaceName",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XName* (::System::Xml::Linq::XNamespace::*)(::StringW)>(
     &::System::Xml::Linq::XNamespace::GetName)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x424a1dc;
+  constexpr static std::size_t addrs = 0x424a164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::XNamespace::*)()>(&::System::Xml::Linq::XNamespace::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424d8e4;
+  constexpr static std::size_t addrs = 0x424d86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)()>(&::System::Xml::Linq::XNamespace::get_None)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x424d6bc;
+  constexpr static std::size_t addrs = 0x424d644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XNamespace*>::get(), "get_None",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)()>(&::System::Xml::Linq::XNamespace::get_Xml)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x424d9cc;
+  constexpr static std::size_t addrs = 0x424d954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XNamespace*>::get(), "get_Xml",
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)()>(&::System::Xml::Linq::XNamespace::get_Xmlns)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x424da2c;
+  constexpr static std::size_t addrs = 0x424d9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XNamespace*>::get(), "get_Xmlns",
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)(::StringW)>(&::System::Xml::Linq::XNamespace::Get)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x424c3bc;
+  constexpr static std::size_t addrs = 0x424c344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)(::StringW)>(
     &::System::Xml::Linq::XNamespace::op_Implicit___System__Xml__Linq__XNamespace_)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x424da8c;
+  constexpr static std::size_t addrs = 0x424da14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XNamespace::*)(::System::Object*)>(&::System::Xml::Linq::XNamespace::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x424daa0;
+  constexpr static std::size_t addrs = 0x424da28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Linq::XNamespace::*)()>(&::System::Xml::Linq::XNamespace::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424daac;
+  constexpr static std::size_t addrs = 0x424da34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::Linq::XNamespace*, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::XNamespace::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x424b5d0;
+  constexpr static std::size_t addrs = 0x424b558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::Linq::XNamespace*, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::XNamespace::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x424dab4;
+  constexpr static std::size_t addrs = 0x424da3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XName* (::System::Xml::Linq::XNamespace::*)(::StringW, int32_t, int32_t)>(
     &::System::Xml::Linq::XNamespace::GetName)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x424d5b4;
+  constexpr static std::size_t addrs = 0x424d53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)(::StringW, int32_t, int32_t)>(&::System::Xml::Linq::XNamespace::Get)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x424d2dc;
+  constexpr static std::size_t addrs = 0x424d264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::Linq::XName*)>(&::System::Xml::Linq::XNamespace::ExtractLocalName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x424dac0;
+  constexpr static std::size_t addrs = 0x424da48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::WeakReference*)>(&::System::Xml::Linq::XNamespace::ExtractNamespace)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x424dad8;
+  constexpr static std::size_t addrs = 0x424da60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (*)(::ByRef<::System::WeakReference*>, ::StringW)>(
     &::System::Xml::Linq::XNamespace::EnsureNamespace)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x424d8ec;
+  constexpr static std::size_t addrs = 0x424d874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

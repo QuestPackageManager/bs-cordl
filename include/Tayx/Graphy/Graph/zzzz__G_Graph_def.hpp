@@ -26,7 +26,7 @@ public:
   /// @brief Method UpdateGraph, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method .ctor, addr 0x44d32f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d3278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_QName::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_QName::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x423ed48;
+  constexpr static std::size_t addrs = 0x423ecd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_QName::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_QName::Set)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x423dc08;
+  constexpr static std::size_t addrs = 0x423db90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_QName::*)()>(&::System::Xml::XmlSqlBinaryReader_QName::Clear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4239f6c;
+  constexpr static std::size_t addrs = 0x4239ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader_QName>::get(), "Clear",
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader_QName::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_QName::MatchNs)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x423e69c;
+  constexpr static std::size_t addrs = 0x423e624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader_QName::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_QName::MatchPrefix)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x423e6ec;
+  constexpr static std::size_t addrs = 0x423e674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_QName::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_QName::CheckPrefixNS)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x423ea80;
+  constexpr static std::size_t addrs = 0x423ea08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader_QName::*)()>(&::System::Xml::XmlSqlBinaryReader_QName::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4241d54;
+  constexpr static std::size_t addrs = 0x4241cdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader_QName::*)(::System::Xml::SecureStringHasher*)>(
     &::System::Xml::XmlSqlBinaryReader_QName::GetNSHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4241d9c;
+  constexpr static std::size_t addrs = 0x4241d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader_QName::*)(::System::Object*)>(
     &::System::Xml::XmlSqlBinaryReader_QName::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4241de8;
+  constexpr static std::size_t addrs = 0x4241d70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader_QName::*)()>(&::System::Xml::XmlSqlBinaryReader_QName::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x423f858;
+  constexpr static std::size_t addrs = 0x423f7e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlSqlBinaryReader_QName, ::System::Xml::XmlSqlBinaryReader_QName)>(
     &::System::Xml::XmlSqlBinaryReader_QName::op_Equality)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4241e98;
+  constexpr static std::size_t addrs = 0x4241e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_ElemInfo::*)(::System::Xml::XmlSqlBinaryReader_QName, bool)>(
     &::System::Xml::XmlSqlBinaryReader_ElemInfo::Set)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4240660;
+  constexpr static std::size_t addrs = 0x42405e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSqlBinaryReader_NamespaceDecl* (::System::Xml::XmlSqlBinaryReader_ElemInfo::*)()>(
     &::System::Xml::XmlSqlBinaryReader_ElemInfo::Clear)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x423fa08;
+  constexpr static std::size_t addrs = 0x423f990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader_ElemInfo>::get(), "Clear",
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(::System::Xml::XmlSqlBinaryReader_QName, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_AttrInfo::Set)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x423ed54;
+  constexpr static std::size_t addrs = 0x423ecdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(::System::Xml::XmlSqlBinaryReader_QName, int32_t)>(
     &::System::Xml::XmlSqlBinaryReader_AttrInfo::Set)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x423f224;
+  constexpr static std::size_t addrs = 0x423f1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::Xml::XmlSqlBinaryReader_AttrInfo::GetLocalnameAndNamespaceUri)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x423f840;
+  constexpr static std::size_t addrs = 0x423f7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(
     ::System::Xml::SecureStringHasher*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Xml::XmlSqlBinaryReader_AttrInfo::GetLocalnameAndNamespaceUriAndHash)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x423f8c8;
+  constexpr static std::size_t addrs = 0x423f850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_AttrInfo::MatchNS)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x423f854;
+  constexpr static std::size_t addrs = 0x423f7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(int32_t, ::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader_AttrInfo::MatchHashNS)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x423f8f0;
+  constexpr static std::size_t addrs = 0x423f878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_AttrInfo::*)(int32_t)>(
     &::System::Xml::XmlSqlBinaryReader_AttrInfo::AdjustPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x423dfe4;
+  constexpr static std::size_t addrs = 0x423df6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -514,7 +514,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*, ::System::Xml::XmlSqlBinaryReader_NamespaceDecl*, int32_t, bool)>(
     &::System::Xml::XmlSqlBinaryReader_NamespaceDecl::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x423d6dc;
+  constexpr static std::size_t addrs = 0x423d664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_SymbolTables::*)()>(&::System::Xml::XmlSqlBinaryReader_SymbolTables::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4239ea8;
+  constexpr static std::size_t addrs = 0x4239e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader_SymbolTables>::get(), "Init",
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader_NestedBinXml::*)(
     ::System::Xml::XmlSqlBinaryReader_SymbolTables, int32_t, ::System::Xml::XmlSqlBinaryReader_NestedBinXml*)>(&::System::Xml::XmlSqlBinaryReader_NestedBinXml::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4240680;
+  constexpr static std::size_t addrs = 0x4240608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(
     ::System::IO::Stream*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::StringW, bool, ::System::Xml::XmlReaderSettings*)>(&::System::Xml::XmlSqlBinaryReader::_ctor)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x4239a04;
+  constexpr static std::size_t addrs = 0x423998c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::get_Settings)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x423ab24;
+  constexpr static std::size_t addrs = 0x423aaac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -753,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423ac40;
+  constexpr static std::size_t addrs = 0x423abc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -767,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_LocalName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423ac48;
+  constexpr static std::size_t addrs = 0x423abd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -781,7 +781,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423ac50;
+  constexpr static std::size_t addrs = 0x423abd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_Prefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423ac58;
+  constexpr static std::size_t addrs = 0x423abe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -809,7 +809,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_Value)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x423ac60;
+  constexpr static std::size_t addrs = 0x423abe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -823,7 +823,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_Depth)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x423b928;
+  constexpr static std::size_t addrs = 0x423b8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -837,7 +837,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_BaseURI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423b9cc;
+  constexpr static std::size_t addrs = 0x423b954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -851,7 +851,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x423b9d4;
+  constexpr static std::size_t addrs = 0x423b95c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -865,7 +865,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x423b9f8;
+  constexpr static std::size_t addrs = 0x423b980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -879,7 +879,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_XmlLang)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x423ba78;
+  constexpr static std::size_t addrs = 0x423ba00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -893,7 +893,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_ValueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423bb38;
+  constexpr static std::size_t addrs = 0x423bac0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -907,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x423bb40;
+  constexpr static std::size_t addrs = 0x423bac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -922,7 +922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::GetAttribute)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x423bb94;
+  constexpr static std::size_t addrs = 0x423bb1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -936,7 +936,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(&::System::Xml::XmlSqlBinaryReader::GetAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x423bd44;
+  constexpr static std::size_t addrs = 0x423bccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -950,7 +950,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetAttribute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x423be90;
+  constexpr static std::size_t addrs = 0x423be18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -964,7 +964,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(&::System::Xml::XmlSqlBinaryReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x423bf20;
+  constexpr static std::size_t addrs = 0x423bea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -978,7 +978,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x423c078;
+  constexpr static std::size_t addrs = 0x423c000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -992,7 +992,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x423c11c;
+  constexpr static std::size_t addrs = 0x423c0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1006,7 +1006,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x423c194;
+  constexpr static std::size_t addrs = 0x423c11c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1020,7 +1020,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::MoveToElement)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x423c218;
+  constexpr static std::size_t addrs = 0x423c1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1034,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::get_EOF)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x423c2d0;
+  constexpr static std::size_t addrs = 0x423c258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1048,7 +1048,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x423c2e0;
+  constexpr static std::size_t addrs = 0x423c268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1062,7 +1062,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::Close)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x423c648;
+  constexpr static std::size_t addrs = 0x423c5d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x423c6b4;
+  constexpr static std::size_t addrs = 0x423c63c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1091,7 +1091,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(&::System::Xml::XmlSqlBinaryReader::LookupNamespace)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x423c6bc;
+  constexpr static std::size_t addrs = 0x423c644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1105,7 +1105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x423c770;
+  constexpr static std::size_t addrs = 0x423c6f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1120,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::get_ReadState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x423c7a8;
+  constexpr static std::size_t addrs = 0x423c730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1134,7 +1134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::Read)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x423c828;
+  constexpr static std::size_t addrs = 0x423c7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1149,7 +1149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlSqlBinaryReader::System_Xml_IXmlNamespaceResolver_GetNamespacesInScope)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x423d118;
+  constexpr static std::size_t addrs = 0x423d0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1164,7 +1164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x423d4c0;
+  constexpr static std::size_t addrs = 0x423d448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1179,7 +1179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(int32_t, ::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::VerifyVersion)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x423d65c;
+  constexpr static std::size_t addrs = 0x423d5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1195,7 +1195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::AddInitNamespace)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4239fc0;
+  constexpr static std::size_t addrs = 0x4239f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1209,7 +1209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::AddName)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x423d734;
+  constexpr static std::size_t addrs = 0x423d6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "AddName",
@@ -1222,7 +1222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::AddQName)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x423d904;
+  constexpr static std::size_t addrs = 0x423d88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "AddQName",
@@ -1235,7 +1235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::NameFlush)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x423dc14;
+  constexpr static std::size_t addrs = 0x423db9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "NameFlush",
@@ -1248,7 +1248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::SkipExtn)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x423dc64;
+  constexpr static std::size_t addrs = 0x423dbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "SkipExtn",
@@ -1261,7 +1261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadQNameRef)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x423dd38;
+  constexpr static std::size_t addrs = 0x423dcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ReadQNameRef",
@@ -1274,7 +1274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadNameRef)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x423db7c;
+  constexpr static std::size_t addrs = 0x423db04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ReadNameRef",
@@ -1287,7 +1287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::FillAllowEOF)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x423ddc4;
+  constexpr static std::size_t addrs = 0x423dd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "FillAllowEOF",
@@ -1300,7 +1300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::Fill_)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x423dff8;
+  constexpr static std::size_t addrs = 0x423df80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1314,7 +1314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::Fill)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x423dd1c;
+  constexpr static std::size_t addrs = 0x423dca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1328,7 +1328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadByte)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x423e0e4;
+  constexpr static std::size_t addrs = 0x423e06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ReadByte",
@@ -1341,7 +1341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadUShort)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x423e140;
+  constexpr static std::size_t addrs = 0x423e0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ReadUShort",
@@ -1354,7 +1354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ParseMB32)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x423dcf0;
+  constexpr static std::size_t addrs = 0x423dc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ParseMB32",
@@ -1367,7 +1367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(uint8_t)>(&::System::Xml::XmlSqlBinaryReader::ParseMB32_)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x423e1b4;
+  constexpr static std::size_t addrs = 0x423e13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1381,7 +1381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::ParseMB32)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x423e24c;
+  constexpr static std::size_t addrs = 0x423e1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1395,7 +1395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ParseMB64)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x423e338;
+  constexpr static std::size_t addrs = 0x423e2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ParseMB64",
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::PeekToken)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x423e364;
+  constexpr static std::size_t addrs = 0x423e2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "PeekToken",
@@ -1421,7 +1421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadToken)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x423e3cc;
+  constexpr static std::size_t addrs = 0x423e354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ReadToken",
@@ -1435,7 +1435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::NextToken2)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x423e43c;
+  constexpr static std::size_t addrs = 0x423e3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1450,7 +1450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::NextToken1)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x423e4b4;
+  constexpr static std::size_t addrs = 0x423e43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "NextToken1",
@@ -1463,7 +1463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::NextToken)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x423e52c;
+  constexpr static std::size_t addrs = 0x423e4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "NextToken",
@@ -1477,7 +1477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::PeekNextToken)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x423e590;
+  constexpr static std::size_t addrs = 0x423e518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "PeekNextToken",
@@ -1491,7 +1491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::BinXmlToken (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::RescanNextToken)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x423c468;
+  constexpr static std::size_t addrs = 0x423c3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "RescanNextToken",
@@ -1504,7 +1504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ParseText)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x423d840;
+  constexpr static std::size_t addrs = 0x423d7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ParseText",
@@ -1517,7 +1517,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(::ByRef<int32_t>)>(&::System::Xml::XmlSqlBinaryReader::ScanText)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x423e5b8;
+  constexpr static std::size_t addrs = 0x423e540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1531,7 +1531,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(int32_t, int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetString)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x423ad74;
+  constexpr static std::size_t addrs = 0x423acfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1546,7 +1546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlSqlBinaryReader::GetStringAligned)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x423e670;
+  constexpr static std::size_t addrs = 0x423e5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1561,7 +1561,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetAttributeText)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x423b804;
+  constexpr static std::size_t addrs = 0x423b78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1576,7 +1576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::LocateAttribute)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x423bcbc;
+  constexpr static std::size_t addrs = 0x423bc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1590,7 +1590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(&::System::Xml::XmlSqlBinaryReader::LocateAttribute)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x423bdb0;
+  constexpr static std::size_t addrs = 0x423bd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1604,7 +1604,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::PositionOnAttribute)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x423bfb8;
+  constexpr static std::size_t addrs = 0x423bf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1618,7 +1618,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::GrowElements)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x423e73c;
+  constexpr static std::size_t addrs = 0x423e6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "GrowElements",
@@ -1631,7 +1631,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::GrowAttributes)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x423e7c4;
+  constexpr static std::size_t addrs = 0x423e74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "GrowAttributes",
@@ -1644,7 +1644,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ClearAttributes)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x423e848;
+  constexpr static std::size_t addrs = 0x423e7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ClearAttributes",
@@ -1658,7 +1658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(::StringW, ::StringW, bool)>(
     &::System::Xml::XmlSqlBinaryReader::PushNamespace)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x423e858;
+  constexpr static std::size_t addrs = 0x423e7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1674,7 +1674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::XmlSqlBinaryReader_NamespaceDecl*)>(
     &::System::Xml::XmlSqlBinaryReader::PopNamespaces)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x423eb78;
+  constexpr static std::size_t addrs = 0x423eb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1688,7 +1688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::GenerateImpliedXmlnsAttrs)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x423ec1c;
+  constexpr static std::size_t addrs = 0x423eba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(),
@@ -1701,7 +1701,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)(bool)>(&::System::Xml::XmlSqlBinaryReader::ReadInit)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x423c9f0;
+  constexpr static std::size_t addrs = 0x423c978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1715,7 +1715,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ScanAttributes)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x423ed70;
+  constexpr static std::size_t addrs = 0x423ecf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ScanAttributes",
@@ -1729,7 +1729,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::SimpleCheckForDuplicateAttributes)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x423f4b8;
+  constexpr static std::size_t addrs = 0x423f440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1743,7 +1743,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::HashCheckForDuplicateAttributes)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x423f604;
+  constexpr static std::size_t addrs = 0x423f58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1757,7 +1757,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::XmlDeclValue)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x423afe4;
+  constexpr static std::size_t addrs = 0x423af6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "XmlDeclValue",
@@ -1770,7 +1770,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::CDATAValue)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x423aee0;
+  constexpr static std::size_t addrs = 0x423ae68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "CDATAValue",
@@ -1783,7 +1783,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::FinishCDATA)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x423f910;
+  constexpr static std::size_t addrs = 0x423f898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "FinishCDATA",
@@ -1796,7 +1796,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::FinishEndElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x423f9b4;
+  constexpr static std::size_t addrs = 0x423f93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "FinishEndElement",
@@ -1809,7 +1809,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ReadDoc)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x423cdac;
+  constexpr static std::size_t addrs = 0x423cd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ReadDoc",
@@ -1823,7 +1823,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::ImplReadData)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x424048c;
+  constexpr static std::size_t addrs = 0x4240414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1837,7 +1837,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadElement)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x423fa18;
+  constexpr static std::size_t addrs = 0x423f9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadElement",
@@ -1850,7 +1850,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadEndElement)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x423fc60;
+  constexpr static std::size_t addrs = 0x423fbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadEndElement",
@@ -1863,7 +1863,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadDoctype)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x423fd28;
+  constexpr static std::size_t addrs = 0x423fcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadDoctype",
@@ -1876,7 +1876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadPI)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x423ff94;
+  constexpr static std::size_t addrs = 0x423ff1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadPI",
@@ -1889,7 +1889,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadComment)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x423fff8;
+  constexpr static std::size_t addrs = 0x423ff80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadComment",
@@ -1902,7 +1902,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadCDATA)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4240024;
+  constexpr static std::size_t addrs = 0x423ffac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadCDATA",
@@ -1915,7 +1915,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadNest)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4240058;
+  constexpr static std::size_t addrs = 0x423ffe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadNest",
@@ -1928,7 +1928,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadEndNest)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x42400f8;
+  constexpr static std::size_t addrs = 0x4240080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadEndNest",
@@ -1941,7 +1941,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ImplReadXmlText)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x4240128;
+  constexpr static std::size_t addrs = 0x42400b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ImplReadXmlText",
@@ -1954,7 +1954,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::UpdateFromTextReader)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x42406c4;
+  constexpr static std::size_t addrs = 0x424064c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(),
@@ -1967,7 +1967,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSqlBinaryReader::*)(bool)>(&::System::Xml::XmlSqlBinaryReader::UpdateFromTextReader)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x423bf9c;
+  constexpr static std::size_t addrs = 0x423bf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1981,7 +1981,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::CheckAllowContent)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42405f8;
+  constexpr static std::size_t addrs = 0x4240580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "CheckAllowContent",
@@ -1994,7 +1994,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::GenerateTokenTypeMap)> {
   constexpr static std::size_t size = 0xa90;
-  constexpr static std::size_t addrs = 0x423a094;
+  constexpr static std::size_t addrs = 0x423a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(),
@@ -2008,7 +2008,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::GetValueType)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x423c55c;
+  constexpr static std::size_t addrs = 0x423c4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2023,7 +2023,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::ReScanOverValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x423c550;
+  constexpr static std::size_t addrs = 0x423c4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2038,7 +2038,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken, bool, bool)>(
     &::System::Xml::XmlSqlBinaryReader::ScanOverValue)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x423f30c;
+  constexpr static std::size_t addrs = 0x423f294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2054,7 +2054,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken, bool, bool)>(
     &::System::Xml::XmlSqlBinaryReader::ScanOverAnyValue)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x42409c8;
+  constexpr static std::size_t addrs = 0x4240950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2070,7 +2070,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSqlBinaryReader::*)(bool)>(
     &::System::Xml::XmlSqlBinaryReader::CheckText)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x424076c;
+  constexpr static std::size_t addrs = 0x42406f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2085,7 +2085,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSqlBinaryReader::*)()>(
     &::System::Xml::XmlSqlBinaryReader::CheckTextIsWS)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4240930;
+  constexpr static std::size_t addrs = 0x42408b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "CheckTextIsWS",
@@ -2098,7 +2098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::CheckValueTokenBounds)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4240dc4;
+  constexpr static std::size_t addrs = 0x4240d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(),
@@ -2112,7 +2112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::GetXsdKatmaiTokenLength)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4240cdc;
+  constexpr static std::size_t addrs = 0x4240c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2127,7 +2127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(uint8_t)>(
     &::System::Xml::XmlSqlBinaryReader::XsdKatmaiTimeScaleToValueLength)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4240e24;
+  constexpr static std::size_t addrs = 0x4240dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2141,7 +2141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ValueAsLong)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4240ef8;
+  constexpr static std::size_t addrs = 0x4240e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ValueAsLong",
@@ -2154,7 +2154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ValueAsULong)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4241718;
+  constexpr static std::size_t addrs = 0x42416a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ValueAsULong",
@@ -2167,7 +2167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ValueAsDecimal)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4241534;
+  constexpr static std::size_t addrs = 0x42414bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ValueAsDecimal",
@@ -2180,7 +2180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ValueAsDouble)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4241400;
+  constexpr static std::size_t addrs = 0x4241388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(), "ValueAsDouble",
@@ -2193,7 +2193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)()>(&::System::Xml::XmlSqlBinaryReader::ValueAsDateTimeString)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x42418b4;
+  constexpr static std::size_t addrs = 0x424183c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSqlBinaryReader*>::get(),
@@ -2207,7 +2207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::ValueAsString)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x423b124;
+  constexpr static std::size_t addrs = 0x423b0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2221,7 +2221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetInt16)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42410f0;
+  constexpr static std::size_t addrs = 0x4241078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2235,7 +2235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetUInt16)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4241278;
+  constexpr static std::size_t addrs = 0x4241200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2249,7 +2249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetInt32)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4241134;
+  constexpr static std::size_t addrs = 0x42410bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2263,7 +2263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetUInt32)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42412bc;
+  constexpr static std::size_t addrs = 0x4241244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2277,7 +2277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetInt64)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x42411a8;
+  constexpr static std::size_t addrs = 0x4241130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2291,7 +2291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetUInt64)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4241330;
+  constexpr static std::size_t addrs = 0x42412b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2305,7 +2305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetSingle)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4241768;
+  constexpr static std::size_t addrs = 0x42416f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2319,7 +2319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::XmlSqlBinaryReader::*)(int32_t)>(&::System::Xml::XmlSqlBinaryReader::GetDouble)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x42417e0;
+  constexpr static std::size_t addrs = 0x4241768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2334,7 +2334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::XmlSqlBinaryReader::*)(::System::Xml::BinXmlToken)>(
     &::System::Xml::XmlSqlBinaryReader::ThrowUnexpectedToken)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x423d694;
+  constexpr static std::size_t addrs = 0x423d61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2349,7 +2349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::ThrowXmlException)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x423e070;
+  constexpr static std::size_t addrs = 0x423dff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2364,7 +2364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::XmlSqlBinaryReader::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::ThrowXmlException)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x423f240;
+  constexpr static std::size_t addrs = 0x423f1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2380,7 +2380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::XmlSqlBinaryReader::*)(::StringW)>(
     &::System::Xml::XmlSqlBinaryReader::ThrowNotSupported)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x423f434;
+  constexpr static std::size_t addrs = 0x423f3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

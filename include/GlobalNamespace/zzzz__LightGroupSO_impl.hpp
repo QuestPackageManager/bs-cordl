@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_groupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e07c4;
+  constexpr static std::size_t addrs = 0x39e079c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_groupName",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e07cc;
+  constexpr static std::size_t addrs = 0x39e07a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_groupId",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_startLightId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e07d4;
+  constexpr static std::size_t addrs = 0x39e07ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_startLightId",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_numberOfElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e07dc;
+  constexpr static std::size_t addrs = 0x39e07b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_numberOfElements",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_sameIdElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e07e4;
+  constexpr static std::size_t addrs = 0x39e07bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_sameIdElements",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_ignoreLightGroupEffectManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e07ec;
+  constexpr static std::size_t addrs = 0x39e07c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39e07f4;
+  constexpr static std::size_t addrs = 0x39e07cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), ".ctor",

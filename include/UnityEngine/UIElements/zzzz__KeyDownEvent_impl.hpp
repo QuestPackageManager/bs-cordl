@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent___c::*)()>(&::UnityEngine::UIElements::KeyDownEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2b5c4;
+  constexpr static std::size_t addrs = 0x4a2b54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyDownEvent___c*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::KeyDownEvent* (::UnityEngine::UIElements::KeyDownEvent___c::*)()>(
     &::UnityEngine::UIElements::KeyDownEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2b5cc;
+  constexpr static std::size_t addrs = 0x4a2b554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyDownEvent___c*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::KeyDownEvent::GetEquivalentImguiEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4a2a7c0;
+  constexpr static std::size_t addrs = 0x4a2a748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::KeyDownEvent::PostDispatch)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a2a880;
+  constexpr static std::size_t addrs = 0x4a2a808;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::KeyDownEvent::SendEquivalentNavigationEventIfAny)> {
   constexpr static std::size_t size = 0x908;
-  constexpr static std::size_t addrs = 0x4a2a980;
+  constexpr static std::size_t addrs = 0x4a2a908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyDownEvent::*)()>(&::UnityEngine::UIElements::KeyDownEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a2b520;
+  constexpr static std::size_t addrs = 0x4a2b4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyDownEvent*>::get(), ".ctor",

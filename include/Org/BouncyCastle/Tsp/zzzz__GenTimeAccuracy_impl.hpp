@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::Tsp::Accuracy*)>(
     &::Org::BouncyCastle::Tsp::GenTimeAccuracy::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25c989c;
+  constexpr static std::size_t addrs = 0x25c985c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Seconds)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25c98c4;
+  constexpr static std::size_t addrs = 0x25c9884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(), "get_Seconds",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Millis)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25c9908;
+  constexpr static std::size_t addrs = 0x25c98c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(), "get_Millis",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::get_Micros)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25c9934;
+  constexpr static std::size_t addrs = 0x25c98f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::GenTimeAccuracy*>::get(), "get_Micros",
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)(::Org::BouncyCastle::Asn1::DerInteger*)>(
     &::Org::BouncyCastle::Tsp::GenTimeAccuracy::GetTimeComponent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25c98f0;
+  constexpr static std::size_t addrs = 0x25c98b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Tsp::GenTimeAccuracy::*)()>(&::Org::BouncyCastle::Tsp::GenTimeAccuracy::ToString)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x25c9960;
+  constexpr static std::size_t addrs = 0x25c9920;
 
   inline static ::MethodInfo const* methodInfo() {
 

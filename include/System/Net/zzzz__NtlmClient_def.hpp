@@ -40,12 +40,12 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x43d382c, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x43d37b4, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::NtlmClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x43d38fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x43d3884, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   constexpr ::System::Net::IAuthenticationModule* const& __cordl_internal_get_authObject() const;
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_authObject(::System::Net::IAuthenticationModule* value);
 
-  /// @brief Method .ctor, addr 0x43d37c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d3750, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationType, addr 0x43d3904, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x43d388c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberClashChecker::*)(::GlobalNamespace::SaberManager*)>(
     &::GlobalNamespace::SaberClashChecker::Init)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3beb690;
+  constexpr static std::size_t addrs = 0x3beb6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SaberClashChecker::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3be7148;
+  constexpr static std::size_t addrs = 0x3be7190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberClashChecker::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3beb6ac;
+  constexpr static std::size_t addrs = 0x3beb6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberClashChecker::*)()>(&::GlobalNamespace::SaberClashChecker::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3beb914;
+  constexpr static std::size_t addrs = 0x3beb95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashChecker*>::get(), ".ctor",

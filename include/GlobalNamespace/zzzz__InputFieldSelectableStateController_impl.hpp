@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)()>(
     &::GlobalNamespace::InputFieldSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44d8fdc;
+  constexpr static std::size_t addrs = 0x44d8f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputFieldSelectableStateController*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)()>(
     &::GlobalNamespace::InputFieldSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44d9170;
+  constexpr static std::size_t addrs = 0x44d90f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputFieldSelectableStateController*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)(::HMUI::InputFieldView_SelectionState)>(
     &::GlobalNamespace::InputFieldSelectableStateController::HandleInputFieldSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d9200;
+  constexpr static std::size_t addrs = 0x44d9188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)(::HMUI::InputFieldView_SelectionState, bool)>(
     &::GlobalNamespace::InputFieldSelectableStateController::ResolveSelectionState)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x44d9084;
+  constexpr static std::size_t addrs = 0x44d900c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)()>(
     &::GlobalNamespace::InputFieldSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44d9208;
+  constexpr static std::size_t addrs = 0x44d9190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InputFieldSelectableStateController*>::get(),

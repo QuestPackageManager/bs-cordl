@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsFinallyBlockExist)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40d7de4;
+  constexpr static std::size_t addrs = 0x40d7d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> (
         ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(&::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_Handlers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40d7df8;
+  constexpr static std::size_t addrs = 0x40d7d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsCatchBlockExist)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40d7e00;
+  constexpr static std::size_t addrs = 0x40d7d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x40d7e10;
+  constexpr static std::size_t addrs = 0x40d7d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40d7e5c;
+  constexpr static std::size_t addrs = 0x40d7de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Exception*, ::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>, ::ByRef<::System::Object*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::HasHandler)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x40d7eb4;
+  constexpr static std::size_t addrs = 0x40d7e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::ByRef<::System::Object*>, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(
         &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::FilterPasses)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x40d8008;
+  constexpr static std::size_t addrs = 0x40d7f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

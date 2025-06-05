@@ -125,32 +125,32 @@ public:
 
   __declspec(property(get = get_StartPosition, put = set_StartPosition)) int32_t StartPosition;
 
-  /// @brief Method ToString, addr 0x422318c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4223114, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x421b9d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421b95c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::Token_Type type, int32_t startPosition, int32_t endPosition);
 
   static inline ::System::Net::Http::Headers::Token getStaticF_Empty();
 
-  /// @brief Method get_EndPosition, addr 0x4223170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndPosition, addr 0x42230f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EndPosition();
 
-  /// @brief Method get_Kind, addr 0x4223180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x4223108, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::Token_Type get_Kind();
 
-  /// @brief Method get_StartPosition, addr 0x4223160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartPosition, addr 0x42230e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartPosition();
 
-  /// @brief Method op_Implicit, addr 0x4223188, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4223110, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::Http::Headers::Token_Type op_Implicit___System__Net__Http__Headers__Token_Type(::System::Net::Http::Headers::Token token);
 
   static inline void setStaticF_Empty(::System::Net::Http::Headers::Token value);
 
-  /// @brief Method set_EndPosition, addr 0x4223178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EndPosition, addr 0x4223100, size 0x8, virtual false, abstract: false, final false
   inline void set_EndPosition(int32_t value);
 
-  /// @brief Method set_StartPosition, addr 0x4223168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartPosition, addr 0x42230f0, size 0x8, virtual false, abstract: false, final false
   inline void set_StartPosition(int32_t value);
 
   // Ctor Parameters []

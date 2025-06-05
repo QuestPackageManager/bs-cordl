@@ -38,15 +38,15 @@ public:
   /// @brief Field writePos, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
-  /// @brief Method AddData, addr 0x3f5abcc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddData, addr 0x3f5ab54, size 0x114, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Stop, addr 0x3f5a9ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3f5a934, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x3f5a9f0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f5a978, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_writePos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3f5a8e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5a870, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
 protected:

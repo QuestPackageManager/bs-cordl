@@ -19,12 +19,12 @@ namespace System::Collections::Specialized {
 class CORDL_TYPE CaseSensitiveStringDictionary : public ::System::Collections::Specialized::StringDictionary {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x4485608, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x4485590, size 0x70, virtual true, abstract: false, final false
   inline void Add(::StringW key, ::StringW value);
 
   static inline ::System::Collections::Specialized::CaseSensitiveStringDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4485604, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448558c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

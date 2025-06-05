@@ -34,27 +34,27 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlMiscConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x42e47c8, size 0x504, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42e4750, size 0x504, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42e4e30, size 0xd2c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x42e4db8, size 0xd2c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardDestination, addr 0x42e468c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardDestination, addr 0x42e4614, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardDestination(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardSource, addr 0x42e4ccc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardSource, addr 0x42e4c54, size 0x164, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardSource(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x42e40f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42e4080, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlMiscConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x42e4150, size 0x53c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42e40d8, size 0x53c, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x42e4090, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e4018, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

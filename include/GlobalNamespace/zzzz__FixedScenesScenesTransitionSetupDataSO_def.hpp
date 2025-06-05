@@ -26,7 +26,7 @@ public:
                       put = __cordl_internal_set__sceneInfos)) ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*>
       _sceneInfos;
 
-  /// @brief Method Init, addr 0x229bae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x229baa8, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneInfos(::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> value);
 
-  /// @brief Method .ctor, addr 0x229baf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229bab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

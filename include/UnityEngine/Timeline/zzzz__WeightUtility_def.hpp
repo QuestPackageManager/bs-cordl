@@ -22,7 +22,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE WeightUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeMixer, addr 0x4830c98, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method NormalizeMixer, addr 0x4830c20, size 0x194, virtual false, abstract: false, final false
   static inline float_t NormalizeMixer(::UnityEngine::Playables::Playable mixer);
 
 protected:

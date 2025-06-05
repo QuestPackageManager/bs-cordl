@@ -82,10 +82,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b82f8, size 0x6f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26b82d8, size 0x6f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b89ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26b89cc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -170,10 +170,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b8a68, size 0xc60, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26b8a48, size 0xc60, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b96c8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26b96a8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -305,23 +305,23 @@ public:
   __declspec(property(get = __cordl_internal_get__lastUsedBeatmapDataCache,
                       put = __cordl_internal_set__lastUsedBeatmapDataCache)) ::GlobalNamespace::LastUsedBeatmapDataCache _lastUsedBeatmapDataCache;
 
-  /// @brief Method LoadBasicBeatmapData, addr 0x26b7bc4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapData, addr 0x26b7ba4, size 0xf4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::StringW beatmapJson);
 
-  /// @brief Method LoadBasicBeatmapData, addr 0x26b7af4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapData, addr 0x26b7ad4, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataBasicInfo* LoadBasicBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x26b79f8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x26b79d8, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* LoadBasicBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                                                                                                                  ::GlobalNamespace::BeatmapKey beatmapKey);
 
-  /// @brief Method LoadBeatmapData, addr 0x26b7e20, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapData, addr 0x26b7e00, size 0x4d0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* LoadBeatmapData(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm,
                                                                   bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                   ::GlobalNamespace::IEnvironmentInfo* lightshowEnvironmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method LoadBeatmapDataAsync, addr 0x26b7cb8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapDataAsync, addr 0x26b7c98, size 0x168, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   LoadBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment,
                        ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo,
@@ -336,7 +336,7 @@ public:
 
   constexpr void __cordl_internal_set__lastUsedBeatmapDataCache(::GlobalNamespace::LastUsedBeatmapDataCache value);
 
-  /// @brief Method .ctor, addr 0x26b82f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b82d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

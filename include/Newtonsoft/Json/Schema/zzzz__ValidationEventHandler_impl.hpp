@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3f0149c;
+  constexpr static std::size_t addrs = 0x3f01424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::ValidationEventHandler*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(
     ::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*)>(&::Newtonsoft::Json::Schema::ValidationEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f0cd38;
+  constexpr static std::size_t addrs = 0x3f0ccc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*, ::System::AsyncCallback*, ::System::Object*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f0cd4c;
+  constexpr static std::size_t addrs = 0x3f0ccd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventHandler::*)(::System::IAsyncResult*)>(
     &::Newtonsoft::Json::Schema::ValidationEventHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f0cd74;
+  constexpr static std::size_t addrs = 0x3f0ccfc;
 
   inline static ::MethodInfo const* methodInfo() {
 

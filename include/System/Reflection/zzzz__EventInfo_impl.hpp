@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::EventInfo_AddEventAdapter::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Reflection::EventInfo_AddEventAdapter::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3d22778;
+  constexpr static std::size_t addrs = 0x3d22700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::EventInfo_AddEventAdapter::*)(::System::Object*, ::System::Delegate*)>(
     &::System::Reflection::EventInfo_AddEventAdapter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d2287c;
+  constexpr static std::size_t addrs = 0x3d22804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::EventInfo::*)()>(&::System::Reflection::EventInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d224e0;
+  constexpr static std::size_t addrs = 0x3d22468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::EventInfo*>::get(), ".ctor",
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberTypes (::System::Reflection::EventInfo::*)()>(
     &::System::Reflection::EventInfo::get_MemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d224f0;
+  constexpr static std::size_t addrs = 0x3d22478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::EventInfo::*)()>(
     &::System::Reflection::EventInfo::GetAddMethod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d224f8;
+  constexpr static std::size_t addrs = 0x3d22480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::EventInfo*>::get(), "GetAddMethod",
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::EventInfo::*)()>(
     &::System::Reflection::EventInfo::GetRemoveMethod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d2250c;
+  constexpr static std::size_t addrs = 0x3d22494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::EventInfo*>::get(), "GetRemoveMethod",
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::EventInfo::*)()>(&::System::Reflection::EventInfo::get_EventHandlerType)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3d22520;
+  constexpr static std::size_t addrs = 0x3d224a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::EventInfo::*)(::System::Object*)>(&::System::Reflection::EventInfo::Equals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22648;
+  constexpr static std::size_t addrs = 0x3d225d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::EventInfo::*)()>(&::System::Reflection::EventInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22658;
+  constexpr static std::size_t addrs = 0x3d225e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*)>(
     &::System::Reflection::EventInfo::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d22668;
+  constexpr static std::size_t addrs = 0x3d225f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::EventInfo*, ::System::Reflection::EventInfo*)>(
     &::System::Reflection::EventInfo::op_Inequality)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d22694;
+  constexpr static std::size_t addrs = 0x3d2261c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::EventInfo* (*)(::System::IntPtr, ::System::IntPtr)>(
     &::System::Reflection::EventInfo::internal_from_handle_type)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d226d0;
+  constexpr static std::size_t addrs = 0x3d22658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::EventInfo*>::get(),
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::EventInfo* (*)(::Mono::RuntimeEventHandle, ::System::RuntimeTypeHandle)>(
     &::System::Reflection::EventInfo::GetEventFromHandle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d226d4;
+  constexpr static std::size_t addrs = 0x3d2265c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -28,15 +28,15 @@ public:
   /// @brief Field tee, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_tee, put = __cordl_internal_set_tee)) ::System::IO::Stream* tee;
 
-  /// @brief Method Close, addr 0x25da794, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x25da754, size 0x74, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeInputStream* New_ctor(::System::IO::Stream* input, ::System::IO::Stream* tee);
 
-  /// @brief Method Read, addr 0x25da808, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25da7c8, size 0x78, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadByte, addr 0x25da880, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x25da840, size 0x5c, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_tee(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x25da768, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25da728, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* tee);
 
 protected:

@@ -35,30 +35,30 @@ public:
   // Declarations
   __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-  /// @brief Method CanConvert, addr 0x3f3f994, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f3f91c, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::ExpandoObjectConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3f3f4c0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f3f448, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadList, addr 0x3f3f800, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReadList, addr 0x3f3f788, size 0x194, virtual false, abstract: false, final false
   inline ::System::Object* ReadList(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadObject, addr 0x3f3f630, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x3f3f5b8, size 0x1d0, virtual false, abstract: false, final false
   inline ::System::Object* ReadObject(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method ReadValue, addr 0x3f3f4c4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x3f3f44c, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Object* ReadValue(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method WriteJson, addr 0x3f3f4bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f3f444, size 0x4, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3f3fa24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f3f9ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanWrite, addr 0x3f3fa1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x3f3f9a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
 protected:

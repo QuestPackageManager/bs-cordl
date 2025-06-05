@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c28500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,21 +115,21 @@ public:
   /// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
   constexpr operator ::HMUI::IValueChanger_1<int32_t>*() noexcept;
 
-  /// @brief Method ApplyValue, addr 0x3c2849c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c28424, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method ColorForValue, addr 0x3c284bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ColorForValue, addr 0x3c28444, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ColorForValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c28428, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c283b0, size 0x74, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method Init, addr 0x3c283b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c2833c, size 0x3c, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*> values, int32_t value);
 
   static inline ::GlobalNamespace::NamedColorListController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3c283f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c28378, size 0x38, virtual false, abstract: false, final false
   inline void SetValue(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*> const&
@@ -152,16 +152,16 @@ public:
 
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c284f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28480, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueChangedEvent, addr 0x3c28254, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_valueChangedEvent, addr 0x3c281dc, size 0xb0, virtual true, abstract: false, final true
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
   constexpr ::HMUI::IValueChanger_1<int32_t>* i___HMUI__IValueChanger_1_int32_t_() noexcept;
 
-  /// @brief Method remove_valueChangedEvent, addr 0x3c28304, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_valueChangedEvent, addr 0x3c2828c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
 
 protected:

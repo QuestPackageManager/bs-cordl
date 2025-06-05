@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23be6c0;
+  constexpr static std::size_t addrs = 0x23be680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::get_X)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23be744;
+  constexpr static std::size_t addrs = 0x23be704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23be74c;
+  constexpr static std::size_t addrs = 0x23be70c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::Equals)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23be7e8;
+  constexpr static std::size_t addrs = 0x23be7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23be840;
+  constexpr static std::size_t addrs = 0x23be800;
 
   inline static ::MethodInfo const* methodInfo() {
 

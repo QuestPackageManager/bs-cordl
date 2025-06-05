@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_stereoTextureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d658c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d656c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -270,13 +270,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*, ::Array<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d6584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x26d657c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x26d655c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x26d6574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x26d6554, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*, ::Array<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets_Preset*>*> get_presets();
 
 protected:

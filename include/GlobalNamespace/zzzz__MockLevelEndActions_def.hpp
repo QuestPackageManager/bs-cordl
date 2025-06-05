@@ -45,22 +45,22 @@ public:
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba5330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba5308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelFailedEvent, addr 0x3ba51f8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x3ba51d0, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x3ba50c0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x3ba5098, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
-  /// @brief Method remove_levelFailedEvent, addr 0x3ba5294, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x3ba526c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x3ba515c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x3ba5134, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
 protected:

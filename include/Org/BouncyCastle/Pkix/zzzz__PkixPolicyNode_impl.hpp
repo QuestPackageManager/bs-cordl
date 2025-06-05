@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(&::Org::BouncyCastle::Pkix::PkixPolicyNode::get_Depth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2590318;
+  constexpr static std::size_t addrs = 0x25902d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::get_Children)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2590320;
+  constexpr static std::size_t addrs = 0x25902e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(&::Org::BouncyCastle::Pkix::PkixPolicyNode::get_IsCritical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2590380;
+  constexpr static std::size_t addrs = 0x2590340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)(bool)>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::set_IsCritical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2590388;
+  constexpr static std::size_t addrs = 0x2590348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::get_PolicyQualifiers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2590394;
+  constexpr static std::size_t addrs = 0x2590354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::get_ValidPolicy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25903f4;
+  constexpr static std::size_t addrs = 0x25903b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(&::Org::BouncyCastle::Pkix::PkixPolicyNode::get_HasChildren)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25903fc;
+  constexpr static std::size_t addrs = 0x25903bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::get_ExpectedPolicies)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25904ac;
+  constexpr static std::size_t addrs = 0x259046c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::set_ExpectedPolicies)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x259050c;
+  constexpr static std::size_t addrs = 0x25904cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::PkixPolicyNode* (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2590574;
+  constexpr static std::size_t addrs = 0x2590534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)(::Org::BouncyCastle::Pkix::PkixPolicyNode*)>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::set_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259057c;
+  constexpr static std::size_t addrs = 0x259053c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::IList*, int32_t, ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Pkix::PkixPolicyNode*, ::Org::BouncyCastle::Utilities::Collections::ISet*,
     ::StringW, bool)>(&::Org::BouncyCastle::Pkix::PkixPolicyNode::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x25749c8;
+  constexpr static std::size_t addrs = 0x2574988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)(::Org::BouncyCastle::Pkix::PkixPolicyNode*)>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::AddChild)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2590584;
+  constexpr static std::size_t addrs = 0x2590544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)(::Org::BouncyCastle::Pkix::PkixPolicyNode*)>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::RemoveChild)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x259064c;
+  constexpr static std::size_t addrs = 0x259060c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(&::Org::BouncyCastle::Pkix::PkixPolicyNode::ToString)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25906f8;
+  constexpr static std::size_t addrs = 0x25906b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)(::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::ToString)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x259074c;
+  constexpr static std::size_t addrs = 0x259070c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::Clone)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2590bf4;
+  constexpr static std::size_t addrs = 0x2590bb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::PkixPolicyNode* (::Org::BouncyCastle::Pkix::PkixPolicyNode::*)()>(
     &::Org::BouncyCastle::Pkix::PkixPolicyNode::Copy)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x2590c04;
+  constexpr static std::size_t addrs = 0x2590bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
