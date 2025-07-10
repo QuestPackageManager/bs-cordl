@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::System::HashCode::GenerateGlobalSeed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3de721c;
+  constexpr static std::size_t addrs = 0x3de6eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "GenerateGlobalSeed",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::System::HashCode::Rol)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3de7240;
+  constexpr static std::size_t addrs = 0x3de6ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint32_t>, ::ByRef<uint32_t>, ::ByRef<uint32_t>, ::ByRef<uint32_t>)>(
     &::System::HashCode::Initialize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3de724c;
+  constexpr static std::size_t addrs = 0x3de6ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::HashCode::Round)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3de7304;
+  constexpr static std::size_t addrs = 0x3de6f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::HashCode::QueueRound)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3de737c;
+  constexpr static std::size_t addrs = 0x3de7014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t, uint32_t)>(&::System::HashCode::MixState)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3de73f4;
+  constexpr static std::size_t addrs = 0x3de708c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::System::HashCode::MixEmptyState)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3de7498;
+  constexpr static std::size_t addrs = 0x3de7130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "MixEmptyState",
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::System::HashCode::MixFinal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3de74fc;
+  constexpr static std::size_t addrs = 0x3de7194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::HashCode::*)(int32_t)>(&::System::HashCode::Add)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3de7524;
+  constexpr static std::size_t addrs = 0x3de71bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::HashCode::*)()>(&::System::HashCode::ToHashCode)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3de77bc;
+  constexpr static std::size_t addrs = 0x3de7454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "ToHashCode",
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::HashCode::*)()>(&::System::HashCode::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3de79f4;
+  constexpr static std::size_t addrs = 0x3de768c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::HashCode::*)(::System::Object*)>(&::System::HashCode::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3de7a60;
+  constexpr static std::size_t addrs = 0x3de76f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

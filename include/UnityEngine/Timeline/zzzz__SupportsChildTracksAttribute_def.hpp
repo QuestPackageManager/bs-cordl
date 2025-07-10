@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_levels(int32_t value);
 
-  /// @brief Method .ctor, addr 0x482ac6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482a904, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
 protected:

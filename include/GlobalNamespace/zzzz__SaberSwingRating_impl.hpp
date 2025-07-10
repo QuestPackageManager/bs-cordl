@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::SaberSwingRating::NormalRating)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26b2454;
+  constexpr static std::size_t addrs = 0x26b20a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::SaberSwingRating::BeforeCutStepRating)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26b2418;
+  constexpr static std::size_t addrs = 0x26b2064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::SaberSwingRating::AfterCutStepRating)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26b2480;
+  constexpr static std::size_t addrs = 0x26b20cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Random::*)()>(&::System::Random::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3dfc0b4;
+  constexpr static std::size_t addrs = 0x3dfbd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Random*>::get(), ".ctor",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Random::*)(int32_t)>(&::System::Random::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3dfc2d0;
+  constexpr static std::size_t addrs = 0x3dfbf68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Random::*)()>(&::System::Random::Sample)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3dfc480;
+  constexpr static std::size_t addrs = 0x3dfc118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Random::*)()>(&::System::Random::InternalSample)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3dfc4a0;
+  constexpr static std::size_t addrs = 0x3dfc138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Random*>::get(), "InternalSample",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Random::GenerateSeed)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3dfc110;
+  constexpr static std::size_t addrs = 0x3dfbda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Random*>::get(), "GenerateSeed",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Random::GenerateGlobalSeed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dfc52c;
+  constexpr static std::size_t addrs = 0x3dfc1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Random*>::get(), "GenerateGlobalSeed",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Random::*)()>(&::System::Random::Next)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dfc550;
+  constexpr static std::size_t addrs = 0x3dfc1e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Random::*)()>(&::System::Random::GetSampleForLargeRange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dfc554;
+  constexpr static std::size_t addrs = 0x3dfc1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Random*>::get(), "GetSampleForLargeRange",
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Random::*)(int32_t, int32_t)>(&::System::Random::Next)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3dfc5a0;
+  constexpr static std::size_t addrs = 0x3dfc238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Random::*)(int32_t)>(&::System::Random::Next)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3dfc6b8;
+  constexpr static std::size_t addrs = 0x3dfc350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Random::*)()>(&::System::Random::NextDouble)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dfc77c;
+  constexpr static std::size_t addrs = 0x3dfc414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Random::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Random::NextBytes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3dfc788;
+  constexpr static std::size_t addrs = 0x3dfc420;
 
   inline static ::MethodInfo const* methodInfo() {
 

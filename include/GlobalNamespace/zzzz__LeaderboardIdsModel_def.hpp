@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetPlatformLeaderboardId, addr 0x27017d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetPlatformLeaderboardId, addr 0x270145c, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetPlatformLeaderboardId(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::ByRef<::StringW> platformLeaderboardId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__leaderboardIds() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x27011dc, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2700e68, size 0x5f4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
 protected:

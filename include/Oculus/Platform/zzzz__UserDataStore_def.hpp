@@ -29,28 +29,28 @@ namespace Oculus::Platform {
 class CORDL_TYPE UserDataStore : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PrivateDeleteEntryByKey, addr 0x3f8c234, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PrivateDeleteEntryByKey, addr 0x3f8becc, size 0x168, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateDeleteEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PrivateGetEntries, addr 0x3f8c39c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method PrivateGetEntries, addr 0x3f8c034, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PrivateGetEntries(uint64_t userID);
 
-  /// @brief Method PrivateGetEntryByKey, addr 0x3f8c4f4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PrivateGetEntryByKey, addr 0x3f8c18c, size 0x168, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PrivateGetEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PrivateWriteEntry, addr 0x3f8c65c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PrivateWriteEntry, addr 0x3f8c2f4, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateWriteEntry(uint64_t userID, ::StringW key, ::StringW value);
 
-  /// @brief Method PublicDeleteEntryByKey, addr 0x3f8c7cc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PublicDeleteEntryByKey, addr 0x3f8c464, size 0x168, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PublicDeleteEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PublicGetEntries, addr 0x3f8c934, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method PublicGetEntries, addr 0x3f8c5cc, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PublicGetEntries(uint64_t userID);
 
-  /// @brief Method PublicGetEntryByKey, addr 0x3f8ca8c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method PublicGetEntryByKey, addr 0x3f8c724, size 0x168, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PublicGetEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PublicWriteEntry, addr 0x3f8cbf4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PublicWriteEntry, addr 0x3f8c88c, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PublicWriteEntry(uint64_t userID, ::StringW key, ::StringW value);
 
 protected:

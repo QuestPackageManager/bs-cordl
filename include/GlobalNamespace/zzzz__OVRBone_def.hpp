@@ -63,28 +63,28 @@ public:
 
   constexpr void __cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x4045140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4044dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4045eb4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4045b4c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRSkeleton_BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
-  /// @brief Method get_Id, addr 0x4045e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x4045b1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId get_Id();
 
-  /// @brief Method get_ParentBoneIndex, addr 0x4045e94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentBoneIndex, addr 0x4045b2c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_ParentBoneIndex();
 
-  /// @brief Method get_Transform, addr 0x4045ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x4045b3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
-  /// @brief Method set_Id, addr 0x4045e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x4045b24, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::GlobalNamespace::OVRSkeleton_BoneId value);
 
-  /// @brief Method set_ParentBoneIndex, addr 0x4045e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentBoneIndex, addr 0x4045b34, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentBoneIndex(int16_t value);
 
-  /// @brief Method set_Transform, addr 0x4045eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x4045b44, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
 protected:

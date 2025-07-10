@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithNetSyncConnection::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithNetSyncConnection::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7c724;
+  constexpr static std::size_t addrs = 0x3f7c3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (::Oculus::Platform::MessageWithNetSyncConnection::*)()>(
     &::Oculus::Platform::MessageWithNetSyncConnection::GetNetSyncConnection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7fb54;
+  constexpr static std::size_t addrs = 0x3f7f7ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (
     ::Oculus::Platform::MessageWithNetSyncConnection::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithNetSyncConnection::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7fb90;
+  constexpr static std::size_t addrs = 0x3f7f828;
 
   inline static ::MethodInfo const* methodInfo() {
 

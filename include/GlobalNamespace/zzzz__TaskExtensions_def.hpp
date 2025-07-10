@@ -82,7 +82,7 @@ public:
 
   static inline ::GlobalNamespace::TaskExtensions___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <WaitAsyncInternal>b__0, addr 0x22a00ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <WaitAsyncInternal>b__0, addr 0x22a017c, size 0x54, virtual false, abstract: false, final false
   inline void _WaitAsyncInternal_b__0();
 
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x22a00e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a0174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,10 +206,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a0140, size 0x930, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a01d0, size 0x930, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a0a70, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a0b00, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -392,13 +392,13 @@ public:
 
   template <typename T> using __c__DisplayClass4_0_1 = ::GlobalNamespace::TaskExtensions___c__DisplayClass4_0_1<T>;
 
-  /// @brief Method WaitAsync, addr 0x229ff30, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x229ffc0, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitAsync(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WaitAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* WaitAsync(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitAsyncInternal, addr 0x22a0008, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WaitAsyncInternal, addr 0x22a0098, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitAsyncInternal(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WaitAsyncInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

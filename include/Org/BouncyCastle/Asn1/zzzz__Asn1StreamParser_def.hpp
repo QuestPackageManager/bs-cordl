@@ -47,22 +47,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method ReadImplicit, addr 0x2631378, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ReadImplicit, addr 0x2631408, size 0x2ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadImplicit(bool constructed, int32_t tag);
 
-  /// @brief Method ReadIndef, addr 0x2631200, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ReadIndef, addr 0x2631290, size 0x178, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadIndef(int32_t tagValue);
 
-  /// @brief Method ReadObject, addr 0x2631854, size 0x60c, virtual true, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x26318e4, size 0x60c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ReadTaggedObject, addr 0x262c02c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ReadTaggedObject, addr 0x262c0bc, size 0x23c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ReadTaggedObject(bool constructed, int32_t tag);
 
-  /// @brief Method ReadVector, addr 0x263169c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReadVector, addr 0x263172c, size 0x128, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
 
-  /// @brief Method Set00Check, addr 0x2631e60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Set00Check, addr 0x2631ef0, size 0x90, virtual false, abstract: false, final false
   inline void Set00Check(bool enabled);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get__in() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_tmpBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
 
-  /// @brief Method .ctor, addr 0x2631184, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631214, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x262bffc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262c08c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x262d6dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262d76c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
 protected:

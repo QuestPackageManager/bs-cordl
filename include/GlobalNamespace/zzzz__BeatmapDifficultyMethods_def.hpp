@@ -24,19 +24,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultyMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x26c4a18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method DefaultNoteJumpMovementSpeed, addr 0x26c4664, size 0x24, virtual false, abstract: false, final false
   static inline float_t DefaultNoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method DefaultRating, addr 0x26c49c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method DefaultRating, addr 0x26c460c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t DefaultRating(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method Name, addr 0x26c4888, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x26c44d4, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method NoteJumpMovementSpeed, addr 0x26c49e0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NoteJumpMovementSpeed, addr 0x26c462c, size 0x38, virtual false, abstract: false, final false
   static inline float_t NoteJumpMovementSpeed(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, bool fastNotes);
 
-  /// @brief Method ShortName, addr 0x26c4924, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShortName, addr 0x26c4570, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW ShortName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:

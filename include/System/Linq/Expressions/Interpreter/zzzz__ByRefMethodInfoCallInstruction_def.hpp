@@ -39,7 +39,7 @@ public:
   New_ctor(::System::Reflection::MethodInfo* target, int32_t argumentCount,
            ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs);
 
-  /// @brief Method Run, addr 0x40c3418, size 0x4a8, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x40c30b0, size 0x4a8, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> const& __cordl_internal_get__byrefArgs() const;
@@ -48,11 +48,11 @@ public:
 
   constexpr void __cordl_internal_set__byrefArgs(::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> value);
 
-  /// @brief Method .ctor, addr 0x40c3328, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c2fc0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* target, int32_t argumentCount,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::ByRefUpdater*, ::Array<::System::Linq::Expressions::Interpreter::ByRefUpdater*>*> byrefArgs);
 
-  /// @brief Method get_ProducedStack, addr 0x40c3368, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c3000, size 0xb0, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

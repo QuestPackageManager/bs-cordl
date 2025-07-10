@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x25042c0;
+  constexpr static std::size_t addrs = 0x2504350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::_ctor)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x250443c;
+  constexpr static std::size_t addrs = 0x25044cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::X500::DirectoryString*,
     ::StringW, ::Org::BouncyCastle::Asn1::X500::DirectoryString*)>(&::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25047a0;
+  constexpr static std::size_t addrs = 0x2504830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::get_NameOrPseudonym)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25047f4;
+  constexpr static std::size_t addrs = 0x2504884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::get_NameDistinguisher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25047fc;
+  constexpr static std::size_t addrs = 0x250488c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::get_DateOfBirth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2504804;
+  constexpr static std::size_t addrs = 0x2504894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::get_PlaceOfBirth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250480c;
+  constexpr static std::size_t addrs = 0x250489c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::get_Gender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2504814;
+  constexpr static std::size_t addrs = 0x25048a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::get_PostalAddress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250481c;
+  constexpr static std::size_t addrs = 0x25048ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::PersonalData*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::PersonalData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x2504824;
+  constexpr static std::size_t addrs = 0x25048b4;
 
   inline static ::MethodInfo const* methodInfo() {
 

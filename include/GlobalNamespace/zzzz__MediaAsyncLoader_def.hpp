@@ -80,10 +80,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c23554, size 0x498, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c231ec, size 0x498, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c239ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c23684, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -154,10 +154,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c23a68, size 0x5bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c23700, size 0x5bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c24024, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c23cbc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -229,10 +229,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c240a0, size 0x41c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c23d38, size 0x41c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c244bc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c24154, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -304,10 +304,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c24538, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c241d0, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c24964, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c245fc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -386,27 +386,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMediaAsyncLoader"
   constexpr operator ::GlobalNamespace::IMediaAsyncLoader*() noexcept;
 
-  /// @brief Method LoadAudioClipAsync, addr 0x3c2323c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadAudioClipAsync, addr 0x3c22ed4, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipAsync(::StringW filePath, bool streamAudio);
 
-  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x3c23230, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x3c22ec8, size 0xc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipFromFilePathAsync(::StringW filePath);
 
-  /// @brief Method LoadSpriteAsync, addr 0x3c23414, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x3c230ac, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadTextureAsync, addr 0x3c2332c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LoadTextureAsync, addr 0x3c22fc4, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Texture2D>>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadWebpage, addr 0x3c23148, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LoadWebpage, addr 0x3c22de0, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Log, addr 0x3c234fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x3c23194, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::MediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c21b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c21808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMediaAsyncLoader"

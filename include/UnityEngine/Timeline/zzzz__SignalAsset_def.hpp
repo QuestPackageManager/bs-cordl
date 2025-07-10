@@ -26,18 +26,18 @@ public:
 
   static inline ::UnityEngine::Timeline::SignalAsset* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4826420, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x48260b8, size 0x6c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x482648c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4826124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnEnableCallback, addr 0x4826288, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method add_OnEnableCallback, addr 0x4825f20, size 0xcc, virtual false, abstract: false, final false
   static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback();
 
-  /// @brief Method remove_OnEnableCallback, addr 0x4826354, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method remove_OnEnableCallback, addr 0x4825fec, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
   static inline void setStaticF_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);

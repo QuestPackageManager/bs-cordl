@@ -41,40 +41,40 @@ public:
 
   __declspec(property(put = set_uniqueID)) uint64_t uniqueID;
 
-  /// @brief Method TryGet, addr 0x4aeb17c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x4aeae14, size 0x70, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Quaternion inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::ByRef<::UnityEngine::Quaternion> outValue);
 
-  /// @brief Method TryGet, addr 0x4aeb0f8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryGet, addr 0x4aead90, size 0x70, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Vector3 inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ::ByRef<::UnityEngine::Vector3> outValue);
 
-  /// @brief Method TryGetAcceleration, addr 0x4aeb214, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAcceleration, addr 0x4aeaeac, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAcceleration(::ByRef<::UnityEngine::Vector3> acceleration);
 
-  /// @brief Method TryGetAngularAcceleration, addr 0x4aeb228, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAngularAcceleration, addr 0x4aeaec0, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularAcceleration(::ByRef<::UnityEngine::Vector3> angularAcceleration);
 
-  /// @brief Method TryGetAngularVelocity, addr 0x4aeb200, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetAngularVelocity, addr 0x4aeae98, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularVelocity(::ByRef<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method TryGetPosition, addr 0x4aeb0e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetPosition, addr 0x4aead7c, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetPosition(::ByRef<::UnityEngine::Vector3> position);
 
-  /// @brief Method TryGetRotation, addr 0x4aeb168, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetRotation, addr 0x4aeae00, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetRotation(::ByRef<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method TryGetVelocity, addr 0x4aeb1ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method TryGetVelocity, addr 0x4aeae84, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetVelocity(::ByRef<::UnityEngine::Vector3> velocity);
 
-  /// @brief Method get_nodeType, addr 0x4aeb0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nodeType, addr 0x4aead74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRNode get_nodeType();
 
-  /// @brief Method set_nodeType, addr 0x4aeaf9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nodeType, addr 0x4aeac34, size 0x8, virtual false, abstract: false, final false
   inline void set_nodeType(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method set_tracked, addr 0x4aeafa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tracked, addr 0x4aeac3c, size 0xc, virtual false, abstract: false, final false
   inline void set_tracked(bool value);
 
-  /// @brief Method set_uniqueID, addr 0x4aeaf94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_uniqueID, addr 0x4aeac2c, size 0x8, virtual false, abstract: false, final false
   inline void set_uniqueID(uint64_t value);
 
   // Ctor Parameters []

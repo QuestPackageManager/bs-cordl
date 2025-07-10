@@ -21,10 +21,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKTransform {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3ac8818, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ac84a4, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3ac7dc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac7a4c, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTransform get_empty();
 
   // Ctor Parameters []

@@ -27,154 +27,154 @@ public:
   /// @brief Field Epsilon, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_Epsilon, put = setStaticF_Epsilon)) float_t Epsilon;
 
-  /// @brief Method Abs, addr 0x48a2eac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x48a2b44, size 0x5c, virtual false, abstract: false, final false
   static inline float_t Abs(float_t f);
 
-  /// @brief Method Abs, addr 0x48a2f08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x48a2ba0, size 0x58, virtual false, abstract: false, final false
   static inline int32_t Abs(int32_t value);
 
-  /// @brief Method Acos, addr 0x48a2d1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Acos, addr 0x48a29b4, size 0x64, virtual false, abstract: false, final false
   static inline float_t Acos(float_t f);
 
-  /// @brief Method Approximately, addr 0x48a35dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x48a3274, size 0x90, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b);
 
-  /// @brief Method Asin, addr 0x48a2cb8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Asin, addr 0x48a2950, size 0x64, virtual false, abstract: false, final false
   static inline float_t Asin(float_t f);
 
-  /// @brief Method Atan, addr 0x48a2d80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Atan, addr 0x48a2a18, size 0x64, virtual false, abstract: false, final false
   static inline float_t Atan(float_t f);
 
-  /// @brief Method Atan2, addr 0x48a2de4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Atan2, addr 0x48a2a7c, size 0x6c, virtual false, abstract: false, final false
   static inline float_t Atan2(float_t y, float_t x);
 
-  /// @brief Method Ceil, addr 0x48a31d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Ceil, addr 0x48a2e70, size 0x5c, virtual false, abstract: false, final false
   static inline float_t Ceil(float_t f);
 
-  /// @brief Method CeilToInt, addr 0x48a3358, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CeilToInt, addr 0x48a2ff0, size 0x74, virtual false, abstract: false, final false
   static inline int32_t CeilToInt(float_t f);
 
-  /// @brief Method Clamp, addr 0x48a3530, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x48a31c8, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Clamp(float_t value, float_t min, float_t max);
 
-  /// @brief Method Clamp, addr 0x48a354c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x48a31e4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t Clamp(int32_t value, int32_t min, int32_t max);
 
-  /// @brief Method Clamp01, addr 0x48a3568, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Clamp01, addr 0x48a3200, size 0x1c, virtual false, abstract: false, final false
   static inline float_t Clamp01(float_t value);
 
-  /// @brief Method ClampToFloat, addr 0x48a37dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ClampToFloat, addr 0x48a3474, size 0x6c, virtual false, abstract: false, final false
   static inline float_t ClampToFloat(double_t value);
 
-  /// @brief Method ClampToInt, addr 0x48a3848, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ClampToInt, addr 0x48a34e0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ClampToInt(int64_t value);
 
-  /// @brief Method ClampToUInt, addr 0x48a3870, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ClampToUInt, addr 0x48a3508, size 0x1c, virtual false, abstract: false, final false
   static inline uint32_t ClampToUInt(int64_t value);
 
-  /// @brief Method CorrelatedColorTemperatureToRGB, addr 0x48a2ae8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CorrelatedColorTemperatureToRGB, addr 0x48a2780, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color CorrelatedColorTemperatureToRGB(float_t kelvin);
 
-  /// @brief Method CorrelatedColorTemperatureToRGB_Injected, addr 0x48a2b40, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CorrelatedColorTemperatureToRGB_Injected, addr 0x48a27d8, size 0x4c, virtual false, abstract: false, final false
   static inline void CorrelatedColorTemperatureToRGB_Injected(float_t kelvin, ::ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method Cos, addr 0x48a2bf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Cos, addr 0x48a2888, size 0x64, virtual false, abstract: false, final false
   static inline float_t Cos(float_t f);
 
-  /// @brief Method DeltaAngle, addr 0x48a3790, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DeltaAngle, addr 0x48a3428, size 0x4c, virtual false, abstract: false, final false
   static inline float_t DeltaAngle(float_t current, float_t target);
 
-  /// @brief Method DiscardLeastSignificantDecimal, addr 0x48a39a4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DiscardLeastSignificantDecimal, addr 0x48a363c, size 0x160, virtual false, abstract: false, final false
   static inline double_t DiscardLeastSignificantDecimal(double_t v);
 
-  /// @brief Method Floor, addr 0x48a3234, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Floor, addr 0x48a2ecc, size 0x5c, virtual false, abstract: false, final false
   static inline float_t Floor(float_t f);
 
-  /// @brief Method FloorToInt, addr 0x48a33cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FloorToInt, addr 0x48a3064, size 0x74, virtual false, abstract: false, final false
   static inline int32_t FloorToInt(float_t f);
 
-  /// @brief Method GammaToLinearSpace, addr 0x48a2a78, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GammaToLinearSpace, addr 0x48a2710, size 0x38, virtual false, abstract: false, final false
   static inline float_t GammaToLinearSpace(float_t value);
 
-  /// @brief Method GetNumberOfDecimalsForMinimumDifference, addr 0x48a388c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfDecimalsForMinimumDifference, addr 0x48a3524, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t GetNumberOfDecimalsForMinimumDifference(double_t minDifference);
 
-  /// @brief Method InverseLerp, addr 0x48a3760, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InverseLerp, addr 0x48a33f8, size 0x30, virtual false, abstract: false, final false
   static inline float_t InverseLerp(float_t a, float_t b, float_t value);
 
-  /// @brief Method IsPowerOfTwo, addr 0x48a2a00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsPowerOfTwo, addr 0x48a2698, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsPowerOfTwo(int32_t value);
 
-  /// @brief Method Lerp, addr 0x48a3584, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x48a321c, size 0x24, virtual false, abstract: false, final false
   static inline float_t Lerp(float_t a, float_t b, float_t t);
 
-  /// @brief Method LerpUnclamped, addr 0x48a35a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LerpUnclamped, addr 0x48a3240, size 0x10, virtual false, abstract: false, final false
   static inline float_t LerpUnclamped(float_t a, float_t b, float_t t);
 
-  /// @brief Method LinearToGammaSpace, addr 0x48a2ab0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LinearToGammaSpace, addr 0x48a2748, size 0x38, virtual false, abstract: false, final false
   static inline float_t LinearToGammaSpace(float_t value);
 
-  /// @brief Method Log, addr 0x48a3110, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x48a2da8, size 0x64, virtual false, abstract: false, final false
   static inline float_t Log(float_t f);
 
-  /// @brief Method Log, addr 0x48a30a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x48a2d38, size 0x70, virtual false, abstract: false, final false
   static inline float_t Log(float_t f, float_t p);
 
-  /// @brief Method Log10, addr 0x48a3174, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Log10, addr 0x48a2e0c, size 0x64, virtual false, abstract: false, final false
   static inline float_t Log10(float_t f);
 
-  /// @brief Method Max, addr 0x48a2fc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x48a2c60, size 0xc, virtual false, abstract: false, final false
   static inline float_t Max(float_t a, float_t b);
 
-  /// @brief Method Max, addr 0x48a2fd4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x48a2c6c, size 0x50, virtual false, abstract: false, final false
   static inline float_t Max(::ArrayW<float_t, ::Array<float_t>*> values);
 
-  /// @brief Method Max, addr 0x48a3024, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x48a2cbc, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Max(int32_t a, int32_t b);
 
-  /// @brief Method Min, addr 0x48a2f60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x48a2bf8, size 0xc, virtual false, abstract: false, final false
   static inline float_t Min(float_t a, float_t b);
 
-  /// @brief Method Min, addr 0x48a2f6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x48a2c04, size 0x50, virtual false, abstract: false, final false
   static inline float_t Min(::ArrayW<float_t, ::Array<float_t>*> values);
 
-  /// @brief Method Min, addr 0x48a2fbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x48a2c54, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Min(int32_t a, int32_t b);
 
-  /// @brief Method MoveTowards, addr 0x48a35b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MoveTowards, addr 0x48a3250, size 0x24, virtual false, abstract: false, final false
   static inline float_t MoveTowards(float_t current, float_t target, float_t maxDelta);
 
-  /// @brief Method NextPowerOfTwo, addr 0x48a2a3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NextPowerOfTwo, addr 0x48a26d4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NextPowerOfTwo(int32_t value);
 
-  /// @brief Method Pow, addr 0x48a3030, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Pow, addr 0x48a2cc8, size 0x70, virtual false, abstract: false, final false
   static inline float_t Pow(float_t f, float_t p);
 
-  /// @brief Method Repeat, addr 0x48a3738, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Repeat, addr 0x48a33d0, size 0x28, virtual false, abstract: false, final false
   static inline float_t Repeat(float_t t, float_t length);
 
-  /// @brief Method Round, addr 0x48a3290, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x48a2f28, size 0xc8, virtual false, abstract: false, final false
   static inline float_t Round(float_t f);
 
-  /// @brief Method RoundBasedOnMinimumDifference, addr 0x48a3918, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RoundBasedOnMinimumDifference, addr 0x48a35b0, size 0x8c, virtual false, abstract: false, final false
   static inline double_t RoundBasedOnMinimumDifference(double_t valueToRound, double_t minDifference);
 
-  /// @brief Method RoundToInt, addr 0x48a3440, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RoundToInt, addr 0x48a30d8, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t RoundToInt(float_t f);
 
-  /// @brief Method Sign, addr 0x48a351c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Sign, addr 0x48a31b4, size 0x14, virtual false, abstract: false, final false
   static inline float_t Sign(float_t f);
 
-  /// @brief Method Sin, addr 0x48a2b8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Sin, addr 0x48a2824, size 0x64, virtual false, abstract: false, final false
   static inline float_t Sin(float_t f);
 
-  /// @brief Method SmoothDamp, addr 0x48a366c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SmoothDamp, addr 0x48a3304, size 0xcc, virtual false, abstract: false, final false
   static inline float_t SmoothDamp(float_t current, float_t target, ::ByRef<float_t> currentVelocity, float_t smoothTime, float_t maxSpeed, float_t deltaTime);
 
-  /// @brief Method Sqrt, addr 0x48a2e50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Sqrt, addr 0x48a2ae8, size 0x5c, virtual false, abstract: false, final false
   static inline float_t Sqrt(float_t f);
 
-  /// @brief Method Tan, addr 0x48a2c54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Tan, addr 0x48a28ec, size 0x64, virtual false, abstract: false, final false
   static inline float_t Tan(float_t f);
 
   static inline float_t getStaticF_Epsilon();

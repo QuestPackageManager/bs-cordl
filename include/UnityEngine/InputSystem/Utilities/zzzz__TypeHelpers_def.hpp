@@ -35,16 +35,16 @@ public:
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject As(::System::Object* obj);
 
-  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x4572770, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x4572408, size 0x3c8, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type* type, ::System::Type* genericTypeDefinition, int32_t argumentIndex);
 
-  /// @brief Method GetNiceTypeName, addr 0x45722e0, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method GetNiceTypeName, addr 0x4571f78, size 0x490, virtual false, abstract: false, final false
   static inline ::StringW GetNiceTypeName(::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x4572114, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x4571dac, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsInt, addr 0x4572104, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x4571d9c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInt(::System::TypeCode type);
 
 protected:

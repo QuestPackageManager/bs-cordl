@@ -60,21 +60,21 @@ public:
   /// @brief Field gridSizeZ, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Method CreateCubeGrid, addr 0x4035268, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x4034f00, size 0x3b8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x4035620, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x40352b8, size 0x17c, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method SetOVRCameraController, addr 0x403525c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x4034ef4, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(::ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method Update, addr 0x4035038, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4034cd0, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCubeGrid, addr 0x403503c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method UpdateCubeGrid, addr 0x4034cd4, size 0x220, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
 
-  /// @brief Method .ctor, addr 0x403579c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4035434, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

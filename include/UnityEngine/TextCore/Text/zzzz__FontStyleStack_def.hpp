@@ -22,13 +22,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x49505ac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4950244, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Clear, addr 0x49505a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4950238, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x49506a8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4950340, size 0x144, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters []

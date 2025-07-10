@@ -47,7 +47,7 @@ public:
   /// @brief Field startPosition, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_startPosition, put = __cordl_internal_set_startPosition)) int64_t startPosition;
 
-  /// @brief Method Dispose, addr 0x421acf0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x421a988, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content);
@@ -56,10 +56,10 @@ public:
 
   static inline ::System::Net::Http::StreamContent* New_ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x421ad3c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x421a9d4, size 0xd4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x421ae10, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x421aaa8, size 0x68, virtual true, abstract: false, final false
   inline bool TryComputeLength(::ByRef<int64_t> length);
 
   constexpr int32_t const& __cordl_internal_get_bufferSize() const;
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_startPosition(int64_t value);
 
-  /// @brief Method .ctor, addr 0x421ac04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421a89c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content);
 
-  /// @brief Method .ctor, addr 0x421ac0c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421a8a4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, int32_t bufferSize);
 
-  /// @brief Method .ctor, addr 0x4217294, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4216f2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* content, ::System::Threading::CancellationToken cancellationToken);
 
 protected:

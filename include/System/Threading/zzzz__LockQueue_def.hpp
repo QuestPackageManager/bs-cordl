@@ -32,10 +32,10 @@ public:
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method Pulse, addr 0x3e5c434, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Pulse, addr 0x3e5c0cc, size 0xb8, virtual false, abstract: false, final false
   inline void Pulse();
 
-  /// @brief Method Wait, addr 0x3e5c1d0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e5be68, size 0x1a4, virtual false, abstract: false, final false
   inline bool Wait(int32_t timeout);
 
   constexpr int32_t const& __cordl_internal_get_lockCount() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_rwlock(::System::Threading::ReaderWriterLock* value);
 
-  /// @brief Method .ctor, addr 0x3e5c1a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5be40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method get_IsEmpty, addr 0x3e5c374, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x3e5c00c, size 0xc0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:

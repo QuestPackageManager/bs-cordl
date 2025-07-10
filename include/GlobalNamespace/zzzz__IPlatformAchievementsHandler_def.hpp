@@ -174,18 +174,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE IPlatformAchievementsHandler_UnlockAchievementCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26a41cc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x26a3e18, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26a4250, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x26a3e9c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x26a41b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26a3e04, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementResult result);
 
   static inline ::GlobalNamespace::IPlatformAchievementsHandler_UnlockAchievementCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x26a3dbc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3a08, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -218,19 +218,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x26a4270, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x26a3ebc, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x26a4304, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x26a3f50, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x26a425c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x26a3ea8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds);
 
   static inline ::GlobalNamespace::IPlatformAchievementsHandler_GetUnlockedAchievementsCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x26a3d28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3974, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

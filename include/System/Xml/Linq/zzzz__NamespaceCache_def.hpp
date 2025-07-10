@@ -22,7 +22,7 @@ namespace System::Xml::Linq {
 struct CORDL_TYPE NamespaceCache {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x424a130, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4249dc8, size 0x34, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
   // Ctor Parameters []

@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x3b3b998, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x3b3b624, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
   static inline ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* New_ctor();
@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b3b9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3b644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b3b838, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b3b4c4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b3b8e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b3b574, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>* value);
 
 protected:

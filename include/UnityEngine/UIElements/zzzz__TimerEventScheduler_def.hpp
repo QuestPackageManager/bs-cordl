@@ -55,19 +55,19 @@ public:
 
   static inline ::UnityEngine::UIElements::TimerEventScheduler* New_ctor();
 
-  /// @brief Method PrivateUnSchedule, addr 0x4a68df8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PrivateUnSchedule, addr 0x4a68a90, size 0xa0, virtual false, abstract: false, final false
   inline bool PrivateUnSchedule(::UnityEngine::UIElements::ScheduledItem* sItem);
 
-  /// @brief Method RemovedScheduledItemAt, addr 0x4a68bec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RemovedScheduledItemAt, addr 0x4a68884, size 0x7c, virtual false, abstract: false, final false
   inline bool RemovedScheduledItemAt(int32_t index);
 
-  /// @brief Method Schedule, addr 0x4a68a34, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Schedule, addr 0x4a686cc, size 0x1b8, virtual true, abstract: false, final true
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Unschedule, addr 0x4a68c68, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method Unschedule, addr 0x4a68900, size 0x190, virtual true, abstract: false, final true
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents, addr 0x4a68e98, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method UpdateScheduledEvents, addr 0x4a68b30, size 0x314, virtual true, abstract: false, final true
   inline void UpdateScheduledEvents();
 
   constexpr bool const& __cordl_internal_get_disableThrottling() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UnscheduleTransactions(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* value);
 
-  /// @brief Method .ctor, addr 0x4a691ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a68e44, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IScheduler"

@@ -23,16 +23,16 @@ namespace System::Xml {
 struct CORDL_TYPE BinXmlSqlMoney {
 public:
   // Declarations
-  /// @brief Method ToDecimal, addr 0x42375d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x4237270, size 0x64, virtual false, abstract: false, final false
   inline ::System::Decimal ToDecimal();
 
-  /// @brief Method ToString, addr 0x423763c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x42372d4, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x42375c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423725c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x42375d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4237268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t v);
 
   // Ctor Parameters []

@@ -72,18 +72,18 @@ public:
   /// @brief Field _transform, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b959fc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b95694, size 0x11c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightRotationEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b959e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b95678, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b957a0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b95438, size 0x158, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b958f8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b95590, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b95b18, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b957b0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

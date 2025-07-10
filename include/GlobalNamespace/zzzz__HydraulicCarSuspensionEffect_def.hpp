@@ -83,18 +83,18 @@ public:
   /// @brief Field _springJoint, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__springJoint, put = __cordl_internal_set__springJoint)) ::UnityW<::UnityEngine::SpringJoint> _springJoint;
 
-  /// @brief Method HandleContractBeatmapEvent, addr 0x2268824, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleContractBeatmapEvent, addr 0x22688b4, size 0xa4, virtual false, abstract: false, final false
   inline void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleExpandBeatmapEvent, addr 0x22688c8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleExpandBeatmapEvent, addr 0x2268958, size 0xa4, virtual false, abstract: false, final false
   inline void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarSuspensionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x22687e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2268874, size 0x40, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x22685cc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x226865c, size 0x218, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set__springJoint(::UnityW<::UnityEngine::SpringJoint> value);
 
-  /// @brief Method .ctor, addr 0x226896c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22689fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +193,7 @@ public:
   HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19136 };
 
   /// @brief Field _contractEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____contractEvent;

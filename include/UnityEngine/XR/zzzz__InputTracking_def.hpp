@@ -116,22 +116,22 @@ public:
   /// @brief Field trackingLost, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_trackingLost, put = setStaticF_trackingLost)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingLost;
 
-  /// @brief Method GetDeviceIdAtXRNode, addr 0x4aeb0a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIdAtXRNode, addr 0x4aead38, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetDeviceIdAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetNodeStates, addr 0x4aeafb0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates, addr 0x4aeac48, size 0xb4, virtual false, abstract: false, final false
   static inline void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal, addr 0x4aeb064, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal, addr 0x4aeacfc, size 0x3c, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method InvokeTrackingEvent, addr 0x4aeadec, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingEvent, addr 0x4aeaa84, size 0x1a8, virtual false, abstract: false, final false
   static inline void InvokeTrackingEvent(::UnityEngine::XR::InputTracking_TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
 
-  /// @brief Method add_nodeAdded, addr 0x4aeaaac, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeAdded, addr 0x4aea744, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method add_nodeRemoved, addr 0x4aeac4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeRemoved, addr 0x4aea8e4, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeAdded();
@@ -142,10 +142,10 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_trackingLost();
 
-  /// @brief Method remove_nodeAdded, addr 0x4aeab7c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeAdded, addr 0x4aea814, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method remove_nodeRemoved, addr 0x4aead1c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeRemoved, addr 0x4aea9b4, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline void setStaticF_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);

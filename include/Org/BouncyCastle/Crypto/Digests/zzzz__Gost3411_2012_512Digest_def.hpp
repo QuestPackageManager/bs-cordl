@@ -28,25 +28,25 @@ public:
   /// @brief Field IV, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_IV, put = setStaticF_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
-  /// @brief Method Copy, addr 0x2699128, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x26991b8, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method GetDigestSize, addr 0x2699120, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x26991b0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
 
-  /// @brief Method .ctor, addr 0x2698ff0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2699080, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x269907c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269910c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV();
 
-  /// @brief Method get_AlgorithmName, addr 0x2698fb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2699040, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   static inline void setStaticF_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

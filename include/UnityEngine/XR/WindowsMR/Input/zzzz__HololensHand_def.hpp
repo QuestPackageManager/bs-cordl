@@ -51,7 +51,7 @@ public:
 
   __declspec(property(get = get_sourceLossRisk, put = set_sourceLossRisk)) ::UnityEngine::InputSystem::Controls::AxisControl* sourceLossRisk;
 
-  /// @brief Method FinishSetup, addr 0x453cc5c, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x453c8f4, size 0x12c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::HololensHand* New_ctor();
@@ -80,31 +80,31 @@ public:
 
   constexpr void __cordl_internal_set__sourceLossRisk_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x453cd88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x453ca20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_airTap, addr 0x453cc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_airTap, addr 0x453c8c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_airTap();
 
-  /// @brief Method get_deviceVelocity, addr 0x453cc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x453c8b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method get_sourceLossMitigationDirection, addr 0x453cc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLossMitigationDirection, addr 0x453c8e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_sourceLossMitigationDirection();
 
-  /// @brief Method get_sourceLossRisk, addr 0x453cc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLossRisk, addr 0x453c8d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_sourceLossRisk();
 
-  /// @brief Method set_airTap, addr 0x453cc34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_airTap, addr 0x453c8cc, size 0x8, virtual false, abstract: false, final false
   inline void set_airTap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_deviceVelocity, addr 0x453cc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x453c8bc, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_sourceLossMitigationDirection, addr 0x453cc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceLossMitigationDirection, addr 0x453c8ec, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossMitigationDirection(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_sourceLossRisk, addr 0x453cc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceLossRisk, addr 0x453c8dc, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossRisk(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:

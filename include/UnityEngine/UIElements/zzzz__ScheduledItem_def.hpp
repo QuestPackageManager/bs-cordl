@@ -37,13 +37,13 @@ public:
 
   static inline ::UnityEngine::UIElements::ScheduledItem___c* New_ctor();
 
-  /// @brief Method <.cctor>b__25_0, addr 0x4a68a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_0, addr 0x4a686bc, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__25_0();
 
-  /// @brief Method <.cctor>b__25_1, addr 0x4a68a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_1, addr 0x4a686c4, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__25_1();
 
-  /// @brief Method .ctor, addr 0x4a68a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a686b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ScheduledItem___c* getStaticF___9();
@@ -113,16 +113,16 @@ public:
 
   static inline ::UnityEngine::UIElements::ScheduledItem* New_ctor();
 
-  /// @brief Method OnItemUnscheduled, addr 0x4a68888, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnItemUnscheduled, addr 0x4a68520, size 0x4, virtual true, abstract: false, final false
   inline void OnItemUnscheduled();
 
   /// @brief Method PerformTimerUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
-  /// @brief Method ResetStartTime, addr 0x4a6882c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetStartTime, addr 0x4a684c4, size 0x5c, virtual false, abstract: false, final false
   inline void ResetStartTime();
 
-  /// @brief Method ShouldUnschedule, addr 0x4a6888c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ShouldUnschedule, addr 0x4a68524, size 0x20, virtual true, abstract: false, final false
   inline bool ShouldUnschedule();
 
   constexpr int64_t const& __cordl_internal_get__delayMs_k__BackingField() const;
@@ -155,36 +155,36 @@ public:
 
   constexpr void __cordl_internal_set_timerUpdateStopCondition(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x4a687b8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a68450, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<bool>* getStaticF_ForeverCondition();
 
   static inline ::System::Func_1<bool>* getStaticF_OnceCondition();
 
-  /// @brief Method get_delayMs, addr 0x4a68790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delayMs, addr 0x4a68428, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_delayMs();
 
-  /// @brief Method get_endTimeMs, addr 0x4a687b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endTimeMs, addr 0x4a68448, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_endTimeMs();
 
-  /// @brief Method get_intervalMs, addr 0x4a687a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalMs, addr 0x4a68438, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_intervalMs();
 
-  /// @brief Method get_startMs, addr 0x4a68780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startMs, addr 0x4a68418, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_startMs();
 
   static inline void setStaticF_ForeverCondition(::System::Func_1<bool>* value);
 
   static inline void setStaticF_OnceCondition(::System::Func_1<bool>* value);
 
-  /// @brief Method set_delayMs, addr 0x4a68798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delayMs, addr 0x4a68430, size 0x8, virtual false, abstract: false, final false
   inline void set_delayMs(int64_t value);
 
-  /// @brief Method set_intervalMs, addr 0x4a687a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalMs, addr 0x4a68440, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalMs(int64_t value);
 
-  /// @brief Method set_startMs, addr 0x4a68788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startMs, addr 0x4a68420, size 0x8, virtual false, abstract: false, final false
   inline void set_startMs(int64_t value);
 
 protected:

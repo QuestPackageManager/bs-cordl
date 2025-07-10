@@ -50,7 +50,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ac0774, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac040c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,48 +132,48 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMaterialModifier"
   constexpr operator ::UnityEngine::UI::IMaterialModifier*() noexcept;
 
-  /// @brief Method Cull, addr 0x4abfb20, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x4abf7b8, size 0xd0, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method GetModifiedMaterial, addr 0x4abfa20, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetModifiedMaterial, addr 0x4abf6b8, size 0x100, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
   static inline ::UnityEngine::UI::MaskableGraphic* New_ctor();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x4ac01d4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x4abfe6c, size 0x50, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDisable, addr 0x4ac00d4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4abfd6c, size 0xac, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4abff30, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4abfbc8, size 0x50, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x4ac0180, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x4abfe18, size 0x50, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method ParentMaskStateChanged, addr 0x4ac01d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ParentMaskStateChanged, addr 0x4abfe68, size 0x4, virtual true, abstract: false, final false
   inline void ParentMaskStateChanged();
 
-  /// @brief Method RecalculateClipping, addr 0x4ac0638, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RecalculateClipping, addr 0x4ac02d0, size 0x4, virtual true, abstract: false, final false
   inline void RecalculateClipping();
 
-  /// @brief Method RecalculateMasking, addr 0x4ac063c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method RecalculateMasking, addr 0x4ac02d4, size 0x7c, virtual true, abstract: false, final false
   inline void RecalculateMasking();
 
-  /// @brief Method SetClipRect, addr 0x4abfe8c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method SetClipRect, addr 0x4abfb24, size 0x6c, virtual true, abstract: false, final false
   inline void SetClipRect(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method SetClipSoftness, addr 0x4abfef8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetClipSoftness, addr 0x4abfb90, size 0x38, virtual true, abstract: false, final false
   inline void SetClipSoftness(::UnityEngine::Vector2 clipSoftness);
 
-  /// @brief Method UnityEngine.UI.IClippable.get_gameObject, addr 0x4ac07bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.IClippable.get_gameObject, addr 0x4ac0454, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> UnityEngine_UI_IClippable_get_gameObject();
 
-  /// @brief Method UpdateClipParent, addr 0x4abff80, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateClipParent, addr 0x4abfc18, size 0x154, virtual false, abstract: false, final false
   inline void UpdateClipParent();
 
-  /// @brief Method UpdateCull, addr 0x4abfda8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCull, addr 0x4abfa40, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateCull(bool cull);
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Corners() const;
@@ -236,19 +236,19 @@ public:
 
   constexpr void __cordl_internal_set_m_StencilValue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4ac06b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac0350, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isMaskingGraphic, addr 0x4abfa18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMaskingGraphic, addr 0x4abf6b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMaskingGraphic();
 
-  /// @brief Method get_maskable, addr 0x4abf9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maskable, addr 0x4abf678, size 0x8, virtual false, abstract: false, final false
   inline bool get_maskable();
 
-  /// @brief Method get_onCullStateChanged, addr 0x4abf9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onCullStateChanged, addr 0x4abf668, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent* get_onCullStateChanged();
 
-  /// @brief Method get_rootCanvasRect, addr 0x4abfbf0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method get_rootCanvasRect, addr 0x4abf888, size 0x1b8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rootCanvasRect();
 
   /// @brief Convert to "::UnityEngine::UI::IClippable"
@@ -260,13 +260,13 @@ public:
   /// @brief Convert to "::UnityEngine::UI::IMaterialModifier"
   constexpr ::UnityEngine::UI::IMaterialModifier* i___UnityEngine__UI__IMaterialModifier() noexcept;
 
-  /// @brief Method set_isMaskingGraphic, addr 0x4abee34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_isMaskingGraphic, addr 0x4abeacc, size 0x18, virtual false, abstract: false, final false
   inline void set_isMaskingGraphic(bool value);
 
-  /// @brief Method set_maskable, addr 0x4abf9e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_maskable, addr 0x4abf680, size 0x30, virtual false, abstract: false, final false
   inline void set_maskable(bool value);
 
-  /// @brief Method set_onCullStateChanged, addr 0x4abf9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onCullStateChanged, addr 0x4abf670, size 0x8, virtual false, abstract: false, final false
   inline void set_onCullStateChanged(::UnityEngine::UI::MaskableGraphic_CullStateChangedEvent* value);
 
 protected:

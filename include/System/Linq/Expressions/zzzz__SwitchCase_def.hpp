@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Body, addr 0x40bd090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40bcd28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_TestValues, addr 0x40bd088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x40bcd20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:

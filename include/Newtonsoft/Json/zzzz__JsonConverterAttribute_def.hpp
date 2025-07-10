@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e7bba0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7b838, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
-  /// @brief Method .ctor, addr 0x3e7bc68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7b900, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
-  /// @brief Method get_ConverterParameters, addr 0x3e7bb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterParameters, addr 0x3e7b830, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
 
-  /// @brief Method get_ConverterType, addr 0x3e7bb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterType, addr 0x3e7b828, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();
 
 protected:

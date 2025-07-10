@@ -30,10 +30,10 @@ public:
   /// @brief Field _host, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host)) ::StringW _host;
 
-  /// @brief Method Decode, addr 0x3c44c4c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3c448e4, size 0xf0, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method GetBytes, addr 0x3c44d3c, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3c449d4, size 0x24c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::Type1Message* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__host(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c44ac0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c44758, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Domain, addr 0x3c44b44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x3c447dc, size 0x84, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Host, addr 0x3c44bc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x3c44860, size 0x84, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
 protected:

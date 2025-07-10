@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_Invites(::Oculus::Platform::Models::ApplicationInviteList* value);
 
-  /// @brief Method .ctor, addr 0x3f93e9c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f93b34, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

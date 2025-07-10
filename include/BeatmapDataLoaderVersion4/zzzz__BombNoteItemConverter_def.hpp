@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bombNotes, put = __cordl_internal_set__bombNotes)) ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*>
       _bombNotes;
 
-  /// @brief Method Convert, addr 0x270d6f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270d380, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::BombNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotes,
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__bombNotes(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> value);
 
-  /// @brief Method .ctor, addr 0x270d528, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270d1b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

@@ -34,13 +34,13 @@ public:
   /// @brief Method ToConstructorString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW ToConstructorString(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method ToConstructorString, addr 0x22b35a0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x22b3630, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Pose pose);
 
-  /// @brief Method ToConstructorString, addr 0x22b33f0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x22b3480, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Quaternion quaternion);
 
-  /// @brief Method ToConstructorString, addr 0x22b3320, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToConstructorString, addr 0x22b33b0, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW ToConstructorString(::UnityEngine::Vector3 vector);
 
 protected:

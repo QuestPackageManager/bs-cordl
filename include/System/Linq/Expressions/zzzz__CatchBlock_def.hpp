@@ -52,10 +52,10 @@ public:
   static inline ::System::Linq::Expressions::CatchBlock* New_ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body,
                                                                   ::System::Linq::Expressions::Expression* filter);
 
-  /// @brief Method ToString, addr 0x40aeb68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40ae800, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Update, addr 0x40aebe8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40ae880, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* Update(::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* filter,
                                                          ::System::Linq::Expressions::Expression* body);
 
@@ -83,19 +83,19 @@ public:
 
   constexpr void __cordl_internal_set__Variable_k__BackingField(::System::Linq::Expressions::ParameterExpression* value);
 
-  /// @brief Method .ctor, addr 0x40aeb08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ae7a0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* test, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* filter);
 
-  /// @brief Method get_Body, addr 0x40aeb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x40ae7f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_Filter, addr 0x40aeb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Filter, addr 0x40ae7f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Filter();
 
-  /// @brief Method get_Test, addr 0x40aeb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Test, addr 0x40ae7e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Test();
 
-  /// @brief Method get_Variable, addr 0x40aeb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variable, addr 0x40ae7e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Variable();
 
 protected:

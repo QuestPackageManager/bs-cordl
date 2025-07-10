@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightingSettings::*)()>(&::UnityEngine::LightingSettings::LightingSettingsDontStripMe)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48704dc;
+  constexpr static std::size_t addrs = 0x4870174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightingSettings*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightingSettings::*)()>(&::UnityEngine::LightingSettings::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48704e0;
+  constexpr static std::size_t addrs = 0x4870178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightingSettings*>::get(), ".ctor",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::LightingSettings*)>(&::UnityEngine::LightingSettings::Internal_Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4870560;
+  constexpr static std::size_t addrs = 0x48701f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::LightingSettings::*)()>(&::UnityEngine::LightingSettings::get_bakedGI)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487059c;
+  constexpr static std::size_t addrs = 0x4870234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightingSettings*>::get(), "get_bakedGI",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightingSettings::*)(bool)>(&::UnityEngine::LightingSettings::set_bakedGI)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48705d8;
+  constexpr static std::size_t addrs = 0x4870270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::LightingSettings::*)()>(&::UnityEngine::LightingSettings::get_realtimeGI)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487061c;
+  constexpr static std::size_t addrs = 0x48702b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightingSettings*>::get(), "get_realtimeGI",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightingSettings::*)(bool)>(&::UnityEngine::LightingSettings::set_realtimeGI)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4870658;
+  constexpr static std::size_t addrs = 0x48702f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::LightingSettings::*)()>(&::UnityEngine::LightingSettings::get_realtimeEnvironmentLighting)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x487069c;
+  constexpr static std::size_t addrs = 0x4870334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightingSettings::*)(bool)>(&::UnityEngine::LightingSettings::set_realtimeEnvironmentLighting)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48706d8;
+  constexpr static std::size_t addrs = 0x4870370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

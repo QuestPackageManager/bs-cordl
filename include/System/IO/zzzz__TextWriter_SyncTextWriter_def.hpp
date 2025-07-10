@@ -48,54 +48,54 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x3d4563c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3d452d4, size 0x20, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x3d4565c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3d452f4, size 0xb4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush, addr 0x3d45710, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x3d453a8, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x3d45a9c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x3d45734, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync();
 
   static inline ::GlobalNamespace::TextWriter_SyncTextWriter* New_ctor(::System::IO::TextWriter* t);
 
-  /// @brief Method Write, addr 0x3d45754, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d453ec, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method Write, addr 0x3d45778, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d45410, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x3d457c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d45458, size 0x24, virtual true, abstract: false, final false
   inline void Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method Write, addr 0x3d4579c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d45434, size 0x24, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x3d45730, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3d453c8, size 0x24, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteAsync, addr 0x3d459d4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3d4566c, size 0xc8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x3d45924, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3d455bc, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
 
-  /// @brief Method WriteAsync, addr 0x3d45874, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x3d4550c, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
 
-  /// @brief Method WriteLine, addr 0x3d457e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3d4547c, size 0x24, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine, addr 0x3d45808, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3d454a0, size 0x24, virtual true, abstract: false, final false
   inline void WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteLine, addr 0x3d45850, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3d454e8, size 0x24, virtual true, abstract: false, final false
   inline void WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method WriteLine, addr 0x3d4582c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3d454c4, size 0x24, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
   constexpr ::System::IO::TextWriter* const& __cordl_internal_get__out() const;
@@ -104,22 +104,22 @@ public:
 
   constexpr void __cordl_internal_set__out(::System::IO::TextWriter* value);
 
-  /// @brief Method .ctor, addr 0x3d453fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d45094, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* t);
 
-  /// @brief Method get_Encoding, addr 0x3d455b0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x3d45248, size 0x24, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_FormatProvider, addr 0x3d455d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x3d4526c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_NewLine, addr 0x3d455f4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NewLine, addr 0x3d4528c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_NewLine();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_NewLine, addr 0x3d45618, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_NewLine, addr 0x3d452b0, size 0x24, virtual true, abstract: false, final false
   inline void set_NewLine(::StringW value);
 
 protected:

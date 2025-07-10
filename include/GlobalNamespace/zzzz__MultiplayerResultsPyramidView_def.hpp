@@ -89,10 +89,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidView* New_ctor();
 
-  /// @brief Method PrespawnAvatars, addr 0x3bdebc4, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method PrespawnAvatars, addr 0x3bde85c, size 0x3fc, virtual false, abstract: false, final false
   inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
 
-  /// @brief Method SetupResults, addr 0x3bde5d0, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method SetupResults, addr 0x3bde268, size 0x5d0, virtual false, abstract: false, final false
   inline void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform,
                            ::UnityEngine::Transform* badgeMidTransform);
 
@@ -150,13 +150,13 @@ public:
 
   constexpr void __cordl_internal_set__spawnPointsParent(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3be10e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be0d80, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeTimelines, addr 0x3be06d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeTimelines, addr 0x3be0370, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_badgeTimelines();
 
-  /// @brief Method get_resultAvatarDirectors, addr 0x3be06d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resultAvatarDirectors, addr 0x3be0368, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> get_resultAvatarDirectors();
 
 protected:

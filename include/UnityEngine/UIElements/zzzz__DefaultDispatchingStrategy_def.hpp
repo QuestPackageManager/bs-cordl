@@ -28,15 +28,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x4a25758, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x4a253f0, size 0x78, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x4a257d0, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x4a25468, size 0x204, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::DefaultDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a24110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a23da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"

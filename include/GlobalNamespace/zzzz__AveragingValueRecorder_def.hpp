@@ -35,19 +35,19 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
-  /// @brief Method .ctor, addr 0x3b0e93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0e5c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t time);
 
-  /// @brief Method get_time, addr 0x3b0e96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3b0e5f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_value, addr 0x3b0e95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3b0e5e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_time, addr 0x3b0e974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x3b0e600, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_value, addr 0x3b0e964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x3b0e5f0, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
   // Ctor Parameters []
@@ -120,18 +120,18 @@ public:
   /// @brief Field _time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
-  /// @brief Method GetAverageValue, addr 0x3b0e944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAverageValue, addr 0x3b0e5d0, size 0x8, virtual false, abstract: false, final false
   inline float_t GetAverageValue();
 
-  /// @brief Method GetHistoryValues, addr 0x3b0e954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHistoryValues, addr 0x3b0e5e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<float_t>* GetHistoryValues();
 
-  /// @brief Method GetLastValue, addr 0x3b0e94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLastValue, addr 0x3b0e5d8, size 0x8, virtual false, abstract: false, final false
   inline float_t GetLastValue();
 
   static inline ::GlobalNamespace::AveragingValueRecorder* New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
-  /// @brief Method Update, addr 0x3b0e674, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b0e300, size 0x2c8, virtual false, abstract: false, final false
   inline void Update(float_t value, float_t deltaTime);
 
   constexpr float_t const& __cordl_internal_get__averageValue() const;
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set__time(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b0e530, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0e1bc, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 
 protected:

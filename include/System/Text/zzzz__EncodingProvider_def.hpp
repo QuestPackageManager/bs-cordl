@@ -41,19 +41,19 @@ public:
   /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
 
-  /// @brief Method GetEncoding, addr 0x3c7c068, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x3c7bd00, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
 
   /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(::StringW name);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x3c7c164, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x3c7bdfc, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x3c7c31c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x3c7bfb4, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback* enc, ::System::Text::DecoderFallback* dec);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x3c7c240, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x3c7bed8, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW encodingName);
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();

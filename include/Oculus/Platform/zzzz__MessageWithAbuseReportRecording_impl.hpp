@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAbuseReportRecording::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAbuseReportRecording::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7d9ac;
+  constexpr static std::size_t addrs = 0x3f7d644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (::Oculus::Platform::MessageWithAbuseReportRecording::*)()>(
     &::Oculus::Platform::MessageWithAbuseReportRecording::GetAbuseReportRecording)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7da04;
+  constexpr static std::size_t addrs = 0x3f7d69c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (
     ::Oculus::Platform::MessageWithAbuseReportRecording::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAbuseReportRecording::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7da40;
+  constexpr static std::size_t addrs = 0x3f7d6d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

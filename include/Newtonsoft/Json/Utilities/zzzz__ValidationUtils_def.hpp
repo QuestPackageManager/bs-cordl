@@ -22,7 +22,7 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNotNull, addr 0x3ed7cd4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNotNull, addr 0x3ed796c, size 0x4c, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
 
 protected:

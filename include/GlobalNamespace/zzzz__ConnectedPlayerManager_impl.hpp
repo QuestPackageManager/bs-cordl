@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_connection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1040;
+  constexpr static std::size_t addrs = 0x22c10d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_connectionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1048;
+  constexpr static std::size_t addrs = 0x22c10d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_remoteConnectionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1050;
+  constexpr static std::size_t addrs = 0x22c10e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_isConnected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1058;
+  constexpr static std::size_t addrs = 0x22c10e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1060;
+  constexpr static std::size_t addrs = 0x22c10f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_isKicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1068;
+  constexpr static std::size_t addrs = 0x22c10f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_disconnectedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1070;
+  constexpr static std::size_t addrs = 0x22c1100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_sortIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1078;
+  constexpr static std::size_t addrs = 0x22c1108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1080;
+  constexpr static std::size_t addrs = 0x22c1110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1088;
+  constexpr static std::size_t addrs = 0x22c1118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_isMe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1090;
+  constexpr static std::size_t addrs = 0x22c1120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_hasValidLatency)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22c1098;
+  constexpr static std::size_t addrs = 0x22c1128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_currentLatency)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22c10c8;
+  constexpr static std::size_t addrs = 0x22c1158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_offsetSyncTime)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22c1134;
+  constexpr static std::size_t addrs = 0x22c11c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_multiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c1180;
+  constexpr static std::size_t addrs = 0x22c1210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::set_multiplayerAvatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c1194;
+  constexpr static std::size_t addrs = 0x22c1224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_publicEncryptionKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c11a8;
+  constexpr static std::size_t addrs = 0x22c1238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_random)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c11b0;
+  constexpr static std::size_t addrs = 0x22c1240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_isDirectConnection)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22bb7f8;
+  constexpr static std::size_t addrs = 0x22bb888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EncryptionUtility_IEncryptionState* (
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::get_encryptionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c11b8;
+  constexpr static std::size_t addrs = 0x22c1248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConnectedPlayerManager*, uint8_t, uint8_t, ::GlobalNamespace::IConnection*, ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*, ::StringW, ::StringW, bool, bool,
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x22c11c0;
+  constexpr static std::size_t addrs = 0x22c1250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,7 +368,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer* (*)(::GlobalNamespace::ConnectedPlayerManager*, ::StringW, ::StringW, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::CreateLocalPlayer)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22bf26c;
+  constexpr static std::size_t addrs = 0x22bf2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,7 +388,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer* (*)(::GlobalNamespace::ConnectedPlayerManager*, uint8_t, ::GlobalNamespace::IConnection*)>(
         &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::CreateDirectlyConnectedPlayer)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x22bf38c;
+  constexpr static std::size_t addrs = 0x22bf41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*)>(
         &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::CreateRemoteConnectedPlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22c0068;
+  constexpr static std::size_t addrs = 0x22c00f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::GetPlayerConnectedPacket)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22bb694;
+  constexpr static std::size_t addrs = 0x22bb724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::GetPlayerIdentityPacket)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22bb950;
+  constexpr static std::size_t addrs = 0x22bb9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket* (
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::GetPlayerStatePacket)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22bef74;
+  constexpr static std::size_t addrs = 0x22bf004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::GetPlayerAvatarPacket)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22bf068;
+  constexpr static std::size_t addrs = 0x22bf0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::GetPlayerSortOrderPacket)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22bb8e8;
+  constexpr static std::size_t addrs = 0x22bb978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::Disconnect)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x22baf6c;
+  constexpr static std::size_t addrs = 0x22baffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(int64_t)>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::UpdateLatency)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c0f98;
+  constexpr static std::size_t addrs = 0x22c1028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(int32_t)>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::UpdateSortIndex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22bf1d0;
+  constexpr static std::size_t addrs = 0x22bf260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::SetKicked)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22bee88;
+  constexpr static std::size_t addrs = 0x22bef18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket*)>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::UpdateIdentity)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22c02b4;
+  constexpr static std::size_t addrs = 0x22c0344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -577,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket*)>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::UpdateState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c047c;
+  constexpr static std::size_t addrs = 0x22c050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket*)>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::UpdateAvatar)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22c05bc;
+  constexpr static std::size_t addrs = 0x22c064c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(
     ::GlobalNamespace::EncryptionUtility_IEncryptionState*)>(&::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::SetEncryptionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1350;
+  constexpr static std::size_t addrs = 0x22c13e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(::StringW)>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::HasState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c1358;
+  constexpr static std::size_t addrs = 0x22c13e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)(::GlobalNamespace::PlayerStateHash)>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::SetPlayerState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1364;
+  constexpr static std::size_t addrs = 0x22c13f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -652,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer::ToString)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22c136c;
+  constexpr static std::size_t addrs = 0x22c13fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1186,7 +1186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bdea0;
+  constexpr static std::size_t addrs = 0x22bdf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1201,7 +1201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::Serialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22c14e8;
+  constexpr static std::size_t addrs = 0x22c1578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1216,7 +1216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::Deserialize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22c1548;
+  constexpr static std::size_t addrs = 0x22c15d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1231,7 +1231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c012c;
+  constexpr static std::size_t addrs = 0x22c01bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1246,7 +1246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::*)(uint8_t, ::StringW, ::StringW, bool)>(&::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::Init)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c12bc;
+  constexpr static std::size_t addrs = 0x22c134c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1262,7 +1262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c15b0;
+  constexpr static std::size_t addrs = 0x22c1640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1384,7 +1384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bdee0;
+  constexpr static std::size_t addrs = 0x22bdf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1399,7 +1399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::Serialize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22c15b8;
+  constexpr static std::size_t addrs = 0x22c1648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1414,7 +1414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::Deserialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22c1610;
+  constexpr static std::size_t addrs = 0x22c16a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1429,7 +1429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::Release)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22c1690;
+  constexpr static std::size_t addrs = 0x22c1720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1445,7 +1445,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::*)(::GlobalNamespace::PlayerStateHash, ::GlobalNamespace::MultiplayerAvatarsData, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22c12d0;
+  constexpr static std::size_t addrs = 0x22c1360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1463,7 +1463,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22c16fc;
+  constexpr static std::size_t addrs = 0x22c178c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1589,7 +1589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22be020;
+  constexpr static std::size_t addrs = 0x22be0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1604,7 +1604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::Serialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c17dc;
+  constexpr static std::size_t addrs = 0x22c186c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1619,7 +1619,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::Deserialize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22c17e8;
+  constexpr static std::size_t addrs = 0x22c1878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1634,7 +1634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c05e0;
+  constexpr static std::size_t addrs = 0x22c0670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1649,7 +1649,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::*)(::GlobalNamespace::MultiplayerAvatarsData)>(&::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::Init)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c1330;
+  constexpr static std::size_t addrs = 0x22c13c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1664,7 +1664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1828;
+  constexpr static std::size_t addrs = 0x22c18b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1748,7 +1748,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22be060;
+  constexpr static std::size_t addrs = 0x22be0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1763,7 +1763,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::Serialize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c1830;
+  constexpr static std::size_t addrs = 0x22c18c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1778,7 +1778,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c183c;
+  constexpr static std::size_t addrs = 0x22c18cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1793,7 +1793,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c0498;
+  constexpr static std::size_t addrs = 0x22c0528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1808,7 +1808,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::*)(::GlobalNamespace::PlayerStateHash)>(&::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1328;
+  constexpr static std::size_t addrs = 0x22c13b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1823,7 +1823,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c185c;
+  constexpr static std::size_t addrs = 0x22c18ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1907,7 +1907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bdf60;
+  constexpr static std::size_t addrs = 0x22bdff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1922,7 +1922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::Serialize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22c1864;
+  constexpr static std::size_t addrs = 0x22c18f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1937,7 +1937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::Deserialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x22c18a4;
+  constexpr static std::size_t addrs = 0x22c1934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1952,7 +1952,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c0990;
+  constexpr static std::size_t addrs = 0x22c0a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1967,7 +1967,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::*)(::StringW, int32_t)>(&::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c1344;
+  constexpr static std::size_t addrs = 0x22c13d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1982,7 +1982,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c18e8;
+  constexpr static std::size_t addrs = 0x22c1978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2078,7 +2078,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bdf20;
+  constexpr static std::size_t addrs = 0x22bdfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2093,7 +2093,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::*)(::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bf680;
+  constexpr static std::size_t addrs = 0x22bf710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2108,7 +2108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::Serialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c18f0;
+  constexpr static std::size_t addrs = 0x22c1980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2123,7 +2123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c1904;
+  constexpr static std::size_t addrs = 0x22c1994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2138,7 +2138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c06dc;
+  constexpr static std::size_t addrs = 0x22c076c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2153,7 +2153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22c1924;
+  constexpr static std::size_t addrs = 0x22c19b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2238,7 +2238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bdfe0;
+  constexpr static std::size_t addrs = 0x22be070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2253,7 +2253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::*)(::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bee80;
+  constexpr static std::size_t addrs = 0x22bef10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2268,7 +2268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::Serialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c1934;
+  constexpr static std::size_t addrs = 0x22c19c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2283,7 +2283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c1948;
+  constexpr static std::size_t addrs = 0x22c19d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2298,7 +2298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c0810;
+  constexpr static std::size_t addrs = 0x22c08a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2313,7 +2313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1968;
+  constexpr static std::size_t addrs = 0x22c19f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2394,7 +2394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bdfa0;
+  constexpr static std::size_t addrs = 0x22be030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket*>::get(),
@@ -2408,7 +2408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::Serialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c1970;
+  constexpr static std::size_t addrs = 0x22c1a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2423,7 +2423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c1984;
+  constexpr static std::size_t addrs = 0x22c1a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2438,7 +2438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket* (
     ::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::*)(int64_t)>(&::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c0dc8;
+  constexpr static std::size_t addrs = 0x22c0e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2453,7 +2453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c0b24;
+  constexpr static std::size_t addrs = 0x22c0bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket*>::get(),
@@ -2467,7 +2467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c19a4;
+  constexpr static std::size_t addrs = 0x22c1a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket*>::get(),
@@ -2547,7 +2547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PingPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PingPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bb49c;
+  constexpr static std::size_t addrs = 0x22bb52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_PingPacket*>::get(),
@@ -2561,7 +2561,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PingPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PingPacket::Serialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c19ac;
+  constexpr static std::size_t addrs = 0x22c1a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2576,7 +2576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PingPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PingPacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c19c0;
+  constexpr static std::size_t addrs = 0x22c1a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2591,7 +2591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PingPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PingPacket::*)(int64_t)>(&::GlobalNamespace::ConnectedPlayerManager_PingPacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bb5a8;
+  constexpr static std::size_t addrs = 0x22bb638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2606,7 +2606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PingPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PingPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c0d6c;
+  constexpr static std::size_t addrs = 0x22c0dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_PingPacket*>::get(),
@@ -2620,7 +2620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PingPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PingPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c19e0;
+  constexpr static std::size_t addrs = 0x22c1a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_PingPacket*>::get(),
@@ -2700,7 +2700,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::ConnectedPlayerManager_PongPacket*>* (*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PongPacket::get_pool)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22be0a0;
+  constexpr static std::size_t addrs = 0x22be130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_PongPacket*>::get(),
@@ -2714,7 +2714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PongPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PongPacket::Serialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c19e8;
+  constexpr static std::size_t addrs = 0x22c1a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2729,7 +2729,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PongPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ConnectedPlayerManager_PongPacket::Deserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c19fc;
+  constexpr static std::size_t addrs = 0x22c1a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2744,7 +2744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_PongPacket* (
     ::GlobalNamespace::ConnectedPlayerManager_PongPacket::*)(int64_t)>(&::GlobalNamespace::ConnectedPlayerManager_PongPacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c0dc0;
+  constexpr static std::size_t addrs = 0x22c0e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2759,7 +2759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PongPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PongPacket::Release)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22c0f44;
+  constexpr static std::size_t addrs = 0x22c0fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_PongPacket*>::get(),
@@ -2773,7 +2773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager_PongPacket::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager_PongPacket::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c1a1c;
+  constexpr static std::size_t addrs = 0x22c1aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager_PongPacket*>::get(),
@@ -2853,7 +2853,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager__InitializePlayerEncryption_d__132::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager__InitializePlayerEncryption_d__132::MoveNext)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x22c1a24;
+  constexpr static std::size_t addrs = 0x22c1ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2868,7 +2868,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager__InitializePlayerEncryption_d__132::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::ConnectedPlayerManager__InitializePlayerEncryption_d__132::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c2068;
+  constexpr static std::size_t addrs = 0x22c20f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2925,7 +2925,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::GetNextConnectionId)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bad18;
+  constexpr static std::size_t addrs = 0x22bada8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -2939,7 +2939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::ConnectedPlayerManager::RemoveAllPlayers)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22bae1c;
+  constexpr static std::size_t addrs = 0x22baeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2954,7 +2954,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*, ::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::ConnectedPlayerManager::RemovePlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22baea8;
+  constexpr static std::size_t addrs = 0x22baf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2970,7 +2970,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*)>(
     &::GlobalNamespace::ConnectedPlayerManager::AddPlayer)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x22bb204;
+  constexpr static std::size_t addrs = 0x22bb294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2985,7 +2985,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer* (::GlobalNamespace::ConnectedPlayerManager::*)(uint8_t)>(
     &::GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22bad58;
+  constexpr static std::size_t addrs = 0x22bade8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3000,7 +3000,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer* (
     ::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::IConnection*, uint8_t)>(&::GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22bbac0;
+  constexpr static std::size_t addrs = 0x22bbb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3016,7 +3016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer* (::GlobalNamespace::ConnectedPlayerManager::*)(::StringW)>(
     &::GlobalNamespace::ConnectedPlayerManager::GetPlayer)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22bbbb4;
+  constexpr static std::size_t addrs = 0x22bbc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3031,7 +3031,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::ConnectedPlayerManager::*)(int32_t)>(
     &::GlobalNamespace::ConnectedPlayerManager::GetConnectedPlayer)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22bbc80;
+  constexpr static std::size_t addrs = 0x22bbd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3046,7 +3046,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_connectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22bbcd8;
+  constexpr static std::size_t addrs = 0x22bbd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3061,7 +3061,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_connectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22bbd74;
+  constexpr static std::size_t addrs = 0x22bbe04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3076,7 +3076,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_initializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22bbe10;
+  constexpr static std::size_t addrs = 0x22bbea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3091,7 +3091,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_initializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22bbeac;
+  constexpr static std::size_t addrs = 0x22bbf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3106,7 +3106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_disconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bbf48;
+  constexpr static std::size_t addrs = 0x22bbfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3121,7 +3121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_disconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bbff8;
+  constexpr static std::size_t addrs = 0x22bc088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3136,7 +3136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_connectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc0a8;
+  constexpr static std::size_t addrs = 0x22bc138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3151,7 +3151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_connectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc158;
+  constexpr static std::size_t addrs = 0x22bc1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3166,7 +3166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_playerConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc208;
+  constexpr static std::size_t addrs = 0x22bc298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3181,7 +3181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_playerConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc2b8;
+  constexpr static std::size_t addrs = 0x22bc348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3196,7 +3196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_playerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc368;
+  constexpr static std::size_t addrs = 0x22bc3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3211,7 +3211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_playerDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc418;
+  constexpr static std::size_t addrs = 0x22bc4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3226,7 +3226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_playerStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc4c8;
+  constexpr static std::size_t addrs = 0x22bc558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3241,7 +3241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_playerStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc578;
+  constexpr static std::size_t addrs = 0x22bc608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3256,7 +3256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_playerAvatarChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc628;
+  constexpr static std::size_t addrs = 0x22bc6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3271,7 +3271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_playerAvatarChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc6d8;
+  constexpr static std::size_t addrs = 0x22bc768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3286,7 +3286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_playerOrderChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc788;
+  constexpr static std::size_t addrs = 0x22bc818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3301,7 +3301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_playerOrderChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc838;
+  constexpr static std::size_t addrs = 0x22bc8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3316,7 +3316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_playerLatencyInitializedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc8e8;
+  constexpr static std::size_t addrs = 0x22bc978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3331,7 +3331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_playerLatencyInitializedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22bc998;
+  constexpr static std::size_t addrs = 0x22bca28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3346,7 +3346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action*)>(
     &::GlobalNamespace::ConnectedPlayerManager::add_syncTimeInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22bca48;
+  constexpr static std::size_t addrs = 0x22bcad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3361,7 +3361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::System::Action*)>(
     &::GlobalNamespace::ConnectedPlayerManager::remove_syncTimeInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22bcae4;
+  constexpr static std::size_t addrs = 0x22bcb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3376,7 +3376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22bcb80;
+  constexpr static std::size_t addrs = 0x22bcc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3390,7 +3390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_isConnectedOrConnecting)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22bcc24;
+  constexpr static std::size_t addrs = 0x22bccb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3403,7 +3403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager::*)()>(&::GlobalNamespace::ConnectedPlayerManager::get_isConnected)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22bb0b4;
+  constexpr static std::size_t addrs = 0x22bb144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3417,7 +3417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_isConnecting)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22bcc4c;
+  constexpr static std::size_t addrs = 0x22bccdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3431,7 +3431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22bccf0;
+  constexpr static std::size_t addrs = 0x22bcd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3445,7 +3445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnectedPlayer* (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_localPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bcd94;
+  constexpr static std::size_t addrs = 0x22bce24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3459,7 +3459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_connectedPlayerCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22bcd9c;
+  constexpr static std::size_t addrs = 0x22bce2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3472,7 +3472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::ConnectedPlayerManager::*)()>(&::GlobalNamespace::ConnectedPlayerManager::get_syncTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22bcde4;
+  constexpr static std::size_t addrs = 0x22bce74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3486,7 +3486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::get_syncTimeInitialized)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22bce0c;
+  constexpr static std::size_t addrs = 0x22bce9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3499,7 +3499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::ConnectedPlayerManager::*)()>(&::GlobalNamespace::ConnectedPlayerManager::get_runTime)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22bb4dc;
+  constexpr static std::size_t addrs = 0x22bb56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(), "get_runTime",
@@ -3513,7 +3513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::IConnectionManager*)>(
     &::GlobalNamespace::ConnectedPlayerManager::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22bce40;
+  constexpr static std::size_t addrs = 0x22bced0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3528,7 +3528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IConnectionManager*)>(&::GlobalNamespace::ConnectedPlayerManager::_ctor)> {
   constexpr static std::size_t size = 0xfb8;
-  constexpr static std::size_t addrs = 0x22bcee8;
+  constexpr static std::size_t addrs = 0x22bcf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3545,7 +3545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(int32_t)>(
     &::GlobalNamespace::ConnectedPlayerManager::PollUpdate)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22be428;
+  constexpr static std::size_t addrs = 0x22be4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3560,7 +3560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::PollLateUpdateOptional)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22be748;
+  constexpr static std::size_t addrs = 0x22be7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3575,7 +3575,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConnectedPlayerManager_MessageType, ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::RegisterSerializer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22be774;
+  constexpr static std::size_t addrs = 0x22be804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3592,7 +3592,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConnectedPlayerManager_MessageType, ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::ConnectedPlayerManager::UnregisterSerializer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22be7dc;
+  constexpr static std::size_t addrs = 0x22be86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3607,7 +3607,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(&::GlobalNamespace::ConnectedPlayerManager::Dispose)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x22be844;
+  constexpr static std::size_t addrs = 0x22be8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(), "Dispose",
@@ -3621,7 +3621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::ConnectedPlayerManager::Disconnect)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22bb158;
+  constexpr static std::size_t addrs = 0x22bb1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3636,7 +3636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::StringW, ::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::ConnectedPlayerManager::KickPlayer)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22bedb4;
+  constexpr static std::size_t addrs = 0x22bee44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3652,7 +3652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::StringW, bool)>(
     &::GlobalNamespace::ConnectedPlayerManager::SetLocalPlayerState)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22bee94;
+  constexpr static std::size_t addrs = 0x22bef24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3667,7 +3667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::ConnectedPlayerManager::SetLocalPlayerAvatar)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22befd4;
+  constexpr static std::size_t addrs = 0x22bf064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3682,7 +3682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(int32_t)>(
     &::GlobalNamespace::ConnectedPlayerManager::SetLocalPlayerSortIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22bf0e8;
+  constexpr static std::size_t addrs = 0x22bf178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3697,7 +3697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::IConnectedPlayer*, int32_t)>(
     &::GlobalNamespace::ConnectedPlayerManager::SetPlayerSortIndex)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x22bf0f8;
+  constexpr static std::size_t addrs = 0x22bf188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3712,7 +3712,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(&::GlobalNamespace::ConnectedPlayerManager::ResetLocalState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22be0e0;
+  constexpr static std::size_t addrs = 0x22be170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3726,7 +3726,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::HandleInitialized)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22bf1ec;
+  constexpr static std::size_t addrs = 0x22bf27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3739,7 +3739,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(&::GlobalNamespace::ConnectedPlayerManager::HandleConnected)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x22be108;
+  constexpr static std::size_t addrs = 0x22be198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3753,7 +3753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::ConnectedPlayerManager::HandleDisconnected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22bf324;
+  constexpr static std::size_t addrs = 0x22bf3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3768,7 +3768,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::ConnectedPlayerManager::HandleConnectionFailed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22bf370;
+  constexpr static std::size_t addrs = 0x22bf400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3783,7 +3783,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::IConnection*)>(
     &::GlobalNamespace::ConnectedPlayerManager::HandleConnectionConnected)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22be3f0;
+  constexpr static std::size_t addrs = 0x22be480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3798,7 +3798,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::ConnectedPlayerManager::HandleConnectionDisconnected)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x22bf568;
+  constexpr static std::size_t addrs = 0x22bf5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3814,7 +3814,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::ConnectedPlayerManager::HandleNetworkReceive)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x22bf774;
+  constexpr static std::size_t addrs = 0x22bf804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3831,7 +3831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::LiteNetLib::Utils::INetSerializable*, bool)>(
     &::GlobalNamespace::ConnectedPlayerManager::SendImmediately)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22bb5b0;
+  constexpr static std::size_t addrs = 0x22bb640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3847,7 +3847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::LiteNetLib::Utils::INetSerializable*, ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*, bool)>(&::GlobalNamespace::ConnectedPlayerManager::SendImmediatelyExcludingPlayer)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22bb704;
+  constexpr static std::size_t addrs = 0x22bb794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3864,7 +3864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::LiteNetLib::Utils::INetSerializable*, ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::SendImmediatelyToPlayer)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22bb808;
+  constexpr static std::size_t addrs = 0x22bb898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3880,7 +3880,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::LiteNetLib::Utils::INetSerializable*, ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*, bool)>(&::GlobalNamespace::ConnectedPlayerManager::SendImmediatelyFromPlayer)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22bf688;
+  constexpr static std::size_t addrs = 0x22bf718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3898,7 +3898,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::LiteNetLib::Utils::INetSerializable*, ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*, ::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*)>(
     &::GlobalNamespace::ConnectedPlayerManager::SendImmediatelyFromPlayerToPlayer)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22bb9e0;
+  constexpr static std::size_t addrs = 0x22bba70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3915,7 +3915,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::FlushReliableQueue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x22be590;
+  constexpr static std::size_t addrs = 0x22be620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3929,7 +3929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)()>(
     &::GlobalNamespace::ConnectedPlayerManager::FlushUnreliableQueue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x22be66c;
+  constexpr static std::size_t addrs = 0x22be6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectedPlayerManager*>::get(),
@@ -3943,7 +3943,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (
     ::GlobalNamespace::ConnectedPlayerManager::*)(uint8_t, uint8_t, ::LiteNetLib::Utils::INetSerializable*)>(&::GlobalNamespace::ConnectedPlayerManager::WriteOne)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22bfc74;
+  constexpr static std::size_t addrs = 0x22bfd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3960,7 +3960,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::EncryptionUtility_IEncryptionState*, uint8_t, uint8_t, ::LiteNetLib::Utils::INetSerializable*)>(
     &::GlobalNamespace::ConnectedPlayerManager::WriteOneEncrypted)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x22bfdd8;
+  constexpr static std::size_t addrs = 0x22bfe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3977,7 +3977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (
     ::GlobalNamespace::ConnectedPlayerManager::*)(uint8_t, ::LiteNetLib::Utils::INetSerializable*)>(&::GlobalNamespace::ConnectedPlayerManager::WriteOneOnlyToFirstDegreeConnections)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22bff3c;
+  constexpr static std::size_t addrs = 0x22bffcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3993,7 +3993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::LiteNetLib::Utils::NetDataWriter*, ::LiteNetLib::Utils::INetSerializable*)>(&::GlobalNamespace::ConnectedPlayerManager::Write)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22bfce0;
+  constexpr static std::size_t addrs = 0x22bfd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4009,7 +4009,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerConnectedPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandleServerPlayerConnected)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22bff9c;
+  constexpr static std::size_t addrs = 0x22c002c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4025,7 +4025,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerIdentityPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandlePlayerIdentityUpdate)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x22c0180;
+  constexpr static std::size_t addrs = 0x22c0210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4041,7 +4041,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::GlobalNamespace::ConnectedPlayerManager_ConnectedPlayer*)>(
     &::GlobalNamespace::ConnectedPlayerManager::InitializePlayerEncryption)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22c0318;
+  constexpr static std::size_t addrs = 0x22c03a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4056,7 +4056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerStatePacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandlePlayerStateUpdate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22c03b4;
+  constexpr static std::size_t addrs = 0x22c0444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4072,7 +4072,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerAvatarPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandlePlayerAvatarUpdate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x22c04ec;
+  constexpr static std::size_t addrs = 0x22c057c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4088,7 +4088,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerDisconnectedPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandleServerPlayerDisconnected)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22c0634;
+  constexpr static std::size_t addrs = 0x22c06c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4104,7 +4104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_KickPlayerPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandleKickPlayerPacket)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22c0730;
+  constexpr static std::size_t addrs = 0x22c07c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4120,7 +4120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PlayerSortOrderPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandlePlayerSortOrderUpdate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x22c0864;
+  constexpr static std::size_t addrs = 0x22c08f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4136,7 +4136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_SyncTimePacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandleSyncTimePacket)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x22c09e4;
+  constexpr static std::size_t addrs = 0x22c0a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4152,7 +4152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PingPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandlePing)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x22c0b78;
+  constexpr static std::size_t addrs = 0x22c0c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4168,7 +4168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(
     ::GlobalNamespace::ConnectedPlayerManager_PongPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerManager::HandlePong)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x22c0dd0;
+  constexpr static std::size_t addrs = 0x22c0e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4183,7 +4183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectedPlayerManager::*)(::StringW)>(&::GlobalNamespace::ConnectedPlayerManager::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22c0fb4;
+  constexpr static std::size_t addrs = 0x22c1044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

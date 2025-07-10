@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7bcd4;
+  constexpr static std::size_t addrs = 0x3f7b96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (
     ::Oculus::Platform::MessageWithAppDownloadProgressResult::*)()>(&::Oculus::Platform::MessageWithAppDownloadProgressResult::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7dd44;
+  constexpr static std::size_t addrs = 0x3f7d9dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (
     ::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAppDownloadProgressResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7dd80;
+  constexpr static std::size_t addrs = 0x3f7da18;
 
   inline static ::MethodInfo const* methodInfo() {
 

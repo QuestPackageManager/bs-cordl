@@ -49,50 +49,50 @@ public:
   /// @brief Field reuseSameInstance, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_reuseSameInstance, put = setStaticF_reuseSameInstance)) bool reuseSameInstance;
 
-  /// @brief Method CreateOrGet, addr 0x404ea7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateOrGet, addr 0x404e714, size 0x8c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNull* CreateOrGet();
 
-  /// @brief Method Equals, addr 0x4054000, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4053c98, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x4053f9c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4053c34, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x405408c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4053d24, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OVRSimpleJSON::JSONNull* New_ctor();
 
-  /// @brief Method WriteToStringBuilder, addr 0x4054094, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x4053d2c, size 0x54, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
-  /// @brief Method .ctor, addr 0x4053f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4053c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OVRSimpleJSON::JSONNull* getStaticF_m_StaticInstance();
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method get_AsBool, addr 0x4053ff4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x4053c8c, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method get_IsNull, addr 0x4053f94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x4053c2c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Tag, addr 0x4053f8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x4053c24, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x4053fb0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4053c48, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_m_StaticInstance(::OVRSimpleJSON::JSONNull* value);
 
   static inline void setStaticF_reuseSameInstance(bool value);
 
-  /// @brief Method set_AsBool, addr 0x4053ffc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x4053c94, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method set_Value, addr 0x4053ff0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x4053c88, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

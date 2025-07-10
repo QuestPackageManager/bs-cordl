@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetKeyString__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecb0c;
+  constexpr static std::size_t addrs = 0x48ec7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetKeyUpString__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecb50;
+  constexpr static std::size_t addrs = 0x48ec7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetKeyDownString__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecb94;
+  constexpr static std::size_t addrs = 0x48ec82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::StringW)>(&::UnityEngine::Internal::InputUnsafeUtility::GetAxis)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48eb0ac;
+  constexpr static std::size_t addrs = 0x48ead44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetAxis__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecbd8;
+  constexpr static std::size_t addrs = 0x48ec870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::StringW)>(&::UnityEngine::Internal::InputUnsafeUtility::GetAxisRaw)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48eb124;
+  constexpr static std::size_t addrs = 0x48eadbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetAxisRaw__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecc1c;
+  constexpr static std::size_t addrs = 0x48ec8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::Internal::InputUnsafeUtility::GetButton)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48eb19c;
+  constexpr static std::size_t addrs = 0x48eae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetButton__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecc60;
+  constexpr static std::size_t addrs = 0x48ec8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::Internal::InputUnsafeUtility::GetButtonDown)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48eb214;
+  constexpr static std::size_t addrs = 0x48eaeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetButtonDown__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecca4;
+  constexpr static std::size_t addrs = 0x48ec93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::UnityEngine::Internal::InputUnsafeUtility::GetButtonUp__Unmanaged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ecce8;
+  constexpr static std::size_t addrs = 0x48ec980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

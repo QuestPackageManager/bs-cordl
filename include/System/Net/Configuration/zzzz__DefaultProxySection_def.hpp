@@ -28,13 +28,13 @@ public:
 
   static inline ::System::Net::Configuration::DefaultProxySection* New_ctor();
 
-  /// @brief Method Reset, addr 0x440767c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4407314, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method .ctor, addr 0x440760c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44072a4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x4407644, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x44072dc, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

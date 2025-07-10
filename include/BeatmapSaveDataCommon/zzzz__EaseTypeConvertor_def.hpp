@@ -24,7 +24,7 @@ namespace BeatmapSaveDataCommon {
 class CORDL_TYPE EaseTypeConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x270b450, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270b0dc, size 0x24, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataCommon::EaseType Convert(::GlobalNamespace::EaseType easeType);
 
 protected:

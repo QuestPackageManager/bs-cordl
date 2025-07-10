@@ -21,12 +21,12 @@ public:
   /// @brief Field disableUpdateAlways, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_disableUpdateAlways, put = setStaticF_disableUpdateAlways)) bool disableUpdateAlways;
 
-  /// @brief Method LateUpdate, addr 0x39d8e80, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39d8b0c, size 0x2d4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BloomPrePassLightsUpdateSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39d9154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d8de0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_disableUpdateAlways();

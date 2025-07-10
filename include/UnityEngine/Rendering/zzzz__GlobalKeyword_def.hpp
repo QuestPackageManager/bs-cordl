@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GlobalKeyword {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x48cb368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48cb000, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

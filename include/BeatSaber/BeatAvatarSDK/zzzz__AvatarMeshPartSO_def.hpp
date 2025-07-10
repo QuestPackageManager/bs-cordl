@@ -25,10 +25,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225b278, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225b308, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x225b23c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x225b2cc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

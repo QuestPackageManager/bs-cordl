@@ -40,22 +40,22 @@ public:
   /// @brief Field mPskIdentityManager, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_mPskIdentityManager, put = __cordl_internal_set_mPskIdentityManager)) ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* mPskIdentityManager;
 
-  /// @brief Method CreatePskKeyExchange, addr 0x2418d04, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CreatePskKeyExchange, addr 0x2418d94, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
 
-  /// @brief Method GetCipherSuites, addr 0x2418b00, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetCipherSuites, addr 0x2418b90, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetCredentials, addr 0x2418b70, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetCredentials, addr 0x2418c00, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
 
-  /// @brief Method GetDHParameters, addr 0x2418aa8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetDHParameters, addr 0x2418b38, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetDHParameters();
 
-  /// @brief Method GetKeyExchange, addr 0x2418c44, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetKeyExchange, addr 0x2418cd4, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method GetRsaEncryptionCredentials, addr 0x2418a6c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetRsaEncryptionCredentials, addr 0x2418afc, size 0x3c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* GetRsaEncryptionCredentials();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_mPskIdentityManager(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* value);
 
-  /// @brief Method .ctor, addr 0x2418a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2418ad4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
-  /// @brief Method .ctor, addr 0x24189d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2418a60, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
 
 protected:

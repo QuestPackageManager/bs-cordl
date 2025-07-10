@@ -33,13 +33,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x4856df8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4856a90, size 0xb4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationPosePlayable other);
 
-  /// @brief Method GetHandle, addr 0x4856dec, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4856a84, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x4856cfc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4856994, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationPosePlayable getStaticF_m_NullPlayable();

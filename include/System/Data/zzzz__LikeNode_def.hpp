@@ -41,10 +41,10 @@ public:
   /// @brief Field _pattern, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__pattern, put = __cordl_internal_set__pattern)) ::StringW _pattern;
 
-  /// @brief Method AnalyzePattern, addr 0x4177ff0, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method AnalyzePattern, addr 0x4177c88, size 0x2e0, virtual false, abstract: false, final false
   inline ::StringW AnalyzePattern(::StringW pat);
 
-  /// @brief Method Eval, addr 0x4177a9c, size 0x554, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x4177734, size 0x554, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::LikeNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__pattern(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4177a58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41776f0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* left, ::System::Data::ExpressionNode* right);
 
 protected:

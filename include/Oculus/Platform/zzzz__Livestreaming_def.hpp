@@ -24,7 +24,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Livestreaming : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f8b560, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f8b1f8, size 0x74, virtual false, abstract: false, final false
   static inline void SetStatusUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback);
 
 protected:

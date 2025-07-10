@@ -86,7 +86,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x231c414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231c4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_bsi_de();

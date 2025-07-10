@@ -41,25 +41,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>*();
 
-  /// @brief Method Deserialize, addr 0x2726b94, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x2726820, size 0x64, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x2726d3c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27269c8, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2726c00, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x272688c, size 0x13c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::ColorSerializable other);
 
-  /// @brief Method GetHashCode, addr 0x2726db8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2726a44, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x2726b34, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x27267c0, size 0x60, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToString, addr 0x2726e3c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2726ac8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2726b28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27267b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -68,10 +68,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::ColorSerializable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>* i___System__IEquatable_1___GlobalNamespace__ColorSerializable_();
 
-  /// @brief Method op_Implicit, addr 0x2726bfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2726888, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorSerializable op_Implicit___GlobalNamespace__ColorSerializable(::UnityEngine::Color c);
 
-  /// @brief Method op_Implicit, addr 0x2726bf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2726884, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSerializable c);
 
   // Ctor Parameters []

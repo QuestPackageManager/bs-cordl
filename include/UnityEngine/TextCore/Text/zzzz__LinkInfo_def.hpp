@@ -23,13 +23,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkId, addr 0x492dfc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLinkId, addr 0x492dc5c, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetLinkId();
 
-  /// @brief Method GetLinkText, addr 0x492decc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x492db64, size 0xf8, virtual false, abstract: false, final false
   inline ::StringW GetLinkText(::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SetLinkId, addr 0x492ddf0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkId, addr 0x492da88, size 0xdc, virtual false, abstract: false, final false
   inline void SetLinkId(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []

@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_recordVRMovement(bool value);
 
-  /// @brief Method .ctor, addr 0x3b39f0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b39b98, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool recordVRMovement, bool playVRMovement, ::ByRef<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
 protected:

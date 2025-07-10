@@ -49,12 +49,12 @@ namespace UnityEngine {
 class CORDL_TYPE TerrainCallbacks_HeightmapChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x491c8e8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x491c580, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched);
 
   static inline ::UnityEngine::TerrainCallbacks_HeightmapChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x491c848, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491c4e0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -87,12 +87,12 @@ namespace UnityEngine {
 class CORDL_TYPE TerrainCallbacks_TextureChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x491c9a0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x491c638, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::TerrainCallbacks_TextureChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x491c900, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491c598, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -135,10 +135,10 @@ public:
   /// @brief Field textureChanged, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textureChanged, put = setStaticF_textureChanged)) ::UnityEngine::TerrainCallbacks_TextureChangedCallback* textureChanged;
 
-  /// @brief Method InvokeHeightmapChangedCallback, addr 0x491c5e4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method InvokeHeightmapChangedCallback, addr 0x491c27c, size 0x10c, virtual false, abstract: false, final false
   static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
 
-  /// @brief Method InvokeTextureChangedCallback, addr 0x491c72c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method InvokeTextureChangedCallback, addr 0x491c3c4, size 0x11c, virtual false, abstract: false, final false
   static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::TerrainCallbacks_HeightmapChangedCallback* getStaticF_heightmapChanged();

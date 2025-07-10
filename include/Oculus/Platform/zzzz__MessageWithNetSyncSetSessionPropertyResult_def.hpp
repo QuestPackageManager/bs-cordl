@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncSetSessionPropertyResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7feb0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7fb48, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x3f7fe74, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x3f7fb0c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();
 
   static inline ::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7fe1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7fab4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

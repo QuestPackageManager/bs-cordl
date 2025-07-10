@@ -124,18 +124,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406c3d4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c06c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRSettingsError eError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406c458, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406c0f0, size 0x28, virtual true, abstract: false, final false
   inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c3c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c058, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRSettingsError eError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetSettingsErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406c334, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406bfcc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -168,18 +168,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__Sync : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406c524, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c1bc, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406c5e4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406c27c, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c50c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c1a4, size 0x18, virtual true, abstract: false, final false
   inline bool Invoke(bool bForce, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__Sync* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406c480, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406c118, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -212,19 +212,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406c6c8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c360, size 0xd4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406c79c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406c434, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c6b0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c348, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406c610, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406c2a8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -257,19 +257,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406c86c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c504, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406c93c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406c5d4, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c858, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c4f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406c7b8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406c450, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -302,19 +302,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406ca0c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c6a4, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406cadc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406c774, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c9f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c690, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406c958, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406c5f0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -347,19 +347,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__SetString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406cbac, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c844, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406cc54, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406c8ec, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406cb98, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c830, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__SetString* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406caf8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406c790, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -392,19 +392,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406cd24, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406c9bc, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406cdc4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406ca5c, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406cd10, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406c9a8, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetBool* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406cc70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406c908, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -437,19 +437,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406cea4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406cb3c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406cf44, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406cbdc, size 0x2c, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406ce90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406cb28, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetInt32* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406cdf0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406ca88, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -482,19 +482,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406d024, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406ccbc, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406d0c4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406cd5c, size 0x2c, virtual true, abstract: false, final false
   inline float_t EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406d010, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406cca8, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetFloat* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406cf70, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406cc08, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -527,19 +527,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__GetString : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406d1a4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406ce3c, size 0xdc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen,
                                              ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406d280, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406cf18, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406d190, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406ce28, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__GetString* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406d0f0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406cd88, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -572,18 +572,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__RemoveSection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406d350, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406cfe8, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406d3e4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406d07c, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406d33c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406cfd4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__RemoveSection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406d29c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406cf34, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -616,19 +616,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRSettings__RemoveKeyInSection : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406d4b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406d14c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406d554, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406d1ec, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(::ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406d4a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406d138, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
   static inline ::OVR::OpenVR::IVRSettings__RemoveKeyInSection* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406d400, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406d098, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

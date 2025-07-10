@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRComposition::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3f9779c;
+  constexpr static std::size_t addrs = 0x3f97434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)()>(&::GlobalNamespace::OVRComposition::RecenterPose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f97988;
+  constexpr static std::size_t addrs = 0x3f97620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)(::UnityEngine::GameObject*, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRComposition::RefreshCameraRig)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3f977d0;
+  constexpr static std::size_t addrs = 0x3f97468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(
     ::GlobalNamespace::OVRPlugin_CameraExtrinsics, ::UnityEngine::Camera*)>(&::GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f9798c;
+  constexpr static std::size_t addrs = 0x3f97624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(::GlobalNamespace::OVRPlugin_CameraExtrinsics)>(
     &::GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3f979f4;
+  constexpr static std::size_t addrs = 0x3f9768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

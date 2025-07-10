@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set_g(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27096f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2709384, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId);
 
   /// @brief Method get_baseEventBoxes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* get_baseEventBoxes();
 
-  /// @brief Method get_groupId, addr 0x27096f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x270937c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
 protected:

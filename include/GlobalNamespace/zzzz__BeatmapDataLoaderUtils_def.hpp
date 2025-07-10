@@ -30,11 +30,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataLoaderUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEnvironmentKeywords, addr 0x26b9724, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentKeywords, addr 0x26b9370, size 0x14c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentKeywords* GetEnvironmentKeywords(::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion);
 
-  /// @brief Method GetEnvironmentLightGroups, addr 0x26b9870, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentLightGroups, addr 0x26b94bc, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IEnvironmentLightGroups* GetEnvironmentLightGroups(::GlobalNamespace::IEnvironmentInfo* environmentInfo);
 
 protected:

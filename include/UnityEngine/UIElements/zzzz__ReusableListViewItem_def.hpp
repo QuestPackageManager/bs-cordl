@@ -32,24 +32,24 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x497edc8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x497ea60, size 0x8c, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x49767ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4976444, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x497ed3c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x497e9d4, size 0x8c, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetDragGhost, addr 0x497ee54, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetDragGhost, addr 0x497eaec, size 0xfc, virtual true, abstract: false, final false
   inline void SetDragGhost(bool dragGhost);
 
-  /// @brief Method UpdateDragHandle, addr 0x4976da4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method UpdateDragHandle, addr 0x4976a3c, size 0x144, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x497eaec, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x497e784, size 0x250, virtual false, abstract: false, final false
   inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x497ef50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497ebe8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x497ead4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x497e76c, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:

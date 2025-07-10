@@ -23,10 +23,10 @@ public:
 
   __declspec(property(get = get_ligatureGlyphID)) uint32_t ligatureGlyphID;
 
-  /// @brief Method get_componentGlyphIDs, addr 0x4923924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentGlyphIDs, addr 0x49235bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_componentGlyphIDs();
 
-  /// @brief Method get_ligatureGlyphID, addr 0x492392c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ligatureGlyphID, addr 0x49235c4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_ligatureGlyphID();
 
   // Ctor Parameters []

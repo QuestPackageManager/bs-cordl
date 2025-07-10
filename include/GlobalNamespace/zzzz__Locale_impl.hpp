@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::Locale::GetText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c550a4;
+  constexpr static std::size_t addrs = 0x3c303ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::GlobalNamespace::Locale::GetText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c550a8;
+  constexpr static std::size_t addrs = 0x3c303f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

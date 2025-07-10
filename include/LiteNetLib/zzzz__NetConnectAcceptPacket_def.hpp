@@ -31,10 +31,10 @@ public:
   /// @brief Field IsReusedPeer, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_IsReusedPeer, put = __cordl_internal_set_IsReusedPeer)) bool IsReusedPeer;
 
-  /// @brief Method FromData, addr 0x3ab3824, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x3ab34b0, size 0xdc, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x3ab68e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x3ab656c, size 0xbc, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_IsReusedPeer(bool value);
 
-  /// @brief Method .ctor, addr 0x3ab68a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab652c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
 protected:

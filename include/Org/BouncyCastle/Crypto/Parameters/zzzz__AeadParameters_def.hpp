@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetAssociatedText, addr 0x23b8488, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssociatedText, addr 0x23b8518, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAssociatedText();
 
-  /// @brief Method GetNonce, addr 0x23b8490, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNonce, addr 0x23b8520, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNonce();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::AeadParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_nonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23b83f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b8484, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor, addr 0x23b8434, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b84c4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method get_Key, addr 0x23b8478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x23b8508, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_MacSize, addr 0x23b8480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacSize, addr 0x23b8510, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MacSize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

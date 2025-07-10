@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x44f2348, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f1fe0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

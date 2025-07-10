@@ -43,28 +43,28 @@ public:
 
   __declspec(property(get = get_visualMode)) ::UnityEngine::UIElements::DragVisualMode visualMode;
 
-  /// @brief Method SetGenericData, addr 0x4a1a7e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetGenericData, addr 0x4a1a480, size 0x90, virtual false, abstract: false, final false
   inline void SetGenericData(::StringW key, ::System::Object* data);
 
-  /// @brief Method .ctor, addr 0x4a188c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a18560, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::UnityEngine::UIElements::DragVisualMode visualMode);
 
-  /// @brief Method get_genericData, addr 0x4a1a7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_genericData, addr 0x4a1a460, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_genericData();
 
-  /// @brief Method get_title, addr 0x4a1a7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x4a1a450, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_unityObjectReferences, addr 0x4a1a7d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unityObjectReferences, addr 0x4a1a470, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* get_unityObjectReferences();
 
-  /// @brief Method get_visualMode, addr 0x4a1a7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualMode, addr 0x4a1a458, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode get_visualMode();
 
-  /// @brief Method set_genericData, addr 0x4a1a7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_genericData, addr 0x4a1a468, size 0x8, virtual false, abstract: false, final false
   inline void set_genericData(::System::Collections::Hashtable* value);
 
-  /// @brief Method set_unityObjectReferences, addr 0x4a1a7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unityObjectReferences, addr 0x4a1a478, size 0x8, virtual false, abstract: false, final false
   inline void set_unityObjectReferences(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
   // Ctor Parameters []

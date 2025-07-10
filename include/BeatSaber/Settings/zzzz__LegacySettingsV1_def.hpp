@@ -171,7 +171,7 @@ public:
   /// @brief Field windowResolutionWidth, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_windowResolutionWidth, put = __cordl_internal_set_windowResolutionWidth)) int32_t windowResolutionWidth;
 
-  /// @brief Method ApplyTo, addr 0x227cda4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x227ce34, size 0x1c0, virtual false, abstract: false, final false
   inline void ApplyTo(::ByRef<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV1* New_ctor();
@@ -470,7 +470,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolutionWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x227cf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227cff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method UpdateVertexPathByBezierPath, addr 0x3b31864, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateVertexPathByBezierPath, addr 0x3b314f0, size 0x20, virtual false, abstract: false, final false
   inline void UpdateVertexPathByBezierPath();
 
   constexpr ::GlobalNamespace::BezierPath* const& __cordl_internal_get__bezierPath() const;
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath* value);
 
-  /// @brief Method .ctor, addr 0x3b311fc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b30e88, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method get_bezierPath, addr 0x3b311ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bezierPath, addr 0x3b30e78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BezierPath* get_bezierPath();
 
-  /// @brief Method get_vertexPath, addr 0x3b311f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexPath, addr 0x3b30e80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VertexPath* get_vertexPath();
 
 protected:

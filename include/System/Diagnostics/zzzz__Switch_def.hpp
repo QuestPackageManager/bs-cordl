@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_switchValueString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x442b158, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442adf0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x442b27c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442af14, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches, addr 0x442b4b4, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method _pruneCachedSwitches, addr 0x442b14c, size 0x4dc, virtual false, abstract: false, final false
   static inline void _pruneCachedSwitches();
 
   static inline int32_t getStaticF_s_LastCollectionCount();

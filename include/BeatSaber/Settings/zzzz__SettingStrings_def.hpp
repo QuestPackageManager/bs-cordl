@@ -33,40 +33,40 @@ public:
   /// @brief Method AppendProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AppendProperty(::System::Text::StringBuilder* sb, ::StringW name, T value);
 
-  /// @brief Method Decode, addr 0x227f80c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x227f89c, size 0x4, virtual false, abstract: false, final false
   static inline bool Decode(::ByRef<::BeatSaber::Settings::Settings> settings, ::StringW text, ::ByRef<::StringW> log);
 
-  /// @brief Method Encode, addr 0x227eb54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x227ebe4, size 0x4, virtual false, abstract: false, final false
   static inline void Encode(::ByRef<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* stream);
 
-  /// @brief Method IsPureWhiteSpace, addr 0x2281ab0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsPureWhiteSpace, addr 0x2281b40, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsPureWhiteSpace(::System::ReadOnlySpan_1<char16_t> property);
 
-  /// @brief Method ReadBool, addr 0x2281484, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ReadBool, addr 0x2281514, size 0x1c8, virtual false, abstract: false, final false
   static inline bool ReadBool(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::ByRef<bool> value, ::ByRef<::StringW> err);
 
   /// @brief Method ReadEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ReadEnum(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::ByRef<T> value, ::ByRef<::StringW> err);
 
-  /// @brief Method ReadFloat, addr 0x22812ac, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x228133c, size 0x1d8, virtual false, abstract: false, final false
   static inline bool ReadFloat(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::ByRef<float_t> value, ::ByRef<::StringW> err);
 
-  /// @brief Method ReadInt, addr 0x228164c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x22816dc, size 0x1d8, virtual false, abstract: false, final false
   static inline bool ReadInt(::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> text, ::ByRef<int32_t> value, ::ByRef<::StringW> err);
 
-  /// @brief Method ReadProperties, addr 0x227f810, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ReadProperties, addr 0x227f8a0, size 0x2d0, virtual false, abstract: false, final false
   static inline bool ReadProperties(::ByRef<::BeatSaber::Settings::Settings> settings, ::StringW text, ::ByRef<::StringW> log);
 
-  /// @brief Method ReadProperty, addr 0x227fae0, size 0x1750, virtual false, abstract: false, final false
+  /// @brief Method ReadProperty, addr 0x227fb70, size 0x1750, virtual false, abstract: false, final false
   static inline bool ReadProperty(::ByRef<::BeatSaber::Settings::Settings> settings, ::System::ReadOnlySpan_1<char16_t> name, ::System::ReadOnlySpan_1<char16_t> value, ::ByRef<::StringW> log);
 
-  /// @brief Method ReadPropertyLine, addr 0x22818b4, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ReadPropertyLine, addr 0x2281944, size 0x1fc, virtual false, abstract: false, final false
   static inline bool ReadPropertyLine(::ByRef<::BeatSaber::Settings::Settings> settings, ::System::ReadOnlySpan_1<char16_t> property, ::ByRef<::StringW> log);
 
-  /// @brief Method ReadString, addr 0x2281824, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x22818b4, size 0x90, virtual false, abstract: false, final false
   static inline bool ReadString(::System::ReadOnlySpan_1<char16_t> _, ::System::ReadOnlySpan_1<char16_t> text, ::ByRef<::StringW> value, ::ByRef<::StringW> err);
 
-  /// @brief Method WriteProperties, addr 0x227eb58, size 0xcb4, virtual false, abstract: false, final false
+  /// @brief Method WriteProperties, addr 0x227ebe8, size 0xcb4, virtual false, abstract: false, final false
   static inline void WriteProperties(::ByRef<::BeatSaber::Settings::Settings> settings, ::System::Text::StringBuilder* text);
 
 protected:

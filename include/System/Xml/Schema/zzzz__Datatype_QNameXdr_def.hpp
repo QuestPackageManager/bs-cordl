@@ -48,23 +48,23 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x43b0c64, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x43b08fc, size 0x26c, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x43a5ca4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a593c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_ListValueType, addr 0x43b0f28, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x43b0bc0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x43b0c5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x43b08f4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueType, addr 0x43b0ed0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x43b0b68, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);

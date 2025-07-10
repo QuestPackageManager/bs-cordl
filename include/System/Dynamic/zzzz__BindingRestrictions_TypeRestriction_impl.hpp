@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)(
     ::System::Linq::Expressions::Expression*, ::System::Type*)>(&::GlobalNamespace::BindingRestrictions_TypeRestriction::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x40fb800;
+  constexpr static std::size_t addrs = 0x40fb498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)(::System::Object*)>(
     &::GlobalNamespace::BindingRestrictions_TypeRestriction::Equals)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40fc154;
+  constexpr static std::size_t addrs = 0x40fbdec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_TypeRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x40fc218;
+  constexpr static std::size_t addrs = 0x40fbeb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_TypeRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x40fc26c;
+  constexpr static std::size_t addrs = 0x40fbf04;
 
   inline static ::MethodInfo const* methodInfo() {
 

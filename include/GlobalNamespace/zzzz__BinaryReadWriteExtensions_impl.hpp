@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22b2ca0;
+  constexpr static std::size_t addrs = 0x22b2d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadColor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22b2d28;
+  constexpr static std::size_t addrs = 0x22b2db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22b2db8;
+  constexpr static std::size_t addrs = 0x22b2e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::System::IO::BinaryReader*)>(
     &::GlobalNamespace::BinaryReadWriteExtensions::ReadVector3)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22b2e1c;
+  constexpr static std::size_t addrs = 0x22b2eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22b2e88;
+  constexpr static std::size_t addrs = 0x22b2f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::System::IO::BinaryReader*)>(
     &::GlobalNamespace::BinaryReadWriteExtensions::ReadQuaternion)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22b2f10;
+  constexpr static std::size_t addrs = 0x22b2fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Pose)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22b2fa0;
+  constexpr static std::size_t addrs = 0x22b3030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadPose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22b2fd4;
+  constexpr static std::size_t addrs = 0x22b3064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

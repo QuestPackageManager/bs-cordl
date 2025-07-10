@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::NodePoseSyncStateManager::*)()>(
     &::GlobalNamespace::NodePoseSyncStateManager::get_deltaUpdateFrequencyMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72844;
+  constexpr static std::size_t addrs = 0x3e724dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::NodePoseSyncStateManager::*)()>(
     &::GlobalNamespace::NodePoseSyncStateManager::get_fullStateUpdateFrequencyMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e7284c;
+  constexpr static std::size_t addrs = 0x3e724e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NodePoseSyncStateManager::*)()>(
     &::GlobalNamespace::NodePoseSyncStateManager::get_localBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72854;
+  constexpr static std::size_t addrs = 0x3e724ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NodePoseSyncStateManager::*)()>(
     &::GlobalNamespace::NodePoseSyncStateManager::get_remoteBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e7285c;
+  constexpr static std::size_t addrs = 0x3e724f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateNetSerializable*>* (
     ::GlobalNamespace::NodePoseSyncStateManager::*)()>(&::GlobalNamespace::NodePoseSyncStateManager::get_serializablePool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72864;
+  constexpr static std::size_t addrs = 0x3e724fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IPacketPool_1<::GlobalNamespace::NodePoseSyncStateDeltaNetSerializable*>* (
     ::GlobalNamespace::NodePoseSyncStateManager::*)()>(&::GlobalNamespace::NodePoseSyncStateManager::get_deltaSerializablePool)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e7286c;
+  constexpr static std::size_t addrs = 0x3e72504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerSessionManager_MessageType (::GlobalNamespace::NodePoseSyncStateManager::*)()>(
     &::GlobalNamespace::NodePoseSyncStateManager::get_messageType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72874;
+  constexpr static std::size_t addrs = 0x3e7250c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerSessionManager_MessageType (::GlobalNamespace::NodePoseSyncStateManager::*)()>(
     &::GlobalNamespace::NodePoseSyncStateManager::get_deltaMessageType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e7287c;
+  constexpr static std::size_t addrs = 0x3e72514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PoseSerializable (::GlobalNamespace::NodePoseSyncStateManager::*)(
     ::GlobalNamespace::PoseSerializable, int64_t, ::GlobalNamespace::PoseSerializable, int64_t, int64_t)>(&::GlobalNamespace::NodePoseSyncStateManager::Interpolate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e72884;
+  constexpr static std::size_t addrs = 0x3e7251c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PoseSerializable (::GlobalNamespace::NodePoseSyncStateManager::*)(
     ::GlobalNamespace::PoseSerializable, ::GlobalNamespace::PoseSerializable, float_t)>(&::GlobalNamespace::NodePoseSyncStateManager::Smooth)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e728f0;
+  constexpr static std::size_t addrs = 0x3e72588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NodePoseSyncStateManager::*)()>(&::GlobalNamespace::NodePoseSyncStateManager::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e7294c;
+  constexpr static std::size_t addrs = 0x3e725e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NodePoseSyncStateManager*>::get(), ".ctor",

@@ -39,18 +39,18 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x3b8e884, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b8e51c, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b8e8a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x3b8e540, size 0x60, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b8e8a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8e53c, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b8e908, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8e5a0, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b8e90c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8e5a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39e7570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e71fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x39e754c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39e71d8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x39e7528, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39e71b4, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

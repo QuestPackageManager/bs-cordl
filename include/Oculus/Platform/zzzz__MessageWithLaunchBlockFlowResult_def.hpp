@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchBlockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchBlockFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7ef48, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7ebe0, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchBlockFlowResult, addr 0x3f7ef0c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchBlockFlowResult, addr 0x3f7eba4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
 
   static inline ::Oculus::Platform::MessageWithLaunchBlockFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c40c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7c0a4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

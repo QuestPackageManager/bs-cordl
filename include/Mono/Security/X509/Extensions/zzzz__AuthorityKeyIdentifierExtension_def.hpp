@@ -28,15 +28,15 @@ public:
   /// @brief Field aki, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_aki, put = __cordl_internal_set_aki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> aki;
 
-  /// @brief Method Decode, addr 0x3c419f8, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3c41690, size 0x114, virtual true, abstract: false, final false
   inline void Decode();
 
-  /// @brief Method Encode, addr 0x3c41b0c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3c417a4, size 0x110, virtual true, abstract: false, final false
   inline void Encode();
 
   static inline ::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method ToString, addr 0x3c41c90, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c41928, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_aki() const;
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_aki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c419f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4168c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method get_Identifier, addr 0x3c41c1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x3c418b4, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Identifier();
 
 protected:

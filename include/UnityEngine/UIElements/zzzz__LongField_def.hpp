@@ -54,7 +54,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::LongField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f34f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f3190, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::LongField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f3540, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f31d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,27 +126,27 @@ public:
 
   __declspec(property(get = get_parentLongField)) ::UnityEngine::UIElements::LongField* parentLongField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49f3660, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49f32f8, size 0x234, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue);
 
-  /// @brief Method ClampMinMaxLongValue, addr 0x49f3894, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClampMinMaxLongValue, addr 0x49f352c, size 0xa4, virtual false, abstract: false, final false
   inline int64_t ClampMinMaxLongValue(int64_t niceDelta, int64_t value);
 
   static inline ::UnityEngine::UIElements::LongField_LongInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x49f3984, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49f361c, size 0xa8, virtual true, abstract: false, final false
   inline int64_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x49f3938, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49f35d0, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(int64_t v);
 
-  /// @brief Method .ctor, addr 0x49f330c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2fa4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x49f3608, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x49f32a0, size 0x58, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentLongField, addr 0x49f3588, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_parentLongField, addr 0x49f3220, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LongField* get_parentLongField();
 
 protected:
@@ -196,26 +196,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49f33c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x49f305c, size 0x64, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x49f33a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x49f3038, size 0x24, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::LongField* New_ctor();
 
   static inline ::UnityEngine::UIElements::LongField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x49f30d4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x49f2d6c, size 0xdc, virtual true, abstract: false, final false
   inline int64_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x49f301c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x49f2cb4, size 0xb8, virtual true, abstract: false, final false
   inline ::StringW ValueToString(int64_t v);
 
-  /// @brief Method .ctor, addr 0x49f31b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2e48, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49f31bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2e54, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -224,7 +224,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_longInput, addr 0x49f2f98, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_longInput, addr 0x49f2c30, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::LongField_LongInput* get_longInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);

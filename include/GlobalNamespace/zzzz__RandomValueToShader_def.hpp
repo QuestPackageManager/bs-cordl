@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
 
-  /// @brief Method SetRandomSeed, addr 0x39dd1bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRandomSeed, addr 0x39dce48, size 0x68, virtual false, abstract: false, final false
   inline void SetRandomSeed(int32_t seed);
 
-  /// @brief Method SetRandomValueToShaders, addr 0x39dd368, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetRandomValueToShaders, addr 0x39dcff4, size 0xa0, virtual false, abstract: false, final false
   inline void SetRandomValueToShaders();
 
   constexpr int32_t const& __cordl_internal_get__lastFrameNum() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  /// @brief Method .ctor, addr 0x39dd410, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dd09c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__randomValueID();

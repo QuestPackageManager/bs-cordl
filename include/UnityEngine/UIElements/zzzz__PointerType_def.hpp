@@ -32,10 +32,10 @@ public:
   /// @brief Field unknown, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_unknown, put = setStaticF_unknown)) ::StringW unknown;
 
-  /// @brief Method GetPointerType, addr 0x4a31c58, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPointerType, addr 0x4a318f0, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW GetPointerType(int32_t pointerId);
 
-  /// @brief Method IsDirectManipulationDevice, addr 0x4a31d34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsDirectManipulationDevice, addr 0x4a319cc, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsDirectManipulationDevice(::StringW pointerType);
 
   static inline ::StringW getStaticF_mouse();

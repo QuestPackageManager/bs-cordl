@@ -86,21 +86,21 @@ public:
   /// @brief Field type, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::UnityEngine::UIElements::UIR::CommandType type;
 
-  /// @brief Method Blit, addr 0x49bc6b4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x49bc34c, size 0x16c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
 
-  /// @brief Method CombineScissorRects, addr 0x49bc5ac, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CombineScissorRects, addr 0x49bc244, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Method ExecuteNonDrawMesh, addr 0x49ba678, size 0xac0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNonDrawMesh, addr 0x49ba310, size 0xac0, virtual false, abstract: false, final false
   inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ::ByRef<::System::Exception*> immediateException);
 
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x49bc244, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x49bbedc, size 0x368, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
 
-  /// @brief Method Reset, addr 0x49bc220, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49bbeb8, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Action* const& __cordl_internal_get_callback() const;
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::UIR::CommandType value);
 
-  /// @brief Method .ctor, addr 0x49aef58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49aebf0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_k_ID_MainTex();

@@ -39,7 +39,7 @@ public:
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method ToString, addr 0x3c46078, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c45d10, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::AlertDescription const& __cordl_internal_get_description() const;
@@ -54,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_level(::Mono::Security::Interface::AlertLevel value);
 
-  /// @brief Method .ctor, addr 0x3c45fcc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c45c64, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method get_Description, addr 0x3c45fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x3c45c5c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
-  /// @brief Method get_Level, addr 0x3c45fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x3c45c54, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method inferAlertLevel, addr 0x3c46038, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method inferAlertLevel, addr 0x3c45cd0, size 0x40, virtual false, abstract: false, final false
   inline void inferAlertLevel();
 
 protected:

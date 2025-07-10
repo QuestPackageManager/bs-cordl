@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::UriParser_BuiltInUriParser* New_ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
-  /// @brief Method .ctor, addr 0x440e3ec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440e084, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW lwrCaseScheme, int32_t defaultPort, ::System::UriSyntaxFlags syntaxFlags);
 
 protected:

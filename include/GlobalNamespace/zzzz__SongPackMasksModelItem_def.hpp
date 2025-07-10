@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::SongPackMasksModelItem___c* New_ctor();
 
-  /// @brief Method <GetSongPackMask>b__7_0, addr 0x26e491c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetSongPackMask>b__7_0, addr 0x26e4568, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _GetSongPackMask_b__7_0(::GlobalNamespace::PackDefinitionSO* pack);
 
-  /// @brief Method .ctor, addr 0x26e4914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e4560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SongPackMasksModelItem___c* getStaticF___9();
@@ -113,7 +113,7 @@ public:
 
   __declspec(property(get = get_serializedName)) ::StringW serializedName;
 
-  /// @brief Method GetSongPackMask, addr 0x26e4400, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetSongPackMask, addr 0x26e404c, size 0x18c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SongPackMask GetSongPackMask(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
   static inline ::GlobalNamespace::SongPackMasksModelItem* New_ctor();
@@ -148,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::GlobalNamespace::SongPackDataType value);
 
-  /// @brief Method .ctor, addr 0x26e48b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e44fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_containsMultiplePacks, addr 0x26e458c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_containsMultiplePacks, addr 0x26e41d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_containsMultiplePacks();
 
-  /// @brief Method get_serializedName, addr 0x26e43e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x26e4030, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
 protected:

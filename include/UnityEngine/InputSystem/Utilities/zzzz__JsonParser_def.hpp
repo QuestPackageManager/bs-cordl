@@ -152,28 +152,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>*();
 
-  /// @brief Method Equals, addr 0x456a320, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4569fb8, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x456a178, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4569e10, size 0x1a8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString other);
 
-  /// @brief Method GetHashCode, addr 0x456a3b0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x456a048, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x456a07c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4569d14, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__JsonParser_JsonString_();
 
-  /// @brief Method op_Equality, addr 0x456a42c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x456a0c4, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString left, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString right);
 
-  /// @brief Method op_Implicit, addr 0x456a490, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x456a128, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonString(::StringW str);
 
-  /// @brief Method op_Inequality, addr 0x456a45c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x456a0f4, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString left, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString right);
 
   // Ctor Parameters []
@@ -226,13 +226,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c* New_ctor();
 
-  /// @brief Method <ToString>b__11_0, addr 0x456b980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__11_0, addr 0x456b618, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__11_0(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue x);
 
-  /// @brief Method <ToString>b__11_1, addr 0x456b988, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__11_1, addr 0x456b620, size 0xb4, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__11_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> pair);
 
-  /// @brief Method .ctor, addr 0x456b978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456b610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::JsonValue_JsonParser___c* getStaticF___9();
@@ -282,64 +282,64 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>*();
 
-  /// @brief Method Equals, addr 0x456b708, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x456b3a0, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x456ae7c, size 0x88c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x456ab14, size 0x88c, virtual false, abstract: false, final false
   static inline bool Equals(::System::Object* obj, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue value);
 
-  /// @brief Method Equals, addr 0x456ac80, size 0x1fc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x456a918, size 0x1fc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue other);
 
-  /// @brief Method GetHashCode, addr 0x456b798, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x456b430, size 0x14c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToBoolean, addr 0x456a4b0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x456a148, size 0x140, virtual false, abstract: false, final false
   inline bool ToBoolean();
 
-  /// @brief Method ToDouble, addr 0x456ab30, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x456a7c8, size 0xcc, virtual false, abstract: false, final false
   inline double_t ToDouble();
 
-  /// @brief Method ToInteger, addr 0x456aa60, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToInteger, addr 0x456a6f8, size 0xd0, virtual false, abstract: false, final false
   inline int64_t ToInteger();
 
-  /// @brief Method ToString, addr 0x456a5f0, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x456a288, size 0x470, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue_();
 
-  /// @brief Method op_Equality, addr 0x4569304, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4568f9c, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue left, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue right);
 
-  /// @brief Method op_Implicit, addr 0x4569f2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4569bc4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue
   op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>* array);
 
-  /// @brief Method op_Implicit, addr 0x456ac38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x456a8d0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue
   op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue>* obj);
 
-  /// @brief Method op_Implicit, addr 0x456abfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x456a894, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(::StringW str);
 
-  /// @brief Method op_Implicit, addr 0x4569eb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4569b50, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue
   op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(::UnityEngine::InputSystem::Utilities::JsonParser_JsonString str);
 
-  /// @brief Method op_Implicit, addr 0x456ac5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x456a8f4, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(::System::Enum* val);
 
-  /// @brief Method op_Implicit, addr 0x456a040, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4569cd8, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(bool val);
 
-  /// @brief Method op_Implicit, addr 0x4569f78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4569c10, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(double_t val);
 
-  /// @brief Method op_Implicit, addr 0x4569f50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4569be8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue op_Implicit___UnityEngine__InputSystem__Utilities__JsonParser_JsonValue(int64_t val);
 
-  /// @brief Method op_Inequality, addr 0x456b8e4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x456b57c, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue left, ::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue right);
 
   // Ctor Parameters []
@@ -425,58 +425,58 @@ public:
 
   __declspec(property(get = get_isAtEnd)) bool isAtEnd;
 
-  /// @brief Method CurrentPropertyHasValueEqualTo, addr 0x455fe78, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CurrentPropertyHasValueEqualTo, addr 0x455fb10, size 0x14c, virtual false, abstract: false, final false
   inline bool CurrentPropertyHasValueEqualTo(::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue expectedValue);
 
-  /// @brief Method NavigateToProperty, addr 0x455f9f8, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method NavigateToProperty, addr 0x455f690, size 0x480, virtual false, abstract: false, final false
   inline bool NavigateToProperty(::StringW path);
 
-  /// @brief Method ParseArrayValue, addr 0x45694c8, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ParseArrayValue, addr 0x4569160, size 0x2b8, virtual false, abstract: false, final false
   inline bool ParseArrayValue(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method ParseBooleanValue, addr 0x45698e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseBooleanValue, addr 0x4569580, size 0xd8, virtual false, abstract: false, final false
   inline bool ParseBooleanValue(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method ParseNullValue, addr 0x45699c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ParseNullValue, addr 0x4569658, size 0x64, virtual false, abstract: false, final false
   inline bool ParseNullValue(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method ParseNumber, addr 0x4569a24, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method ParseNumber, addr 0x45696bc, size 0x494, virtual false, abstract: false, final false
   inline bool ParseNumber(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method ParseObjectValue, addr 0x4569780, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ParseObjectValue, addr 0x4569418, size 0x168, virtual false, abstract: false, final false
   inline bool ParseObjectValue(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method ParseStringValue, addr 0x4569338, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseStringValue, addr 0x4568fd0, size 0x190, virtual false, abstract: false, final false
   inline bool ParseStringValue(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method ParseToken, addr 0x4569054, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ParseToken, addr 0x4568cec, size 0x74, virtual false, abstract: false, final false
   inline bool ParseToken(char16_t token);
 
-  /// @brief Method ParseValue, addr 0x45691c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x4568e5c, size 0x30, virtual false, abstract: false, final false
   inline bool ParseValue();
 
-  /// @brief Method ParseValue, addr 0x45691f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x4568e8c, size 0x110, virtual false, abstract: false, final false
   inline bool ParseValue(::ByRef<::UnityEngine::InputSystem::Utilities::JsonParser_JsonValue> result);
 
-  /// @brief Method Reset, addr 0x4568f5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4568bf4, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SkipString, addr 0x4569f98, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SkipString, addr 0x4569c30, size 0xa8, virtual false, abstract: false, final false
   inline bool SkipString(::StringW text);
 
-  /// @brief Method SkipToValue, addr 0x4569164, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SkipToValue, addr 0x4568dfc, size 0x60, virtual false, abstract: false, final false
   inline bool SkipToValue();
 
-  /// @brief Method SkipWhitespace, addr 0x45690c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x4568d60, size 0x9c, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
-  /// @brief Method ToString, addr 0x4568f68, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4568c00, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x455f938, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x455f5d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW json);
 
-  /// @brief Method get_isAtEnd, addr 0x456a06c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isAtEnd, addr 0x4569d04, size 0x10, virtual false, abstract: false, final false
   inline bool get_isAtEnd();
 
   // Ctor Parameters []

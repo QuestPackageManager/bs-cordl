@@ -28,10 +28,10 @@ namespace UnityEngine {
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMember, addr 0x48aa884, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x48aa51c, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
-  /// @brief Method InvokeMoveNext, addr 0x48aa758, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x48aa3f0, size 0x12c, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, ::System::IntPtr returnValueAddress);
 
 protected:

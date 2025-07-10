@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EasingMode (::UnityEngine::UIElements::EasingFunction::*)()>(
     &::UnityEngine::UIElements::EasingFunction::get_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6bd40;
+  constexpr static std::size_t addrs = 0x4a6b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EasingFunction>::get(), "get_mode",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::EasingFunction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6bd48;
+  constexpr static std::size_t addrs = 0x4a6b9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EasingFunction (*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::EasingFunction::op_Implicit___UnityEngine__UIElements__EasingFunction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6aec8;
+  constexpr static std::size_t addrs = 0x4a6ab60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EasingFunction, ::UnityEngine::UIElements::EasingFunction)>(
     &::UnityEngine::UIElements::EasingFunction::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a6bd50;
+  constexpr static std::size_t addrs = 0x4a6b9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingFunction)>(
     &::UnityEngine::UIElements::EasingFunction::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a6bd5c;
+  constexpr static std::size_t addrs = 0x4a6b9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EasingFunction::*)(::System::Object*)>(
     &::UnityEngine::UIElements::EasingFunction::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a6bd6c;
+  constexpr static std::size_t addrs = 0x4a6ba04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a6bde4;
+  constexpr static std::size_t addrs = 0x4a6ba7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6aaa8;
+  constexpr static std::size_t addrs = 0x4a6a740;
 
   inline static ::MethodInfo const* methodInfo() {
 

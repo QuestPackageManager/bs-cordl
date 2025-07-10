@@ -59,7 +59,7 @@ public:
   __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x4aa11e0, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x4aa0e78, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

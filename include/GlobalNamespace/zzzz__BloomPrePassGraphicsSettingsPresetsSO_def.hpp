@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x26d6524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,13 +104,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d6514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x26d650c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x26d6158, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x26d6504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x26d6150, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> get_presets();
 
 protected:

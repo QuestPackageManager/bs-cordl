@@ -58,22 +58,22 @@ public:
   /// @brief Field s_ListPool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ListPool, put = setStaticF_s_ListPool)) ::UnityEngine::UIElements::EventCallbackListPool* s_ListPool;
 
-  /// @brief Method GetCallbackList, addr 0x4a285dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackList, addr 0x4a28274, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer);
 
-  /// @brief Method GetCallbackListForReading, addr 0x4a28780, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackListForReading, addr 0x4a28418, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForReading();
 
-  /// @brief Method GetCallbackListForWriting, addr 0x4a286c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCallbackListForWriting, addr 0x4a28360, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForWriting();
 
-  /// @brief Method HasBubbleHandlers, addr 0x4a289b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasBubbleHandlers, addr 0x4a2864c, size 0x20, virtual false, abstract: false, final false
   inline bool HasBubbleHandlers();
 
-  /// @brief Method HasTrickleDownHandlers, addr 0x4a28994, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasTrickleDownHandlers, addr 0x4a2862c, size 0x20, virtual false, abstract: false, final false
   inline bool HasTrickleDownHandlers();
 
-  /// @brief Method InvokeCallbacks, addr 0x4a287f0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacks, addr 0x4a28488, size 0x1a4, virtual false, abstract: false, final false
   inline void InvokeCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   static inline ::UnityEngine::UIElements::EventCallbackRegistry* New_ctor();
@@ -88,13 +88,13 @@ public:
   inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* callback, TCallbackArgs userArgs, ::UnityEngine::UIElements::TrickleDown useTrickleDown,
                                ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method ReleaseCallbackList, addr 0x4a28644, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCallbackList, addr 0x4a282dc, size 0x68, virtual false, abstract: false, final false
   static inline void ReleaseCallbackList(::UnityEngine::UIElements::EventCallbackList* toRelease);
 
   /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEventType> inline bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
-  /// @brief Method UnregisterCallback, addr 0x4a2879c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x4a28434, size 0x54, virtual false, abstract: false, final false
   inline bool UnregisterCallback(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
   constexpr ::UnityEngine::UIElements::EventCallbackList* const& __cordl_internal_get_m_Callbacks() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TemporaryCallbacks(::UnityEngine::UIElements::EventCallbackList* value);
 
-  /// @brief Method .ctor, addr 0x4a286ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a28344, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* getStaticF_s_ListPool();

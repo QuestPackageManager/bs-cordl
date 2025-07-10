@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::IdnMapping::*)()>(&::System::Globalization::IdnMapping::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3db4844;
+  constexpr static std::size_t addrs = 0x3db44dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::IdnMapping*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::IdnMapping::*)(::System::Object*)>(&::System::Globalization::IdnMapping::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3db48a4;
+  constexpr static std::size_t addrs = 0x3db453c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::IdnMapping::*)()>(&::System::Globalization::IdnMapping::GetHashCode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3db4930;
+  constexpr static std::size_t addrs = 0x3db45c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW)>(&::System::Globalization::IdnMapping::GetAscii)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3db4940;
+  constexpr static std::size_t addrs = 0x3db45d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t, int32_t)>(
     &::System::Globalization::IdnMapping::GetAscii)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3db49a0;
+  constexpr static std::size_t addrs = 0x3db4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t, int32_t, bool)>(
     &::System::Globalization::IdnMapping::Convert)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3db4a68;
+  constexpr static std::size_t addrs = 0x3db4700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(
     &::System::Globalization::IdnMapping::ToAscii)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x3db4c60;
+  constexpr static std::size_t addrs = 0x3db48f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(
     &::System::Globalization::IdnMapping::VerifyLength)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3db56b4;
+  constexpr static std::size_t addrs = 0x3db534c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(
     &::System::Globalization::IdnMapping::NamePrep)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3db5060;
+  constexpr static std::size_t addrs = 0x3db4cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(
     &::System::Globalization::IdnMapping::VerifyProhibitedCharacters)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3db5778;
+  constexpr static std::size_t addrs = 0x3db5410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(
     &::System::Globalization::IdnMapping::VerifyStd3AsciiRules)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3db51a4;
+  constexpr static std::size_t addrs = 0x3db4e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW)>(&::System::Globalization::IdnMapping::GetUnicode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3db59b0;
+  constexpr static std::size_t addrs = 0x3db5648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t, int32_t)>(
     &::System::Globalization::IdnMapping::GetUnicode)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3db5a10;
+  constexpr static std::size_t addrs = 0x3db56a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::IdnMapping::*)(::StringW, int32_t)>(
     &::System::Globalization::IdnMapping::ToUnicode)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3db4e94;
+  constexpr static std::size_t addrs = 0x3db4b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

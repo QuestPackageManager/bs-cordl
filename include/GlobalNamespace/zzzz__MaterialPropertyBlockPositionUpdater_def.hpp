@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x39e63ac, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39e6038, size 0xb4, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x39e6460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e60ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

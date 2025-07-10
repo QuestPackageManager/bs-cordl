@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBoolean::*)(bool)>(&::Newtonsoft::Json::Bson::BsonBoolean::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f53304;
+  constexpr static std::size_t addrs = 0x3f52f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

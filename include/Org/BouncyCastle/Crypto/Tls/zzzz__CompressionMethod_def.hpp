@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::CompressionMethod* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e9148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e91d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

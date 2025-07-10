@@ -25,10 +25,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x26503a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650434, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26503f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2650488, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

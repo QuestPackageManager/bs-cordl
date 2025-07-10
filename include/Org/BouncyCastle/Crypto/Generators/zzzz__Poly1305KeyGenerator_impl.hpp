@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::engineInit)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x238fa84;
+  constexpr static std::size_t addrs = 0x238fb14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::engineGenerateKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x238faa8;
+  constexpr static std::size_t addrs = 0x238fb38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::Clamp)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x238fac4;
+  constexpr static std::size_t addrs = 0x238fb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::CheckKey)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x238fb80;
+  constexpr static std::size_t addrs = 0x238fc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t, uint8_t)>(&::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::CheckMask)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x238fc88;
+  constexpr static std::size_t addrs = 0x238fd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::Poly1305KeyGenerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x238fce4;
+  constexpr static std::size_t addrs = 0x238fd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

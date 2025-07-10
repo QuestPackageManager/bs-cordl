@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentCollisionRepository* New_ctor();
 
-  /// @brief Method RegisterColliderEventEffect, addr 0x3b990a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RegisterColliderEventEffect, addr 0x3b98d38, size 0x60, virtual false, abstract: false, final false
   inline void RegisterColliderEventEffect(::GlobalNamespace::ColliderEventEffect* colliderEventEffect);
 
-  /// @brief Method TryGetColliderEventEffect, addr 0x3b99118, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method TryGetColliderEventEffect, addr 0x3b98db0, size 0xb8, virtual false, abstract: false, final false
   inline bool TryGetColliderEventEffect(::UnityEngine::Collider* collider, ::ByRef<::GlobalNamespace::ColliderEventEffect*> colliderEventEffect);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* const& __cordl_internal_get__colliders() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__colliders(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Collider>, ::UnityW<::GlobalNamespace::ColliderEventEffect>>* value);
 
-  /// @brief Method .ctor, addr 0x3b991d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b98e68, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

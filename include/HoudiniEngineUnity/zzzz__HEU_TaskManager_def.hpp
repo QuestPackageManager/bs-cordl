@@ -39,36 +39,36 @@ public:
   /// @brief Field _tasks, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__tasks, put = setStaticF__tasks)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* _tasks;
 
-  /// @brief Method AddTask, addr 0x3a61d18, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddTask, addr 0x3a619a4, size 0x14c, virtual false, abstract: false, final false
   static inline void AddTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method CompleteTask, addr 0x3a614d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CompleteTask, addr 0x3a61160, size 0x28, virtual false, abstract: false, final false
   static inline void CompleteTask(::HoudiniEngineUnity::HEU_Task* task, ::HoudiniEngineUnity::HEU_Task_TaskResult result);
 
-  /// @brief Method ExecuteTask, addr 0x3a62128, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ExecuteTask, addr 0x3a61db4, size 0x38, virtual false, abstract: false, final false
   static inline void ExecuteTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method GetTask, addr 0x3a61b84, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetTask, addr 0x3a61810, size 0x194, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_Task* GetTask(::System::Guid taskGuid);
 
-  /// @brief Method InternalCompleteTask, addr 0x3a62160, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InternalCompleteTask, addr 0x3a61dec, size 0x60, virtual false, abstract: false, final false
   static inline void InternalCompleteTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method KillTask, addr 0x3a61e64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method KillTask, addr 0x3a61af0, size 0xe8, virtual false, abstract: false, final false
   static inline void KillTask(::HoudiniEngineUnity::HEU_Task* task, bool bRemove);
 
-  /// @brief Method KillTask, addr 0x3a6208c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method KillTask, addr 0x3a61d18, size 0x9c, virtual false, abstract: false, final false
   static inline void KillTask(::System::Guid taskGuid, bool bRemove);
 
   static inline ::HoudiniEngineUnity::HEU_TaskManager* New_ctor();
 
-  /// @brief Method RemoveTask, addr 0x3a61f4c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RemoveTask, addr 0x3a61bd8, size 0x140, virtual false, abstract: false, final false
   static inline void RemoveTask(::HoudiniEngineUnity::HEU_Task* task);
 
-  /// @brief Method Update, addr 0x3a61b80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a6180c, size 0x4, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method .ctor, addr 0x3a621c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a61e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>* getStaticF__pendingAdd();

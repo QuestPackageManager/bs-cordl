@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27238e4;
+  constexpr static std::size_t addrs = 0x2723570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_isServerOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27238ec;
+  constexpr static std::size_t addrs = 0x2723578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_hasRecommendBeatmapsPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27238f4;
+  constexpr static std::size_t addrs = 0x2723580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_hasRecommendGameplayModifiersPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27238fc;
+  constexpr static std::size_t addrs = 0x2723588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_hasKickVotePermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2723904;
+  constexpr static std::size_t addrs = 0x2723590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::get_hasInvitePermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x272390c;
+  constexpr static std::size_t addrs = 0x2723598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* (*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2723914;
+  constexpr static std::size_t addrs = 0x27235a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* (
     ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)(::StringW, bool, bool, bool, bool, bool)>(&::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::Init)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2723978;
+  constexpr static std::size_t addrs = 0x2723604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x27239a8;
+  constexpr static std::size_t addrs = 0x2723634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2723a00;
+  constexpr static std::size_t addrs = 0x272368c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2723a60;
+  constexpr static std::size_t addrs = 0x27236ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

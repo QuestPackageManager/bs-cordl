@@ -51,22 +51,22 @@ public:
   template <typename TBaseTypeInList, typename TQueryType>
   static inline void AddDescriptorSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
-  /// @brief Method ClearManagedDescriptors, addr 0x491be20, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ClearManagedDescriptors, addr 0x491bab8, size 0x1bc, virtual false, abstract: false, final false
   static inline void ClearManagedDescriptors();
 
   /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
 
-  /// @brief Method InitializeManagedDescriptor, addr 0x491bd48, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InitializeManagedDescriptor, addr 0x491b9e0, size 0xd8, virtual false, abstract: false, final false
   static inline void InitializeManagedDescriptor(::System::IntPtr ptr, ::UnityEngine::IntegratedSubsystemDescriptor* desc);
 
-  /// @brief Method RegisterDeprecatedDescriptor, addr 0x491b44c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RegisterDeprecatedDescriptor, addr 0x491b0e4, size 0x78, virtual false, abstract: false, final false
   static inline void RegisterDeprecatedDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
   /// @brief Method RegisterDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TBaseTypeInList> static inline void RegisterDescriptor(TDescriptor descriptor, ::System::Collections::Generic::List_1<TBaseTypeInList>* storeInList);
 
-  /// @brief Method ReportSingleSubsystemAnalytics, addr 0x491bfdc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReportSingleSubsystemAnalytics, addr 0x491bc74, size 0x3c, virtual false, abstract: false, final false
   static inline void ReportSingleSubsystemAnalytics(::StringW id);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::SubsystemDescriptor*>* getStaticF_s_DeprecatedDescriptors();

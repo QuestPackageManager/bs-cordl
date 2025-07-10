@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsManager::*)()>(&::GlobalNamespace::SettingsManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226e17c;
+  constexpr static std::size_t addrs = 0x226e20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsManager*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SettingsManager* (*)()>(&::GlobalNamespace::SettingsManager::CreateUninitialized)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x226e184;
+  constexpr static std::size_t addrs = 0x226e214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsManager*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SettingsManager* (*)()>(
     &::GlobalNamespace::SettingsManager::CreateInstanceWithCurrentPlatformPreset)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x226e1d8;
+  constexpr static std::size_t addrs = 0x226e268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::HardwareCategory)>(
     &::GlobalNamespace::SettingsManager::AdjustPlatformSettings)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x226b5e0;
+  constexpr static std::size_t addrs = 0x226b670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::BeatSaber::Settings::Settings> (*)(::GlobalNamespace::HardwareCategory)>(
     &::GlobalNamespace::SettingsManager::GetPlatformPreset)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x226b334;
+  constexpr static std::size_t addrs = 0x226b3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ByRef<::BeatSaber::Settings::Settings> (*)()>(&::GlobalNamespace::SettingsManager::GetCurrentPlatformPreset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x226e264;
+  constexpr static std::size_t addrs = 0x226e2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsManager*>::get(),

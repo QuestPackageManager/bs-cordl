@@ -66,734 +66,734 @@ public:
   /// @brief Field s_decodingMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_decodingMap, put = setStaticF_s_decodingMap)) ::ArrayW<int8_t, ::Array<int8_t>*> s_decodingMap;
 
-  /// @brief Method ChangeType, addr 0x3d5d7c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x3d5d45c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* conversionType);
 
-  /// @brief Method ChangeType, addr 0x3d5d860, size 0xca8, virtual false, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x3d5d4f8, size 0xca8, virtual false, abstract: false, final false
   static inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* conversionType, ::System::IFormatProvider* provider);
 
-  /// @brief Method ChangeType, addr 0x3d5ced4, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x3d5cb6c, size 0x8f0, virtual false, abstract: false, final false
   static inline ::System::Object* ChangeType(::System::Object* value, ::System::TypeCode typeCode, ::System::IFormatProvider* provider);
 
-  /// @brief Method ConvertToBase64Array, addr 0x3d63940, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ConvertToBase64Array, addr 0x3d635d8, size 0x244, virtual false, abstract: false, final false
   static inline int32_t ConvertToBase64Array(::cordl_internals::Ptr<char16_t> outChars, ::cordl_internals::Ptr<uint8_t> inData, int32_t offset, int32_t length, bool insertLineBreaks);
 
-  /// @brief Method CopyToTempBufferWithoutWhiteSpace, addr 0x3d64628, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CopyToTempBufferWithoutWhiteSpace, addr 0x3d642c0, size 0x124, virtual false, abstract: false, final false
   static inline void CopyToTempBufferWithoutWhiteSpace(::System::ReadOnlySpan_1<char16_t> chars, ::System::Span_1<char16_t> tempBuffer, ::ByRef<int32_t> consumed, ::ByRef<int32_t> charsWritten);
 
-  /// @brief Method Decode, addr 0x3d5cda8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3d5ca40, size 0x50, virtual false, abstract: false, final false
   static inline int32_t Decode(::ByRef<char16_t> encodedChars, ::ByRef<int8_t> decodingMap);
 
-  /// @brief Method DefaultToType, addr 0x3d58c80, size 0xe28, virtual false, abstract: false, final false
+  /// @brief Method DefaultToType, addr 0x3d58918, size 0xe28, virtual false, abstract: false, final false
   static inline ::System::Object* DefaultToType(::System::IConvertible* value, ::System::Type* targetType, ::System::IFormatProvider* provider);
 
-  /// @brief Method FromBase64CharArray, addr 0x3d64778, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method FromBase64CharArray, addr 0x3d64410, size 0x1f0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromBase64CharArray(::ArrayW<char16_t, ::Array<char16_t>*> inArray, int32_t offset, int32_t length);
 
-  /// @brief Method FromBase64CharPtr, addr 0x3d63fcc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method FromBase64CharPtr, addr 0x3d63c64, size 0x188, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromBase64CharPtr(::cordl_internals::Ptr<char16_t> inputPtr, int32_t inputLength);
 
-  /// @brief Method FromBase64String, addr 0x3d63f18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromBase64String, addr 0x3d63bb0, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromBase64String(::StringW s);
 
-  /// @brief Method FromBase64_ComputeResultLength, addr 0x3d64968, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method FromBase64_ComputeResultLength, addr 0x3d64600, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t FromBase64_ComputeResultLength(::cordl_internals::Ptr<char16_t> inputPtr, int32_t inputLength);
 
-  /// @brief Method GetTypeCode, addr 0x3d5ce10, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeCode, addr 0x3d5caa8, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::TypeCode GetTypeCode(::System::Object* value);
 
-  /// @brief Method IsSpace, addr 0x3d6474c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsSpace, addr 0x3d643e4, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsSpace(char16_t c);
 
-  /// @brief Method ThrowByteOverflowException, addr 0x3d5e554, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowByteOverflowException, addr 0x3d5e1ec, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowByteOverflowException();
 
-  /// @brief Method ThrowCharOverflowException, addr 0x3d5e508, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowCharOverflowException, addr 0x3d5e1a0, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowCharOverflowException();
 
-  /// @brief Method ThrowInt16OverflowException, addr 0x3d5e5ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInt16OverflowException, addr 0x3d5e284, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInt16OverflowException();
 
-  /// @brief Method ThrowInt32OverflowException, addr 0x3d5e684, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInt32OverflowException, addr 0x3d5e31c, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInt32OverflowException();
 
-  /// @brief Method ThrowInt64OverflowException, addr 0x3d5e71c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowInt64OverflowException, addr 0x3d5e3b4, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowInt64OverflowException();
 
-  /// @brief Method ThrowSByteOverflowException, addr 0x3d5e5a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowSByteOverflowException, addr 0x3d5e238, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowSByteOverflowException();
 
-  /// @brief Method ThrowUInt16OverflowException, addr 0x3d5e638, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowUInt16OverflowException, addr 0x3d5e2d0, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowUInt16OverflowException();
 
-  /// @brief Method ThrowUInt32OverflowException, addr 0x3d5e6d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowUInt32OverflowException, addr 0x3d5e368, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowUInt32OverflowException();
 
-  /// @brief Method ThrowUInt64OverflowException, addr 0x3d5e768, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowUInt64OverflowException, addr 0x3d5e400, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowUInt64OverflowException();
 
-  /// @brief Method ToBase64CharArray, addr 0x3d63b84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToBase64CharArray, addr 0x3d6381c, size 0x88, virtual false, abstract: false, final false
   static inline int32_t ToBase64CharArray(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t length, ::ArrayW<char16_t, ::Array<char16_t>*> outArray, int32_t offsetOut);
 
-  /// @brief Method ToBase64CharArray, addr 0x3d63c0c, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method ToBase64CharArray, addr 0x3d638a4, size 0x30c, virtual false, abstract: false, final false
   static inline int32_t ToBase64CharArray(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t length, ::ArrayW<char16_t, ::Array<char16_t>*> outArray, int32_t offsetOut,
                                           ::System::Base64FormattingOptions options);
 
-  /// @brief Method ToBase64String, addr 0x3d634d4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x3d6316c, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::System::ReadOnlySpan_1<uint8_t> bytes, ::System::Base64FormattingOptions options);
 
-  /// @brief Method ToBase64String, addr 0x3d63420, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x3d630b8, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray);
 
-  /// @brief Method ToBase64String, addr 0x3d63684, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x3d6331c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offset, int32_t length);
 
-  /// @brief Method ToBase64String, addr 0x3d636f4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ToBase64String, addr 0x3d6338c, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW ToBase64String(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offset, int32_t length, ::System::Base64FormattingOptions options);
 
-  /// @brief Method ToBase64_CalculateAndValidateOutputLength, addr 0x3d63890, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ToBase64_CalculateAndValidateOutputLength, addr 0x3d63528, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t ToBase64_CalculateAndValidateOutputLength(int32_t inputLength, bool insertLineBreaks);
 
-  /// @brief Method ToBoolean, addr 0x3d5ea00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e698, size 0x68, virtual false, abstract: false, final false
   static inline bool ToBoolean(::StringW value);
 
-  /// @brief Method ToBoolean, addr 0x3d5ea68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e700, size 0x68, virtual false, abstract: false, final false
   static inline bool ToBoolean(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToBoolean, addr 0x3d5eae8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e780, size 0x74, virtual false, abstract: false, final false
   static inline bool ToBoolean(::System::Decimal value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e7b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e44c, size 0xf4, virtual false, abstract: false, final false
   static inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e8a8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e540, size 0x104, virtual false, abstract: false, final false
   static inline bool ToBoolean(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToBoolean, addr 0x3d5eadc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e774, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(double_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5ead0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e768, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(float_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e650, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(int16_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e668, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(int32_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e680, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(int64_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e644, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(int8_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e65c, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint16_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e674, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint32_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5e9f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5e68c, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint64_t value);
 
-  /// @brief Method ToBoolean, addr 0x3d5a458, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x3d5a0f0, size 0xc, virtual false, abstract: false, final false
   static inline bool ToBoolean(uint8_t value);
 
-  /// @brief Method ToByte, addr 0x3d5fc38, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f8d0, size 0x74, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::StringW value);
 
-  /// @brief Method ToByte, addr 0x3d62b90, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d62828, size 0x108, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToByte, addr 0x3d5fcac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f944, size 0x14, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToByte, addr 0x3d5fbc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f85c, size 0x74, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::System::Decimal value);
 
-  /// @brief Method ToByte, addr 0x3d5f6a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f33c, size 0xf4, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::System::Object* value);
 
-  /// @brief Method ToByte, addr 0x3d5f798, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f430, size 0x104, virtual false, abstract: false, final false
   static inline uint8_t ToByte(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToByte, addr 0x3d58748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d583e0, size 0x8, virtual false, abstract: false, final false
   static inline uint8_t ToByte(bool value);
 
-  /// @brief Method ToByte, addr 0x3d5b684, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5b31c, size 0x5c, virtual false, abstract: false, final false
   static inline uint8_t ToByte(char16_t value);
 
-  /// @brief Method ToByte, addr 0x3d5fb64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f7fc, size 0x60, virtual false, abstract: false, final false
   static inline uint8_t ToByte(double_t value);
 
-  /// @brief Method ToByte, addr 0x3d5fb08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f7a0, size 0x5c, virtual false, abstract: false, final false
   static inline uint8_t ToByte(float_t value);
 
-  /// @brief Method ToByte, addr 0x3d5f8f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f588, size 0x5c, virtual false, abstract: false, final false
   static inline uint8_t ToByte(int16_t value);
 
-  /// @brief Method ToByte, addr 0x3d5f9a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f640, size 0x58, virtual false, abstract: false, final false
   static inline uint8_t ToByte(int32_t value);
 
-  /// @brief Method ToByte, addr 0x3d5fa58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f6f0, size 0x58, virtual false, abstract: false, final false
   static inline uint8_t ToByte(int64_t value);
 
-  /// @brief Method ToByte, addr 0x3d5f89c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f534, size 0x54, virtual false, abstract: false, final false
   static inline uint8_t ToByte(int8_t value);
 
-  /// @brief Method ToByte, addr 0x3d5f94c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f5e4, size 0x5c, virtual false, abstract: false, final false
   static inline uint8_t ToByte(uint16_t value);
 
-  /// @brief Method ToByte, addr 0x3d5fa00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f698, size 0x58, virtual false, abstract: false, final false
   static inline uint8_t ToByte(uint32_t value);
 
-  /// @brief Method ToByte, addr 0x3d5fab0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToByte, addr 0x3d5f748, size 0x58, virtual false, abstract: false, final false
   static inline uint8_t ToByte(uint64_t value);
 
-  /// @brief Method ToChar, addr 0x3d5ef60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5ebf8, size 0x54, virtual false, abstract: false, final false
   static inline char16_t ToChar(::StringW value);
 
-  /// @brief Method ToChar, addr 0x3d5efb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5ec4c, size 0x9c, virtual false, abstract: false, final false
   static inline char16_t ToChar(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToChar, addr 0x3d5eb5c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5e7f4, size 0xf4, virtual false, abstract: false, final false
   static inline char16_t ToChar(::System::Object* value);
 
-  /// @brief Method ToChar, addr 0x3d5ec50, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5e8e8, size 0x104, virtual false, abstract: false, final false
   static inline char16_t ToChar(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToChar, addr 0x3d5eda8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5ea40, size 0x54, virtual false, abstract: false, final false
   static inline char16_t ToChar(int16_t value);
 
-  /// @brief Method ToChar, addr 0x3d5ee00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5ea98, size 0x58, virtual false, abstract: false, final false
   static inline char16_t ToChar(int32_t value);
 
-  /// @brief Method ToChar, addr 0x3d5eeb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5eb48, size 0x58, virtual false, abstract: false, final false
   static inline char16_t ToChar(int64_t value);
 
-  /// @brief Method ToChar, addr 0x3d5ed54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5e9ec, size 0x54, virtual false, abstract: false, final false
   static inline char16_t ToChar(int8_t value);
 
-  /// @brief Method ToChar, addr 0x3d5edfc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5ea94, size 0x4, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint16_t value);
 
-  /// @brief Method ToChar, addr 0x3d5ee58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5eaf0, size 0x58, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint32_t value);
 
-  /// @brief Method ToChar, addr 0x3d5ef08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5eba0, size 0x58, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint64_t value);
 
-  /// @brief Method ToChar, addr 0x3d5a4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToChar, addr 0x3d5a154, size 0x8, virtual false, abstract: false, final false
   static inline char16_t ToChar(uint8_t value);
 
-  /// @brief Method ToDateTime, addr 0x3d62758, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3d623f0, size 0x90, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToDateTime, addr 0x3d62628, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3d622c0, size 0x130, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToDecimal, addr 0x3d625a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d62238, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToDecimal, addr 0x3d62150, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d61de8, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToDecimal, addr 0x3d58af4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d5878c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(bool value);
 
-  /// @brief Method ToDecimal, addr 0x3d62540, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d621d8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(double_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d624e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d62178, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(float_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d622d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d61f68, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(int16_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d62380, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d62018, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(int32_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d62430, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d620c8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(int64_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d62278, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d61f10, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(int8_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d62328, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d61fc0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint16_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d623d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d62070, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint32_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d62488, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d62120, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint64_t value);
 
-  /// @brief Method ToDecimal, addr 0x3d5a8d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x3d5a570, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Decimal ToDecimal(uint8_t value);
 
-  /// @brief Method ToDouble, addr 0x3d62134, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61dcc, size 0x1c, virtual false, abstract: false, final false
   static inline double_t ToDouble(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToDouble, addr 0x3d620cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d64, size 0x68, virtual false, abstract: false, final false
   static inline double_t ToDouble(::System::Decimal value);
 
-  /// @brief Method ToDouble, addr 0x3d61e88, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61b20, size 0xf4, virtual false, abstract: false, final false
   static inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToDouble, addr 0x3d61f7c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61c14, size 0x104, virtual false, abstract: false, final false
   static inline double_t ToDouble(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToDouble, addr 0x3d58a84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d5871c, size 0x14, virtual false, abstract: false, final false
   static inline double_t ToDouble(bool value);
 
-  /// @brief Method ToDouble, addr 0x3d620c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d5c, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(float_t value);
 
-  /// @brief Method ToDouble, addr 0x3d6208c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d24, size 0xc, virtual false, abstract: false, final false
   static inline double_t ToDouble(int16_t value);
 
-  /// @brief Method ToDouble, addr 0x3d620a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d3c, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(int32_t value);
 
-  /// @brief Method ToDouble, addr 0x3d620b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d4c, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(int64_t value);
 
-  /// @brief Method ToDouble, addr 0x3d62080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d18, size 0xc, virtual false, abstract: false, final false
   static inline double_t ToDouble(int8_t value);
 
-  /// @brief Method ToDouble, addr 0x3d62098, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d30, size 0xc, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint16_t value);
 
-  /// @brief Method ToDouble, addr 0x3d620ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d44, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint32_t value);
 
-  /// @brief Method ToDouble, addr 0x3d620bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d61d54, size 0x8, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint64_t value);
 
-  /// @brief Method ToDouble, addr 0x3d5a874, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x3d5a50c, size 0xc, virtual false, abstract: false, final false
   static inline double_t ToDouble(uint8_t value);
 
-  /// @brief Method ToInt16, addr 0x3d62db0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d62a48, size 0x118, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToInt16, addr 0x3d601a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fe3c, size 0x18, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt16, addr 0x3d60130, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fdc8, size 0x74, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::System::Decimal value);
 
-  /// @brief Method ToInt16, addr 0x3d5fcc0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5f958, size 0xf4, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::System::Object* value);
 
-  /// @brief Method ToInt16, addr 0x3d5fdb4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fa4c, size 0x104, virtual false, abstract: false, final false
   static inline int16_t ToInt16(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt16, addr 0x3d587ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d58444, size 0x8, virtual false, abstract: false, final false
   static inline int16_t ToInt16(bool value);
 
-  /// @brief Method ToInt16, addr 0x3d5b738, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5b3d0, size 0x54, virtual false, abstract: false, final false
   static inline int16_t ToInt16(char16_t value);
 
-  /// @brief Method ToInt16, addr 0x3d600d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fd68, size 0x60, virtual false, abstract: false, final false
   static inline int16_t ToInt16(double_t value);
 
-  /// @brief Method ToInt16, addr 0x3d60074, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fd0c, size 0x5c, virtual false, abstract: false, final false
   static inline int16_t ToInt16(float_t value);
 
-  /// @brief Method ToInt16, addr 0x3d5ff14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fbac, size 0x58, virtual false, abstract: false, final false
   static inline int16_t ToInt16(int32_t value);
 
-  /// @brief Method ToInt16, addr 0x3d5ffc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fc5c, size 0x58, virtual false, abstract: false, final false
   static inline int16_t ToInt16(int64_t value);
 
-  /// @brief Method ToInt16, addr 0x3d5feb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fb50, size 0x8, virtual false, abstract: false, final false
   static inline int16_t ToInt16(int8_t value);
 
-  /// @brief Method ToInt16, addr 0x3d5fec0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fb58, size 0x54, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint16_t value);
 
-  /// @brief Method ToInt16, addr 0x3d5ff6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fc04, size 0x58, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint32_t value);
 
-  /// @brief Method ToInt16, addr 0x3d6001c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5fcb4, size 0x58, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint64_t value);
 
-  /// @brief Method ToInt16, addr 0x3d5a5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt16, addr 0x3d5a268, size 0x8, virtual false, abstract: false, final false
   static inline int16_t ToInt16(uint8_t value);
 
-  /// @brief Method ToInt32, addr 0x3d60ae0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d60778, size 0x78, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::StringW value);
 
-  /// @brief Method ToInt32, addr 0x3d62fd0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d62c68, size 0xd4, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToInt32, addr 0x3d60b58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d607f0, size 0x18, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt32, addr 0x3d60a6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d60704, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::System::Decimal value);
 
-  /// @brief Method ToInt32, addr 0x3d60704, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d6039c, size 0xf4, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x3d607f8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d60490, size 0x104, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt32, addr 0x3d58874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d5850c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ToInt32(bool value);
 
-  /// @brief Method ToInt32, addr 0x3d5b840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d5b4d8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ToInt32(char16_t value);
 
-  /// @brief Method ToInt32, addr 0x3d5f520, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d5f1b8, size 0x100, virtual false, abstract: false, final false
   static inline int32_t ToInt32(double_t value);
 
-  /// @brief Method ToInt32, addr 0x3d60a10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d606a8, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t ToInt32(float_t value);
 
-  /// @brief Method ToInt32, addr 0x3d608fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d60594, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ToInt32(int16_t value);
 
-  /// @brief Method ToInt32, addr 0x3d60960, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d605f8, size 0x58, virtual false, abstract: false, final false
   static inline int32_t ToInt32(int64_t value);
 
-  /// @brief Method ToInt32, addr 0x3d60904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d6059c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint16_t value);
 
-  /// @brief Method ToInt32, addr 0x3d6090c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d605a4, size 0x54, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint32_t value);
 
-  /// @brief Method ToInt32, addr 0x3d609b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d60650, size 0x58, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint64_t value);
 
-  /// @brief Method ToInt32, addr 0x3d5a690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3d5a328, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ToInt32(uint8_t value);
 
-  /// @brief Method ToInt64, addr 0x3d61500, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d61198, size 0x78, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::StringW value);
 
-  /// @brief Method ToInt64, addr 0x3d63178, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d62e10, size 0xd4, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToInt64, addr 0x3d61578, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d61210, size 0x18, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt64, addr 0x3d6148c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d61124, size 0x74, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::System::Decimal value);
 
-  /// @brief Method ToInt64, addr 0x3d610ac, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60d44, size 0xf4, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x3d611a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60e38, size 0x104, virtual false, abstract: false, final false
   static inline int64_t ToInt64(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt64, addr 0x3d5893c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d585d4, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(bool value);
 
-  /// @brief Method ToInt64, addr 0x3d5b900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d5b598, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(char16_t value);
 
-  /// @brief Method ToInt64, addr 0x3d6137c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d61014, size 0x110, virtual false, abstract: false, final false
   static inline int64_t ToInt64(double_t value);
 
-  /// @brief Method ToInt64, addr 0x3d61320, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60fb8, size 0x5c, virtual false, abstract: false, final false
   static inline int64_t ToInt64(float_t value);
 
-  /// @brief Method ToInt64, addr 0x3d612ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60f44, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(int16_t value);
 
-  /// @brief Method ToInt64, addr 0x3d612bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60f54, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(int32_t value);
 
-  /// @brief Method ToInt64, addr 0x3d612a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60f3c, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(int8_t value);
 
-  /// @brief Method ToInt64, addr 0x3d612b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60f4c, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint16_t value);
 
-  /// @brief Method ToInt64, addr 0x3d612c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60f5c, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint32_t value);
 
-  /// @brief Method ToInt64, addr 0x3d612cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d60f64, size 0x54, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint64_t value);
 
-  /// @brief Method ToInt64, addr 0x3d5a750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x3d5a3e8, size 0x8, virtual false, abstract: false, final false
   static inline int64_t ToInt64(uint8_t value);
 
-  /// @brief Method ToSByte, addr 0x3d62c98, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d62930, size 0x118, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToSByte, addr 0x3d5f694, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5f32c, size 0x10, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToSByte, addr 0x3d5f620, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5f2b8, size 0x74, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Decimal value);
 
-  /// @brief Method ToSByte, addr 0x3d5f050, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5ece8, size 0xf4, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Object* value);
 
-  /// @brief Method ToSByte, addr 0x3d5f144, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5eddc, size 0x104, virtual false, abstract: false, final false
   static inline int8_t ToSByte(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToSByte, addr 0x3d586e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5837c, size 0x8, virtual false, abstract: false, final false
   static inline int8_t ToSByte(bool value);
 
-  /// @brief Method ToSByte, addr 0x3d5b5d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5b268, size 0x5c, virtual false, abstract: false, final false
   static inline int8_t ToSByte(char16_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f4c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5f158, size 0x60, virtual false, abstract: false, final false
   static inline int8_t ToSByte(double_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f464, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5f0fc, size 0x5c, virtual false, abstract: false, final false
   static inline int8_t ToSByte(float_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f248, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5eee0, size 0x60, virtual false, abstract: false, final false
   static inline int8_t ToSByte(int16_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f304, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5ef9c, size 0x58, virtual false, abstract: false, final false
   static inline int8_t ToSByte(int32_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f3b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5f04c, size 0x58, virtual false, abstract: false, final false
   static inline int8_t ToSByte(int64_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f2a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5ef40, size 0x5c, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint16_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f35c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5eff4, size 0x58, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint32_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5f40c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5f0a4, size 0x58, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint64_t value);
 
-  /// @brief Method ToSByte, addr 0x3d5a51c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToSByte, addr 0x3d5a1b4, size 0x54, virtual false, abstract: false, final false
   static inline int8_t ToSByte(uint8_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61df4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61a8c, size 0x78, virtual false, abstract: false, final false
   static inline float_t ToSingle(::StringW value);
 
-  /// @brief Method ToSingle, addr 0x3d61e6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61b04, size 0x1c, virtual false, abstract: false, final false
   static inline float_t ToSingle(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToSingle, addr 0x3d61d8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61a24, size 0x68, virtual false, abstract: false, final false
   static inline float_t ToSingle(::System::Decimal value);
 
-  /// @brief Method ToSingle, addr 0x3d61b44, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d617dc, size 0xf4, virtual false, abstract: false, final false
   static inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x3d61c38, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d618d0, size 0x104, virtual false, abstract: false, final false
   static inline float_t ToSingle(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToSingle, addr 0x3d58a0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d586a4, size 0x14, virtual false, abstract: false, final false
   static inline float_t ToSingle(bool value);
 
-  /// @brief Method ToSingle, addr 0x3d61d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61a1c, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToSingle(double_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d619e0, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(int16_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d619f8, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToSingle(int32_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61a08, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToSingle(int64_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d619d4, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(int8_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d619ec, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint16_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61a00, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint32_t value);
 
-  /// @brief Method ToSingle, addr 0x3d61d78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d61a10, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint64_t value);
 
-  /// @brief Method ToSingle, addr 0x3d5a810, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x3d5a4a8, size 0xc, virtual false, abstract: false, final false
   static inline float_t ToSingle(uint8_t value);
 
-  /// @brief Method ToString, addr 0x3d627e8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d62480, size 0x1a0, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x3d62988, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d62620, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ToString(bool value);
 
-  /// @brief Method ToString, addr 0x3d629e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d6267c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ToString(char16_t value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x3d62b28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d627c0, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToString(float_t value);
 
-  /// @brief Method ToString, addr 0x3d62a3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d626d4, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t value);
 
-  /// @brief Method ToString, addr 0x3d62aa4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d6273c, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x3d63320, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d62fb8, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t value, int32_t toBase);
 
-  /// @brief Method ToString, addr 0x3d62ac0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d62758, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW ToString(int64_t value);
 
-  /// @brief Method ToString, addr 0x3d633a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d63038, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ToString(int64_t value, int32_t toBase);
 
-  /// @brief Method ToUInt16, addr 0x3d62ec8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d62b60, size 0x108, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToUInt16, addr 0x3d606ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d60384, size 0x18, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt16, addr 0x3d60678, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d60310, size 0x74, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Decimal value);
 
-  /// @brief Method ToUInt16, addr 0x3d601bc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d5fe54, size 0xf4, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Object* value);
 
-  /// @brief Method ToUInt16, addr 0x3d602b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d5ff48, size 0x104, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt16, addr 0x3d58810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d584a8, size 0x8, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(bool value);
 
-  /// @brief Method ToUInt16, addr 0x3d5b7e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d5b47c, size 0x4, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(char16_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d60618, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d602b0, size 0x60, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(double_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d605bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d60254, size 0x5c, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(float_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d60408, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d600a0, size 0x54, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int16_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d6045c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d600f4, size 0x58, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int32_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d6050c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d601a4, size 0x58, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int64_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d603b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d6004c, size 0x54, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(int8_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d604b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d6014c, size 0x58, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(uint32_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d60564, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d601fc, size 0x58, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(uint64_t value);
 
-  /// @brief Method ToUInt16, addr 0x3d5a630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt16, addr 0x3d5a2c8, size 0x8, virtual false, abstract: false, final false
   static inline uint16_t ToUInt16(uint8_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d630a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d62d3c, size 0xd4, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToUInt32, addr 0x3d61094, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60d2c, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt32, addr 0x3d61020, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60cb8, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Decimal value);
 
-  /// @brief Method ToUInt32, addr 0x3d60b70, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60808, size 0xf4, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Object* value);
 
-  /// @brief Method ToUInt32, addr 0x3d60c64, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d608fc, size 0x104, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt32, addr 0x3d588d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d58570, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(bool value);
 
-  /// @brief Method ToUInt32, addr 0x3d5b8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d5b538, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(char16_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60f78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60c10, size 0xa8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(double_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60f1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60bb4, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(float_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60dbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60a54, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int16_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60e18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60ab0, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int32_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60e6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60b04, size 0x58, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int64_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60d68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60a00, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(int8_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60aa8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(uint16_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d60ec4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d60b5c, size 0x58, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(uint64_t value);
 
-  /// @brief Method ToUInt32, addr 0x3d5a6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt32, addr 0x3d5a388, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ToUInt32(uint8_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d61ab4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d6174c, size 0x78, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW value);
 
-  /// @brief Method ToUInt64, addr 0x3d6324c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d62ee4, size 0xd4, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW value, int32_t fromBase);
 
-  /// @brief Method ToUInt64, addr 0x3d61b2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d617c4, size 0x18, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::StringW value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt64, addr 0x3d61a40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d616d8, size 0x74, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Decimal value);
 
-  /// @brief Method ToUInt64, addr 0x3d61590, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d61228, size 0xf4, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Object* value);
 
-  /// @brief Method ToUInt64, addr 0x3d61684, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d6131c, size 0x104, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(::System::Object* value, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt64, addr 0x3d589a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d58638, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(bool value);
 
-  /// @brief Method ToUInt64, addr 0x3d5b960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d5b5f8, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(char16_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d61944, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d615dc, size 0xfc, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(double_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d618e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d61580, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(float_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d617dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d61474, size 0x54, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int16_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d61838, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d614d0, size 0x54, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int32_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d61894, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d6152c, size 0x54, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int64_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d61788, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d61420, size 0x54, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(int8_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d61830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d614c8, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(uint16_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d6188c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d61524, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(uint32_t value);
 
-  /// @brief Method ToUInt64, addr 0x3d5a7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToUInt64, addr 0x3d5a448, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t ToUInt64(uint8_t value);
 
-  /// @brief Method TryDecodeFromUtf16, addr 0x3d5ca4c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method TryDecodeFromUtf16, addr 0x3d5c6e4, size 0x35c, virtual false, abstract: false, final false
   static inline bool TryDecodeFromUtf16(::System::ReadOnlySpan_1<char16_t> utf16, ::System::Span_1<uint8_t> bytes, ::ByRef<int32_t> consumed, ::ByRef<int32_t> written);
 
-  /// @brief Method TryFromBase64Chars, addr 0x3d64154, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method TryFromBase64Chars, addr 0x3d63dec, size 0x4d4, virtual false, abstract: false, final false
   static inline bool TryFromBase64Chars(::System::ReadOnlySpan_1<char16_t> chars, ::System::Span_1<uint8_t> bytes, ::ByRef<int32_t> bytesWritten);
 
-  /// @brief Method WriteThreeLowOrderBytes, addr 0x3d5cdf8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method WriteThreeLowOrderBytes, addr 0x3d5ca90, size 0x18, virtual false, abstract: false, final false
   static inline void WriteThreeLowOrderBytes(::ByRef<uint8_t> destination, int32_t value);
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_ConvertTypes();

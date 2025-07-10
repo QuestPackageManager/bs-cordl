@@ -26,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x26361fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263628c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x2636230, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26362c0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x4116ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x411677c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ClientCertificateRequired, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -79,7 +79,7 @@ public:
   /// @brief Method get_EnabledSslProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method get_ServerCertSelectionDelegate, addr 0x4116adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertSelectionDelegate, addr 0x4116774, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
   /// @brief Method get_ServerCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

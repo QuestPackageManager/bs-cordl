@@ -28,16 +28,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE MeshTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CenterPivot, addr 0x477a39c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CenterPivot, addr 0x477a034, size 0x2d8, virtual false, abstract: false, final false
   static inline void CenterPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method FreezeScaleTransform, addr 0x477ecd0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method FreezeScaleTransform, addr 0x477e968, size 0x160, virtual false, abstract: false, final false
   static inline void FreezeScaleTransform(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method SetPivot, addr 0x477eaa4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x477e73c, size 0x98, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::PivotLocation pivotLocation);
 
-  /// @brief Method SetPivot, addr 0x477eb3c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetPivot, addr 0x477e7d4, size 0x194, virtual false, abstract: false, final false
   static inline void SetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 worldPosition);
 
 protected:

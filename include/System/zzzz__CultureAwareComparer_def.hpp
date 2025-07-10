@@ -49,22 +49,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x3e01624, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x3e012bc, size 0x54, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x3e01738, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e013d0, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3e01678, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e01310, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x3e017d0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e01468, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x3e016c8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e01360, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetObjectData, addr 0x3e01804, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3e0149c, size 0xec, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__options(::System::Globalization::CompareOptions value);
 
-  /// @brief Method .ctor, addr 0x3e01338, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e00fd0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method .ctor, addr 0x3e00e70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e00b08, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
 
-  /// @brief Method .ctor, addr 0x3e01418, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e010b0, size 0x20c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

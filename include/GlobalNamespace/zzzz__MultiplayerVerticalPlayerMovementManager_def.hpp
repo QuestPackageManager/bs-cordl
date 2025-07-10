@@ -89,18 +89,18 @@ public:
   /// @brief Field _scoreProvider, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider)) ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
-  /// @brief Method HandleStateChanged, addr 0x3be3bd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x3be386c, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3be3be4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3be387c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3be3b28, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be37c0, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3be3cb0, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3be3948, size 0x7e0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accelerationMetersPerSecondSquared() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x3be4490, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4128, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

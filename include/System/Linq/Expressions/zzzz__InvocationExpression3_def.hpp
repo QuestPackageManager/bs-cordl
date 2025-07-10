@@ -42,13 +42,13 @@ public:
   /// @brief Field _arg2, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__arg2, put = __cordl_internal_set__arg2)) ::System::Linq::Expressions::Expression* _arg2;
 
-  /// @brief Method GetArgument, addr 0x40b9c5c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x40b98f4, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression3* New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0,
                                                                              ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Rewrite, addr 0x40b9d24, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40b99bc, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -70,11 +70,11 @@ public:
 
   constexpr void __cordl_internal_set__arg2(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40b9c24, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b98bc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                     ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method get_ArgumentCount, addr 0x40b9d1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x40b99b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:

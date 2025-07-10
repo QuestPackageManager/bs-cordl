@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CampaignProgressModel::*)()>(
     &::GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26d666c;
+  constexpr static std::size_t addrs = 0x26d62b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CampaignProgressModel*>::get(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)()>(&::GlobalNamespace::CampaignProgressModel::Awake)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26d6820;
+  constexpr static std::size_t addrs = 0x26d646c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CampaignProgressModel*>::get(), "Awake",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::IsMissionRegistered)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26d6894;
+  constexpr static std::size_t addrs = 0x26d64e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::RegisterMissionId)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26d68ec;
+  constexpr static std::size_t addrs = 0x26d6538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::IsMissionCleared)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26d6950;
+  constexpr static std::size_t addrs = 0x26d659c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::IsMissionFinal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26d6980;
+  constexpr static std::size_t addrs = 0x26d65cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::SetFinalMissionId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d698c;
+  constexpr static std::size_t addrs = 0x26d65d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::WillFinishGameAfterThisMission)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26d6994;
+  constexpr static std::size_t addrs = 0x26d65e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW)>(
     &::GlobalNamespace::CampaignProgressModel::SetMissionCleared)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d69dc;
+  constexpr static std::size_t addrs = 0x26d6628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)(::StringW, bool)>(
     &::GlobalNamespace::CampaignProgressModel::__SetMissionCleared)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26d69e4;
+  constexpr static std::size_t addrs = 0x26d6630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CampaignProgressModel::*)()>(
     &::GlobalNamespace::CampaignProgressModel::UpdateNumberOfClearedMissions)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x26d6694;
+  constexpr static std::size_t addrs = 0x26d62e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CampaignProgressModel*>::get(),
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CampaignProgressModel::*)()>(&::GlobalNamespace::CampaignProgressModel::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d6a30;
+  constexpr static std::size_t addrs = 0x26d667c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CampaignProgressModel*>::get(), ".ctor",

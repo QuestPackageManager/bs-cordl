@@ -133,10 +133,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2278244, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22782d4, size 0x22c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2278470, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2278500, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -204,13 +204,13 @@ public:
 
   static inline ::GlobalNamespace::OculusPlatformUserModel___c* New_ctor();
 
-  /// @brief Method <GetUserNamesForUserIds>b__16_1, addr 0x2278550, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetUserNamesForUserIds>b__16_1, addr 0x22785e0, size 0x18, virtual false, abstract: false, final false
   inline bool _GetUserNamesForUserIds_b__16_1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
 
-  /// @brief Method <GetUserNamesForUserIds>b__16_2, addr 0x2278568, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <GetUserNamesForUserIds>b__16_2, addr 0x22785f8, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW _GetUserNamesForUserIds_b__16_2(::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>* response);
 
-  /// @brief Method .ctor, addr 0x2278548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22785d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OculusPlatformUserModel___c* getStaticF___9();
@@ -258,10 +258,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22785b4, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2278644, size 0x298, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x227884c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22788dc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -315,10 +315,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22788c8, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2278958, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2278c74, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2278d04, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -385,10 +385,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2278cf0, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2278d80, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2278f34, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2278fc4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -453,10 +453,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2278fb0, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2279040, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2279408, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2279498, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -523,10 +523,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2279484, size 0x4a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2279514, size 0x4a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x227992c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22799bc, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -593,10 +593,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22799a8, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2279a38, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2279dfc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2279e8c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -706,30 +706,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformUserModel"
   constexpr operator ::GlobalNamespace::IPlatformUserModel*() noexcept;
 
-  /// @brief Method GetUserAuthToken, addr 0x2277e54, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method GetUserAuthToken, addr 0x2277ee4, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::PlatformUserAuthTokenData*>* GetUserAuthToken();
 
-  /// @brief Method GetUserFriendsUserIds, addr 0x2277d60, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method GetUserFriendsUserIds, addr 0x2277df0, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserFriendsUserIds(bool cached);
 
-  /// @brief Method GetUserInfo, addr 0x2277b8c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetUserInfo, addr 0x2277c1c, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfo(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserInfoInternalAsync, addr 0x2277c78, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetUserInfoInternalAsync, addr 0x2277d08, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* GetUserInfoInternalAsync(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method GetUserNamesForUserIds, addr 0x2277f28, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method GetUserNamesForUserIds, addr 0x2277fb8, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* GetUserNamesForUserIds(::System::Collections::Generic::IReadOnlyList_1<::StringW>* userIds);
 
-  /// @brief Method GetUsersSystemLanguage, addr 0x2278104, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetUsersSystemLanguage, addr 0x2278194, size 0x5c, virtual true, abstract: false, final true
   inline ::BGLib::Polyglot::Language GetUsersSystemLanguage();
 
   static inline ::GlobalNamespace::OculusPlatformUserModel* New_ctor(::BeatSaber::Init::IPlatformInit* platformInit);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x227800c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method RequestXPlatformAccessToken, addr 0x227809c, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <GetUserNamesForUserIds>g__Fetch|16_0, addr 0x2278160, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <GetUserNamesForUserIds>g__Fetch|16_0, addr 0x22781f0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::User*>*>* _GetUserNamesForUserIds_g__Fetch_16_0(::StringW userId);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__friendsUserIds() const;
@@ -768,19 +768,19 @@ public:
 
   constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x2277b5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2277bec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Init::IPlatformInit* platformInit);
 
-  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x22779fc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_platformUserInfoDidChangeEvent, addr 0x2277a8c, size 0xb0, virtual true, abstract: false, final true
   inline void add_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
-  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x2277b84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanXPlatformAccessTokenBeCached, addr 0x2277c14, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanXPlatformAccessTokenBeCached();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
   constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
-  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x2277aac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_platformUserInfoDidChangeEvent, addr 0x2277b3c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
 protected:

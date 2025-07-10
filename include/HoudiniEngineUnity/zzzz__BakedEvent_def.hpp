@@ -30,7 +30,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::BakedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a060b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a05d40, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

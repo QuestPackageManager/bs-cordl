@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a3d1c;
+  constexpr static std::size_t addrs = 0x47a39b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c::*)(
     ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c::_RegisterEventHandler_b__8_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a3d24;
+  constexpr static std::size_t addrs = 0x47a39bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c::*)(
     ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton___c::_Awake_b__11_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47a3d2c;
+  constexpr static std::size_t addrs = 0x47a39c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::get_PlayerConnectionGuid)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47a2f78;
+  constexpr static std::size_t addrs = 0x47a2c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::GetGameObjectName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x47a3074;
+  constexpr static std::size_t addrs = 0x47a2d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*, bool, bool)>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::RegisterEventHandler)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x47a30b4;
+  constexpr static std::size_t addrs = 0x47a2d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)(
     ::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(&::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::RegisterEventHandler)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x47a3180;
+  constexpr static std::size_t addrs = 0x47a2e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(
         &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::UnregisterEventHandler)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a3650;
+  constexpr static std::size_t addrs = 0x47a32e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)(
     ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::PostEvent)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x47a36f4;
+  constexpr static std::size_t addrs = 0x47a338c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::Awake)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x47a3910;
+  constexpr static std::size_t addrs = 0x47a35a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::Update)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x47a39f0;
+  constexpr static std::size_t addrs = 0x47a3688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x47a3bb8;
+  constexpr static std::size_t addrs = 0x47a3850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

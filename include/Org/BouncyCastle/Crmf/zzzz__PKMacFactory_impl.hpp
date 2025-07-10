@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacFactory::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*)>(&::Org::BouncyCastle::Crmf::PKMacFactory::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26863cc;
+  constexpr static std::size_t addrs = 0x268645c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crmf::PKMacFactory::*)()>(
     &::Org::BouncyCastle::Crmf::PKMacFactory::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2686448;
+  constexpr static std::size_t addrs = 0x26864d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crmf::PKMacFactory::*)()>(
     &::Org::BouncyCastle::Crmf::PKMacFactory::CreateCalculator)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x26864dc;
+  constexpr static std::size_t addrs = 0x268656c;
 
   inline static ::MethodInfo const* methodInfo() {
 

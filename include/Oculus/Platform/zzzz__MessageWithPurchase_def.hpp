@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPurchase : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f80708, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f803a0, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Purchase* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetPurchase, addr 0x3f806cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPurchase, addr 0x3f80364, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Purchase* GetPurchase();
 
   static inline ::Oculus::Platform::MessageWithPurchase* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c98c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7c624, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

@@ -40,7 +40,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction* New_ctor(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method Run, addr 0x40c1b50, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c17e8, size 0x104, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set__rank(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40c1ad0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c1768, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t rank);
 
-  /// @brief Method get_ConsumedStack, addr 0x40c1b00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c1798, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c1b10, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c17a8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40c1b08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c17a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

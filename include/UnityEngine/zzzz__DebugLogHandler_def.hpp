@@ -38,21 +38,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
 
-  /// @brief Method Internal_Log, addr 0x486cbe4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Log, addr 0x486c87c, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object* obj);
 
-  /// @brief Method Internal_LogException, addr 0x486cc40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_LogException, addr 0x486c8d8, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_LogException(::System::Exception* ex, ::UnityEngine::Object* obj);
 
-  /// @brief Method LogException, addr 0x486ccec, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x486c984, size 0x90, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
-  /// @brief Method LogFormat, addr 0x486cc84, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method LogFormat, addr 0x486c91c, size 0x68, virtual true, abstract: false, final true
   inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::UnityEngine::DebugLogHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x486cd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486ca14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ILogHandler"

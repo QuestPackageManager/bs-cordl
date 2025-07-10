@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::get_WebName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x435fbc0;
+  constexpr static std::size_t addrs = 0x435f858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Decoder* (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::GetDecoder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fbcc;
+  constexpr static std::size_t addrs = 0x435f864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::Ucs4Encoding::GetByteCount)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x435fbd4;
+  constexpr static std::size_t addrs = 0x435f86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Xml::Ucs4Encoding::*)(::StringW)>(
     &::System::Xml::Ucs4Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fc34;
+  constexpr static std::size_t addrs = 0x435f8cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(
     ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Xml::Ucs4Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fc3c;
+  constexpr static std::size_t addrs = 0x435f8d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(int32_t)>(&::System::Xml::Ucs4Encoding::GetMaxByteCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fc44;
+  constexpr static std::size_t addrs = 0x435f8dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::Ucs4Encoding::GetCharCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x435fc4c;
+  constexpr static std::size_t addrs = 0x435f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Xml::Ucs4Encoding::GetChars)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x435fc6c;
+  constexpr static std::size_t addrs = 0x435f904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)(int32_t)>(&::System::Xml::Ucs4Encoding::GetMaxCharCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x435fc8c;
+  constexpr static std::size_t addrs = 0x435f924;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::get_CodePage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fca4;
+  constexpr static std::size_t addrs = 0x435f93c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoder* (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::GetEncoder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435fcac;
+  constexpr static std::size_t addrs = 0x435f944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_Littleendian)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x435fcb4;
+  constexpr static std::size_t addrs = 0x435f94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Encoding*>::get(), "get_UCS4_Littleendian",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_Bigendian)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x435fd64;
+  constexpr static std::size_t addrs = 0x435f9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Encoding*>::get(), "get_UCS4_Bigendian",
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_2143)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x435fe14;
+  constexpr static std::size_t addrs = 0x435faac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Encoding*>::get(), "get_UCS4_2143",
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Xml::Ucs4Encoding::get_UCS4_3412)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x435fec4;
+  constexpr static std::size_t addrs = 0x435fb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Encoding*>::get(), "get_UCS4_3412",
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Ucs4Encoding::*)()>(&::System::Xml::Ucs4Encoding::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x435ff74;
+  constexpr static std::size_t addrs = 0x435fc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Encoding*>::get(), ".ctor",

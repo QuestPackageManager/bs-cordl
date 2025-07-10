@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::get_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243ccc;
+  constexpr static std::size_t addrs = 0x2243d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventData*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::set_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243cd4;
+  constexpr static std::size_t addrs = 0x2243d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::get_distribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243cdc;
+  constexpr static std::size_t addrs = 0x2243d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventData*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::set_distribution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243ce4;
+  constexpr static std::size_t addrs = 0x2243d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(
     float_t, int32_t, int32_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::LightAxis, float_t, float_t)>(&::GlobalNamespace::LightTranslationBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2243cec;
+  constexpr static std::size_t addrs = 0x2243d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventData::*)(float_t, float_t)>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::ChangeTranslation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243de4;
+  constexpr static std::size_t addrs = 0x2243e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2243dec;
+  constexpr static std::size_t addrs = 0x2243e7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, ::GlobalNamespace::LightAxis)>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2243dcc;
+  constexpr static std::size_t addrs = 0x2243e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::LightTranslationBeatmapEventData::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2243e94;
+  constexpr static std::size_t addrs = 0x2243f24;
 
   inline static ::MethodInfo const* methodInfo() {
 

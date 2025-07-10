@@ -67,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <PlayContinuousHapticPreset>b__0, addr 0x39cb01c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <PlayContinuousHapticPreset>b__0, addr 0x39caca8, size 0xac, virtual false, abstract: false, final false
   inline void _PlayContinuousHapticPreset_b__0(::GlobalNamespace::HapticsAudioClipPlayer* player);
 
   constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController* const& __cordl_internal_get___4__this() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method .ctor, addr 0x39caf38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cabc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +147,7 @@ public:
 
   static inline ::GlobalNamespace::PS5AdvancedHapticsPlayerController___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <PlayOneShotHapticPreset>b__0, addr 0x39cb0c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <PlayOneShotHapticPreset>b__0, addr 0x39cad54, size 0xac, virtual false, abstract: false, final false
   inline void _PlayOneShotHapticPreset_b__0(::GlobalNamespace::HapticsAudioClipPlayer* player);
 
   constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController* const& __cordl_internal_get___4__this() const;
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method .ctor, addr 0x39caf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cabcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,24 +236,24 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x39cae40, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x39caacc, size 0x14, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Initialize, addr 0x39caa74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x39ca700, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::PS5AdvancedHapticsPlayerController* New_ctor();
 
-  /// @brief Method OnHapticPlayFinishedCallback, addr 0x39caf48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnHapticPlayFinishedCallback, addr 0x39cabd4, size 0x58, virtual false, abstract: false, final false
   inline void OnHapticPlayFinishedCallback(::GlobalNamespace::HapticsAudioClipPlayer* player);
 
-  /// @brief Method PlayContinuousHapticPreset, addr 0x39cac6c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method PlayContinuousHapticPreset, addr 0x39ca8f8, size 0x1d4, virtual false, abstract: false, final false
   inline void PlayContinuousHapticPreset(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method PlayHapticFeedback, addr 0x39caa78, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x39ca704, size 0x24, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method PlayOneShotHapticPreset, addr 0x39caa9c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShotHapticPreset, addr 0x39ca728, size 0x1d0, virtual false, abstract: false, final false
   inline void PlayOneShotHapticPreset(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::UnityEngine::XR::XRNode, ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>>,
@@ -280,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set__hapticsPlayerPool(::GlobalNamespace::HapticsAudioClipPlayer_Pool* value);
 
-  /// @brief Method .ctor, addr 0x39cafa0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cac2c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"

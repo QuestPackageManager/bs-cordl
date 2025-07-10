@@ -35,12 +35,12 @@ public:
   /// @brief Field revision, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) uint8_t revision;
 
-  /// @brief Method InsertAce, addr 0x3cc4d3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InsertAce, addr 0x3cc49d4, size 0xd4, virtual false, abstract: false, final false
   inline void InsertAce(int32_t index, ::System::Security::AccessControl::GenericAce* ace);
 
   static inline ::System::Security::AccessControl::RawAcl* New_ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method RemoveAce, addr 0x3cc47c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveAce, addr 0x3cc4458, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAce(int32_t index);
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* const& __cordl_internal_get_list() const;
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_revision(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3cc36fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc3394, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x3cc6cc4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3cc695c, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x3cc6d0c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3cc69a4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x3cc6d64, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3cc69fc, size 0x68, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
 protected:

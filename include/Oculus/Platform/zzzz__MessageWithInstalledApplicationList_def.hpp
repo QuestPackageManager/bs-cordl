@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithInstalledApplicationList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::InstalledApplicationList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7eda8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7ea40, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetInstalledApplicationList, addr 0x3f7ed6c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetInstalledApplicationList, addr 0x3f7ea04, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
 
   static inline ::Oculus::Platform::MessageWithInstalledApplicationList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7ed14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7e9ac, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

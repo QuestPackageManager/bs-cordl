@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::AuthenticationToken_Platform, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>*, ::StringW, ::StringW)>(
     &::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22efca0;
+  constexpr static std::size_t addrs = 0x22efd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

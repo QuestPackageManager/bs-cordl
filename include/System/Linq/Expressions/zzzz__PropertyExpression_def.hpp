@@ -35,7 +35,7 @@ public:
   /// @brief Field _property, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property)) ::System::Reflection::PropertyInfo* _property;
 
-  /// @brief Method GetMember, addr 0x40ba914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x40ba5ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
   static inline ::System::Linq::Expressions::PropertyExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* member);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__property(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method .ctor, addr 0x40ba7dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ba474, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* member);
 
-  /// @brief Method get_Type, addr 0x40ba91c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40ba5b4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

@@ -52,7 +52,7 @@ public:
   // Declarations
   __declspec(property(get = get_digits)) ::cordl_internals::Ptr<char16_t> digits;
 
-  /// @brief Method get_digits, addr 0x4235344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_digits, addr 0x4234fdc, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<char16_t> get_digits();
 
   // Ctor Parameters []
@@ -122,72 +122,72 @@ public:
   /// @brief Field s_posPercentFormats, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_posPercentFormats, put = setStaticF_s_posPercentFormats)) ::ArrayW<::StringW, ::Array<::StringW>*> s_posPercentFormats;
 
-  /// @brief Method FindSection, addr 0x4234b38, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method FindSection, addr 0x42347d0, size 0x14c, virtual false, abstract: false, final false
   static inline int32_t FindSection(::System::ReadOnlySpan_1<char16_t> format, int32_t section);
 
-  /// @brief Method FormatCurrency, addr 0x4233448, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FormatCurrency, addr 0x42330e0, size 0x260, virtual false, abstract: false, final false
   static inline void FormatCurrency(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                     ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatExponent, addr 0x4234848, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method FormatExponent, addr 0x42344e0, size 0x2f0, virtual false, abstract: false, final false
   static inline void FormatExponent(::ByRef<::System::Text::ValueStringBuilder> sb, ::System::Globalization::NumberFormatInfo* info, int32_t value, char16_t expChar, int32_t minDigits,
                                     bool positiveSign);
 
-  /// @brief Method FormatFixed, addr 0x42336a8, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method FormatFixed, addr 0x4233340, size 0x50c, virtual false, abstract: false, final false
   static inline void FormatFixed(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                  ::System::Globalization::NumberFormatInfo* info, ::ArrayW<int32_t, ::Array<int32_t>*> groupDigits, ::StringW sDecimal, ::StringW sGroup);
 
-  /// @brief Method FormatGeneral, addr 0x4234038, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method FormatGeneral, addr 0x4233cd0, size 0x388, virtual false, abstract: false, final false
   static inline void FormatGeneral(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                    ::System::Globalization::NumberFormatInfo* info, char16_t expChar, bool bSuppressScientific);
 
-  /// @brief Method FormatNumber, addr 0x4233bb4, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method FormatNumber, addr 0x423384c, size 0x248, virtual false, abstract: false, final false
   static inline void FormatNumber(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                   ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatPercent, addr 0x42343c0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FormatPercent, addr 0x4234058, size 0x260, virtual false, abstract: false, final false
   static inline void FormatPercent(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t nMinDigits, int32_t nMaxDigits,
                                    ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method FormatScientific, addr 0x4233dfc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method FormatScientific, addr 0x4233a94, size 0x23c, virtual false, abstract: false, final false
   static inline void FormatScientific(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t nMinDigits,
                                       int32_t nMaxDigits, ::System::Globalization::NumberFormatInfo* info, char16_t expChar);
 
-  /// @brief Method Int32ToDecChars, addr 0x423331c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Int32ToDecChars, addr 0x4232fb4, size 0x5c, virtual false, abstract: false, final false
   static inline void Int32ToDecChars(::cordl_internals::Ptr<char16_t> buffer, ::ByRef<int32_t> index, uint32_t value, int32_t digits);
 
-  /// @brief Method IsWhite, addr 0x4232a40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsWhite, addr 0x42326d8, size 0x28, virtual false, abstract: false, final false
   static inline bool IsWhite(char16_t ch);
 
-  /// @brief Method MatchChars, addr 0x4232a68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method MatchChars, addr 0x4232700, size 0xc4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<char16_t> MatchChars(::cordl_internals::Ptr<char16_t> p, ::cordl_internals::Ptr<char16_t> pEnd, ::StringW str);
 
-  /// @brief Method MatchChars, addr 0x4232b2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MatchChars, addr 0x42327c4, size 0x5c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<char16_t> MatchChars(::cordl_internals::Ptr<char16_t> p, ::cordl_internals::Ptr<char16_t> pEnd, ::cordl_internals::Ptr<char16_t> str);
 
-  /// @brief Method NumberToString, addr 0x4231318, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method NumberToString, addr 0x4230fb0, size 0x558, virtual false, abstract: false, final false
   static inline void NumberToString(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, char16_t format, int32_t nMaxDigits,
                                     ::System::Globalization::NumberFormatInfo* info, bool isDecimal);
 
-  /// @brief Method NumberToStringFormat, addr 0x4231870, size 0x1098, virtual false, abstract: false, final false
+  /// @brief Method NumberToStringFormat, addr 0x4231508, size 0x1098, virtual false, abstract: false, final false
   static inline void NumberToStringFormat(::ByRef<::System::Text::ValueStringBuilder> sb, ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number,
                                           ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::NumberFormatInfo* info);
 
-  /// @brief Method ParseFormatSpecifier, addr 0x42311d4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ParseFormatSpecifier, addr 0x4230e6c, size 0x144, virtual false, abstract: false, final false
   static inline char16_t ParseFormatSpecifier(::System::ReadOnlySpan_1<char16_t> format, ::ByRef<int32_t> digits);
 
-  /// @brief Method ParseNumber, addr 0x4232b88, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method ParseNumber, addr 0x4232820, size 0x704, virtual false, abstract: false, final false
   static inline bool ParseNumber(::ByRef<::cordl_internals::Ptr<char16_t>> str, ::cordl_internals::Ptr<char16_t> strEnd, ::System::Globalization::NumberStyles options,
                                  ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, ::System::Text::StringBuilder* sb, ::System::Globalization::NumberFormatInfo* numfmt,
                                  bool parseDecimal);
 
-  /// @brief Method RoundNumber, addr 0x4233378, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RoundNumber, addr 0x4233010, size 0xd0, virtual false, abstract: false, final false
   static inline void RoundNumber(::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, int32_t pos);
 
-  /// @brief Method TrailingZeros, addr 0x423328c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TrailingZeros, addr 0x4232f24, size 0x90, virtual false, abstract: false, final false
   static inline bool TrailingZeros(::System::ReadOnlySpan_1<char16_t> s, int32_t index);
 
-  /// @brief Method TryStringToNumber, addr 0x4232908, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method TryStringToNumber, addr 0x42325a0, size 0x138, virtual false, abstract: false, final false
   static inline bool TryStringToNumber(::System::ReadOnlySpan_1<char16_t> str, ::System::Globalization::NumberStyles options,
                                        ::ByRef<::System::Globalization::Number_FormatProvider_NumberBuffer> number, ::System::Text::StringBuilder* sb,
                                        ::System::Globalization::NumberFormatInfo* numfmt, bool parseDecimal);
@@ -216,7 +216,7 @@ public:
 
   static inline void setStaticF_s_posPercentFormats(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method wcslen, addr 0x4234620, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method wcslen, addr 0x42342b8, size 0x20, virtual false, abstract: false, final false
   static inline int32_t wcslen(::cordl_internals::Ptr<char16_t> s);
 
 protected:
@@ -251,11 +251,11 @@ public:
   // Declarations
   using Number = ::System::Globalization::FormatProvider_Number;
 
-  /// @brief Method FormatBigInteger, addr 0x4231070, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method FormatBigInteger, addr 0x4230d08, size 0x138, virtual false, abstract: false, final false
   static inline void FormatBigInteger(::ByRef<::System::Text::ValueStringBuilder> sb, int32_t precision, int32_t scale, bool sign, ::System::ReadOnlySpan_1<char16_t> format,
                                       ::System::Globalization::NumberFormatInfo* numberFormatInfo, ::ArrayW<char16_t, ::Array<char16_t>*> digits, int32_t startIndex);
 
-  /// @brief Method TryStringToBigInteger, addr 0x422f6d0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryStringToBigInteger, addr 0x422f368, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryStringToBigInteger(::System::ReadOnlySpan_1<char16_t> s, ::System::Globalization::NumberStyles styles, ::System::Globalization::NumberFormatInfo* numberFormatInfo,
                                            ::System::Text::StringBuilder* receiver, ::ByRef<int32_t> precision, ::ByRef<int32_t> scale, ::ByRef<bool> sign);
 

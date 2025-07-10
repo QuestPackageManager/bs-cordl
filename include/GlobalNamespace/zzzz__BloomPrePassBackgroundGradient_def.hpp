@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundGradient* New_ctor();
 
-  /// @brief Method UpdatePixels, addr 0x39d6870, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdatePixels, addr 0x39d64fc, size 0x74, virtual true, abstract: false, final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
 
   constexpr ::UnityEngine::Gradient* const& __cordl_internal_get__gradient() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__gradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method .ctor, addr 0x39d68e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d6570, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

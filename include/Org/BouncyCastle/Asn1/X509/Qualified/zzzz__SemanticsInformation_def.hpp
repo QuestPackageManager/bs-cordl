@@ -43,10 +43,10 @@ public:
   /// @brief Field semanticsIdentifier, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_semanticsIdentifier, put = __cordl_internal_set_semanticsIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* semanticsIdentifier;
 
-  /// @brief Method GetInstance, addr 0x25030e4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2503174, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNameRegistrationAuthorities, addr 0x2503670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNameRegistrationAuthorities, addr 0x2503700, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> GetNameRegistrationAuthorities();
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation*
@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::SemanticsInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2503678, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2503708, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> const& __cordl_internal_get_nameRegistrationAuthorities() const;
@@ -75,20 +75,20 @@ public:
 
   constexpr void __cordl_internal_set_semanticsIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x2503640, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25036d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> generalNames);
 
-  /// @brief Method .ctor, addr 0x2503618, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25036a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* semanticsIdentifier);
 
-  /// @brief Method .ctor, addr 0x25035ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250367c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* semanticsIdentifier,
                     ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> generalNames);
 
-  /// @brief Method .ctor, addr 0x2503248, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25032d8, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_SemanticsIdentifier, addr 0x2503668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SemanticsIdentifier, addr 0x25036f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SemanticsIdentifier();
 
 protected:

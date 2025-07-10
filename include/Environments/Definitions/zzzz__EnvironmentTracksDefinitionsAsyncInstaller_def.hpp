@@ -39,10 +39,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x2282964, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x22829f4, size 0xac, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x228290c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x228299c, size 0x58, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* tracksDefinitions,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentTracksDefinitions(::System::Collections::Generic::List_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>* value);
 
-  /// @brief Method .ctor, addr 0x2282bb0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2282c40, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x22828cc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x228295c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor, addr 0x48a6d20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a69b8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW error);
 
 protected:

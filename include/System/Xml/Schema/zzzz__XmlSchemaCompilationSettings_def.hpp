@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set_enableUpaCheck(bool value);
 
-  /// @brief Method .ctor, addr 0x42bb81c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bb4b4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EnableUpaCheck, addr 0x42bb83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableUpaCheck, addr 0x42bb4d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableUpaCheck();
 
 protected:

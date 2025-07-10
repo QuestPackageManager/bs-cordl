@@ -28,7 +28,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Media : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShareToFacebook, addr 0x3f8b5d4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ShareToFacebook, addr 0x3f8b26c, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
                                                                                                               ::Oculus::Platform::MediaContentType contentType);
 

@@ -19,13 +19,13 @@ namespace System {
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ansi, addr 0x3e36c28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ansi, addr 0x3e368c0, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
 
-  /// @brief Method get_linux, addr 0x3e36b48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_linux, addr 0x3e367e0, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
 
-  /// @brief Method get_xterm, addr 0x3e36bb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_xterm, addr 0x3e36850, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
 
 protected:

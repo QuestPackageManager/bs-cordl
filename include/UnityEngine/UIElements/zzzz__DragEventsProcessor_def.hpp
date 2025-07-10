@@ -154,7 +154,7 @@ public:
   /// @brief Method ClearDragAndDropUI, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ClearDragAndDropUI(bool dragCancelled);
 
-  /// @brief Method GetDropTarget, addr 0x4a1a054, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetDropTarget, addr 0x4a19cec, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragEventsProcessor* GetDropTarget(::UnityEngine::Vector2 position);
 
   static inline ::UnityEngine::UIElements::DragEventsProcessor* New_ctor(::UnityEngine::UIElements::VisualElement* target);
@@ -162,37 +162,37 @@ public:
   /// @brief Method OnDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method OnPointerCancelEvent, addr 0x4a1a14c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancelEvent, addr 0x4a19de4, size 0x130, virtual false, abstract: false, final false
   inline void OnPointerCancelEvent(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerCapturedOut, addr 0x4a1a27c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCapturedOut, addr 0x4a19f14, size 0x10c, virtual false, abstract: false, final false
   inline void OnPointerCapturedOut(::UnityEngine::UIElements::PointerCaptureOutEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x4a19dc8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDownEvent, addr 0x4a19a60, size 0xe8, virtual false, abstract: false, final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerLeaveEvent, addr 0x4a1a13c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnPointerLeaveEvent, addr 0x4a19dd4, size 0x10, virtual false, abstract: false, final false
   inline void OnPointerLeaveEvent(::UnityEngine::UIElements::PointerLeaveEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent, addr 0x4a1a388, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMoveEvent, addr 0x4a1a020, size 0x3a8, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUpEvent, addr 0x4a19eb0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUpEvent, addr 0x4a19b48, size 0x1a4, virtual false, abstract: false, final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x4a196c0, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x4a19358, size 0x300, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget();
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x4a199c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x4a19658, size 0x4, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
   /// @brief Method StartDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x4a199c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x4a1965c, size 0x8, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x4a199cc, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x4a19664, size 0x3fc, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
 
   /// @brief Method UpdateDrag, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -222,19 +222,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4a1958c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a19224, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method get_dragAndDrop, addr 0x4a1944c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_dragAndDrop, addr 0x4a190e4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
 
-  /// @brief Method get_isEditorContext, addr 0x4a1946c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method get_isEditorContext, addr 0x4a19104, size 0x120, virtual true, abstract: false, final false
   inline bool get_isEditorContext();
 
-  /// @brief Method get_supportsDragEvents, addr 0x4a1940c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsDragEvents, addr 0x4a190a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();
 
-  /// @brief Method get_useDragEvents, addr 0x4a19414, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_useDragEvents, addr 0x4a190ac, size 0x38, virtual false, abstract: false, final false
   inline bool get_useDragEvents();
 
 protected:

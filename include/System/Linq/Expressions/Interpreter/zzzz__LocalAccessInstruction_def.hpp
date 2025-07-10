@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalAccessInstruction* New_ctor(int32_t index);
 
-  /// @brief Method ToDebugString, addr 0x40e9378, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x40e9010, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40e9350, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e8fe8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
 protected:

@@ -103,10 +103,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b5b840, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b5b4d8, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b5bb04, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b5b79c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -201,21 +201,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b5bb14, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b5b7ac, size 0x254, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b5bd68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b5ba00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b5bd70, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b5ba08, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b5bda8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b5ba40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b5bb10, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b5b7a8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_showLoadingIndicator(bool value);
 
-  /// @brief Method .ctor, addr 0x3b5b6dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5b374, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -374,54 +374,54 @@ public:
 
   __declspec(property(get = get_leaderboardsModel)) ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> leaderboardsModel;
 
-  /// @brief Method ClearContent, addr 0x3b5b704, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x3b5b39c, size 0xbc, virtual false, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method DidActivate, addr 0x3b5a988, size 0x53c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b5a620, size 0x53c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b5af58, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b5abf0, size 0x118, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidPressRefreshButton, addr 0x3b5b26c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPressRefreshButton, addr 0x3b5af04, size 0xc, virtual false, abstract: false, final false
   inline void HandleDidPressRefreshButton();
 
-  /// @brief Method HandleLeaderboardsResultsReturned, addr 0x3b5b278, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method HandleLeaderboardsResultsReturned, addr 0x3b5af10, size 0x264, virtual false, abstract: false, final false
   inline void
   HandleLeaderboardsResultsReturned(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult result,
                                     ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*> scores,
                                     int32_t playerScoreIndex);
 
-  /// @brief Method HandlePlatformLeaderboardsModelAllScoresDidUpload, addr 0x3b5b54c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandlePlatformLeaderboardsModelAllScoresDidUpload, addr 0x3b5b1e4, size 0xc, virtual false, abstract: false, final false
   inline void HandlePlatformLeaderboardsModelAllScoresDidUpload();
 
-  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x3b5b4dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x3b5b174, size 0x70, virtual false, abstract: false, final false
   inline void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::PlatformLeaderboardViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5b070, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b5ad08, size 0x1c0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x3b5a8ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b5a544, size 0xac, virtual false, abstract: false, final false
   inline void Refresh(bool showLoadingIndicator, bool clear);
 
-  /// @brief Method RefreshAsync, addr 0x3b5b558, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshAsync, addr 0x3b5b1f0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RefreshAsync(bool showLoadingIndicator, bool clear);
 
-  /// @brief Method RefreshDelayed, addr 0x3b5b65c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RefreshDelayed, addr 0x3b5b2f4, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
 
-  /// @brief Method RefreshLevelStats, addr 0x3b5a958, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method RefreshLevelStats, addr 0x3b5a5f0, size 0x30, virtual true, abstract: false, final false
   inline void RefreshLevelStats();
 
-  /// @brief Method ScopeScopeIndexToScoreScope, addr 0x3b5b230, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ScopeScopeIndexToScoreScope, addr 0x3b5aec8, size 0x3c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope ScopeScopeIndexToScoreScope(int32_t scoreScopeIndex);
 
-  /// @brief Method ScoreScopeToScoreScopeIndex, addr 0x3b5aec4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ScoreScopeToScoreScopeIndex, addr 0x3b5ab5c, size 0x94, virtual false, abstract: false, final false
   inline int32_t ScoreScopeToScoreScopeIndex(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scoresScope);
 
-  /// @brief Method SetData, addr 0x3b5a810, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b5a4a8, size 0x9c, virtual true, abstract: false, final false
   inline void SetData(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__aroundPlayerLeaderboardIcon() const;
@@ -520,12 +520,12 @@ public:
 
   constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>* value);
 
-  /// @brief Method .ctor, addr 0x3b5b7c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5b458, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope getStaticF__scoresScope();
 
-  /// @brief Method get_leaderboardsModel, addr 0x3b5a808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardsModel, addr 0x3b5a4a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> get_leaderboardsModel();
 
   static inline void setStaticF__scoresScope(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope value);

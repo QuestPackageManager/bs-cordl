@@ -26,13 +26,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get2DNoteOffset, addr 0x2249c88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Get2DNoteOffset, addr 0x2249d18, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method LineYPosForLineLayer, addr 0x2249f78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LineYPosForLineLayer, addr 0x224a008, size 0x24, virtual false, abstract: false, final false
   static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
 
-  /// @brief Method get_layerHeight, addr 0x2249f9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_layerHeight, addr 0x224a02c, size 0xc, virtual false, abstract: false, final false
   static inline float_t get_layerHeight();
 
 protected:

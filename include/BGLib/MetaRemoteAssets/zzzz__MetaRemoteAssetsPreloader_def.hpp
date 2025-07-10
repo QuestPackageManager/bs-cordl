@@ -58,10 +58,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* New_ctor();
 
-  /// @brief Method <PreloadAsync>b__0_0, addr 0x22aa884, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <PreloadAsync>b__0_0, addr 0x22aa914, size 0xd8, virtual false, abstract: false, final false
   inline bool _PreloadAsync_b__0_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x22aa87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aa90c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader___c* getStaticF___9();
@@ -105,10 +105,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22aa95c, size 0x458, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22aa9ec, size 0x458, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22aadb4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22aae44, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -164,10 +164,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsPreloader* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x22aa75c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x22aa7ec, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x22aa818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22aa8a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

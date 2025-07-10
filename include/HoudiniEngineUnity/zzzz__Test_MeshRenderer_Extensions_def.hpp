@@ -48,13 +48,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_MeshRenderer_Extensions___c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x3a99ea0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x3a99b2c, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__1_0(::UnityEngine::MeshRenderer* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x3a99efc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x3a99b88, size 0x5c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_MeshRenderer* _ToTestObject_b__2_0(::UnityEngine::MeshRenderer* lod);
 
-  /// @brief Method .ctor, addr 0x3a99e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a99b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::Test_MeshRenderer_Extensions___c* getStaticF___9();
@@ -101,14 +101,14 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::Test_MeshRenderer_Extensions___c;
 
-  /// @brief Method ToTestObject, addr 0x3a99c54, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a998e0, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_MeshRenderer*, ::Array<::HoudiniEngineUnity::Test_MeshRenderer*>*>
   ToTestObject(::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x3a96024, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a95cb0, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_MeshRenderer* ToTestObject(::UnityEngine::MeshRenderer* self);
 
-  /// @brief Method ToTestObject, addr 0x3a99d44, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a999d0, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_MeshRenderer*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshRenderer>>* self);
 
 protected:

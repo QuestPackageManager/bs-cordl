@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)(::System::LocalDataStoreMgr*, int32_t)>(&::System::LocalDataStore::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e1441c;
+  constexpr static std::size_t addrs = 0x3e140b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)()>(&::System::LocalDataStore::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e143b8;
+  constexpr static std::size_t addrs = 0x3e14050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStore*>::get(), "Dispose",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::LocalDataStore::*)(::System::LocalDataStoreSlot*)>(&::System::LocalDataStore::GetData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3e14590;
+  constexpr static std::size_t addrs = 0x3e14228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)(::System::LocalDataStoreSlot*, ::System::Object*)>(
     &::System::LocalDataStore::SetData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3e146d4;
+  constexpr static std::size_t addrs = 0x3e1436c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStore::*)(int32_t, int64_t)>(&::System::LocalDataStore::FreeData)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e14a24;
+  constexpr static std::size_t addrs = 0x3e146bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreElement* (::System::LocalDataStore::*)(::System::LocalDataStoreSlot*)>(
     &::System::LocalDataStore::PopulateElement)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3e147b0;
+  constexpr static std::size_t addrs = 0x3e14448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

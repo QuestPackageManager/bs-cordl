@@ -22,19 +22,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileSystemHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindFirstExistedParentPath, addr 0x229ec44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FindFirstExistedParentPath, addr 0x229ecd4, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW FindFirstExistedParentPath(::StringW path);
 
-  /// @brief Method HasWritePermission, addr 0x229ecd4, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermission, addr 0x229ed64, size 0x390, virtual false, abstract: false, final false
   static inline bool HasWritePermission(::System::Security::AccessControl::FileSystemSecurity* accessControlList);
 
-  /// @brief Method HasWritePermissionOnDirectory, addr 0x229f064, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermissionOnDirectory, addr 0x229f0f4, size 0x14, virtual false, abstract: false, final false
   static inline bool HasWritePermissionOnDirectory(::StringW path);
 
-  /// @brief Method HasWritePermissionOnFile, addr 0x229f078, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HasWritePermissionOnFile, addr 0x229f108, size 0x14, virtual false, abstract: false, final false
   static inline bool HasWritePermissionOnFile(::StringW path);
 
-  /// @brief Method IsFileWritable, addr 0x229f08c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method IsFileWritable, addr 0x229f11c, size 0x74, virtual false, abstract: false, final false
   static inline bool IsFileWritable(::StringW path);
 
 protected:

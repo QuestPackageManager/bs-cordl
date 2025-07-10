@@ -27,7 +27,7 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCullAndClipWorldRect, addr 0x4959c44, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method FindCullAndClipWorldRect, addr 0x49598dc, size 0x1d8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ::ByRef<bool> validRect);
 
 protected:

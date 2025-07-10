@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::GetInstance)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x24f4cb4;
+  constexpr static std::size_t addrs = 0x24f4d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24f4ee8;
+  constexpr static std::size_t addrs = 0x24f4f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::GetCapabilities)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24f4f10;
+  constexpr static std::size_t addrs = 0x24f4fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (
     ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::GetCapabilitiesForOid)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24f55c4;
+  constexpr static std::size_t addrs = 0x24f5654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::System::Collections::IList*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::DoGetCapabilitiesForOid)> {
   constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x24f4f84;
+  constexpr static std::size_t addrs = 0x24f5014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::*)()>(
     &::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f577c;
+  constexpr static std::size_t addrs = 0x24f580c;
 
   inline static ::MethodInfo const* methodInfo() {
 

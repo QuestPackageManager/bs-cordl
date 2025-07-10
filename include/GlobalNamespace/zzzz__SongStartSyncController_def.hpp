@@ -74,24 +74,24 @@ public:
   /// @brief Field syncStartSuccessEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_syncStartSuccessEvent, put = __cordl_internal_set_syncStartSuccessEvent)) ::System::Action_1<int64_t>* syncStartSuccessEvent;
 
-  /// @brief Method HandleSetSongStartSyncTime, addr 0x3e738e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleSetSongStartSyncTime, addr 0x3e73578, size 0x2c, virtual false, abstract: false, final false
   inline void HandleSetSongStartSyncTime(int64_t songStartSyncTime);
 
   static inline ::GlobalNamespace::SongStartSyncController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x3e73754, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3e733ec, size 0x44, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x3e736e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3e73378, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3e736d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3e7336c, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x3e73798, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x3e73430, size 0x148, virtual false, abstract: false, final false
   inline void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
 
-  /// @brief Method Update, addr 0x3e736f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3e7338c, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager* const& __cordl_internal_get__gameplayRpcManager() const;
@@ -154,31 +154,31 @@ public:
 
   constexpr void __cordl_internal_set_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x3e7390c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e735a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_syncResumeEvent, addr 0x3e73574, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncResumeEvent, addr 0x3e7320c, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method add_syncStartFailedEvent, addr 0x3e732dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartFailedEvent, addr 0x3e72f74, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncStartFailedEvent(::System::Action* value);
 
-  /// @brief Method add_syncStartSuccessEvent, addr 0x3e73414, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartSuccessEvent, addr 0x3e730ac, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method get_isSongStarted, addr 0x3e732b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSongStarted, addr 0x3e72f50, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSongStarted();
 
-  /// @brief Method get_songStartSyncTime, addr 0x3e732c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_songStartSyncTime, addr 0x3e72f58, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
-  /// @brief Method remove_syncResumeEvent, addr 0x3e73624, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncResumeEvent, addr 0x3e732bc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method remove_syncStartFailedEvent, addr 0x3e73378, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartFailedEvent, addr 0x3e73010, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncStartFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartSuccessEvent, addr 0x3e734c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartSuccessEvent, addr 0x3e7315c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
 protected:

@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x3b336b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <JumpToTimelineMarker>b__0, addr 0x3b33344, size 0x38, virtual false, abstract: false, final false
   inline bool _JumpToTimelineMarker_b__0(::UnityEngine::Timeline::IMarker* marker);
 
   constexpr ::System::Type* const& __cordl_internal_get_markerType() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_markerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3b336b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3333c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::TimelineExtensions___c__DisplayClass0_0;
 
-  /// @brief Method JumpToTimelineMarker, addr 0x3b334e8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method JumpToTimelineMarker, addr 0x3b33174, size 0x1c8, virtual false, abstract: false, final false
   static inline void JumpToTimelineMarker(::UnityEngine::Playables::PlayableDirector* playableDirector, ::System::Type* markerType);
 
 protected:

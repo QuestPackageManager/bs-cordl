@@ -24,13 +24,13 @@ public:
   /// @brief Field Error, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_Error, put = setStaticF_Error)) ::GlobalNamespace::LoadBeatmapLevelDataResult Error;
 
-  /// @brief Method FromValue, addr 0x26d56b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromValue, addr 0x26d5300, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult FromValue(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method Success, addr 0x26d56a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Success, addr 0x26d52f4, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult Success(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method .ctor, addr 0x26d5698, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d52e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   static inline ::GlobalNamespace::LoadBeatmapLevelDataResult getStaticF_Error();

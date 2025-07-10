@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3ee1388, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee1020, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_ISerializableCreator, addr 0x3ee7cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ISerializableCreator, addr 0x3ee798c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
 
-  /// @brief Method set_ISerializableCreator, addr 0x3ee7cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ISerializableCreator, addr 0x3ee7994, size 0x8, virtual false, abstract: false, final false
   inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:

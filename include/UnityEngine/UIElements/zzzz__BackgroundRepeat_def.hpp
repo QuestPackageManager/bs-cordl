@@ -31,31 +31,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*();
 
-  /// @brief Method Equals, addr 0x4970f60, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4970bf8, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4970fe8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4970c80, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::BackgroundRepeat other);
 
-  /// @brief Method GetHashCode, addr 0x4971010, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4970ca8, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x4970f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x4970bf0, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat Initial();
 
-  /// @brief Method ToString, addr 0x4971078, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4970d10, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4970a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49706f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Repeat repeatX, ::UnityEngine::UIElements::Repeat repeatY);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>* i___System__IEquatable_1___UnityEngine__UIElements__BackgroundRepeat_();
 
-  /// @brief Method op_Equality, addr 0x4970f08, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4970ba0, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::BackgroundRepeat style1, ::UnityEngine::UIElements::BackgroundRepeat style2);
 
-  /// @brief Method op_Inequality, addr 0x4971058, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4970cf0, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::BackgroundRepeat style1, ::UnityEngine::UIElements::BackgroundRepeat style2);
 
   // Ctor Parameters []

@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Info, addr 0x3c5509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x3c54d34, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Interop_ErrorInfo Info(::GlobalNamespace::Interop_Error error);
 
 protected:

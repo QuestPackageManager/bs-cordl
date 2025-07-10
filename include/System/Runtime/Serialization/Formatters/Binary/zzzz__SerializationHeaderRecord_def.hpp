@@ -51,10 +51,10 @@ public:
   /// @brief Field topId, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_topId, put = __cordl_internal_set_topId)) int32_t topId;
 
-  /// @brief Method Dump, addr 0x3d00d58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d009f0, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
-  /// @brief Method GetInt32, addr 0x3d00b98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetInt32, addr 0x3d00830, size 0x74, virtual false, abstract: false, final false
   static inline int32_t GetInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor();
@@ -62,10 +62,10 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum,
                                                                                                           int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion);
 
-  /// @brief Method Read, addr 0x3d00c0c, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3d008a4, size 0x14c, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Write, addr 0x3d00ae8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3d00780, size 0xb0, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_binaryFormatterMajorVersion() const;
@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_topId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d00a80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00718, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d00a90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00728, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum, int32_t topId, int32_t headerId, int32_t majorVersion, int32_t minorVersion);
 
 protected:

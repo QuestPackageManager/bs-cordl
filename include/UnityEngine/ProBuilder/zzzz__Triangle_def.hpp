@@ -40,34 +40,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>*();
 
-  /// @brief Method ContainsEdge, addr 0x47438cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ContainsEdge, addr 0x4743564, size 0x100, virtual false, abstract: false, final false
   inline bool ContainsEdge(::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method Equals, addr 0x4743780, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4743418, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x474374c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x47433e4, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::Triangle other);
 
-  /// @brief Method GetHashCode, addr 0x4743818, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47434b0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAdjacent, addr 0x4743838, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsAdjacent, addr 0x47434d0, size 0x94, virtual false, abstract: false, final false
   inline bool IsAdjacent(::UnityEngine::ProBuilder::Triangle other);
 
-  /// @brief Method .ctor, addr 0x4743740, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47433d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t a, int32_t b, int32_t c);
 
-  /// @brief Method get_a, addr 0x47436a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_a, addr 0x4743338, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_a();
 
-  /// @brief Method get_b, addr 0x47436a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_b, addr 0x4743340, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_b();
 
-  /// @brief Method get_c, addr 0x47436b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_c, addr 0x4743348, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_c();
 
-  /// @brief Method get_indices, addr 0x47436b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_indices, addr 0x4743350, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_indices();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Triangle>"

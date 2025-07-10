@@ -30,10 +30,10 @@ public:
 
   static inline ::VRUIControls::MouseButtonEventData* New_ctor();
 
-  /// @brief Method PressedThisFrame, addr 0x4aed064, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PressedThisFrame, addr 0x4aeccfc, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();
 
-  /// @brief Method ReleasedThisFrame, addr 0x4aed074, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReleasedThisFrame, addr 0x4aecd0c, size 0x14, virtual false, abstract: false, final false
   inline bool ReleasedThisFrame();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_buttonData() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::PointerEventData_FramePressState value);
 
-  /// @brief Method .ctor, addr 0x4aed088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aecd20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

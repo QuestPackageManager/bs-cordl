@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e1868, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e14f4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x39e1858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e14e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x39e1860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x39e14ec, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -107,12 +107,12 @@ public:
   /// @brief Field _saturation, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__saturation, put = __cordl_internal_set__saturation)) float_t _saturation;
 
-  /// @brief Method GetLightWithIds, addr 0x39e17d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x39e1464, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::GlobalShaderColorLightWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x39e168c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x39e1318, size 0x14c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr ::ArrayW<::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId*, ::Array<::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId*>*> const&
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__saturation(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e17e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e146c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__globalLightTintColorPropertyId();

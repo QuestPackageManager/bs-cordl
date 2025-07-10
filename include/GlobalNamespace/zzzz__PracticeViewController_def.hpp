@@ -106,10 +106,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3af5a70, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3af56fc, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3af5f10, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3af5b9c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -263,39 +263,39 @@ public:
 
   __declspec(property(get = get_practiceSettings)) ::GlobalNamespace::PracticeSettings* practiceSettings;
 
-  /// @brief Method CancelSongLoading, addr 0x3af53f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CancelSongLoading, addr 0x3af5080, size 0x2c, virtual false, abstract: false, final false
   inline void CancelSongLoading();
 
-  /// @brief Method DidActivate, addr 0x3af5490, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af511c, size 0x164, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3af5774, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3af5400, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetSongTime, addr 0x3af58f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSongTime, addr 0x3af5580, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetSongTime();
 
-  /// @brief Method HandlePlayButtonPressed, addr 0x3af59f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayButtonPressed, addr 0x3af5680, size 0x74, virtual false, abstract: false, final false
   inline void HandlePlayButtonPressed();
 
-  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x3af59c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x3af564c, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method Init, addr 0x3af52b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3af4f44, size 0x13c, virtual false, abstract: false, final false
   inline void Init(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method LoadSong, addr 0x3af55f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x3af5280, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::PracticeViewController* New_ctor();
 
-  /// @brief Method PlayPreview, addr 0x3af5820, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PlayPreview, addr 0x3af54ac, size 0xd4, virtual false, abstract: false, final false
   inline void PlayPreview();
 
-  /// @brief Method SetLoader, addr 0x3af5940, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLoader, addr 0x3af55cc, size 0x80, virtual false, abstract: false, final false
   inline void SetLoader(bool loading);
 
-  /// @brief Method SetSongLength, addr 0x3af5420, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSongLength, addr 0x3af50ac, size 0x70, virtual false, abstract: false, final false
   inline void SetSongLength(float_t songLength);
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
@@ -442,16 +442,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3af5a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af56f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3af5178, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3af4e04, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method get_practiceSettings, addr 0x3af52b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x3af4f3c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3af5214, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3af4ea0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action* value);
 
 protected:

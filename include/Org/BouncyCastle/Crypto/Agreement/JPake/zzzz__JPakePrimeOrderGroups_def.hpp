@@ -32,7 +32,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2689cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2689d84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* getStaticF_NIST_2048();

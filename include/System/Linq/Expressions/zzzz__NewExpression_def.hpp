@@ -38,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get__arguments,
                       put = __cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
 
-  /// @brief Method GetArgument, addr 0x40bc778, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x40bc410, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__Constructor_k__BackingField() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Constructor, addr 0x40bc770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x40bc408, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
 protected:

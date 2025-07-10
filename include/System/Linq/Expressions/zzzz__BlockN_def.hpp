@@ -40,15 +40,15 @@ public:
   __declspec(property(get = __cordl_internal_get__expressions,
                       put = __cordl_internal_set__expressions)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _expressions;
 
-  /// @brief Method GetExpression, addr 0x40add70, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40ada08, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x40adeb8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x40adb50, size 0x48, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::BlockN* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Rewrite, addr 0x40adf00, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40adb98, size 0x58, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__expressions(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x40add4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ad9e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method get_ExpressionCount, addr 0x40ade18, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x40adab0, size 0xa0, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:

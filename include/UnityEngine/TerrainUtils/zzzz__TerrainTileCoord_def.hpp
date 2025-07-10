@@ -19,7 +19,7 @@ namespace UnityEngine::TerrainUtils {
 struct CORDL_TYPE TerrainTileCoord {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x491f384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x491f01c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t tileX, int32_t tileZ);
 
   // Ctor Parameters []

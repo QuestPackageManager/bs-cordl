@@ -47,13 +47,13 @@ public:
 
   static inline ::HMUI::HoverTextSetter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39ef3d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39ef064, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerEnter, addr 0x39ef3a0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x39ef02c, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x39ef3c0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x39ef04c, size 0x18, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::HMUI::HoverTextController> const& __cordl_internal_get__hoverTextController() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39ef3f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ef07c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x39ef390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39ef01c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -83,7 +83,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_text, addr 0x39ef398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39ef024, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

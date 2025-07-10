@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage_TempAssemblyComparer::*)()>(
     &::System::Data::Common::ObjectStorage_TempAssemblyComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41da7e0;
+  constexpr static std::size_t addrs = 0x41da478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>,
     ::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>)>(&::System::Data::Common::ObjectStorage_TempAssemblyComparer::Equals)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x41da7e8;
+  constexpr static std::size_t addrs = 0x41da480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::ObjectStorage_TempAssemblyComparer::*)(
     ::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>)>(&::System::Data::Common::ObjectStorage_TempAssemblyComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x41da92c;
+  constexpr static std::size_t addrs = 0x41da5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage::*)(::System::Data::DataColumn*, ::System::Type*)>(
     &::System::Data::Common::ObjectStorage::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x41d7090;
+  constexpr static std::size_t addrs = 0x41d6d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::Common::ObjectStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::ObjectStorage::Aggregate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x41d7238;
+  constexpr static std::size_t addrs = 0x41d6ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::ObjectStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::ObjectStorage::Compare)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x41d7268;
+  constexpr static std::size_t addrs = 0x41d6f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::ObjectStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::ObjectStorage::CompareValueTo)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x41d78b8;
+  constexpr static std::size_t addrs = 0x41d7550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::ObjectStorage::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::Common::ObjectStorage::CompareTo)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x41d7a9c;
+  constexpr static std::size_t addrs = 0x41d7734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::ObjectStorage::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::Common::ObjectStorage::CompareWithFamilies)> {
   constexpr static std::size_t size = 0x49c;
-  constexpr static std::size_t addrs = 0x41d741c;
+  constexpr static std::size_t addrs = 0x41d70b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::ObjectStorage*>::get(),
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage::*)(int32_t, int32_t)>(&::System::Data::Common::ObjectStorage::Copy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41d7d68;
+  constexpr static std::size_t addrs = 0x41d7a00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::ObjectStorage::*)(int32_t)>(&::System::Data::Common::ObjectStorage::Get)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x41d7ddc;
+  constexpr static std::size_t addrs = 0x41d7a74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::ObjectStorage_Families (::System::Data::Common::ObjectStorage::*)(::System::Type*)>(
     &::System::Data::Common::ObjectStorage::GetFamily)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x41d7c74;
+  constexpr static std::size_t addrs = 0x41d790c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Common::ObjectStorage::*)(int32_t)>(&::System::Data::Common::ObjectStorage::IsNull)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41d7e18;
+  constexpr static std::size_t addrs = 0x41d7ab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::ObjectStorage::Set)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x41d7e50;
+  constexpr static std::size_t addrs = 0x41d7ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage::*)(int32_t)>(&::System::Data::Common::ObjectStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x41d86ec;
+  constexpr static std::size_t addrs = 0x41d8384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::ObjectStorage::*)(::StringW)>(
     &::System::Data::Common::ObjectStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x41d87a4;
+  constexpr static std::size_t addrs = 0x41d843c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Data::Common::ObjectStorage::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Data::Common::ObjectStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x6f0;
-  constexpr static std::size_t addrs = 0x41d8d70;
+  constexpr static std::size_t addrs = 0x41d8a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::ObjectStorage::*)(::System::Object*)>(
     &::System::Data::Common::ObjectStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x660;
-  constexpr static std::size_t addrs = 0x41d9a30;
+  constexpr static std::size_t addrs = 0x41d96c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage::*)(
     ::System::Object*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Data::Common::ObjectStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x41da090;
+  constexpr static std::size_t addrs = 0x41d9d28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::ObjectStorage::*)(int32_t)>(
     &::System::Data::Common::ObjectStorage::GetEmptyStorage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41da1f4;
+  constexpr static std::size_t addrs = 0x41d9e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::Common::ObjectStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::ObjectStorage::CopyValue)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x41da23c;
+  constexpr static std::size_t addrs = 0x41d9ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::ObjectStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::ObjectStorage::SetStorage)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x41da438;
+  constexpr static std::size_t addrs = 0x41da0d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::Data::Common::ObjectStorage::VerifyIDynamicMetaObjectProvider)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x41da5fc;
+  constexpr static std::size_t addrs = 0x41da294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializer* (*)(::System::Type*)>(
     &::System::Data::Common::ObjectStorage::GetXmlSerializer)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41d8cfc;
+  constexpr static std::size_t addrs = 0x41d8994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializer* (*)(::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*)>(
     &::System::Data::Common::ObjectStorage::GetXmlSerializer)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x41d9460;
+  constexpr static std::size_t addrs = 0x41d90f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

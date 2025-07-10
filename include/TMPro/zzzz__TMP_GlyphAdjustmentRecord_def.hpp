@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_glyphValueRecord, put = set_glyphValueRecord)) ::TMPro::TMP_GlyphValueRecord glyphValueRecord;
 
-  /// @brief Method .ctor, addr 0x47d6644, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d62dc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x47d3f20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d3bb8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord);
 
-  /// @brief Method get_glyphIndex, addr 0x47d661c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x47d62b4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x47d662c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x47d62c4, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
 
-  /// @brief Method set_glyphIndex, addr 0x47d6624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x47d62bc, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method set_glyphValueRecord, addr 0x47d6638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_glyphValueRecord, addr 0x47d62d0, size 0xc, virtual false, abstract: false, final false
   inline void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value);
 
   // Ctor Parameters []

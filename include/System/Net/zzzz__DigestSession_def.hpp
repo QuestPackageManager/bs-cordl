@@ -77,24 +77,24 @@ public:
   /// @brief Field rng, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rng, put = setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
 
-  /// @brief Method Authenticate, addr 0x44be5c0, size 0x5c4, virtual false, abstract: false, final false
+  /// @brief Method Authenticate, addr 0x44be258, size 0x5c4, virtual false, abstract: false, final false
   inline ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method HA1, addr 0x44be26c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HA1, addr 0x44bdf04, size 0x124, virtual false, abstract: false, final false
   inline ::StringW HA1(::StringW username, ::StringW password);
 
-  /// @brief Method HA2, addr 0x44be390, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HA2, addr 0x44be028, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
 
-  /// @brief Method HashToHexString, addr 0x44be118, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method HashToHexString, addr 0x44bddb0, size 0x154, virtual false, abstract: false, final false
   inline ::StringW HashToHexString(::StringW toBeHashed);
 
   static inline ::System::Net::DigestSession* New_ctor();
 
-  /// @brief Method Parse, addr 0x44be03c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x44bdcd4, size 0xdc, virtual false, abstract: false, final false
   inline bool Parse(::StringW challenge);
 
-  /// @brief Method Response, addr 0x44be460, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Response, addr 0x44be0f8, size 0x160, virtual false, abstract: false, final false
   inline ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
 
   constexpr ::StringW const& __cordl_internal_get__cnonce() const;
@@ -127,30 +127,30 @@ public:
 
   constexpr void __cordl_internal_set_parser(::System::Net::DigestHeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x44bde60, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bdaf8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng();
 
-  /// @brief Method get_Algorithm, addr 0x44bded0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x44bdb68, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_CNonce, addr 0x44bdf48, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_CNonce, addr 0x44bdbe0, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW get_CNonce();
 
-  /// @brief Method get_LastUse, addr 0x44beb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastUse, addr 0x44be81c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastUse();
 
-  /// @brief Method get_Nonce, addr 0x44bdf00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x44bdb98, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x44bdf18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x44bdbb0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x44bdf30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x44bdbc8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_Realm, addr 0x44bdee8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x44bdb80, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);

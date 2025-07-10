@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> (
         ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(&::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_Cache)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40c3dd0;
+  constexpr static std::size_t addrs = 0x40c3a68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40c3e54;
+  constexpr static std::size_t addrs = 0x40c3aec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c3e94;
+  constexpr static std::size_t addrs = 0x40c3b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c3e9c;
+  constexpr static std::size_t addrs = 0x40c3b34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::Run)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x40c3ea4;
+  constexpr static std::size_t addrs = 0x40c3b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40c3ed8;
+  constexpr static std::size_t addrs = 0x40c3b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

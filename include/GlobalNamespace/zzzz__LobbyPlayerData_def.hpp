@@ -72,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set__isReady_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x26dd26c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dceb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x26dd230, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isActive, addr 0x26dce7c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isActive();
 
-  /// @brief Method get_isInLobby, addr 0x26dd258, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isInLobby, addr 0x26dcea4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInLobby();
 
-  /// @brief Method get_isPartyOwner, addr 0x26dd21c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPartyOwner, addr 0x26dce68, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPartyOwner();
 
-  /// @brief Method get_isReady, addr 0x26dd244, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x26dce90, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
@@ -93,16 +93,16 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILobbyPlayerData"
   constexpr ::GlobalNamespace::ILobbyPlayerData* i___GlobalNamespace__ILobbyPlayerData() noexcept;
 
-  /// @brief Method set_isActive, addr 0x26dd238, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isActive, addr 0x26dce84, size 0xc, virtual true, abstract: false, final true
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isInLobby, addr 0x26dd260, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isInLobby, addr 0x26dceac, size 0xc, virtual true, abstract: false, final true
   inline void set_isInLobby(bool value);
 
-  /// @brief Method set_isPartyOwner, addr 0x26dd224, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isPartyOwner, addr 0x26dce70, size 0xc, virtual true, abstract: false, final true
   inline void set_isPartyOwner(bool value);
 
-  /// @brief Method set_isReady, addr 0x26dd24c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isReady, addr 0x26dce98, size 0xc, virtual true, abstract: false, final true
   inline void set_isReady(bool value);
 
 protected:

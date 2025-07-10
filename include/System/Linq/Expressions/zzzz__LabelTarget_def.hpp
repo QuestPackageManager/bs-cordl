@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::LabelTarget* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method ToString, addr 0x40ba37c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40ba014, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40ba340, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b9fd8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method get_Name, addr 0x40ba36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x40ba004, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Type, addr 0x40ba374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40ba00c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

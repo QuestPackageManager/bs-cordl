@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__destination_k__BackingField(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method get_destination, addr 0x48c88a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destination, addr 0x48c853c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_destination();
 
 protected:

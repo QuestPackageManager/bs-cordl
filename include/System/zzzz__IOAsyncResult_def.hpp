@@ -62,7 +62,7 @@ public:
   /// @brief Method CompleteDisposed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CompleteDisposed();
 
-  /// @brief Method Init, addr 0x440fd2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x440f9c4, size 0x20, virtual false, abstract: false, final false
   inline void Init(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
   static inline ::System::IOAsyncResult* New_ctor();
@@ -99,34 +99,34 @@ public:
 
   constexpr void __cordl_internal_set_wait_handle(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x440fd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440f9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x440fd4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440f9e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
-  /// @brief Method get_AsyncCallback, addr 0x440fd78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncCallback, addr 0x440fa10, size 0x8, virtual false, abstract: false, final false
   inline ::System::AsyncCallback* get_AsyncCallback();
 
-  /// @brief Method get_AsyncState, addr 0x440fd80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x440fa18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x440fd88, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x440fa20, size 0x118, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x440fea0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x440fb38, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x440feb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x440fb4c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  /// @brief Method set_CompletedSynchronously, addr 0x440fea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CompletedSynchronously, addr 0x440fb40, size 0xc, virtual false, abstract: false, final false
   inline void set_CompletedSynchronously(bool value);
 
-  /// @brief Method set_IsCompleted, addr 0x440febc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x440fb54, size 0xd8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
 protected:

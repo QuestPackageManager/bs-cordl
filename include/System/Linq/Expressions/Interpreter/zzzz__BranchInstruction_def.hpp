@@ -52,7 +52,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::BranchInstruction* New_ctor(bool hasResult, bool hasValue);
 
-  /// @brief Method Run, addr 0x40c41bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c3e54, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x40c4110, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c3da8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x40c4134, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c3dcc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool hasResult, bool hasValue);
 
   static inline ::ArrayW<::ArrayW<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>,
@@ -79,16 +79,16 @@ public:
                                           ::Array<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*>>*>>*>
   getStaticF_s_caches();
 
-  /// @brief Method get_Cache, addr 0x40c3ee8, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x40c3b80, size 0x228, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x40c41ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c3e44, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c416c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c3e04, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40c41b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c3e4c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::DigestHeaderParser::*)(::StringW)>(&::System::Net::DigestHeaderParser::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x44bd724;
+  constexpr static std::size_t addrs = 0x44bd3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Realm)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44bd7d8;
+  constexpr static std::size_t addrs = 0x44bd470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Realm",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Opaque)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd800;
+  constexpr static std::size_t addrs = 0x44bd498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Opaque",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Nonce)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd82c;
+  constexpr static std::size_t addrs = 0x44bd4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Nonce",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Algorithm)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd858;
+  constexpr static std::size_t addrs = 0x44bd4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Algorithm",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_QOP)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd884;
+  constexpr static std::size_t addrs = 0x44bd51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_QOP",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::Parse)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44bd8b0;
+  constexpr static std::size_t addrs = 0x44bd548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "Parse",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::SkipWhitespace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44bdbd8;
+  constexpr static std::size_t addrs = 0x44bd870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "SkipWhitespace",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::GetKey)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44bdc58;
+  constexpr static std::size_t addrs = 0x44bd8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "GetKey",
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::DigestHeaderParser::*)(::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::Net::DigestHeaderParser::GetKeywordAndValue)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44bda48;
+  constexpr static std::size_t addrs = 0x44bd6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SplineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x4089154, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x4088dec, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float_t f);
 
 protected:

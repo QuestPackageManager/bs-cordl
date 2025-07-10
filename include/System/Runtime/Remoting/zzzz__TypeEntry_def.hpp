@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set_type_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cd7818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd74b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssemblyName, addr 0x3cd7820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x3cd74b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_TypeName, addr 0x3cd7830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x3cd74c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method set_AssemblyName, addr 0x3cd7828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssemblyName, addr 0x3cd74c0, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyName(::StringW value);
 
-  /// @brief Method set_TypeName, addr 0x3cd7838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeName, addr 0x3cd74d0, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeName(::StringW value);
 
 protected:

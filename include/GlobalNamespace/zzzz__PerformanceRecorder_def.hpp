@@ -119,24 +119,24 @@ public:
   /// @brief Field minFpsWindow, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_minFpsWindow, put = __cordl_internal_set_minFpsWindow)) float_t minFpsWindow;
 
-  /// @brief Method Awake, addr 0x3b23da0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b23a2c, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GenerateReports, addr 0x3b23f4c, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method GenerateReports, addr 0x3b23bd8, size 0x438, virtual false, abstract: false, final false
   inline void GenerateReports();
 
   static inline ::GlobalNamespace::PerformanceRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b23f48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b23bd4, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b23dac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b23a38, size 0xc8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3b24384, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b24010, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WriteFileReport, addr 0x3b24ba8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteFileReport, addr 0x3b24834, size 0x34, virtual false, abstract: false, final false
   static inline void WriteFileReport(::StringW path, ::StringW contents);
 
   constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__GamePause_k__BackingField() const;
@@ -223,49 +223,49 @@ public:
 
   constexpr void __cordl_internal_set_minFpsWindow(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b25094, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b24d20, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GamePause, addr 0x3b23d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GamePause, addr 0x3b239cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IGamePause* get_GamePause();
 
-  /// @brief Method get_GameplayModifiers, addr 0x3b23d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GameplayModifiers, addr 0x3b23a0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierMask get_GameplayModifiers();
 
-  /// @brief Method get_PlayerSpecificSettings, addr 0x3b23d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerSpecificSettings, addr 0x3b239fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_PlayerSpecificSettings();
 
-  /// @brief Method get_RrecPlayState, addr 0x3b23d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RrecPlayState, addr 0x3b23a1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecPlayBehaviour_State* get_RrecPlayState();
 
-  /// @brief Method get_SceneSetupData, addr 0x3b23d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SceneSetupData, addr 0x3b239dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_SceneSetupData();
 
-  /// @brief Method get_SettingsManager, addr 0x3b23d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SettingsManager, addr 0x3b239ec, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsManager* get_SettingsManager();
 
-  /// @brief Method get_StartEnabled, addr 0x3b23d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartEnabled, addr 0x3b239b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_StartEnabled();
 
-  /// @brief Method set_GamePause, addr 0x3b23d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GamePause, addr 0x3b239d4, size 0x8, virtual false, abstract: false, final false
   inline void set_GamePause(::GlobalNamespace::IGamePause* value);
 
-  /// @brief Method set_GameplayModifiers, addr 0x3b23d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GameplayModifiers, addr 0x3b23a14, size 0x8, virtual false, abstract: false, final false
   inline void set_GameplayModifiers(::GlobalNamespace::GameplayModifierMask value);
 
-  /// @brief Method set_PlayerSpecificSettings, addr 0x3b23d78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PlayerSpecificSettings, addr 0x3b23a04, size 0x8, virtual false, abstract: false, final false
   inline void set_PlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method set_RrecPlayState, addr 0x3b23d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RrecPlayState, addr 0x3b23a24, size 0x8, virtual false, abstract: false, final false
   inline void set_RrecPlayState(::GlobalNamespace::RecPlayBehaviour_State* value);
 
-  /// @brief Method set_SceneSetupData, addr 0x3b23d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SceneSetupData, addr 0x3b239e4, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method set_SettingsManager, addr 0x3b23d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SettingsManager, addr 0x3b239f4, size 0x8, virtual false, abstract: false, final false
   inline void set_SettingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method set_StartEnabled, addr 0x3b23d34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_StartEnabled, addr 0x3b239c0, size 0xc, virtual false, abstract: false, final false
   inline void set_StartEnabled(bool value);
 
 protected:

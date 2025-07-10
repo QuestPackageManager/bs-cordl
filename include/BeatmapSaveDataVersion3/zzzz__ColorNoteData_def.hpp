@@ -86,22 +86,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270a86c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a4f8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x270a854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x270a4e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x270a85c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x270a4e8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x270a864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x270a4f0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x270a84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x270a4d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x270a844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x270a4d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:

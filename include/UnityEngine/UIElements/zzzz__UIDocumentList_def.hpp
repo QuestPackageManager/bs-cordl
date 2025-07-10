@@ -32,12 +32,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_AttachedUIDocuments,
                       put = __cordl_internal_set_m_AttachedUIDocuments)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
 
-  /// @brief Method AddToListAndToVisualTree, addr 0x4a3b624, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method AddToListAndToVisualTree, addr 0x4a3b2bc, size 0x338, virtual false, abstract: false, final false
   inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x4a3b5a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x4a3b23c, size 0x78, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& __cordl_internal_get_m_AttachedUIDocuments() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method .ctor, addr 0x4a3b95c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3b5f4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

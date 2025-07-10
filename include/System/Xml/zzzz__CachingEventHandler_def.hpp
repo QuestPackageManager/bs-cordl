@@ -27,12 +27,12 @@ namespace System::Xml {
 class CORDL_TYPE CachingEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x432f058, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x432ecf0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XsdCachingReader* cachingReader);
 
   static inline ::System::Xml::CachingEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x432ef58, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432ebf0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

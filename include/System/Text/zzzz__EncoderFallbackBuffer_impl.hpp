@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c79970;
+  constexpr static std::size_t addrs = 0x3c79608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::InternalReset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c79998;
+  constexpr static std::size_t addrs = 0x3c79630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), "InternalReset",
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(
     ::cordl_internals::Ptr<char16_t>, ::cordl_internals::Ptr<char16_t>, ::System::Text::EncoderNLS*, bool)>(&::System::Text::EncoderFallbackBuffer::InternalInitialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c799b0;
+  constexpr static std::size_t addrs = 0x3c79648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::InternalGetNextChar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c799cc;
+  constexpr static std::size_t addrs = 0x3c79664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderFallbackBuffer::*)(char16_t, ::ByRef<::cordl_internals::Ptr<char16_t>>)>(
     &::System::Text::EncoderFallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3c799fc;
+  constexpr static std::size_t addrs = 0x3c79694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(int32_t)>(
     &::System::Text::EncoderFallbackBuffer::ThrowLastCharRecursive)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c79ba4;
+  constexpr static std::size_t addrs = 0x3c7983c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c78e28;
+  constexpr static std::size_t addrs = 0x3c78ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), ".ctor",

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2724b68;
+  constexpr static std::size_t addrs = 0x27247f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t, float_t)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2724c3c;
+  constexpr static std::size_t addrs = 0x27248c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t, int32_t)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2724c4c;
+  constexpr static std::size_t addrs = 0x27248d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2724cbc;
+  constexpr static std::size_t addrs = 0x2724948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Pose, ::UnityEngine::Pose)>(&::GlobalNamespace::QuantizedMathf::Approximately)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2724cf4;
+  constexpr static std::size_t addrs = 0x2724980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2724d54;
+  constexpr static std::size_t addrs = 0x27249e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

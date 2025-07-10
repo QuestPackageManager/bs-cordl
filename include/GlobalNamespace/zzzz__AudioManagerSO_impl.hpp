@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::*)(int32_t)>(
     &::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3acec8c;
+  constexpr static std::size_t addrs = 0x3ace918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::*)()>(
     &::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3acecdc;
+  constexpr static std::size_t addrs = 0x3ace968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::*)()>(
     &::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::MoveNext)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3acece0;
+  constexpr static std::size_t addrs = 0x3ace96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::*)()>(
     &::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acedd8;
+  constexpr static std::size_t addrs = 0x3acea64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::*)()>(
     &::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3acede0;
+  constexpr static std::size_t addrs = 0x3acea6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::*)()>(
     &::GlobalNamespace::AudioManagerSO__FadeMainVolume_d__43::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acee18;
+  constexpr static std::size_t addrs = 0x3aceaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_sfxLatency)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ace70c;
+  constexpr static std::size_t addrs = 0x3ace398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_sfxLatency",
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(::GlobalNamespace::ICoroutineStarter*)>(
     &::GlobalNamespace::AudioManagerSO::Init)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ace76c;
+  constexpr static std::size_t addrs = 0x3ace3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_mainVolumeFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ace81c;
+  constexpr static std::size_t addrs = 0x3ace4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_mainVolumeFade",
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_mainVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ace824;
+  constexpr static std::size_t addrs = 0x3ace4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_mainVolume",
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_mainVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ace82c;
+  constexpr static std::size_t addrs = 0x3ace4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_musicVolume)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ace8b8;
+  constexpr static std::size_t addrs = 0x3ace544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_sfxVolume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ace920;
+  constexpr static std::size_t addrs = 0x3ace5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_sfxVolume",
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_sfxVolume)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3acdb28;
+  constexpr static std::size_t addrs = 0x3acd7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_sfxEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ace938;
+  constexpr static std::size_t addrs = 0x3ace5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_sfxEnabled",
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(bool)>(&::GlobalNamespace::AudioManagerSO::set_sfxEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ace940;
+  constexpr static std::size_t addrs = 0x3ace5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_musicPitch)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3ace960;
+  constexpr static std::size_t addrs = 0x3ace5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_musicSpeed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3acea60;
+  constexpr static std::size_t addrs = 0x3ace6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(::GlobalNamespace::AudioManagerSO_AudioFadeType, float_t)>(
     &::GlobalNamespace::AudioManagerSO::StartMainVolumeFade)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3aceac4;
+  constexpr static std::size_t addrs = 0x3ace750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::AudioManagerSO::*)(::GlobalNamespace::AudioManagerSO_AudioFadeType, float_t)>(&::GlobalNamespace::AudioManagerSO::FadeMainVolume)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3acec0c;
+  constexpr static std::size_t addrs = 0x3ace898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::UpdateMainMixerBus)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ace834;
+  constexpr static std::size_t addrs = 0x3ace4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "UpdateMainMixerBus",
@@ -482,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3acecb4;
+  constexpr static std::size_t addrs = 0x3ace940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), ".ctor",

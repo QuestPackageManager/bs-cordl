@@ -75,30 +75,30 @@ public:
 
   __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  /// @brief Method Activate, addr 0x224c83c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x224c8cc, size 0x4, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x224c840, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x224c8d0, size 0x4, virtual true, abstract: false, final false
   inline void Deactivate();
 
   static inline ::BeatSaber::AvatarCore::AvatarSelectionView* New_ctor();
 
-  /// @brief Method SetCreated, addr 0x224c7c4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method SetCreated, addr 0x224c854, size 0x78, virtual true, abstract: false, final false
   inline void SetCreated(bool isCreated);
 
-  /// @brief Method SetPreferred, addr 0x224c714, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method SetPreferred, addr 0x224c7a4, size 0xb0, virtual true, abstract: false, final false
   inline void SetPreferred(bool isPreferred);
 
-  /// @brief Method Start, addr 0x224c5d4, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x224c664, size 0x140, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <Start>b__20_0, addr 0x224c8a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__20_0, addr 0x224c934, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_0();
 
-  /// @brief Method <Start>b__20_1, addr 0x224c8c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__20_1, addr 0x224c950, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_1();
 
-  /// @brief Method <Start>b__20_2, addr 0x224c8dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__20_2, addr 0x224c96c, size 0x1c, virtual false, abstract: false, final false
   inline void _Start_b__20_2();
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__backgroundImageView() const;
@@ -173,28 +173,28 @@ public:
 
   constexpr void __cordl_internal_set_didPressPreferredButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x224c844, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224c8d4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressCreateButtonEvent, addr 0x224c35c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressCreateButtonEvent, addr 0x224c3ec, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressCreateButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressEditButtonEvent, addr 0x224c224, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressEditButtonEvent, addr 0x224c2b4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressEditButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressPreferredButtonEvent, addr 0x224c494, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPreferredButtonEvent, addr 0x224c524, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressPreferredButtonEvent(::System::Action* value);
 
-  /// @brief Method get_rectTransform, addr 0x224c5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x224c65c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method remove_didPressCreateButtonEvent, addr 0x224c3f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressCreateButtonEvent, addr 0x224c488, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressCreateButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressEditButtonEvent, addr 0x224c2c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressEditButtonEvent, addr 0x224c350, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressEditButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressPreferredButtonEvent, addr 0x224c530, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPreferredButtonEvent, addr 0x224c5c0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressPreferredButtonEvent(::System::Action* value);
 
 protected:

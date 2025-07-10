@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e2668, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e22f4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier);
 
-  /// @brief Method get_intensity, addr 0x39e2658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e22e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x39e2660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x39e22ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_probeHighlightsIntensityMultiplier();
 
 protected:
@@ -175,27 +175,27 @@ public:
 
   __declspec(property(get = get_normalizerWeight, put = set_normalizerWeight)) float_t normalizerWeight;
 
-  /// @brief Method Awake, addr 0x39e20bc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e1d48, size 0x58, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetBakedLightsNormalizer, addr 0x39e214c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBakedLightsNormalizer, addr 0x39e1dd8, size 0x8c, virtual false, abstract: false, final false
   inline void GetBakedLightsNormalizer();
 
-  /// @brief Method GetLightWithIds, addr 0x39e2638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x39e22c4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::LightmapLightWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x39e22b0, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x39e1f3c, size 0x388, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method SetChannelColorDirect, addr 0x39e22a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetChannelColorDirect, addr 0x39e1f30, size 0xc, virtual false, abstract: false, final false
   inline void SetChannelColorDirect(::UnityEngine::Color channelColor);
 
-  /// @brief Method SetDataToShaders, addr 0x39e2250, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x39e1edc, size 0x54, virtual false, abstract: false, final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
-  /// @brief Method SetShaderProperties, addr 0x39e21d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetShaderProperties, addr 0x39e1e64, size 0x78, virtual false, abstract: false, final false
   inline void SetShaderProperties();
 
   constexpr ::GlobalNamespace::LightConstants_BakeId const& __cordl_internal_get__bakeId() const;
@@ -279,28 +279,28 @@ public:
 
   constexpr void __cordl_internal_set__probeIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x39e2640, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e22cc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakeId, addr 0x39e20b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakeId, addr 0x39e1d40, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightConstants_BakeId get_bakeId();
 
-  /// @brief Method get_calculatedColorPreNormalization, addr 0x39e20a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_calculatedColorPreNormalization, addr 0x39e1d34, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_calculatedColorPreNormalization();
 
-  /// @brief Method get_intensity, addr 0x39e2088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x39e1d14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_mixType, addr 0x39e2080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x39e1d0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
-  /// @brief Method get_normalizerWeight, addr 0x39e2098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizerWeight, addr 0x39e1d24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizerWeight();
 
-  /// @brief Method set_intensity, addr 0x39e2090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x39e1d1c, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method set_normalizerWeight, addr 0x39e20a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalizerWeight, addr 0x39e1d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_normalizerWeight(float_t value);
 
 protected:

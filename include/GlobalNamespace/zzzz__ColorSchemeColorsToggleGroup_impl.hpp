@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::add_selectedColorDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bf8fd8;
+  constexpr static std::size_t addrs = 0x3bf8c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::remove_selectedColorDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bf9088;
+  constexpr static std::size_t addrs = 0x3bf8d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::get_color)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bf9138;
+  constexpr static std::size_t addrs = 0x3bf8dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorsToggleGroup*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::set_color)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bf9188;
+  constexpr static std::size_t addrs = 0x3bf8e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::SetColorScheme)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3bf9238;
+  constexpr static std::size_t addrs = 0x3bf8ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::Awake)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3bf9318;
+  constexpr static std::size_t addrs = 0x3bf8fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorsToggleGroup*>::get(), "Awake",
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bf9610;
+  constexpr static std::size_t addrs = 0x3bf92a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorsToggleGroup*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(
     ::GlobalNamespace::ColorSchemeColorToggleController*, bool)>(&::GlobalNamespace::ColorSchemeColorsToggleGroup::HandleToggleWasSelected)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bf962c;
+  constexpr static std::size_t addrs = 0x3bf92c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::CreateColorSchemeFromEditedColors)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3bf966c;
+  constexpr static std::size_t addrs = 0x3bf9304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)()>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf9834;
+  constexpr static std::size_t addrs = 0x3bf94cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeColorsToggleGroup*>::get(), ".ctor",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf983c;
+  constexpr static std::size_t addrs = 0x3bf94d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf984c;
+  constexpr static std::size_t addrs = 0x3bf94e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_2)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf985c;
+  constexpr static std::size_t addrs = 0x3bf94f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_3)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf986c;
+  constexpr static std::size_t addrs = 0x3bf9504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_4)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf987c;
+  constexpr static std::size_t addrs = 0x3bf9514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_5)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf988c;
+  constexpr static std::size_t addrs = 0x3bf9524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeColorsToggleGroup::*)(bool)>(
     &::GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_6)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf989c;
+  constexpr static std::size_t addrs = 0x3bf9534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

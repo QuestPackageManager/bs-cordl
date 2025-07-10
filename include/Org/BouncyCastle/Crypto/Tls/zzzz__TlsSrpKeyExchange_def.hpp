@@ -111,22 +111,22 @@ public:
   /// @brief Field mTlsSigner, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mTlsSigner, put = __cordl_internal_set_mTlsSigner)) ::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
 
-  /// @brief Method CreateSigner, addr 0x243bc18, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateSigner, addr 0x243bca8, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSigner* CreateSigner(int32_t keyExchange);
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x243cedc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x243cf6c, size 0x114, virtual true, abstract: false, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method GeneratePremasterSecret, addr 0x243d2c8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0x243d358, size 0x110, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x243c41c, size 0x538, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerKeyExchange, addr 0x243c4ac, size 0x538, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  /// @brief Method Init, addr 0x243bf40, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x243bfd0, size 0xc0, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method InitVerifyer, addr 0x243d3d8, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method InitVerifyer, addr 0x243d468, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner* tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
                                                             ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
@@ -140,25 +140,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method ProcessClientCredentials, addr 0x243cea4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0x243cf34, size 0x38, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x243d068, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x243d0f8, size 0x1cc, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ProcessServerCertificate, addr 0x243c048, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x243c0d8, size 0x260, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ProcessServerCredentials, addr 0x243c2a8, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0x243c338, size 0x16c, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x243c954, size 0x518, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x243c9e4, size 0x518, virtual true, abstract: false, final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method SkipServerCredentials, addr 0x243c000, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0x243c090, size 0x48, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ValidateCertificateRequest, addr 0x243ce6c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0x243cefc, size 0x38, virtual true, abstract: false, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* const& __cordl_internal_get_mGroupVerifier() const;
@@ -233,18 +233,18 @@ public:
 
   constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
 
-  /// @brief Method .ctor, addr 0x243bd90, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243be20, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* groupVerifier,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x243be4c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243bedc, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity,
                     ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* loginParameters);
 
-  /// @brief Method .ctor, addr 0x243bd04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243bd94, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method get_RequiresServerKeyExchange, addr 0x243c414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresServerKeyExchange, addr 0x243c4a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresServerKeyExchange();
 
 protected:

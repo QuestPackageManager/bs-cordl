@@ -33,7 +33,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SynchronizedActionQueue_SynchronizedAction {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22e98dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e996c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::System::Action* action);
 
   // Ctor Parameters []
@@ -79,15 +79,15 @@ public:
       get = __cordl_internal_get__synchronizedActionQueue,
       put = __cordl_internal_set__synchronizedActionQueue)) ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* _synchronizedActionQueue;
 
-  /// @brief Method Clear, addr 0x22e97b4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x22e9844, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnqueueAction, addr 0x22e9824, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueAction, addr 0x22e98b4, size 0xb8, virtual false, abstract: false, final false
   inline void EnqueueAction(float_t time, ::System::Action* action);
 
   static inline ::GlobalNamespace::SynchronizedActionQueue* New_ctor();
 
-  /// @brief Method Update, addr 0x22e98e8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22e9978, size 0x114, virtual false, abstract: false, final false
   inline void Update(float_t time);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* const& __cordl_internal_get__synchronizedActionQueue() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction>* value);
 
-  /// @brief Method .ctor, addr 0x22e99fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e9a8c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

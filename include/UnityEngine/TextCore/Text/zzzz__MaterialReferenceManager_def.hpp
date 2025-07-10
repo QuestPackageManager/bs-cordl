@@ -58,54 +58,54 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::TextCore::Text::MaterialReferenceManager* s_Instance;
 
-  /// @brief Method AddColorGradientPreset, addr 0x492f294, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddColorGradientPreset, addr 0x492ef2c, size 0x30, virtual false, abstract: false, final false
   static inline void AddColorGradientPreset(int32_t hashCode, ::UnityEngine::TextCore::Text::TextColorGradient* spriteAsset);
 
-  /// @brief Method AddColorGradientPreset_Internal, addr 0x492f2c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddColorGradientPreset_Internal, addr 0x492ef5c, size 0xa4, virtual false, abstract: false, final false
   inline void AddColorGradientPreset_Internal(int32_t hashCode, ::UnityEngine::TextCore::Text::TextColorGradient* spriteAsset);
 
-  /// @brief Method AddFontAsset, addr 0x492ef28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x492ebc0, size 0x20, virtual false, abstract: false, final false
   static inline void AddFontAsset(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method AddFontAssetInternal, addr 0x492ef48, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddFontAssetInternal, addr 0x492ebe0, size 0xe8, virtual false, abstract: false, final false
   inline void AddFontAssetInternal(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method AddFontMaterial, addr 0x492f1fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddFontMaterial, addr 0x492ee94, size 0x30, virtual false, abstract: false, final false
   static inline void AddFontMaterial(int32_t hashCode, ::UnityEngine::Material* material);
 
-  /// @brief Method AddFontMaterialInternal, addr 0x492f22c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddFontMaterialInternal, addr 0x492eec4, size 0x68, virtual false, abstract: false, final false
   inline void AddFontMaterialInternal(int32_t hashCode, ::UnityEngine::Material* material);
 
-  /// @brief Method AddSpriteAsset, addr 0x492f0f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddSpriteAsset, addr 0x492ed90, size 0x30, virtual false, abstract: false, final false
   static inline void AddSpriteAsset(int32_t hashCode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset);
 
-  /// @brief Method AddSpriteAssetInternal, addr 0x492f128, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddSpriteAssetInternal, addr 0x492edc0, size 0xd4, virtual false, abstract: false, final false
   inline void AddSpriteAssetInternal(int32_t hashCode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset);
 
   static inline ::UnityEngine::TextCore::Text::MaterialReferenceManager* New_ctor();
 
-  /// @brief Method TryGetColorGradientPreset, addr 0x492f4a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetColorGradientPreset, addr 0x492f138, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetColorGradientPreset(int32_t hashCode, ::ByRef<::UnityEngine::TextCore::Text::TextColorGradient*> gradientPreset);
 
-  /// @brief Method TryGetColorGradientPresetInternal, addr 0x492f4d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetColorGradientPresetInternal, addr 0x492f168, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetColorGradientPresetInternal(int32_t hashCode, ::ByRef<::UnityEngine::TextCore::Text::TextColorGradient*> gradientPreset);
 
-  /// @brief Method TryGetFontAsset, addr 0x492f368, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAsset, addr 0x492f000, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashCode, ::ByRef<::UnityEngine::TextCore::Text::FontAsset*> fontAsset);
 
-  /// @brief Method TryGetFontAssetInternal, addr 0x492f398, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAssetInternal, addr 0x492f030, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetFontAssetInternal(int32_t hashCode, ::ByRef<::UnityEngine::TextCore::Text::FontAsset*> fontAsset);
 
-  /// @brief Method TryGetMaterial, addr 0x492f53c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetMaterial, addr 0x492f1d4, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetMaterial(int32_t hashCode, ::ByRef<::UnityEngine::Material*> material);
 
-  /// @brief Method TryGetMaterialInternal, addr 0x492f56c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetMaterialInternal, addr 0x492f204, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetMaterialInternal(int32_t hashCode, ::ByRef<::UnityEngine::Material*> material);
 
-  /// @brief Method TryGetSpriteAsset, addr 0x492f404, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetSpriteAsset, addr 0x492f09c, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetSpriteAsset(int32_t hashCode, ::ByRef<::UnityEngine::TextCore::Text::SpriteAsset*> spriteAsset);
 
-  /// @brief Method TryGetSpriteAssetInternal, addr 0x492f434, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetSpriteAssetInternal, addr 0x492f0cc, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetSpriteAssetInternal(int32_t hashCode, ::ByRef<::UnityEngine::TextCore::Text::SpriteAsset*> spriteAsset);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>>* const& __cordl_internal_get_m_ColorGradientReferenceLookup() const;
@@ -132,12 +132,12 @@ public:
 
   constexpr void __cordl_internal_set_m_SpriteAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x492edd4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492ea6c, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::MaterialReferenceManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x492ed64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x492e9fc, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::MaterialReferenceManager* get_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::TextCore::Text::MaterialReferenceManager* value);

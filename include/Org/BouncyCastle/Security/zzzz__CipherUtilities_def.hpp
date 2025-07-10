@@ -550,34 +550,34 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_oids, put = setStaticF_oids)) ::System::Collections::IDictionary* oids;
 
-  /// @brief Method CreateBlockCipher, addr 0x25a03b0, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method CreateBlockCipher, addr 0x25a0440, size 0x534, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateBlockCipher(::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm cipherAlgorithm);
 
-  /// @brief Method GetAlgorithmName, addr 0x25a08e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x25a0974, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetCipher, addr 0x259e444, size 0x1ebc, virtual false, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x259e4d4, size 0x1ebc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::StringW algorithm);
 
-  /// @brief Method GetCipher, addr 0x259e3e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x259e474, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetDigitIndex, addr 0x25a0300, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDigitIndex, addr 0x25a0390, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetDigitIndex(::StringW s);
 
-  /// @brief Method GetObjectIdentifier, addr 0x259e0c0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetObjectIdentifier, addr 0x259e150, size 0x258, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
   static inline ::Org::BouncyCastle::Security::CipherUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x259e0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_Algorithms, addr 0x259e318, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithms, addr 0x259e3a8, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

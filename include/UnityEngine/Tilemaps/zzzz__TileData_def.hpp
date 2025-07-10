@@ -56,29 +56,29 @@ public:
 
   __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method CreateDefault, addr 0x49572fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateDefault, addr 0x4956f94, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Tilemaps::TileData CreateDefault();
 
   static inline ::UnityEngine::Tilemaps::TileData getStaticF_Default();
 
   static inline void setStaticF_Default(::UnityEngine::Tilemaps::TileData value);
 
-  /// @brief Method set_colliderType, addr 0x495640c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colliderType, addr 0x49560a4, size 0x8, virtual false, abstract: false, final false
   inline void set_colliderType(::UnityEngine::Tilemaps::Tile_ColliderType value);
 
-  /// @brief Method set_color, addr 0x495634c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x4955fe4, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_flags, addr 0x4956404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x495609c, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::UnityEngine::Tilemaps::TileFlags value);
 
-  /// @brief Method set_gameObject, addr 0x4956374, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x495600c, size 0x90, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_sprite, addr 0x49562bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x4955f54, size 0x90, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_transform, addr 0x4956358, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x4955ff0, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []

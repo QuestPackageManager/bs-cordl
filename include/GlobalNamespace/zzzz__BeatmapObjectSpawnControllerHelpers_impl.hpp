@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::PlayerSpecificSettings*, float_t, ::ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType>, ::ByRef<float_t>)>(
         &::GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpValues)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ae2d6c;
+  constexpr static std::size_t addrs = 0x3ae29f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

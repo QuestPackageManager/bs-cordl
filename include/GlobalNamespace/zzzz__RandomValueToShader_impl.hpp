@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)(int32_t)>(&::GlobalNamespace::RandomValueToShader::SetRandomSeed)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39dd1bc;
+  constexpr static std::size_t addrs = 0x39dce48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(
     &::GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39dd368;
+  constexpr static std::size_t addrs = 0x39dcff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(&::GlobalNamespace::RandomValueToShader::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39dd410;
+  constexpr static std::size_t addrs = 0x39dd09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(), ".ctor",

@@ -25,16 +25,16 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToCultureInfoName, addr 0x22acdc0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0x22ace50, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::Language lang);
 
-  /// @brief Method ToLanguage, addr 0x22ace78, size 0x1398, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0x22acf08, size 0x1398, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::StringW serializedName);
 
-  /// @brief Method ToLanguage, addr 0x22ae28c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0x22ae31c, size 0xe8, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::UnityEngine::SystemLanguage systemLanguage, bool useFallbackLanguage);
 
-  /// @brief Method ToSerializedName, addr 0x22acc10, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToSerializedName, addr 0x22acca0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW ToSerializedName(::BGLib::Polyglot::Language lang);
 
 protected:

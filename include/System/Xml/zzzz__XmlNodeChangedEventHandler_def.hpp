@@ -27,12 +27,12 @@ namespace System::Xml {
 class CORDL_TYPE XmlNodeChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4345a3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x43456d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::XmlNodeChangedEventArgs* e);
 
   static inline ::System::Xml::XmlNodeChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4345938, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43455d0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

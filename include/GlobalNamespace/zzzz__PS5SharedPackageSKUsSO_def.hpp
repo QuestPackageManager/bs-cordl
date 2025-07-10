@@ -110,10 +110,10 @@ public:
 
   __declspec(property(get = get_masterVersion)) ::GlobalNamespace::SonyVersion* masterVersion;
 
-  /// @brief Method CopyValueFrom, addr 0x26eb95c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CopyValueFrom, addr 0x26eb5a8, size 0x58, virtual false, abstract: false, final false
   inline void CopyValueFrom(::GlobalNamespace::PS5SharedPackageSKUsSO_PS5BuildVersion* newVersion);
 
-  /// @brief Method IncreaseContentVersion, addr 0x26eb9d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IncreaseContentVersion, addr 0x26eb624, size 0x38, virtual false, abstract: false, final false
   inline void IncreaseContentVersion();
 
   static inline ::GlobalNamespace::PS5SharedPackageSKUsSO_PS5BuildVersion* New_ctor();
@@ -130,13 +130,13 @@ public:
 
   constexpr void __cordl_internal_set__masterVersion(::GlobalNamespace::SonyVersion* value);
 
-  /// @brief Method .ctor, addr 0x26eba34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_contentVersion, addr 0x26eb954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentVersion, addr 0x26eb5a0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyContentVersion* get_contentVersion();
 
-  /// @brief Method get_masterVersion, addr 0x26eb94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_masterVersion, addr 0x26eb598, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SonyVersion* get_masterVersion();
 
 protected:
@@ -210,7 +210,7 @@ public:
 
   __declspec(property(get = get_latestBuildVersion)) ::GlobalNamespace::PS5SharedPackageSKUsSO_PS5BuildVersion* latestBuildVersion;
 
-  /// @brief Method GetPrimarySKU, addr 0x26eb920, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPrimarySKU, addr 0x26eb56c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO> GetPrimarySKU();
 
   static inline ::GlobalNamespace::PS5SharedPackageSKUsSO* New_ctor();
@@ -245,22 +245,22 @@ public:
 
   constexpr void __cordl_internal_set__latestBuildVersion(::GlobalNamespace::PS5SharedPackageSKUsSO_PS5BuildVersion* value);
 
-  /// @brief Method .ctor, addr 0x26eb944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_availableSKUs, addr 0x26eb8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_availableSKUs, addr 0x26eb544, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>, ::Array<::UnityW<::GlobalNamespace::PS5PublisherSKUSettingsSO>>*> get_availableSKUs();
 
-  /// @brief Method get_buildType, addr 0x26eb908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildType, addr 0x26eb554, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS5SharedPackageSKUsSO_BuildType get_buildType();
 
-  /// @brief Method get_buildVersion, addr 0x26eb910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildVersion, addr 0x26eb55c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS5SharedPackageSKUsSO_PS5BuildVersion* get_buildVersion();
 
-  /// @brief Method get_conceptId, addr 0x26eb900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_conceptId, addr 0x26eb54c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_conceptId();
 
-  /// @brief Method get_latestBuildVersion, addr 0x26eb918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_latestBuildVersion, addr 0x26eb564, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS5SharedPackageSKUsSO_PS5BuildVersion* get_latestBuildVersion();
 
 protected:

@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNodeList::*)(int32_t)>(&::System::Xml::XmlNodeList::get_ItemOf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4345a50;
+  constexpr static std::size_t addrs = 0x43456e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4345a5c;
+  constexpr static std::size_t addrs = 0x43456f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), "System.IDisposable.Dispose",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::PrivateDisposeNodeList)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4345a68;
+  constexpr static std::size_t addrs = 0x4345700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4345a6c;
+  constexpr static std::size_t addrs = 0x4345704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), ".ctor",

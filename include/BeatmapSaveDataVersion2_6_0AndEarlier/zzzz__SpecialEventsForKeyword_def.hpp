@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x270b314, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270afa0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents);
 
-  /// @brief Method get_keyword, addr 0x270b304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x270af90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_specialEvents, addr 0x270b30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEvents, addr 0x270af98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_specialEvents();
 
 protected:

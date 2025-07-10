@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt_PositionEnumerator::*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int)>(
     &::UnityEngine::BoundsInt_PositionEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4871c38;
+  constexpr static std::size_t addrs = 0x48718d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::BoundsInt_PositionEnumerator (::UnityEngine::BoundsInt_PositionEnumerator::*)()>(
     &::UnityEngine::BoundsInt_PositionEnumerator::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4871c58;
+  constexpr static std::size_t addrs = 0x48718f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt_PositionEnumerator>::get(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoundsInt_PositionEnumerator::*)()>(&::UnityEngine::BoundsInt_PositionEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4871c6c;
+  constexpr static std::size_t addrs = 0x4871904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt_PositionEnumerator>::get(), "MoveNext",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt_PositionEnumerator::*)()>(&::UnityEngine::BoundsInt_PositionEnumerator::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4871ce8;
+  constexpr static std::size_t addrs = 0x4871980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt_PositionEnumerator>::get(), "Reset",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt_PositionEnumerator::*)()>(
     &::UnityEngine::BoundsInt_PositionEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4871d04;
+  constexpr static std::size_t addrs = 0x487199c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt_PositionEnumerator>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::BoundsInt_PositionEnumerator::*)()>(
     &::UnityEngine::BoundsInt_PositionEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4871d14;
+  constexpr static std::size_t addrs = 0x48719ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt_PositionEnumerator::*)()>(
     &::UnityEngine::BoundsInt_PositionEnumerator::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4871d78;
+  constexpr static std::size_t addrs = 0x4871a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt_PositionEnumerator>::get(),
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_min)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4871070;
+  constexpr static std::size_t addrs = 0x4870d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_min",
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::set_min)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4871188;
+  constexpr static std::size_t addrs = 0x4870e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_max)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x48712c0;
+  constexpr static std::size_t addrs = 0x4870f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_max",
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::set_max)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48713d8;
+  constexpr static std::size_t addrs = 0x4871070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_xMin)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48713fc;
+  constexpr static std::size_t addrs = 0x4871094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_xMin",
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(int32_t)>(&::UnityEngine::BoundsInt::set_xMin)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4871460;
+  constexpr static std::size_t addrs = 0x48710f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_yMin)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48714e0;
+  constexpr static std::size_t addrs = 0x4871178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_yMin",
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(int32_t)>(&::UnityEngine::BoundsInt::set_yMin)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4871544;
+  constexpr static std::size_t addrs = 0x48711dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_zMin)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48715c4;
+  constexpr static std::size_t addrs = 0x487125c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_zMin",
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(int32_t)>(&::UnityEngine::BoundsInt::set_zMin)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4871628;
+  constexpr static std::size_t addrs = 0x48712c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_xMax)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48716a8;
+  constexpr static std::size_t addrs = 0x4871340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_xMax",
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(int32_t)>(&::UnityEngine::BoundsInt::set_xMax)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x487170c;
+  constexpr static std::size_t addrs = 0x48713a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_yMax)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x487171c;
+  constexpr static std::size_t addrs = 0x48713b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_yMax",
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(int32_t)>(&::UnityEngine::BoundsInt::set_yMax)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4871780;
+  constexpr static std::size_t addrs = 0x4871418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_zMax)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4871790;
+  constexpr static std::size_t addrs = 0x4871428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_zMax",
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(int32_t)>(&::UnityEngine::BoundsInt::set_zMax)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48717f4;
+  constexpr static std::size_t addrs = 0x487148c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_position)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4871804;
+  constexpr static std::size_t addrs = 0x487149c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_position",
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::set_position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4871814;
+  constexpr static std::size_t addrs = 0x48714ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3Int (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::get_size)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4871820;
+  constexpr static std::size_t addrs = 0x48714b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_size",
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int)>(&::UnityEngine::BoundsInt::set_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4871830;
+  constexpr static std::size_t addrs = 0x48714c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoundsInt::*)(::UnityEngine::Vector3Int, ::UnityEngine::Vector3Int)>(
     &::UnityEngine::BoundsInt::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x487183c;
+  constexpr static std::size_t addrs = 0x48714d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4871850;
+  constexpr static std::size_t addrs = 0x48714e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::BoundsInt::*)(::StringW, ::System::IFormatProvider*)>(
     &::UnityEngine::BoundsInt::ToString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4871860;
+  constexpr static std::size_t addrs = 0x48714f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoundsInt::*)(::System::Object*)>(&::UnityEngine::BoundsInt::Equals)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x48719bc;
+  constexpr static std::size_t addrs = 0x4871654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -517,7 +517,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoundsInt::*)(::UnityEngine::BoundsInt)>(&::UnityEngine::BoundsInt::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4871a90;
+  constexpr static std::size_t addrs = 0x4871728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoundsInt::*)()>(&::UnityEngine::BoundsInt::GetHashCode)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4871b08;
+  constexpr static std::size_t addrs = 0x48717a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::BoundsInt_PositionEnumerator (::UnityEngine::BoundsInt::*)()>(
     &::UnityEngine::BoundsInt::get_allPositionsWithin)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4871bdc;
+  constexpr static std::size_t addrs = 0x4871874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoundsInt>::get(), "get_allPositionsWithin",

@@ -97,52 +97,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept;
 
-  /// @brief Method Clear, addr 0x471e758, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x471e3f0, size 0xe0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DeleteKey, addr 0x471df44, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method DeleteKey, addr 0x471dbdc, size 0x234, virtual false, abstract: false, final false
   inline void DeleteKey(::StringW key);
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Get(::StringW key, T fallback);
 
-  /// @brief Method GetBool, addr 0x471e178, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x471de10, size 0x88, virtual false, abstract: false, final false
   inline bool GetBool(::StringW key, bool fallback);
 
-  /// @brief Method GetBoolDictionary, addr 0x471e728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBoolDictionary, addr 0x471e3c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, bool>* GetBoolDictionary();
 
-  /// @brief Method GetColor, addr 0x471e374, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x471e00c, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::StringW key, ::UnityEngine::Color fallback);
 
-  /// @brief Method GetColorDictionary, addr 0x471e748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetColorDictionary, addr 0x471e3e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* GetColorDictionary();
 
-  /// @brief Method GetFloat, addr 0x471e27c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x471df14, size 0x7c, virtual false, abstract: false, final false
   inline float_t GetFloat(::StringW key, float_t fallback);
 
-  /// @brief Method GetFloatDictionary, addr 0x471e738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFloatDictionary, addr 0x471e3d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* GetFloatDictionary();
 
-  /// @brief Method GetInt, addr 0x471e200, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x471de98, size 0x7c, virtual false, abstract: false, final false
   inline int32_t GetInt(::StringW key, int32_t fallback);
 
-  /// @brief Method GetIntDictionary, addr 0x471e730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIntDictionary, addr 0x471e3c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* GetIntDictionary();
 
-  /// @brief Method GetMaterial, addr 0x471e41c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x471e0b4, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::StringW key, ::UnityEngine::Material* fallback);
 
-  /// @brief Method GetMaterialDictionary, addr 0x471e750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialDictionary, addr 0x471e3e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* GetMaterialDictionary();
 
-  /// @brief Method GetString, addr 0x471e2f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x471df90, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetString(::StringW key, ::StringW fallback);
 
-  /// @brief Method GetStringDictionary, addr 0x471e740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetStringDictionary, addr 0x471e3d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetStringDictionary();
 
-  /// @brief Method HasKey, addr 0x471de00, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HasKey, addr 0x471da98, size 0x144, virtual false, abstract: false, final false
   inline bool HasKey(::StringW key);
 
   /// @brief Method HasKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -150,34 +150,34 @@ public:
 
   static inline ::UnityEngine::ProBuilder::PreferenceDictionary* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x471d934, size 0x3c8, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x471d5cc, size 0x3c8, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x471d620, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x471d2b8, size 0x314, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Set(::StringW key, T value);
 
-  /// @brief Method SetBool, addr 0x471e498, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetBool, addr 0x471e130, size 0x68, virtual false, abstract: false, final false
   inline void SetBool(::StringW key, bool value);
 
-  /// @brief Method SetColor, addr 0x471e638, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x471e2d0, size 0x88, virtual false, abstract: false, final false
   inline void SetColor(::StringW key, ::UnityEngine::Color value);
 
-  /// @brief Method SetDefaultValues, addr 0x471dcfc, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method SetDefaultValues, addr 0x471d994, size 0x104, virtual true, abstract: false, final true
   inline void SetDefaultValues();
 
-  /// @brief Method SetFloat, addr 0x471e568, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x471e200, size 0x68, virtual false, abstract: false, final false
   inline void SetFloat(::StringW key, float_t value);
 
-  /// @brief Method SetInt, addr 0x471e500, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x471e198, size 0x68, virtual false, abstract: false, final false
   inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method SetMaterial, addr 0x471e6c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x471e358, size 0x68, virtual false, abstract: false, final false
   inline void SetMaterial(::StringW key, ::UnityEngine::Material* value);
 
-  /// @brief Method SetString, addr 0x471e5d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetString, addr 0x471e268, size 0x68, virtual false, abstract: false, final false
   inline void SetString(::StringW key, ::StringW value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>* const& __cordl_internal_get_m_Bool() const;
@@ -288,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set_m_String_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x471e838, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471e4d0, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

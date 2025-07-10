@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x491c160;
+  constexpr static std::size_t addrs = 0x491bdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::Stop)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x491c19c;
+  constexpr static std::size_t addrs = 0x491be34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x491c1d4;
+  constexpr static std::size_t addrs = 0x491be6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::get_running)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491c250;
+  constexpr static std::size_t addrs = 0x491bee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)(bool)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::set_running)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491c258;
+  constexpr static std::size_t addrs = 0x491bef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SubsystemsImplementation::SubsystemProvider* (
     ::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)()>(&::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::get_providerBase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491c264;
+  constexpr static std::size_t addrs = 0x491befc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemWithProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491c26c;
+  constexpr static std::size_t addrs = 0x491bf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

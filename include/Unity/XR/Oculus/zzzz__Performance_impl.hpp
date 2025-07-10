@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Unity::XR::Oculus::Performance::TrySetCPULevel)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48347a4;
+  constexpr static std::size_t addrs = 0x483443c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Unity::XR::Oculus::Performance::TrySetGPULevel)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48347c0;
+  constexpr static std::size_t addrs = 0x4834458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(
     &::Unity::XR::Oculus::Performance::TryGetAvailableDisplayRefreshRates)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x48347dc;
+  constexpr static std::size_t addrs = 0x4834474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::Unity::XR::Oculus::Performance::TrySetDisplayRefreshRate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x483497c;
+  constexpr static std::size_t addrs = 0x4834614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<float_t>)>(&::Unity::XR::Oculus::Performance::TryGetDisplayRefreshRate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4834984;
+  constexpr static std::size_t addrs = 0x483461c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

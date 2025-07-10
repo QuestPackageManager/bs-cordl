@@ -25,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues, addr 0x3ae2d6c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetNoteJumpValues, addr 0x3ae29f8, size 0x38, virtual false, abstract: false, final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
                                        ::ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType> noteJumpValueType, ::ByRef<float_t> noteJumpValue);
 

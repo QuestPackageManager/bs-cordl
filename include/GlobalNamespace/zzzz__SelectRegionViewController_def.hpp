@@ -129,7 +129,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SelectRegionViewController_RegionToLocalizationKeyPair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3b6fe38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6fad0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SelectRegionViewController_Region region, ::StringW localizationKey);
 
   // Ctor Parameters []
@@ -177,10 +177,10 @@ public:
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_1, addr 0x3b6fea8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x3b6fb40, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _DidActivate_b__8_1(::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair p);
 
-  /// @brief Method .ctor, addr 0x3b6fea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6fb38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* getStaticF___9();
@@ -243,18 +243,18 @@ public:
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent,
                       put = __cordl_internal_set_didPressContinueButtonEvent)) ::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* didPressContinueButtonEvent;
 
-  /// @brief Method DidActivate, addr 0x3b6fa94, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6f72c, size 0x224, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x3b6fd94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x3b6fa2c, size 0x44, virtual false, abstract: false, final false
   inline void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int32_t idx);
 
   static inline ::GlobalNamespace::SelectRegionViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6fcb8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b6f950, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x3b6fde0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3b6fa78, size 0x58, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -284,13 +284,13 @@ public:
 
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* value);
 
-  /// @brief Method .ctor, addr 0x3b6fdd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6fa70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b6f934, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b6f5cc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b6f9e4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b6f67c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* value);
 
 protected:

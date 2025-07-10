@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afbac8;
+  constexpr static std::size_t addrs = 0x3afb754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::SimpleDialogPromptViewController___c__DisplayClass5_0::_DidActivate_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3afbccc;
+  constexpr static std::size_t addrs = 0x3afb958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SimpleDialogPromptViewController::DidActivate)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3afb9a0;
+  constexpr static std::size_t addrs = 0x3afb62c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(bool, bool)>(
     &::GlobalNamespace::SimpleDialogPromptViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3afbad0;
+  constexpr static std::size_t addrs = 0x3afb75c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
     ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3afbadc;
+  constexpr static std::size_t addrs = 0x3afb768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3afbcc0;
+  constexpr static std::size_t addrs = 0x3afb94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<int32_t>*)>(&::GlobalNamespace::SimpleDialogPromptViewController::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3afbaec;
+  constexpr static std::size_t addrs = 0x3afb778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleDialogPromptViewController::*)()>(
     &::GlobalNamespace::SimpleDialogPromptViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af66d8;
+  constexpr static std::size_t addrs = 0x3af6364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleDialogPromptViewController*>::get(),

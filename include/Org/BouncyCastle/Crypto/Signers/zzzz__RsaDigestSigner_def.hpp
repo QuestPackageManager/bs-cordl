@@ -62,16 +62,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x23dd660, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23dd6f0, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DerEncode, addr 0x23dd950, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method DerEncode, addr 0x23dd9e0, size 0x88, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DerEncode(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method GenerateSignature, addr 0x23dd724, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23dd7b4, size 0x22c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x23dd394, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23dd424, size 0x220, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
@@ -89,13 +89,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* rsaEngine, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
 
-  /// @brief Method Reset, addr 0x23dde10, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x23ddea0, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x23dd5b4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23dd644, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method VerifySignature, addr 0x23dd9d8, size 0x438, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23dda68, size 0x438, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algId() const;
@@ -122,27 +122,27 @@ public:
 
   constexpr void __cordl_internal_set_rsaEngine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  /// @brief Method .ctor, addr 0x23dce48, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dced8, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0x23dd09c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd12c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
 
-  /// @brief Method .ctor, addr 0x23dcff4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd084, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method .ctor, addr 0x23dd110, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd1a0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
 
-  /// @brief Method .ctor, addr 0x23dd194, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd224, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method .ctor, addr 0x23dd24c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd2dc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* rsaEngine, ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId);
 
   static inline ::System::Collections::IDictionary* getStaticF_oidMap();
 
-  /// @brief Method get_AlgorithmName, addr 0x23dd2d4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23dd364, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

@@ -28,7 +28,7 @@ public:
   /// @brief Field s_flags, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_flags, put = setStaticF_s_flags)) ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags s_flags;
 
-  /// @brief Method NeedsChain, addr 0x4113654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NeedsChain, addr 0x41132ec, size 0x8, virtual false, abstract: false, final false
   static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline bool getStaticF_is_macosx();

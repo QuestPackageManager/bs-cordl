@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d8078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7cc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,10 +113,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d8080, size 0x824, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26d7ccc, size 0x824, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d88a4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26d84f0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -197,24 +197,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x26d7d0c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x26d7958, size 0x64, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetQuickPlaySetupInternal, addr 0x26d7ed4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetQuickPlaySetupInternal, addr 0x26d7b20, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
 
-  /// @brief Method Init, addr 0x26d7ed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26d7b1c, size 0x4, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x26d7d70, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x26d79bc, size 0xf8, virtual false, abstract: false, final false
   inline bool IsQuickPlaySetupTaskValid();
 
-  /// @brief Method IsUrlValid, addr 0x26d7fbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsUrlValid, addr 0x26d7c08, size 0x5c, virtual false, abstract: false, final false
   inline bool IsUrlValid(::StringW url);
 
   static inline ::GlobalNamespace::QuickPlaySetupModel* New_ctor();
 
-  /// @brief Method StartRequest, addr 0x26d7e68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x26d7ab4, size 0x68, virtual false, abstract: false, final false
   inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient* const& __cordl_internal_get__client() const;
@@ -241,7 +241,7 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x26d8018, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7c64, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"

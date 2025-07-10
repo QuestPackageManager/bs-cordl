@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Data::RowNotInTableException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x413e5b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413e250, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x413e5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413e248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x413e614, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413e2ac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

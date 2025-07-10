@@ -78,12 +78,12 @@ namespace System::Runtime::InteropServices {
 class CORDL_TYPE Marshal_SecureStringAllocator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3d17c30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3d178c8, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(int32_t len);
 
   static inline ::System::Runtime::InteropServices::Marshal_SecureStringAllocator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3d17ba4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1783c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -119,15 +119,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*,::StringW>>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*, ::StringW>>*() noexcept;
 
-  /// @brief Method Equals, addr 0x3d17c44, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3d178dc, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::System::ValueTuple_2<::System::Type*, ::StringW> lhs, ::System::ValueTuple_2<::System::Type*, ::StringW> rhs);
 
-  /// @brief Method GetHashCode, addr 0x3d17cb8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3d17950, size 0x54, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::ValueTuple_2<::System::Type*, ::StringW> key);
 
   static inline ::System::Runtime::InteropServices::Marshal_MarshalerInstanceKeyComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d17d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d179a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::ValueTuple_2<::System::Type*,::StringW>>"
@@ -173,11 +173,11 @@ public:
 
   static inline ::System::Runtime::InteropServices::Marshal___c* New_ctor();
 
-  /// @brief Method <GetCustomMarshalerInstance>b__201_0, addr 0x3d17d78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <GetCustomMarshalerInstance>b__201_0, addr 0x3d17a10, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, ::StringW>, ::System::Runtime::InteropServices::ICustomMarshaler*>*
   _GetCustomMarshalerInstance_b__201_0();
 
-  /// @brief Method .ctor, addr 0x3d17d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d17a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::InteropServices::Marshal___c* getStaticF___9();
@@ -240,145 +240,145 @@ public:
   /// @brief Field SystemMaxDBCSCharSize, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_SystemMaxDBCSCharSize, put = setStaticF_SystemMaxDBCSCharSize)) int32_t SystemMaxDBCSCharSize;
 
-  /// @brief Method AllocCoTaskMem, addr 0x3d15fa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllocCoTaskMem, addr 0x3d15c38, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocCoTaskMem(int32_t cb);
 
-  /// @brief Method AllocHGlobal, addr 0x3d15fa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AllocHGlobal, addr 0x3d15c3c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocHGlobal(::System::IntPtr cb);
 
-  /// @brief Method AllocHGlobal, addr 0x3d15fa8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AllocHGlobal, addr 0x3d15c40, size 0x68, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocHGlobal(int32_t cb);
 
-  /// @brief Method BufferToBSTR, addr 0x3d16c24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BufferToBSTR, addr 0x3d168bc, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr BufferToBSTR(::cordl_internals::Ptr<char16_t> ptr, int32_t slen);
 
-  /// @brief Method ClearAnsi, addr 0x3d16704, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearAnsi, addr 0x3d1639c, size 0x9c, virtual false, abstract: false, final false
   static inline void ClearAnsi(::System::IntPtr ptr);
 
-  /// @brief Method ClearBSTR, addr 0x3d16590, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ClearBSTR, addr 0x3d16228, size 0xac, virtual false, abstract: false, final false
   static inline void ClearBSTR(::System::IntPtr ptr);
 
-  /// @brief Method ClearUnicode, addr 0x3d167bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ClearUnicode, addr 0x3d16454, size 0x90, virtual false, abstract: false, final false
   static inline void ClearUnicode(::System::IntPtr ptr);
 
-  /// @brief Method Copy, addr 0x3d16130, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3d15dc8, size 0xf4, virtual false, abstract: false, final false
   static inline void Copy(::ArrayW<uint8_t, ::Array<uint8_t>*> source, int32_t startIndex, ::System::IntPtr destination, int32_t length);
 
-  /// @brief Method Copy, addr 0x3d1639c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3d16034, size 0xf4, virtual false, abstract: false, final false
   static inline void Copy(::System::IntPtr source, ::ArrayW<char16_t, ::Array<char16_t>*> destination, int32_t startIndex, int32_t length);
 
-  /// @brief Method Copy, addr 0x3d16490, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3d16128, size 0xf4, virtual false, abstract: false, final false
   static inline void Copy(::System::IntPtr source, ::ArrayW<float_t, ::Array<float_t>*> destination, int32_t startIndex, int32_t length);
 
-  /// @brief Method Copy, addr 0x3d162a8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3d15f40, size 0xf4, virtual false, abstract: false, final false
   static inline void Copy(::System::IntPtr source, ::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t startIndex, int32_t length);
 
-  /// @brief Method FreeBSTR, addr 0x3d16584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeBSTR, addr 0x3d1621c, size 0x4, virtual false, abstract: false, final false
   static inline void FreeBSTR(::System::IntPtr ptr);
 
-  /// @brief Method FreeCoTaskMem, addr 0x3d16588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeCoTaskMem, addr 0x3d16220, size 0x4, virtual false, abstract: false, final false
   static inline void FreeCoTaskMem(::System::IntPtr ptr);
 
-  /// @brief Method FreeHGlobal, addr 0x3d1658c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeHGlobal, addr 0x3d16224, size 0x4, virtual false, abstract: false, final false
   static inline void FreeHGlobal(::System::IntPtr hglobal);
 
-  /// @brief Method GetCustomMarshalerInstance, addr 0x3d172d0, size 0x834, virtual false, abstract: false, final false
+  /// @brief Method GetCustomMarshalerInstance, addr 0x3d16f68, size 0x834, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::ICustomMarshaler* GetCustomMarshalerInstance(::System::Type* type, ::StringW cookie);
 
-  /// @brief Method GetDelegateForFunctionPointer, addr 0x3d16ff4, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetDelegateForFunctionPointer, addr 0x3d16c8c, size 0x238, virtual false, abstract: false, final false
   static inline ::System::Delegate* GetDelegateForFunctionPointer(::System::IntPtr ptr, ::System::Type* t);
 
   /// @brief Method GetDelegateForFunctionPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDelegate> static inline TDelegate GetDelegateForFunctionPointer(::System::IntPtr ptr);
 
-  /// @brief Method GetDelegateForFunctionPointerInternal, addr 0x3d16ff0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetDelegateForFunctionPointerInternal, addr 0x3d16c88, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Delegate* GetDelegateForFunctionPointerInternal(::System::IntPtr ptr, ::System::Type* t);
 
-  /// @brief Method GetFunctionPointerForDelegate, addr 0x3d17230, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerForDelegate, addr 0x3d16ec8, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointerForDelegate(::System::Delegate* d);
 
   /// @brief Method GetFunctionPointerForDelegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDelegate> static inline ::System::IntPtr GetFunctionPointerForDelegate(TDelegate d);
 
-  /// @brief Method GetFunctionPointerForDelegateInternal, addr 0x3d1722c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetFunctionPointerForDelegateInternal, addr 0x3d16ec4, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetFunctionPointerForDelegateInternal(::System::Delegate* d);
 
-  /// @brief Method GetHRForException, addr 0x3d16990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetHRForException, addr 0x3d16628, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetHRForException(::System::Exception* e);
 
-  /// @brief Method GetLastWin32Error, addr 0x3d169a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetLastWin32Error, addr 0x3d1663c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetLastWin32Error();
 
-  /// @brief Method IsComObject, addr 0x3d1699c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsComObject, addr 0x3d16634, size 0x8, virtual false, abstract: false, final false
   static inline bool IsComObject(::System::Object* o);
 
-  /// @brief Method OffsetOf, addr 0x3d169a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OffsetOf, addr 0x3d16640, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr OffsetOf(::System::Type* t, ::StringW fieldName);
 
-  /// @brief Method PtrToStringAnsi, addr 0x3d169ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PtrToStringAnsi, addr 0x3d16644, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW PtrToStringAnsi(::System::IntPtr ptr);
 
-  /// @brief Method PtrToStringAnsi, addr 0x3d169b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PtrToStringAnsi, addr 0x3d16648, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW PtrToStringAnsi(::System::IntPtr ptr, int32_t len);
 
-  /// @brief Method PtrToStringUni, addr 0x3d169b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PtrToStringUni, addr 0x3d1664c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW PtrToStringUni(::System::IntPtr ptr);
 
-  /// @brief Method PtrToStringUni, addr 0x3d169b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PtrToStringUni, addr 0x3d16650, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW PtrToStringUni(::System::IntPtr ptr, int32_t len);
 
-  /// @brief Method PtrToStructure, addr 0x3d169c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PtrToStructure, addr 0x3d16658, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* PtrToStructure(::System::IntPtr ptr, ::System::Type* structureType);
 
   /// @brief Method PtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T PtrToStructure(::System::IntPtr ptr);
 
-  /// @brief Method PtrToStructure, addr 0x3d169bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PtrToStructure, addr 0x3d16654, size 0x4, virtual false, abstract: false, final false
   static inline void PtrToStructure(::System::IntPtr ptr, ::System::Object* structure);
 
   /// @brief Method PtrToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void PtrToStructure(::System::IntPtr ptr, T structure);
 
-  /// @brief Method ReadByte, addr 0x3d167a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x3d16438, size 0x1c, virtual false, abstract: false, final false
   static inline uint8_t ReadByte(::System::IntPtr ptr, int32_t ofs);
 
-  /// @brief Method ReadInt16, addr 0x3d16894, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReadInt16, addr 0x3d1652c, size 0x44, virtual false, abstract: false, final false
   static inline int16_t ReadInt16(::System::IntPtr ptr, int32_t ofs);
 
-  /// @brief Method ReadInt32, addr 0x3d169c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32, addr 0x3d1665c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ReadInt32(::System::IntPtr ptr);
 
-  /// @brief Method ReadInt32, addr 0x3d1663c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32, addr 0x3d162d4, size 0x48, virtual false, abstract: false, final false
   static inline int32_t ReadInt32(::System::IntPtr ptr, int32_t ofs);
 
-  /// @brief Method SecureStringGlobalAllocator, addr 0x3d16c28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SecureStringGlobalAllocator, addr 0x3d168c0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr SecureStringGlobalAllocator(int32_t len);
 
-  /// @brief Method SecureStringToBSTR, addr 0x3d16aec, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SecureStringToBSTR, addr 0x3d16784, size 0x138, virtual false, abstract: false, final false
   static inline ::System::IntPtr SecureStringToBSTR(::System::Security::SecureString* s);
 
-  /// @brief Method SecureStringToGlobalAllocUnicode, addr 0x3d16efc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SecureStringToGlobalAllocUnicode, addr 0x3d16b94, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::IntPtr SecureStringToGlobalAllocUnicode(::System::Security::SecureString* s);
 
-  /// @brief Method SecureStringToUnicode, addr 0x3d16c7c, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method SecureStringToUnicode, addr 0x3d16914, size 0x280, virtual false, abstract: false, final false
   static inline ::System::IntPtr SecureStringToUnicode(::System::Security::SecureString* s, ::System::Runtime::InteropServices::Marshal_SecureStringAllocator* allocator);
 
-  /// @brief Method SizeOf, addr 0x3d16a00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SizeOf, addr 0x3d16698, size 0x70, virtual false, abstract: false, final false
   static inline int32_t SizeOf(::System::Object* structure);
 
   /// @brief Method SizeOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t SizeOf(T structure);
 
-  /// @brief Method SizeOf, addr 0x3d16a70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SizeOf, addr 0x3d16708, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SizeOf(::System::Type* t);
 
-  /// @brief Method StringToHGlobalAnsi, addr 0x3d16a78, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StringToHGlobalAnsi, addr 0x3d16710, size 0x74, virtual false, abstract: false, final false
   static inline ::System::IntPtr StringToHGlobalAnsi(::StringW s);
 
-  /// @brief Method StringToHGlobalAnsi, addr 0x3d16a74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StringToHGlobalAnsi, addr 0x3d1670c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr StringToHGlobalAnsi(::cordl_internals::Ptr<char16_t> s, int32_t length);
 
-  /// @brief Method StructureToPtr, addr 0x3d16fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StructureToPtr, addr 0x3d16c7c, size 0x8, virtual false, abstract: false, final false
   static inline void StructureToPtr(::System::Object* structure, ::System::IntPtr ptr, bool fDeleteOld);
 
   /// @brief Method StructureToPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -387,34 +387,34 @@ public:
   /// @brief Method UnsafeAddrOfPinnedArrayElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::IntPtr UnsafeAddrOfPinnedArrayElement(::ArrayW<T, ::Array<T>*> arr, int32_t index);
 
-  /// @brief Method UnsafeAddrOfPinnedArrayElement, addr 0x3d16fec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UnsafeAddrOfPinnedArrayElement, addr 0x3d16c84, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr UnsafeAddrOfPinnedArrayElement(::System::Array* arr, int32_t index);
 
-  /// @brief Method WriteByte, addr 0x3d16684, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x3d1631c, size 0x24, virtual false, abstract: false, final false
   static inline void WriteByte(::System::IntPtr ptr, int32_t ofs, uint8_t val);
 
-  /// @brief Method WriteInt16, addr 0x3d1684c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteInt16, addr 0x3d164e4, size 0x48, virtual false, abstract: false, final false
   static inline void WriteInt16(::System::IntPtr ptr, int32_t ofs, int16_t val);
 
-  /// @brief Method ZeroFreeBSTR, addr 0x3d166a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ZeroFreeBSTR, addr 0x3d16340, size 0x5c, virtual false, abstract: false, final false
   static inline void ZeroFreeBSTR(::System::IntPtr s);
 
-  /// @brief Method ZeroFreeGlobalAllocAnsi, addr 0x3d168d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ZeroFreeGlobalAllocAnsi, addr 0x3d16570, size 0x5c, virtual false, abstract: false, final false
   static inline void ZeroFreeGlobalAllocAnsi(::System::IntPtr s);
 
-  /// @brief Method ZeroFreeGlobalAllocUnicode, addr 0x3d16934, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ZeroFreeGlobalAllocUnicode, addr 0x3d165cc, size 0x5c, virtual false, abstract: false, final false
   static inline void ZeroFreeGlobalAllocUnicode(::System::IntPtr s);
 
-  /// @brief Method copy_from_unmanaged, addr 0x3d16224, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method copy_from_unmanaged, addr 0x3d15ebc, size 0x80, virtual false, abstract: false, final false
   static inline void copy_from_unmanaged(::System::IntPtr source, int32_t startIndex, ::System::Array* destination, int32_t length);
 
-  /// @brief Method copy_from_unmanaged_fixed, addr 0x3d162a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method copy_from_unmanaged_fixed, addr 0x3d15f3c, size 0x4, virtual false, abstract: false, final false
   static inline void copy_from_unmanaged_fixed(::System::IntPtr source, int32_t startIndex, ::System::Array* destination, int32_t length, ::cordl_internals::Ptr<void> fixed_destination_element);
 
-  /// @brief Method copy_to_unmanaged, addr 0x3d16048, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method copy_to_unmanaged, addr 0x3d15ce0, size 0xe8, virtual false, abstract: false, final false
   static inline void copy_to_unmanaged(::ArrayW<uint8_t, ::Array<uint8_t>*> source, int32_t startIndex, ::System::IntPtr destination, int32_t length);
 
-  /// @brief Method copy_to_unmanaged_fixed, addr 0x3d16010, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method copy_to_unmanaged_fixed, addr 0x3d15ca8, size 0x4, virtual false, abstract: false, final false
   static inline void copy_to_unmanaged_fixed(::System::Array* source, int32_t startIndex, ::System::IntPtr destination, int32_t length, ::cordl_internals::Ptr<void> fixed_source_element);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, ::StringW>, ::System::Runtime::InteropServices::ICustomMarshaler*>*
@@ -435,7 +435,7 @@ public:
 
   static inline void setStaticF_SystemMaxDBCSCharSize(int32_t value);
 
-  /// @brief Method skip_fixed, addr 0x3d16014, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method skip_fixed, addr 0x3d15cac, size 0x34, virtual false, abstract: false, final false
   static inline bool skip_fixed(::System::Array* array, int32_t startIndex);
 
 protected:

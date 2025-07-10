@@ -45,14 +45,14 @@ public:
   /// @brief Field _arg3, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__arg3, put = __cordl_internal_set__arg3)) ::System::Linq::Expressions::Expression* _arg3;
 
-  /// @brief Method GetArgument, addr 0x40b9e48, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x40b9ae0, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression4* New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0,
                                                                              ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                              ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Rewrite, addr 0x40b9f28, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40b9bc0, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -80,11 +80,11 @@ public:
 
   constexpr void __cordl_internal_set__arg3(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40b9e0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40b9aa4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Type* returnType, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method get_ArgumentCount, addr 0x40b9f20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x40b9bb8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:

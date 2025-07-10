@@ -28,12 +28,12 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Method Create, addr 0x43c8e70, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x43c8b08, size 0x58, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::HttpRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43c8e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43c8b00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Net::IWebRequestCreate"

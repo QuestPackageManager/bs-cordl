@@ -87,19 +87,19 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Complete, addr 0x43d0cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43d0958, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Complete, addr 0x43d0cc8, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43d0960, size 0x51c, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context, bool synch);
 
-  /// @brief Method Complete, addr 0x43d099c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43d0634, size 0x1e8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* exc);
 
-  /// @brief Method GetContext, addr 0x43d11e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x43d0e7c, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method InvokeCallback, addr 0x43d0b84, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x43d081c, size 0x13c, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Object* o);
 
   static inline ::System::Net::ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -170,21 +170,21 @@ public:
 
   constexpr void __cordl_internal_set_synch(bool value);
 
-  /// @brief Method .ctor, addr 0x43d0924, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d05bc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
   static inline ::System::Threading::WaitCallback* getStaticF_InvokeCB();
 
-  /// @brief Method get_AsyncState, addr 0x43d1220, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x43d0eb8, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x43d1234, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x43d0ecc, size 0x128, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x43d135c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x43d0ff4, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x43d1370, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x43d1008, size 0xdc, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"

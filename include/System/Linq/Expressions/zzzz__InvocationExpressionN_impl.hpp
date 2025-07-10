@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*, ::System::Type*)>(
     &::System::Linq::Expressions::InvocationExpressionN::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40b966c;
+  constexpr static std::size_t addrs = 0x40b9304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InvocationExpressionN::*)(int32_t)>(
     &::System::Linq::Expressions::InvocationExpressionN::GetArgument)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x40b9694;
+  constexpr static std::size_t addrs = 0x40b932c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::InvocationExpressionN::*)()>(
     &::System::Linq::Expressions::InvocationExpressionN::get_ArgumentCount)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40b973c;
+  constexpr static std::size_t addrs = 0x40b93d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                            ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
     &::System::Linq::Expressions::InvocationExpressionN::Rewrite)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x40b97dc;
+  constexpr static std::size_t addrs = 0x40b9474;
 
   inline static ::MethodInfo const* methodInfo() {
 

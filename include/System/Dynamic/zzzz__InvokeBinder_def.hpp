@@ -21,11 +21,11 @@ namespace System::Dynamic {
 class CORDL_TYPE InvokeBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x41025f8, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x4102290, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackInvoke, addr 0x41025e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackInvoke, addr 0x4102280, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject* target,
                                                               ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 

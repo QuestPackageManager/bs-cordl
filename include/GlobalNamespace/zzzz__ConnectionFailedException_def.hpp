@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method .ctor, addr 0x22c2464, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c24f4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method .ctor, addr 0x22c24d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c2560, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
 protected:

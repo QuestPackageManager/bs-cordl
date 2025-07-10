@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a307e0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a30478, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DetachFromPanelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a307d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a30470, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* getStaticF___9();
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a30734, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a303cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

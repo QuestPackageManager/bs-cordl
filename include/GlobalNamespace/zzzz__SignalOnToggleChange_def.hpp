@@ -32,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SignalOnToggleChange* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39c4c68, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39c48f4, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RaiseSignal, addr 0x39c4d50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RaiseSignal, addr 0x39c49dc, size 0x20, virtual false, abstract: false, final false
   inline void RaiseSignal(bool newValue);
 
-  /// @brief Method Start, addr 0x39c4bc4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39c4850, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__toggleValueChangeSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x39c4d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c49fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::AsyncUtils___c::*)()>(&::Newtonsoft::Json::Utilities::AsyncUtils___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebe46c;
+  constexpr static std::size_t addrs = 0x3ebe104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AsyncUtils___c*>::get(), ".ctor",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::AsyncUtils___c::*)()>(
     &::Newtonsoft::Json::Utilities::AsyncUtils___c::_FromCanceled_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ebe474;
+  constexpr static std::size_t addrs = 0x3ebe10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AsyncUtils___c*>::get(),
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(bool)>(&::Newtonsoft::Json::Utilities::AsyncUtils::ToAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ebddd4;
+  constexpr static std::size_t addrs = 0x3ebda6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::CancelIfRequestedAsync)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ebde3c;
+  constexpr static std::size_t addrs = 0x3ebdad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::FromCanceled)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ebded4;
+  constexpr static std::size_t addrs = 0x3ebdb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, char16_t, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ebdfd8;
+  constexpr static std::size_t addrs = 0x3ebdc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::StringW, ::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ebe09c;
+  constexpr static std::size_t addrs = 0x3ebdd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::AsyncUtils::WriteAsync)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3ebe160;
+  constexpr static std::size_t addrs = 0x3ebddf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +202,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<int32_t>* (*)(::System::IO::TextReader*, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::AsyncUtils::ReadAsync)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ebe23c;
+  constexpr static std::size_t addrs = 0x3ebded4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::Tasks::Task*)>(&::Newtonsoft::Json::Utilities::AsyncUtils::IsCompletedSuccessfully)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ebe330;
+  constexpr static std::size_t addrs = 0x3ebdfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

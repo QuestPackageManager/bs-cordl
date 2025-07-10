@@ -83,10 +83,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c* New_ctor();
 
-  /// @brief Method <HandleGameSceneChanged>b__9_0, addr 0x22a7244, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleGameSceneChanged>b__9_0, addr 0x22a72d4, size 0x54, virtual false, abstract: false, final false
   inline bool _HandleGameSceneChanged_b__9_0(::GlobalNamespace::SceneInfo* info);
 
-  /// @brief Method .ctor, addr 0x22a723c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a72cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater___c* getStaticF___9();
@@ -131,10 +131,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22a7298, size 0x510, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22a7328, size 0x510, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22a796c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22a79fc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -227,17 +227,17 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method CheckForCatalogUpdateWithInterval, addr 0x22a6f40, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CheckForCatalogUpdateWithInterval, addr 0x22a6fd0, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CheckForCatalogUpdateWithInterval(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x22a7010, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22a70a0, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameSceneChanged, addr 0x22a702c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method HandleGameSceneChanged, addr 0x22a70bc, size 0x1b4, virtual false, abstract: false, final false
   inline void HandleGameSceneChanged(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                      ::Zenject::DiContainer* container);
 
-  /// @brief Method Initialize, addr 0x22a6e58, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x22a6ee8, size 0xe8, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater* New_ctor(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* remoteAssetsManager,
@@ -267,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x22a6de0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a6e70, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* remoteAssetsManager, ::GlobalNamespace::GameScenesManager* scenesManager);
 
   /// @brief Convert to "::System::IDisposable"

@@ -40,14 +40,14 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3cf2ebc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3cf2b54, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerObjectReplySink* New_ctor(::System::Runtime::Remoting::ServerIdentity* identity,
                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method SyncProcessMessage, addr 0x3cf2df4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3cf2a8c, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::ServerIdentity* const& __cordl_internal_get__identity() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__replySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cf2dc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf2a60, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ServerIdentity* identity, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

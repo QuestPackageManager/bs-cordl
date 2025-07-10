@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::Generate)> {
   constexpr static std::size_t size = 0x6cc;
-  constexpr static std::size_t addrs = 0x2670618;
+  constexpr static std::size_t addrs = 0x26706a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* (*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t)>(
         &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::CreatePssParams)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x26704f8;
+  constexpr static std::size_t addrs = 0x2670588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (
     ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::*)(::StringW)>(&::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::Find)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2670ce4;
+  constexpr static std::size_t addrs = 0x2670d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::*)()>(
     &::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2670d38;
+  constexpr static std::size_t addrs = 0x2670dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

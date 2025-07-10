@@ -28,10 +28,10 @@ public:
 
   static inline ::System::Threading::ThreadInterruptedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e583fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e58094, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e58478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e58110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

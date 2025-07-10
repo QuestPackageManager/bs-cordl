@@ -107,13 +107,13 @@ public:
   /// @brief Field allBakeIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* allBakeIds;
 
-  /// @brief Method GetComputeFieldPropertyId, addr 0x39e1bd4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetComputeFieldPropertyId, addr 0x39e1860, size 0x50, virtual false, abstract: false, final false
   static inline int32_t GetComputeFieldPropertyId(::StringW fieldName);
 
-  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x39e1b2c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x39e17b8, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId);
 
-  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x39e1a84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x39e1710, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t GetLightmapLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId);
 
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* getStaticF_allBakeIds();

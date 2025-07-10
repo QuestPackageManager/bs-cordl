@@ -28,45 +28,45 @@ public:
   // Declarations
   __declspec(property(get = get_velocityUpdateMode, put = set_velocityUpdateMode)) ::UnityEngine::AudioVelocityUpdateMode velocityUpdateMode;
 
-  /// @brief Method GetOutputData, addr 0x4859cd8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x4859970, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> GetOutputData(int32_t numSamples, int32_t channel);
 
-  /// @brief Method GetOutputData, addr 0x4859d64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x48599fc, size 0x44, virtual false, abstract: false, final false
   static inline void GetOutputData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel);
 
-  /// @brief Method GetOutputDataHelper, addr 0x4859afc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOutputDataHelper, addr 0x4859794, size 0x44, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper(::ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel);
 
-  /// @brief Method GetSpectrumData, addr 0x4859da8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x4859a40, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumData, addr 0x4859e3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x4859ad4, size 0x54, virtual false, abstract: false, final false
   static inline void GetSpectrumData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumDataHelper, addr 0x4859b40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumDataHelper, addr 0x48597d8, size 0x54, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper(::ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   static inline ::UnityEngine::AudioListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4859e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4859b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pause, addr 0x4859bf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_pause, addr 0x485988c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_pause();
 
-  /// @brief Method get_velocityUpdateMode, addr 0x4859c58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_velocityUpdateMode, addr 0x48598f0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode();
 
-  /// @brief Method get_volume, addr 0x4859b94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x485982c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_volume();
 
-  /// @brief Method set_pause, addr 0x4859c1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_pause, addr 0x48598b4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_pause(bool value);
 
-  /// @brief Method set_velocityUpdateMode, addr 0x4859c94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_velocityUpdateMode, addr 0x485992c, size 0x44, virtual false, abstract: false, final false
   inline void set_velocityUpdateMode(::UnityEngine::AudioVelocityUpdateMode value);
 
-  /// @brief Method set_volume, addr 0x4859bbc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x4859854, size 0x38, virtual false, abstract: false, final false
   static inline void set_volume(float_t value);
 
 protected:

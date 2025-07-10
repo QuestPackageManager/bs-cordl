@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ParseRecord::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ParseRecord::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d0fd60;
+  constexpr static std::size_t addrs = 0x3d0f9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ParseRecord::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ParseRecord::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d11d48;
+  constexpr static std::size_t addrs = 0x3d119e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

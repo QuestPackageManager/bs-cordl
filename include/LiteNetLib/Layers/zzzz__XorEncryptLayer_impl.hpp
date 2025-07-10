@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)()>(&::LiteNetLib::Layers::XorEncryptLayer::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ac03cc;
+  constexpr static std::size_t addrs = 0x3ac0058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Layers::XorEncryptLayer*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Layers::XorEncryptLayer::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ac03e8;
+  constexpr static std::size_t addrs = 0x3ac0074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::StringW)>(&::LiteNetLib::Layers::XorEncryptLayer::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ac04ac;
+  constexpr static std::size_t addrs = 0x3ac0138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::StringW)>(&::LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ac04dc;
+  constexpr static std::size_t addrs = 0x3ac0168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ac0418;
+  constexpr static std::size_t addrs = 0x3ac00a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(
     ::System::Net::IPEndPoint*, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3ac0520;
+  constexpr static std::size_t addrs = 0x3ac01ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(
     ::System::Net::IPEndPoint*, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ac05b0;
+  constexpr static std::size_t addrs = 0x3ac023c;
 
   inline static ::MethodInfo const* methodInfo() {
 

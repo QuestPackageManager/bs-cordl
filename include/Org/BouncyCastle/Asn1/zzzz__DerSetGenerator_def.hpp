@@ -31,13 +31,13 @@ public:
   /// @brief Field _bOut, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bOut, put = __cordl_internal_set__bOut)) ::System::IO::MemoryStream* _bOut;
 
-  /// @brief Method AddObject, addr 0x263b18c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x263b21c, size 0x80, virtual true, abstract: false, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Close, addr 0x263b214, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x263b2a4, size 0x38, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetRawOutputStream, addr 0x263b20c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x263b29c, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
   static inline ::Org::BouncyCastle::Asn1::DerSetGenerator* New_ctor(::System::IO::Stream* outStream);
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__bOut(::System::IO::MemoryStream* value);
 
-  /// @brief Method .ctor, addr 0x263b078, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b108, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x263b0f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b180, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

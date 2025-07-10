@@ -247,16 +247,16 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneType(::GlobalNamespace::EnvironmentSizeData_TrackLaneType value);
 
-  /// @brief Method .ctor, addr 0x26b0278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26afec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ceilingType, addr 0x26b0268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ceilingType, addr 0x26afeb4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData_CeilingType get_ceilingType();
 
-  /// @brief Method get_floorType, addr 0x26b0260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floorType, addr 0x26afeac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData_FloorType get_floorType();
 
-  /// @brief Method get_trackLaneType, addr 0x26b0270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackLaneType, addr 0x26afebc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData_TrackLaneType get_trackLaneType();
 
 protected:

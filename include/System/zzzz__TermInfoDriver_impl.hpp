@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::TermInfoDriver::TryTermInfoDir)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3e3ca94;
+  constexpr static std::size_t addrs = 0x3e3c72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::TermInfoDriver::SearchTerminfo)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3e3cbc0;
+  constexpr static std::size_t addrs = 0x3e3c858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(::StringW)>(&::System::TermInfoDriver::WriteConsole)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e3cd34;
+  constexpr static std::size_t addrs = 0x3e3c9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(::StringW)>(&::System::TermInfoDriver::_ctor)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x3e340dc;
+  constexpr static std::size_t addrs = 0x3e33d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::get_Initialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e3d0a8;
+  constexpr static std::size_t addrs = 0x3e3cd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "get_Initialized",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::Init)> {
   constexpr static std::size_t size = 0x7bc;
-  constexpr static std::size_t addrs = 0x3e3d0b0;
+  constexpr static std::size_t addrs = 0x3e3cd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "Init",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::IncrementX)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e3dbec;
+  constexpr static std::size_t addrs = 0x3e3d884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "IncrementX",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(::System::ConsoleKeyInfo)>(&::System::TermInfoDriver::WriteSpecialKey)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e3dcb0;
+  constexpr static std::size_t addrs = 0x3e3d948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(char16_t)>(&::System::TermInfoDriver::WriteSpecialKey)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e3df68;
+  constexpr static std::size_t addrs = 0x3e3dc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TermInfoDriver::*)(::System::ConsoleKeyInfo)>(&::System::TermInfoDriver::IsSpecialKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e3e114;
+  constexpr static std::size_t addrs = 0x3e3ddac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TermInfoDriver::*)(char16_t)>(&::System::TermInfoDriver::IsSpecialKey)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e3e198;
+  constexpr static std::size_t addrs = 0x3e3de30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::GetCursorPosition)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3e3d95c;
+  constexpr static std::size_t addrs = 0x3e3d5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "GetCursorPosition",
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::CheckWindowDimensions)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3e3e2ac;
+  constexpr static std::size_t addrs = 0x3e3df44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "CheckWindowDimensions",
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::get_WindowHeight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e3dc84;
+  constexpr static std::size_t addrs = 0x3e3d91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "get_WindowHeight",
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::get_WindowWidth)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e3dc58;
+  constexpr static std::size_t addrs = 0x3e3d8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "get_WindowWidth",
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(int32_t)>(&::System::TermInfoDriver::AddToBuffer)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3e3e1c0;
+  constexpr static std::size_t addrs = 0x3e3de58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::AdjustBuffer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e3e3cc;
+  constexpr static std::size_t addrs = 0x3e3e064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "AdjustBuffer",
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (::System::TermInfoDriver::*)(int32_t, bool)>(
     &::System::TermInfoDriver::CreateKeyInfoFromInt)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3e3df90;
+  constexpr static std::size_t addrs = 0x3e3dc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::TermInfoDriver::*)(bool)>(&::System::TermInfoDriver::GetKeyFromBuffer)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3e3e3e0;
+  constexpr static std::size_t addrs = 0x3e3e078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (::System::TermInfoDriver::*)(::ByRef<bool>)>(&::System::TermInfoDriver::ReadKeyInternal)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3e3ebb0;
+  constexpr static std::size_t addrs = 0x3e3e848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::InputPending)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e3eed8;
+  constexpr static std::size_t addrs = 0x3e3eb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "InputPending",
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(char16_t)>(&::System::TermInfoDriver::QueueEcho)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3e3ef0c;
+  constexpr static std::size_t addrs = 0x3e3eba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(::System::ConsoleKeyInfo)>(&::System::TermInfoDriver::Echo)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e3efd4;
+  constexpr static std::size_t addrs = 0x3e3ec6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::EchoFlush)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e3f028;
+  constexpr static std::size_t addrs = 0x3e3ecc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "EchoFlush",
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TermInfoDriver::*)(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>, int32_t, int32_t)>(
     &::System::TermInfoDriver::Read)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3e3f05c;
+  constexpr static std::size_t addrs = 0x3e3ecf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (::System::TermInfoDriver::*)(bool)>(&::System::TermInfoDriver::ReadKey)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e3f37c;
+  constexpr static std::size_t addrs = 0x3e3f014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::ReadLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e3f3e0;
+  constexpr static std::size_t addrs = 0x3e3f078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "ReadLine",
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::ReadToEnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e3f5c4;
+  constexpr static std::size_t addrs = 0x3e3f25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "ReadToEnd",
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TermInfoDriver::*)(bool)>(&::System::TermInfoDriver::ReadUntilConditionInternal)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3e3f3e8;
+  constexpr static std::size_t addrs = 0x3e3f080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(int32_t, int32_t)>(&::System::TermInfoDriver::SetCursorPosition)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3e3ddc4;
+  constexpr static std::size_t addrs = 0x3e3da5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::CreateKeyMap)> {
   constexpr static std::size_t size = 0x1e98;
-  constexpr static std::size_t addrs = 0x3e3f730;
+  constexpr static std::size_t addrs = 0x3e3f3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "CreateKeyMap",
@@ -441,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)()>(&::System::TermInfoDriver::InitKeys)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3e3ed70;
+  constexpr static std::size_t addrs = 0x3e3ea08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::TermInfoDriver*>::get(), "InitKeys",
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoDriver::*)(::System::TermInfoStrings)>(&::System::TermInfoDriver::AddStringMapping)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e41638;
+  constexpr static std::size_t addrs = 0x3e412d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

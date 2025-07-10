@@ -26,7 +26,7 @@ namespace System::Globalization {
 struct CORDL_TYPE DaylightTimeStruct {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3d932fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d92f94, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
   // Ctor Parameters []

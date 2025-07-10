@@ -70,22 +70,22 @@ public:
   /// @brief Method CanResetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method CreateInstance, addr 0x44567b4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x445644c, size 0x20c, virtual false, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method Equals, addr 0x44569c0, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4456658, size 0x200, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x4456bc0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x4456858, size 0x14, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method GetHashCode, addr 0x4456bd4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x445686c, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x4456c28, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x44568c0, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetTypeFromName, addr 0x44565b8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromName, addr 0x4456250, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeFromName(::StringW typeName);
 
   /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -95,7 +95,7 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method OnValueChanged, addr 0x4456d10, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x44569a8, size 0xb0, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
   /// @brief Method ResetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -137,16 +137,16 @@ public:
 
   constexpr void __cordl_internal_set__valueChangedHandlers(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x4453aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4453784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x445635c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4455ff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   /// @brief Method get_ComponentType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_Converter, addr 0x4456364, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method get_Converter, addr 0x4455ffc, size 0x254, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* get_Converter();
 
   /// @brief Method get_IsReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

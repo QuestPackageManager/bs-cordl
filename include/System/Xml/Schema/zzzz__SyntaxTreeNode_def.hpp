@@ -43,13 +43,13 @@ public:
 
   static inline ::System::Xml::Schema::SyntaxTreeNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x439bed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439bb6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_IsNullable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsRangeNode, addr 0x439becc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsRangeNode, addr 0x439bb64, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsRangeNode();
 
 protected:

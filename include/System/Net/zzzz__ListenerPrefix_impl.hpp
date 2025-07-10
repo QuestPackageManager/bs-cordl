@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerPrefix::*)(::StringW)>(&::System::Net::ListenerPrefix::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43d14e0;
+  constexpr static std::size_t addrs = 0x43d1178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d17f8;
+  constexpr static std::size_t addrs = 0x43d1490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Secure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d1800;
+  constexpr static std::size_t addrs = 0x43d1498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(), "get_Secure",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Host)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d1808;
+  constexpr static std::size_t addrs = 0x43d14a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(), "get_Host",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Port)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d1810;
+  constexpr static std::size_t addrs = 0x43d14a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(), "get_Port",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::get_Path)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d1818;
+  constexpr static std::size_t addrs = 0x43d14b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerPrefix*>::get(), "get_Path",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerPrefix::*)(::System::Object*)>(&::System::Net::ListenerPrefix::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43d1820;
+  constexpr static std::size_t addrs = 0x43d14b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ListenerPrefix::*)()>(&::System::Net::ListenerPrefix::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x43d18a0;
+  constexpr static std::size_t addrs = 0x43d1538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerPrefix::*)(::StringW)>(&::System::Net::ListenerPrefix::Parse)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x43d1510;
+  constexpr static std::size_t addrs = 0x43d11a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::ListenerPrefix::CheckUri)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x43d18c0;
+  constexpr static std::size_t addrs = 0x43d1558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

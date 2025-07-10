@@ -92,25 +92,25 @@ public:
   /// @brief Field s_months, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_months, put = setStaticF_s_months)) ::ArrayW<::StringW, ::Array<::StringW>*> s_months;
 
-  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x4402f64, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x4402bfc, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInAtoms();
 
-  /// @brief Method CreateCharactersAllowedInComments, addr 0x4403570, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInComments, addr 0x4403208, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInComments();
 
-  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x440328c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x4402f24, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInDomainLiterals();
 
-  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x44033cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x4403064, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInHeaderNames();
 
-  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x440314c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x4402de4, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInQuotedStrings();
 
-  /// @brief Method CreateCharactersAllowedInTokens, addr 0x4403474, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInTokens, addr 0x440310c, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInTokens();
 
-  /// @brief Method IsAllowedWhiteSpace, addr 0x44036e4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedWhiteSpace, addr 0x440337c, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsAllowedWhiteSpace(char16_t c);
 
   static inline int32_t getStaticF_Ascii7bitMaxValue();

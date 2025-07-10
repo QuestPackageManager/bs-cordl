@@ -33,34 +33,34 @@ public:
 
   __declspec(property(get = get_useAcceleration, put = set_useAcceleration)) bool useAcceleration;
 
-  /// @brief Method get_maximumForce, addr 0x48f5788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maximumForce, addr 0x48f5420, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maximumForce();
 
-  /// @brief Method get_mode, addr 0x48f57b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x48f544c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDriveMode get_mode();
 
-  /// @brief Method get_positionDamper, addr 0x48f5778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionDamper, addr 0x48f5410, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionDamper();
 
-  /// @brief Method get_positionSpring, addr 0x48f5768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionSpring, addr 0x48f5400, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionSpring();
 
-  /// @brief Method get_useAcceleration, addr 0x48f5798, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration, addr 0x48f5430, size 0x10, virtual false, abstract: false, final false
   inline bool get_useAcceleration();
 
-  /// @brief Method set_maximumForce, addr 0x48f5790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maximumForce, addr 0x48f5428, size 0x8, virtual false, abstract: false, final false
   inline void set_maximumForce(float_t value);
 
-  /// @brief Method set_mode, addr 0x48f57bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x48f5454, size 0x4, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::JointDriveMode value);
 
-  /// @brief Method set_positionDamper, addr 0x48f5780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionDamper, addr 0x48f5418, size 0x8, virtual false, abstract: false, final false
   inline void set_positionDamper(float_t value);
 
-  /// @brief Method set_positionSpring, addr 0x48f5770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionSpring, addr 0x48f5408, size 0x8, virtual false, abstract: false, final false
   inline void set_positionSpring(float_t value);
 
-  /// @brief Method set_useAcceleration, addr 0x48f57a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration, addr 0x48f5440, size 0xc, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);
 
   // Ctor Parameters []

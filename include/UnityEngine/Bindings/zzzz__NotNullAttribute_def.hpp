@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__Exception_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4919430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49190c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW exception);
 
-  /// @brief Method set_Exception, addr 0x4919428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Exception, addr 0x49190c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::StringW value);
 
 protected:

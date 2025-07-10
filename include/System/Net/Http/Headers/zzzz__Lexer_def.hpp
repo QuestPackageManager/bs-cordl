@@ -50,57 +50,57 @@ public:
   /// @brief Field token_chars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_token_chars, put = setStaticF_token_chars)) ::ArrayW<bool, ::Array<bool>*> token_chars;
 
-  /// @brief Method EatChar, addr 0x421f7e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method EatChar, addr 0x421f478, size 0x10, virtual false, abstract: false, final false
   inline void EatChar();
 
-  /// @brief Method GetQuotedStringValue, addr 0x421d294, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetQuotedStringValue, addr 0x421cf2c, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start);
 
-  /// @brief Method GetRemainingStringValue, addr 0x421b928, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetRemainingStringValue, addr 0x421b5c0, size 0x34, virtual false, abstract: false, final false
   inline ::StringW GetRemainingStringValue(int32_t position);
 
-  /// @brief Method GetStringValue, addr 0x4223204, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringValue, addr 0x4222e9c, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end);
 
-  /// @brief Method GetStringValue, addr 0x421b8ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringValue, addr 0x421b544, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetStringValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method IsStarStringValue, addr 0x421efac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsStarStringValue, addr 0x421ec44, size 0xac, virtual false, abstract: false, final false
   inline bool IsStarStringValue(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method IsValidCharacter, addr 0x4223644, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IsValidCharacter, addr 0x42232dc, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsValidCharacter(char16_t input);
 
-  /// @brief Method IsValidToken, addr 0x422358c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidToken, addr 0x4223224, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidToken(::StringW input);
 
   static inline ::System::Net::Http::Headers::Lexer* New_ctor(::StringW stream);
 
-  /// @brief Method PeekChar, addr 0x421f7a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method PeekChar, addr 0x421f438, size 0x40, virtual false, abstract: false, final false
   inline int32_t PeekChar();
 
-  /// @brief Method Scan, addr 0x421b59c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x421b234, size 0x310, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::Token Scan(bool recognizeDash);
 
-  /// @brief Method ScanCommentOptional, addr 0x42236f4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ScanCommentOptional, addr 0x422338c, size 0x160, virtual false, abstract: false, final false
   inline bool ScanCommentOptional(::ByRef<::StringW> value, ::ByRef<::System::Net::Http::Headers::Token> readToken);
 
-  /// @brief Method TryGetDateValue, addr 0x4223410, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method TryGetDateValue, addr 0x42230a8, size 0xdc, virtual false, abstract: false, final false
   static inline bool TryGetDateValue(::StringW text, ::ByRef<::System::DateTimeOffset> value);
 
-  /// @brief Method TryGetDateValue, addr 0x4223320, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method TryGetDateValue, addr 0x4222fb8, size 0xf0, virtual false, abstract: false, final false
   inline bool TryGetDateValue(::System::Net::Http::Headers::Token token, ::ByRef<::System::DateTimeOffset> value);
 
-  /// @brief Method TryGetDoubleValue, addr 0x42234ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetDoubleValue, addr 0x4223184, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ::ByRef<double_t> value);
 
-  /// @brief Method TryGetNumericValue, addr 0x4223280, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetNumericValue, addr 0x4222f18, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ::ByRef<int32_t> value);
 
-  /// @brief Method TryGetNumericValue, addr 0x421f058, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method TryGetNumericValue, addr 0x421ecf0, size 0xa0, virtual false, abstract: false, final false
   inline bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ::ByRef<int64_t> value);
 
-  /// @brief Method TryGetTimeSpanValue, addr 0x421d1cc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryGetTimeSpanValue, addr 0x421ce64, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token);
 
   constexpr int32_t const& __cordl_internal_get_pos() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_s(::StringW value);
 
-  /// @brief Method .ctor, addr 0x421b354, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421afec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW stream);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_dt_formats();
@@ -124,7 +124,7 @@ public:
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_token_chars();
 
-  /// @brief Method get_Position, addr 0x42231f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4222e8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Position();
 
   static inline void setStaticF_dt_formats(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -133,7 +133,7 @@ public:
 
   static inline void setStaticF_token_chars(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method set_Position, addr 0x42231fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Position, addr 0x4222e94, size 0x8, virtual false, abstract: false, final false
   inline void set_Position(int32_t value);
 
 protected:

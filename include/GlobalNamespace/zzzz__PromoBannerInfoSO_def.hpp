@@ -58,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d4398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bannerImage, addr 0x26d4380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerImage, addr 0x26d3fcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
 
-  /// @brief Method get_bannerPromoText, addr 0x26d4388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoText, addr 0x26d3fd4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bannerPromoText();
 
-  /// @brief Method get_bannerPromoTextPosition, addr 0x26d4390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoTextPosition, addr 0x26d3fdc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bannerPromoTextPosition();
 
 protected:

@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_oneSaberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x3bebbcc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3beb864, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
 protected:
@@ -126,22 +126,22 @@ public:
 
   static inline ::GlobalNamespace::SaberManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3bebacc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3beb764, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3bebad0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3beb768, size 0x10, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshSabers, addr 0x3beb9a8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshSabers, addr 0x3beb640, size 0x124, virtual false, abstract: false, final false
   inline void RefreshSabers();
 
-  /// @brief Method SaberForType, addr 0x3bebb74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SaberForType, addr 0x3beb80c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> SaberForType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method Start, addr 0x3beb98c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3beb624, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3bebae0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3beb778, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::SaberManager_InitData* const& __cordl_internal_get__initData() const;
@@ -174,22 +174,22 @@ public:
 
   constexpr void __cordl_internal_set_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method .ctor, addr 0x3bebbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3beb85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x3be9fe0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x3be9c78, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method get_leftSaber, addr 0x3beb96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftSaber, addr 0x3beb604, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_leftSaber();
 
-  /// @brief Method get_rightSaber, addr 0x3beb974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightSaber, addr 0x3beb60c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
-  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x3bea11c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x3be9db4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
-  /// @brief Method set_disableSabers, addr 0x3beb97c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_disableSabers, addr 0x3beb614, size 0x10, virtual false, abstract: false, final false
   inline void set_disableSabers(bool value);
 
 protected:

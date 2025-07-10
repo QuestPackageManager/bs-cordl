@@ -54,10 +54,10 @@ public:
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_RProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49165e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916278, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916700, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4916398, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -94,10 +94,10 @@ public:
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_GProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916628, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49162c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916740, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x49163d8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -134,10 +134,10 @@ public:
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_BProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916670, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916308, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916780, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4916418, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -174,10 +174,10 @@ public:
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag_AProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49166b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916350, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49167c0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4916458, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -220,7 +220,7 @@ public:
 
   static inline ::Unity::Properties::Internal::ColorPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49158e8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4915580, size 0x160, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

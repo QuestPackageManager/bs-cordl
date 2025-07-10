@@ -25,27 +25,27 @@ public:
   /// @brief Field <IsUIEPackageLoaded>k__BackingField, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__IsUIEPackageLoaded_k__BackingField, put = setStaticF__IsUIEPackageLoaded_k__BackingField)) bool _IsUIEPackageLoaded_k__BackingField;
 
-  /// @brief Method Refresh, addr 0x4a9ba74, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x4a9b70c, size 0xd8, virtual false, abstract: false, final false
   static inline void Refresh();
 
   static inline ::StringW getStaticF__EditorResourcesBasePath_k__BackingField();
 
   static inline bool getStaticF__IsUIEPackageLoaded_k__BackingField();
 
-  /// @brief Method get_EditorResourcesBasePath, addr 0x4a9b9bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_EditorResourcesBasePath, addr 0x4a9b654, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW get_EditorResourcesBasePath();
 
-  /// @brief Method get_IsUIEPackageLoaded, addr 0x4a9b904, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IsUIEPackageLoaded, addr 0x4a9b59c, size 0x58, virtual false, abstract: false, final false
   static inline bool get_IsUIEPackageLoaded();
 
   static inline void setStaticF__EditorResourcesBasePath_k__BackingField(::StringW value);
 
   static inline void setStaticF__IsUIEPackageLoaded_k__BackingField(bool value);
 
-  /// @brief Method set_EditorResourcesBasePath, addr 0x4a9ba14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_EditorResourcesBasePath, addr 0x4a9b6ac, size 0x5c, virtual false, abstract: false, final false
   static inline void set_EditorResourcesBasePath(::StringW value);
 
-  /// @brief Method set_IsUIEPackageLoaded, addr 0x4a9b95c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_IsUIEPackageLoaded, addr 0x4a9b5f4, size 0x60, virtual false, abstract: false, final false
   static inline void set_IsUIEPackageLoaded(bool value);
 
 protected:

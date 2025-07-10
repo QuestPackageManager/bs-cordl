@@ -22,10 +22,10 @@ namespace UnityEngine::_Scripting::APIUpdating {
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x48bd288, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x48bcf20, size 0x13c, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::ByRef<::StringW> assembly, ::ByRef<::StringW> nsp, ::ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x48bd3c4, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x48bd05c, size 0x2b8, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> nsp, ::ByRef<::StringW> className);
 
 protected:

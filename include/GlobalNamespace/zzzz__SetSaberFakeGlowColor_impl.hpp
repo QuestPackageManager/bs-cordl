@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberFakeGlowColor::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::SetSaberFakeGlowColor::set_saberType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bec064;
+  constexpr static std::size_t addrs = 0x3bebcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberFakeGlowColor::*)()>(&::GlobalNamespace::SetSaberFakeGlowColor::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3bec4d4;
+  constexpr static std::size_t addrs = 0x3bec16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberFakeGlowColor*>::get(), "Start",
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberFakeGlowColor::*)()>(&::GlobalNamespace::SetSaberFakeGlowColor::SetColors)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3bec478;
+  constexpr static std::size_t addrs = 0x3bec110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberFakeGlowColor*>::get(), "SetColors",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberFakeGlowColor::*)()>(&::GlobalNamespace::SetSaberFakeGlowColor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bec564;
+  constexpr static std::size_t addrs = 0x3bec1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberFakeGlowColor*>::get(), ".ctor",

@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* (
     ::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::get_controlPoints)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x471d3ec;
+  constexpr static std::size_t addrs = 0x471d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*)>(
     &::UnityEngine::ProBuilder::PolyShape::SetControlPoints)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x471d468;
+  constexpr static std::size_t addrs = 0x471d100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::get_extrude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d4c4;
+  constexpr static std::size_t addrs = 0x471d15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_extrude",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(float_t)>(&::UnityEngine::ProBuilder::PolyShape::set_extrude)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d4cc;
+  constexpr static std::size_t addrs = 0x471d164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::PolyShape_PolyEditMode (::UnityEngine::ProBuilder::PolyShape::*)()>(
     &::UnityEngine::ProBuilder::PolyShape::get_polyEditMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d4d4;
+  constexpr static std::size_t addrs = 0x471d16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_polyEditMode",
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::UnityEngine::ProBuilder::PolyShape_PolyEditMode)>(
     &::UnityEngine::ProBuilder::PolyShape::set_polyEditMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d4dc;
+  constexpr static std::size_t addrs = 0x471d174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::get_flipNormals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d4e4;
+  constexpr static std::size_t addrs = 0x471d17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_flipNormals",
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(bool)>(&::UnityEngine::ProBuilder::PolyShape::set_flipNormals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x471d4ec;
+  constexpr static std::size_t addrs = 0x471d184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::PolyShape::*)()>(
     &::UnityEngine::ProBuilder::PolyShape::get_mesh)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x471d4f8;
+  constexpr static std::size_t addrs = 0x471d190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "get_mesh",
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::PolyShape::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d58c;
+  constexpr static std::size_t addrs = 0x471d224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::IsSnapEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471d594;
+  constexpr static std::size_t addrs = 0x471d22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), "IsSnapEnabled",
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PolyShape::*)()>(&::UnityEngine::ProBuilder::PolyShape::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x471d59c;
+  constexpr static std::size_t addrs = 0x471d234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PolyShape*>::get(), ".ctor",

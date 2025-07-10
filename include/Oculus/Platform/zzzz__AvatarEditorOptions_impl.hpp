@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AvatarEditorOptions::*)()>(&::Oculus::Platform::AvatarEditorOptions::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3f5c50c;
+  constexpr static std::size_t addrs = 0x3f5c1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AvatarEditorOptions*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AvatarEditorOptions::*)(::StringW)>(
     &::Oculus::Platform::AvatarEditorOptions::SetSourceOverride)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5c5d8;
+  constexpr static std::size_t addrs = 0x3f5c270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Oculus::Platform::AvatarEditorOptions*)>(
     &::Oculus::Platform::AvatarEditorOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f5c6e0;
+  constexpr static std::size_t addrs = 0x3f5c378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AvatarEditorOptions::*)()>(&::Oculus::Platform::AvatarEditorOptions::Finalize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3f5c6ec;
+  constexpr static std::size_t addrs = 0x3f5c384;
 
   inline static ::MethodInfo const* methodInfo() {
 

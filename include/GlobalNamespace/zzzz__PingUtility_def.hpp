@@ -62,10 +62,10 @@ public:
 
   static inline ::GlobalNamespace::PingUtility___c* New_ctor();
 
-  /// @brief Method <PingAsync>b__0_0, addr 0x22e198c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <PingAsync>b__0_0, addr 0x22e1a1c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Ping* _PingAsync_b__0_0(::System::Net::IPAddress* ip);
 
-  /// @brief Method .ctor, addr 0x22e1984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e1a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PingUtility___c* getStaticF___9();
@@ -110,10 +110,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22e1a08, size 0x590, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e1a98, size 0x590, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22e1f98, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22e2028, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -202,7 +202,7 @@ public:
 
   using __c = ::GlobalNamespace::PingUtility___c;
 
-  /// @brief Method PingAsync, addr 0x22e1830, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method PingAsync, addr 0x22e18c0, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
 
 protected:

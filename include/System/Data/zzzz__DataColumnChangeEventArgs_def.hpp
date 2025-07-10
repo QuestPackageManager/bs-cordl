@@ -38,7 +38,7 @@ public:
   /// @brief Field _column, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__column, put = __cordl_internal_set__column)) ::System::Data::DataColumn* _column;
 
-  /// @brief Method InitializeColumnChangeEvent, addr 0x4159758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitializeColumnChangeEvent, addr 0x41593f0, size 0xc, virtual false, abstract: false, final false
   inline void InitializeColumnChangeEvent(::System::Data::DataColumn* column, ::System::Object* value);
 
   static inline ::System::Data::DataColumnChangeEventArgs* New_ctor(::System::Data::DataRow* row);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set__column(::System::Data::DataColumn* value);
 
-  /// @brief Method .ctor, addr 0x415965c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41592f4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row);
 
-  /// @brief Method .ctor, addr 0x41596c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4159360, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataColumn* column, ::System::Object* value);
 
-  /// @brief Method get_ProposedValue, addr 0x4159748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProposedValue, addr 0x41593e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ProposedValue();
 
-  /// @brief Method set_ProposedValue, addr 0x4159750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProposedValue, addr 0x41593e8, size 0x8, virtual false, abstract: false, final false
   inline void set_ProposedValue(::System::Object* value);
 
 protected:

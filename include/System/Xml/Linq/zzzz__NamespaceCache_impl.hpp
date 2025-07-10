@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (::System::Xml::Linq::NamespaceCache::*)(::StringW)>(
     &::System::Xml::Linq::NamespaceCache::Get)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x424a130;
+  constexpr static std::size_t addrs = 0x4249dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

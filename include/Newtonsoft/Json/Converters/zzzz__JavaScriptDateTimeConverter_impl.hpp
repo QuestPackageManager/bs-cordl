@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::WriteJson)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3f40264;
+  constexpr static std::size_t addrs = 0x3f3fefc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::ReadJson)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x3f40448;
+  constexpr static std::size_t addrs = 0x3f400e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::*)()>(
     &::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f40788;
+  constexpr static std::size_t addrs = 0x3f40420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

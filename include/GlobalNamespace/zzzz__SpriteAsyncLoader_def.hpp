@@ -68,10 +68,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c25210, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c24ea8, size 0x288, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c25498, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c25130, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -136,10 +136,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c254a4, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2513c, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c258d8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c25570, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -227,29 +227,29 @@ public:
                       put = __cordl_internal_set__referenceCountingCache)) ::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*
       _referenceCountingCache;
 
-  /// @brief Method ClearCache, addr 0x3c24d58, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x3c249f0, size 0x360, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method DestroySprite, addr 0x3c25160, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DestroySprite, addr 0x3c24df8, size 0xb0, virtual false, abstract: false, final false
   static inline void DestroySprite(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method DestroySpriteTask, addr 0x3c250b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DestroySpriteTask, addr 0x3c24d50, size 0x98, virtual false, abstract: false, final false
   inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask);
 
-  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x3c25150, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x3c24de8, size 0x10, virtual false, abstract: false, final false
   inline void HandleItemWillBeRemovedFromCache(::StringW path, ::StringW _);
 
-  /// @brief Method LoadSpriteAsync, addr 0x3c24b38, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x3c247d0, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path);
 
   static inline ::GlobalNamespace::SpriteAsyncLoader*
   New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
            ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 
-  /// @brief Method UnloadSprite, addr 0x3c24cb4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UnloadSprite, addr 0x3c2494c, size 0xa4, virtual false, abstract: false, final false
   inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path);
 
-  /// @brief Method UnloadSprite, addr 0x3c24ca4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UnloadSprite, addr 0x3c2493c, size 0x10, virtual false, abstract: false, final false
   inline void UnloadSprite(::StringW path);
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* const& __cordl_internal_get__destroyFunc() const;
@@ -276,7 +276,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCountingCache(::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* value);
 
-  /// @brief Method .ctor, addr 0x3c249e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c24678, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
                     ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
 

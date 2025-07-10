@@ -138,13 +138,13 @@ public:
 
   static inline ::System::Net::CookieCollection_CookieCollectionEnumerator* New_ctor(::System::Net::CookieCollection* cookies);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x44b0cd0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x44b0968, size 0x9c, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x44b0d6c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x44b0a04, size 0xc, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x44b0c2c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x44b08c4, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Net::CookieCollection* const& __cordl_internal_get_m_cookies() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_m_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44b0bd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b0868, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::CookieCollection* cookies);
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -262,30 +262,30 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x44afe08, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x44afaa0, size 0xc0, virtual false, abstract: false, final false
   inline void Add(::System::Net::Cookie* cookie);
 
-  /// @brief Method Add, addr 0x44b0278, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x44aff10, size 0x2fc, virtual false, abstract: false, final false
   inline void Add(::System::Net::CookieCollection* cookies);
 
-  /// @brief Method CopyTo, addr 0x44b05fc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x44b0294, size 0x24, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x44b0574, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x44b020c, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x44afec8, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x44afb60, size 0x3b0, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Net::Cookie* cookie);
 
-  /// @brief Method InternalAdd, addr 0x44b06f8, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method InternalAdd, addr 0x44b0390, size 0x4b4, virtual false, abstract: false, final false
   inline int32_t InternalAdd(::System::Net::Cookie* cookie, bool isStrict);
 
   static inline ::System::Net::CookieCollection* New_ctor();
 
-  /// @brief Method RemoveAt, addr 0x44b0bac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x44b0844, size 0x24, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t idx);
 
-  /// @brief Method TimeStamp, addr 0x44b0620, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TimeStamp, addr 0x44b02b8, size 0xd0, virtual false, abstract: false, final false
   inline ::System::DateTime TimeStamp(::System::Net::CookieCollection_Stamp how);
 
   constexpr bool const& __cordl_internal_get_m_IsReadOnly() const;
@@ -318,22 +318,22 @@ public:
 
   constexpr void __cordl_internal_set_m_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44afc78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44af910, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x44b05cc, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x44b0264, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsOtherVersionSeen, addr 0x44b06f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsOtherVersionSeen, addr 0x44b0388, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsOtherVersionSeen();
 
-  /// @brief Method get_IsSynchronized, addr 0x44b05f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x44b0288, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x44afd20, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x44af9b8, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Net::Cookie* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x44b05f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x44b0290, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

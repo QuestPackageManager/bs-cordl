@@ -33,34 +33,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>*();
 
-  /// @brief Method Equals, addr 0x4acc57c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4acc214, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::SpriteState other);
 
-  /// @brief Method get_disabledSprite, addr 0x4acc56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x4acc204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x4acc53c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x4acc1d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x4acc54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x4acc1e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x4acc55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x4acc1f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UI::SpriteState>* i___System__IEquatable_1___UnityEngine__UI__SpriteState_();
 
-  /// @brief Method set_disabledSprite, addr 0x4acc574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledSprite, addr 0x4acc20c, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_highlightedSprite, addr 0x4acc544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedSprite, addr 0x4acc1dc, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_pressedSprite, addr 0x4acc554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedSprite, addr 0x4acc1ec, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_selectedSprite, addr 0x4acc564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedSprite, addr 0x4acc1fc, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedSprite(::UnityEngine::Sprite* value);
 
   // Ctor Parameters []

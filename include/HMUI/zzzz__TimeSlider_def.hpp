@@ -105,15 +105,15 @@ public:
   /// @brief Field _valuesValid, offset 0x174, size 0x1
   __declspec(property(get = __cordl_internal_get__valuesValid, put = __cordl_internal_set__valuesValid)) bool _valuesValid;
 
-  /// @brief Method FormatTimeSpan, addr 0x39f30b0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FormatTimeSpan, addr 0x39f2d3c, size 0x154, virtual false, abstract: false, final false
   static inline ::StringW FormatTimeSpan(::System::TimeSpan ts);
 
   static inline ::HMUI::TimeSlider* New_ctor();
 
-  /// @brief Method SetBounds, addr 0x39f2e4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetBounds, addr 0x39f2ad8, size 0x14, virtual false, abstract: false, final false
   inline void SetBounds(bool valuesValid, float_t lowerValue, float_t upperValue);
 
-  /// @brief Method TextForValue, addr 0x39f2e60, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x39f2aec, size 0x250, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr float_t const& __cordl_internal_get__lowerValue() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__valuesValid(bool value);
 
-  /// @brief Method .ctor, addr 0x39f3204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f2e90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -43,7 +43,7 @@ public:
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest)) ::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
-  /// @brief Method Complete, addr 0x4791894, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x479152c, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x479186c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4791504, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_IsDone, addr 0x479183c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x47914d4, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
-  /// @brief Method get_WebRequest, addr 0x479185c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequest, addr 0x47914f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_WebRequest();
 
-  /// @brief Method set_WebRequest, addr 0x4791864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequest, addr 0x47914fc, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:

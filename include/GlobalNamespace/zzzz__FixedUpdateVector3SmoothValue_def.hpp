@@ -23,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x39bf1f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x39bee80, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t);
 
   static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
 
-  /// @brief Method .ctor, addr 0x39bf19c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bee28, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t smooth);
 
 protected:

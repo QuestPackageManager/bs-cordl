@@ -33,16 +33,16 @@ public:
 
   __declspec(property(put = set_transform)) ::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method get_mesh, addr 0x48912ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x4890f84, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x4891328, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x4890fc0, size 0x90, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_subMeshIndex, addr 0x48913b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshIndex, addr 0x4891050, size 0x8, virtual false, abstract: false, final false
   inline void set_subMeshIndex(int32_t value);
 
-  /// @brief Method set_transform, addr 0x48913c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x4891058, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []

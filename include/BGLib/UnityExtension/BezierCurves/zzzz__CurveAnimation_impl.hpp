@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b85cc;
+  constexpr static std::size_t addrs = 0x22b865c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::*)(int32_t)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22b84b4;
+  constexpr static std::size_t addrs = 0x22b8544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b85d4;
+  constexpr static std::size_t addrs = 0x22b8664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x22b85d8;
+  constexpr static std::size_t addrs = 0x22b8668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b873c;
+  constexpr static std::size_t addrs = 0x22b87cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x22b8744;
+  constexpr static std::size_t addrs = 0x22b87d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b877c;
+  constexpr static std::size_t addrs = 0x22b880c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::get_isPlaying)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b83e4;
+  constexpr static std::size_t addrs = 0x22b8474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>::get(),
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(bool)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::set_isPlaying)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22b83ec;
+  constexpr static std::size_t addrs = 0x22b847c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::Awake)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22b83f8;
+  constexpr static std::size_t addrs = 0x22b8488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>::get(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(bool)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::StartAnimation)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22b840c;
+  constexpr static std::size_t addrs = 0x22b849c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(bool)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::Animate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22b8440;
+  constexpr static std::size_t addrs = 0x22b84d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)(float_t)>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::Animate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22b84dc;
+  constexpr static std::size_t addrs = 0x22b856c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::CurveAnimation::*)()>(
     &::BGLib::UnityExtension::BezierCurves::CurveAnimation::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22b8590;
+  constexpr static std::size_t addrs = 0x22b8620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::CurveAnimation*>::get(),

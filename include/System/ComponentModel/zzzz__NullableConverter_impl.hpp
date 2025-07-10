@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::NullableConverter::*)(::System::Type*)>(
     &::System::ComponentModel::NullableConverter::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x44558b0;
+  constexpr static std::size_t addrs = 0x4455548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::NullableConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44559d8;
+  constexpr static std::size_t addrs = 0x4455670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::NullableConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4455a9c;
+  constexpr static std::size_t addrs = 0x4455734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::NullableConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4455bd8;
+  constexpr static std::size_t addrs = 0x4455870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::NullableConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4455c9c;
+  constexpr static std::size_t addrs = 0x4455934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Collections::IDictionary*)>(
         &::System::ComponentModel::NullableConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4455e88;
+  constexpr static std::size_t addrs = 0x4455b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4455eac;
+  constexpr static std::size_t addrs = 0x4455b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::NullableConverter::GetProperties)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4455ed0;
+  constexpr static std::size_t addrs = 0x4455b68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4455ef4;
+  constexpr static std::size_t addrs = 0x4455b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::NullableConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x4455f18;
+  constexpr static std::size_t addrs = 0x4455bb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44562c0;
+  constexpr static std::size_t addrs = 0x4455f58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::NullableConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44562e8;
+  constexpr static std::size_t addrs = 0x4455f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::NullableConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::NullableConverter::IsValid)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4456310;
+  constexpr static std::size_t addrs = 0x4455fa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_NullableType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4456344;
+  constexpr static std::size_t addrs = 0x4455fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_UnderlyingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445634c;
+  constexpr static std::size_t addrs = 0x4455fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter* (::System::ComponentModel::NullableConverter::*)()>(
     &::System::ComponentModel::NullableConverter::get_UnderlyingTypeConverter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4456354;
+  constexpr static std::size_t addrs = 0x4455fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::NullableConverter*>::get(),

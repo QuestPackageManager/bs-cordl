@@ -162,30 +162,30 @@ public:
   __declspec(property(get = __cordl_internal_get__totalScore100MillionAchievement, put = __cordl_internal_set__totalScore100MillionAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
       _totalScore100MillionAchievement;
 
-  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x26a36a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x26a32f4, size 0xf8, virtual false, abstract: false, final false
   inline void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x26a3678, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x26a32c4, size 0x30, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x26a302c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x26a2c78, size 0x54, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   static inline ::GlobalNamespace::AchievementsEvaluationHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26a2e7c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26a2ac8, size 0x1b0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessLevelFinishData, addr 0x26a3080, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ProcessLevelFinishData, addr 0x26a2ccc, size 0x360, virtual false, abstract: false, final false
   inline void ProcessLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ProcessMissionFinishData, addr 0x26a37a0, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ProcessMissionFinishData, addr 0x26a33ec, size 0x400, virtual false, abstract: false, final false
   inline void ProcessMissionFinishData(::GlobalNamespace::IMissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x26a33e0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x26a302c, size 0x298, virtual false, abstract: false, final false
   inline void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Start, addr 0x26a2b9c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26a27e8, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsFullComboAchievement() const;
@@ -356,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScore100MillionAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  /// @brief Method .ctor, addr 0x26a3d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a396c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

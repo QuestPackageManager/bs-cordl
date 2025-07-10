@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::PlayerTransforms*, ::GlobalNamespace::BezierSplineEvaluator*, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x225f9f0;
+  constexpr static std::size_t addrs = 0x225fa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::GetCurrentPathPosition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x225fa68;
+  constexpr static std::size_t addrs = 0x225faf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*>::get(),

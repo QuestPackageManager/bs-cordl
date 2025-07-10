@@ -70,13 +70,13 @@ namespace ModestTree {
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray, addr 0x4af79b0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method CreateArray, addr 0x4af7648, size 0x258, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList, addr 0x4af7c08, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method CreateGenericList, addr 0x4af78a0, size 0x3a4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ToDebugString, addr 0x4af80dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x4af7d74, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -111,7 +111,7 @@ public:
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func);
 
-  /// @brief Method ToDebugString, addr 0x4af7fac, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x4af7c44, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
 protected:

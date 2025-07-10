@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ManifestBasedResourceGroveler::*)(
     ::System::Resources::ResourceManager_ResourceManagerMediator*)>(&::System::Resources::ManifestBasedResourceGroveler::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d1d2e0;
+  constexpr static std::size_t addrs = 0x3d1cf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Globalization::CultureInfo* (*)(::System::Reflection::Assembly*, ::ByRef<::System::Resources::UltimateResourceFallbackLocation>)>(
         &::System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3d1d308;
+  constexpr static std::size_t addrs = 0x3d1cfa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::Assembly*, ::ByRef<::StringW>, ::ByRef<int16_t>)>(
     &::System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d1d614;
+  constexpr static std::size_t addrs = 0x3d1d2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

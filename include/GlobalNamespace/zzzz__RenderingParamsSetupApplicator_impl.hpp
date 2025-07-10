@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)(::GlobalNamespace::SceneType, ::StringW)>(
     &::GlobalNamespace::RenderingParamsSetupApplicator::Apply)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b2eba0;
+  constexpr static std::size_t addrs = 0x3b2e82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)()>(
     &::GlobalNamespace::RenderingParamsSetupApplicator::ApplyMainSettings)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b2ebe8;
+  constexpr static std::size_t addrs = 0x3b2e874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RenderingParamsSetupApplicator*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)(::GlobalNamespace::SceneType, ::StringW)>(
     &::GlobalNamespace::RenderingParamsSetupApplicator::ApplyGraphicsSettings)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b2ebb8;
+  constexpr static std::size_t addrs = 0x3b2e844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RenderingParamsSetupApplicator::*)()>(
     &::GlobalNamespace::RenderingParamsSetupApplicator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2ed08;
+  constexpr static std::size_t addrs = 0x3b2e994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RenderingParamsSetupApplicator*>::get(),

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::AndroidApp::get_Context)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x484ae94;
+  constexpr static std::size_t addrs = 0x484ab2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidApp*>::get(), "get_Context",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::AndroidApp::get_Activity)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x484b124;
+  constexpr static std::size_t addrs = 0x484adbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidApp*>::get(), "get_Activity",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::Android::AndroidApp::AcquireContextAndActivity)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x484aee0;
+  constexpr static std::size_t addrs = 0x484ab78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidApp*>::get(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Android::AndroidApp::get_UnityPlayerRaw)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4839df0;
+  constexpr static std::size_t addrs = 0x4839a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidApp*>::get(), "get_UnityPlayerRaw",

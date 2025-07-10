@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (*)(::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(
         &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::CloneSelector)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x25eb4bc;
+  constexpr static std::size_t addrs = 0x25eb54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eb548;
+  constexpr static std::size_t addrs = 0x25eb5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25eb550;
+  constexpr static std::size_t addrs = 0x25eb5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509CertificatePair* (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_CertPair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eb5ac;
+  constexpr static std::size_t addrs = 0x25eb63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::X509CertificatePair*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_CertPair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eb5b4;
+  constexpr static std::size_t addrs = 0x25eb644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_ForwardSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eb59c;
+  constexpr static std::size_t addrs = 0x25eb62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_ForwardSelector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25eb5bc;
+  constexpr static std::size_t addrs = 0x25eb64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_ReverseSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eb5a4;
+  constexpr static std::size_t addrs = 0x25eb634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_ReverseSelector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25eb5d8;
+  constexpr static std::size_t addrs = 0x25eb668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(::System::Object*)>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::Match)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25eb5f4;
+  constexpr static std::size_t addrs = 0x25eb684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::Clone)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25eb71c;
+  constexpr static std::size_t addrs = 0x25eb7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -23,7 +23,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_AttributeInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3a48784, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a48410, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW ignored);
 
   // Ctor Parameters []

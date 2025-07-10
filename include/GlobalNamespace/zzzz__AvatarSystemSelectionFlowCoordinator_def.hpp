@@ -140,10 +140,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c04d6c, size 0x6d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c04a04, size 0x6d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c05444, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c050dc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -251,46 +251,46 @@ public:
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>,
                                                                                      ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* didFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x3c04c10, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x3c048a8, size 0x24, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x3c042d0, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c03f68, size 0x1f4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c044c4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c0415c, size 0x17c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3c04ad4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0x3c0476c, size 0x118, virtual false, abstract: false, final false
   inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem,
                                                          ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction finishAction);
 
-  /// @brief Method HandleSelectAvatarSystemViewControllerDidPressContinueButton, addr 0x3c04bec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidPressContinueButton, addr 0x3c04884, size 0x24, virtual false, abstract: false, final false
   inline void HandleSelectAvatarSystemViewControllerDidPressContinueButton();
 
-  /// @brief Method HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar, addr 0x3c04964, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar, addr 0x3c045fc, size 0x170, virtual false, abstract: false, final false
   inline void HandleSelectAvatarSystemViewControllerDidRequestCreationOfAvatar(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar, addr 0x3c047f4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar, addr 0x3c0448c, size 0x170, virtual false, abstract: false, final false
   inline void HandleSelectAvatarSystemViewControllerDidRequestEditOfAvatar(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred, addr 0x3c047f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred, addr 0x3c04488, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectAvatarSystemViewControllerDidSetAvatarSystemPreferred(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method Initialize, addr 0x3c04228, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c03ec0, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize(::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* avatarSystemsMetadata);
 
   static inline ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method SetAvatarSystemPreferred, addr 0x3c046c0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetAvatarSystemPreferred, addr 0x3c04358, size 0x130, virtual false, abstract: false, final false
   inline void SetAvatarSystemPreferred(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method Setup, addr 0x3c042c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3c03f5c, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool continueButtonVisible);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x3c04640, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x3c042d8, size 0x80, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method <Initialize>b__10_0, addr 0x3c04cb0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__10_0, addr 0x3c04948, size 0xbc, virtual false, abstract: false, final false
   inline bool _Initialize_b__10_0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* const&
@@ -341,13 +341,13 @@ public:
   constexpr void __cordl_internal_set_didFinishEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x3c04c34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c048cc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3c040c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3c03d60, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3c04178, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3c03e10, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::AvatarSystemSelectionFlowCoordinator>, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction>* value);
 
 protected:

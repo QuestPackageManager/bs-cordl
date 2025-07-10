@@ -33,21 +33,21 @@ public:
                       put = setStaticF_s_RuntimeTargetMapping)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>*
       s_RuntimeTargetMapping;
 
-  /// @brief Method GetAddressablesPlatformInternal, addr 0x44f6c18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x44f68b0, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x44f6cec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x44f6984, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatform, addr 0x44f6e0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x44f6aa4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
 
-  /// @brief Method GetPlatformPathSubFolder, addr 0x44ead90, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x44eaa28, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44f6e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f6b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();

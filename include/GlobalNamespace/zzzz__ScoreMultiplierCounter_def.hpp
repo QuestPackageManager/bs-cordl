@@ -104,10 +104,10 @@ public:
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method ProcessMultiplierEvent, addr 0x2700778, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProcessMultiplierEvent, addr 0x2700404, size 0x90, virtual false, abstract: false, final false
   inline bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType multiplierEventType);
 
-  /// @brief Method Reset, addr 0x2700760, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x27003ec, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__multiplier() const;
@@ -128,13 +128,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2700ccc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2700958, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplier, addr 0x2700d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x2700a20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress, addr 0x2700d9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedProgress, addr 0x2700a28, size 0x14, virtual false, abstract: false, final false
   inline float_t get_normalizedProgress();
 
 protected:

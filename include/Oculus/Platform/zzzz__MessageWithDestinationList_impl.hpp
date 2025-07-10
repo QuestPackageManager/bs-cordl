@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithDestinationList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithDestinationList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7c2ac;
+  constexpr static std::size_t addrs = 0x3f7bf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::MessageWithDestinationList::*)()>(
     &::Oculus::Platform::MessageWithDestinationList::GetDestinationList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7eaa4;
+  constexpr static std::size_t addrs = 0x3f7e73c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::MessageWithDestinationList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithDestinationList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7eae0;
+  constexpr static std::size_t addrs = 0x3f7e778;
 
   inline static ::MethodInfo const* methodInfo() {
 

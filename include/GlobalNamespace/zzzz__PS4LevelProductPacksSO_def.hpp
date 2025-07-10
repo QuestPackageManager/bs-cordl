@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::PS4LevelProductPacksSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26eb680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb2cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

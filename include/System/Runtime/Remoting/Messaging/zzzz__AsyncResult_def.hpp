@@ -123,34 +123,34 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3ce77c0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method AsyncProcessMessage, addr 0x3ce7458, size 0x38, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method EndInvoke, addr 0x3cd9160, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3cd8df8, size 0x110, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* EndInvoke();
 
-  /// @brief Method GetReplyMessage, addr 0x3ce77f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetReplyMessage, addr 0x3ce7490, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* GetReplyMessage();
 
-  /// @brief Method Invoke, addr 0x3ce79b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ce7650, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Runtime::Remoting::Messaging::AsyncResult* New_ctor();
 
-  /// @brief Method SetCompletedSynchronously, addr 0x3ce7808, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCompletedSynchronously, addr 0x3ce74a0, size 0xc, virtual false, abstract: false, final false
   inline void SetCompletedSynchronously(bool completed);
 
-  /// @brief Method SetMessageCtrl, addr 0x3ce7800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetMessageCtrl, addr 0x3ce7498, size 0x8, virtual true, abstract: false, final false
   inline void SetMessageCtrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* mc);
 
-  /// @brief Method SyncProcessMessage, addr 0x3ce7814, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method SyncProcessMessage, addr 0x3ce74ac, size 0x190, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3ce79b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3ce764c, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x3ce79bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x3ce7654, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   constexpr int64_t const& __cordl_internal_get_add_time() const;
@@ -249,31 +249,31 @@ public:
 
   constexpr void __cordl_internal_set_sync_completed(bool value);
 
-  /// @brief Method .ctor, addr 0x3ce7664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce72fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AsyncDelegate, addr 0x3ce77b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsyncDelegate, addr 0x3ce7448, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncDelegate();
 
-  /// @brief Method get_AsyncState, addr 0x3ce766c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsyncState, addr 0x3ce7304, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x3ce7674, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method get_AsyncWaitHandle, addr 0x3ce730c, size 0x118, virtual true, abstract: false, final false
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CallMessage, addr 0x3ce79a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CallMessage, addr 0x3ce763c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* get_CallMessage();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x3ce778c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CompletedSynchronously, addr 0x3ce7424, size 0x8, virtual true, abstract: false, final false
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_EndInvokeCalled, addr 0x3ce779c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndInvokeCalled, addr 0x3ce7434, size 0x8, virtual false, abstract: false, final false
   inline bool get_EndInvokeCalled();
 
-  /// @brief Method get_IsCompleted, addr 0x3ce7794, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3ce742c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_NextSink, addr 0x3ce77b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextSink, addr 0x3ce7450, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_NextSink();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -285,10 +285,10 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  /// @brief Method set_CallMessage, addr 0x3ce79ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CallMessage, addr 0x3ce7644, size 0x8, virtual false, abstract: false, final false
   inline void set_CallMessage(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
 
-  /// @brief Method set_EndInvokeCalled, addr 0x3ce77a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EndInvokeCalled, addr 0x3ce743c, size 0xc, virtual false, abstract: false, final false
   inline void set_EndInvokeCalled(bool value);
 
 protected:

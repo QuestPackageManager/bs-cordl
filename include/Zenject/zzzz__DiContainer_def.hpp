@@ -270,13 +270,13 @@ public:
 
   constexpr void __cordl_internal_set_Provider(::Zenject::IProvider* value);
 
-  /// @brief Method __zenCreate, addr 0x4b393a8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b39040, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b39554, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b391ec, size 0x418, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b39364, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b38ffc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* provider, ::Zenject::BindingCondition* condition, bool nonLazy, ::Zenject::DiContainer* container);
 
 protected:
@@ -356,35 +356,35 @@ public:
 
   static inline ::Zenject::DiContainer___c* New_ctor();
 
-  /// @brief Method <BindInternal>b__197_0, addr 0x4b39afc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <BindInternal>b__197_0, addr 0x4b39794, size 0x78, virtual false, abstract: false, final false
   inline bool _BindInternal_b__197_0(::System::Type* x);
 
-  /// @brief Method <Bind>b__198_0, addr 0x4b39b74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Bind>b__198_0, addr 0x4b3980c, size 0x78, virtual false, abstract: false, final false
   inline bool _Bind_b__198_0(::System::Type* x);
 
-  /// @brief Method <InjectExplicitInternal>b__102_0, addr 0x4b39aa4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <InjectExplicitInternal>b__102_0, addr 0x4b3973c, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _InjectExplicitInternal_b__102_0(::Zenject::TypeValuePair x);
 
-  /// @brief Method <InstantiateInternal>b__97_0, addr 0x4b39a4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <InstantiateInternal>b__97_0, addr 0x4b396e4, size 0x58, virtual false, abstract: false, final false
   inline ::StringW _InstantiateInternal_b__97_0(::Zenject::TypeValuePair x);
 
-  /// @brief Method <ResolveTypeAll>b__86_1, addr 0x4b399f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ResolveTypeAll>b__86_1, addr 0x4b39688, size 0x5c, virtual false, abstract: false, final false
   inline bool _ResolveTypeAll_b__86_1(::System::Type* x);
 
-  /// @brief Method __zenCreate, addr 0x4b39bec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b39884, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b39c40, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b398d8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b399c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b39660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_AllProviders>b__33_0, addr 0x4b399d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <get_AllProviders>b__33_0, addr 0x4b39668, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer_ProviderInfo*>*
   _get_AllProviders_b__33_0(::System::Collections::Generic::List_1<::Zenject::DiContainer_ProviderInfo*>* x);
 
-  /// @brief Method <get_AllProviders>b__33_1, addr 0x4b399d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllProviders>b__33_1, addr 0x4b39670, size 0x18, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _get_AllProviders_b__33_1(::Zenject::DiContainer_ProviderInfo* x);
 
   static inline ::Zenject::DiContainer___c* getStaticF___9();
@@ -465,7 +465,7 @@ public:
 
   static inline ::Zenject::DiContainer___c__DisplayClass178_0* New_ctor();
 
-  /// @brief Method <UnbindId>b__0, addr 0x4b39e00, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method <UnbindId>b__0, addr 0x4b39a98, size 0x13c, virtual false, abstract: false, final false
   inline bool _UnbindId_b__0(::Zenject::DiContainer_ProviderInfo* x);
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get___4__this() const;
@@ -492,7 +492,7 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x4b39df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b39a90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -600,7 +600,7 @@ public:
 
   static inline ::Zenject::DiContainer___c__DisplayClass86_0* New_ctor();
 
-  /// @brief Method <ResolveTypeAll>b__0, addr 0x4b39f44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <ResolveTypeAll>b__0, addr 0x4b39bdc, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Type* _ResolveTypeAll_b__0(::Zenject::DiContainer_ProviderInfo* x);
 
   constexpr ::Zenject::InjectContext* const& __cordl_internal_get_context() const;
@@ -609,7 +609,7 @@ public:
 
   constexpr void __cordl_internal_set_context(::Zenject::InjectContext* value);
 
-  /// @brief Method .ctor, addr 0x4b39f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b39bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -688,27 +688,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4b3a048, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4b39ce0, size 0x2fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::DiContainer__GetDependencyContracts_d__96* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4b3a610, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4b3a2a8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4b3a5c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4b3a260, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b3a6b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b3a34c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b3a5d0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b3a268, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b3a608, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b3a2a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4b3a02c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4b39cc4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -753,10 +753,10 @@ public:
 
   constexpr void __cordl_internal_set_contract(::System::Type* value);
 
-  /// @brief Method <>m__Finally1, addr 0x4b3a518, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4b3a1b0, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4b39ff8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b39c90, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
@@ -961,25 +961,25 @@ public:
   /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::Zenject::ConcreteIdBinderGeneric_1<TContract>* Bind(::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method Bind, addr 0x4b2518c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x4b24e24, size 0x8c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(::ArrayW<::System::Type*, ::Array<::System::Type*>*> contractTypes);
 
-  /// @brief Method Bind, addr 0x4b37b50, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x4b377e8, size 0x90, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(::System::Collections::Generic::IEnumerable_1<::System::Type*>* contractTypes);
 
-  /// @brief Method Bind, addr 0x4b37be0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x4b37878, size 0x234, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdBinderNonGeneric* Bind(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
 
   /// @brief Method BindDisposableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(int32_t order);
 
-  /// @brief Method BindDisposableExecutionOrder, addr 0x4b38ce0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BindDisposableExecutionOrder, addr 0x4b38978, size 0x118, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindDisposableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void BindExecutionOrder(int32_t order);
 
-  /// @brief Method BindExecutionOrder, addr 0x4b38740, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method BindExecutionOrder, addr 0x4b383d8, size 0x370, virtual false, abstract: false, final false
   inline void BindExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1077,7 +1077,7 @@ public:
   /// @brief Method BindFixedTickableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(int32_t order);
 
-  /// @brief Method BindFixedTickableExecutionOrder, addr 0x4b38f34, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method BindFixedTickableExecutionOrder, addr 0x4b38bcc, size 0x178, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindFixedTickableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindIFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1112,40 +1112,40 @@ public:
   /// @brief Method BindInitializableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(int32_t order);
 
-  /// @brief Method BindInitializableExecutionOrder, addr 0x4b38bc8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BindInitializableExecutionOrder, addr 0x4b38860, size 0x118, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindInitializableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder* BindInstance(TContract instance);
 
-  /// @brief Method BindInstances, addr 0x4b38190, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method BindInstances, addr 0x4b37e28, size 0x140, virtual false, abstract: false, final false
   inline void BindInstances(::ArrayW<::System::Object*, ::Array<::System::Object*>*> instances);
 
   /// @brief Method BindInterfacesAndSelfTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::FromBinderNonGeneric* BindInterfacesAndSelfTo();
 
-  /// @brief Method BindInterfacesAndSelfTo, addr 0x4b37fdc, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method BindInterfacesAndSelfTo, addr 0x4b37c74, size 0x1b4, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* BindInterfacesAndSelfTo(::System::Type* type);
 
   /// @brief Method BindInterfacesTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::FromBinderNonGeneric* BindInterfacesTo();
 
-  /// @brief Method BindInterfacesTo, addr 0x4b37e14, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method BindInterfacesTo, addr 0x4b37aac, size 0x1c8, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* BindInterfacesTo(::System::Type* type);
 
-  /// @brief Method BindInternal, addr 0x4b379d4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method BindInternal, addr 0x4b3766c, size 0x17c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdBinderNonGeneric* BindInternal(::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindingFinalizer);
 
   /// @brief Method BindLateDisposableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(int32_t order);
 
-  /// @brief Method BindLateDisposableExecutionOrder, addr 0x4b38df8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method BindLateDisposableExecutionOrder, addr 0x4b38a90, size 0x13c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindLateDisposableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindLateTickableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(int32_t order);
 
-  /// @brief Method BindLateTickableExecutionOrder, addr 0x4b390ac, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method BindLateTickableExecutionOrder, addr 0x4b38d44, size 0x178, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindLateTickableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1172,133 +1172,133 @@ public:
   /// @brief Method BindPoolableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(int32_t order);
 
-  /// @brief Method BindPoolableExecutionOrder, addr 0x4b39224, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method BindPoolableExecutionOrder, addr 0x4b38ebc, size 0x140, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindPoolableExecutionOrder(::System::Type* type, int32_t order);
 
   /// @brief Method BindTickableExecutionOrder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(int32_t order);
 
-  /// @brief Method BindTickableExecutionOrder, addr 0x4b38ab0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method BindTickableExecutionOrder, addr 0x4b38748, size 0x118, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* BindTickableExecutionOrder(::System::Type* type, int32_t order);
 
-  /// @brief Method CallInjectMethodsTopDown, addr 0x4b33f78, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method CallInjectMethodsTopDown, addr 0x4b33c10, size 0x5a8, virtual false, abstract: false, final false
   inline void CallInjectMethodsTopDown(::System::Object* injectable, ::System::Type* injectableType, ::Zenject::InjectTypeInfo* typeInfo,
                                        ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier,
                                        bool isDryRun);
 
-  /// @brief Method CheckForInstallWarning, addr 0x4b3125c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CheckForInstallWarning, addr 0x4b30ef4, size 0x30, virtual false, abstract: false, final false
   inline void CheckForInstallWarning(::Zenject::InjectContext* context);
 
-  /// @brief Method CreateAndParentPrefab, addr 0x4b34968, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method CreateAndParentPrefab, addr 0x4b34600, size 0x440, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateAndParentPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context,
                                                                    ::ByRef<bool> shouldMakeActive);
 
-  /// @brief Method CreateAndParentPrefabResource, addr 0x4b34834, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateAndParentPrefabResource, addr 0x4b344cc, size 0x134, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateAndParentPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context,
                                                                            ::ByRef<bool> shouldMakeActive);
 
-  /// @brief Method CreateEmptyGameObject, addr 0x4b3547c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyGameObject, addr 0x4b35114, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateEmptyGameObject(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
 
-  /// @brief Method CreateEmptyGameObject, addr 0x4b35404, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateEmptyGameObject, addr 0x4b3509c, size 0x78, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> CreateEmptyGameObject(::StringW name);
 
-  /// @brief Method CreateLazyBinding, addr 0x4b2e83c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method CreateLazyBinding, addr 0x4b2e4d4, size 0x254, virtual false, abstract: false, final false
   inline ::System::Object* CreateLazyBinding(::Zenject::InjectContext* context);
 
-  /// @brief Method CreateSubContainer, addr 0x4b25db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContainer, addr 0x4b25a50, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateSubContainer();
 
-  /// @brief Method CreateSubContainer, addr 0x4b2ffe0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CreateSubContainer, addr 0x4b2fc78, size 0xc8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateSubContainer(bool isValidating);
 
-  /// @brief Method CreateTransformGroup, addr 0x4b35608, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformGroup, addr 0x4b352a0, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateTransformGroup(::StringW groupName);
 
   /// @brief Method Decorate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* Decorate();
 
-  /// @brief Method FinalizeBinding, addr 0x4b2e3b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBinding, addr 0x4b2e050, size 0x7c, virtual false, abstract: false, final false
   inline void FinalizeBinding(::Zenject::BindStatement* binding);
 
-  /// @brief Method FlattenInheritanceChain, addr 0x4b2e0d8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method FlattenInheritanceChain, addr 0x4b2dd70, size 0x224, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Zenject::DiContainer*>* FlattenInheritanceChain();
 
-  /// @brief Method FlushBindings, addr 0x4b2dfa8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method FlushBindings, addr 0x4b2dc40, size 0x130, virtual false, abstract: false, final false
   inline void FlushBindings();
 
-  /// @brief Method FlushValidationQueue, addr 0x4b2f5a0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method FlushValidationQueue, addr 0x4b2f238, size 0x220, virtual false, abstract: false, final false
   inline void FlushValidationQueue();
 
-  /// @brief Method GetContainerHeirarchyDistance, addr 0x4b32bbc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetContainerHeirarchyDistance, addr 0x4b32854, size 0x150, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> GetContainerHeirarchyDistance(::Zenject::DiContainer* container, int32_t depth);
 
-  /// @brief Method GetContainerHeirarchyDistance, addr 0x4b309cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetContainerHeirarchyDistance, addr 0x4b30664, size 0x6c, virtual false, abstract: false, final false
   inline int32_t GetContainerHeirarchyDistance(::Zenject::DiContainer* container);
 
-  /// @brief Method GetDecoratedInstances, addr 0x4b329c8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetDecoratedInstances, addr 0x4b32660, size 0x114, virtual false, abstract: false, final false
   inline void GetDecoratedInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// @brief Method GetDependencyContracts, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetDependencyContracts();
 
-  /// @brief Method GetDependencyContracts, addr 0x4b32d0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDependencyContracts, addr 0x4b329a4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* GetDependencyContracts(::System::Type* contract);
 
-  /// @brief Method GetLocalProviders, addr 0x4b30a38, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetLocalProviders, addr 0x4b306d0, size 0x11c, virtual false, abstract: false, final false
   inline void GetLocalProviders(::Zenject::BindingId bindingId, ::System::Collections::Generic::List_1<::Zenject::DiContainer_ProviderInfo*>* buffer);
 
-  /// @brief Method GetPrefabAsGameObject, addr 0x4b34da8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetPrefabAsGameObject, addr 0x4b34a40, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetPrefabAsGameObject(::UnityEngine::Object* prefab);
 
-  /// @brief Method GetProviderMatches, addr 0x4b300a8, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetProviderMatches, addr 0x4b2fd40, size 0x280, virtual false, abstract: false, final false
   inline void GetProviderMatches(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::DiContainer_ProviderInfo*>* buffer);
 
-  /// @brief Method GetProvidersForContract, addr 0x4b30328, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetProvidersForContract, addr 0x4b2ffc0, size 0xd0, virtual false, abstract: false, final false
   inline void GetProvidersForContract(::Zenject::BindingId bindingId, ::Zenject::InjectSources sourceType, ::System::Collections::Generic::List_1<::Zenject::DiContainer_ProviderInfo*>* buffer);
 
-  /// @brief Method GetTransformGroup, addr 0x4b34ec4, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GetTransformGroup, addr 0x4b34b5c, size 0x540, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetTransformGroup(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
 
   /// @brief Method HasBinding, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline bool HasBinding();
 
-  /// @brief Method HasBinding, addr 0x4b376c8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method HasBinding, addr 0x4b37360, size 0x16c, virtual false, abstract: false, final false
   inline bool HasBinding(::Zenject::InjectContext* context);
 
-  /// @brief Method HasBinding, addr 0x4b374f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasBinding, addr 0x4b37188, size 0xc, virtual false, abstract: false, final false
   inline bool HasBinding(::System::Type* contractType);
 
-  /// @brief Method HasBindingId, addr 0x4b1ccc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasBindingId, addr 0x4b1c95c, size 0x8, virtual false, abstract: false, final false
   inline bool HasBindingId(::System::Type* contractType, ::System::Object* identifier);
 
-  /// @brief Method HasBindingId, addr 0x4b374fc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method HasBindingId, addr 0x4b37194, size 0x1cc, virtual false, abstract: false, final false
   inline bool HasBindingId(::System::Type* contractType, ::System::Object* identifier, ::Zenject::InjectSources sourceType);
 
   /// @brief Method HasBindingId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline bool HasBindingId(::System::Object* identifier);
 
-  /// @brief Method Inject, addr 0x4b2465c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x4b242f4, size 0x68, virtual false, abstract: false, final false
   inline void Inject(::System::Object* injectable);
 
-  /// @brief Method Inject, addr 0x4b36b1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x4b367b4, size 0x30, virtual false, abstract: false, final false
   inline void Inject(::System::Object* injectable, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InjectExplicit, addr 0x4b339f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InjectExplicit, addr 0x4b33690, size 0xf0, virtual false, abstract: false, final false
   inline void InjectExplicit(::System::Object* injectable, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method InjectExplicit, addr 0x4b33864, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method InjectExplicit, addr 0x4b334fc, size 0x194, virtual false, abstract: false, final false
   inline void InjectExplicit(::System::Object* injectable, ::System::Type* injectableType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
                              ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier);
 
-  /// @brief Method InjectExplicitInternal, addr 0x4b33ae8, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method InjectExplicitInternal, addr 0x4b33780, size 0x490, virtual false, abstract: false, final false
   inline void InjectExplicitInternal(::System::Object* injectable, ::System::Type* injectableType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
                                      ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier);
 
-  /// @brief Method InjectGameObject, addr 0x4b35c2c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InjectGameObject, addr 0x4b358c4, size 0x1b4, virtual false, abstract: false, final false
   inline void InjectGameObject(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method InjectGameObjectForComponent, addr 0x4b36684, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InjectGameObjectForComponent, addr 0x4b3631c, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Type* componentType,
                                                         ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
@@ -1308,12 +1308,12 @@ public:
   /// @brief Method InjectGameObjectForComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T InjectGameObjectForComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InjectGameObjectForComponentExplicit, addr 0x4b36730, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method InjectGameObjectForComponentExplicit, addr 0x4b363c8, size 0x3ec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> InjectGameObjectForComponentExplicit(::UnityEngine::GameObject* gameObject, ::System::Type* componentType,
                                                                                  ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context,
                                                                                  ::System::Object* concreteIdentifier);
 
-  /// @brief Method InjectMembersTopDown, addr 0x4b34520, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method InjectMembersTopDown, addr 0x4b341b8, size 0x314, virtual false, abstract: false, final false
   inline void InjectMembersTopDown(::System::Object* injectable, ::System::Type* injectableType, ::Zenject::InjectTypeInfo* typeInfo,
                                    ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier, bool isDryRun);
 
@@ -1323,13 +1323,13 @@ public:
   /// @brief Method Install, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline void Install(::ArrayW<::System::Object*, ::Array<::System::Object*>*> extraArgs);
 
-  /// @brief Method InstallDefaultBindings, addr 0x4b2dd80, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method InstallDefaultBindings, addr 0x4b2da18, size 0x228, virtual false, abstract: false, final false
   inline void InstallDefaultBindings();
 
-  /// @brief Method Instantiate, addr 0x4b245f8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x4b24290, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* Instantiate(::System::Type* concreteType);
 
-  /// @brief Method Instantiate, addr 0x4b356c8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x4b35360, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* Instantiate(::System::Type* concreteType, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -1338,10 +1338,10 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T Instantiate(::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InstantiateComponent, addr 0x4b35800, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method InstantiateComponent, addr 0x4b35498, size 0x70, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Component> InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method InstantiateComponent, addr 0x4b35870, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method InstantiateComponent, addr 0x4b35508, size 0x38, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Component> InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
                                                                  ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
@@ -1351,7 +1351,7 @@ public:
   /// @brief Method InstantiateComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TContract> inline TContract InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InstantiateComponentExplicit, addr 0x4b358a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateComponentExplicit, addr 0x4b35540, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> InstantiateComponentExplicit(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
                                                                          ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -1367,38 +1367,38 @@ public:
   /// @brief Method InstantiateComponentOnNewGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InstantiateExplicit, addr 0x4b382d0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InstantiateExplicit, addr 0x4b37f68, size 0x104, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateExplicit(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
                                                ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier);
 
-  /// @brief Method InstantiateExplicit, addr 0x4b35770, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InstantiateExplicit, addr 0x4b35408, size 0x90, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateExplicit(::System::Type* concreteType, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
   /// @brief Method InstantiateExplicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T InstantiateExplicit(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method InstantiateInternal, addr 0x4b32d84, size 0xae0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateInternal, addr 0x4b32a1c, size 0xae0, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateInternal(::System::Type* concreteType, bool autoInject, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
                                                ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier);
 
-  /// @brief Method InstantiatePrefab, addr 0x4b35978, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefab, addr 0x4b35610, size 0x70, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method InstantiatePrefab, addr 0x4b359e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefab, addr 0x4b35680, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method InstantiatePrefab, addr 0x4b35a6c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefab, addr 0x4b35704, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform);
 
-  /// @brief Method InstantiatePrefab, addr 0x4b35ae8, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefab, addr 0x4b35780, size 0x144, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                ::UnityEngine::Transform* parentTransform);
 
-  /// @brief Method InstantiatePrefabForComponent, addr 0x4b361c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabForComponent, addr 0x4b35e60, size 0x48, virtual false, abstract: false, final false
   inline ::System::Object* InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs,
                                                          ::Zenject::GameObjectCreationParameters* creationInfo);
 
-  /// @brief Method InstantiatePrefabForComponent, addr 0x4b3612c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefabForComponent, addr 0x4b35dc4, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Object* InstantiatePrefabForComponent(::System::Type* concreteType, ::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform,
                                                          ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
@@ -1424,34 +1424,34 @@ public:
   inline T InstantiatePrefabForComponent(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform,
                                          ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InstantiatePrefabForComponentExplicit, addr 0x4b386b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabForComponentExplicit, addr 0x4b38350, size 0x88, virtual false, abstract: false, final false
   inline ::System::Object* InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab,
                                                                  ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method InstantiatePrefabForComponentExplicit, addr 0x4b38520, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabForComponentExplicit, addr 0x4b381b8, size 0x198, virtual false, abstract: false, final false
   inline ::System::Object* InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab,
                                                                  ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context,
                                                                  ::System::Object* concreteIdentifier, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method InstantiatePrefabForComponentExplicit, addr 0x4b36210, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabForComponentExplicit, addr 0x4b35ea8, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Object* InstantiatePrefabForComponentExplicit(::System::Type* componentType, ::UnityEngine::Object* prefab,
                                                                  ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
                                                                  ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method InstantiatePrefabResource, addr 0x4b35de0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefabResource, addr 0x4b35a78, size 0x70, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath);
 
-  /// @brief Method InstantiatePrefabResource, addr 0x4b35e50, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabResource, addr 0x4b35ae8, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* creationInfo);
 
-  /// @brief Method InstantiatePrefabResource, addr 0x4b35f6c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefabResource, addr 0x4b35c04, size 0x7c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Transform* parentTransform);
 
-  /// @brief Method InstantiatePrefabResource, addr 0x4b35fe8, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefabResource, addr 0x4b35c80, size 0x144, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                        ::UnityEngine::Transform* parentTransform);
 
-  /// @brief Method InstantiatePrefabResourceForComponent, addr 0x4b362b4, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method InstantiatePrefabResourceForComponent, addr 0x4b35f4c, size 0xfc, virtual true, abstract: false, final true
   inline ::System::Object* InstantiatePrefabResourceForComponent(::System::Type* concreteType, ::StringW resourcePath, ::UnityEngine::Transform* parentTransform,
                                                                  ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
@@ -1477,20 +1477,20 @@ public:
   inline T InstantiatePrefabResourceForComponent(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform,
                                                  ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InstantiatePrefabResourceForComponentExplicit, addr 0x4b383d4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabResourceForComponentExplicit, addr 0x4b3806c, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Object* InstantiatePrefabResourceForComponentExplicit(::System::Type* componentType, ::StringW resourcePath,
                                                                          ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context,
                                                                          ::System::Object* concreteIdentifier, ::Zenject::GameObjectCreationParameters* creationInfo);
 
-  /// @brief Method InstantiatePrefabResourceForComponentExplicit, addr 0x4b363b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InstantiatePrefabResourceForComponentExplicit, addr 0x4b36048, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Object* InstantiatePrefabResourceForComponentExplicit(::System::Type* componentType, ::StringW resourcePath,
                                                                          ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs,
                                                                          ::Zenject::GameObjectCreationParameters* creationInfo);
 
-  /// @brief Method InstantiateScriptableObjectResource, addr 0x4b36454, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method InstantiateScriptableObjectResource, addr 0x4b360ec, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Object* InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath);
 
-  /// @brief Method InstantiateScriptableObjectResource, addr 0x4b364c0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method InstantiateScriptableObjectResource, addr 0x4b36158, size 0x80, virtual true, abstract: false, final true
   inline ::System::Object* InstantiateScriptableObjectResource(::System::Type* scriptableObjectType, ::StringW resourcePath,
                                                                ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
@@ -1500,7 +1500,7 @@ public:
   /// @brief Method InstantiateScriptableObjectResource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T InstantiateScriptableObjectResource(::StringW resourcePath, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
-  /// @brief Method InstantiateScriptableObjectResourceExplicit, addr 0x4b36540, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InstantiateScriptableObjectResourceExplicit, addr 0x4b361d8, size 0x144, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateScriptableObjectResourceExplicit(::System::Type* scriptableObjectType, ::StringW resourcePath,
                                                                        ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -1519,34 +1519,34 @@ public:
 
   static inline ::Zenject::DiContainer* New_ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainersEnumerable, bool isValidating);
 
-  /// @brief Method QueueForInject, addr 0x4b261f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method QueueForInject, addr 0x4b25e88, size 0x1c, virtual false, abstract: false, final false
   inline void QueueForInject(::System::Object* instance);
 
-  /// @brief Method QueueForValidate, addr 0x4b2ea90, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method QueueForValidate, addr 0x4b2e728, size 0x118, virtual false, abstract: false, final false
   inline void QueueForValidate(::Zenject::IValidatable* validatable);
 
   /// @brief Method Rebind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::Zenject::ConcreteBinderGeneric_1<TContract>* Rebind();
 
-  /// @brief Method Rebind, addr 0x4b37908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Rebind, addr 0x4b375a0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderNonGeneric* Rebind(::System::Type* contractType);
 
   /// @brief Method RebindId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::Zenject::ConcreteBinderGeneric_1<TContract>* RebindId(::System::Object* identifier);
 
-  /// @brief Method RebindId, addr 0x4b37910, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RebindId, addr 0x4b375a8, size 0xc4, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderNonGeneric* RebindId(::System::Type* contractType, ::System::Object* identifier);
 
-  /// @brief Method RegisterProvider, addr 0x4b1ccd4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method RegisterProvider, addr 0x4b1c96c, size 0x1a8, virtual false, abstract: false, final false
   inline void RegisterProvider(::Zenject::BindingId bindingId, ::Zenject::BindingCondition* condition, ::Zenject::IProvider* provider, bool nonLazy);
 
-  /// @brief Method Resolve, addr 0x4b31d94, size 0xc34, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x4b31a2c, size 0xc34, virtual false, abstract: false, final false
   inline ::System::Object* Resolve(::Zenject::InjectContext* context);
 
-  /// @brief Method Resolve, addr 0x4b36b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x4b367e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* Resolve(::System::Type* contractType);
 
-  /// @brief Method Resolve, addr 0x4b31bd8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x4b31870, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Object* Resolve(::Zenject::BindingId id);
 
   /// @brief Method Resolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1555,19 +1555,19 @@ public:
   /// @brief Method ResolveAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::System::Collections::Generic::List_1<TContract>* ResolveAll();
 
-  /// @brief Method ResolveAll, addr 0x4b2fe88, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ResolveAll, addr 0x4b2fb20, size 0x158, virtual false, abstract: false, final false
   inline ::System::Collections::IList* ResolveAll(::Zenject::InjectContext* context);
 
-  /// @brief Method ResolveAll, addr 0x4b36edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResolveAll, addr 0x4b36b74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* ResolveAll(::System::Type* contractType);
 
-  /// @brief Method ResolveAll, addr 0x4b30b54, size 0x708, virtual false, abstract: false, final false
+  /// @brief Method ResolveAll, addr 0x4b307ec, size 0x708, virtual false, abstract: false, final false
   inline void ResolveAll(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method ResolveDependencyRoots, addr 0x4b2ed58, size 0x848, virtual false, abstract: false, final false
+  /// @brief Method ResolveDependencyRoots, addr 0x4b2e9f0, size 0x848, virtual false, abstract: false, final false
   inline void ResolveDependencyRoots();
 
-  /// @brief Method ResolveId, addr 0x4b36b54, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ResolveId, addr 0x4b367ec, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Object* ResolveId(::System::Type* contractType, ::System::Object* identifier);
 
   /// @brief Method ResolveId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1576,52 +1576,52 @@ public:
   /// @brief Method ResolveIdAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline ::System::Collections::Generic::List_1<TContract>* ResolveIdAll(::System::Object* identifier);
 
-  /// @brief Method ResolveIdAll, addr 0x4b36ee4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ResolveIdAll, addr 0x4b36b7c, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Collections::IList* ResolveIdAll(::System::Type* contractType, ::System::Object* identifier);
 
-  /// @brief Method ResolveRoots, addr 0x4b26400, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ResolveRoots, addr 0x4b26098, size 0x74, virtual false, abstract: false, final false
   inline void ResolveRoots();
 
   /// @brief Method ResolveType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Type* ResolveType();
 
-  /// @brief Method ResolveType, addr 0x4b31438, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ResolveType, addr 0x4b310d0, size 0x284, virtual false, abstract: false, final false
   inline ::System::Type* ResolveType(::Zenject::InjectContext* context);
 
-  /// @brief Method ResolveType, addr 0x4b3128c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ResolveType, addr 0x4b30f24, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Type* ResolveType(::System::Type* type);
 
-  /// @brief Method ResolveTypeAll, addr 0x4b31880, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method ResolveTypeAll, addr 0x4b31518, size 0x358, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypeAll(::Zenject::InjectContext* context);
 
-  /// @brief Method ResolveTypeAll, addr 0x4b316bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResolveTypeAll, addr 0x4b31354, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypeAll(::System::Type* type);
 
-  /// @brief Method ResolveTypeAll, addr 0x4b316c4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ResolveTypeAll, addr 0x4b3135c, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Type*>* ResolveTypeAll(::System::Type* type, ::System::Object* identifier);
 
-  /// @brief Method SafeGetInstances, addr 0x4b2f7c0, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method SafeGetInstances, addr 0x4b2f458, size 0x35c, virtual false, abstract: false, final false
   inline void SafeGetInstances(::Zenject::DiContainer_ProviderInfo* providerInfo, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ShouldInheritBinding, addr 0x4b2e2fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ShouldInheritBinding, addr 0x4b2df94, size 0xbc, virtual false, abstract: false, final false
   inline bool ShouldInheritBinding(::Zenject::BindStatement* binding, ::Zenject::DiContainer* ancestorContainer);
 
-  /// @brief Method StartBinding, addr 0x4b37834, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method StartBinding, addr 0x4b374cc, size 0xd4, virtual false, abstract: false, final false
   inline ::Zenject::BindStatement* StartBinding(bool flush);
 
-  /// @brief Method TryGetDecoratorProvider, addr 0x4b32adc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method TryGetDecoratorProvider, addr 0x4b32774, size 0xe0, virtual false, abstract: false, final false
   inline ::Zenject::Internal::IDecoratorProvider* TryGetDecoratorProvider(::System::Type* contractType);
 
-  /// @brief Method TryGetUniqueProvider, addr 0x4b303f8, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method TryGetUniqueProvider, addr 0x4b30090, size 0x5d4, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer_ProviderInfo* TryGetUniqueProvider(::Zenject::InjectContext* context);
 
-  /// @brief Method TryResolve, addr 0x4b36d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryResolve, addr 0x4b369a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* TryResolve(::System::Type* contractType);
 
   /// @brief Method TryResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> inline TContract TryResolve();
 
-  /// @brief Method TryResolveId, addr 0x4b36d18, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method TryResolveId, addr 0x4b369b0, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Object* TryResolveId(::System::Type* contractType, ::System::Object* identifier);
 
   /// @brief Method TryResolveId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1633,19 +1633,19 @@ public:
   /// @brief Method Unbind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract, typename TConcrete> inline bool Unbind();
 
-  /// @brief Method Unbind, addr 0x4b37100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Unbind, addr 0x4b36d98, size 0x8, virtual false, abstract: false, final false
   inline bool Unbind(::System::Type* contractType);
 
-  /// @brief Method Unbind, addr 0x4b37248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Unbind, addr 0x4b36ee0, size 0x8, virtual false, abstract: false, final false
   inline bool Unbind(::System::Type* contractType, ::System::Type* concreteType);
 
-  /// @brief Method UnbindAll, addr 0x4b370a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UnbindAll, addr 0x4b36d40, size 0x58, virtual false, abstract: false, final false
   inline void UnbindAll();
 
-  /// @brief Method UnbindId, addr 0x4b37250, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method UnbindId, addr 0x4b36ee8, size 0x2a0, virtual false, abstract: false, final false
   inline bool UnbindId(::System::Type* contractType, ::System::Type* concreteType, ::System::Object* identifier);
 
-  /// @brief Method UnbindId, addr 0x4b37108, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnbindId, addr 0x4b36da0, size 0x84, virtual false, abstract: false, final false
   inline bool UnbindId(::System::Type* contractType, ::System::Object* identifier);
 
   /// @brief Method UnbindId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1657,10 +1657,10 @@ public:
   /// @brief Method UnbindInterfacesTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline void UnbindInterfacesTo();
 
-  /// @brief Method UnbindInterfacesTo, addr 0x4b3718c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UnbindInterfacesTo, addr 0x4b36e24, size 0xbc, virtual false, abstract: false, final false
   inline void UnbindInterfacesTo(::System::Type* concreteType);
 
-  /// @brief Method ValidateFullResolve, addr 0x4b2fb1c, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method ValidateFullResolve, addr 0x4b2f7b4, size 0x36c, virtual false, abstract: false, final false
   inline void ValidateFullResolve();
 
   constexpr bool const& __cordl_internal_get__AssertOnNewGameObjects_k__BackingField() const;
@@ -1800,76 +1800,76 @@ public:
 
   constexpr void __cordl_internal_set__validationQueue(::System::Collections::Generic::List_1<::Zenject::IValidatable*>* value);
 
-  /// @brief Method .ctor, addr 0x4b2c104, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2bd9c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4b2e434, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2e0cc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool isValidating);
 
-  /// @brief Method .ctor, addr 0x4b2e580, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2e218, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* parentContainer);
 
-  /// @brief Method .ctor, addr 0x4b2e4d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2e170, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* parentContainer, bool isValidating);
 
-  /// @brief Method .ctor, addr 0x4b2e624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b2e2bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainers);
 
-  /// @brief Method .ctor, addr 0x4b27c38, size 0x9e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b278d0, size 0x9e4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainersEnumerable, bool isValidating);
 
-  /// @brief Method get_AllContracts, addr 0x4b2ed00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_AllContracts, addr 0x4b2e998, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::BindingId>* get_AllContracts();
 
-  /// @brief Method get_AllProviders, addr 0x4b2e63c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method get_AllProviders, addr 0x4b2e2d4, size 0x200, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::IProvider*>* get_AllProviders();
 
-  /// @brief Method get_AncestorContainers, addr 0x4b2ecb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_AncestorContainers, addr 0x4b2e948, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*> get_AncestorContainers();
 
-  /// @brief Method get_AssertOnNewGameObjects, addr 0x4b2ec8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssertOnNewGameObjects, addr 0x4b2e924, size 0x8, virtual false, abstract: false, final false
   inline bool get_AssertOnNewGameObjects();
 
-  /// @brief Method get_ChecksForCircularDependencies, addr 0x4b2ecdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChecksForCircularDependencies, addr 0x4b2e974, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChecksForCircularDependencies();
 
-  /// @brief Method get_ContextTransform, addr 0x4b2ebd4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_ContextTransform, addr 0x4b2e86c, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_ContextTransform();
 
-  /// @brief Method get_DefaultParent, addr 0x4b2eca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultParent, addr 0x4b2e940, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_DefaultParent();
 
-  /// @brief Method get_InheritedDefaultParent, addr 0x4b2eca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InheritedDefaultParent, addr 0x4b2e938, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_InheritedDefaultParent();
 
-  /// @brief Method get_IsInstalling, addr 0x4b2ecec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInstalling, addr 0x4b2e984, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInstalling();
 
-  /// @brief Method get_IsValidating, addr 0x4b2ece4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsValidating, addr 0x4b2e97c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsValidating();
 
-  /// @brief Method get_ParentContainers, addr 0x4b2eba8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContainers, addr 0x4b2e840, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*> get_ParentContainers();
 
-  /// @brief Method get_Settings, addr 0x4b2e62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x4b2e2c4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ZenjectSettings* get_Settings();
 
-  /// @brief Method get_SingletonMarkRegistry, addr 0x4b2e634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SingletonMarkRegistry, addr 0x4b2e2cc, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::Internal::SingletonMarkRegistry* get_SingletonMarkRegistry();
 
   /// @brief Convert to "::Zenject::IInstantiator"
   constexpr ::Zenject::IInstantiator* i___Zenject__IInstantiator() noexcept;
 
-  /// @brief Method set_AssertOnNewGameObjects, addr 0x4b2ec94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AssertOnNewGameObjects, addr 0x4b2e92c, size 0xc, virtual false, abstract: false, final false
   inline void set_AssertOnNewGameObjects(bool value);
 
-  /// @brief Method set_DefaultParent, addr 0x4b266b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultParent, addr 0x4b2634c, size 0x10, virtual false, abstract: false, final false
   inline void set_DefaultParent(::UnityEngine::Transform* value);
 
-  /// @brief Method set_IsInstalling, addr 0x4b2ecf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInstalling, addr 0x4b2e98c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInstalling(bool value);
 
-  /// @brief Method set_Settings, addr 0x4b28994, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Settings, addr 0x4b2862c, size 0x80, virtual false, abstract: false, final false
   inline void set_Settings(::Zenject::ZenjectSettings* value);
 
 protected:

@@ -203,7 +203,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::ScrollRect_ScrollRectEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ac60d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac5d68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -450,126 +450,126 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutGroup"
   constexpr operator ::UnityEngine::UI::ILayoutGroup*() noexcept;
 
-  /// @brief Method AdjustBounds, addr 0x4ac8cc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AdjustBounds, addr 0x4ac895c, size 0x7c, virtual false, abstract: false, final false
   static inline void AdjustBounds(::ByRef<::UnityEngine::Bounds> viewBounds, ::ByRef<::UnityEngine::Vector2> contentPivot, ::ByRef<::UnityEngine::Vector3> contentSize,
                                   ::ByRef<::UnityEngine::Vector3> contentPos);
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4ac829c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4ac7f34, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x4ac82a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x4ac7f38, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method CalculateOffset, addr 0x4ac714c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CalculateOffset, addr 0x4ac6de4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculateOffset(::UnityEngine::Vector2 delta);
 
-  /// @brief Method EnsureLayoutHasRebuilt, addr 0x4ac6f1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EnsureLayoutHasRebuilt, addr 0x4ac6bb4, size 0x74, virtual false, abstract: false, final false
   inline void EnsureLayoutHasRebuilt();
 
-  /// @brief Method GetBounds, addr 0x4ac87c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetBounds, addr 0x4ac8458, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds GetBounds();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x4ac6aac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x4ac6744, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method InternalCalculateOffset, addr 0x4ac8ed0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InternalCalculateOffset, addr 0x4ac8b68, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 InternalCalculateOffset(::ByRef<::UnityEngine::Bounds> viewBounds, ::ByRef<::UnityEngine::Bounds> contentBounds, bool horizontal, bool vertical,
                                                                ::UnityEngine::UI::ScrollRect_MovementType movementType, ::ByRef<::UnityEngine::Vector2> delta);
 
-  /// @brief Method InternalGetBounds, addr 0x4ac8d40, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InternalGetBounds, addr 0x4ac89d8, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds InternalGetBounds(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> corners, ::ByRef<::UnityEngine::Matrix4x4> viewWorldToLocalMatrix);
 
-  /// @brief Method IsActive, addr 0x4ac6e9c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsActive, addr 0x4ac6b34, size 0x80, virtual true, abstract: false, final false
   inline bool IsActive();
 
-  /// @brief Method LateUpdate, addr 0x4ac7610, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x4ac72a8, size 0x5d8, virtual true, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LayoutComplete, addr 0x4ac6aa8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x4ac6740, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
   static inline ::UnityEngine::UI::ScrollRect* New_ctor();
 
-  /// @brief Method OnBeginDrag, addr 0x4ac71dc, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x4ac6e74, size 0x12c, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x4ac6c6c, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4ac6904, size 0x230, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrag, addr 0x4ac7328, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x4ac6fc0, size 0x1fc, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEnable, addr 0x4ac6ab0, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4ac6748, size 0x1bc, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEndDrag, addr 0x4ac7308, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnEndDrag, addr 0x4ac6fa0, size 0x20, virtual true, abstract: false, final false
   inline void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x4ac717c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x4ac6e14, size 0x60, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x4ac8188, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x4ac7e20, size 0x4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnScroll, addr 0x4ac6fe0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method OnScroll, addr 0x4ac6c78, size 0x16c, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::EventSystems::PointerEventData* data);
 
-  /// @brief Method Rebuild, addr 0x4ac6118, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x4ac5db0, size 0x88, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method RubberDelta, addr 0x4ac7524, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method RubberDelta, addr 0x4ac71bc, size 0x38, virtual false, abstract: false, final false
   static inline float_t RubberDelta(float_t overStretching, float_t viewSize);
 
-  /// @brief Method SetContentAnchoredPosition, addr 0x4ac755c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetContentAnchoredPosition, addr 0x4ac71f4, size 0xb4, virtual true, abstract: false, final false
   inline void SetContentAnchoredPosition(::UnityEngine::Vector2 position);
 
-  /// @brief Method SetDirty, addr 0x4ac5d94, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x4ac5a2c, size 0x88, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetDirtyCaching, addr 0x4ac59a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetDirtyCaching, addr 0x4ac5640, size 0xb4, virtual false, abstract: false, final false
   inline void SetDirtyCaching();
 
-  /// @brief Method SetHorizontalNormalizedPosition, addr 0x4ac7ec8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetHorizontalNormalizedPosition, addr 0x4ac7b60, size 0x14, virtual false, abstract: false, final false
   inline void SetHorizontalNormalizedPosition(float_t value);
 
-  /// @brief Method SetLayoutHorizontal, addr 0x4ac82dc, size 0x4e4, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x4ac7f74, size 0x4e4, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x4ac88b4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x4ac854c, size 0xb8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method SetNormalizedPosition, addr 0x4ac7ef0, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method SetNormalizedPosition, addr 0x4ac7b88, size 0x298, virtual true, abstract: false, final false
   inline void SetNormalizedPosition(float_t value, int32_t axis);
 
-  /// @brief Method SetVerticalNormalizedPosition, addr 0x4ac7edc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetVerticalNormalizedPosition, addr 0x4ac7b74, size 0x14, virtual false, abstract: false, final false
   inline void SetVerticalNormalizedPosition(float_t value);
 
-  /// @brief Method StopMovement, addr 0x4ac6f90, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method StopMovement, addr 0x4ac6c28, size 0x50, virtual true, abstract: false, final false
   inline void StopMovement();
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x4ac9014, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x4ac8cac, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method UpdateBounds, addr 0x4ac64f8, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x4ac6190, size 0x358, virtual false, abstract: false, final false
   inline void UpdateBounds();
 
-  /// @brief Method UpdateCachedData, addr 0x4ac61a0, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedData, addr 0x4ac5e38, size 0x358, virtual false, abstract: false, final false
   inline void UpdateCachedData();
 
-  /// @brief Method UpdateOneScrollbarVisibility, addr 0x4ac8bc0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UpdateOneScrollbarVisibility, addr 0x4ac8858, size 0x104, virtual false, abstract: false, final false
   static inline void UpdateOneScrollbarVisibility(bool xScrollingNeeded, bool xAxisEnabled, ::UnityEngine::UI::ScrollRect_ScrollbarVisibility scrollbarVisibility,
                                                   ::UnityEngine::UI::Scrollbar* scrollbar);
 
-  /// @brief Method UpdatePrevData, addr 0x4ac69d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdatePrevData, addr 0x4ac6668, size 0xd8, virtual false, abstract: false, final false
   inline void UpdatePrevData();
 
-  /// @brief Method UpdateScrollbarLayout, addr 0x4ac896c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollbarLayout, addr 0x4ac8604, size 0x254, virtual false, abstract: false, final false
   inline void UpdateScrollbarLayout();
 
-  /// @brief Method UpdateScrollbarVisibility, addr 0x4ac7c18, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollbarVisibility, addr 0x4ac78b0, size 0x40, virtual false, abstract: false, final false
   inline void UpdateScrollbarVisibility();
 
-  /// @brief Method UpdateScrollbars, addr 0x4ac6850, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollbars, addr 0x4ac64e8, size 0x180, virtual false, abstract: false, final false
   inline void UpdateScrollbars(::UnityEngine::Vector2 offset);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_Content() const;
@@ -794,100 +794,100 @@ public:
 
   constexpr void __cordl_internal_set_m_Viewport(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x4ac5fd0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac5c68, size 0x100, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_content, addr 0x4ac590c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_content, addr 0x4ac55a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_content();
 
-  /// @brief Method get_decelerationRate, addr 0x4ac5978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_decelerationRate, addr 0x4ac5610, size 0x8, virtual false, abstract: false, final false
   inline float_t get_decelerationRate();
 
-  /// @brief Method get_elasticity, addr 0x4ac5954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elasticity, addr 0x4ac55ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_elasticity();
 
-  /// @brief Method get_flexibleHeight, addr 0x4ac82cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x4ac7f64, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x4ac82b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x4ac7f4c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_hScrollingNeeded, addr 0x4ac818c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hScrollingNeeded, addr 0x4ac7e24, size 0x88, virtual false, abstract: false, final false
   inline bool get_hScrollingNeeded();
 
-  /// @brief Method get_horizontal, addr 0x4ac591c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontal, addr 0x4ac55b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_horizontal();
 
-  /// @brief Method get_horizontalNormalizedPosition, addr 0x4ac7c58, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalNormalizedPosition, addr 0x4ac78f0, size 0x100, virtual false, abstract: false, final false
   inline float_t get_horizontalNormalizedPosition();
 
-  /// @brief Method get_horizontalScrollbar, addr 0x4ac5a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbar, addr 0x4ac56f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Scrollbar> get_horizontalScrollbar();
 
-  /// @brief Method get_horizontalScrollbarSpacing, addr 0x4ac5d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbarSpacing, addr 0x4ac5a1c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalScrollbarSpacing();
 
-  /// @brief Method get_horizontalScrollbarVisibility, addr 0x4ac5d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalScrollbarVisibility, addr 0x4ac59fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::ScrollRect_ScrollbarVisibility get_horizontalScrollbarVisibility();
 
-  /// @brief Method get_inertia, addr 0x4ac5964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inertia, addr 0x4ac55fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_inertia();
 
-  /// @brief Method get_layoutPriority, addr 0x4ac82d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x4ac7f6c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_minHeight, addr 0x4ac82bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x4ac7f54, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x4ac82a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x4ac7f3c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_movementType, addr 0x4ac5944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementType, addr 0x4ac55dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::ScrollRect_MovementType get_movementType();
 
-  /// @brief Method get_normalizedPosition, addr 0x4ac7be8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedPosition, addr 0x4ac7880, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normalizedPosition();
 
-  /// @brief Method get_onValueChanged, addr 0x4ac5e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x4ac5ac4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::ScrollRect_ScrollRectEvent* get_onValueChanged();
 
-  /// @brief Method get_preferredHeight, addr 0x4ac82c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x4ac7f5c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x4ac82ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4ac7f44, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_rectTransform, addr 0x4ac5f3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4ac5bd4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_scrollSensitivity, addr 0x4ac5988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollSensitivity, addr 0x4ac5620, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scrollSensitivity();
 
-  /// @brief Method get_vScrollingNeeded, addr 0x4ac8214, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_vScrollingNeeded, addr 0x4ac7eac, size 0x88, virtual false, abstract: false, final false
   inline bool get_vScrollingNeeded();
 
-  /// @brief Method get_velocity, addr 0x4ac5f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x4ac5bc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_velocity();
 
-  /// @brief Method get_vertical, addr 0x4ac5930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertical, addr 0x4ac55c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_vertical();
 
-  /// @brief Method get_verticalNormalizedPosition, addr 0x4ac7d58, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_verticalNormalizedPosition, addr 0x4ac79f0, size 0x100, virtual false, abstract: false, final false
   inline float_t get_verticalNormalizedPosition();
 
-  /// @brief Method get_verticalScrollbar, addr 0x4ac5be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbar, addr 0x4ac5878, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Scrollbar> get_verticalScrollbar();
 
-  /// @brief Method get_verticalScrollbarSpacing, addr 0x4ac5e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbarSpacing, addr 0x4ac5ab4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_verticalScrollbarSpacing();
 
-  /// @brief Method get_verticalScrollbarVisibility, addr 0x4ac5d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbarVisibility, addr 0x4ac5a0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::ScrollRect_ScrollbarVisibility get_verticalScrollbarVisibility();
 
-  /// @brief Method get_viewRect, addr 0x4ac5e3c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_viewRect, addr 0x4ac5ad4, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_viewRect();
 
-  /// @brief Method get_viewport, addr 0x4ac5998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewport, addr 0x4ac5630, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_viewport();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
@@ -920,64 +920,64 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutGroup"
   constexpr ::UnityEngine::UI::ILayoutGroup* i___UnityEngine__UI__ILayoutGroup() noexcept;
 
-  /// @brief Method set_content, addr 0x4ac5914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_content, addr 0x4ac55ac, size 0x8, virtual false, abstract: false, final false
   inline void set_content(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_decelerationRate, addr 0x4ac5980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_decelerationRate, addr 0x4ac5618, size 0x8, virtual false, abstract: false, final false
   inline void set_decelerationRate(float_t value);
 
-  /// @brief Method set_elasticity, addr 0x4ac595c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elasticity, addr 0x4ac55f4, size 0x8, virtual false, abstract: false, final false
   inline void set_elasticity(float_t value);
 
-  /// @brief Method set_horizontal, addr 0x4ac5924, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_horizontal, addr 0x4ac55bc, size 0xc, virtual false, abstract: false, final false
   inline void set_horizontal(bool value);
 
-  /// @brief Method set_horizontalNormalizedPosition, addr 0x4ac7ea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalNormalizedPosition, addr 0x4ac7b38, size 0x14, virtual false, abstract: false, final false
   inline void set_horizontalNormalizedPosition(float_t value);
 
-  /// @brief Method set_horizontalScrollbar, addr 0x4ac5a64, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbar, addr 0x4ac56fc, size 0x17c, virtual false, abstract: false, final false
   inline void set_horizontalScrollbar(::UnityEngine::UI::Scrollbar* value);
 
-  /// @brief Method set_horizontalScrollbarSpacing, addr 0x4ac5d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbarSpacing, addr 0x4ac5a24, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalScrollbarSpacing(float_t value);
 
-  /// @brief Method set_horizontalScrollbarVisibility, addr 0x4ac5d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalScrollbarVisibility, addr 0x4ac5a04, size 0x8, virtual false, abstract: false, final false
   inline void set_horizontalScrollbarVisibility(::UnityEngine::UI::ScrollRect_ScrollbarVisibility value);
 
-  /// @brief Method set_inertia, addr 0x4ac596c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_inertia, addr 0x4ac5604, size 0xc, virtual false, abstract: false, final false
   inline void set_inertia(bool value);
 
-  /// @brief Method set_movementType, addr 0x4ac594c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_movementType, addr 0x4ac55e4, size 0x8, virtual false, abstract: false, final false
   inline void set_movementType(::UnityEngine::UI::ScrollRect_MovementType value);
 
-  /// @brief Method set_normalizedPosition, addr 0x4ac7e58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedPosition, addr 0x4ac7af0, size 0x48, virtual false, abstract: false, final false
   inline void set_normalizedPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_onValueChanged, addr 0x4ac5e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x4ac5acc, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::UnityEngine::UI::ScrollRect_ScrollRectEvent* value);
 
-  /// @brief Method set_scrollSensitivity, addr 0x4ac5990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scrollSensitivity, addr 0x4ac5628, size 0x8, virtual false, abstract: false, final false
   inline void set_scrollSensitivity(float_t value);
 
-  /// @brief Method set_velocity, addr 0x4ac5f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x4ac5bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_vertical, addr 0x4ac5938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_vertical, addr 0x4ac55d0, size 0xc, virtual false, abstract: false, final false
   inline void set_vertical(bool value);
 
-  /// @brief Method set_verticalNormalizedPosition, addr 0x4ac7eb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_verticalNormalizedPosition, addr 0x4ac7b4c, size 0x14, virtual false, abstract: false, final false
   inline void set_verticalNormalizedPosition(float_t value);
 
-  /// @brief Method set_verticalScrollbar, addr 0x4ac5be8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbar, addr 0x4ac5880, size 0x17c, virtual false, abstract: false, final false
   inline void set_verticalScrollbar(::UnityEngine::UI::Scrollbar* value);
 
-  /// @brief Method set_verticalScrollbarSpacing, addr 0x4ac5e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbarSpacing, addr 0x4ac5abc, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalScrollbarSpacing(float_t value);
 
-  /// @brief Method set_verticalScrollbarVisibility, addr 0x4ac5d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbarVisibility, addr 0x4ac5a14, size 0x8, virtual false, abstract: false, final false
   inline void set_verticalScrollbarVisibility(::UnityEngine::UI::ScrollRect_ScrollbarVisibility value);
 
-  /// @brief Method set_viewport, addr 0x4ac59a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_viewport, addr 0x4ac5638, size 0x8, virtual false, abstract: false, final false
   inline void set_viewport(::UnityEngine::RectTransform* value);
 
 protected:

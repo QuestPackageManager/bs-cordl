@@ -74,21 +74,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40ae9f4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40ae68c, size 0xcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.Expressions.Expression>.get_Current, addr 0x40aeac0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.Expressions.Expression>.get_Current, addr 0x40ae758, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* System_Collections_Generic_IEnumerator_System_Linq_Expressions_Expression__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40aeac8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40ae760, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40aeb00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40ae798, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40ae9f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x40ae688, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40ae9c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ae65c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Expression*>"
@@ -204,36 +204,36 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x40ae700, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x40ae398, size 0x28, virtual true, abstract: false, final true
   inline void Add(::System::Linq::Expressions::Expression* item);
 
-  /// @brief Method Clear, addr 0x40ae728, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x40ae3c0, size 0x28, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x40ae750, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x40ae3e8, size 0x18, virtual true, abstract: false, final true
   inline bool Contains(::System::Linq::Expressions::Expression* item);
 
-  /// @brief Method CopyTo, addr 0x40ae768, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x40ae400, size 0x18c, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x40ae964, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x40ae5fc, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Expression*>* GetEnumerator();
 
-  /// @brief Method IndexOf, addr 0x40ae5d0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method IndexOf, addr 0x40ae268, size 0x88, virtual true, abstract: false, final true
   inline int32_t IndexOf(::System::Linq::Expressions::Expression* item);
 
-  /// @brief Method Insert, addr 0x40ae658, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Insert, addr 0x40ae2f0, size 0x28, virtual true, abstract: false, final true
   inline void Insert(int32_t index, ::System::Linq::Expressions::Expression* item);
 
   static inline ::System::Linq::Expressions::BlockExpressionList* New_ctor(::System::Linq::Expressions::BlockExpression* provider, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Remove, addr 0x40ae93c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x40ae5d4, size 0x28, virtual true, abstract: false, final true
   inline bool Remove(::System::Linq::Expressions::Expression* item);
 
-  /// @brief Method RemoveAt, addr 0x40ae680, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method RemoveAt, addr 0x40ae318, size 0x28, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40ae9ec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40ae684, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__arg0() const;
@@ -248,16 +248,16 @@ public:
 
   constexpr void __cordl_internal_set__block(::System::Linq::Expressions::BlockExpression* value);
 
-  /// @brief Method .ctor, addr 0x40ad67c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ad314, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::BlockExpression* provider, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method get_Count, addr 0x40ae8f4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x40ae58c, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x40ae914, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x40ae5ac, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Item, addr 0x40ae6a8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x40ae340, size 0x30, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Linq::Expressions::Expression*>"
@@ -274,7 +274,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x40ae6d8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x40ae370, size 0x28, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Linq::Expressions::Expression* value);
 
 protected:

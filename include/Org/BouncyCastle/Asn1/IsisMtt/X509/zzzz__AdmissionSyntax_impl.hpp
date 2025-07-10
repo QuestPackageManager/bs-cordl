@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23fd8ac;
+  constexpr static std::size_t addrs = 0x23fd93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x23fda28;
+  constexpr static std::size_t addrs = 0x23fdab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)(
     ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23fdb74;
+  constexpr static std::size_t addrs = 0x23fdc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::ToAsn1Object)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x23fdba0;
+  constexpr static std::size_t addrs = 0x23fdc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::get_AdmissionAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fdcb4;
+  constexpr static std::size_t addrs = 0x23fdd44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, ::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::GetContentsOfAdmissions)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x23fdcbc;
+  constexpr static std::size_t addrs = 0x23fdd4c;
 
   inline static ::MethodInfo const* methodInfo() {
 

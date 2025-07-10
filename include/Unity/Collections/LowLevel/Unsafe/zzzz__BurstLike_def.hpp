@@ -74,7 +74,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE BurstLike_SharedStatic : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x4861c40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x48618d8, size 0x74, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:

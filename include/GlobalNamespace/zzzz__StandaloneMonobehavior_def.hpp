@@ -111,21 +111,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22e8fd8, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e9068, size 0x1b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22e9188, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22e9218, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e9190, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e9220, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e91c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e9258, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22e8fd4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22e9064, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x22e8fac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e903c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -228,10 +228,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22e91d0, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e9260, size 0x200, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22e93d0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22e9460, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -297,10 +297,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22e93dc, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22e946c, size 0x308, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22e96e4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22e9774, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -403,42 +403,42 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStandaloneMonobehavior"
   constexpr operator ::GlobalNamespace::IStandaloneMonobehavior*() noexcept;
 
-  /// @brief Method Awake, addr 0x22e8c60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22e8cf0, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Create();
 
-  /// @brief Method GetLastFrameTime, addr 0x22e8ba0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetLastFrameTime, addr 0x22e8c30, size 0x70, virtual false, abstract: false, final false
   inline float_t GetLastFrameTime();
 
   static inline ::GlobalNamespace::StandaloneMonobehavior* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x22e8c88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x22e8d18, size 0x4, virtual true, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x22e8c84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22e8d14, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RunAsync, addr 0x22e8df4, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0x22e8e84, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RunAsyncCoroutine, addr 0x22e8f30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RunAsyncCoroutine, addr 0x22e8fc0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Start, addr 0x22e8c7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x22e8d0c, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x22e8fa4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x22e9034, size 0x8, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Update, addr 0x22e8c80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x22e8d10, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WhenReady, addr 0x22e8c8c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method WhenReady, addr 0x22e8d1c, size 0x98, virtual true, abstract: false, final true
   inline void WhenReady(::System::Action* action);
 
-  /// @brief Method WhenReadyAsync, addr 0x22e8d24, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method WhenReadyAsync, addr 0x22e8db4, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
   constexpr bool const& __cordl_internal_get__isRunning() const;
@@ -471,22 +471,22 @@ public:
 
   constexpr void __cordl_internal_set__startTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x22dcdf4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dce84, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_deltaTime, addr 0x22e8b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x22e8c24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_frameCount, addr 0x22daf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x22dafb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_frameCount();
 
-  /// @brief Method get_isReady, addr 0x22e8c10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isReady, addr 0x22e8ca0, size 0x50, virtual false, abstract: false, final false
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameTime, addr 0x22e8b9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_lastFrameTime, addr 0x22e8c2c, size 0x4, virtual false, abstract: false, final false
   inline float_t get_lastFrameTime();
 
-  /// @brief Method get_objectLifeTime, addr 0x22e8b74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_objectLifeTime, addr 0x22e8c04, size 0x20, virtual false, abstract: false, final false
   inline float_t get_objectLifeTime();
 
   /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"

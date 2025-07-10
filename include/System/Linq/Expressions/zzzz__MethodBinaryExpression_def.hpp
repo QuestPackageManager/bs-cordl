@@ -33,7 +33,7 @@ public:
   /// @brief Field _method, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method)) ::System::Reflection::MethodInfo* _method;
 
-  /// @brief Method GetMethod, addr 0x40971e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x4096e78, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetMethod();
 
   static inline ::System::Linq::Expressions::MethodBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__method(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x4097154, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4096dec, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Type* type,
                     ::System::Reflection::MethodInfo* method);
 

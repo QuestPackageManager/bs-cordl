@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af3bfc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3894, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW fieldName);
 
-  /// @brief Method get_FieldName, addr 0x4af3c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldName, addr 0x4af38d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_Type, addr 0x4af3c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4af38c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method set_FieldName, addr 0x4af3c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FieldName, addr 0x4af38d8, size 0x8, virtual false, abstract: false, final false
   inline void set_FieldName(::StringW value);
 
-  /// @brief Method set_Type, addr 0x4af3c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x4af38c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
 protected:

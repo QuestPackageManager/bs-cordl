@@ -51,19 +51,19 @@ public:
   /// @brief Field m_SnapshotFinished, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished)) ::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
-  /// @brief Method FinalizeSnapshot, addr 0x486199c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x4861634, size 0x84, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
-  /// @brief Method PrepareMetadata, addr 0x4861624, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x48612bc, size 0x1fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMetadata();
 
-  /// @brief Method SaveScreenshotToDisk, addr 0x4861a20, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x48616b8, size 0xfc, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method WriteIntToByteArray, addr 0x4861820, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x48614b8, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x48618ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x4861544, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, ::StringW value);
 
   static inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* getStaticF_CreatingMetadata();

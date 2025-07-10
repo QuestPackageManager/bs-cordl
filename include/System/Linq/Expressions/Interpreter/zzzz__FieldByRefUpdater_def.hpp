@@ -51,10 +51,10 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::FieldByRefUpdater* New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                                                                                       ::System::Reflection::FieldInfo* field, int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x40e60fc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x40e5d94, size 0x98, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x40e6058, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x40e5cf0, size 0xa4, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get__field() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__object(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-  /// @brief Method .ctor, addr 0x40e6010, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e5ca8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::FieldInfo* field, int32_t argumentIndex);
 
 protected:

@@ -73,25 +73,25 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable___c* New_ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_0, addr 0x492db90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_0, addr 0x492d828, size 0x48, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__25_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_1, addr 0x492dbd8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_1, addr 0x492d870, size 0x48, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__25_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_0, addr 0x492dc20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_0, addr 0x492d8b8, size 0xc, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToBaseAdjustmentRecords_b__26_0(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_1, addr 0x492dc2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_1, addr 0x492d8c4, size 0xc, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToBaseAdjustmentRecords_b__26_1(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_0, addr 0x492dc38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_0, addr 0x492d8d0, size 0xc, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToMarkAdjustmentRecords_b__27_0(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_1, addr 0x492dc44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_1, addr 0x492d8dc, size 0xc, virtual false, abstract: false, final false
   inline uint32_t _SortMarkToMarkAdjustmentRecords_b__27_1(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s);
 
-  /// @brief Method .ctor, addr 0x492db88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492d820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable___c* getStaticF___9();
@@ -197,13 +197,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable* New_ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x49264ac, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x4926144, size 0x1ec, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
-  /// @brief Method SortMarkToBaseAdjustmentRecords, addr 0x4926698, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortMarkToBaseAdjustmentRecords, addr 0x4926330, size 0x1ec, virtual false, abstract: false, final false
   inline void SortMarkToBaseAdjustmentRecords();
 
-  /// @brief Method SortMarkToMarkAdjustmentRecords, addr 0x4926884, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortMarkToMarkAdjustmentRecords, addr 0x492651c, size 0x1ec, virtual false, abstract: false, final false
   inline void SortMarkToMarkAdjustmentRecords();
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* const& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup() const;
@@ -265,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set_m_MultipleSubstitutionRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MultipleSubstitutionRecord>* value);
 
-  /// @brief Method .ctor, addr 0x492ba44, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492b6dc, size 0x258, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

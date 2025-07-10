@@ -100,24 +100,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
   constexpr operator ::GlobalNamespace::IComponentRefresher*() noexcept;
 
-  /// @brief Method FillColors, addr 0x228eabc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FillColors, addr 0x228eb4c, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> FillColors(int32_t meshIndex, ::UnityEngine::Color32 color32);
 
-  /// @brief Method FillUV3s, addr 0x228e9e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FillUV3s, addr 0x228ea74, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> FillUV3s(int32_t meshIndex, int32_t vertexCount, ::UnityEngine::Vector2 curve);
 
-  /// @brief Method GenerateTextMesh, addr 0x228e648, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x228e6d8, size 0x2dc, virtual true, abstract: false, final false
   inline void GenerateTextMesh();
 
   static inline ::HMUI::CurvedTextMeshPro* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x228e620, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x228e6b0, size 0x28, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateMesh, addr 0x228e924, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateMesh, addr 0x228e9b4, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateMesh(::UnityEngine::Mesh* mesh, int32_t meshIndex, ::UnityEngine::Vector2 curveUV, ::UnityEngine::Color32 color32);
 
-  /// @brief Method __Refresh, addr 0x228e9d4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method __Refresh, addr 0x228ea64, size 0x10, virtual true, abstract: false, final true
   inline void __Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__colorSo() const;
@@ -144,22 +144,22 @@ public:
 
   constexpr void __cordl_internal_set__useScriptableObjectColors(bool value);
 
-  /// @brief Method .ctor, addr 0x228eb30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228ebc0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x228e584, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x228e614, size 0x94, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_useScriptableObjectColors, addr 0x228e570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColors, addr 0x228e600, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColors();
 
   /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
   constexpr ::GlobalNamespace::IComponentRefresher* i___GlobalNamespace__IComponentRefresher() noexcept;
 
-  /// @brief Method set_color, addr 0x228e618, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_color, addr 0x228e6a8, size 0x8, virtual true, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_useScriptableObjectColors, addr 0x228e578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColors, addr 0x228e608, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColors(bool value);
 
 protected:

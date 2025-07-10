@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Transform*, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteCutDirection, ::GlobalNamespace::SaberType, float_t, ::UnityEngine::Vector3, float_t,
                          ::ByRef<bool>, ::ByRef<bool>, ::ByRef<bool>, ::ByRef<float_t>, ::ByRef<float_t>)>(&::GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2722134;
+  constexpr static std::size_t addrs = 0x2721dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

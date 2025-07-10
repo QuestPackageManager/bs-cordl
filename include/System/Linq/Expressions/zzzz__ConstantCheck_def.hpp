@@ -30,10 +30,10 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE ConstantCheck : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AnalyzeTypeIs, addr 0x40aecb8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeTypeIs, addr 0x40ae950, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(::System::Linq::Expressions::Expression* operand, ::System::Type* testType);
 
-  /// @brief Method AnalyzeTypeIs, addr 0x40aec9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeTypeIs, addr 0x40ae934, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(::System::Linq::Expressions::TypeBinaryExpression* typeIs);
 
 protected:

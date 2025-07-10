@@ -181,15 +181,15 @@ public:
 
   constexpr void __cordl_internal_set__opnd2(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x4306e6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4306b04, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Operator_Op op, ::MS::Internal::Xml::XPath::AstNode* opnd1, ::MS::Internal::Xml::XPath::AstNode* opnd2);
 
   static inline ::ArrayW<::MS::Internal::Xml::XPath::Operator_Op, ::Array<::MS::Internal::Xml::XPath::Operator_Op>*> getStaticF_s_invertOp();
 
-  /// @brief Method get_ReturnType, addr 0x4306eb0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x4306b48, size 0x24, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x4306ea8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4306b40, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
   static inline void setStaticF_s_invertOp(::ArrayW<::MS::Internal::Xml::XPath::Operator_Op, ::Array<::MS::Internal::Xml::XPath::Operator_Op>*> value);

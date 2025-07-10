@@ -25,19 +25,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector3Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Abs, addr 0x22b64e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x22b6578, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Abs(::ByRef<::UnityEngine::Vector3> vector);
 
-  /// @brief Method InverseLerp, addr 0x22b6424, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InverseLerp, addr 0x22b64b4, size 0x50, virtual false, abstract: false, final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
 
-  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x22b64dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x22b656c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method MirrorOnYZPlane, addr 0x22b64d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MirrorOnYZPlane, addr 0x22b6564, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method RotatedAroundPivot, addr 0x22b6474, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RotatedAroundPivot, addr 0x22b6504, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
 
 protected:

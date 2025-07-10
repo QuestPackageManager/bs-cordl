@@ -45,20 +45,20 @@ public:
                       put = __cordl_internal_set_names)) ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>
       names;
 
-  /// @brief Method Copy, addr 0x2607d5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2607dec, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
 
-  /// @brief Method FromExtensions, addr 0x2607f9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x260802c, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* extOid);
 
-  /// @brief Method GetInstance, addr 0x2604d08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2604d98, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2607dd4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2607e64, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNames, addr 0x26080ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x260817c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> GetNames();
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
@@ -67,10 +67,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x26080f4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2608184, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x2608154, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26081e4, size 0x15c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> const& __cordl_internal_get_names() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set_names(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> value);
 
-  /// @brief Method .ctor, addr 0x2608014, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26080a4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method .ctor, addr 0x26080bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260814c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
 
-  /// @brief Method .ctor, addr 0x2607e78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2607f08, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade_Element::*)()>(&::GlobalNamespace::BlocksBlade_Element::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be92e4;
+  constexpr static std::size_t addrs = 0x3be8f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade_Element*>::get(), ".ctor",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be90a0;
+  constexpr static std::size_t addrs = 0x3be8d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "get_color",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)(::UnityEngine::Color)>(&::GlobalNamespace::BlocksBlade::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3be90ac;
+  constexpr static std::size_t addrs = 0x3be8d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::Start)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3be90b8;
+  constexpr static std::size_t addrs = 0x3be8d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "Start",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::Update)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x3be9454;
+  constexpr static std::size_t addrs = 0x3be90ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "Update",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)(::GlobalNamespace::BlocksBlade_Element*, float_t, ::UnityEngine::Color)>(
     &::GlobalNamespace::BlocksBlade::SetUpElement)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3be92ec;
+  constexpr static std::size_t addrs = 0x3be8f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::BlocksBlade::*)(float_t)>(
     &::GlobalNamespace::BlocksBlade::RandomPointOnCircle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3be9864;
+  constexpr static std::size_t addrs = 0x3be94fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3be98b0;
+  constexpr static std::size_t addrs = 0x3be9548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), ".ctor",

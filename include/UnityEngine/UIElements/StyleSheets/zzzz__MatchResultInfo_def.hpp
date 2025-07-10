@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE MatchResultInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x49d9edc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d9b74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask, ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask);
 
   // Ctor Parameters []

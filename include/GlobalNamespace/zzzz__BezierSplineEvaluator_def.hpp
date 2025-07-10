@@ -40,13 +40,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BezierSplineEvaluator_CubicSolveResult {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x226704c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22670dc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1);
 
-  /// @brief Method .ctor, addr 0x2267060, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22670f0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1, float_t solution2);
 
-  /// @brief Method .ctor, addr 0x2267074, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2267104, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t solution1, float_t solution2, float_t solution3);
 
   // Ctor Parameters []
@@ -104,36 +104,36 @@ public:
   /// @brief Field _segments, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__segments, put = __cordl_internal_set__segments)) ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
 
-  /// @brief Method CubeRoot, addr 0x2267018, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CubeRoot, addr 0x22670a8, size 0x34, virtual false, abstract: false, final false
   static inline float_t CubeRoot(float_t x);
 
-  /// @brief Method Evaluate, addr 0x22665d8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x2266668, size 0x14c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Evaluate(float_t t);
 
-  /// @brief Method EvaluateFirstDerivation, addr 0x2266724, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateFirstDerivation, addr 0x22667b4, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluateFirstDerivation(float_t t);
 
-  /// @brief Method EvaluatePosition, addr 0x225fb58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EvaluatePosition, addr 0x225fbe8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluatePosition(float_t time);
 
-  /// @brief Method EvaluateSecondDerivation, addr 0x2266880, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateSecondDerivation, addr 0x2266910, size 0x14c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 EvaluateSecondDerivation(float_t t);
 
-  /// @brief Method GetTForSegment, addr 0x2266aec, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTForSegment, addr 0x2266b7c, size 0x14c, virtual false, abstract: false, final false
   inline float_t GetTForSegment(int32_t segmentIndex, float_t time);
 
-  /// @brief Method GetTimeValuesForSegment, addr 0x2266f60, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTimeValuesForSegment, addr 0x2266ff0, size 0xb8, virtual false, abstract: false, final false
   inline void GetTimeValuesForSegment(int32_t segmentIndex, ::ByRef<float_t> t0Value, ::ByRef<float_t> t1Value);
 
   static inline ::GlobalNamespace::BezierSplineEvaluator* New_ctor(::GlobalNamespace::BezierSpline* spline);
 
-  /// @brief Method OffsetSegmentAndGetT, addr 0x22664c4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OffsetSegmentAndGetT, addr 0x2266554, size 0x114, virtual false, abstract: false, final false
   inline float_t OffsetSegmentAndGetT(float_t time);
 
-  /// @brief Method OffsetStartIndexToDistance, addr 0x22669cc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method OffsetStartIndexToDistance, addr 0x2266a5c, size 0x120, virtual false, abstract: false, final false
   inline void OffsetStartIndexToDistance(float_t time);
 
-  /// @brief Method SolveCubic, addr 0x2266c38, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method SolveCubic, addr 0x2266cc8, size 0x328, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BezierSplineEvaluator_CubicSolveResult SolveCubic(float_t a, float_t b, float_t c, float_t d);
 
   constexpr int32_t const& __cordl_internal_get__currentSegmentIndex() const;
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value);
 
-  /// @brief Method .ctor, addr 0x2261b44, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2261bd4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BezierSpline* spline);
 
 protected:

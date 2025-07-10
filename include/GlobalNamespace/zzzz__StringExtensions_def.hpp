@@ -23,13 +23,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AnyContains, addr 0x229fea4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AnyContains, addr 0x229ff34, size 0x8c, virtual false, abstract: false, final false
   static inline bool AnyContains(::ArrayW<::StringW, ::Array<::StringW>*> stringArray, ::StringW value, ::System::StringComparison stringComparison);
 
-  /// @brief Method Contains, addr 0x229fe84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x229ff14, size 0x20, virtual false, abstract: false, final false
   static inline bool Contains(::StringW source, ::StringW substring, ::System::StringComparison comp);
 
-  /// @brief Method Truncate, addr 0x229fdbc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x229fe4c, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
 protected:

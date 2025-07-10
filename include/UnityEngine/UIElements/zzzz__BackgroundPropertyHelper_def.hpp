@@ -30,16 +30,16 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE BackgroundPropertyHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x49707a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundPosition, addr 0x497043c, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundPosition ConvertScaleModeToBackgroundPosition(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x4970a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundRepeat, addr 0x49706e8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundRepeat ConvertScaleModeToBackgroundRepeat(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x4970a60, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ConvertScaleModeToBackgroundSize, addr 0x49706f8, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::BackgroundSize ConvertScaleModeToBackgroundSize(::UnityEngine::ScaleMode scaleMode);
 
-  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x4970b68, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method ResolveUnityBackgroundScaleMode, addr 0x4970800, size 0x3a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScaleMode ResolveUnityBackgroundScaleMode(::UnityEngine::UIElements::BackgroundPosition backgroundPositionX,
                                                                          ::UnityEngine::UIElements::BackgroundPosition backgroundPositionY,
                                                                          ::UnityEngine::UIElements::BackgroundRepeat backgroundRepeat, ::UnityEngine::UIElements::BackgroundSize backgroundSize,

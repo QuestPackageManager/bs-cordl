@@ -34,13 +34,13 @@ public:
   /// @brief Field _type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method Equals, addr 0x40fc154, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x40fbdec, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x40fc26c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40fbf04, size 0x60, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x40fc218, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x40fbeb0, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::BindingRestrictions_TypeRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40fb800, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fb498, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
 
 protected:

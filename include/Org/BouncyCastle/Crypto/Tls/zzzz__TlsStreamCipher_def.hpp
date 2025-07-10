@@ -53,24 +53,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method CheckMac, addr 0x243ed6c, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method CheckMac, addr 0x243edfc, size 0x11c, virtual true, abstract: false, final false
   inline void CheckMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> recBuf, int32_t recStart, int32_t recEnd, ::ArrayW<uint8_t, ::Array<uint8_t>*> calcBuf, int32_t calcOff,
                        int32_t calcLen);
 
-  /// @brief Method DecodeCiphertext, addr 0x243eb6c, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x243ebfc, size 0x200, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x243e974, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x243ea04, size 0x1f8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x243e948, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x243e9d8, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IStreamCipher* clientWriteCipher,
                                                                             ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                             ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize, bool usesNonce);
 
-  /// @brief Method UpdateIV, addr 0x243ee88, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method UpdateIV, addr 0x243ef18, size 0x14c, virtual true, abstract: false, final false
   inline void UpdateIV(::Org::BouncyCastle::Crypto::IStreamCipher* cipher, bool forEncryption, int64_t seqNo);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& __cordl_internal_get_context() const;
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  /// @brief Method .ctor, addr 0x243e2d0, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243e360, size 0x678, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IStreamCipher* clientWriteCipher, ::Org::BouncyCastle::Crypto::IStreamCipher* serverWriteCipher,
                     ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize, bool usesNonce);
 

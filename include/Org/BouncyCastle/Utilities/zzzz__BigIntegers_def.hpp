@@ -25,28 +25,28 @@ namespace Org::BouncyCastle::Utilities {
 class CORDL_TYPE BigIntegers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsUnsignedByteArray, addr 0x25e743c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AsUnsignedByteArray, addr 0x25e74cc, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsUnsignedByteArray(int32_t length, ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method AsUnsignedByteArray, addr 0x25e7428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AsUnsignedByteArray, addr 0x25e74b8, size 0x14, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> AsUnsignedByteArray(::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method AsUnsignedByteArray, addr 0x25e7544, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AsUnsignedByteArray, addr 0x25e75d4, size 0x148, virtual false, abstract: false, final false
   static inline void AsUnsignedByteArray(::Org::BouncyCastle::Math::BigInteger* value, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method CreateRandomBigInteger, addr 0x25e768c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateRandomBigInteger, addr 0x25e771c, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CreateRandomBigInteger(int32_t bitLength, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method CreateRandomInRange, addr 0x25e76f8, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method CreateRandomInRange, addr 0x25e7788, size 0x218, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CreateRandomInRange(::Org::BouncyCastle::Math::BigInteger* min, ::Org::BouncyCastle::Math::BigInteger* max,
                                                                            ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GetUnsignedByteLength, addr 0x25e7910, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetUnsignedByteLength, addr 0x25e79a0, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetUnsignedByteLength(::Org::BouncyCastle::Math::BigInteger* n);
 
   static inline ::Org::BouncyCastle::Utilities::BigIntegers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25e7940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e79d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

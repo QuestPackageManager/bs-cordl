@@ -131,31 +131,31 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method get_Document, addr 0x430b3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x430b048, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
-  /// @brief Method get_LineNumberBase, addr 0x430b3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumberBase, addr 0x430b050, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumberBase();
 
-  /// @brief Method get_LinePositionBase, addr 0x430b3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePositionBase, addr 0x430b058, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePositionBase();
 
-  /// @brief Method get_LocalName, addr 0x430b388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x430b020, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x430b390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x430b028, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_PageInfo, addr 0x430b380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageInfo, addr 0x430b018, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_ParentPage, addr 0x430b3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentPage, addr 0x430b040, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_ParentPage();
 
-  /// @brief Method get_Prefix, addr 0x430b398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x430b030, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SiblingPage, addr 0x430b3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SiblingPage, addr 0x430b038, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_SiblingPage();
 
 protected:

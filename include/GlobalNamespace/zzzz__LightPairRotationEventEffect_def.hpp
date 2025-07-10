@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b946f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b94390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -230,21 +230,21 @@ public:
   /// @brief Field _zPositionAngleOffsetScale, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__zPositionAngleOffsetScale, put = __cordl_internal_set__zPositionAngleOffsetScale)) float_t _zPositionAngleOffsetScale;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b949c0, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b94658, size 0x384, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightPairRotationEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b949a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9463c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b9432c, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b93fc4, size 0x3cc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b94700, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b94398, size 0x2a4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRotationData, addr 0x3b94d44, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRotationData, addr 0x3b949dc, size 0x21c, virtual false, abstract: false, final false
   inline void UpdateRotationData(int32_t beatmapEventDataValue, ::GlobalNamespace::LightPairRotationEventEffect_RotationData* rotationData, float_t startRotationOffset, float_t direction);
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -361,7 +361,7 @@ public:
 
   constexpr void __cordl_internal_set__zPositionAngleOffsetScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b94f60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b94bf8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

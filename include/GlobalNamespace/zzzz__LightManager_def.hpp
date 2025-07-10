@@ -72,19 +72,19 @@ public:
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method OnCameraPreRender, addr 0x39dd8ec, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreRender, addr 0x39dd578, size 0x544, virtual false, abstract: false, final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy, addr 0x39dde30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39ddabc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x39dd808, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39dd494, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39dd724, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39dd3b0, size 0xe4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetColors, addr 0x39dde34, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetColors, addr 0x39ddac0, size 0xe4, virtual false, abstract: false, final false
   inline void ResetColors();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightColors() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_lastRefreshFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39ddf18, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ddba4, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__directionalLightColorsID();

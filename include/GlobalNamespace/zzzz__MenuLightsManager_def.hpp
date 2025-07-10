@@ -80,21 +80,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b84880, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b84518, size 0x1e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MenuLightsManager__Start_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b84a60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b846f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b84a68, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b84700, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b84aa0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b84738, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b8487c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b84514, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
-  /// @brief Method .ctor, addr 0x3b83fe4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b83c7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -196,51 +196,51 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method CurrentColorForID, addr 0x3b84028, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CurrentColorForID, addr 0x3b83cc0, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color CurrentColorForID(int32_t lightId);
 
-  /// @brief Method GetLightForIndex, addr 0x3b84190, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetLightForIndex, addr 0x3b83e28, size 0xa0, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, ::UnityEngine::Color> GetLightForIndex(int32_t index);
 
-  /// @brief Method GetLightsCount, addr 0x3b8416c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLightsCount, addr 0x3b83e04, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetLightsCount();
 
-  /// @brief Method HandleTweenFinished, addr 0x3b8461c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandleTweenFinished, addr 0x3b842b4, size 0x58, virtual false, abstract: false, final false
   inline void HandleTweenFinished();
 
   static inline ::GlobalNamespace::MenuLightsManager* New_ctor();
 
-  /// @brief Method RefreshColors, addr 0x3b8476c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RefreshColors, addr 0x3b84404, size 0x8c, virtual false, abstract: false, final false
   inline void RefreshColors();
 
-  /// @brief Method ResetColorPresetToDefault, addr 0x3b844fc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ResetColorPresetToDefault, addr 0x3b84194, size 0x98, virtual false, abstract: false, final false
   inline void ResetColorPresetToDefault(bool animated);
 
-  /// @brief Method SaveOriginalColors, addr 0x3b842a8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SaveOriginalColors, addr 0x3b83f40, size 0xdc, virtual false, abstract: false, final false
   inline void SaveOriginalColors();
 
-  /// @brief Method SetAlphaMultiplier, addr 0x3b84674, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetAlphaMultiplier, addr 0x3b8430c, size 0xf8, virtual false, abstract: false, final false
   inline void SetAlphaMultiplier(float_t alphaMultiplier, bool animated, float_t duration);
 
-  /// @brief Method SetColor, addr 0x3b8400c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x3b83ca4, size 0x1c, virtual false, abstract: false, final false
   inline void SetColor(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method SetColorPreset, addr 0x3b84424, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetColorPreset, addr 0x3b840bc, size 0xd8, virtual false, abstract: false, final false
   inline void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated, float_t duration);
 
-  /// @brief Method SetDefaultPreset, addr 0x3b84384, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultPreset, addr 0x3b8401c, size 0xa0, virtual false, abstract: false, final false
   inline void SetDefaultPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
 
-  /// @brief Method SetTargetColors, addr 0x3b84230, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetTargetColors, addr 0x3b83ec8, size 0x78, virtual false, abstract: false, final false
   inline void SetTargetColors();
 
-  /// @brief Method Start, addr 0x3b83f84, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b83c1c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method StartLightAnimation, addr 0x3b84594, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StartLightAnimation, addr 0x3b8422c, size 0x88, virtual false, abstract: false, final false
   inline void StartLightAnimation(float_t duration);
 
-  /// @brief Method UpdateColors, addr 0x3b84048, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x3b83ce0, size 0x124, virtual false, abstract: false, final false
   inline void UpdateColors(float_t interpolationFactor);
 
   constexpr float_t const& __cordl_internal_get__alphaMultiplier() const;
@@ -285,7 +285,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b847f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b84490, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

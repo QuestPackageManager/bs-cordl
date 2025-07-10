@@ -31,19 +31,19 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x40ea168, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e9e00, size 0xe8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40ea0f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e9d88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x40ea118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40e9db0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40ea128, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40e9dc0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40ea120, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40e9db8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

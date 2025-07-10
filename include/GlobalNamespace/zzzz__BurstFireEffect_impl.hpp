@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::Awake)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3ad7168;
+  constexpr static std::size_t addrs = 0x3ad6df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), "Awake",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ad728c;
+  constexpr static std::size_t addrs = 0x3ad6f18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3ad7470;
+  constexpr static std::size_t addrs = 0x3ad70fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::BurstFireEffect::HandleColorChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3ad7528;
+  constexpr static std::size_t addrs = 0x3ad71b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(float_t)>(&::GlobalNamespace::BurstFireEffect::StartEffect)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ad769c;
+  constexpr static std::size_t addrs = 0x3ad7328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::EndEffect)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ad7670;
+  constexpr static std::size_t addrs = 0x3ad72fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), "EndEffect",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::SetInitialValues)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ad73c0;
+  constexpr static std::size_t addrs = 0x3ad704c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), "SetInitialValues",
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(float_t)>(&::GlobalNamespace::BurstFireEffect::UpdateFadeOutProgress)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3ad7800;
+  constexpr static std::size_t addrs = 0x3ad748c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ad7ae0;
+  constexpr static std::size_t addrs = 0x3ad776c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), ".ctor",

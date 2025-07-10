@@ -251,25 +251,25 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::XPathScanner* New_ctor(::StringW xpathExpr);
 
-  /// @brief Method NextChar, addr 0x430a144, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NextChar, addr 0x4309ddc, size 0x60, virtual false, abstract: false, final false
   inline bool NextChar();
 
-  /// @brief Method NextLex, addr 0x4308d88, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method NextLex, addr 0x4308a20, size 0x3bc, virtual false, abstract: false, final false
   inline bool NextLex();
 
-  /// @brief Method ScanFraction, addr 0x430a220, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanFraction, addr 0x4309eb8, size 0xb0, virtual false, abstract: false, final false
   inline double_t ScanFraction();
 
-  /// @brief Method ScanName, addr 0x430a458, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x430a0f0, size 0x78, virtual false, abstract: false, final false
   inline ::StringW ScanName();
 
-  /// @brief Method ScanNumber, addr 0x430a380, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ScanNumber, addr 0x430a018, size 0xd8, virtual false, abstract: false, final false
   inline double_t ScanNumber();
 
-  /// @brief Method ScanString, addr 0x430a2d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanString, addr 0x4309f68, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW ScanString();
 
-  /// @brief Method SkipSpace, addr 0x430a1e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SkipSpace, addr 0x4309e7c, size 0x3c, virtual false, abstract: false, final false
   inline void SkipSpace();
 
   constexpr bool const& __cordl_internal_get__canBeFunction() const;
@@ -332,31 +332,31 @@ public:
 
   constexpr void __cordl_internal_set__xpathExprIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43070cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4306d64, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW xpathExpr);
 
-  /// @brief Method get_CanBeFunction, addr 0x430a1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanBeFunction, addr 0x4309e74, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanBeFunction();
 
-  /// @brief Method get_CurrentChar, addr 0x430a1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentChar, addr 0x4309e44, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_CurrentChar();
 
-  /// @brief Method get_Kind, addr 0x430a1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x4309e4c, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::XPathScanner_LexKind get_Kind();
 
-  /// @brief Method get_Name, addr 0x430a1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4309e54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NumberValue, addr 0x430a1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberValue, addr 0x4309e6c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_NumberValue();
 
-  /// @brief Method get_Prefix, addr 0x430a1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x4309e5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SourceText, addr 0x430a1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceText, addr 0x4309e3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SourceText();
 
-  /// @brief Method get_StringValue, addr 0x430a1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StringValue, addr 0x4309e64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StringValue();
 
 protected:

@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49982c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4997f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +229,7 @@ public:
 
   static inline ::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass54_0* New_ctor();
 
-  /// @brief Method <UpdateItem>b__0, addr 0x4999448, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <UpdateItem>b__0, addr 0x49990e0, size 0x24, virtual false, abstract: false, final false
   inline bool _UpdateItem_b__0(::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* x);
 
   constexpr ::StringW const& __cordl_internal_get_itemName() const;
@@ -238,7 +238,7 @@ public:
 
   constexpr void __cordl_internal_set_itemName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49983f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4998088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -349,81 +349,81 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGenericMenu"
   constexpr operator ::UnityEngine::UIElements::IGenericMenu*() noexcept;
 
-  /// @brief Method AddDisabledItem, addr 0x49981f4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method AddDisabledItem, addr 0x4997e8c, size 0x10, virtual true, abstract: false, final true
   inline void AddDisabledItem(::StringW itemName, bool isChecked);
 
-  /// @brief Method AddItem, addr 0x4997e9c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AddItem, addr 0x4997b34, size 0x334, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::GenericDropdownMenu_MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data);
 
-  /// @brief Method AddItem, addr 0x4997e74, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method AddItem, addr 0x4997b0c, size 0x28, virtual true, abstract: false, final true
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
 
-  /// @brief Method AddItem, addr 0x49981d0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method AddItem, addr 0x4997e68, size 0x24, virtual true, abstract: false, final true
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action_1<::System::Object*>* action, ::System::Object* data);
 
-  /// @brief Method AddSeparator, addr 0x4998204, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AddSeparator, addr 0x4997e9c, size 0xc0, virtual true, abstract: false, final true
   inline void AddSeparator(::StringW path);
 
-  /// @brief Method Apply, addr 0x4997374, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x499700c, size 0x194, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method Apply, addr 0x4997338, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x4996fd0, size 0x3c, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
-  /// @brief Method ChangeSelectedIndex, addr 0x4997d38, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelectedIndex, addr 0x49979d0, size 0x13c, virtual false, abstract: false, final false
   inline void ChangeSelectedIndex(int32_t newIndex, int32_t previousIndex);
 
-  /// @brief Method DropDown, addr 0x49983f8, size 0x928, virtual true, abstract: false, final true
+  /// @brief Method DropDown, addr 0x4998090, size 0x928, virtual true, abstract: false, final true
   inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
 
-  /// @brief Method EnsureVisibilityInParent, addr 0x4998d20, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method EnsureVisibilityInParent, addr 0x49989b8, size 0x57c, virtual false, abstract: false, final false
   inline void EnsureVisibilityInParent();
 
-  /// @brief Method GetSelectedIndex, addr 0x4997508, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedIndex, addr 0x49971a0, size 0xa0, virtual false, abstract: false, final false
   inline int32_t GetSelectedIndex();
 
-  /// @brief Method Hide, addr 0x49972a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x4996f40, size 0x90, virtual false, abstract: false, final false
   inline void Hide(bool giveFocusBack);
 
   static inline ::UnityEngine::UIElements::GenericDropdownMenu* New_ctor();
 
-  /// @brief Method OnAttachToPanel, addr 0x4996af8, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method OnAttachToPanel, addr 0x4996790, size 0x418, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnContainerGeometryChanged, addr 0x49992a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnContainerGeometryChanged, addr 0x4998f3c, size 0x4, virtual false, abstract: false, final false
   inline void OnContainerGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnDetachFromPanel, addr 0x4996f10, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method OnDetachFromPanel, addr 0x4996ba8, size 0x398, virtual false, abstract: false, final false
   inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnFocusOut, addr 0x4997bdc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOut, addr 0x4997874, size 0x148, virtual false, abstract: false, final false
   inline void OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
 
-  /// @brief Method OnParentResized, addr 0x4997d24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnParentResized, addr 0x49979bc, size 0x14, virtual false, abstract: false, final false
   inline void OnParentResized(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnPointerDown, addr 0x499770c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x49973a4, size 0x12c, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove, addr 0x4997968, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x4997600, size 0x12c, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp, addr 0x4997a94, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x499772c, size 0x148, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnTargetElementDetachFromPanel, addr 0x499929c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnTargetElementDetachFromPanel, addr 0x4998f34, size 0x8, virtual false, abstract: false, final false
   inline void OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method UpdateItem, addr 0x49982cc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x4997f64, size 0x124, virtual false, abstract: false, final false
   inline void UpdateItem(::StringW itemName, bool isChecked);
 
-  /// @brief Method UpdateSelection, addr 0x4997838, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UpdateSelection, addr 0x49974d0, size 0x130, virtual false, abstract: false, final false
   inline void UpdateSelection(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method <Apply>g__UpdateSelectionDown|39_0, addr 0x4997650, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <Apply>g__UpdateSelectionDown|39_0, addr 0x49972e8, size 0xbc, virtual false, abstract: false, final false
   inline void _Apply_g__UpdateSelectionDown_39_0(int32_t newIndex, ::ByRef<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass39_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method <Apply>g__UpdateSelectionUp|39_1, addr 0x49975a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <Apply>g__UpdateSelectionUp|39_1, addr 0x4997240, size 0xa8, virtual false, abstract: false, final false
   inline void _Apply_g__UpdateSelectionUp_39_1(int32_t newIndex, ::ByRef<::UnityEngine::UIElements::GenericDropdownMenu___c__DisplayClass39_0> _cordl_fixed_empty_name_whitespace);
 
   constexpr bool const& __cordl_internal_get__closeOnParentResize_k__BackingField() const;
@@ -492,7 +492,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x49947e8, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4994480, size 0x2e8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_checkmarkUssClassName();
@@ -509,13 +509,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_closeOnParentResize, addr 0x4996ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_closeOnParentResize, addr 0x4996758, size 0x8, virtual false, abstract: false, final false
   inline bool get_closeOnParentResize();
 
-  /// @brief Method get_contentContainer, addr 0x4996ad4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x499676c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_isSingleSelectionDropdown, addr 0x4996aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSingleSelectionDropdown, addr 0x4996744, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSingleSelectionDropdown();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
@@ -535,10 +535,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_closeOnParentResize, addr 0x4996ac8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_closeOnParentResize, addr 0x4996760, size 0xc, virtual false, abstract: false, final false
   inline void set_closeOnParentResize(bool value);
 
-  /// @brief Method set_isSingleSelectionDropdown, addr 0x4996ab4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isSingleSelectionDropdown, addr 0x499674c, size 0xc, virtual false, abstract: false, final false
   inline void set_isSingleSelectionDropdown(bool value);
 
 protected:

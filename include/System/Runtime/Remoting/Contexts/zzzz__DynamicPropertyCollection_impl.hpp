@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg::*)()>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection_DynamicPropertyReg::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cdfda0;
+  constexpr static std::size_t addrs = 0x3cdfa38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)()>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::get_HasProperties)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3cdd710;
+  constexpr static std::size_t addrs = 0x3cdd3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(
     ::System::Runtime::Remoting::Contexts::IDynamicProperty*)>(&::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::RegisterDynamicProperty)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x3cdd914;
+  constexpr static std::size_t addrs = 0x3cdd5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::StringW)>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::UnregisterDynamicProperty)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3cddc70;
+  constexpr static std::size_t addrs = 0x3cdd908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(
     bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::NotifyMessage)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x3cddf3c;
+  constexpr static std::size_t addrs = 0x3cddbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::StringW)>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::FindProperty)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3cdfc3c;
+  constexpr static std::size_t addrs = 0x3cdf8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)()>(
     &::System::Runtime::Remoting::Contexts::DynamicPropertyCollection::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3cddddc;
+  constexpr static std::size_t addrs = 0x3cdda74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

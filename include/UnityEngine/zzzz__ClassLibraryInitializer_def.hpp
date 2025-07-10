@@ -48,10 +48,10 @@ public:
 
   static inline ::UnityEngine::ClassLibraryInitializer___c* New_ctor();
 
-  /// @brief Method <InitAssemblyRedirections>b__2_0, addr 0x48a93bc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <InitAssemblyRedirections>b__2_0, addr 0x48a9054, size 0x108, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* _InitAssemblyRedirections_b__2_0(::System::Object* _, ::System::ResolveEventArgs* args);
 
-  /// @brief Method .ctor, addr 0x48a93b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a904c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ClassLibraryInitializer___c* getStaticF___9();
@@ -94,13 +94,13 @@ public:
   // Declarations
   using __c = ::UnityEngine::ClassLibraryInitializer___c;
 
-  /// @brief Method Init, addr 0x48a9134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x48a8dcc, size 0x8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method InitAssemblyRedirections, addr 0x48a9264, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InitAssemblyRedirections, addr 0x48a8efc, size 0xf4, virtual false, abstract: false, final false
   static inline void InitAssemblyRedirections();
 
-  /// @brief Method InitStdErrWithHandle, addr 0x48a913c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method InitStdErrWithHandle, addr 0x48a8dd4, size 0x128, virtual false, abstract: false, final false
   static inline void InitStdErrWithHandle(::System::IntPtr fileHandle);
 
 protected:

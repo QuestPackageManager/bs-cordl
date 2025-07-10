@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit___c::*)()>(&::GlobalNamespace::MainSystemInit___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271b7cc;
+  constexpr static std::size_t addrs = 0x271b458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit___c*>::get(), ".ctor",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Random* (::GlobalNamespace::MainSystemInit___c::*)(::Zenject::InjectContext*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__44_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x271b7d4;
+  constexpr static std::size_t addrs = 0x271b460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__44_1)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x271b82c;
+  constexpr static std::size_t addrs = 0x271b4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MainSystemInit___c::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::MainSystemInit___c::_InstallBindings_b__44_2)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x271b89c;
+  constexpr static std::size_t addrs = 0x271b528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LeaderboardIdsModel* (
     ::GlobalNamespace::MainSystemInit___c::*)(::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::MainSystemInit___c::_InstallPlatformLeaderboardsModel_b__47_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x271b90c;
+  constexpr static std::size_t addrs = 0x271b598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::GlobalNamespace::SettingsApplicatorSO*)>(
     &::GlobalNamespace::MainSystemInit::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2719be4;
+  constexpr static std::size_t addrs = 0x2719870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallBindings)> {
   constexpr static std::size_t size = 0x16ec;
-  constexpr static std::size_t addrs = 0x2719c58;
+  constexpr static std::size_t addrs = 0x27198e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallRichPresence)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x271b43c;
+  constexpr static std::size_t addrs = 0x271b0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallOculusDestinationBindings)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x271b344;
+  constexpr static std::size_t addrs = 0x271afd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::MainSystemInit::InstallPlatformLeaderboardsModel)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x271b52c;
+  constexpr static std::size_t addrs = 0x271b1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallPS5Bindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x271b754;
+  constexpr static std::size_t addrs = 0x271b3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MainSystemInit::InstallPS4Bindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x271b758;
+  constexpr static std::size_t addrs = 0x271b3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSystemInit::*)()>(&::GlobalNamespace::MainSystemInit::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x271b75c;
+  constexpr static std::size_t addrs = 0x271b3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), ".ctor",

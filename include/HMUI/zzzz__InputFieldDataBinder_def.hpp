@@ -214,7 +214,7 @@ public:
   /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x39e9e1c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x39e9aa8, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
   static inline ::HMUI::InputFieldDataBinder* New_ctor();
@@ -230,7 +230,7 @@ public:
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*,
                                                                                                          ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x39e9d9c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e9a28, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

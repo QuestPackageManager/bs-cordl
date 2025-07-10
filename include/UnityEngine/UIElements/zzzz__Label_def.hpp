@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Label_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f2dd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2a6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Label_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49f2e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,10 +115,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x49f2c6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2904, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49f2cbc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f2954, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_ussClassName();

@@ -222,10 +222,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea480c, size 0x230, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea44a4, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea4a3c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea46d4, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -284,10 +284,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea4aa4, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea473c, size 0x2fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea4df0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea4a88, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -353,10 +353,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea4e58, size 0x520, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea4af0, size 0x520, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea5384, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea501c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -427,10 +427,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea53ec, size 0x378, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea5084, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea5764, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea53fc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -507,10 +507,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea57cc, size 0x650, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea5464, size 0x650, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea5ed8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea5b70, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -587,10 +587,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea5f40, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea5bd8, size 0x28c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea61cc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea5e64, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -667,10 +667,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea6234, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea5ecc, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea64f8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea6190, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -741,10 +741,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea6560, size 0x4d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea61f8, size 0x4d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea6b20, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea67b8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -815,10 +815,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea6b88, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea6820, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea6e4c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea6ae4, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -889,10 +889,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea6eb4, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea6b4c, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea71ac, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea6e44, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -963,10 +963,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea7214, size 0x63c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea6eac, size 0x63c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea7984, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea761c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1037,10 +1037,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea79ec, size 0x5f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea7684, size 0x5f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea7fe0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea7c78, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1111,10 +1111,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea8048, size 0x50c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea7ce0, size 0x50c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea8554, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea81ec, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1185,10 +1185,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea85bc, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea8254, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea88e4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea857c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1265,10 +1265,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea894c, size 0x550, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea85e4, size 0x550, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea8e9c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea8b34, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1339,10 +1339,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea8f04, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea8b9c, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea92c8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea8f60, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1419,10 +1419,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea9330, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea8fc8, size 0x290, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea95c0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea9258, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1504,10 +1504,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea9628, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea92c0, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea98ec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea9584, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1584,10 +1584,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea9954, size 0x574, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea95ec, size 0x574, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ea9ec8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea9b60, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1658,10 +1658,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ea9f30, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ea9bc8, size 0x2ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3eaa1dc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ea9e74, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1819,534 +1819,534 @@ public:
   /// @brief Field _writer, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::IO::TextWriter* _writer;
 
-  /// @brief Method Close, addr 0x3ea2c08, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3ea28a0, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CloseAsync, addr 0x3e9f294, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CloseAsync, addr 0x3e9ef2c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CloseAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CloseBufferAndWriter, addr 0x3ea2c24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CloseBufferAndWriter, addr 0x3ea28bc, size 0x48, virtual false, abstract: false, final false
   inline void CloseBufferAndWriter();
 
-  /// @brief Method CloseBufferAndWriterAsync, addr 0x3e9f378, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CloseBufferAndWriterAsync, addr 0x3e9f010, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CloseBufferAndWriterAsync();
 
-  /// @brief Method DoCloseAsync, addr 0x3e9f2a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method DoCloseAsync, addr 0x3e9ef40, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoCloseAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoFlushAsync, addr 0x3e9f01c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method DoFlushAsync, addr 0x3e9ecb4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoFlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteCommentAsync, addr 0x3ea24a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteCommentAsync, addr 0x3ea213c, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteCommentAsync(::StringW text, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteEndAsync, addr 0x3e9f148, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DoWriteEndAsync, addr 0x3e9ede0, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteEndAsync(::Newtonsoft::Json::JsonToken token, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteIndentAsync, addr 0x3e9f468, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DoWriteIndentAsync, addr 0x3e9f100, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteIndentAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteIndentSpaceAsync, addr 0x3e9f8d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DoWriteIndentSpaceAsync, addr 0x3e9f570, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteIndentSpaceAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteNullAsync, addr 0x3e9f9e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DoWriteNullAsync, addr 0x3e9f67c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteNullAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWritePropertyNameAsync, addr 0x3e9fec8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method DoWritePropertyNameAsync, addr 0x3e9fb60, size 0x154, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWritePropertyNameAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWritePropertyNameAsync, addr 0x3ea0120, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DoWritePropertyNameAsync, addr 0x3e9fdb8, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWritePropertyNameAsync(::StringW name, bool escape, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWritePropertyNameAsync, addr 0x3ea001c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoWritePropertyNameAsync, addr 0x3e9fcb4, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWritePropertyNameAsync(::System::Threading::Tasks::Task* task, ::StringW name, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteRawAsync, addr 0x3e9f95c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DoWriteRawAsync, addr 0x3e9f5f4, size 0x74, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteRawAsync(::StringW json, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteRawValueAsync, addr 0x3ea25fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DoWriteRawValueAsync, addr 0x3ea2294, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteRawValueAsync(::StringW json, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteRawValueAsync, addr 0x3ea26c8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteRawValueAsync, addr 0x3ea2360, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteRawValueAsync(::System::Threading::Tasks::Task* task, ::StringW json, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteStartArrayAsync, addr 0x3ea0220, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DoWriteStartArrayAsync, addr 0x3e9feb8, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteStartArrayAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteStartArrayAsync, addr 0x3ea02ec, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteStartArrayAsync, addr 0x3e9ff84, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteStartArrayAsync(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteStartConstructorAsync, addr 0x3ea0590, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteStartConstructorAsync, addr 0x3ea0228, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteStartConstructorAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteStartObjectAsync, addr 0x3ea03d8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DoWriteStartObjectAsync, addr 0x3ea0070, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteStartObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteStartObjectAsync, addr 0x3ea04a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteStartObjectAsync, addr 0x3ea013c, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteStartObjectAsync(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteUndefinedAsync, addr 0x3ea067c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DoWriteUndefinedAsync, addr 0x3ea0314, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteUndefinedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteUndefinedAsync, addr 0x3ea0778, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteUndefinedAsync, addr 0x3ea0410, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteUndefinedAsync(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1d6c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea1a04, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Threading::Tasks::Task* task, ::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1c44, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea18dc, size 0x128, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0d2c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea09c4, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::DateTime value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0eac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0b44, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::DateTimeOffset value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea107c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0d14, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Decimal value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1504, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea119c, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Guid value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0e18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0ab0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<::System::DateTime> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0fe8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0c80, size 0x80, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<::System::DateTimeOffset> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea117c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0e14, size 0x80, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<::System::Decimal> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1640, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea12d8, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<::System::Guid> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1f54, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea1bec, size 0x80, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<::System::TimeSpan> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea099c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0634, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<bool> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0c98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0930, size 0x80, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<char16_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1ba0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea1838, size 0x90, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<int16_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1708, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea13a0, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<int32_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea17d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea146c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<int64_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1ac4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea175c, size 0x90, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<int8_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea240c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea20a4, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<uint16_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea200c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea1ca4, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<uint32_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea20c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea1d5c, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<uint64_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0a60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea06f8, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::Nullable_1<uint8_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea1e68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea1b00, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(::System::TimeSpan value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0904, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea059c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(bool value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueAsync, addr 0x3ea0c00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueAsync, addr 0x3ea0898, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueAsync(char16_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteValueDelimiterAsync, addr 0x3e9f0c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DoWriteValueDelimiterAsync, addr 0x3e9ed5c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteValueDelimiterAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoWriteWhitespaceAsync, addr 0x3ea0864, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoWriteWhitespaceAsync, addr 0x3ea04fc, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DoWriteWhitespaceAsync(::StringW ws, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method EnsureWriteBuffer, addr 0x3ea27b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EnsureWriteBuffer, addr 0x3ea2448, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureWriteBuffer(int32_t length, int32_t copyTo);
 
-  /// @brief Method EnsureWriteBuffer, addr 0x3ea3508, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EnsureWriteBuffer, addr 0x3ea31a0, size 0x2c, virtual false, abstract: false, final false
   inline void EnsureWriteBuffer();
 
-  /// @brief Method Flush, addr 0x3ea2be8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x3ea2880, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x3e9f008, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x3e9eca0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::JsonTextWriter* New_ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method OnStringEscapeHandlingChanged, addr 0x3ea306c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnStringEscapeHandlingChanged, addr 0x3ea2d04, size 0x4, virtual true, abstract: false, final false
   inline void OnStringEscapeHandlingChanged();
 
-  /// @brief Method SetIndentChars, addr 0x3e9f52c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetIndentChars, addr 0x3e9f1c4, size 0xe8, virtual false, abstract: false, final false
   inline int32_t SetIndentChars();
 
-  /// @brief Method UpdateCharEscapeFlags, addr 0x3ea29f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCharEscapeFlags, addr 0x3ea268c, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateCharEscapeFlags();
 
-  /// @brief Method WriteComment, addr 0x3ea45e4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteComment, addr 0x3ea427c, size 0xb8, virtual true, abstract: false, final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteCommentAsync, addr 0x3ea2490, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteCommentAsync, addr 0x3ea2128, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteCommentAsync(::StringW text, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteDigitsAsync, addr 0x3e9fa58, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method WriteDigitsAsync, addr 0x3e9f6f0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteDigitsAsync(uint64_t uvalue, bool negative, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEnd, addr 0x3ea2d90, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method WriteEnd, addr 0x3ea2a28, size 0xf4, virtual true, abstract: false, final false
   inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method WriteEndArrayAsync, addr 0x3ea257c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteEndArrayAsync, addr 0x3ea2214, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteEndArrayAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEndAsync, addr 0x3e9f43c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method WriteEndAsync, addr 0x3e9f0d4, size 0x18, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteEndAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEndAsync, addr 0x3e9f134, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteEndAsync, addr 0x3e9edcc, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteEndAsync(::Newtonsoft::Json::JsonToken token, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEndConstructorAsync, addr 0x3ea25a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteEndConstructorAsync, addr 0x3ea2238, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteEndConstructorAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEndObjectAsync, addr 0x3ea25c4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteEndObjectAsync, addr 0x3ea225c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteEndObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEscapedString, addr 0x3ea2ed4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedString, addr 0x3ea2b6c, size 0xd4, virtual false, abstract: false, final false
   inline void WriteEscapedString(::StringW value, bool quote);
 
-  /// @brief Method WriteEscapedStringAsync, addr 0x3e9fe00, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedStringAsync, addr 0x3e9fa98, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteEscapedStringAsync(::StringW value, bool quote, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIndent, addr 0x3ea3070, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method WriteIndent, addr 0x3ea2d08, size 0x128, virtual true, abstract: false, final false
   inline void WriteIndent();
 
-  /// @brief Method WriteIndentAsync, addr 0x3e9f454, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteIndentAsync, addr 0x3e9f0ec, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIndentAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIndentAsync, addr 0x3e9f614, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WriteIndentAsync, addr 0x3e9f2ac, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIndentAsync(int32_t currentIndentCount, int32_t newLineLen, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIndentSpace, addr 0x3ea31c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteIndentSpace, addr 0x3ea2e58, size 0x28, virtual true, abstract: false, final false
   inline void WriteIndentSpace();
 
-  /// @brief Method WriteIndentSpaceAsync, addr 0x3e9f8c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteIndentSpaceAsync, addr 0x3e9f55c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIndentSpaceAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIntegerValue, addr 0x3ea3564, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValue, addr 0x3ea31fc, size 0x4c, virtual false, abstract: false, final false
   inline void WriteIntegerValue(int32_t value);
 
-  /// @brief Method WriteIntegerValue, addr 0x3ea35e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValue, addr 0x3ea3278, size 0x4c, virtual false, abstract: false, final false
   inline void WriteIntegerValue(int64_t value);
 
-  /// @brief Method WriteIntegerValue, addr 0x3ea479c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValue, addr 0x3ea4434, size 0x70, virtual false, abstract: false, final false
   inline void WriteIntegerValue(uint32_t value, bool negative);
 
-  /// @brief Method WriteIntegerValue, addr 0x3ea3690, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValue, addr 0x3ea3328, size 0x70, virtual false, abstract: false, final false
   inline void WriteIntegerValue(uint64_t value, bool negative);
 
-  /// @brief Method WriteIntegerValueAsync, addr 0x3e9fce4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValueAsync, addr 0x3e9f97c, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIntegerValueAsync(::System::Threading::Tasks::Task* task, uint64_t uvalue, bool negative, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIntegerValueAsync, addr 0x3e9fdf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValueAsync, addr 0x3e9fa8c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIntegerValueAsync(uint64_t uvalue, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIntegerValueAsync, addr 0x3e9fc14, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValueAsync, addr 0x3e9f8ac, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIntegerValueAsync(uint64_t uvalue, bool negative, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteIntegerValueAsync, addr 0x3e9fddc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method WriteIntegerValueAsync, addr 0x3e9fa74, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteIntegerValueAsync(int64_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteNull, addr 0x3ea331c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method WriteNull, addr 0x3ea2fb4, size 0x84, virtual true, abstract: false, final false
   inline void WriteNull();
 
-  /// @brief Method WriteNullAsync, addr 0x3e9f9d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteNullAsync, addr 0x3e9f668, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteNullAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteNumberToBuffer, addr 0x3ea46dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteNumberToBuffer, addr 0x3ea4374, size 0xc0, virtual false, abstract: false, final false
   inline int32_t WriteNumberToBuffer(uint32_t value, bool negative);
 
-  /// @brief Method WriteNumberToBuffer, addr 0x3e9fb34, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteNumberToBuffer, addr 0x3e9f7cc, size 0xe0, virtual false, abstract: false, final false
   inline int32_t WriteNumberToBuffer(uint64_t value, bool negative);
 
-  /// @brief Method WritePropertyName, addr 0x3ea2e84, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WritePropertyName, addr 0x3ea2b1c, size 0x50, virtual true, abstract: false, final false
   inline void WritePropertyName(::StringW name);
 
-  /// @brief Method WritePropertyName, addr 0x3ea2fa8, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method WritePropertyName, addr 0x3ea2c40, size 0xc4, virtual true, abstract: false, final false
   inline void WritePropertyName(::StringW name, bool escape);
 
-  /// @brief Method WritePropertyNameAsync, addr 0x3e9feb4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WritePropertyNameAsync, addr 0x3e9fb4c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WritePropertyNameAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WritePropertyNameAsync, addr 0x3ea0104, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WritePropertyNameAsync, addr 0x3e9fd9c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WritePropertyNameAsync(::StringW name, bool escape, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteRaw, addr 0x3ea3424, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x3ea30bc, size 0x40, virtual true, abstract: false, final false
   inline void WriteRaw(::StringW json);
 
-  /// @brief Method WriteRawAsync, addr 0x3e9f948, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteRawAsync, addr 0x3e9f5e0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteRawAsync(::StringW json, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteRawValueAsync, addr 0x3ea25e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteRawValueAsync, addr 0x3ea2280, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteRawValueAsync(::StringW json, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteStartArray, addr 0x3ea2ca8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteStartArray, addr 0x3ea2940, size 0x3c, virtual true, abstract: false, final false
   inline void WriteStartArray();
 
-  /// @brief Method WriteStartArrayAsync, addr 0x3ea020c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteStartArrayAsync, addr 0x3e9fea4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteStartArrayAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteStartConstructor, addr 0x3ea2ce4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteStartConstructor, addr 0x3ea297c, size 0xac, virtual true, abstract: false, final false
   inline void WriteStartConstructor(::StringW name);
 
-  /// @brief Method WriteStartConstructorAsync, addr 0x3ea057c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteStartConstructorAsync, addr 0x3ea0214, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteStartConstructorAsync(::StringW name, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteStartObject, addr 0x3ea2c6c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObject, addr 0x3ea2904, size 0x3c, virtual true, abstract: false, final false
   inline void WriteStartObject();
 
-  /// @brief Method WriteStartObjectAsync, addr 0x3ea03c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteStartObjectAsync, addr 0x3ea005c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteStartObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteUndefined, addr 0x3ea33a0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method WriteUndefined, addr 0x3ea3038, size 0x84, virtual true, abstract: false, final false
   inline void WriteUndefined();
 
-  /// @brief Method WriteUndefinedAsync, addr 0x3ea0668, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteUndefinedAsync, addr 0x3ea0300, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteUndefinedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValue, addr 0x3ea3f8c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3c24, size 0xb8, virtual true, abstract: false, final false
   inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method WriteValue, addr 0x3ea3464, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea30fc, size 0xa4, virtual true, abstract: false, final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method WriteValue, addr 0x3ea3cdc, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3974, size 0x184, virtual true, abstract: false, final false
   inline void WriteValue(::System::DateTime value);
 
-  /// @brief Method WriteValue, addr 0x3ea4044, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3cdc, size 0x15c, virtual true, abstract: false, final false
   inline void WriteValue(::System::DateTimeOffset value);
 
-  /// @brief Method WriteValue, addr 0x3ea3c3c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea38d4, size 0xa0, virtual true, abstract: false, final false
   inline void WriteValue(::System::Decimal value);
 
-  /// @brief Method WriteValue, addr 0x3ea4314, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3fac, size 0xfc, virtual true, abstract: false, final false
   inline void WriteValue(::System::Guid value);
 
-  /// @brief Method WriteValue, addr 0x3ea394c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea35e4, size 0x100, virtual true, abstract: false, final false
   inline void WriteValue(::System::Nullable_1<double_t> value);
 
-  /// @brief Method WriteValue, addr 0x3ea37ac, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3444, size 0xf4, virtual true, abstract: false, final false
   inline void WriteValue(::System::Nullable_1<float_t> value);
 
-  /// @brief Method WriteValue, addr 0x3ea320c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea2ea4, size 0x110, virtual true, abstract: false, final false
   inline void WriteValue(::System::Object* value);
 
-  /// @brief Method WriteValue, addr 0x3ea4410, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea40a8, size 0x114, virtual true, abstract: false, final false
   inline void WriteValue(::System::TimeSpan value);
 
-  /// @brief Method WriteValue, addr 0x3ea4524, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea41bc, size 0xc0, virtual true, abstract: false, final false
   inline void WriteValue(::System::Uri* value);
 
-  /// @brief Method WriteValue, addr 0x3ea3a4c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea36e4, size 0x98, virtual true, abstract: false, final false
   inline void WriteValue(bool value);
 
-  /// @brief Method WriteValue, addr 0x3ea3b44, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea37dc, size 0x98, virtual true, abstract: false, final false
   inline void WriteValue(char16_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea38a0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3538, size 0xac, virtual true, abstract: false, final false
   inline void WriteValue(double_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea3700, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3398, size 0xac, virtual true, abstract: false, final false
   inline void WriteValue(float_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea3ae4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea377c, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(int16_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea3534, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea31cc, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(int32_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea362c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea32c4, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(int64_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea3c0c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea38a4, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(int8_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea3b14, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea37ac, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(uint16_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea35b0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3248, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(uint32_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea365c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea32f4, size 0x34, virtual true, abstract: false, final false
   inline void WriteValue(uint64_t value);
 
-  /// @brief Method WriteValue, addr 0x3ea3bdc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x3ea3874, size 0x30, virtual true, abstract: false, final false
   inline void WriteValue(uint8_t value);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0ae4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea077c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1c30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea18c8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0d18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea09b0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::DateTime value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0e98, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0b30, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::DateTimeOffset value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1068, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0d00, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Decimal value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea14f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1188, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Guid value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0e04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0a9c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<::System::DateTime> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0f94, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0c2c, size 0x54, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<::System::DateTimeOffset> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1108, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0da0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<::System::Decimal> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea15ec, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1284, size 0x54, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<::System::Guid> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1f40, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1bd8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<::System::TimeSpan> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0980, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0618, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<bool> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0c7c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0914, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<char16_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea12b8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0f50, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<double_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1434, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea10cc, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<float_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1b84, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea181c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<int16_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea16f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea138c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<int32_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea17c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1458, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<int64_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1aa8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1740, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<int8_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea23f0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea2088, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<uint16_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1ff8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1c90, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<uint32_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea20b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1d48, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<uint64_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0a44, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea06dc, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Nullable_1<uint8_t> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1860, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea14f8, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Numerics::BigInteger value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1920, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea15b8, size 0x158, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Object* value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1e54, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1aec, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::TimeSpan value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea2148, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1de0, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(::System::Uri* value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea08e8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0580, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(bool value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0bec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0884, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(char16_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea11fc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0e94, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(double_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea121c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea0eb4, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(double_t value, bool nullable, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1378, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1010, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(float_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1398, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1030, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(float_t value, bool nullable, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1b54, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea17ec, size 0x30, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(int16_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea16c4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea135c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(int32_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1794, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea142c, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(int64_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1a78, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1710, size 0x30, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(int8_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea23cc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea2064, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(uint16_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea1fd4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1c6c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(uint32_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea2090, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea1d28, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(uint64_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueAsync, addr 0x3ea0a20, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteValueAsync, addr 0x3ea06b8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueAsync(uint8_t value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueDelimiter, addr 0x3ea3198, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteValueDelimiter, addr 0x3ea2e30, size 0x28, virtual true, abstract: false, final false
   inline void WriteValueDelimiter();
 
-  /// @brief Method WriteValueDelimiterAsync, addr 0x3e9f0b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteValueDelimiterAsync, addr 0x3e9ed48, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueDelimiterAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueInternal, addr 0x3ea31e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteValueInternal, addr 0x3ea2e80, size 0x24, virtual false, abstract: false, final false
   inline void WriteValueInternal(::StringW value, ::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method WriteValueInternalAsync, addr 0x3e9f7dc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WriteValueInternalAsync, addr 0x3e9f474, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueInternalAsync(::System::Threading::Tasks::Task* task, ::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueInternalAsync, addr 0x3e9f6fc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteValueInternalAsync, addr 0x3e9f394, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueInternalAsync(::Newtonsoft::Json::JsonToken token, ::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueNonNullAsync, addr 0x3ea0b14, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteValueNonNullAsync, addr 0x3ea07ac, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueNonNullAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueNotNullAsync, addr 0x3ea22e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WriteValueNotNullAsync, addr 0x3ea1f7c, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueNotNullAsync(::System::Threading::Tasks::Task* task, ::System::Uri* value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueNotNullAsync, addr 0x3ea2214, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WriteValueNotNullAsync, addr 0x3ea1eac, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteValueNotNullAsync(::System::Uri* value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteValueToBuffer, addr 0x3ea3e60, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method WriteValueToBuffer, addr 0x3ea3af8, size 0x12c, virtual false, abstract: false, final false
   inline int32_t WriteValueToBuffer(::System::DateTime value);
 
-  /// @brief Method WriteValueToBuffer, addr 0x3ea41a0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method WriteValueToBuffer, addr 0x3ea3e38, size 0x174, virtual false, abstract: false, final false
   inline int32_t WriteValueToBuffer(::System::DateTimeOffset value);
 
-  /// @brief Method WriteWhitespace, addr 0x3ea469c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteWhitespace, addr 0x3ea4334, size 0x40, virtual true, abstract: false, final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method WriteWhitespaceAsync, addr 0x3ea0850, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method WriteWhitespaceAsync, addr 0x3ea04e8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteWhitespaceAsync(::StringW ws, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>* const& __cordl_internal_get__arrayPool() const;
@@ -2415,40 +2415,40 @@ public:
 
   constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
 
-  /// @brief Method .ctor, addr 0x3ea2a94, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ea272c, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method get_ArrayPool, addr 0x3ea28b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayPool, addr 0x3ea2550, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method get_Base64Encoder, addr 0x3ea284c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Base64Encoder, addr 0x3ea24e4, size 0x6c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();
 
-  /// @brief Method get_IndentChar, addr 0x3ea2a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IndentChar, addr 0x3ea26f8, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_IndentChar();
 
-  /// @brief Method get_Indentation, addr 0x3ea291c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Indentation, addr 0x3ea25b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Indentation();
 
-  /// @brief Method get_QuoteChar, addr 0x3ea2980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3ea2618, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_QuoteName, addr 0x3ea2a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QuoteName, addr 0x3ea2718, size 0x8, virtual false, abstract: false, final false
   inline bool get_QuoteName();
 
-  /// @brief Method set_ArrayPool, addr 0x3ea28c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ArrayPool, addr 0x3ea2558, size 0x5c, virtual false, abstract: false, final false
   inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method set_IndentChar, addr 0x3ea2a68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_IndentChar, addr 0x3ea2700, size 0x18, virtual false, abstract: false, final false
   inline void set_IndentChar(char16_t value);
 
-  /// @brief Method set_Indentation, addr 0x3ea2924, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_Indentation, addr 0x3ea25bc, size 0x5c, virtual false, abstract: false, final false
   inline void set_Indentation(int32_t value);
 
-  /// @brief Method set_QuoteChar, addr 0x3ea2988, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3ea2620, size 0x6c, virtual false, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method set_QuoteName, addr 0x3ea2a88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_QuoteName, addr 0x3ea2720, size 0xc, virtual false, abstract: false, final false
   inline void set_QuoteName(bool value);
 
 protected:

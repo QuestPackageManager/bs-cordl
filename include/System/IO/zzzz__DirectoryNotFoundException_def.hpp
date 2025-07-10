@@ -31,13 +31,13 @@ public:
 
   static inline ::System::IO::DirectoryNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d373b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d37048, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d37454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d370ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d37430, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d370c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

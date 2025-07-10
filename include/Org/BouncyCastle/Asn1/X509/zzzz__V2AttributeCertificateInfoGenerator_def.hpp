@@ -82,39 +82,39 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method AddAttribute, addr 0x26138a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x2613930, size 0x1c, virtual false, abstract: false, final false
   inline void AddAttribute(::Org::BouncyCastle::Asn1::X509::AttributeX509* attribute);
 
-  /// @brief Method AddAttribute, addr 0x26137bc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x261384c, size 0xe4, virtual false, abstract: false, final false
   inline void AddAttribute(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GenerateAttributeCertificateInfo, addr 0x26138f4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateAttributeCertificateInfo, addr 0x2613984, size 0x2cc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo* GenerateAttributeCertificateInfo();
 
   static inline ::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator* New_ctor();
 
-  /// @brief Method SetEndDate, addr 0x26138dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x261396c, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* endDate);
 
-  /// @brief Method SetExtensions, addr 0x26138ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExtensions, addr 0x261397c, size 0x8, virtual false, abstract: false, final false
   inline void SetExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method SetHolder, addr 0x26137b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHolder, addr 0x2613844, size 0x8, virtual false, abstract: false, final false
   inline void SetHolder(::Org::BouncyCastle::Asn1::X509::Holder* holder);
 
-  /// @brief Method SetIssuer, addr 0x26138cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x261395c, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
-  /// @brief Method SetIssuerUniqueID, addr 0x26138e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerUniqueID, addr 0x2613974, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuerUniqueID(::Org::BouncyCastle::Asn1::DerBitString* issuerUniqueID);
 
-  /// @brief Method SetSerialNumber, addr 0x26138bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x261394c, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature, addr 0x26138c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSignature, addr 0x2613954, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetStartDate, addr 0x26138d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x2613964, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* startDate);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& __cordl_internal_get_attributes() const;
@@ -177,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x2613718, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26137a8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

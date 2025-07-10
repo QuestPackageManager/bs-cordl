@@ -70,21 +70,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39ef0c0, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39eed4c, size 0xe8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::HoverTextController__HideTextCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39ef1a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39eee34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39ef1b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39eee3c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39ef1e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39eee74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39ef0bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39eed48, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
-  /// @brief Method .ctor, addr 0x39ef078, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eed04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -184,21 +184,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39ef1f4, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39eee80, size 0x154, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::HoverTextController__ShowTextCoroutine_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39ef348, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39eefd4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39ef350, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39eefdc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39ef388, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39ef014, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39ef1f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39eee7c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
-  /// @brief Method .ctor, addr 0x39eef84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eec10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -298,27 +298,27 @@ public:
   /// @brief Field _textMesh, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMesh, put = __cordl_internal_set__textMesh)) ::UnityW<::TMPro::TextMeshProUGUI> _textMesh;
 
-  /// @brief Method Awake, addr 0x39eee50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39eeadc, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HideText, addr 0x39eefac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HideText, addr 0x39eec38, size 0x6c, virtual false, abstract: false, final false
   inline void HideText();
 
-  /// @brief Method HideTextCoroutine, addr 0x39ef018, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HideTextCoroutine, addr 0x39eeca4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideTextCoroutine();
 
   static inline ::HMUI::HoverTextController* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x39eee98, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x39eeb24, size 0x2c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x39eee70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39eeafc, size 0x28, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ShowText, addr 0x39eeec4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x39eeb50, size 0x60, virtual false, abstract: false, final false
   inline void ShowText(::StringW text);
 
-  /// @brief Method ShowTextCoroutine, addr 0x39eef24, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowTextCoroutine, addr 0x39eebb0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowTextCoroutine();
 
   constexpr float_t const& __cordl_internal_get__fadeInDelay() const;
@@ -357,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set__textMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39ef0a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eed2c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

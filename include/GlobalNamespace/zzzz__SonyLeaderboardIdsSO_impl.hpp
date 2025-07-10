@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData::*)()>(
     &::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData::get_difficultyBeatmapId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26cecd0;
+  constexpr static std::size_t addrs = 0x26ce91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData::*)()>(
     &::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData::get_sonyLeaderboardId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26cecd8;
+  constexpr static std::size_t addrs = 0x26ce924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData::*)(uint32_t, ::StringW)>(
     &::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26cece0;
+  constexpr static std::size_t addrs = 0x26ce92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* (
     ::GlobalNamespace::SonyLeaderboardIdsSO::*)()>(&::GlobalNamespace::SonyLeaderboardIdsSO::ILeaderboardIdContainer_get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26cebe8;
+  constexpr static std::size_t addrs = 0x26ce834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData*>* (
     ::GlobalNamespace::SonyLeaderboardIdsSO::*)()>(&::GlobalNamespace::SonyLeaderboardIdsSO::get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26cebf0;
+  constexpr static std::size_t addrs = 0x26ce83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLeaderboardIdsSO*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLeaderboardIdsSO::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::SonyLeaderboardIdsSO_LeaderboardIdData*>*)>(&::GlobalNamespace::SonyLeaderboardIdsSO::set_leaderboardIds)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26cebf8;
+  constexpr static std::size_t addrs = 0x26ce844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLeaderboardIdsSO::*)()>(&::GlobalNamespace::SonyLeaderboardIdsSO::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26cec54;
+  constexpr static std::size_t addrs = 0x26ce8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLeaderboardIdsSO*>::get(), ".ctor",

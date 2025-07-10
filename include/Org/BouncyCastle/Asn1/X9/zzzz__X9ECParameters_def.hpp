@@ -78,10 +78,10 @@ public:
   /// @brief Field seed, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed)) ::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
-  /// @brief Method GetInstance, addr 0x26281bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x262824c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetSeed, addr 0x2629014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x26290a4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Asn1::X9::X9ECPoint* g,
@@ -101,7 +101,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2629090, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2629120, size 0x284, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve* const& __cordl_internal_get_curve() const;
@@ -140,45 +140,45 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x262522c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26252bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Asn1::X9::X9ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor, addr 0x2623b68, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2623bf8, size 0x350, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Asn1::X9::X9ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0x2628a9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628b2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method .ctor, addr 0x2628b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor, addr 0x2628aa8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628b38, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0x26285e8, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2628678, size 0x3d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_BaseEntry, addr 0x2629088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseEntry, addr 0x2629118, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* get_BaseEntry();
 
-  /// @brief Method get_Curve, addr 0x2628fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Curve, addr 0x2629074, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
 
-  /// @brief Method get_CurveEntry, addr 0x262901c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_CurveEntry, addr 0x26290ac, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9Curve* get_CurveEntry();
 
-  /// @brief Method get_FieldIDEntry, addr 0x2629080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FieldIDEntry, addr 0x2629110, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* get_FieldIDEntry();
 
-  /// @brief Method get_G, addr 0x2628fec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x262907c, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_G();
 
-  /// @brief Method get_H, addr 0x262900c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_H, addr 0x262909c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_H();
 
-  /// @brief Method get_N, addr 0x2629004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_N, addr 0x2629094, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
 protected:

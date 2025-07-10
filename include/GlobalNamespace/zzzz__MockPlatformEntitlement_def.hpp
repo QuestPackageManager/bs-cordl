@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_status)) ::GlobalNamespace::EntitlementStatus status;
 
-  /// @brief Method GetIt, addr 0x26a51ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIt, addr 0x26a4e38, size 0xc, virtual false, abstract: false, final false
   inline void GetIt();
 
   static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
 
-  /// @brief Method .ctor, addr 0x26a51f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a4e44, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
 
-  /// @brief Method get_id, addr 0x26a6318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x26a5f64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_status, addr 0x26a6320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x26a5f6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EntitlementStatus get_status();
 
 protected:

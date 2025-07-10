@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::AddressFamily (::System::Net::EndPoint::*)()>(&::System::Net::EndPoint::get_AddressFamily)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x449ee30;
+  constexpr static std::size_t addrs = 0x449eac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::SocketAddress* (::System::Net::EndPoint::*)()>(&::System::Net::EndPoint::Serialize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x449eed4;
+  constexpr static std::size_t addrs = 0x449eb6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::EndPoint* (::System::Net::EndPoint::*)(::System::Net::SocketAddress*)>(
     &::System::Net::EndPoint::Create)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x449ef78;
+  constexpr static std::size_t addrs = 0x449ec10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::EndPoint::*)()>(&::System::Net::EndPoint::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x449ef9c;
+  constexpr static std::size_t addrs = 0x449ec34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::EndPoint*>::get(), ".ctor",

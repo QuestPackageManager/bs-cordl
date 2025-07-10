@@ -3,70 +3,103 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayColorScheme_def.hpp"
+#include "GlobalNamespace/zzzz__ILightshowColorScheme_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeExtensions.ResolveColorScheme
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::ColorScheme*)>(
+    static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::ColorScheme*, bool)>(
         &::GlobalNamespace::ColorSchemeExtensions::ResolveColorScheme)> {
-  constexpr static std::size_t size = 0xa3c;
-  constexpr static std::size_t addrs = 0x26a146c;
+  constexpr static std::size_t size = 0x528;
+  constexpr static std::size_t addrs = 0x26a14fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "ResolveColorScheme", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get() })));
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ColorSchemeExtensions.ResolveColor
+//  Writing Method size for method: ::GlobalNamespace::ColorSchemeExtensions.GetColorSchemeForLightshowOverride
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Color (*)(::System::Nullable_1<::UnityEngine::Color>, bool, ::System::Nullable_1<bool>, ::System::Nullable_1<::UnityEngine::Color>, ::UnityEngine::Color)>(
-        &::GlobalNamespace::ColorSchemeExtensions::ResolveColor)> {
+    static_cast<::GlobalNamespace::ILightshowColorScheme* (*)(::GlobalNamespace::ILightshowColorScheme*, bool, ::GlobalNamespace::ILightshowColorScheme*, ::GlobalNamespace::ILightshowColorScheme*,
+                                                              bool)>(&::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForLightshowOverride)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x26a1ea8;
+  constexpr static std::size_t addrs = 0x26a1af4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "ResolveColor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::UnityEngine::Color>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::UnityEngine::Color>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "GetColorSchemeForLightshowOverride", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILightshowColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILightshowColorScheme*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILightshowColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ColorSchemeExtensions.GetColorSchemeForGameplayOverride
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::IGameplayColorScheme* (*)(::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, bool)>(
+        &::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForGameplayOverride)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x26a1a24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "GetColorSchemeForGameplayOverride", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayColorScheme*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayColorScheme*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayColorScheme*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 inline ::GlobalNamespace::ColorScheme* GlobalNamespace::ColorSchemeExtensions::ResolveColorScheme(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
                                                                                                   ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme,
-                                                                                                  ::GlobalNamespace::ColorScheme* environmentColorScheme) {
+                                                                                                  ::GlobalNamespace::ColorScheme* environmentColorScheme, bool usingBeatmapDefaultEnvironment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "ResolveColorScheme", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get() })));
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorScheme*, false>(nullptr, ___internal_method, playerOverrideColorScheme, playerOverrideLightshowColors, beatmapOverrideColorScheme,
-                                                                                     environmentColorScheme);
+                                                                                     environmentColorScheme, usingBeatmapDefaultEnvironment);
 }
-inline ::UnityEngine::Color GlobalNamespace::ColorSchemeExtensions::ResolveColor(::System::Nullable_1<::UnityEngine::Color> playerOverrideColor, bool usePlayerOverride,
-                                                                                 ::System::Nullable_1<bool> useBeatmapOverride, ::System::Nullable_1<::UnityEngine::Color> beatmapOverrideColor,
-                                                                                 ::UnityEngine::Color environmentColor) {
+inline ::GlobalNamespace::ILightshowColorScheme* GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForLightshowOverride(::GlobalNamespace::ILightshowColorScheme* playerOverrideColorScheme,
+                                                                                                                            bool playerOverrideLightshowColors,
+                                                                                                                            ::GlobalNamespace::ILightshowColorScheme* beatmapOverrideColorScheme,
+                                                                                                                            ::GlobalNamespace::ILightshowColorScheme* environmentColorScheme,
+                                                                                                                            bool usingBeatmapDefaultEnvironment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "ResolveColor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::UnityEngine::Color>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::UnityEngine::Color>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(nullptr, ___internal_method, playerOverrideColor, usePlayerOverride, useBeatmapOverride, beatmapOverrideColor,
-                                                                          environmentColor);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "GetColorSchemeForLightshowOverride", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILightshowColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILightshowColorScheme*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILightshowColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ILightshowColorScheme*, false>(nullptr, ___internal_method, playerOverrideColorScheme, playerOverrideLightshowColors,
+                                                                                               beatmapOverrideColorScheme, environmentColorScheme, usingBeatmapDefaultEnvironment);
+}
+inline ::GlobalNamespace::IGameplayColorScheme* GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForGameplayOverride(::GlobalNamespace::IGameplayColorScheme* playerOverrideColorScheme,
+                                                                                                                          ::GlobalNamespace::IGameplayColorScheme* beatmapOverrideColorScheme,
+                                                                                                                          ::GlobalNamespace::IGameplayColorScheme* environmentColorScheme,
+                                                                                                                          bool usingBeatmapDefaultEnvironment) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeExtensions*>::get(), "GetColorSchemeForGameplayOverride", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayColorScheme*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayColorScheme*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayColorScheme*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IGameplayColorScheme*, false>(nullptr, ___internal_method, playerOverrideColorScheme, beatmapOverrideColorScheme,
+                                                                                              environmentColorScheme, usingBeatmapDefaultEnvironment);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeExtensions::ColorSchemeExtensions() {}

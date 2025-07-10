@@ -94,7 +94,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
   constexpr operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder*() noexcept;
 
-  /// @brief Method GetPassword, addr 0x22ec744, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetPassword, addr 0x22ec7d4, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<char16_t, ::Array<char16_t>*> GetPassword();
 
   static inline ::GlobalNamespace::X509CertificateUtility_PasswordFinder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password);
@@ -107,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set__password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22ec650, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ec6e0, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
-  /// @brief Method .ctor, addr 0x22ec708, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ec798, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password);
 
   /// @brief Convert to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
@@ -160,12 +160,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x22ec858, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22ec8e8, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
-  /// @brief Method SignData, addr 0x22ec85c, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method SignData, addr 0x22ec8ec, size 0x194, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SignData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length);
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get__signer() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__signer(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x22ec74c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ec7dc, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
   /// @brief Convert to "::GlobalNamespace::ICertificateEncryptionProvider"
@@ -229,13 +229,13 @@ public:
 
   static inline ::GlobalNamespace::X509CertificateUtility___c* New_ctor();
 
-  /// @brief Method <ValidateCertificateChainDotNet>b__12_0, addr 0x22ecab8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ValidateCertificateChainDotNet>b__12_0, addr 0x22ecb48, size 0x64, virtual false, abstract: false, final false
   inline ::StringW _ValidateCertificateChainDotNet_b__12_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
 
-  /// @brief Method <ValidateCertificateChainUnity>b__11_0, addr 0x22eca54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ValidateCertificateChainUnity>b__11_0, addr 0x22ecae4, size 0x64, virtual false, abstract: false, final false
   inline ::StringW _ValidateCertificateChainUnity_b__11_0(::System::Security::Cryptography::X509Certificates::X509ChainStatus s);
 
-  /// @brief Method .ctor, addr 0x22eca4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ecadc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::X509CertificateUtility___c* getStaticF___9();
@@ -330,30 +330,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22ecb6c, size 0x510, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22ecbfc, size 0x510, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator, addr 0x22ed180, size 0xa4, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Cryptography.X509Certificates.X509Certificate2>.GetEnumerator, addr 0x22ed210, size 0xa4, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*
   System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current, addr 0x22ed138, size 0x8, virtual true, abstract: false, final
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Cryptography.X509Certificates.X509Certificate2>.get_Current, addr 0x22ed1c8, size 0x8, virtual true, abstract: false, final
   /// true
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x22ed224, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x22ed2b4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22ed140, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22ed1d0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22ed178, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22ed208, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22ecb50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22ecbe0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -410,10 +410,10 @@ public:
 
   constexpr void __cordl_internal_set_certificatePem(::StringW value);
 
-  /// @brief Method <>m__Finally1, addr 0x22ed07c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x22ed10c, size 0xbc, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x22ecb1c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ecbac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>"
@@ -527,32 +527,32 @@ public:
   /// @brief Field kBeatSaberDotComRootCertificate, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kBeatSaberDotComRootCertificate, put = setStaticF_kBeatSaberDotComRootCertificate)) ::StringW kBeatSaberDotComRootCertificate;
 
-  /// @brief Method GetCertificateEncryptionProvider, addr 0x22eb3b8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateEncryptionProvider, addr 0x22eb448, size 0xa4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ICertificateEncryptionProvider* GetCertificateEncryptionProvider(::StringW privateKeyPem, ::StringW password);
 
-  /// @brief Method GetCertificateList, addr 0x22eb2c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateList, addr 0x22eb358, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* GetCertificateList(::StringW certificatePem,
                                                                                                                                                          ::StringW certificateChainPem);
 
-  /// @brief Method GetRSACertificateEncryptionProvider, addr 0x22eb45c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetRSACertificateEncryptionProvider, addr 0x22eb4ec, size 0x1e8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider*
   GetRSACertificateEncryptionProvider(::StringW privateKeyPem, ::GlobalNamespace::X509CertificateUtility_PasswordFinder* passwordFinder);
 
-  /// @brief Method GetRootCertificates, addr 0x22eb204, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetRootCertificates, addr 0x22eb294, size 0xc4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::System::Security::Cryptography::X509Certificates::X509Certificate2*>*> GetRootCertificates();
 
-  /// @brief Method GetRootCertificatesRaw, addr 0x22eb340, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetRootCertificatesRaw, addr 0x22eb3d0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW GetRootCertificatesRaw();
 
-  /// @brief Method ValidateCertificateChain, addr 0x22eb644, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChain, addr 0x22eb6d4, size 0x64, virtual false, abstract: false, final false
   static inline void ValidateCertificateChain(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                               ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainDotNet, addr 0x22ec0e8, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainDotNet, addr 0x22ec178, size 0x4dc, virtual false, abstract: false, final false
   static inline void ValidateCertificateChainDotNet(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                     ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainUnity, addr 0x22eb6a8, size 0xa40, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainUnity, addr 0x22eb738, size 0xa40, virtual false, abstract: false, final false
   static inline void ValidateCertificateChainUnity(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                    ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 

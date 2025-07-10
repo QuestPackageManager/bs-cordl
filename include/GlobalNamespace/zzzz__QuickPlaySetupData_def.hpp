@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_packName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d7c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d78c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d7c84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d78d0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -236,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set_packId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d7d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack*>* value);
 
-  /// @brief Method .ctor, addr 0x26d7bb8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7804, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -368,10 +368,10 @@ public:
 
   constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride* value);
 
-  /// @brief Method .ctor, addr 0x26d7bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d77fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOverride, addr 0x26d7b28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverride, addr 0x26d7774, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();
 
 protected:

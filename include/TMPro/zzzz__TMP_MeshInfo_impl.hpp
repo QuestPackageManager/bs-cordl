@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(::UnityEngine::Mesh*, int32_t)>(&::TMPro::TMP_MeshInfo::_ctor)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x47fb61c;
+  constexpr static std::size_t addrs = 0x47fb2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(::UnityEngine::Mesh*, int32_t, bool)>(&::TMPro::TMP_MeshInfo::_ctor)> {
   constexpr static std::size_t size = 0x784;
-  constexpr static std::size_t addrs = 0x47fbb10;
+  constexpr static std::size_t addrs = 0x47fb7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(int32_t)>(&::TMPro::TMP_MeshInfo::ResizeMeshInfo)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x47fc294;
+  constexpr static std::size_t addrs = 0x47fbf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(int32_t, bool)>(&::TMPro::TMP_MeshInfo::ResizeMeshInfo)> {
   constexpr static std::size_t size = 0x8d8;
-  constexpr static std::size_t addrs = 0x47fc708;
+  constexpr static std::size_t addrs = 0x47fc3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)()>(&::TMPro::TMP_MeshInfo::Clear)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47fcfe0;
+  constexpr static std::size_t addrs = 0x47fcc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MeshInfo>::get(), "Clear",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(bool)>(&::TMPro::TMP_MeshInfo::Clear)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47fd084;
+  constexpr static std::size_t addrs = 0x47fcd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)()>(&::TMPro::TMP_MeshInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47fd1bc;
+  constexpr static std::size_t addrs = 0x47fce54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_MeshInfo>::get(), "ClearUnusedVertices",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(int32_t)>(&::TMPro::TMP_MeshInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x47fd1f8;
+  constexpr static std::size_t addrs = 0x47fce90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(int32_t, bool)>(&::TMPro::TMP_MeshInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x47fd22c;
+  constexpr static std::size_t addrs = 0x47fcec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(::TMPro::VertexSortingOrder)>(&::TMPro::TMP_MeshInfo::SortGeometry)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47fd2f0;
+  constexpr static std::size_t addrs = 0x47fcf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(::System::Collections::Generic::IList_1<int32_t>*)>(
     &::TMPro::TMP_MeshInfo::SortGeometry)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x47fd930;
+  constexpr static std::size_t addrs = 0x47fd5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_MeshInfo::*)(int32_t, int32_t)>(&::TMPro::TMP_MeshInfo::SwapVertexData)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x47fd3a4;
+  constexpr static std::size_t addrs = 0x47fd03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

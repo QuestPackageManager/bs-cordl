@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::NoEnumerationAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4af3ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af3758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

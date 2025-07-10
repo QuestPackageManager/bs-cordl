@@ -35,27 +35,27 @@ public:
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
-  /// @brief Method CalculateMac, addr 0x25ad464, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0x25ad4f4, size 0x158, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* cp, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method DoFinal, addr 0x25ad5bc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x25ad64c, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method DoFinal, addr 0x25ad6f0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x25ad780, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method GetAlgorithmName, addr 0x25ad35c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x25ad3ec, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetMac, addr 0x25ac7ec, size 0xb70, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x25ac87c, size 0xb70, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::StringW algorithm);
 
-  /// @brief Method GetMac, addr 0x25ac78c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x25ac81c, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
   static inline ::Org::BouncyCastle::Security::MacUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25aab74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25aac04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

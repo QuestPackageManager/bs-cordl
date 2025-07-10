@@ -27,7 +27,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Avatar : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LaunchAvatarEditor, addr 0x3f894d4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LaunchAvatarEditor, addr 0x3f8916c, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options);
 
 protected:

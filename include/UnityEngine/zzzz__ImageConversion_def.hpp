@@ -25,28 +25,28 @@ namespace UnityEngine {
 class CORDL_TYPE ImageConversion : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EncodeToEXR, addr 0x48d4208, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x48d3ea0, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToEXR, addr 0x48d41c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x48d3e5c, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex, ::UnityEngine::Texture2D_EXRFlags flags);
 
-  /// @brief Method EncodeToJPG, addr 0x48d4184, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x48d3e1c, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToJPG, addr 0x48d4140, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x48d3dd8, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex, int32_t quality);
 
-  /// @brief Method EncodeToPNG, addr 0x48d4104, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToPNG, addr 0x48d3d9c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToPNG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToTGA, addr 0x48d40c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToTGA, addr 0x48d3d60, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToTGA(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method LoadImage, addr 0x48d429c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x48d3f34, size 0x48, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method LoadImage, addr 0x48d4248, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x48d3ee0, size 0x54, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, bool markNonReadable);
 
 protected:
@@ -64,7 +64,7 @@ public:
   ImageConversion(ImageConversion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

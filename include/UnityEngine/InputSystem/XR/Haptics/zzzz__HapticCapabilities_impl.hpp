@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)(uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e9000;
+  constexpr static std::size_t addrs = 0x45e8c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::get_numChannels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e900c;
+  constexpr static std::size_t addrs = 0x45e8ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)(uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::set_numChannels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e9014;
+  constexpr static std::size_t addrs = 0x45e8cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::get_frequencyHz)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e901c;
+  constexpr static std::size_t addrs = 0x45e8cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)(uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::set_frequencyHz)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e9024;
+  constexpr static std::size_t addrs = 0x45e8cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::get_maxBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e902c;
+  constexpr static std::size_t addrs = 0x45e8cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::*)(uint32_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities::set_maxBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e9034;
+  constexpr static std::size_t addrs = 0x45e8ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -101,33 +101,33 @@ public:
   /// @brief Field validationStack, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_validationStack, put = __cordl_internal_set_validationStack)) ::System::Xml::HWStack* validationStack;
 
-  /// @brief Method AddID, addr 0x42b6544, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddID, addr 0x42b61dc, size 0x90, virtual false, abstract: false, final false
   inline void AddID(::StringW name, ::System::Object* node);
 
-  /// @brief Method CheckDefaultValue, addr 0x42b1ca8, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method CheckDefaultValue, addr 0x42b1940, size 0x45c, virtual false, abstract: false, final false
   static inline void CheckDefaultValue(::StringW value, ::System::Xml::Schema::SchemaAttDef* attdef, ::System::Xml::Schema::SchemaInfo* sinfo, ::System::Xml::XmlNamespaceManager* nsManager,
                                        ::System::Xml::XmlNameTable* NameTable, ::System::Object* sender, ::System::Xml::Schema::ValidationEventHandler* eventhandler, ::StringW baseUri, int32_t lineNo,
                                        int32_t linePos);
 
-  /// @brief Method CheckForwardRefs, addr 0x42b6694, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CheckForwardRefs, addr 0x42b632c, size 0x100, virtual false, abstract: false, final false
   inline void CheckForwardRefs();
 
-  /// @brief Method CheckValue, addr 0x42b53d8, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method CheckValue, addr 0x42b5070, size 0x5ec, virtual false, abstract: false, final false
   inline void CheckValue(::StringW value, ::System::Xml::Schema::SchemaAttDef* attdef);
 
-  /// @brief Method CompleteValidation, addr 0x42b65d4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x42b626c, size 0xc0, virtual true, abstract: false, final false
   inline void CompleteValidation();
 
-  /// @brief Method FindId, addr 0x42b6844, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FindId, addr 0x42b64dc, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Object* FindId(::StringW name);
 
-  /// @brief Method Init, addr 0x42b3e44, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x42b3adc, size 0x19c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LoadSchema, addr 0x42b5a60, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x42b56f8, size 0x190, virtual false, abstract: false, final false
   inline void LoadSchema(::StringW uri);
 
-  /// @brief Method LoadSchemaFromLocation, addr 0x42b5c94, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method LoadSchemaFromLocation, addr 0x42b592c, size 0x5ac, virtual false, abstract: false, final false
   inline void LoadSchemaFromLocation(::StringW uri);
 
   static inline ::System::Xml::Schema::XdrValidator* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection,
@@ -135,43 +135,43 @@ public:
 
   static inline ::System::Xml::Schema::XdrValidator* New_ctor(::System::Xml::Schema::BaseValidator* validator);
 
-  /// @brief Method Pop, addr 0x42b59c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x42b565c, size 0x9c, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method ProcessElement, addr 0x42b48c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ProcessElement, addr 0x42b4558, size 0xa8, virtual false, abstract: false, final false
   inline void ProcessElement();
 
-  /// @brief Method ProcessInlineSchema, addr 0x42b4214, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ProcessInlineSchema, addr 0x42b3eac, size 0x218, virtual false, abstract: false, final false
   inline void ProcessInlineSchema();
 
-  /// @brief Method ProcessTokenizedType, addr 0x42b6340, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ProcessTokenizedType, addr 0x42b5fd8, size 0x204, virtual false, abstract: false, final false
   inline void ProcessTokenizedType(::System::Xml::XmlTokenizedType ttype, ::StringW name);
 
-  /// @brief Method Push, addr 0x42b4078, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x42b3d10, size 0xd4, virtual false, abstract: false, final false
   inline void Push(::System::Xml::XmlQualifiedName* elementName);
 
-  /// @brief Method QualifiedName, addr 0x42b5bf0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x42b5888, size 0x98, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* QualifiedName(::StringW name, ::StringW ns);
 
-  /// @brief Method ThoroughGetElementDecl, addr 0x42b4974, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method ThoroughGetElementDecl, addr 0x42b460c, size 0x32c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* ThoroughGetElementDecl();
 
-  /// @brief Method Validate, addr 0x42b414c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x42b3de4, size 0xb8, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method ValidateChildElement, addr 0x42b477c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ValidateChildElement, addr 0x42b4414, size 0x144, virtual false, abstract: false, final false
   inline void ValidateChildElement();
 
-  /// @brief Method ValidateElement, addr 0x42b442c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x42b40c4, size 0x190, virtual false, abstract: false, final false
   inline void ValidateElement();
 
-  /// @brief Method ValidateEndElement, addr 0x42b45bc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndElement, addr 0x42b4254, size 0x1c0, virtual false, abstract: false, final false
   inline void ValidateEndElement();
 
-  /// @brief Method ValidateEndStartElement, addr 0x42b507c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndStartElement, addr 0x42b4d14, size 0x35c, virtual false, abstract: false, final false
   inline void ValidateEndStartElement();
 
-  /// @brief Method ValidateStartElement, addr 0x42b4ca0, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ValidateStartElement, addr 0x42b4938, size 0x3dc, virtual false, abstract: false, final false
   inline void ValidateStartElement();
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_IDs() const;
@@ -222,19 +222,19 @@ public:
 
   constexpr void __cordl_internal_set_validationStack(::System::Xml::HWStack* value);
 
-  /// @brief Method .ctor, addr 0x42b3fe0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b3c78, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection, ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method .ctor, addr 0x42b3dc4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b3a5c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BaseValidator* validator);
 
-  /// @brief Method get_HasSchema, addr 0x42b62e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasSchema, addr 0x42b5f7c, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasSchema();
 
-  /// @brief Method get_IsInlineSchemaStarted, addr 0x42b4204, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsInlineSchemaStarted, addr 0x42b3e9c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsInlineSchemaStarted();
 
-  /// @brief Method get_PreserveWhitespace, addr 0x42b6308, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_PreserveWhitespace, addr 0x42b5fa0, size 0x38, virtual true, abstract: false, final false
   inline bool get_PreserveWhitespace();
 
 protected:

@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(float_t value);
 
-  /// @brief Method .ctor, addr 0x44d9bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x44d9ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x44d9838, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x44d9b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x44d9828, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x44d9b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x44d9820, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x44d9b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x44d9830, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x44d9bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x44d9848, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x44d9ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x44d9840, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedState();
 
 protected:

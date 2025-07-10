@@ -44,27 +44,27 @@ public:
   /// @brief Field _skinnedMeshRenderer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__skinnedMeshRenderer, put = __cordl_internal_set__skinnedMeshRenderer)) ::UnityW<::UnityEngine::SkinnedMeshRenderer> _skinnedMeshRenderer;
 
-  /// @brief Method Awake, addr 0x40324a8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x4032140, size 0x104, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetFaceExpression, addr 0x40326f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFaceExpression, addr 0x4032390, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRFaceExpressions_FaceExpression GetFaceExpression(int32_t blendShapeIndex);
 
-  /// @brief Method GetWeightValue, addr 0x4032700, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetWeightValue, addr 0x4032398, size 0x64, virtual true, abstract: false, final false
   inline bool GetWeightValue(int32_t blendShapeIndex, ::ByRef<float_t> weightValue);
 
   static inline ::GlobalNamespace::OVRFace* New_ctor();
 
-  /// @brief Method RetrieveSkinnedMeshRenderer, addr 0x4032458, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RetrieveSkinnedMeshRenderer, addr 0x40320f0, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> RetrieveSkinnedMeshRenderer();
 
-  /// @brief Method SearchFaceExpressions, addr 0x40325ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SearchFaceExpressions, addr 0x4032244, size 0x58, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> SearchFaceExpressions();
 
-  /// @brief Method Start, addr 0x402f8e0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x402f578, size 0x50, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4032604, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x403229c, size 0xf4, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__blendShapeStrengthMultiplier() const;
@@ -85,22 +85,22 @@ public:
 
   constexpr void __cordl_internal_set__skinnedMeshRenderer(::UnityW<::UnityEngine::SkinnedMeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x402fab0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x402f748, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlendShapeStrengthMultiplier, addr 0x4032448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlendShapeStrengthMultiplier, addr 0x40320e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_BlendShapeStrengthMultiplier();
 
-  /// @brief Method get_FaceExpressions, addr 0x4032438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FaceExpressions, addr 0x40320d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> get_FaceExpressions();
 
-  /// @brief Method get_SkinnedMesh, addr 0x40324a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkinnedMesh, addr 0x4032138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> get_SkinnedMesh();
 
-  /// @brief Method set_BlendShapeStrengthMultiplier, addr 0x4032450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlendShapeStrengthMultiplier, addr 0x40320e8, size 0x8, virtual false, abstract: false, final false
   inline void set_BlendShapeStrengthMultiplier(float_t value);
 
-  /// @brief Method set_FaceExpressions, addr 0x4032440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FaceExpressions, addr 0x40320d8, size 0x8, virtual false, abstract: false, final false
   inline void set_FaceExpressions(::GlobalNamespace::OVRFaceExpressions* value);
 
 protected:

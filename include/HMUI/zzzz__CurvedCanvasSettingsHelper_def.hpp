@@ -43,15 +43,15 @@ public:
   /// @brief Field _hasCachedData, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__hasCachedData, put = __cordl_internal_set__hasCachedData)) bool _hasCachedData;
 
-  /// @brief Method GetCurvedCanvasSettings, addr 0x39ec954, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettings, addr 0x39ec5e0, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39ecb40, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39ec7cc, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
-  /// @brief Method Reset, addr 0x39ec940, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39ec5cc, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__cachedCanvas() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__hasCachedData(bool value);
 
-  /// @brief Method .ctor, addr 0x39ecc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ec908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* getStaticF__curvedCanvasCache();

@@ -47,19 +47,19 @@ public:
                       put = __cordl_internal_set__shaderWarmupScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>
       _shaderWarmupScenesTransitionSetupData;
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x3ad3adc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x3ad3768, size 0xb4, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                         ::Zenject::DiContainer* diContainer);
 
   static inline ::GlobalNamespace::PersistentAudioNoiseController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad3a0c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad3698, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnValidate, addr 0x3ad3b90, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3ad381c, size 0xe0, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x3ad397c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad3608, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__shaderWarmupScenesTransitionSetupData(::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3ad3c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad38fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Haptics::Haptics* (*)()>(&::Oculus::Haptics::Haptics::get_Instance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f55140;
+  constexpr static std::size_t addrs = 0x3f54dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), "get_Instance",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Oculus::Haptics::Haptics::IsSupportedPlatform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f55e60;
+  constexpr static std::size_t addrs = 0x3f55af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), "IsSupportedPlatform",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)()>(&::Oculus::Haptics::Haptics::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f55e68;
+  constexpr static std::size_t addrs = 0x3f55b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), ".ctor",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Oculus::Haptics::Haptics::EnsureInitialized)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3f55e70;
+  constexpr static std::size_t addrs = 0x3f55b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), "EnsureInitialized",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Oculus::Haptics::Haptics::IsInitialized)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3f55f78;
+  constexpr static std::size_t addrs = 0x3f55c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), "IsInitialized",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Oculus::Haptics::Haptics::*)(::StringW)>(&::Oculus::Haptics::Haptics::LoadClip)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f54f80;
+  constexpr static std::size_t addrs = 0x3f54c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::ReleaseClip)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f55d7c;
+  constexpr static std::size_t addrs = 0x3f55a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Oculus::Haptics::Haptics::*)()>(&::Oculus::Haptics::Haptics::CreateHapticPlayer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f55038;
+  constexpr static std::size_t addrs = 0x3f54cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), "CreateHapticPlayer",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t, int32_t)>(&::Oculus::Haptics::Haptics::SetHapticPlayerClip)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f55058;
+  constexpr static std::size_t addrs = 0x3f54cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t, ::Oculus::Haptics::Controller)>(
     &::Oculus::Haptics::Haptics::PlayHapticPlayer)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3f55200;
+  constexpr static std::size_t addrs = 0x3f54e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::StopHapticPlayer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3f55324;
+  constexpr static std::size_t addrs = 0x3f54fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::GetClipDuration)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f555bc;
+  constexpr static std::size_t addrs = 0x3f55254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t, bool)>(&::Oculus::Haptics::Haptics::LoopHapticPlayer)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f55504;
+  constexpr static std::size_t addrs = 0x3f5519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::IsHapticPlayerLooping)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f5543c;
+  constexpr static std::size_t addrs = 0x3f550d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t, float_t)>(&::Oculus::Haptics::Haptics::SetAmplitudeHapticPlayer)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f55740;
+  constexpr static std::size_t addrs = 0x3f553d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::GetAmplitudeHapticPlayer)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3f5567c;
+  constexpr static std::size_t addrs = 0x3f55314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t, float_t)>(&::Oculus::Haptics::Haptics::SetFrequencyShiftHapticPlayer)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f5596c;
+  constexpr static std::size_t addrs = 0x3f55604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::GetFrequencyShiftHapticPlayer)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f558ac;
+  constexpr static std::size_t addrs = 0x3f55544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, int32_t, int32_t, int32_t, int32_t)>(&::Oculus::Haptics::Haptics::MapPriority)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3f56a00;
+  constexpr static std::size_t addrs = 0x3f56698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)(int32_t, uint32_t)>(&::Oculus::Haptics::Haptics::SetPriorityHapticPlayer)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3f55bb4;
+  constexpr static std::size_t addrs = 0x3f5584c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::GetPriorityHapticPlayer)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3f55ad8;
+  constexpr static std::size_t addrs = 0x3f55770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Haptics::Haptics::*)(int32_t)>(&::Oculus::Haptics::Haptics::ReleaseHapticPlayer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f55e40;
+  constexpr static std::size_t addrs = 0x3f55ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Haptics::Haptics::*)()>(&::Oculus::Haptics::Haptics::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3f56e0c;
+  constexpr static std::size_t addrs = 0x3f56aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Haptics::Haptics*>::get(), "Dispose",

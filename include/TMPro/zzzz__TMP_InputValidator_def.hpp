@@ -25,7 +25,7 @@ public:
   /// @brief Method Validate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline char16_t Validate(::ByRef<::StringW> text, ::ByRef<int32_t> pos, char16_t ch);
 
-  /// @brief Method .ctor, addr 0x47f7e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f7b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

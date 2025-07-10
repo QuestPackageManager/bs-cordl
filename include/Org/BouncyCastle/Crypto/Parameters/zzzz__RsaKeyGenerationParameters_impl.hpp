@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23c114c;
+  constexpr static std::size_t addrs = 0x23c11dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::get_PublicExponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c1184;
+  constexpr static std::size_t addrs = 0x23c1214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::get_Certainty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c118c;
+  constexpr static std::size_t addrs = 0x23c121c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23c1194;
+  constexpr static std::size_t addrs = 0x23c1224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x23c1248;
+  constexpr static std::size_t addrs = 0x23c12d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

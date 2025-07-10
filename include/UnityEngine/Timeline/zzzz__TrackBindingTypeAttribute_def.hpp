@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x482ac0c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482a8a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x482ac3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482a8d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
 
 protected:

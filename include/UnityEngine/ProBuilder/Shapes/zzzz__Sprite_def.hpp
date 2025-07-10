@@ -33,15 +33,15 @@ namespace UnityEngine::ProBuilder::Shapes {
 class CORDL_TYPE Sprite : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
-  /// @brief Method CopyShape, addr 0x4754700, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4754398, size 0x4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Sprite* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x4754704, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x475439c, size 0x300, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x4754a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x475469c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

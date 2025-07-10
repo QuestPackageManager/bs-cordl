@@ -223,19 +223,19 @@ public:
 
   constexpr void __cordl_internal_set__visible(bool value);
 
-  /// @brief Method .ctor, addr 0x2282f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2282f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dataTransformation, addr 0x2282ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataTransformation, addr 0x2282f84, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_DataTransformationType get_dataTransformation();
 
-  /// @brief Method get_markerType, addr 0x2282efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerType, addr 0x2282f8c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO_MarkerType get_markerType();
 
-  /// @brief Method get_needsFiltering, addr 0x2282f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_needsFiltering, addr 0x2282f94, size 0x8, virtual false, abstract: false, final false
   inline bool get_needsFiltering();
 
-  /// @brief Method get_visible, addr 0x2282eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visible, addr 0x2282f7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_visible();
 
 protected:

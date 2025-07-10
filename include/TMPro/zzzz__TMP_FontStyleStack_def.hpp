@@ -22,13 +22,13 @@ namespace TMPro {
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x48075fc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4807294, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Clear, addr 0x48075f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4807288, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x48076f8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4807390, size 0x144, virtual false, abstract: false, final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters []

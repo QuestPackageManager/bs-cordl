@@ -543,18 +543,18 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) ::UnityEngine::UIElements::Length width;
 
-  /// @brief Method GetMaxWidth, addr 0x49f73f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMaxWidth, addr 0x49f7090, size 0x24, virtual false, abstract: false, final false
   inline float_t GetMaxWidth(float_t layoutWidth);
 
-  /// @brief Method GetMinWidth, addr 0x49f741c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMinWidth, addr 0x49f70b4, size 0x24, virtual false, abstract: false, final false
   inline float_t GetMinWidth(float_t layoutWidth);
 
-  /// @brief Method GetWidth, addr 0x49f73d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetWidth, addr 0x49f706c, size 0x24, virtual false, abstract: false, final false
   inline float_t GetWidth(float_t layoutWidth);
 
   static inline ::UnityEngine::UIElements::Column* New_ctor();
 
-  /// @brief Method NotifyChange, addr 0x49f6a5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method NotifyChange, addr 0x49f66f4, size 0x28, virtual false, abstract: false, final false
   inline void NotifyChange(::UnityEngine::UIElements::ColumnDataType type);
 
   constexpr ::UnityEngine::UIElements::Columns* const& __cordl_internal_get__collection_k__BackingField() const;
@@ -695,137 +695,137 @@ public:
 
   constexpr void __cordl_internal_set_resized(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
-  /// @brief Method .ctor, addr 0x49f7440, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f70d8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_changed, addr 0x49f7114, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_changed, addr 0x49f6dac, size 0xb0, virtual false, abstract: false, final false
   inline void add_changed(::System::Action_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType>* value);
 
-  /// @brief Method add_resized, addr 0x49f7274, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_resized, addr 0x49f6f0c, size 0xb0, virtual false, abstract: false, final false
   inline void add_resized(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
   static inline ::StringW getStaticF_k_InvalidTemplateError();
 
-  /// @brief Method get_bindCell, addr 0x49f70ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindCell, addr 0x49f6d84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindCell();
 
-  /// @brief Method get_bindHeader, addr 0x49f7074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindHeader, addr 0x49f6d0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_bindHeader();
 
-  /// @brief Method get_collection, addr 0x49f7104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collection, addr 0x49f6d9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Columns* get_collection();
 
-  /// @brief Method get_desiredWidth, addr 0x49f6efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_desiredWidth, addr 0x49f6b94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_desiredWidth();
 
-  /// @brief Method get_destroyCell, addr 0x49f70fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyCell, addr 0x49f6d94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyCell();
 
-  /// @brief Method get_destroyHeader, addr 0x49f7084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyHeader, addr 0x49f6d1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyHeader();
 
-  /// @brief Method get_displayIndex, addr 0x49f6bb4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x49f684c, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_displayIndex();
 
-  /// @brief Method get_icon, addr 0x49f6ae4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x49f677c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background get_icon();
 
-  /// @brief Method get_index, addr 0x49f6af0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x49f6788, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_makeCell, addr 0x49f708c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeCell, addr 0x49f6d24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeCell();
 
-  /// @brief Method get_makeHeader, addr 0x49f7014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeHeader, addr 0x49f6cac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeHeader();
 
-  /// @brief Method get_maxWidth, addr 0x49f6e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x49f6b34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_maxWidth();
 
-  /// @brief Method get_minWidth, addr 0x49f6e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x49f6ad4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_minWidth();
 
-  /// @brief Method get_name, addr 0x49f69fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x49f6694, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_optional, addr 0x49f6f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optional, addr 0x49f6c24, size 0x8, virtual false, abstract: false, final false
   inline bool get_optional();
 
-  /// @brief Method get_resizable, addr 0x49f6fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resizable, addr 0x49f6c68, size 0x8, virtual false, abstract: false, final false
   inline bool get_resizable();
 
-  /// @brief Method get_sortable, addr 0x49f6f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortable, addr 0x49f6b9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_sortable();
 
-  /// @brief Method get_stretchable, addr 0x49f6f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stretchable, addr 0x49f6be0, size 0x8, virtual false, abstract: false, final false
   inline bool get_stretchable();
 
-  /// @brief Method get_title, addr 0x49f6a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x49f671c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_unbindCell, addr 0x49f70f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindCell, addr 0x49f6d8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindCell();
 
-  /// @brief Method get_unbindHeader, addr 0x49f707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindHeader, addr 0x49f6d14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_unbindHeader();
 
-  /// @brief Method get_visible, addr 0x49f6d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visible, addr 0x49f69dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_visible();
 
-  /// @brief Method get_visibleIndex, addr 0x49f6c7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_visibleIndex, addr 0x49f6914, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_visibleIndex();
 
-  /// @brief Method get_width, addr 0x49f6d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x49f6a20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_width();
 
-  /// @brief Method remove_changed, addr 0x49f71c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_changed, addr 0x49f6e5c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_changed(::System::Action_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType>* value);
 
-  /// @brief Method remove_resized, addr 0x49f7324, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_resized, addr 0x49f6fbc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_resized(::System::Action_1<::UnityEngine::UIElements::Column*>* value);
 
   static inline void setStaticF_k_InvalidTemplateError(::StringW value);
 
-  /// @brief Method set_collection, addr 0x49f710c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collection, addr 0x49f6da4, size 0x8, virtual false, abstract: false, final false
   inline void set_collection(::UnityEngine::UIElements::Columns* value);
 
-  /// @brief Method set_desiredWidth, addr 0x49f6e0c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_desiredWidth, addr 0x49f6aa4, size 0x30, virtual false, abstract: false, final false
   inline void set_desiredWidth(float_t value);
 
-  /// @brief Method set_makeCell, addr 0x49f7094, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_makeCell, addr 0x49f6d2c, size 0x58, virtual false, abstract: false, final false
   inline void set_makeCell(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_makeHeader, addr 0x49f701c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_makeHeader, addr 0x49f6cb4, size 0x58, virtual false, abstract: false, final false
   inline void set_makeHeader(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_maxWidth, addr 0x49f6ea4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_maxWidth, addr 0x49f6b3c, size 0x58, virtual false, abstract: false, final false
   inline void set_maxWidth(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_minWidth, addr 0x49f6e44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_minWidth, addr 0x49f6adc, size 0x58, virtual false, abstract: false, final false
   inline void set_minWidth(::UnityEngine::UIElements::Length value);
 
-  /// @brief Method set_name, addr 0x49f6a04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x49f669c, size 0x58, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_optional, addr 0x49f6f94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_optional, addr 0x49f6c2c, size 0x3c, virtual false, abstract: false, final false
   inline void set_optional(bool value);
 
-  /// @brief Method set_resizable, addr 0x49f6fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_resizable, addr 0x49f6c70, size 0x3c, virtual false, abstract: false, final false
   inline void set_resizable(bool value);
 
-  /// @brief Method set_sortable, addr 0x49f6f0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_sortable, addr 0x49f6ba4, size 0x3c, virtual false, abstract: false, final false
   inline void set_sortable(bool value);
 
-  /// @brief Method set_stretchable, addr 0x49f6f50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_stretchable, addr 0x49f6be8, size 0x3c, virtual false, abstract: false, final false
   inline void set_stretchable(bool value);
 
-  /// @brief Method set_title, addr 0x49f6a8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x49f6724, size 0x58, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_visible, addr 0x49f6d4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_visible, addr 0x49f69e4, size 0x3c, virtual false, abstract: false, final false
   inline void set_visible(bool value);
 
-  /// @brief Method set_width, addr 0x49f6d90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x49f6a28, size 0x7c, virtual false, abstract: false, final false
   inline void set_width(::UnityEngine::UIElements::Length value);
 
 protected:

@@ -37,16 +37,16 @@ public:
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x4433324, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x4432fbc, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x443331c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4432fb4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x44332dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4432f74, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x44332d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4432f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

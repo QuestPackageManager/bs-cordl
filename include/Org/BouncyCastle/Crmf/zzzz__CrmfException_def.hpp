@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2684b0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2684b9c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2684b64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2684bf4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2682e58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2682ee8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

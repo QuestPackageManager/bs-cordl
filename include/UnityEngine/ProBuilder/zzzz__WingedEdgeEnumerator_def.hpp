@@ -46,18 +46,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x474cb30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x474c7c8, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x474cadc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x474c774, size 0x3c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* New_ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method Reset, addr 0x474cb18, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x474c7b0, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x474cb28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x474c7c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::UnityEngine::ProBuilder::WingedEdge* const& __cordl_internal_get_m_Current() const;
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Start(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  /// @brief Method .ctor, addr 0x474cab4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474c74c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 
-  /// @brief Method get_Current, addr 0x474cb20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x474c7b8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ProBuilder::WingedEdge* get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"

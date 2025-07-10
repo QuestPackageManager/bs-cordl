@@ -24,21 +24,21 @@ namespace GlobalNamespace {
 class CORDL_TYPE InputFieldSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::InputFieldView>> {
 public:
   // Declarations
-  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x44d9188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldSelectionStateDidChange, addr 0x44d8e20, size 0x8, virtual false, abstract: false, final false
   inline void HandleInputFieldSelectionStateDidChange(::HMUI::InputFieldView_SelectionState state);
 
   static inline ::GlobalNamespace::InputFieldSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x44d90f8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x44d8d90, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x44d8f64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d8bfc, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x44d900c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ResolveSelectionState, addr 0x44d8ca4, size 0xec, virtual false, abstract: false, final false
   inline void ResolveSelectionState(::HMUI::InputFieldView_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x44d9190, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8e28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

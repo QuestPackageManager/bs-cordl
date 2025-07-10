@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
 
-  /// @brief Method Start, addr 0x40822f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4081f90, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  /// @brief Method .ctor, addr 0x4082314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4081fac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

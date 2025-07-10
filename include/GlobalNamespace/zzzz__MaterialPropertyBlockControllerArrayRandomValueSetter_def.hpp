@@ -50,18 +50,18 @@ public:
   /// @brief Field _propertyName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method ApplyParams, addr 0x39e5fcc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x39e5c58, size 0x140, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockControllerArrayRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39e610c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e5d98, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x39e5fac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x39e5c38, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x39e5f88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e5c14, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39e6130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5dbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

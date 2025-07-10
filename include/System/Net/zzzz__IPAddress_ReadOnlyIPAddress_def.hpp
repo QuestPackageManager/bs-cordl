@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::IPAddress_ReadOnlyIPAddress* New_ctor(int64_t newAddress);
 
-  /// @brief Method .ctor, addr 0x448e6cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448e364, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int64_t newAddress);
 
 protected:

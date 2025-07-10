@@ -31,34 +31,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>*();
 
-  /// @brief Method Equals, addr 0x45edc04, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x45ed89c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x45edb54, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x45ed7ec, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Users::InputUserAccountHandle other);
 
-  /// @brief Method GetHashCode, addr 0x45edcac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x45ed944, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x45eda90, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45ed728, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x45eda14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ed6ac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW apiName, uint64_t handle);
 
-  /// @brief Method get_apiName, addr 0x45eda04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_apiName, addr 0x45ed69c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_apiName();
 
-  /// @brief Method get_handle, addr 0x45eda0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x45ed6a4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_handle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>* i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUserAccountHandle_();
 
-  /// @brief Method op_Equality, addr 0x45ed8f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x45ed590, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right);
 
-  /// @brief Method op_Inequality, addr 0x45edc7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x45ed914, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right);
 
   // Ctor Parameters []

@@ -109,40 +109,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
 
-  /// @brief Method Equals, addr 0x4a693ec, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a69084, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a693c4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a6905c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Angle other);
 
-  /// @brief Method GetHashCode, addr 0x4a69478, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a69110, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x4a692e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x4a68f80, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle None();
 
-  /// @brief Method ToDegrees, addr 0x4a69310, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToDegrees, addr 0x4a68fa8, size 0x84, virtual false, abstract: false, final false
   inline float_t ToDegrees();
 
-  /// @brief Method ToString, addr 0x4a694a0, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a69138, size 0x1d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a69304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a68f9c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit);
 
-  /// @brief Method .ctor, addr 0x4a692f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a68f88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::Angle_Unit unit);
 
-  /// @brief Method get_value, addr 0x4a692fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4a68f94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_();
 
-  /// @brief Method op_Equality, addr 0x4a6939c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a69034, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a69394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a6902c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t value);
 
   // Ctor Parameters []

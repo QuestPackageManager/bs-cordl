@@ -56,11 +56,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3d5b8, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3d250, size 0x300, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4b3d5b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4b3d248, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::GetFromPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x4b3d564, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3d1fc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x4b3d5a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4b3d238, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3d5a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3d240, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"

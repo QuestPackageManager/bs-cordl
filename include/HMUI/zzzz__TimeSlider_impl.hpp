@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TimeSlider::*)(bool, float_t, float_t)>(&::HMUI::TimeSlider::SetBounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f2e4c;
+  constexpr static std::size_t addrs = 0x39f2ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::TimeSlider::*)(float_t)>(&::HMUI::TimeSlider::TextForValue)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x39f2e60;
+  constexpr static std::size_t addrs = 0x39f2aec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(&::HMUI::TimeSlider::FormatTimeSpan)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x39f30b0;
+  constexpr static std::size_t addrs = 0x39f2d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TimeSlider::*)()>(&::HMUI::TimeSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f3204;
+  constexpr static std::size_t addrs = 0x39f2e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor",

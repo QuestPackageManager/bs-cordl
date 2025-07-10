@@ -28,10 +28,10 @@ public:
   /// @brief Field leftOverBytesCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_leftOverBytesCount, put = __cordl_internal_set_leftOverBytesCount)) int32_t leftOverBytesCount;
 
-  /// @brief Method Encode, addr 0x4235d1c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x42359b4, size 0x348, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Flush, addr 0x4236064, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x4235cfc, size 0xa8, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_leftOverBytesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4235cc0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4235958, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

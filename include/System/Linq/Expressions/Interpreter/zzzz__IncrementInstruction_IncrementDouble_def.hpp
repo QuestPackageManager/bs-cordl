@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::IncrementInstruction_IncrementDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x40cde54, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40cdaec, size 0xac, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40cd8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40cd544, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

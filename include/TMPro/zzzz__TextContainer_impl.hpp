@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_hasChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b60a8;
+  constexpr static std::size_t addrs = 0x47b5d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_hasChanged",
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(bool)>(&::TMPro::TextContainer::set_hasChanged)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47b60b0;
+  constexpr static std::size_t addrs = 0x47b5d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_pivot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b60bc;
+  constexpr static std::size_t addrs = 0x47b5d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_pivot",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::set_pivot)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47b60c4;
+  constexpr static std::size_t addrs = 0x47b5d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextContainerAnchors (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_anchorPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b6324;
+  constexpr static std::size_t addrs = 0x47b5fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_anchorPosition",
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(::TMPro::TextContainerAnchors)>(&::TMPro::TextContainer::set_anchorPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47b632c;
+  constexpr static std::size_t addrs = 0x47b5fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_rect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47b63e0;
+  constexpr static std::size_t addrs = 0x47b6078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_rect",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Rect)>(&::TMPro::TextContainer::set_rect)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47b63ec;
+  constexpr static std::size_t addrs = 0x47b6084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_size)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b6434;
+  constexpr static std::size_t addrs = 0x47b60cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_size",
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::set_size)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x47b643c;
+  constexpr static std::size_t addrs = 0x47b60d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b6484;
+  constexpr static std::size_t addrs = 0x47b611c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_width",
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(float_t)>(&::TMPro::TextContainer::set_width)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47b648c;
+  constexpr static std::size_t addrs = 0x47b6124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b64a0;
+  constexpr static std::size_t addrs = 0x47b6138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_height",
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(float_t)>(&::TMPro::TextContainer::set_height)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47b64a8;
+  constexpr static std::size_t addrs = 0x47b6140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_isDefaultWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b64bc;
+  constexpr static std::size_t addrs = 0x47b6154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_isDefaultWidth",
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_isDefaultHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b64c4;
+  constexpr static std::size_t addrs = 0x47b615c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_isDefaultHeight",
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_isAutoFitting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b64cc;
+  constexpr static std::size_t addrs = 0x47b6164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_isAutoFitting",
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(bool)>(&::TMPro::TextContainer::set_isAutoFitting)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47b64d4;
+  constexpr static std::size_t addrs = 0x47b616c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::TMPro::TextContainer::*)()>(
     &::TMPro::TextContainer::get_corners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b64e0;
+  constexpr static std::size_t addrs = 0x47b6178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_corners",
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::TMPro::TextContainer::*)()>(
     &::TMPro::TextContainer::get_worldCorners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b64e8;
+  constexpr static std::size_t addrs = 0x47b6180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_worldCorners",
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_margins)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47b64f0;
+  constexpr static std::size_t addrs = 0x47b6188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_margins",
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector4)>(&::TMPro::TextContainer::set_margins)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47b64fc;
+  constexpr static std::size_t addrs = 0x47b6194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_rectTransform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47b6558;
+  constexpr static std::size_t addrs = 0x47b61f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_rectTransform",
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TextMeshPro> (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::get_textMeshPro)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47b65ec;
+  constexpr static std::size_t addrs = 0x47b6284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "get_textMeshPro",
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47b6680;
+  constexpr static std::size_t addrs = 0x47b6318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47b6748;
+  constexpr static std::size_t addrs = 0x47b63e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47b674c;
+  constexpr static std::size_t addrs = 0x47b63e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnContainerChanged)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x47b6214;
+  constexpr static std::size_t addrs = 0x47b5eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "OnContainerChanged",
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x47b68a4;
+  constexpr static std::size_t addrs = 0x47b653c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(&::TMPro::TextContainer::SetRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47b647c;
+  constexpr static std::size_t addrs = 0x47b6114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::UpdateCorners)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x47b6750;
+  constexpr static std::size_t addrs = 0x47b63e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), "UpdateCorners",
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TextContainer::*)(::TMPro::TextContainerAnchors)>(
     &::TMPro::TextContainer::GetPivot)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x47b6368;
+  constexpr static std::size_t addrs = 0x47b6000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextContainerAnchors (::TMPro::TextContainer::*)(::UnityEngine::Vector2)>(
     &::TMPro::TextContainer::GetAnchorPosition)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x47b611c;
+  constexpr static std::size_t addrs = 0x47b5db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TextContainer::*)()>(&::TMPro::TextContainer::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47b6a00;
+  constexpr static std::size_t addrs = 0x47b6698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TextContainer*>::get(), ".ctor",

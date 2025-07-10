@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset_TextInfo::*)()>(&::GlobalNamespace::LocalizedTextAsset_TextInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16a24;
+  constexpr static std::size_t addrs = 0x3b166b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset_TextInfo*>::get(), ".ctor",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset___c::*)()>(&::GlobalNamespace::LocalizedTextAsset___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16a88;
+  constexpr static std::size_t addrs = 0x3b16714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset___c*>::get(), ".ctor",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LocalizedTextAsset___c::*)(::GlobalNamespace::LocalizedTextAsset_TextInfo*)>(
     &::GlobalNamespace::LocalizedTextAsset___c::_get_localizedText_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b16a90;
+  constexpr static std::size_t addrs = 0x3b1671c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16a14;
+  constexpr static std::size_t addrs = 0x3b166a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::*)(
     ::GlobalNamespace::LocalizedTextAsset_TextInfo*)>(&::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::_get_localizedText_b__1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b16ab0;
+  constexpr static std::size_t addrs = 0x3b1673c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> (
     ::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16708;
+  constexpr static std::size_t addrs = 0x3b16394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(), "get_textInfos",
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::get_localizedText)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3b16710;
+  constexpr static std::size_t addrs = 0x3b1639c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(),
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16a1c;
+  constexpr static std::size_t addrs = 0x3b166a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(), ".ctor",

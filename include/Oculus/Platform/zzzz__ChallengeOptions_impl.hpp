@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)()>(&::Oculus::Platform::ChallengeOptions::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3f79714;
+  constexpr static std::size_t addrs = 0x3f793ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::ChallengeOptions*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::StringW)>(&::Oculus::Platform::ChallengeOptions::SetDescription)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79778;
+  constexpr static std::size_t addrs = 0x3f79410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::System::DateTime)>(
     &::Oculus::Platform::ChallengeOptions::SetEndDate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f797e0;
+  constexpr static std::size_t addrs = 0x3f79478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(bool)>(
     &::Oculus::Platform::ChallengeOptions::SetIncludeActiveChallenges)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79848;
+  constexpr static std::size_t addrs = 0x3f794e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(bool)>(
     &::Oculus::Platform::ChallengeOptions::SetIncludeFutureChallenges)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f798b0;
+  constexpr static std::size_t addrs = 0x3f79548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(bool)>(
     &::Oculus::Platform::ChallengeOptions::SetIncludePastChallenges)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79918;
+  constexpr static std::size_t addrs = 0x3f795b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::StringW)>(
     &::Oculus::Platform::ChallengeOptions::SetLeaderboardName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79980;
+  constexpr static std::size_t addrs = 0x3f79618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::System::DateTime)>(
     &::Oculus::Platform::ChallengeOptions::SetStartDate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f799e8;
+  constexpr static std::size_t addrs = 0x3f79680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::StringW)>(&::Oculus::Platform::ChallengeOptions::SetTitle)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79a50;
+  constexpr static std::size_t addrs = 0x3f796e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::Oculus::Platform::ChallengeViewerFilter)>(
     &::Oculus::Platform::ChallengeOptions::SetViewerFilter)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79ab8;
+  constexpr static std::size_t addrs = 0x3f79750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)(::Oculus::Platform::ChallengeVisibility)>(
     &::Oculus::Platform::ChallengeOptions::SetVisibility)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f79b20;
+  constexpr static std::size_t addrs = 0x3f797b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Oculus::Platform::ChallengeOptions*)>(
     &::Oculus::Platform::ChallengeOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f79b88;
+  constexpr static std::size_t addrs = 0x3f79820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::ChallengeOptions::*)()>(&::Oculus::Platform::ChallengeOptions::Finalize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3f79b94;
+  constexpr static std::size_t addrs = 0x3f7982c;
 
   inline static ::MethodInfo const* methodInfo() {
 

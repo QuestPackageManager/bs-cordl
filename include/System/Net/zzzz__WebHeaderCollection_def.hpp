@@ -171,49 +171,49 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Add, addr 0x44a3b7c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x44a3814, size 0x2d0, virtual false, abstract: false, final false
   inline void Add(::StringW header);
 
-  /// @brief Method Add, addr 0x44a39cc, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x44a3664, size 0x1b0, virtual true, abstract: false, final false
   inline void Add(::StringW name, ::StringW value);
 
-  /// @brief Method AddInternal, addr 0x44a3348, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddInternal, addr 0x44a2fe0, size 0x54, virtual false, abstract: false, final false
   inline void AddInternal(::StringW name, ::StringW value);
 
-  /// @brief Method AllowMultiValues, addr 0x44a3094, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AllowMultiValues, addr 0x44a2d2c, size 0xa8, virtual false, abstract: false, final false
   static inline bool AllowMultiValues(::StringW name);
 
-  /// @brief Method ChangeInternal, addr 0x44a339c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ChangeInternal, addr 0x44a3034, size 0x54, virtual false, abstract: false, final false
   inline void ChangeInternal(::StringW name, ::StringW value);
 
-  /// @brief Method CheckBadChars, addr 0x44a344c, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method CheckBadChars, addr 0x44a30e4, size 0x390, virtual false, abstract: false, final false
   static inline ::StringW CheckBadChars(::StringW name, bool isHeaderValue);
 
-  /// @brief Method ContainsNonAsciiChars, addr 0x44a37dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ContainsNonAsciiChars, addr 0x44a3474, size 0x84, virtual false, abstract: false, final false
   static inline bool ContainsNonAsciiChars(::StringW token);
 
-  /// @brief Method Get, addr 0x44a50d4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x44a4d6c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW Get(int32_t index);
 
-  /// @brief Method Get, addr 0x44a4d04, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x44a499c, size 0x32c, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW name);
 
-  /// @brief Method GetAsString, addr 0x44a4624, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method GetAsString, addr 0x44a42bc, size 0x2ac, virtual false, abstract: false, final false
   static inline ::StringW GetAsString(::System::Collections::Specialized::NameValueCollection* cc, bool winInetCompat, bool forTrace);
 
-  /// @brief Method GetEnumerator, addr 0x44a5030, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x44a4cc8, size 0x74, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetKey, addr 0x44a5154, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetKey, addr 0x44a4dec, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetKey(int32_t index);
 
-  /// @brief Method GetObjectData, addr 0x44a4b78, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x44a4810, size 0x180, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetValues, addr 0x44a43c8, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method GetValues, addr 0x44a4060, size 0x200, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(::StringW header);
 
-  /// @brief Method GetValues, addr 0x44a5114, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetValues, addr 0x44a4dac, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetValues(int32_t index);
 
   static inline ::System::Net::WebHeaderCollection* New_ctor();
@@ -223,35 +223,35 @@ public:
 
   static inline ::System::Net::WebHeaderCollection* New_ctor(::System::Net::WebHeaderCollectionType type);
 
-  /// @brief Method NormalizeCommonHeaders, addr 0x44a2ef8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method NormalizeCommonHeaders, addr 0x44a2b90, size 0x100, virtual false, abstract: false, final false
   inline void NormalizeCommonHeaders();
 
-  /// @brief Method OnDeserialization, addr 0x44a4b74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDeserialization, addr 0x44a480c, size 0x4, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Remove, addr 0x44a3258, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x44a2ef0, size 0xf0, virtual false, abstract: false, final false
   inline void Remove(::System::Net::HttpRequestHeader header);
 
-  /// @brief Method Remove, addr 0x44a4290, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x44a3f28, size 0x138, virtual true, abstract: false, final false
   inline void Remove(::StringW name);
 
-  /// @brief Method RemoveInternal, addr 0x44a33f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RemoveInternal, addr 0x44a3088, size 0x5c, virtual false, abstract: false, final false
   inline void RemoveInternal(::StringW name);
 
-  /// @brief Method Set, addr 0x44a3e4c, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x44a3ae4, size 0x228, virtual true, abstract: false, final false
   inline void Set(::StringW name, ::StringW value);
 
-  /// @brief Method SetInternal, addr 0x44a4074, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method SetInternal, addr 0x44a3d0c, size 0x21c, virtual false, abstract: false, final false
   inline void SetInternal(::StringW name, ::StringW value);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44a4cf8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44a4990, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method ThrowOnRestrictedHeader, addr 0x44a3860, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ThrowOnRestrictedHeader, addr 0x44a34f8, size 0x16c, virtual false, abstract: false, final false
   inline void ThrowOnRestrictedHeader(::StringW headerName);
 
-  /// @brief Method ToString, addr 0x44a45c8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44a4260, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_CommonHeaders() const;
@@ -278,13 +278,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Net::WebHeaderCollectionType value);
 
-  /// @brief Method .ctor, addr 0x449d8ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d544, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44a49b4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a464c, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x44a48d0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a4568, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebHeaderCollectionType type);
 
   static inline ::System::Net::HeaderInfoTable* getStaticF_HInfo();
@@ -297,13 +297,13 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_CommonHeaderNames();
 
-  /// @brief Method get_AllowHttpRequestHeader, addr 0x44a3218, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_AllowHttpRequestHeader, addr 0x44a2eb0, size 0x40, virtual false, abstract: false, final false
   inline bool get_AllowHttpRequestHeader();
 
-  /// @brief Method get_Count, addr 0x44a50a4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x44a4d3c, size 0x30, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_InnerCollection, addr 0x44a2ff8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_InnerCollection, addr 0x44a2c90, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::NameValueCollection* get_InnerCollection();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

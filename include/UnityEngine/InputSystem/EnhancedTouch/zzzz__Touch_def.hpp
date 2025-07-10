@@ -102,19 +102,19 @@ namespace UnityEngine::InputSystem::EnhancedTouch {
 struct CORDL_TYPE Touch_FingerAndTouchState {
 public:
   // Declarations
-  /// @brief Method AddFingers, addr 0x460350c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddFingers, addr 0x46031a4, size 0x114, virtual false, abstract: false, final false
   inline void AddFingers(::UnityEngine::InputSystem::Touchscreen* screen);
 
-  /// @brief Method Destroy, addr 0x4600610, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x46002a8, size 0x84, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method RemoveFingers, addr 0x4603620, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RemoveFingers, addr 0x46032b8, size 0x144, virtual false, abstract: false, final false
   inline void RemoveFingers(::UnityEngine::InputSystem::Touchscreen* screen);
 
-  /// @brief Method UpdateActiveFingers, addr 0x4602a4c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method UpdateActiveFingers, addr 0x46026e4, size 0x118, virtual false, abstract: false, final false
   inline void UpdateActiveFingers();
 
-  /// @brief Method UpdateActiveTouches, addr 0x4602394, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method UpdateActiveTouches, addr 0x460202c, size 0x588, virtual false, abstract: false, final false
   inline void UpdateActiveTouches();
 
   // Ctor Parameters []
@@ -324,13 +324,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::Touch___c* New_ctor();
 
-  /// @brief Method <SaveAndResetState>b__80_0, addr 0x4603ae4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <SaveAndResetState>b__80_0, addr 0x460377c, size 0x84, virtual false, abstract: false, final false
   inline void _SaveAndResetState_b__80_0(::ByRef<::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState> state);
 
-  /// @brief Method <SaveAndResetState>b__80_1, addr 0x4603b68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <SaveAndResetState>b__80_1, addr 0x4603800, size 0x4, virtual false, abstract: false, final false
   inline void _SaveAndResetState_b__80_1();
 
-  /// @brief Method .ctor, addr 0x4603adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4603774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::Touch___c* getStaticF___9();
@@ -438,145 +438,145 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*();
 
-  /// @brief Method AddTouchscreen, addr 0x46007b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddTouchscreen, addr 0x4600448, size 0x8c, virtual false, abstract: false, final false
   static inline void AddTouchscreen(::UnityEngine::InputSystem::Touchscreen* screen);
 
-  /// @brief Method BeginUpdate, addr 0x4603764, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method BeginUpdate, addr 0x46033fc, size 0x74, virtual false, abstract: false, final false
   static inline void BeginUpdate();
 
-  /// @brief Method CreateGlobalState, addr 0x46037d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CreateGlobalState, addr 0x4603470, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState CreateGlobalState();
 
-  /// @brief Method Equals, addr 0x46033e8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4603080, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4603374, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x460300c, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::EnhancedTouch::Touch other);
 
-  /// @brief Method GetHashCode, addr 0x4603498, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4603130, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method RemoveTouchscreen, addr 0x460083c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method RemoveTouchscreen, addr 0x46004d4, size 0xe4, virtual false, abstract: false, final false
   static inline void RemoveTouchscreen(::UnityEngine::InputSystem::Touchscreen* screen);
 
-  /// @brief Method SaveAndResetState, addr 0x4603804, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SaveAndResetState, addr 0x460349c, size 0x210, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ISavedState* SaveAndResetState();
 
-  /// @brief Method ToString, addr 0x4603088, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4602d20, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4600d88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4600a20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::Finger* finger,
                     ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1_Record<::UnityEngine::InputSystem::LowLevel::TouchState> touchRecord);
 
-  /// @brief Method add_onFingerDown, addr 0x4602bf0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method add_onFingerDown, addr 0x4602888, size 0xc4, virtual false, abstract: false, final false
   static inline void add_onFingerDown(::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>* value);
 
-  /// @brief Method add_onFingerMove, addr 0x4602f00, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method add_onFingerMove, addr 0x4602b98, size 0xc4, virtual false, abstract: false, final false
   static inline void add_onFingerMove(::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>* value);
 
-  /// @brief Method add_onFingerUp, addr 0x4602d78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method add_onFingerUp, addr 0x4602a10, size 0xc4, virtual false, abstract: false, final false
   static inline void add_onFingerUp(::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>* value);
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState getStaticF_s_GlobalState();
 
-  /// @brief Method get_activeFingers, addr 0x46029ac, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_activeFingers, addr 0x4602644, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*> get_activeFingers();
 
-  /// @brief Method get_activeTouches, addr 0x46022f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_activeTouches, addr 0x4601f8c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::EnhancedTouch::Touch> get_activeTouches();
 
-  /// @brief Method get_began, addr 0x4601c7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_began, addr 0x4601914, size 0x60, virtual false, abstract: false, final false
   inline bool get_began();
 
-  /// @brief Method get_delta, addr 0x4602024, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x4601cbc, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_delta();
 
-  /// @brief Method get_displayIndex, addr 0x4602148, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x4601de0, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_displayIndex();
 
-  /// @brief Method get_ended, addr 0x4601d84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ended, addr 0x4601a1c, size 0x88, virtual false, abstract: false, final false
   inline bool get_ended();
 
-  /// @brief Method get_extraData, addr 0x46021a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_extraData, addr 0x4601e3c, size 0x48, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::InputSystem::EnhancedTouch::Touch_ExtraDataPerTouchState> get_extraData();
 
-  /// @brief Method get_finger, addr 0x4601c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_finger, addr 0x46018c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::Finger* get_finger();
 
-  /// @brief Method get_fingers, addr 0x460291c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_fingers, addr 0x46025b4, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*> get_fingers();
 
-  /// @brief Method get_history, addr 0x46021ec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_history, addr 0x4601e84, size 0x108, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory get_history();
 
-  /// @brief Method get_inProgress, addr 0x4601cdc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_inProgress, addr 0x4601974, size 0xa8, virtual false, abstract: false, final false
   inline bool get_inProgress();
 
-  /// @brief Method get_isInProgress, addr 0x4600d94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_isInProgress, addr 0x4600a2c, size 0x74, virtual false, abstract: false, final false
   inline bool get_isInProgress();
 
-  /// @brief Method get_isTap, addr 0x46020dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isTap, addr 0x4601d74, size 0x60, virtual false, abstract: false, final false
   inline bool get_isTap();
 
-  /// @brief Method get_maxHistoryLengthPerFinger, addr 0x46011d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_maxHistoryLengthPerFinger, addr 0x4600e68, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_maxHistoryLengthPerFinger();
 
-  /// @brief Method get_phase, addr 0x4601bd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x4601868, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase get_phase();
 
-  /// @brief Method get_pressure, addr 0x4601e0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x4601aa4, size 0x5c, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_radius, addr 0x4601e68, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x4601b00, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method get_screen, addr 0x4601f68, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_screen, addr 0x4601c00, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_screen();
 
-  /// @brief Method get_screenPosition, addr 0x4600d2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_screenPosition, addr 0x46009c4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
-  /// @brief Method get_screens, addr 0x4602b64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_screens, addr 0x46027fc, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Touchscreen*>* get_screens();
 
-  /// @brief Method get_startScreenPosition, addr 0x4601fc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_startScreenPosition, addr 0x4601c60, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_startScreenPosition();
 
-  /// @brief Method get_startTime, addr 0x4601ec4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x4601b5c, size 0x5c, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method get_state, addr 0x4601c34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x46018cc, size 0x48, virtual false, abstract: false, final false
   inline ::ByRef<::UnityEngine::InputSystem::LowLevel::TouchState> get_state();
 
-  /// @brief Method get_tapCount, addr 0x4602080, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_tapCount, addr 0x4601d18, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_tapCount();
 
-  /// @brief Method get_time, addr 0x4601f20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x4601bb8, size 0x48, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_touchId, addr 0x4601b74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_touchId, addr 0x460180c, size 0x5c, virtual false, abstract: false, final false
   inline int32_t get_touchId();
 
-  /// @brief Method get_uniqueId, addr 0x4601b18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_uniqueId, addr 0x46017b0, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t get_uniqueId();
 
-  /// @brief Method get_updateStepCount, addr 0x4600e08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_updateStepCount, addr 0x4600aa0, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t get_updateStepCount();
 
-  /// @brief Method get_valid, addr 0x4600bd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x460086c, size 0x48, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* i___System__IEquatable_1___UnityEngine__InputSystem__EnhancedTouch__Touch_();
 
-  /// @brief Method remove_onFingerDown, addr 0x4602cb4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method remove_onFingerDown, addr 0x460294c, size 0xc4, virtual false, abstract: false, final false
   static inline void remove_onFingerDown(::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>* value);
 
-  /// @brief Method remove_onFingerMove, addr 0x4602fc4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method remove_onFingerMove, addr 0x4602c5c, size 0xc4, virtual false, abstract: false, final false
   static inline void remove_onFingerMove(::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>* value);
 
-  /// @brief Method remove_onFingerUp, addr 0x4602e3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method remove_onFingerUp, addr 0x4602ad4, size 0xc4, virtual false, abstract: false, final false
   static inline void remove_onFingerUp(::System::Action_1<::UnityEngine::InputSystem::EnhancedTouch::Finger*>* value);
 
   static inline void setStaticF_s_GlobalState(::UnityEngine::InputSystem::EnhancedTouch::Touch_GlobalState value);

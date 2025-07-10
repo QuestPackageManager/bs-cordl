@@ -29,16 +29,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadLocalBoxedInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x40e96d8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e9370, size 0x15c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40e9668, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e9300, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x40e9698, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40e9330, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40e9690, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40e9328, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

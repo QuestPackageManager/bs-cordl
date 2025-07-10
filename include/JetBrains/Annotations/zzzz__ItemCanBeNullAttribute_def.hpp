@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::ItemCanBeNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4af32c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af2f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

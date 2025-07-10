@@ -36,7 +36,7 @@ public:
       put = __cordl_internal_set__noteJumpMovementSpeedEvents)) ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*>
       _noteJumpMovementSpeedEvents;
 
-  /// @brief Method Convert, addr 0x270dd10, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270d99c, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteJumpSpeedEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::NjsEventConverter*
@@ -51,7 +51,7 @@ public:
   constexpr void
   __cordl_internal_set__noteJumpMovementSpeedEvents(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> value);
 
-  /// @brief Method .ctor, addr 0x270dce4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270d970, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> noteJumpMovementSpeedEvents,
                     ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 

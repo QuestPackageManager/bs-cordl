@@ -30,16 +30,16 @@ public:
   // Declarations
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
-  /// @brief Method Overlap, addr 0x456c31c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Overlap, addr 0x456bfb4, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion Overlap(::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion other);
 
-  /// @brief Method .ctor, addr 0x456c308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456bfa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t bitOffset, uint32_t sizeInBits);
 
-  /// @brief Method .ctor, addr 0x456c310, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456bfa8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t byteOffset, uint32_t bitOffset, uint32_t sizeInBits);
 
-  /// @brief Method get_isEmpty, addr 0x456c2f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x456bf90, size 0x10, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   // Ctor Parameters []
@@ -80,61 +80,61 @@ public:
   // Declarations
   using BitRegion = ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion;
 
-  /// @brief Method AlignNatural, addr 0x456c274, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AlignNatural, addr 0x456bf0c, size 0x84, virtual false, abstract: false, final false
   static inline uint32_t AlignNatural(uint32_t offset, uint32_t sizeInBytes);
 
-  /// @brief Method Compare, addr 0x456ba3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x456b6d4, size 0x44, virtual false, abstract: false, final false
   static inline bool Compare(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion region);
 
-  /// @brief Method ComputeFollowingByteOffset, addr 0x456bbe4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ComputeFollowingByteOffset, addr 0x456b87c, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t ComputeFollowingByteOffset(uint32_t byteOffset, uint32_t sizeInBits);
 
-  /// @brief Method MemCmpBitRegion, addr 0x456ba9c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method MemCmpBitRegion, addr 0x456b734, size 0x148, virtual false, abstract: false, final false
   static inline bool MemCmpBitRegion(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, uint32_t bitOffset, uint32_t bitCount, ::cordl_internals::Ptr<void> mask);
 
-  /// @brief Method MemCpyBitRegion, addr 0x456bc24, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MemCpyBitRegion, addr 0x456b8bc, size 0xf0, virtual false, abstract: false, final false
   static inline void MemCpyBitRegion(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t bitOffset, uint32_t bitCount);
 
-  /// @brief Method MemCpyMasked, addr 0x456bdb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MemCpyMasked, addr 0x456ba48, size 0x84, virtual false, abstract: false, final false
   static inline void MemCpyMasked(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, int32_t numBytes, ::cordl_internals::Ptr<void> mask);
 
-  /// @brief Method MemSet, addr 0x456bd14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MemSet, addr 0x456b9ac, size 0x9c, virtual false, abstract: false, final false
   static inline void MemSet(::cordl_internals::Ptr<void> destination, int32_t numBytes, uint8_t value);
 
-  /// @brief Method ReadExcessKMultipleBitsAsInt, addr 0x456bfe0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReadExcessKMultipleBitsAsInt, addr 0x456bc78, size 0x24, virtual false, abstract: false, final false
   static inline int32_t ReadExcessKMultipleBitsAsInt(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount);
 
-  /// @brief Method ReadMultipleBitsAsNormalizedUInt, addr 0x456c018, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadMultipleBitsAsNormalizedUInt, addr 0x456bcb0, size 0x48, virtual false, abstract: false, final false
   static inline float_t ReadMultipleBitsAsNormalizedUInt(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount);
 
-  /// @brief Method ReadMultipleBitsAsUInt, addr 0x45645bc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ReadMultipleBitsAsUInt, addr 0x4564254, size 0x164, virtual false, abstract: false, final false
   static inline uint32_t ReadMultipleBitsAsUInt(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount);
 
-  /// @brief Method ReadSingleBit, addr 0x456ba80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadSingleBit, addr 0x456b718, size 0x1c, virtual false, abstract: false, final false
   static inline bool ReadSingleBit(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset);
 
-  /// @brief Method ReadTwosComplementMultipleBitsAsInt, addr 0x4562628, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReadTwosComplementMultipleBitsAsInt, addr 0x45622c0, size 0x4, virtual false, abstract: false, final false
   static inline int32_t ReadTwosComplementMultipleBitsAsInt(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount);
 
-  /// @brief Method SetBitsInBuffer, addr 0x456c0b0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SetBitsInBuffer, addr 0x456bd48, size 0x1c4, virtual false, abstract: false, final false
   static inline void SetBitsInBuffer(::cordl_internals::Ptr<void> buffer, int32_t byteOffset, int32_t bitOffset, int32_t sizeInBits, bool value);
 
   /// @brief Method Swap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void Swap(::ByRef<TValue> a, ::ByRef<TValue> b);
 
-  /// @brief Method WriteIntAsExcessKMultipleBits, addr 0x456c004, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WriteIntAsExcessKMultipleBits, addr 0x456bc9c, size 0x14, virtual false, abstract: false, final false
   static inline void WriteIntAsExcessKMultipleBits(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount, int32_t value);
 
-  /// @brief Method WriteIntAsTwosComplementMultipleBits, addr 0x456275c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WriteIntAsTwosComplementMultipleBits, addr 0x45623f4, size 0x4, virtual false, abstract: false, final false
   static inline void WriteIntAsTwosComplementMultipleBits(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount, int32_t value);
 
-  /// @brief Method WriteNormalizedUIntAsMultipleBits, addr 0x456c060, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteNormalizedUIntAsMultipleBits, addr 0x456bcf8, size 0x50, virtual false, abstract: false, final false
   static inline void WriteNormalizedUIntAsMultipleBits(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount, float_t value);
 
-  /// @brief Method WriteSingleBit, addr 0x456bbf4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WriteSingleBit, addr 0x456b88c, size 0x30, virtual false, abstract: false, final false
   static inline void WriteSingleBit(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, bool value);
 
-  /// @brief Method WriteUIntAsMultipleBits, addr 0x456be34, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method WriteUIntAsMultipleBits, addr 0x456bacc, size 0x1ac, virtual false, abstract: false, final false
   static inline void WriteUIntAsMultipleBits(::cordl_internals::Ptr<void> ptr, uint32_t bitOffset, uint32_t bitCount, uint32_t value);
 
 protected:

@@ -52,23 +52,23 @@ public:
   /// @brief Field s_Id, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_Id, put = setStaticF_s_Id)) int32_t s_Id;
 
-  /// @brief Method Invoke, addr 0x4796b04, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x479679c, size 0x17c, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method ToString, addr 0x4796f00, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4796b98, size 0x338, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x47964e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479617c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> p);
 
   static inline int32_t getStaticF_s_Id();
 
-  /// @brief Method get_InvocationTime, addr 0x4796ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InvocationTime, addr 0x4796b88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InvocationTime();
 
   static inline void setStaticF_s_Id(int32_t value);
 
-  /// @brief Method set_InvocationTime, addr 0x4796ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InvocationTime, addr 0x4796b90, size 0x8, virtual false, abstract: false, final false
   inline void set_InvocationTime(float_t value);
 
   // Ctor Parameters []
@@ -143,34 +143,34 @@ public:
   __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache)) ::System::Collections::Generic::Stack_1<
       ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>*>* m_NodeCache;
 
-  /// @brief Method AddAction, addr 0x4796200, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x4795e98, size 0x74, virtual false, abstract: false, final false
   static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method AddActionInternal, addr 0x4796274, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddActionInternal, addr 0x4795f0c, size 0x270, virtual false, abstract: false, final false
   inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method Clear, addr 0x4796180, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4795e18, size 0x74, virtual false, abstract: false, final false
   static inline void Clear();
 
-  /// @brief Method DestroyWhenComplete, addr 0x47961f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DestroyWhenComplete, addr 0x4795e8c, size 0xc, virtual false, abstract: false, final false
   inline void DestroyWhenComplete();
 
-  /// @brief Method GetNode, addr 0x479608c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetNode, addr 0x4795d24, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>*
   GetNode(::ByRef<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo> del);
 
-  /// @brief Method InternalLateUpdate, addr 0x47967e0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method InternalLateUpdate, addr 0x4796478, size 0x308, virtual false, abstract: false, final false
   inline void InternalLateUpdate(float_t t);
 
-  /// @brief Method LateUpdate, addr 0x4796ae8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x4796780, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::UnityEngine::ResourceManagement::Util::DelayedActionManager* New_ctor();
 
-  /// @brief Method OnApplicationQuit, addr 0x4796c80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x4796918, size 0xb4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method Wait, addr 0x4796680, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x4796318, size 0x160, virtual false, abstract: false, final false
   static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>*,
@@ -212,10 +212,10 @@ public:
   constexpr void __cordl_internal_set_m_NodeCache(
       ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager_DelegateInfo>*>* value);
 
-  /// @brief Method .ctor, addr 0x4796d34, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47969cc, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsActive, addr 0x4796564, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x47961fc, size 0x11c, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
 protected:

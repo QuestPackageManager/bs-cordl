@@ -36,34 +36,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::RectangleF>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::RectangleF>*();
 
-  /// @brief Method Equals, addr 0x421230c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4211fa4, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x42123bc, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4212054, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::RectangleF other);
 
-  /// @brief Method GetHashCode, addr 0x4212420, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x42120b8, size 0xd8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x42124f8, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4212190, size 0x1b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Height, addr 0x4212304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x4211f9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
-  /// @brief Method get_Width, addr 0x42122fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x4211f94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
-  /// @brief Method get_X, addr 0x42122ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x4211f84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_X();
 
-  /// @brief Method get_Y, addr 0x42122f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x4211f8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Y();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::RectangleF>"
   constexpr ::System::IEquatable_1<::System::Drawing::RectangleF>* i___System__IEquatable_1___System__Drawing__RectangleF_();
 
-  /// @brief Method op_Equality, addr 0x42123f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4212090, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::RectangleF left, ::System::Drawing::RectangleF right);
 
   // Ctor Parameters []

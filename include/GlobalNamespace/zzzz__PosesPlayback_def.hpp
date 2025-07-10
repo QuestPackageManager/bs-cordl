@@ -52,22 +52,22 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
       _transforms;
 
-  /// @brief Method Init, addr 0x3b19020, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b18cac, size 0x268, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects, ::GlobalNamespace::PosesRecordingData* data,
                    ::GlobalNamespace::IBeatSaberLogger* logger);
 
   static inline ::GlobalNamespace::PosesPlayback* New_ctor();
 
-  /// @brief Method PlaybackTick, addr 0x3b1aeac, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method PlaybackTick, addr 0x3b1ab38, size 0x3a0, virtual false, abstract: false, final false
   inline void PlaybackTick(float_t time);
 
-  /// @brief Method StartPlayback, addr 0x3b196bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartPlayback, addr 0x3b19348, size 0xe8, virtual false, abstract: false, final false
   inline void StartPlayback();
 
-  /// @brief Method StopPlayback, addr 0x3b19634, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopPlayback, addr 0x3b192c0, size 0xc, virtual false, abstract: false, final false
   inline void StopPlayback();
 
-  /// @brief Method Update, addr 0x3b1ae90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b1ab1c, size 0x1c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b1b24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1aed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

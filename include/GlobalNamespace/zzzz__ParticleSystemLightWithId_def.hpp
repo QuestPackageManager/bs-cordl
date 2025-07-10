@@ -53,10 +53,10 @@ public:
   /// @brief Field setOnlyOnce, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_setOnlyOnce, put = __cordl_internal_set_setOnlyOnce)) bool setOnlyOnce;
 
-  /// @brief Method Awake, addr 0x39e42e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e3f6c, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x39e4358, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e3fe4, size 0x1e4, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ParticleSystemLightWithId* New_ctor();
@@ -103,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set_setOnlyOnce(bool value);
 
-  /// @brief Method .ctor, addr 0x39e453c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e41c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e4284, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e3f10, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

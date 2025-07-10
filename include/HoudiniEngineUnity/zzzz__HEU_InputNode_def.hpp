@@ -431,139 +431,139 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*() noexcept;
 
-  /// @brief Method AddInputEntryAtEnd, addr 0x3a24f58, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddInputEntryAtEnd, addr 0x3a24be4, size 0x8c, virtual false, abstract: false, final false
   inline void AddInputEntryAtEnd(::UnityEngine::GameObject* newEntryGameObject);
 
-  /// @brief Method AddInputEntryAtEndMesh, addr 0x3a2514c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddInputEntryAtEndMesh, addr 0x3a24dd8, size 0x2c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* AddInputEntryAtEndMesh(::UnityEngine::GameObject* newEntryGameObject);
 
-  /// @brief Method AreAnyInputHDAsConnected, addr 0x3a251fc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AreAnyInputHDAsConnected, addr 0x3a24e88, size 0x19c, virtual false, abstract: false, final false
   inline bool AreAnyInputHDAsConnected();
 
-  /// @brief Method ChangeInputType, addr 0x3a24998, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ChangeInputType, addr 0x3a24624, size 0x30, virtual false, abstract: false, final false
   inline void ChangeInputType(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType newType);
 
-  /// @brief Method ClearConnectedInputHDAs, addr 0x3a255bc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectedInputHDAs, addr 0x3a25248, size 0x1b8, virtual false, abstract: false, final false
   inline void ClearConnectedInputHDAs();
 
-  /// @brief Method ClearUICache, addr 0x3a24530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearUICache, addr 0x3a241bc, size 0x8, virtual false, abstract: false, final false
   inline void ClearUICache();
 
-  /// @brief Method ConnectToMergeObject, addr 0x3a26338, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ConnectToMergeObject, addr 0x3a25fc4, size 0x198, virtual false, abstract: false, final false
   inline void ConnectToMergeObject(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method CopyInputValuesTo, addr 0x3a27274, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CopyInputValuesTo, addr 0x3a26f00, size 0x418, virtual false, abstract: false, final false
   inline void CopyInputValuesTo(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputNode* destInputNode);
 
-  /// @brief Method CreateInputHDAInfo, addr 0x3a24cac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInputHDAInfo, addr 0x3a24938, size 0x68, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputHDAInfo* CreateInputHDAInfo(::UnityEngine::GameObject* inputGameObject);
 
-  /// @brief Method CreateInputObjectInfo, addr 0x3a24c44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInputObjectInfo, addr 0x3a248d0, size 0x68, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* CreateInputObjectInfo(::UnityEngine::GameObject* inputGameObject);
 
-  /// @brief Method CreateSetupInput, addr 0x3a2447c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateSetupInput, addr 0x3a24108, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
                                                                                ::HoudiniEngineUnity::HEU_InputNode_InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method DestroyAllData, addr 0x3a24514, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllData, addr 0x3a241a0, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyAllData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DisconnectAndDestroyInputs, addr 0x3a24538, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method DisconnectAndDestroyInputs, addr 0x3a241c4, size 0x230, virtual false, abstract: false, final false
   inline void DisconnectAndDestroyInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DisconnectConnectedMergeNode, addr 0x3a25398, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method DisconnectConnectedMergeNode, addr 0x3a25024, size 0x224, virtual false, abstract: false, final false
   inline void DisconnectConnectedMergeNode(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method FindAddToInputHDA, addr 0x3a28164, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FindAddToInputHDA, addr 0x3a27df0, size 0x158, virtual false, abstract: false, final false
   inline bool FindAddToInputHDA(::StringW gameObjectName);
 
-  /// @brief Method GetConnectedInputCount, addr 0x3a26bd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedInputCount, addr 0x3a26860, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetConnectedInputCount();
 
-  /// @brief Method GetConnectedNodeID, addr 0x3a26c58, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedNodeID, addr 0x3a268e4, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetConnectedNodeID(int32_t index);
 
-  /// @brief Method GetInputEntryGameObject, addr 0x3a24d14, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetInputEntryGameObject, addr 0x3a249a0, size 0x244, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetInputEntryGameObject(int32_t index);
 
-  /// @brief Method GetInternalObjectType, addr 0x3a24c24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetInternalObjectType, addr 0x3a248b0, size 0x20, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType GetInternalObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType type);
 
-  /// @brief Method HandleSelectedObjectsForInputHDAs, addr 0x3a28460, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectedObjectsForInputHDAs, addr 0x3a280ec, size 0x11c, virtual false, abstract: false, final false
   inline void HandleSelectedObjectsForInputHDAs(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> selectedObjects);
 
-  /// @brief Method HandleSelectedObjectsForInputObjects, addr 0x3a28344, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectedObjectsForInputObjects, addr 0x3a27fd0, size 0x11c, virtual false, abstract: false, final false
   inline void HandleSelectedObjectsForInputObjects(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> selectedObjects);
 
-  /// @brief Method HasInputNodeTransformChanged, addr 0x3a26d30, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HasInputNodeTransformChanged, addr 0x3a269bc, size 0x254, virtual false, abstract: false, final false
   inline bool HasInputNodeTransformChanged();
 
-  /// @brief Method InsertInputEntry, addr 0x3a249c8, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method InsertInputEntry, addr 0x3a24654, size 0x25c, virtual false, abstract: false, final false
   inline void InsertInputEntry(int32_t index, ::UnityEngine::GameObject* newInputGameObject);
 
-  /// @brief Method InternalAddInputHDAAtEnd, addr 0x3a25098, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InternalAddInputHDAAtEnd, addr 0x3a24d24, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputHDAInfo* InternalAddInputHDAAtEnd(::UnityEngine::GameObject* newInputHDA);
 
-  /// @brief Method InternalAddInputObjectAtEnd, addr 0x3a24fe4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InternalAddInputObjectAtEnd, addr 0x3a24c70, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* InternalAddInputObjectAtEnd(::UnityEngine::GameObject* newInputGameObject);
 
-  /// @brief Method IsAssetInput, addr 0x3a24464, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAssetInput, addr 0x3a240f0, size 0x10, virtual false, abstract: false, final false
   inline bool IsAssetInput();
 
-  /// @brief Method IsEquivalentTo, addr 0x3a2857c, size 0x3fc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a28208, size 0x3fc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputNode* other);
 
-  /// @brief Method LoadPreset, addr 0x3a27c40, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method LoadPreset, addr 0x3a278cc, size 0x524, virtual false, abstract: false, final false
   inline void LoadPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputPreset* inputPreset);
 
   static inline ::HoudiniEngineUnity::HEU_InputNode* New_ctor();
 
-  /// @brief Method NotifyParentRemovedInput, addr 0x3a282bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NotifyParentRemovedInput, addr 0x3a27f48, size 0x88, virtual false, abstract: false, final false
   inline void NotifyParentRemovedInput();
 
-  /// @brief Method NumInputEntries, addr 0x3a25178, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NumInputEntries, addr 0x3a24e04, size 0x84, virtual false, abstract: false, final false
   inline int32_t NumInputEntries();
 
-  /// @brief Method PopulateInputPreset, addr 0x3a276b0, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method PopulateInputPreset, addr 0x3a2733c, size 0x590, virtual false, abstract: false, final false
   inline void PopulateInputPreset(::HoudiniEngineUnity::HEU_InputPreset* inputPreset);
 
-  /// @brief Method ReconnectToUpstreamAsset, addr 0x3a26854, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReconnectToUpstreamAsset, addr 0x3a264e0, size 0x284, virtual false, abstract: false, final false
   inline void ReconnectToUpstreamAsset();
 
-  /// @brief Method RemoveAllInputEntries, addr 0x3a24768, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllInputEntries, addr 0x3a243f4, size 0xa8, virtual false, abstract: false, final false
   inline void RemoveAllInputEntries();
 
-  /// @brief Method ResetConnectionForForceUpdate, addr 0x3a24948, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResetConnectionForForceUpdate, addr 0x3a245d4, size 0x50, virtual false, abstract: false, final false
   inline void ResetConnectionForForceUpdate(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ResetInputNode, addr 0x3a248fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ResetInputNode, addr 0x3a24588, size 0x4c, virtual false, abstract: false, final false
   inline void ResetInputNode(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ResetInputObjectTransforms, addr 0x3a24810, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ResetInputObjectTransforms, addr 0x3a2449c, size 0xec, virtual false, abstract: false, final false
   inline void ResetInputObjectTransforms();
 
-  /// @brief Method SetInputNodeID, addr 0x3a2450c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetInputNodeID, addr 0x3a24198, size 0x8, virtual false, abstract: false, final false
   inline void SetInputNodeID(int32_t nodeID);
 
-  /// @brief Method UpdateOnAssetRecreation, addr 0x3a2710c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method UpdateOnAssetRecreation, addr 0x3a26d98, size 0x168, virtual false, abstract: false, final false
   inline void UpdateOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadHDAInput, addr 0x3a25b88, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UploadHDAInput, addr 0x3a25814, size 0x1f0, virtual false, abstract: false, final false
   inline void UploadHDAInput(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadInput, addr 0x3a25774, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method UploadInput, addr 0x3a25400, size 0x414, virtual false, abstract: false, final false
   inline void UploadInput(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadInputObjectTransforms, addr 0x3a26f84, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UploadInputObjectTransforms, addr 0x3a26c10, size 0x188, virtual false, abstract: false, final false
   inline void UploadInputObjectTransforms(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadObjectMergePackGeometry, addr 0x3a265dc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UploadObjectMergePackGeometry, addr 0x3a26268, size 0x10c, virtual false, abstract: false, final false
   inline bool UploadObjectMergePackGeometry(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadObjectMergeTransformType, addr 0x3a264d0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UploadObjectMergeTransformType, addr 0x3a2615c, size 0x10c, virtual false, abstract: false, final false
   inline bool UploadObjectMergeTransformType(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadUnityInput, addr 0x3a25d78, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method UploadUnityInput, addr 0x3a25a04, size 0x5c0, virtual false, abstract: false, final false
   inline void UploadUnityInput(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectedInputAsset() const;
@@ -692,70 +692,70 @@ public:
 
   constexpr void __cordl_internal_set__uiCache(::HoudiniEngineUnity::HEU_InputNodeUICache* value);
 
-  /// @brief Method .ctor, addr 0x3a28978, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a28604, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InputName, addr 0x3a24414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputName, addr 0x3a240a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InputName();
 
-  /// @brief Method get_InputNodeID, addr 0x3a243e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputNodeID, addr 0x3a24070, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InputNodeID();
 
-  /// @brief Method get_InputObjects, addr 0x3a243dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputObjects, addr 0x3a24068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* get_InputObjects();
 
-  /// @brief Method get_InputType, addr 0x3a243bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputType, addr 0x3a24048, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputNode_InputNodeType get_InputType();
 
-  /// @brief Method get_KeepWorldTransform, addr 0x3a24434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepWorldTransform, addr 0x3a240c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepWorldTransform();
 
-  /// @brief Method get_LabelName, addr 0x3a2441c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LabelName, addr 0x3a240a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LabelName();
 
-  /// @brief Method get_PackGeometryBeforeMerging, addr 0x3a24448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PackGeometryBeforeMerging, addr 0x3a240d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_PackGeometryBeforeMerging();
 
-  /// @brief Method get_ParamName, addr 0x3a24424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParamName, addr 0x3a240b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParamName();
 
-  /// @brief Method get_ParentAsset, addr 0x3a2445c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentAsset, addr 0x3a240e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Method get_PendingInputObjectType, addr 0x3a243cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PendingInputObjectType, addr 0x3a24058, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputNode_InputObjectType get_PendingInputObjectType();
 
-  /// @brief Method get_RequiresCook, addr 0x3a243ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresCook, addr 0x3a24078, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresCook();
 
-  /// @brief Method get_RequiresUpload, addr 0x3a24400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresUpload, addr 0x3a2408c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresUpload();
 
-  /// @brief Method get_ThisInputObjectType, addr 0x3a243c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ThisInputObjectType, addr 0x3a24050, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputNode_InputObjectType get_ThisInputObjectType();
 
-  /// @brief Method get_TilemapSettings, addr 0x3a24474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TilemapSettings, addr 0x3a24100, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* get_TilemapSettings();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InputNode__() noexcept;
 
-  /// @brief Method set_KeepWorldTransform, addr 0x3a2443c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_KeepWorldTransform, addr 0x3a240c8, size 0xc, virtual false, abstract: false, final false
   inline void set_KeepWorldTransform(bool value);
 
-  /// @brief Method set_PackGeometryBeforeMerging, addr 0x3a24450, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PackGeometryBeforeMerging, addr 0x3a240dc, size 0xc, virtual false, abstract: false, final false
   inline void set_PackGeometryBeforeMerging(bool value);
 
-  /// @brief Method set_ParamName, addr 0x3a2442c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParamName, addr 0x3a240b8, size 0x8, virtual false, abstract: false, final false
   inline void set_ParamName(::StringW value);
 
-  /// @brief Method set_PendingInputObjectType, addr 0x3a243d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PendingInputObjectType, addr 0x3a24060, size 0x8, virtual false, abstract: false, final false
   inline void set_PendingInputObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType value);
 
-  /// @brief Method set_RequiresCook, addr 0x3a243f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresCook, addr 0x3a24080, size 0xc, virtual false, abstract: false, final false
   inline void set_RequiresCook(bool value);
 
-  /// @brief Method set_RequiresUpload, addr 0x3a24408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresUpload, addr 0x3a24094, size 0xc, virtual false, abstract: false, final false
   inline void set_RequiresUpload(bool value);
 
 protected:

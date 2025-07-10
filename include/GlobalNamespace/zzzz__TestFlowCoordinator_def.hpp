@@ -36,7 +36,7 @@ public:
   /// @brief Field _viewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController)) ::UnityW<::HMUI::ViewController> _viewController;
 
-  /// @brief Method DidActivate, addr 0x3b54048, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b53ce0, size 0x1c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::TestFlowCoordinator* New_ctor();
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b54064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b53cfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

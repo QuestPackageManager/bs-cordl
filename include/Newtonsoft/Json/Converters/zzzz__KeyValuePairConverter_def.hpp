@@ -45,21 +45,21 @@ public:
       get = getStaticF_ReflectionObjectPerType,
       put = setStaticF_ReflectionObjectPerType)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::ReflectionObject*>* ReflectionObjectPerType;
 
-  /// @brief Method CanConvert, addr 0x3f410f4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x3f40d8c, size 0x118, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method InitializeReflectionObject, addr 0x3f40790, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method InitializeReflectionObject, addr 0x3f40428, size 0x248, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionObject* InitializeReflectionObject(::System::Type* t);
 
   static inline ::Newtonsoft::Json::Converters::KeyValuePairConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x3f40c34, size 0x4c0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f408cc, size 0x4c0, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3f409d8, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f40670, size 0x25c, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x3f4120c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f40ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Utilities::ReflectionObject*>* getStaticF_ReflectionObjectPerType();

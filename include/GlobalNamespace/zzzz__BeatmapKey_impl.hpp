@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapKey::*)(::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26c4ab8;
+  constexpr static std::size_t addrs = 0x26c4704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::IsValid)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26c4bb4;
+  constexpr static std::size_t addrs = 0x26c4800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapKey>::get(), "IsValid",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::SerializedName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x26c4c34;
+  constexpr static std::size_t addrs = 0x26c4880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapKey>::get(), "SerializedName",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKeyNetSerializable* (::GlobalNamespace::BeatmapKey::*)()>(
     &::GlobalNamespace::BeatmapKey::GetIdentifier)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26c4c78;
+  constexpr static std::size_t addrs = 0x26c48c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapKey>::get(), "GetIdentifier",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapKey::*)(::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::BeatmapKey::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26c4d00;
+  constexpr static std::size_t addrs = 0x26c494c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapKey::*)(::System::Object*)>(&::GlobalNamespace::BeatmapKey::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26c4d7c;
+  constexpr static std::size_t addrs = 0x26c49c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapKey::*)()>(&::GlobalNamespace::BeatmapKey::GetHashCode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26c4e0c;
+  constexpr static std::size_t addrs = 0x26c4a58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::BeatmapKey::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26c4b84;
+  constexpr static std::size_t addrs = 0x26c47d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::BeatmapKey::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26c4ec4;
+  constexpr static std::size_t addrs = 0x26c4b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -87,18 +87,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
-  /// @brief Method FinishSetup, addr 0x4605c5c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x46058f4, size 0x98, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x4605b84, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x460581c, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::DualShock::DualShockGamepad* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x4605bd8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x4605870, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method SetLightBarColor, addr 0x4605cf4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetLightBarColor, addr 0x460598c, size 0x4, virtual true, abstract: false, final false
   inline void SetLightBarColor(::UnityEngine::Color color);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__L1_k__BackingField() const;
@@ -155,39 +155,39 @@ public:
 
   constexpr void __cordl_internal_set__touchpadButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x4605cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4605990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::DualShock::DualShockGamepad* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_L1, addr 0x4605a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_L1, addr 0x4605728, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_L1();
 
-  /// @brief Method get_L2, addr 0x4605ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_L2, addr 0x4605748, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_L2();
 
-  /// @brief Method get_L3, addr 0x4605ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_L3, addr 0x4605768, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_L3();
 
-  /// @brief Method get_R1, addr 0x4605aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R1, addr 0x4605738, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_R1();
 
-  /// @brief Method get_R2, addr 0x4605ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R2, addr 0x4605758, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_R2();
 
-  /// @brief Method get_R3, addr 0x4605ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R3, addr 0x4605778, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_R3();
 
-  /// @brief Method get_current, addr 0x4605af0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x4605788, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::DualShock::DualShockGamepad* get_current();
 
-  /// @brief Method get_optionsButton, addr 0x4605a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optionsButton, addr 0x4605708, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_optionsButton();
 
-  /// @brief Method get_shareButton, addr 0x4605a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shareButton, addr 0x4605718, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_shareButton();
 
-  /// @brief Method get_touchpadButton, addr 0x4605a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpadButton, addr 0x46056f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadButton();
 
   /// @brief Convert to "::UnityEngine::InputSystem::DualShock::IDualShockHaptics"
@@ -201,34 +201,34 @@ public:
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::DualShock::DualShockGamepad* value);
 
-  /// @brief Method set_L1, addr 0x4605a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_L1, addr 0x4605730, size 0x8, virtual false, abstract: false, final false
   inline void set_L1(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_L2, addr 0x4605ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_L2, addr 0x4605750, size 0x8, virtual false, abstract: false, final false
   inline void set_L2(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_L3, addr 0x4605ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_L3, addr 0x4605770, size 0x8, virtual false, abstract: false, final false
   inline void set_L3(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_R1, addr 0x4605aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_R1, addr 0x4605740, size 0x8, virtual false, abstract: false, final false
   inline void set_R1(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_R2, addr 0x4605ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_R2, addr 0x4605760, size 0x8, virtual false, abstract: false, final false
   inline void set_R2(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_R3, addr 0x4605ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_R3, addr 0x4605780, size 0x8, virtual false, abstract: false, final false
   inline void set_R3(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_current, addr 0x4605b38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x46057d0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::DualShock::DualShockGamepad* value);
 
-  /// @brief Method set_optionsButton, addr 0x4605a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_optionsButton, addr 0x4605710, size 0x8, virtual false, abstract: false, final false
   inline void set_optionsButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_shareButton, addr 0x4605a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shareButton, addr 0x4605720, size 0x8, virtual false, abstract: false, final false
   inline void set_shareButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_touchpadButton, addr 0x4605a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpadButton, addr 0x4605700, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

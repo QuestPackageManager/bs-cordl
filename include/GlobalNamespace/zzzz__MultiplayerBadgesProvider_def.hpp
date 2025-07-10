@@ -54,13 +54,13 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider___c* New_ctor();
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x26dc1a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x26dbdf0, size 0x20, virtual false, abstract: false, final false
   inline bool _SelectBadgesAndPutThemIntoResults_b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x26dc1c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x26dbe10, size 0x28, virtual false, abstract: false, final false
   inline int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
 
-  /// @brief Method .ctor, addr 0x26dc19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbde8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider___c* getStaticF___9();
@@ -119,7 +119,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider* New_ctor();
 
-  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x26dac60, size 0x14d8, virtual false, abstract: false, final false
+  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x26da8ac, size 0x14d8, virtual false, abstract: false, final false
   inline void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x26dc138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dbd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

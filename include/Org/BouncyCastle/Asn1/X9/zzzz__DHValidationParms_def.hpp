@@ -46,17 +46,17 @@ public:
   /// @brief Field seed, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed)) ::Org::BouncyCastle::Asn1::DerBitString* seed;
 
-  /// @brief Method GetInstance, addr 0x2620fcc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x262105c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2620a48, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2620ad8, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* seed, ::Org::BouncyCastle::Asn1::DerInteger* pgenCounter);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x26211fc, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x262128c, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_pgenCounter() const;
@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set_seed(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x2621150, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26211e0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* seed, ::Org::BouncyCastle::Asn1::DerInteger* pgenCounter);
 
-  /// @brief Method .ctor, addr 0x2620fe4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2621074, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PgenCounter, addr 0x26211f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PgenCounter, addr 0x2621284, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter();
 
-  /// @brief Method get_Seed, addr 0x26211ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x262127c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Seed();
 
 protected:

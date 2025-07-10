@@ -31,7 +31,7 @@ public:
   /// @brief Field data, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
 
-  /// @brief Method CheckOnData, addr 0x4335a08, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckOnData, addr 0x43356a0, size 0x38, virtual false, abstract: false, final false
   inline bool CheckOnData(::StringW data);
 
   static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
@@ -42,25 +42,25 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4335710, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43353a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Data, addr 0x4335914, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x43355ac, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method get_InnerText, addr 0x43358fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x4335594, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method get_Value, addr 0x43358dc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4335574, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Data, addr 0x4335968, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method set_Data, addr 0x4335600, size 0xa0, virtual true, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method set_InnerText, addr 0x4335908, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_InnerText, addr 0x43355a0, size 0xc, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method set_Value, addr 0x43358ec, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x4335584, size 0x10, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

@@ -480,7 +480,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x45c5a40, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x45c56d8, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::InputRemoting_Subscriber* New_ctor();
@@ -497,7 +497,7 @@ public:
 
   constexpr void __cordl_internal_set_owner(::UnityEngine::InputSystem::InputRemoting* value);
 
-  /// @brief Method .ctor, addr 0x45c4294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45c3f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -543,7 +543,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_ConnectMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x45c3688, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c3320, size 0x44, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
 protected:
@@ -576,7 +576,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_StartSendingMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x45c4194, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c3e2c, size 0x10, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
 protected:
@@ -609,7 +609,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_StopSendingMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x45c41a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c3e3c, size 0x10, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
 protected:
@@ -642,7 +642,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_DisconnectMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x45c36cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c3364, size 0x94, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -719,10 +719,10 @@ public:
   // Declarations
   using Data = ::UnityEngine::InputSystem::NewLayoutMsg_InputRemoting_Data;
 
-  /// @brief Method Create, addr 0x45c4608, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45c42a0, size 0x244, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputRemoting_Message> Create(::UnityEngine::InputSystem::InputRemoting* sender, ::StringW layoutName);
 
-  /// @brief Method Process, addr 0x45c3760, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c33f8, size 0xf8, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -817,10 +817,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c* New_ctor();
 
-  /// @brief Method <Create>b__1_0, addr 0x45c6244, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1_0, addr 0x45c5edc, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _Create_b__1_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method .ctor, addr 0x45c623c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45c5ed4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c* getStaticF___9();
@@ -865,10 +865,10 @@ public:
 
   using __c = ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c;
 
-  /// @brief Method Create, addr 0x45c4a3c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45c46d4, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x45c3858, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c34f0, size 0x50c, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -901,16 +901,16 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_NewEventsMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x45c4d90, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45c4a28, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> events, int32_t eventCount);
 
-  /// @brief Method CreateResetEvent, addr 0x45c50e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CreateResetEvent, addr 0x45c4d80, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message CreateResetEvent(::UnityEngine::InputSystem::InputDevice* device, bool isHardReset);
 
-  /// @brief Method CreateStateEvent, addr 0x45c4c2c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateStateEvent, addr 0x45c48c4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message CreateStateEvent(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x45c3d64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c39fc, size 0xbc, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -988,10 +988,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c* New_ctor();
 
-  /// @brief Method <Create>b__1_0, addr 0x45c63fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1_0, addr 0x45c6094, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _Create_b__1_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method .ctor, addr 0x45c63f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45c608c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c* getStaticF___9();
@@ -1036,10 +1036,10 @@ public:
 
   using __c = ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c;
 
-  /// @brief Method Create, addr 0x45c4f48, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45c4be0, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x45c3e20, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c3ab8, size 0x308, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -1072,10 +1072,10 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_RemoveDeviceMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x45c4f20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45c4bb8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x45c4128, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x45c3dc0, size 0x6c, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -1164,72 +1164,72 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>*() noexcept;
 
-  /// @brief Method BuildLayoutNamespace, addr 0x45c5308, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method BuildLayoutNamespace, addr 0x45c4fa0, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::InternedString BuildLayoutNamespace(int32_t senderId);
 
   /// @brief Method DeserializeData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TData> static inline TData DeserializeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method FindLocalDeviceId, addr 0x45c53a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FindLocalDeviceId, addr 0x45c5040, size 0x74, virtual false, abstract: false, final false
   inline int32_t FindLocalDeviceId(int32_t remoteDeviceId, int32_t senderIndex);
 
-  /// @brief Method FindOrCreateSenderRecord, addr 0x45c5264, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateSenderRecord, addr 0x45c4efc, size 0xa4, virtual false, abstract: false, final false
   inline int32_t FindOrCreateSenderRecord(int32_t senderId);
 
   static inline ::UnityEngine::InputSystem::InputRemoting* New_ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
-  /// @brief Method RemoveRemoteDevices, addr 0x45c54c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RemoveRemoteDevices, addr 0x45c515c, size 0xfc, virtual false, abstract: false, final false
   inline void RemoveRemoteDevices(int32_t participantId);
 
-  /// @brief Method Send, addr 0x45c484c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x45c44e4, size 0x104, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::InputSystem::InputRemoting_Message msg);
 
-  /// @brief Method SendAllDevices, addr 0x45c43f0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SendAllDevices, addr 0x45c4088, size 0x164, virtual false, abstract: false, final false
   inline void SendAllDevices();
 
-  /// @brief Method SendAllGeneratedLayouts, addr 0x45c429c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SendAllGeneratedLayouts, addr 0x45c3f34, size 0x154, virtual false, abstract: false, final false
   inline void SendAllGeneratedLayouts();
 
-  /// @brief Method SendDevice, addr 0x45c49b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SendDevice, addr 0x45c4650, size 0x84, virtual false, abstract: false, final false
   inline void SendDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SendDeviceChange, addr 0x45c4e64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SendDeviceChange, addr 0x45c4afc, size 0xbc, virtual false, abstract: false, final false
   inline void SendDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method SendEvent, addr 0x45c4d2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x45c49c4, size 0x64, virtual false, abstract: false, final false
   inline void SendEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SendInitialMessages, addr 0x45c3398, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendInitialMessages, addr 0x45c3030, size 0x18, virtual false, abstract: false, final false
   inline void SendInitialMessages();
 
-  /// @brief Method SendLayout, addr 0x45c4554, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SendLayout, addr 0x45c41ec, size 0xb4, virtual false, abstract: false, final false
   inline void SendLayout(::StringW layoutName);
 
-  /// @brief Method SendLayoutChange, addr 0x45c5160, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SendLayoutChange, addr 0x45c4df8, size 0x104, virtual false, abstract: false, final false
   inline void SendLayoutChange(::StringW layout, ::UnityEngine::InputSystem::InputControlLayoutChange change);
 
   /// @brief Method SerializeData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TData> static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeData(TData data);
 
-  /// @brief Method StartSending, addr 0x45c312c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method StartSending, addr 0x45c2dc4, size 0x164, virtual false, abstract: false, final false
   inline void StartSending();
 
-  /// @brief Method StopSending, addr 0x45c33b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method StopSending, addr 0x45c3048, size 0x14c, virtual false, abstract: false, final false
   inline void StopSending();
 
-  /// @brief Method Subscribe, addr 0x45c41bc, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x45c3e54, size 0xd8, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* observer);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x45c41b8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x45c3e50, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted();
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x45c41b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x45c3e4c, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError(::System::Exception* error);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x45c3604, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x45c329c, size 0x84, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext(::UnityEngine::InputSystem::InputRemoting_Message msg);
 
-  /// @brief Method TryGetDeviceByRemoteId, addr 0x45c541c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TryGetDeviceByRemoteId, addr 0x45c50b4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDeviceByRemoteId(int32_t remoteDeviceId, int32_t senderIndex);
 
   constexpr ::UnityEngine::InputSystem::InputRemoting_Flags const& __cordl_internal_get_m_Flags() const;
@@ -1256,13 +1256,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Subscribers(::ArrayW<::UnityEngine::InputSystem::InputRemoting_Subscriber*, ::Array<::UnityEngine::InputSystem::InputRemoting_Subscriber*>*> value);
 
-  /// @brief Method .ctor, addr 0x45c30a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45c2d3c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
-  /// @brief Method get_manager, addr 0x45c54bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manager, addr 0x45c5154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputManager* get_manager();
 
-  /// @brief Method get_sending, addr 0x45c3088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_sending, addr 0x45c2d20, size 0xc, virtual false, abstract: false, final false
   inline bool get_sending();
 
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::InputRemoting_Message>"
@@ -1271,7 +1271,7 @@ public:
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>"
   constexpr ::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* i___System__IObserver_1___UnityEngine__InputSystem__InputRemoting_Message_() noexcept;
 
-  /// @brief Method set_sending, addr 0x45c3094, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_sending, addr 0x45c2d2c, size 0x10, virtual false, abstract: false, final false
   inline void set_sending(bool value);
 
 protected:

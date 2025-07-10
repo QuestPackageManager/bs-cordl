@@ -163,10 +163,10 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c* New_ctor();
 
-  /// @brief Method <LoadInstallersAsync>b__9_0, addr 0x229c9a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <LoadInstallersAsync>b__9_0, addr 0x229ca30, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _LoadInstallersAsync_b__9_0(::BGLib::AppFlow::Initialization::AsyncPreloader* r);
 
-  /// @brief Method .ctor, addr 0x229c998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229ca28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c* getStaticF___9();
@@ -215,7 +215,7 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <LoadInstallersAsync>b__1, addr 0x229c9cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <LoadInstallersAsync>b__1, addr 0x229ca5c, size 0x28, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _LoadInstallersAsync_b__1(::BGLib::AppFlow::Initialization::AsyncInstaller* r);
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get_container() const;
@@ -230,7 +230,7 @@ public:
 
   constexpr void __cordl_internal_set_registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value);
 
-  /// @brief Method .ctor, addr 0x229c9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229ca54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -276,10 +276,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x229c9f4, size 0x4dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229ca84, size 0x4dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x229ced0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x229cf60, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -347,10 +347,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x229cf4c, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229cfdc, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x229d0c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x229d154, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -408,10 +408,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x229d0d0, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x229d160, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x229d494, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x229d524, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -494,24 +494,24 @@ public:
   /// @brief Field _state, offset 0xd0, size 0x4
   __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::BGLib::AppFlow::Initialization::AsyncSceneContext_State _state;
 
-  /// @brief Method CreateContainerForLoading, addr 0x229c458, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateContainerForLoading, addr 0x229c4e8, size 0x94, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateContainerForLoading();
 
-  /// @brief Method CreateRegistry, addr 0x229c4ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateRegistry, addr 0x229c57c, size 0x84, virtual false, abstract: false, final false
   inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* CreateRegistry();
 
-  /// @brief Method InstallInstallers, addr 0x229c658, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method InstallInstallers, addr 0x229c6e8, size 0x2d4, virtual true, abstract: false, final false
   inline void InstallInstallers();
 
-  /// @brief Method LoadInstallersAsync, addr 0x229c570, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method LoadInstallersAsync, addr 0x229c600, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* LoadInstallersAsync();
 
   static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext* New_ctor();
 
-  /// @brief Method Run, addr 0x229c3c8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x229c458, size 0x90, virtual true, abstract: false, final false
   inline void Run();
 
-  /// @brief Method RunAsync, addr 0x22957c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x2295858, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RunAsync();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>* const& __cordl_internal_get__asyncInstallers() const;
@@ -538,10 +538,10 @@ public:
 
   constexpr void __cordl_internal_set__state(::BGLib::AppFlow::Initialization::AsyncSceneContext_State value);
 
-  /// @brief Method <>n__0, addr 0x229c934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x229c9c4, size 0x8, virtual false, abstract: false, final false
   inline void __n__0();
 
-  /// @brief Method .ctor, addr 0x229c92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229c9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

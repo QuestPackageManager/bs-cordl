@@ -32,7 +32,7 @@ public:
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  /// @brief Method Start, addr 0x224f8c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x224f954, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x224f988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224fa18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

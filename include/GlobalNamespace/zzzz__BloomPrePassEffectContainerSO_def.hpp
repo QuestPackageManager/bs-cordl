@@ -26,7 +26,7 @@ public:
 
   __declspec(property(get = get_bloomPrePassEffect)) ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> bloomPrePassEffect;
 
-  /// @brief Method Init, addr 0x39d88e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39d8574, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
 
   static inline ::GlobalNamespace::BloomPrePassEffectContainerSO* New_ctor();
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x39d88f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d857c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bloomPrePassEffect, addr 0x39d88e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassEffect, addr 0x39d856c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> get_bloomPrePassEffect();
 
 protected:

@@ -34,18 +34,18 @@ public:
 
   __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method CreateValueConverter, addr 0x43aa2f0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x43a9f88, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_anyAtomicType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a6108, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a5da0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43aa348, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43a9fe0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_TypeCode, addr 0x43aa350, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43a9fe8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

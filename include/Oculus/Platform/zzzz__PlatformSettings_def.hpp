@@ -51,35 +51,35 @@ public:
 
   constexpr void __cordl_internal_set_ovrUseStandalonePlatform(bool value);
 
-  /// @brief Method .ctor, addr 0x3f8d564, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8d1fc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::Oculus::Platform::PlatformSettings> getStaticF_instance();
 
-  /// @brief Method get_AppID, addr 0x3f829c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AppID, addr 0x3f8265c, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_AppID();
 
-  /// @brief Method get_Instance, addr 0x3f8d390, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x3f8d028, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityW<::Oculus::Platform::PlatformSettings> get_Instance();
 
-  /// @brief Method get_MobileAppID, addr 0x3f829a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MobileAppID, addr 0x3f82640, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_MobileAppID();
 
-  /// @brief Method get_UseStandalonePlatform, addr 0x3f81f80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_UseStandalonePlatform, addr 0x3f81c18, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_UseStandalonePlatform();
 
   static inline void setStaticF_instance(::UnityW<::Oculus::Platform::PlatformSettings> value);
 
-  /// @brief Method set_AppID, addr 0x3f8d4b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AppID, addr 0x3f8d14c, size 0x20, virtual false, abstract: false, final false
   static inline void set_AppID(::StringW value);
 
-  /// @brief Method set_Instance, addr 0x3f8d518, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Instance, addr 0x3f8d1b0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::Oculus::Platform::PlatformSettings* value);
 
-  /// @brief Method set_MobileAppID, addr 0x3f8d4d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_MobileAppID, addr 0x3f8d16c, size 0x20, virtual false, abstract: false, final false
   static inline void set_MobileAppID(::StringW value);
 
-  /// @brief Method set_UseStandalonePlatform, addr 0x3f8d4f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_UseStandalonePlatform, addr 0x3f8d18c, size 0x24, virtual false, abstract: false, final false
   static inline void set_UseStandalonePlatform(bool value);
 
 protected:

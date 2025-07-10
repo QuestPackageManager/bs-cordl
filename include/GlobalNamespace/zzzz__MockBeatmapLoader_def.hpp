@@ -65,10 +65,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bc787c, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bc7514, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bc7d54, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bc79ec, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -151,10 +151,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3bc7878, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3bc7510, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBeatmapData, addr 0x3bc778c, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetBeatmapData, addr 0x3bc7424, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
@@ -186,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set__environmentsListModel(::GlobalNamespace::EnvironmentsListModel* value);
 
-  /// @brief Method .ctor, addr 0x3bc774c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc73e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                     ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::GlobalNamespace::OperationResultExtensions::IsSuccess)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401aba0;
+  constexpr static std::size_t addrs = 0x401a838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::GlobalNamespace::OperationResultExtensions::IsError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401abac;
+  constexpr static std::size_t addrs = 0x401a844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::GlobalNamespace::OperationResultExtensions::IsWarning)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401abb4;
+  constexpr static std::size_t addrs = 0x401a84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

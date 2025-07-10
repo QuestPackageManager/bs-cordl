@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x443335c;
+  constexpr static std::size_t addrs = 0x4432ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                       ::System::Object*, ::System::Type*)>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4433394;
+  constexpr static std::size_t addrs = 0x443302c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::*)()>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44333cc;
+  constexpr static std::size_t addrs = 0x4433064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

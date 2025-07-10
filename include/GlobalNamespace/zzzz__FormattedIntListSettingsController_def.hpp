@@ -39,18 +39,18 @@ public:
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
                       put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x3c12f30, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c12bc8, size 0x30, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3c12f08, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x3c12ba0, size 0x28, virtual true, abstract: false, final false
   inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::FormattedIntListSettingsController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3c12ef4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c12b8c, size 0x14, virtual false, abstract: false, final false
   inline void SetValue(int32_t value, bool callCallback);
 
-  /// @brief Method TextForValue, addr 0x3c12f60, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c12bf8, size 0x78, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::StringW const& __cordl_internal_get__formattingString() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3c12fd8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c12c70, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3c12d94, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3c12a2c, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3c12e44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3c12adc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedIntListSettingsController>, int32_t>* value);
 
 protected:

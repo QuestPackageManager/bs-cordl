@@ -19,7 +19,7 @@ namespace BeatSaber::GameSettings {
 struct CORDL_TYPE Controller {
 public:
   // Declarations
-  /// @brief Method HasDefaultValues, addr 0x226fec0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HasDefaultValues, addr 0x226ff50, size 0xd0, virtual false, abstract: false, final false
   inline bool HasDefaultValues();
 
   // Ctor Parameters []

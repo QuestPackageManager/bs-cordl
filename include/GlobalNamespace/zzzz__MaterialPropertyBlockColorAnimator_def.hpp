@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x39e5c4c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39e58d8, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x39e5ce4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5970, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e5c34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e58c0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x39e5c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x39e58cc, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

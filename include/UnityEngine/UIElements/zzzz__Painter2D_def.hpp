@@ -55,15 +55,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4a4d2b0, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a4cf48, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4a4d314, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a4cfac, size 0x88, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
-  /// @brief Method Reset, addr 0x4a4d26c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a4cf04, size 0x44, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::MeshGenerationContext* const& __cordl_internal_get_m_Ctx() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Handle(::UnityEngine::UIElements::SafeHandleAccess value);
 
-  /// @brief Method .ctor, addr 0x4a4d128, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a4cdc0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MeshGenerationContext* ctx);
 
   static inline bool getStaticF__isPainterActive_k__BackingField();
@@ -112,7 +112,7 @@ public:
 
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_isPainterActive, addr 0x4a4d39c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_isPainterActive, addr 0x4a4d034, size 0x60, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
 protected:

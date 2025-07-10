@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bc5c68;
+  constexpr static std::size_t addrs = 0x3bc5900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc5ca4;
+  constexpr static std::size_t addrs = 0x3bc593c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

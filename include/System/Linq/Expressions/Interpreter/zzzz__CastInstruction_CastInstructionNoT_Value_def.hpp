@@ -24,12 +24,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE CastInstructionNoT_CastInstruction_Value : public ::GlobalNamespace::CastInstruction_CastInstructionNoT {
 public:
   // Declarations
-  /// @brief Method ConvertNull, addr 0x40f98d4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ConvertNull, addr 0x40f956c, size 0x38, virtual true, abstract: false, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::GlobalNamespace::CastInstructionNoT_CastInstruction_Value* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x40f9718, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f93b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

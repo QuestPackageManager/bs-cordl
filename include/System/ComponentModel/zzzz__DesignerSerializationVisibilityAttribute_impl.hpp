@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)(
     ::System::ComponentModel::DesignerSerializationVisibility)>(&::System::ComponentModel::DesignerSerializationVisibilityAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44478d4;
+  constexpr static std::size_t addrs = 0x444756c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::DesignerSerializationVisibility (
     ::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(&::System::ComponentModel::DesignerSerializationVisibilityAttribute::get_Visibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44478fc;
+  constexpr static std::size_t addrs = 0x4447594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4447904;
+  constexpr static std::size_t addrs = 0x444759c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44479dc;
+  constexpr static std::size_t addrs = 0x4447674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerSerializationVisibilityAttribute::*)()>(
     &::System::ComponentModel::DesignerSerializationVisibilityAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44479e4;
+  constexpr static std::size_t addrs = 0x444767c;
 
   inline static ::MethodInfo const* methodInfo() {
 

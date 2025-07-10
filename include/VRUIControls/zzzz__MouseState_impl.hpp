@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::MouseState::*)()>(&::VRUIControls::MouseState::AnyPressesThisFrame)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4aed090;
+  constexpr static std::size_t addrs = 0x4aecd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::MouseState*>::get(), "AnyPressesThisFrame",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::MouseState::*)()>(&::VRUIControls::MouseState::AnyReleasesThisFrame)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4aed138;
+  constexpr static std::size_t addrs = 0x4aecdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::MouseState*>::get(), "AnyReleasesThisFrame",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::VRUIControls::ButtonState* (::VRUIControls::MouseState::*)(::UnityEngine::EventSystems::PointerEventData_InputButton)>(&::VRUIControls::MouseState::GetButtonState)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4aed1e4;
+  constexpr static std::size_t addrs = 0x4aece7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::EventSystems::PointerEventData_InputButton, ::UnityEngine::EventSystems::PointerEventData_FramePressState, ::UnityEngine::EventSystems::PointerEventData*)>(
     &::VRUIControls::MouseState::SetButtonState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4aed378;
+  constexpr static std::size_t addrs = 0x4aed010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::MouseState::*)()>(&::VRUIControls::MouseState::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4aed3b0;
+  constexpr static std::size_t addrs = 0x4aed048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::MouseState*>::get(), ".ctor",

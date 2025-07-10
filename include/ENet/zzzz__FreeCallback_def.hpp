@@ -30,18 +30,18 @@ namespace ENet {
 class CORDL_TYPE FreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3aa28d0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa255c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr memory, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3aa2954, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa25e0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3aa28bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa2548, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::IntPtr memory);
 
   static inline ::ENet::FreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3aa2830, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa24bc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -27,7 +27,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusRequestExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToPlatformException, addr 0x22763d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToPlatformException, addr 0x2276460, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlatformException* ToPlatformException(::Oculus::Platform::Models::Error* error, ::GlobalNamespace::PlatformException_ErrorType errorType);
 
 protected:

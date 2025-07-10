@@ -24,12 +24,12 @@ namespace BeatmapSaveDataCommon {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSpecialEventTypes, addr 0x270b340, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetSpecialEventTypes, addr 0x270afcc, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* GetSpecialEventTypes();
 
   static inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x270b404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270b090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

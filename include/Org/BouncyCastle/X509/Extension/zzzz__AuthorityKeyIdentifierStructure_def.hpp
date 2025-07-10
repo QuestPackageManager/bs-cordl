@@ -30,10 +30,10 @@ namespace Org::BouncyCastle::X509::Extension {
 class CORDL_TYPE AuthorityKeyIdentifierStructure : public ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier {
 public:
   // Declarations
-  /// @brief Method FromCertificate, addr 0x25e8f2c, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method FromCertificate, addr 0x25e8fbc, size 0x3d4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method FromKey, addr 0x25e9300, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method FromKey, addr 0x25e9390, size 0x194, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* FromKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
@@ -42,13 +42,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method .ctor, addr 0x25e9494, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e9524, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
-  /// @brief Method .ctor, addr 0x25e8e74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e8f04, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method .ctor, addr 0x25e94b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e9548, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
 protected:

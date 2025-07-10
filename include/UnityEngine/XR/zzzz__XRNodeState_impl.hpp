@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRNodeState::*)(uint64_t)>(&::UnityEngine::XR::XRNodeState::set_uniqueID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeaf94;
+  constexpr static std::size_t addrs = 0x4aeac2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRNode (::UnityEngine::XR::XRNodeState::*)()>(&::UnityEngine::XR::XRNodeState::get_nodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeb0dc;
+  constexpr static std::size_t addrs = 0x4aead74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRNodeState>::get(), "get_nodeType",
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRNodeState::*)(::UnityEngine::XR::XRNode)>(&::UnityEngine::XR::XRNodeState::set_nodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeaf9c;
+  constexpr static std::size_t addrs = 0x4aeac34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::XRNodeState::*)(bool)>(&::UnityEngine::XR::XRNodeState::set_tracked)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aeafa4;
+  constexpr static std::size_t addrs = 0x4aeac3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::XR::XRNodeState::TryGetPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aeb0e4;
+  constexpr static std::size_t addrs = 0x4aead7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::ByRef<::UnityEngine::Quaternion>)>(
     &::UnityEngine::XR::XRNodeState::TryGetRotation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aeb168;
+  constexpr static std::size_t addrs = 0x4aeae00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::XR::XRNodeState::TryGetVelocity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aeb1ec;
+  constexpr static std::size_t addrs = 0x4aeae84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::XR::XRNodeState::TryGetAngularVelocity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aeb200;
+  constexpr static std::size_t addrs = 0x4aeae98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::XR::XRNodeState::TryGetAcceleration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aeb214;
+  constexpr static std::size_t addrs = 0x4aeaeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::XR::XRNodeState::TryGetAngularAcceleration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aeb228;
+  constexpr static std::size_t addrs = 0x4aeaec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::UnityEngine::Vector3, ::UnityEngine::XR::AvailableTrackingData, ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::XR::XRNodeState::TryGet)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4aeb0f8;
+  constexpr static std::size_t addrs = 0x4aead90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(
     ::UnityEngine::Quaternion, ::UnityEngine::XR::AvailableTrackingData, ::ByRef<::UnityEngine::Quaternion>)>(&::UnityEngine::XR::XRNodeState::TryGet)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4aeb17c;
+  constexpr static std::size_t addrs = 0x4aeae14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

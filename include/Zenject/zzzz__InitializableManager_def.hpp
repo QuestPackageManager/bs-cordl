@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_Priority(int32_t value);
 
-  /// @brief Method __zenCreate, addr 0x4b4a1ec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b49e84, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4a2f8, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b49f90, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b49884, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4951c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IInitializable* initializable, int32_t priority);
 
 protected:
@@ -141,19 +141,19 @@ public:
 
   static inline ::Zenject::InitializableManager___c* New_ctor();
 
-  /// @brief Method <Initialize>b__5_0, addr 0x4b4a66c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__5_0, addr 0x4b4a304, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Initialize_b__5_0(::Zenject::InitializableManager_InitializableInfo* x);
 
-  /// @brief Method <.ctor>b__2_1, addr 0x4b4a654, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_1, addr 0x4b4a2ec, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__2_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x4b4a684, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b4a31c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4a6d8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4a370, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4a64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4a2e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::InitializableManager___c* getStaticF___9();
@@ -209,16 +209,16 @@ public:
 
   constexpr void __cordl_internal_set_initializable(::Zenject::IInitializable* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x4b4a890, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x4b4a528, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x4b4a910, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b4a5a8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4a964, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4a5fc, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4987c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b49514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,13 +269,13 @@ public:
   __declspec(property(get = __cordl_internal_get__initializables,
                       put = __cordl_internal_set__initializables)) ::System::Collections::Generic::List_1<::Zenject::InitializableManager_InitializableInfo*>* _initializables;
 
-  /// @brief Method Add, addr 0x4b498b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4b4954c, size 0x8, virtual false, abstract: false, final false
   inline void Add(::Zenject::IInitializable* initializable);
 
-  /// @brief Method Add, addr 0x4b498bc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4b49554, size 0xfc, virtual false, abstract: false, final false
   inline void Add(::Zenject::IInitializable* initializable, int32_t priority);
 
-  /// @brief Method Initialize, addr 0x4b499b8, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4b49650, size 0x424, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::Zenject::InitializableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
@@ -293,13 +293,13 @@ public:
 
   constexpr void __cordl_internal_set__initializables(::System::Collections::Generic::List_1<::Zenject::InitializableManager_InitializableInfo*>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b49ddc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b49a74, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b49ef4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b49b8c, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b494f4, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4918c, size 0x388, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 

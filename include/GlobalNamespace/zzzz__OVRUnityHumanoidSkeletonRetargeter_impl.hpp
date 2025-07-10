@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData::*)()>(
     &::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fbb304;
+  constexpr static std::size_t addrs = 0x3fbaf9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData::*)(
     ::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData*)>(&::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3fba6f4;
+  constexpr static std::size_t addrs = 0x3fba38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,7 +430,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::OVRSkeletonMetadata_OVRUnityHumanoidSkeletonRetargeter_BoneData*>* (
         ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::get_BodyToBoneData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fba3ac;
+  constexpr static std::size_t addrs = 0x3fba044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::*)(
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata*)>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::_ctor)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x3fba3b4;
+  constexpr static std::size_t addrs = 0x3fba04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::*)(::UnityEngine::Animator*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3fb67b8;
+  constexpr static std::size_t addrs = 0x3fb6450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -476,7 +476,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRSkeleton*, bool, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::_ctor)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3fb8018;
+  constexpr static std::size_t addrs = 0x3fb7cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -494,7 +494,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRSkeleton*, bool, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::BuildBoneDataSkeleton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb8198;
+  constexpr static std::size_t addrs = 0x3fb7e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -513,7 +513,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OVRSkeleton*, bool, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::AssembleSkeleton)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x3fbad10;
+  constexpr static std::size_t addrs = 0x3fba9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -532,7 +532,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRBone* (*)(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*, ::GlobalNamespace::OVRSkeleton_BoneId)>(
         &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::FindBoneWithBoneId)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3fbb30c;
+  constexpr static std::size_t addrs = 0x3fbafa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::*)(::UnityEngine::Animator*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::BuildBoneData)> {
   constexpr static std::size_t size = 0x598;
-  constexpr static std::size_t addrs = 0x3fba778;
+  constexpr static std::size_t addrs = 0x3fba410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::BuildCoordinateAxesForAllBones)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x3fb6920;
+  constexpr static std::size_t addrs = 0x3fb65b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::FindFirstChild)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3fbb4b8;
+  constexpr static std::size_t addrs = 0x3fbb150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::CreateQuaternionForBoneDataWithRightVec)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3fbb5c8;
+  constexpr static std::size_t addrs = 0x3fbb260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata::CreateQuaternionForBoneData)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3fbb788;
+  constexpr static std::size_t addrs = 0x3fbb420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_JointAdjustment::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_JointAdjustment::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fb6464;
+  constexpr static std::size_t addrs = 0x3fb60fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -868,7 +868,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata* (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_SourceSkeletonData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb6228;
+  constexpr static std::size_t addrs = 0x3fb5ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -882,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata* (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_SourceSkeletonTPoseData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb6230;
+  constexpr static std::size_t addrs = 0x3fb5ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -896,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_OVRSkeletonMetadata* (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_TargetSkeletonData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb6238;
+  constexpr static std::size_t addrs = 0x3fb5ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Animator> (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_AnimatorTargetSkeleton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb6240;
+  constexpr static std::size_t addrs = 0x3fb5ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -924,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSkeleton_BoneId, ::UnityEngine::HumanBodyBones>* (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_CustomBoneIdToHumanBodyBone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb6248;
+  constexpr static std::size_t addrs = 0x3fb5ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -939,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_TargetTPoseRotations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb6250;
+  constexpr static std::size_t addrs = 0x3fb5ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3fb6258;
+  constexpr static std::size_t addrs = 0x3fb5ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -968,7 +968,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_JointAdjustment*, ::Array<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_JointAdjustment*>*> (
         ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_Adjustments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb64c4;
+  constexpr static std::size_t addrs = 0x3fb615c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -983,7 +983,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::Array<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection>*> (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_BodySectionsToAlign)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb64cc;
+  constexpr static std::size_t addrs = 0x3fb6164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -998,7 +998,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::Array<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection>*> (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::get_BodySectionToPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb64d4;
+  constexpr static std::size_t addrs = 0x3fb616c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -1012,7 +1012,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::Start)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3fb64dc;
+  constexpr static std::size_t addrs = 0x3fb6174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1028,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::ValidateGameObjectForUnityHumanoidRetargeting)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3fb65a8;
+  constexpr static std::size_t addrs = 0x3fb6240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1043,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::StoreTTargetPoseRotations)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3fb669c;
+  constexpr static std::size_t addrs = 0x3fb6334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -1057,7 +1057,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::CreateCustomBoneIdToHumanBodyBoneMapping)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fb6684;
+  constexpr static std::size_t addrs = 0x3fb631c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1072,7 +1072,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::CopyBoneIdToHumanBodyBoneMapping)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3fb6e0c;
+  constexpr static std::size_t addrs = 0x3fb6aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1087,7 +1087,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::AdjustCustomBoneIdToHumanBodyBoneMapping)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3fb6fe4;
+  constexpr static std::size_t addrs = 0x3fb6c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)(::UnityEngine::HumanBodyBones)>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::RemoveMappingCorrespondingToHumanBodyBone)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3fb70a8;
+  constexpr static std::size_t addrs = 0x3fb6d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1117,7 +1117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::Update)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3fb726c;
+  constexpr static std::size_t addrs = 0x3fb6f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1133,7 +1133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::RecomputeSkeletalOffsetsIfNecessary)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fb72a0;
+  constexpr static std::size_t addrs = 0x3fb6f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1148,7 +1148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::ComputeOffsetsUsingSkeletonComponent)> {
   constexpr static std::size_t size = 0x6b8;
-  constexpr static std::size_t addrs = 0x3fb7960;
+  constexpr static std::size_t addrs = 0x3fb75f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1165,7 +1165,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection,
              ::Array<::GlobalNamespace::OVRHumanBodyBonesMappings_OVRUnityHumanoidSkeletonRetargeter_BodySection>*>)>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::IsBodySectionInArray)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb81a0;
+  constexpr static std::size_t addrs = 0x3fb7e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)()>(
     &::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::AlignTargetWithSource)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x3fb72b8;
+  constexpr static std::size_t addrs = 0x3fb6f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter*>::get(),
@@ -1197,7 +1197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter_JointAdjustment* (
     ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::*)(::UnityEngine::HumanBodyBones)>(&::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter::FindAdjustment)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb81fc;
+  constexpr static std::size_t addrs = 0x3fb7e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

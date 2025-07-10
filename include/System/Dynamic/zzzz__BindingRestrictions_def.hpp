@@ -117,15 +117,15 @@ public:
   /// @brief Field _unique, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__unique, put = __cordl_internal_set__unique)) ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* _unique;
 
-  /// @brief Method Append, addr 0x40fbc08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x40fb8a0, size 0x8c, virtual false, abstract: false, final false
   inline void Append(::System::Dynamic::BindingRestrictions* restrictions);
 
   static inline ::System::Dynamic::BindingRestrictions_TestBuilder* New_ctor();
 
-  /// @brief Method Push, addr 0x40fbc94, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x40fb92c, size 0x134, virtual false, abstract: false, final false
   inline void Push(::System::Linq::Expressions::Expression* node, int32_t depth);
 
-  /// @brief Method ToExpression, addr 0x40fbdc8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ToExpression, addr 0x40fba60, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ToExpression();
 
   constexpr ::System::Collections::Generic::Stack_1<::System::Dynamic::TestBuilder_BindingRestrictions_AndNode>* const& __cordl_internal_get__tests() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__unique(::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* value);
 
-  /// @brief Method .ctor, addr 0x40fbe9c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fbb34, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -231,24 +231,24 @@ public:
   /// @brief Method GetExpression, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetInstanceRestriction, addr 0x40fb9b8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceRestriction, addr 0x40fb650, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Dynamic::BindingRestrictions* GetInstanceRestriction(::System::Linq::Expressions::Expression* expression, ::System::Object* instance);
 
-  /// @brief Method GetTypeRestriction, addr 0x40fb748, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeRestriction, addr 0x40fb3e0, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method GetTypeRestriction, addr 0x40fb870, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetTypeRestriction, addr 0x40fb508, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Dynamic::DynamicMetaObject* obj);
 
-  /// @brief Method Merge, addr 0x40fb5e8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x40fb280, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Dynamic::BindingRestrictions* Merge(::System::Dynamic::BindingRestrictions* restrictions);
 
   static inline ::System::Dynamic::BindingRestrictions* New_ctor();
 
-  /// @brief Method ToExpression, addr 0x40fbae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToExpression, addr 0x40fb780, size 0xc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ToExpression();
 
-  /// @brief Method .ctor, addr 0x40fb5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fb278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Dynamic::BindingRestrictions* getStaticF_Empty();

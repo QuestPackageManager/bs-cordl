@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a9de94, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9db20, size 0x14c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_TreePrototypeInfo* New_ctor();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a9dfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9dc6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"

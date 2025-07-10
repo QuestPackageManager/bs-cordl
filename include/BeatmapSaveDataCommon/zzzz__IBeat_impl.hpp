@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataCommon::IBeat::*)(::BeatmapSaveDataCommon::IBeat*)>(
     &::BeatmapSaveDataCommon::IBeat::System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x270b474;
+  constexpr static std::size_t addrs = 0x270b100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

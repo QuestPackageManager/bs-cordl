@@ -134,10 +134,10 @@ public:
   /// @brief Field _texture, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__texture, put = setStaticF__texture)) ::UnityW<::UnityEngine::Texture3D> _texture;
 
-  /// @brief Method Awake, addr 0x4085aa4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x408573c, size 0x208, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateNoisePixels, addr 0x4085cac, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CreateNoisePixels, addr 0x4085944, size 0x318, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> CreateNoisePixels(int32_t width, int32_t height, int32_t depth, float_t scale, int32_t repeat, float_t contrast);
 
   static inline ::GlobalNamespace::Noise3DTexturesGenerator* New_ctor();
@@ -151,7 +151,7 @@ public:
   constexpr void __cordl_internal_set__data(
       ::ArrayW<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple, ::Array<::GlobalNamespace::Noise3DTexturesGenerator_MaterialTextureParamsCouple>*> value);
 
-  /// @brief Method .ctor, addr 0x4085fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4085c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Texture3D> getStaticF__texture();

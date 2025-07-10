@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType)>(
     &::System::Xml::Schema::ParticleContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439d5b0;
+  constexpr static std::size_t addrs = 0x439d248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType, bool)>(
     &::System::Xml::Schema::ParticleContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x439d5b8;
+  constexpr static std::size_t addrs = 0x439d250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::ParticleContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x439d638;
+  constexpr static std::size_t addrs = 0x439d2d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::ByRef<int32_t>)>(
         &::System::Xml::Schema::ParticleContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x439d670;
+  constexpr static std::size_t addrs = 0x439d308;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::ParticleContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x439d6a8;
+  constexpr static std::size_t addrs = 0x439d340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::Start)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x439d6e0;
+  constexpr static std::size_t addrs = 0x439d378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(), "Start",
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::OpenGroup)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x439d790;
+  constexpr static std::size_t addrs = 0x439d428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::CloseGroup)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x439d7b8;
+  constexpr static std::size_t addrs = 0x439d450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::ParticleContentValidator::Exists)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x439d908;
+  constexpr static std::size_t addrs = 0x439d5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Object*)>(
     &::System::Xml::Schema::ParticleContentValidator::AddName)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x439d940;
+  constexpr static std::size_t addrs = 0x439d5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*)>(
     &::System::Xml::Schema::ParticleContentValidator::AddNamespaceList)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x439dac4;
+  constexpr static std::size_t addrs = 0x439d75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::SyntaxTreeNode*)>(
     &::System::Xml::Schema::ParticleContentValidator::AddLeafNode)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x439d9e8;
+  constexpr static std::size_t addrs = 0x439d680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::AddChoice)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x439db50;
+  constexpr static std::size_t addrs = 0x439d7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::AddSequence)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x439dc30;
+  constexpr static std::size_t addrs = 0x439d8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::AddStar)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x439dd10;
+  constexpr static std::size_t addrs = 0x439d9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::AddPlus)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x439debc;
+  constexpr static std::size_t addrs = 0x439db54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(
     &::System::Xml::Schema::ParticleContentValidator::AddQMark)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x439df18;
+  constexpr static std::size_t addrs = 0x439dbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::ParticleContentValidator::AddLeafRange)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x439df74;
+  constexpr static std::size_t addrs = 0x439dc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ParticleContentValidator*>::get(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::InteriorNode*)>(
     &::System::Xml::Schema::ParticleContentValidator::Closure)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x439dd6c;
+  constexpr static std::size_t addrs = 0x439da04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ContentValidator* (::System::Xml::Schema::ParticleContentValidator::*)(bool)>(
     &::System::Xml::Schema::ParticleContentValidator::Finish)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x439e05c;
+  constexpr static std::size_t addrs = 0x439dcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>,
                                                         ::ByRef<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::ParticleContentValidator::CalculateTotalFollowposForRangeNodes)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x439e5b0;
+  constexpr static std::size_t addrs = 0x439e248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::ParticleContentValidator::CheckCMUPAWithLeafRangeNodes)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x439e9c8;
+  constexpr static std::size_t addrs = 0x439e660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,7 +357,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                     ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
         &::System::Xml::Schema::ParticleContentValidator::GetApplicableMinMaxFollowPos)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x439e858;
+  constexpr static std::size_t addrs = 0x439e4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -375,7 +375,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
         &::System::Xml::Schema::ParticleContentValidator::CheckUniqueParticleAttribution)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x439eb28;
+  constexpr static std::size_t addrs = 0x439e7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::ParticleContentValidator::CheckUniqueParticleAttribution)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x439f1ec;
+  constexpr static std::size_t addrs = 0x439ee84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -407,7 +407,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>, int32_t)>(
     &::System::Xml::Schema::ParticleContentValidator::BuildTransitionTable)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x439ebb0;
+  constexpr static std::size_t addrs = 0x439e848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

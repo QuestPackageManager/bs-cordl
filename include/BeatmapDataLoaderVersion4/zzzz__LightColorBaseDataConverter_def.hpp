@@ -25,7 +25,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightColorBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x270ee90, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270eb1c, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightColorBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent);
 
 protected:

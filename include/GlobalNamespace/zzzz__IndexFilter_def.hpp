@@ -232,22 +232,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26be5b8, size 0x4c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26be204, size 0x4c4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::IndexFilter__GetEnumerator_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x26beb2c, size 0x10, virtual true,
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x26be778, size 0x10, virtual true,
   /// abstract: false, final true
   inline ::System::ValueTuple_3<int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26beb3c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26be788, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26beb74, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26be7c0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26be59c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26be1e8, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -298,10 +298,10 @@ public:
 
   constexpr void __cordl_internal_set__localChunkIndex_5__6(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x26bea7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26be6c8, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26be4cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26be118, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
@@ -422,27 +422,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26bebdc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26be828, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::IndexFilter__GetValues_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x26becf8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x26be944, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x26bec5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x26be8a8, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26bed94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26be9e0, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26bec64, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26be8b0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26bec9c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26be8e8, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26bebd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26be824, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -481,7 +481,7 @@ public:
 
   constexpr void __cordl_internal_set__value_5__2(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26be564, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26be1b0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -615,10 +615,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x26bbde8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x26bba34, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* GetEnumerator();
 
-  /// @brief Method GetValues, addr 0x26be4f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetValues, addr 0x26be140, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetValues();
 
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed, int32_t chunkSize,
@@ -627,7 +627,7 @@ public:
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed,
                                                          int32_t chunkSize, float_t limit, ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26be598, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26be1e4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr int32_t const& __cordl_internal_get__chunkSize() const;
@@ -684,27 +684,27 @@ public:
 
   constexpr void __cordl_internal_set__visibleCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26be3f8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26be044, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method .ctor, addr 0x26be310, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bdf5c, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::IndexFilter_IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method get_Count, addr 0x26be2ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x26bdf38, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_VisibleCount, addr 0x26be2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VisibleCount, addr 0x26bdf40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_VisibleCount();
 
-  /// @brief Method get_limitAlsoAffectType, addr 0x26be2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limitAlsoAffectType, addr 0x26bdf48, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType get_limitAlsoAffectType();
 
-  /// @brief Method get_limitsDistribution, addr 0x26bb528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_limitsDistribution, addr 0x26bb174, size 0xc, virtual false, abstract: false, final false
   inline bool get_limitsDistribution();
 
-  /// @brief Method get_limitsDuration, addr 0x26be304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_limitsDuration, addr 0x26bdf50, size 0xc, virtual false, abstract: false, final false
   inline bool get_limitsDuration();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"

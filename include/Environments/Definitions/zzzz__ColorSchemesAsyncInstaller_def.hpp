@@ -51,10 +51,10 @@ public:
 
   static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* New_ctor();
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x271745c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x27170e8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::ColorSchemeSO* colorScheme);
 
-  /// @brief Method .ctor, addr 0x2717454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27170e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* getStaticF___9();
@@ -103,10 +103,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x27172b8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2716f44, size 0xb0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2717194, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2716e20, size 0x124, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemes,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
@@ -118,10 +118,10 @@ public:
 
   constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* value);
 
-  /// @brief Method .ctor, addr 0x2717368, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2716ff4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x2717154, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x2716de0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

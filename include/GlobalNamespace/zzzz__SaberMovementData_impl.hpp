@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::get_bladeSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b1500;
+  constexpr static std::size_t addrs = 0x26b114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberMovementData*>::get(), "get_bladeSpeed",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BladeMovementDataElement (::GlobalNamespace::SaberMovementData::*)()>(
     &::GlobalNamespace::SaberMovementData::get_lastAddedData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26b1508;
+  constexpr static std::size_t addrs = 0x26b1154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberMovementData*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BladeMovementDataElement (::GlobalNamespace::SaberMovementData::*)()>(
     &::GlobalNamespace::SaberMovementData::get_prevAddedData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26b1564;
+  constexpr static std::size_t addrs = 0x26b11b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberMovementData*>::get(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26b15c0;
+  constexpr static std::size_t addrs = 0x26b120c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberMovementData*>::get(), ".ctor",
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::GlobalNamespace::ISaberMovementDataProcessor*)>(
     &::GlobalNamespace::SaberMovementData::AddDataProcessor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26b1668;
+  constexpr static std::size_t addrs = 0x26b12b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::GlobalNamespace::ISaberMovementDataProcessor*)>(
     &::GlobalNamespace::SaberMovementData::RemoveDataProcessor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26b16c0;
+  constexpr static std::size_t addrs = 0x26b130c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::GlobalNamespace::ISaberMovementDataProcessor*)>(
     &::GlobalNamespace::SaberMovementData::RequestLastDataProcessing)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x26b1718;
+  constexpr static std::size_t addrs = 0x26b1364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::SaberMovementData::AddNewData)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x26b1898;
+  constexpr static std::size_t addrs = 0x26b14e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberMovementData::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, ::ByRef<::UnityEngine::Vector3>, ::ByRef<float_t>)>(&::GlobalNamespace::SaberMovementData::ComputeAdditionalData)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x26b1d60;
+  constexpr static std::size_t addrs = 0x26b19ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SaberMovementData::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::SaberMovementData::ComputePlaneNormal)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x26b1f8c;
+  constexpr static std::size_t addrs = 0x26b1bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::SaberMovementData::*)()>(
     &::GlobalNamespace::SaberMovementData::ComputeCutPlaneNormal)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26b20c8;
+  constexpr static std::size_t addrs = 0x26b1d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberMovementData*>::get(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)(float_t)>(
     &::GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b2160;
+  constexpr static std::size_t addrs = 0x26b1dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)()>(&::GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26b240c;
+  constexpr static std::size_t addrs = 0x26b2058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberMovementData*>::get(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberMovementData::*)(bool, float_t)>(
     &::GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x26b2168;
+  constexpr static std::size_t addrs = 0x26b1db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

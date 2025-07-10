@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_State)) ::System::Runtime::Serialization::StreamingContextStates State;
 
-  /// @brief Method Equals, addr 0x3cfe7c8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3cfe460, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3cfe878, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3cfe510, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x3cfe7a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfe440, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state);
 
-  /// @brief Method .ctor, addr 0x3cfe7b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfe44c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::System::Object* additional);
 
-  /// @brief Method get_Context, addr 0x3cfe7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x3cfe458, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Context();
 
-  /// @brief Method get_State, addr 0x3cfe880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x3cfe518, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::StreamingContextStates get_State();
 
   // Ctor Parameters []

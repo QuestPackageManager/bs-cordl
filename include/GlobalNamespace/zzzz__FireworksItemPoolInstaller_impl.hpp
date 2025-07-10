@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksItemPoolInstaller::*)()>(
     &::GlobalNamespace::FireworksItemPoolInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b81adc;
+  constexpr static std::size_t addrs = 0x3b81774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksItemPoolInstaller::*)()>(&::GlobalNamespace::FireworksItemPoolInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b81b70;
+  constexpr static std::size_t addrs = 0x3b81808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksItemPoolInstaller*>::get(), ".ctor",

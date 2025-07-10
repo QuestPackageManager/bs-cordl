@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_titleTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x225f910, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225f9a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

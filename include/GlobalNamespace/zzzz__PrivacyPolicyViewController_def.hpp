@@ -56,18 +56,18 @@ public:
   /// @brief Field didFinishEvent, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3af60fc, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af5d88, size 0x1d4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x3af62d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3af5f5c, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showIAcceptPrompt);
 
   static inline ::GlobalNamespace::PrivacyPolicyViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3af62ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x3af5f78, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3af6308, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x3af5f94, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__iAcceptButton() const;
@@ -118,13 +118,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3af62e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af5f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3af5fc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3af5c50, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3af6060, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3af5cec, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:

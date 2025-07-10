@@ -41,7 +41,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BombCutSoundEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ad07b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad0444, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,15 +85,15 @@ public:
   /// @brief Field didFinishEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x3ad065c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ad02e8, size 0x74, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float_t volume);
 
-  /// @brief Method LateUpdate, addr 0x3ad06d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3ad035c, size 0x90, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BombCutSoundEffect* New_ctor();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x3ad0760, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x3ad03ec, size 0x50, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -114,13 +114,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method .ctor, addr 0x3ad07b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad043c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3ad04fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3ad0188, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3ad05ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3ad0238, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
 protected:

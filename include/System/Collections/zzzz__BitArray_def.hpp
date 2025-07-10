@@ -59,15 +59,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3dc121c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3dc0eb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x3dc1224, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3dc0ebc, size 0x1a4, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Collections::BitArray_BitArrayEnumeratorSimple* New_ctor(::System::Collections::BitArray* bitarray);
 
-  /// @brief Method Reset, addr 0x3dc151c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3dc11b4, size 0x78, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::BitArray* const& __cordl_internal_get_bitarray() const;
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dc11dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc0e74, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::BitArray* bitarray);
 
-  /// @brief Method get_Current, addr 0x3dc13c8, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3dc1060, size 0x154, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -189,19 +189,19 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3dc112c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3dc0dc4, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo, addr 0x3dc0ba8, size 0x504, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x3dc0840, size 0x504, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method Get, addr 0x3dc0800, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3dc0498, size 0xd8, virtual false, abstract: false, final false
   inline bool Get(int32_t index);
 
-  /// @brief Method GetArrayLength, addr 0x3dc06e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetArrayLength, addr 0x3dc0380, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetArrayLength(int32_t n, int32_t div);
 
-  /// @brief Method GetEnumerator, addr 0x3dc1184, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3dc0e1c, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::BitArray* New_ctor(::System::Collections::BitArray* bits);
@@ -210,7 +210,7 @@ public:
 
   static inline ::System::Collections::BitArray* New_ctor(int32_t length, bool defaultValue);
 
-  /// @brief Method Set, addr 0x3dc08e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3dc0578, size 0xf8, virtual false, abstract: false, final false
   inline void Set(int32_t index, bool value);
 
   constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
@@ -237,28 +237,28 @@ public:
 
   constexpr void __cordl_internal_set_m_length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dc0704, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc039c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::BitArray* bits);
 
-  /// @brief Method .ctor, addr 0x3dc0588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc0220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
-  /// @brief Method .ctor, addr 0x3dc0590, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc0228, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, bool defaultValue);
 
-  /// @brief Method get_Count, addr 0x3dc10ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x3dc0d44, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3dc1124, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x3dc0dbc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x3dc07fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3dc0494, size 0x4, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x3dc09d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3dc0670, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_SyncRoot, addr 0x3dc10b4, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x3dc0d4c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -270,10 +270,10 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x3dc08d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3dc0570, size 0x8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
-  /// @brief Method set_Length, addr 0x3dc09e0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method set_Length, addr 0x3dc0678, size 0x1c8, virtual false, abstract: false, final false
   inline void set_Length(int32_t value);
 
 protected:

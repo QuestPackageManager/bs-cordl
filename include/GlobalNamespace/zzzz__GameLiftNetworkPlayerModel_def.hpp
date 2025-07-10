@@ -74,22 +74,22 @@ public:
 
   __declspec(property(get = get_selectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
-  /// @brief Method GetConnectToServerParams, addr 0x3e723d0, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetConnectToServerParams, addr 0x3e72068, size 0xe8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
   GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
 
-  /// @brief Method GetStartClientParams, addr 0x3e724b8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetStartClientParams, addr 0x3e72150, size 0xd0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                                                          ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::GameLiftNetworkPlayerModel* New_ctor();
 
-  /// @brief Method RefreshPublicServers, addr 0x3e72318, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method RefreshPublicServers, addr 0x3e71fb0, size 0xb8, virtual true, abstract: false, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
 
-  /// @brief Method Update, addr 0x3e72258, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3e71ef0, size 0xc0, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::GameLiftConnectionManager_ConnectToServerParams* const& __cordl_internal_get__cachedConnectToServerParams() const;
@@ -110,22 +110,22 @@ public:
 
   constexpr void __cordl_internal_set__gameLiftPlayerSessionProvider(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* value);
 
-  /// @brief Method .ctor, addr 0x3e72588, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e72220, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_code, addr 0x3e7210c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_code, addr 0x3e71da4, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_configuration, addr 0x3e72168, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x3e71e00, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_partyOwnerId, addr 0x3e72160, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_partyOwnerId, addr 0x3e71df8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_partyOwnerId();
 
-  /// @brief Method get_secret, addr 0x3e720b8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_secret, addr 0x3e71d50, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_selectionMask, addr 0x3e721e0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x3e71e78, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
 protected:

@@ -76,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Complete, addr 0x43c906c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43c8d04, size 0x100, virtual false, abstract: false, final false
   inline void Complete();
 
-  /// @brief Method Complete, addr 0x43c9064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43c8cfc, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* e);
 
   static inline ::System::Net::HttpStreamAsyncResult* New_ctor();
@@ -144,19 +144,19 @@ public:
 
   constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43c9380, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43c9018, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AsyncState, addr 0x43c916c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x43c8e04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x43c9174, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x43c8e0c, size 0x130, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x43c92a4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x43c8f3c, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x43c92b8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x43c8f50, size 0xc8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"

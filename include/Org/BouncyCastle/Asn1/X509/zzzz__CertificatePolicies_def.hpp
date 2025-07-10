@@ -45,23 +45,23 @@ public:
                       put = __cordl_internal_set_policyInformation)) ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*>
       policyInformation;
 
-  /// @brief Method Copy, addr 0x2508c9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x2508d2c, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policyInfo);
 
-  /// @brief Method FromExtensions, addr 0x2508efc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x2508f8c, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x2508ee4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2508f74, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2508d14, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2508da4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetPolicyInformation, addr 0x250903c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPolicyInformation, addr 0x25090cc, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicyInformation();
 
-  /// @brief Method GetPolicyInformation, addr 0x2509044, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetPolicyInformation, addr 0x25090d4, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* GetPolicyInformation(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* New_ctor(::Org::BouncyCastle::Asn1::X509::PolicyInformation* name);
@@ -71,10 +71,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25090e8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2509178, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x2509148, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25091d8, size 0x140, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> const& __cordl_internal_get_policyInformation() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_policyInformation(::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> value);
 
-  /// @brief Method .ctor, addr 0x2508f64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508ff4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::PolicyInformation* name);
 
-  /// @brief Method .ctor, addr 0x250900c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250909c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policyInformation);
 
-  /// @brief Method .ctor, addr 0x2508db8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508e48, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

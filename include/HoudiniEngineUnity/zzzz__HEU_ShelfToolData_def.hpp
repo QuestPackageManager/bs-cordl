@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType value);
 
-  /// @brief Method .ctor, addr 0x3a8527c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a84f08, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

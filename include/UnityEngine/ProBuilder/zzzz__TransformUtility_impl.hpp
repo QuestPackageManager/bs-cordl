@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::UnparentChildren)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4742f94;
+  constexpr static std::size_t addrs = 0x4742c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::ReparentChildren)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x47430f4;
+  constexpr static std::size_t addrs = 0x4742d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::TransformVertex)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x474321c;
+  constexpr static std::size_t addrs = 0x4742eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::InverseTransformVertex)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x474341c;
+  constexpr static std::size_t addrs = 0x47430b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

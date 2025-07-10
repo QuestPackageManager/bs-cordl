@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cacee0;
+  constexpr static std::size_t addrs = 0x3cacb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SymmetricAlgorithm*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cacf04;
+  constexpr static std::size_t addrs = 0x3cacb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SymmetricAlgorithm*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::Clear)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cacf70;
+  constexpr static std::size_t addrs = 0x3cacc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SymmetricAlgorithm*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3cad004;
+  constexpr static std::size_t addrs = 0x3cacc9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_BlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cad050;
+  constexpr static std::size_t addrs = 0x3cacce8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(int32_t)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::set_BlockSize)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3cad058;
+  constexpr static std::size_t addrs = 0x3caccf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_FeedbackSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cad140;
+  constexpr static std::size_t addrs = 0x3cacdd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_IV)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cad148;
+  constexpr static std::size_t addrs = 0x3cacde0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::set_IV)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3cad1dc;
+  constexpr static std::size_t addrs = 0x3cace74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_Key)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cad338;
+  constexpr static std::size_t addrs = 0x3cacfd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::set_Key)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3cad3cc;
+  constexpr static std::size_t addrs = 0x3cad064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> (
     ::System::Security::Cryptography::SymmetricAlgorithm::*)()>(&::System::Security::Cryptography::SymmetricAlgorithm::get_LegalKeySizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cad5bc;
+  constexpr static std::size_t addrs = 0x3cad254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cad634;
+  constexpr static std::size_t addrs = 0x3cad2cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(int32_t)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::set_KeySize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3cad63c;
+  constexpr static std::size_t addrs = 0x3cad2d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::CipherMode (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cad6b8;
+  constexpr static std::size_t addrs = 0x3cad350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(::System::Security::Cryptography::CipherMode)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::set_Mode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cad6c0;
+  constexpr static std::size_t addrs = 0x3cad358;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::PaddingMode (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::get_Padding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cad734;
+  constexpr static std::size_t addrs = 0x3cad3cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SymmetricAlgorithm::*)(::System::Security::Cryptography::PaddingMode)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::set_Padding)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cad73c;
+  constexpr static std::size_t addrs = 0x3cad3d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::SymmetricAlgorithm::*)(int32_t)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::ValidKeySize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3cad520;
+  constexpr static std::size_t addrs = 0x3cad1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::SymmetricAlgorithm* (*)(::StringW)>(
     &::System::Security::Cryptography::SymmetricAlgorithm::Create)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3cad7b0;
+  constexpr static std::size_t addrs = 0x3cad448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::ICryptoTransform* (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3cad8a8;
+  constexpr static std::size_t addrs = 0x3cad540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::ICryptoTransform* (::System::Security::Cryptography::SymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3cad8f8;
+  constexpr static std::size_t addrs = 0x3cad590;
 
   inline static ::MethodInfo const* methodInfo() {
 

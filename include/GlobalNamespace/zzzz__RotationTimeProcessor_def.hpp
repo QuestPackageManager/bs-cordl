@@ -50,7 +50,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE RotationTimeProcessor_RotationChangeData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x26baeb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bab00, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t rotation);
 
   // Ctor Parameters []
@@ -97,10 +97,10 @@ public:
 
   static inline ::GlobalNamespace::RotationTimeProcessor___c* New_ctor();
 
-  /// @brief Method <.ctor>b__3_0, addr 0x26bb468, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__3_0, addr 0x26bb0b4, size 0x24, virtual false, abstract: false, final false
   inline bool __ctor_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
 
-  /// @brief Method .ctor, addr 0x26bb460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bb0ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::RotationTimeProcessor___c* getStaticF___9();
@@ -155,17 +155,17 @@ public:
   /// @brief Field currentBpmChangesDataIdx, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_currentBpmChangesDataIdx, put = __cordl_internal_set_currentBpmChangesDataIdx)) int32_t currentBpmChangesDataIdx;
 
-  /// @brief Method ConvertBeatToRotation, addr 0x26ba8dc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ConvertBeatToRotation, addr 0x26ba528, size 0xfc, virtual false, abstract: false, final false
   inline int32_t ConvertBeatToRotation(float_t beat);
 
   static inline ::GlobalNamespace::RotationTimeProcessor* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
   static inline ::GlobalNamespace::RotationTimeProcessor* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEventsSaveData);
 
-  /// @brief Method Reset, addr 0x26bb368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x26bafb4, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SpawnRotationForEventValue, addr 0x26bae04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SpawnRotationForEventValue, addr 0x26baa50, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t SpawnRotationForEventValue(int32_t index);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RotationTimeProcessor_RotationChangeData>* const& __cordl_internal_get__rotationChangeDataList() const;
@@ -180,10 +180,10 @@ public:
 
   constexpr void __cordl_internal_set_currentBpmChangesDataIdx(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26baa84, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba6d0, size 0x380, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
-  /// @brief Method .ctor, addr 0x26baec0, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bab0c, size 0x4a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEventsSaveData);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF__spawnRotations();

@@ -22,29 +22,29 @@ public:
   /// @brief Field DES_weak_keys, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_DES_weak_keys, put = setStaticF_DES_weak_keys)) ::ArrayW<uint8_t, ::Array<uint8_t>*> DES_weak_keys;
 
-  /// @brief Method IsWeakKey, addr 0x23b86dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x23b876c, size 0x58, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method IsWeakKey, addr 0x23b880c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x23b889c, size 0x15c, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method SetOddParity, addr 0x23b8968, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetOddParity, addr 0x23b89f8, size 0x20, virtual false, abstract: false, final false
   static inline uint8_t SetOddParity(uint8_t b);
 
-  /// @brief Method SetOddParity, addr 0x23b8988, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetOddParity, addr 0x23b8a18, size 0xbc, virtual false, abstract: false, final false
   static inline void SetOddParity(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method SetOddParity, addr 0x23b8a44, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetOddParity, addr 0x23b8ad4, size 0xe0, virtual false, abstract: false, final false
   static inline void SetOddParity(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method .ctor, addr 0x23b8620, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b86b0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x23b8734, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b87c4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_DES_weak_keys();

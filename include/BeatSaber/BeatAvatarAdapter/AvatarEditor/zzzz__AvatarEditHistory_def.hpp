@@ -49,18 +49,18 @@ public:
 
   __declspec(property(get = get_undoAvailable)) bool undoAvailable;
 
-  /// @brief Method Clear, addr 0x2255538, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x22555c8, size 0x6c, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* New_ctor();
 
-  /// @brief Method Redo, addr 0x22555c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Redo, addr 0x2255650, size 0x68, virtual false, abstract: false, final false
   inline void Redo();
 
-  /// @brief Method Undo, addr 0x22555a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x2255634, size 0x1c, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method UpdateEditHistory, addr 0x2255628, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method UpdateEditHistory, addr 0x22556b8, size 0x1bc, virtual false, abstract: false, final false
   inline void UpdateEditHistory(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   constexpr int32_t const& __cordl_internal_get__currentDataId() const;
@@ -81,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set_disableNextSnapshotOverride(bool value);
 
-  /// @brief Method .ctor, addr 0x22557f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255880, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentSnapShot, addr 0x22554d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_currentSnapShot, addr 0x2255564, size 0x54, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot get_currentSnapShot();
 
-  /// @brief Method get_lastEditedPart, addr 0x2255528, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_lastEditedPart, addr 0x22555b8, size 0x10, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPart get_lastEditedPart();
 
-  /// @brief Method get_redoAvailable, addr 0x225547c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_redoAvailable, addr 0x225550c, size 0x58, virtual false, abstract: false, final false
   inline bool get_redoAvailable();
 
-  /// @brief Method get_undoAvailable, addr 0x225546c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_undoAvailable, addr 0x22554fc, size 0x10, virtual false, abstract: false, final false
   inline bool get_undoAvailable();
 
 protected:

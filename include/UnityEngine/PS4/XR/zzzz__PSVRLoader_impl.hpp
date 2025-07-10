@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Il2CppObject* (::UnityEngine::PS4::XR::PSVRLoader::*)()>(&::UnityEngine::PS4::XR::PSVRLoader::get_displaySubsystem)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4838f18;
+  constexpr static std::size_t addrs = 0x4838bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PS4::XR::PSVRLoader*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRInputSubsystem* (::UnityEngine::PS4::XR::PSVRLoader::*)()>(
     &::UnityEngine::PS4::XR::PSVRLoader::get_inputSubsystem)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4838f7c;
+  constexpr static std::size_t addrs = 0x4838c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PS4::XR::PSVRLoader*>::get(), "get_inputSubsystem",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PS4::XR::PSVRLoader::*)()>(&::UnityEngine::PS4::XR::PSVRLoader::Initialize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4838fe0;
+  constexpr static std::size_t addrs = 0x4838c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PS4::XR::PSVRLoader::*)()>(&::UnityEngine::PS4::XR::PSVRLoader::Start)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48390b4;
+  constexpr static std::size_t addrs = 0x4838d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PS4::XR::PSVRLoader::*)()>(&::UnityEngine::PS4::XR::PSVRLoader::Stop)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x483912c;
+  constexpr static std::size_t addrs = 0x4838dc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PS4::XR::PSVRLoader::*)()>(&::UnityEngine::PS4::XR::PSVRLoader::Deinitialize)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48391a4;
+  constexpr static std::size_t addrs = 0x4838e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PS4::XR::PSVRLoader::*)()>(
     &::UnityEngine::PS4::XR::PSVRLoader::DisableVRAndEnable2DReprojection)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x483921c;
+  constexpr static std::size_t addrs = 0x4838eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::PS4::XR::PSVRLoader::*)()>(
     &::UnityEngine::PS4::XR::PSVRLoader::EnableVRAndDisable2DReprojection)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x48392bc;
+  constexpr static std::size_t addrs = 0x4838f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::PS4::XR::PSVRLoader::*)()>(&::UnityEngine::PS4::XR::PSVRLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4839378;
+  constexpr static std::size_t addrs = 0x4839010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::PS4::XR::PSVRLoader*>::get(), ".ctor",

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x466fbc8;
+  constexpr static std::size_t addrs = 0x466f860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Geometry::MinMaxAABB (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::CreateFromCenterAndExtents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x466fbd8;
+  constexpr static std::size_t addrs = 0x466f870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Geometry::MinMaxAABB (*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::CreateFromCenterAndHalfExtents)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x466fc10;
+  constexpr static std::size_t addrs = 0x466f8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Geometry::MinMaxAABB::*)()>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::get_Extents)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x466fc38;
+  constexpr static std::size_t addrs = 0x466f8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::MinMaxAABB>::get(), "get_Extents",
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Geometry::MinMaxAABB::*)()>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::get_HalfExtents)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x466fc58;
+  constexpr static std::size_t addrs = 0x466f8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::MinMaxAABB>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Geometry::MinMaxAABB::*)()>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::get_Center)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x466fc88;
+  constexpr static std::size_t addrs = 0x466f920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::MinMaxAABB>::get(), "get_Center",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::Geometry::MinMaxAABB::*)()>(&::Unity::Mathematics::Geometry::MinMaxAABB::get_IsValid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x466fcb8;
+  constexpr static std::size_t addrs = 0x466f950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::MinMaxAABB>::get(), "get_IsValid",
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Mathematics::Geometry::MinMaxAABB::*)()>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::get_SurfaceArea)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x466fcf8;
+  constexpr static std::size_t addrs = 0x466f990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Geometry::MinMaxAABB>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::Contains)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x466fd2c;
+  constexpr static std::size_t addrs = 0x466f9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::Contains)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x466fd90;
+  constexpr static std::size_t addrs = 0x466fa28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::Overlaps)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x466fe04;
+  constexpr static std::size_t addrs = 0x466fa9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::MinMaxAABB::*)(float_t)>(&::Unity::Mathematics::Geometry::MinMaxAABB::Expand)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x466fe74;
+  constexpr static std::size_t addrs = 0x466fb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::Encapsulate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x466fea0;
+  constexpr static std::size_t addrs = 0x466fb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::Encapsulate)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x466ff34;
+  constexpr static std::size_t addrs = 0x466fbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::Geometry::MinMaxAABB::*)(::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::MinMaxAABB::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x466fffc;
+  constexpr static std::size_t addrs = 0x466fc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Mathematics::Geometry::MinMaxAABB::*)()>(&::Unity::Mathematics::Geometry::MinMaxAABB::ToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4670068;
+  constexpr static std::size_t addrs = 0x466fd00;
 
   inline static ::MethodInfo const* methodInfo() {
 

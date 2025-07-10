@@ -114,82 +114,82 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*() noexcept;
 
-  /// @brief Method ApplyPreset, addr 0x3aa140c, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ApplyPreset, addr 0x3aa1098, size 0x2d0, virtual false, abstract: false, final false
   inline bool ApplyPreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* volumeCachePreset);
 
-  /// @brief Method CopyDetailProperties, addr 0x3aa20a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CopyDetailProperties, addr 0x3aa1d34, size 0x28, virtual false, abstract: false, final false
   static inline void CopyDetailProperties(::HoudiniEngineUnity::HEU_DetailProperties* srcProp, ::HoudiniEngineUnity::HEU_DetailProperties* destProp);
 
-  /// @brief Method CopyLayer, addr 0x3a9f2ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CopyLayer, addr 0x3a9ef78, size 0xb4, virtual false, abstract: false, final false
   static inline void CopyLayer(::HoudiniEngineUnity::HEU_VolumeLayer* srcLayer, ::HoudiniEngineUnity::HEU_VolumeLayer* destLayer);
 
-  /// @brief Method CopyPrototype, addr 0x3aa20d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CopyPrototype, addr 0x3aa1d5c, size 0x48, virtual false, abstract: false, final false
   static inline void CopyPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* srcProto, ::HoudiniEngineUnity::HEU_DetailPrototype* destProto);
 
-  /// @brief Method CopyValuesTo, addr 0x3aa1e68, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesTo, addr 0x3aa1af4, size 0x240, virtual false, abstract: false, final false
   inline void CopyValuesTo(::HoudiniEngineUnity::HEU_VolumeCache* destCache);
 
-  /// @brief Method FinishUpdateLayers, addr 0x3a9f168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FinishUpdateLayers, addr 0x3a9edf4, size 0xc, virtual false, abstract: false, final false
   inline void FinishUpdateLayers();
 
-  /// @brief Method GenerateTerrainWithAlphamaps, addr 0x3a9fc34, size 0x17d8, virtual false, abstract: false, final false
+  /// @brief Method GenerateTerrainWithAlphamaps, addr 0x3a9f8c0, size 0x17d8, virtual false, abstract: false, final false
   inline void GenerateTerrainWithAlphamaps(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset, bool bRebuild);
 
-  /// @brief Method GetLayer, addr 0x3a9f3a0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetLayer, addr 0x3a9f02c, size 0x168, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_VolumeLayer* GetLayer(::StringW layerName);
 
-  /// @brief Method GetPartLayerAttributes, addr 0x3a9f508, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetPartLayerAttributes, addr 0x3a9f194, size 0x158, virtual false, abstract: false, final false
   inline void GetPartLayerAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HEU_VolumeLayer* layer);
 
-  /// @brief Method Initialize, addr 0x3a9f12c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3a9edb8, size 0x3c, virtual false, abstract: false, final false
   inline void Initialize(::HoudiniEngineUnity::HEU_GeoNode* ownerNode, int32_t tileIndex);
 
-  /// @brief Method IsEquivalentTo, addr 0x3aa2118, size 0x304, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3aa1da4, size 0x304, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeCache* other);
 
-  /// @brief Method LoadAssetTexture, addr 0x3a9f758, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetTexture, addr 0x3a9f3e4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> LoadAssetTexture(::StringW path);
 
-  /// @brief Method LoadDefaultSplatTexture, addr 0x3aa16dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LoadDefaultSplatTexture, addr 0x3aa1368, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> LoadDefaultSplatTexture();
 
-  /// @brief Method LoadLayerColorFromAttribute, addr 0x3a9f988, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerColorFromAttribute, addr 0x3a9f614, size 0x16c, virtual false, abstract: false, final false
   inline bool LoadLayerColorFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<::UnityEngine::Color> colorValue);
 
-  /// @brief Method LoadLayerFloatFromAttribute, addr 0x3a9f858, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerFloatFromAttribute, addr 0x3a9f4e4, size 0x130, virtual false, abstract: false, final false
   inline bool LoadLayerFloatFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<float_t> floatValue);
 
-  /// @brief Method LoadLayerPropertiesFromAttributes, addr 0x3aa1764, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerPropertiesFromAttributes, addr 0x3aa13f0, size 0x408, virtual false, abstract: false, final false
   inline void LoadLayerPropertiesFromAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::UnityEngine::TerrainLayer* terrainLayer, bool bNewTerrainLayer,
                                                 ::UnityEngine::Texture2D* defaultTexture);
 
-  /// @brief Method LoadLayerTextureFromAttribute, addr 0x3a9f660, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerTextureFromAttribute, addr 0x3a9f2ec, size 0xf8, virtual false, abstract: false, final false
   inline bool LoadLayerTextureFromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<::UnityEngine::Texture2D*> outTexture);
 
-  /// @brief Method LoadLayerVector2FromAttribute, addr 0x3a9faf4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LoadLayerVector2FromAttribute, addr 0x3a9f780, size 0x140, virtual false, abstract: false, final false
   inline bool LoadLayerVector2FromAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW attrName, ::ByRef<::UnityEngine::Vector2> vectorValue);
 
   static inline ::HoudiniEngineUnity::HEU_VolumeCache* New_ctor();
 
-  /// @brief Method PopulateDetailPrototype, addr 0x3aa1b90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PopulateDetailPrototype, addr 0x3aa181c, size 0x28, virtual false, abstract: false, final false
   inline void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HEU_VolumeLayer* layer);
 
-  /// @brief Method PopulatePreset, addr 0x3aa1bb8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method PopulatePreset, addr 0x3aa1844, size 0x2b0, virtual false, abstract: false, final false
   inline void PopulatePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* cachePreset);
 
-  /// @brief Method PopulateScatterTrees, addr 0x3aa1b6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PopulateScatterTrees, addr 0x3aa17f8, size 0x24, virtual false, abstract: false, final false
   inline void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, int32_t pointCount, bool throwWarningIfNoTileAttribute);
 
-  /// @brief Method ResetParameters, addr 0x3a9f174, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ResetParameters, addr 0x3a9ee00, size 0x178, virtual false, abstract: false, final false
   inline void ResetParameters();
 
-  /// @brief Method StartUpdateLayers, addr 0x3a9ecec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartUpdateLayers, addr 0x3a9e978, size 0x74, virtual false, abstract: false, final false
   inline void StartUpdateLayers();
 
-  /// @brief Method UpdateLayerFromPart, addr 0x3a9ed60, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateLayerFromPart, addr 0x3a9e9ec, size 0x3cc, virtual false, abstract: false, final false
   inline void UpdateLayerFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_PartData* part);
 
-  /// @brief Method UpdateVolumeCachesFromParts, addr 0x3a9e418, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateVolumeCachesFromParts, addr 0x3a9e0a4, size 0x8d4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*
   UpdateVolumeCachesFromParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoNode* ownerNode,
                               ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts,
@@ -261,31 +261,31 @@ public:
 
   constexpr void __cordl_internal_set__updatedLayers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* value);
 
-  /// @brief Method .ctor, addr 0x3aa241c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa20a8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GeoName, addr 0x3a9e3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoName, addr 0x3a9e088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_GeoName();
 
-  /// @brief Method get_IsDirty, addr 0x3a9e3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirty, addr 0x3a9e064, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDirty();
 
-  /// @brief Method get_ObjectName, addr 0x3a9e3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectName, addr 0x3a9e080, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectName();
 
-  /// @brief Method get_TileIndex, addr 0x3a9e3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TileIndex, addr 0x3a9e078, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TileIndex();
 
-  /// @brief Method get_UIExpanded, addr 0x3a9e404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UIExpanded, addr 0x3a9e090, size 0x8, virtual false, abstract: false, final false
   inline bool get_UIExpanded();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_VolumeCache__() noexcept;
 
-  /// @brief Method set_IsDirty, addr 0x3a9e3e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDirty, addr 0x3a9e06c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDirty(bool value);
 
-  /// @brief Method set_UIExpanded, addr 0x3a9e40c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UIExpanded, addr 0x3a9e098, size 0xc, virtual false, abstract: false, final false
   inline void set_UIExpanded(bool value);
 
 protected:

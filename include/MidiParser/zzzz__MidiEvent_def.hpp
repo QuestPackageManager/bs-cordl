@@ -32,19 +32,19 @@ public:
 
   __declspec(property(get = get_Velocity)) int32_t Velocity;
 
-  /// @brief Method get_Channel, addr 0x3c2a0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x3c29d7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Channel();
 
-  /// @brief Method get_MetaEventType, addr 0x3c2a0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaEventType, addr 0x3c29d74, size 0x8, virtual false, abstract: false, final false
   inline ::MidiParser::MetaEventType get_MetaEventType();
 
-  /// @brief Method get_Note, addr 0x3c2a0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Note, addr 0x3c29d84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Note();
 
-  /// @brief Method get_Value, addr 0x3c2a0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c29d94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
-  /// @brief Method get_Velocity, addr 0x3c2a0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Velocity, addr 0x3c29d8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Velocity();
 
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   constexpr MidiEvent(int32_t AbsoluteTicksTime, uint8_t Type, int32_t Arg1, int32_t Arg2, int32_t Arg3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

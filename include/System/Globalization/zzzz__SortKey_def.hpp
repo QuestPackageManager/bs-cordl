@@ -43,13 +43,13 @@ public:
   /// @brief Field source, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::StringW source;
 
-  /// @brief Method Compare, addr 0x3da7cc8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3da7960, size 0x16c, virtual false, abstract: false, final false
   static inline int32_t Compare(::System::Globalization::SortKey* sortkey1, ::System::Globalization::SortKey* sortkey2);
 
-  /// @brief Method Equals, addr 0x3da7f98, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3da7c30, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3da8048, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3da7ce0, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Globalization::SortKey* New_ctor();
@@ -62,7 +62,7 @@ public:
 
   static inline ::System::Globalization::SortKey* New_ctor(::StringW localeName, ::StringW str, ::System::Globalization::CompareOptions options, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
-  /// @brief Method ToString, addr 0x3da80b0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3da7d48, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
@@ -89,23 +89,23 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3da81e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da7e80, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3da7f08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da7ba0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length,
                     int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength);
 
-  /// @brief Method .ctor, addr 0x3da7e34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da7acc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::StringW source, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method .ctor, addr 0x3da7f48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da7be0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, ::StringW str, ::System::Globalization::CompareOptions options, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
-  /// @brief Method get_KeyData, addr 0x3da7f90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeyData, addr 0x3da7c28, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyData();
 
-  /// @brief Method get_OriginalString, addr 0x3da7f88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OriginalString, addr 0x3da7c20, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_OriginalString();
 
 protected:

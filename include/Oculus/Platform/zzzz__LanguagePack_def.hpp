@@ -28,10 +28,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x3f8b2b8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x3f8af50, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x3f8b408, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x3f8b0a0, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
 protected:

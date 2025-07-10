@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, int32_t, float_t, int32_t)>(&::GlobalNamespace::PerlinNoise::OctavePerlin3D)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39c3040;
+  constexpr static std::size_t addrs = 0x39c2ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, int32_t)>(&::GlobalNamespace::PerlinNoise::Perlin3D)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x39c311c;
+  constexpr static std::size_t addrs = 0x39c2da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::PerlinNoise::Inc)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39c3690;
+  constexpr static std::size_t addrs = 0x39c331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, float_t, float_t, float_t)>(&::GlobalNamespace::PerlinNoise::Grad3D)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39c36a8;
+  constexpr static std::size_t addrs = 0x39c3334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::PerlinNoise::Fade)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39c3664;
+  constexpr static std::size_t addrs = 0x39c32f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::GlobalNamespace::PerlinNoise::Lerp)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39c371c;
+  constexpr static std::size_t addrs = 0x39c33a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerlinNoise::*)()>(&::GlobalNamespace::PerlinNoise::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c372c;
+  constexpr static std::size_t addrs = 0x39c33b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerlinNoise*>::get(), ".ctor",

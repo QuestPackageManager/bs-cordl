@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimationCurve* (::UnityEngine::AudioLowPassFilter::*)()>(
     &::UnityEngine::AudioLowPassFilter::GetCustomLowpassLevelCurveCopy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c504;
+  constexpr static std::size_t addrs = 0x485c19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioLowPassFilter*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AudioLowPassFilter*, ::UnityEngine::AnimationCurve*)>(
     &::UnityEngine::AudioLowPassFilter::SetCustomLowpassLevelCurveHelper)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c540;
+  constexpr static std::size_t addrs = 0x485c1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AnimationCurve* (::UnityEngine::AudioLowPassFilter::*)()>(
     &::UnityEngine::AudioLowPassFilter::get_customCutoffCurve)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c584;
+  constexpr static std::size_t addrs = 0x485c21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioLowPassFilter*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)(::UnityEngine::AnimationCurve*)>(
     &::UnityEngine::AudioLowPassFilter::set_customCutoffCurve)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485c5c0;
+  constexpr static std::size_t addrs = 0x485c258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::get_cutoffFrequency)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c604;
+  constexpr static std::size_t addrs = 0x485c29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioLowPassFilter*>::get(), "get_cutoffFrequency",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)(float_t)>(&::UnityEngine::AudioLowPassFilter::set_cutoffFrequency)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485c640;
+  constexpr static std::size_t addrs = 0x485c2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::get_lowpassResonanceQ)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485c68c;
+  constexpr static std::size_t addrs = 0x485c324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioLowPassFilter*>::get(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)(float_t)>(&::UnityEngine::AudioLowPassFilter::set_lowpassResonanceQ)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485c6c8;
+  constexpr static std::size_t addrs = 0x485c360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x485c714;
+  constexpr static std::size_t addrs = 0x485c3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AudioLowPassFilter*>::get(), ".ctor",

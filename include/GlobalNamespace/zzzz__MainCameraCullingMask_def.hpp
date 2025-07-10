@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_showDebris(bool value);
 
-  /// @brief Method .ctor, addr 0x4082838, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40824d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
 protected:
@@ -88,7 +88,7 @@ public:
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method Start, addr 0x4082720, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x40823b8, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::MainCameraCullingMask_InitData* value);
 
-  /// @brief Method .ctor, addr 0x40827d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4082468, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

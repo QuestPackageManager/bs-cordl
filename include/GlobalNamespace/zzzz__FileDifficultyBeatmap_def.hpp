@@ -28,16 +28,16 @@ public:
   /// @brief Field _lightshowPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath)) ::StringW _lightshowPath;
 
-  /// @brief Method GetBeatmapString, addr 0x26ce1e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x26cde30, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x26ce074, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x26cdcc0, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  /// @brief Method GetLightshowString, addr 0x26ce25c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x26cdea8, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x26ce12c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x26cdd78, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapPath, ::StringW lightshowPath);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__lightshowPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ce048, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cdc94, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapPath, ::StringW lightshowPath);
 
 protected:

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MultiColumnController* (::UnityEngine::UIElements::MultiColumnListViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnListViewController::get_columnController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497ce48;
+  constexpr static std::size_t addrs = 0x497cae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MultiColumnListViewController*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* (
     ::UnityEngine::UIElements::MultiColumnListViewController::*)()>(&::UnityEngine::UIElements::MultiColumnListViewController::get_header)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x497ce50;
+  constexpr static std::size_t addrs = 0x497cae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MultiColumnListViewController*>::get(),
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::Columns*, ::UnityEngine::UIElements::SortColumnDescriptions*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(
     &::UnityEngine::UIElements::MultiColumnListViewController::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x497ce68;
+  constexpr static std::size_t addrs = 0x497cb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*)>(&::UnityEngine::UIElements::MultiColumnListViewController::InvokeMakeItem)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x497cef4;
+  constexpr static std::size_t addrs = 0x497cb8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::MultiColumnListViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnListViewController::MakeItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x497d3c8;
+  constexpr static std::size_t addrs = 0x497d060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::MultiColumnListViewController::BindItem)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x497d3e4;
+  constexpr static std::size_t addrs = 0x497d07c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::MultiColumnListViewController::UnbindItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x497d46c;
+  constexpr static std::size_t addrs = 0x497d104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::MultiColumnListViewController::DestroyItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x497d488;
+  constexpr static std::size_t addrs = 0x497d120;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnListViewController::PrepareView)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x497d4a4;
+  constexpr static std::size_t addrs = 0x497d13c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnListViewController::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x497d5e8;
+  constexpr static std::size_t addrs = 0x497d280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MultiColumnListViewController::*)()>(
     &::UnityEngine::UIElements::MultiColumnListViewController::UpdateReorderClassList)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x497d740;
+  constexpr static std::size_t addrs = 0x497d3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MultiColumnListViewController*>::get(),

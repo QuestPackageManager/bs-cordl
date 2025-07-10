@@ -32,18 +32,18 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::PopInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40f6378, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f6010, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f6328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f5fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::PopInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x40f6330, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f5fc8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40f6338, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f5fd0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::PopInstruction* value);

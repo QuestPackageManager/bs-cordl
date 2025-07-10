@@ -25,7 +25,7 @@ public:
   __declspec(property(get = __cordl_internal_get__localLeaderboardsSettings, put = __cordl_internal_set__localLeaderboardsSettings)) ::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO>
       _localLeaderboardsSettings;
 
-  /// @brief Method InstallBindings, addr 0x2718edc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2718b68, size 0xb0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LocalLeaderboardsInstaller* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsSettings(::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO> value);
 
-  /// @brief Method .ctor, addr 0x2718f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

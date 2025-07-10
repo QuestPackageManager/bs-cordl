@@ -26,7 +26,7 @@ public:
   /// @brief Method PreloadAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x229c3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229c450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

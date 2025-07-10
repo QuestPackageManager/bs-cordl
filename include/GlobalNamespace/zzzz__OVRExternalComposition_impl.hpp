@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_CompositionMethod (::GlobalNamespace::OVRExternalComposition::*)()>(
     &::GlobalNamespace::OVRExternalComposition::CompositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f98bc4;
+  constexpr static std::size_t addrs = 0x3f9885c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRExternalComposition::_ctor)> {
   constexpr static std::size_t size = 0x5a8;
-  constexpr static std::size_t addrs = 0x3f98bcc;
+  constexpr static std::size_t addrs = 0x3f98864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRExternalComposition::RefreshCameraObjects)> {
   constexpr static std::size_t size = 0xb74;
-  constexpr static std::size_t addrs = 0x3f991c4;
+  constexpr static std::size_t addrs = 0x3f98e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRExternalComposition::RefreshAudioFilter)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x3f99d38;
+  constexpr static std::size_t addrs = 0x3f999d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRExternalComposition::*)(int32_t)>(
     &::GlobalNamespace::OVRExternalComposition::CastMrcFrame)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3f9a44c;
+  constexpr static std::size_t addrs = 0x3f9a0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(int32_t)>(
     &::GlobalNamespace::OVRExternalComposition::SetCameraTargetTexture)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3f9a80c;
+  constexpr static std::size_t addrs = 0x3f9a4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::OVRManager_TrackingOrigin)>(
     &::GlobalNamespace::OVRExternalComposition::Update)> {
   constexpr static std::size_t size = 0xca4;
-  constexpr static std::size_t addrs = 0x3f9a9ec;
+  constexpr static std::size_t addrs = 0x3f9a684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)()>(
     &::GlobalNamespace::OVRExternalComposition::CleanupAudioFilter)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3f9a308;
+  constexpr static std::size_t addrs = 0x3f99fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRExternalComposition*>::get(),
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)()>(&::GlobalNamespace::OVRExternalComposition::Cleanup)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3f9b7a4;
+  constexpr static std::size_t addrs = 0x3f9b43c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
     &::GlobalNamespace::OVRExternalComposition::CacheAudioData)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3f9b988;
+  constexpr static std::size_t addrs = 0x3f9b620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(
     ::ByRef<::ArrayW<float_t, ::Array<float_t>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::OVRExternalComposition::GetAndResetAudioData)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3f9a630;
+  constexpr static std::size_t addrs = 0x3f9a2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRExternalComposition::*)(float_t, float_t)>(
     &::GlobalNamespace::OVRExternalComposition::DisplayRefreshRateChanged)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f9bac0;
+  constexpr static std::size_t addrs = 0x3f9b758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

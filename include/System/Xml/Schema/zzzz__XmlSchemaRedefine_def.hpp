@@ -47,7 +47,7 @@ public:
   /// @brief Field types, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_types, put = __cordl_internal_set_types)) ::System::Xml::Schema::XmlSchemaObjectTable* types;
 
-  /// @brief Method AddAnnotation, addr 0x42c1d7c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42c1a14, size 0x1c, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaRedefine* New_ctor();
@@ -76,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set_types(::System::Xml::Schema::XmlSchemaObjectTable* value);
 
-  /// @brief Method .ctor, addr 0x42c1c98, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c1930, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeGroups, addr 0x42c1d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeGroups, addr 0x42c19fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeGroups();
 
-  /// @brief Method get_Groups, addr 0x42c1d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x42c1a0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_Groups();
 
-  /// @brief Method get_Items, addr 0x42c1d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x42c19f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
-  /// @brief Method get_SchemaTypes, addr 0x42c1d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypes, addr 0x42c1a04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_SchemaTypes();
 
 protected:

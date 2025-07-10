@@ -52,12 +52,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4afaf24, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4afabbc, size 0xa4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::SignalCallbackWrapper* New_ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
-  /// @brief Method OnSignalFired, addr 0x4afaf00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnSignalFired, addr 0x4afab98, size 0x24, virtual false, abstract: false, final false
   inline void OnSignalFired(::System::Object* signal);
 
   constexpr ::System::Action_1<::System::Object*>* const& __cordl_internal_get__action() const;
@@ -84,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set__signalType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4afafc8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4afac60, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afb13c, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4afadd4, size 0x388, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4afae3c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afaad4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
   /// @brief Convert to "::System::IDisposable"

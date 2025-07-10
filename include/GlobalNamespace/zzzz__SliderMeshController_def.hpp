@@ -86,10 +86,10 @@ public:
 
   __declspec(property(get = get_pathsHolder)) ::GlobalNamespace::PathsHolder* pathsHolder;
 
-  /// @brief Method CreateBezierPathAndMesh, addr 0x3b77104, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method CreateBezierPathAndMesh, addr 0x3b76d9c, size 0x758, virtual false, abstract: false, final false
   inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale);
 
-  /// @brief Method CutDirectionToControlPointPosition, addr 0x3b7c1c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CutDirectionToControlPointPosition, addr 0x3b7be5c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
 
   static inline ::GlobalNamespace::SliderMeshController* New_ctor();
@@ -160,16 +160,16 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshConstructor(::UnityW<::GlobalNamespace::SliderMeshConstructor> value);
 
-  /// @brief Method .ctor, addr 0x3b7c23c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7bed4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x3b7c1a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3b7be38, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_pathLength, addr 0x3b7c17c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_pathLength, addr 0x3b7be14, size 0x24, virtual false, abstract: false, final false
   inline float_t get_pathLength();
 
-  /// @brief Method get_pathsHolder, addr 0x3b7c1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pathsHolder, addr 0x3b7be54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
 
 protected:

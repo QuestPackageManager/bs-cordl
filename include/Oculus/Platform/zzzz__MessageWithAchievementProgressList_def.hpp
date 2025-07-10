@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementProgressList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementProgressList, addr 0x3f7dba4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementProgressList, addr 0x3f7d83c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f7dbe0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7d878, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementProgressList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithAchievementProgressList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7bc24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7b8bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

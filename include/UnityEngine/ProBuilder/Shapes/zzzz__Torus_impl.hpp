@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Torus::CopyShape)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4756bd8;
+  constexpr static std::size_t addrs = 0x4756870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Torus::UpdateBounds)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4756c6c;
+  constexpr static std::size_t addrs = 0x4756904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Torus::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Torus::RebuildMesh)> {
   constexpr static std::size_t size = 0x968;
-  constexpr static std::size_t addrs = 0x4756cec;
+  constexpr static std::size_t addrs = 0x4756984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(
     int32_t, float_t, float_t, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x4757654;
+  constexpr static std::size_t addrs = 0x47572ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(
     int32_t, float_t, float_t, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::Shapes::Torus::GetCirclePoints)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x47579a4;
+  constexpr static std::size_t addrs = 0x475763c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Torus::*)()>(&::UnityEngine::ProBuilder::Shapes::Torus::_ctor)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x4757c40;
+  constexpr static std::size_t addrs = 0x47578d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Torus*>::get(), ".ctor",

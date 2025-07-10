@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_Tag(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f8fd9c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8fa34, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:

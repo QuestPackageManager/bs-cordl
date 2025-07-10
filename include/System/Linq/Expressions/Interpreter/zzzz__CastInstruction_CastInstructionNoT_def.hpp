@@ -44,12 +44,12 @@ public:
   /// @brief Method ConvertNull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method Create, addr 0x40f9628, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40f92c0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CastInstruction* Create(::System::Type* t);
 
   static inline ::GlobalNamespace::CastInstruction_CastInstructionNoT* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x40f9768, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f9400, size 0x150, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__t() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40f96f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f9388, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

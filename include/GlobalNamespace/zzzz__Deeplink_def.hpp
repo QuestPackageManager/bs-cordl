@@ -40,7 +40,7 @@ public:
   /// @brief Field PackID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_PackID, put = __cordl_internal_set_PackID)) ::StringW PackID;
 
-  /// @brief Method FromJson, addr 0x26af1cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x26aee18, size 0x48, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Deeplink* FromJson(::StringW jsonDeeplink);
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_PackID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26af214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aee60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

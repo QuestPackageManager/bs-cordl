@@ -67,33 +67,33 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x442c9c0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x442c658, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x442ca2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x442c6c4, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush, addr 0x442ca30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x442c6c8, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method IsEnabled, addr 0x442d2cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x442cf64, size 0x10, virtual false, abstract: false, final false
   inline bool IsEnabled(::System::Diagnostics::TraceOptions opts);
 
   static inline ::System::Diagnostics::TraceListener* New_ctor(::StringW name);
 
-  /// @brief Method TraceEvent, addr 0x442cb2c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method TraceEvent, addr 0x442c7c4, size 0xc4, virtual true, abstract: false, final false
   inline void TraceEvent(::System::Diagnostics::TraceEventCache* eventCache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW message);
 
   /// @brief Method Write, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(::StringW message);
 
-  /// @brief Method WriteFooter, addr 0x442cd00, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method WriteFooter, addr 0x442c998, size 0x5cc, virtual false, abstract: false, final false
   inline void WriteFooter(::System::Diagnostics::TraceEventCache* eventCache);
 
-  /// @brief Method WriteHeader, addr 0x442cbf0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method WriteHeader, addr 0x442c888, size 0x110, virtual false, abstract: false, final false
   inline void WriteHeader(::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id);
 
-  /// @brief Method WriteIndent, addr 0x442ca58, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method WriteIndent, addr 0x442c6f0, size 0xd4, virtual true, abstract: false, final false
   inline void WriteIndent();
 
   /// @brief Method WriteLine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -135,31 +135,31 @@ public:
 
   constexpr void __cordl_internal_set_traceOptions(::System::Diagnostics::TraceOptions value);
 
-  /// @brief Method .ctor, addr 0x442c980, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442c618, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Filter, addr 0x442ca34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Filter, addr 0x442c6cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceFilter* get_Filter();
 
-  /// @brief Method get_IsThreadSafe, addr 0x442c9b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsThreadSafe, addr 0x442c650, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsThreadSafe();
 
-  /// @brief Method get_NeedIndent, addr 0x442ca3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NeedIndent, addr 0x442c6d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_NeedIndent();
 
-  /// @brief Method get_TraceOutputOptions, addr 0x442ca50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TraceOutputOptions, addr 0x442c6e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceOptions get_TraceOutputOptions();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_IndentLevel, addr 0x442c650, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IndentLevel, addr 0x442c2e8, size 0x1c, virtual false, abstract: false, final false
   inline void set_IndentLevel(int32_t value);
 
-  /// @brief Method set_IndentSize, addr 0x442c66c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_IndentSize, addr 0x442c304, size 0xa8, virtual false, abstract: false, final false
   inline void set_IndentSize(int32_t value);
 
-  /// @brief Method set_NeedIndent, addr 0x442ca44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NeedIndent, addr 0x442c6dc, size 0xc, virtual false, abstract: false, final false
   inline void set_NeedIndent(bool value);
 
 protected:

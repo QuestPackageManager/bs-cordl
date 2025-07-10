@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool value);
 
-  /// @brief Method .ctor, addr 0x3bc4f48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc4be0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool continueGameplayWith0Energy);
 
 protected:
@@ -141,45 +141,45 @@ public:
   /// @brief Field _saberManager, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x3bc4a40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x3bc46d8, size 0x28, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleHmdUnmounted, addr 0x3bc4ef4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdUnmounted, addr 0x3bc4b8c, size 0x4, virtual false, abstract: false, final false
   inline void HandleHmdUnmounted();
 
-  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x3bc4a68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x3bc4700, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerDidGiveUp();
 
-  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x3bc4a6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x3bc4704, size 0x40, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerRequestsDisconnect();
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x3bc4124, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x3bc3dbc, size 0x20, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x3bc4efc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x3bc4b94, size 0x38, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
-  /// @brief Method HandleSongDidFinish, addr 0x3bc4cb8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x3bc4950, size 0x23c, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandleVrFocusWasCapturedEvent, addr 0x3bc4ef8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVrFocusWasCapturedEvent, addr 0x3bc4b90, size 0x4, virtual false, abstract: false, final false
   inline void HandleVrFocusWasCapturedEvent();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x3bc4f34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x3bc4bcc, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x3bc4144, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bc3ddc, size 0x484, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PerformPlayerFail, addr 0x3bc45c8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerFail, addr 0x3bc4260, size 0x23c, virtual false, abstract: false, final false
   inline void PerformPlayerFail();
 
-  /// @brief Method PerformPlayerGivenUp, addr 0x3bc4804, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerGivenUp, addr 0x3bc449c, size 0x23c, virtual false, abstract: false, final false
   inline void PerformPlayerGivenUp();
 
-  /// @brief Method Start, addr 0x3bc3cc0, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bc3958, size 0x464, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* const& __cordl_internal_get__disconnectHelper() const;
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method .ctor, addr 0x3bc4f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc4bd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

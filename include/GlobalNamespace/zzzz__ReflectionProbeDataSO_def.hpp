@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__reflectionProbeCubemap2(::UnityW<::UnityEngine::Cubemap> value);
 
-  /// @brief Method .ctor, addr 0x3b1658c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_reflectionProbeCubemap1, addr 0x3b1656c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap1, addr 0x3b161f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap1();
 
-  /// @brief Method get_reflectionProbeCubemap2, addr 0x3b1657c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap2, addr 0x3b16208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap2();
 
-  /// @brief Method set_reflectionProbeCubemap1, addr 0x3b16574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap1, addr 0x3b16200, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
 
-  /// @brief Method set_reflectionProbeCubemap2, addr 0x3b16584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap2, addr 0x3b16210, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
 
 protected:

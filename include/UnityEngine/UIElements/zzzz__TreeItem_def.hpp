@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_parentId)) int32_t parentId;
 
-  /// @brief Method .ctor, addr 0x4a0edb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0ea48, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t id, int32_t parentId, ::System::Collections::Generic::IEnumerable_1<int32_t>* childrenIds);
 
-  /// @brief Method get_childrenIds, addr 0x4a0ed50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childrenIds, addr 0x4a0e9e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_childrenIds();
 
-  /// @brief Method get_hasChildren, addr 0x4a0ed58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_hasChildren, addr 0x4a0e9f0, size 0x58, virtual false, abstract: false, final false
   inline bool get_hasChildren();
 
-  /// @brief Method get_id, addr 0x4a0ed40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4a0e9d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_parentId, addr 0x4a0ed48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x4a0e9e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
   // Ctor Parameters []

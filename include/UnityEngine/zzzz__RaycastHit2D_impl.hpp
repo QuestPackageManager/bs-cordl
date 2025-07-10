@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_point)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f55d4;
+  constexpr static std::size_t addrs = 0x48f526c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RaycastHit2D>::get(), "get_point",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_normal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f55dc;
+  constexpr static std::size_t addrs = 0x48f5274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RaycastHit2D>::get(), "get_normal",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f55e4;
+  constexpr static std::size_t addrs = 0x48f527c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RaycastHit2D>::get(), "get_distance",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_fraction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f55ec;
+  constexpr static std::size_t addrs = 0x48f5284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RaycastHit2D>::get(), "get_fraction",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Collider2D> (::UnityEngine::RaycastHit2D::*)()>(&::UnityEngine::RaycastHit2D::get_collider)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x48f55f4;
+  constexpr static std::size_t addrs = 0x48f528c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RaycastHit2D>::get(), "get_collider",

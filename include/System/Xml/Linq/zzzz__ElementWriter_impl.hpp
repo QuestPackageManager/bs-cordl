@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::Linq::ElementWriter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x424b6d0;
+  constexpr static std::size_t addrs = 0x424b368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(
     &::System::Xml::Linq::ElementWriter::WriteElement)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x424b6dc;
+  constexpr static std::size_t addrs = 0x424b374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XNamespace*, bool)>(
     &::System::Xml::Linq::ElementWriter::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x424cb6c;
+  constexpr static std::size_t addrs = 0x424c804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(
     &::System::Xml::Linq::ElementWriter::PushAncestors)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x424c88c;
+  constexpr static std::size_t addrs = 0x424c524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(
     &::System::Xml::Linq::ElementWriter::PushElement)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x424cddc;
+  constexpr static std::size_t addrs = 0x424ca74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)()>(&::System::Xml::Linq::ElementWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x424cb14;
+  constexpr static std::size_t addrs = 0x424c7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::ElementWriter>::get(), "WriteEndElement",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)()>(&::System::Xml::Linq::ElementWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x424cb40;
+  constexpr static std::size_t addrs = 0x424c7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::ElementWriter>::get(), "WriteFullEndElement",
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::ElementWriter::*)(::System::Xml::Linq::XElement*)>(
     &::System::Xml::Linq::ElementWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x424c9b4;
+  constexpr static std::size_t addrs = 0x424c64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

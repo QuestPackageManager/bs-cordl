@@ -146,12 +146,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f7a0c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f7a9c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f7a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -191,12 +191,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f7c34, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f7cc4, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP160t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f7c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -236,12 +236,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f7e5c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f7eec, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f7e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -281,12 +281,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f8084, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f8114, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP192t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f807c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f810c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -326,12 +326,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f82ac, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f833c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f82a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -371,12 +371,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f84d4, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f8564, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP224t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f84cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f855c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -416,12 +416,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f86fc, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f878c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f86f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -461,12 +461,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f8924, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f89b4, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP256t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f891c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f89ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -506,12 +506,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f8b4c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f8bdc, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f8b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8bd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -551,12 +551,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f8d74, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f8e04, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP320t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f8d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -596,12 +596,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f8f9c, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f902c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f8f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f9024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -641,12 +641,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f91c4, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f9254, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP384t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f91bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f924c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -686,12 +686,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f93ec, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f947c, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f93e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f9474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -731,12 +731,12 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x24f9614, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x24f96a4, size 0x1c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves_BrainpoolP512t1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f960c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f969c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -810,36 +810,36 @@ public:
   /// @brief Field objIds, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
-  /// @brief Method ConfigureBasepoint, addr 0x24f69ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x24f6a3c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve, addr 0x24f6a9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x24f6b2c, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method DefineCurve, addr 0x24f6b38, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method DefineCurve, addr 0x24f6bc8, size 0x210, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method FromHex, addr 0x24f6aa0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x24f6b30, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method GetByName, addr 0x24f7318, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x24f73a8, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x24f74ec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x24f757c, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x24f7618, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x24f76a8, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x24f7820, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x24f78b0, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(int16_t curvesize, bool twisted);
 
-  /// @brief Method GetOid, addr 0x24f7398, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x24f7428, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24f79fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_curves();
@@ -848,7 +848,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method get_Names, addr 0x24f7718, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x24f77a8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_curves(::System::Collections::IDictionary* value);

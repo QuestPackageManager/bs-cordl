@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method ToString, addr 0x43ef6dc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43ef374, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Cache::RequestCacheLevel const& __cordl_internal_get_m_Level() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Level(::System::Net::Cache::RequestCacheLevel value);
 
-  /// @brief Method .ctor, addr 0x43ef5d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ef268, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method get_Level, addr 0x43ef6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x43ef36c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheLevel get_Level();
 
 protected:

@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_noteLinesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ae2d14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae29a0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t beatsPerMinute, int32_t noteLinesCount, float_t noteJumpMovementSpeed, ::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType noteJumpValueType,
                     float_t noteJumpValue);
 
@@ -230,24 +230,24 @@ public:
 
   __declspec(property(get = get_verticalLayerDistance)) float_t verticalLayerDistance;
 
-  /// @brief Method HandleNoteDataCallback, addr 0x3ae269c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDataCallback, addr 0x3ae2328, size 0xf8, virtual false, abstract: false, final false
   inline void HandleNoteDataCallback(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method HandleObstacleDataCallback, addr 0x3ae2858, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDataCallback, addr 0x3ae24e4, size 0xf0, virtual false, abstract: false, final false
   inline void HandleObstacleDataCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method HandleSliderDataCallback, addr 0x3ae2a94, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderDataCallback, addr 0x3ae2720, size 0xe8, virtual false, abstract: false, final false
   inline void HandleSliderDataCallback(::GlobalNamespace::SliderData* sliderNoteData);
 
   static inline ::GlobalNamespace::BeatmapObjectSpawnController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ae2648, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ae22d4, size 0x54, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ae1e54, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ae1ae0, size 0x7e0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopSpawning, addr 0x3ae2c50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopSpawning, addr 0x3ae28dc, size 0xc, virtual false, abstract: false, final false
   inline void StopSpawning();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -328,28 +328,28 @@ public:
 
   constexpr void __cordl_internal_set_didInitEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ae2c5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ae28e8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInitEvent, addr 0x3ae1d1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didInitEvent, addr 0x3ae19a8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action* value);
 
-  /// @brief Method get_beatmapObjectSpawnMovementData, addr 0x3ae1c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapObjectSpawnMovementData, addr 0x3ae1924, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
 
-  /// @brief Method get_isInitialized, addr 0x3ae1d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x3ae19a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_noteLinesCount, addr 0x3ae1ca0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_noteLinesCount, addr 0x3ae192c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_noteLinesCount();
 
-  /// @brief Method get_noteLinesDistance, addr 0x3ae1cbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_noteLinesDistance, addr 0x3ae1948, size 0x20, virtual false, abstract: false, final false
   inline float_t get_noteLinesDistance();
 
-  /// @brief Method get_verticalLayerDistance, addr 0x3ae1ce8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_verticalLayerDistance, addr 0x3ae1974, size 0x20, virtual false, abstract: false, final false
   inline float_t get_verticalLayerDistance();
 
-  /// @brief Method remove_didInitEvent, addr 0x3ae1db8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didInitEvent, addr 0x3ae1a44, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action* value);
 
 protected:

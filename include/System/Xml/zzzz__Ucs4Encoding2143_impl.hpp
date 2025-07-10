@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Ucs4Encoding2143::*)()>(&::System::Xml::Ucs4Encoding2143::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x435fe64;
+  constexpr static std::size_t addrs = 0x435fafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Encoding2143*>::get(), ".ctor",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Ucs4Encoding2143::*)()>(&::System::Xml::Ucs4Encoding2143::get_EncodingName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43600f4;
+  constexpr static std::size_t addrs = 0x435fd8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Xml::Ucs4Encoding2143::*)()>(
     &::System::Xml::Ucs4Encoding2143::GetPreamble)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4360134;
+  constexpr static std::size_t addrs = 0x435fdcc;
 
   inline static ::MethodInfo const* methodInfo() {
 

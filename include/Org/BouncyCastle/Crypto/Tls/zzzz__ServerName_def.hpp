@@ -36,18 +36,18 @@ public:
   /// @brief Field mNameType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mNameType, put = __cordl_internal_set_mNameType)) uint8_t mNameType;
 
-  /// @brief Method Encode, addr 0x241a660, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x241a6f0, size 0x11c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method GetHostName, addr 0x241a588, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetHostName, addr 0x241a618, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW GetHostName();
 
-  /// @brief Method IsCorrectType, addr 0x241a4b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsCorrectType, addr 0x241a544, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsCorrectType(uint8_t nameType, ::System::Object* name);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* New_ctor(uint8_t nameType, ::System::Object* name);
 
-  /// @brief Method Parse, addr 0x241a77c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x241a80c, size 0x10c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* Parse(::System::IO::Stream* input);
 
   constexpr ::System::Object* const& __cordl_internal_get_mName() const;
@@ -62,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_mNameType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x241a418, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241a4a8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t nameType, ::System::Object* name);
 
-  /// @brief Method get_Name, addr 0x241a580, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x241a610, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Name();
 
-  /// @brief Method get_NameType, addr 0x241a578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameType, addr 0x241a608, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_NameType();
 
 protected:

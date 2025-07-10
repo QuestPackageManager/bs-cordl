@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::__DTString::*)()>(&::System::__DTString::get_Length)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3de25d4;
+  constexpr static std::size_t addrs = 0x3de226c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "get_Length",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::__DTString::*)(::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::DateTimeFormatInfo*, bool)>(&::System::__DTString::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3de2610;
+  constexpr static std::size_t addrs = 0x3de22a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DTString::*)(::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::DateTimeFormatInfo*)>(
     &::System::__DTString::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3de269c;
+  constexpr static std::size_t addrs = 0x3de2334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CompareInfo* (::System::__DTString::*)()>(&::System::__DTString::get_CompareInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3de2760;
+  constexpr static std::size_t addrs = 0x3de23f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "get_CompareInfo",
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)()>(&::System::__DTString::GetNext)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3de2768;
+  constexpr static std::size_t addrs = 0x3de2400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "GetNext",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)()>(&::System::__DTString::AtEnd)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3de2814;
+  constexpr static std::size_t addrs = 0x3de24ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "AtEnd",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)(int32_t)>(&::System::__DTString::Advance)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3de2894;
+  constexpr static std::size_t addrs = 0x3de252c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::__DTString::*)(::ByRef<::System::TokenType>, ::ByRef<int32_t>, ::System::Globalization::DateTimeFormatInfo*)>(&::System::__DTString::GetRegularToken)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3de294c;
+  constexpr static std::size_t addrs = 0x3de25e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::TokenType (::System::__DTString::*)(::System::Globalization::DateTimeFormatInfo*, ::ByRef<int32_t>, ::ByRef<char16_t>)>(&::System::__DTString::GetSeparatorToken)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3de2c80;
+  constexpr static std::size_t addrs = 0x3de2918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)(::StringW)>(&::System::__DTString::MatchSpecifiedWord)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3de2ef0;
+  constexpr static std::size_t addrs = 0x3de2b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)(::StringW, bool, ::ByRef<int32_t>)>(&::System::__DTString::MatchSpecifiedWords)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x3de3014;
+  constexpr static std::size_t addrs = 0x3de2cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)(::StringW)>(&::System::__DTString::Match)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3de3460;
+  constexpr static std::size_t addrs = 0x3de30f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)(char16_t)>(&::System::__DTString::Match)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3de35b0;
+  constexpr static std::size_t addrs = 0x3de3248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::__DTString::*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::ByRef<int32_t>)>(
     &::System::__DTString::MatchLongestWords)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3de3684;
+  constexpr static std::size_t addrs = 0x3de331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::__DTString::*)()>(&::System::__DTString::GetRepeatCount)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3de377c;
+  constexpr static std::size_t addrs = 0x3de3414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "GetRepeatCount",
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)()>(&::System::__DTString::GetNextDigit)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3de3858;
+  constexpr static std::size_t addrs = 0x3de34f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "GetNextDigit",
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::__DTString::*)()>(&::System::__DTString::GetChar)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3de3934;
+  constexpr static std::size_t addrs = 0x3de35cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "GetChar",
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::__DTString::*)()>(&::System::__DTString::GetDigit)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3de395c;
+  constexpr static std::size_t addrs = 0x3de35f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "GetDigit",
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DTString::*)()>(&::System::__DTString::SkipWhiteSpaces)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3de3988;
+  constexpr static std::size_t addrs = 0x3de3620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "SkipWhiteSpaces",
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DTString::*)()>(&::System::__DTString::SkipWhiteSpaceCurrent)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3de2d88;
+  constexpr static std::size_t addrs = 0x3de2a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "SkipWhiteSpaceCurrent",
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DTString::*)()>(&::System::__DTString::TrimTail)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3de3a80;
+  constexpr static std::size_t addrs = 0x3de3718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "TrimTail",
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DTString::*)()>(&::System::__DTString::RemoveTrailingInQuoteSpaces)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3de3ba4;
+  constexpr static std::size_t addrs = 0x3de383c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "RemoveTrailingInQuoteSpaces",
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DTString::*)()>(&::System::__DTString::RemoveLeadingInQuoteSpaces)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3de3dd0;
+  constexpr static std::size_t addrs = 0x3de3a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "RemoveLeadingInQuoteSpaces",
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DTSubString (::System::__DTString::*)()>(&::System::__DTString::GetSubString)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3de4060;
+  constexpr static std::size_t addrs = 0x3de3cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DTString>::get(), "GetSubString",
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DTString::*)(::System::DTSubString)>(&::System::__DTString::ConsumeSubString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3de41e0;
+  constexpr static std::size_t addrs = 0x3de3e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -26,14 +26,14 @@ namespace UnityEngine::SceneManagement {
 class CORDL_TYPE SceneManagerAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x48c0bd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x48c0870, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x48c0c00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x48c0898, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x48c0c60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x48c08f8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::StringW sceneName, int32_t sceneBuildIndex,
                                                                                         ::ByRef<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
 

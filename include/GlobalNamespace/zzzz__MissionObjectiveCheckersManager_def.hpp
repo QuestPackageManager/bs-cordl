@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3bb4c5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb48f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives);
 
 protected:
@@ -127,30 +127,30 @@ public:
   /// @brief Field objectivesListDidChangeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_objectivesListDidChangeEvent, put = __cordl_internal_set_objectivesListDidChangeEvent)) ::System::Action* objectivesListDidChangeEvent;
 
-  /// @brief Method GetMissionObjectiveChecker, addr 0x3bb4a60, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetMissionObjectiveChecker, addr 0x3bb46f8, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveChecker> GetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
 
-  /// @brief Method GetResults, addr 0x3bb0f94, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetResults, addr 0x3bb0c2c, size 0x194, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> GetResults();
 
-  /// @brief Method HandleLevelFailed, addr 0x3bb4b28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x3bb47c0, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method HandleLevelFinished, addr 0x3bb4c00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x3bb4898, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
-  /// @brief Method HandleMissionObjectiveCheckerStatusDidChange, addr 0x3bb4a14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckerStatusDidChange, addr 0x3bb46ac, size 0x4c, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckerStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   static inline ::GlobalNamespace::MissionObjectiveCheckersManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb486c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb4504, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bb42a4, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb3f3c, size 0x5c8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopChecking, addr 0x3bb4b2c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method StopChecking, addr 0x3bb47c4, size 0xd4, virtual false, abstract: false, final false
   inline void StopChecking();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const&
@@ -198,28 +198,28 @@ public:
 
   constexpr void __cordl_internal_set_objectivesListDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bb4c04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb489c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_objectiveDidFailEvent, addr 0x3bb3ef4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_objectiveDidFailEvent, addr 0x3bb3b8c, size 0x9c, virtual false, abstract: false, final false
   inline void add_objectiveDidFailEvent(::System::Action* value);
 
-  /// @brief Method add_objectiveWasClearedEvent, addr 0x3bb402c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_objectiveWasClearedEvent, addr 0x3bb3cc4, size 0x9c, virtual false, abstract: false, final false
   inline void add_objectiveWasClearedEvent(::System::Action* value);
 
-  /// @brief Method add_objectivesListDidChangeEvent, addr 0x3bb4164, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_objectivesListDidChangeEvent, addr 0x3bb3dfc, size 0x9c, virtual false, abstract: false, final false
   inline void add_objectivesListDidChangeEvent(::System::Action* value);
 
-  /// @brief Method get_activeMissionObjectiveCheckers, addr 0x3bb429c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeMissionObjectiveCheckers, addr 0x3bb3f34, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> get_activeMissionObjectiveCheckers();
 
-  /// @brief Method remove_objectiveDidFailEvent, addr 0x3bb3f90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_objectiveDidFailEvent, addr 0x3bb3c28, size 0x9c, virtual false, abstract: false, final false
   inline void remove_objectiveDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_objectiveWasClearedEvent, addr 0x3bb40c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_objectiveWasClearedEvent, addr 0x3bb3d60, size 0x9c, virtual false, abstract: false, final false
   inline void remove_objectiveWasClearedEvent(::System::Action* value);
 
-  /// @brief Method remove_objectivesListDidChangeEvent, addr 0x3bb4200, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_objectivesListDidChangeEvent, addr 0x3bb3e98, size 0x9c, virtual false, abstract: false, final false
   inline void remove_objectivesListDidChangeEvent(::System::Action* value);
 
 protected:

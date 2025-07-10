@@ -52,7 +52,7 @@ public:
   /// @brief Field order, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
-  /// @brief Method AddKeyHash, addr 0x436e990, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436e628, size 0x120, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_elementName() const;
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_ElementName, addr 0x436e91c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x436e5b4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x436e970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x436e608, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x436e978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x436e610, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x436e980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x436e618, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_Order, addr 0x436e988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x436e620, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:

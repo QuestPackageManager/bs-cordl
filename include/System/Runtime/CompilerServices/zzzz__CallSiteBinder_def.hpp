@@ -163,12 +163,12 @@ public:
 
   constexpr void __cordl_internal_set_Cache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x40fb3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fb038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::LabelTarget* getStaticF__UpdateLabel_k__BackingField();
 
-  /// @brief Method get_UpdateLabel, addr 0x40fb3a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_UpdateLabel, addr 0x40fb040, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* get_UpdateLabel();
 
   static inline void setStaticF__UpdateLabel_k__BackingField(::System::Linq::Expressions::LabelTarget* value);

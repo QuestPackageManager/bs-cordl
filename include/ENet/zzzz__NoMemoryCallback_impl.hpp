@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::NoMemoryCallback::*)(::System::Object*, ::System::IntPtr)>(&::ENet::NoMemoryCallback::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3aa2960;
+  constexpr static std::size_t addrs = 0x3aa25ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::NoMemoryCallback::*)()>(&::ENet::NoMemoryCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa29e8;
+  constexpr static std::size_t addrs = 0x3aa2674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::ENet::NoMemoryCallback::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::ENet::NoMemoryCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3aa29fc;
+  constexpr static std::size_t addrs = 0x3aa2688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::NoMemoryCallback::*)(::System::IAsyncResult*)>(&::ENet::NoMemoryCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aa2a1c;
+  constexpr static std::size_t addrs = 0x3aa26a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

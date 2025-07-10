@@ -40,18 +40,18 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x3b8d9bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b8d654, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b8d9e0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x3b8d678, size 0xac, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b8d9dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8d674, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b8da8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8d724, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b8da90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8d728, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

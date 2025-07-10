@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* New_ctor();
 
-  /// @brief Method <.cctor>b__12_0, addr 0x4a34e1c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__12_0, addr 0x4a34ab4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PropagationPaths* __cctor_b__12_0();
 
-  /// @brief Method .ctor, addr 0x4a34e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a34aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* getStaticF___9();
@@ -100,12 +100,12 @@ public:
   __declspec(property(get = __cordl_internal_get_trickleDownPath,
                       put = __cordl_internal_set_trickleDownPath)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath;
 
-  /// @brief Method Build, addr 0x4a23870, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x4a23508, size 0x2a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
 
-  /// @brief Method Release, addr 0x4a27b3c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4a277d4, size 0x110, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_bubbleUpPath() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x4a34bec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a34884, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* getStaticF_s_Pool();

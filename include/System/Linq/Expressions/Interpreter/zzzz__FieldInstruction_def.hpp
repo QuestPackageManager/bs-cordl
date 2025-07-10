@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::FieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method ToString, addr 0x40ca6dc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40ca374, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get__field() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__field(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method .ctor, addr 0x40ca6ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ca344, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
 protected:

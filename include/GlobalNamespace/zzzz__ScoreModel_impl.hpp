@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreModel_NoteScoreDefinition::*)()>(
     &::GlobalNamespace::ScoreModel_NoteScoreDefinition::get_maxCutScore)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26ffc68;
+  constexpr static std::size_t addrs = 0x26ff8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel_NoteScoreDefinition*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreModel_NoteScoreDefinition::*)()>(
     &::GlobalNamespace::ScoreModel_NoteScoreDefinition::get_executionOrder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2700ce4;
+  constexpr static std::size_t addrs = 0x2700970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel_NoteScoreDefinition*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreModel_NoteScoreDefinition::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::ScoreModel_NoteScoreDefinition::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2700c78;
+  constexpr static std::size_t addrs = 0x2700904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreModel_MaxScoreCounterElement::*)(::GlobalNamespace::NoteData_ScoringType, float_t)>(
     &::GlobalNamespace::ScoreModel_MaxScoreCounterElement::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x27006dc;
+  constexpr static std::size_t addrs = 0x2700368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreModel_MaxScoreCounterElement::*)(
     ::GlobalNamespace::ScoreModel_MaxScoreCounterElement*)>(&::GlobalNamespace::ScoreModel_MaxScoreCounterElement::CompareTo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2700d00;
+  constexpr static std::size_t addrs = 0x270098c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreModel_NoteScoreDefinition* (*)(::GlobalNamespace::NoteData_ScoringType)>(
     &::GlobalNamespace::ScoreModel::GetNoteScoreDefinition)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26ffb38;
+  constexpr static std::size_t addrs = 0x26ff7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::BeatmapBasicData*)>(
     &::GlobalNamespace::ScoreModel::ComputeQuickInaccurateMaxMultipliedScoreForBeatmap)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26ffbb8;
+  constexpr static std::size_t addrs = 0x26ff844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::ScoreModel::ComputeMaxMultipliedScoreForBeatmap)> {
   constexpr static std::size_t size = 0xa58;
-  constexpr static std::size_t addrs = 0x26ffc84;
+  constexpr static std::size_t addrs = 0x26ff910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, float_t)>(&::GlobalNamespace::ScoreModel::GetModifiedScoreForGameplayModifiersScoreMultiplier)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2700808;
+  constexpr static std::size_t addrs = 0x2700494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreModel::*)()>(&::GlobalNamespace::ScoreModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2700888;
+  constexpr static std::size_t addrs = 0x2700514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreModel*>::get(), ".ctor",

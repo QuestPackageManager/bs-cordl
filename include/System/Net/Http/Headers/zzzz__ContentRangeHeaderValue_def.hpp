@@ -51,21 +51,21 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x421e9a0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x421e638, size 0x148, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x421eae8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x421e780, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ContentRangeHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x421e998, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x421e630, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x421f0f8, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x421ed90, size 0x25c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x421ebd4, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x421e86c, size 0x3d8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<int64_t> const& __cordl_internal_get__From_k__BackingField() const;
@@ -92,31 +92,31 @@ public:
 
   constexpr void __cordl_internal_set_unit(::StringW value);
 
-  /// @brief Method .ctor, addr 0x421e904, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421e59c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_From, addr 0x421e954, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_From, addr 0x421e5ec, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method get_Length, addr 0x421e968, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x421e600, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Length();
 
-  /// @brief Method get_To, addr 0x421e97c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_To, addr 0x421e614, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
-  /// @brief Method get_Unit, addr 0x421e990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x421e628, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_From, addr 0x421e960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_From, addr 0x421e5f8, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_Length, addr 0x421e974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Length, addr 0x421e60c, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_To, addr 0x421e988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_To, addr 0x421e620, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
 protected:

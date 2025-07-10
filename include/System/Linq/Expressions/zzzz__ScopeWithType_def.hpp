@@ -44,7 +44,7 @@ public:
   static inline ::System::Linq::Expressions::ScopeWithType* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                      ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions, ::System::Type* type);
 
-  /// @brief Method Rewrite, addr 0x40ae4e4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40ae17c, size 0xec, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
@@ -54,11 +54,11 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40ae4a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ae13c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions, ::System::Type* type);
 
-  /// @brief Method get_Type, addr 0x40ae4dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40ae174, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

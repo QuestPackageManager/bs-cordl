@@ -134,10 +134,10 @@ public:
 
   static inline ::GlobalNamespace::LobbyPlayersDataModel___c* New_ctor();
 
-  /// @brief Method <SetOwnedSongPacks>b__42_0, addr 0x26e12fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SetOwnedSongPacks>b__42_0, addr 0x26e0f48, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _SetOwnedSongPacks_b__42_0(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method .ctor, addr 0x26e12f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e0f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LobbyPlayersDataModel___c* getStaticF___9();
@@ -209,23 +209,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26e1330, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26e0f7c, size 0x1e4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::LobbyPlayersDataModel__GetEnumerator_d__59* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current, addr 0x26e1564, size 0xc, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current, addr 0x26e11b0, size 0xc, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26e1570, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26e11bc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26e15a8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26e11f4, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26e1314, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26e0f60, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -252,10 +252,10 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> value);
 
-  /// @brief Method <>m__Finally1, addr 0x26e1514, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x26e1160, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x26e0fa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e0bf4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
@@ -322,10 +322,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e1604, size 0x890, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26e1250, size 0x890, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e1e94, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26e1ae0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -472,141 +472,141 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Activate, addr 0x26de824, size 0x1078, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x26de470, size 0x1078, virtual true, abstract: false, final true
   inline void Activate();
 
-  /// @brief Method ClearData, addr 0x26de64c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method ClearData, addr 0x26de298, size 0x80, virtual true, abstract: false, final true
   inline void ClearData();
 
-  /// @brief Method ClearLocalPlayerBeatmapLevel, addr 0x26de014, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method ClearLocalPlayerBeatmapLevel, addr 0x26ddc60, size 0xd0, virtual true, abstract: false, final true
   inline void ClearLocalPlayerBeatmapLevel();
 
-  /// @brief Method ClearLocalPlayerGameplayModifiers, addr 0x26de200, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method ClearLocalPlayerGameplayModifiers, addr 0x26dde4c, size 0xbc, virtual true, abstract: false, final true
   inline void ClearLocalPlayerGameplayModifiers();
 
-  /// @brief Method ClearRecommendations, addr 0x26de6cc, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method ClearRecommendations, addr 0x26de318, size 0x158, virtual true, abstract: false, final true
   inline void ClearRecommendations();
 
-  /// @brief Method ContainsKey, addr 0x26e1024, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ContainsKey, addr 0x26e0c70, size 0x58, virtual true, abstract: false, final true
   inline bool ContainsKey(::StringW key);
 
-  /// @brief Method Deactivate, addr 0x26df930, size 0x9f4, virtual true, abstract: false, final true
+  /// @brief Method Deactivate, addr 0x26df57c, size 0x9f4, virtual true, abstract: false, final true
   inline void Deactivate();
 
-  /// @brief Method Dispose, addr 0x26e0324, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x26dff70, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x26e0f48, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x26e0b94, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>* GetEnumerator();
 
-  /// @brief Method GetOrCreateLobbyPlayerDataModel, addr 0x26dda34, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateLobbyPlayerDataModel, addr 0x26dd680, size 0xd8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LobbyPlayerData* GetOrCreateLobbyPlayerDataModel(::StringW userId, ::ByRef<bool> alreadyExists);
 
-  /// @brief Method HandleMenuRpcManagerClearBeatmap, addr 0x26e094c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerClearBeatmap, addr 0x26e0598, size 0x20, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerClearBeatmap(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerClearRecommendedGameplayModifiers, addr 0x26e0944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerClearRecommendedGameplayModifiers, addr 0x26e0590, size 0x8, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerClearRecommendedGameplayModifiers(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerGetIsInLobby, addr 0x26e0674, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerGetIsInLobby, addr 0x26e02c0, size 0x138, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerGetIsInLobby(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerGetIsReady, addr 0x26e07ac, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerGetIsReady, addr 0x26e03f8, size 0x138, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerGetIsReady(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerGetOwnedSongPacks, addr 0x26e0de4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerGetOwnedSongPacks, addr 0x26e0a30, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerGetOwnedSongPacks(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerGetRecommendedBeatmap, addr 0x26e0328, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerGetRecommendedBeatmap, addr 0x26dff74, size 0x1b8, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerGetRecommendedBeatmap(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerGetRecommendedGameplayModifiers, addr 0x26e04e0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerGetRecommendedGameplayModifiers, addr 0x26e012c, size 0x194, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerGetRecommendedGameplayModifiers(::StringW userId);
 
-  /// @brief Method HandleMenuRpcManagerRecommendBeatmap, addr 0x26e08e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerRecommendBeatmap, addr 0x26e0530, size 0x5c, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerRecommendBeatmap(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
 
-  /// @brief Method HandleMenuRpcManagerRecommendGameplayModifiers, addr 0x26e0940, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerRecommendGameplayModifiers, addr 0x26e058c, size 0x4, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerRecommendGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method HandleMenuRpcManagerSetIsInLobby, addr 0x26e0978, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetIsInLobby, addr 0x26e05c4, size 0xc, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetIsInLobby(::StringW userId, bool isInLobby);
 
-  /// @brief Method HandleMenuRpcManagerSetIsReady, addr 0x26e096c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetIsReady, addr 0x26e05b8, size 0xc, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetIsReady(::StringW userId, bool isReady);
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x26e0de8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x26e0a34, size 0x160, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
 
-  /// @brief Method HandleMultiplayerSessionManagerPlayerConnected, addr 0x26e0a4c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerPlayerConnected, addr 0x26e0698, size 0x238, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected, addr 0x26e0c84, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected, addr 0x26e08d0, size 0x160, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method HandleMultiplayerSessionManagerPlayerStateChanged, addr 0x26e0984, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerPlayerStateChanged, addr 0x26e05d0, size 0xc8, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerPlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method ILobbyPlayersDataModel.SetLocalPlayerBeatmapLevel, addr 0x26e1294, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ILobbyPlayersDataModel.SetLocalPlayerBeatmapLevel, addr 0x26e0ee0, size 0x4, virtual true, abstract: false, final true
   inline void ILobbyPlayersDataModel_SetLocalPlayerBeatmapLevel(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::LobbyPlayersDataModel* New_ctor();
 
-  /// @brief Method NotifyModelChange, addr 0x26ddbcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyModelChange, addr 0x26dd818, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyModelChange(::StringW userId);
 
-  /// @brief Method RequestKickPlayer, addr 0x26de584, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method RequestKickPlayer, addr 0x26de1d0, size 0xc8, virtual true, abstract: false, final true
   inline void RequestKickPlayer(::StringW userId);
 
-  /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x26ddea0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x26ddaec, size 0x174, virtual false, abstract: false, final false
   inline void SetLocalPlayerBeatmapLevel(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetLocalPlayerGameplayModifiers, addr 0x26de0e4, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method SetLocalPlayerGameplayModifiers, addr 0x26ddd30, size 0x11c, virtual true, abstract: false, final true
   inline void SetLocalPlayerGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method SetLocalPlayerIsActive, addr 0x26de2bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetLocalPlayerIsActive, addr 0x26ddf08, size 0xc, virtual true, abstract: false, final true
   inline void SetLocalPlayerIsActive(bool isActive);
 
-  /// @brief Method SetLocalPlayerIsActive, addr 0x26de2c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerIsActive, addr 0x26ddf14, size 0xf4, virtual false, abstract: false, final false
   inline void SetLocalPlayerIsActive(bool isActive, bool notifyChange);
 
-  /// @brief Method SetLocalPlayerIsInLobby, addr 0x26de4a0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetLocalPlayerIsInLobby, addr 0x26de0ec, size 0xc, virtual true, abstract: false, final true
   inline void SetLocalPlayerIsInLobby(bool isInLobby);
 
-  /// @brief Method SetLocalPlayerIsInLobby, addr 0x26de4ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerIsInLobby, addr 0x26de0f8, size 0xd8, virtual false, abstract: false, final false
   inline void SetLocalPlayerIsInLobby(bool isInLobby, bool notifyChange);
 
-  /// @brief Method SetLocalPlayerIsReady, addr 0x26de3bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetLocalPlayerIsReady, addr 0x26de008, size 0xc, virtual true, abstract: false, final true
   inline void SetLocalPlayerIsReady(bool isReady);
 
-  /// @brief Method SetLocalPlayerIsReady, addr 0x26de3c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerIsReady, addr 0x26de014, size 0xd8, virtual false, abstract: false, final false
   inline void SetLocalPlayerIsReady(bool isReady, bool notifyChange);
 
-  /// @brief Method SetOwnedSongPacks, addr 0x26df89c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetOwnedSongPacks, addr 0x26df4e8, size 0x94, virtual false, abstract: false, final false
   inline void SetOwnedSongPacks();
 
-  /// @brief Method SetPlayerBeatmapLevel, addr 0x26ddb0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerBeatmapLevel, addr 0x26dd758, size 0xc0, virtual false, abstract: false, final false
   inline void SetPlayerBeatmapLevel(::StringW userId, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetPlayerGameplayModifiers, addr 0x26ddbe8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerGameplayModifiers, addr 0x26dd834, size 0x7c, virtual false, abstract: false, final false
   inline void SetPlayerGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* modifiers);
 
-  /// @brief Method SetPlayerIsActive, addr 0x26ddc64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIsActive, addr 0x26dd8b0, size 0x8c, virtual false, abstract: false, final false
   inline void SetPlayerIsActive(::StringW userId, bool isActive, bool notifyChange);
 
-  /// @brief Method SetPlayerIsInLobby, addr 0x26ddd7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIsInLobby, addr 0x26dd9c8, size 0x8c, virtual false, abstract: false, final false
   inline void SetPlayerIsInLobby(::StringW userId, bool isInLobby, bool notifyChange);
 
-  /// @brief Method SetPlayerIsPartyOwner, addr 0x26dde08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIsPartyOwner, addr 0x26dda54, size 0x98, virtual false, abstract: false, final false
   inline void SetPlayerIsPartyOwner(::StringW userId, bool isPartyOwner, bool notifyChange);
 
-  /// @brief Method SetPlayerIsReady, addr 0x26ddcf0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIsReady, addr 0x26dd93c, size 0x8c, virtual false, abstract: false, final false
   inline void SetPlayerIsReady(::StringW userId, bool isReady, bool notifyChange);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26e0fd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26e0c1c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method TryGetValue, addr 0x26e107c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x26e0cc8, size 0x7c, virtual true, abstract: false, final true
   inline bool TryGetValue(::StringW key, ::ByRef<::GlobalNamespace::ILobbyPlayerData*> value);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
@@ -669,28 +669,28 @@ public:
 
   constexpr void __cordl_internal_set_didChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26e1198, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e0de4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeEvent, addr 0x26dd854, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_didChangeEvent, addr 0x26dd4a0, size 0xb0, virtual true, abstract: false, final true
   inline void add_didChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method get_Count, addr 0x26e0fd4, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x26e0c20, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x26dd9b4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x26dd600, size 0x80, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ILobbyPlayerData* get_Item(::StringW userId);
 
-  /// @brief Method get_Keys, addr 0x26e10f8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x26e0d44, size 0x50, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_Keys();
 
-  /// @brief Method get_Values, addr 0x26e1148, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Values, addr 0x26e0d94, size 0x50, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILobbyPlayerData*>* get_Values();
 
-  /// @brief Method get_localUserId, addr 0x26dd704, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method get_localUserId, addr 0x26dd350, size 0x140, virtual true, abstract: false, final true
   inline ::StringW get_localUserId();
 
-  /// @brief Method get_partyOwnerId, addr 0x26dd844, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_partyOwnerId, addr 0x26dd490, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_partyOwnerId();
 
   /// @brief Convert to "::GlobalNamespace::ILobbyPlayersDataModel"
@@ -714,10 +714,10 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_didChangeEvent, addr 0x26dd904, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_didChangeEvent, addr 0x26dd550, size 0xb0, virtual true, abstract: false, final true
   inline void remove_didChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method set_partyOwnerId, addr 0x26dd84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_partyOwnerId, addr 0x26dd498, size 0x8, virtual false, abstract: false, final false
   inline void set_partyOwnerId(::StringW value);
 
 protected:

@@ -103,13 +103,13 @@ public:
   /// @brief Field valueOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_valueOffset, put = __cordl_internal_set_valueOffset)) int32_t valueOffset;
 
-  /// @brief Method Finish, addr 0x430c680, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x430c318, size 0x13c, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method MoveToNextContentNode, addr 0x430c7bc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextContentNode, addr 0x430c454, size 0xd8, virtual false, abstract: false, final false
   inline bool MoveToNextContentNode(bool moveIfOnContentNode);
 
-  /// @brief Method Reset, addr 0x430c894, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x430c52c, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_isEnd() const;

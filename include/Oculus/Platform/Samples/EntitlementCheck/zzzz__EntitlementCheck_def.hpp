@@ -33,15 +33,15 @@ public:
   /// @brief Field exitAppOnFailure, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_exitAppOnFailure, put = __cordl_internal_set_exitAppOnFailure)) bool exitAppOnFailure;
 
-  /// @brief Method EntitlementCheckCallback, addr 0x3f97744, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EntitlementCheckCallback, addr 0x3f973dc, size 0x30, virtual false, abstract: false, final false
   inline void EntitlementCheckCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method HandleEntitlementCheckResult, addr 0x3f974a4, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method HandleEntitlementCheckResult, addr 0x3f9713c, size 0x2a0, virtual false, abstract: false, final false
   inline void HandleEntitlementCheckResult(bool result);
 
   static inline ::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck* New_ctor();
 
-  /// @brief Method Start, addr 0x3f972fc, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f96f94, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get_exitAppOnFailure() const;
@@ -50,23 +50,23 @@ public:
 
   constexpr void __cordl_internal_set_exitAppOnFailure(bool value);
 
-  /// @brief Method .ctor, addr 0x3f97774, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9740c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_UserFailedEntitlementCheck, addr 0x3f97014, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_UserFailedEntitlementCheck, addr 0x3f96cac, size 0xb8, virtual false, abstract: false, final false
   static inline void add_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method add_UserPassedEntitlementCheck, addr 0x3f97184, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_UserPassedEntitlementCheck, addr 0x3f96e1c, size 0xbc, virtual false, abstract: false, final false
   static inline void add_UserPassedEntitlementCheck(::System::Action* value);
 
   static inline ::System::Action* getStaticF_UserFailedEntitlementCheck();
 
   static inline ::System::Action* getStaticF_UserPassedEntitlementCheck();
 
-  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x3f970cc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x3f96d64, size 0xb8, virtual false, abstract: false, final false
   static inline void remove_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x3f97240, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x3f96ed8, size 0xbc, virtual false, abstract: false, final false
   static inline void remove_UserPassedEntitlementCheck(::System::Action* value);
 
   static inline void setStaticF_UserFailedEntitlementCheck(::System::Action* value);

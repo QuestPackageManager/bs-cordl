@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithGroupPresenceLeaveIntent : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceLeaveIntent*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7ec80, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7e918, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetGroupPresenceLeaveIntent, addr 0x3f7ec44, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetGroupPresenceLeaveIntent, addr 0x3f7e8dc, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* GetGroupPresenceLeaveIntent();
 
   static inline ::Oculus::Platform::MessageWithGroupPresenceLeaveIntent* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c35c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7bff4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

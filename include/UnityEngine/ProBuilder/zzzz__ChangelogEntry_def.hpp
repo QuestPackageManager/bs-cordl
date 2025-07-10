@@ -34,7 +34,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::ChangelogEntry* New_ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes);
 
-  /// @brief Method ToString, addr 0x470492c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47045c4, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_m_ReleaseNotes() const;
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_m_VersionInfo(::UnityEngine::ProBuilder::SemVer* value);
 
-  /// @brief Method .ctor, addr 0x4704900, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4704598, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::SemVer* version, ::StringW releaseNotes);
 
-  /// @brief Method get_releaseNotes, addr 0x47048f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseNotes, addr 0x4704590, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_releaseNotes();
 
-  /// @brief Method get_versionInfo, addr 0x47048f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_versionInfo, addr 0x4704588, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::SemVer* get_versionInfo();
 
 protected:

@@ -58,12 +58,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>*() noexcept;
 
-  /// @brief Method Compare, addr 0x4ae3274, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x4ae2f0c, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y);
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ae32b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae2f4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer* getStaticF_instance();
@@ -130,13 +130,13 @@ public:
 
   __declspec(property(get = get_maxRayIntersections, put = set_maxRayIntersections)) int32_t maxRayIntersections;
 
-  /// @brief Method ComputeRayAndDistance, addr 0x4ae2900, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ComputeRayAndDistance, addr 0x4ae2598, size 0x2f8, virtual false, abstract: false, final false
   inline bool ComputeRayAndDistance(::UnityEngine::EventSystems::PointerEventData* eventData, ::ByRef<::UnityEngine::Ray> ray, ::ByRef<int32_t> eventDisplayIndex,
                                     ::ByRef<float_t> distanceToClipPlane);
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x4ae2e70, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4ae2b08, size 0x404, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_EventCamera() const;
@@ -169,28 +169,28 @@ public:
 
   constexpr void __cordl_internal_set_m_MaxRayIntersections(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4ae21ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae1e84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_depth, addr 0x4ae2d8c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_depth, addr 0x4ae2a24, size 0xc4, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_eventCamera, addr 0x4ae2cbc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x4ae2954, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_eventMask, addr 0x4ae2e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventMask, addr 0x4ae2ae8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method get_finalEventMask, addr 0x4ae2bf8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_finalEventMask, addr 0x4ae2890, size 0xc4, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_maxRayIntersections, addr 0x4ae2e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxRayIntersections, addr 0x4ae2af8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxRayIntersections();
 
-  /// @brief Method set_eventMask, addr 0x4ae2e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventMask, addr 0x4ae2af0, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_maxRayIntersections, addr 0x4ae2e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxRayIntersections, addr 0x4ae2b00, size 0x8, virtual false, abstract: false, final false
   inline void set_maxRayIntersections(int32_t value);
 
 protected:

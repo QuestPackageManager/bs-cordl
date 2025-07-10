@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationVersion, addr 0x3f7dfb4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x3f7dc4c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f7dff0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7dc88, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7bddc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7ba74, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

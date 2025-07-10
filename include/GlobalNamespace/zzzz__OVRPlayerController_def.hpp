@@ -154,63 +154,63 @@ public:
   /// @brief Field useProfileData, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_useProfileData, put = __cordl_internal_set_useProfileData)) bool useProfileData;
 
-  /// @brief Method Awake, addr 0x403df30, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x403dbc8, size 0x1dc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetHaltUpdateMovement, addr 0x403fb50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetHaltUpdateMovement, addr 0x403f7e8, size 0xc, virtual false, abstract: false, final false
   inline void GetHaltUpdateMovement(::ByRef<bool> haltUpdateMovement);
 
-  /// @brief Method GetMoveScaleMultiplier, addr 0x403fb10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMoveScaleMultiplier, addr 0x403f7a8, size 0xc, virtual false, abstract: false, final false
   inline void GetMoveScaleMultiplier(::ByRef<float_t> moveScaleMultiplier);
 
-  /// @brief Method GetRotationScaleMultiplier, addr 0x403fb24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetRotationScaleMultiplier, addr 0x403f7bc, size 0xc, virtual false, abstract: false, final false
   inline void GetRotationScaleMultiplier(::ByRef<float_t> rotationScaleMultiplier);
 
-  /// @brief Method GetSkipMouseRotation, addr 0x403fb38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSkipMouseRotation, addr 0x403f7d0, size 0xc, virtual false, abstract: false, final false
   inline void GetSkipMouseRotation(::ByRef<bool> skipMouseRotation);
 
-  /// @brief Method Jump, addr 0x403f9e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Jump, addr 0x403f67c, size 0x84, virtual false, abstract: false, final false
   inline bool Jump();
 
   static inline ::GlobalNamespace::OVRPlayerController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x403e110, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x403dda8, size 0x194, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x403e10c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x403dda4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetOrientation, addr 0x403fb68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetOrientation, addr 0x403f800, size 0xc4, virtual false, abstract: false, final false
   inline void ResetOrientation();
 
-  /// @brief Method SetHaltUpdateMovement, addr 0x403fb5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHaltUpdateMovement, addr 0x403f7f4, size 0xc, virtual false, abstract: false, final false
   inline void SetHaltUpdateMovement(bool haltUpdateMovement);
 
-  /// @brief Method SetMoveScaleMultiplier, addr 0x403fb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMoveScaleMultiplier, addr 0x403f7b4, size 0x8, virtual false, abstract: false, final false
   inline void SetMoveScaleMultiplier(float_t moveScaleMultiplier);
 
-  /// @brief Method SetRotationScaleMultiplier, addr 0x403fb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRotationScaleMultiplier, addr 0x403f7c8, size 0x8, virtual false, abstract: false, final false
   inline void SetRotationScaleMultiplier(float_t rotationScaleMultiplier);
 
-  /// @brief Method SetSkipMouseRotation, addr 0x403fb44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetSkipMouseRotation, addr 0x403f7dc, size 0xc, virtual false, abstract: false, final false
   inline void SetSkipMouseRotation(bool skipMouseRotation);
 
-  /// @brief Method Start, addr 0x403de6c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x403db04, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x403fa68, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x403f700, size 0xa8, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x403e2a4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x403df3c, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateController, addr 0x403e490, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method UpdateController, addr 0x403e128, size 0x728, virtual true, abstract: false, final false
   inline void UpdateController();
 
-  /// @brief Method UpdateMovement, addr 0x403ebb8, size 0xca4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMovement, addr 0x403e850, size 0xca4, virtual true, abstract: false, final false
   inline void UpdateMovement();
 
-  /// @brief Method UpdateTransform, addr 0x403f85c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x403f4f4, size 0x188, virtual false, abstract: false, final false
   inline void UpdateTransform(::GlobalNamespace::OVRCameraRig* rig);
 
   constexpr float_t const& __cordl_internal_get_Acceleration() const;
@@ -441,31 +441,31 @@ public:
 
   constexpr void __cordl_internal_set_useProfileData(bool value);
 
-  /// @brief Method .ctor, addr 0x403fc2c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403f8c4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_CameraUpdated, addr 0x403dbec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_CameraUpdated, addr 0x403d884, size 0x9c, virtual false, abstract: false, final false
   inline void add_CameraUpdated(::System::Action* value);
 
-  /// @brief Method add_PreCharacterMove, addr 0x403dd24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreCharacterMove, addr 0x403d9bc, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreCharacterMove(::System::Action* value);
 
-  /// @brief Method add_TransformUpdated, addr 0x403da8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_TransformUpdated, addr 0x403d724, size 0xb0, virtual false, abstract: false, final false
   inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method get_InitialYRotation, addr 0x403de5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialYRotation, addr 0x403daf4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InitialYRotation();
 
-  /// @brief Method remove_CameraUpdated, addr 0x403dc88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_CameraUpdated, addr 0x403d920, size 0x9c, virtual false, abstract: false, final false
   inline void remove_CameraUpdated(::System::Action* value);
 
-  /// @brief Method remove_PreCharacterMove, addr 0x403ddc0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreCharacterMove, addr 0x403da58, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PreCharacterMove(::System::Action* value);
 
-  /// @brief Method remove_TransformUpdated, addr 0x403db3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_TransformUpdated, addr 0x403d7d4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method set_InitialYRotation, addr 0x403de64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialYRotation, addr 0x403dafc, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialYRotation(float_t value);
 
 protected:

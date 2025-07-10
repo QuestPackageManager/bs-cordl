@@ -51,7 +51,7 @@ public:
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*,
                                                                          ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>*() noexcept;
 
-  /// @brief Method ILevelPackProductDataContainer<OculusLevelProductCollectionModel.LevelPackProductData,OculusLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x26ea24c,
+  /// @brief Method ILevelPackProductDataContainer<OculusLevelProductCollectionModel.LevelPackProductData,OculusLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x26e9e98,
   /// size 0x8, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_OculusLevelProductCollectionModel_LevelPackProductData_OculusLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* newLevelPackProductData);
@@ -73,13 +73,13 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*, ::Array<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26ea254, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9ea0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x26ea23c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackProductData, addr 0x26e9e88, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x26ea244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x26e9e90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>* get_levelPackRedirectionData();
 
   /// @brief Convert to

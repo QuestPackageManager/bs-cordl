@@ -39,7 +39,7 @@ public:
   /// @brief Field _installMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  /// @brief Method CreateSubContainer, addr 0x4b41c0c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method CreateSubContainer, addr 0x4b418a4, size 0x98, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method .ctor, addr 0x4b41bd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b41868, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installMethod);
 
 protected:

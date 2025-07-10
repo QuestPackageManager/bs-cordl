@@ -33,12 +33,12 @@ namespace UnityEngine::Experimental::Audio {
 class CORDL_TYPE AudioSampleProvider_SampleFramesHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x485c870, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x485c508, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint32_t sampleFrameCount);
 
   static inline ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x485c76c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485c404, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -81,10 +81,10 @@ public:
   __declspec(property(get = __cordl_internal_get_sampleFramesOverflow,
                       put = __cordl_internal_set_sampleFramesOverflow)) ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* sampleFramesOverflow;
 
-  /// @brief Method InvokeSampleFramesAvailable, addr 0x485c71c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InvokeSampleFramesAvailable, addr 0x485c3b4, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesAvailable(int32_t sampleFrameCount);
 
-  /// @brief Method InvokeSampleFramesOverflow, addr 0x485c744, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InvokeSampleFramesOverflow, addr 0x485c3dc, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesOverflow(int32_t droppedSampleFrameCount);
 
   constexpr ::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler* const& __cordl_internal_get_sampleFramesAvailable() const;

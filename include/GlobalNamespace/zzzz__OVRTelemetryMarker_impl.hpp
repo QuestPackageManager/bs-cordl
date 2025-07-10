@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)()>(
     &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Sent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b514;
+  constexpr static std::size_t addrs = 0x401b1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(bool)>(
     &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Sent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401b51c;
+  constexpr static std::size_t addrs = 0x401b1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Qpl_OVRPlugin_ResultType (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)()>(
     &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::get_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b528;
+  constexpr static std::size_t addrs = 0x401b1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(
     &::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::set_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b530;
+  constexpr static std::size_t addrs = 0x401b1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::*)(
     bool, ::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(&::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x401b448;
+  constexpr static std::size_t addrs = 0x401b0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState (::GlobalNamespace::OVRTelemetryMarker::*)()>(
     &::GlobalNamespace::OVRTelemetryMarker::get_State)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b3d0;
+  constexpr static std::size_t addrs = 0x401b068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "get_State",
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetryMarker_OVRTelemetryMarkerState)>(
     &::GlobalNamespace::OVRTelemetryMarker::set_State)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b3d8;
+  constexpr static std::size_t addrs = 0x401b070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_Sent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x401b3e0;
+  constexpr static std::size_t addrs = 0x401b078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "get_Sent",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Qpl_OVRPlugin_ResultType (::GlobalNamespace::OVRTelemetryMarker::*)()>(
     &::GlobalNamespace::OVRTelemetryMarker::get_Result)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b3f0;
+  constexpr static std::size_t addrs = 0x401b088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "get_Result",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_MarkerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b3f8;
+  constexpr static std::size_t addrs = 0x401b090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "get_MarkerId",
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::get_InstanceKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b400;
+  constexpr static std::size_t addrs = 0x401b098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "get_InstanceKey",
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(int32_t, int32_t, int64_t)>(
     &::GlobalNamespace::OVRTelemetryMarker::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x401ad70;
+  constexpr static std::size_t addrs = 0x401aa08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetry_TelemetryClient*, int32_t, int32_t, int64_t)>(&::GlobalNamespace::OVRTelemetryMarker::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x401b408;
+  constexpr static std::size_t addrs = 0x401b0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::Qpl_OVRPlugin_ResultType)>(&::GlobalNamespace::OVRTelemetryMarker::SetResult)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401aebc;
+  constexpr static std::size_t addrs = 0x401ab54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::OVRTelemetryMarker::AddAnnotation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x401b074;
+  constexpr static std::size_t addrs = 0x401ad0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)()>(
     &::GlobalNamespace::OVRTelemetryMarker::Send)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x401aee4;
+  constexpr static std::size_t addrs = 0x401ab7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "Send",
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(bool)>(
     &::GlobalNamespace::OVRTelemetryMarker::SendIf)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x401b458;
+  constexpr static std::size_t addrs = 0x401b0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::OVRTelemetryMarker (::GlobalNamespace::OVRTelemetryMarker::*)(::GlobalNamespace::OVRTelemetry_MarkerPoint)>(&::GlobalNamespace::OVRTelemetryMarker::AddPoint)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x401b4a0;
+  constexpr static std::size_t addrs = 0x401b138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTelemetryMarker::*)()>(&::GlobalNamespace::OVRTelemetryMarker::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x401b4f0;
+  constexpr static std::size_t addrs = 0x401b188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTelemetryMarker>::get(), "Dispose",

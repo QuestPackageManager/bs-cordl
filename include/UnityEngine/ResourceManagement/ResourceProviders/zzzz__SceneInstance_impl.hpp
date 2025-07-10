@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::Scene (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479e9fc;
+  constexpr static std::size_t addrs = 0x479e694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::set_Scene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479ea04;
+  constexpr static std::size_t addrs = 0x479e69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Activate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x479ea0c;
+  constexpr static std::size_t addrs = 0x479e6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::ActivateAsync)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x479ea2c;
+  constexpr static std::size_t addrs = 0x479e6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x479ea58;
+  constexpr static std::size_t addrs = 0x479e6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(::System::Object*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x479ea78;
+  constexpr static std::size_t addrs = 0x479e710;
 
   inline static ::MethodInfo const* methodInfo() {
 

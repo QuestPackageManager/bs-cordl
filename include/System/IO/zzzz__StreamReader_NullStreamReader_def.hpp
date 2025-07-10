@@ -30,36 +30,36 @@ public:
 
   __declspec(property(get = get_CurrentEncoding)) ::System::Text::Encoding* CurrentEncoding;
 
-  /// @brief Method Dispose, addr 0x3d3e4d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3d3e170, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::GlobalNamespace::StreamReader_NullStreamReader* New_ctor();
 
-  /// @brief Method Peek, addr 0x3d3e4dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d3e174, size 0x8, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x3d3e4e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d3e17c, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x3d3e4ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d3e184, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadBuffer, addr 0x3d3e544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadBuffer, addr 0x3d3e1dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t ReadBuffer();
 
-  /// @brief Method ReadLine, addr 0x3d3e4f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x3d3e18c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x3d3e4fc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x3d3e194, size 0x48, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method .ctor, addr 0x3d3e3e4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3e07c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseStream, addr 0x3d3e478, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_BaseStream, addr 0x3d3e110, size 0x58, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_BaseStream();
 
-  /// @brief Method get_CurrentEncoding, addr 0x3d3e4d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurrentEncoding, addr 0x3d3e168, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_CurrentEncoding();
 
 protected:

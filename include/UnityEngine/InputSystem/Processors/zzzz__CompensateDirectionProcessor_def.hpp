@@ -33,16 +33,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x461883c, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x46184d4, size 0x1f0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x4618a2c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x46186c4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4618a74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461870c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachingPolicy, addr 0x4618a6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cachingPolicy, addr 0x4618704, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
 protected:

@@ -36,19 +36,19 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE SerializationErrorCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ee5e3c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ee5ad4, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ee5ed4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ee5b6c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ee5e28, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ee5ac0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationErrorCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ee5d24, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee59bc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

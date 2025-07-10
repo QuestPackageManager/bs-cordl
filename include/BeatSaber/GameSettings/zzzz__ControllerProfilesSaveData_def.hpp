@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x226ecf4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226ed84, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* profiles);
 
 protected:

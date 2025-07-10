@@ -102,30 +102,30 @@ public:
 
   constexpr void __cordl_internal_set_wbits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25e1ffc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e208c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_mark();
 
-  /// @brief Method inflate, addr 0x25e15e0, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method inflate, addr 0x25e1670, size 0x698, virtual false, abstract: false, final false
   inline int32_t inflate(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t f);
 
-  /// @brief Method inflateEnd, addr 0x25e14d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method inflateEnd, addr 0x25e1568, size 0x38, virtual false, abstract: false, final false
   inline int32_t inflateEnd(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateInit, addr 0x25e1510, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method inflateInit, addr 0x25e15a0, size 0xd0, virtual false, abstract: false, final false
   inline int32_t inflateInit(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t w);
 
-  /// @brief Method inflateReset, addr 0x25e1484, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method inflateReset, addr 0x25e1514, size 0x54, virtual false, abstract: false, final false
   inline int32_t inflateReset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateSetDictionary, addr 0x25e1c78, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method inflateSetDictionary, addr 0x25e1d08, size 0x104, virtual false, abstract: false, final false
   inline int32_t inflateSetDictionary(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<uint8_t, ::Array<uint8_t>*> dictionary, int32_t dictLength);
 
-  /// @brief Method inflateSync, addr 0x25e1d7c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method inflateSync, addr 0x25e1e0c, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t inflateSync(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method inflateSyncPoint, addr 0x25e1f3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method inflateSyncPoint, addr 0x25e1fcc, size 0x2c, virtual false, abstract: false, final false
   inline int32_t inflateSyncPoint(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline void setStaticF_mark(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

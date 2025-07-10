@@ -26,15 +26,15 @@ public:
 
   __declspec(property(get = get_mirror, put = set_mirror)) ::UnityW<::GlobalNamespace::Mirror> mirror;
 
-  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x3b15f24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorDidChangeEnabledState, addr 0x3b15bb0, size 0x2c, virtual false, abstract: false, final false
   inline void HandleMirrorDidChangeEnabledState(bool isEnabled);
 
   static inline ::GlobalNamespace::DisableWhenMirrorIsEnabled* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b15f50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b15bdc, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b15e80, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b15b0c, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::Mirror> const& __cordl_internal_get__mirror() const;
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__mirror(::UnityW<::GlobalNamespace::Mirror> value);
 
-  /// @brief Method .ctor, addr 0x3b16020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b15cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirror, addr 0x3b15e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirror, addr 0x3b15afc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::Mirror> get_mirror();
 
-  /// @brief Method set_mirror, addr 0x3b15e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mirror, addr 0x3b15b04, size 0x8, virtual false, abstract: false, final false
   inline void set_mirror(::GlobalNamespace::Mirror* value);
 
 protected:

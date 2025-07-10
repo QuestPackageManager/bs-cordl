@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set_smoothCameraSettings(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* value);
 
-  /// @brief Method .ctor, addr 0x227d324, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d3b4, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -361,7 +361,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x227d52c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d5bc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -479,7 +479,7 @@ public:
 
   constexpr void __cordl_internal_set_thirdPersonPosition(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x227d540, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d5d0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -567,7 +567,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationOffset(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x227d5c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d658, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -639,7 +639,7 @@ public:
 
   constexpr void __cordl_internal_set_useCustomServerEnvironment(bool value);
 
-  /// @brief Method .ctor, addr 0x227d63c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d6cc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -716,7 +716,7 @@ public:
 
   constexpr void __cordl_internal_set_enableMemoryTracker(bool value);
 
-  /// @brief Method .ctor, addr 0x227d694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -857,7 +857,7 @@ public:
 
   constexpr void __cordl_internal_set_windowResolution(::Unity::Mathematics::int2 value);
 
-  /// @brief Method .ctor, addr 0x227d498, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d528, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1450,7 +1450,7 @@ public:
 
   constexpr void __cordl_internal_set_vrResolutionScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x227d69c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d72c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1609,7 +1609,7 @@ public:
   /// @brief Field mainSettings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mainSettings, put = __cordl_internal_set_mainSettings)) ::BeatSaber::Settings::LegacySettingsV2_MainSettings* mainSettings;
 
-  /// @brief Method ApplyTo, addr 0x227cf6c, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x227cffc, size 0x32c, virtual false, abstract: false, final false
   inline void ApplyTo(::ByRef<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV2* New_ctor();
@@ -1626,7 +1626,7 @@ public:
 
   constexpr void __cordl_internal_set_mainSettings(::BeatSaber::Settings::LegacySettingsV2_MainSettings* value);
 
-  /// @brief Method .ctor, addr 0x227d298, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227d328, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

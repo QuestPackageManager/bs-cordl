@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x407a458;
+  constexpr static std::size_t addrs = 0x407a0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::GetRay)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x407cb18;
+  constexpr static std::size_t addrs = 0x407c7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::GetSwipeStart)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x407bf8c;
+  constexpr static std::size_t addrs = 0x407bc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Vector2)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x407a4d0;
+  constexpr static std::size_t addrs = 0x407a168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

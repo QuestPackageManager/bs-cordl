@@ -47,10 +47,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3ebecbc, size 0x3e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ebe954, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3ebf0a4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ebed3c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -153,33 +153,33 @@ public:
   /// @brief Field _writer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::IO::TextWriter* _writer;
 
-  /// @brief Method Encode, addr 0x3ebe5cc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3ebe264, size 0x1a0, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method EncodeAsync, addr 0x3ebea08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EncodeAsync, addr 0x3ebe6a0, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* EncodeAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Flush, addr 0x3ebe950, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x3ebe5e8, size 0xb8, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x3ebeb84, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x3ebe81c, size 0x138, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FulfillFromLeftover, addr 0x3ebe76c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FulfillFromLeftover, addr 0x3ebe404, size 0x9c, virtual false, abstract: false, final false
   inline bool FulfillFromLeftover(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, ::ByRef<int32_t> count);
 
   static inline ::Newtonsoft::Json::Utilities::Base64Encoder* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method StoreLeftOverBytes, addr 0x3ebe82c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method StoreLeftOverBytes, addr 0x3ebe4c4, size 0x124, virtual false, abstract: false, final false
   inline void StoreLeftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, ::ByRef<int32_t> count);
 
-  /// @brief Method ValidateEncode, addr 0x3ebe508, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ValidateEncode, addr 0x3ebe1a0, size 0xc4, virtual false, abstract: false, final false
   inline void ValidateEncode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteChars, addr 0x3ebe808, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x3ebe4a0, size 0x24, virtual false, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
-  /// @brief Method WriteCharsAsync, addr 0x3ebeafc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteCharsAsync, addr 0x3ebe794, size 0x88, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteCharsAsync(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charsLine() const;
@@ -206,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
 
-  /// @brief Method .ctor, addr 0x3ebe478, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebe110, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:

@@ -20,10 +20,10 @@ namespace System::Linq::Expressions::Interpreter {
 struct CORDL_TYPE RuntimeLabel {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x40c2094, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40c1d2c, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x40c2088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c1d20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t continuationStackDepth, int32_t stackDepth);
 
   // Ctor Parameters []

@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::RandomAnimationStartTime* New_ctor();
 
-  /// @brief Method Start, addr 0x39c3734, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39c33c0, size 0x2d8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
 
-  /// @brief Method .ctor, addr 0x39c3a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c3698, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

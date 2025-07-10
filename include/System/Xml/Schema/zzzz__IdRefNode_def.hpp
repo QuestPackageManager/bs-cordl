@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value);
 
-  /// @brief Method .ctor, addr 0x42cacc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ca95c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
 
 protected:

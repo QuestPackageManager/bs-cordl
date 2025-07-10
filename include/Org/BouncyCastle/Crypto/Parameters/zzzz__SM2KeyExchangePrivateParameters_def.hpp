@@ -87,23 +87,23 @@ public:
 
   constexpr void __cordl_internal_set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x23c3058, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c30e8, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0x23c32d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0x23c3368, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicPoint, addr 0x23c32e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicPoint, addr 0x23c3370, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_EphemeralPublicPoint();
 
-  /// @brief Method get_IsInitiator, addr 0x23c32c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsInitiator, addr 0x23c3350, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsInitiator();
 
-  /// @brief Method get_StaticPrivateKey, addr 0x23c32c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0x23c3358, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
-  /// @brief Method get_StaticPublicPoint, addr 0x23c32d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicPoint, addr 0x23c3360, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_StaticPublicPoint();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

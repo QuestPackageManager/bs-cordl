@@ -26,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
 
-  /// @brief Method OpenInvitePanel, addr 0x26dc604, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x26dc250, size 0x58, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
-  /// @brief Method .ctor, addr 0x26dc65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dc2a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isSupported, addr 0x26dc5fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x26dc248, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"

@@ -40,10 +40,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerSequenceParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x263afe8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x263b078, size 0x20, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x263b008, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x263b098, size 0x70, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get__parser() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-  /// @brief Method .ctor, addr 0x263164c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26316dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SequenceParser"

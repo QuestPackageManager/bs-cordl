@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::CalculateRmsJob::*)(
     ::Unity::Collections::NativeArray_1<float_t>, ::Unity::Collections::NativeArray_1<float_t>, float_t, float_t, int32_t)>(&::LufsMetering::CalculateRmsJob::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b73950;
+  constexpr static std::size_t addrs = 0x3b735e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::CalculateRmsJob::*)(int32_t)>(&::LufsMetering::CalculateRmsJob::Execute)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3b73964;
+  constexpr static std::size_t addrs = 0x3b735fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

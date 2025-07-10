@@ -46,13 +46,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x49b4ca4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x49b493c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x49b4d3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x49b49d4, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap* gradientRemap);
 
-  /// @brief Method .ctor, addr 0x49b4c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b4934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool___c* getStaticF___9();
@@ -101,7 +101,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49b4abc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b4754, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

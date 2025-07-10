@@ -57,91 +57,91 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method AxisAngle, addr 0x46c6808, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AxisAngle, addr 0x46c64a0, size 0xd8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion AxisAngle(::Unity::Mathematics::float3 axis, float_t angle);
 
-  /// @brief Method Equals, addr 0x46c7c40, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x46c78d8, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* x);
 
-  /// @brief Method Equals, addr 0x46c7c04, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x46c789c, size 0x3c, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::quaternion x);
 
-  /// @brief Method Euler, addr 0x46c7554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x46c71ec, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion Euler(float_t x, float_t y, float_t z, ::Unity::Mathematics::math_RotationOrder order);
 
-  /// @brief Method Euler, addr 0x46c7150, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x46c6de8, size 0x404, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion Euler(::Unity::Mathematics::float3 xyz, ::Unity::Mathematics::math_RotationOrder order);
 
-  /// @brief Method EulerXYZ, addr 0x46c6d18, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerXYZ, addr 0x46c69b0, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerXYZ(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerXYZ, addr 0x46c68e0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerXYZ, addr 0x46c6578, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerXYZ(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerXZY, addr 0x46c6dcc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerXZY, addr 0x46c6a64, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerXZY(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerXZY, addr 0x46c6994, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerXZY, addr 0x46c662c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerXZY(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerYXZ, addr 0x46c6e80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerYXZ, addr 0x46c6b18, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerYXZ(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerYXZ, addr 0x46c6a48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerYXZ, addr 0x46c66e0, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerYXZ(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerYZX, addr 0x46c6f34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerYZX, addr 0x46c6bcc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerYZX(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerYZX, addr 0x46c6afc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerYZX, addr 0x46c6794, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerYZX(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerZXY, addr 0x46c6fe8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerZXY, addr 0x46c6c80, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerZXY(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerZXY, addr 0x46c6bb0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerZXY, addr 0x46c6848, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerZXY(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method EulerZYX, addr 0x46c709c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerZYX, addr 0x46c6d34, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerZYX(float_t x, float_t y, float_t z);
 
-  /// @brief Method EulerZYX, addr 0x46c6c64, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EulerZYX, addr 0x46c68fc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion EulerZYX(::Unity::Mathematics::float3 xyz);
 
-  /// @brief Method GetHashCode, addr 0x46c7ce8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x46c7980, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method LookRotation, addr 0x46c77a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x46c7440, size 0x120, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion LookRotation(::Unity::Mathematics::float3 forward, ::Unity::Mathematics::float3 up);
 
-  /// @brief Method LookRotationSafe, addr 0x46c78c8, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method LookRotationSafe, addr 0x46c7560, size 0x33c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion LookRotationSafe(::Unity::Mathematics::float3 forward, ::Unity::Mathematics::float3 up);
 
-  /// @brief Method RotateX, addr 0x46c755c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RotateX, addr 0x46c71f4, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion RotateX(float_t angle);
 
-  /// @brief Method RotateY, addr 0x46c7620, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RotateY, addr 0x46c72b8, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion RotateY(float_t angle);
 
-  /// @brief Method RotateZ, addr 0x46c76e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RotateZ, addr 0x46c737c, size 0xc4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion RotateZ(float_t angle);
 
-  /// @brief Method ToString, addr 0x46c7d40, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x46c79d8, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x46c7eec, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x46c7b84, size 0x194, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x46c647c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46c6114, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3x3 m);
 
-  /// @brief Method .ctor, addr 0x46c6640, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46c62d8, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float4x4 m);
 
-  /// @brief Method .ctor, addr 0x46c646c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46c6104, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float4 value);
 
-  /// @brief Method .ctor, addr 0x46c6460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46c60f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z, float_t w);
 
   static inline ::Unity::Mathematics::quaternion getStaticF_identity();
@@ -152,13 +152,13 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Implicit, addr 0x46c6458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x46c60f0, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::Unity::Mathematics::quaternion q);
 
-  /// @brief Method op_Implicit, addr 0x46c645c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x46c60f4, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion op_Implicit___Unity__Mathematics__quaternion(::UnityEngine::Quaternion q);
 
-  /// @brief Method op_Implicit, addr 0x46c6478, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x46c6110, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::quaternion op_Implicit___Unity__Mathematics__quaternion(::Unity::Mathematics::float4 v);
 
   static inline void setStaticF_identity(::Unity::Mathematics::quaternion value);

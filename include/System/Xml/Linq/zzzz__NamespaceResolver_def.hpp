@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_scope(int32_t value);
 
-  /// @brief Method .ctor, addr 0x424cfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x424cc54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,19 +124,19 @@ public:
   // Declarations
   using NamespaceDeclaration = ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration;
 
-  /// @brief Method Add, addr 0x424cec0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x424cb58, size 0x9c, virtual false, abstract: false, final false
   inline void Add(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method AddFirst, addr 0x424cd44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddFirst, addr 0x424c9dc, size 0x98, virtual false, abstract: false, final false
   inline void AddFirst(::StringW prefix, ::System::Xml::Linq::XNamespace* ns);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x424cc68, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x424c900, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
-  /// @brief Method PopScope, addr 0x424cf5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method PopScope, addr 0x424cbf4, size 0x60, virtual false, abstract: false, final false
   inline void PopScope();
 
-  /// @brief Method PushScope, addr 0x424ceb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PushScope, addr 0x424cb48, size 0x10, virtual false, abstract: false, final false
   inline void PushScope();
 
   // Ctor Parameters []

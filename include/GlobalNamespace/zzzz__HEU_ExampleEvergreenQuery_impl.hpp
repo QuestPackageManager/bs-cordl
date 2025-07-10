@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::HEU_ExampleEvergreenQuery::StartQuery)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3a02a68;
+  constexpr static std::size_t addrs = 0x3a026f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleEvergreenQuery*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> (*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::HEU_ExampleEvergreenQuery::QueryHoudiniAsset)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3a02cdc;
+  constexpr static std::size_t addrs = 0x3a02968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::GlobalNamespace::HEU_ExampleEvergreenQuery::CookAsset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a02ea0;
+  constexpr static std::size_t addrs = 0x3a02b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(
     &::GlobalNamespace::HEU_ExampleEvergreenQuery::ChangeParmsAndCook)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x3a02eb0;
+  constexpr static std::size_t addrs = 0x3a02b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*)>(&::GlobalNamespace::HEU_ExampleEvergreenQuery::QueryObjects)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x3a03248;
+  constexpr static std::size_t addrs = 0x3a02ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, ::ByRef<::HoudiniEngineUnity::HAPI_GeoInfo>)>(
     &::GlobalNamespace::HEU_ExampleEvergreenQuery::QueryGeoParts)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x3a03aec;
+  constexpr static std::size_t addrs = 0x3a03778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::HoudiniEngineUnity::HAPI_AttributeOwner, int32_t,
                                                                                            ::System::Text::StringBuilder*)>(&::GlobalNamespace::HEU_ExampleEvergreenQuery::QueryPartAttributeByOwner)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3a03f10;
+  constexpr static std::size_t addrs = 0x3a03b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>,
                                                                                            ::StringW)>(&::GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttributeByStorageType)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3a04194;
+  constexpr static std::size_t addrs = 0x3a03e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::StringW, ::StringW, int32_t, ::StringW)>(
     &::GlobalNamespace::HEU_ExampleEvergreenQuery::QueryAttribute)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x3a03534;
+  constexpr static std::size_t addrs = 0x3a031c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ExampleEvergreenQuery::*)()>(&::GlobalNamespace::HEU_ExampleEvergreenQuery::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a045e4;
+  constexpr static std::size_t addrs = 0x3a04270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ExampleEvergreenQuery*>::get(), ".ctor",

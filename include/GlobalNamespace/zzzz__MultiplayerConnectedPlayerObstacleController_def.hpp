@@ -43,7 +43,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* New_ctor();
 
-  /// @brief Method OnCreated, addr 0x3bbbba0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method OnCreated, addr 0x3bbb838, size 0xa4, virtual true, abstract: false, final false
   inline void OnCreated(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* item);
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3bbbc44, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbb8dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -97,7 +97,7 @@ public:
                       put = __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController>
       _multiplayerConnectedPlayerObstacleClippingController;
 
-  /// @brief Method Init, addr 0x3bbb9a4, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bbb63c, size 0x1f4, virtual true, abstract: false, final false
   inline void Init(::GlobalNamespace::ObstacleData* obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* New_ctor();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> value);
 
-  /// @brief Method .ctor, addr 0x3bbbb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbb830, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

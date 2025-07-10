@@ -37,10 +37,10 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE HIDSupport_HIDPageUsage {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x45ffd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ff9d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::HID_UsagePage page, int32_t usage);
 
-  /// @brief Method .ctor, addr 0x45ffe88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45ffb20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::HID_GenericDesktop usage);
 
   // Ctor Parameters []
@@ -87,17 +87,17 @@ public:
                       put = setStaticF_s_SupportedHIDUsages)) ::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*>
       s_SupportedHIDUsages;
 
-  /// @brief Method Initialize, addr 0x45ffd40, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45ff9d8, size 0x148, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*> getStaticF_s_SupportedHIDUsages();
 
-  /// @brief Method get_supportedHIDUsages, addr 0x45ffaac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportedHIDUsages, addr 0x45ff744, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> get_supportedHIDUsages();
 
   static inline void setStaticF_s_SupportedHIDUsages(::ArrayW<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage>*> value);
 
-  /// @brief Method set_supportedHIDUsages, addr 0x45ffb0c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method set_supportedHIDUsages, addr 0x45ff7a4, size 0x22c, virtual false, abstract: false, final false
   static inline void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::HIDSupport_HIDPageUsage> value);
 
 protected:

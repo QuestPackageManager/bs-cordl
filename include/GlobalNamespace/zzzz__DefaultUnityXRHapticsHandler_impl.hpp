@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39c64dc;
+  constexpr static std::size_t addrs = 0x39c6168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)()>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::Destroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39c6504;
+  constexpr static std::size_t addrs = 0x39c6190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)(float_t, float_t)>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::TriggerHapticPulse)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39c6508;
+  constexpr static std::size_t addrs = 0x39c6194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)()>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::StopHaptics)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39c6554;
+  constexpr static std::size_t addrs = 0x39c61e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultUnityXRHapticsHandler::*)()>(
     &::GlobalNamespace::DefaultUnityXRHapticsHandler::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39c6584;
+  constexpr static std::size_t addrs = 0x39c6210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultUnityXRHapticsHandler*>::get(),

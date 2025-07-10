@@ -112,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetData>b__0, addr 0x3bfe0a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__0, addr 0x3bfdd38, size 0x7c, virtual false, abstract: false, final false
   inline void _SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifiersList() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3bfddf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfda88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,10 +163,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bfe11c, size 0x45c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3bfddb4, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bfe578, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3bfe210, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -318,24 +318,24 @@ public:
   /// @brief Field useModifiersEvent, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent)) ::System::Action_1<int32_t>* useModifiersEvent;
 
-  /// @brief Method Awake, addr 0x3bfde94, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bfdb2c, size 0x14c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3bfdfe0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3bfdc78, size 0x20, virtual false, abstract: false, final false
   inline void HandleKickPlayerButtonPressed();
 
-  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3bfe000, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3bfdc98, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseBeatmapButtonPressed();
 
-  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3bfe020, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3bfdcb8, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseModifiersButtonPressed();
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
-  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3bfddf8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3bfda90, size 0x9c, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
-  /// @brief Method SetData, addr 0x3bfd308, size 0xae8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3bfcfa0, size 0xae8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection,
                       ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
@@ -489,25 +489,25 @@ public:
 
   constexpr void __cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bfe040, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfdcd8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3bfced0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x3bfcb68, size 0xb4, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useBeatmapEvent, addr 0x3bfd038, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useBeatmapEvent, addr 0x3bfccd0, size 0xb4, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useModifiersEvent, addr 0x3bfd1a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useModifiersEvent, addr 0x3bfce38, size 0xb4, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3bfcf84, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x3bfcc1c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useBeatmapEvent, addr 0x3bfd0ec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useBeatmapEvent, addr 0x3bfcd84, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useModifiersEvent, addr 0x3bfd254, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useModifiersEvent, addr 0x3bfceec, size 0xb4, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
 protected:

@@ -64,12 +64,12 @@ namespace UnityEngine {
 class CORDL_TYPE GUI_WindowFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48da2c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48d9f5c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t id);
 
   static inline ::UnityEngine::GUI_WindowFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48da238, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48d9ed0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -143,35 +143,35 @@ public:
   /// @brief Field s_ToolTipRect, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_ToolTipRect, put = setStaticF_s_ToolTipRect)) ::UnityEngine::Rect s_ToolTipRect;
 
-  /// @brief Method BeginGroup, addr 0x48d92f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method BeginGroup, addr 0x48d8f8c, size 0xd8, virtual false, abstract: false, final false
   static inline void BeginGroup(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method BeginGroup, addr 0x48d93cc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method BeginGroup, addr 0x48d9064, size 0x2cc, virtual false, abstract: false, final false
   static inline void BeginGroup(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::UnityEngine::Vector2 scrollOffset);
 
-  /// @brief Method Box, addr 0x48d8e90, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x48d8b28, size 0x1cc, virtual false, abstract: false, final false
   static inline void Box(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method Box, addr 0x48d8db8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x48d8a50, size 0xd0, virtual false, abstract: false, final false
   static inline void Box(::UnityEngine::Rect position, ::StringW text);
 
-  /// @brief Method CallWindowDelegate, addr 0x48d9864, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method CallWindowDelegate, addr 0x48d94fc, size 0x2d0, virtual false, abstract: false, final false
   static inline void CallWindowDelegate(::UnityEngine::GUI_WindowFunction* func, int32_t id, int32_t instanceID, ::UnityEngine::GUISkin* _skin, int32_t forceRect, float_t width, float_t height,
                                         ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method DoLabel, addr 0x48d8aec, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method DoLabel, addr 0x48d8784, size 0x2cc, virtual false, abstract: false, final false
   static inline void DoLabel(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method DoSetSkin, addr 0x48d84b4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DoSetSkin, addr 0x48d814c, size 0xc8, virtual false, abstract: false, final false
   static inline void DoSetSkin(::UnityEngine::GUISkin* newSkin);
 
-  /// @brief Method EndGroup, addr 0x48d9778, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EndGroup, addr 0x48d9410, size 0x6c, virtual false, abstract: false, final false
   static inline void EndGroup();
 
-  /// @brief Method Label, addr 0x48d8a30, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x48d86c8, size 0xbc, virtual false, abstract: false, final false
   static inline void Label(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method Label, addr 0x48d88cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x48d8564, size 0xd0, virtual false, abstract: false, final false
   static inline void Label(::UnityEngine::Rect position, ::StringW text);
 
   static inline ::System::DateTime getStaticF__nextScrollStepTime_k__BackingField();
@@ -200,37 +200,37 @@ public:
 
   static inline ::UnityEngine::Rect getStaticF_s_ToolTipRect();
 
-  /// @brief Method get_backgroundColor, addr 0x48d7cbc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor, addr 0x48d7954, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_backgroundColor_Injected, addr 0x48d7d44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor_Injected, addr 0x48d79dc, size 0x3c, virtual false, abstract: false, final false
   static inline void get_backgroundColor_Injected(::ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_changed, addr 0x48d7fc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_changed, addr 0x48d7c5c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_changed();
 
-  /// @brief Method get_color, addr 0x48d7b38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x48d77d0, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_color_Injected, addr 0x48d7bc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_color_Injected, addr 0x48d7858, size 0x3c, virtual false, abstract: false, final false
   static inline void get_color_Injected(::ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_contentColor, addr 0x48d7e40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_contentColor, addr 0x48d7ad8, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_contentColor();
 
-  /// @brief Method get_contentColor_Injected, addr 0x48d7ec8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_contentColor_Injected, addr 0x48d7b60, size 0x3c, virtual false, abstract: false, final false
   static inline void get_contentColor_Injected(::ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method get_enabled, addr 0x48d8028, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x48d7cc0, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
-  /// @brief Method get_matrix, addr 0x48d8774, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_matrix, addr 0x48d840c, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 get_matrix();
 
-  /// @brief Method get_scrollViewStates, addr 0x48d980c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_scrollViewStates, addr 0x48d94a4, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngineInternal::GenericStack* get_scrollViewStates();
 
-  /// @brief Method get_skin, addr 0x48d857c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_skin, addr 0x48d8214, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GUISkin> get_skin();
 
   static inline void setStaticF__nextScrollStepTime_k__BackingField(::System::DateTime value);
@@ -259,37 +259,37 @@ public:
 
   static inline void setStaticF_s_ToolTipRect(::UnityEngine::Rect value);
 
-  /// @brief Method set_backgroundColor, addr 0x48d7d80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundColor, addr 0x48d7a18, size 0x84, virtual false, abstract: false, final false
   static inline void set_backgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method set_backgroundColor_Injected, addr 0x48d7e04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundColor_Injected, addr 0x48d7a9c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_backgroundColor_Injected(::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_changed, addr 0x48d7fec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_changed, addr 0x48d7c84, size 0x3c, virtual false, abstract: false, final false
   static inline void set_changed(bool value);
 
-  /// @brief Method set_color, addr 0x48d7bfc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x48d7894, size 0x84, virtual false, abstract: false, final false
   static inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_color_Injected, addr 0x48d7c80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_color_Injected, addr 0x48d7918, size 0x3c, virtual false, abstract: false, final false
   static inline void set_color_Injected(::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_contentColor, addr 0x48d7f04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_contentColor, addr 0x48d7b9c, size 0x84, virtual false, abstract: false, final false
   static inline void set_contentColor(::UnityEngine::Color value);
 
-  /// @brief Method set_contentColor_Injected, addr 0x48d7f88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_contentColor_Injected, addr 0x48d7c20, size 0x3c, virtual false, abstract: false, final false
   static inline void set_contentColor_Injected(::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_enabled, addr 0x48d8050, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x48d7ce8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
-  /// @brief Method set_matrix, addr 0x48d8844, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_matrix, addr 0x48d84dc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_matrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_nextScrollStepTime, addr 0x48d831c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_nextScrollStepTime, addr 0x48d7fb4, size 0x5c, virtual false, abstract: false, final false
   static inline void set_nextScrollStepTime(::System::DateTime value);
 
-  /// @brief Method set_skin, addr 0x48d8378, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_skin, addr 0x48d8010, size 0x7c, virtual false, abstract: false, final false
   static inline void set_skin(::UnityEngine::GUISkin* value);
 
 protected:

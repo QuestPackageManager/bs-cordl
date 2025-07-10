@@ -44,10 +44,10 @@ public:
 
   static inline ::GlobalNamespace::LightRotationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b92714, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b923ac, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b921c8, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b91e60, size 0x54c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__lightRotationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9285c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b924f4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

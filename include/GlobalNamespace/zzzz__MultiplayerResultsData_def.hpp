@@ -88,21 +88,21 @@ public:
 
   constexpr void __cordl_internal_set__otherPlayersData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  /// @brief Method .ctor, addr 0x26e3288, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e2ed4, size 0x538, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
                     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
                     ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method get_allPlayersSortedData, addr 0x26e3280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allPlayersSortedData, addr 0x26e2ecc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
 
-  /// @brief Method get_gameId, addr 0x26e3268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameId, addr 0x26e2eb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameId();
 
-  /// @brief Method get_localPlayerResultData, addr 0x26e3270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResultData, addr 0x26e2ebc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
 
-  /// @brief Method get_otherPlayersData, addr 0x26e3278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersData, addr 0x26e2ec4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
 
 protected:

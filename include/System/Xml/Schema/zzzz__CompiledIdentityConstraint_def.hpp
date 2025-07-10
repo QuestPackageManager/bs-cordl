@@ -158,21 +158,21 @@ public:
 
   constexpr void __cordl_internal_set_selector(::System::Xml::Schema::Asttree* value);
 
-  /// @brief Method .ctor, addr 0x43989cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4398664, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4398a38, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43986d0, size 0x494, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   static inline ::System::Xml::Schema::CompiledIdentityConstraint* getStaticF_Empty();
 
-  /// @brief Method get_Fields, addr 0x43989c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fields, addr 0x439865c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::Asttree*, ::Array<::System::Xml::Schema::Asttree*>*> get_Fields();
 
-  /// @brief Method get_Role, addr 0x43989b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Role, addr 0x439864c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::CompiledIdentityConstraint_ConstraintRole get_Role();
 
-  /// @brief Method get_Selector, addr 0x43989bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Selector, addr 0x4398654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Asttree* get_Selector();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::CompiledIdentityConstraint* value);

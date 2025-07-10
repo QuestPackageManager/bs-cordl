@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(
     &::TMPro::TMP_Dropdown_DropdownItem::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbddc;
+  constexpr static std::size_t addrs = 0x47cba74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_DropdownItem*>::get(), "get_text",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Dropdown_DropdownItem::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbde4;
+  constexpr static std::size_t addrs = 0x47cba7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Image> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(
     &::TMPro::TMP_Dropdown_DropdownItem::get_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbdec;
+  constexpr static std::size_t addrs = 0x47cba84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_DropdownItem*>::get(), "get_image",
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::UI::Image*)>(
     &::TMPro::TMP_Dropdown_DropdownItem::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbdf4;
+  constexpr static std::size_t addrs = 0x47cba8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(
     &::TMPro::TMP_Dropdown_DropdownItem::get_rectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbdfc;
+  constexpr static std::size_t addrs = 0x47cba94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_DropdownItem*>::get(), "get_rectTransform",
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::RectTransform*)>(
     &::TMPro::TMP_Dropdown_DropdownItem::set_rectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbe04;
+  constexpr static std::size_t addrs = 0x47cba9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Toggle> (::TMPro::TMP_Dropdown_DropdownItem::*)()>(
     &::TMPro::TMP_Dropdown_DropdownItem::get_toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbe0c;
+  constexpr static std::size_t addrs = 0x47cbaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_DropdownItem*>::get(), "get_toggle",
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::UI::Toggle*)>(
     &::TMPro::TMP_Dropdown_DropdownItem::set_toggle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbe14;
+  constexpr static std::size_t addrs = 0x47cbaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_Dropdown_DropdownItem::OnPointerEnter)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47cbe1c;
+  constexpr static std::size_t addrs = 0x47cbab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::TMPro::TMP_Dropdown_DropdownItem::OnCancel)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x47cbe98;
+  constexpr static std::size_t addrs = 0x47cbb30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownItem::*)()>(&::TMPro::TMP_Dropdown_DropdownItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbf44;
+  constexpr static std::size_t addrs = 0x47cbbdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_DropdownItem*>::get(), ".ctor",
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Dropdown_OptionData::*)()>(&::TMPro::TMP_Dropdown_OptionData::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbf4c;
+  constexpr static std::size_t addrs = 0x47cbbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_OptionData*>::get(), "get_text",
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::StringW)>(&::TMPro::TMP_Dropdown_OptionData::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbf54;
+  constexpr static std::size_t addrs = 0x47cbbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::TMPro::TMP_Dropdown_OptionData::*)()>(
     &::TMPro::TMP_Dropdown_OptionData::get_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbf5c;
+  constexpr static std::size_t addrs = 0x47cbbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_OptionData*>::get(), "get_image",
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::UnityEngine::Sprite*)>(&::TMPro::TMP_Dropdown_OptionData::set_image)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbf64;
+  constexpr static std::size_t addrs = 0x47cbbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)()>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c8de4;
+  constexpr static std::size_t addrs = 0x47c8a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_OptionData*>::get(), ".ctor",
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::StringW)>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47c9a60;
+  constexpr static std::size_t addrs = 0x47c96f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::UnityEngine::Sprite*)>(&::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47c9bd8;
+  constexpr static std::size_t addrs = 0x47c9870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionData::*)(::StringW, ::UnityEngine::Sprite*)>(
     &::TMPro::TMP_Dropdown_OptionData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47cbf6c;
+  constexpr static std::size_t addrs = 0x47cbc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>* (::TMPro::TMP_Dropdown_OptionDataList::*)()>(&::TMPro::TMP_Dropdown_OptionDataList::get_options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbf98;
+  constexpr static std::size_t addrs = 0x47cbc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_OptionDataList*>::get(), "get_options",
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::TMP_Dropdown_OptionDataList::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>*)>(&::TMPro::TMP_Dropdown_OptionDataList::set_options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cbfa0;
+  constexpr static std::size_t addrs = 0x47cbc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -554,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_OptionDataList::*)()>(&::TMPro::TMP_Dropdown_OptionDataList::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47c941c;
+  constexpr static std::size_t addrs = 0x47c90b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_OptionDataList*>::get(), ".ctor",
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown_DropdownEvent::*)()>(&::TMPro::TMP_Dropdown_DropdownEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47c949c;
+  constexpr static std::size_t addrs = 0x47c9134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown_DropdownEvent*>::get(), ".ctor",
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass69_0::*)()>(&::TMPro::TMP_Dropdown___c__DisplayClass69_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cb008;
+  constexpr static std::size_t addrs = 0x47caca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown___c__DisplayClass69_0*>::get(), ".ctor",
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown___c__DisplayClass69_0::*)(bool)>(
     &::TMPro::TMP_Dropdown___c__DisplayClass69_0::_Show_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47cbfa8;
+  constexpr static std::size_t addrs = 0x47cbc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::*)(int32_t)>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47cbc10;
+  constexpr static std::size_t addrs = 0x47cb8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -707,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47cbfcc;
+  constexpr static std::size_t addrs = 0x47cbc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81*>::get(),
@@ -721,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::MoveNext)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47cbfd0;
+  constexpr static std::size_t addrs = 0x47cbc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81*>::get(),
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cc078;
+  constexpr static std::size_t addrs = 0x47cbd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -750,7 +750,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47cc080;
+  constexpr static std::size_t addrs = 0x47cbd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -765,7 +765,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::*)()>(
     &::TMPro::TMP_Dropdown__DelayedDestroyDropdownList_d__81::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47cc0b8;
+  constexpr static std::size_t addrs = 0x47cbd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -891,7 +891,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_template)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90b4;
+  constexpr static std::size_t addrs = 0x47c8d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_template",
@@ -904,7 +904,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::RectTransform*)>(&::TMPro::TMP_Dropdown::set_template)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c8db0;
+  constexpr static std::size_t addrs = 0x47c8a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -918,7 +918,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_captionText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90bc;
+  constexpr static std::size_t addrs = 0x47c8d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_captionText",
@@ -931,7 +931,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Dropdown::set_captionText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c8db8;
+  constexpr static std::size_t addrs = 0x47c8a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -945,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Image> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_captionImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90c4;
+  constexpr static std::size_t addrs = 0x47c8d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_captionImage",
@@ -958,7 +958,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Image*)>(&::TMPro::TMP_Dropdown::set_captionImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90cc;
+  constexpr static std::size_t addrs = 0x47c8d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -972,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_placeholder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90d4;
+  constexpr static std::size_t addrs = 0x47c8d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_placeholder",
@@ -985,7 +985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Graphic*)>(&::TMPro::TMP_Dropdown::set_placeholder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90dc;
+  constexpr static std::size_t addrs = 0x47c8d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -999,7 +999,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_itemText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90e4;
+  constexpr static std::size_t addrs = 0x47c8d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_itemText",
@@ -1012,7 +1012,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Dropdown::set_itemText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c8dc0;
+  constexpr static std::size_t addrs = 0x47c8a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1026,7 +1026,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Image> (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_itemImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90ec;
+  constexpr static std::size_t addrs = 0x47c8d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_itemImage",
@@ -1039,7 +1039,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Image*)>(&::TMPro::TMP_Dropdown::set_itemImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c90f4;
+  constexpr static std::size_t addrs = 0x47c8d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1054,7 +1054,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>* (::TMPro::TMP_Dropdown::*)()>(
     &::TMPro::TMP_Dropdown::get_options)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47c8dc8;
+  constexpr static std::size_t addrs = 0x47c8a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_options",
@@ -1068,7 +1068,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>*)>(
     &::TMPro::TMP_Dropdown::set_options)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47c90fc;
+  constexpr static std::size_t addrs = 0x47c8d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1082,7 +1082,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Dropdown_DropdownEvent* (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c9118;
+  constexpr static std::size_t addrs = 0x47c8db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_onValueChanged",
@@ -1095,7 +1095,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown_DropdownEvent*)>(&::TMPro::TMP_Dropdown::set_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c9120;
+  constexpr static std::size_t addrs = 0x47c8db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1109,7 +1109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_alphaFadeSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c9128;
+  constexpr static std::size_t addrs = 0x47c8dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_alphaFadeSpeed",
@@ -1122,7 +1122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t)>(&::TMPro::TMP_Dropdown::set_alphaFadeSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c9130;
+  constexpr static std::size_t addrs = 0x47c8dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1136,7 +1136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c9138;
+  constexpr static std::size_t addrs = 0x47c8dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_value",
@@ -1149,7 +1149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(int32_t)>(&::TMPro::TMP_Dropdown::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c9140;
+  constexpr static std::size_t addrs = 0x47c8dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1163,7 +1163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(int32_t)>(&::TMPro::TMP_Dropdown::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c92b0;
+  constexpr static std::size_t addrs = 0x47c8f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1177,7 +1177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(int32_t, bool)>(&::TMPro::TMP_Dropdown::SetValue)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x47c9148;
+  constexpr static std::size_t addrs = 0x47c8de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1191,7 +1191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::get_IsExpanded)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47c92b8;
+  constexpr static std::size_t addrs = 0x47c8f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "get_IsExpanded",
@@ -1204,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x47c9318;
+  constexpr static std::size_t addrs = 0x47c8fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), ".ctor",
@@ -1217,7 +1217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Awake)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47c94e4;
+  constexpr static std::size_t addrs = 0x47c917c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1231,7 +1231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Start)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47c95e0;
+  constexpr static std::size_t addrs = 0x47c9278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1245,7 +1245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::OnDisable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47c967c;
+  constexpr static std::size_t addrs = 0x47c9314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1259,7 +1259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::RefreshShownValue)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x47c8dec;
+  constexpr static std::size_t addrs = 0x47c8a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "RefreshShownValue",
@@ -1273,7 +1273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::TMPro::TMP_Dropdown_OptionData*>*)>(
     &::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x47c98a8;
+  constexpr static std::size_t addrs = 0x47c9540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1288,7 +1288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x47c9910;
+  constexpr static std::size_t addrs = 0x47c95a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1303,7 +1303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>*)>(
     &::TMPro::TMP_Dropdown::AddOptions)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x47c9a88;
+  constexpr static std::size_t addrs = 0x47c9720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1317,7 +1317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::ClearOptions)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47c9c00;
+  constexpr static std::size_t addrs = 0x47c9898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "ClearOptions",
@@ -1330,7 +1330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::SetupTemplate)> {
   constexpr static std::size_t size = 0x670;
-  constexpr static std::size_t addrs = 0x47c9cb0;
+  constexpr static std::size_t addrs = 0x47c9948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "SetupTemplate",
@@ -1344,7 +1344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_Dropdown::OnPointerClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47ca320;
+  constexpr static std::size_t addrs = 0x47c9fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1358,7 +1358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_Dropdown::OnSubmit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47caeec;
+  constexpr static std::size_t addrs = 0x47cab84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1372,7 +1372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_Dropdown::OnCancel)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47caef0;
+  constexpr static std::size_t addrs = 0x47cab88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1386,7 +1386,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Show)> {
   constexpr static std::size_t size = 0xbc8;
-  constexpr static std::size_t addrs = 0x47ca324;
+  constexpr static std::size_t addrs = 0x47c9fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "Show",
@@ -1400,7 +1400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::TMPro::TMP_Dropdown::*)(::UnityEngine::Canvas*)>(
     &::TMPro::TMP_Dropdown::CreateBlocker)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x47cb40c;
+  constexpr static std::size_t addrs = 0x47cb0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1414,7 +1414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_Dropdown::DestroyBlocker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47cb8e0;
+  constexpr static std::size_t addrs = 0x47cb578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1429,7 +1429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(
     &::TMPro::TMP_Dropdown::CreateDropdownList)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47cb938;
+  constexpr static std::size_t addrs = 0x47cb5d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1443,7 +1443,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_Dropdown::DestroyDropdownList)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47cb9a4;
+  constexpr static std::size_t addrs = 0x47cb63c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1458,7 +1458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Dropdown_DropdownItem> (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown_DropdownItem*)>(
     &::TMPro::TMP_Dropdown::CreateItem)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47cb9fc;
+  constexpr static std::size_t addrs = 0x47cb694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1472,7 +1472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::TMPro::TMP_Dropdown_DropdownItem*)>(&::TMPro::TMP_Dropdown::DestroyItem)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47cba68;
+  constexpr static std::size_t addrs = 0x47cb700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1488,7 +1488,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::TMPro::TMP_Dropdown_OptionData*, bool, ::TMPro::TMP_Dropdown_DropdownItem*, ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Dropdown_DropdownItem>>*)>(
     &::TMPro::TMP_Dropdown::AddItem)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x47cb010;
+  constexpr static std::size_t addrs = 0x47caca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1505,7 +1505,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t, float_t)>(&::TMPro::TMP_Dropdown::AlphaFadeList)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47cba6c;
+  constexpr static std::size_t addrs = 0x47cb704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1519,7 +1519,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t, float_t, float_t)>(&::TMPro::TMP_Dropdown::AlphaFadeList)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x47cb2f8;
+  constexpr static std::size_t addrs = 0x47caf90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1534,7 +1534,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(float_t)>(&::TMPro::TMP_Dropdown::SetAlpha)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47cbaec;
+  constexpr static std::size_t addrs = 0x47cb784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1548,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::Hide)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x47caef4;
+  constexpr static std::size_t addrs = 0x47cab8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "Hide",
@@ -1562,7 +1562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_Dropdown::*)(float_t)>(
     &::TMPro::TMP_Dropdown::DelayedDestroyDropdownList)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47cbba0;
+  constexpr static std::size_t addrs = 0x47cb838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1576,7 +1576,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)()>(&::TMPro::TMP_Dropdown::ImmediateDestroyDropdownList)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x47c9710;
+  constexpr static std::size_t addrs = 0x47c93a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Dropdown*>::get(), "ImmediateDestroyDropdownList",
@@ -1589,7 +1589,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Dropdown::*)(::UnityEngine::UI::Toggle*)>(&::TMPro::TMP_Dropdown::OnSelectItem)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x47cbc38;
+  constexpr static std::size_t addrs = 0x47cb8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -33,35 +33,35 @@ public:
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
       s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x3cadda0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3cada38, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::TripleDES* Create();
 
-  /// @brief Method EqualBytes, addr 0x3cadf3c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method EqualBytes, addr 0x3cadbd4, size 0x198, virtual false, abstract: false, final false
   static inline bool EqualBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, int32_t start1, int32_t start2, int32_t count);
 
-  /// @brief Method IsLegalKeySize, addr 0x3cade50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x3cadae8, size 0x24, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  /// @brief Method IsWeakKey, addr 0x3cada98, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x3cad730, size 0x134, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
   static inline ::System::Security::Cryptography::TripleDES* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cad948, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cad5e0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_Key, addr 0x3cad9d0, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3cad668, size 0xc8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method set_Key, addr 0x3cadbcc, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3cad864, size 0x1d4, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

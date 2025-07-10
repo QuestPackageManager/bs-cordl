@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3b360a8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3b35d34, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::TubeLightIntensityAsset* New_ctor();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::TubeLightIntensityBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3b36150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b35ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b360a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b35d2c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

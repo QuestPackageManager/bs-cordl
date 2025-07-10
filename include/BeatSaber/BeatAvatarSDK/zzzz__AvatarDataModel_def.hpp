@@ -73,10 +73,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x225a880, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225a910, size 0x290, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x225ab10, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x225aba0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -134,10 +134,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x225ab8c, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225ac1c, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x225addc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x225ae6c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -197,10 +197,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x225ae58, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225aee8, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x225b1c0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x225b250, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -279,48 +279,48 @@ public:
   __declspec(property(get = __cordl_internal_get_didChangeAvatarDataEvent,
                       put = __cordl_internal_set_didChangeAvatarDataEvent)) ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* didChangeAvatarDataEvent;
 
-  /// @brief Method CreateDefaultAvatarData, addr 0x225a5a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultAvatarData, addr 0x225a630, size 0x4, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateDefaultAvatarData();
 
-  /// @brief Method CreateRandomAvatarData, addr 0x225a6ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateRandomAvatarData, addr 0x225a73c, size 0xac, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateRandomAvatarData();
 
-  /// @brief Method DeleteAsync, addr 0x225a5a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DeleteAsync, addr 0x225a634, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DeleteAsync();
 
-  /// @brief Method DeleteAsyncInternal, addr 0x225a5bc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DeleteAsyncInternal, addr 0x225a64c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DeleteAsyncInternal();
 
-  /// @brief Method Init, addr 0x225a054, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x225a0e4, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Load, addr 0x225a3a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x225a430, size 0x50, virtual false, abstract: false, final false
   inline bool Load(::BeatSaber::BeatAvatarSDK::AvatarSaveData* avatarSaveData);
 
-  /// @brief Method LoadAsync, addr 0x225a22c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x225a2bc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
-  /// @brief Method LoadFromCurrentVersion, addr 0x225a3f0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method LoadFromCurrentVersion, addr 0x225a480, size 0x1b0, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* LoadFromCurrentVersion(::BeatSaber::BeatAvatarSDK::AvatarSaveData* avatarSaveData);
 
-  /// @brief Method LoadFromSaveDataAsync, addr 0x225a334, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LoadFromSaveDataAsync, addr 0x225a3c4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>* LoadFromSaveDataAsync(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method LoadInternalAsync, addr 0x225a244, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadInternalAsync, addr 0x225a2d4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* LoadInternalAsync();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarDataModel* New_ctor();
 
-  /// @brief Method ReportAvatarChanged, addr 0x2259ed4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReportAvatarChanged, addr 0x2259f64, size 0x20, virtual false, abstract: false, final false
   inline void ReportAvatarChanged();
 
-  /// @brief Method RequestIsAvatarCreatedAsync, addr 0x225a11c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RequestIsAvatarCreatedAsync, addr 0x225a1ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* RequestIsAvatarCreatedAsync();
 
-  /// @brief Method SaveAsync, addr 0x225a124, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x225a1b4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method SaveInternalAsync, addr 0x225a13c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveInternalAsync, addr 0x225a1cc, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* SaveInternalAsync();
 
   constexpr ::System::Threading::Tasks::Task_1<bool>* const& __cordl_internal_get__avatarCreatedTask() const;
@@ -353,19 +353,19 @@ public:
 
   constexpr void __cordl_internal_set_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  /// @brief Method .ctor, addr 0x225a804, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225a894, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeAvatarDataEvent, addr 0x2259ef4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeAvatarDataEvent, addr 0x2259f84, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  /// @brief Method get_avatarData, addr 0x2259e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatarData, addr 0x2259ee4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarData* get_avatarData();
 
-  /// @brief Method remove_didChangeAvatarDataEvent, addr 0x2259fa4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeAvatarDataEvent, addr 0x225a034, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  /// @brief Method set_avatarData, addr 0x2259e5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_avatarData, addr 0x2259eec, size 0x78, virtual false, abstract: false, final false
   inline void set_avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value);
 
 protected:

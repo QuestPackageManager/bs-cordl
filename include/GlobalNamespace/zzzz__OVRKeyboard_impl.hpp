@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRKeyboard_TrackedKeyboardState (*)()>(&::GlobalNamespace::OVRKeyboard::GetKeyboardState)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x401b538;
+  constexpr static std::size_t addrs = 0x401b1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRKeyboard*>::get(), "GetKeyboardState",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags, ::ByRef<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo>)>(&::GlobalNamespace::OVRKeyboard::GetSystemKeyboardInfo)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x401b680;
+  constexpr static std::size_t addrs = 0x401b318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo)>(
     &::GlobalNamespace::OVRKeyboard::StopKeyboardTracking)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x401b768;
+  constexpr static std::size_t addrs = 0x401b400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

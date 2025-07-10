@@ -30,10 +30,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE StandaloneMonobehaviorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Dispatch, addr 0x22cf128, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x22cf1b8, size 0xa4, virtual false, abstract: false, final false
   static inline void Dispatch(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Action* action);
 
-  /// @brief Method DispatchAsync, addr 0x22cf1cc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DispatchAsync, addr 0x22cf25c, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DispatchAsync(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
 protected:

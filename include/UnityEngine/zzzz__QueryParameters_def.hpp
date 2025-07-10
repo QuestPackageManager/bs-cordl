@@ -23,10 +23,10 @@ namespace UnityEngine {
 struct CORDL_TYPE QueryParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4911004, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4910c9c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(int32_t layerMask, bool hitMultipleFaces, ::UnityEngine::QueryTriggerInteraction hitTriggers, bool hitBackfaces);
 
-  /// @brief Method get_Default, addr 0x4911020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x4910cb8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::QueryParameters get_Default();
 
   // Ctor Parameters []

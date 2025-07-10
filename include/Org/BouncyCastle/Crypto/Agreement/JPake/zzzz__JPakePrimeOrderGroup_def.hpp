@@ -60,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x2689700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2689790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x2689708, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2689798, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method get_G, addr 0x2689a34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G, addr 0x2689ac4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_P, addr 0x2689a24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_P, addr 0x2689ab4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x2689a2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Q, addr 0x2689abc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
 protected:

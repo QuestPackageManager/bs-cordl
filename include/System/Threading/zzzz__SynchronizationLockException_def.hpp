@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Threading::SynchronizationLockException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e4d698, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4d330, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e4d718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4d3b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e4d6f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4d38c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

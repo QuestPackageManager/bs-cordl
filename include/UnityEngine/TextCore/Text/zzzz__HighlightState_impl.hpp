@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::TextCore::Text::HighlightState::*)(::UnityEngine::Color32, ::UnityEngine::TextCore::Text::Offset)>(&::UnityEngine::TextCore::Text::HighlightState::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x494a714;
+  constexpr static std::size_t addrs = 0x494a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::HighlightState, ::UnityEngine::TextCore::Text::HighlightState)>(
     &::UnityEngine::TextCore::Text::HighlightState::op_Equality)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x494a724;
+  constexpr static std::size_t addrs = 0x494a3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::HighlightState, ::UnityEngine::TextCore::Text::HighlightState)>(
     &::UnityEngine::TextCore::Text::HighlightState::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x494a818;
+  constexpr static std::size_t addrs = 0x494a4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::HighlightState::*)()>(
     &::UnityEngine::TextCore::Text::HighlightState::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x494a860;
+  constexpr static std::size_t addrs = 0x494a4f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::HighlightState::*)(::System::Object*)>(
     &::UnityEngine::TextCore::Text::HighlightState::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x494a8cc;
+  constexpr static std::size_t addrs = 0x494a564;
 
   inline static ::MethodInfo const* methodInfo() {
 

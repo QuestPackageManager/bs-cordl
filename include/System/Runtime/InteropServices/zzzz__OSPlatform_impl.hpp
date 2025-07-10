@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)()>(&::System::Runtime::InteropServices::OSPlatform::get_Linux)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d141ec;
+  constexpr static std::size_t addrs = 0x3d13e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::OSPlatform>::get(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)()>(&::System::Runtime::InteropServices::OSPlatform::get_OSX)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d14244;
+  constexpr static std::size_t addrs = 0x3d13edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::OSPlatform>::get(), "get_OSX",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)()>(&::System::Runtime::InteropServices::OSPlatform::get_Windows)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d1429c;
+  constexpr static std::size_t addrs = 0x3d13f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::OSPlatform>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::OSPlatform::*)(::StringW)>(
     &::System::Runtime::InteropServices::OSPlatform::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d142f4;
+  constexpr static std::size_t addrs = 0x3d13f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::OSPlatform (*)(::StringW)>(
     &::System::Runtime::InteropServices::OSPlatform::Create)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d143a8;
+  constexpr static std::size_t addrs = 0x3d14040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::InteropServices::OSPlatform::*)(::System::Runtime::InteropServices::OSPlatform)>(
     &::System::Runtime::InteropServices::OSPlatform::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d143c8;
+  constexpr static std::size_t addrs = 0x3d14060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::InteropServices::OSPlatform::*)(::StringW)>(
     &::System::Runtime::InteropServices::OSPlatform::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d14434;
+  constexpr static std::size_t addrs = 0x3d140cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::InteropServices::OSPlatform::*)(::System::Object*)>(
     &::System::Runtime::InteropServices::OSPlatform::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3d14444;
+  constexpr static std::size_t addrs = 0x3d140dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::InteropServices::OSPlatform::*)()>(
     &::System::Runtime::InteropServices::OSPlatform::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d144ec;
+  constexpr static std::size_t addrs = 0x3d14184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::InteropServices::OSPlatform::*)()>(
     &::System::Runtime::InteropServices::OSPlatform::ToString)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d14504;
+  constexpr static std::size_t addrs = 0x3d1419c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::InteropServices::OSPlatform, ::System::Runtime::InteropServices::OSPlatform)>(
     &::System::Runtime::InteropServices::OSPlatform::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d14558;
+  constexpr static std::size_t addrs = 0x3d141f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SceneInfo> (::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::get_sceneInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229bcf8;
+  constexpr static std::size_t addrs = 0x229bd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)(::GlobalNamespace::SceneSetupData*)>(
     &::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x229b8ac;
+  constexpr static std::size_t addrs = 0x229b93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229ba70;
+  constexpr static std::size_t addrs = 0x229bb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

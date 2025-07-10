@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x4b40098, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x4b3fd30, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProvider* New_ctor(::UnityEngine::Object* prefab);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x4b40064, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3fcfc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* prefab);
 
   /// @brief Convert to "::Zenject::IPrefabProvider"

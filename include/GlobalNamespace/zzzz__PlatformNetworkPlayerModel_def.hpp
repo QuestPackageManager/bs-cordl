@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e729cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e72664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>>"
@@ -78,15 +78,15 @@ public:
 
   __declspec(property(get = get_friends)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* friends;
 
-  /// @brief Method DestroyPartyConnection, addr 0x3e729b4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method DestroyPartyConnection, addr 0x3e7264c, size 0x18, virtual true, abstract: false, final false
   inline void DestroyPartyConnection();
 
   static inline ::GlobalNamespace::PlatformNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e7299c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e72634, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_friends, addr 0x3e729a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_friends, addr 0x3e7263c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_friends();
 
 protected:

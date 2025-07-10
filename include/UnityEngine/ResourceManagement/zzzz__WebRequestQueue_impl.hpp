@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::ResourceManagement::WebRequestQueue::SetMaxConcurrentRequests)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47918bc;
+  constexpr static std::size_t addrs = 0x4791554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::WebRequestQueueOperation* (*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueue::QueueRequest)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x479197c;
+  constexpr static std::size_t addrs = 0x4791614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ResourceManagement::WebRequestQueueOperation*, int32_t)>(
     &::UnityEngine::ResourceManagement::WebRequestQueue::WaitForRequestToBeActive)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x4791d08;
+  constexpr static std::size_t addrs = 0x47919a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueue::DequeueRequest)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4792328;
+  constexpr static std::size_t addrs = 0x4791fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AsyncOperation*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueue::OnWebAsyncOpComplete)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47923e0;
+  constexpr static std::size_t addrs = 0x4792078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueue::OnWebAsyncOpComplete)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4792220;
+  constexpr static std::size_t addrs = 0x4791eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ResourceManagement::WebRequestQueueOperation*)>(
     &::UnityEngine::ResourceManagement::WebRequestQueue::BeginWebRequest)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4791a7c;
+  constexpr static std::size_t addrs = 0x4791714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

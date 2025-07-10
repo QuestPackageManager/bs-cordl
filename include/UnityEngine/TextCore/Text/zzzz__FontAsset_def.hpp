@@ -93,13 +93,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::FontAsset___c* New_ctor();
 
-  /// @brief Method <SortCharacterTable>b__151_0, addr 0x492cf7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortCharacterTable>b__151_0, addr 0x492cc14, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortCharacterTable_b__151_0(::UnityEngine::TextCore::Text::Character* c);
 
-  /// @brief Method <SortGlyphTable>b__152_0, addr 0x492cf94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphTable>b__152_0, addr 0x492cc2c, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphTable_b__152_0(::UnityEngine::TextCore::Glyph* c);
 
-  /// @brief Method .ctor, addr 0x492cf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492cc0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::FontAsset___c* getStaticF___9();
@@ -415,201 +415,201 @@ public:
 
   __declspec(property(get = get_usedGlyphRects, put = set_usedGlyphRects)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* usedGlyphRects;
 
-  /// @brief Method AddCharacterToLookupCache, addr 0x49261a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddCharacterToLookupCache, addr 0x4925e40, size 0x68, virtual false, abstract: false, final false
   inline void AddCharacterToLookupCache(uint32_t unicode, ::UnityEngine::TextCore::Text::Character* character);
 
-  /// @brief Method AddSynthesizedCharacter, addr 0x4925f90, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method AddSynthesizedCharacter, addr 0x4925c28, size 0x218, virtual false, abstract: false, final false
   inline void AddSynthesizedCharacter(uint32_t unicode, bool isFontFaceLoaded, bool addImmediately);
 
-  /// @brief Method AddSynthesizedCharactersAndFaceMetrics, addr 0x4924efc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method AddSynthesizedCharactersAndFaceMetrics, addr 0x4924b94, size 0x1d0, virtual false, abstract: false, final false
   inline void AddSynthesizedCharactersAndFaceMetrics();
 
-  /// @brief Method Awake, addr 0x4924d98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4924a30, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClearAtlasTextures, addr 0x492c4e8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ClearAtlasTextures, addr 0x492c180, size 0x1ec, virtual false, abstract: false, final false
   inline void ClearAtlasTextures(bool setAtlasSizeToZero);
 
-  /// @brief Method ClearFontAssetData, addr 0x492c120, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ClearFontAssetData, addr 0x492bdb8, size 0x140, virtual false, abstract: false, final false
   inline void ClearFontAssetData(bool setAtlasSizeToZero);
 
-  /// @brief Method ClearFontAssetDataInternal, addr 0x492c6d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ClearFontAssetDataInternal, addr 0x492c36c, size 0x20, virtual false, abstract: false, final false
   inline void ClearFontAssetDataInternal(bool clearFontFeatures);
 
-  /// @brief Method ClearFontAssetTables, addr 0x492c260, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ClearFontAssetTables, addr 0x492bef8, size 0x288, virtual false, abstract: false, final false
   inline void ClearFontAssetTables(bool clearFontFeatures);
 
   /// @brief Method CopyListDataToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void CopyListDataToArray(::System::Collections::Generic::List_1<T>* srcList, ::ByRef<::ArrayW<T, ::Array<T>*>> dstArray);
 
-  /// @brief Method CreateFontAsset, addr 0x49241b8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAsset, addr 0x4923e50, size 0x1d8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW familyName, ::StringW styleName, int32_t pointSize);
 
-  /// @brief Method CreateFontAsset, addr 0x4924a2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAsset, addr 0x49246c4, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font);
 
-  /// @brief Method CreateFontAsset, addr 0x4924b68, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAsset, addr 0x4924800, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
                                                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
                                                                                    ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
-  /// @brief Method CreateFontAsset, addr 0x4924aa8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAsset, addr 0x4924740, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::UnityEngine::Font* font, int32_t samplingPointSize, int32_t atlasPadding,
                                                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
                                                                                    ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
-  /// @brief Method CreateFontAsset, addr 0x4924504, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAsset, addr 0x492419c, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
                                                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight);
 
-  /// @brief Method CreateFontAsset, addr 0x4924390, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAsset, addr 0x4924028, size 0x174, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAsset(::StringW fontFilePath, int32_t faceIndex, int32_t samplingPointSize, int32_t atlasPadding,
                                                                                    ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
                                                                                    ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
-  /// @brief Method CreateFontAssetInstance, addr 0x49245b8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method CreateFontAssetInstance, addr 0x4924250, size 0x474, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> CreateFontAssetInstance(::UnityEngine::Font* font, int32_t atlasPadding,
                                                                                            ::UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int32_t atlasWidth, int32_t atlasHeight,
                                                                                            ::UnityEngine::TextCore::Text::AtlasPopulationMode atlasPopulationMode, bool enableMultiAtlasSupport);
 
-  /// @brief Method DestroyAtlasTextures, addr 0x4924e00, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DestroyAtlasTextures, addr 0x4924a98, size 0xc4, virtual false, abstract: false, final false
   inline void DestroyAtlasTextures();
 
-  /// @brief Method GetCharacters, addr 0x4927f70, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x4927c08, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW GetCharacters(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method GetCharactersArray, addr 0x492807c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetCharactersArray, addr 0x4927d14, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCharactersArray(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method GetGlyphIndex, addr 0x4928160, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetGlyphIndex, addr 0x4927df8, size 0xdc, virtual false, abstract: false, final false
   inline uint32_t GetGlyphIndex(uint32_t unicode);
 
-  /// @brief Method HasCharacter, addr 0x4926af0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasCharacter, addr 0x4926788, size 0x10, virtual false, abstract: false, final false
   inline bool HasCharacter(char16_t character, bool searchFallbacks, bool tryAddCharacter);
 
-  /// @brief Method HasCharacter, addr 0x4926a90, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasCharacter, addr 0x4926728, size 0x60, virtual false, abstract: false, final false
   inline bool HasCharacter(int32_t character);
 
-  /// @brief Method HasCharacter, addr 0x4926b00, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method HasCharacter, addr 0x4926798, size 0x314, virtual false, abstract: false, final false
   inline bool HasCharacter(uint32_t character, bool searchFallbacks, bool tryAddCharacter);
 
-  /// @brief Method HasCharacter_Internal, addr 0x49276b0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method HasCharacter_Internal, addr 0x4927348, size 0x224, virtual false, abstract: false, final false
   inline bool HasCharacter_Internal(uint32_t character, bool searchFallbacks, bool tryAddCharacter);
 
-  /// @brief Method HasCharacters, addr 0x4927eac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HasCharacters, addr 0x4927b44, size 0xc4, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text);
 
-  /// @brief Method HasCharacters, addr 0x4927a74, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method HasCharacters, addr 0x492770c, size 0x438, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text, ::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingCharacters, bool searchFallbacks, bool tryAddCharacter);
 
-  /// @brief Method HasCharacters, addr 0x49278d4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method HasCharacters, addr 0x492756c, size 0x1a0, virtual false, abstract: false, final false
   inline bool HasCharacters(::StringW text, ::ByRef<::System::Collections::Generic::List_1<char16_t>*> missingCharacters);
 
-  /// @brief Method InitializeCharacterLookupDictionary, addr 0x492535c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method InitializeCharacterLookupDictionary, addr 0x4924ff4, size 0x198, virtual false, abstract: false, final false
   inline void InitializeCharacterLookupDictionary();
 
-  /// @brief Method InitializeDictionaryLookupTables, addr 0x4924ec4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitializeDictionaryLookupTables, addr 0x4924b5c, size 0x38, virtual false, abstract: false, final false
   inline void InitializeDictionaryLookupTables();
 
-  /// @brief Method InitializeGlyphLookupDictionary, addr 0x49250d4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method InitializeGlyphLookupDictionary, addr 0x4924d6c, size 0x288, virtual false, abstract: false, final false
   inline void InitializeGlyphLookupDictionary();
 
-  /// @brief Method InitializeGlyphPaidAdjustmentRecordsLookupDictionary, addr 0x4925804, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method InitializeGlyphPaidAdjustmentRecordsLookupDictionary, addr 0x492549c, size 0x238, virtual false, abstract: false, final false
   inline void InitializeGlyphPaidAdjustmentRecordsLookupDictionary();
 
-  /// @brief Method InitializeLigatureSubstitutionLookupDictionary, addr 0x49254f4, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method InitializeLigatureSubstitutionLookupDictionary, addr 0x492518c, size 0x310, virtual false, abstract: false, final false
   inline void InitializeLigatureSubstitutionLookupDictionary();
 
-  /// @brief Method InitializeMarkToBaseAdjustmentRecordsLookupDictionary, addr 0x4925a3c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method InitializeMarkToBaseAdjustmentRecordsLookupDictionary, addr 0x49256d4, size 0x1e0, virtual false, abstract: false, final false
   inline void InitializeMarkToBaseAdjustmentRecordsLookupDictionary();
 
-  /// @brief Method InitializeMarkToMarkAdjustmentRecordsLookupDictionary, addr 0x4925c1c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method InitializeMarkToMarkAdjustmentRecordsLookupDictionary, addr 0x49258b4, size 0x1e0, virtual false, abstract: false, final false
   inline void InitializeMarkToMarkAdjustmentRecordsLookupDictionary();
 
-  /// @brief Method LoadFontFace, addr 0x4925e04, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method LoadFontFace, addr 0x4925a9c, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::FontEngineError LoadFontFace();
 
   static inline ::UnityEngine::TextCore::Text::FontAsset* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4924d9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x4924a34, size 0x64, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ReadFontAssetDefinition, addr 0x4923c20, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method ReadFontAssetDefinition, addr 0x49238b8, size 0x3a0, virtual false, abstract: false, final false
   inline void ReadFontAssetDefinition();
 
-  /// @brief Method RegisterAtlasTextureForApply, addr 0x4928558, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RegisterAtlasTextureForApply, addr 0x49281f0, size 0x128, virtual false, abstract: false, final false
   static inline void RegisterAtlasTextureForApply(::UnityEngine::Texture2D* texture);
 
-  /// @brief Method RegisterFontAssetForFontFeatureUpdate, addr 0x492823c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RegisterFontAssetForFontFeatureUpdate, addr 0x4927ed4, size 0x130, virtual false, abstract: false, final false
   static inline void RegisterFontAssetForFontFeatureUpdate(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method SetupNewAtlasTexture, addr 0x492ae2c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method SetupNewAtlasTexture, addr 0x492aac4, size 0x210, virtual false, abstract: false, final false
   inline void SetupNewAtlasTexture();
 
-  /// @brief Method SortAllTables, addr 0x4926a70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SortAllTables, addr 0x4926708, size 0x20, virtual false, abstract: false, final false
   inline void SortAllTables();
 
-  /// @brief Method SortCharacterTable, addr 0x4926210, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SortCharacterTable, addr 0x4925ea8, size 0x134, virtual false, abstract: false, final false
   inline void SortCharacterTable();
 
-  /// @brief Method SortFontFeatureTable, addr 0x4926478, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SortFontFeatureTable, addr 0x4926110, size 0x34, virtual false, abstract: false, final false
   inline void SortFontFeatureTable();
 
-  /// @brief Method SortGlyphTable, addr 0x4926344, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphTable, addr 0x4925fdc, size 0x134, virtual false, abstract: false, final false
   inline void SortGlyphTable();
 
-  /// @brief Method TryAddCharacterInternal, addr 0x4926e14, size 0x89c, virtual false, abstract: false, final false
+  /// @brief Method TryAddCharacterInternal, addr 0x4926aac, size 0x89c, virtual false, abstract: false, final false
   inline bool TryAddCharacterInternal(uint32_t unicode, ::ByRef<::UnityEngine::TextCore::Text::Character*> character, bool shouldGetFontFeatures);
 
-  /// @brief Method TryAddCharacters, addr 0x49298c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryAddCharacters, addr 0x4929560, size 0x20, virtual false, abstract: false, final false
   inline bool TryAddCharacters(::StringW characters, bool includeFontFeatures);
 
-  /// @brief Method TryAddCharacters, addr 0x49298e8, size 0xbc8, virtual false, abstract: false, final false
+  /// @brief Method TryAddCharacters, addr 0x4929580, size 0xbc8, virtual false, abstract: false, final false
   inline bool TryAddCharacters(::StringW characters, ::ByRef<::StringW> missingCharacters, bool includeFontFeatures);
 
-  /// @brief Method TryAddCharacters, addr 0x4928848, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryAddCharacters, addr 0x49284e0, size 0x20, virtual false, abstract: false, final false
   inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, bool includeFontFeatures);
 
-  /// @brief Method TryAddCharacters, addr 0x4928868, size 0xbe8, virtual false, abstract: false, final false
+  /// @brief Method TryAddCharacters, addr 0x4928500, size 0xbe8, virtual false, abstract: false, final false
   inline bool TryAddCharacters(::ArrayW<uint32_t, ::Array<uint32_t>*> unicodes, ::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> missingUnicodes, bool includeFontFeatures);
 
-  /// @brief Method TryAddGlyphInternal, addr 0x492a4b0, size 0x97c, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphInternal, addr 0x492a148, size 0x97c, virtual false, abstract: false, final false
   inline bool TryAddGlyphInternal(uint32_t glyphIndex, ::ByRef<::UnityEngine::TextCore::Glyph*> glyph);
 
-  /// @brief Method TryAddGlyphsToAtlasTextures, addr 0x492b594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphsToAtlasTextures, addr 0x492b22c, size 0x4, virtual false, abstract: false, final false
   inline void TryAddGlyphsToAtlasTextures();
 
-  /// @brief Method TryAddGlyphsToNewAtlasTexture, addr 0x4929450, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method TryAddGlyphsToNewAtlasTexture, addr 0x49290e8, size 0x478, virtual false, abstract: false, final false
   inline bool TryAddGlyphsToNewAtlasTexture();
 
-  /// @brief Method TryGetCharacter_and_QueueRenderToTexture, addr 0x492b03c, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method TryGetCharacter_and_QueueRenderToTexture, addr 0x492acd4, size 0x558, virtual false, abstract: false, final false
   inline bool TryGetCharacter_and_QueueRenderToTexture(uint32_t unicode, ::ByRef<::UnityEngine::TextCore::Text::Character*> character, bool shouldGetFontFeatures);
 
-  /// @brief Method UpdateAllFontFeatures, addr 0x4928500, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllFontFeatures, addr 0x4928198, size 0x58, virtual false, abstract: false, final false
   inline void UpdateAllFontFeatures();
 
-  /// @brief Method UpdateAtlasTexturesInQueue, addr 0x4928680, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UpdateAtlasTexturesInQueue, addr 0x4928318, size 0x178, virtual false, abstract: false, final false
   static inline void UpdateAtlasTexturesInQueue();
 
-  /// @brief Method UpdateFontAssetData, addr 0x492c6f4, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method UpdateFontAssetData, addr 0x492c38c, size 0x23c, virtual false, abstract: false, final false
   inline void UpdateFontAssetData();
 
-  /// @brief Method UpdateFontAssetsInUpdateQueue, addr 0x49287f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UpdateFontAssetsInUpdateQueue, addr 0x4928490, size 0x50, virtual false, abstract: false, final false
   static inline void UpdateFontAssetsInUpdateQueue();
 
-  /// @brief Method UpdateFontFeaturesForFontAssetsInQueue, addr 0x4928394, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateFontFeaturesForFontAssetsInQueue, addr 0x492802c, size 0x16c, virtual false, abstract: false, final false
   static inline void UpdateFontFeaturesForFontAssetsInQueue();
 
-  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492b598, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492b230, size 0x4ac, virtual false, abstract: false, final false
   inline void UpdateGlyphAdjustmentRecords();
 
-  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492bc9c, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492b934, size 0x47c, virtual false, abstract: false, final false
   inline void UpdateGlyphAdjustmentRecords(::ArrayW<uint32_t, ::Array<uint32_t>*> glyphIndexes);
 
-  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492c118, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492bdb0, size 0x4, virtual false, abstract: false, final false
   inline void UpdateGlyphAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* glyphIndexes);
 
-  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492c11c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGlyphAdjustmentRecords, addr 0x492bdb4, size 0x4, virtual false, abstract: false, final false
   inline void UpdateGlyphAdjustmentRecords(::System::Collections::Generic::List_1<uint32_t>* newGlyphIndexes, ::System::Collections::Generic::List_1<uint32_t>* allGlyphIndexes);
 
   constexpr bool const& __cordl_internal_get_InternalDynamicOS() const;
@@ -876,7 +876,7 @@ public:
 
   constexpr void __cordl_internal_set_s_MissingCharacterList(::System::Collections::Generic::List_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x492c930, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492c5c8, size 0x278, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_AddSynthesizedCharactersMarker();
@@ -911,94 +911,94 @@ public:
 
   static inline ::StringW getStaticF_s_DefaultMaterialSuffix();
 
-  /// @brief Method get_atlasHeight, addr 0x49240d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasHeight, addr 0x4923d70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_atlasHeight();
 
-  /// @brief Method get_atlasPadding, addr 0x49240e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasPadding, addr 0x4923d80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_atlasPadding();
 
-  /// @brief Method get_atlasPopulationMode, addr 0x4923b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasPopulationMode, addr 0x49237d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::AtlasPopulationMode get_atlasPopulationMode();
 
-  /// @brief Method get_atlasRenderMode, addr 0x49240f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasRenderMode, addr 0x4923d90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphRenderMode get_atlasRenderMode();
 
-  /// @brief Method get_atlasTexture, addr 0x4923ff4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_atlasTexture, addr 0x4923c8c, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlasTexture();
 
-  /// @brief Method get_atlasTextureCount, addr 0x4924094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_atlasTextureCount, addr 0x4923d2c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_atlasTextureCount();
 
-  /// @brief Method get_atlasTextures, addr 0x4924084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasTextures, addr 0x4923d1c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Texture2D>, ::Array<::UnityW<::UnityEngine::Texture2D>>*> get_atlasTextures();
 
-  /// @brief Method get_atlasWidth, addr 0x49240c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlasWidth, addr 0x4923d60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_atlasWidth();
 
-  /// @brief Method get_boldStyleSpacing, addr 0x4924188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boldStyleSpacing, addr 0x4923e20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_boldStyleSpacing();
 
-  /// @brief Method get_boldStyleWeight, addr 0x4924178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boldStyleWeight, addr 0x4923e10, size 0x8, virtual false, abstract: false, final false
   inline float_t get_boldStyleWeight();
 
-  /// @brief Method get_characterLookupTable, addr 0x4923fd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_characterLookupTable, addr 0x4923c68, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::Character*>* get_characterLookupTable();
 
-  /// @brief Method get_characterTable, addr 0x4923fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterTable, addr 0x4923c58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* get_characterTable();
 
-  /// @brief Method get_clearDynamicDataOnBuild, addr 0x49240b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearDynamicDataOnBuild, addr 0x4923d4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_clearDynamicDataOnBuild();
 
-  /// @brief Method get_faceInfo, addr 0x4923b48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_faceInfo, addr 0x49237e0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::FaceInfo get_faceInfo();
 
-  /// @brief Method get_fallbackFontAssetTable, addr 0x4924138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackFontAssetTable, addr 0x4923dd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssetTable();
 
-  /// @brief Method get_familyNameHashCode, addr 0x4923b7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_familyNameHashCode, addr 0x4923814, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_familyNameHashCode();
 
-  /// @brief Method get_fontAssetCreationEditorSettings, addr 0x4923af4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontAssetCreationEditorSettings, addr 0x492378c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings get_fontAssetCreationEditorSettings();
 
-  /// @brief Method get_fontFeatureTable, addr 0x4924128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontFeatureTable, addr 0x4923dc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::FontFeatureTable* get_fontFeatureTable();
 
-  /// @brief Method get_fontWeightTable, addr 0x4924148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontWeightTable, addr 0x4923de0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> get_fontWeightTable();
 
-  /// @brief Method get_freeGlyphRects, addr 0x4924118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_freeGlyphRects, addr 0x4923db0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* get_freeGlyphRects();
 
-  /// @brief Method get_glyphLookupTable, addr 0x4923bfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_glyphLookupTable, addr 0x4923894, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Glyph*>* get_glyphLookupTable();
 
-  /// @brief Method get_glyphTable, addr 0x4923bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphTable, addr 0x4923884, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* get_glyphTable();
 
-  /// @brief Method get_isMultiAtlasTexturesEnabled, addr 0x49240a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMultiAtlasTexturesEnabled, addr 0x4923d38, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMultiAtlasTexturesEnabled();
 
-  /// @brief Method get_italicStyleSlant, addr 0x4924198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_italicStyleSlant, addr 0x4923e30, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_italicStyleSlant();
 
-  /// @brief Method get_regularStyleSpacing, addr 0x4924168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_regularStyleSpacing, addr 0x4923e00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_regularStyleSpacing();
 
-  /// @brief Method get_regularStyleWeight, addr 0x4924158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_regularStyleWeight, addr 0x4923df0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_regularStyleWeight();
 
-  /// @brief Method get_sourceFontFile, addr 0x4923b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceFontFile, addr 0x49237c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Font> get_sourceFontFile();
 
-  /// @brief Method get_styleNameHashCode, addr 0x4923bb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_styleNameHashCode, addr 0x492384c, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_styleNameHashCode();
 
-  /// @brief Method get_tabMultiple, addr 0x49241a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tabMultiple, addr 0x4923e40, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_tabMultiple();
 
-  /// @brief Method get_usedGlyphRects, addr 0x4924108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usedGlyphRects, addr 0x4923da0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* get_usedGlyphRects();
 
   static inline void setStaticF_k_AddSynthesizedCharactersMarker(::Unity::Profiling::ProfilerMarker value);
@@ -1033,82 +1033,82 @@ public:
 
   static inline void setStaticF_s_DefaultMaterialSuffix(::StringW value);
 
-  /// @brief Method set_atlasHeight, addr 0x49240e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasHeight, addr 0x4923d78, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasHeight(int32_t value);
 
-  /// @brief Method set_atlasPadding, addr 0x49240f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasPadding, addr 0x4923d88, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasPadding(int32_t value);
 
-  /// @brief Method set_atlasPopulationMode, addr 0x4923b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasPopulationMode, addr 0x49237d8, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasPopulationMode(::UnityEngine::TextCore::Text::AtlasPopulationMode value);
 
-  /// @brief Method set_atlasRenderMode, addr 0x4924100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasRenderMode, addr 0x4923d98, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasRenderMode(::UnityEngine::TextCore::LowLevel::GlyphRenderMode value);
 
-  /// @brief Method set_atlasTextures, addr 0x492408c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasTextures, addr 0x4923d24, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasTextures(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> value);
 
-  /// @brief Method set_atlasWidth, addr 0x49240d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlasWidth, addr 0x4923d68, size 0x8, virtual false, abstract: false, final false
   inline void set_atlasWidth(int32_t value);
 
-  /// @brief Method set_boldStyleSpacing, addr 0x4924190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boldStyleSpacing, addr 0x4923e28, size 0x8, virtual false, abstract: false, final false
   inline void set_boldStyleSpacing(float_t value);
 
-  /// @brief Method set_boldStyleWeight, addr 0x4924180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boldStyleWeight, addr 0x4923e18, size 0x8, virtual false, abstract: false, final false
   inline void set_boldStyleWeight(float_t value);
 
-  /// @brief Method set_characterTable, addr 0x4923fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_characterTable, addr 0x4923c60, size 0x8, virtual false, abstract: false, final false
   inline void set_characterTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::Character*>* value);
 
-  /// @brief Method set_clearDynamicDataOnBuild, addr 0x49240bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clearDynamicDataOnBuild, addr 0x4923d54, size 0xc, virtual false, abstract: false, final false
   inline void set_clearDynamicDataOnBuild(bool value);
 
-  /// @brief Method set_faceInfo, addr 0x4923b64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_faceInfo, addr 0x49237fc, size 0x18, virtual false, abstract: false, final false
   inline void set_faceInfo(::UnityEngine::TextCore::FaceInfo value);
 
-  /// @brief Method set_fallbackFontAssetTable, addr 0x4924140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackFontAssetTable, addr 0x4923dd8, size 0x8, virtual false, abstract: false, final false
   inline void set_fallbackFontAssetTable(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  /// @brief Method set_familyNameHashCode, addr 0x4923bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_familyNameHashCode, addr 0x4923844, size 0x8, virtual false, abstract: false, final false
   inline void set_familyNameHashCode(int32_t value);
 
-  /// @brief Method set_fontAssetCreationEditorSettings, addr 0x4923b10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_fontAssetCreationEditorSettings, addr 0x49237a8, size 0x18, virtual false, abstract: false, final false
   inline void set_fontAssetCreationEditorSettings(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings value);
 
-  /// @brief Method set_fontFeatureTable, addr 0x4924130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fontFeatureTable, addr 0x4923dc8, size 0x8, virtual false, abstract: false, final false
   inline void set_fontFeatureTable(::UnityEngine::TextCore::Text::FontFeatureTable* value);
 
-  /// @brief Method set_fontWeightTable, addr 0x4924150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fontWeightTable, addr 0x4923de8, size 0x8, virtual false, abstract: false, final false
   inline void set_fontWeightTable(::ArrayW<::UnityEngine::TextCore::Text::FontWeightPair, ::Array<::UnityEngine::TextCore::Text::FontWeightPair>*> value);
 
-  /// @brief Method set_freeGlyphRects, addr 0x4924120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_freeGlyphRects, addr 0x4923db8, size 0x8, virtual false, abstract: false, final false
   inline void set_freeGlyphRects(::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* value);
 
-  /// @brief Method set_glyphTable, addr 0x4923bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphTable, addr 0x492388c, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphTable(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Glyph*>* value);
 
-  /// @brief Method set_isMultiAtlasTexturesEnabled, addr 0x49240a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isMultiAtlasTexturesEnabled, addr 0x4923d40, size 0xc, virtual false, abstract: false, final false
   inline void set_isMultiAtlasTexturesEnabled(bool value);
 
-  /// @brief Method set_italicStyleSlant, addr 0x49241a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_italicStyleSlant, addr 0x4923e38, size 0x8, virtual false, abstract: false, final false
   inline void set_italicStyleSlant(uint8_t value);
 
-  /// @brief Method set_regularStyleSpacing, addr 0x4924170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_regularStyleSpacing, addr 0x4923e08, size 0x8, virtual false, abstract: false, final false
   inline void set_regularStyleSpacing(float_t value);
 
-  /// @brief Method set_regularStyleWeight, addr 0x4924160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_regularStyleWeight, addr 0x4923df8, size 0x8, virtual false, abstract: false, final false
   inline void set_regularStyleWeight(float_t value);
 
-  /// @brief Method set_sourceFontFile, addr 0x4923b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceFontFile, addr 0x49237c8, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceFontFile(::UnityEngine::Font* value);
 
-  /// @brief Method set_styleNameHashCode, addr 0x4923be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_styleNameHashCode, addr 0x492387c, size 0x8, virtual false, abstract: false, final false
   inline void set_styleNameHashCode(int32_t value);
 
-  /// @brief Method set_tabMultiple, addr 0x49241b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tabMultiple, addr 0x4923e48, size 0x8, virtual false, abstract: false, final false
   inline void set_tabMultiple(uint8_t value);
 
-  /// @brief Method set_usedGlyphRects, addr 0x4924110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usedGlyphRects, addr 0x4923da8, size 0x8, virtual false, abstract: false, final false
   inline void set_usedGlyphRects(::System::Collections::Generic::List_1<::UnityEngine::TextCore::GlyphRect>* value);
 
 protected:

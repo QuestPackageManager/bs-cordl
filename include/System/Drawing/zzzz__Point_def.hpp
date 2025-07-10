@@ -31,28 +31,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::Point>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::Point>*();
 
-  /// @brief Method Equals, addr 0x4211adc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4211774, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4211b60, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x42117f8, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::Point other);
 
-  /// @brief Method GetHashCode, addr 0x4211b80, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4211818, size 0x60, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4211be0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4211878, size 0x124, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_X, addr 0x4211aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x4211744, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_X();
 
-  /// @brief Method get_Y, addr 0x4211ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x421174c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Y();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::Point>"
   constexpr ::System::IEquatable_1<::System::Drawing::Point>* i___System__IEquatable_1___System__Drawing__Point_();
 
-  /// @brief Method op_Equality, addr 0x4211abc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4211754, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::Point left, ::System::Drawing::Point right);
 
   // Ctor Parameters []

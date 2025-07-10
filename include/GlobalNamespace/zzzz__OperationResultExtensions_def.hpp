@@ -21,13 +21,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsError, addr 0x401abac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x401a844, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsSuccess, addr 0x401aba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x401a838, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
-  /// @brief Method IsWarning, addr 0x401abb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWarning, addr 0x401a84c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
 protected:

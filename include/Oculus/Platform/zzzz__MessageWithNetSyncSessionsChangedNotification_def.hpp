@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncSessionsChangedNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7fd88, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7fa20, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x3f7fd4c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x3f7f9e4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
 
   static inline ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c77c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7c414, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

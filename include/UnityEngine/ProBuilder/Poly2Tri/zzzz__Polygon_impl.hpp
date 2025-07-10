@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x46f6ff4;
+  constexpr static std::size_t addrs = 0x46f6c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x46f73a4;
+  constexpr static std::size_t addrs = 0x46f703c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::ArrayW<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*, ::Array<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*>)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46f742c;
+  constexpr static std::size_t addrs = 0x46f70c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::get_TriangulationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f7430;
+  constexpr static std::size_t addrs = 0x46f70c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddSteinerPoint)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x46f7438;
+  constexpr static std::size_t addrs = 0x46f70d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddSteinerPoints)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x46f7524;
+  constexpr static std::size_t addrs = 0x46f71bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::ClearSteinerPoints)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x46f75c4;
+  constexpr static std::size_t addrs = 0x46f725c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(::UnityEngine::ProBuilder::Poly2Tri::Polygon*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddHole)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x46f7630;
+  constexpr static std::size_t addrs = 0x46f72c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::InsertPointAfter)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x46f771c;
+  constexpr static std::size_t addrs = 0x46f73b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddPoints)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x46f7834;
+  constexpr static std::size_t addrs = 0x46f74cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddPoint)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x46f7c48;
+  constexpr static std::size_t addrs = 0x46f78e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::RemovePoint)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x46f7d08;
+  constexpr static std::size_t addrs = 0x46f79a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* (
     ::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::get_Points)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f7d7c;
+  constexpr static std::size_t addrs = 0x46f7a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>::get(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* (
     ::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::get_Triangles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f7d84;
+  constexpr static std::size_t addrs = 0x46f7a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>::get(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* (
     ::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::get_Holes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46f7d8c;
+  constexpr static std::size_t addrs = 0x46f7a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddTriangle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x46f7d94;
+  constexpr static std::size_t addrs = 0x46f7a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::Polygon::AddTriangles)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x46f7e38;
+  constexpr static std::size_t addrs = 0x46f7ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::ClearTriangles)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x46f7e90;
+  constexpr static std::size_t addrs = 0x46f7b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>::get(),
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::Polygon::*)(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(
     &::UnityEngine::ProBuilder::Poly2Tri::Polygon::Prepare)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x46f7efc;
+  constexpr static std::size_t addrs = 0x46f7b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

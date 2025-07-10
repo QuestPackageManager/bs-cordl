@@ -21,10 +21,10 @@ namespace BeatSaber::Init {
 class CORDL_TYPE BSRuntimePlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformType, addr 0x2271ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformType, addr 0x2271f80, size 0x8, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::RuntimePlatformType GetPlatformType();
 
-  /// @brief Method get_IsSteam, addr 0x2271ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSteam, addr 0x2271f88, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSteam();
 
 protected:

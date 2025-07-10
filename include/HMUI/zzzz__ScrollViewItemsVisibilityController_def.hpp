@@ -56,13 +56,13 @@ public:
 
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* New_ctor();
 
-  /// @brief Method <Start>b__11_0, addr 0x39fc718, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__11_0, addr 0x39fc3a4, size 0x44, virtual false, abstract: false, final false
   inline float_t _Start_b__11_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
-  /// @brief Method <Start>b__11_1, addr 0x39fc75c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__11_1, addr 0x39fc3e8, size 0x44, virtual false, abstract: false, final false
   inline float_t _Start_b__11_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
-  /// @brief Method .ctor, addr 0x39fc710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fc39c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* getStaticF___9();
@@ -153,16 +153,16 @@ public:
 
   static inline ::HMUI::ScrollViewItemsVisibilityController* New_ctor();
 
-  /// @brief Method Start, addr 0x39fbdcc, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39fba58, size 0x4a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x39fc414, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39fc0a0, size 0x9c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateVisibilityDownDirection, addr 0x39fc4b0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityDownDirection, addr 0x39fc13c, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateVisibilityDownDirection(float_t newContentAnchoredPositionY);
 
-  /// @brief Method UpdateVisibilityUpDirection, addr 0x39fc26c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityUpDirection, addr 0x39fbef8, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateVisibilityUpDirection(float_t newContentAnchoredPositionY);
 
   constexpr float_t const& __cordl_internal_get__contentMaxY() const;
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set__viewportWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x39fc65c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fc2e8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

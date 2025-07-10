@@ -56,27 +56,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x2396bfc, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x2396c8c, size 0x13c, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x2396dc8, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x2396e58, size 0x12c, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x2396b2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x2396bbc, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x23969c4, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2396a54, size 0x128, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Dstu7624Mac* New_ctor(int32_t blockSizeBits, int32_t q);
 
-  /// @brief Method Reset, addr 0x2396ef4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2396f84, size 0xd8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x2396b34, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2396bc4, size 0x80, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
-  /// @brief Method Xor, addr 0x2396d38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x2396dc8, size 0x90, virtual false, abstract: false, final false
   inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> c, int32_t cOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> xorResult);
 
   constexpr int32_t const& __cordl_internal_get_blockSize() const;
@@ -127,16 +127,16 @@ public:
 
   constexpr void __cordl_internal_set_macSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23968cc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239695c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits, int32_t q);
 
-  /// @brief Method get_AlgorithmName, addr 0x2396aec, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x2396b7c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  /// @brief Method processBlock, addr 0x2396bb4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method processBlock, addr 0x2396c44, size 0x48, virtual false, abstract: false, final false
   inline void processBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
 protected:

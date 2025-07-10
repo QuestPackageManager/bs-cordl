@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlAttributeEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Serialization::XmlAttributeEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4367948;
+  constexpr static std::size_t addrs = 0x43675e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlAttributeEventHandler*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlAttributeEventHandler::*)(
     ::System::Object*, ::System::Xml::Serialization::XmlAttributeEventArgs*)>(&::System::Xml::Serialization::XmlAttributeEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4367a4c;
+  constexpr static std::size_t addrs = 0x43676e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

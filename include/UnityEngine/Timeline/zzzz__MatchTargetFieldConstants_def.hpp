@@ -34,10 +34,10 @@ public:
   /// @brief Field Rotation, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation)) ::UnityEngine::Timeline::MatchTargetFields Rotation;
 
-  /// @brief Method HasAny, addr 0x480e588, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x480e220, size 0x74, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
-  /// @brief Method Toggle, addr 0x480e5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x480e294, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
   static inline ::UnityEngine::Timeline::MatchTargetFields getStaticF_All();

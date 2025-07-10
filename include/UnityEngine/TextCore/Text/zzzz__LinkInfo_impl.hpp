@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::LinkInfo::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::UnityEngine::TextCore::Text::LinkInfo::SetLinkId)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x492ddf0;
+  constexpr static std::size_t addrs = 0x492da88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::LinkInfo::*)(::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::LinkInfo::GetLinkText)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x492decc;
+  constexpr static std::size_t addrs = 0x492db64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::LinkInfo::*)()>(&::UnityEngine::TextCore::Text::LinkInfo::GetLinkId)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x492dfc4;
+  constexpr static std::size_t addrs = 0x492dc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::LinkInfo>::get(), "GetLinkId",

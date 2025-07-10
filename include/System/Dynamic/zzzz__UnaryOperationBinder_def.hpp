@@ -21,11 +21,11 @@ namespace System::Dynamic {
 class CORDL_TYPE UnaryOperationBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x4102aa0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x4102738, size 0xac, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackUnaryOperation, addr 0x4102a90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackUnaryOperation, addr 0x4102728, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackUnaryOperation(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackUnaryOperation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

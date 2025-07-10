@@ -26,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::Signal* New_ctor();
 
-  /// @brief Method Raise, addr 0x39c4a04, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Raise, addr 0x39c4690, size 0x1c, virtual true, abstract: false, final false
   inline void Raise();
 
-  /// @brief Method Subscribe, addr 0x39c4a20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Subscribe, addr 0x39c46ac, size 0x28, virtual false, abstract: false, final false
   inline void Subscribe(::System::Action* foo);
 
-  /// @brief Method Unsubscribe, addr 0x39c4a48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unsubscribe, addr 0x39c46d4, size 0x4, virtual false, abstract: false, final false
   inline void Unsubscribe(::System::Action* foo);
 
   constexpr ::System::Action* const& __cordl_internal_get__event() const;
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__event(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39c4a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c46d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__event, addr 0x39c48cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add__event, addr 0x39c4558, size 0x9c, virtual false, abstract: false, final false
   inline void add__event(::System::Action* value);
 
-  /// @brief Method remove__event, addr 0x39c4968, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove__event, addr 0x39c45f4, size 0x9c, virtual false, abstract: false, final false
   inline void remove__event(::System::Action* value);
 
 protected:

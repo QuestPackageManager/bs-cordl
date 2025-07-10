@@ -26,10 +26,10 @@ public:
 
   __declspec(property(get = get_instanceID)) int32_t instanceID;
 
-  /// @brief Method get_collider, addr 0x4911034, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x4910ccc, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_collider();
 
-  /// @brief Method get_instanceID, addr 0x491102c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x4910cc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
   // Ctor Parameters []

@@ -34,13 +34,13 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE MeasureFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x496c358, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x496bff0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaSize Invoke(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,
                                               ::UnityEngine::Yoga::YogaMeasureMode heightMode);
 
   static inline ::UnityEngine::Yoga::MeasureFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x496c254, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x496beec, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

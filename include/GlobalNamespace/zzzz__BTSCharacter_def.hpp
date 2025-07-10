@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x2261bb0, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x2261c40, size 0x1f0, virtual false, abstract: false, final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -95,19 +95,19 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x2261ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2262084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animator, addr 0x2261ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animator, addr 0x2261c30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> get_animator();
 
-  /// @brief Method get_characterName, addr 0x2261b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterName, addr 0x2261c20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_headTransform, addr 0x2261ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTransform, addr 0x2261c38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_headTransform();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x2261b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x2261c28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
 protected:

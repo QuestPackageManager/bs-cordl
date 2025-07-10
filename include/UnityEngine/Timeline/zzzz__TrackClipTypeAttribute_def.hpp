@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_inspectedType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x482abac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482a844, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass);
 
-  /// @brief Method .ctor, addr 0x482abdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482a874, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* clipClass, bool allowAutoCreate);
 
 protected:

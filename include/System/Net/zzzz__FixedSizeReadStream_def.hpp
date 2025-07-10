@@ -50,10 +50,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x44c4acc, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x44c4764, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x44c4de4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x44c4a7c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -144,7 +144,7 @@ public:
 
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method ProcessReadAsync, addr 0x44c49ac, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x44c4644, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
@@ -160,10 +160,10 @@ public:
 
   constexpr void __cordl_internal_set_position(int64_t value);
 
-  /// @brief Method .ctor, addr 0x44c4984, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c461c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method get_ContentLength, addr 0x44c497c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x44c4614, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
 protected:

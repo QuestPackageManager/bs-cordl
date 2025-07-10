@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3baa1c8, size 0x2d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ba9e60, size 0x2d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3baa49c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3baa134, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -136,10 +136,10 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method SetText, addr 0x3ba9e84, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3ba9b1c, size 0x324, virtual false, abstract: false, final false
   inline void SetText(::BeatSaber::Init::GameVersion* gameVersion);
 
-  /// @brief Method Start, addr 0x3ba9df4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba9a8c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__buildIdText() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3baa1a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba9e40, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

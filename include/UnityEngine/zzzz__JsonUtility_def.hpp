@@ -25,25 +25,25 @@ namespace UnityEngine {
 class CORDL_TYPE JsonUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x48ed4e0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x48ed178, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Object* FromJson(::StringW json, ::System::Type* type);
 
   /// @brief Method FromJson, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T FromJson(::StringW json);
 
-  /// @brief Method FromJsonInternal, addr 0x48ed314, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromJsonInternal, addr 0x48ecfac, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* FromJsonInternal(::StringW json, ::System::Object* objectToOverwrite, ::System::Type* type);
 
-  /// @brief Method FromJsonOverwrite, addr 0x48ed6cc, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method FromJsonOverwrite, addr 0x48ed364, size 0x1bc, virtual false, abstract: false, final false
   static inline void FromJsonOverwrite(::StringW json, ::System::Object* objectToOverwrite);
 
-  /// @brief Method ToJson, addr 0x48ed368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x48ed000, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj);
 
-  /// @brief Method ToJson, addr 0x48ed370, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x48ed008, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW ToJson(::System::Object* obj, bool prettyPrint);
 
-  /// @brief Method ToJsonInternal, addr 0x48ed2d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ToJsonInternal, addr 0x48ecf68, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW ToJsonInternal(::System::Object* obj, bool prettyPrint);
 
 protected:
@@ -61,7 +61,7 @@ public:
   JsonUtility(JsonUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

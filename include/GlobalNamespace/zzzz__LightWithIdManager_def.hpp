@@ -54,21 +54,21 @@ public:
   /// @brief Field didChangeSomeColorsThisFrameEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeSomeColorsThisFrameEvent, put = __cordl_internal_set_didChangeSomeColorsThisFrameEvent)) ::System::Action* didChangeSomeColorsThisFrameEvent;
 
-  /// @brief Method GetColorForId, addr 0x39e3164, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetColorForId, addr 0x39e2df0, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull);
 
-  /// @brief Method LateUpdate, addr 0x39e28bc, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39e2548, size 0x27c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::LightWithIdManager* New_ctor();
 
-  /// @brief Method RegisterLight, addr 0x39e2b38, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x39e27c4, size 0x42c, virtual false, abstract: false, final false
   inline void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
-  /// @brief Method SetColorForId, addr 0x39e0550, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SetColorForId, addr 0x39e01dc, size 0x23c, virtual false, abstract: false, final false
   inline void SetColorForId(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method UnregisterLight, addr 0x39e2f64, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x39e2bf0, size 0x200, virtual false, abstract: false, final false
   inline void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
   constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> const& __cordl_internal_get__colors() const;
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39e3230, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e2ebc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x39e2784, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x39e2410, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x39e2820, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x39e24ac, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
 protected:

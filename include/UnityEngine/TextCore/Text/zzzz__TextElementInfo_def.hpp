@@ -43,7 +43,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x4931990, size 0x16f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4931628, size 0x16f8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

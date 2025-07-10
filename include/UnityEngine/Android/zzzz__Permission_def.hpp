@@ -29,16 +29,16 @@ public:
   /// @brief Field m_UnityPermissions, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_UnityPermissions, put = setStaticF_m_UnityPermissions)) ::UnityEngine::AndroidJavaObject* m_UnityPermissions;
 
-  /// @brief Method GetUnityPermissions, addr 0x484c1b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetUnityPermissions, addr 0x484be4c, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetUnityPermissions();
 
-  /// @brief Method HasUserAuthorizedPermission, addr 0x484c264, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HasUserAuthorizedPermission, addr 0x484befc, size 0x120, virtual false, abstract: false, final false
   static inline bool HasUserAuthorizedPermission(::StringW permission);
 
-  /// @brief Method RequestUserPermission, addr 0x484c384, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RequestUserPermission, addr 0x484c01c, size 0x7c, virtual false, abstract: false, final false
   static inline void RequestUserPermission(::StringW permission, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
-  /// @brief Method RequestUserPermissions, addr 0x484c400, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RequestUserPermissions, addr 0x484c098, size 0x138, virtual false, abstract: false, final false
   static inline void RequestUserPermissions(::ArrayW<::StringW, ::Array<::StringW>*> permissions, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_UnityPermissions();

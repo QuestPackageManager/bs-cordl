@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataZenModeTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x26ae654, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x26ae2a0, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x26ae9fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x26ae648, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
 protected:

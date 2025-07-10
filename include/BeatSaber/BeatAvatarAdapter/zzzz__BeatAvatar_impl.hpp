@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::BeatAvatarAdapter::BeatAvatar::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatar::get_bodyCenterWorldPosition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2254678;
+  constexpr static std::size_t addrs = 0x2254708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatar::*)(::UnityEngine::Color)>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatar::SetLightColor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2254694;
+  constexpr static std::size_t addrs = 0x2254724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatar::*)(::BeatSaber::AvatarCore::AvatarPoseData)>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatar::UpdateAvatarFromPose)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x22546b0;
+  constexpr static std::size_t addrs = 0x2254740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatar::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatar::UpdateAvatarFromVisualData)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2254728;
+  constexpr static std::size_t addrs = 0x22547b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatar::*)(::BeatSaber::AvatarCore::OptionalAvatarData, float_t)>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatar::UpdateAvatarFromOptionalData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22548d4;
+  constexpr static std::size_t addrs = 0x2254964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatar::*)()>(&::BeatSaber::BeatAvatarAdapter::BeatAvatar::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22548d8;
+  constexpr static std::size_t addrs = 0x2254968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::BeatAvatar*>::get(), ".ctor",

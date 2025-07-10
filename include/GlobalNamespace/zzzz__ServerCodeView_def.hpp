@@ -43,21 +43,21 @@ public:
   /// @brief Field _serverCodeText, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText)) ::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
-  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x3b0759c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x3b07228, size 0x10, virtual false, abstract: false, final false
   inline void HandleShowServerCodeButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b07580, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b0720c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b074ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b07178, size 0x94, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshText, addr 0x3b07450, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x3b070dc, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshText(bool showCode);
 
-  /// @brief Method SetCode, addr 0x3b07444, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCode, addr 0x3b070d0, size 0xc, virtual false, abstract: false, final false
   inline void SetCode(::StringW serverCode);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b075ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b07238, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -51,17 +51,17 @@ public:
   /// @brief Field _publicKeyMAC, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__publicKeyMAC, put = __cordl_internal_set__publicKeyMAC)) ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* _publicKeyMAC;
 
-  /// @brief Method Build, addr 0x26844fc, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x268458c, size 0x5e8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signer);
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetPublicKeyMac, addr 0x2684058, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKeyMac, addr 0x26840e8, size 0x4a4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetPublicKeyMac(::Org::BouncyCastle::Crmf::PKMacBuilder* generator, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method SetSender, addr 0x2684050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSender, addr 0x26840e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetSender(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest* const& __cordl_internal_get__certRequest() const;
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set__publicKeyMAC(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
 
-  /// @brief Method .ctor, addr 0x2684ae4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2684b74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
-  /// @brief Method .ctor, addr 0x2684028, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26840b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
 protected:

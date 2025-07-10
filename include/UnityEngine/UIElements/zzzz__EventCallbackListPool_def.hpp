@@ -27,12 +27,12 @@ public:
   /// @brief Field m_Stack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack)) ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* m_Stack;
 
-  /// @brief Method Get, addr 0x4a27d80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4a27a18, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
 
-  /// @brief Method Release, addr 0x4a280dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x4a27d74, size 0x64, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* const& __cordl_internal_get_m_Stack() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value);
 
-  /// @brief Method .ctor, addr 0x4a281ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a27e44, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

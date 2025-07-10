@@ -61,25 +61,25 @@ public:
 
   constexpr void __cordl_internal_set__packID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22dd078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levels, addr 0x22dd058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levels, addr 0x22dd0e8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> get_levels();
 
-  /// @brief Method get_minimumProtocolVersion, addr 0x22dd068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumProtocolVersion, addr 0x22dd0f8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minimumProtocolVersion();
 
-  /// @brief Method get_packID, addr 0x22dd048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packID, addr 0x22dd0d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method set_levels, addr 0x22dd060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levels, addr 0x22dd0f0, size 0x8, virtual false, abstract: false, final false
   inline void set_levels(::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> value);
 
-  /// @brief Method set_minimumProtocolVersion, addr 0x22dd070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumProtocolVersion, addr 0x22dd100, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumProtocolVersion(uint32_t value);
 
-  /// @brief Method set_packID, addr 0x22dd050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packID, addr 0x22dd0e0, size 0x8, virtual false, abstract: false, final false
   inline void set_packID(::StringW value);
 
 protected:

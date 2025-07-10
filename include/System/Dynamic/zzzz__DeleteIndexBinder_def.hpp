@@ -21,11 +21,11 @@ namespace System::Dynamic {
 class CORDL_TYPE DeleteIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x40fc8bc, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x40fc554, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackDeleteIndex, addr 0x40fc978, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackDeleteIndex, addr 0x40fc610, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackDeleteIndex(::System::Dynamic::DynamicMetaObject* target,
                                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes);
 

@@ -36,13 +36,13 @@ public:
   /// @brief Field notifyParent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_notifyParent, put = __cordl_internal_set_notifyParent)) bool notifyParent;
 
-  /// @brief Method Equals, addr 0x447e030, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x447dcc8, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x447e0b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x447dd48, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x447e0b8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x447dd50, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* New_ctor(bool notifyParent);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_notifyParent(bool value);
 
-  /// @brief Method .ctor, addr 0x447e000, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447dc98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool notifyParent);
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* getStaticF_Default();
@@ -62,7 +62,7 @@ public:
 
   static inline ::System::ComponentModel::NotifyParentPropertyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_NotifyParent, addr 0x447e028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotifyParent, addr 0x447dcc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_NotifyParent();
 
   static inline void setStaticF_Default(::System::ComponentModel::NotifyParentPropertyAttribute* value);

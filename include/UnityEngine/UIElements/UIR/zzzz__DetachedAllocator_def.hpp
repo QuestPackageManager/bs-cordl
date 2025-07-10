@@ -47,10 +47,10 @@ public:
   /// @brief Field m_VertsPool, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VertsPool, put = __cordl_internal_set_m_VertsPool)) ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* m_VertsPool;
 
-  /// @brief Method Dispose, addr 0x49a85e8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49a8280, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a864c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x49a82e4, size 0x90, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   constexpr bool const& __cordl_internal_get_m_Disposed() const;

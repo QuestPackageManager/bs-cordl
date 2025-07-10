@@ -130,7 +130,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x39e4db8, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e4a44, size 0x198, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpriteArrayLightWithId* New_ctor();
@@ -195,10 +195,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderers(::ArrayW<::UnityW<::UnityEngine::SpriteRenderer>, ::Array<::UnityW<::UnityEngine::SpriteRenderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x39e4f50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4bdc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e4d88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e4a14, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

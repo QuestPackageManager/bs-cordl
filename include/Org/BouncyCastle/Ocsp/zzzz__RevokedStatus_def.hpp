@@ -44,19 +44,19 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* value);
 
-  /// @brief Method .ctor, addr 0x2524c74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524d04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method .ctor, addr 0x2524ce0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524d70, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime revocationDate, int32_t reason);
 
-  /// @brief Method get_HasRevocationReason, addr 0x251ec0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasRevocationReason, addr 0x251ec9c, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasRevocationReason();
 
-  /// @brief Method get_RevocationReason, addr 0x251ec30, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationReason, addr 0x251ecc0, size 0x6c, virtual false, abstract: false, final false
   inline int32_t get_RevocationReason();
 
-  /// @brief Method get_RevocationTime, addr 0x251ec9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationTime, addr 0x251ed2c, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationTime();
 
 protected:

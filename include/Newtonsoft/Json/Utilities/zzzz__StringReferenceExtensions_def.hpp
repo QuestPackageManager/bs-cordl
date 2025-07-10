@@ -23,13 +23,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndsWith, addr 0x3ed77d4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x3ed746c, size 0xc4, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method IndexOf, addr 0x3ed7690, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x3ed7328, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith, addr 0x3ed7714, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x3ed73ac, size 0xc0, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
 protected:

@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(float_t value);
 
-  /// @brief Method .ctor, addr 0x484d92c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484d5c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

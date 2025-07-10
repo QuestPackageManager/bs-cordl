@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::ProfilerCategory::*)(uint16_t)>(&::Unity::Profiling::ProfilerCategory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860690;
+  constexpr static std::size_t addrs = 0x4860328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::get_Name)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4860698;
+  constexpr static std::size_t addrs = 0x4860330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Name",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4860894;
+  constexpr static std::size_t addrs = 0x486052c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Render)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860898;
+  constexpr static std::size_t addrs = 0x4860530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Render",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Scripts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48608a0;
+  constexpr static std::size_t addrs = 0x4860538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Scripts",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Memory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48608a8;
+  constexpr static std::size_t addrs = 0x4860540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Memory",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48608b0;
+  constexpr static std::size_t addrs = 0x4860548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Internal",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Unity::Profiling::ProfilerCategory)>(&::Unity::Profiling::ProfilerCategory::op_Implicit_uint16_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48608b8;
+  constexpr static std::size_t addrs = 0x4860550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

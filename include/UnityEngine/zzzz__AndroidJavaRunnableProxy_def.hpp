@@ -28,7 +28,7 @@ public:
   /// @brief Field mRunnable, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_mRunnable, put = __cordl_internal_set_mRunnable)) ::UnityEngine::AndroidJavaRunnable* mRunnable;
 
-  /// @brief Method Invoke, addr 0x4845ab8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4845750, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::StringW methodName, ::System::IntPtr javaArgs);
 
   static inline ::UnityEngine::AndroidJavaRunnableProxy* New_ctor(::UnityEngine::AndroidJavaRunnable* runnable);
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_mRunnable(::UnityEngine::AndroidJavaRunnable* value);
 
-  /// @brief Method .ctor, addr 0x4845994, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484562c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaRunnable* runnable);
 
-  /// @brief Method run, addr 0x4845a94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method run, addr 0x484572c, size 0x24, virtual false, abstract: false, final false
   inline void run();
 
 protected:

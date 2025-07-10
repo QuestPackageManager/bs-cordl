@@ -46,50 +46,50 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x60
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRTrackedCamera FnTable;
 
-  /// @brief Method AcquireVideoStreamingService, addr 0x4072c50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AcquireVideoStreamingService, addr 0x40728e8, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError AcquireVideoStreamingService(uint32_t nDeviceIndex, ::ByRef<uint64_t> pHandle);
 
-  /// @brief Method GetCameraErrorNameFromEnum, addr 0x4072b2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetCameraErrorNameFromEnum, addr 0x40727c4, size 0x84, virtual false, abstract: false, final false
   inline ::StringW GetCameraErrorNameFromEnum(::OVR::OpenVR::EVRTrackedCameraError eCameraError);
 
-  /// @brief Method GetCameraFrameSize, addr 0x4072bd8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCameraFrameSize, addr 0x4072870, size 0x30, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetCameraFrameSize(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight,
                                                                  ::ByRef<uint32_t> pnFrameBufferSize);
 
-  /// @brief Method GetCameraIntrinsics, addr 0x4072c08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCameraIntrinsics, addr 0x40728a0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetCameraIntrinsics(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<::OVR::OpenVR::HmdVector2_t> pFocalLength,
                                                                   ::ByRef<::OVR::OpenVR::HmdVector2_t> pCenter);
 
-  /// @brief Method GetCameraProjection, addr 0x4072c2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCameraProjection, addr 0x40728c4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetCameraProjection(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, float_t flZNear, float_t flZFar,
                                                                   ::ByRef<::OVR::OpenVR::HmdMatrix44_t> pProjection);
 
-  /// @brief Method GetVideoStreamFrameBuffer, addr 0x4072c9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetVideoStreamFrameBuffer, addr 0x4072934, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetVideoStreamFrameBuffer(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pFrameBuffer,
                                                                         uint32_t nFrameBufferSize, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize);
 
-  /// @brief Method GetVideoStreamTextureD3D11, addr 0x4072cec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetVideoStreamTextureD3D11, addr 0x4072984, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetVideoStreamTextureD3D11(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::System::IntPtr pD3D11DeviceOrResource,
                                                                          ::ByRef<::System::IntPtr> ppD3D11ShaderResourceView, ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader,
                                                                          uint32_t nFrameHeaderSize);
 
-  /// @brief Method GetVideoStreamTextureGL, addr 0x4072d10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetVideoStreamTextureGL, addr 0x40729a8, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetVideoStreamTextureGL(uint64_t hTrackedCamera, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, ::ByRef<uint32_t> pglTextureId,
                                                                       ::ByRef<::OVR::OpenVR::CameraVideoStreamFrameHeader_t> pFrameHeader, uint32_t nFrameHeaderSize);
 
-  /// @brief Method GetVideoStreamTextureSize, addr 0x4072cc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetVideoStreamTextureSize, addr 0x4072958, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError GetVideoStreamTextureSize(uint32_t nDeviceIndex, ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType,
                                                                         ::ByRef<::OVR::OpenVR::VRTextureBounds_t> pTextureBounds, ::ByRef<uint32_t> pnWidth, ::ByRef<uint32_t> pnHeight);
 
-  /// @brief Method HasCamera, addr 0x4072bb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasCamera, addr 0x4072848, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError HasCamera(uint32_t nDeviceIndex, ::ByRef<bool> pHasCamera);
 
   static inline ::OVR::OpenVR::CVRTrackedCamera* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method ReleaseVideoStreamTextureGL, addr 0x4072d38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReleaseVideoStreamTextureGL, addr 0x40729d0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError ReleaseVideoStreamTextureGL(uint64_t hTrackedCamera, uint32_t glTextureId);
 
-  /// @brief Method ReleaseVideoStreamingService, addr 0x4072c78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReleaseVideoStreamingService, addr 0x4072910, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRTrackedCameraError ReleaseVideoStreamingService(uint64_t hTrackedCamera);
 
   constexpr ::OVR::OpenVR::IVRTrackedCamera const& __cordl_internal_get_FnTable() const;
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRTrackedCamera value);
 
-  /// @brief Method .ctor, addr 0x4072a18, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40726b0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:

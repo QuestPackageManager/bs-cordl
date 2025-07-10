@@ -52,16 +52,16 @@ public:
 
   static inline ::BeatSaber::BeatAvatarAdapter::BeatAvatar* New_ctor();
 
-  /// @brief Method SetLightColor, addr 0x2254694, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x2254724, size 0x1c, virtual true, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color lightColor);
 
-  /// @brief Method UpdateAvatarFromOptionalData, addr 0x22548d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromOptionalData, addr 0x2254964, size 0x4, virtual true, abstract: false, final false
   inline void UpdateAvatarFromOptionalData(::BeatSaber::AvatarCore::OptionalAvatarData data, float_t playbackDelaySeconds);
 
-  /// @brief Method UpdateAvatarFromPose, addr 0x22546b0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromPose, addr 0x2254740, size 0x78, virtual true, abstract: false, final false
   inline void UpdateAvatarFromPose(::BeatSaber::AvatarCore::AvatarPoseData currentPose);
 
-  /// @brief Method UpdateAvatarFromVisualData, addr 0x2254728, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method UpdateAvatarFromVisualData, addr 0x22547b8, size 0x1ac, virtual true, abstract: false, final false
   inline void UpdateAvatarFromVisualData(::GlobalNamespace::MultiplayerAvatarsData visualData);
 
   constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set__avatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
 
-  /// @brief Method .ctor, addr 0x22548d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2254968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyCenterWorldPosition, addr 0x2254678, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_bodyCenterWorldPosition, addr 0x2254708, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition();
 
 protected:

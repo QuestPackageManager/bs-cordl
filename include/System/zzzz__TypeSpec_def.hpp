@@ -144,41 +144,41 @@ public:
   /// @brief Field nested, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_nested, put = __cordl_internal_set_nested)) ::System::Collections::Generic::List_1<::System::TypeIdentifier*>* nested;
 
-  /// @brief Method AddModifier, addr 0x3e44ffc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddModifier, addr 0x3e44c94, size 0xec, virtual false, abstract: false, final false
   inline void AddModifier(::System::ModifierSpec* md);
 
-  /// @brief Method AddName, addr 0x3e44ed0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x3e44b68, size 0x124, virtual false, abstract: false, final false
   inline void AddName(::StringW type_name);
 
-  /// @brief Method BoundCheck, addr 0x3e45198, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method BoundCheck, addr 0x3e44e30, size 0x84, virtual false, abstract: false, final false
   static inline void BoundCheck(int32_t idx, ::StringW s);
 
-  /// @brief Method GetDisplayFullName, addr 0x3e43210, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayFullName, addr 0x3e42ea8, size 0x46c, virtual false, abstract: false, final false
   inline ::StringW GetDisplayFullName(::System::TypeSpec_DisplayNameFormat flags);
 
-  /// @brief Method GetModifierString, addr 0x3e436a4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetModifierString, addr 0x3e4333c, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* GetModifierString(::System::Text::StringBuilder* sb);
 
   static inline ::System::TypeSpec* New_ctor();
 
-  /// @brief Method Parse, addr 0x3e43968, size 0xba0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e43600, size 0xba0, virtual false, abstract: false, final false
   static inline ::System::TypeSpec* Parse(::StringW name, ::ByRef<int32_t> p, bool is_recurse, bool allow_aqn);
 
-  /// @brief Method Parse, addr 0x3e43898, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e43530, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::TypeSpec* Parse(::StringW typeName);
 
-  /// @brief Method ParsedTypeIdentifier, addr 0x3e44ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ParsedTypeIdentifier, addr 0x3e44c8c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* ParsedTypeIdentifier(::StringW displayName);
 
-  /// @brief Method Resolve, addr 0x3e445fc, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x3e44294, size 0x8d4, virtual false, abstract: false, final false
   inline ::System::Type* Resolve(::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                  ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
                                  ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method SkipSpace, addr 0x3e450e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SkipSpace, addr 0x3e44d80, size 0xb0, virtual false, abstract: false, final false
   static inline void SkipSpace(::StringW name, ::ByRef<int32_t> pos);
 
-  /// @brief Method UnescapeInternalName, addr 0x3e44508, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UnescapeInternalName, addr 0x3e441a0, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW UnescapeInternalName(::StringW displayName);
 
   constexpr ::StringW const& __cordl_internal_get_assembly_name() const;
@@ -223,13 +223,13 @@ public:
 
   constexpr void __cordl_internal_set_nested(::System::Collections::Generic::List_1<::System::TypeIdentifier*>* value);
 
-  /// @brief Method .ctor, addr 0x3e4521c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e44eb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DisplayFullName, addr 0x3e4367c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_DisplayFullName, addr 0x3e43314, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_DisplayFullName();
 
-  /// @brief Method get_HasModifiers, addr 0x3e43200, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasModifiers, addr 0x3e42e98, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasModifiers();
 
 protected:

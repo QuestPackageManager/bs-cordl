@@ -137,10 +137,10 @@ public:
 
   static inline ::UnityEngine::UI::GraphicRaycaster___c* New_ctor();
 
-  /// @brief Method <Raycast>b__27_0, addr 0x4966cb4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__27_0, addr 0x496694c, size 0x48, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__27_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
 
-  /// @brief Method .ctor, addr 0x4966cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4966944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::GraphicRaycaster___c* getStaticF___9();
@@ -220,12 +220,12 @@ public:
 
   static inline ::UnityEngine::UI::GraphicRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x4966594, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x496622c, size 0x568, virtual false, abstract: false, final false
   static inline void Raycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition,
                              ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* foundGraphics,
                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* results);
 
-  /// @brief Method Raycast, addr 0x49658c0, size 0xc18, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x4965558, size 0xc18, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_BlockingMask() const;
@@ -258,41 +258,41 @@ public:
 
   constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
 
-  /// @brief Method .ctor, addr 0x496582c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49654c4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_blockingMask, addr 0x496581c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingMask, addr 0x49654b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
 
-  /// @brief Method get_blockingObjects, addr 0x496580c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingObjects, addr 0x49654a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::GraphicRaycaster_BlockingObjects get_blockingObjects();
 
-  /// @brief Method get_canvas, addr 0x4965710, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x49653a8, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_eventCamera, addr 0x4966afc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x4966794, size 0xc8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_ignoreReversedGraphics, addr 0x49657f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreReversedGraphics, addr 0x4965490, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreReversedGraphics();
 
-  /// @brief Method get_renderOrderPriority, addr 0x49657a4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x496543c, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_sortOrderPriority, addr 0x49656c8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x4965360, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
 
-  /// @brief Method set_blockingMask, addr 0x4965824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingMask, addr 0x49654bc, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_blockingObjects, addr 0x4965814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingObjects, addr 0x49654ac, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingObjects(::UnityEngine::UI::GraphicRaycaster_BlockingObjects value);
 
-  /// @brief Method set_ignoreReversedGraphics, addr 0x4965800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreReversedGraphics, addr 0x4965498, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreReversedGraphics(bool value);
 
 protected:

@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set__titleLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d8e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d8a84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x26dab0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x26da758, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitleLocalizationKey, addr 0x26dab1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitleLocalizationKey, addr 0x26da768, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitleLocalizationKey();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x26dab14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x26da760, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
 protected:

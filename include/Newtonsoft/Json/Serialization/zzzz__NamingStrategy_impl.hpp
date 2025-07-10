@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::NamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::get_ProcessDictionaryKeys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3efe4bc;
+  constexpr static std::size_t addrs = 0x3efe154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::NamingStrategy::*)(bool)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::set_ProcessDictionaryKeys)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3efe4c4;
+  constexpr static std::size_t addrs = 0x3efe15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::NamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::get_ProcessExtensionDataNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3efe4d0;
+  constexpr static std::size_t addrs = 0x3efe168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::NamingStrategy::*)(bool)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::set_ProcessExtensionDataNames)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3efe4d8;
+  constexpr static std::size_t addrs = 0x3efe170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::NamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::get_OverrideSpecifiedNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3efe4e4;
+  constexpr static std::size_t addrs = 0x3efe17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::NamingStrategy::*)(bool)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::set_OverrideSpecifiedNames)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3efe4ec;
+  constexpr static std::size_t addrs = 0x3efe184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::NamingStrategy::*)(::StringW, bool)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::GetPropertyName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3efe4f8;
+  constexpr static std::size_t addrs = 0x3efe190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::NamingStrategy::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::GetExtensionDataName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3efe518;
+  constexpr static std::size_t addrs = 0x3efe1b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::NamingStrategy::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::GetDictionaryKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3efe534;
+  constexpr static std::size_t addrs = 0x3efe1cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Serialization::NamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::GetHashCode)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3efe550;
+  constexpr static std::size_t addrs = 0x3efe1e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::NamingStrategy::*)(::System::Object*)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3efe630;
+  constexpr static std::size_t addrs = 0x3efe2c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::NamingStrategy::*)(::Newtonsoft::Json::Serialization::NamingStrategy*)>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3efe6b0;
+  constexpr static std::size_t addrs = 0x3efe348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::NamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::NamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3efddfc;
+  constexpr static std::size_t addrs = 0x3efda94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::NamingStrategy*>::get(),

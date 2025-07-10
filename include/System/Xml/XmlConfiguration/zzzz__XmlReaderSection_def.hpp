@@ -21,13 +21,13 @@ namespace System::Xml::XmlConfiguration {
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDefaultResolver, addr 0x4393b8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultResolver, addr 0x4393824, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
 
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x4393be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x4393878, size 0x8, virtual false, abstract: false, final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x4393b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x439381c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_ProhibitDefaultUrlResolver();
 
 protected:

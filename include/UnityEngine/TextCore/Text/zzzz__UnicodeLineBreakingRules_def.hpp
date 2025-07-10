@@ -55,13 +55,13 @@ public:
 
   __declspec(property(get = get_useModernHangulLineBreakingRules)) bool useModernHangulLineBreakingRules;
 
-  /// @brief Method GetCharacters, addr 0x49532bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x4952f54, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
-  /// @brief Method LoadLineBreakingRules, addr 0x4951098, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x4950d30, size 0x1e4, virtual false, abstract: false, final false
   inline void LoadLineBreakingRules();
 
-  /// @brief Method LoadLineBreakingRules, addr 0x49530b8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x4952d50, size 0x1d4, virtual false, abstract: false, final false
   inline void LoadLineBreakingRules(::UnityEngine::TextAsset* leadingRules, ::UnityEngine::TextAsset* followingRules);
 
   static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor();
@@ -102,22 +102,22 @@ public:
 
   constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
 
-  /// @brief Method .ctor, addr 0x4951090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4950d28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_followingCharacters, addr 0x4953088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharacters, addr 0x4952d20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_followingCharacters();
 
-  /// @brief Method get_followingCharactersLookup, addr 0x495328c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharactersLookup, addr 0x4952f24, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup();
 
-  /// @brief Method get_leadingCharacters, addr 0x4953080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharacters, addr 0x4952d18, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_leadingCharacters();
 
-  /// @brief Method get_leadingCharactersLookup, addr 0x4953090, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharactersLookup, addr 0x4952d28, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup();
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x49532b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x4952f4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useModernHangulLineBreakingRules();
 
 protected:

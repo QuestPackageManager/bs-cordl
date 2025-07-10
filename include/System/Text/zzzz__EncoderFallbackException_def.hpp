@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c7979c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c79434, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c79314, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c78fac, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3c79594, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7922c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3c797f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c79490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:

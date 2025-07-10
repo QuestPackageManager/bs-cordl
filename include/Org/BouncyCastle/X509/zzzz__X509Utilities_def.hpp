@@ -56,26 +56,26 @@ public:
   /// @brief Field noParams, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
-  /// @brief Method CreatePssParams, addr 0x25fb8e0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x25fb970, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method GetAlgNames, addr 0x25fbf38, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgNames, addr 0x25fbfc8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* GetAlgNames();
 
-  /// @brief Method GetAlgorithmOid, addr 0x25fba00, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x25fba90, size 0x208, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID, addr 0x25fbc08, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x25fbc98, size 0x330, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW algorithmName);
 
-  /// @brief Method GetSignatureForObject, addr 0x25fc040, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureForObject, addr 0x25fc0d0, size 0x2c8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureForObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW sigName,
                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* ae);
 
   static inline ::Org::BouncyCastle::X509::X509Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25fc308, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fc398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();

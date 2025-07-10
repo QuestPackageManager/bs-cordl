@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_ENTITY* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a56fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a5394, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TokenizedType, addr 0x43ad88c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x43ad524, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x43ad884, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43ad51c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

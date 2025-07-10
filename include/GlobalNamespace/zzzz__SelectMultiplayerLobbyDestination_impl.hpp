@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectMultiplayerLobbyDestination::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26af2b8;
+  constexpr static std::size_t addrs = 0x26aef04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectMultiplayerLobbyDestination::*)(::StringW)>(
     &::GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26af2e4;
+  constexpr static std::size_t addrs = 0x26aef30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

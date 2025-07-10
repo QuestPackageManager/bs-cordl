@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::get_enabled)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45ffe94;
+  constexpr static std::size_t addrs = 0x45ffb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Enable)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x45ffee4;
+  constexpr static std::size_t addrs = 0x45ffb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Disable)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4600230;
+  constexpr static std::size_t addrs = 0x45ffec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Reset)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4600570;
+  constexpr static std::size_t addrs = 0x4600208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::SetUpState)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x4600054;
+  constexpr static std::size_t addrs = 0x45ffcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::TearDownState)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x46003b4;
+  constexpr static std::size_t addrs = 0x460004c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(
     &::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::OnDeviceChange)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4600694;
+  constexpr static std::size_t addrs = 0x460032c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::OnSettingsChange)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4600920;
+  constexpr static std::size_t addrs = 0x46005b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::CheckEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x46009b8;
+  constexpr static std::size_t addrs = 0x4600650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

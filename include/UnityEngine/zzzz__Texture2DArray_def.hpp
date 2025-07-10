@@ -36,11 +36,11 @@ public:
   // Declarations
   __declspec(property(get = get_isReadable)) bool isReadable;
 
-  /// @brief Method Internal_Create, addr 0x4896be8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x4896880, size 0xdc, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method Internal_CreateImpl, addr 0x4896b5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x48967f4, size 0x8c, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::Texture2DArray* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::TextureColorSpace colorSpace, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
@@ -67,48 +67,48 @@ public:
   static inline ::UnityEngine::Texture2DArray* New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear,
                                                         bool createUninitialized);
 
-  /// @brief Method ValidateFormat, addr 0x4896da4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x4896a3c, size 0x12c, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, int32_t width, int32_t height);
 
-  /// @brief Method ValidateFormat, addr 0x4896cc4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidateFormat, addr 0x489695c, size 0xe0, virtual false, abstract: false, final false
   inline bool ValidateFormat(::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x48970d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x4896d68, size 0x54, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x4896ed0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4896b68, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x4896fc4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4896c5c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x4896f24, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4896bbc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x4897124, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4896dbc, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x489752c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48971c4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x4897468, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4897100, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
 
-  /// @brief Method .ctor, addr 0x48973ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4897044, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear, bool createUninitialized);
 
-  /// @brief Method .ctor, addr 0x489738c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4897024, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method .ctor, addr 0x4897210, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4896ea8, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear, bool createUninitialized);
 
-  /// @brief Method get_allSlices, addr 0x4896af8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allSlices, addr 0x4896790, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_allSlices();
 
-  /// @brief Method get_isReadable, addr 0x4896b20, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x48967b8, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
 protected:

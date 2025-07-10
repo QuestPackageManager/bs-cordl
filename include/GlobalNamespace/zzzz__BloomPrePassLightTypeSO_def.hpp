@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__renderingPriority(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39d916c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d8df8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_material, addr 0x39d9164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x39d8df0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_renderingPriority, addr 0x39d915c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingPriority, addr 0x39d8de8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderingPriority();
 
 protected:

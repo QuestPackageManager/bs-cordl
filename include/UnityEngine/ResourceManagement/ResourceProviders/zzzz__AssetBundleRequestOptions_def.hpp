@@ -94,7 +94,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*() noexcept;
 
-  /// @brief Method ComputeSize, addr 0x4799764, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ComputeSize, addr 0x47993fc, size 0x148, virtual true, abstract: false, final false
   inline int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions* New_ctor();
@@ -171,82 +171,82 @@ public:
 
   constexpr void __cordl_internal_set_m_UseUWRForLocalBundles(bool value);
 
-  /// @brief Method .ctor, addr 0x47998ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4799544, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssetLoadMode, addr 0x4799708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetLoadMode, addr 0x47993a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode get_AssetLoadMode();
 
-  /// @brief Method get_BundleName, addr 0x47996f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BundleName, addr 0x4799390, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BundleName();
 
-  /// @brief Method get_BundleSize, addr 0x4799718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BundleSize, addr 0x47993b0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_BundleSize();
 
-  /// @brief Method get_ChunkedTransfer, addr 0x47996b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChunkedTransfer, addr 0x4799350, size 0x8, virtual false, abstract: false, final false
   inline bool get_ChunkedTransfer();
 
-  /// @brief Method get_ClearOtherCachedVersionsWhenLoaded, addr 0x4799750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClearOtherCachedVersionsWhenLoaded, addr 0x47993e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ClearOtherCachedVersionsWhenLoaded();
 
-  /// @brief Method get_Crc, addr 0x4799698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Crc, addr 0x4799330, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Crc();
 
-  /// @brief Method get_Hash, addr 0x4799688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x4799320, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Hash();
 
-  /// @brief Method get_RedirectLimit, addr 0x47996cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectLimit, addr 0x4799364, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_RedirectLimit();
 
-  /// @brief Method get_RetryCount, addr 0x47996e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RetryCount, addr 0x4799380, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RetryCount();
 
-  /// @brief Method get_Timeout, addr 0x47996a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x4799340, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Timeout();
 
-  /// @brief Method get_UseCrcForCachedBundle, addr 0x4799728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCrcForCachedBundle, addr 0x47993c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCrcForCachedBundle();
 
-  /// @brief Method get_UseUnityWebRequestForLocalBundles, addr 0x479973c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseUnityWebRequestForLocalBundles, addr 0x47993d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseUnityWebRequestForLocalBundles();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData* i___UnityEngine__ResourceManagement__ResourceLocations__ILocationSizeData() noexcept;
 
-  /// @brief Method set_AssetLoadMode, addr 0x4799710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssetLoadMode, addr 0x47993a8, size 0x8, virtual false, abstract: false, final false
   inline void set_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value);
 
-  /// @brief Method set_BundleName, addr 0x4799700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BundleName, addr 0x4799398, size 0x8, virtual false, abstract: false, final false
   inline void set_BundleName(::StringW value);
 
-  /// @brief Method set_BundleSize, addr 0x4799720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BundleSize, addr 0x47993b8, size 0x8, virtual false, abstract: false, final false
   inline void set_BundleSize(int64_t value);
 
-  /// @brief Method set_ChunkedTransfer, addr 0x47996c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ChunkedTransfer, addr 0x4799358, size 0xc, virtual false, abstract: false, final false
   inline void set_ChunkedTransfer(bool value);
 
-  /// @brief Method set_ClearOtherCachedVersionsWhenLoaded, addr 0x4799758, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ClearOtherCachedVersionsWhenLoaded, addr 0x47993f0, size 0xc, virtual false, abstract: false, final false
   inline void set_ClearOtherCachedVersionsWhenLoaded(bool value);
 
-  /// @brief Method set_Crc, addr 0x47996a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Crc, addr 0x4799338, size 0x8, virtual false, abstract: false, final false
   inline void set_Crc(uint32_t value);
 
-  /// @brief Method set_Hash, addr 0x4799690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Hash, addr 0x4799328, size 0x8, virtual false, abstract: false, final false
   inline void set_Hash(::StringW value);
 
-  /// @brief Method set_RedirectLimit, addr 0x47996e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectLimit, addr 0x4799378, size 0x8, virtual false, abstract: false, final false
   inline void set_RedirectLimit(int32_t value);
 
-  /// @brief Method set_RetryCount, addr 0x47996f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RetryCount, addr 0x4799388, size 0x8, virtual false, abstract: false, final false
   inline void set_RetryCount(int32_t value);
 
-  /// @brief Method set_Timeout, addr 0x47996b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x4799348, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(int32_t value);
 
-  /// @brief Method set_UseCrcForCachedBundle, addr 0x4799730, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseCrcForCachedBundle, addr 0x47993c8, size 0xc, virtual false, abstract: false, final false
   inline void set_UseCrcForCachedBundle(bool value);
 
-  /// @brief Method set_UseUnityWebRequestForLocalBundles, addr 0x4799744, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseUnityWebRequestForLocalBundles, addr 0x47993dc, size 0xc, virtual false, abstract: false, final false
   inline void set_UseUnityWebRequestForLocalBundles(bool value);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)(::System::IO::TextReader*)>(
     &::GlobalNamespace::TextReader_SyncTextReader::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d44888;
+  constexpr static std::size_t addrs = 0x3d44520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d449c8;
+  constexpr static std::size_t addrs = 0x3d44660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)(bool)>(
     &::GlobalNamespace::TextReader_SyncTextReader::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d449e8;
+  constexpr static std::size_t addrs = 0x3d44680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Peek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d44a9c;
+  constexpr static std::size_t addrs = 0x3d44734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d44abc;
+  constexpr static std::size_t addrs = 0x3d44754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::TextReader_SyncTextReader::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d44adc;
+  constexpr static std::size_t addrs = 0x3d44774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextReader_SyncTextReader::*)()>(
     &::GlobalNamespace::TextReader_SyncTextReader::ReadLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d44afc;
+  constexpr static std::size_t addrs = 0x3d44794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextReader_SyncTextReader::*)()>(
     &::GlobalNamespace::TextReader_SyncTextReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d44b20;
+  constexpr static std::size_t addrs = 0x3d447b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::GlobalNamespace::TextReader_SyncTextReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::GlobalNamespace::TextReader_SyncTextReader::ReadAsync)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3d44b44;
+  constexpr static std::size_t addrs = 0x3d447dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

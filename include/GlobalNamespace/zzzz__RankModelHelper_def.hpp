@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MaxRankForGameplayModifiers, addr 0x26fe824, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x26fe4b0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::RankModel_Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                               ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 

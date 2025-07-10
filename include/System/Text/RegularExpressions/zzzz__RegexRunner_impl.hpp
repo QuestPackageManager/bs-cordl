@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x441f434;
+  constexpr static std::size_t addrs = 0x441f0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(), ".ctor",
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Text::RegularExpressions::RegexRunner::*)(::System::Text::RegularExpressions::Regex*, ::StringW, int32_t, int32_t, int32_t, int32_t, bool, ::System::TimeSpan)>(
     &::System::Text::RegularExpressions::RegexRunner::Scan)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x4428ff4;
+  constexpr static std::size_t addrs = 0x4428c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::StartTimeoutWatch)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4429324;
+  constexpr static std::size_t addrs = 0x4428fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::CheckTimeout)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44214f8;
+  constexpr static std::size_t addrs = 0x4421190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::DoCheckTimeout)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4429570;
+  constexpr static std::size_t addrs = 0x4429208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::InitMatch)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x4429358;
+  constexpr static std::size_t addrs = 0x4428ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Match* (::System::Text::RegularExpressions::RegexRunner::*)(bool)>(
     &::System::Text::RegularExpressions::RegexRunner::TidyMatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x442952c;
+  constexpr static std::size_t addrs = 0x44291c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::EnsureStorage)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x441f558;
+  constexpr static std::size_t addrs = 0x441f1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexRunner::*)(int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::IsBoundary)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44216f0;
+  constexpr static std::size_t addrs = 0x4421388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexRunner::*)(int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::IsECMABoundary)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44217f0;
+  constexpr static std::size_t addrs = 0x4421488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::DoubleTrack)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x44296dc;
+  constexpr static std::size_t addrs = 0x4429374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::DoubleStack)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x442963c;
+  constexpr static std::size_t addrs = 0x44292d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::DoubleCrawl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x442977c;
+  constexpr static std::size_t addrs = 0x4429414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::Crawl)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x442981c;
+  constexpr static std::size_t addrs = 0x44294b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::Popcrawl)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4429878;
+  constexpr static std::size_t addrs = 0x4429510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::Crawlpos)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44216cc;
+  constexpr static std::size_t addrs = 0x4421364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)(int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::Capture)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x442163c;
+  constexpr static std::size_t addrs = 0x44212d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::TransferCapture)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4421528;
+  constexpr static std::size_t addrs = 0x44211c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexRunner::*)()>(
     &::System::Text::RegularExpressions::RegexRunner::Uncapture)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x442169c;
+  constexpr static std::size_t addrs = 0x4421334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexRunner*>::get(),
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexRunner::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::IsMatched)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4421508;
+  constexpr static std::size_t addrs = 0x44211a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexRunner::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::MatchIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44218f0;
+  constexpr static std::size_t addrs = 0x4421588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexRunner::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexRunner::MatchLength)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4421910;
+  constexpr static std::size_t addrs = 0x44215a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

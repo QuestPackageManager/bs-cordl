@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c383c;
+  constexpr static std::size_t addrs = 0x22c38cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
         &::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22c38ac;
+  constexpr static std::size_t addrs = 0x22c393c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)()>(
     &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::get_publicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c36f4;
+  constexpr static std::size_t addrs = 0x22c3784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22c314c;
+  constexpr static std::size_t addrs = 0x22c31dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x22c36fc;
+  constexpr static std::size_t addrs = 0x22c378c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22c3844;
+  constexpr static std::size_t addrs = 0x22c38d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c3a60;
+  constexpr static std::size_t addrs = 0x22c3af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
         &::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22c3ad0;
+  constexpr static std::size_t addrs = 0x22c3b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)()>(
     &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::get_publicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c3918;
+  constexpr static std::size_t addrs = 0x22c39a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(
     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22c31e0;
+  constexpr static std::size_t addrs = 0x22c3270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,7 +339,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x22c3920;
+  constexpr static std::size_t addrs = 0x22c39b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22c3a68;
+  constexpr static std::size_t addrs = 0x22c3af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_OperationTimer::*)(::StringW)>(
     &::GlobalNamespace::DiffieHellmanUtility_OperationTimer::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22c3b3c;
+  constexpr static std::size_t addrs = 0x22c3bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_OperationTimer::*)()>(
     &::GlobalNamespace::DiffieHellmanUtility_OperationTimer::Dispose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x22c3bc0;
+  constexpr static std::size_t addrs = 0x22c3c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(),
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility_OperationTimer* (*)(::StringW)>(
     &::GlobalNamespace::DiffieHellmanUtility_OperationTimer::Time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c3144;
+  constexpr static std::size_t addrs = 0x22c31d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,7 +538,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::BGNet::Core::ITaskUtility*, ::System::Threading::CancellationToken,
                                                                                        ::GlobalNamespace::DiffieHellmanUtility_KeyType)>(&::GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x22c2cbc;
+  constexpr static std::size_t addrs = 0x22c2d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDiffieHellmanKeyPair* (*)(::GlobalNamespace::DiffieHellmanUtility_KeyType)>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x22bf208;
+  constexpr static std::size_t addrs = 0x22bf298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* (*)()>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x22c2fcc;
+  constexpr static std::size_t addrs = 0x22c305c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(),
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* (*)()>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x22c2e48;
+  constexpr static std::size_t addrs = 0x22c2ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(),
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x22c3274;
+  constexpr static std::size_t addrs = 0x22c3304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x22c33f8;
+  constexpr static std::size_t addrs = 0x22c3488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

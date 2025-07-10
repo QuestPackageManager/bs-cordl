@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::FromHex)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x268cb6c;
+  constexpr static std::size_t addrs = 0x268cbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* (*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::FromNG)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x268cc04;
+  constexpr static std::size_t addrs = 0x268cc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268ce7c;
+  constexpr static std::size_t addrs = 0x268cf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

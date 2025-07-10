@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::FullConditionalExpressionWithType::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40af0dc;
+  constexpr static std::size_t addrs = 0x40aed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::FullConditionalExpressionWithType::*)()>(
     &::System::Linq::Expressions::FullConditionalExpressionWithType::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40af2c8;
+  constexpr static std::size_t addrs = 0x40aef60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

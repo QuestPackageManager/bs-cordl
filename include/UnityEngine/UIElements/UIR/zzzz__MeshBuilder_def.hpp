@@ -66,12 +66,12 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE AllocMeshData_MeshBuilder_Allocator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x49aa6b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x49aa34c, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* Invoke(uint32_t vertexCount, uint32_t indexCount, ::ByRef<::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData> allocatorData);
 
   static inline ::UnityEngine::UIElements::UIR::AllocMeshData_MeshBuilder_Allocator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x49aa628, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49aa2c0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -106,7 +106,7 @@ public:
   // Declarations
   using Allocator = ::UnityEngine::UIElements::UIR::AllocMeshData_MeshBuilder_Allocator;
 
-  /// @brief Method Allocate, addr 0x49aa4cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x49aa164, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* Allocate(uint32_t vertexCount, uint32_t indexCount);
 
   // Ctor Parameters []
@@ -187,14 +187,14 @@ public:
   /// @brief Field s_VectorGraphicsStretch, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_VectorGraphicsStretch, put = setStaticF_s_VectorGraphicsStretch)) ::Unity::Profiling::ProfilerMarker s_VectorGraphicsStretch;
 
-  /// @brief Method ConvertTextVertexToUIRVertex, addr 0x49a9dcc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ConvertTextVertexToUIRVertex, addr 0x49a9a64, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Vertex ConvertTextVertexToUIRVertex(::UnityEngine::TextCore::Text::MeshInfo info, int32_t index, ::UnityEngine::Vector2 offset,
                                                                                ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
 
-  /// @brief Method LimitTextVertices, addr 0x49a9ecc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LimitTextVertices, addr 0x49a9b64, size 0x130, virtual false, abstract: false, final false
   static inline int32_t LimitTextVertices(int32_t vertexCount, bool logTruncation);
 
-  /// @brief Method MakeText, addr 0x49a9ffc, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method MakeText, addr 0x49a9c94, size 0x4d0, virtual false, abstract: false, final false
   static inline void MakeText(::UnityEngine::TextCore::Text::MeshInfo meshInfo, ::UnityEngine::Vector2 offset, ::UnityEngine::UIElements::UIR::MeshBuilder_AllocMeshData meshAlloc,
                               ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
 

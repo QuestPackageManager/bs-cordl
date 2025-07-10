@@ -100,10 +100,10 @@ public:
   // Declarations
   using OutCode = ::UnityEngine::ProBuilder::Clipping_OutCode;
 
-  /// @brief Method ComputeOutCode, addr 0x4704e70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ComputeOutCode, addr 0x4704b08, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Clipping_OutCode ComputeOutCode(::UnityEngine::Rect rect, float_t x, float_t y);
 
-  /// @brief Method RectContainsLineSegment, addr 0x4704ebc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RectContainsLineSegment, addr 0x4704b54, size 0x1c0, virtual false, abstract: false, final false
   static inline bool RectContainsLineSegment(::UnityEngine::Rect rect, float_t x0, float_t y0, float_t x1, float_t y1);
 
 protected:

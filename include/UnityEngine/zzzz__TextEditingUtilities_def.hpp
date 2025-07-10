@@ -72,78 +72,78 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method Backspace, addr 0x48e6b6c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Backspace, addr 0x48e6804, size 0x100, virtual false, abstract: false, final false
   inline bool Backspace();
 
-  /// @brief Method CanPaste, addr 0x48e736c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CanPaste, addr 0x48e7004, size 0x84, virtual false, abstract: false, final false
   inline bool CanPaste();
 
-  /// @brief Method Cut, addr 0x48e6c6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x48e6904, size 0x28, virtual false, abstract: false, final false
   inline bool Cut();
 
-  /// @brief Method Delete, addr 0x48e6a84, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x48e671c, size 0xe8, virtual false, abstract: false, final false
   inline bool Delete();
 
-  /// @brief Method DeleteLineBack, addr 0x48e6e50, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DeleteLineBack, addr 0x48e6ae8, size 0x104, virtual false, abstract: false, final false
   inline bool DeleteLineBack();
 
-  /// @brief Method DeleteSelection, addr 0x48e70cc, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method DeleteSelection, addr 0x48e6d64, size 0x22c, virtual false, abstract: false, final false
   inline bool DeleteSelection();
 
-  /// @brief Method DeleteWordBack, addr 0x48e6d60, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DeleteWordBack, addr 0x48e69f8, size 0xf0, virtual false, abstract: false, final false
   inline bool DeleteWordBack();
 
-  /// @brief Method DeleteWordForward, addr 0x48e6f54, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DeleteWordForward, addr 0x48e6bec, size 0xec, virtual false, abstract: false, final false
   inline bool DeleteWordForward();
 
-  /// @brief Method EnableCursorPreviewState, addr 0x48e5e98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method EnableCursorPreviewState, addr 0x48e5b30, size 0xdc, virtual false, abstract: false, final false
   inline void EnableCursorPreviewState();
 
-  /// @brief Method GeneratePreviewString, addr 0x48e5d1c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GeneratePreviewString, addr 0x48e59b4, size 0x124, virtual false, abstract: false, final false
   inline ::StringW GeneratePreviewString(bool richText);
 
-  /// @brief Method HandleKeyEvent, addr 0x48e5f74, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyEvent, addr 0x48e5c0c, size 0x188, virtual false, abstract: false, final false
   inline bool HandleKeyEvent(::UnityEngine::Event* e);
 
-  /// @brief Method InitKeyActions, addr 0x48e60fc, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method InitKeyActions, addr 0x48e5d94, size 0x638, virtual false, abstract: false, final false
   inline void InitKeyActions();
 
-  /// @brief Method Insert, addr 0x48e72f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x48e6f90, size 0x74, virtual false, abstract: false, final false
   inline void Insert(char16_t c);
 
-  /// @brief Method MapKey, addr 0x48e7040, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MapKey, addr 0x48e6cd8, size 0x8c, virtual false, abstract: false, final false
   static inline void MapKey(::StringW key, ::UnityEngine::TextEditOp action);
 
   static inline ::UnityEngine::TextEditingUtilities* New_ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
 
-  /// @brief Method OnBlur, addr 0x48e7484, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x48e711c, size 0x34, virtual false, abstract: false, final false
   inline void OnBlur();
 
-  /// @brief Method Paste, addr 0x48e6c94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Paste, addr 0x48e692c, size 0xcc, virtual false, abstract: false, final false
   inline bool Paste();
 
-  /// @brief Method PerformOperation, addr 0x48e6734, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method PerformOperation, addr 0x48e63cc, size 0x350, virtual false, abstract: false, final false
   inline void PerformOperation(::UnityEngine::TextEditOp operation);
 
-  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x48e73f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ReplaceNewlinesWithSpaces, addr 0x48e7088, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ReplaceNewlinesWithSpaces(::StringW value);
 
-  /// @brief Method ReplaceSelection, addr 0x48e5bb4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ReplaceSelection, addr 0x48e584c, size 0xb8, virtual false, abstract: false, final false
   inline void ReplaceSelection(::StringW replace);
 
-  /// @brief Method RestoreCursorState, addr 0x48e5e40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RestoreCursorState, addr 0x48e5ad8, size 0x58, virtual false, abstract: false, final false
   inline void RestoreCursorState();
 
-  /// @brief Method SetImeWindowPosition, addr 0x48e5c74, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetImeWindowPosition, addr 0x48e590c, size 0xa8, virtual false, abstract: false, final false
   inline void SetImeWindowPosition(::UnityEngine::Vector2 worldPosition);
 
-  /// @brief Method ShouldUpdateImeWindowPosition, addr 0x48e5c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUpdateImeWindowPosition, addr 0x48e5904, size 0x8, virtual false, abstract: false, final false
   inline bool ShouldUpdateImeWindowPosition();
 
-  /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x48e74b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TouchScreenKeyboardShouldBeUsed, addr 0x48e7150, size 0x84, virtual false, abstract: false, final false
   inline bool TouchScreenKeyboardShouldBeUsed();
 
-  /// @brief Method UpdateImeState, addr 0x48e5ae0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateImeState, addr 0x48e5778, size 0xd4, virtual false, abstract: false, final false
   inline bool UpdateImeState();
 
   constexpr bool const& __cordl_internal_get_isCompositionActive() const;
@@ -188,35 +188,35 @@ public:
 
   constexpr void __cordl_internal_set_multiline(bool value);
 
-  /// @brief Method .ctor, addr 0x48e5a98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e5730, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextSelectingUtilities* selectingUtilities, ::UnityEngine::TextCore::Text::TextHandle* textHandle, ::StringW text);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* getStaticF_s_KeyEditOps();
 
-  /// @brief Method get_cursorIndex, addr 0x48e59b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_cursorIndex, addr 0x48e564c, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_cursorIndex();
 
-  /// @brief Method get_hasSelection, addr 0x48e5978, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_hasSelection, addr 0x48e5610, size 0x1c, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
-  /// @brief Method get_selectIndex, addr 0x48e59ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectIndex, addr 0x48e5684, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_selectIndex();
 
-  /// @brief Method get_text, addr 0x48e5a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x48e56bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   static inline void setStaticF_s_KeyEditOps(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::TextEditOp>* value);
 
-  /// @brief Method set_cursorIndex, addr 0x48e59d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_cursorIndex, addr 0x48e5668, size 0x1c, virtual false, abstract: false, final false
   inline void set_cursorIndex(int32_t value);
 
-  /// @brief Method set_revealCursor, addr 0x48e5994, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_revealCursor, addr 0x48e562c, size 0x20, virtual false, abstract: false, final false
   inline void set_revealCursor(bool value);
 
-  /// @brief Method set_selectIndex, addr 0x48e5a08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectIndex, addr 0x48e56a0, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectIndex(int32_t value);
 
-  /// @brief Method set_text, addr 0x48e5a2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x48e56c4, size 0x6c, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x4167cd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4167968, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dataTable);
 
 protected:

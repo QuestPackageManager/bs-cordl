@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method .ctor, addr 0x42ac958, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ac5f0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex);
 
-  /// @brief Method .ctor, addr 0x42ac9c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ac660, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method get_Exception, addr 0x42aca44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x42ac6dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
-  /// @brief Method get_Severity, addr 0x42aca3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x42ac6d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47fed68;
+  constexpr static std::size_t addrs = 0x47fea00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "get_ShaderRef_MobileSDF",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47fee64;
+  constexpr static std::size_t addrs = 0x47feafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "get_ShaderRef_MobileBitmap",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::TMPro::ShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0xacc;
-  constexpr static std::size_t addrs = 0x47f8670;
+  constexpr static std::size_t addrs = 0x47f8308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::ShaderUtilities*>::get(), "GetShaderPropertyIDs",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::UpdateShaderRatios)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x47ff0dc;
+  constexpr static std::size_t addrs = 0x47fed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::GetFontExtent)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47ff538;
+  constexpr static std::size_t addrs = 0x47ff1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::IsMaskingEnabled)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x47ff57c;
+  constexpr static std::size_t addrs = 0x47ff214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Material*, bool, bool)>(&::TMPro::ShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x47ff718;
+  constexpr static std::size_t addrs = 0x47ff3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>, bool, bool)>(
     &::TMPro::ShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x47ffdc0;
+  constexpr static std::size_t addrs = 0x47ffa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

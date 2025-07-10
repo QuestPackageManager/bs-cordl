@@ -40,10 +40,10 @@ public:
 
   static inline ::HMUI::VerticalScrollIndicator* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3a026f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a02380, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshHandle, addr 0x3a02614, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RefreshHandle, addr 0x3a022a0, size 0xd0, virtual false, abstract: false, final false
   inline void RefreshHandle();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handle() const;
@@ -70,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set__progress(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a026f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a02384, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_normalizedPageHeight, addr 0x3a026ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedPageHeight, addr 0x3a02378, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedPageHeight();
 
-  /// @brief Method get_progress, addr 0x3a026e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x3a02370, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_normalizedPageHeight, addr 0x39fb314, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedPageHeight, addr 0x39fafa0, size 0x2c, virtual false, abstract: false, final false
   inline void set_normalizedPageHeight(float_t value);
 
-  /// @brief Method set_progress, addr 0x39fb578, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_progress, addr 0x39fb204, size 0x2c, virtual false, abstract: false, final false
   inline void set_progress(float_t value);
 
 protected:

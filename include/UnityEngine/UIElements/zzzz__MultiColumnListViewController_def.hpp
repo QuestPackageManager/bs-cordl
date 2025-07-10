@@ -50,31 +50,31 @@ public:
   /// @brief Field m_ColumnController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnController, put = __cordl_internal_set_m_ColumnController)) ::UnityEngine::UIElements::MultiColumnController* m_ColumnController;
 
-  /// @brief Method BindItem, addr 0x497d3e4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x497d07c, size 0x88, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x497d488, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x497d120, size 0x1c, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Dispose, addr 0x497d5e8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x497d280, size 0xb8, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InvokeMakeItem, addr 0x497cef4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method InvokeMakeItem, addr 0x497cb8c, size 0xf0, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method MakeItem, addr 0x497d3c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x497d060, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::MultiColumnListViewController* New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method PrepareView, addr 0x497d4a4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method PrepareView, addr 0x497d13c, size 0xa4, virtual true, abstract: false, final false
   inline void PrepareView();
 
-  /// @brief Method UnbindItem, addr 0x497d46c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method UnbindItem, addr 0x497d104, size 0x1c, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method UpdateReorderClassList, addr 0x497d740, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateReorderClassList, addr 0x497d3d8, size 0xb4, virtual false, abstract: false, final false
   inline void UpdateReorderClassList();
 
   constexpr ::UnityEngine::UIElements::MultiColumnController* const& __cordl_internal_get_m_ColumnController() const;
@@ -83,14 +83,14 @@ public:
 
   constexpr void __cordl_internal_set_m_ColumnController(::UnityEngine::UIElements::MultiColumnController* value);
 
-  /// @brief Method .ctor, addr 0x497ce68, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497cb00, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method get_columnController, addr 0x497ce48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnController, addr 0x497cae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnController* get_columnController();
 
-  /// @brief Method get_header, addr 0x497ce50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_header, addr 0x497cae8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* get_header();
 
 protected:

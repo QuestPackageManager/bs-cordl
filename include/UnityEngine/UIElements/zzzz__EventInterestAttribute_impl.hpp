@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x499ec18;
+  constexpr static std::size_t addrs = 0x499e8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::UnityEngine::UIElements::EventInterestOptions)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x499ec44;
+  constexpr static std::size_t addrs = 0x499e8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

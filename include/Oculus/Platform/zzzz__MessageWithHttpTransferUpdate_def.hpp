@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithHttpTransferUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::HttpTransferUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f813e8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f81080, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetHttpTransferUpdate, addr 0x3f813ac, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHttpTransferUpdate, addr 0x3f81044, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
 
   static inline ::Oculus::Platform::MessageWithHttpTransferUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7ce5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7caf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:

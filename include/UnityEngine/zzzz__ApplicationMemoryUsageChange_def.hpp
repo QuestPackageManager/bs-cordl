@@ -24,10 +24,10 @@ public:
   // Declarations
   __declspec(property(put = set_memoryUsage)) ::UnityEngine::ApplicationMemoryUsage memoryUsage;
 
-  /// @brief Method .ctor, addr 0x4863784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x486341c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ApplicationMemoryUsage usage);
 
-  /// @brief Method set_memoryUsage, addr 0x4864f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_memoryUsage, addr 0x4864c18, size 0x8, virtual false, abstract: false, final false
   inline void set_memoryUsage(::UnityEngine::ApplicationMemoryUsage value);
 
   // Ctor Parameters []

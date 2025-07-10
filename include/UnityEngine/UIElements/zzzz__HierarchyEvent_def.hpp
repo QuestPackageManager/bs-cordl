@@ -30,12 +30,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE HierarchyEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4a42ec8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4a42b60, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType);
 
   static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4a42dc4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a42a5c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

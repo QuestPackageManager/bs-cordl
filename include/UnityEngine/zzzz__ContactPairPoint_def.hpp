@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_Separation)) float_t Separation;
 
-  /// @brief Method get_Impulse, addr 0x4910ff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Impulse, addr 0x4910c90, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Impulse();
 
-  /// @brief Method get_Normal, addr 0x4910fec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Normal, addr 0x4910c84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Normal();
 
-  /// @brief Method get_Position, addr 0x4910fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4910c70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Separation, addr 0x4910fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Separation, addr 0x4910c7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Separation();
 
   // Ctor Parameters []

@@ -40,16 +40,16 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type;
 
-  /// @brief Method Encode, addr 0x263e270, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x263e300, size 0x144, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* os);
 
-  /// @brief Method GetData, addr 0x263e1f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetData, addr 0x263e288, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method IsCritical, addr 0x263e1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsCritical, addr 0x263e278, size 0x8, virtual false, abstract: false, final false
   inline bool IsCritical();
 
-  /// @brief Method IsLongLength, addr 0x263e1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsLongLength, addr 0x263e280, size 0x8, virtual false, abstract: false, final false
   inline bool IsLongLength();
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag value);
 
-  /// @brief Method .ctor, addr 0x263e198, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263e228, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType, addr 0x263e1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubpacketType, addr 0x263e270, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag get_SubpacketType();
 
 protected:

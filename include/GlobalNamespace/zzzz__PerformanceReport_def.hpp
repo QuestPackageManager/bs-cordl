@@ -27,22 +27,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateReportDescriptor, addr 0x3b24ab0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x3b2473c, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::System::DateTime timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method CreateTimestamp, addr 0x3b24a3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x3b246c8, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method ListAggregatedFps, addr 0x3b24728, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ListAggregatedFps, addr 0x3b243b4, size 0x314, virtual false, abstract: false, final false
   static inline ::StringW ListAggregatedFps(::ArrayW<float_t, ::Array<float_t>*> frameDurations, float_t minWindowSize);
 
-  /// @brief Method ListFrameDurations, addr 0x3b2460c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ListFrameDurations, addr 0x3b24298, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW ListFrameDurations(::ArrayW<float_t, ::Array<float_t>*> frameDurations);
 
-  /// @brief Method ListStat, addr 0x3b25174, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ListStat, addr 0x3b24e00, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW ListStat(::ArrayW<float_t, ::Array<float_t>*> statList);
 
-  /// @brief Method ListStat, addr 0x3b25290, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ListStat, addr 0x3b24f1c, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW ListStat(::ArrayW<int64_t, ::Array<int64_t>*> statList);
 
 protected:

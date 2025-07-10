@@ -18,21 +18,21 @@ namespace UnityEngine::UI {
 class CORDL_TYPE VerticalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
   // Declarations
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4abea84, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4abe71c, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x4abeaa4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x4abe73c, size 0xc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::UnityEngine::UI::VerticalLayoutGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x4abeab0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x4abe748, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x4abeabc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x4abe754, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method .ctor, addr 0x4abea78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4abe710, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
 
-  /// @brief Method .ctor, addr 0x252d9c8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252da58, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Key, addr 0x25328b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2532944, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
-  /// @brief Method get_KeyId, addr 0x25328a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x2532934, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PublicKeyPacket, addr 0x25328ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyPacket, addr 0x253293c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* get_PublicKeyPacket();
 
 protected:

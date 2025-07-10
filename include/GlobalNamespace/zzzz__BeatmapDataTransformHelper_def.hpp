@@ -47,25 +47,25 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataTransformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddTestBurstSlider, addr 0x26ae750, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AddTestBurstSlider, addr 0x26ae39c, size 0x104, virtual false, abstract: false, final false
   static inline void AddTestBurstSlider(float_t time, float_t beat, float_t duration, int32_t headRotation, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer,
                                         ::GlobalNamespace::NoteCutDirection headCutDirection, int32_t tailRotation, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer,
                                         ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount, float_t squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method AddTestSlider, addr 0x26ae854, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method AddTestSlider, addr 0x26ae4a0, size 0x1a8, virtual false, abstract: false, final false
   static inline void AddTestSlider(float_t time, float_t beat, float_t duration, int32_t headRotation, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer,
                                    ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headControlPointLength, int32_t tailRotation, int32_t tailLineIndex,
                                    ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailControlPointLength, bool hasHeadNote,
                                    bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method CreateTransformedBeatmapData, addr 0x26ae508, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedBeatmapData, addr 0x26ae154, size 0x14c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                       ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool leftHanded,
                                                                                       ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset,
                                                                                       ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions,
                                                                                       ::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method IsObstaclesMergingNeeded, addr 0x26ae744, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsObstaclesMergingNeeded, addr 0x26ae390, size 0xc, virtual false, abstract: false, final false
   static inline bool IsObstaclesMergingNeeded(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
 
 protected:

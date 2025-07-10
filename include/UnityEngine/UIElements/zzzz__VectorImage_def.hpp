@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<::UnityEngine::UIElements::VectorImageVertex, ::Array<::UnityEngine::UIElements::VectorImageVertex>*> value);
 
-  /// @brief Method .ctor, addr 0x499d944, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499d5dc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_height, addr 0x499d93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x499d5d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_width, addr 0x499d934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x499d5cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
 protected:

@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c21b28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c217c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -49,7 +49,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweep___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <SplitEdge>b__0, addr 0x46fd3d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <SplitEdge>b__0, addr 0x46fd06c, size 0x38, virtual false, abstract: false, final false
   inline bool _SplitEdge_b__0(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* e);
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_ep() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_ep(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method .ctor, addr 0x46fc974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fc60c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,130 +98,130 @@ public:
   // Declarations
   using __c__DisplayClass21_0 = ::UnityEngine::ProBuilder::Poly2Tri::DTSweep___c__DisplayClass21_0;
 
-  /// @brief Method BasinAngle, addr 0x46fceec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method BasinAngle, addr 0x46fcb84, size 0x98, virtual false, abstract: false, final false
   static inline double_t BasinAngle(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method EdgeEvent, addr 0x46fa744, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method EdgeEvent, addr 0x46fa3dc, size 0x184, virtual false, abstract: false, final false
   static inline void EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method EdgeEvent, addr 0x46fba38, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method EdgeEvent, addr 0x46fb6d0, size 0x1dc, virtual false, abstract: false, final false
   static inline void EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep,
                                ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle,
                                ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method Fill, addr 0x46fb248, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Fill, addr 0x46faee0, size 0x178, virtual false, abstract: false, final false
   static inline void Fill(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillAdvancingFront, addr 0x46fb59c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FillAdvancingFront, addr 0x46fb234, size 0xf8, virtual false, abstract: false, final false
   static inline void FillAdvancingFront(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* n);
 
-  /// @brief Method FillBasin, addr 0x46fcf84, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method FillBasin, addr 0x46fcc1c, size 0x1a0, virtual false, abstract: false, final false
   static inline void FillBasin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillBasinReq, addr 0x46fd124, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FillBasinReq, addr 0x46fcdbc, size 0x170, virtual false, abstract: false, final false
   static inline void FillBasinReq(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillEdgeEvent, addr 0x46fba0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FillEdgeEvent, addr 0x46fb6a4, size 0x2c, virtual false, abstract: false, final false
   static inline void FillEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                    ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillLeftAboveEdgeEvent, addr 0x46fbd20, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method FillLeftAboveEdgeEvent, addr 0x46fb9b8, size 0x108, virtual false, abstract: false, final false
   static inline void FillLeftAboveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                             ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillLeftBelowEdgeEvent, addr 0x46fc37c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method FillLeftBelowEdgeEvent, addr 0x46fc014, size 0x128, virtual false, abstract: false, final false
   static inline void FillLeftBelowEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                             ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillLeftConcaveEdgeEvent, addr 0x46fc288, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method FillLeftConcaveEdgeEvent, addr 0x46fbf20, size 0xf4, virtual false, abstract: false, final false
   static inline void FillLeftConcaveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                               ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillLeftConvexEdgeEvent, addr 0x46fc170, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FillLeftConvexEdgeEvent, addr 0x46fbe08, size 0x118, virtual false, abstract: false, final false
   static inline void FillLeftConvexEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                              ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillRightAboveEdgeEvent, addr 0x46fbc14, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FillRightAboveEdgeEvent, addr 0x46fb8ac, size 0x10c, virtual false, abstract: false, final false
   static inline void FillRightAboveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                              ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillRightBelowEdgeEvent, addr 0x46fc044, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FillRightBelowEdgeEvent, addr 0x46fbcdc, size 0x12c, virtual false, abstract: false, final false
   static inline void FillRightBelowEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                              ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillRightConcaveEdgeEvent, addr 0x46fbe28, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method FillRightConcaveEdgeEvent, addr 0x46fbac0, size 0xfc, virtual false, abstract: false, final false
   static inline void FillRightConcaveEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                                ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FillRightConvexEdgeEvent, addr 0x46fbf24, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method FillRightConvexEdgeEvent, addr 0x46fbbbc, size 0x120, virtual false, abstract: false, final false
   static inline void FillRightConvexEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* edge,
                                               ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method FinalizationConvexHull, addr 0x46fa2d0, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method FinalizationConvexHull, addr 0x46f9f68, size 0x280, virtual false, abstract: false, final false
   static inline void FinalizationConvexHull(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-  /// @brief Method FinalizationPolygon, addr 0x46fa228, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method FinalizationPolygon, addr 0x46f9ec0, size 0xa8, virtual false, abstract: false, final false
   static inline void FinalizationPolygon(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-  /// @brief Method FlipEdgeEvent, addr 0x46fc4e0, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method FlipEdgeEvent, addr 0x46fc178, size 0x384, virtual false, abstract: false, final false
   static inline void FlipEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep,
                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t,
                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method FlipScanEdgeEvent, addr 0x46fcc7c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method FlipScanEdgeEvent, addr 0x46fc914, size 0x1a0, virtual false, abstract: false, final false
   static inline void FlipScanEdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep,
                                        ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* flipTriangle,
                                        ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method HoleAngle, addr 0x46fce28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HoleAngle, addr 0x46fcac0, size 0xc4, virtual false, abstract: false, final false
   static inline double_t HoleAngle(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method IsEdgeSideOfTriangle, addr 0x46fb94c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsEdgeSideOfTriangle, addr 0x46fb5e4, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsEdgeSideOfTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep,
                                           ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq);
 
-  /// @brief Method IsShallow, addr 0x46fd294, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsShallow, addr 0x46fcf2c, size 0x64, virtual false, abstract: false, final false
   static inline bool IsShallow(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method Legalize, addr 0x46fb694, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Legalize, addr 0x46fb32c, size 0x26c, virtual false, abstract: false, final false
   static inline bool Legalize(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
-  /// @brief Method NewFrontTriangle, addr 0x46fb3e4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method NewFrontTriangle, addr 0x46fb07c, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* NewFrontTriangle(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx,
                                                                                           ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point,
                                                                                           ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method NextFlipPoint, addr 0x46fcb24, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method NextFlipPoint, addr 0x46fc7bc, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* NextFlipPoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep,
                                                                                        ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq,
                                                                                        ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot,
                                                                                        ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
 
-  /// @brief Method NextFlipTriangle, addr 0x46fcab0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NextFlipTriangle, addr 0x46fc748, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*
   NextFlipTriangle(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::Orientation o, ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t,
                    ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
 
-  /// @brief Method PointEvent, addr 0x46fa560, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method PointEvent, addr 0x46fa1f8, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* PointEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx,
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method RotateTrianglePair, addr 0x46faa38, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method RotateTrianglePair, addr 0x46fa6d0, size 0x4b8, virtual false, abstract: false, final false
   static inline void RotateTrianglePair(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p,
                                         ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* ot, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* op);
 
-  /// @brief Method SplitEdge, addr 0x46fc864, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SplitEdge, addr 0x46fc4fc, size 0x110, virtual false, abstract: false, final false
   static inline void SplitEdge(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ep, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* eq,
                                ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* p);
 
-  /// @brief Method Sweep, addr 0x46fa010, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Sweep, addr 0x46f9ca8, size 0x218, virtual false, abstract: false, final false
   static inline void Sweep(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-  /// @brief Method Triangulate, addr 0x46f6fa4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x46f6c3c, size 0x4c, virtual false, abstract: false, final false
   static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-  /// @brief Method TurnAdvancingFrontConvex, addr 0x46fa8cc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TurnAdvancingFrontConvex, addr 0x46fa564, size 0x16c, virtual false, abstract: false, final false
   static inline void TurnAdvancingFrontConvex(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* b,
                                               ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* c);
 

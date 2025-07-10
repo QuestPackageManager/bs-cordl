@@ -151,16 +151,16 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*,::System::Xml::Serialization::XmlRootAttribute*>>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>>*() noexcept;
 
-  /// @brief Method Equals, addr 0x41da7e8, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x41da480, size 0x144, virtual true, abstract: false, final true
   inline bool Equals(::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*> x,
                      ::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*> y);
 
-  /// @brief Method GetHashCode, addr 0x41da92c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x41da5c4, size 0x88, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*> obj);
 
   static inline ::System::Data::Common::ObjectStorage_TempAssemblyComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41da7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41da478, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::IEqualityComparer_1<::System::Collections::Generic::KeyValuePair_2<::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*>>*
@@ -226,69 +226,69 @@ public:
   /// @brief Field s_tempAssemblyCacheLock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_tempAssemblyCacheLock, put = setStaticF_s_tempAssemblyCacheLock)) ::System::Object* s_tempAssemblyCacheLock;
 
-  /// @brief Method Aggregate, addr 0x41d7238, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x41d6ed0, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x41d7268, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x41d6f00, size 0x1b4, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareTo, addr 0x41d7a9c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x41d7734, size 0x1d8, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Object* valueNo1, ::System::Object* valueNo2);
 
-  /// @brief Method CompareValueTo, addr 0x41d78b8, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x41d7550, size 0x1e4, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo1, ::System::Object* value);
 
-  /// @brief Method CompareWithFamilies, addr 0x41d741c, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method CompareWithFamilies, addr 0x41d70b4, size 0x49c, virtual false, abstract: false, final false
   inline int32_t CompareWithFamilies(::System::Object* valueNo1, ::System::Object* valueNo2);
 
-  /// @brief Method ConvertObjectToXml, addr 0x41d9a30, size 0x660, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41d96c8, size 0x660, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x41da090, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41d9d28, size 0x164, virtual true, abstract: false, final false
   inline void ConvertObjectToXml(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method ConvertXmlToObject, addr 0x41d87a4, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41d843c, size 0x558, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method ConvertXmlToObject, addr 0x41d8d70, size 0x6f0, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41d8a08, size 0x6f0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method Copy, addr 0x41d7d68, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x41d7a00, size 0x74, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x41da23c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x41d9ed4, size 0x1fc, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x41d7ddc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x41d7a74, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t recordNo);
 
-  /// @brief Method GetEmptyStorage, addr 0x41da1f4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x41d9e8c, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-  /// @brief Method GetFamily, addr 0x41d7c74, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetFamily, addr 0x41d790c, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Data::Common::ObjectStorage_Families GetFamily(::System::Type* dataType);
 
-  /// @brief Method GetXmlSerializer, addr 0x41d8cfc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetXmlSerializer, addr 0x41d8994, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::XmlSerializer* GetXmlSerializer(::System::Type* type);
 
-  /// @brief Method GetXmlSerializer, addr 0x41d9460, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method GetXmlSerializer, addr 0x41d90f8, size 0x5d0, virtual false, abstract: false, final false
   static inline ::System::Xml::Serialization::XmlSerializer* GetXmlSerializer(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* attribute);
 
-  /// @brief Method IsNull, addr 0x41d7e18, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsNull, addr 0x41d7ab0, size 0x38, virtual true, abstract: false, final false
   inline bool IsNull(int32_t record);
 
   static inline ::System::Data::Common::ObjectStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type);
 
-  /// @brief Method Set, addr 0x41d7e50, size 0x89c, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x41d7ae8, size 0x89c, virtual true, abstract: false, final false
   inline void Set(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x41d86ec, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x41d8384, size 0xb8, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x41da438, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x41da0d0, size 0x1c4, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
-  /// @brief Method VerifyIDynamicMetaObjectProvider, addr 0x41da5fc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method VerifyIDynamicMetaObjectProvider, addr 0x41da294, size 0x12c, virtual false, abstract: false, final false
   static inline void VerifyIDynamicMetaObjectProvider(::System::Type* type);
 
   constexpr bool const& __cordl_internal_get__implementsIXmlSerializable() const;
@@ -303,7 +303,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x41d7090, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41d6d28, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, ::System::Type* type);
 
   static inline ::System::Object* getStaticF_s_defaultValue();

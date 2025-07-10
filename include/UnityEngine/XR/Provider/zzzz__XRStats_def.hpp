@@ -26,10 +26,10 @@ namespace UnityEngine::XR::Provider {
 class CORDL_TYPE XRStats : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryGetStat, addr 0x4aecbe8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetStat, addr 0x4aec880, size 0x5c, virtual false, abstract: false, final false
   static inline bool TryGetStat(::UnityEngine::IntegratedSubsystem* xrSubsystem, ::StringW tag, ::ByRef<float_t> value);
 
-  /// @brief Method TryGetStat_Internal, addr 0x4aecc44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryGetStat_Internal, addr 0x4aec8dc, size 0x54, virtual false, abstract: false, final false
   static inline bool TryGetStat_Internal(::System::IntPtr ptr, ::StringW tag, ::ByRef<float_t> value);
 
 protected:

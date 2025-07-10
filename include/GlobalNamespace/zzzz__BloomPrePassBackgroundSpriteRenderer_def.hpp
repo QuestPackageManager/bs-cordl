@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x39d822c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d7eb8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x39d8224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x39d7eb0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:

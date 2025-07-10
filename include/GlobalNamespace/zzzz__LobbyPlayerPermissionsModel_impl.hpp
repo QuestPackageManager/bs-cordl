@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::get_isPartyOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd270;
+  constexpr static std::size_t addrs = 0x26dcebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerPermissionsModel*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::set_isPartyOwner)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd278;
+  constexpr static std::size_t addrs = 0x26dcec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::get_hasRecommendBeatmapPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd284;
+  constexpr static std::size_t addrs = 0x26dced0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::set_hasRecommendBeatmapPermission)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd28c;
+  constexpr static std::size_t addrs = 0x26dced8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::get_hasRecommendModifiersPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd298;
+  constexpr static std::size_t addrs = 0x26dcee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::set_hasRecommendModifiersPermission)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd2a0;
+  constexpr static std::size_t addrs = 0x26dceec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::get_hasKickVotePermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd2ac;
+  constexpr static std::size_t addrs = 0x26dcef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerPermissionsModel*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::set_hasKickVotePermission)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd2b4;
+  constexpr static std::size_t addrs = 0x26dcf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::get_hasInvitePermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd2c0;
+  constexpr static std::size_t addrs = 0x26dcf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerPermissionsModel*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::set_hasInvitePermission)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26dd2c8;
+  constexpr static std::size_t addrs = 0x26dcf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(::System::Action*)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::add_permissionsChangedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26dd2d4;
+  constexpr static std::size_t addrs = 0x26dcf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(::System::Action*)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::remove_permissionsChangedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26dd370;
+  constexpr static std::size_t addrs = 0x26dcfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::Activate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x26dcb18;
+  constexpr static std::size_t addrs = 0x26dc764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerPermissionsModel*>::get(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::Deactivate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x26dcdac;
+  constexpr static std::size_t addrs = 0x26dc9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerPermissionsModel*>::get(),
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(bool, bool, bool, bool, bool)>(
     &::GlobalNamespace::LobbyPlayerPermissionsModel::SetPlayerPermissions)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x26dd40c;
+  constexpr static std::size_t addrs = 0x26dd058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)(
     ::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*)>(&::GlobalNamespace::LobbyPlayerPermissionsModel::HandleMenuRpcManagerSetPlayersPermissionConfiguration)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x26dd450;
+  constexpr static std::size_t addrs = 0x26dd09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyPlayerPermissionsModel::*)()>(&::GlobalNamespace::LobbyPlayerPermissionsModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dd6fc;
+  constexpr static std::size_t addrs = 0x26dd348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyPlayerPermissionsModel*>::get(), ".ctor",

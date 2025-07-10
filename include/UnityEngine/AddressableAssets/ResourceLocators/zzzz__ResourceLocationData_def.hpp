@@ -105,28 +105,28 @@ public:
 
   constexpr void __cordl_internal_set_m_ResourceType(::UnityEngine::ResourceManagement::Util::SerializedType value);
 
-  /// @brief Method .ctor, addr 0x44fe394, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fe02c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
 
-  /// @brief Method get_Data, addr 0x44fe2a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x44fdf40, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_Dependencies, addr 0x44fe294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dependencies, addr 0x44fdf2c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Dependencies();
 
-  /// @brief Method get_InternalId, addr 0x44fe284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalId, addr 0x44fdf1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Keys, addr 0x44fe27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x44fdf14, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Keys();
 
-  /// @brief Method get_Provider, addr 0x44fe28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Provider, addr 0x44fdf24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_ResourceType, addr 0x44fe29c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceType, addr 0x44fdf34, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method set_Data, addr 0x44fe2e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x44fdf80, size 0xac, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
 protected:

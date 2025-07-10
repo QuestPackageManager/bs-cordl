@@ -50,7 +50,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x3bfcab8, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3bfc750, size 0x410, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__difficultiesText() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method .ctor, addr 0x3bfcec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfcb60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -59,20 +59,20 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRNotifications__CreateNotification : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406c050, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406bce8, size 0x164, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText, ::OVR::OpenVR::EVRNotificationStyle style,
                                              ::ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ::ByRef<uint32_t> pNotificationId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406c1b4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406be4c, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError EndInvoke(::ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ::ByRef<uint32_t> pNotificationId, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c038, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406bcd0, size 0x18, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
                                                     ::OVR::OpenVR::EVRNotificationStyle style, ::ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ::ByRef<uint32_t> pNotificationId);
 
   static inline ::OVR::OpenVR::IVRNotifications__CreateNotification* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406bfac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406bc44, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -105,18 +105,18 @@ namespace OVR::OpenVR {
 class CORDL_TYPE IVRNotifications__RemoveNotification : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x406c288, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x406bf20, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t notificationId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x406c30c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x406bfa4, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x406c274, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x406bf0c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError Invoke(uint32_t notificationId);
 
   static inline ::OVR::OpenVR::IVRNotifications__RemoveNotification* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x406c1e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406be80, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

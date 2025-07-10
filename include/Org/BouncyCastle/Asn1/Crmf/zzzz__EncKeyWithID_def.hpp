@@ -53,7 +53,7 @@ public:
   /// @brief Field privKeyInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_privKeyInfo, put = __cordl_internal_set_privKeyInfo)) ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo;
 
-  /// @brief Method GetInstance, addr 0x23138fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x231398c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo);
@@ -64,7 +64,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncKeyWithID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2313bc8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2313c58, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_identifier() const;
@@ -79,28 +79,28 @@ public:
 
   constexpr void __cordl_internal_set_privKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x2313aac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2313b3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo);
 
-  /// @brief Method .ctor, addr 0x2313b00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2313b90, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
 
-  /// @brief Method .ctor, addr 0x2313ad4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2313b64, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::DerUtf8String* str);
 
-  /// @brief Method .ctor, addr 0x23139a0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2313a30, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HasIdentifier, addr 0x2313b34, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasIdentifier, addr 0x2313bc4, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasIdentifier();
 
-  /// @brief Method get_Identifier, addr 0x2313bc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x2313c50, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Identifier();
 
-  /// @brief Method get_IsIdentifierUtf8String, addr 0x2313b44, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_IsIdentifierUtf8String, addr 0x2313bd4, size 0x7c, virtual true, abstract: false, final false
   inline bool get_IsIdentifierUtf8String();
 
-  /// @brief Method get_PrivateKey, addr 0x2313b2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x2313bbc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* get_PrivateKey();
 
 protected:

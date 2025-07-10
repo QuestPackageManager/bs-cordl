@@ -33,7 +33,7 @@ public:
   /// @brief Field _typeName, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName)) ::StringW _typeName;
 
-  /// @brief Method GetObjectData, addr 0x3e07280, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3e06f18, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TypeInitializationException* New_ctor();
@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set__typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e070ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e06d84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e07144, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e06ddc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e071c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e06e5c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e071fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e06e94, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_TypeName, addr 0x3e07388, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x3e07020, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:

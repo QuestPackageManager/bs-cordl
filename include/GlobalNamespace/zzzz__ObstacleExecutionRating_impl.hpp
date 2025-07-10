@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleExecutionRating_Rating (::GlobalNamespace::ObstacleExecutionRating::*)()>(
     &::GlobalNamespace::ObstacleExecutionRating::get_rating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e49a8;
+  constexpr static std::size_t addrs = 0x26e45f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleExecutionRating*>::get(), "get_rating",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleExecutionRating::*)(float_t, ::GlobalNamespace::ObstacleExecutionRating_Rating)>(
     &::GlobalNamespace::ObstacleExecutionRating::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26e49b0;
+  constexpr static std::size_t addrs = 0x26e45fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

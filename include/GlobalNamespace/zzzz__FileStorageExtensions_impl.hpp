@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a48b8;
+  constexpr static std::size_t addrs = 0x22a4948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass1_0::_SaveFile_b__0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22a4de8;
+  constexpr static std::size_t addrs = 0x22a4e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a4994;
+  constexpr static std::size_t addrs = 0x22a4a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass2_0::_LoadFile_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22a4ea4;
+  constexpr static std::size_t addrs = 0x22a4f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a4a70;
+  constexpr static std::size_t addrs = 0x22a4b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass3_0::_FileExists_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22a4f58;
+  constexpr static std::size_t addrs = 0x22a4fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a4b38;
+  constexpr static std::size_t addrs = 0x22a4bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::FileStorageExtensions___c__DisplayClass4_0::_DeleteFile_b__0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22a500c;
+  constexpr static std::size_t addrs = 0x22a509c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::SaveFile)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x22a47e8;
+  constexpr static std::size_t addrs = 0x22a4878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::LoadFile)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22a48c0;
+  constexpr static std::size_t addrs = 0x22a4950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::FileExists)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22a499c;
+  constexpr static std::size_t addrs = 0x22a4a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IFileStorage*, ::StringW, ::GlobalNamespace::StoragePreference)>(
     &::GlobalNamespace::FileStorageExtensions::DeleteFile)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22a4a78;
+  constexpr static std::size_t addrs = 0x22a4b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IFileStorage*, ::System::Object*, ::StringW, ::GlobalNamespace::StoragePreference,
                                                                                            ::Newtonsoft::Json::JsonSerializerSettings*)>(&::GlobalNamespace::FileStorageExtensions::SaveToJSONFile)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x22a4b40;
+  constexpr static std::size_t addrs = 0x22a4bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -491,7 +491,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::GlobalNamespace::IFileStorage*, ::System::Object*, ::StringW, ::GlobalNamespace::StoragePreference,
                                                       ::Newtonsoft::Json::JsonSerializerSettings*)>(&::GlobalNamespace::FileStorageExtensions::SaveToJSONFileAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x22a4cb4;
+  constexpr static std::size_t addrs = 0x22a4d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

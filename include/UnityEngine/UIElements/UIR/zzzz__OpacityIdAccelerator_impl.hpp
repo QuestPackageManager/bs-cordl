@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::Execute)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x49aa9b0;
+  constexpr static std::size_t addrs = 0x49aa648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::UnityEngine::Color32, int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CreateJob)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49aa6c8;
+  constexpr static std::size_t addrs = 0x49aa360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CompleteJobs)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49aa7bc;
+  constexpr static std::size_t addrs = 0x49aa454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aa854;
+  constexpr static std::size_t addrs = 0x49aa4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::set_disposed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aa85c;
+  constexpr static std::size_t addrs = 0x49aa4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49aa868;
+  constexpr static std::size_t addrs = 0x49aa500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49aa8d4;
+  constexpr static std::size_t addrs = 0x49aa56c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49aa938;
+  constexpr static std::size_t addrs = 0x49aa5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),

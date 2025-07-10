@@ -103,15 +103,15 @@ public:
   __declspec(property(get = __cordl_internal_get__parameterizedCreator,
                       put = __cordl_internal_set__parameterizedCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
-  /// @brief Method CreateTemporaryCollection, addr 0x3ee5828, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method CreateTemporaryCollection, addr 0x3ee54c0, size 0x258, virtual false, abstract: false, final false
   inline ::System::Collections::IList* CreateTemporaryCollection();
 
-  /// @brief Method CreateWrapper, addr 0x3ee5464, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x3ee50fc, size 0x3c4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::IWrappedCollection* CreateWrapper(::System::Object* list);
 
   static inline ::Newtonsoft::Json::Serialization::JsonArrayContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x3ee5350, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method StoreFSharpListCreatorIfNecessary, addr 0x3ee4fe8, size 0x114, virtual false, abstract: false, final false
   inline void StoreFSharpListCreatorIfNecessary(::System::Type* underlyingType);
 
   constexpr bool const& __cordl_internal_get__CanDeserialize_k__BackingField() const;
@@ -192,43 +192,43 @@ public:
 
   constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3ee0244, size 0xd18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edfedc, size 0xd18, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_CanDeserialize, addr 0x3ee5020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanDeserialize, addr 0x3ee4cb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanDeserialize();
 
-  /// @brief Method get_CollectionItemType, addr 0x3ee5000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItemType, addr 0x3ee4c98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_CollectionItemType();
 
-  /// @brief Method get_HasParameterizedCreator, addr 0x3ee50fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreator, addr 0x3ee4d94, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreator();
 
-  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x3ee5110, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_HasParameterizedCreatorInternal, addr 0x3ee4da8, size 0x80, virtual false, abstract: false, final false
   inline bool get_HasParameterizedCreatorInternal();
 
-  /// @brief Method get_IsArray, addr 0x3ee5010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsArray, addr 0x3ee4ca8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsArray();
 
-  /// @brief Method get_IsMultidimensionalArray, addr 0x3ee5008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMultidimensionalArray, addr 0x3ee4ca0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMultidimensionalArray();
 
-  /// @brief Method get_OverrideCreator, addr 0x3ee50f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideCreator, addr 0x3ee4d8c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
 
-  /// @brief Method get_ParameterizedCreator, addr 0x3ee5034, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterizedCreator, addr 0x3ee4ccc, size 0xc0, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
 
-  /// @brief Method get_ShouldCreateWrapper, addr 0x3ee5018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldCreateWrapper, addr 0x3ee4cb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldCreateWrapper();
 
-  /// @brief Method set_CanDeserialize, addr 0x3ee5028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CanDeserialize, addr 0x3ee4cc0, size 0xc, virtual false, abstract: false, final false
   inline void set_CanDeserialize(bool value);
 
-  /// @brief Method set_HasParameterizedCreator, addr 0x3ee5104, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HasParameterizedCreator, addr 0x3ee4d9c, size 0xc, virtual false, abstract: false, final false
   inline void set_HasParameterizedCreator(bool value);
 
-  /// @brief Method set_OverrideCreator, addr 0x3ee0f5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideCreator, addr 0x3ee0bf4, size 0x10, virtual false, abstract: false, final false
   inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:

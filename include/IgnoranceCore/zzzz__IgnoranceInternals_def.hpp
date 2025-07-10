@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::IgnoranceCore::IgnoranceInternals* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3aaa570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaa1fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

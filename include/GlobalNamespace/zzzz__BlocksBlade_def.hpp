@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_velocity(float_t value);
 
-  /// @brief Method .ctor, addr 0x3be92e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be8f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,16 +188,16 @@ public:
 
   static inline ::GlobalNamespace::BlocksBlade* New_ctor();
 
-  /// @brief Method RandomPointOnCircle, addr 0x3be9864, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RandomPointOnCircle, addr 0x3be94fc, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
 
-  /// @brief Method SetUpElement, addr 0x3be92ec, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetUpElement, addr 0x3be8f84, size 0x168, virtual false, abstract: false, final false
   inline void SetUpElement(::GlobalNamespace::BlocksBlade_Element* element, float_t velocity, ::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x3be90b8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be8d50, size 0x22c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3be9454, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3be90ec, size 0x410, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color_k__BackingField() const;
@@ -308,7 +308,7 @@ public:
 
   constexpr void __cordl_internal_set__sizes(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x3be98b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be9548, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorPropertyID();
@@ -319,7 +319,7 @@ public:
 
   static inline int32_t getStaticF__zClipPropertyID();
 
-  /// @brief Method get_color, addr 0x3be90a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3be8d38, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorPropertyID(int32_t value);
@@ -330,7 +330,7 @@ public:
 
   static inline void setStaticF__zClipPropertyID(int32_t value);
 
-  /// @brief Method set_color, addr 0x3be90ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3be8d44, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:

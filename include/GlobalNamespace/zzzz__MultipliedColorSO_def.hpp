@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x26a25c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a220c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x26a2570, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x26a21bc, size 0x50, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -68,7 +68,7 @@ public:
   MultipliedColorSO(MultipliedColorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18935 };
 
   /// @brief Field _baseColor, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____baseColor;

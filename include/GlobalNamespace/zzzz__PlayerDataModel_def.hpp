@@ -47,10 +47,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26f8e8c, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26f8ad8, size 0x228, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26f90b4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26f8d00, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -121,27 +121,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlayerDataModel"
   constexpr operator ::GlobalNamespace::IPlayerDataModel*() noexcept;
 
-  /// @brief Method Inject, addr 0x26f8cac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x26f88f8, size 0x28, virtual false, abstract: false, final false
   inline void Inject(::StringW playerDataJsonString, ::GlobalNamespace::PlayerDataFileModel* playerDataFileModel);
 
   static inline ::GlobalNamespace::PlayerDataModel* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x26f8cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x26f8920, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDisable, addr 0x26f8d00, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26f894c, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ResetData, addr 0x26f8d80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetData, addr 0x26f89cc, size 0x24, virtual false, abstract: false, final false
   inline void ResetData();
 
-  /// @brief Method Save, addr 0x26f8ce0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x26f892c, size 0x20, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method SaveAsync, addr 0x26f8e64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x26f8ab0, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method UndoUnsavedChangesAsync, addr 0x26f8da4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UndoUnsavedChangesAsync, addr 0x26f89f0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UndoUnsavedChangesAsync();
 
   constexpr ::GlobalNamespace::PlayerData* const& __cordl_internal_get__playerData() const;
@@ -156,13 +156,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataFileModel(::GlobalNamespace::PlayerDataFileModel* value);
 
-  /// @brief Method .ctor, addr 0x26f8e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f8ad0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerData, addr 0x26f8ca4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_playerData, addr 0x26f88f0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PlayerData* get_playerData();
 
-  /// @brief Method get_playerDataFileModel, addr 0x26f8c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerDataFileModel, addr 0x26f88e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerDataFileModel* get_playerDataFileModel();
 
   /// @brief Convert to "::GlobalNamespace::IPlayerDataModel"

@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DisplayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48783f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4878088, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::HDROutputSettings* getStaticF__mainDisplay();

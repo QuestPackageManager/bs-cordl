@@ -46,10 +46,10 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::UnixDateTimeConverter* New_ctor(bool allowPreEpoch);
 
-  /// @brief Method ReadJson, addr 0x3f42aa4, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x3f4273c, size 0x41c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x3f42840, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x3f424d8, size 0x264, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr bool const& __cordl_internal_get__AllowPreEpoch_k__BackingField() const;
@@ -58,20 +58,20 @@ public:
 
   constexpr void __cordl_internal_set__AllowPreEpoch_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3f427f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f42490, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3f42814, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f424ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool allowPreEpoch);
 
   static inline ::System::DateTime getStaticF_UnixEpoch();
 
-  /// @brief Method get_AllowPreEpoch, addr 0x3f427e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowPreEpoch, addr 0x3f4247c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowPreEpoch();
 
   static inline void setStaticF_UnixEpoch(::System::DateTime value);
 
-  /// @brief Method set_AllowPreEpoch, addr 0x3f427ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowPreEpoch, addr 0x3f42484, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowPreEpoch(bool value);
 
 protected:

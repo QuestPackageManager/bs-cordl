@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetShadowCullingPlane)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48c6fc4;
+  constexpr static std::size_t addrs = 0x48c6c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetCameraCullingPlane)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48c70a8;
+  constexpr static std::size_t addrs = 0x48c6d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::UnityEngine::Rendering::CameraProperties)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
   constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x48c718c;
+  constexpr static std::size_t addrs = 0x48c6e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::System::Object*)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x48c77f4;
+  constexpr static std::size_t addrs = 0x48c748c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraProperties::*)()>(
     &::UnityEngine::Rendering::CameraProperties::GetHashCode)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x48c78ac;
+  constexpr static std::size_t addrs = 0x48c7544;
 
   inline static ::MethodInfo const* methodInfo() {
 

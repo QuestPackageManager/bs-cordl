@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x3f53010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f52ca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x3f53534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3f531cc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Name();
 
-  /// @brief Method get_Value, addr 0x3f53544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3f531dc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Value();
 
-  /// @brief Method set_Name, addr 0x3f5353c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3f531d4, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method set_Value, addr 0x3f5354c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3f531e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:

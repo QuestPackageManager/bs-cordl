@@ -43,34 +43,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x4855078, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4854d10, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool singleLayerOptimization);
 
-  /// @brief Method CreateHandle, addr 0x4855120, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x4854db8, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method CreateHandleInternal, addr 0x4855358, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x4854ff0, size 0x8c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x48557b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x4855450, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x48554b4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x485514c, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationLayerMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x4855428, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x48550c0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetLayerMaskFromAvatarMask, addr 0x4855550, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetLayerMaskFromAvatarMask, addr 0x48551e8, size 0x214, virtual false, abstract: false, final false
   inline void SetLayerMaskFromAvatarMask(uint32_t layerIndex, ::UnityEngine::AvatarMask* mask);
 
-  /// @brief Method SetLayerMaskFromAvatarMaskInternal, addr 0x4855764, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetLayerMaskFromAvatarMaskInternal, addr 0x48553fc, size 0x54, virtual false, abstract: false, final false
   static inline void SetLayerMaskFromAvatarMaskInternal(::ByRef<::UnityEngine::Playables::PlayableHandle> handle, uint32_t layerIndex, ::UnityEngine::AvatarMask* mask);
 
-  /// @brief Method SetSingleLayerOptimizationInternal, addr 0x48553e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetSingleLayerOptimizationInternal, addr 0x485507c, size 0x44, virtual false, abstract: false, final false
   static inline void SetSingleLayerOptimizationInternal(::ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method .ctor, addr 0x485520c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4854ea4, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle, bool singleLayerOptimization);
 
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable getStaticF_m_NullPlayable();
@@ -81,7 +81,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x4855434, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48550cc, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationLayerMixerPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationLayerMixerPlayable value);

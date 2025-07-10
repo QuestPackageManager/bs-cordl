@@ -43,10 +43,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
 
-  /// @brief Method AddSurrogate, addr 0x3cfe8f8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method AddSurrogate, addr 0x3cfe590, size 0x140, virtual true, abstract: false, final false
   inline void AddSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate);
 
-  /// @brief Method GetSurrogate, addr 0x3cfea74, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x3cfe70c, size 0x1f4, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ::ByRef<::System::Runtime::Serialization::ISurrogateSelector*> selector);
 
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_m_surrogates(::System::Runtime::Serialization::SurrogateHashtable* value);
 
-  /// @brief Method .ctor, addr 0x3cfe888, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfe520, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"

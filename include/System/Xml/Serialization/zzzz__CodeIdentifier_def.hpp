@@ -25,16 +25,16 @@ public:
   /// @brief Field csharp, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_csharp, put = setStaticF_csharp)) ::Microsoft::CSharp::CodeDomProvider* csharp;
 
-  /// @brief Method IsValid, addr 0x4367134, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4366dcc, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t c);
 
-  /// @brief Method IsValidStart, addr 0x43671b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsValidStart, addr 0x4366e48, size 0x64, virtual false, abstract: false, final false
   static inline bool IsValidStart(char16_t c);
 
-  /// @brief Method MakePascal, addr 0x4366e00, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method MakePascal, addr 0x4366a98, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW MakePascal(::StringW identifier);
 
-  /// @brief Method MakeValid, addr 0x4366fb0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method MakeValid, addr 0x4366c48, size 0x184, virtual false, abstract: false, final false
   static inline ::StringW MakeValid(::StringW identifier);
 
   static inline ::Microsoft::CSharp::CodeDomProvider* getStaticF_csharp();

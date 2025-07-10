@@ -145,25 +145,25 @@ public:
 
   constexpr void __cordl_internal_set__minNumberOfNotOwnedPacks(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26f9e34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f9a80, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customDlcPromoBanner, addr 0x26f9e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customDlcPromoBanner, addr 0x26f9a68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_customDlcPromoBanner();
 
-  /// @brief Method get_cutOffTest, addr 0x26f9e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x26f9a50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_defaultPromoInfoId, addr 0x26f9e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPromoInfoId, addr 0x26f9a70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultPromoInfoId();
 
-  /// @brief Method get_dlcPromoPanelType, addr 0x26f9e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dlcPromoPanelType, addr 0x26f9a60, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType get_dlcPromoPanelType();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x26f9e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x26f9a58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method set_defaultPromoInfoId, addr 0x26f9e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultPromoInfoId, addr 0x26f9a78, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultPromoInfoId(::StringW value);
 
 protected:

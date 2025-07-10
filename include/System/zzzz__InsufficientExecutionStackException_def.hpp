@@ -28,10 +28,10 @@ public:
 
   static inline ::System::InsufficientExecutionStackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3de7b90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de7828, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3de7bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de7884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

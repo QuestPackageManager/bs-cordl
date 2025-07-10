@@ -85,16 +85,16 @@ public:
   /// @brief Field win3Name, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_win3Name, put = __cordl_internal_set_win3Name)) ::StringW win3Name;
 
-  /// @brief Method ClearCachedData, addr 0x3db665c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ClearCachedData, addr 0x3db62f4, size 0x48, virtual false, abstract: false, final false
   static inline void ClearCachedData();
 
-  /// @brief Method Equals, addr 0x3db6558, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3db61f0, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetByTerritory, addr 0x3db6288, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetByTerritory, addr 0x3db5f20, size 0xa8, virtual false, abstract: false, final false
   inline bool GetByTerritory(::System::Globalization::CultureInfo* ci);
 
-  /// @brief Method GetHashCode, addr 0x3db6620, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3db62b8, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Globalization::RegionInfo* New_ctor(::System::Globalization::CultureInfo* ci);
@@ -103,7 +103,7 @@ public:
 
   static inline ::System::Globalization::RegionInfo* New_ctor(::StringW name);
 
-  /// @brief Method ToString, addr 0x3db664c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3db62e4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_currencyEnglishName() const;
@@ -166,60 +166,60 @@ public:
 
   constexpr void __cordl_internal_set_win3Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3db5fec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db5c84, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* ci);
 
-  /// @brief Method .ctor, addr 0x3db6180, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db5e18, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(int32_t culture);
 
-  /// @brief Method .ctor, addr 0x3db6330, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db5fc8, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method construct_internal_region_from_name, addr 0x3db6468, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method construct_internal_region_from_name, addr 0x3db6100, size 0x4, virtual false, abstract: false, final false
   inline bool construct_internal_region_from_name(::StringW name);
 
   static inline ::System::Globalization::RegionInfo* getStaticF_currentRegion();
 
-  /// @brief Method get_CurrencyEnglishName, addr 0x3db646c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurrencyEnglishName, addr 0x3db6104, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_CurrencyEnglishName();
 
-  /// @brief Method get_CurrencyNativeName, addr 0x3db6530, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurrencyNativeName, addr 0x3db61c8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_CurrencyNativeName();
 
-  /// @brief Method get_CurrencySymbol, addr 0x3db6474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CurrencySymbol, addr 0x3db610c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_CurrencySymbol();
 
-  /// @brief Method get_CurrentRegion, addr 0x3db5f28, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentRegion, addr 0x3db5bc0, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Globalization::RegionInfo* get_CurrentRegion();
 
-  /// @brief Method get_DisplayName, addr 0x3db647c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x3db6114, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_EnglishName, addr 0x3db6484, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EnglishName, addr 0x3db611c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_EnglishName();
 
-  /// @brief Method get_GeoId, addr 0x3db648c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_GeoId, addr 0x3db6124, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_GeoId();
 
-  /// @brief Method get_ISOCurrencySymbol, addr 0x3db6520, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ISOCurrencySymbol, addr 0x3db61b8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ISOCurrencySymbol();
 
-  /// @brief Method get_IsMetric, addr 0x3db6494, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_IsMetric, addr 0x3db612c, size 0x8c, virtual true, abstract: false, final false
   inline bool get_IsMetric();
 
-  /// @brief Method get_Name, addr 0x3db6538, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3db61d0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NativeName, addr 0x3db6528, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NativeName, addr 0x3db61c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NativeName();
 
-  /// @brief Method get_ThreeLetterISORegionName, addr 0x3db6540, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ThreeLetterISORegionName, addr 0x3db61d8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ThreeLetterISORegionName();
 
-  /// @brief Method get_ThreeLetterWindowsRegionName, addr 0x3db6548, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ThreeLetterWindowsRegionName, addr 0x3db61e0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ThreeLetterWindowsRegionName();
 
-  /// @brief Method get_TwoLetterISORegionName, addr 0x3db6550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TwoLetterISORegionName, addr 0x3db61e8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_TwoLetterISORegionName();
 
   static inline void setStaticF_currentRegion(::System::Globalization::RegionInfo* value);

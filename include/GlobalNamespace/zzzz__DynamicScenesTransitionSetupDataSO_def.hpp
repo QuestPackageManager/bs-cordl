@@ -26,11 +26,11 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DynamicScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method SetScenes, addr 0x229ba88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetScenes, addr 0x229bb18, size 0x8, virtual false, abstract: false, final false
   inline void SetScenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes,
                         ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method .ctor, addr 0x229ba98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229bb28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

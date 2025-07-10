@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__Trademark_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d221b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d21e48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW trademark);
 
 protected:

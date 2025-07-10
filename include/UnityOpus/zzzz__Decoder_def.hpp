@@ -44,16 +44,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Decode, addr 0x3aaaee4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3aaab70, size 0x94, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x3aab244, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3aaaed0, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3aab0e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3aaad74, size 0x40, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x3aab1a4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3aaae30, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3aaad24, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaa9b0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"
@@ -103,7 +103,7 @@ public:
   Decoder(Decoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19084 };
 
   /// @brief Field maximumPacketDuration offset 0xffffffff size 0x4
   static constexpr int32_t maximumPacketDuration{ static_cast<int32_t>(0x1680) };

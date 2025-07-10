@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__declaration(::System::Xml::XmlDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x3f436f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f43388, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method get_Encoding, addr 0x3f43d18, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x3f439b0, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0x3f43d50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x3f439e8, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x3f43cfc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x3f43994, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -65,10 +65,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x3f43d34, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x3f439cc, size 0x1c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x3f43d6c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x3f43a04, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:

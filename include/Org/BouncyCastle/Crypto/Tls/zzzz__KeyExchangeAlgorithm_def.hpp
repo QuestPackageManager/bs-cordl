@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24175e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2417678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

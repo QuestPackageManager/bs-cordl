@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x26b5040, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26b4c8c, size 0x464, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
          ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*, ::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*> beatmapObjectExecutionRatings,
@@ -62,7 +62,7 @@ public:
          float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
          ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction, float_t energy, float_t songTime, bool invalidated);
 
-  /// @brief Method ProcessScore, addr 0x26b54a4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x26b50f0, size 0x114, virtual false, abstract: false, final false
   static inline void ProcessScore(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
                                   ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                   ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);

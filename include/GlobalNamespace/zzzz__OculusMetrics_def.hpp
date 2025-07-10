@@ -37,21 +37,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CaptureFrame, addr 0x3b1db14, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x3b1d7a0, size 0x290, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x3b1db08, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3b1d794, size 0xc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x3b1dda4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x3b1da30, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport();
 
-  /// @brief Method GenerateTableReport, addr 0x3b1df30, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x3b1dbbc, size 0x1c8, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport();
 
   static inline ::GlobalNamespace::OculusMetrics* New_ctor(int32_t initialFrameCapacity);
 
-  /// @brief Method RecordMetrics, addr 0x3b1d654, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method RecordMetrics, addr 0x3b1d2e0, size 0x284, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OculusMetrics* RecordMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__metrics() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b1d8d8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1d564, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialFrameCapacity);
 
   /// @brief Convert to "::System::IDisposable"

@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set_Variable(::System::Linq::Expressions::Interpreter::LocalVariable* value);
 
-  /// @brief Method .ctor, addr 0x40eb4f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eb190, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalVariable* variable, int32_t start, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope* parent);
 
 protected:
@@ -176,21 +176,21 @@ public:
   __declspec(property(get = __cordl_internal_get__variables, put = __cordl_internal_set__variables)) ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<
       ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* _variables;
 
-  /// @brief Method AddClosureVariable, addr 0x40eb768, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method AddClosureVariable, addr 0x40eb400, size 0x110, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalVariable* AddClosureVariable(::System::Linq::Expressions::ParameterExpression* variable);
 
-  /// @brief Method Box, addr 0x40eb53c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x40eb1d4, size 0x154, virtual false, abstract: false, final false
   inline void Box(::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Interpreter::InstructionList* instructions);
 
-  /// @brief Method DefineLocal, addr 0x40eb2a0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method DefineLocal, addr 0x40eaf38, size 0x258, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::LocalDefinition DefineLocal(::System::Linq::Expressions::ParameterExpression* variable, int32_t start);
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariables* New_ctor();
 
-  /// @brief Method TryGetLocalOrClosure, addr 0x40eb698, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method TryGetLocalOrClosure, addr 0x40eb330, size 0xc8, virtual false, abstract: false, final false
   inline bool TryGetLocalOrClosure(::System::Linq::Expressions::ParameterExpression* var, ::ByRef<::System::Linq::Expressions::Interpreter::LocalVariable*> local);
 
-  /// @brief Method UndefineLocal, addr 0x40e5f3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UndefineLocal, addr 0x40e5bd4, size 0xd4, virtual false, abstract: false, final false
   inline void UndefineLocal(::System::Linq::Expressions::Interpreter::LocalDefinition definition, int32_t end);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
@@ -225,13 +225,13 @@ public:
   constexpr void __cordl_internal_set__variables(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::ParameterExpression*,
                                                                                                                        ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>* value);
 
-  /// @brief Method .ctor, addr 0x40eb878, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eb510, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClosureVariables, addr 0x40eb760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureVariables, addr 0x40eb3f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
 
-  /// @brief Method get_LocalCount, addr 0x40eb690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCount, addr 0x40eb328, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalCount();
 
 protected:

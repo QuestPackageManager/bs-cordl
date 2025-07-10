@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(
     ::UnityEngine::Timeline::SignalAsset*, ::ByRef<::UnityEngine::Events::UnityEvent*>)>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::TryGetValue)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48266c8;
+  constexpr static std::size_t addrs = 0x4826360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(
     ::UnityEngine::Timeline::SignalAsset*, ::UnityEngine::Events::UnityEvent*)>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::Append)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x48268b4;
+  constexpr static std::size_t addrs = 0x482654c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(int32_t)>(
     &::UnityEngine::Timeline::SignalReceiver_EventKeyValue::Remove)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4826f40;
+  constexpr static std::size_t addrs = 0x4826bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)(::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalReceiver_EventKeyValue::Remove)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4826afc;
+  constexpr static std::size_t addrs = 0x4826794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* (
     ::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)()>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::get_signals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4827324;
+  constexpr static std::size_t addrs = 0x4826fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver_EventKeyValue*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* (
     ::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)()>(&::UnityEngine::Timeline::SignalReceiver_EventKeyValue::get_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482732c;
+  constexpr static std::size_t addrs = 0x4826fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver_EventKeyValue*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver_EventKeyValue::*)()>(
     &::UnityEngine::Timeline::SignalReceiver_EventKeyValue::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4827260;
+  constexpr static std::size_t addrs = 0x4826ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver_EventKeyValue*>::get(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*, ::System::Object*)>(&::UnityEngine::Timeline::SignalReceiver::OnNotify)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x48265b0;
+  constexpr static std::size_t addrs = 0x4826248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Timeline::SignalAsset*, ::UnityEngine::Events::UnityEvent*)>(&::UnityEngine::Timeline::SignalReceiver::AddReaction)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x482677c;
+  constexpr static std::size_t addrs = 0x4826414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Events::UnityEvent*)>(
     &::UnityEngine::Timeline::SignalReceiver::AddEmptyReaction)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48269d4;
+  constexpr static std::size_t addrs = 0x482666c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalReceiver::Remove)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4826a40;
+  constexpr static std::size_t addrs = 0x48266d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* (
     ::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4826bbc;
+  constexpr static std::size_t addrs = 0x4826854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver*>::get(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Events::UnityEvent* (::UnityEngine::Timeline::SignalReceiver::*)(::UnityEngine::Timeline::SignalAsset*)>(&::UnityEngine::Timeline::SignalReceiver::GetReaction)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4826bd8;
+  constexpr static std::size_t addrs = 0x4826870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4826c08;
+  constexpr static std::size_t addrs = 0x48268a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver*>::get(), "Count",
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(int32_t, ::UnityEngine::Timeline::SignalAsset*)>(
     &::UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x4826c58;
+  constexpr static std::size_t addrs = 0x48268f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(int32_t)>(
     &::UnityEngine::Timeline::SignalReceiver::RemoveAtIndex)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4826ea4;
+  constexpr static std::size_t addrs = 0x4826b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)(int32_t, ::UnityEngine::Events::UnityEvent*)>(
     &::UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4826fd4;
+  constexpr static std::size_t addrs = 0x4826c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Events::UnityEvent* (::UnityEngine::Timeline::SignalReceiver::*)(int32_t)>(
     &::UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4827098;
+  constexpr static std::size_t addrs = 0x4826d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Timeline::SignalAsset> (::UnityEngine::Timeline::SignalReceiver::*)(int32_t)>(
     &::UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x482714c;
+  constexpr static std::size_t addrs = 0x4826de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827200;
+  constexpr static std::size_t addrs = 0x4826e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver*>::get(), "OnEnable",
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalReceiver::*)()>(&::UnityEngine::Timeline::SignalReceiver::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4827204;
+  constexpr static std::size_t addrs = 0x4826e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalReceiver*>::get(), ".ctor",

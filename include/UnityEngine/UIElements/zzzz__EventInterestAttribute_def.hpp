@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x499ec18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499e8b0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> eventTypes);
 
-  /// @brief Method .ctor, addr 0x499ec44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499e8dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
 protected:

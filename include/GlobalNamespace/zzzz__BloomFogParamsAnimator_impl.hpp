@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)(int32_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39d4844;
+  constexpr static std::size_t addrs = 0x39d44d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d498c;
+  constexpr static std::size_t addrs = 0x39d4618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::MoveNext)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x39d4990;
+  constexpr static std::size_t addrs = 0x39d461c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d4a70;
+  constexpr static std::size_t addrs = 0x39d46fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39d4a78;
+  constexpr static std::size_t addrs = 0x39d4704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d4ab0;
+  constexpr static std::size_t addrs = 0x39d473c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d46b4;
+  constexpr static std::size_t addrs = 0x39d4340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(&::GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d47c8;
+  constexpr static std::size_t addrs = 0x39d4454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39d486c;
+  constexpr static std::size_t addrs = 0x39d44f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> (::GlobalNamespace::BloomFogParamsAnimator::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d48b4;
+  constexpr static std::size_t addrs = 0x39d4540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAnimator*>::get(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*)>(
     &::GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39d48d0;
+  constexpr static std::size_t addrs = 0x39d455c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)()>(&::GlobalNamespace::BloomFogParamsAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d4984;
+  constexpr static std::size_t addrs = 0x39d4610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAnimator*>::get(), ".ctor",

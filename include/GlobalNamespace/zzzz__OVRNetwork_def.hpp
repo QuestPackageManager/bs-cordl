@@ -73,10 +73,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRNetwork_FrameHeader {
 public:
   // Declarations
-  /// @brief Method FromBytes, addr 0x403b4e4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method FromBytes, addr 0x403b17c, size 0x130, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRNetwork_FrameHeader FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> arr);
 
-  /// @brief Method ToBytes, addr 0x403b3c4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToBytes, addr 0x403b05c, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes();
 
   // Ctor Parameters []
@@ -134,24 +134,24 @@ public:
   /// @brief Field tcpListener, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpListener, put = __cordl_internal_set_tcpListener)) ::System::Net::Sockets::TcpListener* tcpListener;
 
-  /// @brief Method Broadcast, addr 0x403c498, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method Broadcast, addr 0x403c130, size 0x598, virtual false, abstract: false, final false
   inline void Broadcast(int32_t payloadType, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload);
 
-  /// @brief Method DoAcceptTcpClientCallback, addr 0x403bcf0, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method DoAcceptTcpClientCallback, addr 0x403b988, size 0x540, virtual false, abstract: false, final false
   inline void DoAcceptTcpClientCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method DoWriteDataCallback, addr 0x403ca30, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DoWriteDataCallback, addr 0x403c6c8, size 0xf4, virtual false, abstract: false, final false
   inline void DoWriteDataCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method HasConnectedClient, addr 0x403c230, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method HasConnectedClient, addr 0x403bec8, size 0x268, virtual false, abstract: false, final false
   inline bool HasConnectedClient();
 
   static inline ::GlobalNamespace::OVRNetwork_OVRNetworkTcpServer* New_ctor();
 
-  /// @brief Method StartListening, addr 0x403b614, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method StartListening, addr 0x403b2ac, size 0x520, virtual false, abstract: false, final false
   inline void StartListening(int32_t listeningPort);
 
-  /// @brief Method StopListening, addr 0x403bb34, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method StopListening, addr 0x403b7cc, size 0x1bc, virtual false, abstract: false, final false
   inline void StopListening();
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* const& __cordl_internal_get_clients() const;
@@ -172,7 +172,7 @@ public:
 
   constexpr void __cordl_internal_set_tcpListener(::System::Net::Sockets::TcpListener* value);
 
-  /// @brief Method .ctor, addr 0x403cb24, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403c7bc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,21 +309,21 @@ public:
   /// @brief Field tcpClient, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_tcpClient, put = __cordl_internal_set_tcpClient)) ::System::Net::Sockets::TcpClient* tcpClient;
 
-  /// @brief Method Connect, addr 0x403cc08, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x403c8a0, size 0x178, virtual false, abstract: false, final false
   inline void Connect(int32_t listeningPort);
 
-  /// @brief Method ConnectCallback, addr 0x403cd80, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ConnectCallback, addr 0x403ca18, size 0x300, virtual false, abstract: false, final false
   inline void ConnectCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method Disconnect, addr 0x403d080, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x403cd18, size 0x238, virtual false, abstract: false, final false
   inline void Disconnect();
 
   static inline ::GlobalNamespace::OVRNetwork_OVRNetworkTcpClient* New_ctor();
 
-  /// @brief Method OnReadDataCallback, addr 0x403d4cc, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method OnReadDataCallback, addr 0x403d164, size 0x4d4, virtual false, abstract: false, final false
   inline void OnReadDataCallback(::System::IAsyncResult* ar);
 
-  /// @brief Method Tick, addr 0x403d2b8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x403cf50, size 0x214, virtual false, abstract: false, final false
   inline void Tick();
 
   constexpr ::System::Action* const& __cordl_internal_get_connectionStateChangedCallback() const;
@@ -368,13 +368,13 @@ public:
 
   constexpr void __cordl_internal_set_tcpClient(::System::Net::Sockets::TcpClient* value);
 
-  /// @brief Method .ctor, addr 0x403d9a0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403d638, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Connected, addr 0x403cbf4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x403c88c, size 0x14, virtual false, abstract: false, final false
   inline bool get_Connected();
 
-  /// @brief Method get_connectionState, addr 0x403cbcc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_connectionState, addr 0x403c864, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRNetworkTcpClient_OVRNetwork_ConnectionState get_connectionState();
 
 protected:
@@ -450,7 +450,7 @@ public:
 
   static inline ::GlobalNamespace::OVRNetwork* New_ctor();
 
-  /// @brief Method .ctor, addr 0x403b3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x403b054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

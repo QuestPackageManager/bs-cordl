@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*)>(
     &::System::Data::UnaryNode::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x417d9a8;
+  constexpr static std::size_t addrs = 0x417d640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::UnaryNode::Bind)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x417d9d8;
+  constexpr static std::size_t addrs = 0x417d670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x417da00;
+  constexpr static std::size_t addrs = 0x417d698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x417da14;
+  constexpr static std::size_t addrs = 0x417d6ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417e258;
+  constexpr static std::size_t addrs = 0x417def0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(int32_t, ::System::Object*)>(
     &::System::Data::UnaryNode::EvalUnaryOp)> {
   constexpr static std::size_t size = 0x804;
-  constexpr static std::size_t addrs = 0x417da54;
+  constexpr static std::size_t addrs = 0x417d6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsConstant)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417e278;
+  constexpr static std::size_t addrs = 0x417df10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417e298;
+  constexpr static std::size_t addrs = 0x417df30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417e2b8;
+  constexpr static std::size_t addrs = 0x417df50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417e2d8;
+  constexpr static std::size_t addrs = 0x417df70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::UnaryNode::DependsOn)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x417e2f8;
+  constexpr static std::size_t addrs = 0x417df90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Optimize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x417e31c;
+  constexpr static std::size_t addrs = 0x417dfb4;
 
   inline static ::MethodInfo const* methodInfo() {
 

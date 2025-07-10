@@ -306,7 +306,7 @@ public:
 
   template <typename T> using __c__DisplayClass0_0_1 = ::Oculus::Platform::OculusPlatformExtensions___c__DisplayClass0_0_1<T>;
 
-  /// @brief Method GetAwaiter, addr 0x3f5ad34, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x3f5a9cc, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

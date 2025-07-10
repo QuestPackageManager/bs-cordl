@@ -45,15 +45,15 @@ public:
   /// @brief Field _sabersAreClashing, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
-  /// @brief Method AreSabersClashing, addr 0x3be7190, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AreSabersClashing, addr 0x3be6e28, size 0x164, virtual false, abstract: false, final false
   inline bool AreSabersClashing(::ByRef<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method Init, addr 0x3beb6d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3beb370, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method SegmentToSegmentDist, addr 0x3beb6f4, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method SegmentToSegmentDist, addr 0x3beb38c, size 0x268, virtual false, abstract: false, final false
   inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB,
                                       ::ByRef<::UnityEngine::Vector3> inbetweenPoint);
 
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  /// @brief Method .ctor, addr 0x3beb95c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3beb5f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

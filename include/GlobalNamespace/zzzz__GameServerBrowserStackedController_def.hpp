@@ -18,15 +18,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameServerBrowserStackedController : public ::HMUI::StackedController {
 public:
   // Declarations
-  /// @brief Method DidActivate, addr 0x3b6cb40, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6c7d8, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b6cb44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b6c7dc, size 0x4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::GameServerBrowserStackedController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b6cb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6c7e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

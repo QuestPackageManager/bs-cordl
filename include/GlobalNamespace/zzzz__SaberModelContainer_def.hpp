@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_trailTintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3bebe84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebb1c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3bebea4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebb3c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color trailTintColor);
 
 protected:
@@ -110,7 +110,7 @@ public:
 
   static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
 
-  /// @brief Method Start, addr 0x3bebbfc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3beb894, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
 
-  /// @brief Method .ctor, addr 0x3bebe1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebab4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

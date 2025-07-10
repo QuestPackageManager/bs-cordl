@@ -39,25 +39,25 @@ public:
 
   __declspec(property(get = get_thisCollider)) ::UnityW<::UnityEngine::Collider> thisCollider;
 
-  /// @brief Method .ctor, addr 0x48f629c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f5f34, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 impulse, float_t separation, int32_t thisInstanceID, int32_t otherInstenceID);
 
-  /// @brief Method get_impulse, addr 0x490ef10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x490eba8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_normal, addr 0x490ef04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x490eb9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_otherCollider, addr 0x490ef94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_otherCollider, addr 0x490ec2c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
 
-  /// @brief Method get_point, addr 0x490eef8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x490eb90, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_separation, addr 0x490f00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x490eca4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
-  /// @brief Method get_thisCollider, addr 0x490ef1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_thisCollider, addr 0x490ebb4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
 
   // Ctor Parameters []

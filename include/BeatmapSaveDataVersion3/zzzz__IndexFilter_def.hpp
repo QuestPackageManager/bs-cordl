@@ -77,13 +77,13 @@ public:
 
   __declspec(property(get = get_type)) ::BeatmapSaveDataCommon::IndexFilterType type;
 
-  /// @brief Method CreateDivisionIndexFilter, addr 0x270a1ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateDivisionIndexFilter, addr 0x2709e38, size 0x80, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion3::IndexFilter* CreateDivisionIndexFilter(int32_t numberOfSections, int32_t divisionIdx, bool reversed);
 
-  /// @brief Method CreateForExtension, addr 0x270a2ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateForExtension, addr 0x2709f38, size 0x68, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion3::IndexFilter* CreateForExtension();
 
-  /// @brief Method CreateStepFilter, addr 0x270a22c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateStepFilter, addr 0x2709eb8, size 0x80, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion3::IndexFilter* CreateStepFilter(int32_t offset, int32_t step, bool reversed);
 
   static inline ::BeatmapSaveDataVersion3::IndexFilter* New_ctor(::BeatmapSaveDataVersion3::IndexFilter* other);
@@ -146,38 +146,38 @@ public:
 
   constexpr void __cordl_internal_set_t(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270a158, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2709de4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* other);
 
-  /// @brief Method .ctor, addr 0x270a0d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2709d64, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::IndexFilterType type, int32_t param0, int32_t param1, bool reversed, ::BeatmapSaveDataCommon::IndexFilterRandomType random, int32_t seed, int32_t chunks,
                     float_t limit, ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType limitAlsoAffectsType);
 
-  /// @brief Method get_chunks, addr 0x270a0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunks, addr 0x2709d3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunks();
 
-  /// @brief Method get_limit, addr 0x270a0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x2709d44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method get_limitAlsoAffectsType, addr 0x270a0c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limitAlsoAffectsType, addr 0x2709d4c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType get_limitAlsoAffectsType();
 
-  /// @brief Method get_param0, addr 0x270a090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_param0, addr 0x2709d1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_param0();
 
-  /// @brief Method get_param1, addr 0x270a098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_param1, addr 0x2709d24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_param1();
 
-  /// @brief Method get_random, addr 0x270a0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_random, addr 0x2709d54, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::IndexFilterRandomType get_random();
 
-  /// @brief Method get_reversed, addr 0x270a0a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_reversed, addr 0x2709d2c, size 0x10, virtual false, abstract: false, final false
   inline bool get_reversed();
 
-  /// @brief Method get_seed, addr 0x270a0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_seed, addr 0x2709d5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_seed();
 
-  /// @brief Method get_type, addr 0x270a088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x2709d14, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::IndexFilterType get_type();
 
 protected:

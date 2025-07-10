@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PickerOptions::*)()>(&::UnityEngine::ProBuilder::PickerOptions::get_depthTest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472e750;
+  constexpr static std::size_t addrs = 0x472e3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PickerOptions>::get(), "get_depthTest",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PickerOptions::*)(bool)>(&::UnityEngine::ProBuilder::PickerOptions::set_depthTest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x472e758;
+  constexpr static std::size_t addrs = 0x472e3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::RectSelectMode (::UnityEngine::ProBuilder::PickerOptions::*)()>(
     &::UnityEngine::ProBuilder::PickerOptions::get_rectSelectMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472e764;
+  constexpr static std::size_t addrs = 0x472e3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PickerOptions>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::PickerOptions::*)(::UnityEngine::ProBuilder::RectSelectMode)>(
     &::UnityEngine::ProBuilder::PickerOptions::set_rectSelectMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472e76c;
+  constexpr static std::size_t addrs = 0x472e404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::PickerOptions (*)()>(&::UnityEngine::ProBuilder::PickerOptions::get_Default)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x472e774;
+  constexpr static std::size_t addrs = 0x472e40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::PickerOptions>::get(), "get_Default",
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PickerOptions::*)(::System::Object*)>(
     &::UnityEngine::ProBuilder::PickerOptions::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x472e7cc;
+  constexpr static std::size_t addrs = 0x472e464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::PickerOptions::*)(::UnityEngine::ProBuilder::PickerOptions)>(
     &::UnityEngine::ProBuilder::PickerOptions::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x472e874;
+  constexpr static std::size_t addrs = 0x472e50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::PickerOptions::*)()>(&::UnityEngine::ProBuilder::PickerOptions::GetHashCode)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x472e914;
+  constexpr static std::size_t addrs = 0x472e5ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::PickerOptions, ::UnityEngine::ProBuilder::PickerOptions)>(
     &::UnityEngine::ProBuilder::PickerOptions::op_Equality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x472e9b4;
+  constexpr static std::size_t addrs = 0x472e64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::PickerOptions, ::UnityEngine::ProBuilder::PickerOptions)>(
     &::UnityEngine::ProBuilder::PickerOptions::op_Inequality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x472ea20;
+  constexpr static std::size_t addrs = 0x472e6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

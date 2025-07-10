@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Scripting::AlwaysLinkAssemblyAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48c03b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c0050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

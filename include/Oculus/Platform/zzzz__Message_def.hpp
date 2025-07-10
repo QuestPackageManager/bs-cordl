@@ -253,18 +253,18 @@ namespace Oculus::Platform {
 class CORDL_TYPE Message_Callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3f7d81c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3f7d4b4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Oculus::Platform::Message* message, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3f7d83c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3f7d4d4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3f7d808, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3f7d4a0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Oculus::Platform::Message* message);
 
   static inline ::Oculus::Platform::Message_Callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3f57e38, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f57ad0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -888,18 +888,18 @@ namespace Oculus::Platform {
 class CORDL_TYPE Message_ExtraMessageTypesHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3f7d8e8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3f7d580, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr messageHandle, ::Oculus::Platform::Message_MessageType message_type, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3f7d9a0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3f7d638, size 0xc, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Message* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3f7d8d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3f7d56c, size 0x14, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Message* Invoke(::System::IntPtr messageHandle, ::Oculus::Platform::Message_MessageType message_type);
 
   static inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3f7d848, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7d4e0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -957,219 +957,219 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::Oculus::Platform::Message_MessageType type;
 
-  /// @brief Method Finalize, addr 0x3f7a194, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f79e2c, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetAbuseReportRecording, addr 0x3f7a1c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAbuseReportRecording, addr 0x3f79e5c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AbuseReportRecording* GetAbuseReportRecording();
 
-  /// @brief Method GetAchievementDefinitions, addr 0x3f7a1cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementDefinitions, addr 0x3f79e64, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementDefinitionList* GetAchievementDefinitions();
 
-  /// @brief Method GetAchievementProgressList, addr 0x3f7a1d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementProgressList, addr 0x3f79e6c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();
 
-  /// @brief Method GetAchievementUpdate, addr 0x3f7a1dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementUpdate, addr 0x3f79e74, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
 
-  /// @brief Method GetAppDownloadProgressResult, addr 0x3f7a1e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadProgressResult, addr 0x3f79e7c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadProgressResult* GetAppDownloadProgressResult();
 
-  /// @brief Method GetAppDownloadResult, addr 0x3f7a1ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAppDownloadResult, addr 0x3f79e84, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AppDownloadResult* GetAppDownloadResult();
 
-  /// @brief Method GetApplicationInviteList, addr 0x3f7a1f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationInviteList, addr 0x3f79e8c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationInviteList* GetApplicationInviteList();
 
-  /// @brief Method GetApplicationVersion, addr 0x3f7a1fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x3f79e94, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetAssetDetails, addr 0x3f7a204, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetails, addr 0x3f79e9c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetails* GetAssetDetails();
 
-  /// @brief Method GetAssetDetailsList, addr 0x3f7a20c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetailsList, addr 0x3f79ea4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
 
-  /// @brief Method GetAssetFileDeleteResult, addr 0x3f7a214, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDeleteResult, addr 0x3f79eac, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDeleteResult* GetAssetFileDeleteResult();
 
-  /// @brief Method GetAssetFileDownloadCancelResult, addr 0x3f7a21c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadCancelResult, addr 0x3f79eb4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadCancelResult* GetAssetFileDownloadCancelResult();
 
-  /// @brief Method GetAssetFileDownloadResult, addr 0x3f7a224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadResult, addr 0x3f79ebc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadResult* GetAssetFileDownloadResult();
 
-  /// @brief Method GetAssetFileDownloadUpdate, addr 0x3f7a22c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadUpdate, addr 0x3f79ec4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetAssetFileDownloadUpdate();
 
-  /// @brief Method GetAvatarEditorResult, addr 0x3f7a234, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAvatarEditorResult, addr 0x3f79ecc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AvatarEditorResult* GetAvatarEditorResult();
 
-  /// @brief Method GetBlockedUserList, addr 0x3f7a23c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockedUserList, addr 0x3f79ed4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::BlockedUserList* GetBlockedUserList();
 
-  /// @brief Method GetChallenge, addr 0x3f7a244, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetChallenge, addr 0x3f79edc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetChallengeEntryList, addr 0x3f7a24c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetChallengeEntryList, addr 0x3f79ee4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeEntryList* GetChallengeEntryList();
 
-  /// @brief Method GetChallengeList, addr 0x3f7a254, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetChallengeList, addr 0x3f79eec, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeList* GetChallengeList();
 
-  /// @brief Method GetDataStore, addr 0x3f7a25c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDataStore, addr 0x3f79ef4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataStore();
 
-  /// @brief Method GetDestinationList, addr 0x3f7a264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDestinationList, addr 0x3f79efc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::DestinationList* GetDestinationList();
 
-  /// @brief Method GetError, addr 0x3f7a1ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetError, addr 0x3f79e44, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Error* GetError();
 
-  /// @brief Method GetGroupPresenceJoinIntent, addr 0x3f7a26c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetGroupPresenceJoinIntent, addr 0x3f79f04, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* GetGroupPresenceJoinIntent();
 
-  /// @brief Method GetGroupPresenceLeaveIntent, addr 0x3f7a274, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetGroupPresenceLeaveIntent, addr 0x3f79f0c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* GetGroupPresenceLeaveIntent();
 
-  /// @brief Method GetHttpTransferUpdate, addr 0x3f7a1b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHttpTransferUpdate, addr 0x3f79e4c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::HttpTransferUpdate* GetHttpTransferUpdate();
 
-  /// @brief Method GetInstalledApplicationList, addr 0x3f7a27c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetInstalledApplicationList, addr 0x3f79f14, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InstalledApplicationList* GetInstalledApplicationList();
 
-  /// @brief Method GetInvitePanelResultInfo, addr 0x3f7a284, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetInvitePanelResultInfo, addr 0x3f79f1c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::InvitePanelResultInfo* GetInvitePanelResultInfo();
 
-  /// @brief Method GetLaunchBlockFlowResult, addr 0x3f7a28c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchBlockFlowResult, addr 0x3f79f24, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
 
-  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x3f7a294, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x3f79f2c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
 
-  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x3f7a29c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x3f79f34, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
 
-  /// @brief Method GetLaunchReportFlowResult, addr 0x3f7a2a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchReportFlowResult, addr 0x3f79f3c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
 
-  /// @brief Method GetLaunchUnblockFlowResult, addr 0x3f7a2ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchUnblockFlowResult, addr 0x3f79f44, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* GetLaunchUnblockFlowResult();
 
-  /// @brief Method GetLeaderboardDidUpdate, addr 0x3f7a2b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardDidUpdate, addr 0x3f79f4c, size 0x8, virtual true, abstract: false, final false
   inline bool GetLeaderboardDidUpdate();
 
-  /// @brief Method GetLeaderboardEntryList, addr 0x3f7a2bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardEntryList, addr 0x3f79f54, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
 
-  /// @brief Method GetLeaderboardList, addr 0x3f7a2c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardList, addr 0x3f79f5c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LeaderboardList* GetLeaderboardList();
 
-  /// @brief Method GetLinkedAccountList, addr 0x3f7a2cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLinkedAccountList, addr 0x3f79f64, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
 
-  /// @brief Method GetLivestreamingApplicationStatus, addr 0x3f7a2d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLivestreamingApplicationStatus, addr 0x3f79f6c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* GetLivestreamingApplicationStatus();
 
-  /// @brief Method GetLivestreamingStartResult, addr 0x3f7a2dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLivestreamingStartResult, addr 0x3f79f74, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingStartResult* GetLivestreamingStartResult();
 
-  /// @brief Method GetLivestreamingStatus, addr 0x3f7a2e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLivestreamingStatus, addr 0x3f79f7c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingStatus* GetLivestreamingStatus();
 
-  /// @brief Method GetLivestreamingVideoStats, addr 0x3f7a2ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLivestreamingVideoStats, addr 0x3f79f84, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LivestreamingVideoStats* GetLivestreamingVideoStats();
 
-  /// @brief Method GetMicrophoneAvailabilityState, addr 0x3f7a2f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMicrophoneAvailabilityState, addr 0x3f79f8c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::MicrophoneAvailabilityState* GetMicrophoneAvailabilityState();
 
-  /// @brief Method GetNetSyncConnection, addr 0x3f7a2fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncConnection, addr 0x3f79f94, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncConnection* GetNetSyncConnection();
 
-  /// @brief Method GetNetSyncSessionList, addr 0x3f7a304, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionList, addr 0x3f79f9c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
 
-  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x3f7a30c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x3f79fa4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
 
-  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x3f7a314, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSetSessionPropertyResult, addr 0x3f79fac, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* GetNetSyncSetSessionPropertyResult();
 
-  /// @brief Method GetNetSyncVoipAttenuationValueList, addr 0x3f7a31c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncVoipAttenuationValueList, addr 0x3f79fb4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* GetNetSyncVoipAttenuationValueList();
 
-  /// @brief Method GetOrgScopedID, addr 0x3f7a324, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOrgScopedID, addr 0x3f79fbc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();
 
-  /// @brief Method GetParty, addr 0x3f7a32c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetParty, addr 0x3f79fc4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Party* GetParty();
 
-  /// @brief Method GetPartyID, addr 0x3f7a334, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPartyID, addr 0x3f79fcc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyID* GetPartyID();
 
-  /// @brief Method GetPartyUpdateNotification, addr 0x3f7a33c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPartyUpdateNotification, addr 0x3f79fd4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
 
-  /// @brief Method GetPidList, addr 0x3f7a344, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPidList, addr 0x3f79fdc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetPidList();
 
-  /// @brief Method GetPlatformInitialize, addr 0x3f7a1bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPlatformInitialize, addr 0x3f79e54, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
 
-  /// @brief Method GetProductList, addr 0x3f7a34c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProductList, addr 0x3f79fe4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ProductList* GetProductList();
 
-  /// @brief Method GetPurchase, addr 0x3f7a354, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPurchase, addr 0x3f79fec, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Purchase* GetPurchase();
 
-  /// @brief Method GetPurchaseList, addr 0x3f7a35c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPurchaseList, addr 0x3f79ff4, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PurchaseList* GetPurchaseList();
 
-  /// @brief Method GetRejoinDialogResult, addr 0x3f7a364, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRejoinDialogResult, addr 0x3f79ffc, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::RejoinDialogResult* GetRejoinDialogResult();
 
-  /// @brief Method GetSdkAccountList, addr 0x3f7a36c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSdkAccountList, addr 0x3f7a004, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
 
-  /// @brief Method GetSendInvitesResult, addr 0x3f7a374, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSendInvitesResult, addr 0x3f7a00c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SendInvitesResult* GetSendInvitesResult();
 
-  /// @brief Method GetShareMediaResult, addr 0x3f7a37c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetShareMediaResult, addr 0x3f7a014, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ShareMediaResult* GetShareMediaResult();
 
-  /// @brief Method GetString, addr 0x3f7a384, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x3f7a01c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetSystemVoipState, addr 0x3f7a38c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSystemVoipState, addr 0x3f7a024, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
 
-  /// @brief Method GetUser, addr 0x3f7a394, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUser, addr 0x3f7a02c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::User* GetUser();
 
-  /// @brief Method GetUserAccountAgeCategory, addr 0x3f7a39c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUserAccountAgeCategory, addr 0x3f7a034, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetUserAccountAgeCategory();
 
-  /// @brief Method GetUserCapabilityList, addr 0x3f7a3a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUserCapabilityList, addr 0x3f7a03c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserCapabilityList* GetUserCapabilityList();
 
-  /// @brief Method GetUserDataStoreUpdateResponse, addr 0x3f7a3ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUserDataStoreUpdateResponse, addr 0x3f7a044, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* GetUserDataStoreUpdateResponse();
 
-  /// @brief Method GetUserList, addr 0x3f7a3b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUserList, addr 0x3f7a04c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserList* GetUserList();
 
-  /// @brief Method GetUserProof, addr 0x3f7a3bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUserProof, addr 0x3f7a054, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserProof* GetUserProof();
 
-  /// @brief Method GetUserReportID, addr 0x3f7a3c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUserReportID, addr 0x3f7a05c, size 0x8, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserReportID* GetUserReportID();
 
   static inline ::Oculus::Platform::Message* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method ParseMessageHandle, addr 0x3f7a3cc, size 0x1800, virtual false, abstract: false, final false
+  /// @brief Method ParseMessageHandle, addr 0x3f7a064, size 0x1800, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message* ParseMessageHandle(::System::IntPtr messageHandle);
 
-  /// @brief Method PopMessage, addr 0x3f5cab8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PopMessage, addr 0x3f5c750, size 0xd4, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message* PopMessage();
 
   constexpr ::Oculus::Platform::Models::Error* const& __cordl_internal_get_error() const;
@@ -1190,26 +1190,26 @@ public:
 
   constexpr void __cordl_internal_set_type(::Oculus::Platform::Message_MessageType value);
 
-  /// @brief Method .ctor, addr 0x3f79ee8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f79b80, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* getStaticF__HandleExtraMessageTypes_k__BackingField();
 
-  /// @brief Method get_HandleExtraMessageTypes, addr 0x3f7d7c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_HandleExtraMessageTypes, addr 0x3f7d458, size 0x48, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* get_HandleExtraMessageTypes();
 
-  /// @brief Method get_IsError, addr 0x3f58a24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsError, addr 0x3f586bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsError();
 
-  /// @brief Method get_RequestID, addr 0x3f7a1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestID, addr 0x3f79e3c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestID();
 
-  /// @brief Method get_Type, addr 0x3f7a19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3f79e34, size 0x8, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Message_MessageType get_Type();
 
   static inline void setStaticF__HandleExtraMessageTypes_k__BackingField(::Oculus::Platform::Message_ExtraMessageTypesHandler* value);
 
-  /// @brief Method set_HandleExtraMessageTypes, addr 0x3f7d774, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_HandleExtraMessageTypes, addr 0x3f7d40c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_HandleExtraMessageTypes(::Oculus::Platform::Message_ExtraMessageTypesHandler* value);
 
 protected:

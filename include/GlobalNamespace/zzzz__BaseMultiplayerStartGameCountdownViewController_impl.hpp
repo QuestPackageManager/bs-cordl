@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c1e8e8;
+  constexpr static std::size_t addrs = 0x3c1e580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::remove_playerActiveStateChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c1e998;
+  constexpr static std::size_t addrs = 0x3c1e630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(
     ::GlobalNamespace::ILevelGameplaySetupData*)>(&::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3c1ea48;
+  constexpr static std::size_t addrs = 0x3c1e6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(::GlobalNamespace::ILobbyPlayerData*)>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLobbyPlayerData)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c1ebac;
+  constexpr static std::size_t addrs = 0x3c1e844;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidActivate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c1ec6c;
+  constexpr static std::size_t addrs = 0x3c1e904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(bool, bool)>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c1ed04;
+  constexpr static std::size_t addrs = 0x3c1e99c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)()>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c1ed20;
+  constexpr static std::size_t addrs = 0x3c1e9b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)()>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c1ed3c;
+  constexpr static std::size_t addrs = 0x3c1e9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(bool)>(
     &::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::_DidActivate_b__9_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c1ed9c;
+  constexpr static std::size_t addrs = 0x3c1ea34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

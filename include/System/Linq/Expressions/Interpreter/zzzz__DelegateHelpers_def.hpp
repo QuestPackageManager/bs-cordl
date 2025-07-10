@@ -39,10 +39,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::DelegateHelpers___c* New_ctor();
 
-  /// @brief Method <MakeDelegate>b__1_0, addr 0x40fa5e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <MakeDelegate>b__1_0, addr 0x40fa278, size 0x18, virtual false, abstract: false, final false
   inline bool _MakeDelegate_b__1_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x40fa5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40fa270, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::DelegateHelpers___c* getStaticF___9();
@@ -85,7 +85,7 @@ public:
   // Declarations
   using __c = ::System::Linq::Expressions::Interpreter::DelegateHelpers___c;
 
-  /// @brief Method MakeDelegate, addr 0x40e762c, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method MakeDelegate, addr 0x40e72c4, size 0x670, virtual false, abstract: false, final false
   static inline ::System::Type* MakeDelegate(::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
 protected:

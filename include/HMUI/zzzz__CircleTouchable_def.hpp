@@ -41,21 +41,21 @@ public:
   /// @brief Field _minRadius, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get__minRadius, put = __cordl_internal_set__minRadius)) float_t _minRadius;
 
-  /// @brief Method DrawGizmoCircle, addr 0x39f38dc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmoCircle, addr 0x39f3568, size 0xe0, virtual false, abstract: false, final false
   inline void DrawGizmoCircle(::UnityEngine::Vector3 center, float_t radius, int32_t steps);
 
   static inline ::HMUI::CircleTouchable* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x39f37cc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x39f3458, size 0x110, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x39f3678, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39f3304, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Raycast, addr 0x39f3700, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x39f338c, size 0xcc, virtual true, abstract: false, final false
   inline bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method UpdateCachedReferences, addr 0x39f3694, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedReferences, addr 0x39f3320, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__minRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0x39f39bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f3648, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

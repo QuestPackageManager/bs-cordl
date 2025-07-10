@@ -27,21 +27,21 @@ public:
   // Declarations
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x3e6f020, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x3e6ecb8, size 0x54, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x3e6f084, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e6ed1c, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3e6f0e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e6ed78, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::DecoderExceptionFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e6f018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6ecb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxCharCount, addr 0x3e6f07c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x3e6ed14, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:

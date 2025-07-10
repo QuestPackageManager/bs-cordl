@@ -46,10 +46,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x3d195f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x3d19288, size 0x74, virtual false, abstract: false, final false
   inline void __cctor_b__9_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3d195e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d19280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* getStaticF___9();
@@ -99,21 +99,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x3d19138, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3d18dd0, size 0x58, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x3d19190, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x3d18e28, size 0x18c, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x3d1932c, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x3d18fc4, size 0x18c, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x3d190d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d18d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method get_IsCompleted, addr 0x3d190e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x3d18d78, size 0x58, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::IndexFilterType (::BeatmapSaveDataVersion3::IndexFilter::*)()>(
     &::BeatmapSaveDataVersion3::IndexFilter::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a088;
+  constexpr static std::size_t addrs = 0x2709d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_type",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_param0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a090;
+  constexpr static std::size_t addrs = 0x2709d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_param0",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_param1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a098;
+  constexpr static std::size_t addrs = 0x2709d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_param1",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_reversed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x270a0a0;
+  constexpr static std::size_t addrs = 0x2709d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_reversed",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_chunks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a0b0;
+  constexpr static std::size_t addrs = 0x2709d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_chunks",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_limit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a0b8;
+  constexpr static std::size_t addrs = 0x2709d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_limit",
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType (::BeatmapSaveDataVersion3::IndexFilter::*)()>(
     &::BeatmapSaveDataVersion3::IndexFilter::get_limitAlsoAffectsType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a0c0;
+  constexpr static std::size_t addrs = 0x2709d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::IndexFilterRandomType (::BeatmapSaveDataVersion3::IndexFilter::*)()>(
     &::BeatmapSaveDataVersion3::IndexFilter::get_random)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a0c8;
+  constexpr static std::size_t addrs = 0x2709d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_random",
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::IndexFilter::*)()>(&::BeatmapSaveDataVersion3::IndexFilter::get_seed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a0d0;
+  constexpr static std::size_t addrs = 0x2709d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(), "get_seed",
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::BeatmapSaveDataVersion3::IndexFilter::*)(::BeatmapSaveDataCommon::IndexFilterType, int32_t, int32_t, bool, ::BeatmapSaveDataCommon::IndexFilterRandomType, int32_t, int32_t,
                                                                  float_t, ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType)>(&::BeatmapSaveDataVersion3::IndexFilter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x270a0d8;
+  constexpr static std::size_t addrs = 0x2709d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::IndexFilter::*)(::BeatmapSaveDataVersion3::IndexFilter*)>(
     &::BeatmapSaveDataVersion3::IndexFilter::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x270a158;
+  constexpr static std::size_t addrs = 0x2709de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (*)(int32_t, int32_t, bool)>(
     &::BeatmapSaveDataVersion3::IndexFilter::CreateDivisionIndexFilter)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x270a1ac;
+  constexpr static std::size_t addrs = 0x2709e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (*)(int32_t, int32_t, bool)>(
     &::BeatmapSaveDataVersion3::IndexFilter::CreateStepFilter)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x270a22c;
+  constexpr static std::size_t addrs = 0x2709eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (*)()>(&::BeatmapSaveDataVersion3::IndexFilter::CreateForExtension)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x270a2ac;
+  constexpr static std::size_t addrs = 0x2709f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::IndexFilter*>::get(),

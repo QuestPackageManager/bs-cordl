@@ -22,12 +22,12 @@ public:
   /// @brief Field m_RenderFrameInterval, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_RenderFrameInterval, put = setStaticF_m_RenderFrameInterval)) int32_t m_RenderFrameInterval;
 
-  /// @brief Method GetRenderFrameInterval, addr 0x48c4f28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRenderFrameInterval, addr 0x48c4bc0, size 0x58, virtual false, abstract: false, final false
   static inline void GetRenderFrameInterval(::ByRef<int32_t> frameInterval);
 
   static inline int32_t getStaticF_m_RenderFrameInterval();
 
-  /// @brief Method get_renderFrameInterval, addr 0x48c4ed0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_renderFrameInterval, addr 0x48c4b68, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_renderFrameInterval();
 
   static inline void setStaticF_m_RenderFrameInterval(int32_t value);

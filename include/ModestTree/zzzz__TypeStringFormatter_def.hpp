@@ -43,10 +43,10 @@ public:
 
   static inline ::ModestTree::TypeStringFormatter___c* New_ctor();
 
-  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x4af795c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x4af75f4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW _PrettyNameInternal_b__2_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x4af7954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af75ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ModestTree::TypeStringFormatter___c* getStaticF___9();
@@ -92,13 +92,13 @@ public:
   /// @brief Field _prettyNameCache, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__prettyNameCache, put = setStaticF__prettyNameCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _prettyNameCache;
 
-  /// @brief Method GetCSharpTypeName, addr 0x4af7554, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetCSharpTypeName, addr 0x4af71ec, size 0x318, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
-  /// @brief Method PrettyName, addr 0x4af5820, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PrettyName, addr 0x4af54b8, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal, addr 0x4af7100, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method PrettyNameInternal, addr 0x4af6d98, size 0x454, virtual false, abstract: false, final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();

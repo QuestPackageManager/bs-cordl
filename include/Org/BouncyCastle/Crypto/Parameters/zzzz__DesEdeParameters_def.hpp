@@ -19,35 +19,35 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class CORDL_TYPE DesEdeParameters : public ::Org::BouncyCastle::Crypto::Parameters::DesParameters {
 public:
   // Declarations
-  /// @brief Method FixKey, addr 0x23b8bb8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method FixKey, addr 0x23b8c48, size 0x1a4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FixKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method IsReal2Key, addr 0x23b8ffc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsReal2Key, addr 0x23b908c, size 0x64, virtual false, abstract: false, final false
   static inline bool IsReal2Key(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsReal3Key, addr 0x23b8f54, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsReal3Key, addr 0x23b8fe4, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsReal3Key(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsRealEdeKey, addr 0x23b8f2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsRealEdeKey, addr 0x23b8fbc, size 0x28, virtual false, abstract: false, final false
   static inline bool IsRealEdeKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsWeakKey, addr 0x23b8d5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x23b8dec, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method IsWeakKey, addr 0x23b8f10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x23b8fa0, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset);
 
-  /// @brief Method IsWeakKey, addr 0x23b8e80, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsWeakKey, addr 0x23b8f10, size 0x90, virtual false, abstract: false, final false
   static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t offset, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesEdeParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DesEdeParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor, addr 0x23b8d78, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b8e08, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x23b8df4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b8e84, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
 protected:

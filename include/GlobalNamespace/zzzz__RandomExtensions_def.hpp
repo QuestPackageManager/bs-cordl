@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE RandomExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBool, addr 0x229f148, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x229f1d8, size 0x2c, virtual false, abstract: false, final false
   static inline bool GetBool(::System::Random* random);
 
-  /// @brief Method GetRange, addr 0x229f100, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRange, addr 0x229f190, size 0x48, virtual false, abstract: false, final false
   static inline float_t GetRange(::System::Random* random, float_t min, float_t max);
 
 protected:

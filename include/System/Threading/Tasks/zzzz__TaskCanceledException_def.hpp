@@ -45,16 +45,16 @@ public:
 
   constexpr void __cordl_internal_set__canceledTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x3e5ee24, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5eabc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e5ef1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5ebb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e5ee70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5eb08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e5ee78, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5eb10, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
 protected:

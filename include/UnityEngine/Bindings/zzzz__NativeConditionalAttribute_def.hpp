@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4918e10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4918aa8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method set_Condition, addr 0x4918dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x4918a94, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x4918e04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x4918a9c, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
 protected:

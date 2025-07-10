@@ -23,10 +23,10 @@ public:
 
   static inline ::System::Diagnostics::MonitoringDescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor, addr 0x4432d88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4432a20, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
-  /// @brief Method get_Description, addr 0x4432df0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Description, addr 0x4432a88, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
 protected:

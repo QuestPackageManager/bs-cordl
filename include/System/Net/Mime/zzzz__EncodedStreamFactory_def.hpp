@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Net::Mime::EncodedStreamFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4403aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4403744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -33,10 +33,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream_FullReaderStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method Read, addr 0x2675758, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x26757e8, size 0xc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method .ctor, addr 0x2675740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26757d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
 protected:
@@ -81,7 +81,7 @@ public:
   /// @brief Field _oid, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid)) ::StringW _oid;
 
-  /// @brief Method Drain, addr 0x2663aa4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Drain, addr 0x2663b34, size 0x68, virtual false, abstract: false, final false
   inline void Drain();
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::System::IO::Stream* inStream);
@@ -102,19 +102,19 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2675608, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675698, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x2663a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2663b2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x2675688, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675718, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::System::IO::Stream* inStream, int32_t bufSize);
 
-  /// @brief Method get_ContentStream, addr 0x2675750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentStream, addr 0x26757e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_ContentStream();
 
-  /// @brief Method get_ContentType, addr 0x2675748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x26757d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
 protected:

@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method .ctor, addr 0x39c5110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c4d9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x39c5108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x39c4d94, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName get_id();
 
   /// @brief Convert to "::UnityEngine::Playables::INotification"

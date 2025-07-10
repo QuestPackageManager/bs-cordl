@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x3bbb54c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbb1e4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x3bbb544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x3bbb1dc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> get_gameNoteController();
 
 protected:

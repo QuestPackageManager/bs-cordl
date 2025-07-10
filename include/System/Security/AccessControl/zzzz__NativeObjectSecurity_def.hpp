@@ -46,12 +46,12 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE NativeObjectSecurity_ExceptionFromErrorCode : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3cc66c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3cc635c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Exception* Invoke(int32_t errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::System::Object* context);
 
   static inline ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3cc6600, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc6298, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -90,13 +90,13 @@ public:
   __declspec(property(get = __cordl_internal_get_exception_from_error_code,
                       put = __cordl_internal_set_exception_from_error_code)) ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* exception_from_error_code;
 
-  /// @brief Method ClearAccessControlSectionsModified, addr 0x3cc63a8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ClearAccessControlSectionsModified, addr 0x3cc6040, size 0xa4, virtual false, abstract: false, final false
   inline void ClearAccessControlSectionsModified();
 
-  /// @brief Method DefaultExceptionFromErrorCode, addr 0x3cc6490, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DefaultExceptionFromErrorCode, addr 0x3cc6128, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Exception* DefaultExceptionFromErrorCode(int32_t errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::System::Object* context);
 
-  /// @brief Method InternalGet, addr 0x3cc668c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InternalGet, addr 0x3cc6324, size 0x38, virtual true, abstract: false, final false
   inline int32_t InternalGet(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
   static inline ::System::Security::AccessControl::NativeObjectSecurity* New_ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType,
@@ -111,7 +111,7 @@ public:
                                                                                   ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* exceptionFromErrorCode,
                                                                                   ::System::Object* exceptionContext);
 
-  /// @brief Method RaiseExceptionOnFailure, addr 0x3cc6314, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RaiseExceptionOnFailure, addr 0x3cc5fac, size 0x94, virtual false, abstract: false, final false
   inline void RaiseExceptionOnFailure(int32_t errorCode, ::StringW name, ::System::Runtime::InteropServices::SafeHandle* handle, ::System::Object* context);
 
   constexpr ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* const& __cordl_internal_get_exception_from_error_code() const;
@@ -120,14 +120,14 @@ public:
 
   constexpr void __cordl_internal_set_exception_from_error_code(::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* value);
 
-  /// @brief Method .ctor, addr 0x3cc6274, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc5f0c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType,
                     ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* exceptionFromErrorCode, ::System::Object* exceptionContext);
 
-  /// @brief Method .ctor, addr 0x3cc5978, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc5610, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x3cc62a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc5f38, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::System::Security::AccessControl::ResourceType resourceType, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections,
                     ::System::Security::AccessControl::NativeObjectSecurity_ExceptionFromErrorCode* exceptionFromErrorCode, ::System::Object* exceptionContext);
 

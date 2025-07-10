@@ -54,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::OnWillRenderObjectTrigger* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39e6f54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39e6be0, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39e6b7c, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39e6808, size 0x3d8, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__renderQueue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e6f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e6c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

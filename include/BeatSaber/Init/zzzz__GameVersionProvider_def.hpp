@@ -60,10 +60,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2274e5c, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2274eec, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2275208, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2275298, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -128,10 +128,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2275284, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2275314, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22754f8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2275588, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -202,27 +202,27 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method GetBuildId, addr 0x2274c00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetBuildId, addr 0x2274c90, size 0x94, virtual false, abstract: false, final false
   static inline uint64_t GetBuildId();
 
-  /// @brief Method GetBuildTimeGameVersion, addr 0x2274c94, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetBuildTimeGameVersion, addr 0x2274d24, size 0x1c0, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion* GetBuildTimeGameVersion();
 
-  /// @brief Method GetContentVersion, addr 0x227172c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetContentVersion, addr 0x22717bc, size 0xfc, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::GameVersion_Content GetContentVersion();
 
-  /// @brief Method GetVersionAsync, addr 0x2274af4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetVersionAsync, addr 0x2274b84, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* GetVersionAsync();
 
-  /// @brief Method GetVersionInternalAsync, addr 0x2274b18, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetVersionInternalAsync, addr 0x2274ba8, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* GetVersionInternalAsync();
 
-  /// @brief Method Initialize, addr 0x2274a64, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x2274af4, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::BeatSaber::Init::GameVersionProvider* New_ctor();
 
-  /// @brief Method NoDomainReloadInit, addr 0x2274a1c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x2274aac, size 0x48, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   constexpr ::BeatSaber::Init::IPlatformInit* const& __cordl_internal_get__platformInit() const;
@@ -237,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set__versionTask(::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* value);
 
-  /// @brief Method .ctor, addr 0x2274e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2274ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Nullable_1<::BeatSaber::Init::GameVersion_Content> getStaticF__contentVersion();

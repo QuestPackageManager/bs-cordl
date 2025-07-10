@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable___c::*)()>(&::TMPro::TMP_FontFeatureTable___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d6774;
+  constexpr static std::size_t addrs = 0x47d640c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable___c*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__6_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d677c;
+  constexpr static std::size_t addrs = 0x47d6414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_FontFeatureTable___c::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(
     &::TMPro::TMP_FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__6_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d6794;
+  constexpr static std::size_t addrs = 0x47d642c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* (
     ::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d6708;
+  constexpr static std::size_t addrs = 0x47d63a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)(
     ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*)>(&::TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d6710;
+  constexpr static std::size_t addrs = 0x47d63a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47d341c;
+  constexpr static std::size_t addrs = 0x47d30b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(), ".ctor",
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_FontFeatureTable::*)()>(&::TMPro::TMP_FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x47ce8f0;
+  constexpr static std::size_t addrs = 0x47ce588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_FontFeatureTable*>::get(),

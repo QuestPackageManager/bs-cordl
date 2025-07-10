@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::CompilerGeneratedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d185a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1823c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

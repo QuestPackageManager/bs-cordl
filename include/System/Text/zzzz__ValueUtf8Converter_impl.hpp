@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueUtf8Converter::*)(::System::Span_1<uint8_t>)>(
     &::System::Text::ValueUtf8Converter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c8cf08;
+  constexpr static std::size_t addrs = 0x3c8cba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Span_1<uint8_t> (::System::Text::ValueUtf8Converter::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::Text::ValueUtf8Converter::ConvertAndTerminateString)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3c8cf14;
+  constexpr static std::size_t addrs = 0x3c8cbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueUtf8Converter::*)()>(&::System::Text::ValueUtf8Converter::Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c8d1a8;
+  constexpr static std::size_t addrs = 0x3c8ce40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueUtf8Converter>::get(), "Dispose",

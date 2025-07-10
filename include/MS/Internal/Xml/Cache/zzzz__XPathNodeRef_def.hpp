@@ -26,16 +26,16 @@ public:
 
   __declspec(property(get = get_Page)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> Page;
 
-  /// @brief Method GetHashCode, addr 0x430b320, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x430afb8, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x430b304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430af9c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> page, int32_t idx);
 
-  /// @brief Method get_Index, addr 0x430b318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x430afb0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Page, addr 0x430b310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Page, addr 0x430afa8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_Page();
 
   // Ctor Parameters []

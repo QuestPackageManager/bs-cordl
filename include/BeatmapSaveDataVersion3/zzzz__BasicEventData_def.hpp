@@ -59,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270a73c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a3c8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::BeatmapEventType eventType, int32_t value, float_t floatValue);
 
-  /// @brief Method get_eventType, addr 0x270a724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x270a3b0, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::BeatmapEventType get_eventType();
 
-  /// @brief Method get_floatValue, addr 0x270a734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x270a3c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_value, addr 0x270a72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x270a3b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:

@@ -31,7 +31,7 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3c463cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3c46064, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,
@@ -39,7 +39,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3c4632c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c45fc4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

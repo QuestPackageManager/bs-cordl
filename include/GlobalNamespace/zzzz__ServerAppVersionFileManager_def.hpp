@@ -19,18 +19,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE ServerAppVersionFileManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BuildFilePath, addr 0x22e6f18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildFilePath, addr 0x22e6fa8, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW BuildFilePath(::StringW directoryPath);
 
   static inline ::GlobalNamespace::ServerAppVersionFileManager* New_ctor();
 
-  /// @brief Method ReadAppVersion, addr 0x22e6f88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReadAppVersion, addr 0x22e7018, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW ReadAppVersion(::StringW directoryPath);
 
-  /// @brief Method WriteAppVersion, addr 0x22e6efc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteAppVersion, addr 0x22e6f8c, size 0x1c, virtual false, abstract: false, final false
   static inline void WriteAppVersion(::StringW directoryPath, ::StringW appVersion);
 
-  /// @brief Method .ctor, addr 0x22e6f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e702c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

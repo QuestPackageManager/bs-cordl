@@ -164,7 +164,7 @@ public:
 
   static inline ::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0x22c38ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0x22c393c, size 0x6c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
 
   constexpr ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* const& __cordl_internal_get___4__this() const;
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22c383c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c38cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,10 +235,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept;
 
-  /// @brief Method GetPreMasterSecret, addr 0x22c3844, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetPreMasterSecret, addr 0x22c38d4, size 0x68, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecretAsync, addr 0x22c36fc, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method GetPreMasterSecretAsync, addr 0x22c378c, size 0x140, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
@@ -257,10 +257,10 @@ public:
 
   constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22c314c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c31dc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method get_publicKey, addr 0x22c36f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_publicKey, addr 0x22c3784, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
   /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
@@ -314,7 +314,7 @@ public:
 
   static inline ::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0x22c3ad0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0x22c3b60, size 0x6c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
 
   constexpr ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* const& __cordl_internal_get___4__this() const;
@@ -329,7 +329,7 @@ public:
 
   constexpr void __cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22c3a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c3af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -385,10 +385,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept;
 
-  /// @brief Method GetPreMasterSecret, addr 0x22c3a68, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetPreMasterSecret, addr 0x22c3af8, size 0x68, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecretAsync, addr 0x22c3920, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method GetPreMasterSecretAsync, addr 0x22c39b0, size 0x140, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
@@ -407,10 +407,10 @@ public:
 
   constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22c31e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c3270, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method get_publicKey, addr 0x22c3918, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_publicKey, addr 0x22c39a8, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
   /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
@@ -465,12 +465,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x22c3bc0, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22c3c50, size 0xe8, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::DiffieHellmanUtility_OperationTimer* New_ctor(::StringW operationName);
 
-  /// @brief Method Time, addr 0x22c3144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Time, addr 0x22c31d4, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::DiffieHellmanUtility_OperationTimer* Time(::StringW operation);
 
   constexpr ::StringW const& __cordl_internal_get__operationName() const;
@@ -485,7 +485,7 @@ public:
 
   constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0x22c3b3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c3bcc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW operationName);
 
   /// @brief Convert to "::System::IDisposable"
@@ -551,24 +551,24 @@ public:
   /// @brief Field _secureRandom, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__secureRandom, put = setStaticF__secureRandom)) ::Org::BouncyCastle::Security::SecureRandom* _secureRandom;
 
-  /// @brief Method GenerateDiffieHellmanKeys, addr 0x22c2fcc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GenerateDiffieHellmanKeys, addr 0x22c305c, size 0x178, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
 
-  /// @brief Method GenerateElipticalCurveKeys, addr 0x22c2e48, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GenerateElipticalCurveKeys, addr 0x22c2ed8, size 0x184, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
 
-  /// @brief Method GenerateKeys, addr 0x22bf208, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeys, addr 0x22bf298, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::DiffieHellmanUtility_KeyType keyType);
 
-  /// @brief Method GenerateKeysAsync, addr 0x22c2cbc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeysAsync, addr 0x22c2d4c, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*
   GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::DiffieHellmanUtility_KeyType keyType);
 
-  /// @brief Method GetPreMasterSecret, addr 0x22c3274, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetPreMasterSecret, addr 0x22c3304, size 0x184, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecret, addr 0x22c33f8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetPreMasterSecret, addr 0x22c3488, size 0x1c4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 

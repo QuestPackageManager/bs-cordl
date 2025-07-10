@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x3b166dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x3b166cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3b166e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3b16370, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedAudioClip_b__0(::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo* t);
 
 protected:
@@ -185,10 +185,10 @@ public:
   constexpr void __cordl_internal_set__localizedAudioClipInfo(
       ::ArrayW<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b166d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b16360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedAudioClip, addr 0x3b165c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_localizedAudioClip, addr 0x3b1624c, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_localizedAudioClip();
 
 protected:

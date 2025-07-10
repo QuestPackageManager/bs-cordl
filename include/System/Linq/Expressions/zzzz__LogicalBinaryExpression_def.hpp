@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__NodeType_k__BackingField(::System::Linq::Expressions::ExpressionType value);
 
-  /// @brief Method .ctor, addr 0x4096fec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4096c84, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method get_NodeType, addr 0x4097084, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x4096d1c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x4097018, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x4096cb0, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

@@ -39,16 +39,16 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer)) ::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x3ad5fd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x3ad5c64, size 0x18, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                         ::Zenject::DiContainer* diContainer);
 
   static inline ::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad5f08, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad5b94, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ad5e78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad5b04, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  /// @brief Method .ctor, addr 0x3ad5ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad5c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

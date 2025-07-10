@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem::*)()>(
     &::GlobalNamespace::GameObjectKeywordSwitchEffect_GameObjectKeywordItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8d078;
+  constexpr static std::size_t addrs = 0x3b8cd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectKeywordSwitchEffect::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::GameObjectKeywordSwitchEffect::Initialize)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3b8cf2c;
+  constexpr static std::size_t addrs = 0x3b8cbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectKeywordSwitchEffect::*)()>(
     &::GlobalNamespace::GameObjectKeywordSwitchEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8d070;
+  constexpr static std::size_t addrs = 0x3b8cd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameObjectKeywordSwitchEffect*>::get(),

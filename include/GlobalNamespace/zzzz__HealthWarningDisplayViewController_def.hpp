@@ -34,7 +34,7 @@ public:
   /// @brief Field _showShortHealthAndSafety, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get__showShortHealthAndSafety, put = __cordl_internal_set__showShortHealthAndSafety)) bool _showShortHealthAndSafety;
 
-  /// @brief Method DidActivate, addr 0x3c1bb30, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1b7c8, size 0x3c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__showShortHealthAndSafety(bool value);
 
-  /// @brief Method .ctor, addr 0x3c1bb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1b804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

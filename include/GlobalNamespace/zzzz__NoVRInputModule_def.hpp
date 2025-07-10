@@ -53,22 +53,22 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x4aecf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aecbf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onProcessMousePressEvent, addr 0x4aecc98, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onProcessMousePressEvent, addr 0x4aec930, size 0xb0, virtual true, abstract: false, final true
   inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_pointerDidClickEvent, addr 0x4aecdf8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_pointerDidClickEvent, addr 0x4aeca90, size 0xb0, virtual true, abstract: false, final true
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::GlobalNamespace::IVRInputModule"
   constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
-  /// @brief Method remove_onProcessMousePressEvent, addr 0x4aecd48, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onProcessMousePressEvent, addr 0x4aec9e0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_pointerDidClickEvent, addr 0x4aecea8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_pointerDidClickEvent, addr 0x4aecb40, size 0xb0, virtual true, abstract: false, final true
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:

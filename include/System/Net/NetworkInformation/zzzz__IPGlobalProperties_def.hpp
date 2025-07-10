@@ -21,15 +21,15 @@ public:
   // Declarations
   __declspec(property(get = get_DomainName)) ::StringW DomainName;
 
-  /// @brief Method GetIPGlobalProperties, addr 0x43e9a58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetIPGlobalProperties, addr 0x43e96f0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
 
-  /// @brief Method InternalGetIPGlobalProperties, addr 0x43e9aa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetIPGlobalProperties, addr 0x43e973c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
 
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43e9aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e9740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DomainName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

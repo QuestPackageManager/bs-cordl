@@ -22,12 +22,12 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE ByRefParameterExpression : public ::System::Linq::Expressions::TypedParameterExpression {
 public:
   // Declarations
-  /// @brief Method GetIsByRef, addr 0x40bd008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIsByRef, addr 0x40bcca0, size 0x8, virtual true, abstract: false, final false
   inline bool GetIsByRef();
 
   static inline ::System::Linq::Expressions::ByRefParameterExpression* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x40bcf08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bcba0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
 protected:

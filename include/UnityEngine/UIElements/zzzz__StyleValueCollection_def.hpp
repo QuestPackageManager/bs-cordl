@@ -39,21 +39,21 @@ public:
   /// @brief Field m_Values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Values, put = __cordl_internal_set_m_Values)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* m_Values;
 
-  /// @brief Method GetStyleFloat, addr 0x4a8450c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFloat, addr 0x4a841a4, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetStyleFloat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleInt, addr 0x4a84578, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleInt, addr 0x4a84210, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetStyleInt(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleLength, addr 0x4a842b4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleLength, addr 0x4a83f4c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetStyleLength(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   static inline ::UnityEngine::UIElements::StyleValueCollection* New_ctor();
 
-  /// @brief Method SetStyleValue, addr 0x4a845fc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x4a84294, size 0x1ec, virtual false, abstract: false, final false
   inline void SetStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value);
 
-  /// @brief Method TryGetStyleValue, addr 0x4a84328, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryGetStyleValue, addr 0x4a83fc0, size 0x1b8, virtual false, abstract: false, final false
   inline bool TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue> value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* const& __cordl_internal_get_m_Values() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* value);
 
-  /// @brief Method .ctor, addr 0x4a847e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a84480, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

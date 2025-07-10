@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::UI::ExtendedAxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x45ede08, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45edaa0, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x45ede00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45eda98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
 protected:

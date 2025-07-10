@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapFieldAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapFieldAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5b54;
+  constexpr static std::size_t addrs = 0x3ce57ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapFieldAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapFieldAttribute::get_XmlElementName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5b5c;
+  constexpr static std::size_t addrs = 0x3ce57f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapFieldAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapFieldAttribute::IsInteropXmlElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5b64;
+  constexpr static std::size_t addrs = 0x3ce57fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapFieldAttribute::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Metadata::SoapFieldAttribute::SetReflectionObject)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ce5b6c;
+  constexpr static std::size_t addrs = 0x3ce5804;
 
   inline static ::MethodInfo const* methodInfo() {
 

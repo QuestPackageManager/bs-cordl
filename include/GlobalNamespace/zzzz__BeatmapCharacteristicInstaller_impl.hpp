@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::get_assetRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27178f0;
+  constexpr static std::size_t addrs = 0x271757c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2717930;
+  constexpr static std::size_t addrs = 0x27175bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> (*)()>(
         &::GlobalNamespace::BeatmapCharacteristicInstaller::LoadCharacteristicCollectionAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x27179ac;
+  constexpr static std::size_t addrs = 0x2717638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2717a28;
+  constexpr static std::size_t addrs = 0x27176b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicInstaller*>::get(),

@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d6ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6c40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -182,7 +182,7 @@ public:
   constexpr void __cordl_internal_set_localizations(
       ::ArrayW<::GlobalNamespace::UserMessage_MultiplayerStatusData_LocalizedMessage*, ::Array<::GlobalNamespace::UserMessage_MultiplayerStatusData_LocalizedMessage*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d6fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6c38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -301,43 +301,43 @@ public:
 
   constexpr void __cordl_internal_set_user_message(::GlobalNamespace::MultiplayerStatusData_UserMessage* value);
 
-  /// @brief Method .ctor, addr 0x26d6fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6c30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maintenanceEndTime, addr 0x26d6f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceEndTime, addr 0x26d6be8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceEndTime();
 
-  /// @brief Method get_maintenanceStartTime, addr 0x26d6f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maintenanceStartTime, addr 0x26d6bd8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_maintenanceStartTime();
 
-  /// @brief Method get_minimumAppVersion, addr 0x26d6f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumAppVersion, addr 0x26d6bc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_minimumAppVersion();
 
-  /// @brief Method get_useGamelift, addr 0x26d6fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useGamelift, addr 0x26d6c08, size 0x8, virtual false, abstract: false, final false
   inline bool get_useGamelift();
 
-  /// @brief Method get_useXPlatformAuth, addr 0x26d6fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useXPlatformAuth, addr 0x26d6c1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useXPlatformAuth();
 
-  /// @brief Method get_userMessage, addr 0x26d6fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userMessage, addr 0x26d6bf8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerStatusData_UserMessage* get_userMessage();
 
-  /// @brief Method set_maintenanceEndTime, addr 0x26d6fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceEndTime, addr 0x26d6bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceEndTime(int64_t value);
 
-  /// @brief Method set_maintenanceStartTime, addr 0x26d6f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maintenanceStartTime, addr 0x26d6be0, size 0x8, virtual false, abstract: false, final false
   inline void set_maintenanceStartTime(int64_t value);
 
-  /// @brief Method set_minimumAppVersion, addr 0x26d6f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumAppVersion, addr 0x26d6bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumAppVersion(::StringW value);
 
-  /// @brief Method set_useGamelift, addr 0x26d6fc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useGamelift, addr 0x26d6c10, size 0xc, virtual false, abstract: false, final false
   inline void set_useGamelift(bool value);
 
-  /// @brief Method set_useXPlatformAuth, addr 0x26d6fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useXPlatformAuth, addr 0x26d6c24, size 0xc, virtual false, abstract: false, final false
   inline void set_useXPlatformAuth(bool value);
 
-  /// @brief Method set_userMessage, addr 0x26d6fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userMessage, addr 0x26d6c00, size 0x8, virtual false, abstract: false, final false
   inline void set_userMessage(::GlobalNamespace::MultiplayerStatusData_UserMessage* value);
 
 protected:

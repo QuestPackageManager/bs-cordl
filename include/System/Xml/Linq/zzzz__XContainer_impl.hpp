@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer_ContentReader::*)(::System::Xml::Linq::XContainer*)>(
     &::System::Xml::Linq::XContainer_ContentReader::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42489cc;
+  constexpr static std::size_t addrs = 0x4248664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer_ContentReader::*)(
     ::System::Xml::Linq::XContainer*, ::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(&::System::Xml::Linq::XContainer_ContentReader::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x42490f8;
+  constexpr static std::size_t addrs = 0x4248d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XContainer_ContentReader::*)(::System::Xml::Linq::XContainer*, ::System::Xml::XmlReader*)>(
     &::System::Xml::Linq::XContainer_ContentReader::ReadContentFrom)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x42489f4;
+  constexpr static std::size_t addrs = 0x424868c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XContainer_ContentReader::*)(
     ::System::Xml::Linq::XContainer*, ::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(&::System::Xml::Linq::XContainer_ContentReader::ReadContentFrom)> {
   constexpr static std::size_t size = 0xca4;
-  constexpr static std::size_t addrs = 0x42491a0;
+  constexpr static std::size_t addrs = 0x4248e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer__Nodes_d__18::*)(int32_t)>(
     &::System::Xml::Linq::XContainer__Nodes_d__18::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4248000;
+  constexpr static std::size_t addrs = 0x4247c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(
     &::System::Xml::Linq::XContainer__Nodes_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x424a5ac;
+  constexpr static std::size_t addrs = 0x424a244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer__Nodes_d__18*>::get(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(&::System::Xml::Linq::XContainer__Nodes_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x424a5b0;
+  constexpr static std::size_t addrs = 0x424a248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer__Nodes_d__18*>::get(), "MoveNext",
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNode* (::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(
     &::System::Xml::Linq::XContainer__Nodes_d__18::System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424a640;
+  constexpr static std::size_t addrs = 0x424a2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(
     &::System::Xml::Linq::XContainer__Nodes_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x424a648;
+  constexpr static std::size_t addrs = 0x424a2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(
     &::System::Xml::Linq::XContainer__Nodes_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x424a680;
+  constexpr static std::size_t addrs = 0x424a318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XNode*>* (
     ::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(&::System::Xml::Linq::XContainer__Nodes_d__18::System_Collections_Generic_IEnumerable_System_Xml_Linq_XNode__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x424a688;
+  constexpr static std::size_t addrs = 0x424a320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer__Nodes_d__18*>::get(),
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::Linq::XContainer__Nodes_d__18::*)()>(
     &::System::Xml::Linq::XContainer__Nodes_d__18::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x424a724;
+  constexpr static std::size_t addrs = 0x424a3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)()>(&::System::Xml::Linq::XContainer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4246ee8;
+  constexpr static std::size_t addrs = 0x4246b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer*>::get(), ".ctor",
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XContainer*)>(
     &::System::Xml::Linq::XContainer::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4246ef0;
+  constexpr static std::size_t addrs = 0x4246b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -488,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNode* (::System::Xml::Linq::XContainer::*)()>(&::System::Xml::Linq::XContainer::get_LastNode)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x42470e4;
+  constexpr static std::size_t addrs = 0x4246d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer*>::get(), "get_LastNode",
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Object*)>(&::System::Xml::Linq::XContainer::Add)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x4247220;
+  constexpr static std::size_t addrs = 0x4246eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XNode*>* (::System::Xml::Linq::XContainer::*)()>(
     &::System::Xml::Linq::XContainer::Nodes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4247f90;
+  constexpr static std::size_t addrs = 0x4247c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer*>::get(), "Nodes",
@@ -529,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)()>(&::System::Xml::Linq::XContainer::RemoveNodes)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x4248034;
+  constexpr static std::size_t addrs = 0x4247ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer*>::get(), "RemoveNodes",
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XAttribute*)>(
     &::System::Xml::Linq::XContainer::AddAttribute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4248414;
+  constexpr static std::size_t addrs = 0x42480ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XAttribute*)>(
     &::System::Xml::Linq::XContainer::AddAttributeSkipNotify)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4248418;
+  constexpr static std::size_t addrs = 0x42480b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Object*)>(
     &::System::Xml::Linq::XContainer::AddContentSkipNotify)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x4247780;
+  constexpr static std::size_t addrs = 0x4247418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XNode*)>(&::System::Xml::Linq::XContainer::AddNode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4247c4c;
+  constexpr static std::size_t addrs = 0x42478e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XNode*)>(
     &::System::Xml::Linq::XContainer::AddNodeSkipNotify)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x424841c;
+  constexpr static std::size_t addrs = 0x42480b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -616,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::StringW)>(&::System::Xml::Linq::XContainer::AddString)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4247ccc;
+  constexpr static std::size_t addrs = 0x4247964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -630,7 +630,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::StringW)>(&::System::Xml::Linq::XContainer::AddStringSkipNotify)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x424849c;
+  constexpr static std::size_t addrs = 0x4248134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,7 +645,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XNode*)>(
     &::System::Xml::Linq::XContainer::AppendNode)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x42485ec;
+  constexpr static std::size_t addrs = 0x4248284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XNode*)>(
     &::System::Xml::Linq::XContainer::AppendNodeSkipNotify)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4247024;
+  constexpr static std::size_t addrs = 0x4246cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Text::StringBuilder*)>(
     &::System::Xml::Linq::XContainer::AppendText)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x42487f0;
+  constexpr static std::size_t addrs = 0x4248488;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -689,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)()>(&::System::Xml::Linq::XContainer::ConvertTextToNode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4248368;
+  constexpr static std::size_t addrs = 0x4248000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer*>::get(), "ConvertTextToNode",
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*)>(&::System::Xml::Linq::XContainer::GetStringValue)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x424594c;
+  constexpr static std::size_t addrs = 0x42455e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::Linq::XContainer::ReadContentFrom)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x42488d8;
+  constexpr static std::size_t addrs = 0x4248570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -732,7 +732,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::XmlReader*, ::System::Xml::Linq::LoadOptions)>(
     &::System::Xml::Linq::XContainer::ReadContentFrom)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4248fd0;
+  constexpr static std::size_t addrs = 0x4248c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -748,7 +748,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XNode*)>(
     &::System::Xml::Linq::XContainer::RemoveNode)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x4249e44;
+  constexpr static std::size_t addrs = 0x4249adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)()>(&::System::Xml::Linq::XContainer::RemoveNodesSkipNotify)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x42482cc;
+  constexpr static std::size_t addrs = 0x4247f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XContainer*>::get(), "RemoveNodesSkipNotify",
@@ -776,7 +776,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::Linq::XNode*, ::System::Xml::Linq::XNode*)>(
     &::System::Xml::Linq::XContainer::ValidateNode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4249fe0;
+  constexpr static std::size_t addrs = 0x4249c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -790,7 +790,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::StringW)>(&::System::Xml::Linq::XContainer::ValidateString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4249fe4;
+  constexpr static std::size_t addrs = 0x4249c7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -805,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XContainer::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::Linq::XContainer::WriteContentTo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4249fe8;
+  constexpr static std::size_t addrs = 0x4249c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

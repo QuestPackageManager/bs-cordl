@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::TrySetInt)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48a6d88;
+  constexpr static std::size_t addrs = 0x48a6a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::SetInt)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48a6dcc;
+  constexpr static std::size_t addrs = 0x48a6a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::GetInt)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48a6e5c;
+  constexpr static std::size_t addrs = 0x48a6af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::PlayerPrefs::GetInt)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48a6ea0;
+  constexpr static std::size_t addrs = 0x48a6b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::PlayerPrefs::GetString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48a6ee0;
+  constexpr static std::size_t addrs = 0x48a6b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::PlayerPrefs::GetString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48a6f24;
+  constexpr static std::size_t addrs = 0x48a6bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::PlayerPrefs::HasKey)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48a6f90;
+  constexpr static std::size_t addrs = 0x48a6c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

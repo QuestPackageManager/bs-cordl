@@ -41,48 +41,48 @@ public:
 
   __declspec(property(get = get_width)) uint32_t width;
 
-  /// @brief Method GetAudioChannelCount, addr 0x4ae8048, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioChannelCount, addr 0x4ae7ce0, size 0x44, virtual false, abstract: false, final false
   inline uint16_t GetAudioChannelCount(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioLanguage, addr 0x4ae80d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLanguage, addr 0x4ae7d68, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetAudioLanguage(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioSampleRate, addr 0x4ae808c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioSampleRate, addr 0x4ae7d24, size 0x44, virtual false, abstract: false, final false
   inline uint32_t GetAudioSampleRate(uint16_t audioTrackIdx);
 
   static inline ::UnityEngine::Video::VideoClip* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ae7d98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae7a30, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioTrackCount, addr 0x4ae800c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioTrackCount, addr 0x4ae7ca4, size 0x3c, virtual false, abstract: false, final false
   inline uint16_t get_audioTrackCount();
 
-  /// @brief Method get_frameCount, addr 0x4ae7e2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x4ae7ac4, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_frameCount();
 
-  /// @brief Method get_frameRate, addr 0x4ae7e68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate, addr 0x4ae7b00, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_frameRate();
 
-  /// @brief Method get_height, addr 0x4ae7f1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x4ae7bb4, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_height();
 
-  /// @brief Method get_length, addr 0x4ae7ea4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x4ae7b3c, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_length();
 
-  /// @brief Method get_originalPath, addr 0x4ae7df0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_originalPath, addr 0x4ae7a88, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_originalPath();
 
-  /// @brief Method get_pixelAspectRatioDenominator, addr 0x4ae7f94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioDenominator, addr 0x4ae7c2c, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioDenominator();
 
-  /// @brief Method get_pixelAspectRatioNumerator, addr 0x4ae7f58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioNumerator, addr 0x4ae7bf0, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioNumerator();
 
-  /// @brief Method get_sRGB, addr 0x4ae7fd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB, addr 0x4ae7c68, size 0x3c, virtual false, abstract: false, final false
   inline bool get_sRGB();
 
-  /// @brief Method get_width, addr 0x4ae7ee0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x4ae7b78, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_width();
 
 protected:

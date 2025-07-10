@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method UpdateByOther, addr 0x224470c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method UpdateByOther, addr 0x224479c, size 0x28, virtual true, abstract: false, final false
   inline void UpdateByOther(::GlobalNamespace::FloatFxBeatmapEventData* current, ::GlobalNamespace::FloatFxBeatmapEventData* other);
 
-  /// @brief Method .ctor, addr 0x2244734, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22447c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -160,7 +160,7 @@ public:
 
   static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x26a7594, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x26a71e0, size 0x58, virtual false, abstract: false, final false
   inline void _LaunchCheckoutFlow_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* const& __cordl_internal_get_launchCheckoutFlowTaskSource() const;
@@ -169,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set_launchCheckoutFlowTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value);
 
-  /// @brief Method .ctor, addr 0x26a6b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a67a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -211,10 +211,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a75ec, size 0x102c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a7238, size 0x102c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a8618, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a8264, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -289,10 +289,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a8694, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a82e0, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a8918, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a8564, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -371,10 +371,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a8994, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a85e0, size 0x268, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a8bfc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a8848, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -447,10 +447,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a8c78, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a88c4, size 0x268, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a8ee0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a8b2c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -523,10 +523,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a8f5c, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a8ba8, size 0x380, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a92dc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a8f28, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -611,10 +611,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a9358, size 0x42c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a8fa4, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a9784, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a93d0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -687,10 +687,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a9800, size 0x800, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a944c, size 0x800, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26aa000, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a9c4c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -770,10 +770,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26aa07c, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a9cc8, size 0x440, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26aa4bc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26aa108, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -876,66 +876,66 @@ public:
   /// @brief Field kOculusRequestTimeout, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kOculusRequestTimeout, put = setStaticF_kOculusRequestTimeout)) ::System::TimeSpan kOculusRequestTimeout;
 
-  /// @brief Method CheckForNewEntitlementsAsync, addr 0x26a6fc4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CheckForNewEntitlementsAsync, addr 0x26a6c10, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>* CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLevelDataAdditionalSkus, addr 0x26a71c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataAdditionalSkus, addr 0x26a6e0c, size 0x40, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* GetLevelDataAdditionalSkus(::StringW levelId);
 
-  /// @brief Method GetLevelDataVersion, addr 0x26a7200, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataVersion, addr 0x26a6e4c, size 0x64, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelDataVersion GetLevelDataVersion(::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* additionalSkus);
 
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x26a6638, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x26a6284, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x26a6448, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x26a6094, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLevelProductData, addr 0x26a6328, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLevelProductData, addr 0x26a5f74, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW GetLevelProductData);
 
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x26a6540, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x26a618c, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x26a6344, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x26a5f90, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HasLevelEntitlement, addr 0x26a70ac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HasLevelEntitlement, addr 0x26a6cf8, size 0x114, virtual false, abstract: false, final false
   inline bool HasLevelEntitlement(::StringW levelId);
 
-  /// @brief Method HasLevelPackEntitlement, addr 0x26a7264, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HasLevelPackEntitlement, addr 0x26a6eb0, size 0xcc, virtual false, abstract: false, final false
   inline bool HasLevelPackEntitlement(::StringW levelPackId);
 
-  /// @brief Method InvalidateDataInternal, addr 0x26a6440, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x26a608c, size 0x8, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
-  /// @brief Method IsDataValidAsync, addr 0x26a6734, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsDataValidAsync, addr 0x26a6380, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x26a6b64, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x26a67b0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method LaunchCheckoutFlow, addr 0x26a6a20, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method LaunchCheckoutFlow, addr 0x26a666c, size 0x13c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* LaunchCheckoutFlow(::StringW sku);
 
   static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* New_ctor();
 
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x26a6924, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x26a6570, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x26a682c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x26a6478, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method OpenStore, addr 0x26a6bcc, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method OpenStore, addr 0x26a6818, size 0x3f8, virtual true, abstract: false, final false
   inline void OpenStore(::StringW uri);
 
-  /// @brief Method <GetRedirectedLevelPackProductData>g__GetSku|6_0, addr 0x26a7454, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <GetRedirectedLevelPackProductData>g__GetSku|6_0, addr 0x26a70a0, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW _GetRedirectedLevelPackProductData_g__GetSku_6_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* levelPackProductData);
 
-  /// @brief Method <HasLevelPackEntitlement>b__21_0, addr 0x26a74f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <HasLevelPackEntitlement>b__21_0, addr 0x26a7144, size 0x9c, virtual false, abstract: false, final false
   inline bool _HasLevelPackEntitlement_b__21_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
 
-  /// @brief Method <OpenLevelProductStoreAsync>g__GetSkuForProductFlow|12_0, addr 0x26a74c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <OpenLevelProductStoreAsync>g__GetSkuForProductFlow|12_0, addr 0x26a7110, size 0x34, virtual false, abstract: false, final false
   static inline ::StringW _OpenLevelProductStoreAsync_g__GetSkuForProductFlow_12_0(::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* levelProductData);
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__entitlementsSKU() const;
@@ -962,7 +962,7 @@ public:
 
   constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  /// @brief Method .ctor, addr 0x26a7330, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a6f7c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeSpan getStaticF_kOculusRequestTimeout();

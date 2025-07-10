@@ -26,10 +26,10 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Equals, addr 0x48b0d40, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48b09d8, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x48b0dc0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48b0a58, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TrackedReference* New_ctor();
@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48b0ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b0964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Equality, addr 0x48b0cd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48b096c, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-  /// @brief Method op_Implicit, addr 0x48b0dcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48b0a64, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::TrackedReference* exists);
 
-  /// @brief Method op_Inequality, addr 0x48b0d28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x48b09c0, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
 protected:

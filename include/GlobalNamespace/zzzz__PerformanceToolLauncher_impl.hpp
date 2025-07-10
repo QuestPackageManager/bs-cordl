@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b269cc;
+  constexpr static std::size_t addrs = 0x3b26658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidStart_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b26a28;
+  constexpr static std::size_t addrs = 0x3b266b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::PerformanceToolLauncher___c__DisplayClass4_0::_Run_g__HandleSongControllerSongDidFinish_1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b26acc;
+  constexpr static std::size_t addrs = 0x3b26758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IGamePause*, ::GlobalNamespace::GameplayCoreSceneSetupData*, ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>)>(
     &::GlobalNamespace::PerformanceToolLauncher::Initialize)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3b26650;
+  constexpr static std::size_t addrs = 0x3b262dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::PerformanceRecorder*, ::GlobalNamespace::SongController*)>(
     &::GlobalNamespace::PerformanceToolLauncher::Run)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3b268c4;
+  constexpr static std::size_t addrs = 0x3b26550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceToolLauncher::*)()>(&::GlobalNamespace::PerformanceToolLauncher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b269d4;
+  constexpr static std::size_t addrs = 0x3b26660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceToolLauncher*>::get(), ".ctor",

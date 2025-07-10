@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af3920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af35b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4af3928, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af35c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x4af3950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x4af35e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x4af3958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x4af35f0, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
 protected:

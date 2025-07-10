@@ -55,18 +55,18 @@ public:
   /// @brief Field _yIncButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__yIncButton, put = __cordl_internal_set__yIncButton)) ::UnityW<::UnityEngine::UI::Button> _yIncButton;
 
-  /// @brief Method DidActivate, addr 0x3c1830c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c17fa4, size 0x100, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::FloorAdjustViewController* New_ctor();
 
-  /// @brief Method Update, addr 0x3c1840c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c180a4, size 0x200, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3c18614, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x3c182ac, size 0xbc, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3c186d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x3c18368, size 0xbc, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr float_t const& __cordl_internal_get__playerHeight() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__yIncButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x3c1860c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c182a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

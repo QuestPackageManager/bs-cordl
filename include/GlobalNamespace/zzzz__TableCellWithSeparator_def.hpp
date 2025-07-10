@@ -30,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::TableCellWithSeparator* New_ctor();
 
-  /// @brief Method TableViewSetup, addr 0x39e75d8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method TableViewSetup, addr 0x39e7264, size 0xe4, virtual true, abstract: false, final false
   inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x39e76bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

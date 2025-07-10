@@ -31,17 +31,17 @@ public:
   /// @brief Field k_searchedFontAssets, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_searchedFontAssets, put = setStaticF_k_searchedFontAssets)) ::System::Collections::Generic::List_1<int32_t>* k_searchedFontAssets;
 
-  /// @brief Method SearchForCharacter, addr 0x47d53e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x47d5080, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::TMPro::TMP_FontAsset* font, uint32_t unicode, ::ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacter, addr 0x47d5754, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacter, addr 0x47d53ec, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacter(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                     ::ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x47d54c8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x47d5160, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::TMPro::TMP_FontAsset* font, uint32_t unicode, ::ByRef<::TMPro::TMP_Character*> character);
 
-  /// @brief Method SearchForCharacterInternal, addr 0x47d5758, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SearchForCharacterInternal, addr 0x47d53f0, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_FontAsset> SearchForCharacterInternal(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* fonts, uint32_t unicode,
                                                                             ::ByRef<::TMPro::TMP_Character*> character);
 

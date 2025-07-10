@@ -34,10 +34,10 @@ public:
   /// @brief Field id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id;
 
-  /// @brief Method Equals, addr 0x2524ba8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2524c38, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2524c58, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2524ce8, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
@@ -46,7 +46,7 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ToAsn1Object, addr 0x2524ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2524c30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* const& __cordl_internal_get_id() const;
@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
 
-  /// @brief Method .ctor, addr 0x251bea0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251bf30, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
-  /// @brief Method .ctor, addr 0x2524b2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524bbc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method .ctor, addr 0x251d180, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251d210, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
 protected:

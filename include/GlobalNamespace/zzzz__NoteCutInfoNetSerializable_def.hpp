@@ -97,14 +97,14 @@ public:
   /// @brief Field timeToNextColorNote, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToNextColorNote, put = __cordl_internal_set_timeToNextColorNote)) float_t timeToNextColorNote;
 
-  /// @brief Method Deserialize, addr 0x2722624, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x27222b0, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x2722ab0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x272273c, size 0xdc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
                                                              ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method Init, addr 0x2722b8c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2722818, size 0x20c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                                                              ::GlobalNamespace::NoteData_GameplayType gameplayType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer,
                                                              int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote, ::UnityEngine::Vector3 notePosition,
@@ -112,10 +112,10 @@ public:
 
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x27225c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x272224c, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x2722804, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x2722490, size 0x144, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToNextColorNote(float_t value);
 
-  /// @brief Method .ctor, addr 0x2722a50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27226dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

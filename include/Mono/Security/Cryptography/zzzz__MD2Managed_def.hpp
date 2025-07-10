@@ -37,21 +37,21 @@ public:
   /// @brief Field x, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::ArrayW<uint8_t, ::Array<uint8_t>*> x;
 
-  /// @brief Method HashCore, addr 0x3c4805c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c47cf4, size 0xdc, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x3c4839c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c48034, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x3c47ffc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c47c94, size 0x60, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method MD2Transform, addr 0x3c48138, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method MD2Transform, addr 0x3c47dd0, size 0x264, virtual false, abstract: false, final false
   inline void MD2Transform(::ArrayW<uint8_t, ::Array<uint8_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   static inline ::Mono::Security::Cryptography::MD2Managed* New_ctor();
 
-  /// @brief Method Padding, addr 0x3c47f60, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Padding, addr 0x3c47bf8, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c47ebc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c47b54, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_PI_SUBST();

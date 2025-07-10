@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ColumnLayout* (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::get_columnLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5448;
+  constexpr static std::size_t addrs = 0x49e50e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::ColumnResizer*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::ColumnLayout*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::set_columnLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5450;
+  constexpr static std::size_t addrs = 0x49e50e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::get_preview)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5458;
+  constexpr static std::size_t addrs = 0x49e50f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::ColumnResizer*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(bool)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::set_preview)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49e5460;
+  constexpr static std::size_t addrs = 0x49e50f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49e546c;
+  constexpr static std::size_t addrs = 0x49e5104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x49e552c;
+  constexpr static std::size_t addrs = 0x49e51c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x49e5770;
+  constexpr static std::size_t addrs = 0x49e5408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::KeyDownEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnKeyDown)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x49e59b4;
+  constexpr static std::size_t addrs = 0x49e564c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnPointerDown)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x49e5a84;
+  constexpr static std::size_t addrs = 0x49e571c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnPointerMove)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x49e5cd4;
+  constexpr static std::size_t addrs = 0x49e596c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::OnPointerUp)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x49e5e10;
+  constexpr static std::size_t addrs = 0x49e5aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(float_t)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::BeginDragResize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49e5c8c;
+  constexpr static std::size_t addrs = 0x49e5924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(float_t)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::DragResize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49e5dd0;
+  constexpr static std::size_t addrs = 0x49e5a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)()>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::UpdatePreviewPosition)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49e5f40;
+  constexpr static std::size_t addrs = 0x49e5bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::ColumnResizer*>::get(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::ColumnResizer::*)(float_t, bool)>(
     &::UnityEngine::UIElements::Internal::ColumnResizer::EndDragResize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49e5a28;
+  constexpr static std::size_t addrs = 0x49e56c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

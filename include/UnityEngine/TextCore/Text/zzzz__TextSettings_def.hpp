@@ -49,7 +49,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextSettings_FontReferenceMap {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4951814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49514ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Font* font, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   // Ctor Parameters []
@@ -188,15 +188,15 @@ public:
 
   __declspec(property(get = get_version, put = set_version)) ::StringW version;
 
-  /// @brief Method GetCachedFontAssetInternal, addr 0x49514f8, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAssetInternal, addr 0x4951190, size 0x31c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAssetInternal(::UnityEngine::Font* font);
 
-  /// @brief Method InitializeFontReferenceLookup, addr 0x49512c4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method InitializeFontReferenceLookup, addr 0x4950f5c, size 0x234, virtual false, abstract: false, final false
   inline void InitializeFontReferenceLookup();
 
   static inline ::UnityEngine::TextCore::Text::TextSettings* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x49512ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4950f44, size 0x18, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get_m_ClearDynamicDataOnBuild() const;
@@ -313,109 +313,109 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x495181c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49514b4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearDynamicDataOnBuild, addr 0x4950f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearDynamicDataOnBuild, addr 0x4950c30, size 0x8, virtual false, abstract: false, final false
   inline bool get_clearDynamicDataOnBuild();
 
-  /// @brief Method get_defaultColorGradientPresetsPath, addr 0x495100c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultColorGradientPresetsPath, addr 0x4950ca4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultColorGradientPresetsPath();
 
-  /// @brief Method get_defaultFontAsset, addr 0x4950f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontAsset, addr 0x4950bdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_defaultFontAsset();
 
-  /// @brief Method get_defaultFontAssetPath, addr 0x4950f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFontAssetPath, addr 0x4950bec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultFontAssetPath();
 
-  /// @brief Method get_defaultSpriteAsset, addr 0x4950fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteAsset, addr 0x4950c44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> get_defaultSpriteAsset();
 
-  /// @brief Method get_defaultSpriteAssetPath, addr 0x4950fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSpriteAssetPath, addr 0x4950c54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultSpriteAssetPath();
 
-  /// @brief Method get_defaultStyleSheet, addr 0x4950fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStyleSheet, addr 0x4950c84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> get_defaultStyleSheet();
 
-  /// @brief Method get_displayWarnings, addr 0x4951298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayWarnings, addr 0x4950f30, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayWarnings();
 
-  /// @brief Method get_fallbackFontAssets, addr 0x4950f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackFontAssets, addr 0x4950bfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssets();
 
-  /// @brief Method get_fallbackSpriteAssets, addr 0x4950fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallbackSpriteAssets, addr 0x4950c64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* get_fallbackSpriteAssets();
 
-  /// @brief Method get_lineBreakingRules, addr 0x495101c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_lineBreakingRules, addr 0x4950cb4, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* get_lineBreakingRules();
 
-  /// @brief Method get_matchMaterialPreset, addr 0x4950f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_matchMaterialPreset, addr 0x4950c0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_matchMaterialPreset();
 
-  /// @brief Method get_missingCharacterUnicode, addr 0x4950f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missingCharacterUnicode, addr 0x4950c20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missingCharacterUnicode();
 
-  /// @brief Method get_missingSpriteCharacterUnicode, addr 0x4950fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missingSpriteCharacterUnicode, addr 0x4950c74, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_missingSpriteCharacterUnicode();
 
-  /// @brief Method get_styleSheetsResourcePath, addr 0x4950ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheetsResourcePath, addr 0x4950c94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleSheetsResourcePath();
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x4951284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x4950f1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_useModernHangulLineBreakingRules();
 
-  /// @brief Method get_version, addr 0x4950f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x4950bcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_clearDynamicDataOnBuild, addr 0x4950fa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_clearDynamicDataOnBuild, addr 0x4950c38, size 0xc, virtual false, abstract: false, final false
   inline void set_clearDynamicDataOnBuild(bool value);
 
-  /// @brief Method set_defaultColorGradientPresetsPath, addr 0x4951014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultColorGradientPresetsPath, addr 0x4950cac, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultColorGradientPresetsPath(::StringW value);
 
-  /// @brief Method set_defaultFontAsset, addr 0x4950f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultFontAsset, addr 0x4950be4, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFontAsset(::UnityEngine::TextCore::Text::FontAsset* value);
 
-  /// @brief Method set_defaultFontAssetPath, addr 0x4950f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultFontAssetPath, addr 0x4950bf4, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFontAssetPath(::StringW value);
 
-  /// @brief Method set_defaultSpriteAsset, addr 0x4950fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSpriteAsset, addr 0x4950c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultSpriteAsset(::UnityEngine::TextCore::Text::SpriteAsset* value);
 
-  /// @brief Method set_defaultSpriteAssetPath, addr 0x4950fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSpriteAssetPath, addr 0x4950c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultSpriteAssetPath(::StringW value);
 
-  /// @brief Method set_defaultStyleSheet, addr 0x4950ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultStyleSheet, addr 0x4950c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultStyleSheet(::UnityEngine::TextCore::Text::TextStyleSheet* value);
 
-  /// @brief Method set_displayWarnings, addr 0x49512a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_displayWarnings, addr 0x4950f38, size 0xc, virtual false, abstract: false, final false
   inline void set_displayWarnings(bool value);
 
-  /// @brief Method set_fallbackFontAssets, addr 0x4950f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackFontAssets, addr 0x4950c04, size 0x8, virtual false, abstract: false, final false
   inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  /// @brief Method set_fallbackSpriteAssets, addr 0x4950fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fallbackSpriteAssets, addr 0x4950c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
 
-  /// @brief Method set_lineBreakingRules, addr 0x495127c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineBreakingRules, addr 0x4950f14, size 0x8, virtual false, abstract: false, final false
   inline void set_lineBreakingRules(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* value);
 
-  /// @brief Method set_matchMaterialPreset, addr 0x4950f7c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_matchMaterialPreset, addr 0x4950c14, size 0xc, virtual false, abstract: false, final false
   inline void set_matchMaterialPreset(bool value);
 
-  /// @brief Method set_missingCharacterUnicode, addr 0x4950f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missingCharacterUnicode, addr 0x4950c28, size 0x8, virtual false, abstract: false, final false
   inline void set_missingCharacterUnicode(int32_t value);
 
-  /// @brief Method set_missingSpriteCharacterUnicode, addr 0x4950fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missingSpriteCharacterUnicode, addr 0x4950c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_missingSpriteCharacterUnicode(uint32_t value);
 
-  /// @brief Method set_styleSheetsResourcePath, addr 0x4951004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_styleSheetsResourcePath, addr 0x4950c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_styleSheetsResourcePath(::StringW value);
 
-  /// @brief Method set_useModernHangulLineBreakingRules, addr 0x495128c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useModernHangulLineBreakingRules, addr 0x4950f24, size 0xc, virtual false, abstract: false, final false
   inline void set_useModernHangulLineBreakingRules(bool value);
 
-  /// @brief Method set_version, addr 0x4950f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x4950bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:

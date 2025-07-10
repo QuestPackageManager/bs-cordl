@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_Size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44a8c10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a88a8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
-  /// @brief Method .ctor, addr 0x44a8b64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a87fc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
 protected:

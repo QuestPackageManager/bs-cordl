@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlasCustomFilter::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::DynamicAtlasCustomFilter::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x496f8c0;
+  constexpr static std::size_t addrs = 0x496f558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlasCustomFilter*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DynamicAtlasCustomFilter::*)(
     ::UnityEngine::Texture2D*, ::ByRef<::UnityEngine::UIElements::DynamicAtlasFilters>)>(&::UnityEngine::UIElements::DynamicAtlasCustomFilter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x496f960;
+  constexpr static std::size_t addrs = 0x496f5f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

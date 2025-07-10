@@ -167,27 +167,27 @@ public:
 
   __declspec(property(get = get_directory, put = set_directory)) ::StringW directory;
 
-  /// @brief Method ConvertRenderTexture, addr 0x39c4058, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x39c3ce4, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method LateUpdate, addr 0x39c3efc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39c3b88, size 0xc0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ScreenshotRecorder* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x39c4040, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x39c3ccc, size 0x18, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x39c3e38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39c3ac4, size 0xc4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39c3cc4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39c3950, size 0x174, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SaveCameraScreenshot, addr 0x39c3fbc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SaveCameraScreenshot, addr 0x39c3c48, size 0x84, virtual false, abstract: false, final false
   inline void SaveCameraScreenshot();
 
-  /// @brief Method SaveTextureScreenshot, addr 0x39c4154, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SaveTextureScreenshot, addr 0x39c3de0, size 0x140, virtual false, abstract: false, final false
   inline void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
 
   constexpr int32_t const& __cordl_internal_get__antiAlias() const;
@@ -298,13 +298,13 @@ public:
 
   constexpr void __cordl_internal_set__screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39c4294, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c3f20, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_directory, addr 0x39c3cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x39c3940, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
-  /// @brief Method set_directory, addr 0x39c3cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directory, addr 0x39c3948, size 0x8, virtual false, abstract: false, final false
   inline void set_directory(::StringW value);
 
 protected:

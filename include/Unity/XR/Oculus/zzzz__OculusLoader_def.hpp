@@ -111,43 +111,43 @@ public:
   /// @brief Field s_InputSubsystemDescriptors, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InputSubsystemDescriptors, put = setStaticF_s_InputSubsystemDescriptors)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
 
-  /// @brief Method CheckUnityVersionCompatibility, addr 0x4833ed0, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CheckUnityVersionCompatibility, addr 0x4833b68, size 0x318, virtual false, abstract: false, final false
   inline bool CheckUnityVersionCompatibility();
 
-  /// @brief Method Deinitialize, addr 0x48343b4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x483404c, size 0x7c, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method GetSettings, addr 0x4834678, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetSettings, addr 0x4834310, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::Unity::XR::Oculus::OculusSettings> GetSettings();
 
-  /// @brief Method Initialize, addr 0x4833b50, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x48337e8, size 0x380, virtual true, abstract: false, final false
   inline bool Initialize();
 
-  /// @brief Method IsDeviceSupported, addr 0x48339f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceSupported, addr 0x483368c, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult IsDeviceSupported();
 
   static inline ::Unity::XR::Oculus::OculusLoader* New_ctor();
 
-  /// @brief Method RuntimeLoadOVRPlugin, addr 0x48344d0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLoadOVRPlugin, addr 0x4834168, size 0x1a4, virtual false, abstract: false, final false
   static inline void RuntimeLoadOVRPlugin();
 
-  /// @brief Method Start, addr 0x48342bc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x4833f54, size 0x7c, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x4834338, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x4833fd0, size 0x7c, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x48346c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4834358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_DisplaySubsystemDescriptors();
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method get_displaySubsystem, addr 0x4833a88, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x4833720, size 0x64, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x4833aec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x4833784, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
   static inline void setStaticF_s_DisplaySubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* value);

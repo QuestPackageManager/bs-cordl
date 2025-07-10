@@ -33,17 +33,17 @@ public:
                       put =
                           setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x44db260, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44daef8, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(float_t t);
 
   static inline ::Tweening::FloatTween* New_ctor();
 
   static inline ::Tweening::FloatTween* New_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x44db188, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dae20, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44db1d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dae68, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   static inline ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* getStaticF_Pool();
